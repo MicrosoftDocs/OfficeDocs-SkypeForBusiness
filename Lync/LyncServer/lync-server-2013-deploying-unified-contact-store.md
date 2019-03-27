@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying unified contact store'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying unified contact store
 ms:assetid: 68959d58-ac8a-45de-afcd-b9de2c36799c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204963(v=OCS.15)

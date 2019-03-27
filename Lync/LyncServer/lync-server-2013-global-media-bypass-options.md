@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Global media bypass options'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Global media bypass options
 ms:assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398255(v=OCS.15)

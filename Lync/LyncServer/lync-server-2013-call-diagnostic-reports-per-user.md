@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Call Diagnostic Reports (per user)'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Call Diagnostic Reports (per user)
 ms:assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615023(v=OCS.15)

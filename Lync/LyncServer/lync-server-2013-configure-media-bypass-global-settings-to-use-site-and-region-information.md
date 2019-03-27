@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configure media bypass global settings to use site and region information'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)

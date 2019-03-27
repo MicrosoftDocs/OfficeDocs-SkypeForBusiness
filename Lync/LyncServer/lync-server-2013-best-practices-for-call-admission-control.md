@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Best practices for call admission control'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Best practices for call admission control
 ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398770(v=OCS.15)

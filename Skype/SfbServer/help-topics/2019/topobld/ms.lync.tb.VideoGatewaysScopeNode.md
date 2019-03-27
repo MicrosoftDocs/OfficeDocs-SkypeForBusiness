@@ -1,5 +1,6 @@
 ---
 title: "Video Gateways Scope"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Set-CsWebServiceConfiguration for Address Book management'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Set-CsWebServiceConfiguration for Address Book management
 ms:assetid: 79d0edf5-23f3-4845-a7b7-e11b5a928bab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429709(v=OCS.15)

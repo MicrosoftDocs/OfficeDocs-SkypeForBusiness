@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Single consolidated edge with public IP addresses'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Single consolidated edge with public IP addresses
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205148(v=OCS.15)

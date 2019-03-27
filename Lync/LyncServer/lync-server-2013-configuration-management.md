@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuration management'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)

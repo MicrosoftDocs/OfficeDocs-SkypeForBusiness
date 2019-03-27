@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Adding server roles'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Adding server roles
 ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412794(v=OCS.15)

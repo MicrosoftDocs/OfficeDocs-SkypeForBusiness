@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Port summary - Reverse proxy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary - Reverse proxy
 ms:assetid: 59b9ac3c-3e6f-4776-b366-174f0dd1f2eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204932(v=OCS.15)

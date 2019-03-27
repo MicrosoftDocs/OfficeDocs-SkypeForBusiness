@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using Config.xml to perform installation tasks'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using Config.xml to perform installation tasks
 ms:assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204651(v=OCS.15)

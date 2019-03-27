@@ -1,5 +1,8 @@
-﻿---
+---
 title: Remove the SQL Server database for a Monitoring server
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove the SQL Server database for a Monitoring server
 ms:assetid: aed5e394-d63e-4ad4-af40-f12d3a044344
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721848(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 Enterprise Voice
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enterprise Voice
 ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Reading capture logs from the Centralized Logging Service'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)

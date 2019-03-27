@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Enabling call admission control'
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

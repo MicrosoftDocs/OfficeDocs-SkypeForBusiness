@@ -1,5 +1,6 @@
 ---
 title: "List of Persistent Chat Server tables"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

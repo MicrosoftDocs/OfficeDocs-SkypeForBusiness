@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deleting an Archiving policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deleting an Archiving policy
 ms:assetid: 4739a691-41cc-4128-8bb8-6d5a4c02107a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520989(v=OCS.15)

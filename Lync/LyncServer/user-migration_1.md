@@ -1,5 +1,8 @@
-﻿---
+---
 title: User migration
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: User migration
 ms:assetid: a4e4d852-db8e-420a-ba12-a0034800cf2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205156(v=OCS.15)

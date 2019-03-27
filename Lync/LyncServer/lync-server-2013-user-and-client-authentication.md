@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: User and client authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: User and client authentication for Lync Server 2013
 ms:assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481132(v=OCS.15)

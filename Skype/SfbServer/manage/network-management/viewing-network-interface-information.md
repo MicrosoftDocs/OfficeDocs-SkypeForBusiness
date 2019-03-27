@@ -1,5 +1,6 @@
 ---
 title: 'Viewing network interface information'
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

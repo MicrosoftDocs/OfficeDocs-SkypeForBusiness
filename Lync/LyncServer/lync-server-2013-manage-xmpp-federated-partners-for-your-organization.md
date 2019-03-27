@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Manage XMPP federated partners for your organization'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Manage XMPP federated partners for your organization
 ms:assetid: 48681433-725d-457f-926b-f91d95bcf082
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552450(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 reference topologies
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reference topologies
 ms:assetid: 1b9e3467-ee74-4598-a348-16490b098760
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398254(v=OCS.15)

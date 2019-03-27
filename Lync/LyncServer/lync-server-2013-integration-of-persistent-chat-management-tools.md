@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Integration of Persistent Chat management tools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Integration of Persistent Chat management tools
 ms:assetid: 5231aec7-5046-4052-800b-3b63806b9558
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688057(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Update DNS SRV records
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Update DNS SRV records
 ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688161(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Set up client policies for your organization"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

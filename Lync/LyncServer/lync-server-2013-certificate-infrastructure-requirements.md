@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 certificate infrastructure requirements
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate infrastructure requirements
 ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398066(v=OCS.15)

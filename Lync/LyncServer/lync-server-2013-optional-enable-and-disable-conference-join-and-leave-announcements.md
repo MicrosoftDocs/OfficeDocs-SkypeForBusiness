@@ -1,5 +1,8 @@
-﻿---
+---
 title: '(Optional) Enable and disable conference join and leave announcements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: (Optional) Enable and disable conference join and leave announcements
 ms:assetid: c9529568-e66c-48d8-aef2-9072f9c336ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398834(v=OCS.15)

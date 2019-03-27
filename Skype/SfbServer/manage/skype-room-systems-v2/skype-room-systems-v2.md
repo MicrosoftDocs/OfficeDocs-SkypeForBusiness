@@ -30,7 +30,7 @@ Monitoring Skype Room Systems v2 systems consists of two key activities:
 To ensure that users are able to use the Skype Room Systems v2 units, the units must be on, connected to the network with the Skype Room Systems v2 application correctly configured, and be connected to functioning peripheral devices. 
 
 
-Information about the state of the Skype Room Systems v2 application and connected peripheral devices is written by the Skype Room Systems v2 application to the Windows event log and documented [in this article](oms.md#understand-the-log-entries). 
+Information about the state of the Skype Room Systems v2 application and connected peripheral devices is written by the Skype Room Systems v2 application to the Windows event log and documented in [Understand the log entries](azure-monitor.md#understand-the-log-entries). 
 
 |**Setting**|**Allows**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ Transferring files using Group Policies is discussed in [Configure a File Item](
 <a name="RemotePS"> </a>
 
 
-We recommend that you use Microsoft Operations Manager Suite to monitor your Skype Room Systems v2 systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md). 
+We recommend that you use Microsoft Operations Manager Suite to monitor your Skype Room Systems v2 systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Skype Room Systems v2 management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md). 
 
 Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Skype Room Systems v2 units across your deployment. 
 

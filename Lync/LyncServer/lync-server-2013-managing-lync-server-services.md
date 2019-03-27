@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing Lync Server services'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing Lync Server 2013 services
 ms:assetid: 1ece22f1-2fd4-40e4-9847-ba9601c617cb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687987(v=OCS.15)

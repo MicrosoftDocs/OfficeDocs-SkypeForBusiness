@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for simple URLs'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for simple URLs
 ms:assetid: 20e4f4b6-b7ff-4297-b00d-d1211ee800ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398287(v=OCS.15)

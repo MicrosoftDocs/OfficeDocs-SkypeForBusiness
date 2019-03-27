@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Changes made by domain preparation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Changes made by domain preparation
 ms:assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398742(v=OCS.15)

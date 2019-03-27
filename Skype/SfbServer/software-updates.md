@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business downloads and updates"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

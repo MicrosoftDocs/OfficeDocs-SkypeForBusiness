@@ -1,5 +1,6 @@
 ---
 title: "Configure Skype for Business Server to use Exchange Server archiving"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

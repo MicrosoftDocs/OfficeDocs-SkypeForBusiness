@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Call admission control on an MPLS network'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Call admission control on an MPLS network
 ms:assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398168(v=OCS.15)

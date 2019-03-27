@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using Setup command-line options'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using Setup command-line options
 ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)

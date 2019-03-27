@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Components required for external user access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Components required for external user access
 ms:assetid: 2d0f9817-14e7-4109-95dc-62420e3c29e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425779(v=OCS.15)

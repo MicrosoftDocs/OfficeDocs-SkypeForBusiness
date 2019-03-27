@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: SIPResponseMetaData table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: SIPResponseMetaData table
 ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205294(v=OCS.15)

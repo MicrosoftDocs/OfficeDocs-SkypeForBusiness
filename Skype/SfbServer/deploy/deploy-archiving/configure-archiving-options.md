@@ -1,5 +1,6 @@
 ---
 title: "Configure archiving options for Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

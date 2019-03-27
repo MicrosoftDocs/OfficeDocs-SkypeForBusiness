@@ -1,5 +1,6 @@
 ---
 title: "Connect pilot pool to legacy Edge Servers"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

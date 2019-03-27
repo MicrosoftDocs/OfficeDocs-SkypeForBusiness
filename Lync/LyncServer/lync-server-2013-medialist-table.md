@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: MediaList table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: MediaList table
 ms:assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398279(v=OCS.15)

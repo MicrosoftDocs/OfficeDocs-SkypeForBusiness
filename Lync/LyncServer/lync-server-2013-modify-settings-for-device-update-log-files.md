@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify settings for Device Update log files'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify settings for Device Update log files
 ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182554(v=OCS.15)

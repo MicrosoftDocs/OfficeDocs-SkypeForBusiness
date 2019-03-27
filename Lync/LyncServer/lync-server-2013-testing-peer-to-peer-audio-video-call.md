@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing peer to peer audio/video call'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)

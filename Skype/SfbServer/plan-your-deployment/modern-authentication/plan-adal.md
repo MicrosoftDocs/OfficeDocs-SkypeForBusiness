@@ -1,5 +1,6 @@
 ---
 title: "Planning for Modern Authentication (ADAL) with Skype for Business"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

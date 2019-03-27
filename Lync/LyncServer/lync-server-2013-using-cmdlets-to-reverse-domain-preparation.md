@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using cmdlets to reverse domain preparation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using cmdlets to reverse domain preparation
 ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)

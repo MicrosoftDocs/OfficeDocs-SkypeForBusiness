@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business topologies supported with Modern Authentication"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars

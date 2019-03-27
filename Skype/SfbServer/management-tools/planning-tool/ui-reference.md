@@ -1,5 +1,6 @@
 ---
 title: "Planning Tool UI Reference"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 ms.date: 12/20/2018

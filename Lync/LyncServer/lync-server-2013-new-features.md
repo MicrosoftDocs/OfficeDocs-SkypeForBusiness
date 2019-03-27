@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 new features
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New server features
 ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)

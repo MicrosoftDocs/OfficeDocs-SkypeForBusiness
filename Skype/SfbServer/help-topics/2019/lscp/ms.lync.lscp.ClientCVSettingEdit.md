@@ -1,5 +1,6 @@
 ---
 title: "Client Version Configuration Create New or Edit Existing"
+ms.reviewer: 
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars

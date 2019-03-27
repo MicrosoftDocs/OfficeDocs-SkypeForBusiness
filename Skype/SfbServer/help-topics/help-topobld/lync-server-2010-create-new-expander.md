@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2010 Create New Expander"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

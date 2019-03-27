@@ -1,5 +1,6 @@
 ---
 title: Get tools to support a rollout of Microsoft Teams
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Adding commands to Lync menus'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Adding commands to Lync menus
 ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412788(v=OCS.15)

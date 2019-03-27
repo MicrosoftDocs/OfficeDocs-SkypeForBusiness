@@ -1,5 +1,6 @@
 ---
 title: "Configure presence privacy mode"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delete an announcement'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete an announcement
 ms:assetid: 26ea7149-4470-4c22-9bab-8a4065aca44e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687998(v=OCS.15)

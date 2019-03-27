@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Defining your requirements for Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Defining your organization's requirements for Persistent Chat Server
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398372(v=OCS.15)

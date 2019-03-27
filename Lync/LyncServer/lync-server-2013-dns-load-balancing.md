@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS load balancing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS load balancing
 ms:assetid: 7ed0ed20-33ad-4253-926d-21d392590ae7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398634(v=OCS.15)

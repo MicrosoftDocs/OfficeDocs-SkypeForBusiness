@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of conferencing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of conferencing
 ms:assetid: 5bb90e69-3d4f-4d59-a1ee-2550de84439f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204928(v=OCS.15)

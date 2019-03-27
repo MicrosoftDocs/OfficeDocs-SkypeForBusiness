@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Viewing network interface information'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Viewing network interface information
 ms:assetid: e7dbb1ec-62b3-48be-a419-c493df5740e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721916(v=OCS.15)

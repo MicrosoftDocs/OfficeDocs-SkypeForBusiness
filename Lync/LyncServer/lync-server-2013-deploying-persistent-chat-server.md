@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
