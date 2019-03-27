@@ -69,7 +69,7 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - Cloud Connector 2.1 and later supports monitoring Cloud Connector using Operations Management Suite (OMS). For more information, see [Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
-- Cloud Connector is available in all countries where Office 365 Enterprise E5 is available. However, because of various regulations, Cloud Connector cannot be configured if the tenant location is set to one of the following countries: Algeria, Bangladesh, Botswana, Brunei, Cameroon, Cote d'Ivoire, Ghana, Lebanon, Macau, Mauritius, Namibia, Paraguay, Senegal.
+- Cloud Connector is available in all countries where Office 365 Enterprise E5 is available.
 
 This topic contains the following sections:
 
