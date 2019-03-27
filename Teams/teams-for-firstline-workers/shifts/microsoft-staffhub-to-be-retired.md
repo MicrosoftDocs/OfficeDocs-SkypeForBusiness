@@ -230,7 +230,9 @@ No additional training is required. They can use Shifts in a similar way to how 
  
 #### What admin controls are available to manage whether users in my organization can use Shifts?  
   
-You can turn on or turn off Shifts org-wide for all users in your organization. In the Microsoft Teams admin center, you can also use the Firstline Worker app setup policy to customize Teams for your Firstline Workforce. The policy is configured with the Activity, Shifts, Chat, and Calling apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
+You can turn on or turn off Shifts org-wide for all users in your organization. In the Microsoft Teams admin center, you can also use the Firstline Worker app setup policy to customize Teams for your Firstline Workforce. The policy is configured with the Activity, Shifts, Chat, and Calling apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users. 
+
+To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
 #### What PowerShell controls are available for Teams?
 
