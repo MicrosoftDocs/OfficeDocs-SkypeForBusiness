@@ -69,7 +69,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
 ## Got feedback? 
 Skype for Business UserVoice is your place to suggest the features you’d like to see us add to Skype for Business. While we can’t guarantee any specific features or timelines, we will respond to every suggestion that gets at least 500 votes.
-Go to the Skype for Business UserVoice.
+Go to the [Skype for Business UserVoice](https://www.skypefeedback.com/forums/299913-generally-available/suggestions/18440797-powershell-emergency-location-telephone-number-l) .
 
   
  
