@@ -42,7 +42,7 @@ Configuring Cloud Voicemail involves the following tasks:
 
 ## Configure Cloud Voicemail as the hosting provider on the Edge Server 
 
-You configure Cloud Voicemail as the hosting provider on the Edge Server by using the New-CsHostingProvider cmdlet with the following parameters:
+You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
 - **Identity** specifies a unique string value identifier for the hosting provider that you are creating; for example, Cloud Voicemail. 
 
