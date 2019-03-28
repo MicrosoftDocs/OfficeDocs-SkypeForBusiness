@@ -28,7 +28,7 @@ Here's a list of features for Firstline Workers that are coming soon to Teams:
 - Home screen landing page
 - Adding custom fields on a team
 
-Due to a limitation on customizations and the unique platform structure in Teams, the following features will not be available in Teams:
+Because of the unique platform structure in Teams, the following features will not be available in Teams:
 
 - Flow connectors
 - Shifts or StaffHub access for non-Azure Active Directory (Azure AD) users

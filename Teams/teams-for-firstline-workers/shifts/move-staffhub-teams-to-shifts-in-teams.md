@@ -22,7 +22,9 @@ appliesto:
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful. You must be a global admin to perform the steps in this article.
+
+If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to questions you may have. 
 
 ## What you need to know about the move to Teams
 
@@ -32,22 +34,11 @@ Effective October 1, 2019, StaffHub will be retired. We encourage you to start u
 
 ### What is moved to Teams
 
-When you move a StaffHub team to Shifts in Teams, here's what happens:
+User details, schedule information, and chat and file data are transitioned to Teams. This includes team membership, team schedules, and chats and files from the last 90 days.
 
-- Every StaffHub team needs an Office 365 Group. If a StaffHub team doesn't have an Office 365 Group, an Office 365 Group is automatically created for you to support the move to Teams. The team name in Teams uses the Office 365 Group name, so you'll see a different name when you switch over to Teams.
-- The following is moved to Teams:
-    - Team membership
-    - Team schedule and time clock data
-    - Chat data from the last 90 days
-    - Files from the last 90 days
+Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
-After you move a StaffHub team to Teams, members of that team will no longer be able access their schedule in StaffHub. They will be redirected to Shifts in Teams.
-
-+++
-
-We will transition user, schedule, chat and file details for the organization. This includes: Team membership, Team schedule, chat data and files from the last 90 days. We plan to transition this data for organizations that complete the following steps: 1) Every StaffHub Team has a corresponding Office 365 Group. Please note if a StaffHub Team does not have an Office 365 Group, one will be automatically created for you to support the transition. Given the difference in Team and group naming between Microsoft Teams and StaffHub some group names may differ. 
-
-As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend that you communicate this change to users to minimize disruption and to encourage users to adopt and explore Teams.
+As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change to users to minimize disruption and to encourage users to adopt and explore Teams.
 
 ## Prepare
 
@@ -64,43 +55,48 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 ### Provision accounts for StaffHub users who don't have an identity in Azure AD
 
-Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an Office 365 account for them. Here's how.
+Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them. Here's how.
 
-- StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address on the StaffHub team settings page to a valid UPN.  
+- StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
 
 - Admins can run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) and [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlets to remove a non-provisioned account from a StaffHub team and add the account back by using the UPN.
 
-### How to move a StaffHub team
+## Before you start
 
-Before you start, you'll need to install and connect to the StaffHub PowerShell modules. Instructions on installing the StaffHub module can be found here: https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha 
+Install and connect to the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
 
-Here you will find all of the Microsoft StaffHub PowerShell help topics. The reference documentation can be found here: https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps
+For help with StaffHub PowerShell cmdlets, see [StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps).
 
+When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail: 
 
-When moving a StaffHub team the request will check all of the pre-requisites listed above. The following list provides a list of reasons why a move request would fail.
-- Logged in user is not a global admin
-- Microsoft Teams is disabled in the tenant
+- The signed in user is not a global admin
+- Teams is disabled in the tenant
 - Office 365 Groups creation is disabled in the tenant
 - The StaffHub teamId is not valid or has no members
-- There are members on the StaffHub that are not linked to an Azure Active Directory account
+- The StafffHub team includes members that aren't linked to an Azure AD account  
 
-##### Move a StaffHub team in your organization
+## Pilot two or three teams
+
+We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot will help you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive Teams adoption across your organization. If you're a small business, this may be all you need to switch from StaffHub to Teams.
+
+### Move a StaffHub team
+
+Run the following to start a move request to move a team.
 
 ```
 Move-StaffHubTeam -Identity <String>
 ```
-
-After you submit the request you will get the following sample response
+Here's an example of the response you receive.
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
     -----   ------                                      ------------          
         1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
 ```
-To check the status of your move job you can use this commandlet
+Run the following to check the status of the move request.
 ```
 Get-TeamMigrationJobStatus <Int32>
 ```
-The following is an example response
+Here's an example of the response you receive.
 ```
     jobId   status       teamId                                     isO365GroupCreated  Error
     -----   ------       ------                                     ------------------  -----    
