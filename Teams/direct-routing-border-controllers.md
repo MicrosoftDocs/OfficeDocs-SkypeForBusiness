@@ -34,7 +34,7 @@ With each vendor, Microsoft:
 The table below lists devices certified for Direct Routing. 
 
 [Learn more about Direct Routing](https://aka.ms/dr). 
-If you have any questions about SBC certification program for Direct Routing please email to drsbccertification@microsoft.com
+**If you have any questions about SBC certification program for Direct Routing please email to drsbccertification@microsoft.com**
 
 
 |                                                       Vendor                                                        |       Product       | Non-Media Bypass | Media Bypass | Software Version |
@@ -44,7 +44,7 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  7.20A.250.003   |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
