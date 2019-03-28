@@ -17,7 +17,7 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: "Learn about Phone System voicemail."
+description: "Learn about Cloud Voicemail."
 ---
 
 # License options based on your plan

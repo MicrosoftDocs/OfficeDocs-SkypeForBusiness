@@ -79,7 +79,7 @@ To see a table with the license or licenses you will need for each feature, see 
 
 - [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
+- [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
     
 - [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
         
