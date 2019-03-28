@@ -236,7 +236,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.
@@ -258,7 +258,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 - **Redirect this call to** When you choose this, you will have these options:
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.
