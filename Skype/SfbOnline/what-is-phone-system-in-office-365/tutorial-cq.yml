@@ -196,12 +196,12 @@ items:
     The following tables show values to enter in the user interface screen.
     
     You'll need to create resource accounts for all Auto Attendants and Call Queues. 
-    See [Manage resource accounts in Microsoft Teams](../../../Teams/manage-resource-accounts.md) for details on creating a resource account.
+    See [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md) for details on creating a resource account.
     You'll also need to create an O365 Group specifically for your call agents.
 
     Set up the following in O365, in this order:
 
-    -  one or more [resource accounts](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) 
+    -  one or more [resource accounts](/microsoftteams/manage-resource-accounts) 
     -  O365 [Call Agent Group](https://docs.microsoft.com/office365/admin/create-groups/create-groups?view=o365-worldwide)  
     -  Ordering call queue
     -  Contoso Pizza ordering line (optional auto attendant)
