@@ -124,14 +124,14 @@ To learn more about emergency locations in relation to Calling Plans, review the
 
 ## Voicemail
 
-Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems.
+Cloud Voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems.
 
-By default, Phone System voicemail works with Exchange Online; however it has a minimum supported Exchange on-premises version and deployment model to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
+By default, Cloud Voicemail works with Exchange Online; however it has a minimum supported Exchange on-premises version and deployment model to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
 
-Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md) for more details.
+Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md) for more details.
 
 >[!NOTE]
-> A fallback mechanism has been implemented so that Phone System voicemail can resend messages by using SMTP, which means users who have a mailbox on a third-party email system will receive their voicemail messages. This mechanism doesn’t include guaranteed service uptime or other voicemail
+> A fallback mechanism has been implemented so that Cloud Voicemail can resend messages by using SMTP, which means users who have a mailbox on a third-party email system will receive their voicemail messages. This mechanism doesn’t include guaranteed service uptime or other voicemail
 features, such as changing voicemail greeting.
 
 For more information about voicemail in a Phone System implementation, see [Phone System with Calling Plans](calling-plan-landing-page.md).
@@ -140,11 +140,11 @@ For more information about voicemail in a Phone System implementation, see [Phon
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Phone System voicemail, choose from the available options (upgrade and setup for Phone System voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail.</li><li>If you’ll enable/disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Cloud Voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Cloud Voicemail, choose from the available options (upgrade and setup for Cloud Voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>If applicable, document the Exchange decision points to support Cloud Voicemail.</li><li>If you’ll enable/disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</li></ul>|
 
 > [!TIP]
-> Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following.
+> Cloud Voicemail details for the Phone System with Calling Plans implementation can be documented as the following.
 > 
 > |User |Exchange mailbox |Enable voicemail? |Voicemail transcription |Voicemail transcription profanity masking |
 > |------------------|------------------|-------------------|----------|----------|
