@@ -1,5 +1,6 @@
 ---
 title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -83,8 +84,10 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
    - Open SQL Server Configuration Manager. In the tree on the left side of the screen, click **SQL Server Services**, then double-click the SQL Server service. 
     
    - In the **Properties** box, select the **AlwaysOn High Availability** tab. Select the **Enable AlwaysOn Availability Groups** check box. Restart the SQL Server service when prompted.
+   
+6. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AG as the SQL store for the pool.
     
-6. Create the availability group.
+7. Create the availability group.
     
    - Open SQL Server Management Studio, and connect to the SQL Server instance.
     
@@ -115,9 +118,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
    - In the Validation page, verify that all validation checks are successful, then click **Next**.
     
    - In the **Summary** page, verify all settings and click Finish.
-    
-7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AG as the SQL store for the pool.
-    
+      
 8. After the pool and the AG are deployed, perform some final steps to make sure that the SQL logins are on each of the replicas in the AlwaysOn Availability Group. 
     
    - Open Topology Builder, select **Download topology from existing deployment**, and click **OK**.

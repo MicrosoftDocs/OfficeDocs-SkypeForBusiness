@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Manage external access policy for your organization'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Manage external access policy for your organization
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)

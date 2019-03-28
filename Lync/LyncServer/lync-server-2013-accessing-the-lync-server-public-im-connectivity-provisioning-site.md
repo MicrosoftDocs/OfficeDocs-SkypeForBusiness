@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Accessing the Lync Server public IM connectivity provisioning site'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Accessing the Lync Server public IM connectivity provisioning site
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440174(v=OCS.15)
@@ -24,7 +27,7 @@ mtps_version: v=OCS.15
 
 <span> </span>
 
-_**Topic Last Modified:** 2017-03-09_
+_**Topic Last Modified:** 2019-03-22_
 
 The provisioning process for Lync-Skype connectivity has changed, as compared to previous PIC provisioning methods. This provisioning process can take up to thirty days to complete. We recommend that you start this process first, prior to completing the remaining steps in this document. After the Lync-Skype provisioning process is completed for your account, the account is activated and your eligible users are enabled for public IM connectivity.
 
@@ -47,6 +50,12 @@ The provisioning process for Lync-Skype connectivity has changed, as compared to
 </tbody>
 </table>
 
+Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website. This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies. 
+
+Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes. PIC provisioning changes typically complete within 24-48 hours after being entered. If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.
+
+> [!IMPORTANT]
+> As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.
 
 ### To initiate the provisioning process for Lync-Skype connectivity:
 

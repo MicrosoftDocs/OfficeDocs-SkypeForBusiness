@@ -22,8 +22,6 @@ Coexistence and interoperability between Skype for Business and Teams clients an
 
 Any given user will always be assigned a TeamsUpgrade mode, either by default or explicitly by the administrator. The default value is *Islands*. Users upgraded to Teams have the mode of *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings* are also possible modes.
 
-> [!NOTE]
-> *Legacy* mode has been deprecated; users that were on *Legacy* mode were converted to *Islands* mode.
 
 ## Routing parameters
 
@@ -173,8 +171,6 @@ In order to know what behavior to expect, you'll need to understand that Presenc
     * From Teams, any other user in a federated tenant will see the Islands user’s Skype for Business presence; this is aligned with the federated routing table above
     * From Skype for Business, any other user will see the Islands user’s Skype for Business presence (both in-tenant and federated); this is aligned with the routing tables above
 
-> [!NOTE]
-> This is a recent change from the previous implementation (called Unified Presence) which showed a combined, aggregated presence of the target’s Teams and Skype for Business clients. That previous approach turned out to be confusing to users as it would frequently result in displaying inaccurate presence,  i.e. a user not being reachable even though their presence showed them online.
 
 ## In-tenant presence
 
@@ -211,5 +207,6 @@ In order to align presence and reachability in pre-existing threads, the target�
 In particular, if a recipient you previously had a persistent interop conversation thread with was upgraded to Teams, that thread will no longer reflect accurate presence and will no longer be routable. You should start a new thread.
 
 ## Related Links
+[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

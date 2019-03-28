@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Reducing unsolicited IM'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reducing unsolicited IM for Lync Server 2013
 ms:assetid: d2998708-e699-4465-a918-e1d9ea4c49c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518335(v=OCS.15)

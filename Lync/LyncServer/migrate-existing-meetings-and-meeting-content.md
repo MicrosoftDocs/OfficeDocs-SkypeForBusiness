@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrate existing meetings and meeting content
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrate existing meetings and meeting content
 ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688011(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "How to use Modern Authentication (ADAL) with Skype for Business"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -18,41 +19,41 @@ This article explains how to use Modern Authentication (which is based on the Ac
   
 ## What's in this article?
 
-[Configure ADAL in your pool and set ADFS as security token server](use-adal.md#BKMK_Config)
+[Configure ADAL in your pool and set AD FS as security token server](use-adal.md#BKMK_Config)
   
 [Other Options for Enabling ADAL sign-in (like Office client apps)](use-adal.md#BKMK_Options)
   
 [Clients where Modern Authentication / ADAL isn't Supported](use-adal.md#BKMK_Support)
   
-### Configure ADAL in your pool and set ADFS as security token server
+### Configure ADAL in your pool and set AD FS as security token server
 <a name="BKMK_Config"> </a>
 
-In this process, you connect your installation of ADFS to a Skype for Business Server pool that is configured for ADAL.
+In this process, you connect your installation of AD FS to a Skype for Business Server pool that is configured for ADAL.
   
-1. Install the March 2016 Cumulative Update for Skype for Business Server 2015 to your Skype for Business Server pool or Standard Edition server. (Schedule maintenance windows, as needed, to run Windows Update for the automatic installation.)
+1. Install the March 2016 Cumulative Update (or newer) for Skype for Business Server 2015 to your Skype for Business Server pool or Standard Edition server. (Schedule maintenance windows, as needed, to run Windows Update for the automatic installation.)
     
-2. On your on-premises ADFS server(s), [download](https://aka.ms/sfbadalscripts) the Setup-AdfsOAuthTrustForSfB script. (This needs to be done per ADFS farm or independent ADFS server(s). It does not need to be done on ADFS Proxy or proxies).
+2. On your on-premises AD FS server(s), [download](https://aka.ms/sfbadalscripts) the Setup-AdfsOAuthTrustForSfB script. (This needs to be done per AD FS farm or independent AD FS server(s). It does not need to be done on AD FS Proxies or Web Application Proxies.)
     
 3. Make a note of the internal and external Web Service fully qualified domain names (FQDNs) for your Skype for Business Server pool or Standard Edition server. This needs to be done for all the Skype for Business Pools.
     
-4. From PowerShell on the ADFS Server(s), run the Setup-AdfsOAuthTrustForSfB. You will need to enter the proper URLs for the internal and external Web Service FQDNs. Here's an example:
+4. From PowerShell on the AD FS Server(s), run `Setup-AdfsOAuthTrustForSfB.ps1` (for Windows Server 2012 R2) or `Setup-Adfs2016OAuthTrustForSfB.ps1` (for Windows Server 2016 or later.) You will need to enter the proper URLs for the internal and external Web Service fully-qualified domain names (FQDNs). Here's an example:
     
      `Setup-AdfsOAuthTrustForSfB.ps1 -poolIDs https://contosoSkype.contoso.com,https://contoso01Skype.contosoIn.com`
     
-    For any additional pools, you will need to add the Pool Web Services URLs manually to the Skype for Business Server Relying Party Trust in ADFS.
+    For any additional pools, you will need to add the Pool Web Services URLs manually to the Skype for Business Server Relying Party Trust in AD FS.
     
     > [!IMPORTANT]
     > It isn't possible to use Passive Authentication for a Pool and also use ADAL. You must disable Passive Authentication in order to use ADAL. For PowerShell cmdlets on how to set authentication for a Pool see [this](https://technet.microsoft.com/en-us/library/gg398396.aspx) article.
   
     > [!TIP]
-    > If you have additional pools you need to add them as [Identifiers](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) to the Relying Party Trust in ADFS.> Go to your ADFS server and open ADFS Management. Expand Trust Relationships \> Relying Party Trusts. Right-click the Relying Party Trust that's listed and right-click for Properties \> Identifiers \> type the additional Pool URL(s) \> click Add. 
+    > If you have additional pools you need to add them as [Identifiers](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) to the Relying Party Trust in AD FS.> Go to your AD FS server and open AD FS Management. Expand Trust Relationships \> Relying Party Trusts. Right-click the Relying Party Trust that's listed and right-click for Properties \> Identifiers \> type the additional Pool URL(s) \> click Add. 
   
 5. Return to your Skype for Business Server Front End or Standard Edition server server. From here you must run cmdlets that create an OAuth server and modify that OAuth configuration to work with Skype for Business. You only need to do this step once per Skype for Business Server deployment. Here is an example:
     
      `New-CsOAuthServer -Identity sts.contosoIn.com -Type ADFS -MetadataURL https://sts.contosoIn.com/FederationMetadata/2007-06/FederationMetadata.xml`
     
     > [!TIP]
-    > The 'Identity' URL you see in this command is actually the ADFS Federation Service Name you can see in ADFS Management when you right-click Service \> Properties. The 'Type' is always ADFS, and the 'MetadataURL' is always \<Your ADFS service name\> + "/FederationMetadata/2007-06/FederationMetadata.xml". 
+    > The 'Identity' URL you see in this command is actually the AD FS Federation Service Name you can see in AD FS Management when you right-click Service \> Properties. The 'Type' is always 'ADFS', and the 'MetadataURL' is always \<Your AD FS service name\> + "/FederationMetadata/2007-06/FederationMetadata.xml". 
   
      `Set-CsOAuthConfiguration -ClientAuthorizationOAuthServerIdentity sts.contosoIn.com`
     
@@ -63,9 +64,9 @@ In this process, you connect your installation of ADFS to a Skype for Business S
 7. When prompted, be sure to enter the credentials of the test user. Verify that the test completes successfully.
     
     > [!NOTE]
-    > When your STS URL resolves to ADFS  *internally*  , the prompt you will see will be a **Windows Security** prompt. If the URL resolves externally, you'll see a prompt named **Sign in**. Typically, we would want a **Windows Security** prompt here. Note that this behaviour varies, particularly if you implemented Forms-Based Authentication (or FBA).
+    > When your STS URL resolves to AD FS  *internally*  , the prompt you will see will be a **Windows Security** prompt. If the URL resolves externally, you'll see a prompt named **Sign in**. Typically, we would want a **Windows Security** prompt here. Note that this behaviour varies, particularly if you implemented Forms-Based Authentication (or FBA).
   
-Also be aware, when the STS URL resolves to an internal ADFS server and Windows Integrated authentication is enabled in browsers, computers where many different users sign in to client applications may have failures to authenticate unless the browser is explicitly configured to prompt users for their credentials in a given browser Security Zone. Think of a kiosk as an example. The account that is logged in to the Operating System may be different than the user account logging into the Skype for Business client. If this is the case, you may see the failures described here.
+Also be aware, when the STS URL resolves to an internal AD FS server and Windows Integrated authentication is enabled in browsers, computers where many different users sign in to client applications may have failures to authenticate unless the browser is explicitly configured to prompt users for their credentials in a given browser Security Zone. Think of a kiosk as an example. The account that is logged in to the Operating System may be different than the user account logging into the Skype for Business client. If this is the case, you may see the failures described here.
     
 You can see and change this browser setting in Internet Explorer by clicking \> Tools (or the Gear) \> Internet Options \> Security tab \> and the Security Zone (such as Local Intranet). From this dialog, click the Custom level button and scroll to the end of the list in the Settings dialog. Under User Authentication \> Login \> you'll see an option to 'Prompt for user name and password'. If you have kiosks where the user who starts the Skype for Business client is different (has a different account) from the user logged into the computer, you may want to test setting this option to 'ON' for these machines in a Group Policy.
     
@@ -112,4 +113,5 @@ Some client versions don't support OAuth. You can check your version of Office c
     
 - Office Client 16.0.[6000-6224].\*
     
-
+> [!NOTE]
+> Hybrid Modern Authentication is also available with Skype For Business on-premises, if you want to know more, please visit [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/en-us/office365/enterprise/configure-skype-for-business-for-hybrid-modern-authentication)

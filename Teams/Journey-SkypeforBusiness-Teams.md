@@ -3,7 +3,7 @@ title: Upgrade Skype for Business to Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams

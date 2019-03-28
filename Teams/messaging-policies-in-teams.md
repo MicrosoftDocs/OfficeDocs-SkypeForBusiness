@@ -43,9 +43,17 @@ Then assign the policy to the users.
  
 ## Assign a messaging policy to a user
 
-If you create a custom messaging policy, it will only be active for a user if the policy is assigned to the user. To assign a custom policy to a user, go to the Microsoft Teams admin center, choose **Users** in the left navigation, and select the user you want to assign the policy to. On the user's page, choose **Edit** next to **Assigned policies**. Then, in the **Edit user policies** pane, under **Messaging policy**, select the messaging policy from the drop-down list, and select **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Messaging policy**, select the policy from the drop-down list and then select **Save**.
+If you create a custom messaging policy, it will only be active for a user if the policy is assigned to the user. To assign a custom policy to a user, go to the Microsoft Teams admin center, choose **Users** in the left navigation pane, and select the user you want to assign the policy to. On the user's page, choose **Edit** next to **Assigned policies**. Then, in the **Edit user policies** pane, under **Messaging policy**, select the messaging policy from the drop-down list, and select **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Messaging policy**, select the policy from the drop-down list and then select **Save**.
 
 If you are applying a policy to more than one user, select each of the users by clicking to the left of the user name, and then select **Edit settings**. On the **Edit Settings** pane, under **Messaging policy**, select the policy from the drop-down list and then select **Save**.
+
+You can also assign a messaging policy to one or more users as follows:
+
+1. Go to **Microsoft Teams admin center** > **Messaging policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+5. When you are finished adding users, select **Save**.
 
 > [!NOTE]
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.

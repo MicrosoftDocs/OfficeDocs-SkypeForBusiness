@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migration phases
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migration phases
 ms:assetid: 71c7cb8e-45f8-441f-b433-03e3d9436992
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205002(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Client Version Policy"
+ms.reviewer: 
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars

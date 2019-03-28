@@ -3,7 +3,7 @@ title: Plan service management and quality | Technical Readiness
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance to learn about the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. 

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.service: msteams
 ms.reviewer: 

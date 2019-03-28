@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying monitoring'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying monitoring
 ms:assetid: 117f4a3e-0670-4388-a553-b9854921145f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398199(v=OCS.15)

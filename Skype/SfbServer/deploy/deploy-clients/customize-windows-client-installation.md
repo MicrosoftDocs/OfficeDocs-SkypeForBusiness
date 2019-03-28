@@ -1,5 +1,6 @@
 ---
 title: "Customize Windows client installation in Skype for Business Server"
+ms.reviewer: 
 ms.author: chucked
 author: chuckedmonson
 manager: serdars

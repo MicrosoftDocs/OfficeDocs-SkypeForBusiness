@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Call Park'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Call Park
 ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399014(v=OCS.15)

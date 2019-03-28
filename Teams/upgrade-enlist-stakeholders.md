@@ -3,7 +3,7 @@ title: Enlist stakeholders | Skype for Business to Teams upgrade planning
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Enlist stakeholders to serve on the project team for your upgrade. 

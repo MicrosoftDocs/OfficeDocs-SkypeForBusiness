@@ -1,5 +1,6 @@
 ---
 title: "Configure the use of high-resolution photos in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

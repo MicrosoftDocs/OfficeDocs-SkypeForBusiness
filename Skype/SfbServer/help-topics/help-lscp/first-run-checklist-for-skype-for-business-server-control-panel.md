@@ -1,5 +1,6 @@
 ---
 title: "First Run Checklist for Skype for Business Server Control Panel"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

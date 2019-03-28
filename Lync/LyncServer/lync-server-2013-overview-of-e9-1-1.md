@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of E9-1-1'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of E9-1-1
 ms:assetid: c01e6774-bc9f-4c5b-a60b-478b7317b2b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412936(v=OCS.15)

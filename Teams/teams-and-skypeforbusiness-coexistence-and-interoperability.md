@@ -3,7 +3,7 @@ title: Microsoft Teams | Upgrade, Islands Mode, Interop Policy,  Only
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams. 

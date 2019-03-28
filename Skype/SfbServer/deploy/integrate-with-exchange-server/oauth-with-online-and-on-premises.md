@@ -1,5 +1,6 @@
 ---
 title: "Configure OAuth between Skype for Business Online and Exchange on premises"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -137,7 +138,7 @@ Specify a verified domain for your Exchange organization. This domain should be 
 > [!NOTE]
 > Successfully running the following script requires that the Windows PowerShell for Azure Active Directory is connected to your Microsoft Online Azure AD tenant, as explained in step 4 in the previous section.
 
-1. Save the following text to a PowerShell script file named, for example, RegisterEndpoints.ps1. This example uses a wildcard to register all endpoints for contoso.com. Replace contoso.com with a hostname authority for your on-premises Exchange organization
+1. Save the following text to a PowerShell script file named, for example, RegisterEndpoints.ps1. This example uses a wildcard to register all endpoints for contoso.com. Replace <your Verified Domain> with a the FQDN for your on-premises Exchange server.
 
    ```
    $externalAuthority="*.<your Verified Domain>"
@@ -167,3 +168,7 @@ Alternately, look at your traffic. The traffic in an OAuth handshake is really d
 If you want to be sure you’re successfully using OAuth, make certain you know what to expect and know what the traffic should look like. So [here’s what to expect](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), here’s a pretty standard [example of OAuth traffic in a Microsoft application](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  (really helpful to read, though it doesn't use Refresh tokens), and there are Fiddler extensions that will let you look into your OAuth JWT (JSON Web Token).
 
 Here's an [example of setting one up](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), but you can use any network tracing tool you like to undertake this process.
+
+## Related topics
+
+[Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

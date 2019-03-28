@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up storage for Archiving'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up storage for Archiving
 ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205392(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Backing up core data and settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Backing up core data and settings
 ms:assetid: 278bc95a-7b8d-4e01-a872-a844830459de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202170(v=OCS.15)

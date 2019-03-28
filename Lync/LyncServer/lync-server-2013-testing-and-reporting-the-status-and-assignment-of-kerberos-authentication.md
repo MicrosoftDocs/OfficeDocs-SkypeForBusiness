@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Testing and reporting the status and assignment of Kerberos authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing and reporting the status and assignment of Kerberos authentication
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398683(v=OCS.15)

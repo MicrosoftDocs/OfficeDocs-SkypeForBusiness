@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Determine external A/V firewall and port requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Determine external A/V firewall and port requirements
 ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425882(v=OCS.15)

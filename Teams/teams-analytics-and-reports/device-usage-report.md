@@ -3,7 +3,7 @@ title: Microsoft Teams device usage report
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 03/19/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams

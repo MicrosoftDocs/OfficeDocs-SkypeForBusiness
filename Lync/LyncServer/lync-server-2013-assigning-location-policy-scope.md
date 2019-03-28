@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Assigning location policy scope'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Assigning location policy scope
 ms:assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205360(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Test Web App access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Test Web App access
 ms:assetid: 17d67ea3-f74d-4952-ac2b-92c0dacc8014
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767944(v=OCS.15)

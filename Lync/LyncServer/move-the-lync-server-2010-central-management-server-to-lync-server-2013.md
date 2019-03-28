@@ -1,5 +1,8 @@
-﻿---
+---
 title: Move the Lync Server 2010 Central Management Server to Lync Server 2013
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deployment guidelines for Enterprise Voice'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)

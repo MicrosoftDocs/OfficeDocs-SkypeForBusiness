@@ -1,5 +1,6 @@
 ---
 title: "Sample Persistent Chat database queries"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

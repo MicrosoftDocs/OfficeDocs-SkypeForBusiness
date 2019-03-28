@@ -1,5 +1,6 @@
 ---
 title: "Plan for private telephone lines with Skype for Business"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

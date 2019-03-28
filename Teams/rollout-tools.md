@@ -1,5 +1,6 @@
 ---
 title: Get tools to support a rollout of Microsoft Teams
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -23,7 +24,7 @@ The Microsoft Teams Customer Success Kit provides tools to assist your organizat
 
 ### Learn, adjust, and repeat
 
-As you go through the steps recommended here using the Customer Success Kit resources your stakeholders, champions and users will share feedback. These valuable insights can assist you in adjusting your approach, messaging and models to drive additional adoption and ultimately land your business outcomes. Flexibility in an agile service management model is critical in delivering success at the pace of business today. If you are reading this document, you are one of the core individuals responsible for the success of this deployment and your ability to adjust your plan based on current conditions will accelerate the adoption curve in your company.
+As you go through the steps recommended here using the Customer Success Kit resources, your stakeholders, champions, and users will share feedback. These valuable insights can assist you in adjusting your approach, messaging and models to drive additional adoption and ultimately land your business outcomes. Flexibility in an agile service management model is critical in delivering success at the pace of business today. If you are reading this document, you are one of the core individuals responsible for the success of this deployment and your ability to adjust your plan based on current conditions will accelerate the adoption curve in your company.
 
 Microsoft Teams is designed to foster collaboration while being a simple to use yet robust service. Periodically revisiting the business outcomes, you selected at the beginning of this journey will ensure that you are delivering measurable business impact within those priorities through the adoption of Microsoft Teams.
 

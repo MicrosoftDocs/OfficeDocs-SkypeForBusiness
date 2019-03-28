@@ -1,5 +1,6 @@
 ---
 title: "Verify user replication has completed"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

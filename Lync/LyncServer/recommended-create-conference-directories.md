@@ -1,5 +1,8 @@
-﻿---
+---
 title: (Recommended) Create Conference Directories
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: (Recommended) Create Conference Directories
 ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn832056(v=OCS.15)

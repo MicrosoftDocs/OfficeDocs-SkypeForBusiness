@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Certificate summary - Scaled consolidated edge, DNS load balancing with public IP addresses'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: e87ac448-ee8f-477a-9f33-ce066c1bf093
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205399(v=OCS.15)

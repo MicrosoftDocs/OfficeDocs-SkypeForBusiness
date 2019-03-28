@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -59,16 +59,16 @@ description: "This topic contains all of the countries/regions that users can pl
 |Bhutan |Guinea |Luxembourg |Netherlands Antilles |Slovakia |Zambia  |
 |Bolivia |Guyana| |New Caledonia |Slovenia |Zimbabwe |
 |Bosnia and Herzegovina |Haiti ||New Zealand |South Africa | 
-|Botswana |Honduras ||Nicaragua |Spain |
-|Brazil |Hong Kong ||Niger |Sri Lanka | 
-|Bunei Darussalam |Hungary ||Nigeria |St. Pierre and Miquelon | 
-|Bulgaria |||Northern Mariana Islands |Sudan |
-|Burkina Faso |||Norway |Suriname |
-|Cambodia |||Oman |Swaziland | 
-|Cameroon ||||Sweden |
-|Canada ||||Switzerland | 
-|Cape Verde ||||Syrian Arab Republic |
-|Cayman Islands |
+|Botswana |Honduras ||Nicaragua |South Sudan |
+|Brazil |Hong Kong ||Niger |Spain | 
+|Bunei Darussalam |Hungary ||Nigeria |Sri Lanka | 
+|Bulgaria |||Northern Mariana Islands |St. Pierre and Miquelon |
+|Burkina Faso |||Norway |Sudan |
+|Cambodia |||Oman |Suriname | 
+|Cameroon ||||Swaziland |
+|Canada ||||Sweden | 
+|Cape Verde ||||Switzerland |
+|Cayman Islands ||||Syrian Arab Republic |
 |Central African Republic |
 |Chile |
 |China |

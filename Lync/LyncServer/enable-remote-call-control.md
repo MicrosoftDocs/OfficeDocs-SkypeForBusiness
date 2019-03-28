@@ -1,5 +1,8 @@
-﻿---
+---
 title: Enable remote call control
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enable remote call control
 ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204664(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 device hardware support
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Device hardware support
 ms:assetid: ba07ca91-32b4-49cf-801c-47a2d1d96e18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412908(v=OCS.15)

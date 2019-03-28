@@ -1,10 +1,11 @@
 ---
 title: "Here's what you get with Phone System in Office 365"
+ms.reviewer: 
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,7 +26,7 @@ description: "Learn about the features, availability, and how to plan and set up
 
 # Here's what you get with Phone System in Office 365
 
-A PBX is a phone system within business. The Phone System in Office 365 add-on gives you PBX capabilities, but without the complicated and expensive equipment. 
+A PBX is a phone system within a business. The Phone System in Office 365 add-on gives you PBX capabilities, but without the complicated and expensive equipment. 
   
 With the Phone System add-on, you can use Skype for Business to complete basic tasks such as making and receiving calls, transferring calls, and muting or unmuting calls, from nearly anywhere with Internet access. It's available worldwide! 
   

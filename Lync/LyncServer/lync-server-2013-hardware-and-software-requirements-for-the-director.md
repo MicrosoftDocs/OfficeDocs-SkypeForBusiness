@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Hardware and software requirements for the Director'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Hardware and software requirements for the Director
 ms:assetid: 747b701e-7f97-46fe-91c5-1e8d9addf9f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398560(v=OCS.15)

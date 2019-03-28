@@ -1,13 +1,15 @@
 ---
 title: Microsoft Teams Training
+ms.reviewer: 
 description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 03/19/2019
 ms.service: msteams
+localization_priority: Priority
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -32,7 +34,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Admin training</h3>
-                        <p>Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your organization.</p>
+                        <p>Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org.</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +72,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>End user training</h3>
-                        <p>Use these training resources to help users in your organization get the most out of Teams.</p>
+                        <p>Use these training resources to help users in your org get the most out of Teams.</p>
                     </div>
                 </div>
             </div>
@@ -101,7 +103,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Teamwork</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Course: Enabling Teamwork with Microsoft Teams</a></p>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Course: Enabling Teamwork with Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -112,10 +114,21 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Adoption specialist certification</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">In early January 2019, we released a Microsoft Service Adoption Specialist Certification course, featuring Teams. It'll teach you how to drive adoption of Microsoft services in your org.</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
-  
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Introduction to teamwork in Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your org. </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>

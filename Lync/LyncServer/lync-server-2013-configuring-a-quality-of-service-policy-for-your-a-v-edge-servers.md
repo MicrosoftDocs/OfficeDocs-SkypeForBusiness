@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring a Quality of Service policy for your A/V Edge Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring a Quality of Service policy for your A/V Edge Servers
 ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204681(v=OCS.15)

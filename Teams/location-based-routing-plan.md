@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 ms.date: 2/1/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
 search.appverid: MET150

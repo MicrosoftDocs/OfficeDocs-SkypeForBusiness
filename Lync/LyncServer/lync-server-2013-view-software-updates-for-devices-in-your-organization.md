@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View software updates for devices in your organization'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View software updates for devices in your organization
 ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182592(v=OCS.15)

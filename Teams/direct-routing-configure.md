@@ -1,5 +1,6 @@
 ---
 title: "Configure Direct Routing"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -444,7 +445,7 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 
 
   > [!NOTE]
-  > - The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage "International" must be placed after the PSTN Usage "US Only." To change the order of the PSTN Usages, run the `Set-CSOnlineRouteRoutingPolicy` command. <br/>For example, to change the order from "US and Canada" first and "International" second to the reverse order run:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage "International" must be placed after the PSTN Usage "US Only." To change the order of the PSTN Usages, run the `Set-CSOnlineVoiceRoutingPolicy` command. <br/>For example, to change the order from "US and Canada" first and "International" second to the reverse order run:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - The priority for "Other +1" and "International" Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than "Redmond 1" and "Redmond 2."
 
 #### Example of Voice Routing Policy for user John Woods

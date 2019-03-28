@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online Admin
+ms.reviewer: 
 description: Learn how to manage Skype for Business Online for your organization.
 services: skype-for-business-online-admin
 author: tonysmit
@@ -219,7 +220,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Calling Plans</h3>
-                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">What are Calling Plans in Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Set up Calling Plans</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Calling Plans are available in your country/region</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">What are Calling Plans in Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Set up Calling Plans</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Calling Plans are available in your country/region</a></p>
                     </div>
                 </div>
             </div>

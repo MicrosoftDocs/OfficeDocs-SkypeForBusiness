@@ -29,7 +29,7 @@ description: "Learn about Calling Plan (PSTN Calling plan) for Skype for busines
 
 # Calling Plans for Office 365
 
-Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
+Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
   
 Here are the Calling Plans options:
   

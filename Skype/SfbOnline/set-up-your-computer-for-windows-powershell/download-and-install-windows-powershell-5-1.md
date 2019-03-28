@@ -1,5 +1,6 @@
 ---
-title: "Download and install Windows PowerShell 3.0"
+title: "Download and install Windows PowerShell 5.1"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +18,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: "Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online."
+description: "Download, install, and then use Windows PowerShell 5.1 to create a remote PowerShell session that connects to Skype for Business Online."
 ---
 
-# Download and install Windows PowerShell 3.0
+# Download and install Windows PowerShell 5.1
 
-If you are using Windows 8.1, Windows 8, Windows Server 2012 R2, or Windows Server 2012, you should already have Windows PowerShell 3.0. That's because this application comes preinstalled with those operating systems. 
+If you are using Windows 10 Anniversary Update, or Windows Server 2016, you should already have Windows PowerShell 5.1. That's because this application comes preinstalled with those operating systems.
   
-If you are running Windows 7 or Windows Server 2008 R2, you might also be running Windows PowerShell 3.0. However, it's also possible that you might be running version 2.0 instead—the version that originally shipped with those operating systems. To determine which version of Microsoft PowerShelll you are using, do the following on your Windows 7 or Windows Server 2008 R2 computer:
+To determine which version of Microsoft PowerShelll you are using, do the following on your Windows 7 or Windows Server 2008 R2 or Windows Server 2012 computer:
   
 1. Click **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, and then click **Windows PowerShell**.
     
@@ -39,12 +40,12 @@ If you are running Windows 7 or Windows Server 2008 R2, you might also be runnin
     <pre>
     Version <BR>
     ------- <BR>
-    3.0
+    4.0
     </pre>
 
-    If the returned Version number is 3.0, then you are running Windows PowerShell 3.0. If the returned Version number is not 3.0, then you'll need to install Windows PowerShell 3.0. You can download Windows Management Framework 3.0, which includes Windows PowerShell 3.0, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+    If the returned Version number is 5.1, then you are running Windows PowerShell 5.1. If the returned Version number is not 5.1, then you'll need to install Windows PowerShell 5.1. You can download Windows Management Framework 5.1, which includes Windows PowerShell 5.1, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
   
-After you've verified that Windows PowerShell 3.0 is installed, you must make sure that PowerShell has been configured for running remote scripts. To do that, start PowerShell as an administrator. On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
+After you've verified that Windows PowerShell 5.1 is installed, you must make sure that PowerShell has been configured for running remote scripts. To do that, start PowerShell as an administrator. On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
   
 1. Click **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, right-click **Windows PowerShell**, and then click **Run as administrator**.
     
@@ -77,24 +78,18 @@ If you get back the following value, then everything has been configured correct
   
 `RemoteSigned`
 
-If you are not currently running Windows PowerShell 3.0, you'll also need to download and install Windows Management Framework 3.0 from the Microsoft Download Center. This is an installation package that includes Windows PowerShell 3.0 and Windows Remote Management (WinRM) 3.0. This installation package might be required if you are running Windows 7 and have not yet updated to Windows PowerShell 3.0. If you are running Windows Server 2012, Windows Server 2012 R2, Windows 8, or Windows 8.1, there should be no need to install Windows PowerShell 3.0. Windows PowerShell 3.0 comes preinstalled on those operating systems.
+If you are not currently running Windows PowerShell 5.1, you'll also need to download and install Windows Management Framework 5.1 from the Microsoft Download Center. This is an installation package that includes Windows PowerShell 5.1 and Windows Remote Management (WinRM) 3.0. This installation package might be required if you, for example, are running Windows 7 SP1 and have not yet updated to Windows PowerShell 5.1. If you are running Windows Server 2016, or Windows 10 Anniversary Update, there should be no need to install Windows PowerShell 5.1. Windows PowerShell 5.1 comes preinstalled on those operating systems.
   
-Before installing Windows Management Framework 3.0:
+Before installing Windows Management Framework 5.1:
   
-- Make sure you have downloaded the correct version of the installation package. If you are running the 64-bit version of Windows 7, download the file Windows6.1-KB2506143-x64.msu. If you are running the 32-bit version of Windows 7, download the file Windows6.1-KB2506143-x86.msu.
+- Make sure you have downloaded the correct version of the installation package. If you are running the 64-bit version of Windows 7 SP1, download the file Win7AndW2K8R2-KB3191566-x64.ZIP. If you are running the 32-bit version of Windows 7, download the file Win7-KB3191566-x86.ZIP.
     
 - If you are running Windows 7 on your computer, make sure that you have installed Windows 7 Service Pack 1.
-    
+
 If you aren't sure which version of Windows you are running, or you aren't sure if you've installed Windows 7 Service Pack 1, click **Start**, right-click **Computer**, and then click **Properties**. This information will be reported in the System dialog box.
   
-To install Windows Management Framework 3.0, complete the following procedure:
+To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
   
-1. Double-click the .MSU installation file (either **Windows6.1-KB2506143-x64.msu** or **Windows6.1-KB2506143-x86.msu**).
-    
-2. In the Download and Install Updates wizard, on the **Read these license terms (1 of 1)** page, click **I Accept**.
-    
-3. When installation is complete, click **Restart Now** to restart your computer.
-    
 After the computer has rebooted, verify that Windows PowerShell can start and that the application can be run under administrative credentials. To do this:
   
 1. Click **Start**, click **All Programs**, click **Accessories**, click **Windows PowerShell**, right-click **Windows PowerShell** and then click **Run as administrator**.

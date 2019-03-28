@@ -2,8 +2,12 @@
 layout: HubPage
 hide_bc: true
 title: Microsoft Teams technical documentation
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
+localization_priority: Priority
 f1keywords: 
 - ms.teamsadmincenter.apppolicies.overview
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation

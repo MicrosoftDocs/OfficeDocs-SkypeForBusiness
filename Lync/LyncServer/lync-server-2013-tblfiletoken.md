@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblFileToken'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblFileToken
 ms:assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558646(v=OCS.15)

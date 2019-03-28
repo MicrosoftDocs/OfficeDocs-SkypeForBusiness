@@ -1,5 +1,6 @@
 ---
 title: "Plan for Group Call Pickup in Skype for Business"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

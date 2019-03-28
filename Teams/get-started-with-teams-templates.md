@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/25/2019
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal
@@ -59,14 +59,14 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | No additional apps and properties |
-| Education -<br>Class Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
-| Education -<br>Staff Team | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
-|Education -<br>PLC team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
-| Retail -<br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Channels:<ul><li>Shift handoff</li><li>Learning</li></ul>Team properties<ul><li>Team visibility set to Public</li></ul>Member permissions<ul><li>Prevent members from creating, updating, or removing channels</li><li>Prevent members from adding or removing apps</li><li>Prevent members from creating, updating, or removing connectors</li></ul> |
-| Retail -<br>Manager collaboration | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Channels:<ul><li>Shift handoff</li><li>Learning</li></ul>Team properties:<ul><li>Team visibility set to Private</li></ul>Member permissions:<ul><li>Prevent members from creating, updating, or removing channels</li><li>Prevent members from adding or removing apps</li><li>Prevent members from creating, updating, or removing connectors</li></ul>|
-| Healthcare -<br>Ward |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Channels: <ul><li>Announcements\*</li><li>Huddles\*</li><li>Rounds</li><li>Staffing\*</li><li>Training\*</li></ul>\*Auto-favorited channels |
-|Healthcare -<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Channels:<ul><li>Announcements\*</li><li>Compliance\*</li><li>Custodial</li><li>Human Resources</li></li><li>Pharmacy</li></ul>\*Auto-favorited channel|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No additional apps and properties |
+| Education -<br>Class Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
+| Education -<br>Staff Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
+|Education -<br>PLC team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
+| Retail -<br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Channels:<ul><li>Shift handoff</li><li>Learning</li></ul>Team properties<ul><li>Team visibility set to Public</li></ul>Member permissions<ul><li>Prevent members from creating, updating, or removing channels</li><li>Prevent members from adding or removing apps</li><li>Prevent members from creating, updating, or removing connectors</li></ul> |
+| Retail -<br>Manager collaboration | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Channels:<ul><li>Shift handoff</li><li>Learning</li></ul>Team properties:<ul><li>Team visibility set to Private</li></ul>Member permissions:<ul><li>Prevent members from creating, updating, or removing channels</li><li>Prevent members from adding or removing apps</li><li>Prevent members from creating, updating, or removing connectors</li></ul>|
+| Healthcare -<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Channels: <ul><li>Announcements\*</li><li>Huddles\*</li><li>Rounds</li><li>Staffing\*</li><li>Training\*</li></ul>\*Auto-favorited channels |
+|Healthcare -<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Channels:<ul><li>Announcements\*</li><li>Compliance\*</li><li>Custodial</li><li>Human Resources</li></li><li>Pharmacy</li></ul>\*Auto-favorited channel|
 |||
 
 > [!NOTE]

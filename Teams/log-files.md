@@ -1,10 +1,11 @@
 ---
 title: Use log files in troubleshooting Microsoft Teams
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -91,9 +92,7 @@ Desktop logs, also known as bootstrapper logs, contains log data that occurs bet
 
 Windows:
 
-  1.  Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**
-
-  2.  Choosing **Get Logs** from the **Help** pull-down menu
+1.  Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**
 
 Mac OsX:
 

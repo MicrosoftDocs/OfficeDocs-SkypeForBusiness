@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View conferencing device information'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View conferencing device information
 ms:assetid: 838bdbf8-8b68-4eb6-8fa3-45bfd5b0b1cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994043(v=OCS.15)

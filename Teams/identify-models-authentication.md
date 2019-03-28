@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 localization_priority: Normal

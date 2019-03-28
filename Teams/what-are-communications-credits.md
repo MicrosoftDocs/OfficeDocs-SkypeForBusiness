@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -56,7 +56,7 @@ To use toll-free numbers in Skype for Business, Communications Credits are requi
 > [!NOTE]
 > You must set up Communications Credits and then assign a Communications Credits license for each user in the **Office 365 admin center** > **Users** > **Active Users**. 
   
-It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md) and [Audio Conferencing common questions](Audio-Conferencing-common-questions.md).
+It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [Phone System and Calling Plans](calling-plan-landing-page.md) and [Audio Conferencing common questions](Audio-Conferencing-common-questions.md).
   
 You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   

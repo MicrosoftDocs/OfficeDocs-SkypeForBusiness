@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 9: Complete post-migration tasks'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 9: Complete post-migration tasks'
 ms:assetid: 05b1a858-fd45-4bb9-9cb4-05f001528a88
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204642(v=OCS.15)

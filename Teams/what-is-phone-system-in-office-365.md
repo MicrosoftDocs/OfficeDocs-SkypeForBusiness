@@ -1,9 +1,10 @@
 ---
 title: "What is Phone System in Office 365?"
+ms.reviewer: 
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -33,7 +34,7 @@ With traditional PBX systems, calls between users in your organization are handl
   
 To enable calls to landlines and mobile phones, Phone System can be connected to the PSTN in one of two ways:
   
-- By purchasing the a Calling Plan (domestic or domestic and international) to Office 365. See [What are Calling Plans?](what-are-calling-plans-in-office-365.md)
+- By purchasing the a Calling Plan (domestic or domestic and international) for Office 365. See [Phone System and Calling Plans](calling-plan-landing-page.md)
     
 - By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Planning your Phone System](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
@@ -45,7 +46,7 @@ Using a Calling Plan add-on to Phone System in Office 365 enables PSTN connectiv
 
 ![Topology diagram showing Cloud PBX with PSTN Calling, the completely in-the-cloud voice solution.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Because Calling Plans operate within Office 365, this is a completely-in-the-cloud offering that doesn't require an on-premises server deployment. You have the choice of using a Domestic or Domestic and International Calling Plan, which be assigned to each user that you want to make calls. [Want to know more?](what-are-calling-plans-in-office-365.md)
+Because Calling Plans operate within Office 365, this is a completely-in-the-cloud offering that doesn't require an on-premises server deployment. You have the choice of using a Domestic or Domestic and International Calling Plan, which be assigned to each user that you want to make calls. [Want to know more?](calling-plan-landing-page.md).
   
 Users who are homed in Skype for Business Online or Microsoft Teams in Office 365 will have access to Office 365 voice services. Microsoft is the provider of both core calling and PSTN services, and can even provide or port your users' phone numbers. 
   
@@ -63,7 +64,7 @@ Calling Plans (domestic and domestic and international) are available in specifi
 
 - **Call queues**  With Phone System, you can create call queue greetings that are used when someone calls in to a phone number for your organization; this includes the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-- **Voicemail** When you get a Phone System license for a user, that user will be able to get voicemail that has been left by callers. Phone System voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+- **Voicemail** When you get a Phone System license for a user, that user will be able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
 If you're ready to get started, see [Setting up Phone System in your organization](setting-up-your-phone-system.md).
 

@@ -1,5 +1,6 @@
 ---
 title: "Define Properties and Options for Persistent Chat Pool"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

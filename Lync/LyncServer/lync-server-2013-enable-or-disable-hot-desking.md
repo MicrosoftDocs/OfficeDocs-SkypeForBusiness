@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enable or disable hot desking'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enable or disable hot desking
 ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994057(v=OCS.15)

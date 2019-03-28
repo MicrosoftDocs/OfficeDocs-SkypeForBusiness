@@ -4,7 +4,7 @@ author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: Information Admins need to understand about Presence in Teams.

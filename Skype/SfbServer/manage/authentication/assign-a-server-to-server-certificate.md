@@ -1,5 +1,6 @@
 ---
 title: "Assign a server-to-server authentication certificate to Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

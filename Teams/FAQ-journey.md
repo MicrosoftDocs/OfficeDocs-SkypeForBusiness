@@ -3,7 +3,7 @@ title: Microsoft Teams FAQ | Meetings, Conferencing, Calling Capabilities
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.

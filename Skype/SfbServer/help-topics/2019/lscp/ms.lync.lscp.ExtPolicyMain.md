@@ -1,5 +1,6 @@
 ---
 title: "External Access Policy"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

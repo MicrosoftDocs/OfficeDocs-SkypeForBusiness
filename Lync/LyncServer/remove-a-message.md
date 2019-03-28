@@ -1,5 +1,8 @@
-﻿---
+---
 title: Remove a message
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove a message
 ms:assetid: 90fcb30d-4987-4e9c-afbc-4482644ce0e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205081(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Port summary - Single consolidated edge with public IP addresses'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary - Single consolidated edge with public IP addresses
 ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204756(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Hardening and protecting servers and applications'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Hardening and protecting servers and applications for Lync Server 2013
 ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518331(v=OCS.15)

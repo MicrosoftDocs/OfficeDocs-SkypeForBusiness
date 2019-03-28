@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 07/26/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer:
 description: List of Teams resources helpful for IT admins in Education.

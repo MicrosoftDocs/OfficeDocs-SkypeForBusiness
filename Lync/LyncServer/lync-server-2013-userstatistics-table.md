@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: UserStatistics table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: UserStatistics table
 ms:assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721893(v=OCS.15)

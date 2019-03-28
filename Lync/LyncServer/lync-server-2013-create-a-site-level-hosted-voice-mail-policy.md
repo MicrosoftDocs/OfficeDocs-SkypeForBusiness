@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create a site-level hosted voice mail policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create a site-level hosted voice mail policy
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398216(v=OCS.15)

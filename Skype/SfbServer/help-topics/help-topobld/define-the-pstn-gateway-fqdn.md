@@ -1,5 +1,6 @@
 ---
 title: "Define the PSTN Gateway FQDN"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

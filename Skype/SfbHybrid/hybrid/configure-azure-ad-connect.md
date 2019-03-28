@@ -1,5 +1,6 @@
 ---
 title: "Configure Azure AD Connect"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

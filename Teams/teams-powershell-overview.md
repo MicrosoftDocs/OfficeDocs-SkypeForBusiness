@@ -1,10 +1,11 @@
 ---
 title: Teams PowerShell Overview
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection: 
 - M365-collaboration

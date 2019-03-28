@@ -3,7 +3,7 @@ title: Plan Skype for Business to Microsoft Teams upgrade | Adoption Framework
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Plan for your upgrade by enlisting stakeholders first, and then scoping the project. 

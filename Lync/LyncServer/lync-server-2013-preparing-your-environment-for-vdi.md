@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Preparing your environment for VDI'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Preparing your environment for VDI
 ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205154(v=OCS.15)

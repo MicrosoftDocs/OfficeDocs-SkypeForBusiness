@@ -1,5 +1,8 @@
-﻿---
+---
 title: Merge using Topology Builder Merge wizard
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Merge using Topology Builder Merge wizard
 ms:assetid: c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205243(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Lock or unlock a user PIN in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

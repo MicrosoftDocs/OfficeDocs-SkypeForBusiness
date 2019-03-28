@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Associate a subnet with a network site'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Associate a subnet with a network site
 ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412804(v=OCS.15)

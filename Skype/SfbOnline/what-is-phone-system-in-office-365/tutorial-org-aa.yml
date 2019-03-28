@@ -29,16 +29,24 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both use [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) to enable call control and PBX capabilities in the Office 365 cloud. 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
+    [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and PBX capabilities in the Office 365 cloud. The license 
+    is available as an add-on or as part of the Enterprise E5 licenses. Licensing details are at 
+    [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). 
 
-    Phone System allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include voicemail and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your organization using the Skype for Business admin center.
+    A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
+    voicemail and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
+    to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your 
+    organization using the Skype for Business admin center.
     
-    If you are asked to set up an Auto Attendant, this article will guide you through planning and implementing Auto Attendants for a hypothetical small business. It's not a one-size-fits-all solution, but it is a good starting point. 
+    If you are asked to set up an Auto Attendant, this article provides an illustration of planning and implementing Auto Attendants for a hypothetical small business. 
+    It's not a one-size-fits-all solution, but it is a good starting point. 
   
     ## Before you begin
 
     We assume you've already done the following: 
-    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/what-are-calling-plans-in-office-365) 
+    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
     to provide phone numbers to your users.
     - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
     - Reviewed [What are Phone System Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
@@ -75,7 +83,7 @@ items:
     |555-0192	|Julie	Wolfe	    |reception and scheduling | Also Operator during business hours  |
     |555-0193	|Jakob	Roth	    |billing  |  |
     |555-0194	|Laura	Heinrich	|billing  |  |
-    |555-0195	|Franco	Piccio	  |records  |  |
+    |555-0195	|Franco	Piccio	    |records  |  |
     | | | | |  |
   
 
@@ -185,6 +193,9 @@ items:
 
     In this example, we can assume we've enabled the **Dial by Name** option and it's expected that callers either know the name of the person or they're okay with 
     talking to anyone in that job category. Since this is an optional variation, the later stages will assume we're implementing the first diagram. 
+
+    If you have Visio, you could use that to visualize your design. The Visio file containing the diagrams above is available for 
+    [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/images/AA-LawyerOfficeExample.vsdx?raw=true). 
 
 - title: Writing the scripts 
   durationInMinutes: 3
