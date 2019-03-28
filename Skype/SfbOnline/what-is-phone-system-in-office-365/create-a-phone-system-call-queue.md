@@ -1,7 +1,7 @@
 ---
 title: "Create a Phone System call queue"
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
