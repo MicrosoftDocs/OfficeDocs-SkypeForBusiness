@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 support for large meetings
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Support for large meetings
 ms:assetid: 8f0446d5-1ed9-4ea0-bb97-6c062a98a1eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205090(v=OCS.15)

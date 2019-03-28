@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Upgrade or update Front End Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)

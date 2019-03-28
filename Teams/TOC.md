@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Cloud Video Interop](cloud-video-interop.md)
-
-## Live events
-### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
-### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 
@@ -305,15 +285,35 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Cloud Video Interop](cloud-video-interop.md)
+
+## Live events
+### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
+### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
+### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Cloud voice](cloud-voice-landing-page.md)
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
 ### [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 ### [Set up Phone System](setting-up-your-phone-system.md)
 ### [Set up common area phones](set-up-common-area-phones.md)
-### Voice mail
-#### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
-#### [Change the default language for voice mail](change-the-default-language-for-greetings-and-emails.md)
+### Voicemail
+#### [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
+#### [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
 #### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

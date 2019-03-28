@@ -1,5 +1,8 @@
-﻿---
+---
 title: Configure the meeting join page
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure the meeting join page
 ms:assetid: a87319b7-3124-4262-8f9d-18138870ee2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205145(v=OCS.15)

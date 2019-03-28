@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: ConferenceMessageCount table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: ConferenceMessageCount table
 ms:assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398590(v=OCS.15)

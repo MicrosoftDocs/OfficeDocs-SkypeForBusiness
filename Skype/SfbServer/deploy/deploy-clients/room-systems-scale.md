@@ -136,7 +136,7 @@ You need to create and configure the following packages, and then distribute the
 | SRS v2 - Configure SRS Setup         | Software package       | Package to configure deployment of the Skype Room Systems v2 app                          |
 | SRS v2 - OS Updates Package          | Software package       | Package to deploy mandatory operating system updates                                      |
 | SRS v2 - Root Certificate Package    | Software package       | Optional - Package to deploy the root certificate (not required for domain-joined units)  |
-| SRS v2 - Microsoft OMS Agent Package | Software package       | Optional - Package to deploy and configure the Microsoft Operations Management Suite agent|
+| SRS v2 - Microsoft Monitoring Agent Package | Software package       | Optional - Package to deploy and configure the Microsoft Operations Management Suite agent|
 | SRS v2 - WinPE Background Package    | Software package       | Package for the custom background image to use with boot images                           |
 | Windows 10 Enterprise                | Operating system image | Package for the operating system installation file (install.wim)                          |
 | Surface Pro                          | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro                     |
@@ -150,7 +150,7 @@ Configuration Manager requires package source files to be organized in a specifi
 
 Create the following folder structure on the System Center Configuration Manager central administration site or primary site, or on a server share you’re using to host package source files:
 
--   SRS v2 - Microsoft OMS Agent Package
+-   SRS v2 - Microsoft Monitoring Agent Package
 -   SRS v2 - OS Updates Package
 -   SRS v2 - Root Certificate Package
 -   SRS v2 - Set-SRSComputerName Package
@@ -166,23 +166,23 @@ Create the following folder structure on the System Center Configuration Manager
 > [!TIP]
 > You may also [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) and use the zip file that includes the folder structure for the packages, the scripts that you need to use, and the task sequence template, that you need to import.
 
-### Create the Microsoft Operations Management Suite agent package
+### Create the Monitoring agent package
 
-1. Download the Operations Management Suite X-64 agent from <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1. Download the Monitoring agent from <https://go.microsoft.com/fwlink/?LinkId=828603>.
 
-2. Extract the package into the **SRS v2 - Microsoft OMS Agent Package** folder by opening a Command Prompt window and entering **MMASetup-AMD64.exe /C:**     at the command prompt.
+2. Extract the package into the **SRS v2 - Microsoft Monitoring Agent Package** folder by opening a Command Prompt window and entering **MMASetup-AMD64.exe /C:**     at the command prompt.
 
 3. In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 4. Enter the following information to create the package:
 
-   - Name<strong>: SRS v2 - Microsoft OMS Agent Package</strong>
+   - Name<strong>: SRS v2 - Microsoft Monitoring Agent Package</strong>
 
    - Manufacturer<strong>: Microsoft Corporation</strong>
 
    - Version<strong>: 8.1.11081.0</strong> (enter the version of the downloaded installation file)
 
-   - Select the **This package contains source files** check box, enter the path to the **SRS v2 - Microsoft OMS Agent Package** folder, and then select **Next**.
+   - Select the **This package contains source files** check box, enter the path to the **SRS v2 - Microsoft Monitoring Agent Package** folder, and then select **Next**.
 
 5. Select **Do not create a program**, and then select **Next**.
 
@@ -623,12 +623,12 @@ You can download and easily import a sample task sequence and customize it to me
       -   Enable this step if you need to deploy a root certificate to the Skype Room Systems v2 units.
       -   If you do need to perform this step, verify that the **SRS v2 – Root Certificate Package** and **Disable 64-bit file system redirection** are selected.
 
-   10. **Install and Configure OMS Agent**: This step installs the 64-bit version of the Microsoft Operations Management Suite agent and configures the agent to connect to your Log Analytics workspace.
-       -   This step is disabled by default. Enable this step only if you’re going to use OMS to monitor the health of your Skype Room Systems v2 units.
+   10. **Install and Configure Monitoring Agent**: This step installs the 64-bit version of the Microsoft Azure Monitor agent and configures the agent to connect to your Log Analytics workspace.
+       -   This step is disabled by default. Enable this step only if you’re going to use the Monitoring Agent to monitor the health of your Skype Room Systems v2 units.
        -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
-       -   See [Connect Windows computers to the Log Analytics service in Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
-       -   Verify that the **SRS v2 – Microsoft OMS Agent Package** and **Disable 64-bit file system redirection** are selected.
-       -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and [Deploy Skype Room Systems v2 management with OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
+       -   See [Configure test devices for Azure Monitoring](azure-monitor.md#configure-test-devices-for-azure-monitoring) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
+       -   Verify that the **SRS v2 – Microsoft Monitoring Agent Package** and **Disable 64-bit file system redirection** are selected.
+       -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Skype Room Systems v2 management with Azure Monitor](azure-monitor.md) and [Manage Skype Room Systems v2 devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
 
    11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Skype Room Systems v2 deployment kit to the local hard drive. No customization is required for this step.
        -   Verify that the **SRS v2 – SRS Application Package** and **Disable 64-bit file system redirection** are selected.

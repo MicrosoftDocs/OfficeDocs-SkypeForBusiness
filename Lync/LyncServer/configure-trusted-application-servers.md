@@ -1,5 +1,8 @@
-﻿---
+---
 title: Configure trusted application servers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure trusted application servers
 ms:assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204735(v=OCS.15)

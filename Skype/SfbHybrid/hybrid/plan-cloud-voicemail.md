@@ -1,5 +1,6 @@
 ---
-title: Plan Cloud Voicemail service | PBX Skype for Business Server 2019 
+title: Plan Cloud Voicemail service for on-premises users| PBX Skype for Business Server 2019 
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,11 +12,11 @@ ms.collection:
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
 
-# Plan Cloud Voicemail service
+# Plan Cloud Voicemail service for on-premises users
 
 ## Overview
 
-This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
+This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service for your on-premises users. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
 Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing voice messaging functionality for Skype for Business 2019 voice users who have mailboxes on Exchange Server 2019 or Exchange Online. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 

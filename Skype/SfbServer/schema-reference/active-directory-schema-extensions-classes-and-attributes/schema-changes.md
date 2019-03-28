@@ -1,5 +1,6 @@
 ---
 title: "Schema changes in Skype for Business Server"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

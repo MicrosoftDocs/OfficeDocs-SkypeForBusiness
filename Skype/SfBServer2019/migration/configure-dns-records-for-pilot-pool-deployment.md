@@ -1,5 +1,6 @@
 ---
 title: "Configure DNS records for pilot pool deployment"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

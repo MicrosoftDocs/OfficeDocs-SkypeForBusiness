@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Components used by the Announcement application'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Components used by the Announcement application
 ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398608(v=OCS.15)

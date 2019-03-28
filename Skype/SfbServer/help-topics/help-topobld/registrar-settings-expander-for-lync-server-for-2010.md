@@ -1,5 +1,6 @@
 ---
 title: "Registrar Settings Expander for Lync Server for 2010"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

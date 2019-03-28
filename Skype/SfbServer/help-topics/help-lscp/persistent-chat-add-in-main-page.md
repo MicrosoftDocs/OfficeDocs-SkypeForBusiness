@@ -1,5 +1,6 @@
 ---
 title: "Persistent Chat Add-in Main Page"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

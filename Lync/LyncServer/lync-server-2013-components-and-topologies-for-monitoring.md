@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Components and topologies for monitoring'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Components and topologies for monitoring
 ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)

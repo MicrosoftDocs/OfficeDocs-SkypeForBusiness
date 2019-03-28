@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Technical requirements for Call Park'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for Call Park
 ms:assetid: 38bcf302-2b72-4492-9266-f6dc31b566e1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204818(v=OCS.15)

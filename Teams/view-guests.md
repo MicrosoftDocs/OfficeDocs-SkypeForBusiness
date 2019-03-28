@@ -1,5 +1,6 @@
 ---
 title: View guest users in a team
+ms.reviewer: 
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars

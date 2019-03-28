@@ -1,5 +1,6 @@
 ---
 title: "Apply updates"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 ms.topic: get-started-article

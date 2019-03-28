@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure DNS for edge support'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure DNS for edge support
 ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398756(v=OCS.15)

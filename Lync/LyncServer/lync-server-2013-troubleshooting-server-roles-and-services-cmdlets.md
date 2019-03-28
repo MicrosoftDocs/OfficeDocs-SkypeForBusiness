@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Troubleshooting server roles and services cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Troubleshooting server roles and services cmdlets
 ms:assetid: 03be4cae-bf35-40b2-8e02-477b64afa4c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415628(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Exporting archived data'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Exporting archived data
 ms:assetid: 09450d54-769b-4741-924b-e390664d506f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204657(v=OCS.15)

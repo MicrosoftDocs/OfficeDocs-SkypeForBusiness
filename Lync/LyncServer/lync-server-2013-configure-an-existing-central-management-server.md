@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure an existing Central Management Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure an existing Central Management Server
 ms:assetid: d715b24a-1256-4a7c-a5ef-1cee41d6b733
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205315(v=OCS.15)

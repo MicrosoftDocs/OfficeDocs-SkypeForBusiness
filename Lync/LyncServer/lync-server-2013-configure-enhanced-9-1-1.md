@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure Enhanced 9-1-1'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure Enhanced 9-1-1
 ms:assetid: 5967de00-c8b9-4923-86da-6ad3369a4cad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398390(v=OCS.15)

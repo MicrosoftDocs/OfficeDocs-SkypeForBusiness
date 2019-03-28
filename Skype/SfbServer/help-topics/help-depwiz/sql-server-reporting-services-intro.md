@@ -1,5 +1,6 @@
 ---
 title: "SQL Server Reporting Services (Intro)"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

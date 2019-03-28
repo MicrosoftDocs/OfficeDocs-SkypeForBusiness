@@ -1,5 +1,6 @@
 ---
 title: "Requirements for your Skype for Business environment"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

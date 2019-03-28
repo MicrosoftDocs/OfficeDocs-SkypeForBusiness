@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Create or modify a normalization rule by using Build a Normalization Rule'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a normalization rule by using Build a Normalization Rule
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399036(v=OCS.15)

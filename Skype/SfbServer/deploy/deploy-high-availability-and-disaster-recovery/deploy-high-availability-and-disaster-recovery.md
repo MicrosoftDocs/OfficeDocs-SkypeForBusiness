@@ -1,5 +1,6 @@
 ---
 title: "Deploy high availability and disaster recovery"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro

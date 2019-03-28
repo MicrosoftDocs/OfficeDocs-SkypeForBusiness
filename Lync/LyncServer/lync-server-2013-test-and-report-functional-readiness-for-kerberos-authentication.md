@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Test and report functional readiness for Kerberos authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Test and report functional readiness for Kerberos authentication
 ms:assetid: d52c39e5-747d-4f29-88aa-30fd6f26b99c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398925(v=OCS.15)

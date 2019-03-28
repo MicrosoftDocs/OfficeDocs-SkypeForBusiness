@@ -1,5 +1,6 @@
 ---
 title: "Plan location policies for Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

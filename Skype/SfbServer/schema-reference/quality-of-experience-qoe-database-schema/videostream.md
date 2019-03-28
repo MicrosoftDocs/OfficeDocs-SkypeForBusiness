@@ -1,5 +1,6 @@
 ---
 title: "VideoStream table"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deleting existing network region routes'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deleting existing network region routes
 ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688074(v=OCS.15)

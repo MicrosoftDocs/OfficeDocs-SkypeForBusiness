@@ -1,5 +1,6 @@
 ---
 title: Microsoft StaffHub to be retired 
+author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars

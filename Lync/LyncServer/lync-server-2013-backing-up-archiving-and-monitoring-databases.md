@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Backing up Archiving and Monitoring databases'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Backing up Archiving and Monitoring databases
 ms:assetid: c120db81-b02c-4a4c-90cd-8aca6cff64f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202188(v=OCS.15)

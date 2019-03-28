@@ -1,5 +1,6 @@
 ---
 title: "Select File Type Extensions"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Monitoring mobility for performance'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Monitoring mobility for performance
 ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690033(v=OCS.15)

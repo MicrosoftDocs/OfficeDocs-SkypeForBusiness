@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify the global hosted voice mail policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify the global hosted voice mail policy
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412994(v=OCS.15)

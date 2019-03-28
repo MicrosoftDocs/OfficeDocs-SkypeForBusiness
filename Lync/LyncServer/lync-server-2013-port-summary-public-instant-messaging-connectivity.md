@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Port summary - Public instant messaging connectivity'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)

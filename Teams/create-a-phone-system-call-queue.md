@@ -1,7 +1,7 @@
 ---
 title: "Create a Phone System call queue"
-ms.author: tonysmit
-author: tonysmit
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,9 +20,8 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
+description: "Learn how to set up phone system for PHone System call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
 ---
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 # Create a Phone System call queue
 
@@ -104,6 +103,8 @@ Before you can create and set up your call queues, you will need to get or trans
 If you are also setting up auto attendants, you may only need to assign a phone number to the main auto attendant's resource account, and then have it direct callers to your call queue. If that's the case, the call queue will need to be created before you can create an option in the auto attendant that selects the call queue.
   
 ## Step 3 - Create a new call queue
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Every call queue is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the call queue.
@@ -235,7 +236,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.
@@ -257,7 +258,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 - **Redirect this call to** When you choose this, you will have these options:
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.

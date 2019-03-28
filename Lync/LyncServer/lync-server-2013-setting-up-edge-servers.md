@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up Edge Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up Edge Servers
 ms:assetid: 09a22919-e36f-4122-8f0d-8d041198912d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398147(v=OCS.15)

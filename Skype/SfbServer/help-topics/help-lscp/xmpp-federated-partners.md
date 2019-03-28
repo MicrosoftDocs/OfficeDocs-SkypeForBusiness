@@ -1,5 +1,6 @@
 ---
 title: "XMPP Federated Partners"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

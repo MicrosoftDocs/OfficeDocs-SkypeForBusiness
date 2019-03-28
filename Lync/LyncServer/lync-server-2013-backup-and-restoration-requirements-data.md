@@ -1,5 +1,8 @@
 ---
 title: 'Lync Server 2013: Backup and restoration requirements: data'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Backup and restoration requirements: data'
 ms:assetid: ecfb8e4d-cb4f-476d-9772-4486bd683c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202194(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Scaled Director pool - DNS load balancing and hardware load balancer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)

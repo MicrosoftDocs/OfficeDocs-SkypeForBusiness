@@ -1,5 +1,8 @@
-﻿---
+---
 title: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)

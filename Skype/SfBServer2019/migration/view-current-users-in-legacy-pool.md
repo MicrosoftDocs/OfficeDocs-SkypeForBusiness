@@ -1,5 +1,6 @@
 ---
 title: "View current users in legacy pool"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "Install and open administrative tools"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

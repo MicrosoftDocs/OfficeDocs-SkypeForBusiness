@@ -1,5 +1,6 @@
 ---
 title: "Skype Room Systems v2"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

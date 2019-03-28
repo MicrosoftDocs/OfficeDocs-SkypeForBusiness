@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business Server Root Scope Node"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

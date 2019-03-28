@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Assign a per-user conferencing policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Assign a per-user conferencing policy
 ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521015(v=OCS.15)

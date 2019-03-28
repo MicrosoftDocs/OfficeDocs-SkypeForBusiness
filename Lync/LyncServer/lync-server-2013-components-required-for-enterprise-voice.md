@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Components required for Enterprise Voice'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Components required for Enterprise Voice
 ms:assetid: ee219976-c39a-4b2f-988d-886c339700f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399076(v=OCS.15)

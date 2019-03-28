@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for Archiving'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for Archiving
 ms:assetid: 898b83c1-007b-43be-9484-08fe49c10951
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205069(v=OCS.15)

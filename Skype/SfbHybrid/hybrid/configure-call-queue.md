@@ -11,9 +11,8 @@ localization_priority: Normal
 ms.collection: 
 description: "Overview of using a Cloud PBX call queue with Skype for Business Server 2019."
 ---
-[!INCLUDE [updating-admin-interfaces](../../SfbOnline/includes/updating-admin-interfaces.md)]
 
-# Configure Cloud call queues
+# Configure Cloud call queues 
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online.
 
@@ -63,6 +62,8 @@ Log in to the front end server and run the following PowerShell cmdlets:
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ## Online configuration steps
+
+[!INCLUDE [updating-admin-interfaces](../../SfbOnline/includes/updating-admin-interfaces.md)]
 
 Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
