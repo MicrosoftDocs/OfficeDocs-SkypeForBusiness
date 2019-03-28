@@ -26,7 +26,7 @@ As an admin, you can ensure that all Microsoft Teams meeting invitations include
 ## Tips for creating a logo for meeting invitations
 
 1. Create an image that is no more than 188 pixels wide by 30 pixels tall (it's quite small).
-2. Save the image in JPG format.
+2. Save the image in JPG or PNG format.
 3. Store the image in a central location that everyone in your business can access, such as a network share, shared OneDrive for Business folder, Dropbox, and so on.
 
     Now you can add it to your meeting invitations. See the next steps.
@@ -37,7 +37,7 @@ As an admin, you can ensure that all Microsoft Teams meeting invitations include
 2. From the Office 365 admin center, choose **Admin centers** > **Teams & Skype**.
 3. In the Microsoft Teams admin center, choose **Meetings** > **Meeting settings**.
 4. Complete the following:
-    - **Logo URL** - Enter the URL where your logo is stored. Remember that it must be in JPG format!
+    - **Logo URL** - Enter the URL where your logo is stored. Remember that it must be in JPG or PNG format!
     - **Legal URL** - If your organization has a legal website that you want people to go to if they have legal concerns, enter the URL here.
     - **Help URL** – If your organization has a support website that you want people to go to if they have problems, enter the URL here.
     - **Footer** – Enter a text-only footnote that is appropriate for your users.
