@@ -169,10 +169,6 @@ For files that were uploaded before **placeholder date**, you can move them to T
 #### Can I export shift schedules from Shifts?
   
 You can export shift schedule information to an Excel file from the Shifts desktop and web apps. You can then import this information to your organization's systems and tools.
- 
-#### Can I import shift schedules to Shifts?-FOLLOWUP
- 
-You can export shift schedule information to a XYZ file/format from your organization's systems and tools and then import to the Shifts desktop and web apps.
 
 #### How can I recover a schedule if I accidentally deleted a team?
 
