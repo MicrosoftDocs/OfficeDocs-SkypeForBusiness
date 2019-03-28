@@ -65,8 +65,6 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 
 Install and connect to the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
 
-For help with StaffHub PowerShell cmdlets, see [StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps).
-
 When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail: 
 
 - The signed in user is not a global admin
@@ -77,11 +75,11 @@ When you move a StaffHub team, the move request checks for prerequisites. Here's
 
 ## Pilot two or three teams
 
-We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot will help you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive Teams adoption across your organization. If you're a small business, this may be all you need to switch from StaffHub to Teams.
+We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive Teams adoption across your organization. If you're a small business, this may be all you need to make the switch from StaffHub to Teams.
 
 ### Move a StaffHub team
 
-Run the following to start a move request to move a team.
+Run the following to start a move request.
 
 ```
 Move-StaffHubTeam -Identity <String>
@@ -154,3 +152,4 @@ Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Androi
 ## Related topics
 - [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
 - [Manage the Shifts app for your organization in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+- [StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps).
