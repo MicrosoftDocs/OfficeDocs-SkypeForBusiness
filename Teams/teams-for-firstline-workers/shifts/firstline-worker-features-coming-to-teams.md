@@ -38,7 +38,7 @@ Due to a limitation on customizations and the unique platform structure in Tea
 
 *You will not be able to manage Intune MAM for StaffHub or Shifts, however, you can manage Intune MAM security with Teams. To learn more, see [Overview of security and compliance in Teams](../../security-compliance-overview.md).
 
-**You will no longer be able to distribute shared employee resources with your Firstline Workforce at scale in Teams. Instead, you can manually add a tab for files or websites in your teams for quick content access. To learn more, see [How to use Teams tabs](https://office365adoption.com/microsoft-teams-tabs/). Or you can use Teams Microsoft Graph APIs to programattically add the same tab to any teams that need to access the same shared resources. To learn more, see [Add tab to channel](https://docs.microsoft.com/graph/api/teamstab-add?view=graph-rest-1.0).
+**You will no longer be able to distribute shared employee resources with your Firstline Workforce at scale in Teams. Instead, you can manually add a tab for files or websites in your teams for quick content access. To learn more, see [How to use Teams tabs](https://office365adoption.com/microsoft-teams-tabs/). Or, you can use Teams Microsoft Graph APIs to programattically add the same tab to any teams that need to access the same shared resources. To learn more, see [Add tab to channel](https://docs.microsoft.com/graph/api/teamstab-add?view=graph-rest-1.0).
 
 We're committed to building capabilities to meet the needs of your Firstline Workforce and want to hear from you, send us feedback on [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
