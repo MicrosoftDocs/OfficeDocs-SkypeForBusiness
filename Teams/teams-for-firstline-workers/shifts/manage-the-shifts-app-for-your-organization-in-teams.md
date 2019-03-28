@@ -8,7 +8,7 @@ ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to set up and manage the Shifts app in Teams for firstline workers in your organization.
+description: Learn how to set up and manage the Shifts app in Teams for Firstline Workers in your organization.
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -20,10 +20,10 @@ appliesto:
 # Manage the Shifts app for your organization in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out to Teams over time. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
+> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
 
 ## Overview of Shifts
-The Shifts app in Microsoft Teams keeps firstline workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Shifts lets firstline workers and their managers use their mobile devices to manage schedules and keep in touch. 
+The Shifts app in Microsoft Teams keeps Firstline Workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Shifts lets Firstline Workers and their managers use their mobile devices to manage schedules and keep in touch. 
 
 - Managers create, update, and manage shift schedules for teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos. 
 - Employees view their upcoming shifts, can see who else is scheduled for the day, request to swap or offer a shift, and request time off. 
@@ -58,23 +58,23 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
  
-Teams includes a built-in FirstLineWorker app setup policy that you can assign to firstline workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
+Teams includes a built-in Firstline Worker app setup policy that you can assign to Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
 
-To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
+To view the Firstline Worker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 
-![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center](../../media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
+![Screen shot of the Firstline Worker app setup policy in the Microsoft Teams admin center](../../media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
 
-#### Assign the FirstLineWorker policy to individual users
+#### Assign the Firstline Worker policy to individual users
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Next to **Assigned policies**, choose **Edit**.
 3. Under **Teams App Setup policy**, select **FirstLineWorker**, and then choose **Save**.
 
-#### Assign the FirstLineWorker app setup policy to users in a group
+#### Assign the Firstline Worker app setup policy to users in a group
 
-You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
+You can assign the Firstline Worker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
 
-In this example, we assign the FirstLineWorker app setup policy to all users in the Contoso Firstline Team group.
+In this example, we assign the Firstline Worker app setup policy to all users in the Contoso Firstline Team group.
 
 > [!NOTE]
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -94,4 +94,4 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstLineWo
 Depending on the number of members in the group, this command may take several minutes to execute.
 
 ## Related topics
-- [Shifts Help for firstline workers and managers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Shifts Help for Firstline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

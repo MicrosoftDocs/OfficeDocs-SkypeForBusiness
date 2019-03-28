@@ -16,7 +16,7 @@ appliesto:
 
 # Shifts for Teams
 
-Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
+Teams gives Firstline Workers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
 
 ### Move from StaffHub to Shifts in Teams
 
