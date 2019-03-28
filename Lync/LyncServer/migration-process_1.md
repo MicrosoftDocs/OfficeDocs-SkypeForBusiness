@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migration process
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migration process
 ms:assetid: b2bd9c76-2f4b-4d14-a5c4-157bbff75de0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205181(v=OCS.15)

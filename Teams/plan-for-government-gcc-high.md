@@ -96,7 +96,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Cloud recording | On the Government backlog |
 | | Meeting notes | Available |
 | | Broadcast meetings | On the Government backlog |
-| | Federated meetings | Available |
+| | Intra-cloud (GCCH to GCCH) Federated meetings | Available |
 | | Surface Hub support | On the Government backlog |
 | Calls | Contacts | Available |
 | | History | Available |

@@ -1,5 +1,6 @@
 ---
 title: 'Managing network subnets'
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

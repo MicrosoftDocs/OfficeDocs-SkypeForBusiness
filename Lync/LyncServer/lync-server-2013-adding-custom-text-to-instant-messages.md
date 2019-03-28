@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Adding custom text to instant messages'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Adding custom text to instant messages
 ms:assetid: cabcc3ec-9d35-42ac-a403-e21b7d538c2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398847(v=OCS.15)

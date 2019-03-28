@@ -1,5 +1,6 @@
 ---
 title: "Use the Skype for Business Server 2015 Control Panel"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

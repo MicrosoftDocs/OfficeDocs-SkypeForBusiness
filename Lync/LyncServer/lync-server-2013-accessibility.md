@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 accessibility
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Add Edge Machine Internal IP"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

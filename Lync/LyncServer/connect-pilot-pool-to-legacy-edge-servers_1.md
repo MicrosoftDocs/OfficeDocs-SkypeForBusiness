@@ -1,5 +1,8 @@
-﻿---
+---
 title: Connect pilot pool to legacy Edge Servers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)

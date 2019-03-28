@@ -1,5 +1,6 @@
 ---
 title: "Download and install the Skype for Business Online Connector module"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

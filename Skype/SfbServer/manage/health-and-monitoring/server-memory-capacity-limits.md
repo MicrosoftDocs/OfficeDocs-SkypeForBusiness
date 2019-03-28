@@ -1,5 +1,6 @@
 ---
 title: "Monitor for server memory capacity limits in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

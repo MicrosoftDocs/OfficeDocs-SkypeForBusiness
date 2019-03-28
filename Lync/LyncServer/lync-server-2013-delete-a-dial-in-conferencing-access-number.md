@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delete a dial-in conferencing access number'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete a dial-in conferencing access number
 ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)

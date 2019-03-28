@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Verify the topology design'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify the topology design
 ms:assetid: c1b61814-239e-4101-aab0-de3db1d8793c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412951(v=OCS.15)

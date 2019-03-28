@@ -1,5 +1,8 @@
-﻿---
+---
 title: Reset call admission control
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reset call admission control
 ms:assetid: 5873f56c-f3d6-4d73-beea-c9f37d5077f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688064(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Exchange and SharePoint integration support'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Exchange and SharePoint integration support
 ms:assetid: 72bf8aa5-55b1-4851-8a59-c96bf85d215a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205005(v=OCS.15)

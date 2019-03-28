@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing third-party audio conferencing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing third-party audio conferencing
 ms:assetid: 0428eb2f-a5ce-47e5-9ea4-383965dfc1e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727299(v=OCS.15)

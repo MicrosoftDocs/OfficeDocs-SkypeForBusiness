@@ -1,5 +1,6 @@
 ---
 title: "Configure a secondary Location Information service in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

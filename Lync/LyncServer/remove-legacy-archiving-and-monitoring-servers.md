@@ -1,5 +1,8 @@
-﻿---
+---
 title: Remove legacy Archiving and Monitoring servers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove legacy Archiving and Monitoring servers
 ms:assetid: befa586b-615c-496e-996e-395a6e36a826
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205221(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Media Quality Comparison Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Media Quality Comparison Report
 ms:assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205236(v=OCS.15)

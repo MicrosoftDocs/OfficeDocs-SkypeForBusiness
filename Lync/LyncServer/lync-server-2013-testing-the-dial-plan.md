@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing the dial plan'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)

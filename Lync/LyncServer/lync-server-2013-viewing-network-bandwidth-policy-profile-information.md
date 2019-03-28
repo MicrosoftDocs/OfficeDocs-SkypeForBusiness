@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Viewing network bandwidth policy profile information'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Viewing network bandwidth policy profile information
 ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721931(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing UCWA conferencing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing UCWA conferencing
 ms:assetid: 62b3866a-0759-4b1f-99ec-5a68d6a74f00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727306(v=OCS.15)

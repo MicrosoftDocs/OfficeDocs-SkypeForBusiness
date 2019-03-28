@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring port ranges for your Microsoft Lync clients'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring port ranges for your Microsoft Lync clients
 ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)

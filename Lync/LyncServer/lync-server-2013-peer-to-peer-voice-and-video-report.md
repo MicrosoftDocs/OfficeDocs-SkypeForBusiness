@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Peer-to-Peer Voice and Video Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Peer-to-Peer Voice and Video Report
 ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615040(v=OCS.15)

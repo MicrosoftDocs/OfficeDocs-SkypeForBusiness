@@ -1,5 +1,6 @@
 ---
 title: "Set up your computer for Windows PowerShell"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -49,7 +50,7 @@ You can find information about downloading and installing these items in the fol
   
 - [Download and install the Skype for Business Online Connector module](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Download and install Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
+- [Download and install Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
     
 ## Related topics
 [Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Steps to prepare and deploy Lync Server hybrid environment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Steps to prepare and deploy Lync Server 2013 hybrid environment
 ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205157(v=OCS.15)

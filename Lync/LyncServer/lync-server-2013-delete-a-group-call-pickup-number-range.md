@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delete a Group Call Pickup number range'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete a Group Call Pickup number range
 ms:assetid: 521891f3-7a5d-45de-92dc-d57025453159
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945629(v=OCS.15)

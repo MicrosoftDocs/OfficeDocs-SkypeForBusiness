@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business Online support in Outlook on the web"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

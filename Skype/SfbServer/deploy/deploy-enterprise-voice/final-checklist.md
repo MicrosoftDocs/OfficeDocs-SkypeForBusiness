@@ -1,5 +1,6 @@
 ---
 title: "Call admission control deployment final checklist for Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

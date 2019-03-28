@@ -2,6 +2,9 @@
 layout: HubPage
 hide_bc: true
 title: Microsoft Teams technical documentation
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority

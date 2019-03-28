@@ -1,5 +1,6 @@
 ---
 title: "Client Version Rule"
+ms.reviewer: 
 ms.author: dianef
 author: dianef77
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Add Kerberos authentication to other sites'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Add Kerberos authentication to other sites
 ms:assetid: d3a30b1f-6d41-421c-823c-61fc3e25ca03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398914(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delegation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delegation
 ms:assetid: 89e76e5c-3cfb-4504-8d0d-7509c8ba9815
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994045(v=OCS.15)

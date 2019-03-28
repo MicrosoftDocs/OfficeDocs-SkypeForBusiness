@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 SIP trunking support
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: SIP trunking support
 ms:assetid: e3042831-e8d8-4ea2-baa2-1a697401ffa0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399005(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: 'Failing over and failing back a pool'
+ms.reviewer: 
 author: heidip
 manager: serdars
 ms.audience: ITPro

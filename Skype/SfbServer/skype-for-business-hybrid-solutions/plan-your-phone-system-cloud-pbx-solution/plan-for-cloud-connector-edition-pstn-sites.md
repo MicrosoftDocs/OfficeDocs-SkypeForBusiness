@@ -1,5 +1,6 @@
 ---
 title: "Plan for Cloud Connector Edition PSTN sites"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

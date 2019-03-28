@@ -1,5 +1,6 @@
 ---
 title: "Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

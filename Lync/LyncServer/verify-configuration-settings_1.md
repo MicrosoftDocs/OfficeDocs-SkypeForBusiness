@@ -1,5 +1,8 @@
-﻿---
+---
 title: Verify configuration settings
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify configuration settings
 ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)

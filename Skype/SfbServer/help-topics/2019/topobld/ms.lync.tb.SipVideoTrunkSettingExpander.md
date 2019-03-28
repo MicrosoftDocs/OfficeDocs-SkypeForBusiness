@@ -1,5 +1,6 @@
 ---
 title: "SIP Video Trunk Setting Expander"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 technical requirements for IPv6
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for IPv6
 ms:assetid: caff0123-ce41-4a62-87a0-00b1d118b72b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205278(v=OCS.15)

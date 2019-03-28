@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enabling or disabling integration with Exchange storage'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enabling or disabling integration with Exchange storage
 ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)

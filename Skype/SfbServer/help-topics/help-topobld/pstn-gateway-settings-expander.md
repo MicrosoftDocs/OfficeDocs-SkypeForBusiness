@@ -1,5 +1,6 @@
 ---
 title: "PSTN Gateway Settings Expander"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

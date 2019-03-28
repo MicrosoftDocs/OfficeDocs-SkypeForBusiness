@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring SIP federation, XMPP federation and public instant messaging'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring SIP federation, XMPP federation and public instant messaging
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205134(v=OCS.15)

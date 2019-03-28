@@ -80,11 +80,11 @@ You may want to change settings for the following, based on your organization's 
 
 ### Voicemail
 
-Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems. Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
+Cloud Voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems. Cloud Voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
 
 |Ask yourself|Action |
 |:------------|:-------|
-| Do I want to enable Phone System voicemail? | For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+| Do I want to enable Cloud Voicemail? | For voicemail setup procedures, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 | Do I want to enable voicemail transcription for some or all of my users? | To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 

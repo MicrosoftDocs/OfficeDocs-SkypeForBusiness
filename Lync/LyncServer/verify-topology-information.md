@@ -1,5 +1,8 @@
-﻿---
+---
 title: Verify topology information
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Let Skype for Business users add Skype contacts"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Reset the global policy for external user access'
+ms.reviewer: 
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675

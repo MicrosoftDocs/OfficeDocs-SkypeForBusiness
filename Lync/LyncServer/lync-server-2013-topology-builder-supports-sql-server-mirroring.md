@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 Topology Builder supports SQL Server mirroring
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Topology Builder supports SQL Server mirroring
 ms:assetid: 2c1caa73-c707-4e53-ae3f-a100534373fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688007(v=OCS.15)

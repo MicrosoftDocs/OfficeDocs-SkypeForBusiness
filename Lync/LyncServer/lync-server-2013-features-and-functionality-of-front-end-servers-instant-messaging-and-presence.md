@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Features and functionality of Front End Servers, instant messaging, and presence'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Features and functionality of Front End Servers, instant messaging, and presence
 ms:assetid: 05b29536-dcd7-49b5-934a-2ebf20ddc45c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398109(v=OCS.15)

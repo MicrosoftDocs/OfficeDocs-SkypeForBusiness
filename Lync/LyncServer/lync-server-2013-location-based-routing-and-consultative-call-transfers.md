@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Location-Based Routing and consultative call transfers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)

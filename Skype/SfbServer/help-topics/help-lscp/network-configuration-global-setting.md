@@ -1,5 +1,6 @@
 ---
 title: "Network Configuration Global Setting"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

@@ -1,5 +1,6 @@
 ---
-title: "Configure Cloud Voicemail service"
+title: "Configure Cloud Voicemail service for on-premises users"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,7 +13,7 @@ ms.collection:
 description: "Instructions for implementing cloud-based voicemail for users homed on Skype for Business Server."
 ---
 
-# Configure Cloud Voicemail service
+# Configure Cloud Voicemail service for on-premises users
 
 ## Overview 
 This article describes how to configure Microsoft Cloud Voicemail service for your Skype for Business on-premises users.  

@@ -1,5 +1,6 @@
 ---
 title: "DNS basics"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

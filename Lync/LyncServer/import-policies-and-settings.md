@@ -1,5 +1,8 @@
-﻿---
+---
 title: Import policies and settings
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Import policies and settings
 ms:assetid: b25decee-2ee5-4836-b370-454411d39252
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205178(v=OCS.15)
