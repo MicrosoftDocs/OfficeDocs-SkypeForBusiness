@@ -32,7 +32,7 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 |**Audio Conferencing** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audio Conferencing** add-on <br/>Once you buy the license, Microsoft will be your audio conferencing provider. |
 |**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world** <br/> |[Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Phone System** <br/> |1. **Office 365 Phone System** add-on <br/> 2. Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365. <br/>  Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Phone System voicemail** <br/> |For E1 and E4 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
+|**Cloud Voicemail** <br/> |For E1 and E4 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
 |**Calling Plans** <br/> |1. **Phone System** add-on <br/> 2. [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on. <br/> |
    
   
