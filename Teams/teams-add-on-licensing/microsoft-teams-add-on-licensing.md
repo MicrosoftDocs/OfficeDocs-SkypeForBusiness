@@ -90,7 +90,7 @@ For extensive documentation on planning your deployment, including Phone System 
 
 - [Set up Teams](../microsoft-teams.md)
     
-- [Set up Phone System voicemail - Admin help](../set-up-phone-system-voicemail.md)
+- [Set up Cloud Voicemail - Admin help](../set-up-phone-system-voicemail.md)
     
 - [Calling Plans for Office 365](../calling-plans-for-office-365.md) and [Set up Calling Plans](../set-up-calling-plans.md)
     
