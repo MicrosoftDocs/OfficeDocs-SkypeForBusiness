@@ -77,10 +77,13 @@ When you move a StaffHub team, the move request checks for prerequisites. Here's
 
 We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive adoption across your organization. If you're a small business who doesn't need a phased approach, the steps in this section may be all you need to make the switch from StaffHub to Teams.
 
-- **Identify pilot teams**. Reach out to identify two or three pilot teams. All team members should commit to using Shifts in Teams to manage their schedules and communicate and collaborate with each other.
-- **Identify team champions**. Identify champions across pilot teams and enlist them to help evangelize Shifts. Team champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Team champions can be team owners or managers.
+### Identify pilot teams
 
-When you've identified your pilot teams and team champions, you're ready to transition them to Shifts in Teams. You might want to hold a kickoff meeting with team champions to discuss the pilot and introduce Shifts.
+Reach out to identify two or three pilot teams. All team members should commit to using Shifts in Teams to manage their schedules and communicate and collaborate with each other.
+
+### Identify team champions
+
+Identify champions across pilot teams and enlist them to help evangelize Shifts. Team champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Team champions can be team owners or managers.
 
 Team champions should ensure team members are set up by dedicating time for everyone to [get Teams clients](../../get-clients.md), sign in to Teams and check out their schedules in Shifts, and start chatting with each other. Users who are already familiar with StaffHub will be up and running quickly in Shifts. You can also point them to [Shifts Help](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) for additional help.
 
@@ -122,7 +125,7 @@ When you're ready to go beyond your pilot teams and move your organization's Sta
 
 ### Move your StaffHub teams
 
-Use these steps to move more than one StaffHub team at a time. You can move all your organization's StaffHub teams or move specific StaffHub teams.
+Use these steps to move StaffHub teams in bulk. You can choose to move all your organization's StaffHub teams or move specific StaffHub teams. To move StaffHub teams one at a time, see [Move a StaffHub team](#move-a-staffhub-team). 
 
 #### Move all StaffHub teams
 
@@ -172,7 +175,7 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++
 
 ## Before you start
 
