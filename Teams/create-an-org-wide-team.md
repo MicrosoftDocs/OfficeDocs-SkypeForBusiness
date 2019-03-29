@@ -23,7 +23,11 @@ Org-wide teams provide an automatic way for everyone in a small to medium-sized 
  
 With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 2,500 users. If these requirements are met, global admins will see **Org-wide** as an option under **Privacy** when creating a team. 
 
-![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
+###### Create a Team
+![Screen shot of the create a team](../Teams/CreateATeamSite.png)
+
+###### Choose Org-wide
+![Screen shot of the Org-wide option to create an org-wide team](../Teams/OrgwideTeams.png)
 
 > [!NOTE]
 > If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or your organization might have more than the current size limit of 2,500 members. We're looking to increase this limit in future.
@@ -32,6 +36,7 @@ When an org-wide team is created, all global admins are added as team owners and
 
 > [!NOTE]
 > Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
+> Only users that has teams license will be added automatically in Org-Web Team, after the org-web team has been created the New Users and newly enabled licensed users will have the option to join Org-web once they login to Teams.
 
 ## Best practices
 To get the most out of your org-wide team, we recommend team owners do the following.
@@ -58,3 +63,9 @@ If this isn't an option, you can create a public team using PowerShell and add a
 
 Global admins can convert an existing team to an org-wide team editing it in Teams client.
 Go to the team name and click More options ...(ellipsis) > Edit team.
+
+### Can we exclude groups or users not to be added as a member of an org-wide team?
+Since Org-wide channel is an automatic way for everyone in an organization to be a part of a team. It is best practice to check group membership after the team is created . Add members that should be in the group then remove members that doesn’t belong to the group.
+
+## Got feedback? 
+To give us product feedback about Teams, such as ideas for new features, please visit [Uservoice](https://microsoftteams.uservoice.com)
