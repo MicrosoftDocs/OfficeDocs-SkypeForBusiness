@@ -20,7 +20,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/microsoftteams/healthcare/healthcare-templates?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -38,7 +38,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/healthcare/messaging-policies-hc?branch=flw-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

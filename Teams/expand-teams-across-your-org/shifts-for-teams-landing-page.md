@@ -1,6 +1,6 @@
 ---
-title: Expanding Microsoft Teams across your organization
-description: Use these resources to get the most out of Teams across your organization.
+title: Shifts for Teams
+description: Get the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams. 
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -14,22 +14,25 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Expand Microsoft Teams across your organization
+# Shifts for Teams
 
-<br>
+Teams gives Firstline Workers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
+
+### Move from StaffHub to Shifts in Teams
+
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts-for-teams-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Shifts for Teams</h3>
+                        <h3>Learn about StaffHub retirement and the transition to Shifts in Teams</h3>
                     </div>
                 </div>
             </div>
@@ -37,17 +40,17 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-healthcare-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="health" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams for Healthcare</h3>
+                        <h3>Move your StaffHub teams to Shifts in Teams</h3>
                     </div>
                 </div>
             </div>
@@ -55,53 +58,58 @@ appliesto:
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-education-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="education" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams for Education</h3>
+                        <h3>Firstline Worker features coming to Teams</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-<li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-retail-landing-page?branch=FLW-working">
+</ul>
+
+### Set up and manage Shifts
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="business" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams for Retail</h3>
+                        <h3>Manage Shifts in your organization</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-<li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-government-landing-page?branch=FLW-working">
+    <li>
+        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="blocks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams for Government</h3>
+                        <h3>Shifts Help for firstline managers and workers</h3>
                     </div>
                 </div>
             </div>
