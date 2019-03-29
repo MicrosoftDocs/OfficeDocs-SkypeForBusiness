@@ -98,7 +98,7 @@ For extensive documentation on planning your deployment, including Phone System 
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
+- [Set up Cloud Voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
     
 - [Set up Calling Plans](/microsoftteams/set-up-calling-plans) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
     

@@ -86,8 +86,8 @@ Version interoperability and supported topologies for Cloud Voicemail are listed
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail
-Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM |  | Cloud Voicemail <br> Exchange Online UM* |
-Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | | Cloud Voicemail <br> Exchange Online UM* |
+Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail <br> Exchange Online UM* |
+Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail <br> Exchange Online UM* |
 
 \* Until deprecated. See [Exchange Unified Messaging Online migration support](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) for more information. 
 
