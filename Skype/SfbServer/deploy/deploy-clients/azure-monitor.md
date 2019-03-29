@@ -115,9 +115,6 @@ To extract your custom fields out of the captured event logs, follow these steps
    2.  Sample query: `Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Select one of the records, select the button to the left, and start the field extraction wizard.
-
-   ![Field extraction wizard](../../media/Deploy-Azure-Monitor-3.png "Field extraction wizard")
-
 4. Highlight the data you’d like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
 
    ![Custom field definition](../../media/Deploy-Azure-Monitor-4.png "Custom field definition")
