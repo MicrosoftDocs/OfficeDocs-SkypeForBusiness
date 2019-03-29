@@ -125,7 +125,7 @@ When you're ready to go beyond your pilot teams and move your organization's Sta
 
 ### Move your StaffHub teams
 
-Use these steps to move StaffHub teams in bulk. You can choose to move all your organization's StaffHub teams or move specific StaffHub teams. To move StaffHub teams one at a time, see [Move a StaffHub team](#move-a-staffhub-team). 
+Use these steps to move StaffHub teams in bulk. You can choose to move all your organization's StaffHub teams or move specific StaffHub teams. If you want to move StaffHub teams one at a time, see [Move a StaffHub team](#move-a-staffhub-team). 
 
 #### Move all StaffHub teams
 
