@@ -84,7 +84,7 @@ When you've identified your pilot teams and team champions, you're ready to tran
 
 ### Move a StaffHub team
 
-Run the following to submit a request and move a StaffHub team.
+Run the following to move a StaffHub team.
 
 ```
 Move-StaffHubTeam -Identity <String>
@@ -106,9 +106,11 @@ Here's an example of the response you receive when a move is in progess.
         1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
 ```
 
-## Move all your organization's StaffHub teams
+## Move your organization's StaffHub teams
 
-Use these steps to move more than one StaffHub team at a time. This example shows you how to move all your StaffHub teams to Teams.
+Use these steps to move more than one StaffHub team at a time. You can move all your organization's StaffHub teams or move specific StaffHub teams.
+
+### Move all your StaffHub teams
 
 Run the following to get a list of all StaffHub teams in your organization.
 
@@ -119,14 +121,21 @@ Run the following to submit the request to move all teams.
 ```
 $StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 ```
-Here's an example of the response you get. This example shows on
+Here's an example of the response you get. 
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
     -----   ------                                      ------------          
         1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
         2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
 ```
-To move specific teams, create a comma-separated values (CSV) file and add the IDs of the teams you want to move. 
+### Move specific StaffHub teams
+
+Run the following to get a list of all StaffHub teams in your organization.
+
+```
+$StaffHubTeams = Get-StaffHubTeamsForTenant 
+```
+Create a comma-separated values (CSV) file and add the IDs of the teams you want to move.
 Here's an example.
 
 ```
