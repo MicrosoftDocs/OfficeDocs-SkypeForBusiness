@@ -48,8 +48,13 @@ A Phone System auto attendant has the following features:
 ## Getting started
 
 To get started using auto attendants, it's important to remember that:
-  
-- You need to assign a Phone System license to a resource account that will be associated with your auto attendant. To learn more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
+- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
+
+ > [!NOTE] 
+ > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
     
     > [!TIP]
     > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -58,7 +63,7 @@ To get started using auto attendants, it's important to remember that:
 
     > [!IMPORTANT]
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used.
-- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+
 - A complete auto attendant system will usually involve multiple auto attendants and may only require a single assigned phone number for the top-level or entry auto attendant. Other auto attendants or call queues in the complete system will only need a phone number if you want to provide multiple points of entry into the system.
 - It is possible to apply more than one phone number to an auto attendant by associating more than one resource account to an auto attendant.
   
