@@ -66,9 +66,9 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive adoption across your organization. If you're a small business who doesn't need a phased approach, the steps in this section may be all you need to make the switch from StaffHub to Teams.
 
 - **Identify pilot teams**. Reach out to identify two or three pilot teams. All team members should commit to using Shifts in Teams to manage their schedules and communicate and collaborate with each other.
-- **Identify team champions**. Identify champions across pilot teams and enlist them to help evangelize and drive adoption of Shifts. Team champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Team champions can be the team owner or manager.
+- **Identify team champions**. Identify champions across pilot teams and enlist them to help evangelize and drive adoption of Shifts. Team champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Team champions can be team owners or managers.
 
-When you've identified your pilot teams and team champions, you're ready to transition them to Shifts in Teams. You might want to hold a kickoff meeting with team champions to discuss the pilot and get them to experience Shifts. 
+When you've identified your pilot teams and team champions, you're ready to transition them to Shifts in Teams. You might want to hold a kickoff meeting with team champions to discuss the pilot and introduce Shifts.
 
 Team champions should ensure team members are set up by dedicating time for everyone to [get Teams clients](../../get-clients.md), check out their schedules in Shifts, and start chatting with each other. Users who are already familiar with StaffHub will be up and running quickly in Shifts. You can also point them to [Shifts Help](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) for additional help.
 
@@ -76,7 +76,7 @@ Team champions should ensure team members are set up by dedicating time for ever
 
 ### Raise awareness
 
-When you're ready to go beyond your pilot teams and move your organization's StaffHub team to Teams, it's important to communicate the change across your organization.
+When you're ready to go beyond your pilot teams and move your organization's StaffHub team to Teams, it's important to communicate the change across your organization. Spread the word about Shifts and the transition to Teams.
 
 ### Move your StaffHub teams
 
@@ -92,11 +92,11 @@ Install and connect to the [StaffHub PowerShell module](https://www.powershellga
 
 When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail:
 
-- The signed in user is not a global admin
+- The signed-in user is not a global admin
 - Teams is disabled in the tenant
 - Office 365 Groups creation is disabled in the tenant
 - The StaffHub teamId is not valid or has no members
-- The StafffHub team includes members that aren't linked to an Azure AD account  
+- The StaffHub team includes members that aren't linked to an Azure AD account  
 
 ## Move a StaffHub team
 
@@ -105,24 +105,30 @@ Run the following to move a StaffHub team.
 ```
 Move-StaffHubTeam -Identity <String>
 ```
-Here's an example of the response you receive when a team is moved to Teams. 
+
+Here's an example of the response you receive when a team is moved to Teams.
+
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
     -----   ------                                      ------------          
         1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
 ```
+
 To check the status of a move request, run the following.
+
 ```
 Get-TeamMigrationJobStatus <Int32>
 ```
-Here's an example of the response you receive when a move is in progess.
+
+Here's an example of the response you receive when a move is in progress.
+
 ```
     jobId   status       teamId                                     isO365GroupCreated  Error
     -----   ------       ------                                     ------------------  -----    
         1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
 ```
 
-## Move your organization's StaffHub teams
+## Move StaffHub teams in bulk
 
 Use these steps to move more than one StaffHub team at a time. You can move all your organization's StaffHub teams or move specific StaffHub teams.
 
@@ -131,36 +137,38 @@ Use these steps to move more than one StaffHub team at a time. You can move all 
 Run the following to get a list of all StaffHub teams in your organization.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant 
+$StaffHubTeams = Get-StaffHubTeamsForTenant
 ```
-Run the following to submit the request to move all teams. 
+
+Run the following to submit the request to move all teams.
+
 ```
 $StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 ```
-Here's an example of the response you get. 
+
+Here's an example of the response
+
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
     -----   ------                                      ------------          
         1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
         2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
 ```
+
 ### Move specific StaffHub teams
 
 Run the following to get a list of all StaffHub teams in your organization.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant 
+$StaffHubTeams = Get-StaffHubTeamsForTenant
 ```
+
 Create a comma-separated values (CSV) file and add the IDs of the teams you want to move.
 Here's an example.
 
-```
-Id
-TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f
-TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000
-TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000
-TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000
-```
+|Id  |
+|---------|
+|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
 
 Then, run the following to move the teams you specified in the CSV file.
 
@@ -171,4 +179,4 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 ## Related topics
 - [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
 - [Manage the Shifts app for your organization in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps).
+- [StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
