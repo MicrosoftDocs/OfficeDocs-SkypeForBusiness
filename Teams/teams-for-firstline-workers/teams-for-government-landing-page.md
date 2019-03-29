@@ -20,7 +20,7 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://review.docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc?branch=FLW-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -22,7 +22,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -40,7 +40,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/MicrosoftTeams/shifts/teams-for-firstline-workers/move-staffhub-teams-to-shifts-in-teams?branch=FLW-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -58,7 +58,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/MicrosoftTeams/shifts/teams-for-firstline-workers/firstline-worker-features-coming-to-teams?branch=FLW-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -81,7 +81,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts/manage-the-shifts-app-for-your-organization-in-teams?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

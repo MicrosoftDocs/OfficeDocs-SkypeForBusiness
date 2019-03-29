@@ -1,12 +1,12 @@
 ---
-title: Expanding Microsoft Teams across your organization
+title: Expand Microsoft Teams across your organization
 description: Use these resources to get the most out of Teams across your organization.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
@@ -19,7 +19,7 @@ appliesto:
 <br>
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts-for-teams-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-healthcare-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -55,7 +55,7 @@ appliesto:
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-education-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -73,7 +73,7 @@ appliesto:
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-retail-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -91,7 +91,7 @@ appliesto:
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-government-landing-page?branch=FLW-working">
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
