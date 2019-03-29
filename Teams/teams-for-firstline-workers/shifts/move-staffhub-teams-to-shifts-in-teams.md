@@ -22,9 +22,9 @@ appliesto:
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful. You must be a global admin to perform the steps in this article.
+This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful. 
 
-If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to questions you may have. 
+You must be a global admin to perform the steps in this article. If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to any questions you may have. 
 
 ## What you need to know about the move to Teams
 
@@ -38,7 +38,7 @@ User details, schedule information, and chat and file data are transitioned to T
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
-As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change to users to minimize disruption and to encourage users to adopt and explore Teams.
+As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams.
 
 ## Prepare
 
@@ -63,9 +63,9 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 
 ## Before you start
 
-Install and connect to the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
+Install and connect to the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha).
 
-When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail: 
+When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail:
 
 - The signed in user is not a global admin
 - Teams is disabled in the tenant
@@ -75,77 +75,73 @@ When you move a StaffHub team, the move request checks for prerequisites. Here's
 
 ## Pilot two or three teams
 
-We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive Teams adoption across your organization. If you're a small business, this may be all you need to make the switch from StaffHub to Teams.
+We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive adoption across your organization. If you're a small business who doesn't need a phased approach, the steps in this section may be all you need to make the switch from StaffHub to Teams.
+
+- **Identify pilot teams**. Reach out to identify two or three pilot teams. All team members should commit to using Shifts in Teams to manage their schedules and communicate and collaborate with each other.
+- **Identify team champions**. Identify champions across pilot teams and enlist them to help evangelize and drive adoption of Shifts. Champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Champions can be the team owner or manager, and should ensure team members are set up by dedicating time for everyone to [get Teams clients](../../get-clients.md) and check out their schedules in Shifts.
+
+When you've identified your pilot teams and team champions, you're ready to transition them to Shifts in Teams.
 
 ### Move a StaffHub team
 
-Run the following to start a move request.
+Run the following to submit a request and move a StaffHub team.
 
 ```
 Move-StaffHubTeam -Identity <String>
 ```
-Here's an example of the response you receive.
+Here's an example of the response you receive when a team is moved to Teams. 
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
     -----   ------                                      ------------          
         1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
 ```
-Run the following to check the status of the move request.
+To check the status of a move request, run the following.
 ```
 Get-TeamMigrationJobStatus <Int32>
 ```
-Here's an example of the response you receive.
+Here's an example of the response you receive when a move is in progess.
 ```
     jobId   status       teamId                                     isO365GroupCreated  Error
     -----   ------       ------                                     ------------------  -----    
         1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
 ```
 
-##### Move your organization's StaffHub teams
+## Move all your organization's StaffHub teams
 
-To move more than one team from StaffHub to Microsoft teams, below is an example of how you can use the Move-StaffHubTeam commandlet to move more than one team at a time.
+Use these steps to move more than one StaffHub team at a time. This example shows you how to move all your StaffHub teams to Teams.
 
-Move all the StaffHub teams in your organization of teams.
-
-##### Get a list of all of your StaffHub teams in your organization
+Run the following to get a list of all StaffHub teams in your organization.
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant 
 ```
-
-Submit the request to move all teams. 
+Run the following to submit the request to move all teams. 
 ```
 $StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 ```
-
-After you submit the request you will get the following sample response
+Here's an example of the response you get. This example shows on
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
     -----   ------                                      ------------          
         1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
         2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
 ```
-To move a list of teams from your organization you'll want to create a comma-delimited file and save a list of the Ids of the teams you want to move.
+To move specific teams, create a comma-separated values (CSV) file and add the IDs of the teams you want to move. 
+Here's an example.
 
-For example:
-
+```
 Id
 TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f
 TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000
 TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000
 TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000
+```
 
-After you save the file, you can reference the file to move more than one team. Here is an example.
+Then, run the following to move the teams you specified in the CSV file.
 
 ```
 Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 ```
-[Example .csv file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sampleteamslist.csv).
-
-### 
-### Get Teams clients
-
-Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../../get-clients.md).
 
 ## Monitor Teams usage
 
