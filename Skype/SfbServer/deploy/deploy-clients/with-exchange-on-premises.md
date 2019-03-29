@@ -14,7 +14,7 @@ ms.collection: M365-voice
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises."
 ---
 
-# Deploy Skype Room Systems v2 with Exchange on premises
+# Deploy Microsoft Teams Rooms with Exchange on premises
 
 Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises and Skype for Business Online.
   
