@@ -1,7 +1,7 @@
 ---
 title: "Create a Phone System call queue"
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -168,7 +168,7 @@ In the **Microsoft Teams admin center**, click ![sfb-logo-30x30.png](../images/s
 ![Number 2](../images/sfbcallout2.png)<br/><br/>**When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.
 * **Disconnect with a busy signal** The call will be disconnected.
 * **Forward this call to** When you choose this, you will have these options:
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>To learn about licensing required for voicemail, see [Set up Phone System voicemail](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>To learn about licensing required for voicemail, see [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
@@ -182,7 +182,7 @@ In the **Microsoft Teams admin center**, click ![sfb-logo-30x30.png](../images/s
 ![Number 4](../images/sfbcallout4.png)<br/><br/>**When a call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to this call:
 * **Disconnect** The call will be disconnected.
 * **Forward this call to** When you choose this, you will have these options:
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  To learn about licensing required for voicemail, see [Set up Phone System voicemail](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>

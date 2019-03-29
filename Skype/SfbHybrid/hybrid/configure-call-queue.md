@@ -63,8 +63,6 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 ## Online configuration steps
 
-[!INCLUDE [updating-admin-interfaces](../../SfbOnline/includes/updating-admin-interfaces.md)]
-
 Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
 1. Assign Phone System licenses to the on-premise resource account as described in  [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).

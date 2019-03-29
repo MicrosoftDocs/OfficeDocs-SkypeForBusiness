@@ -56,7 +56,7 @@ Introduced in this update:
 
 ### 4.0.76.0 (03/04/2019)
 Introduced in this update:
-- DTMF keypad for Microsoft Teams meetings. To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true
+- DTMF keypad for Microsoft Teams P2P meetings and PSTN calls. To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true
 - Pin a remote participant's incoming video to full screen on front of room display. Use "Pin" command from participant roster on the  console
 - Improvements to Lobby notifications with addition of Front of Room notification
 - Front of Room display removes casting icon when Bluetooth beacon is not enabled on Room system device
