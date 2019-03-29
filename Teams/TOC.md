@@ -625,7 +625,9 @@
 <!-- ============================================================ -->
 
 #       
-#  
+#        
+
+<!-- ============================================================ -->
 
 # [Expand Teams across your organization](teams-for-firstline-workers/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
@@ -664,13 +666,16 @@
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 
 #       
-#
+#        
+
+<!-- ============================================================ -->
 
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # Reference
 
