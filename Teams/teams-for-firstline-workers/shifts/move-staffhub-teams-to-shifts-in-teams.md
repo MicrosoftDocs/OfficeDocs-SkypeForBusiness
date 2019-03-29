@@ -89,6 +89,8 @@ Team champions should ensure team members are set up by dedicating time for ever
 
 ### Move a StaffHub team
 
+Use these steps to move one StaffHub team at a time. We recommend this approach for your pilot teams. Later, when you're ready to move all your organization's StaffHub teams, see [Move your StaffHub teams](#move-your-staffhub-teams) for steps on how move multiple teams at a time.
+
 Run the following to move a StaffHub team.
 
 ```
@@ -135,13 +137,13 @@ Run the following to get a list of all StaffHub teams in your organization.
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 ```
 
-Run the following to submit the request to move all teams.
+Then, run the following to move all teams.
 
 ```
 $StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
 ```
 
-Here's an example of the response
+Here's an example of the response.
 
 ```
     jobId   teamId                                      teamAlreadyInMicrosofteams  
