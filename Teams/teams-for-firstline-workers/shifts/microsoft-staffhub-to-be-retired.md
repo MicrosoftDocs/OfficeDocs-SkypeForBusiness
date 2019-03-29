@@ -37,8 +37,9 @@ Between April 2019 and October 2019, StaffHub users will receive in-app notifica
 
 #### Will Teams offer all the functionality currently offered in StaffHub?
 
-- In January 2019, Teams began offering Shifts which was previously available in Microsoft StaffHub. This feature allows managers to plan and distribute shift schedules, and team members the opportunity to review their schedule and make schedule change requests from their mobile devices. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
-- We’re committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams. For more information on which features will be made available in Teams, see [Firstline Worker capabilities coming soon to Teams](firstline-worker-features-coming-to-teams.md).
+In January 2019, Teams began offering Shifts which was previously available in Microsoft StaffHub. This feature allows managers to plan and distribute shift schedules, and team members the opportunity to review their schedule and make schedule change requests from their mobile devices. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
+
+We’re committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams. For more information on which features will be made available in Teams, see [Firstline Worker features coming soon to Teams](firstline-worker-features-coming-to-teams.md).
 
 #### What do I need to do to prepare for this change?
 
