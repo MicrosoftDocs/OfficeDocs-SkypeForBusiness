@@ -61,18 +61,6 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 
 - Admins can run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) and [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlets to remove a non-provisioned account from a StaffHub team and add the account back by using the UPN.
 
-## Before you start
-
-Install and connect to the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha).
-
-When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail:
-
-- The signed in user is not a global admin
-- Teams is disabled in the tenant
-- Office 365 Groups creation is disabled in the tenant
-- The StaffHub teamId is not valid or has no members
-- The StafffHub team includes members that aren't linked to an Azure AD account  
-
 ## Run a pilot
 
 We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive adoption across your organization. If you're a small business who doesn't need a phased approach, the steps in this section may be all you need to make the switch from StaffHub to Teams.
@@ -90,9 +78,25 @@ Team champions should ensure team members are set up by dedicating time for ever
 
 When you're ready to go beyond your pilot teams and move your organization's StaffHub team to Teams, it's important to communicate the change across your organization.
 
+### Move your StaffHub teams
+
 ### Monitor Teams usage
 
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
+
+++++++++
+
+## Before you start
+
+Install and connect to the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha).
+
+When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail:
+
+- The signed in user is not a global admin
+- Teams is disabled in the tenant
+- Office 365 Groups creation is disabled in the tenant
+- The StaffHub teamId is not valid or has no members
+- The StafffHub team includes members that aren't linked to an Azure AD account  
 
 ## Move a StaffHub team
 
