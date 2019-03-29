@@ -66,17 +66,17 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive adoption across your organization. If you're a small business who doesn't need a phased approach, the steps in this section may be all you need to make the switch from StaffHub to Teams.
 
 - **Identify pilot teams**. Reach out to identify two or three pilot teams. All team members should commit to using Shifts in Teams to manage their schedules and communicate and collaborate with each other.
-- **Identify team champions**. Identify champions across pilot teams and enlist them to help evangelize and drive adoption of Shifts. Team champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Team champions can be team owners or managers.
+- **Identify team champions**. Identify champions across pilot teams and enlist them to help evangelize Shifts. Team champions are passionate about what they do, sharing their own learnings to offer support and guidance to team members. Team champions can be team owners or managers.
 
 When you've identified your pilot teams and team champions, you're ready to transition them to Shifts in Teams. You might want to hold a kickoff meeting with team champions to discuss the pilot and introduce Shifts.
 
-Team champions should ensure team members are set up by dedicating time for everyone to [get Teams clients](../../get-clients.md), check out their schedules in Shifts, and start chatting with each other. Users who are already familiar with StaffHub will be up and running quickly in Shifts. You can also point them to [Shifts Help](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) for additional help.
+Team champions should ensure team members are set up by dedicating time for everyone to [get Teams clients](../../get-clients.md), sign in to Teams and check out their schedules in Shifts, and start chatting with each other. Users who are already familiar with StaffHub will be up and running quickly in Shifts. You can also point them to [Shifts Help](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) for additional help.
 
 ## Make the transition from StaffHub to Shifts
 
 ### Raise awareness
 
-When you're ready to go beyond your pilot teams and move your organization's StaffHub team to Teams, it's important to communicate the change across your organization. Spread the word about Shifts and the transition to Teams.
+When you're ready to go beyond your pilot teams and move your organization's StaffHub team to Teams, it's important to communicate the change across your organization. Spread the word about Shifts and the transition to Teams to raise awareness, generate excitement, and drive adoption.
 
 ### Move your StaffHub teams
 
