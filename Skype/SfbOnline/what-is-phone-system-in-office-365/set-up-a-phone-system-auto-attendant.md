@@ -1,9 +1,9 @@
 ---
 title: "Set up a Phone System auto attendant"
-author: CarolynRowe
-ms.author: crowe
+author: jambirk
+ms.author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.date: 9/1/2018
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
@@ -21,7 +21,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. "
+description: "Learn how to set up and test Phone System auto attendants for efficient call handling for your organization. "
 ---
 
 # Set up a Phone System auto attendant

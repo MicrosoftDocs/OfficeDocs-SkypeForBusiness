@@ -89,7 +89,7 @@ Here are more articles that explain how to set up your Calling Plans:
 
 - [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
+- [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
     
 - [Set up Calling Plans](set-up-calling-plans.md)
     

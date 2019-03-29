@@ -60,7 +60,7 @@ By using Phone System, your Skype for Business users will get the following feat
 |Skype and federated calling  <br/> |You can search for anyone in the Skype directory, then securely connect, communicate, and collaborate with them.  <br/> |
 |[Set Call Forwarding options in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sends your calls to your team either immediately or after a set time period.  <br/> |
 |[Make and receive a video call using Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | You can see the speaker's name and video stream in a small floating window, so you're always ready to respond to any questions. <br/> |
-|[Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Here's how Phone System voicemail works: When a user receives a voicemail, it is delivered to their mailbox as an email with the voicemail message as an attachment. They can also listen to their messages over their Skype certified desktop phone, all Skype for Business applications, or Lync for Mac 2011.  <br/> Phone System voicemail includes personalized greeting, message waiting indicator, and reply with call. You can have all of your voicemail deposited in mailboxes and made available through Skype for Business on your PC, mobile device, and IP phone.  <br/> |
+|[Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Here's how Cloud Voicemail works: When a user receives a voicemail, it is delivered to their mailbox as an email with the voicemail message as an attachment. They can also listen to their messages over their Skype certified desktop phone, all Skype for Business applications, or Lync for Mac 2011.  <br/> Cloud Voicemail includes personalized greeting, message waiting indicator, and reply with call. You can have all of your voicemail deposited in mailboxes and made available through Skype for Business on your PC, mobile device, and IP phone.  <br/> |
    
 ## Plan and set up the Phone System in Office 365
 <a name="bkmk_setup"> </a>
@@ -81,7 +81,7 @@ See these articles to plan and set up the Phone System in your business:
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
-- [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
+- [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
     
 - [Discover Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Help the people in your company learn how to use Skype for Business features. 
 

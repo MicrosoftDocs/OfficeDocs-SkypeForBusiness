@@ -103,11 +103,11 @@ the emergency services are provided by your PSTN service provider.
 
 ## Voicemail
 
-Phone System voicemail, powered by Azure Voicemail services, supports voicemail
+Cloud Voicemail, powered by Azure Voicemail services, supports voicemail
 deposits to Exchange mailboxes only and doesn’t support third-party email
 systems.
 
-Phone System voicemail includes voicemail transcription, which is enabled for
+Cloud Voicemail includes voicemail transcription, which is enabled for
 all users in your organization by default. Your business needs might require
 that you disable voicemail transcription for specific users or everyone
 throughout the organization. If your organization decided to keep voicemail
@@ -115,15 +115,15 @@ transcription enabled, you need to also consider whether voicemail transcription
 profanity masking needs to be enabled. See [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md)
 for more details.
 
-For more information about voicemail in a Phone System implementation, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+For more information about voicemail in a Phone System implementation, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Direct Routing implementation.<li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>If applicable, document the decision points to support Phone System voicemail.<li>If you’ll enable or disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Cloud Voicemail in your Direct Routing implementation.<li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>If applicable, document the decision points to support Cloud Voicemail.<li>If you’ll enable or disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</ul>|
 
 > [!TIP]
-> Phone System voicemail details for the Calling Plans implementation can be documented as in the following table.
+> Cloud Voicemail details for the Calling Plans implementation can be documented as in the following table.
 > 
 > | **User**         | **Exchange mailbox** | **Enable voicemail?** | **Voicemail transcription** | **Voicemail transcription profanity masking** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|

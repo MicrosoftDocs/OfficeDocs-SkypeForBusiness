@@ -48,7 +48,7 @@ items:
     We assume you've already done the following: 
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
     to provide phone numbers to your users.
-    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
+    - [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
     - Reviewed [What are Phone System Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
@@ -110,8 +110,8 @@ items:
     ### Q: What special considerations does each job function in the office have?
     Have some discussions with people in each of the job functions in the office about what they need from the Auto Attendant. In our small office the 
     following point was made clear:
-    - Billing questions can be handled by either of the clerks. Given that, it’s okay to create a call queue with both of their numbers that will send 
-    the call to whichever line is not already busy, or to a random number in that group if both are free. 
+    - Billing questions can be handled by either of the clerks. Given that, it’s okay to create a call queue that will send 
+    the call to whichever line is not already busy. 
 
     ### Q: What language requirements do the customers have?
     Asking Julie Wolfe, we discover that there were only two callers in the whole week for whom English seemed to be a second language. They functioned 

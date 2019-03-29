@@ -1,5 +1,5 @@
 ---
-title: "Phone System voicemail"
+title: "Cloud Voicemail"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,9 +17,9 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: "Learn about Phone System voicemail."
+description: "Learn about Cloud Voicemail."
 ---
 
-# Phone System voicemail
+# Cloud Voicemail
 
 
