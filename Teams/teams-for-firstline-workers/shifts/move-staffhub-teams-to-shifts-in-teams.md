@@ -68,7 +68,7 @@ If you haven't already, install the [StaffHub PowerShell module](https://www.pow
 When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail:
 
 - The signed-in user is not a global admin
-- Teams is disabled in the tenant
+- Teams is disabled for all users in the tenant
 - Office 365 Groups creation is disabled in the tenant
 - The StaffHub teamId is not valid or has no members
 - The StaffHub team includes members that aren't linked to an Azure AD account  
