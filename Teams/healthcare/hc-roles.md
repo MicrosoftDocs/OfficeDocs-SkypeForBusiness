@@ -1,5 +1,5 @@
 ---
-title: "Team-scoped roles that people can fall into (i.e. @Doctors will ping all individuals belonging to the tag)"
+title: "Team-scoped roles"
 author: jambirk
 ms.author: jambirk 
 manager: serdars
@@ -17,6 +17,12 @@ description: Team-scoped roles that people can fall into (i.e. @Doctors will pin
 
 # Team-scoped roles  (may 19)
 
+
+When enabled by the Admin, Tags and fields can be added to people within a team to make referencing groups of people simple and manageable.
+
+**Usage Example** If a Doctor wants to send a message to notify a group of nurses within a ward that a patient is missing from their bed, they can simply send it to all users in the Team having the role-based tag "Nurse."
+
+Team Owner assigns the tags. Admin has no further actions other than enabling the feature. 
 
 
 ## FeatureName overview
