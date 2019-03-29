@@ -624,10 +624,14 @@
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 
+#       
+#  
+
 # [Expand Teams across your organization](teams-for-firstline-workers/expand-teams-across-your-organization-landing-page.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Shifts for Teams](teams-for-firstline-workers/shifts-landing-page.md) 
 ### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
+### [Firstline Worker features coming soon to Microsoft Teams](teams-for-firstline-workers/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ## [Teams for Healthcare](teams-for-firstline-workers/teams-for-healthcare-landing-page.md)
@@ -658,6 +662,9 @@
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
+
+#       
+#
 
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)

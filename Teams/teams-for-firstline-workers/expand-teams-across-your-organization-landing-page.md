@@ -19,7 +19,7 @@ appliesto:
 <br>
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts-landing-page?branch=FLW-working">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts-for-teams-landing-page?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

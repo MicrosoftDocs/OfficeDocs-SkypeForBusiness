@@ -157,16 +157,7 @@ We recommend that you ensure all users in your organization are covered with an 
 To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by October 1, 2019.
 
 Ensure that Office 365 Group creation is enabled in the Microsoft 365 admin center before the transition begins, as this is essential to us being able to move your StaffHub chat data into Teams. Failure to turn on this service by June 30, 2019, will result in a later migration date or less chat data being copied over.
- 
-#### What happens to the Files feature in StaffHub?-FOLLOWUP
 
-Starting **placeholder for date**, any file that users upload to StaffHub is copied to the **Files** tab in the General channel of the team in Teams.
-
-For files that were uploaded before **placeholder date**, you can move them to Teams. Here's how.
-
-1. placeholder
-2. placeholder
- 
 #### Can I export shift schedules from Shifts?
   
 You can export shift schedule information to an Excel file from the Shifts desktop and web apps. You can then import this information to your organization's systems and tools.
