@@ -626,8 +626,10 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
+<!-- ============================================================ -->
+
 #       
-#
+#        
 
 <!-- ============================================================ -->
 
