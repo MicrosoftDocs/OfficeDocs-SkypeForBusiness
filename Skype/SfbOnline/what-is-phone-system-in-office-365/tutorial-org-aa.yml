@@ -29,19 +29,19 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business Online](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
     [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and PBX capabilities in the Office 365 cloud. The license 
     is available as an add-on or as part of the Enterprise E5 licenses. Licensing details are at 
     [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). 
 
     A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
-    voicemail and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
+    voicemail, Call Queues, and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
     to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your 
     organization using the Skype for Business admin center.
     
     If you are asked to set up an Auto Attendant, this article provides an illustration of planning and implementing Auto Attendants for a hypothetical small business. 
-    It's not a one-size-fits-all solution, but it is a good starting point. 
+    It's not a one-size-fits-all solution, it's intended as an illustration of the thought process behind creating a functioning structure of several auto attendants. 
   
     ## Before you begin
 
@@ -102,7 +102,7 @@ items:
     |Inquiry about hours and business location      	|20|	No transfer, receptionist handles the call|
     |Want to speak to one of the lawyers            	|15|	Transfer to the lawyer requested|
     |Want to speak to the office manager            	|12|	Transfer to the office manager |
-    |Want to speak to one of the paralegals	          |10|	Transfer to the paralegal requested|
+    |Want to speak to one of the paralegals	            |10|	Transfer to the paralegal requested|
     |Want to speak to the investigator              	| 6|	Transfer to the investigator |
     |Requesting a copy of records	                    | 4|	Transfer to the records clerk |
     | | | |
@@ -325,15 +325,10 @@ items:
     Create the following Auto Attendants in the following order and set their general information, then once the main and nested Auto Attendants are all created, edit them to set the 
     Business hours call handling. A nested Auto Attendant needs to already exist when you link to it in another Auto Attendant's menu choices. 
 
-    - Main (VanArsdel, Ltd.)
-      - 
-    
-    
-
 
     ### Main Auto Attendant
 
-    ![New Auto Attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
+    ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
     **Edit general info** for the main menu
 
@@ -363,8 +358,7 @@ items:
     
     The default for this screen is 24/7. 
        
-
-    ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
+    ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
     **Business hours call handling** for the main menu
 
