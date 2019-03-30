@@ -33,7 +33,12 @@ In Microsoft Teams or Skype for Business Online, each call queue or auto attenda
 
 To get started it's important to remember a few things:
   
-- You need to assign a Phone System license to a resource account that will be associated with your auto attendant or call queue. To learn more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- An auto attendant or call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
+- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
+
+> [!NOTE] 
+> Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
     
 
     > [!NOTE]
@@ -49,6 +54,12 @@ To assign a phone number to a resource account, you will need to get or transfer
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
+
+## Create a resource account in admin center
+
+To create a resource account  in Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**, click **+ Add**, and fill out the display name, user name, then select the domain name and click **Save**.
+
+To apply a license to the resource account, navigate to the O365 Admin Center users tab.
 
 ## Create a resource account in Powershell
 
@@ -77,7 +88,11 @@ Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
 Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
+If you do not apply a license while creating the resource account the phone number assignment will fail. 
+
 See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) for more details on this command.
+
+
 
 ## Manage Resource account settings in Microsoft Teams admin center
 
