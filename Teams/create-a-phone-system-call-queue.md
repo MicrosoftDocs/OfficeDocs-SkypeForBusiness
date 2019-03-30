@@ -1,5 +1,5 @@
 ---
-title: "Create a Phone System call queue"
+title: "Create a call queue"
 ms.author: jambirk
 author: jambirk
 manager: serdars
