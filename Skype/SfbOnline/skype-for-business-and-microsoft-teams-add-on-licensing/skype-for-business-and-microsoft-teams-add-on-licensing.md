@@ -55,7 +55,7 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
-|**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
+|**Microsoft Teams Rooms** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Microsoft Teams Rooms](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -68,7 +68,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [Office 365 Enterprise E1, E3, and E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (without Audio Conferencing)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [Microsoft Teams Rooms](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV, EDU, and non-profit organizations](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 For a detailed list of features and comparisons for each Skype for Business plan, see the [Skype for Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).

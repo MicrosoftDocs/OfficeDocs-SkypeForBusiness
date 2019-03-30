@@ -140,8 +140,8 @@ description: Skype for Business
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Room Systems v2</h3>
-                                                    <p>Learn how to plan, deploy, and manage Skype Room Systems v2.</p>
+                                                    <h3>Microsoft Teams Rooms</h3>
+                                                    <p>Learn how to plan, deploy, and manage Microsoft Teams Rooms.</p>
                                                 </div>
                                             </div>
                                         </div>

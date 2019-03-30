@@ -1,5 +1,5 @@
 ---
-title: "Skype Room Systems v2 requirements"
+title: "Microsoft Teams Rooms requirements"
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,29 +10,30 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: "This article summarizes the requirements for supporting Skype Room Systems v2."
+ms.collection: M365-voice
+description: "This article summarizes the requirements for supporting Microsoft Teams Rooms."
 ---
 
-# Skype Room Systems v2 requirements
+# Microsoft Teams Rooms requirements
 
-This article summarizes the requirements for supporting Skype Room Systems v2. 
+This article summarizes the requirements for supporting Microsoft Teams Rooms. 
 
-Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
+Your deployment will involve account creation as described in [Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md). 
 
 You may also need to refer to:
 
 - [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [License options based on your plan: Skype Room Systems v2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2.
+> Microsoft Teams Rooms is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
 
 > [!NOTE]
-> If using an on-prem Exchange server, Skype Room Systems v2 requires the use of Exchange Server 2013 SP1 or later.
+> If using an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
 
-Skype Room Systems v2 can scale to different room sizes through accessories depending on audio and video peripherals. The hardware listed in this article supports both Skype and Teams meeting modes.  Audio and video peripherals connect to Skype Room Systems v2 via a USB or HDMI connection on the docking device. You will also need:
+Microsoft Teams Rooms can scale to different room sizes through accessories depending on audio and video peripherals. The hardware listed in this article supports both Skype and Teams meeting modes.  Audio and video peripherals connect to Microsoft Teams Rooms via a USB or HDMI connection on the docking device. You will also need:
 
 - A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
 
@@ -68,7 +69,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 
 **Certified firmware versions for USB audio and video peripherals**
 
-|Skype Room Systems v2 peripherals|Firmware version certified for Skype Room Systems v2|
+|Microsoft Teams Rooms peripherals|Firmware version certified for Microsoft Teams Rooms|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Video - 1.0.156  <br/> |
@@ -103,11 +104,11 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
     > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
 
 > [!NOTE]
-> Skype Room Systems v2 does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Skype Room Systems v2 device. 
+> Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device. 
 
 The following tables provide recommendations for peripherals based on room size:
 
-**Skype Room Systems v2 Certified Audio Peripherals**
+**Microsoft Teams Rooms Certified Audio Peripherals**
 
 |Room Type|Number of People|Recommended maximum distance from microphone to person speaking|Device by maximum room size|Comments|
 |:-----|:-----|:-----|:-----|:-----|
@@ -116,7 +117,7 @@ The following tables provide recommendations for peripherals based on room size:
 |**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |The Logitech MeetUp includes a camera so it must be positioned at the front of room (not center of table to capture local meeting attendees).  <br/> In general, rooms with long rectangular or u-shaped tables may benefit from additional satellite microphones.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
 |**Large** <br/> 15' x 32'  <br/> |12-16  <br/> |3m  <br/> This distance also applies to the area covered by each additional satellite microphone connected to the audio device in question.  <br/> |Logitech Group + satellite mics  <br/> Polycom Trio+ satellite mics  <br/> Polycom CX5100 + satellite mics  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + satellite mics  <br/> |All audio devices listed in this row support satellite microphone options.  <br/> CX5100 includes a built-in 360 degree camera so that the device can be positioned in the center of table.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
 
-**Skype Room Systems v2 Certified Video Peripherals**
+**Microsoft Teams Rooms Certified Video Peripherals**
 
 |Room Type|Number of People|Device by Optimal room size|Comments|
 |:-----|:-----|:-----|:-----|
@@ -128,23 +129,23 @@ The following tables provide recommendations for peripherals based on room size:
  > [!NOTE]
  > Front of room display resolution should be set to no greater than 1920x1080p.
 
-## Required Software Downloads
+## Required software downloads
 
-To build your own Skype Room Systems v2 image, follow the instructions in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
+To build your own Microsoft Teams Rooms image, follow the instructions in [Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
 
 > [!NOTE]
 > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
 
-In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), often used to provision Skype Room Systems v2 accounts.
+In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), which you can use to provision Microsoft Teams Rooms accounts.
 
 ## See also
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
-[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
+[Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md)
 
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
