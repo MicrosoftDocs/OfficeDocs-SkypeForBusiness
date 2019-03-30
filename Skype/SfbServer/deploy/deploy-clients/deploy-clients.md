@@ -46,7 +46,7 @@ The topics in this section describe how to use and customize the Windows Install
     
 - [Deploy Skype Room System in Skype for Business Server](deploy-skype-room-system.md)
     
-- [Deploy Skype Room Systems v2](room-systems-v2.md)
+- [Deploy Microsoft Teams Rooms](room-systems-v2.md)
     
 - [Deploy the Lync VDI plug-in with Skype for Business Server](deploy-the-lync-vdi-plug-in.md)
     
