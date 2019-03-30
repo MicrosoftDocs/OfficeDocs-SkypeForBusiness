@@ -377,5 +377,4 @@ Here are the cmdlets that you need to manage an auto attendant.
 
 [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 
-[Small business example - Set up an auto attendant](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
-)  
+[Small business example - Set up an auto attendant](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  
