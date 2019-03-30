@@ -1,5 +1,5 @@
 ---
-title: "Manage a Skype Room Systems v2 console settings remotely with an XML configuration file"
+title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,14 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-description: "This article discusses remote management of the default settings used by a Skype Room Systems v2 device, including applying a custom theme."
+ms.collection: M365-voice
+description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
 ---
 
-# Manage a Skype Room Systems v2 console settings remotely with an XML configuration file
+# Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file
  
-This article discusses remote management of the default settings used by a Skype Room Systems v2 device, including applying a custom theme.
+This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme.
   
-Updating a master XML file and sending copies to the consoles you manage makes it possible for you to change default settings for remotely managed devices. This article discusses how to create such a file, and links to discussions of how to place them as needed on the remotely managed devices. Using this method, you can also implement Custom Themes on your Skype Room Systems v2 consoles. 
+Updating a master XML file and sending copies to the consoles you manage makes it possible for you to change default settings for remotely managed devices. This article discusses how to create such a file, and links to discussions of how to place them as needed on the remotely managed devices. Using this method, you can also implement Custom Themes on your Microsoft Teams Rooms consoles. 
   
 ## Creating an XML configuration file
 
@@ -104,11 +105,11 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
   
 ## Manage console settings using an XML configuration file
 
-At startup, if a Skype Room Systems v2 console finds an XML file named SkypeSettings.xml at the location **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, it will apply the configuration settings indicated by the XML file then delete the XML file.
+At startup, if a Microsoft Teams Rooms console finds an XML file named SkypeSettings.xml at the location **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, it will apply the configuration settings indicated by the XML file then delete the XML file.
   
-Depending on how many Skype Room Systems v2 devices your enterprise has and how you choose to manage to configure them, there are a number of ways to place the XML configuration file. Once the file is pushed to the console, restart it to process the configuration changes. The XML configuration file is deleted after it is successfully processed. The management methods suggested for Skype Room Systems v2 devices are discussed in:
+Depending on how many Microsoft Teams Rooms devices your enterprise has and how you choose to manage to configure them, there are a number of ways to place the XML configuration file. Once the file is pushed to the console, restart it to process the configuration changes. The XML configuration file is deleted after it is successfully processed. The management methods suggested for Microsoft Teams Rooms devices are discussed in:
   
-- [Configuring Group Policy for Skype Room Systems v2](room-systems-v2-operations.md#GroupPolicy)
+- [Configuring Group Policy for Microsoft Teams Rooms](room-systems-v2-operations.md#GroupPolicy)
     
 - [Remote Management using PowerShell](room-systems-v2-operations.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
@@ -126,6 +127,6 @@ The XML configuration file must be updated at device startup to recognize the th
 ## See also
 
 
-[Manage Skype Room Systems v2](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
 
 [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

@@ -73,9 +73,9 @@ If Skype for Business is not installed on a user's computer and the user clicks 
 
 A Virtual Desktop Infrastructure (VDI) environment is used in some organizations where security and compliance issues are especially sensitive. Using Skype for Business with full audio and video on a connection like that requires heavy loads of audio and video processing on the client homed on a virtual desktop. Additional VDI plug-in software is available that offloads that processing to the end user's local machine, and reduces the load on the virtual desktop. See [Plan for Skype for Business in VDI environments](vdi-environments.md) for details on using these plugins.
 
-### Skype Room Systems v2
+### Microsoft Teams Rooms
 
-Skype Room Systems v2 is Microsoft's latest conferencing solution which uses a familiar Skype for Business interface and is easily deployed and managed, leveraging existing equipment like LCD panels for ease of installation. Skype Room Systems v2 uses a purpose-built UWP app running on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. Software is updated via both Windows store and Windows Update. See https://aka.ms/SRSDocs for details on using these room consoles in your deployment.
+Microsoft Teams Rooms is Microsoft's latest conferencing solution which uses a familiar interface and is easily deployed and managed, leveraging existing equipment like LCD panels for ease of installation. Microsoft Teams Rooms uses a purpose-built UWP app running on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your implementation. Software is updated via both Windows store and Windows Update. See https://aka.ms/SRSDocs for details on using these room consoles in your deployment. 
 
 ### Skype for Business on Surface Hub
 
@@ -160,7 +160,7 @@ See the following articles to understand the supported features, platforms, oper
 
 - [Skype for Business on Mac client requirements](mac-requirements.md)
 
-- [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+- [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
 - [Plan for Skype for Business in VDI environments](vdi-environments.md)
 
