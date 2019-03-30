@@ -54,7 +54,7 @@ To assign a phone number to a resource account, you will need to get or transfer
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
-## Create a resource account in admin center
+## Create a resource account in Microsoft Teams admin center
 
 To create a resource account  in Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**, click **+ Add**, and fill out the display name, user name, then select the domain name and click **Save**.
 
