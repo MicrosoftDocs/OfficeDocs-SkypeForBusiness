@@ -48,7 +48,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Teams Healthcare templates for Healthcare organizations</h3>
+                        <h3>Get started with Teams templates for Healthcare organizations</h3>
                     </div>
                 </div>
             </div>
