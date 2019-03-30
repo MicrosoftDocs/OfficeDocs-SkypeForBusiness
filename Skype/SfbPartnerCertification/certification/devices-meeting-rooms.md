@@ -27,7 +27,7 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 Microsoft tests and qualifies meeting room solutions for Lync and Skype for Business, as well as Teams.
 Skype for Business will support backwards compatibility with Optimized for Lync 2013 meeting room solutions. These include:
 - Lync Room Systems (Aka Skype Room Systems v1)
-- Microsoft Teams Rooms
+- Microsoft Teams Rooms (formerly Skype for Business Room Systems v2)
 - USB-based audio/video end points designed for conference rooms
 
 In addition, Lync qualified third-party video equipment providers have the option to support their devices working with Skype for Business and Teams.
@@ -35,14 +35,14 @@ In addition, Lync qualified third-party video equipment providers have the optio
 > [!NOTE]
 > All Skype for Business certified devices are expected to work with Microsoft Teams, but they will not be given Teams certification until they meet new requirements. More information about Teams certification will be available in early 2019.
 
-## Room Systems devices
-Room Systems are designed to extend the meeting experience to the conference room. A Room System includes all the required hardware and software. These products have been tested and are optimized for use in a Room System.
+## Microsoft Teams Rooms devices
+Room system devices are designed to extend the meeting experience to the conference room. A Room system includes all the required hardware and software. These products have been tested and are optimized for use in Microsoft Teams Rooms.
 
-Room Systems manage the Skype for Business or Teams transition in a two-stage approach.  Room Systems are forward compatible with the new Skype for Business or Teams services while maintaining the same client user experience. Meanwhile, devices will continue to receive client updates.  Microsoft will work closely with its OEM partners as it transitions to Certified for Skype for Business and Certified for Teams during this process. Finally, customers will be able to follow the transition process and update details via the Skype for Business team blog.
+Microsoft Teams Rooms manages the Skype for Business or Teams transition in a two-stage approach.  Room systems are forward compatible with the new Skype for Business or Teams services while maintaining the same client user experience. Meanwhile, devices will continue to receive client updates.  Microsoft will work closely with its OEM partners as it transitions to Certified for Skype for Business and Certified for Teams during this process. Finally, customers will be able to follow the transition process and update details via the Skype for Business team blog.
 
 You can find detailed Lync specifications here: [Phones and devices qualified for Lync](../lync-cert/ip-phones.md).
 
-You can visit http://aka.ms/SRSDocs for full details on Meeting Room devices.
+You can visit http://aka.ms/MTRDocs for full details on Microsoft Teams Rooms devices.
 
 View [room devices certified for Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices).
 
