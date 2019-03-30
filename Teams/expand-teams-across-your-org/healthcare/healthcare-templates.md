@@ -23,7 +23,7 @@ Microsoft Teams templates allow you to quickly and easily create teams by provid
 
 For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to best leverage Teams effectively. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your Healthcare organization.
 
-We currently offer two first party healthcare templates that you can leverage for a variety of situations. To learn more about team templates in general, please see [Get started with Teams templates](../get-started-with-teams-templates.md).
+We currently offer two first party healthcare templates that you can leverage for a variety of situations. To learn more about team templates in general, please see [Get started with Teams templates](../../get-started-with-teams-templates.md).
 
 ## Ward template
 
