@@ -629,28 +629,28 @@
 
 <!-- ============================================================ -->
 
-# [Expand Teams across your organization](teams-for-firstline-workers/expand-teams-across-your-organization-landing-page.md)
+# [Expand Teams across your organization](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
-## [Shifts for Teams](teams-for-firstline-workers/shifts-landing-page.md) 
-### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
-### [Firstline Worker features coming soon to Microsoft Teams](teams-for-firstline-workers/shifts/firstline-worker-features-coming-to-teams.md)
-### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+## [Shifts for Teams](expand-teams-across-your-org/shifts-landing-page.md)
+### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [Firstline Worker features coming soon to Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Manage the Shifts app for your organization in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ##  [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 
-## [Teams for Education](teams-for-firstline-workers/teams-for-education-landing-page.md)
+## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
-## [Teams for Retail](teams-for-firstline-workers/teams-for-retail-landing-page.md)
+## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
-## [Teams for Government](teams-for-firstline-workers/teams-for-government-landing-page.md)
+## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
