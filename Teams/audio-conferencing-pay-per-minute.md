@@ -51,6 +51,20 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+
+## Why is it best for you?
+
+- Pay per-minute will only be charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using Skype for Business or Teams application in a mobile device or PC.
+
+- Capability to manage cost since admins can control to restrict the types of dial-outs (international and domestic) that can be done from the meetings of an organizer. See [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
+
+- If you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage (you might still need to assign them for other services).
+
+- Control and monitor pay-per minute charges by using Communications Credits.
+
+- More flexibility in pricing for customers who don't need all users on a subscription basis. 
+
+- Enable Audio Conferencing pay-per-minute along with a monthly subscription of E5 or a standalone Audio Conferencing subscription, both services will continue to work the same way. Changes will have no effect on the operations of Audio Conferencing or Communications Credits.
   
 ## Want to find out more about pricing?
 
@@ -61,7 +75,7 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 - [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
 - [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
-    
+
 ## Related topics
   
 [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
