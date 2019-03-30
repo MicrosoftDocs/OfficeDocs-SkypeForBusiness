@@ -54,5 +54,3 @@ Microsoft Teams integrates with Firstline Worker, which can be used to coordinat
 
 - [Get started with Microsoft Teams Firstline Worker in Healthcare settings](../teams-for-firstline-workers/healthcare/firstline-healthcare.md)
 - [Manage the Shifts app for your organization in Microsoft Teams](../teams-for-firstline-workers/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
-

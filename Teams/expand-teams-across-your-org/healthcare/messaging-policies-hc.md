@@ -23,15 +23,15 @@ You can use the default policy or create one or more custom messaging policies f
 
 Policies can be easily managed in the [Microsoft Teams admin center](http://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
 
-![Messaging policies in Teams](../media/messaging-policies-image1.png)
+ ![messaging policies in Teams](../../media/messaging-policies-image1.png)
 
 To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
 
-![Healthcare messaging policy settings](../media/hc-message-policy.png)
+![Healthcare messaging policy settings](../../media/hc-message-policy.png)
 
 The following settings are of special value to Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 
-- ![number one](../media/sfbcallout1.png) **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read.
+- ![number one](../../media/sfbcallout1.png) **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read.
 
   For Healthcare applications, choose either **User controlled** or **Enabled for everyone**. Be aware that when using the **Enabled for everyone** setting, the only way to set receipts for the whole  tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts.
 
@@ -42,7 +42,7 @@ The following settings are of special value to Healthcare applications, and shou
 
   *Usage example with read receipts:* Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia starts a group chat with a set of doctors and other nurses who will be working with the patient to coordinate care and starts an emergency triage.  The nurses and doctors communicate and collaborate over the patient's care plan throughout the care coordination process.  Important and urgent messages are sent through 1:1 and group chat conversations. Sofia uses the read receipts functionality to determine if messages sent requesting support are delivered and read by the targeted physicians or nurses. Jakob's patient outcomes are near-optimal and he goes home sooner because his care team communicates smoothly.
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 - ![number two](../media/sfbcallout2.png) **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications notify users repeatedly for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
 
