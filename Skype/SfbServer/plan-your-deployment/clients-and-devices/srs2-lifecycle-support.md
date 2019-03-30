@@ -8,15 +8,16 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: "This article discusses lifecycle support for Skype Room Systems v2."
+description: "This article discusses lifecycle support for Microsoft Teams Rooms."
 ---
 
 # Version support
  
-Microsoft plans to release updates for Skype Room Systems v2 a few times per year with each update supported for twelve (12) months from its general availability (GA) release date. Technical support will be provided for the entire twelve (12) months. However, our support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest  version.
+Microsoft plans to release updates for Microsoft Teams Rooms a few times per year with each update supported for twelve (12) months from its general availability (GA) release date. Technical support will be provided for the entire twelve (12) months. However, our support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest  version.
 
-Servicing and Critical Updates servicing phase When running the latest  version of Skype Room Systems v2, you will receive regular updates, that contain Security and Servicing updates.
+Servicing and Critical Updates servicing phase When running the latest  version of Microsoft Teams Rooms, you will receive regular updates, that contain Security and Servicing updates.
 
 
 Security Updates (Only) servicing phase After a new  version is released, support for older branches will reduce to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
@@ -27,7 +28,7 @@ Security Updates (Only) servicing phase After a new  version is released, suppor
 
 All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. At that time, customers must update to a supported  version.
 
-All releases are listed in the [Skype Room Systems v2 release notes](srs2-release-note.md). 
+All releases are listed in the [Microsoft Teams Rooms release notes](srs2-release-note.md). 
  
 
 
@@ -35,8 +36,8 @@ All releases are listed in the [Skype Room Systems v2 release notes](srs2-releas
 <a name="See"> </a>  
 ## See also
 
-[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype Room Systems v2 release notes](srs2-release-note.md)
+[Microsoft Teams Rooms release notes](srs2-release-note.md)
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)

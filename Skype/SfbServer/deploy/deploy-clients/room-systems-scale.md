@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room Systems by using System Center Configuration Manager"
+title: "Deploy Microsoft Teams Rooms by using System Center Configuration Manager"
 author: jambirk
 ms.author: jambirk
 ms.reviewer: Turgayo
@@ -11,25 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this topic to learn about deploying Skype Room Systems v2 at large scale deployments."
+ms.collection: M365-voice
+description: "Read this topic to learn about deploying Microsoft Teams Rooms at large scale deployments."
 ---
 
-# Deploy Skype Room Systems v2 by using System Center Configuration Manager
+# Deploy Microsoft Teams Rooms by using System Center Configuration Manager
 
-This article gives you all the necessary information to create your Skype Room Systems v2 deployments by using System Center Configuration Manager.
+This article gives you all the necessary information to create your Microsoft Teams Rooms deployments by using System Center Configuration Manager.
 
 With the easy-to-use methods provided by System Center Configuration Manager, you can deploy the operating system and other applications to multiple target devices.
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
-![Skype Room Systems v2 deployment process using Configuration Manager](../../media/room-systems-scale-image1.png)
+![Microsoft Teams Rooms deployment process using Configuration Manager](../../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
 
 ## Validate prerequisites
 
-To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet the following prerequisites and requirements.
+To deploy Microsoft Teams Rooms with Configuration Manager, ensure that you meet the following prerequisites and requirements.
 
 ### System Center Configuration Manager requirements
 
@@ -41,11 +42,11 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
 
 -   A network access account must be configured to support new computer (bare metal) deployment scenarios. To learn more about the configuration of a network access account, see [Manage accounts to access content in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   We recommend that you enable [multicast support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you’re likely to deploy the same Skype Room Systems v2 image to multiple units at the same time.
+-   We recommend that you enable [multicast support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you’re likely to deploy the same Microsoft Teams Rooms image to multiple units at the same time.
 
 ### Networking requirements
 
--   Your network should have a Dynamic Host Configuration Protocol (DHCP) server, configured for automatic IP address distribution to the subnets where Skype Room Systems v2 units will be deployed.
+-   Your network should have a Dynamic Host Configuration Protocol (DHCP) server, configured for automatic IP address distribution to the subnets where Microsoft Teams Rooms units will be deployed.
 
     > [!NOTE]
     > DHCP lease duration must be set to a value longer than the image deployment duration. Otherwise, the deployment might fail.
@@ -75,7 +76,7 @@ Use the following instructions to verify that the operating system deployment (O
 
 1.  In the Configuration Manager console, go to **Administration** \> **Distribution Points**.
 
-2.  Select the distribution point server that will serve the Skype Room Systems v2 deployment, and then select **Properties**.
+2.  Select the distribution point server that will serve the Microsoft Teams Rooms deployment, and then select **Properties**.
 
 3.  Select the **PXE** tab, and ensure that the following settings are enabled:
     -   Enable PXE support for clients
@@ -124,16 +125,16 @@ For more information, see [Manage boot images with System Center Configuration M
 
 ## Create Configuration Manager packages
 
-Configuration Manager requires a number of packages to deploy and configure the Skype Room System v2 units.
+Configuration Manager requires a number of packages to deploy and configure the Microsoft Teams Rooms units.
 
 You need to create and configure the following packages, and then distribute them to the Configuration Manager site systems that have been assigned the distribution point server role.
 
 | **Package name**                     | **Type**               | **Description**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 - SRS Application Package     | Software package       | Package for the Skype Room Systems v2 deployment kit                                      |
-| SRS v2 - Sysprep Package             | Software package       | Package for the custom Unattended.xml to configure Skype Room Systems v2 units            |
+| SRS v2 - SRS Application Package     | Software package       | Package for the Microsoft Teams Rooms deployment kit                                      |
+| SRS v2 - Sysprep Package             | Software package       | Package for the custom Unattended.xml to configure Microsoft Teams Rooms units            |
 | SRS v2 - Set-SRSComputerName Package | Software package       | Package for the HTML application (HTA) to assign a computer name during the deployment    |
-| SRS v2 - Configure SRS Setup         | Software package       | Package to configure deployment of the Skype Room Systems v2 app                          |
+| SRS v2 - Configure SRS Setup         | Software package       | Package to configure deployment of the Microsoft Teams Rooms app                          |
 | SRS v2 - OS Updates Package          | Software package       | Package to deploy mandatory operating system updates                                      |
 | SRS v2 - Root Certificate Package    | Software package       | Optional - Package to deploy the root certificate (not required for domain-joined units)  |
 | SRS v2 - Microsoft Monitoring Agent Package | Software package       | Optional - Package to deploy and configure the Microsoft Operations Management Suite agent|
@@ -210,7 +211,7 @@ Create the following folder structure on the System Center Configuration Manager
    ```
 3. Download the mandatory Windows Update packages into the same folder.
    > [!NOTE]
-   > At the time this article was published, only [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) was required. Check [Configure a Skype Room Systems v2 console](console.md), to see whether any other updates are required.
+   > At the time this article was published, only [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) was required. Check [Configure a Microsoft Teams Rooms console](console.md), to see whether any other updates are required.
 
 4. In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
@@ -230,7 +231,7 @@ Create the following folder structure on the System Center Configuration Manager
 
 You create this package to distribute the root certificate for devices that won’t be joined to an Active Directory domain. Create this package only if both the following conditions apply:
 -   Your deployment includes on-premises Lync or Skype for Business Server.
--   Skype Room Systems v2 units are configured to work in a workgroup instead of
+-   Microsoft Teams Rooms units are configured to work in a workgroup instead of
     a domain member.
 
 1.  Copy the root certificate into the **SRS v2 – Root Certificate Package** folder.
@@ -249,9 +250,9 @@ You create this package to distribute the root certificate for devices that won�
 
 6.  Select **Close**.
 
-### Create the Skype Room Systems v2 deployment kit package
+### Create the Microsoft Teams Rooms deployment kit package
 
-1.  Download the latest version of the **Skype Room Systems v2 deployment kit** from <https://go.microsoft.com/fwlink/?linkid=851168>, and install it to a workstation.
+1.  Download the latest version of the **Microsoft Teams Rooms deployment kit** from <https://go.microsoft.com/fwlink/?linkid=851168>, and install it to a workstation.
 
 2.  Copy the content from **C:\\Program Files (x86)\\Skype Room System Deployment Kit** to the **SRS v2 - SRS Application Package** folder.
 
@@ -466,10 +467,10 @@ For more information, see [Manage operating system images with System Center Con
 
 ### Create Surface Pro device driver packages
 
-Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You need to create a driver package for each Surface Pro model you have in your environment.
+Microsoft Teams Rooms is supported for both Surface Pro and Surface Pro 4. You need to create a driver package for each Surface Pro model you have in your environment.
 
 > [!IMPORTANT]
-> The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) and [Configure a console](console.md).
+> The drivers must be compatible with the Windows 10 Enterprise build and the Microsoft Teams Rooms deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) and [Configure a console](console.md).
 
 1.  Download the latest drivers and firmware.
     -   For Surface Pro:
@@ -504,7 +505,7 @@ Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You n
 > [!NOTE]
 > Repeat the same steps for other Surface Pro models you might have. For more information, see [Manage drivers in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-### Create Skype Room System Configuration Package
+### Create Microsoft Teams Rooms Configuration Package
 
 1.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
@@ -563,13 +564,13 @@ All the packages must be distributed to the servers that have been assigned the 
 > [!NOTE]
 > Package distribution might take some time, depending on the package size, Configuration Manager hierarchy, number of distribution point servers, and the bandwidth available in your network.
 > 
-> All the packages must be distributed before you can start deploying a Skype Room Systems v2 unit.
+> All the packages must be distributed before you can start deploying a Microsoft Teams Rooms unit.
 > 
 > You can review the status of your package distribution in the Configuration Manager console by going to **Monitoring** \> **Distribution Status** \> **Content Status**.
 
 ## Configuration Manager task sequences
 
-You use task sequences with System Center Configuration Manager to automate the steps for deploying an operating system image to a destination computer. To deploy a Skype Room Systems v2 unit in an automated fashion, you create a task sequence that references the boot image used to start the destination Skype Room Systems v2 computer, the Windows 10 Enterprise operating system image that you want to install, and any other additional content, such as other applications or software updates.
+You use task sequences with System Center Configuration Manager to automate the steps for deploying an operating system image to a destination computer. To deploy a Microsoft Teams Rooms unit in an automated fashion, you create a task sequence that references the boot image used to start the destination Microsoft Teams Rooms computer, the Windows 10 Enterprise operating system image that you want to install, and any other additional content, such as other applications or software updates.
 
 ### Import the sample task sequence
 
@@ -579,7 +580,7 @@ You can download and easily import a sample task sequence and customize it to me
     shared location.
 2.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Task Sequences**, and then select **Import Task Sequence**.
 
-3.  Select **Browse**, go to the shared folder location you used in step 1, select the **Skype Room Systems v2 Deployment (EN-US).zip** file, and then select **Next**.
+3.  Select **Browse**, go to the shared folder location you used in step 1, select the **Microsoft Teams Rooms Deployment (EN-US).zip** file, and then select **Next**.
 
 4.  Set **Action** to **Create New**, and then select **Next**.
 
@@ -591,7 +592,7 @@ You can download and easily import a sample task sequence and customize it to me
 
 1. Select the imported task sequence, and then select **Edit**.
 
-    The Task Sequence Editor opens and displays each sequential step that you need to deploy and configure a Skype Room Systems v2 unit.
+    The Task Sequence Editor opens and displays each sequential step that you need to deploy and configure a Microsoft Teams Rooms unit.
 
 2. Walk through each step and complete the recommended updates:
 
@@ -599,7 +600,7 @@ You can download and easily import a sample task sequence and customize it to me
 
    2. **Partition Disk 0 – UEFI**: This step wipes the disk configuration and creates partitions based on the configured settings. We recommend that you not make any changes to this step.
 
-   3. **Set SRS Computer Name**: This step includes an HTML application to provide a UI to set a computer name for the Skype Room Systems v2 unit during the deployment.
+   3. **Set SRS Computer Name**: This step includes an HTML application to provide a UI to set a computer name for the Microsoft Teams Rooms unit during the deployment.
       -  This is an optional step, but it can only be disabled if you want to manage computer naming through an alternate process.
       -  Verify that the **SRS v2 - Set-SRSComputerName** package is selected. If it isn’t, browse to the package and select it.
 
@@ -612,7 +613,7 @@ You can download and easily import a sample task sequence and customize it to me
 
    6. **Apply Network Settings**: This step allows you to specify a workgroup or Active Directory domain name and organizational unit.
       > [!NOTE]
-      > See [Skype Room System domain joining considerations](domain-joining-considerations.md) for recommended actions you need to take in deploying Skype Room Systems v2 units as members of an Actve Directory domain.
+      > See [Skype Room System domain joining considerations](domain-joining-considerations.md) for recommended actions you need to take in deploying Microsoft Teams Rooms units as members of an Actve Directory domain.
    7. **Apply Drivers:** This step and its sub-steps are used to deploy applicable device drivers and firmware based on the Surface Pro model you have. Update each step to specify the relevant driver package associated with this deployment.
       -   Each driver package is configured to leverage Windows Management Instrumentation (WMI) filters to deploy relevant drivers and firmware based on the Surface Pro make and model.
       -   We highly recommend that you not alter the configuration of these drivers, otherwise deployment might fail.
@@ -620,21 +621,21 @@ You can download and easily import a sample task sequence and customize it to me
    8. **Set up Windows and Configuration Manager**: This step deploys and configures the Configuration Manager client. Update this step to specify the built-in Configuration Manager Client Package.
 
    9. **Install Root Certificate**: This step distributes the root certificate for non–domain-joined devices, and therefore is optional and disabled by default.
-      -   Enable this step if you need to deploy a root certificate to the Skype Room Systems v2 units.
+      -   Enable this step if you need to deploy a root certificate to the Microsoft Teams Rooms units.
       -   If you do need to perform this step, verify that the **SRS v2 – Root Certificate Package** and **Disable 64-bit file system redirection** are selected.
 
    10. **Install and Configure Monitoring Agent**: This step installs the 64-bit version of the Microsoft Azure Monitor agent and configures the agent to connect to your Log Analytics workspace.
-       -   This step is disabled by default. Enable this step only if you’re going to use the Monitoring Agent to monitor the health of your Skype Room Systems v2 units.
+       -   This step is disabled by default. Enable this step only if you’re going to use the Monitoring Agent to monitor the health of your Microsoft Teams Rooms units.
        -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
        -   See [Configure test devices for Azure Monitoring](azure-monitor.md#configure-test-devices-for-azure-monitoring) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
        -   Verify that the **SRS v2 – Microsoft Monitoring Agent Package** and **Disable 64-bit file system redirection** are selected.
-       -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Skype Room Systems v2 management with Azure Monitor](azure-monitor.md) and [Manage Skype Room Systems v2 devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
+       -   For more information about monitoring the health of your Microsoft Teams Rooms deployment, see [Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor.md) and [Manage Microsoft Teams Rooms devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
 
-   11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Skype Room Systems v2 deployment kit to the local hard drive. No customization is required for this step.
+   11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Microsoft Teams Rooms deployment kit to the local hard drive. No customization is required for this step.
        -   Verify that the **SRS v2 – SRS Application Package** and **Disable 64-bit file system redirection** are selected.
 
-   12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating system updates required with the Skype Room Systems v2 deployment. Do the following:
-       -   Check [Configure a Skype Room Systems v2 console](console.md) to see which updates are required.
+   12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating system updates required with the Microsoft Teams Rooms deployment. Do the following:
+       -   Check [Configure a Microsoft Teams Rooms console](console.md) to see which updates are required.
        -   Verify that your **SRS v2 – OS Updates Package** includes all the required updates.
        -   Verify that the **SRS v2 – OS Updates Package** is selected.
        -   Verify that the PowerShell execution policy is set to **Bypass**.
@@ -645,9 +646,9 @@ You can download and easily import a sample task sequence and customize it to me
 
    15. **Restart Computer**: This step reboots the computer after the Windows features are configured. No customization is required for this step.
 
-   16. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Skype Room Systems v2 application. This step doesn’t have any software package associated with it, and no customization is required for it.
+   16. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Microsoft Teams Rooms application. This step doesn’t have any software package associated with it, and no customization is required for it.
 
-   17. **Set up and configure SRS application**: This step configures the Skype Room Systems v2 application installation for the next boot of the operating system.
+   17. **Set up and configure SRS application**: This step configures the Microsoft Teams Rooms application installation for the next boot of the operating system.
        -   Verify that the **SRS v2 – Configure SRS Setup Package** and **Disable 64-bit file system redirection** are selected.
 
 > [!IMPORTANT]
@@ -673,7 +674,7 @@ You can download and easily import a sample task sequence and customize it to me
    > It is very important that **Purpose** is set to **Available**. Make sure that
    the **Purpose** is **NOT** set to **Required**. Also make sure that you select **Only Media and PXE** in the **Make available to the following**.
    >
-   > Setting these values to something else might cause all computers to get the Skype Room Systems deployment image when booted.
+   > Setting these values to something else might cause all computers to get the Microsoft Teams Rooms deployment image when booted.
 7. Do not specify any schedule and select **Next**.
 
 8. Do not change anything within the **User Experience** section and select
@@ -691,7 +692,7 @@ You can download and easily import a sample task sequence and customize it to me
 Validate and troubleshoot the solution
 --------------------------------------
 
-After you’ve completed the System Center Configuration Manager task sequences, you’ll need to perform a test run to validate that the task sequence can deploy and configure Skype Room Systems v2 units.
+After you’ve completed the System Center Configuration Manager task sequences, you’ll need to perform a test run to validate that the task sequence can deploy and configure Microsoft Teams Rooms units.
 
 1.  Connect the test device to the wired network by using one of the supported Ethernet adapters or using the Surface dock. If PXE boot functionality hasn’t been configured for your environment, you can use the boot image on the USB flash drive [that you created earlier](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) to boot from USB and connect to Configuration Manager.
 
@@ -724,13 +725,13 @@ After you’ve completed the System Center Configuration Manager task sequences,
 
 8.  The rest of the deployment process is automatic and doesn’t ask for any more user input.
 
-9.  After the deployment task sequence finishes configuring the device, you’ll see the following configuration screen that asks you to configure the Skype Room Systems v2 application settings.
+9.  After the deployment task sequence finishes configuring the device, you’ll see the following configuration screen that asks you to configure the Microsoft Teams Rooms application settings.
 
-    ![Initial setup screen for Skype Room Systems v2 application](../../media/room-systems-scale-image2.png)
+    ![Initial setup screen for Microsoft Teams Rooms application](../../media/room-systems-scale-image2.png)
 
-10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure the application settings.
+10.  Plug the Surface Pro into the Microsoft Teams Rooms console, and configure the application settings.
 
-11.  Validate that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device.
+11.  Validate that the capabilities listed in [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device.
 
 
 To troubleshoot a failed installation, check the **SMSTS.log** file, which logs all the steps executed in a Configuration Manager task sequence.

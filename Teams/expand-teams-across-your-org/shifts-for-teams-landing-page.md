@@ -6,7 +6,7 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
@@ -109,7 +109,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Shifts Help for firstline managers and workers</h3>
+                        <h3>Shifts Help for Firstline Workers</h3>
                     </div>
                 </div>
             </div>

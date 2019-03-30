@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room Systems v2 with Exchange Online"
+title: "Deploy Microsoft Teams Rooms with Exchange Online"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,24 +10,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: "Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online."
+description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online."
 ---
 
-# Deploy Skype Room Systems v2 with Exchange Online
+# Deploy Microsoft Teams Rooms with Exchange Online
 
-Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online and Skype for Business Server on-premises.
+Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online and Skype for Business Server on-premises.
   
-If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Skype Room Systems v2 with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.
+If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Microsoft Teams Rooms with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.
 
-The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
+The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts. If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.
 
 ## Requirements
 
-Before you deploy Skype Room Systems v2 with Exchange Online, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Before you deploy Microsoft Teams Rooms with Exchange Online, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
-To deploy Skype Room Systems v2 with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets.
+To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets.
   
 ### Create an account and set Exchange properties
 
@@ -40,7 +41,7 @@ $cred=Get-Credential $admin@$org
 $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
 ```
 
-2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Skype Room Systems v2.
+2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Microsoft Teams Rooms.
 
    If you're changing an existing resource mailbox:
 
@@ -72,12 +73,12 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### Add an email address for your on-premises domain account
 
-1. In **Active Directory Users and Computers AD** tool, right-click on the folder or Organizational Unit that your Skype Room Systems v2 accounts will be created in, click **New**, and then click **User**.
+1. In **Active Directory Users and Computers AD** tool, right-click on the folder or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.
 2. Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
 3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
 
     > [!NOTE]
-    > Selecting **Password never expires** is a requirement for Skype for Business Server on Skype Room Systems v2. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Skype Room Systems v2 user account.
+    > Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms user account.
   
 4. Click **Finish** to create the account.
 5. After you've created the account, run a directory synchronization. When it's complete, go to the users page and verify that the two accounts created in the previous steps have merged.
@@ -109,7 +110,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. To enable your Skype Room Systems v2 account for Skype for Business Server, run this command:
+2. To enable your Microsoft Teams Rooms account for Skype for Business Server, run this command:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
@@ -121,25 +122,25 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### Assign a Skype for Business Server license to your Skype Room Systems v2 account
+### Assign a Skype for Business Server license to your Microsoft Teams Rooms account
 
 1. Log in as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
 2. Click on **Users and Groups** and then click **Add users, reset passwords, and more**.
-3. Click the Skype Room Systems v2 account, and then click the pen icon to edit the account information.
+3. Click the Microsoft Teams Rooms account, and then click the pen icon to edit the account information.
 4. Click **Licenses**.
-5. In **Assign licenses**, select Skype for Business (Plan 2) or Skype for Business (Plan 3), depending on your licensing and Enterprise Voice requirements. You'll have to use a Plan 3 license if you want to use Enterprise Voice on your Skype Room Systems v2.
+5. In **Assign licenses**, select Skype for Business (Plan 2) or Skype for Business (Plan 3), depending on your licensing and Enterprise Voice requirements. You'll have to use a Plan 3 license if you want to use Enterprise Voice on Microsoft Teams Rooms.
 6. Click **Save**.
 
 For validation, you should be able to use any Skype for Business client to log in to this account.
   
 ## See also
 
-[Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md)
+[Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Deploy Skype Room Systems v2](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
   
-[Configure a Skype Room Systems v2 console](console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

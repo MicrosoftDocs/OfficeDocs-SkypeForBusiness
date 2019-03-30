@@ -4,11 +4,11 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 1/10/2019
+ms.date: 3/29/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to migrate your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
+description: Learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 

@@ -622,12 +622,10 @@
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-<!-- ============================================================ -->
-
-#       
-#        
 
 <!-- ============================================================ -->
+# 
+# 
 
 # [Expand Teams across your organization](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
@@ -637,7 +635,7 @@
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-##  [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
@@ -655,8 +653,10 @@
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 
-#       
-#        
+<!-- ============================================================ -->
+
+# 
+# 
 
 <!-- ============================================================ -->
 
