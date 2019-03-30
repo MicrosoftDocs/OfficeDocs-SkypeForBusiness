@@ -52,6 +52,5 @@ The following settings are of special interest for Healthcare applications, and 
 
 ## Related topics
 
-[Full Messaging Policies article](../messaging-policies-in-teams.md)
-
-[Get started with Teams for Healthcare organizations](teams-in-hc.md)
+- [Manage messaging policies in Teams](../../messaging-policies-in-teams.md)
+- [Get started with Teams for Healthcare organizations](teams-in-hc.md)
