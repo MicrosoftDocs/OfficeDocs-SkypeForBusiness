@@ -120,25 +120,6 @@ f1keywords:
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/SkypeForBusiness/room-systems/">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="tasks" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Microsoft Teams Rooms</h3>
-                                                <P>Learn how to plan, deploy, and manage Microsoft Teams Rooms.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                            <li>
                                 <a href="https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
