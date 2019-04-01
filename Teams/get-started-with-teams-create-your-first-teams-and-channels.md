@@ -54,7 +54,7 @@ To get started, we recommend you create private teams and add another owner to m
 
 ### Create a team
 
-On the left side of Teams, click **Teams**, and then at the bottom of the teams list, click **Join or create a team**. On the **Create a team** tile, click **Create team**.
+On the left side of Teams, click **Teams**, at the bottom of the teams list, click **Join or create a team**, and then click **Create a new team**.
 
 Once you've created the team, invite people to join it. You can add individual users, groups, and even entire contact groups (formerly known as "distribution lists"). 
 
