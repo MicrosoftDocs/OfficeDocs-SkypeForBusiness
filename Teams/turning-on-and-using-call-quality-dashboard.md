@@ -72,7 +72,7 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 > [!NOTE]
 > It may take a couple of hours to process enough data to display meaningful results in the reports. 
   
-## Features of the Call Quality Dashboard for Skype for Business Online
+## Features of the Call Quality Dashboard for Microsoft Teams and Skype for Business Online 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the two editions are summarized here:
