@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room Systems v2 management with Azure Monitor"
+title: "Deploy Microsoft Teams Rooms management with Azure Monitor"
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
@@ -10,20 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: "This article discusses how to deploy management of Skype Room Systems v2 devices in an integrated, end-to-end manner using Azure Monitor."
+description: "This article discusses how to deploy management of Microsoft Teams Rooms devices in an integrated, end-to-end manner using Azure Monitor."
 ---
 
-# Deploy Skype Room Systems v2 management with Azure Monitor
+# Deploy Microsoft Teams Rooms management with Azure Monitor
 
-This article discusses how to set up and deploy integrated, end-to-end management of Skype Room Systems v2 devices by using Azure Monitor.
+This article discusses how to set up and deploy integrated, end-to-end management of Microsoft Teams Rooms devices by using Azure Monitor.
 
-You can configure Log Analytics within Azure Monitor to provide basic telemetry and alerts that will help you manage Skype meeting room devices. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
+You can configure Log Analytics within Azure Monitor to provide basic telemetry and alerts that will help you manage Microsoft Teams Rooms meeting room devices. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
 
-By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and Skype Room Systems v2 application and operating system version distribution.
+By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and Microsoft Teams Rooms application and operating system version distribution.
 
-![Sample Log Analytics view for SRS v2](../../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for SRS v2")
+![Sample Log Analytics view for Microsoft Teams Rooms](../../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
 
 At a high level, you need to perform the following tasks:
 
@@ -31,32 +32,32 @@ At a high level, you need to perform the following tasks:
 1.  [Validate Log Analytics configuration](azure-monitor.md#validate_LogAnalytics)
 2.  [Configure test devices for Log Analytics management setup](azure-monitor.md#configure_test_devices)
 3.  [Map custom fields](azure-monitor.md#Custom_fields)
-4.  [Define the Skype Room Systems v2 views in Log Analytics](azure-monitor.md#Define_Views)
+4.  [Define the Microsoft Teams Rooms views in Log Analytics](azure-monitor.md#Define_Views)
 5.  [Define alerts](azure-monitor.md#Alerts)
 6.  [Configure all devices for Monitoring](azure-monitor.md#configure_all_devices)
 7.  [Configure additional Azure Monitor solutions](azure-monitor.md#Solutions)
 
 > [!IMPORTANT]
-> Although with minimal configuration, Azure Monitor Log Analytics can monitor a computer running a Windows operating system, there are still some Skype Room Systems v2–specific steps that you need to take before you start deploying agents to all Skype Room Systems devices.
+> Although with minimal configuration, Azure Monitor Log Analytics can monitor a computer running a Windows operating system, there are still some Microsoft Teams Rooms–specific steps that you need to take before you start deploying agents to all Microsoft Teams Rooms devices.
 > Therefore, we highly recommend you perform all configuration steps in the right order for a controlled setup and configuration. The quality of the end result very much depends on the quality of the initial configuration.
 
 ## Validate Log Analytics configuration
 <a name="validate_LogAnalytics"> </a>
 
-You need to have a Log Analytics workspace to start collecting logs from Skype Room Systems v2 devices. A workspace is a unique Log Analytics environment with its own data repository, data sources, and solutions. If you already have an existing Log Analytics workspace, you might use it to monitor your Skype Room Systems v2 deployment or alternatively, you can create a dedicated Log Analytics workspace specific to your Skype Room Systems v2 monitoring needs.
+You need to have a Log Analytics workspace to start collecting logs from Microsoft Teams Rooms devices. A workspace is a unique Log Analytics environment with its own data repository, data sources, and solutions. If you already have an existing Log Analytics workspace, you might use it to monitor your Microsoft Teams Rooms deployment or alternatively, you can create a dedicated Log Analytics workspace specific to your Microsoft Teams Rooms monitoring needs.
 
 If you need to create a new Log Analytics workspace, follow the instructions in the article [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)
 
 > [!NOTE]
 > To use Log Analytics with Azure Monitor, you need to have an active Azure subscription. If you don’t have an Azure subscription, you can create [a free trial subscription](https://azure.microsoft.com/free) as a starting point.
 
-### Configure Log Analytics to collect Skype Room Systems v2 event logs
+### Configure Log Analytics to collect Microsoft Teams Rooms event logs
 
 Log Analytics only collects events from the Windows event logs that are specified in the settings. For each log, only the events with the selected severities are collected.
 
-You need to configure Log Analytics to collect the logs required to monitor Skype Room Systems v2 device and application status. Skype Room Systems v2 devices use the **Skype Room System** event log.
+You need to configure Log Analytics to collect the logs required to monitor Microsoft Teams Rooms device and application status. Microsoft Teams Rooms devices use the **Skype Room System** event log.
 
-To configure Log Analytics to collect the Skype Room Systems v2 events, see [Windows event log data sources in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
+To configure Log Analytics to collect the Microsoft Teams Rooms events, see [Windows event log data sources in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
 ![Event log settings](../../media/Deploy-Azure-Monitor-2.png "Event log settings")
 
@@ -66,34 +67,34 @@ To configure Log Analytics to collect the Skype Room Systems v2 events, see [Win
 ## Configure test devices for Azure Monitoring
 <a name="configure_test_devices"> </a>
 
-You need to prepare Log Analytics to be able to monitor Skype Room Systems v2–related events. To start with, you need to deploy Microsoft Monitoring agents to just one or two Skype Room Systems v2 devices that you have physical access to, and get those test devices generate some data and push it to the Log Analytics workspace.
+You need to prepare Log Analytics to be able to monitor Microsoft Teams Rooms–related events. To start with, you need to deploy Microsoft Monitoring agents to just one or two Microsoft Teams Rooms devices that you have physical access to, and get those test devices generate some data and push it to the Log Analytics workspace.
 
 ### Install Microsoft Monitoring agents to test devices
 
-Deploy the Microsoft Monitoring agent to the test devices by using the instructions provided in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). This article provides detailed information about the steps for deploying Microsoft Monitoring Agent for Windows, instructions for obtaining the Log Analytics ***Workspace ID*** and the ***primary key*** to get Skype Room Systems v2 devices connected to your Azure Monitor deployment, and steps to verify agent connectivity to Log Analytics instance.
+Deploy the Microsoft Monitoring agent to the test devices by using the instructions provided in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). This article provides detailed information about the steps for deploying Microsoft Monitoring Agent for Windows, instructions for obtaining the Log Analytics ***Workspace ID*** and the ***primary key*** to get Microsoft Teams Rooms devices connected to your Azure Monitor deployment, and steps to verify agent connectivity to Log Analytics instance.
 
-### Generate sample Skype Room Systems events
+### Generate sample Microsoft Teams Rooms events
 
 After the Microsoft Monitoring agent is deployed onto the test devices, verify that the required event log data is collected by Azure Monitor.
 
 > [!NOTE]
-> Reboot the device after the installation of the Microsoft Monitoring agent, and make sure that Skype Room Systems v2 Meeting app is started, so that it can generate new events into the Event Log.
+> Reboot the device after the installation of the Microsoft Monitoring agent, and make sure that Microsoft Teams Rooms Meeting app is started, so that it can generate new events into the Event Log.
 
 1.  Sign in to the [Microsoft Azure portal](https://portal.azure.com) and go to Log Analytics and select your workspace.
 
-2.  List the heartbeat events generated by a Skype Room Systems v2 device:
-    1.  Select your workspace and go to **Logs** and use a query to retrieve the heartbeat records that will have the custom fields for SRS v2.
+2.  List the heartbeat events generated by a Microsoft Teams Rooms device:
+    1.  Select your workspace and go to **Logs** and use a query to retrieve the heartbeat records that will have the custom fields for Microsoft Teams Rooms.
     2.  Sample query: `Event | where Source == "SRS-App" and EventID == 2000`
 
-3.  Make sure that the query returns log records that include events generated by the Skype Room Systems v2 meetings app.
+3.  Make sure that the query returns log records that include events generated by the Microsoft Teams Rooms meetings app.
 
 4.  Generate a hardware issue, and validate that the required events are logged in Azure Log Analytics.
-    1.  Unplug one of the peripheral devices on the test Skype Room Systems v2 system. This could be the camera, speakerphone, microphone, or Front Room Display
+    1.  Unplug one of the peripheral devices on the test Microsoft Teams Rooms system. This could be the camera, speakerphone, microphone, or Front Room Display
     2.  Wait 10 minutes for the event log to be populated in Azure Log Analytics.
     3.  Use a query to list hardware error events: `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  Generate an application issue, and validate that the required events are logged.
-    1.  Modify Skype Room Systems v2 application configuration, and type an incorrect Session Initiation Protocol (SIP) address/password pair.
+    1.  Modify Microsoft Teams Rooms application configuration, and type an incorrect Session Initiation Protocol (SIP) address/password pair.
     2.  Wait 10 minutes for the event log to be populated in Azure Log Analytics.
     3.  Use a query to list application error events: `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -109,14 +110,11 @@ To extract your custom fields out of the captured event logs, follow these steps
 
 1.  Sign in to the [Microsoft Azure portal](https://portal.azure.com) and go to Log Analytics and select your workspace.
 
-2. List the events generated by a Skype Room Systems v2 device:
-   1.  Go to **Logs (classic)** and use a query to retrieve the records that will have the custom field.
+2. List the events generated by a Microsoft Teams Rooms device:
+   1.  Go to **Logs** and use a query to retrieve the records that will have the custom field.
    2.  Sample query: `Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Select one of the records, select the button to the left, and start the field extraction wizard.
-
-   ![Field extraction wizard](../../media/Deploy-Azure-Monitor-3.png "Field extraction wizard")
-
 4. Highlight the data you’d like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
 
    ![Custom field definition](../../media/Deploy-Azure-Monitor-4.png "Custom field definition")
@@ -154,17 +152,17 @@ To extract your custom fields out of the captured event logs, follow these steps
 | HDMI Ingest status               | SRSHDMIIngestStatus         | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
 
 
-## Define the Skype Room Systems v2 views in Log Analytics
+## Define the Microsoft Teams Rooms views in Log Analytics
 <a name="Define_Views"> </a>
 
-After data is collected and custom fields are mapped, you can use View Designer to develop a dashboard containing various tiles to monitor Skype Room Systems v2 events. Use View Designer to create the following tiles. For more information, see [Create custom views by using View Designer in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
+After data is collected and custom fields are mapped, you can use View Designer to develop a dashboard containing various tiles to monitor Microsoft Teams Rooms events. Use View Designer to create the following tiles. For more information, see [Create custom views by using View Designer in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
 > Previous steps in this guide should have been completed for the dashboard tiles to work properly.
 
-### Create a Skype Room Systems v2 dashboard by using the import method
+### Create a Microsoft Teams Rooms dashboard by using the import method
 
-You can import an Skype Room Systems v2 dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
+You can import an Microsoft Teams Rooms dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
 
 1.  Get the [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) dashboard file.
 2.  Sign in to the [Microsoft Azure portal](https://portal.azure.com) and go to Log Analytics and select your workspace.
@@ -172,7 +170,7 @@ You can import an Skype Room Systems v2 dashboard and start monitoring your devi
 4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
 5.  Select **Save**.
 
-### Create a Skype Room Systems v2 dashboard manually
+### Create a Microsoft Teams Rooms dashboard manually
 
 Alternatively, you can create your own dashboard and add only the tiles that you wish to monitor.
 
@@ -180,7 +178,7 @@ Alternatively, you can create your own dashboard and add only the tiles that you
 
 1.  Open **View Designer**.
 2.  Select **Overview Tile**, and then select **Two numbers** from the gallery.
-3.  Name the tile **Skype Room Systems v2**.
+3.  Name the tile **Microsoft Teams Rooms**.
 4.  Define the **First Tile**:<br>
     **Legend:** Devices that sent a heartbeat at least once within the last month<br>
     **Query:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -244,7 +242,7 @@ Alternatively, you can create your own dashboard and add only the tiles that you
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Select **Apply**, and then **Close**.
 
-### Create a tile that displays Skype Room Systems v2 Operating System versions
+### Create a tile that displays Microsoft Teams Rooms Operating System versions
 
 1.  Select **Donut & list** from the gallery, and then add a new tile.
 2.  Define the **General** properties:<br>
@@ -268,11 +266,11 @@ Alternatively, you can create your own dashboard and add only the tiles that you
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  Select **Apply** and then **Close**.
 
-### Create a tile that displays Skype Room Systems v2 application versions
+### Create a tile that displays Microsoft Teams Rooms application versions
 
 1.  Select **Donut & list** from the gallery, and then add a new tile.
 2.  Define the **General** properties:<br>
-    **Group Title:** Skype Room Systems v2 application details<br>
+    **Group Title:** Microsoft Teams Rooms application details<br>
     **New Group:** Selected
 3.  Define the **Header** properties:<br>
     **Title:** Application versions<br>
@@ -334,7 +332,7 @@ Now you’ve completed creating your views.
 ## Configure Alerts in Azure Monitor
 <a name="Alerts"> </a>
 
-Azure Monitor can raise alerts to notify the administrators, when a Skype Room Systems v2 console encounters an issue.
+Azure Monitor can raise alerts to notify the administrators, when a Microsoft Teams Rooms console encounters an issue.
 
 Azure Monitor includes a built-in alerting mechanism that runs through scheduled log searches at regular intervals. If the results of the log search match some particular criteria, an alert record is created.
 
@@ -346,11 +344,11 @@ The rule can then automatically run one or more actions to proactively notify yo
 See [Log alerts in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log) to learn more about the alerts in Azure Monitor.
 
 > [!NOTE]
-> The following examples send email alerts when a Skype Room Systems v2 device generates a hardware or an application error.
+> The following examples send email alerts when a Microsoft Teams Rooms device generates a hardware or an application error.
 
-### Configure an email alert for Skype Room Systems v2 hardware issues
+### Configure an email alert for Microsoft Teams Rooms hardware issues
 
-Configure an alert rule that checks for Skype Room Systems v2 devices that have encountered hardware issues within the last hour.
+Configure an alert rule that checks for Microsoft Teams Rooms devices that have encountered hardware issues within the last hour.
 1.  Sign in to the [Microsoft Azure portal](https://portal.azure.com) and go to Log Analytics and select your workspace.
 
 2. Navigate to your Log Analytics workspace and select **Alerts** and then select **New alert rule**
@@ -386,14 +384,14 @@ Configure an alert rule that checks for Skype Room Systems v2 devices that have 
 8. **Customize Actions** if you like to override the subject line of the alert emails.
 
 9. Specify a rule name and description.<br>
-    **Rule Name:** Skype Room Systems v2 Hardware Failure Alert<br>
+    **Rule Name:** Microsoft Teams Rooms Hardware Failure Alert<br>
     **Description:** List of devices that encountered a hardware issue within the last hour<br>
 
 10. Select the intended severity and make sure the rule is enabled.
 
 11. Select **Create alert rule**.
 
-### Configure an email alert for Skype Room Systems v2 application issues
+### Configure an email alert for Microsoft Teams Rooms application issues
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
@@ -413,15 +411,15 @@ When an alert is generated, you’ll get an email that lists the devices that en
 
 ## Configure all devices for Azure Monitoring
 <a name="configure_all_devices"> </a>
-After the dashboards and alerts are configured, you can set up and configure Microsoft Monitoring agent on all Skype Room Systems v2 devices to complete your monitoring deployment.
+After the dashboards and alerts are configured, you can set up and configure Microsoft Monitoring agent on all Microsoft Teams Rooms devices to complete your monitoring deployment.
 
 Although you can install and configure the Microsoft Monitoring agent manually on each device, we highly recommend you leverage existing software deployment tools and methods.
 
-If you’re building your Skype Room Systems v2 devices for the first time, you might want to include the Microsoft Monitoring agent setup and configuration steps as part of your build process. For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
+If you’re building your Microsoft Teams Rooms devices for the first time, you might want to include the Microsoft Monitoring agent setup and configuration steps as part of your build process. For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
 
 ### Deploying Microsoft Monitoring agent by using a Group Policy Object (GPO)
 
-If you already deployed your Skype Room Systems v2 devices before you implement Azure Monitoring, you can use the provided script to set up and configure the agents by using Active Directory group policy objects.
+If you already deployed your Microsoft Teams Rooms devices before you implement Azure Monitoring, you can use the provided script to set up and configure the agents by using Active Directory group policy objects.
 
 1.  Create a shared network path and grant read access to **Domain Computers** group.
 
@@ -431,7 +429,7 @@ If you already deployed your Skype Room Systems v2 devices before you implement 
     1.  Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**
     2.  Specify the share you just created, and extract the content.
 
-4.  Create a new Group Policy Object and assign it to the organizational unit where Skype Room Systems v2 machine accounts are located.
+4.  Create a new Group Policy Object and assign it to the organizational unit where Microsoft Teams Rooms machine accounts are located.
 
 5.  Configure PowerShell execution policy:
     1.  Edit the newly created Group Policy Object and navigate to Computer Configuration \\ Policies \\ Administrative Templates \\ Windows Components \\ Windows PowerShell
@@ -446,7 +444,7 @@ If you already deployed your Skype Room Systems v2 devices before you implement 
     6.  Select **Add**, and then **Browse**.
     7.  Select the ps1 script you just copied.
 
-7.  Skype Room Systems v2 devices should install and configure the Microsoft Monitoring agent with the second reboot.
+7.  Microsoft Teams Rooms devices should install and configure the Microsoft Monitoring agent with the second reboot.
 
 ```
 # Install-MMAgent.ps1
@@ -503,6 +501,6 @@ Azure Monitor provides built-in management solutions through its [solution galle
 
 ## See also
 
-[Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
+[Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
-[Manage Skype Room Systems v2 devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md)
+[Manage Microsoft Teams Rooms devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md)

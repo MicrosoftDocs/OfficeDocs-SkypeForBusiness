@@ -79,4 +79,4 @@ By default the base template is set to **Standard** which doesn't contain any ad
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
 - [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
-- [Get started with Healthcare Teams templates](healthcare/healthcare-templates.md)
+- [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
