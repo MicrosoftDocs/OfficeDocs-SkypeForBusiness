@@ -12,11 +12,11 @@ ms.collection:
 description: "Overview of using a Cloud PBX call queue with Skype for Business Server 2019."
 ---
 
-# Configure Cloud call queues 
+# Configure Cloud call queues
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online.
 
-In Skype for Business Server 2019 you are now able to use the Cloud call queues described in [Create a Phone System call queue](../../../Teams/create-a-phone-system-call-queue.md).
+In Skype for Business Server 2019 you are now able to use the Cloud call queues described in [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md).
 
 To use Cloud call queues with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the call queue. Typically you will have multiple call queues, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts, and each of which routes call to available agents.
 
@@ -67,7 +67,7 @@ Your online implementation will need to have a plan that includes Phone System l
 
 1. Assign Phone System licenses to the on-premise resource account as described in  [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-2. Use the procedures in [Create a Phone System call queue](../../../Teams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
+2. Use the procedures in [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
 
 An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
