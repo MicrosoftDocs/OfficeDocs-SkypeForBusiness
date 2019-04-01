@@ -26,7 +26,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -48,7 +48,7 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Teams Healthcare templates for Healthcare organizations</h3>
+                        <h3>Get started with Teams templates for Healthcare organizations</h3>
                     </div>
                 </div>
             </div>
