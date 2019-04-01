@@ -69,7 +69,7 @@ Depending on whether your phone number is located online or on premises, you wou
 - Hybrid implementations (numbers numbers homed on Direct Routing, OPCH and CCE) will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to create a resource account that is homed on premises.  
 - Online only implementations will use [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) to have a resource account that is homed online.
 
-The following is an online environment example of creating a resource account:
+The following is an online environment example of creating resource account with an auto attendant ApplicationID. For a call queue, you can use the following ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -84,7 +84,7 @@ See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/modu
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
  -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
+Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
 If you do not apply a license while creating the resource account the phone number assignment will fail. 
