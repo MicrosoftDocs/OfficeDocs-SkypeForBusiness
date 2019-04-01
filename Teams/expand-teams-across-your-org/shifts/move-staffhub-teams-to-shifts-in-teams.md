@@ -123,7 +123,7 @@ Here's an example of the response you get when a move is in progress.
 
 ### Raise awareness
 
-When you're ready to go beyond your pilot teams and move your organization's StaffHub team to Teams, it's important to first communicate the change across your organization. Spread the word about Shifts and the transition to Teams to raise awareness, generate excitement, and drive adoption.
+When you're ready to go beyond your pilot teams and move your organization's StaffHub teams to Teams, it's important to first communicate the change across your organization. Spread the word about Shifts and the transition to Teams to raise awareness, generate excitement, and drive adoption.
 
 ### Move your StaffHub teams
 
