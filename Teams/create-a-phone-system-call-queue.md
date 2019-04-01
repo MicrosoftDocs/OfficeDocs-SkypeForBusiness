@@ -204,7 +204,7 @@ To access the opt-out option, agents can do the following:
  3. On the user settings page, click **Call Queues**, and then clear the check boxes for any queues for which they want to opt out.
 
     > [!NOTE]
-    > Agents using Mac, mobile, or Lync 2013 clients, or Hybrid Voice users who are hosted on-premises using Skype for Business 2015 server, can go to [https://aka.ms/cqsettings](https://aka.ms/cqsettings) to access the opt out option.
+    > Agents using apps or endpoints other than Skype for Business Desktop can access the opt out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![Number 2](media/sfbcallout2.png)
 **Agent Alert setting**
