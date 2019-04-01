@@ -28,9 +28,8 @@ With org-wide teams, global administrators can easily create a public team that 
 When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Users who are disabled for Teams, guest users, and most rooms aren't added to the team. As your organization's directory is updated to include new active users or if users no longer work at your company and their Teams license is disabled, changes are automatically synced and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
 
 > [!NOTE]
-> 
-- If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or your organization might have more than the current size limit of 2,500 members. We're looking to increase this limit in future.
-- Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
+> - If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or your organization might have more than the current size limit of 2,500 members. We're looking to increase this limit in future.
+> - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
 
 ## Best practices
 To get the most out of your org-wide team, we recommend team owners do the following.
