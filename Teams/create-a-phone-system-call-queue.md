@@ -20,14 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up phone system for PHone System call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
+description: "Learn how to set up Phone System for Cloud call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
 ---
 
-# Create a Phone System call queue
+# Create a Cloud call queue
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
   
-Phone System call queues can provide:
+Cloud call queues can provide:
   
 - An organizational greeting.
 - Music while people are waiting on hold.
@@ -67,12 +67,12 @@ To get started using call queues, it's important to remember a few things:
   
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
-- You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to Phone System call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
+- You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to Cloud call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
 
     > [!NOTE]
     > User (subscriber) phone numbers can't be assigned to call queues - only service toll or toll-free phone numbers can be used.
   
-- When you are distributing the incoming calls from an Phone System call queue, these clients are supported for call agents:
+- When you are distributing the incoming calls from a Cloud call queue, these clients are supported for call agents:
 
   - Skype for Business desktop client 2016 (32 and 64-bit versions)
 

@@ -1,5 +1,5 @@
 ---
-title: "Set up a Phone System auto attendant"
+title: "Set up a Cloud auto attendant"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,14 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization."
+description: "Learn how to set up and test Cloud auto attendants for efficient call handling for your organization."
 ---
 
-# Set up a Phone System auto attendant
+# Set up a Cloud auto attendant
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Microsoft Teams admin center. To create a new auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
 
-If you want to learn more about auto attendants, see [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
+If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
@@ -366,6 +366,6 @@ Here are the cmdlets that you need to manage an auto attendant.
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
 
 [Small business example - Set up an auto attendant](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  
