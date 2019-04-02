@@ -36,9 +36,9 @@ So, let's get started. First, take a look at the following diagram that shows hi
 ### Planning live events in Microsoft Teams
 Live events in Teams empowers multiple roles to successfully broadcast and participate in an event, including the following: organizer, producer, presenter, and attendee.
 
-- **Organizer**: The organizer manages the live event end to end. This includes creating the event with appropriate attendee permissions, choosing the production method, inviting event team members and attendees and managing event reports. Event reports will include both recording and attendance reports.  With real-time captions & translation (coming soon), the organizer can also specify whether live event attendees can view captions in the supported languages.
+- **Organizer**: The organizer manages the live event end to end. This includes creating the event with appropriate attendee permissions, choosing the production method, inviting event team members and attendees and managing event reports. Event reports include recordings and attendance reports. With real-time captions & translation (coming soon), the organizer can also specify whether live event attendees can view captions in the supported languages.
 
-- **Producer**: As a host of the meeting, producers ensure attendees have a great viewing experience by controlling the media sources that are sent to the event. Additional capabilities include: Start / Stop, Share own video, Share participant video, Share active desktop/window, Select layouts, Chat with other event team members, View live attendee count, Moderate Q & A.
+- **Producer**: As the host of the meeting, producers ensure attendees have a great viewing experience by controlling the media sources that are sent to the event. Additional capabilities include: Start / Stop, share own video, share participant video, share active desktop/window, select layouts, chat with other event team members, view live attendee count, and moderate Q & A.
 
 
 ## Key components
