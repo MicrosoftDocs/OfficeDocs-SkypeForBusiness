@@ -8,7 +8,7 @@ ms.date: 04/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to download and install the StaffHub PowerShell module
+description: Learn how to install and connect to the Microsoft StaffHub PowerShell module
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -35,12 +35,12 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     ```
 
 4. Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step. If folders are missing, create them.
-5. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\&lt;username&gt;\Documents\WindowsPowerShell\Modules.
+5. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
     Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path -RequiredVersion 1.0.2
+    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.2
     Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
     ```
 
@@ -55,5 +55,6 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 2. When you're prompted, log in as a global admin.
 
 ## Related topics
+
 - [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
 - [Move your Microsoft StaffHub teams to Shifts in Microsoft Teams](../expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
