@@ -75,7 +75,7 @@ The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun
 
 ### Option 2: Configure via MDM such as Intune 
 
-Use the following to configure the default calling and meetings application policy via Intune. Also see the blog, [Deploy the Microsoft Teams for Surface Hub app using Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
+Use the following to configure the default calling and meetings application policy via Intune. Also see the blog, [Deploy the Microsoft Teams for Surface Hub app using Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
 |Setting   |Value    |Description    |
 |----------|---------|---------|
