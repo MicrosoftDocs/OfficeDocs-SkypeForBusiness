@@ -38,7 +38,7 @@ You can still choose to run Teams fully in VDI using either the Teams desktop ap
 It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
 > [!NOTE]
-> When Teams calling and meeting are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would. 
+> When Teams calling and meetings are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would. 
 
 #### Calling
 
@@ -47,7 +47,7 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 |Policy name  |Description |Recommended value  |
 |---------|---------|---------|
 |AllowCalling    |Controls interop calling capabilities. Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.         |Set to False to prevent calls from Skype for Business users landing in Teams.          |
-|AllowPrivateCalling     | Controls whether the Calling app is available in the left side of the Teams client and whether users see Calling and Video call options in private chat         |Set to False to remove the Calling app from the left side of Teams and to remove the Calling and Video call options in private chat.          |
+|AllowPrivateCalling     | Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat         |Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat.          |
 
 #### Create and assign a calling policy
 
@@ -86,7 +86,7 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 
 For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy). 
 
-#### Meeting
+#### Meetings
 
 Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. Here's the list of policy settings and recommended values. 
 
@@ -186,7 +186,7 @@ Here's the process and tools to deploy the Teams desktop app.
 
 2. Run the following command to install the MSI to the VDI VM (or complete updating it): 
 
-        msiexec /i <msi_name> /l*v < install_logfile_name> ALLUSER=1 
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 
 
     This installs Teams to Program Files. At this point, the golden image setup is complete. 
  
@@ -203,17 +203,14 @@ Here's the process and tools to deploy the Teams desktop app.
 The following are known issues and limitations for Teams on VDI.
 
 - **Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.
-- **Calling and meeting**:
+- **Calling and meetings**:
 
     - Calling and meeting scenarios aren't optimized for VDI. These scenarios will perform poorly. We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.  
     - Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization. If users in your organization use non-VDI clients, you can choose to not apply the policies.  
 
 - **Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting. In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.  
 - **Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
-- **Client updates**: Teams on VDI isn't automatically updated like the way that non-VDI Teams clients are.  You must update the VM image by installing a new MSI as described in  they do so by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You don't have to uninstall the current version to update to a newer version.
-- **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
-- **Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
-- **Client updates**: Teams on VDI isn't automatically updated the way that non-VDI Teams clients are.  You must update the VM image by installing a new MSI as described in they do so by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You don't have to uninstall the current version to update to a newer version.
+- **Client updates**: Teams on VDI isn't automatically updated like the way that non-VDI Teams clients are.  You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You must uninstall the current version to update to a newer version.
 - **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
 
 For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).
