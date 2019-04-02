@@ -194,7 +194,7 @@ Here's the process and tools to deploy the Teams desktop app.
 
 3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it):
 
-        msiexec /passive /x <msi_name> /l*v <uninstall_logfile_name> 
+        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name> 
 
     This uninstalls Teams from Program Files. 
 
