@@ -39,7 +39,7 @@ The user must have:
 - Video sharing enabled in Teams meetings (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 - Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
 - Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
-- Permissions to create live events in Microsoft Stream (for [external encoder production](#production)).
+- Permissions to create live events in Microsoft Stream (for external encoder production).
 
 > [!IMPORTANT]
 > Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guest and federated users can only watch live events anonymously. 
