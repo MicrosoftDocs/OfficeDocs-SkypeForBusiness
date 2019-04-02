@@ -25,7 +25,7 @@ appliesto:
 
 Microsoft Teams scoped directory search allows organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. 
 
-Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Exchange address book policies](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover teams when scoped search is in effect. 
+Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Exchange address book policies](https://docs.microsoft.com/en-us/exchange/address-books/address-book-policies/address-book-policies) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover teams when scoped search is in effect. 
 
 ## When should you use scoped directory searches?
 
@@ -34,14 +34,14 @@ Scenarios that benefit from scoped directory searches are similar to address boo
 - Your organization has multiple companies within its tenant that you want to keep separate. 
 - Your school wants to limit chats between faculty and students. 
  
-You can learn more about how address book policies can be used [here](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
+You can learn more about how address book policies can be used [here](https://docs.microsoft.com/en-us/exchange/address-books/address-book-policies/address-book-policies).
 
 > [!IMPORTANT]
 > Address book policies provide only a virtual separation of users from directory perspective. Users can still initiate communications with others by providing complete email addresses. It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.
 
 ## Enable scoped directory search
 
-1.	Use address book policies to configure your organization into virtual subgroups. For more information, see [Procedures for address book policies](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).
+1.	Use address book policies to configure your organization into virtual subgroups. For more information, see [Procedures for address book policies](https://docs.microsoft.com/en-us/exchange/address-books/address-book-policies/address-book-policies).
 
 2.  Sign in to the Microsoft 365 admin center, select **Admin centers**, and then select **Teams & Skype**.
  
