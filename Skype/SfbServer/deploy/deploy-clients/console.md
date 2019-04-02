@@ -1,5 +1,5 @@
 ﻿---
-title: "Configure a Skype Room Systems v2 console"
+title: "Configure a Microsoft Teams Rooms console"
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Travis-Snoozy
@@ -8,63 +8,63 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: Strat_SB_Admin
+ms.collection: 
+- Strat_SB_Admin
+- M365-voice
 ms.custom: 
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: "This article describes how to set up the Skype Room Systems v2 console and its peripherals."
+description: "This article describes how to set up the Microsoft Teams Rooms console and its peripherals."
 ---
 
-# Configure a Skype Room Systems v2 console
- 
-This article describes how to set up the Skype Room Systems v2 console and its peripherals.
+# Configure a Microsoft Teams Rooms console
+
+This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
   
-You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Skype Room Systems v2](room-systems-v2.md). You will need the hardware and software described in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md). This topic contains the following sections:
+You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md). This topic contains the following sections:
   
 - [Prepare the installation media](console.md#Prep_Media)
-    
 - [Install a private CA certificate on the console](console.md#Certs)
-    
-- [Install Windows 10 and the Skype Room Systems v2 console app](console.md#Reimage)
-   
+- [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage)
 - [Initial set up of the console](console.md#Initial)
-    
-- [Skype Room Systems v2 deployment checklist](console.md#Checklist)
-    
+- [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
+
 > [!NOTE]
-> Skype Room Systems v2 will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Skype Room Systems v2](room-systems-v2.md).
+> Microsoft Teams Rooms will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md).
   
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
 
-Installing the Skype Room Systems v2 console app requires a USB storage device with at least 32GB of capacity. There should be no other files on the device; any existing files on the USB storage will be lost.
+Installing the Microsoft Teams Rooms console app requires a USB storage device with at least 32GB of capacity. There should be no other files on the device; any existing files on the USB storage will be lost.
   
 > [!NOTE]
-> Failure to create your Skype Room Systems v2 installation media according to these instructions will likely result in unexpected behavior.
+> Failure to create your Microsoft Teams Rooms installation media according to these instructions will likely result in unexpected behavior.
 
 > [!NOTE]
-> The process below is for creating installation media to image new Skype Room System v2 devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
+> The process below is for creating installation media to image new Microsoft Teams Rooms devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
-3. Follow the script's instructions to create a Skype Room Systems v2 USB setup disk.
+3. Follow the script's instructions to create a Microsoft Teams Rooms USB setup disk.
 
 > [!CAUTION]
 > The name of the folder that you run the media creation script from can not contain a space. If there is a space in to folder name, the script will fail.
 
 The CreateSrsMedia.ps1 script automates the following tasks:
 
-1. Download the latest MSI installer for Skype Room Systems v2.
-2. Determine the build of Windows that the user must supply. The most recently released versions may or may not be tested and supported for use with Skype Room System v2 devices.
+1. Download the latest MSI installer for Microsoft Teams Rooms.
+2. Determine the build of Windows that the user must supply. The most recently released versions may or may not be tested and supported for use with Microsoft Teams Rooms devices.
 3. Download necessary supporting components.
 4. Assemble the needed components on the installation media.
 
-When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app](console.md#Reimage).
+A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+
+When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage).
 
     
-## Install Windows 10 and the Skype Room Systems v2 console app
+## Install Windows 10 and the Microsoft Teams Rooms console app
 <a name="Reimage"> </a>
 
-You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Skype Room Systems v2 console app.
+You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Microsoft Teams Rooms console app.
 
 1. If the target device will be installed in a dock (e.g., a Surface Pro), disconnect it from the dock.
 
@@ -128,11 +128,11 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
     
 13. Restart the system.
     
-Your desired language is now applied to the Skype Room Systems v2 console.
+Your desired language is now applied to the Microsoft Teams Rooms console.
 ## Initial set up of the console
 <a name="Initial"> </a>
 
-After Windows is installed, the Skype Room Systems v2 console app will go into its initial Setup process when it is started next or if the /reboot option was chosen.
+After Windows is installed, the Microsoft Teams Rooms console app will go into its initial Setup process when it is started next or if the /reboot option was chosen.
   
 1. The User Account screen appears. Enter the Skype sign-in address (in user@domain format) of the room account to be used with the console.
     
@@ -154,10 +154,10 @@ After Windows is installed, the Skype Room Systems v2 console app will go into i
     
 6. Click **Finish**.
     
-The Skype Room Systems v2 console app should immediately start signing in to Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the console app, refer to the [Skype Room Systems version 2 help](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+The Microsoft Teams Rooms console app should immediately start signing in to Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the console app, refer to the [Microsoft Teams Rooms help](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Skype Room Systems v2 relies on the presence of certified console hardware. Even a correctly created image containing the Skype Room Systems v2 console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check.
+> Microsoft Teams Rooms relies on the presence of certified console hardware. Even a correctly created image containing the Microsoft Teams Rooms console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check.
   
 > [!NOTE]
 > Some non-English language users may need a physical keyboard connected to the console during initial setup in the event that symbols are not supported on the touch keyboard.
@@ -165,7 +165,7 @@ The Skype Room Systems v2 console app should immediately start signing in to Sky
 ### Install a private CA certificate on the console
 <a name="Certs"> </a>
 
-The Skype Room Systems v2 console needs to trust the certificates used by the Skype for Business and Exchange servers it connects to. For O365 this is done automatically, since these servers are using public Certificate Authorities and these are automatically trusted by Windows 10. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to the Skype Room Systems v2 console in a couple of ways:
+The Microsoft Teams Rooms console needs to trust the certificates used by the Skype for Business and Exchange servers it connects to. For O365 this is done automatically, since these servers are using public Certificate Authorities and these are automatically trusted by Windows 10. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to the Microsoft Teams Rooms console in a couple of ways:
   
 - You can join the console to Active Directory and that will automatically add the required certificates given the Certificate Authority is published to Active Directory (normal deployment option).
     
@@ -186,9 +186,9 @@ The Skype Room Systems v2 console needs to trust the certificates used by the Sk
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Skype Room Systems v2 consoles to your domain. Skype Room Systems v2 consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Skype Room Systems v2. A common example are password enforcement policies that will prevent Skype Room Systems v2 from starting up automatically. For information about the management of GPO settings, please refer to [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
+You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, please refer to [Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
   
-### To join Skype Room System v2 to a domain
+### To join Microsoft Teams Rooms to a domain
 
 1. Sign into the console from the admin account (see [Admin mode and device management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
@@ -200,15 +200,15 @@ You can join Skype Room Systems v2 consoles to your domain. Skype Room Systems v
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-For example, if your fully qualified domain is redmond.corp.microsoft.com and you want your Skype Room Systems v2 consoles to be in a "Skype Room Systems v2" OU that is a child of a "Resources" OU, the command will be:
+For example, if your fully qualified domain is redmond.corp.microsoft.com and you want your Microsoft Teams Rooms consoles to be in a "Microsoft Teams Rooms" OU that is a child of a "Resources" OU, the command will be:
   
 ```
-Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
+Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
  If you would like to rename the computer when joining it to a domain, use the -NewName flag followed by the computer's new name.
   
-## Skype Room Systems v2 deployment checklist
+## Microsoft Teams Rooms deployment checklist
 <a name="Checklist"> </a>
 
 Use the following checklist while doing a final verification that the console and all its peripherals are fully configured:
@@ -247,10 +247,10 @@ Use the following checklist while doing a final verification that the console an
 ## See also
 <a name="Checklist"> </a>
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Deploy Skype Room Systems v2](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
   
-[Configure a Skype Room Systems v2 console](console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

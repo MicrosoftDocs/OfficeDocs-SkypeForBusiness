@@ -77,21 +77,12 @@ To learn more about these settings and how you can use them, go [How can caller 
    > [!NOTE]
    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
    > 
-   > ```
-   > Import-Module -Name SkypeOnlineConnector
-   > ```
-   > 
-   > ```
-   > $credential = Get-Credential
-   > ```
-   > 
-   > ```
-   > $session = New-CsOnlineSession -Credential $credential
-   > ```
-   > 
-   > ```
-   > Import-PSSession $session
-   > ```
+   ```
+    Import-Module -Name SkypeOnlineConnector
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+   ```
 
 If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     

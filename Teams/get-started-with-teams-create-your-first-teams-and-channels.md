@@ -45,7 +45,7 @@ Here's a suggested structure for the team.
 | Support | If something isn't working as expected, use this channel to get help. ||
 
 ## Get your first teams up and running
-As an admin, you can create and manage teams and channels in the Teams client or the Microsoft Teams admin center. You can create teams as public or private. You can also create an org-wide team. Anyone using Teams in your organization can join a public team. For private teams, team owners manage team membership. And for an org-wide team, everyone in your organization is automatically added. 
+As an admin, you can create and manage teams and channels in the Teams client or the Microsoft Teams admin center. You can create teams as public or private. You can also create an [org-wide team](create-an-org-wide-team.md). Anyone using Teams in your organization can join a public team. For private teams, team owners manage team membership. And for an org-wide team, everyone in your organization is automatically added. 
 
 To get started, we recommend you create private teams and add another owner to manage team settings and membership. 
 
@@ -54,7 +54,7 @@ To get started, we recommend you create private teams and add another owner to m
 
 ### Create a team
 
-On the left side of Teams, click **Teams**, and then at the bottom of the teams list, click **Join or create a team**. On the **Create a team** tile, click **Create team**.
+On the left side of Teams, click **Teams**, at the bottom of the teams list, click **Join or create a team**, and then click **Create a new team**.
 
 Once you've created the team, invite people to join it. You can add individual users, groups, and even entire contact groups (formerly known as "distribution lists"). 
 
