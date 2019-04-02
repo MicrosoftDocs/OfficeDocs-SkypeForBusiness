@@ -42,7 +42,7 @@ It can take some time (a few hours) for the policy changes to propagate. If you 
 
 #### Calling
 
-Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats. Here's a list of policy settings and recommended values.
+Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats. Here's the list of policy settings and recommended values.
 
 |Policy name  |Description |Recommended value  |
 |---------|---------|---------|
