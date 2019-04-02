@@ -31,7 +31,7 @@ To do this, users should go through the flow of creating a new team from the Mic
 
 Users can also invite a distribution list to a team, and the members of that distribution list will be added to the team. This is a one-time add, and later changes in group membership in the distribution list will not be replicated or synced to Teams.
 
-![Screenshots in a sequence show the invitation of a distribution list and its members to a team.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Screenshot of option to create a team from an Office 365 Group.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 You can also add mail-enabled security groups as members of a team. But, if you later add more members to the security group, those members are not automatically added to the team. You must add the new members separately or re-add the security group to the team. (If you re-add the security group, deduplication makes sure members are added only once.)
 
