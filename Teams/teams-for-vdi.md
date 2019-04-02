@@ -31,9 +31,9 @@ Currently, Teams in a virtualized environment is available with support for coll
 
 ### Set policies to turn off calling and meeting functionality in Teams
 
-The Teams calling and meeting experience isn't optimized for a VDI environment. We recommend you set user-level policies to turn off calling and meeting functionality in Teams.
+The Teams calling and meeting experience isn't optimized for a VDI environment (coming soon). We recommend you set user-level policies to turn off calling and meeting functionality in Teams.
 
-You can still choose to run Teams fully in VDI using either the Teams desktop app or web app web. However, we recommend that you set the policies to avoid compromising the user experience.  
+You can still choose to run Teams fully in VDI using either the Teams desktop app or web app. However, we recommend that you set the policies to avoid compromising the user experience.  
 
 It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
