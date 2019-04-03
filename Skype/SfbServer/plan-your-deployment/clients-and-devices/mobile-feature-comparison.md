@@ -175,7 +175,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
  
  &#x2778; Viewing embedded video in PowerPoint presentations is not supported.
   
-## Telephony support
+## Telephony Support
 
 
  | Feature/capability  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
