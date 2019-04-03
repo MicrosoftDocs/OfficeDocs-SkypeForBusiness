@@ -1172,8 +1172,8 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "Teams/assignments-in-teams.md", 
-      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu", 
+      "source_path": "Teams/assignments-in-education.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page", 
       "redirect_document_id": true 
     }
     ] 
