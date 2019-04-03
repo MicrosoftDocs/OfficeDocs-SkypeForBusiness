@@ -1,8 +1,8 @@
 ---
 title: Plan Call Data Connector | Call Quality Dashboard Monitoring Hybrid Analytics
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
