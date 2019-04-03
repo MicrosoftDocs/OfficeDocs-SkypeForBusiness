@@ -29,7 +29,7 @@ Teams and channels
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of members in a team | 5,000       |
-|Number of members in an [org-wide team](create-an-org-wide-team.md) | 2,500       |
+|Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200 (includes deleted channels)         |
