@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 direct SIP connections support
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Direct SIP connections support
 ms:assetid: 2107b5b1-b619-4c10-a7db-81d0b9c7f8bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398289(v=OCS.15)

@@ -62,7 +62,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 3. **Plan your Auto Attendant migration**
     
-    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) for more details. Microsoft plans to deliver additional Auto Attendant capabilities that customers consider critical for their migration by March 2019. Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Phone System auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) for more details. Microsoft plans to deliver additional Auto Attendant capabilities that customers consider critical for their migration by March 2019. Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Plan for your voicemail post-migration validation and testing**
 
@@ -166,7 +166,7 @@ When testing voicemail functionality after your users have been migrated, make s
 
 - Validate voicemail access across all endpoint types in your organization: apps and IP phones. 
 - Validate with sample users that the configured personalized greetings are played to callers.   
-- If your organization has a legal or compliance requirement to disable transcription for users, make sure it is disabled post migration. For more details, see [Set up Phone System voicemail](/microsoftteams/set-up-phone-system-voicemail).
+- If your organization has a legal or compliance requirement to disable transcription for users, make sure it is disabled post migration. For more details, see [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail).
 - If you have previously configured Exchange VM policies and rules, make sure they are effective.
 - Familiarize yourself with the Cloud Voicemail service PowerShell cmdlets for changing user settings.  
 
@@ -189,8 +189,8 @@ The following is an end user voicemail migration experience overview.
 
 #### User management and provisioning in CVM 
 
-Skype for Business new users will be automatically provisioned for voicemail in CVM service when created. No additional admin work or license is required to provision new users for voicemail. See [Set up Phone System voicemail](/microsoftteams/set-up-phone-system-voicemail) to learn about managing the policies for existing and new users.
+Skype for Business new users will be automatically provisioned for voicemail in CVM service when created. No additional admin work or license is required to provision new users for voicemail. See [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail) to learn about managing the policies for existing and new users.
 
 #### Admin Auto Attendant management experience 
 
-See [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) to learn more about configuring and managing auto attendants. 
+See [Set up a Phone System auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) to learn more about configuring and managing auto attendants. 

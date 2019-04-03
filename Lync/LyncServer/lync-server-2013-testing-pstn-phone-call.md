@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing PSTN phone call'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing PSTN phone call
 ms:assetid: dc7d319d-a627-45b6-a978-6111901251e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690133(v=OCS.15)

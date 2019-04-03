@@ -1,5 +1,8 @@
-﻿---
+---
 title: Connect a Survivable Branch Appliance
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Connect a Survivable Branch Appliance
 ms:assetid: fe3167e2-d1b1-4cd4-bf30-262e0e7d14e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721948(v=OCS.15)

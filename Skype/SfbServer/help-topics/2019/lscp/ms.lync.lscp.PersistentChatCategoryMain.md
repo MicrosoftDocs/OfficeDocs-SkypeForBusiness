@@ -1,5 +1,6 @@
 ---
 title: "Persistent Chat Category Main Page"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

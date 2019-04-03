@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: System requirements for servers running Lync Server 2013'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: System requirements for servers running Lync Server 2013
 ms:assetid: 781d487d-5958-416a-becb-904d9af3cc0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398588(v=OCS.15)

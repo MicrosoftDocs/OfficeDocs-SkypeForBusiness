@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for PSTN connectivity'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for PSTN connectivity
 ms:assetid: 280f684a-740a-443d-8ecf-574241382a42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425749(v=OCS.15)

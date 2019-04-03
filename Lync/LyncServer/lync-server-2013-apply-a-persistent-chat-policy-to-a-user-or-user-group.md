@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Apply a Persistent Chat policy to a user or user group'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Apply a Persistent Chat policy to a user or user group
 ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205038(v=OCS.15)

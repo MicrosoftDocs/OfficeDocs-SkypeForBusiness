@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using Lync Connectivity Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using Lync Connectivity Analyzer
 ms:assetid: 954953fb-0c7a-4fd5-8acd-68ecb59b20af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ907302(v=OCS.15)

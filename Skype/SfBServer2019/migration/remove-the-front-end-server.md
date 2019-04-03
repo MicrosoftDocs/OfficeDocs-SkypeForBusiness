@@ -1,5 +1,6 @@
 ---
 title: "Remove the Enterprise Edition Front End Server or Standard Edition Front End Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

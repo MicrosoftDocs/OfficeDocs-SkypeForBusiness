@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Network region routes'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Network region routes
 ms:assetid: 32da29aa-7612-48fa-a983-72a821651aa3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688018(v=OCS.15)

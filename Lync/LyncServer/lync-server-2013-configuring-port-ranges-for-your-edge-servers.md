@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring port ranges for your Edge Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring port ranges for your Edge Servers
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)

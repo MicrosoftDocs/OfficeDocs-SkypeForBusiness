@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploy IP address types on a Front End Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploy IP address types on a Front End Server
 ms:assetid: b6c8e0f9-ec8e-4a4e-a525-756f9cd6b9d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205191(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: (Optional) Verify dial-in conferencing settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: (Optional) Verify dial-in conferencing settings
 ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412789(v=OCS.15)

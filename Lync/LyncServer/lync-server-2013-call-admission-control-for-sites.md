@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Call admission control for sites'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Call admission control for sites
 ms:assetid: 5607b3f3-128b-44c7-a043-c0834e39e697
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688061(v=OCS.15)

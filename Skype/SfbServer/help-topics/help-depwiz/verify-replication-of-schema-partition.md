@@ -1,5 +1,6 @@
 ---
 title: "Verify Replication of Schema Partition"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

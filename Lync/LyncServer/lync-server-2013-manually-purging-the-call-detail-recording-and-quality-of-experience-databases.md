@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Manually purging the call detail recording and Quality of Experience databases'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Manually purging the call detail recording and Quality of Experience databases
 ms:assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204812(v=OCS.15)

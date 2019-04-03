@@ -1,5 +1,6 @@
 ---
 title: "Mobile Client Create or Edit Push Notification Configuration"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

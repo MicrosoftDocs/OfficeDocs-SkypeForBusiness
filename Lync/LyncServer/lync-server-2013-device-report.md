@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Device Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Device Report
 ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)

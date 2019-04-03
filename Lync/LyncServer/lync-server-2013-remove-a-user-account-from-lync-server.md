@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Remove a user account from Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove a user account from Lync Server
 ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)

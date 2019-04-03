@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Trusted applications (application/computer/endpoint/pool)'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Trusted applications (application/computer/endpoint/pool)
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688073(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Encryption'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Encryption for Lync Server 2013
 ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)

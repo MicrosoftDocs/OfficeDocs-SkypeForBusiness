@@ -33,13 +33,18 @@ In Microsoft Teams or Skype for Business Online, each call queue or auto attenda
 
 To get started it's important to remember a few things:
   
-- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for resource accounts assigned to call queues or auto attendants. The number of resource accounts you can have is dependent on the number of **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- An auto attendant or call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
+- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
 
-    > [!NOTE]
-    > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
+    
+> [!NOTE]
+> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- To learn more about Office 365 Calling Plans, see [Calling Plans for Office 365](calling-plans-for-office-365.md).
-- You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to a resource account. To get and use toll-free service numbers, you need to set up Communications Credits.
+- You can assign a Direct Routing Hybrid number to your resource account.  See [Plan Direct Routing](direct-routing-plan.md) for details.
+- For Microsoft calling plans, you can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to a resource account. To get and use toll-free service numbers, you need to set up Communications Credits.
 
 > [!NOTE]
 > User (subscriber) phone numbers can't be assigned to a resource account. Only service toll or toll-free phone numbers can be used.
@@ -48,6 +53,12 @@ To assign a phone number to a resource account, you will need to get or transfer
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
+
+## Create a resource account in Microsoft Teams admin center
+
+To create a resource account  in Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**, click **+ Add**, and fill out the display name, user name, then select the domain name and click **Save**.
+
+To apply a license to the resource account, navigate to the O365 Admin Center users tab.
 
 ## Create a resource account in Powershell
 
@@ -61,19 +72,26 @@ Depending on whether your phone number is located online or on premises, you wou
 The following is an online environment example of creating a resource account:
 
 ``` Powershell
-New-CsOnlineApplicationInstance -DisplayName Node1 -SipAddress sip:node1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
 See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
 
 > [!NOTE]
-> It's easiest to set the phone number using the Microsoft Teams admin center, as described in the next section. You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number to the resource account after its initial creation as shown:
+> It's easiest to set the online phone number using the Microsoft Teams admin center, as described in the next section. You can also use the `Set-CsOnlineVoiceApplicationInstance` command to a assign a phone number to the resource account after its initial creation as shown:
 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName Node1 -LineURI tel:+14255550100
+Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+ -TelephoneNumber +14255550100
+Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
-See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+If you do not apply a license while creating the resource account the phone number assignment will fail. 
+
+See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) for more details on this command.
+
+
 
 ## Manage Resource account settings in Microsoft Teams admin center
 

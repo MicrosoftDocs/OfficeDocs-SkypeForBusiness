@@ -1,5 +1,6 @@
 ---
 title: "System requirements for Skype for Business Server 2019"
+ms.reviewer: 
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars

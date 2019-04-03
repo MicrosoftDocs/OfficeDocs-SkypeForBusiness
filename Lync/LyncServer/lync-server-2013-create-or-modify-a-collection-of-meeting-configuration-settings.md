@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Create or modify a collection of meeting configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a collection of meeting configuration settings
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721889(v=OCS.15)

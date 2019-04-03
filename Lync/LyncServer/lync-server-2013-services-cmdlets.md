@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Services cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Services cmdlets
 ms:assetid: 82cb9dbc-6c75-4dd0-900b-b8b2989c481d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415659(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 topology changes
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Topology changes
 ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688153(v=OCS.15)

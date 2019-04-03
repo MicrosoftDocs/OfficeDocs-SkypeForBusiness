@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Remove-CsWebServiceConfiguration for Address Book management'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove-CsWebServiceConfiguration for Address Book management
 ms:assetid: 91947cad-5cdd-41b9-83e1-650703c55879
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429713(v=OCS.15)

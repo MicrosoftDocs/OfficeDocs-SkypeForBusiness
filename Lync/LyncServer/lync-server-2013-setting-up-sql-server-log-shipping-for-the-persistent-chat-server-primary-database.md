@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204653(v=OCS.15)

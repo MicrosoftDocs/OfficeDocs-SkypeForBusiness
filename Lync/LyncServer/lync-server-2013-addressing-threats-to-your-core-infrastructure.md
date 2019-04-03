@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Addressing threats to your core infrastructure'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Addressing threats to your core infrastructure for Lync Server 2013
 ms:assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518334(v=OCS.15)

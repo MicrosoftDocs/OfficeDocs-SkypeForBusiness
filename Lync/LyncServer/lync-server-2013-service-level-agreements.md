@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Service level agreements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Service level agreements
 ms:assetid: 10899bad-e8b0-422d-83c9-1599fb3a7d17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720321(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Plan for your Skype for Business Server 2019 deployment"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

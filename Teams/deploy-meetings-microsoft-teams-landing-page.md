@@ -1,5 +1,6 @@
 ---
 title: Meetings & conferencing in Microsoft Teams
+ms.reviewer: 
 description: Use these deployment resources to help you roll out meetings in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -153,7 +154,7 @@ Organizations with many conference rooms may want to consider a structured appro
 
 | Ask yourself | Action |
 |--------------|--------|
-| What do I need to do to roll out conference room systems?|Check out the [Plan Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) articles.|
+| What do I need to do to roll out conference room systems?|Check out the [Plan Microsoft Teams Rooms](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) articles.|
 |||
 
 ### Cloud video interop

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Troubleshooting Enterprise Voice cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Troubleshooting Enterprise Voice cmdlets
 ms:assetid: 28ec32d2-6d1e-40e6-b2a8-065803288e8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415638(v=OCS.15)

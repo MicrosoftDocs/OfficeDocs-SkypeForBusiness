@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 capacity planning calculator
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using the Lync Server 2013 capacity planning calculator
 ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362852(v=OCS.15)

@@ -1,8 +1,10 @@
 --- 
 layout: HubPage
 hide_bc: true
-title: Instructor-led training and Videos for Microsoft Teams Admins
+title: Instructor-led training and videos for Microsoft Teams users
+ms.reviewer: 
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
+localization_priority : Priority
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen

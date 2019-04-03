@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Lync client hardware support'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync client hardware support
 ms:assetid: 91b84b67-965c-45c0-808c-bab680a5e10a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688134(v=OCS.15)

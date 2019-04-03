@@ -1,5 +1,6 @@
 ---
 title: "Manage two-factor authentication in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

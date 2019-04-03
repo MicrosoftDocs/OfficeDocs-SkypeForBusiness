@@ -1,5 +1,6 @@
 ---
 title: "Plan your conferencing topology for Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

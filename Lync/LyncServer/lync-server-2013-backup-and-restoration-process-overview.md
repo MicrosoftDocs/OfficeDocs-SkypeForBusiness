@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Backup and restoration process overview'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Backup and restoration process overview
 ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202192(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Remove a legacy authorized host (optional)'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove a legacy authorized host (optional)
 ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558603(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enable or disable anonymous user access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enable or disable anonymous user access
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)

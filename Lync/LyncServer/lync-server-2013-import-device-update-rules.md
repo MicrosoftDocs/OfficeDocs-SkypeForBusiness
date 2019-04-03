@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Import Device Update rules'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Import Device Update rules
 ms:assetid: 919e9c87-912b-4bc9-92e7-5998fc2e0bf0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994056(v=OCS.15)

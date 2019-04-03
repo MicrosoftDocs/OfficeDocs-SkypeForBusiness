@@ -1,5 +1,6 @@
 ---
 title: "Manage conference join and leave announcements in Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

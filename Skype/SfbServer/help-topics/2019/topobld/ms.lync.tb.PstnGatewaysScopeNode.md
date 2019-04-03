@@ -1,5 +1,6 @@
 ---
 title: "PSTN Gateways Scope Node"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

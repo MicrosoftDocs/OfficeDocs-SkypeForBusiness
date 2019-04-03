@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 8: Decommission legacy pools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 8: Decommission legacy pools'
 ms:assetid: 1c68e5d8-fb5f-45e6-b6e3-27f5e830c966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204724(v=OCS.15)

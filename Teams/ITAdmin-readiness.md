@@ -1,5 +1,6 @@
 ---
 title: Admin training for Microsoft Teams
+ms.reviewer: 
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -85,6 +86,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Foundations - Core Components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows Desktop Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Governance, management and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
+| Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
 | Network Planning | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Call Quality Overview | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |

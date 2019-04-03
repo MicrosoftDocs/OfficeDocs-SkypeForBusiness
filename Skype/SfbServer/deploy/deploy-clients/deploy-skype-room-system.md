@@ -9,6 +9,7 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: "Read about how do deploy Skype Room System, a meeting room solution consisting of integrated hardware and software that is optimized to join Skype for Business meetings."
 ---
 
@@ -20,7 +21,7 @@ Read about how do deploy Skype Room System, a meeting room solution consisting o
 > For the purposes of this content, Skype for Business for SMART Room System, Crestron RL, and Polycom CX8000 will be referred to as Skype Room System. 
 
 > [!NOTE]
-> Skype Room Systems v2 is a different product with different dependencies and deployment procedures. For information on Skype Room Systems v2, see [Plan Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
+> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see [Plan Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Skype Room System is a Skype for Business unified communications client that has been optimized for Skype for Business meetings in physical conference rooms.
   

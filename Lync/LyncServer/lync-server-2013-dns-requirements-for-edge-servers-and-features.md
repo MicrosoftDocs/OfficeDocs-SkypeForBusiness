@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS requirements for Edge Servers and features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS requirements for Edge Servers and features
 ms:assetid: e3bf05c8-96fb-4dd2-acb1-f0d141c9e2ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721912(v=OCS.15)

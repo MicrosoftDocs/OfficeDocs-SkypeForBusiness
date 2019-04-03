@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing PIN policies'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing PIN policies
 ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721841(v=OCS.15)

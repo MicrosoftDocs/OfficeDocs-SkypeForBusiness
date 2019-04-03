@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure certificates on the server running Microsoft Exchange Server Unified Messaging'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)

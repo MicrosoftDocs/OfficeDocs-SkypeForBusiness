@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: (Optional) Verify the Group Call Pickup deployment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: (Optional) Verify the Group Call Pickup deployment
 ms:assetid: 820890ea-5c3f-4488-b322-20ca6ddd4191
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945639(v=OCS.15)

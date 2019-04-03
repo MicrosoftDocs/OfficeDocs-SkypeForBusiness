@@ -1,5 +1,8 @@
-﻿---
+---
 title: Move remaining users to Lync Server 2013
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Move remaining users to Lync Server 2013
 ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688090(v=OCS.15)

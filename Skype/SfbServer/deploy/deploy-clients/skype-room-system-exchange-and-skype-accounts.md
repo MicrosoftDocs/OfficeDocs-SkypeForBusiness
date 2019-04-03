@@ -9,6 +9,7 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
+ms.collection: M365-voice
 description: "Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System."
 ---
 
@@ -17,7 +18,7 @@ description: "Read these topics to learn how to provision Exchange and Skype acc
 Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System. 
 
 > [!NOTE]
-> Skype Room Systems v2 is a different product with different dependencies and deployment procedures. For information on Skype Room Systems v2, see the Skype Room Systems v2 [deployment overview](room-systems-v2.md).
+> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [deployment overview](room-systems-v2.md).
   
 > [!NOTE]
 > Skype Room System account provisioning depends on the type of topology your organization has. To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 

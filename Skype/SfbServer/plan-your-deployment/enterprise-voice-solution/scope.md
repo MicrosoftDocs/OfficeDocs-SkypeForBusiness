@@ -1,5 +1,6 @@
 ---
 title: "Define the scope of the E9-1-1 deployment in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Technical requirements for Response Group'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for Response Group
 ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)

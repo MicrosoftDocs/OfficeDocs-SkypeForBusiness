@@ -1,5 +1,6 @@
 ---
 title: Office 365 URLs and IP address ranges
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

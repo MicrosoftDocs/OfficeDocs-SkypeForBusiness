@@ -1,7 +1,7 @@
 ---
-title: "Create a Phone System call queue"
-ms.author: tonysmit
-author: tonysmit
+title: "Create a call queue"
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,9 +20,8 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
+description: "Learn how to set up phone system for PHone System call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
 ---
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 # Create a Phone System call queue
 
@@ -37,10 +36,11 @@ Phone System call queues can provide:
 
 When someone calls in to a phone number that is associated  with a call queue via a [resource account](manage-resource-accounts.md), they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in *First In, First Out* (FIFO) order.
   
-All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode:
+All calls waiting in the queue will be distributed using one of the following methods:
   
 - With attendant routing, the first call in the queue will ring all agents at the same time.
 - With serial routing, the first call in the queue will ring all call agents one by one.
+- With round robin, routing of incoming calls is balanced so that each call agent will get the same number of calls from the queue.
 
     > [!NOTE]
     > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue won't be called.
@@ -55,16 +55,18 @@ All calls waiting in the queue will be distributed using an attendant routing mo
 
 To get started using call queues, it's important to remember a few things:
   
-- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for call queues. The number of call queues you can have is dependent on the number of **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, see [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) or [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
+- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
+- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
 
-    > [!NOTE]
-    > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See  [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
+
+> [!NOTE]
+> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See  [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
-    > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 aren't supported as a call queue Agents.
-  
 - You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to Phone System call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
 
     > [!NOTE]
@@ -104,6 +106,8 @@ Before you can create and set up your call queues, you will need to get or trans
 If you are also setting up auto attendants, you may only need to assign a phone number to the main auto attendant's resource account, and then have it direct callers to your call queue. If that's the case, the call queue will need to be created before you can create an option in the auto attendant that selects the call queue.
   
 ## Step 3 - Create a new call queue
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Every call queue is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the call queue.
@@ -169,9 +173,6 @@ You can select up to 200 call agents belonging to specified mailing lists or gro
 
 - Online users with a **Phone System** license and a Calling Plan that are added to an Office 365 Group, a mail-enabled Distribution List, or a Security Group. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately.
 
-  > [!NOTE]
-  > Users hosted on-premises using Lync Server 2010 aren't supported.
-
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 
 ![Number 2](media/sfbcallout2.png)
@@ -203,7 +204,7 @@ To access the opt-out option, agents can do the following:
  3. On the user settings page, click **Call Queues**, and then clear the check boxes for any queues for which they want to opt out.
 
     > [!NOTE]
-    > Agents using Mac, mobile, or Lync 2013 clients, or Hybrid Voice users who are hosted on-premises using Skype for Business 2015 server, can go to [https://aka.ms/cqsettings](https://aka.ms/cqsettings) to access the opt out option.
+    > Agents using apps or endpoints other than Skype for Business Desktop can access the opt out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![Number 2](media/sfbcallout2.png)
 **Agent Alert setting**
@@ -235,10 +236,8 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-    > [!Note]
-    > Users hosted on-premises using Lync Server 2010 aren't supported.
   - **Voice application** Select the name of either a call queue or auto attendant that has already been created.
 
 * * *
@@ -257,16 +256,13 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 - **Redirect this call to** When you choose this, you will have these options:
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
-
-    > [!Note]
-    > Users hosted on-premises using Lync Server 2010 aren't supported.
+  To learn about licensing required for voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
   - **Voice application** Select the name of either a call queue or auto attendant that has already been created.
 
-## Changing a user's Caller ID to be a call queue's phone number
+## Changing a user's Caller ID for outbound calls 
 
-You can protect a user's identity by changing their caller ID for the outbound calls to a call queue instead by creating a policy using the **New-CallingLineIdentity** cmdlet.
+You can protect a user's identity by changing their caller ID for outbound calls to a call queue, auto attendant, or any service number instead by creating a policy using the **New-CsCallingLineIdentity** cmdlet.
 
 To do this, run:
 
@@ -290,13 +286,13 @@ You can also use Windows PowerShell to create and set up call queues.
 
 Here are the cmdlets that you need to manage a call queue.
   
-- [New-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
+- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
-- [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
 
-- [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
 
-- [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
 ### More about Windows PowerShell
 

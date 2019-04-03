@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of the Response Group application'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of the Response Group application
 ms:assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398513(v=OCS.15)

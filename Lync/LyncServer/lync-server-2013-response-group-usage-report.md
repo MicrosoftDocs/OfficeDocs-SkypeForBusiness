@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Response Group Usage Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Response Group Usage Report
 ms:assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558632(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Delegate administrative control of Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars
