@@ -37,6 +37,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
 |Package Name|KB Number|Release Date|
 |:---  |:---  |:---  |
+|Update for Skype for Business 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | April 2019|
 |Update for Skype for Business 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | March 2019|
 |Update for Skype for Business 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | February 2019|
 |Update for Skype for Business 2016 |[KB 4461586](https://support.microsoft.com/kb/4461586/) | January 2019|
@@ -81,6 +82,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Update for Skype for Business 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| April 2019 |
 |Update for Skype for Business 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| January 2019 |
 |Security update for Skype for Business 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
 |Update for Skype for Business 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| October 2018 |
@@ -130,10 +132,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
 ### Skype for Business on Mac client updates
 
-|Package Name|Release Date|
-|:--- |:--- |
-|[Update for Skype for Business on Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | June 2018 |
-|[Current release notes for Skype for Business on Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | June 2018 |
+[Current release notes for Skype for Business on Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
@@ -141,6 +140,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
 Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Update for Skype for Business 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| April 2019 |
 |Update for Skype for Business 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| January 2019 |
 |Security update for Skype for Business 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
 |Update for Skype for Business 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| October 2018 |
