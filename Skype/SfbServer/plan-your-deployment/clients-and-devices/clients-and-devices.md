@@ -75,7 +75,7 @@ A Virtual Desktop Infrastructure (VDI) environment is used in some organizations
 
 ### Microsoft Teams Rooms
 
-Microsoft Teams Rooms is Microsoft's latest conferencing solution which uses a familiar interface and is easily deployed and managed, leveraging existing equipment like LCD panels for ease of installation. Microsoft Teams Rooms uses a purpose-built UWP app running on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your implementation. Software is updated via both Windows store and Windows Update. See https://aka.ms/SRSDocs for details on using these room consoles in your deployment. 
+Microsoft Teams Rooms is Microsoft's latest conferencing solution which uses a familiar interface and is easily deployed and managed, leveraging existing equipment like LCD panels for ease of installation. Microsoft Teams Rooms uses a purpose-built UWP app running on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your implementation. Software is updated via both Windows store and Windows Update. See https://aka.ms/MTRDocs for details on using these room consoles in your deployment. 
 
 ### Skype for Business on Surface Hub
 

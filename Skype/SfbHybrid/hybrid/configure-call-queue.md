@@ -12,7 +12,7 @@ ms.collection:
 description: "Overview of using a Cloud PBX call queue with Skype for Business Server 2019."
 ---
 
-# Configure Cloud call queues 
+# Configure Cloud call queues
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online.
 
@@ -28,7 +28,7 @@ These steps are necessary whether you are creating a brand new call queue or reb
 
 Log in to the front end server and run the following PowerShell cmdlets:
 
-1. Create a Cloud call queue's on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more call queues), and give each one a name, sip address, and so on.
+1. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more call queues), and give each one a name, sip address, and so on.
 
     Configuring a phone number for a call queue is required only if you want to connect callers directly to a queue without using an auto attendant.
 
@@ -67,9 +67,9 @@ Your online implementation will need to have a plan that includes Phone System l
 
 1. Assign Phone System licenses to the on-premise resource account as described in  [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-2. Use the procedures in [Create a Phone System call queue](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
+2. Use the procedures in [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
 
-An example of a small business implementation is available in [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
 ## Test the new call queue
 

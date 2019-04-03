@@ -48,6 +48,10 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
 10. To publish your topology, right-click the **Skype for Business Server** node, and then click **Publish Topology**.
   
 11. When the publish process has completed, click **Finish**.
+
+12. Before moving to the next section called "Verify pilot pool coexistence with legacy pool" you need to install the Skype for Business Server new Front End pilot pool we just defined in the published topology, follow the procedures outlined here [Install Skype for Business Server on servers in the topology](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. Once previous step is complete, move to the next section to Verify pilot pool coexistence with legacy pool.
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

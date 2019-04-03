@@ -152,3 +152,9 @@ To use these templates, simply change the ‘template@odata.bind’ property in 
           }
 
 ```
+
+## Related topics
+
+[Get started with Teams templates](../../get-started-with-teams-templates.md)
+
+[Get started with Teams for Healthcare organizations](teams-in-hc.md)

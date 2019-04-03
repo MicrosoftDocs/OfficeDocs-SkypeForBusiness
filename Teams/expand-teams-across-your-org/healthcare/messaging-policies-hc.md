@@ -29,7 +29,7 @@ To edit the existing default Messaging policy for your organization, click the *
 
 ![Healthcare messaging policy settings](../../media/hc-message-policy.png)
 
-The following settings are of special value to Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
+The following settings are of special interest for Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 
 - ![number one](../../media/sfbcallout1.png) **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read.
 
@@ -44,7 +44,7 @@ The following settings are of special value to Healthcare applications, and shou
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-- ![number two](../media/sfbcallout2.png) **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications notify users repeatedly for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
+- ![number two](../../media/sfbcallout2.png) **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications notify users repeatedly for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
 
   An admin can enable or disable the ability for users assigned this policy to send priority notifications. The default setting is disabled. The recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages. For Healthcare applications, we recommend enabling the feature for at least some users, but you'll need to determine which ones.
 
@@ -52,6 +52,5 @@ The following settings are of special value to Healthcare applications, and shou
 
 ## Related topics
 
-[Full Messaging Policies article](../messaging-policies-in-teams.md)
-
-[Get started with Teams for Healthcare organizations](teams-in-hc.md)
+- [Manage messaging policies in Teams](../../messaging-policies-in-teams.md)
+- [Get started with Teams for Healthcare organizations](teams-in-hc.md)
