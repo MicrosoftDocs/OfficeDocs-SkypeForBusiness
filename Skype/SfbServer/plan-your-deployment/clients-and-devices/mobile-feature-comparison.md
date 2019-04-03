@@ -173,7 +173,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
  &#x2777;  Requires a WiFi connection by default.
  
-  &#x2778; Viewing embedded video in PowerPoint presentations is not supported.
+ &#x2778; Viewing embedded video in PowerPoint presentations is not supported.
   
 ## Telephony support
 
