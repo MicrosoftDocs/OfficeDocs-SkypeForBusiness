@@ -3,7 +3,7 @@ title: How SharePoint Online and OneDrive for Business interact with Microsoft T
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 04/03/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -32,7 +32,7 @@ If users aren't assigned and enabled with SharePoint Online licenses, they don't
 By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. 
 
 > [!NOTE]
-> Integration with Sharepoint On-premises is not supported for Microsoft Teams at this time.
+> Integration with SharePoint On-premises is not supported for Microsoft Teams at this time.
 
 The following is the example of relationships between team, channel, and document library.
 
@@ -52,6 +52,10 @@ For every team, a SharePoint site is created, and the **Shared Documents** folde
 For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to store all files shared within private chats with other users (1:1 or 1:many), with permissions configured automatically to restrict access to the intended user only.
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files for each user's chats.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+
+## Permissions strategy
+
+SharePoint has an admin setting for what the permission strategy should be for the links that are created for a file. Teams is adopting that same strategy by reusing the settings that the admin sets for SharePoint. More details about the strategy are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
 
 More information
 ----------------
