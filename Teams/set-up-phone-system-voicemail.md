@@ -124,4 +124,6 @@ We have training information and articles to help your users be successful with 
 
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
+[Plan for Skype for Business Server and Exchange Server migration](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
+
 
