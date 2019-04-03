@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing certificates for operational processes'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing certificates for operational processes
 ms:assetid: 328d2ae3-9d43-46bd-98a6-520726d55492
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688017(v=OCS.15)

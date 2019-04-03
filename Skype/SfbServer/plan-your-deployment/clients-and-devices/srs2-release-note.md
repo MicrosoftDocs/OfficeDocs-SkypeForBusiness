@@ -9,12 +9,13 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "This article discusses cumulative improvements in Skype Room Systems v2."
+ms.collection: M365-voice
+description: "This article discusses cumulative improvements in Microsoft Teams Rooms."
 ---
 
 # Release notes 
 
-This article discusses cumulative improvements in Skype Room Systems v2.
+This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 
 ##  Version history
@@ -46,7 +47,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 | RTM (1.0.8) | 12/7/2016  | 
 
 
-## Skype Room Systems v2 feature introduction and issue resolution
+## Microsoft Teams Rooms feature introduction and issue resolution
 
 
 ### 4.0.78.0 (03/14/2018)
@@ -56,7 +57,7 @@ Introduced in this update:
 
 ### 4.0.76.0 (03/04/2019)
 Introduced in this update:
-- DTMF keypad for Microsoft Teams meetings. To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true
+- DTMF keypad for Microsoft Teams P2P meetings and PSTN calls. To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true
 - Pin a remote participant's incoming video to full screen on front of room display. Use "Pin" command from participant roster on the  console
 - Improvements to Lobby notifications with addition of Front of Room notification
 - Front of Room display removes casting icon when Bluetooth beacon is not enabled on Room system device
@@ -67,7 +68,7 @@ Introduced in this update:
 Introduced in this update:
 - Display content on both Front of Room (FoR) displays on dual screen room systems
 - Theming and Front of Room user interface improvements
-- TLS 1.2 client side support. For on premise customers, enabling communciation over TLS 1.2 for Skype Room System V2 requires Skype for Business Server 2015 Cummulative Update 9 (CU9) or Skype for Buisness Server 2019 Cummulative Update 1 (CU1).
+- TLS 1.2 client side support. For on premise customers, enabling communciation over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cummulative Update 9 (CU9) or Skype for Buisness Server 2019 Cummulative Update 1 (CU1).
 
 ### 4.0.51.0 (11/17/2018)
 Introduced in this update:
@@ -79,14 +80,14 @@ Introduced in this update:
 
 ### 4.0.27.0 (10/1/2018)
 Introduced in this update: 
-- Code changes necessary to prepare the SRSv2 app for later Windows 10 Version 1803 upgrade
+- Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade
 - Fix formatting issue with localized EULAs - specifically Norwegian - which prevents advancing beyond EULA OOBE setup window
-- Code changes required to make Skype Room Systems v2 application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
+- Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
  
 
 ### 4.0.19.0 (8/31/2018)
 Introduced in this update: 
-- Hotfix for Crestron application not launching which would normally be accessible by pressing the app button on Crestron SR devices. SRSv2 app restart required after installation of 4.0.19.0 
+- Hotfix for Crestron application not launching which would normally be accessible by pressing the app button on Crestron SR devices. Microsoft Teams Rooms app restart required after installation of 4.0.19.0. 
 
 ### 4.0.18.0 (08/27/2018)
 Introduced in this update: 
@@ -158,7 +159,7 @@ Introduced in this update:
 - Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware    
 - OEM Support for Environment Controls (Crestron)
     
-The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
+The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3). 
 
 ### 3.0.8.0 (8/4/2017) 
 Introduced in this update: 
@@ -178,8 +179,7 @@ Introduced in this update:
 ### 2.0.2.0 (03/15/2017)
 Introduced in this update: 
 - In-app user selection of meeting room audio and video USB devices
-- Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan 
-Skype Room Systems v2 management with OMS](oms-management.md)) 
+- Integrated room console status reporting for customers using Microsoft Operations Management Suite, now Azure Monitor  
 
 ### Release to Market  (12/7/2016)
 **Feature(s):** 
@@ -214,14 +214,14 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 <a name="See"> </a>  
 ## See also
 
-[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Prepare your Skype for Business Environment](srs-v2-prep.md)
+[Prepare your environment](srs-v2-prep.md)
 
-[Support for Skype Room Systems v2 current branch versions](srs2-lifecycle-support.md)
+[Support for Microsoft Teams Rooms current branch versions](srs2-lifecycle-support.md)
 
-[Known issues for Skype Room Systems v2](../../manage/skype-room-systems-v2/known-issues.md)
+[Known issues for Microsoft Teams Rooms](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

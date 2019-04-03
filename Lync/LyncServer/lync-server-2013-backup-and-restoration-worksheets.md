@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Backup and restoration worksheets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Backup and restoration worksheets
 ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)

@@ -1,5 +1,8 @@
 ---
 title: Lync Server 2013 Resource Kit Tools Documentation
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync Server 2013 Resource Kit Tools Documentation
 ms:assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945604(v=OCS.15)

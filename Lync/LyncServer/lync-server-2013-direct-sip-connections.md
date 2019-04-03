@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Direct SIP connections'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Direct SIP connections
 ms:assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398151(v=OCS.15)

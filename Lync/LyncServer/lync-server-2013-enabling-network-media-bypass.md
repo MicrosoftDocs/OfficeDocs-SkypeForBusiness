@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enabling network media bypass'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enabling network media bypass
 ms:assetid: 95c4fa06-49d3-41ac-acdc-7dcda66e5508
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182552(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Manufacturers table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Manufacturers table
 ms:assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398549(v=OCS.15)

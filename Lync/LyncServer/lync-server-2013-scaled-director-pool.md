@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Scaled Director pool'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Scaled Director pool
 ms:assetid: 47a293ce-c964-4685-a9ec-2868dc1f2bc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204864(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Media Quality Metrics Distribution Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Media Quality Metrics Distribution Report
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205262(v=OCS.15)

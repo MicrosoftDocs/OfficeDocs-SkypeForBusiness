@@ -51,7 +51,7 @@ See the following table for a comparison of external and guest access features.
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.
 
-## Turn on or turn off external access
+## Turn on or turn off external access (Users can communicate with Skype for Business and Teams users)
 
 You can use the Microsoft Teams & Skype for Business Admin Center to manage external access.
 
@@ -59,7 +59,7 @@ You can use the Microsoft Teams & Skype for Business Admin Center to manage exte
 
      ![Screenshot of Org-wide settings external access](media/manage-external-access-1.png).
 
-2. Toggle the **External access** switch to **On** or **Off**.
+2. Toggle the **Users can communicate with Skype for Business and Teams users** switch to **On** or **Off**.
 
      ![Screenshot of external access switch turned On](media/manage-external-access-2.png).
 

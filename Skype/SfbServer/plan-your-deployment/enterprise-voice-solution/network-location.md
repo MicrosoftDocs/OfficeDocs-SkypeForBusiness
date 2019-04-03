@@ -1,5 +1,6 @@
 ---
 title: "Define the network elements used to determine location in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create and verify DNS SRV records'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create and verify DNS SRV records
 ms:assetid: 86888c7e-1401-458f-9a7b-08ac726deeec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398680(v=OCS.15)

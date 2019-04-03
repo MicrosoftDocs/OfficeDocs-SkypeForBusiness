@@ -1,5 +1,6 @@
 ---
 title: "Communicate with Teams users in another organization"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: "Use the Skype Room Systems v2 recovery tool"
+title: "Use the Microsoft Teams Rooms recovery tool"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,26 +8,27 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: "This article discusses how to use the recovery tool for Skype Room Systems v2, which you would use to bring an out of date system into a supported state."
+description: "This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state."
 ---
 
-# Use the Skype Room Systems v2 recovery tool
+# Use the Microsoft Teams Rooms recovery tool
  
-This article discusses how to use the recovery tool for Skype Room Systems v2, which you would use to bring an out of date system into a supported state. You would use this tool when the Skype Room Systems v2 console shows a "system config out of date" error.
+This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state. You would use this tool when the Microsoft Teams Rooms console shows a "system config out of date" error.
   
 
 <a name="Prerequisites"> </a>  
 ## Prerequisites
 
-Download the latest [Skype Room Systems v2 installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Skype Room Systems v2 device.
+Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.
 
 You may also need to install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).
 
 <a name="Windows-ver"> </a>
 ## Verify Windows Version 
 
-1. Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Skype Room Systems v2 device. This option brings you to the login screen.
+1. Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Microsoft Teams Rooms device. This option brings you to the login screen.
 2. Sign into an admin account, the default admin account being `admin` with the password `sfb`.
 3. Click on the start menu and type `winver.exe` into the search box and click **Run Command* on the result.
 4. Make note of the number after 'Version' on the second line of the info pane.
@@ -47,17 +48,17 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 <a name="Perform"> </a>
 ## Perform a recovery
 
-1. Sign in to the admin account on your Skype Room Systems v2 device, and launch an elevated command prompt.
-2. Verify from the Skype Room Systems v2 device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Skype Room Systems v2 installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
+1. Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.
+2. Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Microsoft Teams Rooms installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
 3. Run the Powershell.exe command `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
 4. When prompted by the script select option `1:"Repair System"`.
-5. Upon completion, reboot the Skype Room Systems v2 device. It will reboot again automatically and come up fully recovered the second time.
+5. Upon completion, reboot the Microsoft Teams Rooms device. It will reboot again automatically and come up fully recovered the second time.
 
 
 
 <a name="See"> </a>  
 ## See also
  
-[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Manage Skype Room Systems v2](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)

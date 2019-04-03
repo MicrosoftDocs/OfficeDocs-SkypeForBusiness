@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Analyzing and resolving issues identified by Best Practices Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Analyzing and resolving issues identified by Best Practices Analyzer
 ms:assetid: ee04c711-bee2-487f-94b7-16566a8961e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591353(v=OCS.15)

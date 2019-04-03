@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing IM and presence settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing IM and presence settings
 ms:assetid: a01b8384-16a1-41b5-a00a-fdb9afb5aa88
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182558(v=OCS.15)

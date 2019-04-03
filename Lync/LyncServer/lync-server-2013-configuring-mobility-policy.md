@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring mobility policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring mobility policy
 ms:assetid: 595536e0-9bb3-49a3-8d13-1a77351ebc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690018(v=OCS.15)

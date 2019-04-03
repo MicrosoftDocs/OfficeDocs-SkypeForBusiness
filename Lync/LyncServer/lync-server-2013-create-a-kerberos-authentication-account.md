@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create a Kerberos authentication account'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create a Kerberos authentication account
 ms:assetid: 63f0cef6-562a-4209-ae25-71f8dc7c7295
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398449(v=OCS.15)

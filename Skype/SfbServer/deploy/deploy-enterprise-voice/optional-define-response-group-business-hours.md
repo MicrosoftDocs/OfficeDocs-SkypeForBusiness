@@ -1,5 +1,6 @@
 ---
 title: "(Optional) Define Response Group business hours in Skype for Business"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Installing a certificate on a watcher node located outside the perimeter network'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Installing a certificate on a watcher node located outside the perimeter network
 ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688113(v=OCS.15)

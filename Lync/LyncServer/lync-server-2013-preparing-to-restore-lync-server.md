@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Preparing to restore Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Preparing to restore Lync Server
 ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202179(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing Lync Server authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing Lync Server 2013 authentication
 ms:assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721901(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Disable Group Call Pickup for users'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Disable Group Call Pickup for users
 ms:assetid: 91b06f9e-2840-45a2-bbb3-6a29179b9a9f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945638(v=OCS.15)

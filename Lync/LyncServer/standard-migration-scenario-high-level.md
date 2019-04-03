@@ -1,5 +1,8 @@
-﻿---
+---
 title: Standard migration scenario - high-level
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Standard migration scenario - high-level
 ms:assetid: e768a7ca-44e3-4969-a6d9-7ed3e7029c5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205354(v=OCS.15)

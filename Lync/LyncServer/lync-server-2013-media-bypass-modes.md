@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Media bypass modes'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Media bypass modes
 ms:assetid: 38c06c81-7e45-4423-9e00-7fbfa4befe46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425862(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Users table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Users table
 ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412791(v=OCS.15)

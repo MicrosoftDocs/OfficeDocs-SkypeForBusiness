@@ -1,5 +1,6 @@
 ---
 title: "Remove-CcLegacyServerCertificate"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

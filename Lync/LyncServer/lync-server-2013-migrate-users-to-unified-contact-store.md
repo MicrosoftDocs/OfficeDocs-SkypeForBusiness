@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Migrate users to unified contact store'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrate users to unified contact store
 ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204737(v=OCS.15)

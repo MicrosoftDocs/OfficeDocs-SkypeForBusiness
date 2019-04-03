@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Exchange UM cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Exchange UM cmdlets
 ms:assetid: 32922b9f-590d-41cc-ba57-9ed5f1caa814
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415642(v=OCS.15)

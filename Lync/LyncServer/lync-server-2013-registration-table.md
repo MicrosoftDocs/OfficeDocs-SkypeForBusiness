@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Registration table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Registration table
 ms:assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398114(v=OCS.15)

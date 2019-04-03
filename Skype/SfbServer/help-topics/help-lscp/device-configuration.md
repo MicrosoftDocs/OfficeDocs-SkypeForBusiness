@@ -1,5 +1,6 @@
 ---
 title: "Device Configuration"
+ms.reviewer: 
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars

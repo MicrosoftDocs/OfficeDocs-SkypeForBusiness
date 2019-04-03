@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Conference Activity Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Conference Activity Report
 ms:assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558627(v=OCS.15)

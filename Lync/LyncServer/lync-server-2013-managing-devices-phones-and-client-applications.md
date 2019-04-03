@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing devices, phones, and client applications'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing devices, phones, and client applications
 ms:assetid: 7c52ecc7-e0f6-4684-9fe8-ba45437a08e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521021(v=OCS.15)

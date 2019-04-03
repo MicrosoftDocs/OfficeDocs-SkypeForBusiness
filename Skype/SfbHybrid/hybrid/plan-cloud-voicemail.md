@@ -1,5 +1,6 @@
 ---
-title: Plan Cloud Voicemail service | PBX Skype for Business Server 2019 
+title: Plan Cloud Voicemail service for on-premises users| PBX Skype for Business Server 2019 
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,11 +12,11 @@ ms.collection:
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
 
-# Plan Cloud Voicemail service
+# Plan Cloud Voicemail service for on-premises users
 
 ## Overview
 
-This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
+This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service for your on-premises users. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
 Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing voice messaging functionality for Skype for Business 2019 voice users who have mailboxes on Exchange Server 2019 or Exchange Online. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
@@ -85,8 +86,8 @@ Version interoperability and supported topologies for Cloud Voicemail are listed
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail
-Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM |  | Cloud Voicemail <br> Exchange Online UM* |
-Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | | Cloud Voicemail <br> Exchange Online UM* |
+Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail <br> Exchange Online UM* |
+Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail <br> Exchange Online UM* |
 
 \* Until deprecated. See [Exchange Unified Messaging Online migration support](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) for more information. 
 

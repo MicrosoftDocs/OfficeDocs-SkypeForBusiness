@@ -103,7 +103,8 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](https://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
+|Safari web client support  <br/> | Teams is now available in preview on Safari 11.1+ on macOS. While in preview, users may run into issues related to Safari's Intelligent Tracking Prevention [Known Safari Issues](https://go.microsoft.com/fwlink/?linkid=2062082).  <br/> | While Safari browser support is in preview, go to **Preferences > Privacy**  and uncheck the **Prevent cross-site tracking**  setting. Then, close your browser and navigate back to teams.microsoft.com in Safari. <br/> |11/2/16  <br/> |
+
 
 ## Channels
 

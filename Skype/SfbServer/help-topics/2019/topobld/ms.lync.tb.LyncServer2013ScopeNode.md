@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2013 Scope Node"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS requirements for simple URLs'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS requirements for simple URLs
 ms:assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425874(v=OCS.15)

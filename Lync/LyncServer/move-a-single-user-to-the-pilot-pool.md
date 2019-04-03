@@ -1,5 +1,8 @@
-﻿---
+---
 title: Move a single user to the pilot pool
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: e9de81a8-40dd-4446-81e7-a2b810eaea50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205401(v=OCS.15)

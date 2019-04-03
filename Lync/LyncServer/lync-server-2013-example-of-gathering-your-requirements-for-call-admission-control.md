@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Example of gathering your requirements for call admission control'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: "Example of gathering your requirements for call admission control"
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 5: Configure the pilot pool'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 5: Configure the pilot pool'
 ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204717(v=OCS.15)

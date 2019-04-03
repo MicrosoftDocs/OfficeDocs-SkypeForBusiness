@@ -1,5 +1,6 @@
 ---
 title: "Add NextHop Trusted Application Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

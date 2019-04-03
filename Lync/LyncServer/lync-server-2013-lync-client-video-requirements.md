@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Lync client video requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync client video requirements
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688132(v=OCS.15)

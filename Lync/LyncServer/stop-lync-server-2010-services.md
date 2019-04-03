@@ -1,5 +1,8 @@
-﻿---
+---
 title: Stop Lync Server 2010 services
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Stop Lync Server 2010 services
 ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721863(v=OCS.15)

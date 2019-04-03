@@ -1,5 +1,8 @@
-﻿---
+---
 title: Microsoft Lync Server 2013
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: '@NoTitle'
 ms:assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398616(v=OCS.15)

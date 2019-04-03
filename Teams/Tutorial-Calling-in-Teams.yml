@@ -221,7 +221,7 @@ items:
 
     -   Optional: Dial plans
 
-    ###Connecting to the PSTN
+    ### Connecting to the PSTN
 
     In order for users to place and receive calls to the PSTN by using Teams, you
     need to have installed Phone System and you need to connect phone system to the
@@ -244,7 +244,7 @@ items:
     In the future, you’ll have the option to connect any existing telephone
     environment that you have on-premises to Teams.
 
-    ###Service availability and user locations
+    ### Service availability and user locations
 
     Phone System is available where Office 365 is available (for the complete list
     of countries and regions, see [International
@@ -286,7 +286,7 @@ items:
     check “Is Phone System available for purchase?” to learn whether Calling
     Plans are available in that country or region.
 
-    ###Phone System licensing
+    ### Phone System licensing
 
     A Phone System license is available as part of Office 365 E5 subscription plans,
     or as an add-on service to Office 365 E1 or Office 365 E3 subscription plans.
@@ -339,7 +339,7 @@ items:
     -   Learn more about Communications Credits from [What are Communications
     Credits](https://docs.microsoft.com/MicrosoftTeams/what-are-communications-credits)?
 
-    ###Phone numbers and emergency locations
+    ### Phone numbers and emergency locations
 
     For Phone System with Calling Plans implementation, every user in your
     organization needs to have a unique subscriber (user) phone number. Subscriber
@@ -385,24 +385,24 @@ items:
     -   [Emergency calling terms and
     conditions](https://docs.microsoft.com/MicrosoftTeams/emergency-calling-terms-and-conditions)
 
-    ###Voicemail
+    ### Voicemail
 
-    Phone System voicemail, powered by Azure Voicemail services, supports voicemail
+    Cloud Voicemail, powered by Azure Voicemail services, supports voicemail
     deposits to Exchange mailbox only and doesn’t support third-party email systems.
 
-    By default, Phone System voicemail works with Exchange Online; however, it has a
+    By default, Cloud Voicemail works with Exchange Online; however, it has a
     minimum [supported Exchange on-premises version and deployment
     model](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)
     to allow delivery of voicemail messages to user mailboxes in the on-premises
     Exchange deployment.
 
-    Phone System voicemail includes voicemail transcription, which is enabled for
+    Cloud Voicemail includes voicemail transcription, which is enabled for
     all users in your organization by default. Your business might require that you
     disable voicemail transcription for specific users or everyone throughout the
     organization.
 
     > [!NOTE]
-    > A fallback mechanism has been implemented so that Phone System voicemail can
+    > A fallback mechanism has been implemented so that Cloud Voicemail can
     resend messages by using SMTP, which means users who have a mailbox on a
     third-party email system will receive their voicemail messages. This mechanism
     doesn’t include guaranteed service uptime or other voicemail features such as
@@ -415,7 +415,7 @@ items:
     to understand how to enable on-premises Exchange to support Phone System
     voicemail.
 
-    ###Optional: Calling identity
+    ### Optional: Calling identity
 
     By default, all outbound calls use the assigned phone number for the calling
     identity (Caller ID). The recipient of the call can quickly identify the caller
@@ -441,7 +441,7 @@ items:
     in your
     organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
 
-    ###Optional: Dial Plans
+    ### Optional: Dial Plans
 
     A Dial Plan in the Phone System feature of Office 365 controls how users dial
     phone numbers on the dial pad. The PSTN expects phone numbers in a specific
@@ -493,34 +493,34 @@ items:
 
     To set up Phone System with Calling Plans in Teams, follow these steps:
 
-    0.  Enable Exchange on-premises for Azure Voicemail
+    1.  Enable Exchange on-premises for Azure Voicemail
 
-    0.  Validate required licenses
+    1.  Validate required licenses
 
-    0.  Assign licenses
+    1.  Assign licenses
 
-    0.  Acquire phone numbers
+    1.  Acquire phone numbers
 
-    0.  Set up emergency addresses and locations
+    1.  Set up emergency addresses and locations
 
-    0.  Assign phone numbers and emergency addresses to users
+    1.  Assign phone numbers and emergency addresses to users
 
-    0.  Optional: Assign Calling Identity settings to users
+    1.  Optional: Assign Calling Identity settings to users
 
-    0.  Optional: Assign Dial Plan settings to users
+    1.  Optional: Assign Dial Plan settings to users
 
-    0.  Assign Teams Calling interop policy
+    1.  Assign Teams Calling interop policy
 
     For a walkthrough of the onboarding process, watch the following video:
 
-    ###1. Enable Exchange on-premises for Azure Voicemail
+    ### 1. Enable Exchange on-premises for Azure Voicemail
 
     If some of your users have their Exchange mailbox on an Exchange Server
     on-premises, follow the steps in [Azure PBX voicemail support for Exchange
     Server](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)
     to enable it for working with Azure Voicemail.
 
-    ###2. Validate required licenses
+    ### 2. Validate required licenses
 
     From the Envision phase, you should have a list of the licenses that make up the
     prerequisites for the implementation of Phone System with Calling Plans for your
@@ -546,7 +546,7 @@ items:
     consult the team in your organization responsible for Office 365
     subscriptions so that they can procure the required licenses.
 
-    ###3. Assign licenses
+    ### 3. Assign licenses
 
     After you’ve confirmed that the required licenses (based on your implementation
     plan) are available, you need to assign the licenses to users.
@@ -556,7 +556,7 @@ items:
     to perform license assignment for individual or multiple users by using the
     Skype for Business admin center or a remote PowerShell session.
 
-    ###4. Acquire phone numbers
+    ### 4. Acquire phone numbers
 
     Getting phone numbers for a Phone System with Calling Plans implementation can
     be accomplished in multiple ways:
@@ -568,13 +568,13 @@ items:
 
     -   Transfer (or port) existing phone numbers to Microsoft
 
-    ###5. Set up emergency addresses and locations
+    ### 5. Set up emergency addresses and locations
 
     Follow the instructions in  [Add or remove an emergency address for your
     organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization), to set up emergency addresses and locations. For more information, see
 
 
-    ###6. Assign phone numbers and emergency address to users
+    ### 6. Assign phone numbers and emergency address to users
 
     Follow the instructions in [Assign, change, or remove a phone number for a
     user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
@@ -587,21 +587,21 @@ items:
     on-premises Active Directory, you must use on-premises Active Directory to
     update the office phone number attribute.
 
-    ###7. Optional: Assign Calling Identity settings to users
+    ### 7. Optional: Assign Calling Identity settings to users
 
     Based on your implementation plan, you might need to configure the Calling
     Identity settings for your users. Follow the instructions in [Set the Caller ID
     for a
     user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user).
 
-    ###8. Optional: Assign Dial Plan settings to users
+    ### 8. Optional: Assign Dial Plan settings to users
 
     Depending on your organization’s and users’ requirements, you might need to
     assign tenant dial plans to your users. Follow the instructions in [Create and
     manage dial
     plans](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans).
 
-    ###9. Assign the Teams calling interop policy
+    ### 9. Assign the Teams calling interop policy
 
     By default, all calling in Teams is set to Skype for Business without the option
     for users to change the setting.

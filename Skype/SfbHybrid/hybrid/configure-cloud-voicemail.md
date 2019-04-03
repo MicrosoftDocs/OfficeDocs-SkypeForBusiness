@@ -1,5 +1,6 @@
 ---
-title: "Configure Cloud Voicemail service"
+title: "Configure Cloud Voicemail service for on-premises users"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,7 +13,7 @@ ms.collection:
 description: "Instructions for implementing cloud-based voicemail for users homed on Skype for Business Server."
 ---
 
-# Configure Cloud Voicemail service
+# Configure Cloud Voicemail service for on-premises users
 
 ## Overview 
 This article describes how to configure Microsoft Cloud Voicemail service for your Skype for Business on-premises users.  
@@ -41,7 +42,7 @@ Configuring Cloud Voicemail involves the following tasks:
 
 ## Configure Cloud Voicemail as the hosting provider on the Edge Server 
 
-You configure Cloud Voicemail as the hosting provider on the Edge Server by using the New-CsHostingProvider cmdlet with the following parameters:
+You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
 - **Identity** specifies a unique string value identifier for the hosting provider that you are creating; for example, Cloud Voicemail. 
 
