@@ -1,30 +1,28 @@
 ---
-title: "What's the status of my port orders?"
+title: "What's the status of my port orders in Teams?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
-ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto:
-- Skype for Business
+appliesto: Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
-description: "Learn how to get the status of your port orders, and what the different actions you can take on them. "
+description: "Learn how to get the status of your port orders and learn the different actions you can take on them. "
 ---
 
-# What's the status of my port orders?
+# What's the status of my port orders in Teams?
 
-You can see the status of your port order by going to the **Skype for Business admin center** > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column. If you need help, [contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+You can see the status of your port order by going to **Microsoft Teams admin center** > **Legacy portal** > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column. If you need help, [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 The following table lists port order statuses, as well as actions you can take if needed.
 
@@ -51,6 +49,6 @@ The following table lists port order statuses, as well as actions you can take i
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 
