@@ -1,4 +1,4 @@
-This article describes a concise version of how bandwidth is utilized by Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mbps. The actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available, quality and usage will increase to deliver the best experience.
+This article describes a concise version of how bandwidth is utilized by Microsoft Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mbps. The actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available, quality and usage will increase to deliver the best experience.
 
 
 |Bandwidth(up/down) |Scenarios |
