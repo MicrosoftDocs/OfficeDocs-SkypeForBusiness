@@ -123,7 +123,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add and edit OneNote meeting notes  |&#x2714;||Edit only (not add)  |&#x2714;|&#x2714;|
 |Use a whiteboard |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Conduct polls |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Upload files to share with others |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Upload files to share with others |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Schedule a meeting or conference |Outlook or Skype for Business Web Scheduler  |Outlook or Skype for Business Web Scheduler |Skype for Business Web Scheduler |Outlook or Skype for Business Web Scheduler   |Outlook or Lync Web Scheduler |  
 |Q&amp;A Manager |&#x2714;|||||
 |Disable attendee video |&#x2714;||&#x2714;|||

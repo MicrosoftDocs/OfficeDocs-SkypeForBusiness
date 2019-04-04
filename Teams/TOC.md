@@ -21,9 +21,7 @@
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
-## [What are Messaging policies?](messaging-policies-in-teams.md)
-## [Get started with Teams templates](get-started-with-teams-templates.md)
-## [Get started with Microsoft Teams Healthcare templates](healthcare/healthcare-templates.md)
+## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +32,9 @@
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
+### [Manage app permission policies in Teams](teams-app-permission-policies.md)
+### [Manage app setup policies in Teams](teams-app-setup-policies.md)
+### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
@@ -65,17 +66,18 @@
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-### [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Teams analytics and reporting in the Microsoft Teams admin center](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
-#### [Use activity reports for Teams](teams-activity-reports.md)
+### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
 
 ## Reference
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
+#### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Limits and specifications for Teams](limits-specifications-teams.md)
 #### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 #### [Get tools to support a rollout of Teams](rollout-tools.md)
@@ -104,8 +106,15 @@
 ### Licensing
 #### [Manage user access to Teams](user-access.md)
 #### [Office 365 licensing for Teams](office-365-licensing.md)
-#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Assign Teams licenses](assign-teams-licenses.md)
+#### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+##### License options based on your plan
+###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+###### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+###### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+###### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+###### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+###### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 #### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 #### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 
@@ -116,7 +125,9 @@
 
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
+## [Customize meeting invitations](customize-meeting-invitations.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -128,47 +139,50 @@
 
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
-### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
-### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
-### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
-### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
-### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
-### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)
-### [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-in-teams.md)
-### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
-### [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
-### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
-### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-### [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md)
-### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
-### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
-### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 
 
-## [Cloud Video Interop](cloud-video-interop.md)
-### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
+### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
-## Live events
-### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
-### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-<!-- ============================================================ -->
+### Manage your audio conferencing bridge
+#### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+#### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
+#### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+#### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
+### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
+
+
+### [Manage the Audio Conferencing settings for users](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+
+#### [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
+
+#### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+#### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)
+#### [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-in-teams.md)
+#### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
+#### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+#### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
+#### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
+#### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+
+### Manage meetings settings for audio conferencing
+
+#### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
+#### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
+#### [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md)
+#### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
+
+
 
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
@@ -268,23 +282,45 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Cloud Video Interop](cloud-video-interop.md)
+
+## Live events
+### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
+### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
+### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Cloud voice](cloud-voice-landing-page.md)
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
 ### [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 ### [Set up Phone System](setting-up-your-phone-system.md)
 ### [Set up common area phones](set-up-common-area-phones.md)
-### Voice mail
-#### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
-#### [Change the default language for voice mail](change-the-default-language-for-greetings-and-emails.md)
+### Voicemail
+#### [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
+#### [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
 #### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Auto attendants and call queues
+### Auto attendants and call queues 
 #### [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
+#### [Create a Phone System call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
@@ -308,6 +344,12 @@
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+
+### Media bypass for Direct Routing
+#### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
+#### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
+
+
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -549,6 +591,7 @@
 #       
 #        
 
+
 <!-- ============================================================ -->
 # [Upgrade to Teams](upgrade-introduction.md)
 ## [Get started](upgrade-start-here.md)
@@ -575,14 +618,50 @@
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
+
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Additional information
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 <!-- ============================================================ -->
-#       
-#        
+# 
+# 
+
+# [Expand Teams across your organization](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Get started with Teams templates](get-started-with-teams-templates.md)
+## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [Firstline Worker features coming soon to Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Manage the Shifts app for your organization in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
+## [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
+## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
+### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+
+## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
+
+## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
+### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
+### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
+
+<!-- ============================================================ -->
+
+# 
+# 
+
+<!-- ============================================================ -->
 
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
@@ -590,15 +669,15 @@
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
 
+
 # Reference
 
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
-### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Phones for Teams](phones-for-teams.md)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## [Security & compliance](security-compliance-overview.md)
@@ -631,7 +710,7 @@
 ### [Monitor call quality](monitor-call-quality-qos.md)
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
-#### [Implement QoS and monitor call quality](monitor-call-quality-qos.md)
+##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 #### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Set up Call Analytics](set-up-call-analytics.md)
 #### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
@@ -639,26 +718,8 @@
 #### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
-
-
-## Teams for Education
-### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
-### [Teams resources for Education admins](resources-teams-edu.md)
-### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
-
-## Teams for firstline workers
-### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
-
-## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
-### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
-### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
-
 ## [Teams PowerShell overview](teams-powershell-overview.md)
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
