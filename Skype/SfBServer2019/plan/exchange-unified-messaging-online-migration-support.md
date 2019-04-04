@@ -92,7 +92,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | Service | Feature level | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Service Features| Support 3rd-party PBX    |  | N   | Y    |
-| VM | Service Features  | Support Skype for Business Server   |  | Q1CY19 | Y    |
+| VM | Service Features  | Support Skype for Business Server   |  | Y | Y    |
 | VM | Service Features | Support Microsoft Teams|  | Y | N    |
 | VM | Service Features | eDiscovery and Hold  | For security and compliance  | Y | Y    |
 | VM | Service Features | Exchange Rules support | For security and compliance  | Y | Y    |
@@ -115,7 +115,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | VM | User Features | Sending a voice message to a group of users  |Voicemail broadcast   | N | Y   |
 | VM | User Features | Voicemail notification using SMS    | Users can receive an SMS when they have a new voicemail    | N | Y    |
 | VM | User Features | Supported greeting languages | Details here: https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
-| VM | User Features | Call answering rules |  | Q1CY19 | Y    |
+| VM | User Features | Call answering rules |  | Y | Y    |
 | VM | User Features | Play on phone (PSTN)- to play message | Call me on my cell to listen to the voice message  | N | Y    |
 | VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | Y | Y    |
 | VM | User Features | Shared mailbox between multiple users |  | Y | Y    |
