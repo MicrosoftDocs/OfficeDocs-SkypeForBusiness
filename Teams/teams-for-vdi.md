@@ -54,13 +54,13 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
 
-        # Set Office 365 User Name and Password 
-        $username = “admin email address” 
-        password = ConvertTo-SecureString "password" -AsPlainText -Force 
-        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password 
-        # Connect to Skype Online 
-        Import-Module SkypeOnlineConnector 
-        $sfboSession = New-CsOnlineSession -Credential $LiveCred 
+        # Set Office 365 User Name and Password
+        $username = “admin email address”
+        password = ConvertTo-SecureString "password" -AsPlainText -Force
+        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+        # Connect to Skype Online
+        Import-Module SkypeOnlineConnector
+        $sfboSession = New-CsOnlineSession -Credential $LiveCred
         Import-PSSession $sfboSession```
 
 3. View a list of calling policy options.
@@ -80,15 +80,15 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
         AllowCallForwardingToPhone      : False
         PreventTollBypass               : False
 
-5. Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment. 
+5. Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.
 
         Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
 
-For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy). 
+For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
 #### Meetings
 
-Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. Here's the list of policy settings and recommended values. 
+Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. Here's the list of policy settings and recommended values.
 
 |Policy Name |Description|Recommended Value                   |
 |-------------------|-----------------|-----------------------|
@@ -113,13 +113,13 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
 
-        # Set Office 365 User Name and Password 
-        $username = “admin email address” 
-        password = ConvertTo-SecureString "password" -AsPlainText -Force 
-        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password 
-        # Connect to Skype Online 
-        Import-Module SkypeOnlineConnector 
-        $sfboSession = New-CsOnlineSession -Credential $LiveCred 
+        # Set Office 365 User Name and Password
+        $username = “admin email address”
+        password = ConvertTo-SecureString "password" -AsPlainText -Force
+        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+        # Connect to Skype Online
+        Import-Module SkypeOnlineConnector
+        $sfboSession = New-CsOnlineSession -Credential $LiveCred
         Import-PSSession $sfboSession```
 
 3. View a list of meeting policy options.
@@ -152,7 +152,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 
         Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 
- For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy). 
+ For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ### Virtualization provider requirements
 
@@ -184,19 +184,19 @@ Here's the process and tools to deploy the Teams desktop app.
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Run the following command to install the MSI to the VDI VM (or complete updating it): 
+2. Run the following command to install the MSI to the VDI VM (or complete updating it).
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
-    This installs Teams to Program Files. At this point, the golden image setup is complete. 
+    This installs Teams to Program Files. At this point, the golden image setup is complete.
  
     The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property. 
 
-3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it):
+3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
 
-        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name> 
+        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-    This uninstalls Teams from Program Files. 
+    This uninstalls Teams from Program Files.
 
 ## Known issues and limitations
 

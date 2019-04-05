@@ -55,32 +55,32 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 
 ### VDI installation
 
-Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md). 
+Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
 
 1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
 
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Run the following command to install the MSI to the VDI VM (or complete updating it) by using the following command line: 
+2. Run the following command to install the MSI to the VDI VM (or complete updating it).
 
-        msiexec /i <msi_name> /l*v < install_logfile_name> ALLUSER=1 
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
-This installs Teams to Program Files. At this point, the golden image setup is complete. 
+This installs Teams to Program Files. At this point, the golden image setup is complete.
  
-The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property. 
+The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.
 
-3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it):
+3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
 
-        msiexec /passive /x <msi_name> /l*v <uninstall_logfile_name> 
+        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-This uninstalls Teams from Program Files. 
+This uninstalls Teams from Program Files.
 
 ## Clean up and redeployment procedure
 If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
 1. Uninstall Teams App installed for every user profile. 
-2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\. 
+2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.
 3. Redeploy the MSI package to that particular computer.
 
 > [!TIP] 
