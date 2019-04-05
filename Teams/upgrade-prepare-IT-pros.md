@@ -33,7 +33,7 @@ Your Office 365 tenant admins, technical leads, and support desk are accountable
 Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:
 
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
-- [Support resources for Microsoft Teams](support-resources.md)
+- [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
 - [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
 - [Use log files in troubleshooting Microsoft Teams](log-files.md)
 
