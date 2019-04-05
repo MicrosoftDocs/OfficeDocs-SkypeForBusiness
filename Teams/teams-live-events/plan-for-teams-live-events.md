@@ -24,22 +24,32 @@ When you are planning Teams live events to hold large meetings in your organizat
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
-- An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license. 
-- A Microsoft Teams and Microsoft Stream license.
+- An Office 365 Enterprise E3 or E5 license or an Office 365 A3 or A5 license.
+- Skype for Business Online and Microsoft Stream license is a requirement to use Teams live events.
+- Permission to create live events in Microsoft Teams admin center.
+- Permission to create live events in Microsoft Stream (for [external encoder production](#production)).
+- Full team membership in the org (can’t be a guest or from another org).
+- The following Teams meeting policy should be turned on in Teams Admin Center
+  - Private meeting scheduling (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
+  - Screensharing (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
+  - IP video sharing (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 
+To learn more , see [Get started with Microsoft Teams live events](https://support.office.com/en-us/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a)
+
+#### Teams Live Event with Coexistence of Teams and Skype for Business
+   - **TeamsOnly Mode** - use Teams Live Event
+   - **Skype for Business Only** - use Skype Meeting Broadcast.
+   - **Island** - runs in both event, Teams Live Event or Skype Meeting Broadcast based from which the communication was initiated.
+
+> Teams live events are considered the next version of Skype Meeting Broadcast and will eventually replace the capabilities provided in Skype Meeting Broadcast. At this point, Microsoft will continue to support Skype Meeting Broadcast for users who are using Skype for Business in their organizations, with no disruption in service for new or future events. However, we encourage you to try out Teams live events to leverage all the new and exciting features including screen sharing and support for external hardware/software encoders.
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
 
 - **For Quick start production**  The user must be assigned a Microsoft Teams license.
 - **For External encoder production** The user must be assigned a Microsoft Stream license.
 
-For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information, see [Microsoft Teams live events production method](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/what-are-teams-live-events)
 
-The user must have:
-- Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
-- Video sharing enabled in Teams meetings (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
-- Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
-- Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
-- Permissions to create live events in Microsoft Stream (for external encoder production).
+For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!IMPORTANT]
 > Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guest and federated users can only watch live events anonymously. 
