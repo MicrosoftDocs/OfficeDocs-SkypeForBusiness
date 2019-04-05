@@ -63,6 +63,8 @@ Additional information:
 
 -   For Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
+-  Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](https://docs.microsoft.com/en-us/microsoftteams/security-compliance-overview#how-do-conditional-access-policies-work-for-teams) .
+
 > [!NOTE]
 > Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.
 > 
