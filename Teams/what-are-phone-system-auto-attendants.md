@@ -71,7 +71,7 @@ To get started using auto attendants, it's important to remember that:
 
 ### Dial by Name
 
-Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations.
+Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or EV enabled for onpremises users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations.
 
 ### Maximum directory size
 

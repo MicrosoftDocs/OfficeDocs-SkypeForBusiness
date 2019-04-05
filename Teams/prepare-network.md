@@ -62,9 +62,6 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 ## Bandwidth requirements
 Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.
 
-This article describes a concise version of how bandwidth is utilized by Microsoft Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mbps.  The actual bandwidth consumption in each audio/video call or meeting will vary, based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available quality and usage will increase to deliver the best experience.
-
-
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
 
