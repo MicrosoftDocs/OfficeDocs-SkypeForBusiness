@@ -71,6 +71,8 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
 
       > [!NOTE]
      > Funds will be applied only to Communications Credits at Microsoft published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited. 
+     > 
+     > Monthly billing for Communication Credits will only be applied if the alloted fund has been used, to check on your monthly usage we recommend to view [Skype for Business PSTN usage report](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Enter your payment information and click **Place order**.
     >[!IMPORTANT]
@@ -78,7 +80,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
     
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel if you want to export the data for storage or create custom reports. To see usage, see [Skype for Business PSTN usage report](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel if you want to export the data for storage or create custom reports. To see usage, see [Skype for Business PSTN usage report](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
   
 ## Step 3: Assign a Communications Credits license to users
 
