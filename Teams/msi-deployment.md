@@ -66,17 +66,18 @@ Here's the process to deploy the Teams desktop app. For complete guidance, see [
 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
-This installs Teams to Program Files. At this point, the golden image setup is complete.
- 
-The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.
+    This installs Teams to Program Files. At this point, the golden image setup is complete.
+
+    The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.
 
 3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
 
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-This uninstalls Teams from Program Files.
+    This uninstalls Teams from Program Files.
 
 ## Clean up and redeployment procedure
+
 If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
 1. Uninstall Teams App installed for every user profile. 
@@ -84,8 +85,8 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 3. Redeploy the MSI package to that particular computer.
 
 > [!TIP] 
-> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM. 	
-					
+> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.
+
 ## Disable auto launch for the MSI installer
 
 Default behavior of the MSI is to install the Teams client as soon as a user signs in and then automatically start Teams. You can modify this behavior with the parameters below as follows:
@@ -103,5 +104,6 @@ For the 64-bit version
 ```
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
-> [!Note] 
+
+> [!Note]
 >  If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer will not be able to configure the option to disable auto start.
