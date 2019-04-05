@@ -49,6 +49,9 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 > [!CAUTION]
 > The name of the folder that you run the media creation script from can not contain a space. If there is a space in to folder name, the script will fail.
 
+> [!TIP]
+> Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support. Make sure to run the 
+
 The CreateSrsMedia.ps1 script automates the following tasks:
 
 1. Download the latest MSI installer for Microsoft Teams Rooms.
