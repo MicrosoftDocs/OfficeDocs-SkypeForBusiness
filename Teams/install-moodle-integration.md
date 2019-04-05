@@ -12,8 +12,7 @@ description: "Learn how to install and configure the Moodle integration app for 
 keywords: Teams Moodle app integration plugin
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
-appliesto: 
-- Microsoft Teams
+appliesto: Microsoft Teams
 ---
 
 
