@@ -34,7 +34,7 @@ Here are the licenses that must be assigned:
   - Screensharing (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
   - IP video sharing (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 
-To learn more , see [Get started with Microsoft Teams live events](https://support.office.com/en-us/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a)
+To learn more , see [Get started with Microsoft Teams live events](https://docs.microsoft.com/microsoftteams/get-started-with-teams-quick-start)
 
 #### Teams Live Event with Coexistence of Teams and Skype for Business
    - **TeamsOnly Mode** - use Teams Live Event
@@ -47,9 +47,9 @@ It's important to know that an Office 365 license is required to participate in 
 - **For Quick start production**  The user must be assigned a Microsoft Teams license.
 - **For External encoder production** The user must be assigned a Microsoft Stream license.
 
-For more information, see [Microsoft Teams live events production method](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/what-are-teams-live-events)
+For more information, see  [Microsoft Teams live events production](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#production) .
 
-For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
 > [!IMPORTANT]
 > Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guest and federated users can only watch live events anonymously. 
