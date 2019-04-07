@@ -50,7 +50,7 @@ For more information about auto attendants, see [What are Phone System auto atte
 
 9. Select **Save**.
 
-## Change a holdiay
+## Change a holiday
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
 
