@@ -30,7 +30,7 @@ The purpose of co-existence modes is to provide a simple, predictable experience
 When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.   
 
 ## How the available functionality in Teams client changes based on mode
-The available functionality in Teams dependes on the user's coexistence mode, as set by TeamsUpgradePolicy. The table below summarizes the  behavior:
+The available functionality in Teams depends on the user's coexistence mode, as set by TeamsUpgradePolicy. The table below summarizes the  behavior:
 
 |User's effective mode|Experience in Teams client|
 |---|---|

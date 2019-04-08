@@ -69,7 +69,7 @@ For Audio Conferencing, you can’t use phone numbers for users; you will need t
 
 Once you get your toll and/or toll-free phone numbers for your conferencing bridge, you need to assign the numbers so they can be used on meeting invitations.  
 
-Follow these stesps to assign a new phone number to your audio conferencing bridge.
+Follow these steps to assign a new phone number to your audio conferencing bridge.
 
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
