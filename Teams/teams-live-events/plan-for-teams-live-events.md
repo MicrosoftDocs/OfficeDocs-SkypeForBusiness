@@ -47,7 +47,7 @@ It's important to know that an Office 365 license is required to participate in 
 - **For Quick start production**  The user must be assigned a Microsoft Teams license.
 - **For External encoder production** The user must be assigned a Microsoft Stream license.
 
-For more information, see  [Microsoft Teams live events production](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#production) .
+For more information, see  [Microsoft Teams live events production](../teams-live-events/what-are-teams-live-events#production) .
 
 For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
