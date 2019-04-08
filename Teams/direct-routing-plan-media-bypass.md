@@ -42,7 +42,7 @@ But let's assume that a user is in the same building or network as the SBC. For 
 
 ![Shows signaling and media flow with media bypass](media/direct-routing-media-bypass-2.png)
 
-Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE light on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE light are WebRTC standards. For detailed information about these protocols, see RFC 5245.
+Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE light on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
 
 
 ## Call flow and firewall planning
