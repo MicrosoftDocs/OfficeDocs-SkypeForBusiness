@@ -172,6 +172,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
  &#x2776;  For Office 365 users, this feature requires Enterprise Voice, which is part of the E5 license.
   
  &#x2777;  Requires a WiFi connection by default.
+ 
  &#x2778;  Viewing embedded video in PowerPoint presentations is not supported.
   
 ## Telephony support
