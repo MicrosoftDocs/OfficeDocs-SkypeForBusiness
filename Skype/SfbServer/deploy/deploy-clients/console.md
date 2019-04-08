@@ -46,11 +46,9 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
 3. Follow the script's instructions to create a Microsoft Teams Rooms USB setup disk.
 
-> [!CAUTION]
-> The name of the folder that you run the media creation script from can not contain a space. If there is a space in to folder name, the script will fail.
 
 > [!TIP]
-> Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support. Make sure to run the 
+> Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support. 
 
 The CreateSrsMedia.ps1 script automates the following tasks:
 
