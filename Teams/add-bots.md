@@ -60,7 +60,15 @@ Side load your bot for channels
 If you want to share your bot with your colleagues, here's how to add it to channels of different teams:
 
 1. After you have [created an app package for your bot](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload), open Teams and browse to the team in which you'll be side-loading the bot.
-2. Select **More** (...) next to the team name.
-3. Select **Manage team** and then select the **Apps** tab.
-4. At the bottom-right of your screen, select **Upload a custom app**.
+2. Add **[App Studio]**(https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio), app to Microsoft Teams.
+3. In App Studio, select the **Manifest Editor** Tab. 
+![Manifest Editor Tab Screenshot.](media/Adding_Bot_To_Teams.png)
+4. To add your bot, In capabilities, select bot and chose to add an existing bot, then you will have the option 
+to chose an existing bot from a drop or enter the Id of one of your existing bots.
+![Select your bot you already created.](media/Select_Existing_Bot.png)
 5. Browse to the location of your app package, select it, and then click **Open**.
+6. Select your bot's name (Don't forget to check the "Team" checkbox under the scope section)
+7. Select the Test and distribute option.
+8. Select the team where you wish to connect your bot to in the dialog which pops up.
+
+With this, your bot will be available in your Microsoft Team's team.
