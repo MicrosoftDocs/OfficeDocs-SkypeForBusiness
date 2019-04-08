@@ -42,9 +42,9 @@ The parameters that determine the thread routing method are:
 - Whether the conversation is new, or part of an existing thread
 - Whether the conversation is in-tenant or federated
 - Whether the conversation is possible
-    - *In-tenant* interoperability requires that the tenant is either pure online or Skype for Business hybrid. Purely on-premise tenants can't have in-tenant interoperability.
+    - *In-tenant* interoperability requires that the tenant is either pure online or Skype for Business hybrid. Purely on-premises tenants can't have in-tenant interoperability.
     - *Cross-tenant federation* always requires proper Skype for Business federation configuration as well as proper Teams federation  configuration from both tenants. Skype for Business hybrid is not required of either tenant.
-    - If the Skype for Business account of the originator is homed on-premise, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation.
+    - If the Skype for Business account of the originator is homed on-premises, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation.
     - Teams to Teams communication is always possible in-tenant.
 
 > [!NOTE]
@@ -54,7 +54,7 @@ The parameters that determine the thread routing method are:
 
 ## In-tenant routing for new chats or calls 
 
-The tables below capture routing of in-tenant chat and calls, and are valid for new calls or chats that are not started from a preexisting thread. It describes which client will receive a new call or chat, if originated by a user on the left, to an in-tenant recipient user on the right.
+The tables below capture routing of in-tenant chat and calls, and are valid for new calls or chats that are not started from a pre-existing thread. It describes which client will receive a new call or chat, if originated by a user on the left, to an in-tenant recipient user on the right.
 
 Messages sent to TeamsOnly users will always route to Teams. Messages sent to SfB\* users will always route to Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always route to the same client from which they were sent.
 
@@ -96,7 +96,7 @@ In the tables that follow:
 
 ## Federated routing for new chats or calls
   
-The tables below capture routing of federated calls and chats, and are  valid for new calls or chats. They describe which client will receive a new call or chat, if originated by a user on the left, to a federated target user on the right.
+The tables below capture routing of federated calls and chats, and are valid for new calls or chats. They describe which client will receive a new call or chat, if originated by a user on the left, to a federated target user on the right.
 
 In summary, if the conversation is possible as described above, messages sent to TeamsOnly users will always land in Teams; messages sent to SfB\* users will always land in Skype for Business; messages sent to Islands users will always land in Skype for Business regardless of the client from which they were sent. Routing for federated chats and calls differs from in-tenant routing in that Islands users will always receive a federated communication in Skype for Business.
 
@@ -116,7 +116,7 @@ The tables below describe which client will receive a call from the originator (
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**Table 2b: federated new chat or call routing to to a recipient in an SfB\* mode**
+**Table 2b: federated new chat or call routing to a recipient in an SfB\* mode**
 
 | <br/><br/>Mode   | Originator<br/><br/> Client| <br/><br/>SfB homed| |  Recipient<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
