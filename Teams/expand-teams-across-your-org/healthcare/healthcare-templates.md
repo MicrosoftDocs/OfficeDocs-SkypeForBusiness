@@ -51,6 +51,9 @@ The hospital template is meant for communication and collaboration between multi
 
 To use these templates, simply change the ‘template@odata.bind’ property in the request body from ‘standard’ to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph [article on creating a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
+> [!NOTE]
+> The channels in the template will automatically be created under the General Tab.
+
 ### Example: Hospital template extension script
 
 ``` Powershell
