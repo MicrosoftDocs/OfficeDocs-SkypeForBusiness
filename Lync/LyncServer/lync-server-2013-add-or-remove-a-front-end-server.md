@@ -47,7 +47,7 @@ When you add a Front End Server to a pool, or remove a Front End Server from a p
 
 1.  If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:
     
-        Stop -CsWindowsServices -Graceful
+        Stop-CsWindowsServices -Graceful
 
 2.  When the servers being removed have no current sessions, stop Lync Server services on them.
 

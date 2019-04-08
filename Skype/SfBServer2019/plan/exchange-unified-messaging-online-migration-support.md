@@ -62,7 +62,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 3. **Plan your Auto Attendant migration**
     
-    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Phone System auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) for more details. Microsoft plans to deliver additional Auto Attendant capabilities that customers consider critical for their migration by March 2019. Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Phone System auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details. Microsoft plans to deliver additional Auto Attendant capabilities that customers consider critical for their migration by March 2019. Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Plan for your voicemail post-migration validation and testing**
 
@@ -91,7 +91,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 | Service | Feature level | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Service Features| Support 3rd-party PBX    |  | N   | Y    |
+| VM  | Service Features| Support 3rd-party PBX    | Including any feature associated with that, such as MWI for 3rd party phones | N   | Y    |
 | VM | Service Features  | Support Skype for Business Server   |  | Y | Y    |
 | VM | Service Features | Support Microsoft Teams|  | Y | N    |
 | VM | Service Features | eDiscovery and Hold  | For security and compliance  | Y | Y    |
