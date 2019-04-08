@@ -25,7 +25,7 @@ Admin settings for apps in Microsoft Teams
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-[!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
