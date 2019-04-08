@@ -86,7 +86,7 @@ You can change the following elements of a team:
 
 ## Other supported changes to teams
 
-- **Delete** - Deleting a team is a soft-delete of the team and corresponding Office 365 group.  To restore a mistakenly deleted team, follow the instructions at [Restore a deleted Office 365 Group](https://docs.microsoft.com/en-us/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+- **Delete** - Deleting a team is a soft-delete of the team and corresponding Office 365 group.  To restore a mistakenly deleted team, follow the instructions at [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
 - **Archive** - Archiving a team puts the team into read-only mode within Microsoft Teams.  As an admin, you can archive and unarchive teams on behalf of your organization via the admin portal.
 
 
@@ -102,7 +102,7 @@ When you enter the Microsoft Teams admin center, under the **Teams** option some
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
-Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
 1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
