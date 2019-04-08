@@ -149,7 +149,7 @@ Teams Transport Relays are always in the media path in the following scenarios:
 - Call is going to a federated Teams user
 - Call is forwarded or transferred to a Skype for Business user
 
-Enusre your SBC has access to the Transport Relays as described below.    
+Ensure your SBC has access to the Transport Relays as described below.    
 
 
 ## SIP Signaling: FQDNs and firewall ports
