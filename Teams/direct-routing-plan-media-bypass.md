@@ -131,7 +131,7 @@ In media path for non-bypassed calls for end users | Always | Never |
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
 In media path for voice applications | Always | Never | 
 Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints | 
-Number of instancess worldwide and location | 8 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan (being added in Q1CY2019)  | Multiple
+Number of instances worldwide and location | 8 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan (being added in Q1CY2019)  | Multiple
 
 The IP range is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254). 
 
