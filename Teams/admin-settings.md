@@ -31,7 +31,7 @@ You manage apps for your organization in **Teams apps** in the Microsoft Teams a
 
 ## App permission policies
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 With app permission policies, you can block or allow apps, either org-wide or for specific users.  When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
 
