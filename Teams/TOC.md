@@ -101,6 +101,7 @@
 #### [Install Teams using MSI](msi-deployment.md)
 #### [Turn on Teams in your organization](Office-365-set-up.md)
 #### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+#### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 #### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 
 ### Licensing
