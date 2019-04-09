@@ -34,7 +34,7 @@ Here are the licenses that must be assigned:
   - Screensharing (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
   - IP video sharing (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 
-To learn more , see [Get started with Microsoft Teams live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
+To learn more , see [Get started with Microsoft Teams live events](what-are-teams-live-events.md).
 
 #### Teams Live Event with Coexistence of Teams and Skype for Business
    - **TeamsOnly Mode** - use Teams Live Event
