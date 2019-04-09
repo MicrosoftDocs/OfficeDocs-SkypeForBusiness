@@ -86,7 +86,7 @@ In addition to the Argonaut fields, for a great user experience we can also read
 
 1. Name.Use
 2. Name.Prefix
-3. CareProvider. This reference on the Patient resource should include the display field **Patient_with_careProvider.saz**
+3. CareProvider. This reference on the Patient resource should include the display field [**Patient_with_careProvider.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Patient_with_careProvider.saz?raw=true)
 
 Resource search using POST method at /Patient/_search and the following parameters:
 
@@ -98,7 +98,7 @@ Resource search using POST method at /Patient/_search and the following paramete
 6. _count (max no. of results that should be returned) Note: The response should contain Total count of records returned as a result of the search, and _count will be used by the PatientsApp to limit the number of records returned. 
 7. identifier=\<mrn>
 
-Note: The goal is to be able to search/filter for a patient by ID (the Resource ID which every Resource in FHIR has), MRN (the actual identifier for the Patient which clinical staff would know, we understand this is MRN based on the type of identifier inside the identifier resource in FHIR), name and birthdate. See examples of a sample call using parameters above: **PatientResource.saz**
+Note: The goal is to be able to search/filter for a patient by ID (the Resource ID which every Resource in FHIR has), MRN (the actual identifier for the Patient which clinical staff would know, we understand this is MRN based on the type of identifier inside the identifier resource in FHIR), name and birthdate. See examples of a sample call using parameters above: [**PatientResource.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/PatientResource.saz?raw=true)
 
 ### Observation
 
@@ -121,7 +121,7 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id\>
 2. sort:desc=\<field ex. date\>
-3. Note: The Goal is to be able to retrieve the latest Vital signs for a patient: **VitalSigns.DSTU.saz**
+3. Note: The Goal is to be able to retrieve the latest Vital signs for a patient: [**VitalSigns.DSTU.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/VitalSigns.DSTU.saz?raw=true)
 
 ### Condition
 
@@ -129,19 +129,19 @@ See https://www.hl7.org/fhir/DSTU2/Condition.html
 
 Minimum required fields, subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):
 
-1.	Code.Coding[0].Display
+1. Code.Coding[0].Display
 
 In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
 
-1.	Date Recorded
-2.	Severity
+1. Date Recorded
+2. Severity
 
 Resource search using GET method and the following parameters: 
 
 1. patient=\<patient id>
 2. _count=\<max results>
-3. Note: Here is an example for the call: **Condition.saz**
- 
+3. Note: Here is an example for the call: [**Condition.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Condition.saz?raw=true)
+
 ### Encounter
 
 See https://www.hl7.org/fhir/DSTU2/Encounter.html
@@ -161,7 +161,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
-4. Note: The goal is to be able to retrieve the patient’ last known location. Each encounter references a location resource. The reference shall also include the location’s display field. See call example: **Encounter.saz**
+4. Note: The goal is to be able to retrieve the patient’ last known location. Each encounter references a location resource. The reference shall also include the location’s display field. See call example: [**Encounter.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Encounter.saz?raw=true)
 
 ### AllergyIntolerance
 
@@ -184,7 +184,7 @@ In addition to the Argonaut fields, for a great user experience we can also read
 Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
-2. Example of call: **AllergyIntolerance.saz**
+2. Example of call: [**AllergyIntolerance.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/AllergyIntolerance.saz?raw=true)
 
 ### Medication Order
 
@@ -207,7 +207,7 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _count=\<max results>
-3. Example of calls (Fiddler trace): **MedicationOrder.saz**
+3. Example of calls (Fiddler trace): [**MedicationOrder.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/MedicationOrder.saz?raw=true)
 
 ### Coverage
 
@@ -220,7 +220,7 @@ Minimum required field set (this is not covered by either US Core or Argonaut pr
 Resource search using GET method and the following parameters: 
 
 1. Patient = \<patient id>
-2. Example of Call: **Coverage.saz**
+2. Example of Call: [**Coverage.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Coverage.saz?raw=true)
 
 ### Location
 
@@ -285,41 +285,8 @@ Resource search using POST method at /Patient/_search and the following paramete
 
     Note: The goal is to be able to search/filter for a patient by ID (the Resource ID which every Resource in FHIR has), MRN (the actual identifier for the Patient which clinical staff would know, we understand this is MRN based on the type of identifier inside the identifier resource in FHIR), name and birthdate.
 
-GeneralPractitioner reference should be included in the Patient resource (display field only) **Patient.saz**
+GeneralPractitioner reference should be included in the Patient resource (display field only) [**Patient.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Patient.saz?raw=true)
  
-
-### Patient
-
-See http://hl7.org/fhir/stu3/patient.html 
-
-Minimum required fields (subset of the Argonaut patient profile fields)
-
-1. Name.Given
-2. Name.Family
-3. Gender
-4. BirthDate
-5. MRN (Identifier)
-
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
-
-1. Name.Use
-2. Name.Prefix
-3. [GeneralPractitioner] - see item 3.b.iv
-
-Resource search using POST method at /Patient/_search and the following parameters:
-
-1. _id
-2. family= (searches for all patients whose Family name contains the value)
-3. given= \<substring>
-4. birthdate= (exact match)
-5. gender=(values being one of the administrative-gender) 
-6. _count (max no. of results that should be returned) Note: The response should contain Total count of records returned as a result of the search, and _count will be used by the PatientsApp to limit the number of records returned. 
-7.	identifier=\<mrn>
-
-    Note: The goal is to be able to search/filter for a patient by ID (the Resource ID which every Resource in FHIR has), MRN (the actual identifier for the Patient which clinical staff would know, we understand this is MRN based on the type of identifier inside the identifier resource in FHIR), name and birthdate. 
-
-GeneralPractitioner reference should be included in the Patient resource (display field only) **Patient.saz**
-
 ### Observation
 
 see https://www.hl7.org/fhir/stu3/observation.html 
@@ -340,7 +307,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _sort=-date
 3. category (we will query for “category=vital-signs”) to retrieve the list of vital signs. 
-**Observation.saz** 
+[**Observation.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Observation.saz?raw=true)
 
 ### Condition
 
@@ -360,7 +327,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-**Condition.saz**
+[**Condition.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Condition.saz?raw=true)
 
 
 ### Encounter
@@ -409,6 +376,8 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id> 
 
+[AllergyIntolerance.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/AllergyIntolerance.saz?raw=true)
+
 ### Medication Request
 
 see https://www.hl7.org/fhir/medicationrequest.html 
@@ -436,7 +405,7 @@ See http://hl7.org/fhir/stu3/coverage.html
 
 Minimum required field set (this is not covered by either US Core or Argonaut profiles)
 
-1.	Grouping, at least one element with 
+1. Grouping, at least one element with
     1. GroupDisplay
     2. PlanDisplay
 2. Period
