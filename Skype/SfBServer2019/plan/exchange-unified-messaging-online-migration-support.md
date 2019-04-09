@@ -91,7 +91,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 | Service | Feature level | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Service Features| Support 3rd-party PBX    | Including any feature associated with that, such as MWI for 3rd party phones | N   | Y    |
+| VM  | Service Features| Support 3rd-party PBX    | Including all features provided to 3rd party PBX such as MWI (Message Waiting Indicator) using SIP notify messages from Exchange UM Online | N   | Y    |
 | VM | Service Features  | Support Skype for Business Server   |  | Y | Y    |
 | VM | Service Features | Support Microsoft Teams|  | Y | N    |
 | VM | Service Features | eDiscovery and Hold  | For security and compliance  | Y | Y    |
