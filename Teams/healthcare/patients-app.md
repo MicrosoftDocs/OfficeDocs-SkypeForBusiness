@@ -291,7 +291,7 @@ GeneralPractitioner reference should be included in the Patient resource (displa
 
 see https://www.hl7.org/fhir/stu3/observation.html 
 
-Minimum required fields (subset of the Argonaut Vital-Signs profile)
+Minimum required fields (subset of the [Argonaut Vital-Signs profile](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html))
 
 1. Effective (date time or period)
 2. Code.Coding.Code
@@ -334,7 +334,7 @@ Resource search using GET method and the following parameters:
 
 see http://hl7.org/fhir/stu3/encounter.html 
 
-Minimum required fields (subset of the US Core Encounter profile “must have” fields)
+Minimum required fields (subset of the [US Core Encounter profile](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields)
 
 1. Status
 2. Type[0].Coding[0].Display
@@ -382,7 +382,7 @@ Resource search using GET method and the following parameters:
 
 see https://www.hl7.org/fhir/medicationrequest.html 
 
-Minimum required fields (subset of the US Core Medication Request profile)
+Minimum required fields (subset of the [US Core Medication Request profile](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html))
 
 1. Medication.Display (if Reference)
 2. Medication.Text (if CodableConcept)
