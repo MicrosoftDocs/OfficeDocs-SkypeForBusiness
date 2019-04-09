@@ -15,7 +15,7 @@ ms.reviewer:
 description: Microsoft Teams Patient App EMR integration 
 ---
 
-# Microsoft Teams Patient App EMR integration 
+# Microsoft Teams Patient App EMR integration
 
 Microsoft Teams is developing features specific to the healthcare market. One of the scenarios we’re tackling as part of vertical focused effort is enabling care-coordination and specifically IDT (inter-disciplinary) or MDT (multi-disciplinary) teams to coordinate care for a set of high-risk patients. Microsoft Teams enables these physicians, clinicians, nurses and other staff to collaborate by: 
 -	Being part of a single Team to work and collaborate on Office documents as well as have persistent conversations about different patients needing attention. 
@@ -30,7 +30,7 @@ Below are some screenshots of the Patient App (for now this is a Tab app only an
 
 The goal of this document is to describe the as-is interface of the Microsoft Teams Patient App (which is a 1st party Microsoft Teams app. Click [here](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-overview) to learn more about Microsoft Teams Apps). The audience of this document is an interested EMR Integration/Interop Partner that will aim to partner with Microsoft Teams Healthcare Engineering and an interested Microsoft customer (a healthcare provider organization) to serve up the patient record data required for the functioning of the Patient app by integrating with the provider organization’s EMR system(s), transforming the data into the FHIR standard and integrating with the Patient app interface, thereby playing the role of a middleware interop partner. 
 
-![patient app 2](../media/Patient-app-2.png)
+![patient app 3](../media/Patient-app-3.png)
 
 This document will aim to educate the Middleware Partner on our requirements to integrate with the Patient App: 
 
