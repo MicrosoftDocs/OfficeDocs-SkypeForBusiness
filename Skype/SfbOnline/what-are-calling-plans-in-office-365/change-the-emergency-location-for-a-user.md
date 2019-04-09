@@ -70,5 +70,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
+[Set-CsOnlineVoiceUser cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+
   
  
