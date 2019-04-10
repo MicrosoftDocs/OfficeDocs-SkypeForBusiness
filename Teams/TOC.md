@@ -703,7 +703,7 @@
 
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](support-resources.md)
+### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
