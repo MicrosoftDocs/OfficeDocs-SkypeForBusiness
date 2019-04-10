@@ -48,7 +48,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 ### Create an account and synchronize with Active Directory
 
-1. In the **Active Directory Users and Computers AD** tool, right-click on the folder or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.
+1. In the **Active Directory Users and Computers** tool, right-click on the folder or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.
 
 2. Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
 
