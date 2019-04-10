@@ -48,16 +48,8 @@ For instructions on how to configure the trunks and perform migration, see the d
 - Ribbon
 - TE-Systems (AnyNode)    
 
-At the moment of this announcement, the following SBCs are fully tested and certified to work with media bypass:
+For a list of Session Border Controllers (SBCs) certified for Direct Routing, see [List of Session Broder Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
-- AudioCodes 9000 V7.20A.204.222, AudioCodes M800B-SBC/ V7.20A.250.003
-
--	Ribbon
-    - 5210 v06.02.xx-xxx 
-    - 5400, v06.02.xx-xxx
-    - 5110, v06.02.xx-xxx
-
--	TE-System AnyNode v 3.16.2 
 
 
 ## See also

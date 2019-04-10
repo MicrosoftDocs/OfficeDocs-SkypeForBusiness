@@ -22,7 +22,6 @@ appliesto:
 Manage teams in the Microsoft Teams admin center
 ==========================================
 
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## Overview
 
@@ -31,16 +30,13 @@ As an IT admin, you may need to view or update the teams that your organization 
 - Global Administrator
 - Teams Service Administrator
 
-You should also make sure that your account has been assigned a non-trial Teams license for management. As part of a known issue, you should make sure that your account has only **one** admin role assigned.  You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 This article provides an overview of the management tools for teams in the Microsoft Teams admin center.
 
 ## Teams overview grid
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
-
-> [!NOTE]
-> We are in the process of backfilling previously created Teams to ensure that they will show up in this view.
 
 ![Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -51,7 +47,11 @@ The grid displays the following properties:
 - **Users** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
 - **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
-- **Privacy** - the AccessType of the backing Office 365 group.
+- **Privacy** - the Visibility/AccessType of the backing Office 365 group.
+- **Status** - the Archived or Active status for this team.  Learn more about archiving teams in the [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- **GroupID** - the unique GroupID of the backing Office 365 group
+- **Classification** - the classification (if used in your organization) assigned to the backing Office 365 group.  Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Description** - the description set for the backing Office 365 group
 
 ### Search
 
@@ -84,6 +84,11 @@ You can change the following elements of a team:
 - **Team classification** - backed by your Office 365 group classifications
 - **Team member settings** - select team member settings
 
+## Other supported changes to teams
+
+- **Delete** - Deleting a team is a soft-delete of the team and corresponding Office 365 group.  To restore a mistakenly deleted team, follow the instructions at [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+- **Archive** - Archiving a team puts the team into read-only mode within Microsoft Teams.  As an admin, you can archive and unarchive teams on behalf of your organization via the admin portal.
+
 
 The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
 
@@ -97,7 +102,7 @@ When you enter the Microsoft Teams admin center, under the **Teams** option some
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
-Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
 1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
