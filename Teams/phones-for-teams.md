@@ -73,7 +73,7 @@ When a user clicks the sign-in button in Teams, sign-in is started via the Compa
 
 After successful sign-in, the user can choose whether the device will be used for personal use or in a shared conference room.
 
-![The personl or shared account option](media/personal-vs-shared-mode.jpg)
+![The personal or shared account option](media/personal-vs-shared-mode.jpg)
 
 The Teams phone experience is optimized based on the user's selection.
 

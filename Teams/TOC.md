@@ -101,6 +101,7 @@
 #### [Install Teams using MSI](msi-deployment.md)
 #### [Turn on Teams in your organization](Office-365-set-up.md)
 #### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+#### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 #### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 
 ### Licensing
@@ -635,8 +636,9 @@
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Firstline Worker features coming soon to Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Manage the Shifts app for your organization in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
@@ -701,7 +703,7 @@
 
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](support-resources.md)
+### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
