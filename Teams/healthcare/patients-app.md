@@ -17,20 +17,14 @@ description: Microsoft Teams Patient App EMR integration
 
 # Microsoft Teams Patient App EMR integration
 
-> [!NOTE]
-> - EMR or EHR? The [Get started with Teams for Healthcare](../expand-teams-across-your-org/healthcare/teams-in-hc.md#care-coordination) article uses EHR and this article uses EMR. 
+> EMR or EHR? The [Get started with Teams for Healthcare](../expand-teams-across-your-org/healthcare/teams-in-hc.md#care-coordination) article uses EHR and this article uses EMR. 
 
-Microsoft Teams is developing features specific to healthcare organizations. One of the scenarios we’re working on is care coordination, a solution to enable inter-disciplinary or multi-disciplinary teams to coordinate care for a set of high-risk patients. With Teams, physicians, clinicians, nurses, and other staff can collaborate by:
+Microsoft Teams is developing features specific to healthcare organizations. One of the scenarios we’re working on is care coordination, a solution to enable inter-disciplinary or multi-disciplinary teams to coordinate care for a set of high-risk patients. Teams enables physicians, clinicians, nurses, and other staff to collaborate by:
 
 - Being part of a single team to work and collaborate on Office documents and have persistent conversations about different patients needing attention
 - Using channels with tabs as a way to structure their work with additional help from tabs to which they can pin information sources
 - Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
 - Using the Microsoft Teams Patient App to curate and run through a list of high-risk patients that must be monitored.
-
-Here's some screen shots of the Patient App. Currently, it's added as a tab to the General channel of a team. We'll be adding extensibility areas, such as a bot, messaging extension, and connectors in the future.
-
-![patient app 1](../media/Patient-app-1.png)
-![patient app 2](../media/Patient-app-2.png)
 
 This article describes the as-is interface of the Teams Patient App, a first-party app built by Microsoft. To learn more about Teams apps, see [App for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).
 
@@ -46,6 +40,11 @@ As a middleware interop partner, you'll learn about the requirements to integrat
 - Future requirements or asks for the next iteration of the Patient App
 
 ![patient app 3](../media/Patient-app-3.png)
+
+Here's some screen shots of the Patient App. Currently, it's added as a tab to the General channel of a team. We'll be adding extensibility areas, such as a bot, messaging extension, and connectors in the future.
+
+![patient app 1](../media/Patient-app-1.png)
+![patient app 2](../media/Patient-app-2.png)
 
 ## DSTU2 interface specifications
 
