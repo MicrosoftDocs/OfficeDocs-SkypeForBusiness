@@ -3,7 +3,7 @@ title: Teams for Virtualized Desktop Infrastructure
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2018
+ms.date: 04/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
