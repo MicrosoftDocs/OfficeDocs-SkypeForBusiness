@@ -53,9 +53,9 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files for each user's chats.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-## Permissions strategy
+## Permission strategy
 
-SharePoint has an admin setting for what the permission strategy should be for the links that are created for a file. Teams is adopting that same strategy by reusing the settings that the admin sets for SharePoint. More details about the strategy are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+SharePoint has an admin setting for specifying the permission strategy for links that are created for a file. Teams is adopting that same strategy by reusing the settings that the admin sets for SharePoint. More details about the permission strategy are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
 
 More information
 ----------------
