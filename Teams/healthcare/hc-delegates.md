@@ -1,5 +1,5 @@
 ---
-title: "A user can explicitly set a delegate status and pick/assign another user as the delegate. The person who has been assigned as a delegate is notified that they have been nominated to be a delegate. When a chat conversation or compose mode is initiated with the target user who has a delegate assigned,  banner shows the sender clearly that messages should be sent to the assigned delegate instead. "
+title: Users can set a delegate status and pick/assign another user as the delegate  
 author: jambirk
 ms.author: jambirk 
 manager: serdars
@@ -11,15 +11,15 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.reviewer: vanido
-description: (may 19) A user can explicitly set a delegate status and pick/assign another user as the delegate. The person who has been assigned as a delegate is notified that they have been nominated to be a delegate. When a chat conversation or compose mode is initiated with the target user who has a delegate assigned,  banner shows the sender clearly that messages should be sent to the assigned delegate instead. 
+ms.reviewer: acolonna
+description: (may 19) A user can explicitly set a delegate status and pick/assign another user as the delegate. 
 ---
 
 # Set a delegate status
 
 A user can explicitly set a delegate status and pick/assign another user as the delegate. The person who has been assigned as a delegate is notified that they have been nominated to be a delegate. When a chat conversation or compose mode is initiated with the target user who has a delegate assigned,  banner shows the sender clearly that messages should be sent to the assigned delegate instead.
 
-This is a user-initiated process in the client, and Admin involvement is limited to enabling the feature in the O365/Teams tenant. Presumably allowing auto-forward this will be another setting in the Messaging policy screen.
+This is a user-initiated process in the client, and no Admin involvement is required. 
 
 ## Delegation overview
 
@@ -27,39 +27,33 @@ This is a user-initiated process in the client, and Admin involvement is limited
 
 *Usage example with setting delegates:* Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr. Lena Ehrle to cover for him while he is gone. He changes his status in Teams to do not disturb and sets Dr. Ehrle as a delegate, enabling auto-forward of messages. Others on the team realize the delegation happened as they're attempting to contact Dr. Piccio, and little to no confusion ensues with a patient's care.
 
-## [OPTIONAL] Planning for feature
+## Impact of co-existence modes on Status in the Teams client
 
-Some features would require careful pre-planning before deployment can begin. For those features, cover what planning tasks customers should complete.
+Admins should be aware that status notes and delegation will depend partly on a user’s co-existence mode. This matrix shows the possibilities:
+
+|Co-Existence Mode | Expected Behavior| 
+|---|---|
+|TeamsOnly |Users can set a note only from Teams. <br> User’s Teams note is visible in Teams & SfB. |
+|Islands | User’s note set in Teams visible only in Teams. <br> User’s note set in SfB visible only in SfB |
+|SfB* modes | Users can set a note only from SfB. <br> User’s SfB note is visible in SfB & Teams.  |
+|||
+
+A user can only set a note in Teams if their mode is TeamsOnly or Islands.  
+
+### Displaying notes set in Skype for Business
+  
+There is no visual indication that a note was set from Skype for Business. 
+ 
+Skype for Business doesn’t enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (…) at the end indicates truncation.
+  
+Skype for Business doesn’t support expiry times for notes. 
+
+Migration of notes from Skype for Business to Teams is not supported when a user is upgraded to TeamsOnly mode.
 
 ## Configure feature
 
-How do you configure this feature? Cover these points: 
-
-- Are there any prerequisites?
-
-- Is this feature per org or per user? 
-
-- Use PowerShell or UI?
-
-- Short instructions on how to turn on the feature for the organization or for individual users. 
-
-## Manage feature
-
-- Add subsections with basic management tasks that would be required or that we expect customer to perform. 
-
-### Management task 1
-
-### Management task 2
-
-## Security & Compliance
-
-List any security or compliance impact of this feature here. Cover the following:
-
-- Where is the data associated with this feature stored?
-
-- Include any other data implications such as GDPR compliance.
-
+This feature does not require configuration in Microsoft Teams admin center, or using PowerShell.
 
 ## Related topics
 
-[Get started with Teams for Healthcare organizations](teams-in-hc.md)
+[Coexistence with Skype for Business](../coexistence-chat-calls-presence.md)
