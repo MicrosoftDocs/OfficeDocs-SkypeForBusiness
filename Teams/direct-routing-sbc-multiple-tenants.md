@@ -113,7 +113,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 3. Click **Next**.
 4. In the example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because customers.adatum.biz is a subdomain for the already registered name. However, if you add an FQDN that has not been verified before, you will need to go through the process of verification. The process of verification is [described below](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Confirmation of a verfied domain name](media/direct-routing-3-sbc-verify-domain.png)
+    ![Confirmation of a verified domain name](media/direct-routing-3-sbc-verify-domain.png)
 
 5.	Click **Next**, and on the **Update DNS Settings** page, select **I’ll add the DNS records myself** and click **Next**.
 6.	On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
