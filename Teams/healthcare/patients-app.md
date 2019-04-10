@@ -17,64 +17,69 @@ description: Microsoft Teams Patient App EMR integration
 
 # Microsoft Teams Patient App EMR integration
 
-Microsoft Teams is developing features specific to the healthcare market. One of the scenarios we’re tackling as part of vertical focused effort is enabling care-coordination and specifically IDT (inter-disciplinary) or MDT (multi-disciplinary) teams to coordinate care for a set of high-risk patients. Microsoft Teams enables these physicians, clinicians, nurses and other staff to collaborate by: 
--	Being part of a single Team to work and collaborate on Office documents as well as have persistent conversations about different patients needing attention. 
--	Using channels with tabs as a mean to structure their work with additional help from Tabs to which they can pin information sources
--	Use channel meetings/meetups with the power of Teams Audio/Video/Screensharing/Recording and transcription to manage their daily MDT meetings
--	Using the Microsoft Teams Patient App to curate and run through a list of high-risk patients that must be monitored. 
+> [!NOTE]
+> - EMR or EHR? The [Get started with Teams for Healthcare](../expand-teams-across-your-org/healthcare/teams-in-hc.md#care-coordination) article uses EHR and this article uses EMR. 
 
-Below are some screenshots of the Patient App (for now this is a Tab app only and gets installed in the general channel of the team. In the future we will have other extensibility areas such as a bot, messaging extension, connectors and 
+Microsoft Teams is developing features specific to healthcare organizations. One of the scenarios we’re working on is care coordination, a solution to enable inter-disciplinary or multi-disciplinary teams to coordinate care for a set of high-risk patients. With Teams, physicians, clinicians, nurses, and other staff can collaborate by:
+
+- Being part of a single team to work and collaborate on Office documents and have persistent conversations about different patients needing attention
+- Using channels with tabs as a way to structure their work with additional help from tabs to which they can pin information sources
+- Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
+- Using the Microsoft Teams Patient App to curate and run through a list of high-risk patients that must be monitored.
+
+Here's some screen shots of the Patient App. Currently, it's added as a tab to the General channel of a team. We'll be adding extensibility areas, such as a bot, messaging extension, and connectors in the future.
 
 ![patient app 1](../media/Patient-app-1.png)
 ![patient app 2](../media/Patient-app-2.png)
 
-The goal of this document is to describe the as-is interface of the Microsoft Teams Patient App (which is a 1st party Microsoft Teams app. Click [here](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-overview) to learn more about Microsoft Teams Apps). The audience of this document is an interested EMR Integration/Interop Partner that will aim to partner with Microsoft Teams Healthcare Engineering and an interested Microsoft customer (a healthcare provider organization) to serve up the patient record data required for the functioning of the Patient app by integrating with the provider organization’s EMR system(s), transforming the data into the FHIR standard and integrating with the Patient app interface, thereby playing the role of a middleware interop partner. 
+This article describes the as-is interface of the Teams Patient App, a first-party app built by Microsoft. To learn more about Teams apps, see [App for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).
+
+This article is for you if you're an EMR integration or interop partner who is interested in partnering with Teams Healthcare Engineering and a Microsoft customer (a healthcare provider organization) as a middleware interop partner. In this role, you'll integrate with the healthcare provider organization's EMR systems to serve up the patient record data required for the Patient App, transform the data into the FHIR standard, and integrate with the Patient App interface.
+
+As a middleware interop partner, you'll learn about the requirements to integrate with the Patient App, including the following:
+
+- Functional and technical requirements of the integration interface
+- Expectations around user authentication
+- Expectations around performance and reliability
+- Expectations around FHIR resources to be supported for the Patient App
+- Process for integration and the expected engagement model
+- Future requirements or asks for the next iteration of the Patient App
 
 ![patient app 3](../media/Patient-app-3.png)
 
-This document will aim to educate the Middleware Partner on our requirements to integrate with the Patient App: 
-
-- Describe the functional and technical requirements of the integration interface
-- Expectations around User Authentication
-- Expectations around Performance and Reliability
-- Expectations around FHIR Resources to be supported for the Patient App
-- Describe the process for integration and the expected engagement model
-- Describe the future requirements or asks for the next iteration of the Patient App.
-
-
 ## DSTU2 interface specifications
 
-The FHIR Server will need to support POST Transactions using bundles for all resources listed below:
+The FHIR server must support POST transactions using bundles for the following resources:
 
-1. Patient
-2. Observation
-3. Condition
-4. Encounter
-5. Allergy Intolerance
-6. Coverage
-7. Medication Order
-8. Location
+- [Patient](#patient)
+- [Observation](#observation)
+- [Condition](#observation)
+- [Encounter](#encounter)
+- [Allergy intolerance](#allergyintolerance)
+- [Coverage](#coverage)
+- [Medication order](#allergyintolerance)
+- [Location](#location)
 
-Queries from the Patient App for more than 1 resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. See https://www.hl7.org/fhir/DSTU2/http.html#transaction for references and examples.
+Queries from the Patient App for more than one resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
 
-All the following FHIR resources should be accessible by direct resource reference. (e.g. /Patient/id)
+All the following FHIR resources should be accessible by direct resource reference. For example, /Patient/id.
 
-### Conformance Minimum required field set
+### Conformance minimum required field set
 
-See https://www.hl7.org/fhir/dstu2/conformance.html
+See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html).
 
 1. Rest
    1. Mode
    2. Interaction
    3. Resource: Type
    4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion - our code requires this to understand which version we should pivot to.
+2. FhirVersion (Our code requires this to understand which version we should pivot to.)
 
-###	Patient
+### Patient
 
-See https://www.hl7.org/fhir/DSTU2/Patient.html 
+See [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html). 
 
-Minimum required fields, subset of the [Argonaut patient profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) fields:
+These are the minimum required fields, a subset of the [Argonaut patient profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) fields:
 
 1. Name.Family
 2. Name.Given
@@ -82,56 +87,64 @@ Minimum required fields, subset of the [Argonaut patient profile](http://www.fhi
 4. BirthDate
 5. MRN (Identifier)
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
 
 1. Name.Use
 2. Name.Prefix
-3. CareProvider. This reference on the Patient resource should include the display field [**Patient_with_careProvider.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Patient_with_careProvider.saz?raw=true)
+3. CareProvider (This reference on the Patient resource should include the display field [**Patient_with_careProvider.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Patient_with_careProvider.saz?raw=true).)
 
 Resource search using POST method at /Patient/_search and the following parameters:
 
 1. id
-2. family:contains= (searches for all patients whose Family name contains the value)
-3. given:contains= \<substring>
-4. name:contains = \<substring>
-5. birthdate= (exact match)
-6. _count (max no. of results that should be returned) Note: The response should contain Total count of records returned as a result of the search, and _count will be used by the PatientsApp to limit the number of records returned. 
+2. family:contains=(searches for all patients whose family name contains the value.)
+3. given:contains=\<substring>
+4. name:contains=\<substring>
+5. birthdate=(exact match)
+6. _count (maximum number of results that should be returned)<br>The response should contain the total count of records returned as a result of the search, and _count will be used by the PatientsApp to limit the number of records returned.
 7. identifier=\<mrn>
 
-Note: The goal is to be able to search/filter for a patient by ID (the Resource ID which every Resource in FHIR has), MRN (the actual identifier for the Patient which clinical staff would know, we understand this is MRN based on the type of identifier inside the identifier resource in FHIR), name and birthdate. See examples of a sample call using parameters above: [**PatientResource.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/PatientResource.saz?raw=true)
+The goal is to be able to search and filter for a patient by the following:
+
+- ID: This is the resource ID that every resource in FHIR has.
+- MRN: This is the actual identifier for the patient that clinical staff would know. We understand this MRN is based on the type of identifier inside the identifier resource in FHIR
+- Name
+- Birthdate
+
+For an example of the call, see [PatientResource.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/PatientResource.saz?raw=true).
 
 ### Observation
 
-See https://www.hl7.org/fhir/DSTU2/Observation.html
+See [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html).
 
-Minimum required fields (subset of the Argonaut vital signs profile)
+These are the minimum required fields, a subset of the Argonaut vital signs profile:
 
  1. Effective (date time or period)
  2. Code.Coding.Code
  3. ValueQuantity.Value
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
 
  1.	Code.Coding.Display
  2. ValueQuantity.Unit
 
-If using component observations, same logic applies for each component observation.
+If using component observations, the same logic applies for each component observation.
 
 Resource search using GET method and the following parameters:
 
 1. patient=\<patient id\>
 2. sort:desc=\<field ex. date\>
-3. Note: The Goal is to be able to retrieve the latest Vital signs for a patient: [**VitalSigns.DSTU.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/VitalSigns.DSTU.saz?raw=true)
+
+The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/VitalSigns.DSTU.saz?raw=true).
 
 ### Condition
 
-See https://www.hl7.org/fhir/DSTU2/Condition.html 
+See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html). 
 
-Minimum required fields, subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):
+These are the minimum required fields, a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):
 
 1. Code.Coding[0].Display
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following field(s):
 
 1. Date Recorded
 2. Severity
@@ -140,13 +153,14 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _count=\<max results>
-3. Note: Here is an example for the call: [**Condition.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Condition.saz?raw=true)
+
+For an example of the call, see [Condition.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Condition.saz?raw=true).
 
 ### Encounter
 
-See https://www.hl7.org/fhir/DSTU2/Encounter.html
+See [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm).
 
-Minimum required fields (subset of the US Core Encounter profile “must have” fields)
+These are the minimum required fields, a subset of the US Core Encounter profile “must have” fields:
 
 1. Status
 2. Type[0].Coding[0].Display
@@ -161,19 +175,20 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
-4. Note: The goal is to be able to retrieve the patient’ last known location. Each encounter references a location resource. The reference shall also include the location’s display field. See call example: [**Encounter.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Encounter.saz?raw=true)
+
+The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. For an example of the call, see [Encounter.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Encounter.saz?raw=true).
 
 ### AllergyIntolerance
 
-See https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html
+See [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html).
 
-Minimum required fields (subset of the Argonaut AllergyIntolerance profile)
+These are the minimum required fields, a subset of the Argonaut AllergyIntolerance profile:
 
 1. Code.Text
 2. Code.Coding[0].Display
 3. Status
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
 
 1. RecordedDate
 2. Note.Text
@@ -184,20 +199,21 @@ In addition to the Argonaut fields, for a great user experience we can also read
 Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
-2. Example of call: [**AllergyIntolerance.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/AllergyIntolerance.saz?raw=true)
+
+For an example of the call, see [AllergyIntolerance.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/AllergyIntolerance.saz?raw=true).
 
 ### Medication Order
 
-https://www.hl7.org/fhir/DSTU2/MedicationOrder.html
+See [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html).
 
-Minimum required fields (subset of the Argonaut MedicationOrder profile)
+These are the minimum required fields, a subset of the Argonaut MedicationOrder profile:
 
 1. DateWritten
 2. Prescriber.Display
 3. Medication.Display (if reference)
 4. Medication.Text (if concept)
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
 
 1. DateEnded
 2. DosageInstruction.Text
@@ -207,59 +223,62 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _count=\<max results>
-3. Example of calls (Fiddler trace): [**MedicationOrder.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/MedicationOrder.saz?raw=true)
+
+For an example of the call (Fiddle trace), see [MedicationOrder.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/MedicationOrder.saz?raw=true)
 
 ### Coverage
 
-See https://www.hl7.org/fhir/DSTU2/Coverage.html
+See [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html). 
 
-Minimum required field set (this is not covered by either US Core or Argonaut profiles)
+These are the minimum required fields, not covered by either US Core or Argonaut profiles:
 
 1. Payor
 
 Resource search using GET method and the following parameters: 
 
-1. Patient = \<patient id>
-2. Example of Call: [**Coverage.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Coverage.saz?raw=true)
+1. patient=\<patient id>
+
+For an example of the call, see [Coverage.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Coverage.saz?raw=true).
 
 ### Location
 
-See https://www.hl7.org/fhir/DSTU2/Location.html
+See [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html).
 
-Note: This resource is only being used as a reference on the Encounter resource (see [Encounter](#encounter) above)
+This resource is only being used as a reference on the [Encounter](#encounter) resource.
 
 ## STU3 interface
 
-The FHIR Server will need to support POST Transactions using bundles for all resources listed below:
+The FHIR server must support POST transactions using bundles for the following resources:
 
-1. Patient
-2. Observation
-3. Condition
-4. Encounter
-5. Allergy Intolerance
-6. Coverage
-7. Medication Statement (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
-8. Location (the information needed from this resource can be included in Encounter)
+- [Patient](#patient-1)
+- [Observation](#observation-1)
+- [Condition](#condition-1)
+- [Encounter](#encounter-1)
+- [Allergy Intolerance](#allergyintolerance-1)
+- [Coverage](#coverage-1)
+- [Medication Statement](#medication-request) (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
+- Location (the information needed from this resource can be included in Encounter)
  
-Queries from the Patient App for more than 1 resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. See https://www.hl7.org/fhir/STU3/http.html#transaction for references and examples.
+Queries from the Patient App for more than one resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction).
 
 ### Capability Statement (STU3)
 
-See https://www.hl7.org/fhir/stu3/capabilitystatement.html
+See [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html).
 
-Minimum required field set:
+These are the minimum required fields:
+
 1. Rest
    1. Mode
    2. Interaction
    3. Resource: Type
    4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion - our code requires this to understand which version we should pivot to.
+2. FhirVersion (Our code requires this to understand which version we should pivot to.)
 
 ### Patient
 
-see http://hl7.org/fhir/stu3/patient.html
+See [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html).
 
-Minimum required fields (subset of the Argonaut patient profile fields)
+Here are the minimum required fields, a subset of the Argonaut patient profile fields:
 
 1. Name.Given
 2. Name.Family
@@ -267,7 +286,7 @@ Minimum required fields (subset of the Argonaut patient profile fields)
 4. BirthDate
 5. MRN (Identifier)
 
-In addition to the [Argonaut fields](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), for a great user experience we can also read the following field(s):
+In addition to the [Argonaut fields](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), for a great user experience, we can also read the following field(s):
 
 1. Name.Use
 2. Name.Prefix
@@ -276,28 +295,33 @@ In addition to the [Argonaut fields](http://www.fhir.org/guides/argonaut/r2/Stru
 Resource search using POST method at /Patient/_search and the following parameters:
 
 1. id
-2. family= (searches for all patients whose Family name contains the value)
-3. given= \<substring>
-4. birthdate= (exact match)
+2. family=(searches for all patients whose family name contains the value)
+3. given=\<substring>
+4. birthdate=(exact match)
 5. gender=(values being one of the administrative-gender) 
-6. _count (max no. of results that should be returned) Note: The response should contain Total count of records returned as a result of the search, and _count will be used by the PatientsApp to limit the number of records returned. 
+6. _count (maximum number of results that should be returned)<br> The response should contain the total count of records returned as a result of the search and _count will be used by the PatientsApp to limit the number of records returned. 
 7. identifier=\<mrn>
 
-    Note: The goal is to be able to search/filter for a patient by ID (the Resource ID which every Resource in FHIR has), MRN (the actual identifier for the Patient which clinical staff would know, we understand this is MRN based on the type of identifier inside the identifier resource in FHIR), name and birthdate.
+The goal is to be able to search and filter for a patient by the following:
 
-GeneralPractitioner reference should be included in the Patient resource (display field only) [**Patient.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Patient.saz?raw=true)
+- ID: This is the resource ID that every resource in FHIR has.
+- MRN: This is the actual identifier for the patient that clinical staff would know. We understand this MRN is based on the type of identifier inside the identifier resource in FHIR
+- Name
+- Birthdate
+
+The GeneralPractitioner reference should be included in the Patient resource (display field only), [Patient.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Patient.saz?raw=true).
  
 ### Observation
 
-see https://www.hl7.org/fhir/stu3/observation.html 
+See [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html). 
 
-Minimum required fields (subset of the [Argonaut Vital-Signs profile](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html))
+These are the minimum required fields, a subset of the [Argonaut Vital-Signs profile](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
 
 1. Effective (date time or period)
 2. Code.Coding.Code
 3. ValueQuantity.Value
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
 
 1. Code.Coding.Display
 2. ValueQuantity.Unit
@@ -307,17 +331,18 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _sort=-date
 3. category (we will query for “category=vital-signs”) to retrieve the list of vital signs. 
-[**Observation.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Observation.saz?raw=true)
+
+For an example of the call, see [Observation.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Observation.saz?raw=true).
 
 ### Condition
 
-See http://hl7.org/fhir/stu3/condition.html 
+See [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html).
 
-Minimum required fields (subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html))
+Here's the minimum required fields, a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
 
 1. Code.Coding[0].Display
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
 
 1. AssertedDate
 2. Severity
@@ -327,19 +352,18 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-[**Condition.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Condition.saz?raw=true)
-
+For an example of the call, see [Condition.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Condition.saz?raw=true).
 
 ### Encounter
 
-see http://hl7.org/fhir/stu3/encounter.html 
+See [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html).
 
-Minimum required fields (subset of the [US Core Encounter profile](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields)
+These are the minimum required fields, a subset of the [US Core Encounter profile](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields).
 
 1. Status
 2. Type[0].Coding[0].Display
 
-In addition, the following fields from US Core Encounter profile’s “must support” fields
+In addition, the following fields from US Core Encounter profile’s “must support” fields:
 
 1. Period.Start
 2. Location[0].Location.Display
@@ -349,22 +373,22 @@ Resource search using GET method and the following parameters:
 1. patient=<patient id>
 2. _sort:desc=<field ex. date>
 3. _count=<max results>
-4. 	Note: The goal is to be able to retrieve the patient’ last known location. Each encounter references a location resource. The reference shall also include the location’s display field. 
 
-\* We do not have a sample fiddler trace for Encounter, as it is not available on any open sandbox. However, it should work in a fashion similar to the other resources.
+The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
 
+\* We don't have a sample Fiddler trace for Encounter, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
 
 ### AllergyIntolerance
 
-see http://hl7.org/fhir/stu3/allergyintolerance.html 
+See [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html). 
 
-Minimum required fields (subset of the [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) profile.)
+These are the minimum required fields, a subset of the [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) profile:
 
 1. Code.Text
 2. Code.Coding[0].Display
-3. ClinicalStatus/VerificationStatus (we’ll read both)
+3. ClinicalStatus/VerificationStatus (we read both)
 
-In addition to the Argonaut fields, for a great user experience we can also read the following field(s):
+In addition to the Argonaut fields, for a great user experience, we can also read the following field:
 
 1. AssertedDate
 2. Note.Text
@@ -376,20 +400,20 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id> 
 
-[AllergyIntolerance.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/AllergyIntolerance.saz?raw=true)
+For an example of the call, see [AllergyIntolerance.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/AllergyIntolerance.saz?raw=true).
 
 ### Medication Request
 
-see https://www.hl7.org/fhir/medicationrequest.html 
+See [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html). 
 
-Minimum required fields (subset of the [US Core Medication Request profile](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html))
+These are the minimum required fields, a subset of the [US Core Medication Request profile](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
 
 1. Medication.Display (if Reference)
 2. Medication.Text (if CodableConcept)
 3. AuthoredOn
 4. Requester.Agent.Display
 
-In addition to the US Core fields, for a great user experience we can also read the following field(s):
+In addition to the US Core fields, for a great user experience, we can also read the following fields:
 
 1. DosageInstruction[..].Text
 2. Text
@@ -401,9 +425,9 @@ Resource search using GET method and the following parameters:
 
 ### Coverage
 
-See http://hl7.org/fhir/stu3/coverage.html 
+See [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html). 
 
-Minimum required field set (this is not covered by either US Core or Argonaut profiles)
+These are the minimum required fields, not covered by either US Core or Argonaut profiles:
 
 1. Grouping, at least one element with
     1. GroupDisplay
@@ -415,10 +439,9 @@ Resource search using GET method and the following parameters:
 
 1.	Patient = \<patient id>
 
-\* We do not have a sample fiddler trace for Coverage, as it is not available on any open sandbox. However, it should work in a fashion similar to the other resources.
+\* We don't have a sample Fiddler trace for Coverage, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
 
-
-## Sequence Diagram
+## Sequence diagram
 
 ![patient app 4](../media/Patient-app-4.png)
 
