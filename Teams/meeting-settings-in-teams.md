@@ -93,8 +93,8 @@ Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
 |Application/Screen Sharing| 50,040–50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* The port ranges you assign can not overlap and must be adjacent to each other.
+\* The port ranges you assign cannot overlap and must be adjacent to each other.
 
-Setting port ranges for different traffic types is only one step in handling real time media, see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail. If you enable or change settings in Teams Admin Center, you will need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and internal network devices to fully implement the changes to QoS in Teams.
+Setting port ranges for different traffic types is only one step in handling real time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail. If you enable or change settings in the Microsoft Teams admin center, you will need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and internal network devices to fully implement the changes to QoS in Teams.
 
 After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.
