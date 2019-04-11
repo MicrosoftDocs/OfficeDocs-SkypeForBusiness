@@ -3,7 +3,7 @@ title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
@@ -78,9 +78,9 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 <a name="bkgeneral"> </a>
 ### General
-   - **Allow Meet Now** Turning this on will allow the Meet Now feature to be available to users that join meetings.
+   - **Allow Meet now in channels** Turning this on will allow the Meet Now feature to be available to users who join meetings.
    - **Allow the Outlook add-in** Turning this on will let users assigned to the policy have the Outlook add-in available when they schedule meetings.
-   - **Allow Channel meeting scheduling** Turning this on will allow Channel Meeting scheduling.
+   - **Allow channel meeting scheduling** Turning this on will allow Channel Meeting scheduling.
    - **Allow scheduling private meetings** Turning this on will allow users that join a meeting to schedule private meetings.
 
 <a name="bkaudioandvideo"> </a>
@@ -104,8 +104,13 @@ When you select an existing policy on the **Meeting policies** page or select **
 <a name="bkparticipantsandguests"> </a>
 
 ### Participants & guests
-   - **Allow people that dial in to start a meeting** You can turn on or off if you want to let people that haven't been authenticated because they've dialed in using their phone to start a meeting.
-   - **Automatically admit people** Determines what types of participants will automatically be added to meetings organized by this user. Set this to "Everyone in organization" if you would like meetings to place every external user in the lobby but allow all users in the company to join the meeting immediately. Set this to "Everyone" if you'd like to admit anonymous users by default. Set this to "Everyone in your organization and federated organizations" if you would like meetings to allow federated users to join like your company's users, but place all other external users in a lobby.
+   - **Allow people that dial in to start a meeting** You can turn on or off if you want to let people who haven't been authenticated because they dialed in using their phone to start a meeting.
+   - **Automatically admit people** Determines what types of participants will automatically be added to meetings organized by this user. Set this to **Everyone in your organization** if you would like meetings to place every external user in the lobby but allow all users in the company to join the meeting immediately. Set this to **Everyone** if you'd like to admit anonymous users by default. Set this to **Everyone in your organization and federated organizations** if you would like meetings to allow federated users to join like your company's users, but place all other external users in a lobby.
+   - **Allow dial-in users to bypass the lobby** You can turn on or off if you want to let people who dialed in using their phone to bypass the lobby and join the meeting.
+   - **Allow organizers to override lobby settings** Turn this setting on to let meeting organizers disregard the lobby settings to admit users to meetings.
+   - **Allow Meet now in private meeetings** Turn this setting on to allow meeting attendees to meet privately via chat before the meeting begins. 
+   - **Enable live captions** Enable this setting to display captions in supported languages during a meeting. 
+   - **Allow chat in meetings** Enable this setting to permit chats during a meeting. This is helpful if users have questions or want to insert a hyperlink or note during a discussion, but they don't want to interrupt the conversation.
 
 [Full article](meeting-policies-in-teams.md)
 
