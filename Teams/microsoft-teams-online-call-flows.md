@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Online Call Flows
+title: Microsoft Teams call flows
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,41 +18,41 @@ appliesto:
 description: Describes how Teams uses Office 365 flows in various topologies.
 ---
 
-# Microsoft Teams Online Call Flows
+# Microsoft Teams call flows
 
 > [!Tip]
 > Watch the following session to learn how Teams leverages your network and how to plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking)
 
 ## Overview
-This document describes how Teams uses Office 365 call flows in various topologies. In addition, it describes unique Teams flows that are used for peer-to-peer media communication. The document describes these flows, their purpose, and their origin/termination networks. For example, assume the following:
+This article describes how Teams uses Office 365 call flows in various topologies. In addition, it describes unique Teams flows that are used for peer-to-peer media communication. The document describes these flows, their purpose, and their origin/termination networks. For purposes of this article, assume the following:
 
-- Flow X is used by the Office 365 client on premises to communicate with the Office 365 service in the cloud, originated from the customer network, and terminated by an endpoint in Office 365 cloud.
+- Flow X is used by the on-premises Office 365 client to communicate with the Office 365 service in the cloud. It originates from the customer network, and it terminates as an endpoint in Office 365 cloud.
 
-- Flow Y is used by the Office 365 client on premises to communicate with a service on the Internet that Office 365 has dependency on, originated from the customer network, and terminated by an endpoint on the Internet.
+- Flow Y is used by the on-premises Office 365 client to communicate with a service on the Internet that Office 365 has a dependency on. It originates from the customer network, and it terminats as an endpoint on the Internet.
 
-The document has three main sections:
+The article contains the following sections:
 
-- It provides background information, such as networks (that Office 365 flows may traverse), type of traffic, connectivity guidance from the customer network to Office 365 service endpoints, interoperability with third-party components and principals that are used by Teams to select media flows.
-- 
-- It illustrates the usage of these flows in various topologies. For each topology, it enumerates all supported flows and illustrates how these flows are used via several use cases. For each use case, it describes the sequence and selection of flows via a flow diagram. 
+- **Background** - Provides background information, such as networks (that Office 365 flows may traverse), type of traffic, connectivity guidance from the customer network to Office 365 service endpoints, interoperability with third-party components, and principals that are used by Teams to select media flows.
 
-- It describes how these flows are used when Express Route is deployed for optimization, illustrated via a simple topology.
+- **Call flows in various topologies** - Illustrates the usage of call flows in various topologies. For each topology, the section enumerates all supported flows and illustrates how these flows are used via several use cases. For each use case, it describes the sequence and selection of flows via a flow diagram. 
+
+- **Teams with Express Route optimization** - Describes how these flows are used when Express Route is deployed for optimization, illustrated via a simple topology.
 
 ## Background
-### Network Segments
-**Customer Network**: This is the network segment that you control and manage. This includes all customer connections within customer offices, whether wired or wireless, between office buildings, to on-premises datacenters, and your connections to Internet providers, Express Route, or any other private peering. 
+### Network segments
+**Customer network**: This is the network segment that you control and manage. This includes all customer connections within customer offices, whether wired or wireless, between office buildings, to on-premises datacenters, and your connections to Internet providers, Express Route, or any other private peering. 
 
 Typically, a customer network has several network perimeters with firewalls and/or proxy servers, which enforce your organization's security policies, and that only allow certain network traffic that you have set up and configured. Because you manage this network, you have direct control over the performance of the network, and it is highly recommended that you complete network assessments to validate performance both within sites in your network and from your network to the Office 365 network. Skype for Business on-premises deployment and Microsoft Direct Routing to connect with PSTN through your network are optional.
 
-**Internet**: This is the network segment that is part of your overall network that will be used by users who are connecting to Office 365 from outside of the Customer Network. It is also used by some traffic from the Customer Network to Office 365. 
+**Internet**: This is the network segment that is part of your overall network that will be used by users who are connecting to Office 365 from outside of the customer network. It is also used by some traffic from the customer network to Office 365. 
 
-**Visited/Guest private Network**: This is the network segment outside your Customer Network, but not in the public Internet, that your users and/or their guests may visit. For example, home private network or an Enterprise private Network, that does not deploy Teams, where your users and/or their customers that interact with Teams services, may reside.
+**Visited/Guest private network**: This is the network segment outside your customer network, but not in the public Internet, that your users and/or their guests may visit. For example, home private network or an Enterprise private Network, that does not deploy Teams, where your users and/or their customers that interact with Teams services, may reside.
 
 >**Note**: Connectivity to Office 365 is also applicable to these networks.
 
-**Office 365**: This is the network segment that supports Office 365 services. It is distributed worldwide with edges in proximity to Customer Network in most locations. Functions mentioned in this document include Transport Relay, conferencing server, and Media Processor. 
+**Office 365**: This is the network segment that supports Office 365 services. It is distributed worldwide with edges in proximity to the customer network in most locations. Functions mentioned in this document include Transport Relay, conferencing server, and Media Processor. 
 
-**Express Route (Optional)**: This is the network segment that is part of your overall network that will give you a dedicated, private connection to the Office 365 network.
+**Express Route (optional)**: This is the network segment that is part of your overall network that will give you a dedicated, private connection to the Office 365 network.
 
 ### Types of traffic
 
@@ -66,10 +66,10 @@ Teams service requires [connectivity to the Internet](https://support.office.com
 
 Teams media flows connectivity is implemented via standard IETF ICE (Interactive Connectivity Establishment) procedures.
 
-### Interoperability Restrictions
+### Interoperability restrictions
 **Third party media relays**: A Teams media flow (i.e., one of the media endpoints is Teams) may traverse only Teams or Skype for Business native media relays. Interoperability with a third party media relay is not supported. (Note: A third party SBC on the boundary with PSTN MUST terminate RTP/RTCP stream, secured via SRTP, and not relay it to the next hop.)
 
-**Third party SIP Proxy Servers**: A Teams signaling SIP dialog with a third party SBC and/or Gateway may traverse Teams or Skype for Business native SIP proxies. Interoperability with a third party SIP Proxy is not supported.
+**Third party SIP Proxy servers**: A Teams signaling SIP dialog with a third party SBC and/or Gateway may traverse Teams or Skype for Business native SIP proxies. Interoperability with a third party SIP Proxy is not supported.
 
 **Third party B2BUA (i.e., SBC)**: A Teams media flow from/to PSTN is terminated by a third party SBC. However, interoperability with a third party SBC within Teams network (i.e., third party SBC mediates two Teams/Skype For Business endpoints) is not supported.
 
@@ -84,9 +84,9 @@ Teams media flows connectivity is implemented via standard IETF ICE (Interactive
 ### Principles
 There are four general principles that help you understand call flows for Microsoft Teams:
  
-1.	A Microsoft Teams conference is hosted by Office 365 cloud in the same region where the first participant joined. (Note: If there will be exceptions to this rule in some topologies, then they will be described in this document, illustrated by an appropriate call flow.)
+1.	A Microsoft Teams conference is hosted by Office 365 in the same region where the first participant joined. (Note: If there will be exceptions to this rule in some topologies, then they will be described in this document, illustrated by an appropriate call flow.)
 
-2.	A Teams media endpoint (MP) in Office 365 cloud is used based on media processing needs and not based on call type. (For example, a point to point call may use a media endpoint in the cloud to process media for transcription and/or recording, while a conference with two participants may not use any media endpoint in the cloud.) However, most conferences will use an MP for mixing and routing purposes, allocated where the conference is hosted. The media traffic sent from a client to the MP may be routed directly or use a Transport Relay, in Office 365 Cloud, if required due to Customer Network firewall restrictions. 
+2.	A Teams media endpoint (MP) in Office 365 is used based on media processing needs and not based on call type. (For example, a point to point call may use a media endpoint in the cloud to process media for transcription and/or recording, while a conference with two participants may not use any media endpoint in the cloud.) However, most conferences will use an MP for mixing and routing purposes, allocated where the conference is hosted. The media traffic sent from a client to the MP may be routed directly or use a Transport Relay, in Office 365, if required due to customer network firewall restrictions. 
 
 3.	Media traffic for peer-to-peer calls take the most direct route that is available, assuming that the call doesn't mandate an MP in the cloud (see #2 above). The preferred route is direct to the remote peer (client), but if that route isn't available, then one or more Transport Relays will relay traffic. It is recommended that media traffic shall not transverse servers such as packet shapers, VPN servers, etc., since this will impact the media quality.
 
@@ -94,38 +94,38 @@ There are four general principles that help you understand call flows for Micros
 
 To learn more about the details on the media path that is chosen, see https://www.youtube.com/watch?v=1tmHMIlAQdo.
 
-## Call Flows in Various Topologies
-### Teams Online ("pure") Topology
-This topology is used by customers that leverage Teams services from the cloud without deploying any on-premises server, such as Skype for Business Server, or Microsoft Direct Routing. In addition, the interface to Office 365 is done via the Internet without Azure Express Route. 
+## Call flows in various topologies
+### Teams online topology
+This topology is used by customers that leverage Teams services from the cloud without any on-premises deployment, such as Skype for Business Server or Phone System Direct Routing. In addition, the interface to Office 365 is done via the Internet without Azure Express Route. 
 
 [![Microsoft Teams Online Call Flows Figure 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
-*Figure 1 - Teams Online ('pure') Topology*
+*Figure 1 - Teams online topology*
 
 >**Notes**:
 >- The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters. In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.
 >- Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user".
 
-- Optional Skype for Business on premises deployment is described in this document in the section **Teams Online Hybrid Topology**
-- Optional Direct Routing for PSTN is described in this document in the section **Teams Online with Direct Routing Topology**
-- Optional Express Route is described in this document in the section **Teams w/ Express Route optimization**
+- Optional Skype for Business on premises deployment is described in this document in the section **Teams  hybrid topology**
+- Optional Direct Routing for PSTN is described in this document in the section **Teams with Direct Routing topology**
+- Optional Express Route is described in this document in the section **Teams with Express Route optimization**
 
-**Flows Descriptions**:
-- **Flow 2** – Represents a flow initiated by a user on Customer Network to the Internet as a part of his Teams experience. Examples of these flows are DNS and peer-to-peer media.
-- **Flow 2'** – Represents a flow initiated by a remote mobile Teams user, which VPN to Customer Network. 
+**Flow descriptions**:
+- **Flow 2** – Represents a flow initiated by a user on the customer network to the Internet as a part of his Teams experience. Examples of these flows are DNS and peer-to-peer media.
+- **Flow 2'** – Represents a flow initiated by a remote mobile Teams user, with VPN to the customer network. 
 - **Flow 3** – Represents a flow initiated by a remote mobile Teams user to Office 365/Teams endpoints. 
-- **Flow 4** – Represents a flow initiated by a user on the Customer Network to Office 365/Teams endpoints.
-- **Flow 5** – Represents a peer-to-peer media flow between a Teams user and another Teams or Skype for Business user within the Customer Network.
+- **Flow 4** – Represents a flow initiated by a user on the customer network to Office 365/Teams endpoints.
+- **Flow 5** – Represents a peer-to-peer media flow between a Teams user and another Teams or Skype for Business user within the customer network.
 - **Flow 6** – Represents a peer-to-peer media flow between a remote mobile Teams user and another remote mobile Teams or Skype for Business user, over the Internet.
 
-#### Use Case: One-to-one
+#### Use case: One-to-one
 One-to-one calls use a common model in which the caller will obtain a set of candidates consisting of IP addresses/ports--including local, relay, and reflexive (public IP address of client as seen by the relay) candidates. The caller sends these candidates to the called party; the called party also obtains a similar set of candidates and sends them to the caller. STUN connectivity check messages are used to find which caller/called party media paths work, and the best working path is selected. Media (i.e., RTP/RTCP packets secured via SRTP) are then sent using the selected candidate pair. The Transport relay is deployed as part of Office 365.
 
-If the local IP address/port candidates or the reflexive candidates have connectivity, then the direct path between the clients (or via a NAT) will be selected for media. If the clients are both on the Customer Network, then the direct path should be selected. This requires direct UDP connectivity within the Customer Network. If the clients are both nomadic cloud users, then depending on the NAT/firewall, media may use direct connectivity.
+If the local IP address/port candidates or the reflexive candidates have connectivity, then the direct path between the clients (or via a NAT) will be selected for media. If the clients are both on the customer network, then the direct path should be selected. This requires direct UDP connectivity within the customer network. If the clients are both nomadic cloud users, then depending on the NAT/firewall, media may use direct connectivity.
 
-If one client is internal on the Customer Network and one client is external (e.g., mobile cloud user), then it is unlikely that direct connectivity between the local or reflexive candidates is working. In this case, an option is to use one of the Transport Relay candidates from either client (e.g., the internal client obtained a relay candidate from the Transport relay in Office 365 Cloud, the external client needs to be able to send STUN/RTP/RTCP packets to the transport relay). Another option is the internal client sends to the relay candidate obtained by the mobile cloud client. Note that although UDP connectivity for media is highly recommended, TCP is supported.
+If one client is internal on the customer network and one client is external (e.g., mobile cloud user), then it is unlikely that direct connectivity between the local or reflexive candidates is working. In this case, an option is to use one of the Transport Relay candidates from either client (e.g., the internal client obtained a relay candidate from the Transport relay in Office 365 Cloud, the external client needs to be able to send STUN/RTP/RTCP packets to the transport relay). Another option is the internal client sends to the relay candidate obtained by the mobile cloud client. Note that although UDP connectivity for media is highly recommended, TCP is supported.
 
-**High Level Steps**:
+**High-level steps**:
 1. Teams User A resolves URL domain name (DNS) via flow2
 2. Teams User A allocates a media Relay port on Teams Transport Relay via flow 4
 3. Teams User A sends "invite" with ICE candidates via flow 4 to Office 365
@@ -135,32 +135,32 @@ If one client is internal on the Customer Network and one client is external (e.
 7. Teams User A and Teams User B invoke ICE connectivity tests and the best available media path is selected (see diagrams below for various use cases)
 8. Teams Users send telemetry to Office 365 via flow 4
 
-**Within Customer Network:**
+**Within customer network:**
 
 [![Microsoft Teams Online Call Flows Figure 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
-*Figure 2 - Within Customer Network*
+*Figure 2 - Within customer network*
  
 In step 7, "peer to peer" media flow 5 is selected 
->**Note**: Media is bidirectional. The direction of flow 5 indicates that one side initiates the communication from connectivity perspective, consistent with all the flows in this document. In this case, it doesn't matter which direction is used because both endpoints are within the Customer Network.
+>**Note**: Media is bidirectional. The direction of flow 5 indicates that one side initiates the communication from connectivity perspective, consistent with all the flows in this document. In this case, it doesn't matter which direction is used because both endpoints are within the customer network.
 
-**Customer Network to External User (media relayed by Teams Transport Relay):**
+**Customer network to external user (media relayed by Teams Transport Relay):**
 
 [![Microsoft Teams Online Call Flows Figure 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
-*Figure 3 - Customer Network to External User (media relayed by Teams Transport Relay)*
+*Figure 3 - Customer network to External User (media relayed by Teams Transport Relay)*
  
-In step 7, flow 4, from Customer Network to Office 365, and flow 3, from remote mobile Teams user to Office 365, are selected. These flows are relayed by Teams Transport Relay within Office 365.
+In step 7, flow 4, from customer network to Office 365, and flow 3, from remote mobile Teams user to Office 365, are selected. These flows are relayed by Teams Transport Relay within Office 365.
 
 >**Note**: Media is bidirectional, where direction indicates which side initiates the communication from connectivity perspective. In this case, these flows are used for signaling and media, via different transport protocols and addresses.
 
-**Customer Network to External User (direct media):**
+**Customer network to external user (direct media):**
 
 [![Microsoft Teams Online Call Flows Figure 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
-*Figure 4 - Customer Network to External User (direct media)*
+*Figure 4 - Customer network to external user (direct media)*
  
-In step 7, flow 2, from Customer Network to Internet (client's peer), is selected.
+In step 7, flow 2, from customer network to Internet (client's peer), is selected.
 >**Notes**: 
 >- Direct media with remote mobile user (i.e., not relayed through Office 365 cloud) is optional. In other words, customer may block this path and by doing so, enforce a media path through Transport Relay in Office 365 cloud.
 >- Media is bidirectional. The direction of flow 2 to remote mobile user indicates that one side initiates the communication from a connectivity perspective. 
@@ -171,25 +171,25 @@ In step 7, flow 2, from Customer Network to Internet (client's peer), is selecte
 
 *Figure 5 - VPN User to Internal User (media relayed by Teams Transport Relay)*
  
-Signaling VPN to Customer Network via flow 2' and flow 4 to Office 365. However, media "bypass" VPN and routed via flows 3 and 4 through Teams media relay in Office 365 cloud.
+Signaling VPN to customer network via flow 2' and flow 4 to Office 365. However, media "bypass" VPN and routed via flows 3 and 4 through Teams media relay in Office 365 cloud.
 
 **VPN User to Internal User (direct media)**
 
 [![Microsoft Teams Online Call Flows Figure 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
-*Figure 6 - VPN User to Internal User (direct media)*
+*Figure 6 - VPN user to internal user (direct media)*
 
-Signaling VPN to Customer Network via flow 2' to Customer Network and flow 4 to Office 365. However, media "bypass" VPN and routed via flow 2 from Customer Network to the internet.
+Signaling VPN to customer network via flow 2' to customer network and flow 4 to Office 365. However, media "bypass" VPN and routed via flow 2 from customer network to the Internet.
 
 >**Note**: Media is bidirectional. The direction of flow 2 to remote mobile user indicates that one side initiates the communication from a connectivity perspective.
 
-**VPN User to External User (direct media)**
+**VPN user to external user (direct media)**
 
-[![Microsoft Teams Online Call Flows Figure 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
+[![Microsoft Teams call flows Figure 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
-*Figure 7 - VPN User to External User (direct media)*
+*Figure 7 - VPN user to external user (direct media)*
 
-Signaling VPN to Customer Network via flow 2' to Customer Network and flow 4 to Office 365. However, media "bypass" VPN and routed via flow 6.
+Signaling VPN to the customer network via flow 2' to the customer network and flow 4 to Office 365. However, media "bypass" VPN and routed via flow 6.
 
 >**Note**: Media is bidirectional. The direction of flow 6 to remote mobile user indicates that one side initiates the communication from a connectivity perspective.
 
@@ -202,7 +202,7 @@ Office 365 has a Phone System that allows placing and receiving calls from the P
 
 #### Use Case: Teams Meeting
 
-The audio/video/screen sharing (VBSS) conferencing server is part of Office 365. It has a public IP address that must be reachable from the Customer Network and must be reachable from a Nomadic Cloud client. Each client/endpoint needs to be able to connect to the conferencing server.
+The audio/video/screen sharing (VBSS) conferencing server is part of Office 365. It has a public IP address that must be reachable from the customer network and must be reachable from a Nomadic Cloud client. Each client/endpoint needs to be able to connect to the conferencing server.
 
 Internal clients will obtain local, reflexive, and relay candidates in the same manner as described for one-to-one calls. The clients will send these candidates to the conference server in an invite. The conferencing server does not use a relay since it has a publicly reachable IP address, so it responds with its local IP address candidate. The client and conferencing server will check connectivity in the same manner described for one-to-one calls. 
 
@@ -229,7 +229,7 @@ Internal clients will obtain local, reflexive, and relay candidates in the same 
 
 Signaling between Teams and Skype for Business is "bridged" by a Gateway in Office 365.
 
-Media in this case is relayed by Teams Transport Relay in Office 365 to Customer Network and remote Skype for Business client via flow 4.
+Media in this case is relayed by Teams Transport Relay in Office 365 to the customer network and remote Skype for Business client via flow 4.
 
 **Media relayed by Skype for Business Media Relay in federated tenant**
 
@@ -241,7 +241,7 @@ Media in this case is relayed by Teams Transport Relay in Office 365 to Customer
 
 Signaling between Teams and Skype for Business is "bridged" by a Gateway in Office 365.
 
-Media in this case is relayed by Skype for Business on premises Media Relay to Customer Network via flow 2. (Note that traffic from Teams user to the remote Media Relay in federated customer network will be initially blocked by the Media Relay until traffic in the reverse direction starts to flow. However, the bidirectional flow will open connectivity in both directions.)
+Media in this case is relayed by Skype for Business on premises Media Relay to the customer network via flow 2. (Note that traffic from Teams user to the remote Media Relay in the federated customer network will be initially blocked by the Media Relay until traffic in the reverse direction starts to flow. However, the bidirectional flow will open connectivity in both directions.)
 
 **Direct (peer to peer)**
 
@@ -261,42 +261,42 @@ This topology is similar to Teams default ("pure") but "adds on" Skype for Busin
 >- Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user".
 
 Additional Flows (on top of Teams "pure" topology):
-- **Flow 5A** – Represents a peer-to-peer media flow between a Teams user within the Customer Network and a Skype for Business on-premises media relay at the Customer Network edge.
+- **Flow 5A** – Represents a peer-to-peer media flow between a Teams user within the customer network and a Skype for Business on-premises media relay at the customer network edge.
 
 #### Use Case: Teams to Skype for Business one-to-one
-**Hybrid within Customer Network**
+**Hybrid within customer network**
 
 [![Microsoft Teams Online Call Flows Figure 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
-*Figure 14 - Hybrid within Customer Network*
+*Figure 14 - Hybrid within customer network*
  
-Signaling between Teams and Skype for Business is "bridged" by a Gateway in Office 365. However, media is routed directly "peer to peer" within the Customer Network via flow 5.
+Signaling between Teams and Skype for Business is bridged by a Gateway in Office 365. However, media is routed directly peer-to-peer" within the customer network via flow 5.
 
-**Hybrid Customer Network with External Skype for Business user – relayed by Office 365**
+**Hybrid customer network with external Skype for Business user – relayed by Office 365**
 
 [![Microsoft Teams Online Call Flows Figure 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
-*Figure 15 - Hybrid Customer Network with external Skype for Business user - relayed by Office 365*
+*Figure 15 - Hybrid customer network with external Skype for Business user - relayed by Office 365*
  
 >**Note**: Signaling and media from the Skype for Business client to an on-premises Skype for Business Server is out of scope of this document. However, it is illustrated here for clarity.
 
-Signaling between Teams and Skype for Business is "bridged" by a Gateway in Office 365.
+Signaling between Teams and Skype for Business is bridged by a Gateway in Office 365.
 
-Media is relayed through Teams Transport Relay in Office 365 to Customer Network through flow 4.
+Media is relayed through Teams Transport Relay in Office 365 to the customer network through flow 4.
 
-**Hybrid Customer Network with External Skype for Business user – relayed by on premises edge**
+**Hybrid customer network with external Skype for Business user – relayed by on-premises Edge**
 
 [![Microsoft Teams Online Call Flows Figure 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
-*Figure 16 - Hybrid Customer Network with External Skype for Business user - relayed by on premises edge*
+*Figure 16 - Hybrid customer network with External Skype for Business user - relayed by on-premises Edge*
  
 >**Note**: Signaling and media from Skype for Business client to an on-premises Skype for Business Server is out of scope of this document. However, it is illustrated here for clarity.
 
-Signaling is "bridged" by a Gateway in Office 365.
+Signaling is bridged by a Gateway in Office 365.
 
-Media is relayed by Skype for Business Media Relay within Skype for Business on premises Edge to Teams user within Customer Network via media flow 5A.
+Media is relayed by Skype for Business Media Relay within Skype for Business on-premises Edge to Teams user within the customer network via media flow 5A.
 
-### Teams with Phone System Direct Routing Topology
+### Teams with Phone System Direct Routing topology
 This topology is similar to Teams ("pure") but with Phone System Direct Routing. 
 
 Direct Routing enables you to use a third-party Public Switched Telephone Service provider by pairing a supported on-premises customer-owned Session Border Controller hardware device to Office 365, and connecting the telephony trunk to that device. 
@@ -312,8 +312,8 @@ To support this scenario, the customer must deploy a certified SBC(s) for Direct
 >- Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user".
 
 Additional Flows (on top of Teams Online "pure" topology):
-- **Flow 4'** - Represents a flow from Office 365 cloud to Customer Network, used to establish a connection between Teams media server in the cloud with the SBC on premises.
-- **Flow 5B** – Represents a media flow between Teams user within Customer Network with Direct Routing SBC in "bypass" mode.
+- **Flow 4'** - Represents a flow from Office 365 cloud to the customer network, used to establish a connection between Teams media server in the cloud with the SBC on premises.
+- **Flow 5B** – Represents a media flow between Teams user within the customer network with Direct Routing SBC in "bypass" mode.
 - **Flow 5C** – Represents a media flow between Direct Routing SBC to another Direct Routing SBC in PSTN hairpin call "bypass" mode.
 
 **Internal User Direct Routing (media relayed by Teams Transport Relay in Office 365)**
@@ -326,7 +326,7 @@ Additional Flows (on top of Teams Online "pure" topology):
 
 Signaling and Media from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
-Signaling and Media from client within Customer Network to Office 365 use flow 4.
+Signaling and Media from client within the customer network to Office 365 use flow 4.
 
 
 **Remote User Direct Routing (media is routed through a media server (MP) in Office 365)**
@@ -351,9 +351,9 @@ Signaling and Media from client on the Internet to Office 365 cloud use flow 3.
 
 Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
-Signaling from client within Customer Network to Office 365 cloud use flow 4.
+Signaling from client within the customer network to Office 365 cloud use flow 4.
 
-Media from client within Customer Network to SBC within Customer Network use flow 5B.
+Media from client within the customer network to SBC within the customer network use flow 5B.
 
 **Remote user Direct Routing (media bypass relayed by Teams Transport Relay in Office 365)**
 
@@ -367,7 +367,7 @@ Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
 Signaling from client on the Internet to Office 365 cloud use flow 3.
 
-Media from client on the Internet to SBC within Customer Network use flows 3 and 4, relayed by Teams Transport Relay in Office 365 cloud. 
+Media from client on the Internet to SBC within the customer network use flows 3 and 4, relayed by Teams Transport Relay in Office 365. 
 
 **Remote user Direct Routing (media bypass direct)**
 
@@ -381,7 +381,7 @@ Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
 Signaling from client on the Internet to Office 365 cloud use flow 3.
 
-Media from client on the Internet to SBC within Customer Network use flow 2.
+Media from client on the Internet to SBC within the customer network use flow 2.
 
 **Direct Routing (media bypass) – PSTN hairpin call (due to call forward/transfer)**
 
@@ -395,7 +395,7 @@ Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
 Client is out of the signaling and media loop after the call is hairpin from PSTN to PSTN.
 
-Media from SBC instance A within Customer Network to SBC instance B within Customer Network (where, A and B can be the same instance) use flow 5C.
+Media from SBC instance A within the customer network to SBC instance B within the customer network (where, A and B can be the same instance) use flow 5C.
 
 **Direct Routing (media through Office 365) – PSTN hairpin call across two tenants**
 
@@ -409,9 +409,9 @@ Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
 Client is out of the signaling and media loop after the call is hairpin from PSTN to PSTN.
 
-Media from SBC instance A within Customer Network X to SBC instance B must be relayed through the Office 365 Media Server and can't use bypass mode.
+Media from SBC instance A within the customer network X to SBC instance B must be relayed through the Office 365 Media Server and can't use bypass mode.
 
-## Teams w/ Express Route optimization
+## Teams with Express Route optimization
 
 [![Microsoft Teams Online Call Flows Figure 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
@@ -421,20 +421,20 @@ In the case that Express Route is justified and deployed, then Teams flows could
 
 Note that Skype for Business hybrid Edge traffic is routed to the Internet and not to Express Route to communicate with external users and "federation" with other tenants. 
 
-To prevent asymmetrical flows, re-routing must be in both directions. In other words, an address within Customer Network is routable either through Internet or Express Route, based on optimization, but not through both.
+To prevent asymmetrical flows, re-routing must be in both directions. In other words, an address within the customer network is routable either through Internet or Express Route, based on optimization, but not through both.
 
 For example:
 
-**Customer Network to External User (media relayed by Teams Transport Relay):**
+**Customer network to external user (media relayed by Teams Transport Relay):**
 
 [![Microsoft Teams Online Call Flows Figure 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
-*Figure 26 - Customer Network to External User (media relayed by Teams Transport Relay)*
+*Figure 26 - Customer network to external user (media relayed by Teams Transport Relay)*
  
 **High Level Steps:**
-1. Teams User within Customer Network resolves URL domain name (DNS) via flow2
-2. Teams User within Customer Network allocates a media Relay port on Teams Transport Relay via flow 1
-3. Teams User within Customer Network sends "invite" with ICE candidates via flow 1 to Office 365
+1. Teams User within customer network resolves URL domain name (DNS) via flow2
+2. Teams User within customer network allocates a media Relay port on Teams Transport Relay via flow 1
+3. Teams User within customer network sends "invite" with ICE candidates via flow 1 to Office 365
 4. OFFICE 365 sends notification to external Teams User via flow 3
 5. Teams external User allocates a media Relay port on Teams Transport Relay via flow 3
 6. Teams external User sends "answer" with ICE candidates via flow 3, which is forwarded back to Teams User A via Flow 1
