@@ -31,7 +31,7 @@ This article is part of the User Readiness stage of your upgrade journey, an act
 To realize maximum value from Teams, users must actually use it, but getting users to change the way they work isn’t always easy. Taking time to understand your users and design the right readiness plan can help facilitate change and accelerate adoption of Teams. These activities should be completed in parallel with your technical readiness preparation:
 
 - [Assessing organizational change readiness](https://aka.ms/OrgReadiness): This includes understanding who your users are, how they’ll use the new technology, and how readily they adapt to change. This is also an opportunity to identify specific user profiles who would benefit from focused onboarding.
-- [Preparing a user readiness plan](https://aka.ms/UserReadinessPlan): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identifed in the [assessing change readiness](https://aka.ms/OrgReadiness) article.
+- [Preparing a user readiness plan](https://aka.ms/UserReadinessPlan): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identified in the [assessing change readiness](https://aka.ms/OrgReadiness) article.
 
 > [!Tip]
 > Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.
