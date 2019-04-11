@@ -48,6 +48,7 @@ Every device account is unique to a single Microsoft Teams Rooms device, and req
     
 > [!IMPORTANT]
 > It is highly recommended that account creation be done well in advance of actual hardware installation. Ideally, account preparation is started two to three weeks before installation. 
+In hybrid environments the account used for SRS must have password sync enabled in ADDsync because SRS authentication requires 0365 authentication.
   
 You can think of a device account as the resource account that people recognize as a conference room's or meeting space's account. When you want to schedule a meeting using that conference room, you invite the account to that meeting. In order to use Microsoft Teams Rooms most effectively, you do the same with the device account that's assigned to each one.
   
