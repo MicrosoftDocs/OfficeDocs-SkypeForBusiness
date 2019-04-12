@@ -145,7 +145,7 @@
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
-
+### [Audio Conferencing subscription “Dial-Out”/“Call Me At” benefit](audio-conferencing-subscription-dial-out.md)
 
 ### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -548,7 +548,7 @@
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
