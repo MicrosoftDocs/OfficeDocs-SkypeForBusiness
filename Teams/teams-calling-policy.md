@@ -49,7 +49,7 @@ Follow these steps to create a new custom calling policy.
 
 ## Modify an existing calling policy
 
-Follow these steps to modify an existing policy.
+Follow these steps to modify an existing calling policy.
 
 1. In the Microsoft Teams admin center, select **Voice** > **Calling policy**.
 2. Click next to the policy that you want to modify, and then select **Edit**.
