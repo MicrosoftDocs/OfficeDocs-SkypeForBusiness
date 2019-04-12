@@ -15,7 +15,8 @@ ms.custom:
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-appliesto: Microsoft Teams
+appliesto: 
+- Microsoft Teams
 ---
 
 Manage the free version of Microsoft Teams
