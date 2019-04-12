@@ -58,6 +58,10 @@ You can use Microsoft Teams on these mobile platforms:
 
 - iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch.
 
+## Hardware requirements for the Teams app in a Virtual Desktop Infrastructure (VDI) environment
+
+See [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md) for requirements for running Teams in a virtualized environment. 
+
 ### Related topics
 - [Get Teams apps](get-clients.md)
 - [Microsoft Teams on mobile devices](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
