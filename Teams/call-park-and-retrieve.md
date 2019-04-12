@@ -3,7 +3,7 @@ title: "Call park and retrieve in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 04/12/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -55,9 +55,9 @@ You must be an administrator to configure call park and retrieve, and the featur
 
 For information about how to use the call park and retrieve feature, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
-### Enable call park policy
+### Enable a call park policy
 
-Follow these steps to enable call park policy:
+Follow these steps to enable a call park policy:
 
 1. Go to **Microsoft Teams admin center** > **Voice** > **Call park policies**.
 2. Select **New policy**.
