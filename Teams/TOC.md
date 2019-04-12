@@ -548,7 +548,7 @@
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
