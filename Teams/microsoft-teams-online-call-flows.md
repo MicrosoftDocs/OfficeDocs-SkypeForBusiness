@@ -69,17 +69,17 @@ Teams media flows connectivity is implemented via standard IETF ICE (Interactive
 ### Interoperability restrictions
 **Third party media relays**: A Teams media flow (that is, one of the media endpoints is Teams) may traverse only Teams or Skype for Business native media relays. Interoperability with a third party media relay is not supported. (Note: A third party SBC on the boundary with PSTN must terminate RTP/RTCP stream, secured via SRTP, and not relay it to the next hop.)
 
-**Third party SIP Proxy servers**: A Teams signaling SIP dialog with a third party SBC and/or gateway may traverse Teams or Skype for Business native SIP proxies. Interoperability with a third party SIP proxy is not supported.
+**Third party SIP proxy servers**: A Teams signaling SIP dialog with a third party SBC and/or gateway may traverse Teams or Skype for Business native SIP proxies. Interoperability with a third party SIP proxy is not supported.
 
 **Third party B2BUA (that is, SBC)**: A Teams media flow from/to the PSTN is terminated by a third party SBC. However, interoperability with a third party SBC within the Teams network (that is, a third party SBC mediates two Teams/Skype for Business endpoints) is not supported.
 
 ### Technologies that are not recommended with Microsoft Teams
 
-**VPN Network**: It is not recommended for media traffic (that is, flow 2'). The VPN client should use split VPN and route media traffic like any external non-VPN user, as specified in https://blogs.technet.microsoft.com/nexthop/2011/11/14/enabling-lync-media-to-bypass-a-vpn-tunnel/.
+**VPN network**: It is not recommended for media traffic (that is, flow 2'). The VPN client should use split VPN and route media traffic like any external non-VPN user, as specified in https://blogs.technet.microsoft.com/nexthop/2011/11/14/enabling-lync-media-to-bypass-a-vpn-tunnel/.
 
 >**Note**: Although the title is Lync, it is applicable to Teams as well.
 
-**Packet Shapers**: Any kind of packet snippers, packet inspection, or packet shaper devices are not recommended and may degrade quality significantly. 
+**Packet shapers**: Any kind of packet snippers, packet inspection, or packet shaper devices are not recommended and may degrade quality significantly. 
 
 ### Principles
 There are four general principles that help you understand call flows for Microsoft Teams:
@@ -109,9 +109,9 @@ Note that:
 
 You can find more information on the following optional topologies later in the article:
 
-- Skype for Business on-premises deployment is described in this document in the section **Teams  hybrid topology**.
-- Phone System Direct Routing (for PSTN connectivity) is described in this document in the section **Teams with Direct Routing topology**.
-- Express Route is described in this document in the section **Teams with Express Route optimization**.
+- Skype for Business on-premises deployment is described in **Teams  hybrid topology**.
+- Phone System Direct Routing (for PSTN connectivity) is described in **Teams with Direct Routing topology**.
+- Express Route is described in  **Teams with Express Route optimization**.
 
 **Flow descriptions**:
 - **Flow 2** – Represents a flow initiated by a user on the customer network to the Internet as a part of the user's Teams experience. Examples of these flows are DNS and peer-to-peer media.
@@ -169,7 +169,7 @@ In step 7, flow 2, from customer network to Internet (client's peer), is selecte
 
 - Media is bidirectional. The direction of flow 2 to remote mobile user indicates that one side initiates the communication from a connectivity perspective. 
 
-**VPN user to internal User (media relayed by Teams Transport Relay)**
+**VPN user to internal user (media relayed by Teams Transport Relay)**
 
 [![Microsoft Teams Online Call Flows Figure 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
@@ -418,7 +418,7 @@ Note that:
  
 Note that:
 
-- THe SBC must have a public IP address that is routable from Office 365.
+- The SBC must have a public IP address that is routable from Office 365.
 
 - Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.
 
@@ -438,7 +438,7 @@ Note that:
 
 - Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.
 
-- The client is out of the signaling and media loop after the call is hairpin from PSTN to PSTN.
+- The client is out of the signaling and media loop after the call is hairpinned from PSTN to PSTN.
 
 - Media from SBC instance A within the customer network X to SBC instance B must be relayed through the Office 365 Media Server and can't use bypass mode.
 
