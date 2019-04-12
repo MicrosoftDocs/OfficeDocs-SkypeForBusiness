@@ -101,6 +101,7 @@
 #### [Install Teams using MSI](msi-deployment.md)
 #### [Turn on Teams in your organization](Office-365-set-up.md)
 #### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+#### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 #### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 
 ### Licensing
@@ -144,7 +145,7 @@
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
-
+### [Audio Conferencing subscription “Dial-Out”/“Call Me At” benefit](audio-conferencing-subscription-dial-out.md)
 
 ### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -547,7 +548,7 @@
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
@@ -703,7 +704,7 @@
 
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](support-resources.md)
+### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
