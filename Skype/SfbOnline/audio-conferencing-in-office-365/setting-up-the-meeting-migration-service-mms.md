@@ -36,7 +36,7 @@ The Meeting Migration Service (MMS) is service that updates a user’s existing 
 By default, MMS is automatically triggered in each of these cases, although admins can disable it at the tenant level. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
 
 > [!NOTE]
-> The ability to convert Skype for Business meetings to Teams meetings and the ability to update existing Teams meetings to modify audio-conferencing settings is currently limited to TAP customers only.
+> The ability to convert Skype for Business meetings to Teams meetings and the ability to update existing Teams meetings to modify audio-conferencing settings is currently limited to TAP customers only. Microsoft expects to make this functionality available to all customers sometime in May 2019.
 
 **Limitations**: The meeting migration service can't be used if any of the following apply:
 
@@ -108,7 +108,7 @@ Not all changes to a user's audio conferencing settings trigger MMS. Specificall
 ### Updating meetings when assigning TeamsUpgradePolicy
 
 > [!NOTE]
-> This section describes functionality that is currently only available to TAP customers.
+> This section describes functionality that is currently only available to TAP customers. Microsoft expects to make this functionality available to all customers sometime in May 2019.
 
 By default, meeting migration will be automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`. If you do not want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy`.
 
