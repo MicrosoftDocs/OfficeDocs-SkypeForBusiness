@@ -50,8 +50,8 @@ Using this guidance, you can create a simple-to-use dashboard to identify any is
 
 |    |     |
 |-----------|------------|
-|![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
-|![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
 
 ## Quality and reliability monitoring (CQD)
 
