@@ -21,13 +21,13 @@ A user can already explicitly set their status to Away or Do not Disturb, and pr
 
 This is a user-initiated process in the client, and no Admin involvement is required.
 
-## Delegation overview
+## Delegation use scenario in Healthcare
 
 *Usage example without setting delegates:*  Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr. Lena Ehrle, to cover for him while he is gone. He informally hands over his pager to Dr. Ehrle, who is listening for urgent messages and pings on the pager and responds to them on behalf of Dr. Piccio in addition to her current responsibilities. Others on the team may not realize the informal delegation happened, and confusion ensues with a patient's care.
 
 *Usage example with setting delegates:* Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr. Lena Ehrle to cover for him while he is gone. He changes his status in Teams to do not disturb and sets Dr. Ehrle as a delegate, enabling auto-forward of messages. Others on the team realize the delegation happened as they're attempting to contact Dr. Piccio, and little to no confusion ensues with a patient's care.
 
-## Impact of co-existence modes on Status in the Teams client
+## Impact of co-existence modes on user status in the Teams client
 
 Admins should be aware that status notes and delegation mentions will depend partly on a user’s co-existence mode. This matrix shows the possibilities:
 
