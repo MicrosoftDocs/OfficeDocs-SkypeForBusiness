@@ -29,15 +29,15 @@ Call park and retrieve is a feature that lets a user place a call on hold in the
 Some of the common scenarios for using call park are: 
 
 - A receptionist parks a call for someone working in a factory. The receptionist then announces the call and the code number over the public address system. The user who the call is for can then pick up a Teams phone on the factory floor and enter the code to retrieve the call.
-- A user parks a call on a mobile device because the device battery is running out of power. The user can then enter then code to retrieve the call from a Teams desk phone.
+- A user parks a call on a mobile device because the device battery is running out of power. The user can then enter the code to retrieve the call from a Teams desk phone.
 - A support representative parks a customer call and sends an announcement on a Teams channel for an expert to retrieve the call and help the customer. An expert enters the code in Teams clients to retrieve the call
 
 > [!IMPORTANT]
-> This feature is only available in Teams Only deployment mode. For more details on Teams deployment modes, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> This feature is only available in Teams Only deployment mode. For more information about Teams deployment modes, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## License required
 
-To park and retrieve calls, a user must be an Enterprise Voice user, and an administrator must grant the user a call park policy. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+To park and retrieve calls, a user must be an Enterprise Voice user, and an administrator must grant the user a call park policy. For more information about the licensing model, see [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
 
 ## Call park and retrieve feature availability
 
@@ -47,11 +47,11 @@ Call park and retrieve is currently supported by the following clients and devic
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Park a call | Yes | Yes | Yes | Yes | Coming soon| No |
 | Retrieve a parked call | Yes | Yes | Yes | Yes | Coming soon| No |
-| Un-retrieved call ring back | Yes | Yes | Yes | Yes | Coming soon| No |
+| Unretrieved call ring back | Yes | Yes | Yes | Yes | Coming soon| No |
 
 ## Configuring call park and retrieve
 
-You must be an administrator to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they will be able to park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the [Assign a call park policy](#assign-a-call-park-policy) procedure below.
+You must be an administrator to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the [Assign a call park policy](#assign-a-call-park-policy) procedure below.
 
 For information about how to use the call park and retrieve feature, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
@@ -61,7 +61,8 @@ Follow these steps to enable a call park policy:
 
 1. Go to **Microsoft Teams admin center** > **Voice** > **Call park policies**.
 2. Select **New policy**.
-3. Switch **Allow Call park** to **On**.
+3. Give the policy a name, and then switch **Allow Call park** to **On**.
+4. Select **Save**.
 
 ### Assign a call park policy
 
