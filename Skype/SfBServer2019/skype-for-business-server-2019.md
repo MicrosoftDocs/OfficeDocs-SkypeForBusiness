@@ -110,7 +110,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li> 
-        <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-business-server-2019">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
