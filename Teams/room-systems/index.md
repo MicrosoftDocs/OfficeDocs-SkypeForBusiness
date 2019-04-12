@@ -45,7 +45,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/room-systems/skype-room-systems-v2-0">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -63,7 +63,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/room-systems/room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -81,7 +81,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/room-systems/skype-room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

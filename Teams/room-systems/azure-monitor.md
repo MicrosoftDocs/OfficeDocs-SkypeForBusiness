@@ -23,7 +23,7 @@ This article provides a discussion of the requirements, design/architecture, and
   
 ## Functional overview
 
-![diagram of Microsoft Teams Rooms management using Azure Monitor](../../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![diagram of Microsoft Teams Rooms management using Azure Monitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
 The Microsoft Teams Rooms app on the console device writes events to its Windows Event Log. A Microsoft Monitoring agent, once installed, passes the information to Azure Monitor service. 
   
