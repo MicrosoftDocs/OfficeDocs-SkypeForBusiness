@@ -69,7 +69,7 @@ Before you can start using the CQD, you'll need to activate it for your Office 3
   
 After you sign in, once activated, the CQD will begin collecting and processing data.
 
-**Using the Microsoft Teams admin center**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
  
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
     
