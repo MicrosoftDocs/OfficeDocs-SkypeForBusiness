@@ -41,7 +41,7 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-2. Select a **Dedidcated** audio conferencing phone number from the list, and at the top of the page, click **Edit**. It is only possible to change the languages of Dedicated audio conferencing numbers. The **Edit** option is only shown when a Dedicated audio conferencing number is selected.
+2. Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, click **Edit**. It is only possible to change the languages of Dedicated audio conferencing numbers. The **Edit** option is only shown when a Dedicated audio conferencing number is selected.
 
 3. In the pane on the right, choose the default language you want and any alternate languages. 
  
