@@ -43,8 +43,7 @@ Busy options is a new setting in the Teams calling policies that allows you to c
 
 Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences.
 
-You can use the Busy on busy setting in Calling policy settings to configure busy options or you can use the **EnableBusyOnBusy** setting in the Set-CsTeamsCallingPolicy PowerShell cmdlet. This setting is disabled by default. For more information, go to [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps
-).
+You can use the Busy on Busy setting in Calling policy settings to configure busy options. This setting is disabled by default.
 
 ## Create a custom calling policy
 
