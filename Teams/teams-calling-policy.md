@@ -39,7 +39,7 @@ In Microsoft Teams, calling policies control which calling and call forwarding f
 
 ### Busy options (Busy on Busy setting)
 
-Busy options is a new setting in the Teams calling policies that allows you to configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at a tenant level or at a user level. 
+Busy options is a new setting in Teams calling policies that allows you to configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at a tenant level or at a user level. 
 
 Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences.
 
