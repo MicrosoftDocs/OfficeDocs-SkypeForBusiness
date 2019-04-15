@@ -59,7 +59,7 @@ You need to configure Log Analytics to collect the logs required to monitor Micr
 
 To configure Log Analytics to collect the Microsoft Teams Rooms events, see [Windows event log data sources in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Event log settings](../../media/Deploy-Azure-Monitor-2.png "Event log settings")
+![Event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
 
 > [!IMPORTANT]
 > Configure Windows Event Log settings and enter **Skype Room System** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.
@@ -117,7 +117,7 @@ To extract your custom fields out of the captured event logs, follow these steps
 3. Select one of the records, select the button to the left, and start the field extraction wizard.
 4. Highlight the data you’d like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
 
-   ![Custom field definition](../../media/Deploy-Azure-Monitor-4.png "Custom field definition")
+   ![Custom field definition](../media/Deploy-Azure-Monitor-4.png "Custom field definition")
 
 5. Use the mappings shown in *Table 1*. Log Analytics will automatically append the **\_CF** string when you define the new field.
 
@@ -126,7 +126,7 @@ To extract your custom fields out of the captured event logs, follow these steps
 > 
 > Pay attention to the queries required for each custom field in the table below. You need to use the correct queries for Log Analytics to successfully extract custom field values.
 > 
- ![Custom field definition](../../media/Deploy-Azure-Monitor-5.png "Custom field definition")
+ ![Custom field definition](../media/Deploy-Azure-Monitor-5.png "Custom field definition")
 
 **Table 1**
 
@@ -407,7 +407,7 @@ Now you’ve completed defining alerts. You can define additional alerts by usin
 
 When an alert is generated, you’ll get an email that lists the devices that encountered an issue within the last hour.
 
-![Sample Azure Monitor alert email](../../media/Deploy-Azure-Monitor-6.png "Sample Azure Monitor alert email")
+![Sample Azure Monitor alert email](../media/Deploy-Azure-Monitor-6.png "Sample Azure Monitor alert email")
 
 ## Configure all devices for Azure Monitoring
 <a name="configure_all_devices"> </a>
@@ -501,6 +501,6 @@ Azure Monitor provides built-in management solutions through its [solution galle
 
 ## See also
 
-[Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
+[Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md)
 
-[Manage Microsoft Teams Rooms devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md)
+[Manage Microsoft Teams Rooms devices with Azure Monitor](azure-monitor-manage.md)

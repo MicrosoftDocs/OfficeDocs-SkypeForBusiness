@@ -23,7 +23,7 @@ Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 - Confirming that your deployment locations (rooms) meet the deployment dependencies
 - Creating Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md))
 - Reimaging Microsoft Surface tablets to work as Microsoft Teams Rooms consoles (see [Configure a Microsoft Teams Rooms console](console.md) or [Deploy Microsoft Teams Rooms mass deployment guide](room-systems-scale.md))
-- (Optional) Setting up Microsoft Operations Management Suite for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor.md))
+- (Optional) Setting up Microsoft Operations Management Suite for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
 - Setting up consoles in meeting rooms and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
 AV techs can be used for the last task, but your organization's IT department will need to do the other parts of the process. 
@@ -151,7 +151,7 @@ As part of the deployment, you’ll also need to consider your strategy for mana
 
 We provide guidance on how to use the [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. If you decide to use Microsoft Operations Management Suite, you should install the Operations Management Suite agent as part of the software installation process and configure the workspace connection information for your workspace. 
 
-An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](../../Skype/SfbServer/deploy/deploy-clients/domain-joining-considerations.md) . 
+An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](domain-joining-considerations.md). 
 
 |    |     |
 |-----------|------------|

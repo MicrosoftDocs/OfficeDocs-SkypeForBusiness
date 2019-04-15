@@ -17,11 +17,11 @@ description: "This article discusses how to manage Microsoft Teams Rooms devices
 
 This article discusses how to manage Microsoft Teams Rooms devices in an integrated, end-to-end manner using Azure Monitor.
 
-You can configure Azure Monitor to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md) for details). As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
+You can configure Azure Monitor to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor]((azure-monitor-deploy.md) for details). As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
 
 ## Understand the log entries
 
-The following event descriptions are inserted into the event log description field every five minutes, when the Microsoft Teams Room app records the corresponding information in the Windows event log. The Microsoft Monitoring Agent passes these records to Log Analytics in Azure Monitor, which parses them into the dashboard you created in [Deploy Microsoft Teams Rooms management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md). Using the dashboard you can look at individual log entries to determine courses of action if needed. 
+The following event descriptions are inserted into the event log description field every five minutes, when the Microsoft Teams Room app records the corresponding information in the Windows event log. The Microsoft Monitoring Agent passes these records to Log Analytics in Azure Monitor, which parses them into the dashboard you created in [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md). Using the dashboard you can look at individual log entries to determine courses of action if needed. 
 
 Event IDs 2000 and 3000 indicate the device in question is working as expected. Event IDs 2001 and 3001 indicate an issue was found. Event ID 4000 may require action if it is seen more often than you expect, compared to a baseline you set or other deployed devices in your organization.
 
@@ -38,6 +38,6 @@ Understanding these event descriptions alerts you to problems quickly, and provi
 ## See also
  
 
-[Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
+[Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md)
 
-[Deploy Microsoft Teams Rooms management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md)
+[Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)

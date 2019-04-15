@@ -613,7 +613,7 @@ You can download and easily import a sample task sequence and customize it to me
 
    6. **Apply Network Settings**: This step allows you to specify a workgroup or Active Directory domain name and organizational unit.
       > [!NOTE]
-      > See [Skype Room System domain joining considerations](../../Skype/SfbServer/deploy/deploy-clients/domain-joining-considerations.md) for recommended actions you need to take in deploying Microsoft Teams Rooms units as members of an Actve Directory domain.
+      > See [Skype Room System domain joining considerations](domain-joining-considerations.md) for recommended actions you need to take in deploying Microsoft Teams Rooms units as members of an Actve Directory domain.
    7. **Apply Drivers:** This step and its sub-steps are used to deploy applicable device drivers and firmware based on the Surface Pro model you have. Update each step to specify the relevant driver package associated with this deployment.
       -   Each driver package is configured to leverage Windows Management Instrumentation (WMI) filters to deploy relevant drivers and firmware based on the Surface Pro make and model.
       -   We highly recommend that you not alter the configuration of these drivers, otherwise deployment might fail.

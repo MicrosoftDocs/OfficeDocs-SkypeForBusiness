@@ -69,7 +69,7 @@ You might need to coordinate these activities across several teams. We provide a
 | Plan capabilities          | IT Project Team                        |             | [Room inventory and capability planning](#room-inventory-and-capability-planning)                       |
 | Device selection           | IT Project Team / AV Team              |             | [Device selection](#device-selection)                      |
 | Procurement                | IT Project Team / AV Team              |             | [Procurement](#procurement)                      |
-| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](.room-systems-v2.md#site-readiness)                      |
+| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](room-systems-v2.md#site-readiness)                      |
 | Service readiness          | IT Project Team                        |             | [Service readiness](room-systems-v2.md#service-readiness)                      |
 | Configuration              | IT Project Team                        |             | [Configuration and deployment](room-systems-v2.md#configuration-and-deployment)                      |
 | Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist)                      |

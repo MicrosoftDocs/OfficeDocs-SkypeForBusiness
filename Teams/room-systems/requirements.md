@@ -18,7 +18,7 @@ description: "This article summarizes the requirements for supporting Microsoft 
 
 This article summarizes the requirements for supporting Microsoft Teams Rooms. 
 
-Your deployment will involve account creation as described in [Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md). 
+Your deployment will involve account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and setting up a meeting console as described in [Configure a Microsoft Teams Rooms console](console.md). 
 
 You may also need to refer to:
 
@@ -131,7 +131,7 @@ The following tables provide recommendations for peripherals based on room size:
 
 ## Required software downloads
 
-To build your own Microsoft Teams Rooms image, follow the instructions in [Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
+To build your own Microsoft Teams Rooms image, follow the instructions in [Configure a Microsoft Teams Rooms console](console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
 
 > [!NOTE]
 > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
@@ -142,10 +142,10 @@ In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](
 
 [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
-[Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
 
-[Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
 
-[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
 
 [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

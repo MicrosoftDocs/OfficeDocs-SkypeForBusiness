@@ -44,7 +44,7 @@ Transferring files using Group Policies is discussed in [Configure a File Item](
 ## Remote Management using PowerShell
 <a name="RemotePS"> </a>
 
-We recommend that you use Microsoft Operations Manager Suite to monitor your Microsoft Teams Rooms systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Microsoft Teams Rooms management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md). 
+We recommend that you use Microsoft Operations Manager Suite to monitor your Microsoft Teams Rooms systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md). 
 
 Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Microsoft Teams Rooms units across your deployment. 
 
@@ -67,7 +67,7 @@ We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Ro
 
 ## Windows Updates
 
-Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise (VL) and receives the same Windows Updates and OS builds as a standard desktop. See [Manage Windows Updates](../../Skype/SfbServer/manage/skype-room-systems-v2/updates.md) for details.
+Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise (VL) and receives the same Windows Updates and OS builds as a standard desktop. See [Manage Windows Updates](updates.md) for details.
 
 
 ## Troubleshooting
