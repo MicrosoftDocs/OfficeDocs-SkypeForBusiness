@@ -68,7 +68,21 @@ Before you can start using the CQD, you'll need to activate it for your Office 3
      ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 After you sign in, once activated, the CQD will begin collecting and processing data.
+
+**Using the Microsoft Teams admin center**
+ 
+1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
+    
+2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
+    
+3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
+    
   
+4. On the page that opens, sign in with your Global Administrator account or Microsoft Teams Service Admin account, and then provide the credentials for the account when prompted.
+    
+     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+After you sign in, once activated, the CQD will begin collecting and processing data.  
 > [!NOTE]
 > It may take a couple of hours to process enough data to display meaningful results in the reports. 
   
