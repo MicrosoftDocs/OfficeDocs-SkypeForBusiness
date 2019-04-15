@@ -3,7 +3,7 @@ title: "Turning on and using Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -69,11 +69,11 @@ Before you can start using the CQD, you'll need to activate it for your Office 3
   
 After you sign in, once activated, the CQD will begin collecting and processing data.
 
-**Using the Microsoft Teams admin center**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
  
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
     
-2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
+2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
     
 3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
     
