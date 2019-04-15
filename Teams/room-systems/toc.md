@@ -6,7 +6,7 @@
 ### [Prepare your environment](srs-v2-prep.md)
 ### [Requirements](requirements.md)
 ### [Online Licensing](skype-room-systems-v2.md)
-### [Plan management with Azure Monitor](azure-monitor.md)
+### [Plan management with Azure Monitor](azure-monitor-plan.md)
 
 ## Deploy
 ### [Deployment overview](room-systems-v2.md)
@@ -17,14 +17,14 @@
 ### [With Exchange on premises (Hybrid)](with-exchange-on-premises.md)
 ### [Configure a console](console.md)
 ### [By using System Center Configuration Manager](room-systems-scale.md)
-### [Management with Azure Monitor](azure-monitor.md)
+### [Management with Azure Monitor](azure-monitor-deploy.md)
 ### [Migrate SRS v1 or LRS](lrs-migration.md)
 
 ## Manage
 ### [Management overview](skype-room-systems-v2.md)
 ### [Maintenance and operations](room-systems-v2-operations.md)
 ### [Known issues](known-issues.md)
-### [Devices with Azure Monitor](azure-monitor.md)
+### [Devices with Azure Monitor](azure-monitor-manage.md)
 ### [Settings with an XML file](xml-config-file.md)
 ### [Use the recovery tool](recovery-tool.md)
 

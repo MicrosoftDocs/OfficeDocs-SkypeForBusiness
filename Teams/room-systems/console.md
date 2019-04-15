@@ -20,7 +20,7 @@ description: "This article describes how to set up the Microsoft Teams Rooms con
 
 This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
   
-You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md). This topic contains the following sections:
+You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
 - [Prepare the installation media](console.md#Prep_Media)
 - [Install a private CA certificate on the console](console.md#Certs)
@@ -176,7 +176,7 @@ The Microsoft Teams Rooms console needs to trust the certificates used by the Sk
 
 1. Download the CA certificate to your computer and save it to "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
     
-2. Place the console in admin mode (see [Admin mode and device management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
+2. Place the console in admin mode (see [Admin mode and device management](room-systems-v2-operations.md#AdminMode)).
     
 3. Run the following command:
     
@@ -187,11 +187,11 @@ The Microsoft Teams Rooms console needs to trust the certificates used by the Sk
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, please refer to [Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
+You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, please refer to [Manage Microsoft Teams Rooms](room-systems-v2-operations.md).
   
 ### To join Microsoft Teams Rooms to a domain
 
-1. Sign into the console from the admin account (see [Admin mode and device management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
+1. Sign into the console from the admin account (see [Admin mode and device management](room-systems-v2-operations.md#AdminMode)).
     
 2. Launch elevated Powershell command prompt.
     
@@ -248,10 +248,10 @@ Use the following checklist while doing a final verification that the console an
 ## See also
 <a name="Checklist"> </a>
 
-[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
   
 [Deploy Microsoft Teams Rooms](room-systems-v2.md)
   
 [Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)

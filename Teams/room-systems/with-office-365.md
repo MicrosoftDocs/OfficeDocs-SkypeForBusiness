@@ -24,7 +24,7 @@ The easiest way to set up user accounts is to configure them using remote Window
 
 ## Requirements
 
-Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
 
 To enable Skype for Business, you must have the following:
 
@@ -160,7 +160,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).
 
    Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
 
@@ -247,12 +247,12 @@ For validation, you should be able to use any Skype for Business client to sign 
 
 [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md)
 
-[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
 [Deploy Microsoft Teams Rooms](room-systems-v2.md)
 
 [Configure a Microsoft Teams Rooms console](console.md)
 
-[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
 
 [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

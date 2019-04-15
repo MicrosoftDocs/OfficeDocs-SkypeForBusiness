@@ -31,7 +31,7 @@ Monitoring Microsoft Teams Rooms systems consists of two key activities:
 To ensure that users are able to use the Microsoft Teams Rooms units, the units must be on, connected to the network with the Microsoft Teams Rooms application correctly configured, and be connected to functioning peripheral devices. 
 
 
-Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor.md#understand-the-log-entries). 
+Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor-manage.md#understand-the-log-entries). 
 
 |**Setting**|**Allows**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Ro
 
 ## Windows Updates
 
-Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise (VL) and receives the same Windows Updates and OS builds as a standard desktop. See [Manage Windows Updates](updates.md) for details.
+Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise (VL) and receives the same Windows Updates and OS builds as a standard desktop. See [Manage Windows Updates](../../Skype/SfbServer/manage/skype-room-systems-v2/updates.md) for details.
 
 
 ## Troubleshooting
@@ -81,10 +81,10 @@ For more information about troubleshooting and admin mode, see [Manage Microsoft
 
 [Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
-[Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
 
-[Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
 
 [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)

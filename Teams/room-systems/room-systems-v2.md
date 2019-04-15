@@ -35,9 +35,9 @@ While the ordered devices are being delivered to your organization, work with yo
 
 You can find out more about these dependencies in the planning guidance links below:
 
--   [Check network availability](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
--   [Certificates](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
+-   [Check network availability](srs-v2-prep.md#check-network-availability) 
+-   [Certificates](srs-v2-prep.md#certificates)
+-   [Proxy](srs-v2-prep.md#proxy)
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Microsoft Teams Rooms persona to reflect the intended Microsoft Teams Rooms usage [video, screen sharing, audio] and assign a number of users that matches the number of Microsoft Teams Rooms units to be deployed to each site.) 
 
@@ -102,11 +102,11 @@ Define one organizational unit in your on-premises Active Directory or Azure AD 
 
 Create a Group Policy object assigned to the organization unit that contains your Microsoft Teams Rooms computer accounts. Use this to: 
 
--   [Set power and local account settings](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
+-   [Set power and local account settings](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Enable Windows Update.
 -   Enable PowerShell remoting. You can configure a start-up script to run a  simple script: Enable-PSRemoting -Force
 
-You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell). 
+You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](room-systems-v2-operations.md#remote-management-using-powershell). 
 
 
 ## Configuration and deployment 
@@ -151,7 +151,7 @@ As part of the deployment, you’ll also need to consider your strategy for mana
 
 We provide guidance on how to use the [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. If you decide to use Microsoft Operations Management Suite, you should install the Operations Management Suite agent as part of the software installation process and configure the workspace connection information for your workspace. 
 
-An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](domain-joining-considerations.md). 
+An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](../../Skype/SfbServer/deploy/deploy-clients/domain-joining-considerations.md) . 
 
 |    |     |
 |-----------|------------|
@@ -182,9 +182,9 @@ After each Microsoft Teams Rooms system has been physically deployed and the sup
 
 You can manually configure each Microsoft Teams Rooms system. Alternatively, you can use a centrally stored, per–Microsoft Teams Rooms XML configuration file to manage the application settings and leverage a start-up GPO script to reapply the configuration you want, each time the Microsoft Teams Rooms system boots. 
 
-For more information about how to use the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../../manage/skype-room-systems-v2/xml-config-file.md). 
+For more information about how to use the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). 
 
-You can use [remote PowerShell](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell) to pull the Microsoft Teams Rooms configuration for reporting needs. 
+You can use [remote PowerShell](room-systems-v2-operations.md#remote-management-using-powershell) to pull the Microsoft Teams Rooms configuration for reporting needs. 
 
 |    |     |
 |-----------|------------|

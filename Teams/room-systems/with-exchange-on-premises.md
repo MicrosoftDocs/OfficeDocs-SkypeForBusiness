@@ -24,7 +24,7 @@ Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fw
   
 ## Requirements
 
-Before you deploy Microsoft Teams Rooms with Exchange on premises, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Before you deploy Microsoft Teams Rooms with Exchange on premises, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
   
 If you are deploying Microsoft Teams Rooms with Exchange on premises, you will be using Active Directory administrative tools to add an email address for your on-premises domain account. This account will be synced to Office 365. You will need to:
   
@@ -158,10 +158,10 @@ For validation, you should be able to use any Skype for Business client to log i
 
 [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md)
 
-[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
   
 [Deploy Microsoft Teams Rooms](room-systems-v2.md)
   
 [Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
