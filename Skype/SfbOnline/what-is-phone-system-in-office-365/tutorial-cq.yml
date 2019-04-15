@@ -31,14 +31,14 @@ items:
     
     [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
-    [**Phone System** licenses](/MicrosoftTeams/what-is-phone-system-in-office-365) to enable call control and PBX capabilities in the Office 365 cloud. The phone system 
+    [**Phone System licenses**](/MicrosoftTeams/what-is-phone-system-in-office-365) to enable call control and PBX capabilities in the Office 365 cloud. The phone system 
     license is included with the Enterprise E5 license, or it can be added to an Enterprise E3 license. Licensing details are at 
     [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). 
 
     A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
     call queues, which route people who call your business to one of your company's call agents that can then fill customer service requests or put in 
     sales orders. Call queues can be used with either Teams or Skype for Business. You create a call queue for your organization using the Microsoft Teams admin 
-    center. A call queue's resource account can either be assigned a phone number or a call queue can be an option choice for an auto attendant without a directly associated phone number.
+    center and linking it with a *resource account*. A call queue's linked resource account can either be assigned a phone number or a call queue can be an option choice for an auto attendant, a directly associated phone number is optional.
     
     If you are asked to set up a call queue, this article provides an illustration of planning and implementing a simplified one for a hypothetical business.  
   
@@ -57,7 +57,7 @@ items:
   content: |
 
     Contoso Pizza is a small regional pizza delivery chain with twenty locations, and they want to convert their operation to use a virtual call center. They want 
-    their call agents to log in to the Teams Desktop client and take orders using the company's existing order-taking system. They like the idea of being able 
+    their call agents to log in to the Teams Desktop client and take orders using the company's existing order-taking system. The biggest attraction for them is being able 
     to expand or contract as needed without having to invest in office space for the call center. 
 
     A needs assessment for this company might include the following questions:
@@ -73,18 +73,18 @@ items:
     ### Will the call center be active 24 hours a day, or have business hours?
     The queue needs to be in use from 11am to 11:30 pm, seven days a week. 
     
-    ## Do they want distinct initial greetings for business hours, after-hours, weekends, holidays, and so on.
+    ### Do they want distinct initial greetings for business hours, after-hours, weekends, holidays, and so on.
     They already know that the call rate outside of their business hours is very low. Using special greetings is optional.
 
     ### How are the agents compensated?
-    The agents are paid on an hourly basis, and their performance is tracked in the ordering system. The agents get touchy if there's a perception that one agent is getting 
-    favored by the queue's distribution of calls.
+    The agents are paid on an hourly basis plus a performance bonus, and their performance is tracked in the ordering system. There was once a perception that 
+    one agent was getting favored by the queue's distribution of calls, and they would like to avoid a repeat of that impression.
 
     ### What is the usual size of the call queue in the existing call center?
     Depending on the hour, it can vary from 5 to 30. Wait times are known to be up to 3 minutes most of the time, and 5 minutes at peak. 
 
     ### Do they already have preferences for on-hold music?
-    They want to have custom music.
+    They want to have custom music. 
 
 - title: The design
   durationInMinutes: 2
@@ -94,21 +94,21 @@ items:
     
     A Phone system call queue has a limited number of options. The main decisions to make for the queue are: 
     
-        - Whether to assign a number directly to the queue, or to have callers connect to an auto attendant first. Callers are unlikely to realize the difference.
-        - Whether to have an initial greeting  as part of the call queue (if you do connect initially to an auto attendant, it's probably not needed)
-        - what hold music to use
-        - how to distribute the calls among the available agents
+    - Whether to assign a number directly to the queue, or to have callers connect to an auto attendant first. Callers are unlikely to realize the difference.
+    - Whether to have an initial greeting  as part of the call queue (if you do connect initially to an auto attendant, that can provide an initial greeting)
+    - what hold music to use
+    - how to distribute the calls among the available agents
 
     #### Do:
-    1.	Keep the number of calls in queue and call wait time for callers as short as possible.
-    2.  Have alternate initial greetings for calls taken outside business hours, or on holidays or weekends when agents won't be available. This will involve putting a single auto attendant in front of the call queue.
-    3.  Make the call queue as easy to find as possible when your ordering number connects to an auto attendant first. 
-    4.  Know your customers and provide hold music that will match their interests, or at least not clash badly with their tastes.
+    - Keep the number of calls in queue and call wait time for callers as short as possible.
+    - Have alternate initial greetings for calls taken outside business hours, or on holidays or weekends when agents won't be available. This will involve putting a single auto attendant in front of the call queue.
+    - Make the call queue as easy to find as possible when your ordering number connects to an auto attendant first. 
+    - Know your customers and provide hold music that will match their interests, or at least not clash badly with their tastes.
  
     
     #### Don't:
-    1.	Pitch other products or upsell while callers are waiting on hold.  
-    2.	Make callers wait any longer than necessary to talk to an agent.
+    - Pitch other products or upsell while callers are waiting on hold.  
+    - Make callers wait any longer than necessary to talk to an agent.
 
     > [!Important]
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
@@ -119,33 +119,34 @@ items:
     For implementations centered on a call queue like our example, we'll either have a phone number assigned to the call queue's resource account, or have the phone number assigned to an auto attendant's resource account.
     
     *Call Queue with no Auto Attendant*
+
     ![pizza call queue](../images/CQ-Pizza-CallCenter.png)  
 
     *Call Queue with Auto Attendant*
+
     ![pizza call que-auto attendant](../images/AA-CQ.png)
 
-    For a more complex initial design with multiple nested auto attendants,  refer to the Auto Attendants tutorial.
+    You could use Visio to visualize your design. The Visio file containing the diagrams above is available for 
+    [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/images/CQ-Pizza-CallCenter.vsdx?raw=true). Alternately, 
+    Auto Attendant and Call Queue diagrams can be planned using sticky notes or index cards.
 
-    
-
-    If you have Visio, you could use that to visualize your design. The Visio file containing the diagrams above is available for 
-    [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/images/CQ-Pizza-CallCenter.vsdx?raw=true). 
+    For a more complex initial design with multiple nested auto attendants, refer to the Auto Attendants tutorial.
 
 - title: Writing the script 
   durationInMinutes: 3
   content: |
     ### Writing better  scripts 
     Your outgoing message scripts can make or break the impression left on your customers or callers. 
-    Plan it carefully, write it out, and consider having it professionally recorded. The goal is to connect the caller to a live person as efficiently as possible.
+    Plan them carefully, write them out, and consider having them professionally recorded. The goal is to connect the caller to a live person as efficiently as possible.
     Think about some of these guidelines when writing the script dialog:
 
     #### Do:
     1.	Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service 
     options, mention it but otherwise present choices and options as soon as possible without being abrupt. 
-    2.	Use multilingual prompts, but put the secondary language or languages at the end of the first set of options.
+    2.	Consider using multilingual prompts, but put the secondary language or languages at the end of the first set of options.
     3.	Make sure the voice for the prompts leaves the impression you want and is clearly understandable.  Phone System has a built in text to speech 
     engine which gives you the option of entering your final text and deciding for yourself whether it's conveying the impression you want. If not, 
-    recording an audio prompt is fully supported. If the voice mumbles, sounds condescending, or has other issues, keep looking.
+    using a pre-recorded audio prompt is fully supported. If your selected message voice mumbles, sounds condescending, or has other issues, keep looking.
     4.	Mention significant changes to your option structure when that happens, but don't leave that part of the greeting active for more than a month. If you 
     have frequent updates and expect that to be the case most of the time, just omit it from the script.
     
@@ -158,8 +159,9 @@ items:
     5.	Include sales information in the scripts, you'll annoy your callers. Let your sales force take care of that sort of thing.
 
     And finally, if your company has a slogan, think twice about including it in the script at all. Chances are your callers have heard it before if they're calling 
-    you. If you do include it, put it somewhere it brings the Auto Attendant experience to a close, like when transferring to an individual's desk line or voicemail. 
-    If you’ve had a slogan or tag line for a long time that many of your customers know, it might or might not be worth including. The "golden rule" here is to connect the caller to a person as efficiently as possible.
+    you. If you do include it, put it somewhere it brings the caller's experience to a close, like when transferring to an individual's desk line or voicemail. 
+    If you’ve had a slogan or tag line for a long time that many of your customers know, it might or might not be worth including. The "golden rule" here is to 
+    connect the caller to a person as efficiently as possible.
 
     ### Sample greeting scripts
 
@@ -169,18 +171,26 @@ items:
 
     These scripts reflect the designs shown earlier, and the suggested guidelines for writing scripts. 
 
+    #### Call Queue Script 1: Call queue greeting (call queue without auto attendant)
+
+    "Thanks for calling Contoso Pizza. If you're calling between 11 am and 11:30 pm please stay on the line and the next available agent will take your order. 
+    If you're calling outside business hours, please call back soon."
+
+    
+
     #### Auto Attendant Script 1: business hours greeting
-    Thanks for calling Contoso Pizza. Please stay on the line and the next available agent will take your order.
+
+    "Thanks for calling Contoso Pizza. Please stay on the line and the next available agent will take your order."
     
     #### Auto Attendant Script 2: after-hours greeting
-    Thanks for calling Contoso Pizza.   We’re closed at this time, please call back between 11am and 11:30pm to order fresh piping hot pizza! 
 
-    #### Script 3: Call queue greeting (call queue without auto attendant)
-    Thanks for calling Contoso Pizza. If you're calling between 11 am and 11:30 pm please stay on the line and the next available agent will take your order. 
-    If you're calling outside business hours, please call back soon.
+    "Thanks for calling Contoso Pizza.   We’re closed at this time, please call back between 11am and 11:30pm to order fresh piping hot pizza!"
+
+
+    Note that we don't have a script to offer phone keypad options. Tha call will be handed from the auto attendant to the call queue without other options being offered.
+
+
  
-
-
 
 - title: Implementing a call queue (with or without Auto Attendants)
   durationInMinutes: 7
@@ -192,8 +202,7 @@ items:
     own prompts using [Sound Recorder](https://support.microsoft.com/en-us/help/14090/windows-sound-recorder-app-faq) 
     in Windows or have a professional voice-over artist use your scripts to record .wav files.
       
-    Your account must have Admin privileges: in the **Microsoft Teams admin center**, click **Legacy Portal** then select **Call routing** > **Call Queues**, then click **Add new**.
-    The following tables show values to enter in the user interface screen.
+    The account used for this task must have Admin privileges. The following tables show values to enter in the user interface screen.
     
     You'll need to create resource accounts for all Auto Attendants and Call Queues. 
     See [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md) for details on creating a resource account.
@@ -201,14 +210,17 @@ items:
 
     Set up the following in O365, in this order:
 
-    -  one or more [resource accounts](/microsoftteams/manage-resource-accounts) 
-    -  O365 [Call Agent Group](https://docs.microsoft.com/office365/admin/create-groups/create-groups?view=o365-worldwide)  
+    -  One or more [resource accounts](/microsoftteams/manage-resource-accounts) 
+    -  Call Agent [O365 Group](https://docs.microsoft.com/office365/admin/create-groups/create-groups?view=o365-worldwide)  
     -  Ordering call queue
     -  Contoso Pizza ordering line (optional auto attendant)
     -  Contoso Pizza Overflow Attendant (optional auto attendant)
        
     ### Call Queue implementation, without auto attendant
     
+    Create a resource account for the auto attendant, then start creating the auto attendant. Expect a delay of a few minutes after creating the resource account 
+    before it becomes available as a selection.
+
     In the **Microsoft Teams admin center**, click on **Voice** > **Call queues**, then click **+ Add new**:
 
     | Option | Setting |
@@ -223,8 +235,8 @@ items:
     |  |  | 
 
     This Call Queue is the simplest to implement, but that's at a cost: 
-    - Text to speech won't be able to provide an outgoing message you'll have to record it. 
-    - If the call queue length or wait time reaches maximum, there's no way to apologize and put the call back in the queue. The caller is abruptly hung up on, which is really not what we want to happen to a call.
+    - Text to speech won't be able to provide an outgoing message, you'll have to record it. 
+    - If the call queue length or wait time reaches maximum, there's no way to apologize for a delay and put the call back in the queue. The caller is abruptly hung up on, which is really not what we want to happen to a call.
 
 
     ### Call Queue implementation, with auto attendant
@@ -243,46 +255,47 @@ items:
     |  |  | 
 
 
-    ### Ordering Auto Attendant (Optional)
+    #### Ordering auto attendant 
 
     ![New Auto Attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
-    Create a resource account for the auto attendant, then start creating the auto attendant. 
+    Create a resource account for the auto attendant, then start creating the auto attendant. Expect a delay of a few minutes after creating the resource account 
+    before it becomes available as a selection.
 
     **Edit general info** for the main menu
 
     |   Option   | Setting      |
     |:---  |:---   |
-    | ![Number 1](../images/sfbcallout1.png) Name  |   Contoso Pizza Ordering   | 	
-    | ![Number 2](../images/sfbcallout2.png) Resource account |   |
+    | ![Number 1](../images/sfbcallout1.png) Name  |   Contoso Pizza Main Menu   | 	
+    | ![Number 2](../images/sfbcallout2.png) Resource account | MainMenu (assign the service number to this resource account)  |
     | ![Number 3](../images/sfbcallout3.png) Time Zone	| (UTC-04:00) Eastern Daylight Time (US & Canada) |
     | ![Number 4](../images/sfbcallout4.png) Language	| English (United States)  |
     | ![Number 5](../images/sfbcallout5.png) Speech Recognition	| Enabled |
     |  |  | 
      
-    Only the main menu, named *Contoso Pizza* needs an assigned Phone Number or a Company Greeting.  
+    Only the main menu, named *Contoso Pizza* needs a resource account with an assigned Phone Number or a Company Greeting.  
     
-
+    To continue, press **Next**.
 
     ![New Auto Attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
-    **Select hours of operation** for the main menu
+    **Select Business Hours** for the main menu
 
     |   Option   | Setting      |
     |:--- | :--- |
     | ![Number 1](../images/sfbcallout1.png) 24/7-Custom| Custom  |
     | ![Number 2](../images/sfbcallout2.png) Selection|  11:00am to 11:30pm, Monday-Sunday  |
     
-    The default for this screen is 24/7. 
+    The default for this screen is 24/7.  To continue, press **Next**.
 
     ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
     **Business hours call handling** for the main menu
 
-    |   Option   | Setting      |
+    | Option | Setting |
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting > Callers will hear: Copy/paste Script 1 above  |
-    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Redirect call  to  |
+    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Redirect call  to Contoso Pizza Ordering |
     | ![Number 4](../images/sfbcallout4.png) Dial By Name  | Enabled   |
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
     |  |   |
