@@ -19,7 +19,7 @@ description: Microsoft Teams Patient App EHR integration
 
 Microsoft Teams is developing features specific to healthcare organizations to help healthcare organizations and providers meet their ultimate goal of providing the best patient care.
 
-\<Insert image of all 3 areas powered by security and compliance and EHR integration>
+![EHR integration](../media/ehr-1.png)
 
 One of the key investment pillars for Microsoft Teams in healthcare is care team collaboration and coordination. The solution gives healthcare teams a secure hub for coordinating care across multiple patients. It provides for integration with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The key challenges that we aim to address are:
 
@@ -43,7 +43,7 @@ Currently Microsoft Teams has partnerships with the following healthcare partner
 - Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
 - Dapasoft (through [Corolar on FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
 
-\<insert good quality, high-res images of the Microsoft Teams patients app>
+![Patients app screenshot](../media/ehr-2.png)
 
 This article describes the as-is FHIR integration interface of the Microsoft Teams Patients App, a first-party app built by Microsoft to enable Inter-disciplinary team meetings (IDTs), multi-disciplinary team meetings (MDTs) and other patient rounding scenarios within the broader care coordination and collaboration space. 
 
