@@ -1,9 +1,9 @@
 ---
-title: Calling policy in Microsoft Teams
+title: Calling policies in Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-Calling policy in Microsoft Teams
+Calling policies in Microsoft Teams
 ==========================================
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or  simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to Call Groups, use delegation for inbound and outbound calls, and so on. A default global policy is created automatically, but admins can also create and assign custom calling policies.
@@ -36,6 +36,15 @@ In Microsoft Teams, calling policies control which calling and call forwarding f
 |Allow delegation for inbound and outbound calls | Enables inbound calls to be routed to delegates; allows delegates to make outbound calls on behalf of the users for whom they have delegated permissions. |
 |Prevent toll bypass and send calls through the PSTN | Setting this to **On** will send calls through PSTN and incur charges rather than going through the network and bypassing the tolls. |
 |Busy on Busy is available while in a call.| Configures how incoming calls are handled when a user is already in a call or conference. New or incoming calls can be rejected with a busy signal. |
+
+### Busy options (Busy on Busy setting)
+
+Busy options is a new setting in the Teams calling policies that allows you to configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at a tenant level or at a user level. 
+
+Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences.
+
+You can use the Busy on busy setting in Calling policy settings to configure busy options or you can use the **EnableBusyOnBusy** setting in the Set-CsTeamsCallingPolicy PowerShell cmdlet. This setting is disabled by default. For more information, go to [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps
+).
 
 ## Create a custom calling policy
 
