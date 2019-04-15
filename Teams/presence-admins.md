@@ -59,7 +59,6 @@ The following Admin settings in Skype for Business are different in Teams:
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.
 - The *Last seen* or *Away since* (if in a dual environment with Skype for Business) indicator is always enabled for users in Teams.
-- Setting a custom presence status is not enabled for users in Teams.
 
 > [!NOTE]
 > The ability of a Teams Admin to customize these settings is not currently supported.

@@ -30,13 +30,13 @@ The purpose of co-existence modes is to provide a simple, predictable experience
 When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.   
 
 ## How the available functionality in Teams client changes based on mode
-The available functionality in Teams dependes on the user's coexistence mode, as set by TeamsUpgradePolicy. The table below summarizes the  behavior:
+The available functionality in Teams depends on the user's coexistence mode, as set by TeamsUpgradePolicy. The table below summarizes the  behavior:
 
 |User's effective mode|Experience in Teams client|
 |---|---|
-|Any Skype for Business mode|Calling and Chat<sup>1</sup> are disabled.|
+|Any Skype for Business mode|Calling and Chat are disabled.|
 |SfBWithTeamsCollabAndMeetings|Meeting scheduling is available|
-|SfBWithTeamsCollab or SfBOnly<sup>2</sup>|Meeting scheduling is not available|
+|SfBWithTeamsCollab or SfBOnly<sup>1</sup>|Meeting scheduling is not available|
 |||
 
 The following screenshots illustrate the difference between TeamsOnly or Islands mode and all other modes. Note that the chat and calling icons are available with TeamsOnly or Islands mode (left screenshot), but not with the other modes (right screenshot):
@@ -45,10 +45,8 @@ The following screenshots illustrate the difference between TeamsOnly or Islands
 
 
  
-**Notes:**
-<sup>1</sup> Meeting chat is still available.
-
-<sup>2</sup> For now, SfBwithTeamsCollab and SfBOnly behave the same, but the intent is for SfBOnly mode to also disable Channels and Files functionality in Teams; however, there is currently no setting that allows this functionality in Teams to be disabled.
+**Note:**
+<sup>1</sup> For now, SfBwithTeamsCollab and SfBOnly behave the same, but the intent is for SfBOnly mode to also disable Channels and Files functionality in Teams; however, there is currently no setting that allows this functionality in Teams to be disabled.
 
 
 ## Impact of Mode on other policy settings
@@ -70,7 +68,7 @@ Administrators need *not* explicitly set these policy settings when using co-exi
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-In the near future, the `Grant-CsTeamsUpgradePolicy` cmdlet will check the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings will be superceded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. Below is an example of what the PowerShell warning  looks like:
+When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superceded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. Below is an example of what the PowerShell warning looks like:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

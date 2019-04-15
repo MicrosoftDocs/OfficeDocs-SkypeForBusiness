@@ -55,6 +55,9 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     If you want to add a new emergency location that will appear on the list, see [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## Related topics
+
+[Assign an emergency response locations via powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
 [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -66,6 +69,8 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Set-CsOnlineVoiceUser cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  

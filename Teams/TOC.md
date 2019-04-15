@@ -61,6 +61,7 @@
 ### [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
+### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -101,6 +102,7 @@
 #### [Install Teams using MSI](msi-deployment.md)
 #### [Turn on Teams in your organization](Office-365-set-up.md)
 #### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+#### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 #### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 
 ### Licensing
@@ -144,7 +146,7 @@
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
-
+### [Audio Conferencing subscription “Dial-Out”/“Call Me At” benefit](audio-conferencing-subscription-dial-out.md)
 
 ### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -324,6 +326,7 @@
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
 
 ## [Calling Plans](calling-plan-landing-page.md)
@@ -482,6 +485,7 @@
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Belgium](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [Bosnia & Herzegovina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 #### [Brazil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
@@ -546,7 +550,7 @@
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
@@ -634,8 +638,9 @@
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Firstline Worker features coming soon to Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Manage the Shifts app for your organization in Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
@@ -700,7 +705,7 @@
 
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](support-resources.md)
+### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
