@@ -61,6 +61,6 @@ You may have multiple approaches to solving these problems. We advise you to con
 
 ## See also
   
-[Device Configuration: Create New or Edit Existing](../../Skype/SfbServer/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[Device Configuration: Create New or Edit Existing](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[Managing Quality of Service](../../Skype/SfbServer/plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[Managing Quality of Service](/skypeforbusiness/plan-your-deployment/network-requirements/network-requirements.#managing-quality-of-service)
