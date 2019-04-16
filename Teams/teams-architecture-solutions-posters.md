@@ -20,7 +20,7 @@ description: "Summary: Learn about the logical architecture of productivity serv
 # Microsoft Teams IT architecture and telephony solutions posters
 
 ## Teams as part of Microsoft 365
-The logical architecture of productivity services in Microsoft 365, leading with Teams.
+Teams is central to the logical architecture of productivity services in Microsoft 365.
 
 |**Item**|**Description**|
 |:-----|:-----|
@@ -28,11 +28,10 @@ The logical architecture of productivity services in Microsoft 365, leading with
 
 
 ## Groups in Microsoft 365
-What IT architects need to know about groups in Microsoft 365.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for groups infographic](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
+|[![Thumb image for groups infographic](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |What IT architects need to know about groups in Microsoft 365. <br/> <br/>These illustrations detail the different types of groups, how they're created and managed, and a few governance recommendations.|
 
 
 ## Microsoft telephony solutions
