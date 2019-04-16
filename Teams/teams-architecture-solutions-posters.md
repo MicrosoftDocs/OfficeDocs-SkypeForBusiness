@@ -20,7 +20,7 @@ description: "Summary: Learn about the logical architecture of productivity serv
 # Microsoft Teams IT architecture and telephony solutions posters
 
 ## Teams as part of Microsoft 365
-The logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams.
+The logical architecture of productivity services in Microsoft 365, leading with Teams.
 
 |**Item**|**Description**|
 |:-----|:-----|
