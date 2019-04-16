@@ -75,6 +75,9 @@
 
 
 ## Reference
+
+### [Teams IT architecture and telephony solutions](teams-architecture-solutions-posters.md)
+
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
@@ -85,7 +88,7 @@
 #### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 #### [Plan for governance in Teams](plan-teams-governance.md)
 
-### [Teams IT architecture and solutions posters](teams-architecture-solutions-posters.md)
+
 
 
 ### Interoperability with Office 365
