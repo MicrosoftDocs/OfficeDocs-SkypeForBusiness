@@ -76,8 +76,6 @@
 
 ## Reference
 
-### [Teams IT architecture & telephony solutions posters](teams-architecture-solutions-posters.md)
-
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
@@ -680,6 +678,8 @@
 
 
 # Reference
+
+## [Teams IT architecture & telephony solutions posters](teams-architecture-solutions-posters.md)
 
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
