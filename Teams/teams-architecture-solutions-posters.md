@@ -29,7 +29,7 @@ Teams is central to the logical architecture of productivity services in Microso
 
 ## Groups in Microsoft 365
 
-|**Item**|**Description**|
+|||
 |:-----|:-----|
 |[![Thumb image for groups infographic](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |What IT architects need to know about groups in Microsoft 365. <br/> <br/>These illustrations detail the different types of groups, how they're created and managed, and a few governance recommendations.|
 
@@ -41,7 +41,7 @@ Microsoft supports several options as you begin your journey to Teams in the Mic
 ![Thumbnail for Microsoft Telephony Solutions poster](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
 
-For more information, see the article for this poster: [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+For more information, see the article for this poster: [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
   
    
 ## See Also
