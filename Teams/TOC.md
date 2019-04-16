@@ -61,6 +61,7 @@
 ### [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
+### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -325,6 +326,7 @@
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
 
 ## [Calling Plans](calling-plan-landing-page.md)
@@ -548,7 +550,7 @@
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
-### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)

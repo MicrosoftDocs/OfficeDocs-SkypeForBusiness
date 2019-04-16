@@ -61,7 +61,7 @@ If the user has direct access to the public IP address of the SBC, the call flow
 
 The following diagram shows call flow when media bypass is enabled, the client is internal, and the client can reach the public IP address of the SBC (direct media): 
 
-- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams Online Call Flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) document.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
 - The SIP signaling always takes paths 4 and 4’ (depending on the direction of the traffic). Media stays local and takes path 5b.
 
@@ -82,7 +82,7 @@ For example, assume the user is external, and the tenant administrator decided n
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
-- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams Online Call Flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) document.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
 - Media is relayed via paths 3, 3', 4 and 4'
 
@@ -96,7 +96,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client can reach the public IP address of the SBC (direct media).
 
-- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams Online Call Flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) document.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
 - The SIP signaling always takes paths 3 and 3’ (depending on the direction of the traffic). Media flows using path 2.
 
@@ -120,7 +120,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
 
-![Shows shows two call flows – one with Media Bypass enabled and the second with Media Bypass disabled)](media/direct-routing-media-bypass-6.png)
+![Shows two call flows – one with Media Bypass enabled and the second with Media Bypass disabled)](media/direct-routing-media-bypass-6.png)
 
 
 The table below summarizes the difference between Media Processors and Transport Relays.
