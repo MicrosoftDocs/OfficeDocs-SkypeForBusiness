@@ -76,7 +76,7 @@
 
 ## Reference
 
-### [Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md)
+### [Teams IT architecture & telephony solutions posters](teams-architecture-solutions-posters.md)
 
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
