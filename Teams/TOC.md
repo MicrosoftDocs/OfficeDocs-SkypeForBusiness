@@ -85,6 +85,8 @@
 #### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 #### [Plan for governance in Teams](plan-teams-governance.md)
 
+### [Teams IT architecture and solutions posters](teams-architecture-solutions-posters.md)
+
 
 ### Interoperability with Office 365
 #### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
