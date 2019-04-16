@@ -3,7 +3,7 @@ title: Manage Microsoft Teams settings for your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/16/2019
+ms.date: 04/15/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
