@@ -28,7 +28,7 @@ The logical architecture of productivity services in Microsoft 365, leading with
 
 
 ## Groups in Microsoft 365
-What IT architects need to know about groups in Microsoft 365
+What IT architects need to know about groups in Microsoft 365.
 
 |**Item**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ Microsoft supports several options as you begin your journey to Teams in the Mic
 ![Thumbnail for Microsoft Telephony Solutions poster](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
 
-For more information, see the article for this poster: [Microsoft Telephony Solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+For more information, see the article for this poster: [Microsoft telephony solutions](../SkypeForBusiness/hybrid/msft-telephony-solutions).
   
    
 ## See Also
