@@ -63,6 +63,43 @@ f1keywords:
                                 </div>
                             </a>
                             </li>
+                           <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
+                                <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Expand Teams across your org</h3>
+                                                <P>verticals TOC - lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li> 
+                            <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>End user Teams help</h3>
+                                                <P>Link to SOC/MicrosoftTeams lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li>
                             <li>
                                 <a href="https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                 <div class="cardSize">
@@ -163,43 +200,6 @@ f1keywords:
                                         </a>
                                     </li>
                               </ul>
-                            </li>
-                           <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
-                                <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Expand Teams across your org</h3>
-                                                <P>verticals TOC - lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li> 
-                            <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>End user Teams help</h3>
-                                                <P>Link to SOC/MicrosoftTeams lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
                             </li>
                        </ul>
                     </li>
