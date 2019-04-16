@@ -58,7 +58,7 @@
 ## [External access (federation)](manage-external-access.md)
 
 ## [Manage Teams](using-admin-roles.md)
-### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams settings for your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Manage the free version of Teams](manage-freemium.md)
