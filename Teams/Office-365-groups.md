@@ -27,7 +27,7 @@ Office 365 Groups is the cross-application membership service in Office 365. At 
 
 An Office 365 administrator can define an Office 365 Group, add members, and benefit from features such as an Exchange shared mailbox, SharePoint document library, Yammer Group, and so on. For more information about Office 365 Groups, see [Learn about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-Don't miss the poster [Groups in Microsoft 365 for IT Architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#groups-in-microsoft-365-for-it-architects)
+Don't miss the poster [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
 How Office 365 Groups work
 --------------------------

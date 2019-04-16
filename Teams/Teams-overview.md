@@ -24,7 +24,7 @@ If you're new to Teams and want to learn more, read on.
 
 ## Overview of Teams
 
-If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this poster: [Teams and related productivity services in Microsoft 365 for IT architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#groups-in-microsoft-365-for-it-architects)
+If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this poster: [Teams as part of Microsoft 365 for IT architects](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
@@ -33,11 +33,11 @@ When you create a team, here's what gets created:
 - A OneNote notebook
 - Ties into other Office 365 apps such as Planner and Power BI
 
-When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To learn more, check out this poster: [Groups in Microsoft 365 for IT Architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#groups-in-microsoft-365-for-it-architects)
+When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To learn more, check out this poster: [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Don't [org-wide teams](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
+Don't miss [org-wide teams](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
 
-To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
+To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
