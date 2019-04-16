@@ -4,7 +4,7 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 04/16/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
@@ -26,6 +26,8 @@ Office 365 Groups and Microsoft Teams
 Office 365 Groups is the cross-application membership service in Office 365. At the basic level, an Office 365 Group is an object in Azure Active Directory with a list of members and a loose coupling to related workloads including a SharePoint team site, Yammer Group, shared Exchange mailbox resources, Planner, Power BI and OneNote. You can add or remove people to the group just as you would any other group-based security object in Active Directory.
 
 An Office 365 administrator can define an Office 365 Group, add members, and benefit from features such as an Exchange shared mailbox, SharePoint document library, Yammer Group, and so on. For more information about Office 365 Groups, see [Learn about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+
+Don't miss the poster [Groups in Microsoft 365 for IT Architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#groups-in-microsoft-365-for-it-architects)
 
 How Office 365 Groups work
 --------------------------

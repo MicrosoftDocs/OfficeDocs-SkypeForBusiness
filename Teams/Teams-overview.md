@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/16/2019
 ms.reviewer: LolaJ
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Office 365.
 localization_priority: Priority
@@ -24,14 +24,18 @@ If you're new to Teams and want to learn more, read on.
 
 ## Overview of Teams
 
-If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
+If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this poster: [Teams and related productivity services in Microsoft 365 for IT architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#groups-in-microsoft-365-for-it-architects)
+
+When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
 - A [SharePoint Online](sharepoint-onedrive-interact.md) site and document library to store team files
 - An [Exchange Online](exchange-teams-interact.md) shared mailbox and calendar
 - A OneNote notebook
 - Ties into other Office 365 apps such as Planner and Power BI
 
-When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. Don't miss the new [org-wide team](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
+When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To learn more, check out this poster: [Groups in Microsoft 365 for IT Architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#groups-in-microsoft-365-for-it-architects)
+
+Don't [org-wide teams](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
 
 To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
@@ -41,9 +45,10 @@ To customize and extend Teams, add third-party apps through [apps, bots, & conne
 ## Managing Teams
 
 As the admin, you'll manage Teams through the Microsoft Teams admin center. To learn more:
+- [Use Teams admin roles to manage Teams](using-admin-roles.md)
 - [Manage Teams in the Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 - [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-in-modern-portal.md)
-
+- [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
 
 To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 
