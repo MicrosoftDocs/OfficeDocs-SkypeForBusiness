@@ -120,7 +120,7 @@ f1keywords:
                             </a>
                             </li> 
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
+                                <a href="https://support.office.com/Teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
