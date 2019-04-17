@@ -17,7 +17,6 @@ MS.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
-- Skype for Business Online
 ---
 
 Upgrade Microsoft Teams free to Office 365 subscription version
@@ -90,4 +89,5 @@ After your upgrade is complete, see [Get started with Microsoft Teams](get-start
 - To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
 - For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - For additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+- For information about managing Teams free in your organization, see [Manage the free version of Microsoft Teams](manage-freemium.md).
 
