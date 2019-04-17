@@ -53,4 +53,5 @@ Microsoft Teams integrates with Firstline Worker, which can be used to coordinat
  See the following articles:
 
 - [Move your Microsoft StaffHub teams to Shifts in Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
 - [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
