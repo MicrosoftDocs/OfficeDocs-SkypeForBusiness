@@ -47,33 +47,35 @@ Use the steps in this article when:
 
 You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Teams admin center**
   
 1. Sign in with your Office 365 admin account. 
     
-2. In the Office 365 admin center, go to **Admin Centers** > **Skype for Business**.
+2. In the Office 365 admin center, go to **Admin Centers** > **Teams**.
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![Choose the Teams Admin.](../images/MS-Teams-Admin.png)
   
-3. In the **Skype for Business admin center**, choose **Organization** > **External communications**.
-    
-4. To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.
+3. In the **Teams center**, choose **Skype** > **Legacy Portal** 
+ ![Choose the SfB Legacy Portal.](../images/SFBlegacy-size65.png)
+ 
+4. In the **Skype for Business admin center** , choose **Organization** > **External communications**.
+5. To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.
     
     OR, if you want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. This is the default setting.
     
-5. Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.
+6. Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow.
     
-6. Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**. For example, in their **allowed domains** list, their admin needs to enter the domain for your business.
+7. Make sure the admin in the other organization does these same steps in their **Skype for Business admin center**. For example, in their **allowed domains** list, their admin needs to enter the domain for your business.
     
-7. If you're using Windows Firewall, Skype for Business opens the required ports automatically.
+8. If you're using Windows Firewall, Skype for Business opens the required ports automatically.
     
     If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**. For instructions on how to open these ports in your firewall, check the documentation that came with it.
     
     For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
-8. Make sure that the administrator in the organization has also followed these steps.
+9. Make sure that the administrator in the organization has also followed these steps.
     
-9. **WAIT UP TO 24 HOURS TO TEST**. Any time you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.
+10. **WAIT UP TO 24 HOURS TO TEST**. Any time you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.
     
 ![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
   
