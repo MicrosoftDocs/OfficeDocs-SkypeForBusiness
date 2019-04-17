@@ -23,7 +23,7 @@ f1keywords:
 
 # Manage app setup policies in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including ones built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
 
@@ -49,11 +49,12 @@ You can use the Microsoft Teams admin center to create a custom policy.
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy, and then click **Add apps**.
-4. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
+4. Turn on or turn off **Allow uploading custom apps**, depending on whether you want to let users upload custom apps to Teams.
+5. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
 
      ![app-setup-policies-add-apps.png](media/app-setup-policies-add-apps.png)
 
-5. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
+6. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
 
     ![app-setup-policies-new-policy-setup.png](media/app-setup-policies-new-policy-setup.png)
 

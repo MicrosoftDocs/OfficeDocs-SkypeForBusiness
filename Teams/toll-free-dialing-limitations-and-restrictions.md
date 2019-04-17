@@ -34,8 +34,9 @@ If you're ready, select a country or region:
 
 > [!div class="op_single_selector"]    
 > - [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
-> - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 > - [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Belgium](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [Bosnia and Herzegovina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [Brazil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)

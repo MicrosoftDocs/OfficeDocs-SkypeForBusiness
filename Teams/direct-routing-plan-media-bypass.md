@@ -42,7 +42,7 @@ But let's assume that a user is in the same building or network as the SBC. For 
 
 ![Shows signaling and media flow with media bypass](media/direct-routing-media-bypass-2.png)
 
-Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE light on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE light are WebRTC standards. For detailed information about these protocols, see RFC 5245.
+Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE light on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
 
 
 ## Call flow and firewall planning
@@ -61,7 +61,7 @@ If the user has direct access to the public IP address of the SBC, the call flow
 
 The following diagram shows call flow when media bypass is enabled, the client is internal, and the client can reach the public IP address of the SBC (direct media): 
 
-- The arrows and numeric values of the paths are in accordance with the Microsoft Teams Online Call Flows document.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
 - The SIP signaling always takes paths 4 and 4’ (depending on the direction of the traffic). Media stays local and takes path 5b.
 
@@ -82,7 +82,7 @@ For example, assume the user is external, and the tenant administrator decided n
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
-- The arrows and numeric values of the paths are in accordance with the Microsoft Teams Online Call Flows document.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
 - Media is relayed via paths 3, 3', 4 and 4'
 
@@ -96,7 +96,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client can reach the public IP address of the SBC (direct media).
 
-- The arrows and numeric values of the paths are in accordance with the Microsoft Teams Online Call Flows document.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
 
 - The SIP signaling always takes paths 3 and 3’ (depending on the direction of the traffic). Media flows using path 2.
 
@@ -120,7 +120,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
 
-![Shows shows two call flows – one with Media Bypass enabled and the second with Media Bypass disabled)](media/direct-routing-media-bypass-6.png)
+![Shows two call flows – one with Media Bypass enabled and the second with Media Bypass disabled)](media/direct-routing-media-bypass-6.png)
 
 
 The table below summarizes the difference between Media Processors and Transport Relays.
@@ -131,7 +131,7 @@ In media path for non-bypassed calls for end users | Always | Never |
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
 In media path for voice applications | Always | Never | 
 Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints | 
-Number of instancess worldwide and location | 8 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan (being added in Q1CY2019)  | Multiple
+Number of instances worldwide and location | 8 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan (being added in Q1CY2019)  | Multiple
 
 The IP range is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254). 
 
@@ -149,7 +149,7 @@ Teams Transport Relays are always in the media path in the following scenarios:
 - Call is going to a federated Teams user
 - Call is forwarded or transferred to a Skype for Business user
 
-Enusre your SBC has access to the Transport Relays as described below.    
+Ensure your SBC has access to the Transport Relays as described below.    
 
 
 ## SIP Signaling: FQDNs and firewall ports
