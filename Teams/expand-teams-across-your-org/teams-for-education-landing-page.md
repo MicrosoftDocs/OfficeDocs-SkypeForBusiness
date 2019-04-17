@@ -27,14 +27,9 @@ Within this admin page you can turn the following features on or off to be avail
 
 
 ### Weekly guardian email digest
-Guardian emails are weekly emails sent to students' parents or guardians.
+Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
 
 This setting is off by default.
-
-The emails will be sent on (Sunday? Saturday?). (Is the time sending configurable?) 
-
-The emails will include (what information?)
-
 
 
 ### MakeCode
@@ -45,7 +40,6 @@ This is a third party product or service that is subject to its own terms and
 This setting is off by default.
 
 [Learn more about MakeCode.](https://www.microsoft.com/en-us/makecode)
-
 
 
 ### Turnitin
@@ -64,18 +58,17 @@ In order to successfully enable Turnitin for your tenant, your tenant will need 
 Here are some instructions to obtain this information.
 
 The TurnitinApiUrl is the host address of your admin console.
-![Finding the TurnItInApiUrl][./../images/Assignments_mopo_turnitin1.png]
+![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin1.png)
 
 Go to the Integrations tab and add an integration.
-![Finding the TurnItInApiUrl][./../images/Assignments_mopo_turnitin2.png]
+![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
 
 The TurnitinApiKey will be given to you after you follow the prompts. Copy this key and paste it into the Teams Admin portal. 
-![Finding the TurnItInApiUrl][./../images/Assignments_mopo_turnitin3.png]
+![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
 
+[Learn more about the integration between Turnitin and Microsoft Teams.](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
-[Learn more about the integration between TurnItIn and Microsoft Teams.](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Learn more about TurnItIn.](https://www.turnitin.com/)
+[Learn more about Turnitin.](https://www.turnitin.com/)
 
 
 
