@@ -12,7 +12,7 @@ ms.collection:
 description: "Instructions for implementing a Cloud Auto Attendant." 
 ---
 
-# Configure Cloud Auto Attendants
+# Configure Cloud Auto Attendants 
 
 Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and Cloud Auto Attendants and do not integrate with Exchange Online.
 
@@ -63,9 +63,9 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 ## Online configuration steps
 
-Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
+Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
-1. Assign Phone System licenses to the on-premise hybrid endpoints (auto attendant placeholders) as described in  [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. Assign Phone System licenses to the on-premise hybrid endpoints (auto attendant placeholders) as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) and [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 2. Use the procedures in [Set up a Phone System auto attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure, including redirects to users, to nested auto attendants, to call queues, or other valid options.  
 
@@ -120,3 +120,5 @@ At this point, if you have already migrated UM Voicemail, you should be in a pos
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md)  (to create resource accounts homed online)
