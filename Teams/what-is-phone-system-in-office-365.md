@@ -60,9 +60,9 @@ Calling Plans (domestic and domestic and international) are available in specifi
 
 ## Phone System with Services
  Phone System can aso be used for services and voicemail:
-- **Auto attendants**  Phone System in Office 365 auto attendants can be used to create a menu system for your organization that lets external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization. See [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+- **Auto attendants**  Phone System in Office 365 auto attendants can be used to create a menu system for your organization that lets external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
 
-- **Call queues**  With Phone System, you can create call queue greetings that are used when someone calls in to a phone number for your organization; this includes the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Call queues**  With Phone System, you can create call queue greetings that are used when someone calls in to a phone number for your organization; this includes the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 - **Voicemail** When you get a Phone System license for a user, that user will be able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
