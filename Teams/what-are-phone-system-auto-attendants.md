@@ -194,7 +194,7 @@ The operator can be set to:
 - A Microsoft Teams user or a Skype for Business on premise user that is Enterprise Voice-enabled.
   
 - Another auto attendant that's set up for your organization.
-- Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ### Business hours and call handling
 
@@ -207,7 +207,7 @@ Each auto attendant has call-handling options that can be set:
   - Redirect the call to a Microsoft Teams user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person's calls to be automatically forwarded directly to voicemail.
 
   
-  - Redirect the call to a call queue. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+  - Redirect the call to a call queue. To see more about call queues, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Redirect the call to another auto attendant that you have set up.
 - Create menu options and play a menu prompt for the person calling. For example: "Press 1 for Sales, Press 2 for Services. To speak to the operator, press 0 at any time."
