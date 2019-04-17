@@ -72,23 +72,28 @@ Once you've created the resource account and assigned the license, you can click
 
 For Microsoft calling plans, you can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or ported from another service provider to a resource account. To get and use toll-free service numbers, you need to set up Communications Credits.
 
-Depending on whether your phone number is located online or on premises, you would need to connect to the appropriate Powershell prompt with Admin privileges.
+Depending on whether your phone number is located online or on premises, you would need to connect to the appropriate Powershell prompt with Admin privileges. The following Powershell cmdlet examples presume the resource account is homed online, for resource accounts homed on-premises in Skype For Business Server 2019 that can be used with Cloud call queues and Cloud auto attendants, see [Configure Cloud call queues](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md) or [Configure Cloud Auto Attendants](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md).
 
-
-- Hybrid implementations (numbers homed on Direct Routing) will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to create a resource account that is homed on premises.  
+- Hybrid implementations (numbers homed on Direct Routing) will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to create a resource account that is homed on premises in Skype For Business Server 2019.  
 - Online only implementations will use [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) to have a resource account that is homed online.
 
-The following is an online environment example of creating resource account with an auto attendant ApplicationID. For a call queue, you can use the following ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
-
-``` Powershell
-New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
-```
-
-See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+The application ID's that you need to use while creating the application instances are:
+- **Auto Attendant:** ce933385-9390-45d1-9512-c8d228074e07
+- **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> It's easiest to set the online phone number using the Microsoft Teams admin center, as described in the next section. You can also use the `Set-CsOnlineVoiceApplicationInstance` command to a assign a phone number to the resource account after its initial creation as shown:
+> If you want your application to be searchable by on-premise users, you should create your resource accounts on-premise, since online resource accounts are not synced down to Active Directory.
+
+The following is an online environment example of creating resource account with an auto attendant ApplicationID.
+
+``` Powershell
+New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1" -TelephoneNumber +14255550100
+$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
+```
+The next example sets a phone number for an existing resource account. Not all resource accounts will require a phone number.
+
+> [!NOTE]
+> It's easiest to set the online phone number using the Microsoft Teams admin center, as described previously.
 
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
