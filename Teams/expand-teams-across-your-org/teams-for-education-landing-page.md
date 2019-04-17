@@ -10,67 +10,14 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
 - Microsoft Teams
 ---
 
 # Teams for Education
 
-With Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, and communicate with school staff. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your institution.  
-
-## Assignments Admin Portal Settings
-Assignments are tasks or units of work assigned to a student or team member in a class as part of their study. You can create Assignments within your Teams class.
-
-[Learn more about Assignments.](https://support.office.com/en-ie/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
-
-Within this admin page you can turn the following features on or off to be available for students and teachers within your tenant. The following are settings related to Assignments.
-
-
-### Weekly guardian email digest
-Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
-
-This setting is off by default.
-
-
-### MakeCode
-MakeCode is a block-based coding platform that brings computer science to life for all students. 
-
-This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
-
-This setting is off by default.
-
-[Learn more about MakeCode.](https://www.microsoft.com/en-us/makecode)
-
-
-### Turnitin
-
-Turnitin is a plagiarism detection service. 
-
-This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
-
-This setting is off by default.
-
-In order to successfully enable Turnitin for your tenant, your tenant will need to already have a Turnitin subscription. You will need to input the following additional information, which can be found in your Turnitin admin console:
-
-  * _TurnitinApiKey_: a 32-character GUID found in the admin console under Integrations
-  * _TurnitinApiUrl_: the HTTPS URL of your Turnitin admin console
-
-Here are some instructions to obtain this information.
-
-The TurnitinApiUrl is the host address of your admin console.
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin1.png)
-
-Go to the Integrations tab and add an integration.
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
-
-The TurnitinApiKey will be given to you after you follow the prompts. Copy this key and paste it into the Teams Admin portal. 
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
-
-[Learn more about the integration between Turnitin and Microsoft Teams.](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Learn more about Turnitin.](https://www.turnitin.com/)
-
-
+With Teams, teachers and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and teachers. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
 
 <ul class="panelContent cardsFTitle">
     <li>
