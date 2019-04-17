@@ -107,7 +107,7 @@ See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell
 
 ## Manage Resource account settings in Microsoft Teams admin center
 
-To manage Resource account settings in Microsoft Teams admin center, navigate to **Org-wide settings**  > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change the:
+To manage Resource account settings in Microsoft Teams admin center, navigate to **Org-wide settings**  > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change these settings:
 
 - **Display name** for the account
 - Call queue or auto attendant that uses the account
