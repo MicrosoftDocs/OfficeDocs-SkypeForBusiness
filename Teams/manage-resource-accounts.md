@@ -60,13 +60,24 @@ To assign a phone number to a resource account, you will need to get or port you
 
 ## Create a resource account in Microsoft Teams admin center
 
-To create a resource account  in Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**, then click **+ Add**. In the pop-up, fill out the display name and user name for the resource account (the domain name should populate automatically) then click **Save**.
+In Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**. 
+
+![asd](media/r-a-master.png)
+
+![number 1](media/sfbcallout1.png)
+
+To create a new resource account click **+ New account**. In the pop-up, fill out the display name and user name for the resource account (the domain name should populate automatically) then click **Save**.
 
 ![resource account](media/res-acct.png)
 
-You will also need to apply a license to the resource account, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
+Next, you will  need to apply a license to the resource account, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a phone number to the resource account, or assign the resource account to an auto attendant or call queue.
+![number 3](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a phone number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
+
+![resource account assign](media/r-a-assign.png)
+
+![number 2](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option.  Click **Save** when you are done.
+![edit resource account](media/r-a-edit.png)
 
 ## Create a resource account in Powershell
 
