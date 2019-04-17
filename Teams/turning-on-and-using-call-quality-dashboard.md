@@ -95,6 +95,7 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |:-----|:-----|:-----|
 |Application sharing metric  <br/> |No  <br/> |Yes  <br/> |
 |Customer building information support  <br/> |Yes  <br/> |Yes  <br/> |
+|Customer endpoint information support  <br/> |Only in cqd.teams.windows.com  <br/> |Yes  <br/> |
 |Drill-down analysis support  <br/> |No  <br/> |Yes  <br/> |
 |Media reliability metrics  <br/> |No  <br/> |Yes  <br/> |
 |Out-of-the-box reports  <br/> |Yes  <br/> |Yes  <br/> |
@@ -183,14 +184,14 @@ In the Summary and Location Enhanced Reports, you can use the **Product Filter**
   
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
-## Upload Building information
-<a name="BKMKBuildingInformationUpload"></a>
+## Upload Tenant Data information
+<a name="BKMKTenantDataInformationUpload"></a>
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, etc.
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, mapping of Endpoint to Endpoint Make/Model/Type, etc.
   
 ![CQD Dashboard](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information). Currently we are only supporting the "Building" data type. A few more data types will be added with subsequent releases.
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type…information). Currently we support upload “Building” and “Endpoint” data types for cqd.teams.microsoft.com(in preview stage and not officially available yet), cqd.lync.com only supports upload "Building" data type. A few more data types will be added with subsequent releases.
     
 2. After selecting the file data type, click **Browse** to choose a data file.
     
@@ -214,9 +215,10 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     
      ![CQD My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### Tenant data file format and Building data file structure
+### Tenant data file format and structure
 <a name="BKMKTenantDataFile"> </a>
 
+### Building data file
 The format of the data file you upload must meet the following to pass the validation check before uploading.
   
 - The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
@@ -248,7 +250,35 @@ The format of the data file you upload must meet the following to pass the valid
    
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive. 
-  
+
+### Endpoint data file
+The format of the data file you upload must meet the following to pass the validation check before uploading.
+
+- The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
+
+- The content of the data file doesn't include table headers. That means the first line of the data file should be real data, not headers like "EndpointName," etc.
+
+- For each column, the data type can only be String and it should have no more than 64 chars, which is maximum allowed length.
+
+- For each column, the data can be empty (but still must be separated by an appropriate delimiter (i.e., a tab or comma). This just assigns that field an empty string value.
+
+- There must be 7 columns for each row and the columns must be in the order listed in the following table.
+
+- EndpointName must be unique otherwise upload will fail due to duplicate row as it will cause incorrect joining.
+
+-  EndpointLabel1, EndpointLabel2, EndpointLable3 are user customizable labels, they can be empty strings or value users prefer such as “IT Department designated 2018 Laptop”, “Asset Tag 5678” …etc.
+
+|**Column Name**|**Data type**|**Example**|
+|:-----|:-----|:-----|
+|EndpointName  <br/> |String  <br/> |1409W3534  <br/> |
+|EndpointMake  <br/> |String  <br/> |Fabrikam Inc  <br/> |
+|EndpointModel  <br/> |String  <br/> |Fabrikam Model 123  <br/> |
+|EndpointType   <br/> |String  <br/> |Laptop  <br/> |
+|EndpointLabel1  <br/> |String  <br/> |IT designated 2018 Laptop  <br/> |
+|EndpointLabel2  <br/> |String  <br/> |Asset Tag 5678  <br/> |
+|EndpointLabel3  <br/> |String  <br/> |Purchase 2018   <br/> |
+
+
 ## Selecting media type in detailed reports
 <a name="BKMKMediaType"></a>
 
