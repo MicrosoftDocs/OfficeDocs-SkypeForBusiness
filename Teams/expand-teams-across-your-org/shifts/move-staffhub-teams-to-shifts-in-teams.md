@@ -155,7 +155,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 
 Here's an example of the response.
 
-For any team that has already moved over to Teams or already existed in Teams the jobId will be "null" as a job doesn't need to be submitted to move that team.
+For any team that already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -172,7 +172,7 @@ Run the following to get a list of all StaffHub team Ids in your organization.
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-From the results returned by the `Get-StaffHubteamsForTenant` cmdlet you ran earlier you can then select which Team Ids you want to move and add them to a  a comma-separated values (CSV) file.
+In the results returned by the `Get-StaffHubteamsForTenant` cmdlet you ran earlier, select the Team Ids you want to move, and then add them to a comma-separated values (CSV) file.
 
 Here's an example of how the CSV file should be formatted.
 
@@ -180,7 +180,7 @@ Here's an example of how the CSV file should be formatted.
 |---------|
 |TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
 
-After creating the CSV file you can run the following to move the teams you specified in the CSV file.
+After you create the CSV file, run the following to move the teams you specified in the CSV file.
 
 ```
 Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
