@@ -102,7 +102,6 @@ f1keywords:
                             </a>
                             </li>
                            <li>
-                            <li>
                                 <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
