@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-
+# [Teams IT architecture & telephony solutions posters](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -678,8 +678,6 @@
 
 
 # Reference
-
-## [Teams IT architecture & telephony solutions posters](teams-architecture-solutions-posters.md)
 
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
