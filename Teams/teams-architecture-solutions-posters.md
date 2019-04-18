@@ -20,7 +20,7 @@ description: "Summary: Learn about the logical architecture of productivity serv
 # Microsoft Teams IT architecture and telephony solutions posters
 
 ## Teams as part of Microsoft 365
-Teams is central to the logical architecture of productivity services in Microsoft 365. Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. 
+Teams is central to the logical architecture of productivity services in Microsoft 365 - including data governance, security, and compliance capabilities. 
 
 This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Teams.
 
