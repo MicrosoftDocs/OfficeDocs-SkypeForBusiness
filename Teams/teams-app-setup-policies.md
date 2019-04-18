@@ -41,7 +41,7 @@ You can edit the settings in the global policy to include the apps that you want
 ![app-setup-policies.png](media/app-setup-policies.png)
 
 > [!NOTE]
-> If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on the Teams clients.
+> If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
 
 ## Create a custom app setup policy
 
