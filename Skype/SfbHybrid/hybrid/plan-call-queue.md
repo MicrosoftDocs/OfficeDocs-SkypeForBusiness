@@ -18,14 +18,14 @@ The call queue service used with Exchange Unified Messaging (Exchange Server 201
 
 This inherently means that you will have a hybrid implementation of Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
 
-A Phone System call queue can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and when reached it can play that message and then place the caller on hold,  while it searches for an available agent to answer. You can associate a call queue's redirection of a call with call agents in mail-enabled distribution lists and security groups. Your organization can have one or many call queues. Call queues are usually used in combination with auto attendants.
+A Cloud call queue can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and when reached it can play that message and then place the caller on hold,  while it searches for an available agent to answer. You can associate a call queue's redirection of a call with call agents in mail-enabled distribution lists and security groups. Your organization can have one or many call queues. Call queues are usually used in combination with auto attendants.
 
-In addition, Phone System call queues can provide:
+In addition, Cloud call queues can provide:
 
 - Music while callers are waiting on hold
 - Customized settings for call queue maximum size, timeout, and call handling options
 
-Each call queue is assigned a resource account on your Skype for Business Server 2019 system that is linked directly to a call queue in the Microsoft Teams admin center. See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) for more detail on what call queues are and what options and features exist for call queues.
+Each call queue is assigned a resource account on your Skype for Business Server 2019 system that is linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
 > You are now able to link multiple inbound phone numbers to a single Cloud call queue.
@@ -109,9 +109,9 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Enable custom prompt recording using the telephone user interface](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
-[Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
