@@ -108,7 +108,7 @@ When you select an existing policy on the **Meeting policies** page or select **
    - **Automatically admit people** Determines what types of participants will automatically be added to meetings organized by this user. Set this to **Everyone in your organization** if you would like meetings to place every external user in the lobby but allow all users in the company to join the meeting immediately. Set this to **Everyone** if you'd like to admit anonymous users by default. Set this to **Everyone in your organization and federated organizations** if you would like meetings to allow federated users to join like your company's users, but place all other external users in a lobby.
    - **Allow dial-in users to bypass the lobby** You can turn on or off if you want to let people who dialed in using their phone to bypass the lobby and join the meeting.
    - **Allow organizers to override lobby settings** Turn this setting on to let meeting organizers disregard the lobby settings to admit users to meetings.
-   - **Allow Meet now in private meeetings** Turn this setting on to allow meeting attendees to meet privately via chat before the meeting begins. 
+   - **Allow Meet now in private meetings** Turn this setting on to allow meeting attendees to meet privately via chat before the meeting begins. 
    - **Enable live captions** Enable this setting to display captions in supported languages during a meeting. 
    - **Allow chat in meetings** Enable this setting to permit chats during a meeting. This is helpful if users have questions or want to insert a hyperlink or note during a discussion, but they don't want to interrupt the conversation.
 
