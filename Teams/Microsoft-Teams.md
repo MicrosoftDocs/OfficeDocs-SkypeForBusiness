@@ -154,7 +154,7 @@ f1keywords:
                                         </div>
                                         <div class="cardText">
                                             <h3>Teams tech community</h3>
-                                            <p>Join the Teams tech community to ask questions &amp; get answers, and read the Teams blog</p>
+                                            <p>Join the Teams tech community to ask questions &amp; get answers, and to read the Teams blog</p>
                                         </div>
                                     </div>
                                 </div>
