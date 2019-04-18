@@ -3,8 +3,8 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams technical documentation
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: lolaj
+author: lolajacobsen
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority
@@ -101,7 +101,7 @@ f1keywords:
                                 </div>
                             </a>
                             </li>
-                           <li>
+                            <li>
                                 <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -120,6 +120,7 @@ f1keywords:
                                 </div>
                             </a>
                             </li>
+                            <li>
                                 <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
                                 <div class="cardPadding">
                                         <div class="card">
