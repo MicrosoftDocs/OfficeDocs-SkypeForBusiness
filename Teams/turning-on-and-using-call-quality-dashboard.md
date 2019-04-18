@@ -185,7 +185,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     
    - The data file must be no larger than 50MB in size.
 
-   - File uploaded to cqd.teams.microsoft.com has expanded row limit of 1,000,000 to speed up query performance, we may impose that limit on cqd.lync.com as well.
+   - File uploaded to cqd.teams.microsoft.com has expanded row limit of 1,000,000 to speed up query performance. We may impose that limit on cqd.lync.com as well.
     
    - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
     
