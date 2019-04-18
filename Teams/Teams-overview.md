@@ -24,7 +24,7 @@ If you're new to Teams and want to learn more, read on.
 
 ## Overview of Teams
 
-If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this poster: [Teams as part of Microsoft 365 for IT architects](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this architecture poster: [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
