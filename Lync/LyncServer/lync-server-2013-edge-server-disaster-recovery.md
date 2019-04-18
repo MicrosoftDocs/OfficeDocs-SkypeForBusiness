@@ -55,7 +55,7 @@ If you have multiple sites, each with a pool of Edge servers, and one entire Edg
 
 ## Federation
 
-For federation relationships with other organizations running Lync Server, inbound federation requests will continue to work as long as you have configured each Edge pool to have a different priority in your SRV records. Any federation requests that come to an Edge pool that is down will fail back and then connect to an Edge pool which is running.
+For federation relationships with other organizations running Lync Server, inbound federation requests will continue to work as long as you have solutions like Geo-DNS GTM. It’s important to understand that federation failover does not provide failover with priority in SRV records. A solution provided earlier can help you provide disaster recovery capabilities for inbound federation.
 
 Outbound federation is always set up through one published Edge pool or Edge Server in the organization. If this Edge pool has gone down, you must use Topology Builder to change the outbound federation route to use an Edge pool which is still running. For details, see [Failing over the Edge pool used for Lync Server federation in Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
