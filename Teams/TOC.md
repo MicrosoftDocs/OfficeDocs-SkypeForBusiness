@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-# [Teams IT architecture & telephony solutions posters](teams-architecture-solutions-posters.md)
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
 #        
 
