@@ -113,7 +113,7 @@ f1keywords:
                                             </div>
                                             <div class="cardText">
                                                 <h3>Posters: Teams architecture & telephony</h3>
-                                                <P>Link to new landing page for Teams IT architecture & telephony solutions posters</p>
+                                                <P>Get printable illustrations of Teams IT architecture & telephony solutions</p>
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +131,7 @@ f1keywords:
                                             </div>
                                             <div class="cardText">
                                                 <h3>Expand Teams across your org</h3>
-                                                <P>verticals TOC - lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                                                <P>Find custom solutions for your industry - including healthcare, firstline workers, retail, government, and education.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -154,7 +154,7 @@ f1keywords:
                                         </div>
                                         <div class="cardText">
                                             <h3>Teams tech community</h3>
-                                            <p>Join the Teams tech community to ask questions &amp; get answers and read the Teams blog</p>
+                                            <p>Join the Teams tech community to ask questions &amp; get answers, and read the Teams blog</p>
                                         </div>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@ f1keywords:
                                         </div>
                                         <div class="cardText">
                                             <h3>End user Teams help</h3>
-                                            <p>Link to SOC/MicrosoftTeams lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+                                            <p>Go to help, training, and what’s new content for end users</p>
                                                     </div>
                                                 </div>
                                             </div>
