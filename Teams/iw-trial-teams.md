@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/18/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -40,6 +40,7 @@ The service plans included in this offer are:
 - SharePoint Online Kiosk
 - Stream
 - Sway
+- Whiteboard
 - Yammer Enterprise 
 
 The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
