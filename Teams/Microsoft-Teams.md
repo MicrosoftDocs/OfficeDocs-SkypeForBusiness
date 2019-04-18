@@ -131,7 +131,7 @@ f1keywords:
                                             </div>
                                             <div class="cardText">
                                                 <h3>Expand Teams across your org</h3>
-                                                <P>Find custom solutions for your industry - including healthcare, firstline workers, retail, government, and education.</p>
+                                                <P>Find custom solutions for your industry - including healthcare, firstline workers, retail, government, and education</p>
                                             </div>
                                         </div>
                                     </div>
