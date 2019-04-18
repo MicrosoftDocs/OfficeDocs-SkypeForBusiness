@@ -112,8 +112,8 @@ f1keywords:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Posters: Teams architecture & telephony</h3>
-                                                <P>Get printable illustrations of Teams IT architecture & telephony solutions</p>
+                                                <h3>Posters: Teams architecture, telephony solutions</h3>
+                                                <P>Get printable illustrations of Teams IT architecture and  telephony solutions</p>
                                             </div>
                                         </div>
                                     </div>
