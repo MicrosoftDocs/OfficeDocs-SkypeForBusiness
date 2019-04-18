@@ -28,7 +28,7 @@ You can link the holidays to auto attendants that you create within your organiz
 
 A good example is creating a holiday for Christmas for when many of your employees aren’t at work. After you create the holiday and set times, then you would add the holiday to your main auto attendant so when people call in, they will hear an audio message you created. Something like, “We are closed for Christmas from December 22nd through December 27th. Please leave us a voice message so we can return your call when we are back in the office.”
 
-For more information about auto attendants, see [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)?  
+For more information about auto attendants, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?  
 
 ## Create a holiday
 
@@ -83,4 +83,4 @@ For more information about auto attendants, see [What are Phone System auto atte
 
 ## Related topics
 
-[What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)?
+[What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?

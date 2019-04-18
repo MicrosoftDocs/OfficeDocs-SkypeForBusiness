@@ -18,7 +18,7 @@ The auto attendant used with Exchange Unified Messaging (Exchange Server 2013 or
 
 This inherently means that you will have a hybrid implementation of Skype for Business Server 2019 if you wish to use Unified Messaging features like auto attendants. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
 
-An auto attendant can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and menu choices the users can interact with either with a voice response or by pressing a telephone keypad. The options can connect callers to employees, an Operator, call queues used by entire departments, and other auto attendants that act as sub-menus to a main auto attendant. Each auto attendant is represented as a resource account on your Skype for Business Server 2019 system that is linked directly to an auto attendant in the Microsoft Teams admin center. See [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what auto attendants are and what options and features exist for auto attendants.
+An auto attendant can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and menu choices the users can interact with either with a voice response or by pressing a telephone keypad. The options can connect callers to employees, an Operator, call queues used by entire departments, and other auto attendants that act as sub-menus to a main auto attendant. Each auto attendant is represented as a resource account on your Skype for Business Server 2019 system that is linked directly to an auto attendant in the Microsoft Teams admin center. See [What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what auto attendants are and what options and features exist for auto attendants.
 
 > [!NOTE]
 > You are now able to link multiple inbound phone numbers to a single Cloud auto attendant.
@@ -35,14 +35,14 @@ Your implementation might involve one or two of these paths, but it's unlikely y
 
 Also see:
 
-- [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+- [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 - [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## Requirements
 
 The following requirements assume that you already have Skype for Business Server 2019 deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Phone system auto attendants. For more information, see [Manually moving an Exchange UM auto attendant to Cloud auto attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant).
+- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Cloud auto attendants. For more information, see [Manually moving an Exchange UM auto attendant to Cloud auto attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant).
 
 - For a new configuration of Cloud auto attendants, follow the steps outlined in [Configure Cloud auto attendants](configure-cloud-auto-attendant.md).
 
@@ -55,7 +55,7 @@ In addition to the requirements above, the below requirements must be configured
 - For phone numbers that you assign to your auto attendant, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license.
 - If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the appropriate license.
 - Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) for each auto attendant, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
-- Implement a new Cloud auto attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
+- Implement a new Cloud auto attendant service with Skype for Business Online and Phone System. See [Configure Cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
 ## Migration and interoperability
 
@@ -112,9 +112,9 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Enable custom prompt recording using the telephone user interface](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
-[Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
