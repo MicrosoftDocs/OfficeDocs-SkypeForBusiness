@@ -40,8 +40,6 @@ You can edit the settings in the global policy to include the apps that you want
 
 ![app-setup-policies.png](media/app-setup-policies.png)
 
-
-
 Currently, you can't use app setup policies to pin the Assignments app.
 
 ## Create a custom app setup policy
