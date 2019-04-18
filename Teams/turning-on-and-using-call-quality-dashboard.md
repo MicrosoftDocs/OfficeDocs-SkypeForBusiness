@@ -95,7 +95,7 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |:-----|:-----|:-----|
 |Application sharing metric  <br/> |No  <br/> |Yes  <br/> |
 |Customer building information support  <br/> |Yes  <br/> |Yes  <br/> |
-|Customer endpoint information support  <br/> |Only in cqd.teams.microsoft.com  <br/> |Yes  <br/> |
+|Customer endpoint information support  <br/> |Only in cqd.teams.microsoft.com  <br/> |Only in cqd.teams.microsoft.com  <br/> |
 |Drill-down analysis support  <br/> |No  <br/> |Yes  <br/> |
 |Media reliability metrics  <br/> |No  <br/> |Yes  <br/> |
 |Out-of-the-box reports  <br/> |Yes  <br/> |Yes  <br/> |
