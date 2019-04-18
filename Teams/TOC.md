@@ -25,6 +25,7 @@
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
 
