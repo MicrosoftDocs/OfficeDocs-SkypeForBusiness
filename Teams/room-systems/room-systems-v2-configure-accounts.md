@@ -31,11 +31,11 @@ This topic introduces how to create accounts used by Microsoft Teams Rooms in Mi
     
   - Exchange Online with Skype for Business Server on premises. For more information, see [Deploy Microsoft Teams Rooms with Exchange Online (Hybrid)](with-exchange-online.md).
     
-  - Exchange on premises with Skype for Business Online. For more information, see [Deploy Microsoft Teams Rooms with Exchange on premises (Hybrid)](with-exchange-on-premises.md).
+  - Exchange on premises with Microsoft Teams or Skype for Business Online. For more information, see [Deploy Microsoft Teams Rooms with Exchange on premises (Hybrid)](with-exchange-on-premises.md).
     
 Which configuration you have will affect how you prepare for device setup.
   
-Microsoft Teams Rooms needs to be assigned a "device account" in Active Directory, Exchange, and Skype for Business. The account is used to access its meeting calendar and establish Skype for Business connectivity. People can book this account by scheduling a meeting with it. Microsoft Teams Rooms will be able to join that meeting and provide various features to the meeting attendees.
+Microsoft Teams Rooms needs to be assigned a "device account" in Active Directory, Exchange, and Skype for Business. The account is used to access its meeting calendar and establish Microsoft Teams or Skype for Business connectivity. People can book this account by scheduling a meeting with it. Microsoft Teams Rooms will be able to join that meeting and provide various features to the meeting attendees.
   
 > [!IMPORTANT]
 > Without a device account, none of these features will work. 

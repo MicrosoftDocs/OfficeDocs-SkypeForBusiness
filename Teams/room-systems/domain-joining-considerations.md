@@ -44,7 +44,7 @@ You can join the Skype Room System appliance PC to the Active Directory domain o
     
   - Push Windows Update to Skype Room System
     
-- Alternatively, you might decide to leave the appliance PC in the workgroup. As with the desktop Skype for Business client, this requires you to manually import the root certificate chain on the Skype Room System appliance PC. You're not required to import the root certificate chain if your Skype for Business deployment is using a public certificate (for example, Entrust, VeriSign, and so on). 
+- Alternatively, you might decide to leave the appliance PC in the workgroup. As with the desktop Microsoft Teams or Skype for Business client, this requires you to manually import the root certificate chain on the Skype Room System appliance PC. You're not required to import the root certificate chain if your deployment is using a public certificate (for example, Entrust, VeriSign, and so on). 
     
 If you plan to join Skype Room System machines to the domain, to avoid joining Skype Room System machine inadvertently to an unintended OU, which may not be free from GPOs, please ensure you join the correct OU. You can use the following cmdlet from the Skype Room System machine to join in the correct OU and does not receive GPOs that might block LRS functionality. Contact your system administrator or OEM partner to run these cmdlet:
   

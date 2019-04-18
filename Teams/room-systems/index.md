@@ -101,7 +101,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 </ul>
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
+> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
 
 These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system. Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 

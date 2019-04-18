@@ -46,7 +46,7 @@ In addition to the Surface Pro/dock combination, you can also purchase Microsoft
 
 Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](room-systems-scale.md). 
 
-You can deploy Microsoft Teams Rooms with Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
+You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
 
 |    |     |
 |-----------|------------|

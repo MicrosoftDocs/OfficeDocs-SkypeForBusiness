@@ -21,7 +21,7 @@ description: "Read this article to learn about deploying Microsoft Teams Rooms."
 Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 
 - Confirming that your deployment locations (rooms) meet the deployment dependencies
-- Creating Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md))
+- Creating Microsoft Teams or Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md))
 - Reimaging Microsoft Surface tablets to work as Microsoft Teams Rooms consoles (see [Configure a Microsoft Teams Rooms console](console.md) or [Deploy Microsoft Teams Rooms mass deployment guide](room-systems-scale.md))
 - (Optional) Setting up Microsoft Operations Management Suite for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
 - Setting up consoles in meeting rooms and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
@@ -39,7 +39,7 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Microsoft Teams Rooms persona to reflect the intended Microsoft Teams Rooms usage [video, screen sharing, audio] and assign a number of users that matches the number of Microsoft Teams Rooms units to be deployed to each site.) 
+**Pro Tip** - If you intend to use proxy servers to provide access to Microsoft Teams or Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Microsoft Teams Rooms persona to reflect the intended Microsoft Teams Rooms usage [video, screen sharing, audio] and assign a number of users that matches the number of Microsoft Teams Rooms units to be deployed to each site.) 
 
 |    |     |
 |-----------|------------|
@@ -122,7 +122,7 @@ Planning for configuration and deployment covers the following key areas:
 
 ### Account provisioning 
 
-Each Microsoft Teams Rooms device requires a dedicated and unique resource account that must be enabled for both Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md). 
+Each Microsoft Teams Rooms device requires a dedicated and unique resource account that must be enabled for both Microsoft Teams or Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Teams or Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md). 
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Microsoft Teams Rooms systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
@@ -178,7 +178,7 @@ _Sample deployment table_
 
 ### Microsoft Teams Rooms application and peripheral device configuration 
 
-After each Microsoft Teams Rooms system has been physically deployed and the supported peripheral devices connected, you’ll need to configure the Microsoft Teams Rooms application to assign the Microsoft Teams Rooms resource account and password created earlier, to enable the Microsoft Teams Rooms system to sign in to Skype for Business and Exchange. It's key to leverage Skype for Business certified USB audio and video peripherals linked elsewhere in the document. Not doing so can result in unpredictable behavior. 
+After each Microsoft Teams Rooms system has been physically deployed and the supported peripheral devices connected, you’ll need to configure the Microsoft Teams Rooms application to assign the Microsoft Teams Rooms resource account and password created earlier, to enable the Microsoft Teams Rooms system to sign in to Microsoft Teams or Skype for Business and Exchange. It's key to leverage certified USB audio and video peripherals linked elsewhere in the document. Not doing so can result in unpredictable behavior. 
 
 You can manually configure each Microsoft Teams Rooms system. Alternatively, you can use a centrally stored, per–Microsoft Teams Rooms XML configuration file to manage the application settings and leverage a start-up GPO script to reapply the configuration you want, each time the Microsoft Teams Rooms system boots. 
 
@@ -195,7 +195,7 @@ You can use [remote PowerShell](room-systems-v2-operations.md#remote-management-
 
 After the Microsoft Teams Rooms system has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Microsoft Teams Rooms is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist).
 
-We recommend that as part of the general Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
+We recommend that as part of the general Teams or Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
 
 **Pro Tip** – The [Testing Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) available from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) contains a tab with a number of Microsoft Teams Rooms tests that you should review using as part of your testing. 
 

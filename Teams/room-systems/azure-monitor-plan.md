@@ -15,7 +15,7 @@ description: "This article discusses planning considerations for using Azure Mon
 
 # Plan Microsoft Teams Rooms management with Azure Monitor
  
- This article discusses planning considerations for using Azure Monitor to administer Microsoft Teams Rooms devices in your Skype for Business Server implementation.
+ This article discusses planning considerations for using Azure Monitor to administer Microsoft Teams Rooms devices in your Microsoft Teams or Skype for Business implementation.
   
 [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) is a collection of management services that were designed in the cloud from the start. Rather than deploying and managing on-premise resources, Azure Monitor components are entirely hosted in Azure. Configuration is minimal, and you can be up and running literally in a matter of minutes. With some customization work, it can aid in managing Microsoft Teams Rooms conferencing systems by providing real-time notifications of system health or faults for individual room systems, and it can potentially scale up to managing thousands of Microsoft Teams Rooms conference rooms.
   

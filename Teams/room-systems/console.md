@@ -20,7 +20,7 @@ description: "This article describes how to set up the Microsoft Teams Rooms con
 
 This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
   
-You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
+You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
 - [Prepare the installation media](console.md#Prep_Media)
 - [Install a private CA certificate on the console](console.md#Certs)
@@ -29,7 +29,7 @@ You should only perform these steps if the necessary Skype for Business and Exch
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams Rooms will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md).
+> Microsoft Teams Rooms will only work in a properly configured Microsoft Teams or Skype for Business environment where the device accounts are set up correctly as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md).
   
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
@@ -166,7 +166,7 @@ The Microsoft Teams Rooms console app should immediately start signing in to Sky
 ### Install a private CA certificate on the console
 <a name="Certs"> </a>
 
-The Microsoft Teams Rooms console needs to trust the certificates used by the Skype for Business and Exchange servers it connects to. For O365 this is done automatically, since these servers are using public Certificate Authorities and these are automatically trusted by Windows 10. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to the Microsoft Teams Rooms console in a couple of ways:
+The Microsoft Teams Rooms console needs to trust the certificates used by the servers it connects to. For O365 this is done automatically, since these servers are using public Certificate Authorities and these are automatically trusted by Windows 10. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to the Microsoft Teams Rooms console in a couple of ways:
   
 - You can join the console to Active Directory and that will automatically add the required certificates given the Certificate Authority is published to Active Directory (normal deployment option).
     

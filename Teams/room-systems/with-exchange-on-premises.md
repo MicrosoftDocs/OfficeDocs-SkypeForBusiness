@@ -16,7 +16,7 @@ description: "Read this topic for information on how to deploy Microsoft Teams R
 
 # Deploy Microsoft Teams Rooms with Exchange on premises
 
-Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises and Skype for Business Online.
+Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises and Microsoft Teams or Skype for Business Online.
   
 If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Microsoft Teams Rooms with Exchange hosted on premises. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.
 
@@ -99,7 +99,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 1. Connect to Azure Active Directory PowerShell. For instructions, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-2. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
+2. The device account needs to have a valid Office 365 license, or Exchange and Microsoft Teams will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -121,7 +121,9 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-### Enable the device account with Skype for Business
+### Enable the device account
+
+Skype for Business Online PowerShell is used to manage services for both Microsoft Teams and Skype for Business Online.
 
 1. Create a remote Windows PowerShell session from a PC as follows:
 
@@ -131,19 +133,19 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. To enable your Microsoft Teams Rooms account for Skype for Business Server, run this command:
+2. To enable your Microsoft Teams Rooms account, run this command:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-   If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
+   If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing user using this command:
 
    ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### Assign a Skype for Business license to your Microsoft Teams Rooms account
+### Assign a license to your Microsoft Teams Rooms account
 
 1. Log in as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
 2. Click on **Users and Groups** and then click **Add users, reset passwords, and more**.
@@ -152,7 +154,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 5. In **Assign licenses**, select Skype for Business (Plan 2) or Skype for Business (Plan 3), depending on your licensing and Enterprise Voice requirements. You'll have to use a Plan 3 license if you want to use Enterprise Voice on your Microsoft Teams Rooms.
 6. Click **Save**.
 
-For validation, you should be able to use any Skype for Business client to log in to this account.
+For validation, you should be able to use any client to log in to this account.
   
 ## See also
 
