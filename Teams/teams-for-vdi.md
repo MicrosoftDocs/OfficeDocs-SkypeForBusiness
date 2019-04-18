@@ -144,7 +144,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
         AllowExternalParticipantGiveRequestControl  : False
         AllowSharedNotes                            : False
         AllowWhiteboard                             : False
-        AlowTranscription                           : False
+        AllowTranscription                          : False
         MediaBitRateKb                              : False
         ScreenSharingMode                           : False
 

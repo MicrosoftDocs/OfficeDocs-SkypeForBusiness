@@ -10,13 +10,14 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
 - Microsoft Teams
 ---
 
 # Teams for Education
 
-With Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, and communicate with school staff. Use the admin resources here to help you successfuly deploy, adopt, and manage Teams in your institution.  
+With Teams, teachers and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and teachers. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
 
 <ul class="panelContent cardsFTitle">
     <li>

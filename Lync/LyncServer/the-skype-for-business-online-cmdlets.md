@@ -31,28 +31,28 @@ _**Topic Last Modified:** 2013-07-05_
 
 When you connect to Skype for Business Online by using Windows PowerShell, a collection of Skype for Business Online cmdlets is copied, in memory, to your computer. These cmdlets, in addition to any other cmdlets you already have on your local computer (including the core cmdlets that are installed when you install Windows PowerShell), are then available for managing your Skype for Business Online deployment and your Skype for Business Online user accounts. The Skype for Business Online cmdlets are introduced in the following topics:
 
-  - [Managing Skype for Business Online tenants](https://technet.microsoft.com/en-us/library/Dn362801(v=OCS.15))
+  - [Managing Skype for Business Online tenants](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
-  - [Managing users and user account properties in Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362790(v=OCS.15))
+  - [Managing users and user account properties in Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
 
-  - [Managing policies in Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362826(v=OCS.15))
+  - [Managing policies in Skype for Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
 
-  - [Managing the Skype for Business client from Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362847(v=OCS.15))
+  - [Managing the Skype for Business client from Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 
-  - [Managing Exchange Unified Messaging and hosted voice mail in Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362822(v=OCS.15))
+  - [Managing Exchange Unified Messaging and hosted voice mail in Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
 
-  - [Managing communications in Skype for Business Online with outside users and organizations](https://technet.microsoft.com/en-us/library/Dn362813(v=OCS.15))
+  - [Managing communications in Skype for Business Online with outside users and organizations](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 
-  - [Managing Skype for Business Online meetings and conferences](https://technet.microsoft.com/en-us/library/Dn362833(v=OCS.15))
+  - [Managing Skype for Business Online meetings and conferences](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
 
-  - [Managing cell phones and mobile devices in Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362807(v=OCS.15))
+  - [Managing cell phones and mobile devices in Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
 
 <div>
 
 ## See Also
 
 
-[Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks](https://technet.microsoft.com/en-us/library/Dn362776(v=OCS.15))  
+[Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
   
 
 </div>

@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Describes Phone System auto attendants and call queues, and explains how you can answer these calls in Teams.
+description: Describes Cloud auto attendants and call queues, and explains how you can answer these calls in Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
@@ -20,13 +20,13 @@ appliesto:
 Answer auto attendant and call queue calls directly from Teams
 ===========================================================
 
-Teams users can receive and answer calls from Skype for Business Online auto attendant and call queues directly from their Teams client. For Teams users, the auto attendant feature is now generally available, and the call queue capability is in preview. 
+Teams users can receive and answer calls from Cloud auto attendants and call queues directly from their Teams client. For Teams users, the auto attendant feature is now generally available, and the call queue capability is in preview. 
 
 ## What are auto attendants and call queues?
 
-Phone System auto attendants provide a series of voice prompts or an audio file that callers hear instead of a human operator when they call in to an organization. An auto attendant lets callers move through the menu system, place calls, or locate users by using a phone keypad (DTMF) or voice inputs using speech recognition.
+Cloud auto attendants provide a series of voice prompts or an audio file that callers hear instead of a human operator when they call in to an organization. An auto attendant lets callers move through the menu system, place calls, or locate users by using a phone keypad (DTMF) or voice inputs using speech recognition.
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
 ## Handling an auto attendant or call queue call
 
@@ -52,12 +52,12 @@ Support for auto attendant and call queue calls is available in the following cl
 
 ## Configure auto attendant and call queue support for Microsoft Teams
 
-To receive auto attendant and call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. Please review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you do not have auto attendant and/or call queue configured and would like to do so, see [Set up a Phone System auto attendant](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) and [Create a Phone System call queue](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+To receive auto attendant and call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. Please review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you do not have auto attendant and/or call queue configured and would like to do so, see [Set up a Cloud auto attendant](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) and [Create a Cloud call queue](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ## Related topics
 
 -	[What is Phone System in Office 365](what-is-phone-system-in-office-365.md)
--	[Create a Phone System call queue](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--	[What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
--	[Set up a Phone System auto attendant](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-	[Create a Cloud call queue](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-	[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
+-	[Set up a Cloud auto attendant](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
