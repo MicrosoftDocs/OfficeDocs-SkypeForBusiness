@@ -112,7 +112,7 @@ Teams provides granular capabilities for controlling messaging, meeting, calling
 
 For detailed lists of all settings, including technical guidance on how to implement them for your organization, see the following articles:
 
--   [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md)
+-   [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
 -   [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 -   [Manage meeting policies in Teams](meeting-policies-in-teams.md)
 

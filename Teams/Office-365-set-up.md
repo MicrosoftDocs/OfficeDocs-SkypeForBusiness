@@ -27,7 +27,7 @@ appliesto:
 By default, Teams is turned on for all organizations. If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview. 
 
 
-As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams. See [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information. 
+As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams. See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information. 
 
 
  
