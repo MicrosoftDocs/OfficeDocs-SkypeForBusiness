@@ -689,7 +689,7 @@ of these common administration tasks.
 
 The Teams service has multiple settings that can be configured tenant-wide.
 Changes made to the tenant settings affect all users who have been enabled for
-Teams. For a detailed list of these settings, see [Manage Microsoft Teams settings for organization](enable-features-office-365.md).
+Teams. For a detailed list of these settings, see [Manage Microsoft Teams settings for your organization](enable-features-office-365.md).
 
 ### User administration
 
