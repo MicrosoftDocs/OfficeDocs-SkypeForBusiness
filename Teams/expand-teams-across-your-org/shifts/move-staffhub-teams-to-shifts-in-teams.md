@@ -155,7 +155,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 
 Here's an example of the response.
 
-For any team that already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
+For any team that was already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -192,8 +192,6 @@ Run the following to get a list of all teams in Shifts in your organization.
 ```
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
-
-#### 
 
 ## Monitor Teams usage
 

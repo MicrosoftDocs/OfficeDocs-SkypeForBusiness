@@ -64,6 +64,7 @@
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
@@ -727,7 +728,7 @@
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
