@@ -33,12 +33,12 @@ Later on, those users may create meetings and invite users from outside the orga
   
 By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
-For Skype for Business Server, Skype Meetings App is available as a replacement for Skype for Business Web App beginning with CU5, but providing the Skype Meetings App requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  If Skype Meetings App is enabled, users will download the latest version of the app from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019 Skype Meetings App is the only option.
+For Skype for Business Server, Skype Meetings App (on Windows) and Skype for Business for Mac (on Mac) are available as replacements for Skype for Business Web App beginning with CU5, but providing the replacement apps requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  If Skype Meetings App and Skype for Business for Mac are enabled, users will download the latest version of the apps from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019, using Skype Meetings App and Skype for Business for Mac is the only option.
   
-Skype Meetings App offers a simplified browser experience for downloading and installing the app and joining meetings, including one-click join for users of Internet Explorer. Skype Meetings App also has many improvements over theSkype for Business Web App for reliability and the meeting experience. 
+Skype Meetings App offers a simplified browser experience for downloading and installing the app and joining meetings, including one-click join for users of Internet Explorer. Skype Meetings App also has many improvements over the Skype for Business Web App for reliability and the meeting experience. 
   
 > [!NOTE]
-> As of Skype for Business Server 2015 CU5 or later, meetings held using Skype for Business Online will no longer send a clientless user the Skype for Business Web App, they will instead be sent Skype Meetings App. As of Skype for Business Server 2015 CU5 or later, if you [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), clientless users will be sent Skype Meetings App instead of Skype for Business Web App. 
+> As of Skype for Business Server 2015 CU5 or later, meetings held using Skype for Business Online will no longer send a clientless user the Skype for Business Web App, they will instead be sent Skype Meetings App (on Windows) or Skype for Business for Mac (on Mac). As of Skype for Business Server 2015 CU5 or later, if you [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), clientless users will be sent Skype Meetings App or Skype for Business for Mac instead of Skype for Business Web App. 
   
 ## Software requirements
 <a name="OS-Browser"> </a>
@@ -67,12 +67,14 @@ To use the Skype for Business Web App, a user must have one of the following sup
   
 ### Skype Meetings App
 
-The Skype Meetings App runs as an app on computers using Windows 10, Windows 8.1, Windows 8, Windows 7, with 32- and 64-bit Internet Explorer 11 or later installed. 
-  
-The app also runs on macOS 10.10 or later operating systems with no specific browser dependency. 
+Skype Meetings App runs as an app on computers using Windows 10, Windows 8.1, Windows 8, Windows 7, with 32- and 64-bit Internet Explorer 11 or later installed. 
   
 For any other dependencies, refer to [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
+### Skype for Business for Mac
+
+Skype for Business for Mac runs on computers using macOS version 10.8 or later. 
+
 ## Hardware requirements
 <a name="OS-Browser"> </a>
 
