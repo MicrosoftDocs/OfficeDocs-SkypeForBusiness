@@ -246,13 +246,13 @@ items:
 
     | Option | Setting |
     |:---    |:---     |
-    | ![Number 1](../images/sfbcallout1.png) Queue Name | Contoso Pizza Ordering  |
-    | ![Number 2](../images/sfbcallout2.png) Resource account name | CQ-ordering (the phone number is assigned to the Auto Attendant resource account)  |
-    | ![Number 3](../images/sfbcallout3.png) Greeting	| No Greeting |
-    | ![Number 4](../images/sfbcallout4.png) Music on hold	| upload an MP#, WMA, or WAV file up to 5 MB.  |
-    | ![Number 5](../images/sfbcallout5.png) Call Agents <br> Routing Method <br> Agent Opt Out <br> Agent alert time	| The call agents need to be defined as a group of O365 users. Search for and select the group you created  <br> Round Robin <br> On <br> 10 seconds |
-    | ![Number 6](../images/sfbcallout6.png) Maximum calls in queue <br> When the maximum number of calls is reached	| 50 <br> Disconnect |
-    | ![Number 7](../images/sfbcallout7.png) Maximum wait time <br> When call times out	| 20 minutes<br> Disconnect |
+    | ![Number 1](../images/sfbcallout1.png) Queue Name | <br> Contoso Pizza Ordering  |
+    | ![Number 2](../images/sfbcallout2.png) Resource account name | <br>CQ-ordering (the phone number is assigned to the Auto Attendant resource account)  |
+    | ![Number 3](../images/sfbcallout3.png) Greeting	| <br>No Greeting |
+    | ![Number 4](../images/sfbcallout4.png) Music on hold	|<br> upload an MP3, WMA, or WAV file up to 5 MB.  |
+    | ![Number 5](../images/sfbcallout5.png) Call Agents <br> Routing Method <br> Agent Opt Out <br> Agent alert time	| <br>The call agents need to be defined as a group of O365 users. Search for and select the group you created  <br> Round Robin <br> On <br> 10 seconds |
+    | ![Number 6](../images/sfbcallout6.png) Maximum calls in queue <br> When the maximum number of calls is reached	| <br>50 <br> Disconnect |
+    | ![Number 7](../images/sfbcallout7.png) Maximum wait time <br> When call times out	| <br>20 minutes<br> Disconnect |
     |  |  | 
 
 
@@ -267,12 +267,12 @@ items:
 
     |   Option   | Setting      |
     |:---  |:---   |
-    | ![Number 1](../images/sfbcallout1.png) Name  |   Contoso Pizza Main Menu   | 	
-    | ![Number 2](../images/sfbcallout2.png) Resource account | MainMenu (assign the service number to this resource account)  |
-    | ![Number 3](../images/sfbcallout3.png) Time Zone	| (UTC-04:00) Eastern Daylight Time (US & Canada) |
-    | ![Number 4](../images/sfbcallout4.png) Language	| English (United States)  |
-    | ![Number 5](../images/sfbcallout5.png) Operator	| None |
-    | ![Number 6](../images/sfbcallout6.png) Enable voice inputs	| Enabled |
+    | ![Number 1](../images/sfbcallout1.png) Name  | <br>  Contoso Pizza Main Menu   | 	
+    | ![Number 2](../images/sfbcallout2.png) Resource account |<br> MainMenu (assign the service number to this resource account)  |
+    | ![Number 3](../images/sfbcallout3.png) Time Zone	|<br> (UTC-04:00) Eastern Daylight Time (US & Canada) |
+    | ![Number 4](../images/sfbcallout4.png) Language	|<br> English (United States)  |
+    | ![Number 5](../images/sfbcallout5.png) Operator	|<br> None |
+    | ![Number 6](../images/sfbcallout6.png) Enable voice inputs	|<br> Enabled |
     |  |  | 
      
     Only the main menu, named *Contoso Pizza* needs a resource account with an assigned Phone Number or a Company Greeting.  
@@ -285,24 +285,24 @@ items:
 
     |   Option   | Setting      |
     |:--- | :--- |
-    | ![Number 1](../images/sfbcallout1.png) 24/7-Custom| Custom  |
-    | ![Number 2](../images/sfbcallout2.png) Selection|  11:00am to 11:30pm, Monday-Sunday  |
+    | ![Number 1](../images/sfbcallout1.png) 24/7-Custom|<br> Custom  |
+    | ![Number 2](../images/sfbcallout2.png) Selection|<br>  11:00am to 11:30pm, Sunday-Saturday  |
     
     The default for this screen is 24/7.  To continue, press **Next**.
 
     ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-
+    ![Business hours call handling continued.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png) 
     **Business hours call handling** for the main menu
 
     | Option | Setting |
     |:---  |:---  |
-    | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting > Callers will hear: Copy/paste Script 1 above  |
-    | ![Number 3](../images/sfbcallout3.png) Actions	| Redirect call, redirect to resource account linked to Contoso Pizza Ordering |
-    | ![Number 4](../images/sfbcallout4.png) Dial By Name  | Disabled   |
+    | ![Number 1](../images/sfbcallout1.png) Company greeting	|<br> Create a custom greeting > Callers will hear: Copy/paste Script 1 above  |
+    | ![Number 3](../images/sfbcallout3.png) Actions	|<br> Redirect call, redirect to **voice app**, search for resource account linked to Contoso Pizza Ordering Call Queue |
+    | ![Number 4](../images/sfbcallout4.png) Dial By Name  |<br> Disabled   |
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	| |
     |  |   |
     
-    The Company Greeting usually only needs to be set on the main menu.
+     
 
 
     **After hours call handling** for the main menu
@@ -310,8 +310,8 @@ items:
     
     |   Option   | Setting|
     |:---  | :---  |
-    | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting, callers will hear: Copy/paste Script 2 above |
-    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call will go to voicemail when not picked up.  |
+    | ![Number 1](../images/sfbcallout1.png) Greeting	| Create a custom greeting, callers will hear: Copy/paste Script 2 above |
+    | ![Number 3](../images/sfbcallout3.png) Actions |	Disconnect  |
     |  |   |
 
     While setting up your after hours call handling for the Main Auto Attendant, you could choose to create the same menu options used in the business hours call handling screen. Doing this would allow the after 
