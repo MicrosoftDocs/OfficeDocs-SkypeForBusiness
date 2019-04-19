@@ -1,10 +1,10 @@
 ---
-title: "What are Phone System auto attendants?"
+title: "What are Cloud auto attendants?"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 9/1/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -21,18 +21,18 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: "Learn what Phone System auto attendants are and how to use them."
+description: "Learn what Cloud auto attendants are and how to use them."
 ---
 
-# What are Phone System auto attendants?
+# What are Cloud auto attendants?
 
 Phone System in Office 365 provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization.
   
 An auto attendant is a series of voice prompts or audio files that callers hear instead of a human operator when they call an organization. When people call a number associated with an auto attendant, their choices can redirect the call to a user or locate someone in your organization and then connect to that user. They can express their choices and interact with the menu system by using a phone keypad (DTMF) or speech recognition.
   
-To set up an auto attendant for the Phone System in Office 365, go [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md).
+To set up an auto attendant for the Phone System in Office 365, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
   
-A Phone System auto attendant has the following features:
+A Cloud auto attendant has the following features:
   
 - It can provide corporate or informational greetings.
 - It can provide custom corporate menus. You can customize these menus to have more than one level.
@@ -194,7 +194,7 @@ The operator can be set to:
 - A Microsoft Teams user or a Skype for Business on premise user that is Enterprise Voice-enabled.
   
 - Another auto attendant that's set up for your organization.
-- Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ### Business hours and call handling
 
@@ -207,14 +207,14 @@ Each auto attendant has call-handling options that can be set:
   - Redirect the call to a Microsoft Teams user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person's calls to be automatically forwarded directly to voicemail.
 
   
-  - Redirect the call to a call queue. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+  - Redirect the call to a call queue. To see more about call queues, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Redirect the call to another auto attendant that you have set up.
 - Create menu options and play a menu prompt for the person calling. For example: "Press 1 for Sales, Press 2 for Services. To speak to the operator, press 0 at any time."
 
 ### Menu Options
 
-Phone System auto attendants allow you to create menu prompts ("Press 1 for Sales, Press 2 for Services") and set up menu options to route calls based on what the user selects. Setting up menu options for an auto attendant enables an organization to provide interactive guidance to get the person to their destination faster, without relying on a human operator to handle the incoming calls. Menu prompts can be created by using text-to-speech (system-generated prompts) or by uploading an audio file that has been recorded. Speech recognition uses voice commands for hands-free navigation, but people calling in can also use the phone keypad to navigate menus.
+Cloud auto attendants allow you to create menu prompts ("Press 1 for Sales, Press 2 for Services") and set up menu options to route calls based on what the user selects. Setting up menu options for an auto attendant enables an organization to provide interactive guidance to get the person to their destination faster, without relying on a human operator to handle the incoming calls. Menu prompts can be created by using text-to-speech (system-generated prompts) or by uploading an audio file that has been recorded. Speech recognition uses voice commands for hands-free navigation, but people calling in can also use the phone keypad to navigate menus.
   
 Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using the Skype for Business admin center. Different sets of menu options can be created for business hours and after hours, and you can enable or disable Dial by Name in the **Menu Options**. Keys can be mapped to transfer the calls to:
   
@@ -225,7 +225,7 @@ Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using 
   
 The name of every menu option becomes a speech-recognition keyword if speech recognition has been enabled. For example, callers can say "One" to select the menu option mapped to key 1, or they can simply say "Sales" to select the same menu option named "Sales."
   
-To set up an auto attendant and the menu options, go [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md).
+To set up an auto attendant and the menu options, go [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
   
 ### Assigning phone numbers for an auto attendant
 
