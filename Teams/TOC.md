@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -64,6 +64,7 @@
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
@@ -76,6 +77,7 @@
 
 
 ## Reference
+
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
@@ -85,6 +87,8 @@
 #### [Get tools to support a rollout of Teams](rollout-tools.md)
 #### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 #### [Plan for governance in Teams](plan-teams-governance.md)
+
+
 
 
 ### Interoperability with Office 365
