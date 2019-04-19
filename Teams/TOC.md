@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -77,6 +77,7 @@
 
 
 ## Reference
+
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
@@ -86,6 +87,8 @@
 #### [Get tools to support a rollout of Teams](rollout-tools.md)
 #### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 #### [Plan for governance in Teams](plan-teams-governance.md)
+
+
 
 
 ### Interoperability with Office 365
