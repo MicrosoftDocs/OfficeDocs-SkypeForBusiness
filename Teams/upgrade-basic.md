@@ -108,7 +108,7 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 **Resources:**
 
-- [Manage Teams features in your organization](enable-features-office-365.md)
+- [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
 - [Sample email: announcement to users about Skype for Business](upgrade-emails-surveys.md#step-4-email)
 
 [Return to top](#about-upgrade-basic)

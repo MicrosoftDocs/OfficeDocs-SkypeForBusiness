@@ -59,7 +59,7 @@
 ## [External access (federation)](manage-external-access.md)
 
 ## [Manage Teams](using-admin-roles.md)
-### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams settings for your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Manage the free version of Teams](manage-freemium.md)
@@ -724,7 +724,7 @@
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
