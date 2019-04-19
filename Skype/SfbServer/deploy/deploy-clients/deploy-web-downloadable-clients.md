@@ -16,7 +16,7 @@ description: "Summary: Deploy the Skype for Business Web App and Skype Meetings 
 
 **Summary:** Deploy the Skype for Business 2015 Web App and Skype Meetings App used with Skype for Business Server.
 
-Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server and by default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App or Skype Meetings App.
+Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server and by default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App, Skype Meetings App, or Skype for Business for Mac.
 
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
 
@@ -26,7 +26,7 @@ The voice, video, and sharing features in Skype for Business Web App require a M
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
 
-The Skype for Business Web App and Skype Meetings App support multi-factor authentication. In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings. You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server. After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.
+Skype for Business Web App,  Skype Meetings App, and Skype for Business for Mac support multi-factor authentication. In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings. You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server. After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.
 
 > [!IMPORTANT]
 > The following are important considerations if you plan to configure AD FS for multi-factor authentication:
@@ -116,7 +116,7 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
 
 ### Enable simplified meeting join and Skype Meetings App
 
-1. When you enable access to the Content Delivery Network (CDN), users will have the ability to connect to CDN online and get Skype Meetings App, and will use the simplified meeting join experience.
+1. When you enable access to the Content Delivery Network (CDN), users will have the ability to connect to CDN online and get Skype Meetings App (on Windows) and Skype for Business for Mac (on Mac), and will use the simplified meeting join experience.
 
    ```
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
