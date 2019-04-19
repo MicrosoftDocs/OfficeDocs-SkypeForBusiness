@@ -30,4 +30,4 @@ Most Teams features are available to US Government, education, and nonprofit org
 |Office 365 Phone System  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Office 365 Calling Plan  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
    
-Please see this blog post: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+Please see this blog post: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
