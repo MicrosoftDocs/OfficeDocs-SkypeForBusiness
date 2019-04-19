@@ -724,7 +724,7 @@
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
