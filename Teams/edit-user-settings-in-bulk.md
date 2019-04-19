@@ -37,6 +37,6 @@ Use the Microsoft Teams admin center to edit settings for multiple users at a ti
         ![Screen shot of the Users page, showing the selection limit](media/bulk-edit-user-settings-select-all-limit.png) <br> A **&#x2713;** is displayed next to the selected users.
 
         ![Screen shot of the Users page, showing 20 users selected](media/bulk-edit-user-settings-select-all.png)
-4. Click **Edit settings**, make the changes that you want, and then click **Save**. 
+4. Click **Edit settings**, make the changes that you want, and then click **Save**.
 
     ![Screen shot of the Edit Settings pane](media/bulk-edit-user-settings-edit-settings.png)
