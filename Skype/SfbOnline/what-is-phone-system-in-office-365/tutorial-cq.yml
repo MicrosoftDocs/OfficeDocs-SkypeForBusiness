@@ -193,7 +193,7 @@ items:
 
  
 
-- title: Implementing a call queue (with or without Auto Attendants)
+- title: Implementing a call queue 
   durationInMinutes: 7
   content: |
 
@@ -217,22 +217,22 @@ items:
     -  Contoso Pizza ordering line (optional auto attendant)
     -  Contoso Pizza Overflow Attendant (optional auto attendant)
        
-    ### Call Queue implementation, without auto attendant
+    ### Simple call queue implementation, without auto attendant
     
     Create a resource account for the auto attendant, then start creating the auto attendant. Expect a delay of a few minutes after creating the resource account 
     before it becomes available as a selection.
 
     In the **Microsoft Teams admin center**, click on **Voice** > **Call queues**, then click **+ Add new**:
 
-    | Option | Setting |
-    |:---    |:---     |
-    | ![Number 1](../images/sfbcallout1.png) Queue Name | Contoso Pizza Ordering  |
-    | ![Number 2](../images/sfbcallout2.png) Resource account name | CQ-ordering (the phone number is assigned to the resource account)  |
-    | ![Number 3](../images/sfbcallout3.png) Greeting	| Play an Audio File (recording of Script 3)  |
-    | ![Number 4](../images/sfbcallout4.png) Music on hold	| upload an MP3, WMA, or WAV file up to 5 MB large.  |
-    | ![Number 5](../images/sfbcallout5.png) Call Agents <br> Routing Method <br> Agent Opt Out <br> Agent alert time	| <br> The call agents need to be defined as a group of O365 users. Search for and select the group you created  <br> Round Robin <br> On <br> 10 seconds |
-    | ![Number 6](../images/sfbcallout6.png) Maximum calls in queue <br> When the maximum number of calls is reached	| <br>50 <br> Disconnect |
-    | ![Number 7](../images/sfbcallout6.png) Maximum wait time <br> When call times out	|<br> 20 minutes<br> Disconnect |
+    | | Option| Setting |
+    |:---   |:--- |:---     |
+    | ![Number 1](../images/sfbcallout1.png)| Call queue name | Contoso Pizza Ordering  |
+    | ![Number 2](../images/sfbcallout2.png)| Resource account  | CQ-ordering (the phone number is assigned to the resource account)  |
+    | ![Number 3](../images/sfbcallout3.png)| Greeting	| Play an Audio File (recording of Script 3)  |
+    | ![Number 4](../images/sfbcallout4.png)| Music on hold	| upload an MP3, WMA, or WAV file up to 5 MB large.  |
+    | ![Number 5](../images/sfbcallout5.png)| Call Agents <br> Routing Method <br> Agent Opt Out <br> Agent alert time	| <br> The call agents need to be defined as a group of O365 users. Search for and select the group you created  <br> Round Robin <br> On <br> 10 seconds |
+    | ![Number 6](../images/sfbcallout6.png)| Maximum calls in queue <br> When the maximum number of calls is reached	| <br>50 <br> Disconnect |
+    | ![Number 7](../images/sfbcallout6.png)| Maximum wait time <br> When call times out	|<br> 20 minutes<br> Disconnect |
     |  |  | 
 
     This Call Queue is the simplest to implement, but that simplicity has a cost: 
@@ -242,7 +242,7 @@ items:
 
     ### Call Queue implementation, with auto attendant
     
-    In the **Microsoft Teams admin center**, click on **Voice** > **Call queues**, then click **+ Add new**:
+    In the **Microsoft Teams admin center**, click on **Voice** > **Call queues**, then click **+ New call queue**:
 
     | Option | Setting |
     |:---    |:---     |
@@ -254,7 +254,8 @@ items:
     | ![Number 6](../images/sfbcallout6.png) Maximum calls in queue <br> When the maximum number of calls is reached	| <br>50 <br> Disconnect |
     | ![Number 7](../images/sfbcallout7.png) Maximum wait time <br> When call times out	| <br>20 minutes<br> Disconnect |
     |  |  | 
-
+    
+    Press **Save** when you're done. In this example, the greeting the caller hears is implemented on the auto attendant, so it's not needed in the call queue.
 
     #### Ordering auto attendant 
 
@@ -302,7 +303,7 @@ items:
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	| |
     |  |   |
     
-     
+     To continue, press **Next**.
 
 
     **After hours call handling** for the main menu
