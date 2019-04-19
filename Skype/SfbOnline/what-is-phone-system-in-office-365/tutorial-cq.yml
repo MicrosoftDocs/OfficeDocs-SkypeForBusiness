@@ -92,7 +92,7 @@ items:
     ##	General guidelines
     Before we look at our specific example, let’s look briefly at some more general design guidelines and basics. 
     
-    A Phone system call queue has a limited number of options. The main decisions to make for the queue are: 
+    A Cloud call queue has a limited number of options. The main decisions to make for the queue are: 
     
     - Whether to assign a number directly to the queue, or to have callers connect to an auto attendant first. Callers are unlikely to realize the difference.
     - Whether to have an initial greeting  as part of the call queue (if you do connect initially to an auto attendant, that can provide an initial greeting)
@@ -320,7 +320,7 @@ items:
     Set up **holidays** and the **dial scope** as you see fit, and save the Main Auto Attendant.
   
 
-    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) 
+    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) 
     for more detail on the options available in these screens. 
 
     

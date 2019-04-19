@@ -49,7 +49,7 @@ items:
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
     to provide phone numbers to your users.
     - [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
-    - Reviewed [What are Phone System Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
+    - Reviewed [What are Cloud Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
     Also, you'll be pleased to discover that most of the planning and design portion can be done using a white board or index cards: having a good plan 
@@ -179,7 +179,7 @@ items:
     - There are usually 3-4 options per menu in this example. While Phone System supports menus with up to 9 options, most users 
     won't be able to keep track of more than 5 options without getting confused and needing to repeat the menu, which wastes their time and annoys them. 
     - The lawyer, paralegals, and billing menus can arguably be replaced with Call Queues. The main reason we've used an Auto Attendant is to keep our 
-    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. 
     - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
@@ -316,7 +316,7 @@ items:
     in Windows or have a professional voice-over artist use your scripts to record .wav files.
     
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
-    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
 
     Your account must have Admin priveleges.  In the **Microsoft Teams admin center**, click **Voice** then select **Auto Attendants**, then click **+ New**. 
@@ -470,7 +470,7 @@ items:
     |Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
-    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
+    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
 
 
     ### Editing and testing Auto Attendants

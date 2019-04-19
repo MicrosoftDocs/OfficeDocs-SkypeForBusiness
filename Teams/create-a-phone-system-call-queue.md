@@ -20,14 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up phone system for PHone System call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
+description: "Learn how to set up Phone System for Cloud call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
 ---
 
-# Create a Phone System call queue
+# Create a Cloud call queue
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
   
-Phone System call queues can provide:
+Cloud call queues can provide:
   
 - An organizational greeting.
 - Music while people are waiting on hold.
@@ -55,9 +55,13 @@ All calls waiting in the queue will be distributed using one of the following me
 
 To get started using call queues, it's important to remember a few things:
   
-- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
+- A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
 - If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
 - If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
+- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them. 
+
+> [!NOTE] 
+> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only at the moment.
 
 > [!NOTE] 
 > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
@@ -67,12 +71,12 @@ To get started using call queues, it's important to remember a few things:
   
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
-- You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to Phone System call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
+- You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to Cloud call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
 
     > [!NOTE]
     > User (subscriber) phone numbers can't be assigned to call queues - only service toll or toll-free phone numbers can be used.
   
-- When you are distributing the incoming calls from an Phone System call queue, these clients are supported for call agents:
+- When you are distributing the incoming calls from a Cloud call queue, these clients are supported for call agents:
 
   - Skype for Business desktop client 2016 (32 and 64-bit versions)
 
