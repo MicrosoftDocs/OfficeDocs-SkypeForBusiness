@@ -1,5 +1,5 @@
 ---
-title: Understand the Patient App and EHR integration interface       
+title: Understand the Patients App and EHR integration interface       
 author: jambirk           
 ms.author: jambirk        
 manager: serdars                    
@@ -15,18 +15,18 @@ ms.reviewer: anach
 description: Microsoft Teams Patient App EHR integration 
 ---
 
-# Understand the Patient App and EHR integration interface
+# Understand the Patients App and EHR integration interface
 
 
 ## Patients App overview
 
 Microsoft Teams is developing a Patients app specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care.
 
-The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using an FHIR (Fast Healthcare Interoperability Resources) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can be interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR.
+The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR.
 
 ![EHR integration](../media/ehr-1.png)
 
-A key benefit for Microsoft Teams in healthcare is care team collaboration and coordination. Healthcare teams need a secure hub for coordinating care across multiple patients. The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app addresses the following challenges:
+Microsoft Teams is bringing new healthcare-specific features to market in the care team collaboration and coordination space. Healthcare teams need a secure hub for coordinating care across multiple patients. The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app addresses the following challenges:
 
 - Low efficiency in hand-offs and critical communication through the patient experience
 - Siloed information that creates administrative burdens
@@ -41,7 +41,7 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
 - Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
 - Using the Microsoft Teams Patient App to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system.
 
-The Patient App adds the following features to Microsoft Teams:
+The Patients App adds the following features to Microsoft Teams:
 
 - Ability to fetch latest patient data from the EHRs and other medical information systems thru FHIR
 - Ability to create multiple patient lists within a single channel.
@@ -50,17 +50,19 @@ The Patient App adds the following features to Microsoft Teams:
 - Available on the Teams App for iOS and Android for mobile first healthcare workers as well as Microsoft Teams web and desktop client.
 - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
 
-Planned Patient app features include:
+The Microsoft Teams Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).  
+
+Planned Patients app features include:
 
 - Support for patient [messaging extensions](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/messaging-extensions/messaging-extensions-overview) in channels and chat messages
 - Support for notifications from Lab results, and Admit, Discharge & Transfer events.
 
 > [!NOTE]
-> The Microsoft Teams Patient App is in private preview and the interface is in beta. Released versions are not expected to be backward compatible.
+> The Microsoft Teams Patient App is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
 
 ![Patients app screenshot](../media/ehr-2.png)
 
-To learn more about other Teams apps and the extensibility platform, see [App for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).
+ [App for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview)
 
 This article documents the interface specification used by the Teams Patients App, you will need to understand that interface to set up a third-party FHIR server provided by one of our partners using documentation from by the FHIR server's provider. **There are no steps in this process that use the Microsoft Teams admin center or PowerShell cmdlets to enable features.**
 
@@ -483,7 +485,7 @@ Resource search using GET method and the following parameters:
 
 ## Authentication and Authorization
 
-Based on our understanding of working with Interop vendors that perform data transformations, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams patient app will not be able to enforce user level authorization. We will rely on auditing to track actions of clinicians on auditing of ePHI data within the Patient App. 
+Based on our understanding of working with Interop vendors that perform data transformations, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. We will rely on auditing to track actions of clinicians on auditing of ePHI data within the Patient App. 
 
 In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service. 
 
