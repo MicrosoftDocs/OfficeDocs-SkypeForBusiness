@@ -3,10 +3,10 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/18/2019
+ms.date: 04/19/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: marubins
 ms.service: msteams
 search.appverid: MET150
 localization_priority : Priority
@@ -53,11 +53,7 @@ Users who do not have an Office 365 license that includes Teams can initiate the
 
 ## Who is not eligible
 
-Your organization is not eligible for the trial if: 
-
-- You are a Syndication Partner Customer
-- You are a Reseller Partner Customer
-- You are a Government or EDU customer
+Your organization is not eligible for the trial if you are a GCC, GCC High, DoD, or EDU customer
 
 If your organization is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.
 
