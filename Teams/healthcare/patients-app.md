@@ -71,7 +71,7 @@ Planned Patients app features include:
 
 This article is also for you if you're a general healthcare IT developer that is interested in using FHIR APIs on top of your medical information system to connect to Microsoft Teams to enable the above mentioned care coordination scenarios. This article documents the FHIR interface specifications for the Patients App. The article will also guide you through the step-by-step process of setting up FHIR server and connecting to the Patients App in your development environment\tenant. **Note: There are no steps in this process that use the Microsoft Teams admin center or PowerShell cmdlets to enable features.**
 
-<<Insert Patients App Architecture Image>>
+[Insert Patients App Architecture Image]
 
 The following sections explain the requirements of the FHIR only data access layer for the Patients app that a FHIR server must meet in order to integrate with the Patients App, including the following:
 
@@ -81,7 +81,7 @@ The following sections explain the requirements of the FHIR only data access lay
 - Expectations around FHIR resources to be supported for the Patients App
 - Process for integration and the expected engagement model
 - How to enroll yourself and your customer in the private preview of the Patients App
-- How to get started with FHIR adn some common challenges faced with the Patients App
+- How to get started with FHIR and some common challenges faced with the Patients App
 - Future requirements for the next iteration of the Patient App
 
 ## DSTU2 interface specification
