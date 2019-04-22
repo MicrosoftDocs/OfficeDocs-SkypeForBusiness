@@ -24,10 +24,7 @@ appliesto:
 
 Use the steps in this article to run a report to show users in your organization with active StaffHub usage. This information may come in handy when you prepare to move your StaffHub teams to Microsoft Teams. 
 
-> [!NOTE]
-> You need to have Azure AD Premium to perform the steps in this article.
-
-## Install the Microsoft StaffHub PowerShell module
+You need to have Azure AD Premium to perform the steps in this article.
 
 1. Sign in to the Azure portal.
 2. In the left pane, click the **Azure Active Directory** resource, and then under **Monitoring**, click **Sign-ins**.
