@@ -17,10 +17,10 @@ description: "This article discusses lifecycle support for Microsoft Teams Rooms
  
 Microsoft plans to release updates for Microsoft Teams Rooms a few times per year with each update supported for twelve (12) months from its general availability (GA) release date. Technical support will be provided for the entire twelve (12) months. However, our support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest version.
 
-Servicing and Critical Updates servicing phase when running the latest version of Microsoft Teams Rooms, you will receive regular updates, that contain Security and Servicing updates.
+**Servicing and Critical Updates servicing phase** \- When running the latest version of Microsoft Teams Rooms, you will receive regular updates, that contain Security and Servicing updates.
 
 
-Security Updates (Only) servicing phase after a new  version is released, support for older branches will reduce to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
+**Security Updates (Only) servicing phase** \- After a new  version is released, support for older branches will reduce to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
 
 
 > [!NOTE]
