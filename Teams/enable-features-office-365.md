@@ -1,14 +1,14 @@
 ---
-title: Manage Microsoft Teams features in your Office 365 organization
+title: Manage Microsoft Teams settings for your organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Learn how to turn on or off Microsoft Teams apps in your Office 365 organization, including tabs, connectors, bots, or any combination of the three.
+description: Learn how to turn on or off Microsoft Teams org-wide settings for your organization, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -19,13 +19,13 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage Microsoft Teams features in your Office 365 organization
+# Manage Microsoft Teams settings for your organization
 
 All Teams settings will soon be migrated to the new Microsoft Teams admin center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is **On**.
 
-## Tenant-wide settings 
+## Tenant-wide settings in the Microsoft 365 admin center
 
 You can turn off or turn on apps for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. 
 
@@ -57,13 +57,19 @@ These apps are provided by third parties. You can configure the following settin
 
 To learn more, see [Admin settings for apps in Teams](admin-settings.md). 
 
-## Teams org-wide settings
-
+## Teams org-wide settings in the Microsoft Teams admin center
 You can control organization-wide user settings in the Microsoft Teams admin center. To edit org-wide settings, go to the Microsoft Teams admin center, and then select **Org-wide settings**. You can configure the following settings.
 
 ### External access
 
 **External access** lets your Teams and Skype for Business users communicate with users who are outside of your organization. To configure external access, go to [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md).
+
+To add or block a domain:
+
+1. Select **Add a domain**.
+2. In the Add a domain pane, enter the domain name, and click the space bar to save the name.
+3. Select **Allowed** or **Blocked**.
+4. Select **Done** to save your changes. 
 
 ### Guest access
 
@@ -95,7 +101,7 @@ These settings control resource account behavior for Surface Hub devices attendi
 - **Set content PIN** – Require users to enter this PIN to prevent unauthorized access to documents. This prevents an unauthorized user from joining upcoming meetings and browsing attachments.
 - **Resource accounts can send messages** – Turn this setting **On** to allow messages to be sent from the Surface Hub resource account.
 
-#### Search
+#### Search by name
 
 Microsoft Teams scoped directory search uses Exchange address book policy (APB) to allow organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. You might want to use a scoped directory search in situations like these:
 

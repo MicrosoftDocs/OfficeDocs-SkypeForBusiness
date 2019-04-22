@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -25,6 +25,7 @@
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
 
@@ -58,10 +59,12 @@
 ## [External access (federation)](manage-external-access.md)
 
 ## [Manage Teams](using-admin-roles.md)
-### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams settings for your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
+### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
@@ -74,6 +77,7 @@
 
 
 ## Reference
+
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
@@ -83,6 +87,8 @@
 #### [Get tools to support a rollout of Teams](rollout-tools.md)
 #### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 #### [Plan for governance in Teams](plan-teams-governance.md)
+
+
 
 
 ### Interoperability with Office 365
@@ -317,14 +323,15 @@
 #### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Auto attendants and call queues 
-#### [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md)
+#### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
+#### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 #### [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
-#### [Create a Phone System call queue](create-a-phone-system-call-queue.md)
+#### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
 
 ## [Calling Plans](calling-plan-landing-page.md)
@@ -721,7 +728,7 @@
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
