@@ -1,7 +1,7 @@
 ---
 title: "Set up the Common Area Phone license for Microsoft Teams"
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
 ms.date: 12/13/2018
 ms.reviewer: kponnus
