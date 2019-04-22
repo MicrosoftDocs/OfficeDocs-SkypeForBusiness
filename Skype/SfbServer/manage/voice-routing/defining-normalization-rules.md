@@ -31,7 +31,7 @@ Complete the following steps if you want to create or modify a normalization rul
 
 1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
-3. (Optional) Follow the steps in [Create a dial plan](GET LINK AFTER MIGRATION) through step 11 or [Modify a dial plan](GET LINK AFTER MIGRATION) through step 10. 
+3. (Optional) Follow the steps in [Create a dial plan](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) through step 11 or [Modify a dial plan](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) through step 10. 
 4. In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, **5DigitExtension**).
 5. (Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").
 6. In **Build a Normalization Rule**, enter values in the following fields:
