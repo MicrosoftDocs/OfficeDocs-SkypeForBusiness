@@ -43,6 +43,9 @@ $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc
  
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
+
+If the administrator account is MFA (Multi-Factor Authentication) enabled, do not specify the -Credential parameter. The administrator will be prompted for credentials.
+
 ## Move users with Skype for Business Server Control Panel 
 
 1. Open the Skype for Business Server Control Panel app.

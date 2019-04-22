@@ -70,7 +70,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 ### Office 365 and custom connectors
 
-Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services (VSTS) in their Teams chats.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
 | Ask yourself | Action |
 |--------------|--------|
