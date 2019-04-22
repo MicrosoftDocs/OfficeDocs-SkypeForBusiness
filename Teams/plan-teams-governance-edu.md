@@ -108,7 +108,7 @@ The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-
 
 Yes. You can use policies to control specific messaging, meeting, calling, and live event features your users have access to. You can use tenant-wide settings to apply the same settings to all, or apply user-level policies if required. 
 
-For more details about Teams policies, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+For more details about Teams policies, see [Manage Microsoft Teams settings for your organization](enable-features-office-365.md).
  
 ## Can I control what external parties my faculty and students collaborate with?
 
