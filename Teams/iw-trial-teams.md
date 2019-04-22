@@ -119,7 +119,7 @@ To turn off the trial license:
 
 ### Manage Teams for users who have the trial license
 
-You can manage users who have a trial license just like you manage users who have a regular paid license. For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+You can manage users who have a trial license just like you manage users who have a regular paid license. For more information, see [Manage Microsoft Teams settings for your organization](enable-features-office-365.md).
 
 ### Upgrade users from the trial license
 

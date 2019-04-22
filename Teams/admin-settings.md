@@ -45,8 +45,6 @@ To learn more, go to [Manage app permission policies in Teams](teams-app-permiss
 
 ## App setup policies
 
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 App setup policies let you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients.
 
 Here's some examples of how you can use app setup policies:
