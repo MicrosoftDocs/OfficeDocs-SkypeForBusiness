@@ -16,7 +16,7 @@ description: "Overview of using a Cloud PBX call queue with Skype for Business S
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online.
 
-In Skype for Business Server 2019 you are now able to use the Cloud call queues described in [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md).
+In Skype for Business Server 2019 you are now able to use the Cloud call queues described in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md).
 
 To use Cloud call queues with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the call queue. Typically you will have multiple call queues, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts, and each of which routes call to available agents.
 
@@ -65,15 +65,15 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
-1. Assign Phone System licenses to the on-premise resource account as described in  [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. Assign Phone System licenses to the on-premise resource account as described in  [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) and [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-2. Use the procedures in [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
+2. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
 
 An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
 ## Test the new call queue
 
-The best way to test the implementation is to call the number configured for a call queue and connect to one of the agents. You can also quickly place a test call to your call queue by using the **Test button** in the Admin Center Action pane. If you want to make changes to an call queue, select the call queue, and then in the Action pane click **Edit**.
+The best way to test the implementation is to call the number configured for a call queue and connect to one of the agents. You can also quickly place a test call to your call queue by using the **Test button** in the admin center Action pane. If you want to make changes to an call queue, select the call queue, and then in the Action pane click **Edit**.
 
 ## Manually moving an Exchange UM call queue to Cloud call queue
 
@@ -97,11 +97,11 @@ The best way to test the implementation is to call the number configured for a c
     - Holiday schedule
 
 3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps).
-   Assign the  call queue a temporary number for testing purposes.
+   Assign the call queue a temporary number for testing purposes.
 
 4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
 
-   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user or call queue hierarchies in your old Exchange UM system.
+   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the auto attendant and user or call queue hierarchies in your old Exchange UM system.
 5. Test the Cloud call queue.
 6. Reassign the phone number linked to the Exchange UM call queue to the Cloud call queue.  
 
@@ -109,13 +109,13 @@ The best way to test the implementation is to call the number configured for a c
 
 ## See Also
 
-[Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+[Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
 
-[What are Phone System auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 
-[Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
-[Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md)
+[Plan Cloud auto attendant](plan-cloud-auto-attendant.md)
 
 [Plan Cloud Voicemail service](plan-cloud-voicemail.md)
 
@@ -124,3 +124,5 @@ The best way to test the implementation is to call the number configured for a c
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md)  (to create resource accounts homed online)

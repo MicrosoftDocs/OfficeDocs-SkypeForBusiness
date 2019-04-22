@@ -80,11 +80,14 @@ Use the following settings to change the global messaging policy or create a new
 - **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
+- **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
 - **Users can send priority notifications** If you turn this on, users can indicate message priority.
 - **Voice message creation** 
     - **Allowed in chats and channels** This means that users can leave voice messages in both chats and channels.
     - **Allowed in chats only** This means that users can leave voice messages in chats, but not in channels.
     - **Disabled** This means that users cannot create voice messages in chats or channels.  
+- **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them. 
+- **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)

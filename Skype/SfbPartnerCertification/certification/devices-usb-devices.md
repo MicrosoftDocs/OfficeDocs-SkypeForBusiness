@@ -35,7 +35,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 |:--- |:--- |:--- |
 |Sennheiser|	SC160 USB A |11/27/2018|
 |Sennheiser|	SC160 USB C |11/27/2018|
-|Sennheiser|	Evolve 65T |11/26/2018|
+|Jabra|	Evolve 65T |11/26/2018|
 |Sennheiser|	SC130 |11/26/2018|
 |Sennheiser|	SC135 |11/26/2018|
 |Plantronics|	Calisto 5200 |11/02/2018|
