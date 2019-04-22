@@ -72,7 +72,7 @@ With the help of CQD's Location-Enhanced Reports, aggregate call quality and rel
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports. Tabs shown are Overview, Buildings - Wired, Buildings - WiFi, and Mobile (LTE). A filter is being applied to view the streams within a specific building.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> To enable building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataInformationUpload") on CQD's Tenant Data Upload page. 
+> To enable building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on CQD's Tenant Data Upload page. 
 
 If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Teams Communications Support Engineer**, **Teams Communications Support Specialist**, or **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
 
