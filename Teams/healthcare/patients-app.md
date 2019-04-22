@@ -73,6 +73,7 @@ This article is also for you if you're a general healthcare IT developer that is
 
 ![patient app architecture](../media/patients-app-architecture.jpg)
 
+
 The following sections explain the requirements of the FHIR only data access layer for the Patients app that a FHIR server must meet in order to integrate with the Patients App, including the following:
 
 - Functional and technical requirements of the integration interface
@@ -81,7 +82,7 @@ The following sections explain the requirements of the FHIR only data access lay
 - Expectations around FHIR resources to be supported for the Patients App
 - Process for integration and the expected engagement model
 - How to enroll yourself and your customer in the private preview of the Patients App
-- How to get started with FHIR adn some common challenges faced with the Patients App
+- How to get started with FHIR and some common challenges faced with the Patients App
 - Future requirements for the next iteration of the Patient App
 
 ## DSTU2 interface specification
