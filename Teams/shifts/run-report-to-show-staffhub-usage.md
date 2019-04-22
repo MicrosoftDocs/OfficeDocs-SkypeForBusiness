@@ -20,7 +20,7 @@ appliesto:
 # Run a report to show active StaffHub usage
 
 > [!IMPORTANT]
-> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
+> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](../expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md).  
 
 Use the steps in this article to run a report to show users in your organization with active StaffHub usage. This information may come in handy when you prepare to move your StaffHub teams to Microsoft Teams. 
 
@@ -36,4 +36,4 @@ Use the steps in this article to run a report to show users in your organization
 
 ## Related topics
 
-- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Move your Microsoft StaffHub teams to Shifts in Microsoft Teams](../expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
