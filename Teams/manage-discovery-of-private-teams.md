@@ -66,16 +66,16 @@ You can use this cmdlet in a script to set the discovery setting of existing pri
 
 ## Set whether users can discover private teams
 
-As an admin, you can also control which users in your organization are allowed to discover private teams in search results and suggestions in Teams. Create a policy by using the **New-CsTeamsChannelPolicy** cmdlet, and then assign the policy to users.
+As an admin, you can also control which users in your organization are allowed to discover private teams in search results and suggestions in Teams. Create a policy by using the **New-CsTeamsChannelsPolicy** cmdlet, and then assign the policy to users.
  
 Set the **AllowPrivateTeamDiscovery** parameter to **true** to allow users who are assigned the policy to see discoverable private teams in search results and suggestions. Setting the **AllowPrivateTeamDiscovery** parameter to **false** removes all discoverable private teams from search results and suggestions for users who are assigned the policy.
 
 By default, **AllowPrivateTeamDiscovery** is set to **true** for all users in an organization.
 
-In this example, we create a policy named VendorPolicy that prevent users from discovering any private teams that are made discoverable, and then we assign the policy to a user named vendoruser1. 
+In this example, we create a policy named VendorPolicy that prevents users from discovering any private teams that are made discoverable, and then we assign the policy to a user named vendoruser1. 
    
-     New-CsTeamsChannelPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
-     Grant-CsTeamsChannelPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
+     New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
+     Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 
 > [!NOTE]
 > Private teams that are not discoverable are never shown in search results and suggestions, regardless of the policy setting. For example, if you turn off the discovery setting for a private team, users are unable to discover the team, even though  the **AllowPrivateTeamDiscovery** parameter is set to **true** in the policy setting for those users. 
