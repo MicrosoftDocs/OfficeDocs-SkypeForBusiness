@@ -1,6 +1,6 @@
 ---
 title: Assign Teams licenses
-author: lolaj
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 12/14/2018

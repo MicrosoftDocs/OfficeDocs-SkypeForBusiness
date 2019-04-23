@@ -94,6 +94,9 @@ This is what the report looks like.
 > [!NOTE]
 > You may also see "no data" in some fields. "No data" means the field is not applicable to the call type or capability. 
 ***
+> [!NOTE]
+> If you have a Telstra calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra for your reporting needs. 
+***
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
 ![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into a TAB delimited Excel file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. 
