@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams (coming soon)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/09/2019
+ms.date: 04/23/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -39,14 +39,14 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, see [Information barriers (coming soon!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers)
+Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, [sign up here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
 
 > [!IMPORTANT]
 > Before you set up or define policies, **you must enable scoped directory search in Microsoft Teams**. Wait at least 24 hours after enabling scoped directory search before you set up or define policies for information barriers.
 
 ## Information barriers administrator role
 
-The information barriers administrator role is responsible for managing information barrier policies. For more information about this role, see [Information barriers (coming soon to Microsoft Teams!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers).
+The information barriers administrator role is responsible for managing information barrier policies. For more information about this role and to participate in the preview, [sign up here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
 
 ## When are information barrier policies checked?
 
@@ -68,7 +68,4 @@ If there is an existing chat or other communication between users, and a new pol
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations. 
 - **Team** - Any users who have been removed from the group are removed from the team and will not be able to see or participate in existing or new conversations.
 
-## More information
-
-For more information about the information barriers admin role and to set or remove information barrier policies, see [Information barriers (coming soon!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers).
 
