@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/22/2019
+ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: marubins
