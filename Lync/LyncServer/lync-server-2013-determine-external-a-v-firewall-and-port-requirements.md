@@ -173,45 +173,25 @@ If your policies require both inbound and outbound firewall rule definitions, th
 
 <div>
 
-## NAT Requirements for External User Access
+## NAT requirements for the Edge service
 
-NAT has typically been a routing function, but newer devices such as firewalls and even hardware load balancers can be configured for NAT. Rather than focusing on which device is performing NAT, this topic describes the required NAT behavior instead.
+The following NAT requirements apply if you choose to configure non-routable private IP addresses for the Edge service:
 
-Lync Server 2013 communications software does not support NAT for traffic to or from the Edge internal interface, but for the Edge external interface, the following NAT behavior is required.
+  - NAT can only be used with DNS load-balancing. NAT is not supported with a hardware load balancing (HLB) Edge topology.
 
-<div>
+  - NAT can only be used on the external Edge interface. NAT is not supported on the internal Edge interface.
 
-
-> [!IMPORTANT]  
-> You must configure symmetric NAT for incoming and outgoing traffic. Symmetric NAT is the NAT technology described in this topic.
-
-
-
-</div>
-
-This documentation uses the acronyms ChangeDST and ChangeSRC in tables and drawings to define the following required behavior:
-
-  - **ChangeDST**   The process of changing the destination IP address on packets destined for the network that is using NAT. This is also known as transparency, port forwarding, destination NAT mode, or half-NAT mode.
-
-  - **ChangeSRC**   the process of changing the source IP address on packets leaving the network that is using NAT. This is also known as proxy, secure NAT, stateful NAT, source NAT or full-NAT mode.
-
-Regardless of the naming convention used, the NAT behavior required for the external interface of the Edge Server is as follows:
-
-  - For traffic from the Internet to the Edge external interface:
+  - NAT must be symmetric for incoming and outgoing traffic.
     
-      - Change the destination IP address of the incoming packet from the Edge external interface public IP address to the translated IP address of the Edge external interface.
-    
-      - Leave the source IP address intact so that there is a return route for the traffic.
+  - For traffic from the Internet, NAT must change the destination IP address from the NAT-enabled public IP address of the A/V Edge service to its external IP address. The source IP address must remain intact, so that the A/V Edge service can find the optimal media path.
+  
+  For example, in the inbound direction in the figure below, the public IP address 131.107.155.30 was changed to the external (private) IP address 10.45.16.10. The source IP address remained unchanged.
+  
+  - For traffic from the A/V Edge service to the Internet, NAT must change the source IP address from the external IP address of the A/V Edge service to the NAT-enabled public IP address.
 
-  - For traffic from the Edge external interface to the Internet:
-    
-      - Change the source IP address of the packet leaving the Edge external interface, from the translated IP address to the public IP address of the Edge external interface so that the internal Edge IP address is not exposed and because it is a non-routable IP address.
-    
-      - Leave the destination IP address intact on the outgoing packets.
+For example, in the outbound direction in the figure below, the external (private) IP address 10.45.16.10 was changed to the public IP address 131.107.155.30.
 
-The following figure shows the distinction between changing the destination IP address (ChangeDST) for inbound traffic and changing the source IP Address (ChangeSRC) for outbound traffic using the A/V edge as an example.
-
-**Changing the destination IP address (ChangeDST) for inbound traffic and changing the source IP Address (ChangeSRC)**
+**The figure below shows how NAT changes the destination IP address for inbound traffic and the source IP Address for outbound traffic.**
 
 ![Changing destination/source IP addresses](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Changing destination/source IP addresses")
 
