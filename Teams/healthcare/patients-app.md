@@ -67,9 +67,7 @@ Planned Patients app features include:
 
 ![Patients app screenshot](../media/ehr-2.png)
 
- [App for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview)
-
-This article is also for you if you're a general healthcare IT developer that is interested in using FHIR APIs on top of your medical information system to connect to Microsoft Teams to enable the above mentioned care coordination scenarios. This article documents the FHIR interface specifications for the Patients App. The article will also guide you through the step-by-step process of setting up FHIR server and connecting to the Patients App in your development environment\tenant. **Note: There are no steps in this process that use the Microsoft Teams admin center or PowerShell cmdlets to enable features.**
+This article is for you if you're a general healthcare IT developer that is interested in using FHIR APIs on top of your medical information system to connect to Microsoft Teams to enable the above mentioned care coordination scenarios. This article documents the FHIR interface specifications for the Patients App. The article will also guide you through the step-by-step process of setting up FHIR server and connecting to the Patients App in your development environment\tenant. **Note: There are no steps in this process that use the Microsoft Teams admin center or PowerShell cmdlets to enable features.**
 
 ![patient app architecture](../media/patients-app-architecture.jpg)
 
@@ -84,6 +82,8 @@ The following sections explain the requirements of the FHIR only data access lay
 - How to enroll yourself and your customer in the private preview of the Patients App
 - How to get started with FHIR and some common challenges faced with the Patients App
 - Future requirements for the next iteration of the Patient App
+
+## Functional and technical requirements of the integration interface
 
 ## DSTU2 interface specification
 
@@ -527,4 +527,10 @@ Authentication and Routing work-flow is shown below:
 ![patient app 6](../media/Patient-app-6.png)
 
 ## Performance and Reliability
+NA
+
+## Get started with FHIR - How to create a FHIR Server?
+If you're new to FHIR and need easy access to a FHIR Server that you can expose to the Microsoft Teams EHR integration interface, please follow instructions from here. Microsoft has an open-source FHIR Server available for all developers to use. Please see [What is FHIR Server for Azure](https://docs.microsoft.com/en-us/azure/healthcare-apis/overview-open-source-server) article to learn more about the open source FHIR Server available from Microsoft and deploy it for your organizations. 
+
+Once you've created the open source FHIR Server, it's really easy to connect to the Patients app inside of your tenant by following the steps mentioned below: 
 
