@@ -3,7 +3,7 @@ title: Manage discovery of private teams in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/19/2019
+ms.date: 4/25/2019
 ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to set whether private teams can be discovered by users through suggestions in the team gallery and search results in Microsoft Teams. 
+description: Learn how to control whether private teams can be discovered by Microsoft Teams users through suggestions in the team gallery and search results. 
 ---
 
 # Manage discovery of private teams in Microsoft Teams
@@ -39,7 +39,7 @@ Discoverable private teams can only be joined when the team owner adds users to 
 
 ### Non-discoverable private teams
 
-Non-discoverable private teams can only be joined when the team owner  adds users to them. When you make a private team not discoverable, it's hidden from the list of suggested teams and removed from search results in the teams gallery. Use non-discoverable teams to collaborate on sensitive and highly confidential topics. Examples include a team to discuss an upcoming acquisition and a team to discuss a change in your organization's strategic direction.
+Non-discoverable private teams can only be joined when the team owner adds users to them. When you make a private team not discoverable, it's hidden from the list of suggested teams and removed from search results in the teams gallery. Use non-discoverable teams to collaborate on sensitive and highly confidential topics. Examples include a team to discuss an upcoming acquisition and a team to discuss a change in your organization's strategic direction.
 
 ## Set whether new private teams are discoverable
 
@@ -78,7 +78,7 @@ In this example, we create a policy named VendorPolicy that prevents users from 
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 
 > [!NOTE]
-> Private teams that are not discoverable are never shown in search results and suggestions, regardless of the policy setting. For example, if you turn off the discovery setting for a private team, users are unable to discover the team, even though  the **AllowPrivateTeamDiscovery** parameter is set to **true** in the policy setting for those users. 
+> Private teams that are not discoverable are never shown in search results and suggestions, regardless of the policy setting. For example, if you turn off the discovery setting for a private team, users are unable to discover the team, even though  the **AllowPrivateTeamDiscovery** parameter is set to **true** in the policy setting for those users.
 
 ## Related topics
 - [Teams PowerShell Overview](teams-powershell-overview.md)
