@@ -3,7 +3,7 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -26,7 +26,9 @@ Get clients for Microsoft Teams
 Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS). These clients all require an active internet connection and do not support an offline mode.
 
 > [!NOTE]
-> Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. We recommend that you use one of the Teams apps described below in this article after November 29.
+> Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. Instead, you can now download and install the desktop client on devices running Windows 10 S mode. To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). 
+>
+> MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.  
 
 Desktop client
 --------------
