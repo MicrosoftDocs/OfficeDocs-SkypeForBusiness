@@ -39,6 +39,37 @@ Teams are backed by O365 Groups, so when you create a team, you create a group. 
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
+### Differences between Preview and Generally Available Microsoft Teams PowerShell Module
+
+When we released our generally available version of our PowerShell module, a few cmdlets were left in the beta-only module as described in the table below.
+
+| Cmdlet | Available in Preview | Available in 1.0 |
+|------- | -------------------- | ------------------------------ |
+| Add-TeamUser | Yes | Yes |
+| Connect-MicrosoftTeams | Yes | Yes |
+| Disconnect-MicrosoftTeams | Yes | Yes |
+| Get-Team | Yes | Yes |
+| Get-TeamChannel | Yes | Yes |
+| Get-TeamFunSettings | Prior to 1.0 release only | No |
+| Get-TeamGuestSettings | Prior to 1.0 release only | No |
+| Get-TeamHelp | Yes | Yes |
+| Get-TeamMemberSettings | Prior to 1.0 release only | No |
+| Get-TeamMessagingSettings | Prior to 1.0 release only | No |
+| Get-TeamUser | Yes | Yes |
+| New-Team | Yes | Yes |
+| New-TeamChannel | Yes | Yes |
+| Remove-Team | Yes | Yes |
+| Remove-TeamChannel | Yes | Yes |
+| Remove-TeamUser | Yes | Yes |
+| Set-Team | Yes | Yes |
+| Set-TeamChannel | Yes | Yes |
+| Set-TeamFunSettings | Prior to 1.0 release only | No |
+| Set-TeamGuestSettings | Prior to 1.0 release only | No |
+| Set-TeamMemberSettings | Prior to 1.0 release only | No |
+| Set-TeamMessagingSettings | Prior to 1.0 release only | No |
+| Set-TeamPicture | Yes | No, planned |
+
+
 ## Managing policies via PowerShell
 
 The cmdlets for managing policies are in the [Skype for Business cmdlet module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).

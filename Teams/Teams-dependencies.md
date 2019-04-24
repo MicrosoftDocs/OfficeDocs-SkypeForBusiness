@@ -47,9 +47,7 @@ The previous two diagrams are also available in [Visio](https://github.com/Micro
 
 Use Azure AD to determine whether external collaborators can be invited into your tenant as guests, and in what ways. For more information about Azure B2B guest access, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b). For information about Azure AD roles, see [Grant permissions to users from partner organizations in your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/b2b/add-guest-to-role).
 
-The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level. 
-
-![Screenshot of User settings in Azure Active Directory portal.](media/teams_dependencies_image2.png)
+The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level. To configure these settings in the Azure portal, go to **Azure Active Directory** > **Users** > **User settings**, and under **External users**, select **Manage external collaboration settings**.
 
 Azure AD includes the following settings to configure external users:
 
@@ -61,7 +59,7 @@ Azure AD includes the following settings to configure external users:
     > Currently, Teams doesn't support the guest inviter role. at a minimum the **Members can invite** toggle must be set to **Yes** for guest access to work in Teams.
 - **Guests can invite**: **Yes** means that guests in your directory can themselves invite other guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that guests can't invite other guests to collaborate with your organization.
  
-For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)
+For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
 > You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
