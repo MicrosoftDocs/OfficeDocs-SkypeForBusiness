@@ -12,7 +12,8 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: "Read this topic to learn how to handle trunk failovers on outbound calls from Teams to the Session Border Controller (SBC)."
 ---
 
