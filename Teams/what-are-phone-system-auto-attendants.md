@@ -57,7 +57,7 @@ To get started using auto attendants, it's important to remember that:
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only at the moment.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
     
    > [!TIP]

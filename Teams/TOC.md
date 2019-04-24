@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -59,11 +59,12 @@
 ## [External access (federation)](manage-external-access.md)
 
 ## [Manage Teams](using-admin-roles.md)
-### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams settings for your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
@@ -76,15 +77,17 @@
 
 
 ## Reference
+
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
 #### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Limits and specifications for Teams](limits-specifications-teams.md)
 #### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-#### [Get tools to support a rollout of Teams](rollout-tools.md)
 #### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 #### [Plan for governance in Teams](plan-teams-governance.md)
+
+
 
 
 ### Interoperability with Office 365
@@ -725,7 +728,7 @@
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)

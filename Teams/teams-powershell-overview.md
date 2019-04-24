@@ -22,7 +22,7 @@ Microsoft Teams has a rich set of tools for IT admins to manage the product thro
 ## Which modules do you need to use?
 
 The PowerShell controls for managing Teams are in two different PowerShell modules: 
-- [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (public preview): The Teams PowerShell module contains all the cmdlets you need to create and manage teams.  
+- [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/) : The Teams PowerShell module contains all the cmdlets you need to create and manage teams.  
 - [Skype for Business PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366): The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools. 
 
 The reference documentation for the PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
@@ -33,11 +33,42 @@ Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to 
 
 ## Creating and managing teams via PowerShell
 
-The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
+The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-Teams are backed by O365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
+Teams are backed by O365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
+
+### Differences between Preview and Generally Available Microsoft Teams PowerShell Module
+
+When we released our generally available version of our PowerShell module, a few cmdlets were left in the beta-only module as described in the table below.
+
+| Cmdlet | Available in Preview | Available in 1.0 |
+|------- | -------------------- | ------------------------------ |
+| Add-TeamUser | Yes | Yes |
+| Connect-MicrosoftTeams | Yes | Yes |
+| Disconnect-MicrosoftTeams | Yes | Yes |
+| Get-Team | Yes | Yes |
+| Get-TeamChannel | Yes | Yes |
+| Get-TeamFunSettings | Prior to 1.0 release only | No |
+| Get-TeamGuestSettings | Prior to 1.0 release only | No |
+| Get-TeamHelp | Yes | Yes |
+| Get-TeamMemberSettings | Prior to 1.0 release only | No |
+| Get-TeamMessagingSettings | Prior to 1.0 release only | No |
+| Get-TeamUser | Yes | Yes |
+| New-Team | Yes | Yes |
+| New-TeamChannel | Yes | Yes |
+| Remove-Team | Yes | Yes |
+| Remove-TeamChannel | Yes | Yes |
+| Remove-TeamUser | Yes | Yes |
+| Set-Team | Yes | Yes |
+| Set-TeamChannel | Yes | Yes |
+| Set-TeamFunSettings | Prior to 1.0 release only | No |
+| Set-TeamGuestSettings | Prior to 1.0 release only | No |
+| Set-TeamMemberSettings | Prior to 1.0 release only | No |
+| Set-TeamMessagingSettings | Prior to 1.0 release only | No |
+| Set-TeamPicture | Yes | No, planned |
+
 
 ## Managing policies via PowerShell
 
