@@ -187,7 +187,7 @@ ms.collection:
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.png" alt="government" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.svg" alt="government" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
