@@ -37,10 +37,9 @@ The Teams usage report in the Microsoft Teams admin center gives you an overview
 |**1**   |The Teams usage activity report can be viewed for trends over the last 7 days or 28 days. |
 |**2**   |Each report has a date for when this report was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
 |**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the count of active items or activity.</li> </ul>Hover over the dot representing an item or activity on a given date to see the number of instances of that item or activity on that given date.|
-|**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, click  **Total Active users**, **Teams & Channels active users**,  **Active channels**, or **Messages** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
-|**5**   |The table gives you a breakdown of usage by team. <ul><li>**Display name** is the display name of the team. You can click the display name to go to the team's settings page in the Microsoft Teams admin center. </li> <li>**Privacy** refers to whether the team is a private team or public team.</li> <li>**Active users** is the number of active users in the team in the specified time period.</li><li>**Guests** is the number of guests in the team in the specified time period.</li> </li> </ul>To see the information that you want in the table, make sure to add the columns to the table. |
-|**6**   |Select **Edit columns** to add or remove columns in the table. 
-|**7**   |Select **˙˙˙**, and then **Print chart** to print the chart. |
+|**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, click  **Total active users**, **Teams & Channels active users**,  **Active channels**, or **Messages** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
+|**5**   |The table gives you a breakdown of usage by team. <ul><li>**Team name** is the display name of the team. You can click the team name to go to the team's settings page in the Microsoft Teams admin center. </li> <li>**Privacy** refers to whether the team is a private team or public team.</li> <li>**Active users** is the number of active users in the team in the specified time period.</li><li>**Guests** is the number of guests in the team in the specified time period.</li> </li> </ul>To see the information that you want in the table, make sure to add the columns to the table. |
+|**6**   |Select **Edit columns** to add or remove columns in the table.|
 
 ## Related topics
 - [Teams analytics and reporting](teams-reporting-reference.md)
