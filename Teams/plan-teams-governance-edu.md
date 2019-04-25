@@ -1,7 +1,7 @@
 ---
 title: Microsoft Education governance FAQ for IT pros - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
