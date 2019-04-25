@@ -221,7 +221,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 <a name="BKMKTenantDataFile"> </a>
 
 ### Building data file
-The format of the data file you upload must meet the following to pass the validation check before uploading.
+CQD uses Building data file by first derive Subnet column from expanding Network+NetworkRange column, then joining Subnet column to the call record’s First Subnet/Second Subnet column to show Building/City/Country/Region… information. The format of the data file you upload must meet the following to pass the validation check before uploading.
   
 - The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
     
@@ -254,7 +254,7 @@ The format of the data file you upload must meet the following to pass the valid
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive. 
 
 ### Endpoint data file
-The format of the data file you upload must meet the following to pass the validation check before uploading.
+CQD uses Endpoint data file by joining its EndpointName column to the call record’s First Client Endpoint Name/Second Client Endpoint Name column to show Endpoint Make/Model/Type information. The format of the data file you upload must meet the following to pass the validation check before uploading.
 
 - The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
 
