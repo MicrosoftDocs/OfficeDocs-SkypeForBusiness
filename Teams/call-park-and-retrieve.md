@@ -1,7 +1,7 @@
 ---
 title: "Call park and retrieve in Microsoft Teams"
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
