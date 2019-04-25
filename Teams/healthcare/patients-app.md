@@ -74,8 +74,8 @@ This article is for you if you're a general healthcare IT developer that is inte
 
 The following sections explain the requirements of the FHIR only data access layer for the Patients app that a FHIR server must meet in order to integrate with the Patients App, including the following:
 
-- Functional and technical requirements of the integration interface
 - Expectations around user authentication
+- Functional and technical requirements of the integration interface
 - Expectations around performance and reliability
 - Expectations around FHIR resources to be supported for the Patients App
 - Process for integration and the expected engagement model
@@ -84,6 +84,50 @@ The following sections explain the requirements of the FHIR only data access lay
 - Future requirements for the next iteration of the Patient App
 
 ## Functional and technical requirements of the integration interface
+
+### Authentication and Authorization
+
+Based on our understanding of working with Interop vendors that perform data transformations, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. We will rely on auditing to track actions of clinicians on auditing of ePHI data within the Patient App. 
+
+In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service.
+
+Authentication: Application to Application authentication model is described below:
+
+Service to service authentication should be done through oAuth 2.0 [Client Credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/). Partner service needs to provide the following:
+
+1. Partner service will enable Microsoft Teams Patient App to create an account with Partner, which will enable us to generate and own client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s Authentication server.
+2. Partner service will own Authentication/Authorization system, which will accept and verify (authenticate) the client credentials provided and give back an access token with tenant hint in scope, as described below.
+3. For security reasons or in a case of secret breach, Microsoft should be able to:
+   1. Re-generate the secret
+   2. Invalidate or delete the old secret (Example of the same is available in Azure Portal - AAD App Registration)
+4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
+5. Partner service will provide the token endpoint for Microsoft Teams Patient App to request an access token using client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server:
+
+![patient app 5](../media/Patient-app-5.png)
+
+A request for access token consists of the following parameters:
+
+    POST /token HTTP/1.1
+    Host: authorization-server.com
+    
+    grant-type=client_credentials
+    &client_id=xxxxxxxxxx
+    &client_secret-xxxxxxxxxx
+
+Partner service will provide client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s side. Partner service will provide the endpoint to request access token using client credential flow. Example:
+
+Successful response must include token_type, access_token and expires_in.
+
+### Routing: Mapping AAD Tenant to the Provider endpoint
+
+Microsoft Teams Patient app will connect to partner service through a single endpoint. Partner service will have to own and maintain a mechanism to map Microsoft customer (AAD Tenant ID) to respective healthcare Provider (FHIR server) that Partner service is working with.
+
+Mapping of AAD tenant to a provider endpoint should be done through AAD Tenant ID (GUID). Microsoft Teams Patient app will pass Tenant ID in scope, while requesting access-token for each request. Partner service will keep the mapping of Tenant ID to Provider endpoint and redirect request to a provider endpoint based on Tenant ID. To do this partner must support configuration on their end (manually or via a portal as part of onboarding of provider organizations to their Interop Platform).
+
+Authentication and Routing work-flow is shown below:
+
+![patient app 6](../media/Patient-app-6.png)
+
 
 ## DSTU2 interface specification
 
@@ -483,48 +527,7 @@ Resource search using GET method and the following parameters:
 
 ![patient app 4](../media/Patient-app-4.png)
 
-## Authentication and Authorization
 
-Based on our understanding of working with Interop vendors that perform data transformations, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. We will rely on auditing to track actions of clinicians on auditing of ePHI data within the Patient App. 
-
-In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service. 
-
-Authentication: Application to Application authentication model is described below: 
-
-Service to service authentication should be done through oAuth 2.0 [Client Credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/). Partner service needs to provide the following: 
-
-1. Partner service will enable Microsoft Teams Patient App to create an account with Partner, which will enable us to generate and own client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s Authentication server.
-2. Partner service will own Authentication/Authorization system, which will accept and verify (authenticate) the client credentials provided and give back an access token with tenant hint in scope, as described below.
-3. For security reasons or in a case of secret breach, Microsoft should be able to:
-   1. Re-generate the secret
-   2. Invalidate or delete the old secret (Example of the same is available in Azure Portal - AAD App Registration)
-4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
-5. Partner service will provide the token endpoint for Microsoft Teams Patient App to request an access token using client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server:
- 
-![patient app 5](../media/Patient-app-5.png)
-
-A request for access token consists of the following parameters:
-
-    POST /token HTTP/1.1
-    Host: authorization-server.com 
-    
-    grant-type=client_credentials
-    &client_id=xxxxxxxxxx
-    &client_secret-xxxxxxxxxx
-
-Partner service will provide client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s side. Partner service will provide the endpoint to request access token using client credential flow. Example:
-
-Successful response must include token_type, access_token and expires_in. 
-
-## Routing: Mapping AAD Tenant to the Provider endpoint
-
-Microsoft Teams Patient app will connect to partner service through a single endpoint. Partner service will have to own and maintain a mechanism to map Microsoft customer (AAD Tenant ID) to respective healthcare Provider (FHIR server) that Partner service is working with.
-
-Mapping of AAD tenant to a provider endpoint should be done through AAD Tenant ID (GUID). Microsoft Teams Patient app will pass Tenant ID in scope, while requesting access-token for each request. Partner service will keep the mapping of Tenant ID to Provider endpoint and redirect request to a provider endpoint based on Tenant ID. To do this partner must support configuration on their end (manually or via a portal as part of onboarding of provider organizations to their Interop Platform).
-
-Authentication and Routing work-flow is shown below:
-
-![patient app 6](../media/Patient-app-6.png)
 
 ## Performance and Reliability
 NA
