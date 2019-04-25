@@ -1,7 +1,7 @@
 ---
 title: Plan for service management guide for Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/16/2018
 ms.topic: conceptual

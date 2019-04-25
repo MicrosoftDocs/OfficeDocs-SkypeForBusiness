@@ -1,7 +1,7 @@
 ---
 title: User adoption email templates for Microsoft Teams or Skype for Business rollouts
 author: dearbeen
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
