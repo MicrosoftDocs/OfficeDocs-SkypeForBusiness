@@ -13,7 +13,8 @@ ms.reviewer: crowe
 search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Landing page for Direct Routing
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 ---
 
 # Phone System Direct Routing

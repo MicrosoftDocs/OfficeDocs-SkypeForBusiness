@@ -12,7 +12,8 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: "Learn what is needed to migrate to Direct Routing from a Skype for Business Online and Teams configuration perspective."
 ---
 
