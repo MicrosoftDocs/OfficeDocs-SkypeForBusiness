@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: MyAdvisor
+ms.reviewer: Rowille
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
 localization_priority: Normal
 search.appverid: MET150
