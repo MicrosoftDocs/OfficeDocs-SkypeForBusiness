@@ -10,7 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
