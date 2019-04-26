@@ -3,7 +3,7 @@ title: Location of data in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/23/2019
+ms.date: 04/26/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
