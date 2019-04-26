@@ -220,8 +220,8 @@ Introduced in this update:
 
 [Support for Microsoft Teams Rooms current branch versions](srs2-lifecycle-support.md)
 
-[Known issues for Microsoft Teams Rooms](../../manage/skype-room-systems-v2/known-issues.md)
+[Known issues for Microsoft Teams Rooms](known-issues.md)
 
 [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
-[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)

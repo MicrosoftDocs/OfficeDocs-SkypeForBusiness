@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Teams Rooms"
+title: "Microsoft Teams Rooms licenses"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

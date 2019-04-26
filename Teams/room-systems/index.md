@@ -5,7 +5,6 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 layout: LandingPage
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
@@ -46,7 +45,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -64,7 +63,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -82,7 +81,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -102,9 +101,9 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 </ul>
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
+> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
 
 These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system. Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
-> [Skype Room System](../deploy/deploy-clients/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.
+> [Skype Room System](../room-systems/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.
