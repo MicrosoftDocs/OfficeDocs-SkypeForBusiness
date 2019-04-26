@@ -329,12 +329,12 @@ This resource is only being used as a reference on the [Encounter](#encounter) r
 
 The FHIR server must support POST transactions using bundles for the following resources:
 
-- [Patient](#patient-1)
-- [Observation](#observation-1)
-- [Condition](#condition-1)
-- [Encounter](#encounter-1)
-- [Allergy Intolerance](#allergyintolerance-1)
-- [Coverage](#coverage-1)
+- [Patient](#patient-stu3)
+- [Observation](#observation-stu3)
+- [Condition](#condition-stu3)
+- [Encounter](#encounter-stu3)
+- [Allergy Intolerance](#allergyintolerance-stu3)
+- [Coverage](#coverage-stu3)
 - [Medication Statement](#medication-request) (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
 - Location (the information needed from this resource can be included in Encounter)
 
