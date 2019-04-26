@@ -1185,6 +1185,11 @@
       "source_path": "Teams/support-resources.md", 
       "redirect_url": "https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json", 
       "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/rollout-tools.md", 
+      "redirect_url": "https://docs.microsoft.com/en-us/microsoftteams/adopt-tools-and-downloads", 
+      "redirect_document_id": true 
     }
-    ] 
+  ] 
 }
