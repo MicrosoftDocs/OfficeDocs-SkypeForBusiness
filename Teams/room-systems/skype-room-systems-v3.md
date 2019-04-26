@@ -31,7 +31,7 @@ Monitoring Microsoft Teams Rooms systems consists of two key activities:
 To ensure that users are able to use the Microsoft Teams Rooms units, the units must be on, connected to the network with the Microsoft Teams Rooms application correctly configured, and be connected to functioning peripheral devices. 
 
 
-Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor.md#understand-the-log-entries). 
+Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor-manage.md#understand-the-log-entries). 
 
 |**Setting**|**Allows**|
 |:-----|:-----|
@@ -44,14 +44,14 @@ Transferring files using Group Policies is discussed in [Configure a File Item](
 ## Remote Management using PowerShell
 <a name="RemotePS"> </a>
 
-We recommend that you use Microsoft Operations Manager Suite to monitor your Microsoft Teams Rooms systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Microsoft Teams Rooms management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md). 
+We recommend that you use Microsoft Operations Manager Suite to monitor your Microsoft Teams Rooms systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md). 
 
 Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Microsoft Teams Rooms units across your deployment. 
 
 |    |     |
 |-----------|------------|
-|![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
-|![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
 
 ## Quality and reliability monitoring (CQD)
 
@@ -81,10 +81,10 @@ For more information about troubleshooting and admin mode, see [Manage Microsoft
 
 [Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
-[Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
 
-[Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
 
 [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)

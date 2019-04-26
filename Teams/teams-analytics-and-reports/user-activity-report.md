@@ -3,7 +3,7 @@ title: Microsoft Teams user activity report
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/11/2019
+ms.date: 04/22/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
