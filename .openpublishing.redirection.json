@@ -1192,11 +1192,6 @@
       "redirect_document_id": true 
     },
     {
-      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/azure-monitor.md", 
-      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/azure-monitor-plan", 
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0", 
       "redirect_document_id": false
@@ -1309,6 +1304,11 @@
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/recovery-tool.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/recovery-tool", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/room-systems/index.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/index", 
       "redirect_document_id": false
     }
   ] 
