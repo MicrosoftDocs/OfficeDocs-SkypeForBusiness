@@ -17,7 +17,6 @@ description: Microsoft Teams Patient App EHR integration
 
 # Understand the Patients App and EHR integration interface
 
-
 ## Patients App overview
 
 Microsoft Teams is developing a Patients app specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following indjstry leaders to establish electronic health record integration with Teams:
@@ -340,7 +339,7 @@ The FHIR server must support POST transactions using bundles for the following r
 - [Coverage](#coverage-1)
 - [Medication Statement](#medication-request) (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
 - Location (the information needed from this resource can be included in Encounter)
- 
+
 Queries from the Patient App for more than one resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction).
 
 ### Capability Statement (STU3)
@@ -452,9 +451,9 @@ In addition, the following fields from US Core Encounter profile’s “must sup
 
 Resource search using GET method and the following parameters:
 
-1. patient=<patient id>
-2. _sort:desc=<field ex. date>
-3. _count=<max results>
+1. patient=\<patient id>
+2. _sort:desc=\<field ex. date>
+3. _count=\<max results>
 
 The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
 
@@ -548,9 +547,6 @@ Once you've created the open source FHIR Server, it's really easy to connect to 
 
 4. Navigate to the general channel as the Team owner and then click on the Patients tab. You should see a first run experience that will present two options i.e. EHR Mode and Manual Mode. Please select the EHR mode and drop the FHIR Server endpoint (that you've just setup earlier with all the required data and resources per the specifications above) into the URL and give the connection a name that well represents the FHIR Server. Hit Save, and everything should be ready to go.
 
-<Insert Image of EHR Connection String - Image2>
-   
+![patients app server settings](../media/patients-server.png)
+
 5. Start using the app to search for Patients from the FHIR Server/EHR and add them to list and please give us feedback if something doesn't work. Also, to establish a fully authenticated version of the Patient App -> FHIR Server flow, please engage in offline dialogue with as part of Step 1 to clarify requirements and we will help enable this with you per the Authentication requirements described above in the FHIR Interface document. This part of the process will become more self-serve in the future. Stay tuned! 
-
-
-
