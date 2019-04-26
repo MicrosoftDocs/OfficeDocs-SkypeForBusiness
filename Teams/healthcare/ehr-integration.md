@@ -66,7 +66,7 @@ Short overview of what the new feature is.
 
 ### In Preview: **This feature** is in preview, how do I opt in? -OR- At GA or after: **This feature** is on by default for your organization.
 
-To opt-in and use **this feature** while it's in preview, see **Setup tab**. -OR- To prevent your org or individuals from using this feature until you've reviewed it, you can remove the **feature** from the App launcher by following this article, [Prevent users from starting to use new features until my organization is ready](6f55cdae-078d-4834-86cc-fcef98ba74b8.md#Prevent). You can also make other changes such as [letting Microsoft know](6f55cdae-078d-4834-86cc-fcef98ba74b8.md#limits) when you want features to release to your tenant.
+To opt-in and use **this feature** while it's in preview, see **Setup tab**. -OR- To prevent your org or individuals from using this feature until you've reviewed it, you can remove the **feature** from the App launcher by following this article, [Prevent users from starting to use new features until my organization is ready] (6f55cdae-078d-4834-86cc-fcef98ba74b8.md#Prevent). You can also make other changes such as [letting Microsoft know] (6f55cdae-078d-4834-86cc-fcef98ba74b8.md#limits) when you want features to release to your tenant.
 
 ### How do I manage this feature or how do I set up this feature?
 
