@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams (coming soon)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/23/2019
+ms.date: 04/29/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -15,6 +15,8 @@ appliesto:
 ---
 
 # Information barriers in Microsoft Teams
+
+> [!INCLUDE][Preview feature](includes/preview-feature.md)]
 
 Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented from communicating with any outside contacts.
 
@@ -68,4 +70,13 @@ If there is an existing chat or other communication between users, and a new pol
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations. 
 - **Team** - Any users who have been removed from the group are removed from the team and will not be able to see or participate in existing or new conversations.
 
+## Required licenses and permissions
 
+Currently, the information barrier features is in private preview. When these features are generally available, they'll be included in subscriptions, such as:
+
+- Microsoft 365 E5
+- Office 365 E5
+- Office 365 Advanced Compliance
+- Microsoft 365 E5 Compliance
+
+For more details, including plans and pricing, see [Compliance Solutions](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
