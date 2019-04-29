@@ -16,15 +16,15 @@ description: "This article explains the infrastructure preparations for deployin
  
 # Prepare your environment
 
-This section contains an overview of the steps required to prepare your Skype for Business environment so that you can use all of the features of Microsoft Teams Rooms.
+This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
   
-1. Prepare a device account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md) for details.
+1. Prepare a device account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](room-systems-v2.md) for details.
     
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
    - It must be able to receive an IP address using DHCP (note: Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup)
     
-   - It must have these ports open (in addition to opening the normal ports for Skype for Business media):
+   - It must have these ports open (in addition to opening the normal ports for media):
     
    - HTTPS: 443
     
@@ -43,7 +43,7 @@ This section contains an overview of the steps required to prepare your Skype fo
     
 ### Create and test a device account
 
-A  *device account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md) for details.
+A  *device account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Microsoft Teams Rooms](room-systems-v2.md) for details.
   
 ### Check network availability
 
@@ -52,14 +52,14 @@ In order to function properly, the Microsoft Teams Rooms device must have access
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as your Microsoft Exchange and Skype for Business servers.
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms cannot be configured with a static IP address.
 - Access to HTTP ports 80 and 443.
-- TCP and UDP ports configured as described in [Port and protocol requirements for servers](../network-requirements/ports-and-protocols.md) for on premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Skype for Business online implementations.
+- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
 
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
   
 ### Certificates
 
-Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for Online and some On-Premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA (typical for On-Premises deployments) then the device needs to trust that CA which means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
+Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams or Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for Online and some On-Premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA (typical for On-Premises deployments) then the device needs to trust that CA which means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
   
 You will install certificates the same way you would for any other Windows client. 
   
@@ -121,7 +121,7 @@ To use this application, you must be able to connect to the endpoints described 
   
 ### Create provisioning packages
 
-You will use provisioning packages to authenticate to Exchange Server or Skype for Business Server.
+You will use provisioning packages to authenticate to Exchange Server or Office 365.
   
 ### Admin group management
 
@@ -159,8 +159,8 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
 
 [Microsoft Teams Rooms requirements](requirements.md)
   
-[Deploy Microsoft Teams Rooms](../../deploy/deploy-clients/room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
   
-[Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
