@@ -45,8 +45,7 @@ After Teams is installed, Office 365 ProPlus users can manually update Teams by 
 Teams on Virtual Desktop Infrastructure (VDI) isn't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi). You must uninstall the current version to update to a newer version.
 
 ## Can admins deploy updates instead of Teams auto-updating?
-
-Teams does not provide admins the ability to deploy updates through any delivery mechanism.
+Teams does not give admins the ability to deploy updates through any delivery mechanism.
 
 ## What is the Teams TAP?
 
