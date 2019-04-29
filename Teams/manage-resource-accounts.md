@@ -126,6 +126,17 @@ To manage Resource account settings in Microsoft Teams admin center, navigate to
 
 When finished, click on **Save**.
 
+## Delete a resource account
+
+Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your service number stuck in pending mode. You can do that using the following commandlet: 
+
+``` Powershell
+Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+```
+                
+Once you do that, you can delete the resource account from the O365 admin portal, under Users tab.
+
+
 ## Related Information
 
 For implementations that are hybrid with Skype for Business Server:
