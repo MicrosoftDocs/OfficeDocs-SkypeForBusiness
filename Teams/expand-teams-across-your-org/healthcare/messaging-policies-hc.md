@@ -31,7 +31,7 @@ To edit the existing default Messaging policy for your organization, click the *
 
 The following settings are of special interest for Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 
-## Read reciepts
+## Read receipts
 
 - ![number one](../../media/sfbcallout1.png) **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read.
 
@@ -52,7 +52,7 @@ The following settings are of special interest for Healthcare applications, and 
 
   An admin can enable or disable the ability for users assigned this policy to send priority notifications. This feature is on by default. The recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages. For Healthcare applications, we recommend enabling the feature for at least some users, but you'll need to determine which ones.
 
-  *Usage Example:* Sofia Krause is readmitting a high-risk patient, Jakob Roth. Manuela Carstens, a physician, is the primary care doctor for this patient.  Sofia sends a message to Manuela marked as 'High Priority' and needing immediate help with triage of Jakob.  Manuela's phone receives the message but Manuela didn't feel the phone vibration and does not reply. Teams re-notifies Manuela and will continue to persistently re-notify until she reads the message. If read receipts are also enabled, Sofia can be aware that the message was read by Manuela, even before Manuela decides how to respond.
+  *Usage Example:* Sofia Krause is readmitting a high-risk patient, Jakob Roth. Manuela Carstens, a physician, is the primary care doctor for this patient.  Sofia sends a message to Manuela using a priority notification asking for immediate help with triage of Jakob.  Manuela's phone receives the message but Manuela didn't feel the phone vibration and does not reply. Teams re-notifies Manuela and will continue to persistently re-notify until she reads the message. If read receipts are also enabled, Sofia can be aware that the message was read by Manuela, even before Manuela decides how to respond.
 
 ## Related topics
 

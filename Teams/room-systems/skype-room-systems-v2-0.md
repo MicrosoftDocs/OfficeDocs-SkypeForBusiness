@@ -24,7 +24,7 @@ You’ll find planning information below covering the recommended approach and k
 
 Microsoft Teams Rooms provides a complete meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
 
-![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.](../../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.")
+![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.](../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.")
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your  deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
 
@@ -44,14 +44,14 @@ You can procure these components as preinstalled bundles from a number of vendor
 
 In addition to the Surface Pro/dock combination, you can also purchase Microsoft Teams Rooms with the touchscreen control panel, compute, dock, and key peripheral devices integrated. 
 
-Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](../../deploy/deploy-clients/room-systems-scale.md). 
+Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](room-systems-scale.md). 
 
-You can deploy Microsoft Teams Rooms with Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
+You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
 
 |    |     |
 |-----------|------------|
-|![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
+|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
+| ![](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
 
 ## Identify who will undertake the key activities throughout your deployment
 
@@ -59,7 +59,7 @@ Use the approach illustrated below to guide you through your deployment, and cus
 
 Begin with understanding what conference rooms you have and envisioning what would work best for you in the future, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.
 
-![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
+![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
 
 You might need to coordinate these activities across several teams. We provide a high-level view of the main activities that you should cover, and also suggestions for the teams who are typically involved in deploying and managing conference room systems, to help you decide who you need to work with.
 
@@ -69,12 +69,12 @@ You might need to coordinate these activities across several teams. We provide a
 | Plan capabilities          | IT Project Team                        |             | [Room inventory and capability planning](#room-inventory-and-capability-planning)                       |
 | Device selection           | IT Project Team / AV Team              |             | [Device selection](#device-selection)                      |
 | Procurement                | IT Project Team / AV Team              |             | [Procurement](#procurement)                      |
-| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
-| Service readiness          | IT Project Team                        |             | [Service readiness](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
-| Configuration              | IT Project Team                        |             | [Configuration and deployment](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
-| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](../../deploy/deploy-clients/console.md#microsoft-teams-rooms-deployment-checklist)                      |
+| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](room-systems-v2.md#site-readiness)                      |
+| Service readiness          | IT Project Team                        |             | [Service readiness](room-systems-v2.md#service-readiness)                      |
+| Configuration              | IT Project Team                        |             | [Configuration and deployment](room-systems-v2.md#configuration-and-deployment)                      |
+| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist)                      |
 | Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management)                      |
-| Maintenance and operations | AV team / IT Project Team              |             | [Management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
+| Maintenance and operations | AV team / IT Project Team              |             | [Management overview](skype-room-systems-v2.md)                      |
 
 
 ## Room inventory and capability planning
@@ -87,8 +87,8 @@ As part of your discovery, it’s key to consider room acoustics and layout. For
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ul> |
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Review the rooms in scope, and define Microsoft Teams Rooms configurations for them.</li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ul> |
+| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Review the rooms in scope, and define Microsoft Teams Rooms configurations for them.</li></ul>|
 
 _Sample meeting/conference room inventory_
 
@@ -113,8 +113,8 @@ Based on the vendor you prefer, use the information provided in the requirements
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul>|
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul>|
 
 _Sample Microsoft Teams Rooms deployment template for your organization_
 
@@ -137,8 +137,8 @@ Depending on your deployment scale and approach, you might decide to have the Mi
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul>|
 
 ## Plan for operations 
 
@@ -146,12 +146,12 @@ Your organization must execute monitoring, administration, and management tasks 
 
 Many organizations have an AV team or partner who manages their conference rooms and devices. This team should be involved in agreeing who will manage the Microsoft Teams Rooms devices going forward to monitor performance, and deploy software updates and hotfixes. 
 
-Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and the [known issues list](../../manage/skype-room-systems-v2/known-issues.md).
+Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and the [known issues list](known-issues.md).
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul>|
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
 
 
 ## Plan for adoption and change management
