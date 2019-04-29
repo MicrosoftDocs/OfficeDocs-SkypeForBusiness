@@ -38,6 +38,24 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
         </div>
         </a>
     </li>
+<li>
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Assignments in Teams for Education</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/resources-teams-edu">
         <div class="cardSize">
@@ -62,7 +80,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
