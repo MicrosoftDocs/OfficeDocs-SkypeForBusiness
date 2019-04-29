@@ -28,9 +28,9 @@ The web app is always up to date with the latest and greatest improvements.
 
 ## How does the desktop client update take place?
 
-The desktop client updates itself automatically. We check for an update every few hours behind the scenes, download it, and wait for users to be idle before silently installing the update.
+The desktop client updates itself automatically. Teams checks for an update every few hours behind the scenes, downloads it, and then waits for users to be idle before silently installing the update.
 
-Users can also manually download updates by clicking **Check for updates** on the **Profile** drop-down menu on the top right of the app. If an update is available, it will be downloaded and silently installed when the user is idle. 
+Users can also manually download updates by clicking **Check for updates** on the **Profile** drop-down menu on the top right of the app. If an update is available, it will be downloaded and silently installed when the user is idle.
 
 Users need to be signed in for updates to be downloaded.
 
