@@ -232,8 +232,8 @@
 ### [Setting up Phone System in your organization](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Set up a Cloud auto attendant](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Small business example - Set up an auto attendant](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
-#### [Small business example - Set up a call queue](../what-is-phone-system-in-office-365/tutorial-cq.yml)
+#### [Small business example - Set up an auto attendant](../what-is-phone-system-in-office-365/tutorial-org-aa)  
+#### [Small business example - Set up a call queue](../what-is-phone-system-in-office-365/tutorial-cq)
 ### [Create a Cloud call queue](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
