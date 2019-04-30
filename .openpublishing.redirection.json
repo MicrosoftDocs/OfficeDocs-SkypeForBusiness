@@ -1177,11 +1177,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "Teams/assignments-in-education.md", 
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page", 
-      "redirect_document_id": true 
-    },
-    {
       "source_path": "Teams/support-resources.md", 
       "redirect_url": "https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json", 
       "redirect_document_id": true 
@@ -1190,6 +1185,126 @@
       "source_path": "Teams/rollout-tools.md", 
       "redirect_url": "https://docs.microsoft.com/en-us/microsoftteams/adopt-tools-and-downloads", 
       "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0", 
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/srs2-lifecycle-support", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/srs2-release-note.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/srs2-release-note", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/srs-v2-prep.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/srs-v2-prep", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/requirements.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/requirements", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/azure-monitor.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/azure-monitor-plan", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/room-systems-v2.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/room-systems-v2-configure-accounts.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2-configure-accounts", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/with-office-365.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/with-office-365", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/with-skype-for-business-server-2015.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/with-skype-for-business-server-2015", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/with-exchange-online.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/with-exchange-online", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/with-exchange-on-premises.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/with-exchange-on-premises", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/console.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/console", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/room-systems-scale.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-scale", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/azure-monitor.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/azure-monitor-deploy", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/deploy/deploy-clients/lrs-migration.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/lrs-migration", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/skype-room-systems-v2.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/room-systems-v2-operations.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2-operations", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/known-issues.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/known-issues", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/azure-monitor.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/azure-monitor-manage", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/xml-config-file.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/xml-config-file", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/recovery-tool.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/recovery-tool", 
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbServer/room-systems/index.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/index", 
+      "redirect_document_id": false
     }
   ] 
 }

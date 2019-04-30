@@ -142,6 +142,7 @@
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Microsoft Teams Rooms](room-systems/index.md)
 
 
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
@@ -326,6 +327,7 @@
 #### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
 #### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 #### [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -654,6 +656,7 @@
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
