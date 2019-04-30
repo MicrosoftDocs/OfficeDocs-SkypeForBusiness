@@ -1,7 +1,7 @@
 ---
 title: Assignments for Teams
-author: lanachin
-ms.author: v-lanac
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,7 +11,7 @@ MS.collection:
 search.appverid: MET150
 ms.reviewer: jastark
 f1keywords: ms.teamsadmincenter.assignments.overview
-description: Learn how to manage devices used with Teams in your organization. 
+description: Learn how to manage assignments in the Microsoft Teams admin center in Teams for Education.   
 localization_priority: Normal
 appliesto: 
 - Microsoft Teams
@@ -19,14 +19,13 @@ appliesto:
 
 # Assignments in Teams for Education
 
-With Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, and communicate with school staff. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or organization.  
-
-## Assignments in the Teams admin center
 Assignments are tasks or units of work assigned to a student or team member in a class as part of their study. You can create assignments within your Teams class.
 
 [Learn more about Assignments](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
-With the administrator settings in Teams admin center you can turn the following features on or off to be available for students and teachers within your organization. The following are settings related to Assignments:
+## Assignments in the Microsoft Teams admin center
+
+With the admin settings in Microsoft Teams admin center you can turn the following features on or off to be available for students and teachers within your organization. The following are settings related to Assignments:
 
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
@@ -64,7 +63,7 @@ The TurnitinApiUrl is the host address of your admin console.
 Go to the Integrations tab and add an integration.
 ![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
 
-The TurnitinApiKey will be given to you after you follow the prompts. Copy this key and paste it into the Teams admin center. 
+The TurnitinApiKey will be given to you after you follow the prompts. Copy this key and paste it into the Microsoft Teams admin center. 
 ![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
 
 [Learn more about the integration between Turnitin and Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
