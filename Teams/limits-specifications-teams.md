@@ -42,7 +42,6 @@ Meetings and calls
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
-|Number of people in a private chat  | 50    |
 
 Storage
 -------
@@ -72,15 +71,16 @@ Users who participate in conversations that are part of the Chat list in Microso
 
 Microsoft Teams chat function works on a Microsoft Exchange backend, so you can apply the Exchange messaging limits to the chat function within Microsoft Teams. If users want to send an email to a channel in Teams, they use the channel email address. Once an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel. 
 
-|Feature  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
-|---------|---------|---------|---------|---------|
-|Message size limit &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|File attachments limit &Dagger;  |10     |10     |10     |10    |
-|Inline images limit &Dagger; |50   |50   |50   |50   |
+|Feature  | Maximum limit  |
+|---------|---------|
+|Number of people in a private chat  | 100    |
+|Message size &dagger;  |25 KB   |
+|File attachments &Dagger;  |10     |
+|Inline images &Dagger; |50   |
 
 &dagger; If the message exceeds this limit, a preview message is generated and the user is asked to view/download the original email from the link provided.
 
-&Dagger; If the number of attachments or images exceeds this limit, the message will not be processed and an NDR e-mail will be sent back to the sender notifying them of the error.
+&Dagger; If the number of attachments or images exceeds this limit, the message will not be processed and an NDR email will be sent back to the sender notifying them of the error.
 
 For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
