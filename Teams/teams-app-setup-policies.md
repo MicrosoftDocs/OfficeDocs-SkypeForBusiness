@@ -133,6 +133,8 @@ Keep in mind that the Teams app store lists all Teams apps whereas the **Add pin
 
 The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams. 
 
+Currently, policy changes aren't reflected for Teams for Education users on the Teams Android app. We're working on a new version of the app that supports policy changes for Teams for Education.
+
 #### How many apps can be added to a policy?
 
 A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has less than two apps, the mobile clients won't reflect the policy settings and instead will continue to use the existing configuration.
@@ -156,7 +158,7 @@ To view all apps that are pinned for a user, users may have to do the following 
 
 The Teams mobile clients (iOS and Android) currently don't support personal apps with static tabs. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients.
 
-With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts.
+With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts. 
 
 #### Can users change the order of apps pinned through a policy?
 
