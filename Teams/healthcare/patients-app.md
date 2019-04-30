@@ -81,13 +81,15 @@ The following sections explain the requirements of the FHIR only data access lay
 - How to get started with FHIR and some common challenges faced with the Patients App
 - Future requirements for the next iteration of the Patient App
 
+Note: In the sections below, the word "partner" is used to refer to any 3rd party Organization that enables integration to EHR systems for the Microsoft Teams Patients app through FHIR and is implementing a FHIR Server to match the specifications listed below.
+
 ## Functional and technical requirements of the integration interface
 
-### Authentication and Authorization
+### Authentication for the FHIR Endpoint with the Microsoft Teams Patients app
 
-Based on our understanding of working with Interop vendors that perform data transformations, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. We will rely on auditing to track actions of clinicians on auditing of ePHI data within the Patient App.
+First, a quick note about the current state of the industry:
 
-In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service.
+Based on our understanding of working with Interop vendors that perform data transformations and expose connections to EHR data thru FHIR, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service.
 
 Authentication: Application to Application authentication model is described below:
 
@@ -145,14 +147,14 @@ All the following FHIR resources should be accessible by direct resource referen
 
 ### Conformance minimum required field set
 
-See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html).
+See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html). The FHIR Server must implement the conformance statement for us to have a factual summary of its capabilities. We expect the below parameters in a DSTU2 FHIR Server:
 
 1. Rest
    1. Mode
    2. Interaction
    3. Resource: Type
    4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (Our code requires this to understand which version we should pivot to.)
+2. FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)
 
 ### Patient
 
