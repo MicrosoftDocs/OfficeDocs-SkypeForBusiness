@@ -75,8 +75,8 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 |---------|---------|
 |Number of people in a private chat  | 100    |
 |Message size &dagger;  |25 KB   |
-|File attachments &Dagger;  |10     |
-|Inline images &Dagger; |50   |
+|Number of file attachments &Dagger;  |10     |
+|Number of inline images &Dagger; |50   |
 
 &dagger; If the message exceeds this limit, a preview message is generated and the user is asked to view/download the original email from the link provided.
 
