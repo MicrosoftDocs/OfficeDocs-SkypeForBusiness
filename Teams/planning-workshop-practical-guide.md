@@ -43,6 +43,6 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 [IT admin readiness for Teams](ITAdmin-readiness.md)
 
-[Get tools to support a rollout of Teams](rollout-tools.md)
+[Tools for adoption](adopt-tools-and-downloads.md)
 
 

@@ -19,20 +19,22 @@ appliesto:
 
 # Assignments in Teams for Education
 
-With Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, and communicate with school staff. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school.  
+With Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, and communicate with school staff. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or organization.  
 
 ## Assignments in the Teams admin center
 Assignments are tasks or units of work assigned to a student or team member in a class as part of their study. You can create assignments within your Teams class.
 
 [Learn more about Assignments](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
-With the administrator settings in Teams admin center you can turn the following features on or off to be available for students and teachers within your orgainzation. The following are settings related to Assignments:
+With the administrator settings in Teams admin center you can turn the following features on or off to be available for students and teachers within your organization. The following are settings related to Assignments:
 
+<a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
 Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
 
 This setting is off by default.
 
+<a name="bkmakecode"> </a>
 ### MakeCode
 MakeCode is a block-based coding platform that brings computer science to life for all students. 
 
@@ -42,6 +44,7 @@ This setting is off by default.
 
 [Learn more about MakeCode](https://www.microsoft.com/${locale}/makecode)
 
+<a name="#turnitin"> </a>
 ### Turnitin
 
 Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
