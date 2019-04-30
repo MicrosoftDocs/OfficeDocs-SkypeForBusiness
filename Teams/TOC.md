@@ -693,6 +693,7 @@
 
 
 ## [Security & compliance](security-compliance-overview.md)
+### [Information barriers in Teams](information-barriers-in-teams.md)
 ### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ### [Identity models and authentication in Teams](identify-models-authentication.md)
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
