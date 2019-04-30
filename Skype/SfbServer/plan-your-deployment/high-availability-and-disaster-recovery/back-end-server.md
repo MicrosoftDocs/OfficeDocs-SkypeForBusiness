@@ -37,6 +37,8 @@ If you use Back End Server high availability on a Front End pool that is paired 
 
 Skype for Business Server supports mirroring with the following database software:
   
+- SQL Server 2017, both Enterprise Edition and Standard Edition
+
 - SQL Server 2016, both Enterprise Edition and Standard Edition
 
 - SQL Server 2014, both Enterprise Edition and Standard Edition
@@ -95,9 +97,31 @@ If both the principal and the mirror Back End Servers fail, or if one of those s
   
 ## AlwaysOn Availability Groups and AlwaysOn Failover Cluster Instances
 
-AlwaysOn Availability Groups and AlwaysOn Failover Cluster Instances are supported only on SQL Server 2014 Enterprise Edition and SQL Server 2012 Enterprise Edition. Skype for Business Server supports AlwaysOn Availability Groups only as active/passive, not active/active. 
+Skype for Business Server supports AlwaysOn Availability Groups only as active/passive, not active/active. 
   
 To use AlwaysOn Availability Groups or AlwaysOn Failover Cluster Instances, you first use SQL Server to set up and configure the high availability solution. You can then use Topology Builder to associate it with a Front End pool.
+
+Skype for Business Server supports AlwaysOn with the following database software:
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2017 Standard Edition with limitations, see note below
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2016 Standard Edition with limitations, see note below
+
+- SQL Server 2014 Enterprise Edition
+    
+- SQL Server 2012 SP2 and CU2 Enterprise Edition
+
+> [!NOTE]
+> SQL Server 2017 and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
+
+> [!NOTE]
+> SQL 2016 and 2017 Standard Edition limitation: Always On availability groups is not supported, you can only choose Always On failover cluster instances.
+> Refer to below link:
+> https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017
   
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
