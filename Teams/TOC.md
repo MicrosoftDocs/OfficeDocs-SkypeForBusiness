@@ -77,54 +77,6 @@
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
 
-## Reference
-
-### Get ready to roll out Teams
-#### [Check your environment’s readiness for Teams](environment-readiness.md)
-#### [Prepare your organization's network for Teams](prepare-network.md)
-#### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-#### [Limits and specifications for Teams](limits-specifications-teams.md)
-#### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-#### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-#### [Plan for governance in Teams](plan-teams-governance.md)
-
-
-
-
-### Interoperability with Office 365
-#### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-#### [Office 365 groups and Teams](office-365-groups.md)
-#### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-#### [How Exchange and Teams interact](exchange-teams-interact.md)
-##### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-##### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-#### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-#### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-
-### Install Teams
-#### [Get clients for Teams](get-clients.md)
-#### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-#### [Install Teams using MSI](msi-deployment.md)
-#### [Turn on Teams in your organization](Office-365-set-up.md)
-#### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-#### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
-#### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-
-### Licensing
-#### [Manage user access to Teams](user-access.md)
-#### [Office 365 licensing for Teams](office-365-licensing.md)
-#### [Assign Teams licenses](assign-teams-licenses.md)
-#### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-##### License options based on your plan
-###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-###### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
-###### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-###### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-###### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-#### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-#### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
-
 
 
 <!-- ============================================================ -->
@@ -683,6 +635,53 @@
 
 
 # Reference
+
+
+## Get ready to roll out Teams
+### [Check your environment’s readiness for Teams](environment-readiness.md)
+### [Prepare your organization's network for Teams](prepare-network.md)
+### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
+### [Limits and specifications for Teams](limits-specifications-teams.md)
+### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+### [Plan for governance in Teams](plan-teams-governance.md)
+
+
+
+
+## Interoperability with Office 365
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 groups and Teams](office-365-groups.md)
+### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+### [How Exchange and Teams interact](exchange-teams-interact.md)
+#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
+## Install Teams
+### [Get clients for Teams](get-clients.md)
+### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+### [Install Teams using MSI](msi-deployment.md)
+### [Turn on Teams in your organization](Office-365-set-up.md)
+### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+
+## Licensing
+### [Manage user access to Teams](user-access.md)
+### [Office 365 licensing for Teams](office-365-licensing.md)
+### [Assign Teams licenses](assign-teams-licenses.md)
+### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### License options based on your plan
+##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
