@@ -19,14 +19,14 @@ description: Microsoft Teams Patient App EHR integration
 
 ## Patients App overview
 
-Microsoft Teams is developing a Patients app specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following indjstry leaders to establish electronic health record integration with Teams:
+Microsoft Teams is developing a Patients app specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
 
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
 - Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
 - Dapasoft (through [Corolar on FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
 
-An EHR integration or interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patients App a secure and authenticated connection with the healthcare provider organization's EHR systems to provide patient record data to the Microsoft Teams Patients App while transforming the aggregated data from various other formats like HL7v2, etc. into the FHIR DSTU2 or STU3 standard.
+An EHR integration and interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patients App a secure and authenticated connection with the healthcare provider organization's EHR systems. This enables the one-directional (Read only) flow of the relevant patient records into to the Microsoft Teams Patients App. The Microsoft Teams Patients App understands the FHIR format, so the partner is also responsible for transforming the aggregated data from various other formats like HL7v2, etc. into FHIR DSTU2 or STU3.
 
 ![EHR integration](../media/ehr-1.png)
 
@@ -47,7 +47,7 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
 
 The Patients App adds the following features to Microsoft Teams:
 
-- Ability to fetch latest patient data from the EHRs and other medical information systems thru FHIR
+- Ability to fetch latest patient data from the EHRs and other medical information systems through FHIR
 - Ability to create multiple patient lists within a single channel.
 - Ability to view and sort information displayed about patients through configurable columns.
 - Ability to auto-provision the app through a team template.
@@ -81,7 +81,7 @@ The following sections explain the requirements of the FHIR only data access lay
 - How to get started with FHIR and some common challenges faced with the Patients App
 - Future requirements for the next iteration of the Patient App
 
-Note: In the sections below, the word "partner" is used to refer to any 3rd party Organization that enables integration to EHR systems for the Microsoft Teams Patients app through FHIR and is implementing a FHIR Server to match the specifications listed below.
+Note: In the sections below, the word "partner" or "Interop partner" is used to refer to any 3rd party Organization that enables integration to EHR systems for the Microsoft Teams Patients app through FHIR and is implementing a FHIR Server to match the specifications listed below.
 
 ## Functional and technical requirements of the integration interface
 
@@ -89,11 +89,11 @@ Note: In the sections below, the word "partner" is used to refer to any 3rd part
 
 First, a quick note about the current state of the industry:
 
-Based on our understanding of working with Interop vendors that perform data transformations and expose connections to EHR data thru FHIR, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The interop apps get a “God-Mode” level of access to the EHR data. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the ISVs who are integrating with the interop product or platform. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) who are integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service.
+Based on our understanding of working with Interop vendors that perform data transformations and expose connections to EHR data through FHIR, the more commonly supported form of authorization is an app level authorization with no support for user level authorization even though the EHR system might implement user level authorization. The Interop Service (Partner) gets a “God-Mode” level of access to the EHR data. When they expose the same data as the appropriate FHIR resources there is no authorization context passed on to the Interop Service Consumer (Ex: Microsoft Teams Patient App) that is integrating with the Interop Service or Platform. Hence, in such a case, Microsoft Teams Patients app will not be able to enforce user level authorization. In that model, we will support application to application authentication between the Microsoft Teams 1st Party Patient App and the Interop partner’s service.
 
 Authentication: Application to Application authentication model is described below:
 
-Service to service authentication should be done through oAuth 2.0 [Client Credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/). Partner service needs to provide the following:
+Service to service authentication should be done through OAuth 2.0 [Client Credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/). Partner service needs to provide the following:
 
 1. Partner service will enable Microsoft Teams Patient App to create an account with Partner, which will enable us to generate and own client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s Authentication server.
 2. Partner service will own Authentication/Authorization system, which will accept and verify (authenticate) the client credentials provided and give back an access token with tenant hint in scope, as described below.
@@ -112,11 +112,9 @@ A request for access token consists of the following parameters:
 
     grant-type=client_credentials
     &client_id=xxxxxxxxxx
-    &client_secret-xxxxxxxxxx
+    &client_secret=xxxxxxxxxx
 
-Partner service will provide client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s side. Partner service will provide the endpoint to request access token using client credential flow. Example:
-
-Successful response must include token_type, access_token and expires_in.
+Partner service will provide client_id and client_secret for Microsoft Teams Patient App, managed via an Auth registration portal on the partner’s side. Partner service will provide the endpoint to request access token using client credential flow. A successful response must include token_type, access_token and expires_in parameters. 
 
 ### Routing: Mapping AAD Tenant to the Provider endpoint
 
@@ -130,7 +128,7 @@ Authentication and Routing work-flow is shown below:
 
 ## DSTU2 interface specification
 
-The FHIR server must support POST transactions using bundles for the following resources:
+The FHIR server must support POST requests using bundles for the following resources:
 
 - [Patient](#patient)
 - [Observation](#observation)
@@ -140,6 +138,8 @@ The FHIR server must support POST transactions using bundles for the following r
 - [Coverage](#coverage)
 - [Medication order](#allergyintolerance)
 - [Location](#location)
+
+Note: The Patient resource is the only mandatory resource (without which the app will not load at all); However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App. 
 
 Queries from the Patient App for more than one resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
 
@@ -178,8 +178,8 @@ Resource search using POST method at /Patient/_search and the following paramete
 
 1. id
 2. family:contains=(searches for all patients whose family name contains the value.)
-3. given:contains=\<substring>
-4. name:contains=\<substring>
+3. given=\<substring>
+4. name=\<substring>
 5. birthdate=(exact match)
 6. \_count (maximum number of results that should be returned) <br> The response should contain the total count of records returned as a result of the search, and \_count will be used by the PatientsApp to limit the number of records returned.
 7. identifier=\<mrn>
@@ -329,7 +329,7 @@ This resource is only being used as a reference on the [Encounter](#encounter) r
 
 ## STU3 interface
 
-The FHIR server must support POST transactions using bundles for the following resources:
+The FHIR server must support POST requests using bundles for the following resources:
 
 - [Patient](#patient-stu3)
 - [Observation](#observation-stu3)
@@ -340,9 +340,11 @@ The FHIR server must support POST transactions using bundles for the following r
 - [Medication Statement](#medication-request) (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
 - Location (the information needed from this resource can be included in Encounter)
 
+Note: The Patient resource is the only mandatory resource (without which the app will not load at all); However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.
+
 Queries from the Patient App for more than one resource shall post a bundle (BATCH) of requests to the FHIR server's URL. The server shall process each request and return a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction).
 
-### Capability Statement (STU3)
+### Capability Statement
 
 See [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html).
 
@@ -355,7 +357,7 @@ These are the minimum required fields:
    4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (Our code requires this to understand which version we should pivot to.)
 
-### Patient (STU3)
+### Patient
 
 See [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html).
 
@@ -371,7 +373,7 @@ In addition to the [Argonaut fields](http://www.fhir.org/guides/argonaut/r2/Stru
 
 1. Name.Use
 2. Name.Prefix
-3. [GeneralPractitioner] - see item 3.b.iv
+3. [GeneralPractitioner] - The GeneralPractitioner reference should be included in the Patient resource (display field only)
 
 Resource search using POST method at /Patient/_search and the following parameters:
 
@@ -390,9 +392,9 @@ The goal is to be able to search and filter for a patient by the following:
 - Name
 - Birthdate
 
-The GeneralPractitioner reference should be included in the Patient resource (display field only), [Patient.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Patient.saz?raw=true).
+[Patient.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Patient.saz?raw=true).
 
-### Observation (STU3)
+### Observation
 
 See [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html).
 
@@ -415,7 +417,7 @@ Resource search using GET method and the following parameters:
 
 For an example of the call, see [Observation.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Observation.saz?raw=true).
 
-### Condition (STU3)
+### Condition
 
 See [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html).
 
@@ -435,7 +437,7 @@ Resource search using GET method and the following parameters:
 
 For an example of the call, see [Condition.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Condition.saz?raw=true).
 
-### Encounter (STU3)
+### Encounter
 
 See [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html).
 
@@ -457,9 +459,7 @@ Resource search using GET method and the following parameters:
 
 The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
 
-\* We don't have a sample Fiddler trace for Encounter, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
-
-### AllergyIntolerance (STU3)
+### AllergyIntolerance
 
 See [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html).
 
@@ -504,7 +504,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-### Coverage (STU3)
+### Coverage
 
 See [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html).
 
@@ -522,10 +522,6 @@ Resource search using GET method and the following parameters:
 
 \* We don't have a sample Fiddler trace for Coverage, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
 
-## Sequence diagram
-
-![patient app 4](../media/Patient-app-4.png)
-
 ## Performance and Reliability
 
 While the Patients app is in private preview, we cannot make any guarantees on the end-to-end performance. Factors in performance include the relative latencies of all the hops involved in the workflow, starting from the EHR in the health system's environment, to the Interop partner and their infra, including the FHIR Server and across to the Office 365 ecosystem and Microsoft Teams Patients app.
@@ -542,14 +538,14 @@ You can also use the HSPC Open sandbox EHR environment to create an open FHIR Se
 
 Once you've created the open source FHIR Server, it's really easy to connect to the Patients app inside of your tenant by following the steps mentioned below:
 
-1. Drop us an email at teamsforhealthcare@service.microsoft.com with the following initial details - Your Name, Your Position, The company or organization you represent and why you are interested in the Microsoft Teams Patients app for EHR integration. We will get back to you as soon as possible with more questions and guide you through a process to get setup.
+1. Please [drop us a note](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) with the following initial details - Your Name, Your Position, The company or organization you represent and why you are interested in the Microsoft Teams Patients app for EHR integration. We will get back to you as soon as possible with more questions and guide you through a process to get setup for the private preview.
 
 2. Ensure that sideloading of custom apps is enabled in the tenant where you are going to try out the Microsoft Teams Patients app. Please refer to documentation [here](https://docs.microsoft.com/en-us/microsoftteams/admin-settings) on how to turn this on from the Teams Admin center for your or your customer's tenant.
 
-3. Sideload the Microsoft Teams Patients app manifest that you will get from Microsoft into a team in the tenant that is going to be used for care-coordination and patient rounding scenarios. Detailed instructions around how to side-load an app are [here](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)
+3. Sideload the Microsoft Teams Patients app manifest that you will get from Microsoft (after we process your email to us) into a team in the tenant that is going to be used for care-coordination and patient rounding scenarios. Detailed instructions around how to side-load an app are [here](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload)
 
 4. Navigate to the general channel as the Team owner and then click on the Patients tab. You should see a first run experience that will present two options i.e. EHR Mode and Manual Mode. Please select the EHR mode and drop the FHIR Server endpoint (that you've just setup earlier with all the required data and resources per the specifications above) into the URL and give the connection a name that well represents the FHIR Server. Hit Save, and everything should be ready to go.
 
     ![patients app server settings](../media/patients-server.png)
 
-5. Start using the app to search for Patients from the FHIR Server/EHR and add them to list and please give us feedback if something doesn't work. Also, to establish a fully authenticated version of the Patient App -> FHIR Server flow, please engage in offline dialogue with as part of Step 1 to clarify requirements and we will help enable this with you per the Authentication requirements described above in the FHIR Interface document. This part of the process will become more self-serve in the future. Stay tuned!
+5. Start using the app to search for Patients from the FHIR Server/EHR and add them to list and please give us feedback if something doesn't work. Also, to establish a fully authenticated version of the Patient App -> FHIR Server flow, please engage in offline dialogue with Microsoft Teams for healthcare product engineering, through the email request mentioned in Step 1 to clarify requirements and we will help enable this for you per the Authentication requirements described above in the FHIR Interface document. This part of the process will become more self-serve in the future. Stay tuned for more updates to this article!
