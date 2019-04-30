@@ -12,7 +12,8 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
