@@ -39,7 +39,18 @@ If you're a small business, you may be able to use this Get started guidance to 
 
 ## Before you get started
 
-Make sure you’ve got Teams licenses for everybody. Check out [Compare Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
+Before you get started, you'll want to plan for your Teams rollout by reviewing the following:
+
+- [Check your environment's readiness for Teams](environment-readiness.md)
+- [Prepare your organization's network for Teams](prepare-network.md)
+- [Learn about the benefits of installing the desktop client](get-clients.md)
+
+You'll also need to make sure've got Teams licenses for everybody.   Check out [Compare Teams plans](https://products.office.com/microsoft-teams/free) and [Office 365 licensing for Teams](office-365-licensing.md). 
+
+
+
+
+For more information
 
 ## Next steps
 Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).

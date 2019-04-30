@@ -649,15 +649,7 @@
 
 
 
-## Interoperability with Office 365
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-### [How Exchange and Teams interact](exchange-teams-interact.md)
-#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
@@ -682,6 +674,19 @@
 ##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
+
+
+## Interoperability with Office 365
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 groups and Teams](office-365-groups.md)
+### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+### [How Exchange and Teams interact](exchange-teams-interact.md)
+#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
+
 
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
