@@ -131,9 +131,9 @@ Keep in mind that the Teams app store lists all Teams apps whereas the **Add pin
 
 #### I'm a Teams for Education admin. What do I need to know about app setup policies in Teams for Education?
 
-The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams. 
+- The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams. 
 
-Currently, policy changes aren't reflected for Teams for Education users on the Teams Android app. We're working on a new version of the app that supports policy changes for Teams for Education.
+- Currently, policy changes aren't reflected for Teams for Education users on the Teams Android app. We're working on a new version of the app that supports policy changes for Teams for Education.
 
 #### How many apps can be added to a policy?
 
