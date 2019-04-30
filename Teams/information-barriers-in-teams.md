@@ -1,5 +1,5 @@
 ---
-title: Information barriers in Microsoft Teams (coming soon)
+title: Information barriers in Microsoft Teams preview
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Information barriers in Microsoft Teams
+# Information barriers in Microsoft Teams preview
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
