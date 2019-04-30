@@ -21,7 +21,7 @@ description: Learn how to control whether private teams can be discovered by Mic
 
 # Manage discovery of private teams in Microsoft Teams
 
-> [!INCLUDE [feature coming soon](includes/preview-feature.md)]
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 Admins and team owners can control whether private teams can be discovered by Microsoft Teams users in your organization. When a private team is discoverable, it shows up in search results and is included in suggestions in the team gallery alongside public teams in Teams. This makes it easy for users to search for and find the private teams that they want to join. Users can request to join a private team which a team owner can then approve or deny.
 
