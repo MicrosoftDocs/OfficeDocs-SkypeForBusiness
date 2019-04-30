@@ -43,8 +43,6 @@ A free basic client supporting fewer features is also available. Both versions a
 
 Skype for Business 2015 is a full-featured client for Skype for Business Server 2015 or 2019. The Skype for Business user interface has been fully redesigned and includes newly integrated features, such as Call Monitor, Skype directory integration, emoticons, and more. For a summary of changes, see [Lync is now Skype for Business — see what's new](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612). Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
 
-A free basic client supporting fewer features is also available. Both versions are available for download at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). The differences between Full and Basic clients are described in the [Basic client limitations](desktop-feature-comparison.md#Full-Basic) section.
-
 ### Skype for Business on Mac
 
 The [Skype for Business on Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) client is available for download. See [Skype for Business on Mac client requirements](mac-requirements.md) to review prerequisites.
@@ -62,7 +60,7 @@ The Online Meeting Add-in for Skype for Business supports meeting management fro
 
 ### Skype for Business Web App and Skype Meetings App
 
-If Skype for Business is not installed on a user's computer and the user clicks a meeting link in a meeting request, the Skype Meetings App or Skype for Business Web App will be installed and open.  Skype Meetings App is the client of choice for participants outside your organization. See [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) for the requirements to use these clients.
+If Skype for Business is not installed on a user's computer and the user clicks a meeting link in a meeting request on a Windows computer, the Skype Meetings App or Skype for Business Web App will be installed and open.  Skype Meetings App is the client of choice for participants outside your organization. (Note that on a Mac, Skype for Business on Mac will be installed and open.) See [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md) for the requirements to use these clients.
 
 
 ### Skype for Business Web Scheduler

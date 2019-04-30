@@ -45,7 +45,7 @@ Skype for Business Server supports mirroring with the following database softwar
     
 
 > [!NOTE]
-> SQL Server 2016 is the only version supported by Skype for Business Server 2019.
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
     
 Asynchronous database mirroring is not supported for Back End Server high availability in Skype for Business Server. In the rest of this document, database mirroring means synchronous database mirroring, unless otherwise explicitly stated. 
   

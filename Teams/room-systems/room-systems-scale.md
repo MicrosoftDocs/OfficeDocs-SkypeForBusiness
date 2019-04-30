@@ -23,7 +23,7 @@ With the easy-to-use methods provided by System Center Configuration Manager, yo
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
-![Microsoft Teams Rooms deployment process using Configuration Manager](../../media/room-systems-scale-image1.png)
+![Microsoft Teams Rooms deployment process using Configuration Manager](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
@@ -627,9 +627,9 @@ You can download and easily import a sample task sequence and customize it to me
    10. **Install and Configure Monitoring Agent**: This step installs the 64-bit version of the Microsoft Azure Monitor agent and configures the agent to connect to your Log Analytics workspace.
        -   This step is disabled by default. Enable this step only if you’re going to use the Monitoring Agent to monitor the health of your Microsoft Teams Rooms units.
        -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
-       -   See [Configure test devices for Azure Monitoring](azure-monitor.md#configure-test-devices-for-azure-monitoring) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
+       -   See [Configure test devices for Azure Monitoring](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
        -   Verify that the **SRS v2 – Microsoft Monitoring Agent Package** and **Disable 64-bit file system redirection** are selected.
-       -   For more information about monitoring the health of your Microsoft Teams Rooms deployment, see [Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor.md) and [Manage Microsoft Teams Rooms devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
+       -   For more information about monitoring the health of your Microsoft Teams Rooms deployment, see [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md), [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md) and [Manage Microsoft Teams Rooms devices with Azure Monitor](azure-monitor-manage.md).
 
    11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Microsoft Teams Rooms deployment kit to the local hard drive. No customization is required for this step.
        -   Verify that the **SRS v2 – SRS Application Package** and **Disable 64-bit file system redirection** are selected.
@@ -727,7 +727,7 @@ After you’ve completed the System Center Configuration Manager task sequences,
 
 9.  After the deployment task sequence finishes configuring the device, you’ll see the following configuration screen that asks you to configure the Microsoft Teams Rooms application settings.
 
-    ![Initial setup screen for Microsoft Teams Rooms application](../../media/room-systems-scale-image2.png)
+    ![Initial setup screen for Microsoft Teams Rooms application](../media/room-systems-scale-image2.png)
 
 10.  Plug the Surface Pro into the Microsoft Teams Rooms console, and configure the application settings.
 

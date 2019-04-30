@@ -60,6 +60,6 @@ As with any communications and adoption campaign, you will want to identify your
 
 Share the insights you get from your feedback channels with the hashtag #TeamsStories for easy retrieval. Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment. Also share them with us in our Driving Adoption forum on the Microsoft Technical Community. Sharing these real world examples from within your own company is extremely valuable to realizing sustained change over time with your user community.
 
-[Learn more about the Microsoft Teams usage reports in the Office 365 admin center.](teams-activity-reports.md)
+[Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center.](teams-activity-reports.md)
 
 ![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)

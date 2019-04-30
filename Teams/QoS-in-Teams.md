@@ -1,7 +1,7 @@
 ---
 title: Implement Quality of Service in Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: Serdars
 ms.date: 12/17/2018
 ms.topic: article
@@ -155,7 +155,7 @@ For information about configuring firewall ports, go to [Office 365 URLs and IP 
 
 ## Managing source ports in the Teams admin center
 
-In Teams, QoS source ports used by the different workloads should be actively managed, and adjusted as necessary. Referring to the table in [Port ranges and DSCP markings](#port-ranges-and-dscp-markings), the port ranges are adjustable, but the DSCP markings are not configurable. Once you have implemented these settings, you may find that more or fewer ports are needed for a given media type. [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md) should be used in making a decision to adjust port ranges after Teams has been implemented, and periodically as needs change.
+In Teams, QoS source ports used by the different workloads should be actively managed, and adjusted as necessary. Referring to the table in [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type), the port ranges are adjustable, but the DSCP markings are not configurable. Once you have implemented these settings, you may find that more or fewer ports are needed for a given media type. [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md) should be used in making a decision to adjust port ranges after Teams has been implemented, and periodically as needs change.
 
 > [!NOTE]
 > If you've already configured QoS based on source port ranges and DSCP markings for Skype for Business Online, the same configuration will apply to Teams and no further client or network changes to the mapping will be required, though you may have to [set the ranges used in Teams Admin Center](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) to match what was configured for Skype for Business Online.
