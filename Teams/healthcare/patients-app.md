@@ -172,7 +172,7 @@ In addition to the Argonaut fields, for a great user experience, we can also rea
 
 1. Name.Use
 2. Name.Prefix
-3. CareProvider (This reference on the Patient resource should include the display field [**Patient_with_careProvider.saz**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Patient_with_careProvider.saz?raw=true).)
+3. CareProvider (This reference on the Patient resource should include the display field [**Patient_with_careProvider.saz**] .)
 
 Resource search using POST method at /Patient/_search and the following parameters:
 
@@ -191,7 +191,7 @@ The goal is to be able to search and filter for a patient by the following:
 - Name
 - Birthdate
 
-For an example of the call, see [PatientResource.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/PatientResource.saz?raw=true).
+For an example of the call, see [PatientResource.saz] .
 
 ### Observation
 
@@ -215,7 +215,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id\>
 2. sort:desc=\<field ex. date\>
 
-The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/VitalSigns.DSTU.saz?raw=true).
+The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz] .
 
 ### Condition
 
@@ -235,7 +235,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call, see [Condition.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Condition.saz?raw=true).
+For an example of the call, see [Condition.saz] .
 
 ### Encounter
 
@@ -257,7 +257,7 @@ Resource search using GET method and the following parameters:
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
 
-The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. For an example of the call, see [Encounter.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Encounter.saz?raw=true).
+The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. For an example of the call, see [Encounter.saz] .
 
 ### AllergyIntolerance
 
@@ -281,7 +281,7 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
 
-For an example of the call, see [AllergyIntolerance.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/AllergyIntolerance.saz?raw=true).
+For an example of the call, see [AllergyIntolerance.saz] .
 
 ### Medication Order
 
@@ -305,7 +305,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call (Fiddle trace), see [MedicationOrder.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/MedicationOrder.saz?raw=true)
+For an example of the call (Fiddle trace), see [MedicationOrder.saz] 
 
 ### Coverage
 
@@ -319,7 +319,7 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id>
 
-For an example of the call, see [Coverage.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/DSTUsaz/Coverage.saz?raw=true).
+For an example of the call, see [Coverage.saz] .
 
 ### Location
 
@@ -392,7 +392,7 @@ The goal is to be able to search and filter for a patient by the following:
 - Name
 - Birthdate
 
-[Patient.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Patient.saz?raw=true).
+[Patient.saz].
 
 ### Observation
 
@@ -415,7 +415,7 @@ Resource search using GET method and the following parameters:
 2. _sort=-date
 3. category (we will query for “category=vital-signs”) to retrieve the list of vital signs.
 
-For an example of the call, see [Observation.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Observation.saz?raw=true).
+For an example of the call, see [Observation.saz]  .
 
 ### Condition
 
@@ -435,7 +435,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call, see [Condition.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/Condition.saz?raw=true).
+For an example of the call, see [Condition.saz]  .
 
 ### Encounter
 
@@ -481,7 +481,7 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
 
-For an example of the call, see [AllergyIntolerance.saz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/STU3saz/AllergyIntolerance.saz?raw=true).
+For an example of the call, see [AllergyIntolerance.saz] .
 
 ### Medication Request
 
