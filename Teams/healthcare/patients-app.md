@@ -132,7 +132,7 @@ The FHIR server must support POST requests using bundles for the following resou
 
 - [Patient](#patient)
 - [Observation](#observation)
-- [Condition](#observation)
+- [Condition](#condition)
 - [Encounter](#encounter)
 - [Allergy intolerance](#allergyintolerance)
 - [Coverage](#coverage)
@@ -172,7 +172,42 @@ In addition to the Argonaut fields, for a great user experience, we can also rea
 
 1. Name.Use
 2. Name.Prefix
-3. CareProvider (This reference on the Patient resource should include the display field [**Patient_with_careProvider.saz**] .)
+3. CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)
+
+* * *
+    Request:
+    GET <fhir-server>/Patient/<patient-id>
+
+    Response:
+    {
+      "resourceType": "Patient",
+      "id": "<patient-id>",
+      "meta": {
+      "versionId": "1",
+        "lastUpdated": "2018-09-18T01:28:26.000+00:00"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div><div>Hugh <b>CHAU </b></div><table><tbody><tr><td>Date of birth</td><td><span>05 June 1957</span></td></tr></tbody></table></div>"
+      },
+      "active": true,
+      "name": [
+        {
+          "text": "Hugh Chau",
+          "family": [
+            "Chau"
+          ],
+          "given": [
+            "Hugh"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1957-06-05",
+      "careProvider": [{ "display": "Jane Doe" }],
+    }
+* * * 
+
 
 Resource search using POST method at /Patient/_search and the following parameters:
 
@@ -191,7 +226,65 @@ The goal is to be able to search and filter for a patient by the following:
 - Name
 - Birthdate
 
-For an example of the call, see [PatientResource.saz] .
+For an example of what the call returns, see the following reply example .
+
+* * * 
+    Request:
+    POST <fhir-server>/Patient/_search
+    Request Body:
+    given=hugh&family=chau
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2018-10-30T00:21:34.943+00:00"
+      },
+      "type": "searchset",
+      "total": 1,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/Patient/_search"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/Patient/<patient-id>",
+          "resource": {
+            "resourceType": "Patient",
+            "id": "<patient-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2018-09-18T01:28:26.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div><div>Hugh <b>CHAU </b></div><table><tbody><tr><td>Date of birth</td><td><span>05 June 1957</span></td></tr></tbody></table></div>"
+            },
+            "active": true,
+            "name": [
+              {
+                "text": "Hugh Chau",
+                "family": [
+                  "Chau"
+                ],
+                "given": [
+                  "Hugh"
+                ]
+              }
+            ],
+            "gender": "male",
+            "birthDate": "1957-06-05"
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+      ]
+    }
+* * *
 
 ### Observation
 
@@ -215,7 +308,220 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id\>
 2. sort:desc=\<field ex. date\>
 
-The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz] .
+The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).
+
+* * * 
+    Request:
+    GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&    category=vital-signs
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2019-04-01T15:41:53.598+00:00"
+      },
+      "type": "searchset",
+      "total": 20,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/Observation?_sort%3Adesc=date&category=vital-signs&patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "3",
+              "lastUpdated": "2018-01-31T22:43:25.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-12-01: bmi = 34.4 kg/m2</div>"
+            },
+            "status": "final",
+            "category": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "39156-5",
+                  "display": "bmi"
+                }
+              ],
+              "text": "bmi"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "encounter": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-12-01",
+            "valueQuantity": {
+              "value": 34.4,
+              "unit": "kg/m2",
+              "system": "http://unitsofmeasure.org",
+              "code": "kg/m2"
+            }
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "3",
+              "lastUpdated": "2018-01-31T22:43:25.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-12-01: Blood pressure 100/60 mmHg<div>"
+            },
+            "status": "final",
+            "category": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55284-4",
+                  "display": "Blood pressure systolic and diastolic"
+                }
+              ],
+              "text": "Blood pressure systolic and diastolic"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "encounter": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-12-01",
+            "component": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "8480-6",
+                      "display": "Systolic blood pressure"
+                    }
+                  ],
+                  "text": "Systolic blood pressure"
+                },
+                "valueQuantity": {
+                  "value": 100,
+                  "unit": "mmHg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+                }
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "8462-4",
+                      "display": "Diastolic blood pressure"
+                    }
+                  ],
+                  "text": "Diastolic blood pressure"
+                },
+                "valueQuantity": {
+                  "value": 60,
+                  "unit": "mmHg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+                }
+              }
+            ]
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "3",
+              "lastUpdated": "2018-01-31T22:43:25.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-12-01: respiratory_rate = 20.0     {breaths}/min</div>"
+            },
+            "status": "final",
+            "category": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/observation-category",
+                  "code": "vital-signs",
+                  "display": "Vital Signs"
+                }
+              ],
+              "text": "Vital Signs"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "9279-1",
+                  "display": "respiratory_rate"
+                }
+              ],
+              "text": "respiratory_rate"
+            },
+            "subject": {
+          "reference": "Patient/<patient-id>"
+            },
+            "encounter": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-12-01",
+            "valueQuantity": {
+              "value": 20.0,
+              "unit": "{breaths}/min",
+              "system": "http://unitsofmeasure.org",
+              "code": "{breaths}/min"
+            }
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        .....
+      ]
+    }
+* * *
 
 ### Condition
 
@@ -235,7 +541,61 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call, see [Condition.saz] .
+For an example of  the call, see the following sample:
+
+* * *
+    Request:
+    GET <fhir-server>/Condition?patient=<patient-id>&_count=10
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2018-10-30T01:12:09.182+00:00"
+      },
+      "type": "searchset",
+      "total": 1,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/Condition?_count=10&    patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/Condition/<resource-id>",
+          "resource": {
+            "resourceType": "Condition",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2018-09-18T01:17:24.000+00:00"
+            },
+            "patient": {
+              "reference": "Patient/<patient-id>"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "386033004",
+                  "display": "Neuropathy (nerve damage)"
+                }
+              ],
+              "text": "Neuropathy (nerve damage)"
+            },
+            "clinicalStatus": "active",
+            "verificationStatus": "confirmed",
+            "onsetDateTime": "2018-09-17T07:00:00.000Z"
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+      ]
+    }
+* * *
 
 ### Encounter
 
@@ -257,7 +617,56 @@ Resource search using GET method and the following parameters:
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
 
-The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. For an example of the call, see [Encounter.saz] .
+The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. For an example of the call, see the following sample.
+* * *
+    Request:
+    GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "type": "searchset",
+      "total": 1,
+      "entry": [
+        {
+          "resource": {
+            "resourceType": "Encounter",
+            "id": "<resource-id>",
+            "identifier": [{ "use": "official", "value": "<id>" }],
+            "status": "arrived",
+            "class": "outpatient",
+            "type": [
+              {
+                "coding": [
+                  {
+                    "code": "Appointment",
+                    "display": "Appointment"
+                  }
+                ],
+                "text": "Visit Type"
+              }
+            ],
+            "patient": { "reference": "Patient/<patient-id>" },
+            "participant": [
+              {
+                "individual": {
+                  "reference": "Practitioner/<practitioner-id>",
+                  "display": "John Doe"
+                }
+              }
+            ],
+            "period": { "start": "09/17/2018 1:00:00 PM" },
+            "location": [
+              {
+                "location": { "display": "Clinic - ENT" },
+                "status": "active"
+              }
+            ]
+          }
+        }
+      ]
+    }
+* * *
 
 ### AllergyIntolerance
 
@@ -281,7 +690,63 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
 
-For an example of the call, see [AllergyIntolerance.saz] .
+For an example of the call, see the following example.
+
+* * *
+    Request:
+    GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2018-10-30T01:37:08.819+00:00"
+      },
+      "type": "searchset",
+      "total": 1,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/AllergyIntolerance?patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/AllergyIntolerance/<resource-id>",
+          "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "8",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2018-09-17T21:00:31.000+00:00"
+            },
+            "onset": "2018-09-17T07:00:00.000Z",
+            "recordedDate": "2018-09-17T07:00:00.000Z",
+            "patient": {
+              "reference": "Patient/<patient-id>"
+            },
+            "substance": {
+              "coding": [
+                {
+                  "code": "N0000175503",
+                  "display": "sulfonamide antibacterial"
+                }
+              ],
+              "text": "sulfonamide antibacterial"
+            },
+            "status": "confirmed",
+            "criticality": "CRITL",
+            "type": "allergy",
+            "category": "medication"
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+      ]
+    }
+* * *
 
 ### Medication Order
 
@@ -305,7 +770,72 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call (Fiddle trace), see [MedicationOrder.saz] 
+For an example of the call (Fiddle trace), see the following
+
+* * *
+    Request:
+    GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2018-10-30T02:01:31.148+00:00"
+      },
+      "type": "searchset",
+      "total": 1,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/MedicationOrder?_count=10&patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/MedicationOrder/<resource-id>",
+          "resource": {
+            "resourceType": "MedicationOrder",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2018-09-17T20:59:17.000+00:00"
+            },
+            "dateWritten": "2018-09-17T07:00:00.000Z",
+            "status": "active",
+            "dateEnded": "2018-09-17T07:00:00.000Z",
+            "patient": {
+              "reference": "Patient/<patient-id>"
+            },
+            "medicationCodeableConcept": {
+              "coding": [
+                {
+                  "code": "314077",
+                  "display": "Lisinopril 20 MG Oral Tablet"
+                }
+              ],
+              "text": "Lisinopril 20 MG Oral Tablet"
+            },
+            "dosageInstruction": [
+              {
+                "text": "1 daily",
+                "timing": {
+                  "repeat": {
+                    "frequency": 1,
+                    "period": 1,
+                    "periodUnits": "d"
+                  }
+                }
+              }
+            ]
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+      ]
+    }
+* * *  
 
 ### Coverage
 
@@ -319,7 +849,29 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id>
 
-For an example of the call, see [Coverage.saz] .
+For an example of the call, see the following example:
+
+* * *
+    Request:
+    GET <fhir-server>/Coverage?patient=<patient-id>
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "type": "searchset",
+      "total": 1,
+      "entry": [
+        {
+          "resource": {
+            "resourceType": "Coverage",
+            "id": "<resource-id>",
+            "plan": "No Primary Insurance",
+            "subscriber": { "reference": "Patient/<patient-id>" }
+          }
+        }
+      ]
+    }
+* * *
 
 ### Location
 
@@ -392,7 +944,75 @@ The goal is to be able to search and filter for a patient by the following:
 - Name
 - Birthdate
 
-[Patient.saz].
+See the following example call.
+
+* * *
+    Request:
+    GET <fhir-server>/Patient/<patient-id>
+    
+    Response:
+    {
+      "resourceType": "Patient",
+      "id": "<patient-id>",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2019-01-08T17:52:48.000+00:00"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div>\n        <p>Daniel Adams</p>\n      </div>"
+      },
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v2/0203",
+                "code": "MR",
+                "display": "Medical record number",
+                "userSelected": false
+              }
+            ],
+            "text": "Medical record number"
+          },
+          "system": "http://hospital.smarthealthit.org",
+          "value": "1234567"
+        }
+      ],
+      "active": true,
+      "name": [
+        {
+          "use": "official",
+          "family": "Adams",
+          "given": [
+            "Daniel",
+            "X."
+          ]
+        }
+      ],
+      "telecom": [
+        {
+          "system": "email",
+          "value": "daniel.adams@example.com"
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1925-12-23",
+      "address": [
+        {
+          "use": "home",
+          "line": [
+            "1 Hill AveApt 14"
+          ],
+          "city": "Tulsa",
+          "state": "OK",
+          "postalCode": "74117",
+          "country": "USA"
+        }
+      ]
+    }
+* * *
 
 ### Observation (STU3)
 
@@ -415,7 +1035,462 @@ Resource search using GET method and the following parameters:
 2. _sort=-date
 3. category (we will query for “category=vital-signs”) to retrieve the list of vital signs.
 
-For an example of the call, see [Observation.saz]  .
+Refer to this example of the call.
+
+* * *
+    Request:
+    GET <fhir-server>/Observation?patient=<patient-id>&category=vital-signs
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2019-01-14T23:03:41.849+00:00"
+      },
+      "type": "searchset",
+      "total": 20,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/Observation?category=vital-signs&patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-04-08: heart_rate = 72.0 {beats}/min</div>"
+            },
+            "status": "final",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/observation-category",
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Vital Signs"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8867-4",
+                  "display": "heart_rate",
+                  "userSelected": false
+                }
+              ],
+              "text": "heart_rate"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "context": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-04-08T00:00:00-06:00",
+            "valueQuantity": {
+              "value": 72.0,
+              "unit": "{beats}/min",
+              "system": "http://unitsofmeasure.org",
+              "code": "{beats}/min"
+            }
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-04-23: Blood pressure 63/38 mmHg</div>"
+            },
+            "status": "final",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/observation-category",
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Vital Signs"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55284-4",
+                  "display": "Blood pressure systolic and diastolic",
+                  "userSelected": false
+                }
+              ],
+              "text": "Blood pressure systolic and diastolic"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "context": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-04-23T00:00:00-06:00",
+            "component": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "8480-6",
+                      "display": "Systolic blood pressure",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Systolic blood pressure"
+                },
+                "valueQuantity": {
+                  "value": 63,
+                  "unit": "mmHg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+                }
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "8462-4",
+                      "display": "Diastolic blood pressure",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Diastolic blood pressure"
+                },
+                "valueQuantity": {
+                  "value": 38,
+                  "unit": "mmHg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+                }
+              }
+            ]
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2001-11-05: heart_rate = 82.0 {beats}/min</div>"
+            },
+            "status": "final",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/observation-category",
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Vital Signs"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8867-4",
+                  "display": "heart_rate",
+                  "userSelected": false
+                }
+              ],
+              "text": "heart_rate"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "context": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2001-11-05T00:00:00-07:00",
+            "valueQuantity": {
+              "value": 82.0,
+              "unit": "{beats}/min",
+              "system": "http://unitsofmeasure.org",
+              "code": "{beats}/min"
+            }
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+        .......
+      ]
+* * *
+
+* * *
+
+
+    Request:
+    GET <fhir-server>/Observation?patient=<patient-id>&category=vital-signs
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2019-01-14T23:03:41.849+00:00"
+      },
+      "type": "searchset",
+      "total": 20,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/Observation?category=vital-signs&    patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-04-08: heart_rate = 72.0 {beats}/min</div>"
+            },
+            "status": "final",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/observation-category",
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Vital Signs"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8867-4",
+                  "display": "heart_rate",
+                  "userSelected": false
+                }
+              ],
+              "text": "heart_rate"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "context": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-04-08T00:00:00-06:00",
+            "valueQuantity": {
+              "value": 72.0,
+              "unit": "{beats}/min",
+              "system": "http://unitsofmeasure.org",
+              "code": "{beats}/min"
+            }
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2009-04-23: Blood pressure 63/38 mmHg</div>"
+            },
+            "status": "final",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/observation-category",
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Vital Signs"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55284-4",
+                  "display": "Blood pressure systolic and diastolic",
+                  "userSelected": false
+                }
+              ],
+              "text": "Blood pressure systolic and diastolic"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "context": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2009-04-23T00:00:00-06:00",
+            "component": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "8480-6",
+                      "display": "Systolic blood pressure",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Systolic blood pressure"
+                },
+                "valueQuantity": {
+                  "value": 63,
+                  "unit": "mmHg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+                }
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "8462-4",
+                      "display": "Diastolic blood pressure",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Diastolic blood pressure"
+                },
+                "valueQuantity": {
+                  "value": 38,
+                  "unit": "mmHg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+                }
+              }
+            ]
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Observation/<resource-id>",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>2001-11-05: heart_rate = 82.0 {beats}/min</div>"
+            },
+            "status": "final",
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/observation-category",
+                    "code": "vital-signs",
+                    "display": "Vital Signs",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Vital Signs"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8867-4",
+                  "display": "heart_rate",
+                  "userSelected": false
+                }
+              ],
+              "text": "heart_rate"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "context": {
+              "reference": "Encounter/<resource-id>"
+            },
+            "effectiveDateTime": "2001-11-05T00:00:00-07:00",
+            "valueQuantity": {
+              "value": 82.0,
+              "unit": "{beats}/min",
+              "system": "http://unitsofmeasure.org",
+              "code": "{beats}/min"
+            }
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+        .......
+      ]
+    }
+* * *
 
 ### Condition (STU3)
 
@@ -435,7 +1510,101 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call, see [Condition.saz]  .
+See the following example of this call.
+
+* * *
+    Request:
+    GET <fhir-server>/Condition?patient=<patient-id>&_count=10
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2019-01-14T23:10:43.884+00:00"
+      },
+      "type": "searchset",
+      "total": 2,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/Condition?_count=10&patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/Condition/<resource-id>",
+          "resource": {
+            "resourceType": "Condition",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>Needs influenza immunization</div>"
+            },
+            "clinicalStatus": "active",
+            "verificationStatus": "confirmed",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "185903001",
+                  "display": "Needs influenza immunization",
+                  "userSelected": false
+                }
+              ],
+              "text": "Needs influenza immunization"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "onsetDateTime": "2008-08-08T00:00:00-06:00"
+          },
+          "search": {
+            "mode": "match"
+          }
+        },
+        {
+          "fullUrl": "<fhir-server>/Condition/<resource-id>",
+          "resource": {
+            "resourceType": "Condition",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "1",
+              "lastUpdated": "2017-10-18T18:14:11.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>Thiopurine methyltransferase deficiency</div>"
+            },
+            "clinicalStatus": "active",
+            "verificationStatus": "confirmed",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "356744012",
+                  "display": "Thiopurine methyltransferase deficiency",
+                  "userSelected": false
+                }
+              ],
+              "text": "Thiopurine methyltransferase deficiency"
+            },
+            "subject": {
+              "reference": "Patient/<patient-id>"
+            },
+            "onsetDateTime": "2009-07-18T00:00:00-06:00"
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+      ]
+    }
+* * *
 
 ### Encounter (STU3)
 
@@ -481,7 +1650,85 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
 
-For an example of the call, see [AllergyIntolerance.saz] .
+For an example of the call, see the following.
+
+* * *
+    Request:
+    GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
+    
+    Response:
+    {
+      "resourceType": "Bundle",
+      "id": "<bundle-id>",
+      "meta": {
+        "lastUpdated": "2019-01-14T23:16:37.690+00:00"
+      },
+      "type": "searchset",
+      "total": 1,
+      "link": [
+        {
+          "relation": "self",
+          "url": "<fhir-server>/AllergyIntolerance?patient=<patient-id>"
+        }
+      ],
+      "entry": [
+        {
+          "fullUrl": "<fhir-server>/AllergyIntolerance/<resource-id>",
+          "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "<resource-id>",
+            "meta": {
+              "versionId": "2",
+              "lastUpdated": "2019-01-08T08:43:16.000+00:00"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div>Sensitivity to sulfonamide antibacterial</div>"
+            },
+            "clinicalStatus": "active",
+            "criticality": "low",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                  "code": "N0000175503",
+                  "display": "sulfonamide antibacterial",
+                  "userSelected": false
+                }
+              ],
+              "text": "sulfonamide antibacterial - STU3 works"
+            },
+            "patient": {
+              "reference": "Patient/<patient-id>"
+            },
+            "assertedDate": "2000-01-01T00:00:00-07:00",
+            "reaction": [
+              {
+                "manifestation": [
+                  {
+                    "coding": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "271807003",
+                        "display": "skin rash",
+                        "userSelected": false
+                      }
+                    ],
+                    "text": "skin rash"
+                  }
+                ],
+                "severity": "mild"
+              }
+            ]
+          },
+          "search": {
+            "mode": "match"
+          }
+        }
+      ]
+    }
+* * *
+
 
 ### Medication Request (STU3)
 
@@ -520,7 +1767,7 @@ Resource search using GET method and the following parameters:
 
 1. Patient = \<patient id>
 
-\* We don't have a sample Fiddler trace for Coverage, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
+\* We don't have a sample for Coverage, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
 
 ## Performance and Reliability
 
