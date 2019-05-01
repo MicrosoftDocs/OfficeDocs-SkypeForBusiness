@@ -102,7 +102,7 @@ f1keywords:
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters-architecture-poster-page">
+                                <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-architecture-solutions-posters">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
