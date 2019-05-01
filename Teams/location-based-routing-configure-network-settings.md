@@ -95,7 +95,7 @@ New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet 
 ```
 For example:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## Next steps
