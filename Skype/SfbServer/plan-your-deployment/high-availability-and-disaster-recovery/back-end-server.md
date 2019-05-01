@@ -119,7 +119,7 @@ Skype for Business Server supports AlwaysOn with the following database software
 > SQL Server 2017 and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
 
 > [!NOTE]
-> SQL 2016 and 2017 Standard Edition limitation: Always On availability groups is not supported, you can only choose Always On failover cluster instances.
+> Always On Availability Groups is **not** supported in SQL 2016 and 2017 Standard Editions but you can use Always On Failover Cluster Instances. See [Editions and supported features of SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) to learn more.
 > Refer to below link:
 > https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017
   
