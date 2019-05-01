@@ -331,7 +331,7 @@ This resource is only being used as a reference on the [Encounter](#encounter) r
 
 The FHIR server must support POST requests using bundles for the following resources:
 
-- [Patient](#patient-stu3)
+- [Patient](#patient-stu3) 
 - [Observation](#observation-stu3)
 - [Condition](#condition-stu3)
 - [Encounter](#encounter-stu3)
@@ -357,7 +357,7 @@ These are the minimum required fields:
    4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (Our code requires this to understand which version we should pivot to.)
 
-### Patient
+### Patient (STU3)
 
 See [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html).
 
@@ -394,7 +394,7 @@ The goal is to be able to search and filter for a patient by the following:
 
 [Patient.saz].
 
-### Observation
+### Observation (STU3)
 
 See [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html).
 
@@ -417,7 +417,7 @@ Resource search using GET method and the following parameters:
 
 For an example of the call, see [Observation.saz]  .
 
-### Condition
+### Condition (STU3)
 
 See [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html).
 
@@ -437,7 +437,7 @@ Resource search using GET method and the following parameters:
 
 For an example of the call, see [Condition.saz]  .
 
-### Encounter
+### Encounter (STU3)
 
 See [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html).
 
@@ -459,7 +459,7 @@ Resource search using GET method and the following parameters:
 
 The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
 
-### AllergyIntolerance
+### AllergyIntolerance (STU3)
 
 See [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html).
 
@@ -483,7 +483,7 @@ Resource search using GET method and the following parameters:
 
 For an example of the call, see [AllergyIntolerance.saz] .
 
-### Medication Request
+### Medication Request (STU3)
 
 See [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html).
 
@@ -504,7 +504,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-### Coverage
+### Coverage (STU3)
 
 See [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html).
 
