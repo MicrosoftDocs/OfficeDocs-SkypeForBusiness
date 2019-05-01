@@ -74,7 +74,7 @@ Cover these points:
 
 - Is this feature per org or per user?
 - Use PowerShell or UI?
-- For Set up: short instructions on how to turn on the feature for the organization or for individual users. If you want to turn it off for individuals or your whole organization right away, see [How do I turn this feature on or off for my organization?](#Off)
+- For Set up: short instructions on how to turn on the feature for the organization or for individual users. If you want to turn it off for individuals or your whole organization right away, see [How do I turn this feature on or off for my organization?]
 - For Manage: sections with basic management tasks.
 
 If there are more tasks, add links for where to find more help (like on a landing page?)
