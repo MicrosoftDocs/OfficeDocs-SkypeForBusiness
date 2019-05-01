@@ -3,7 +3,7 @@ title: How SharePoint Online and OneDrive for Business interact with Microsoft T
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/03/2019
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -17,8 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-How SharePoint Online and OneDrive for Business interact with Microsoft Teams
-=============================================================================
+# How SharePoint Online and OneDrive for Business interact with Microsoft Teams
 
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
@@ -53,12 +52,11 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files for each user's chats.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-## Permission strategy
+## Default link type setting
 
-SharePoint has an admin setting for specifying the permission strategy for links that are created for a file. Teams is adopting that same strategy by reusing the settings that the admin sets for SharePoint. More details about the permission strategy are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+SharePoint and OneDrive have an admin setting for specifying the default link type for links that are created for a file. Teams is adopting that same approach by reusing the settings that the admin sets for SharePoint and OneDrive. More details about this approach are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
 
-More information
-----------------
+## More information
 
 For more information about how SharePoint works with Teams, see [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
