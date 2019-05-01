@@ -331,13 +331,13 @@ This resource is only being used as a reference on the [Encounter](#encounter) r
 
 The FHIR server must support POST requests using bundles for the following resources:
 
-- [Patient](#patient-stu3) 
+- [Patient](#patient-stu3)
 - [Observation](#observation-stu3)
 - [Condition](#condition-stu3)
 - [Encounter](#encounter-stu3)
 - [Allergy Intolerance](#allergyintolerance-stu3)
 - [Coverage](#coverage-stu3)
-- [Medication Statement](#medication-request) (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
+- [Medication Statement](#medication-request-stu3) (to replace the MedicationOrder in DSTU2 version of the PatientsApp)
 - Location (the information needed from this resource can be included in Encounter)
 
 Note: The Patient resource is the only mandatory resource (without which the app will not load at all); However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.
