@@ -954,14 +954,9 @@ See the following example call.
     {
       "resourceType": "Patient",
       "id": "<patient-id>",
-      "meta": {
-        "versionId": "2",
-        "lastUpdated": "2019-01-08T17:52:48.000+00:00"
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div>\n        <p>Daniel Adams</p>\n      </div>"
-      },
+      .
+      .
+      .
       "identifier": [
         {
           "use": "usual",
