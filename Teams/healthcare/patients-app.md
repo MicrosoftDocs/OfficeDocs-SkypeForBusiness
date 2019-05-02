@@ -17,6 +17,8 @@ description: Microsoft Teams Patient App EHR integration
 
 # Patients App overview
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Microsoft Teams is developing a Patients app specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
 
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)

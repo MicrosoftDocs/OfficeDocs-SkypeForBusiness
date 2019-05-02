@@ -17,6 +17,8 @@ description: Microsoft Teams Patient App EHR integration
 
 # STU3 interface
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 The FHIR server must support POST requests using bundles for the following resources:
 
 - [Patient](#patient)

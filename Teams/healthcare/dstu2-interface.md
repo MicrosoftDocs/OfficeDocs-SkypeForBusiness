@@ -15,8 +15,9 @@ ms.reviewer: anach
 description: Microsoft Teams Patient App EHR integration 
 ---
 
-
 # DSTU2 interface specification
+
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 The FHIR server must support POST requests using bundles for the following resources:
 
