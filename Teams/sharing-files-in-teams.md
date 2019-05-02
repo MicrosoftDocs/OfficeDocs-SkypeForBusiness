@@ -3,7 +3,7 @@ title: Sharing files in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/01/2019
+ms.date: 05/02/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -19,11 +19,13 @@ appliesto:
 
 # Sharing files in Microsoft Teams
 
-The sharing features in Teams let users share content with other Teams users in their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive: whatever you set up for SharePoint and OneDrive will control sharing in Teams as well.
+The file sharing features in Teams let users share content with other Teams users in their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well.
 
 Teams sharing lets users do the following:
 
 - Share files from OneDrive.
+
+- Set permissions for files they want to share with others.
 
 - Share files across Teams.
 
@@ -31,7 +33,7 @@ Teams sharing lets users do the following:
 
 - Stay within Teams when they click a file name to open a file.
 
-Teams shortens long SharePoint URLS and browser URLS that point to a file. Teams uses just the file name to link to a file, and displays a dialog in which users can set permissions for files they want to share with others. Additionally, the **Get link** option has been changed to **Copy link** to eliminate any confusion that users might have about giving others access to the file. 
+Teams shortens long SharePoint URLS and browser URLS that point to a file. Teams uses just the file name to link to a file. Additionally, the **Get link** option has been changed to **Copy link** to eliminate any confusion that users might have about giving others access to a file.
 
 ## Configure sharing in OneDrive and SharePoint
 
