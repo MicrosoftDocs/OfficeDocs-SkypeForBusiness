@@ -34,7 +34,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 |End user PSTN calls|Restricts the type of calls </br>that can be made by a user.|International and Domestic (default)</br>Domestic</br>None|
 
    > [!NOTE]
-   > A call is considered domestic if the number dialled is in the same country where Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing) or the end user (in the case of end user PSTN calls). 
+   > A call is considered domestic if the number dialed is in the same country where Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
