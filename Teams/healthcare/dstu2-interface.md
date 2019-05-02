@@ -1,5 +1,5 @@
 ---
-title:  Patients App DSTU2 interface       
+title:  Patients App and EHR integration DSTU2 interface       
 author: jambirk           
 ms.author: jambirk        
 manager: serdars                    
@@ -26,7 +26,7 @@ The FHIR server must support POST requests using bundles for the following resou
 - [Encounter](#encounter)
 - [Allergy intolerance](#allergyintolerance)
 - [Coverage](#coverage)
-- [Medication order](#allergyintolerance)
+- [Medication Order](#medication-order)
 - [Location](#location)
 
 > [!NOTE]
@@ -34,7 +34,7 @@ The FHIR server must support POST requests using bundles for the following resou
 
 Queries from the Patient App for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL. The server processes each request and returns a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
 
-All the following FHIR resources should be accessible by direct resource reference. For example, /Patient/id.
+All the following FHIR resources should be accessible by direct resource reference. 
 
 ## Conformance minimum required field set
 
@@ -68,29 +68,34 @@ In addition to the Argonaut fields, for a great user experience, we can also rea
 * * *
     Request:
     GET <fhir-server>/Patient/<patient-id>
-
+    
     Response:
     {
       "resourceType": "Patient",
       "id": "<patient-id>",
-      "meta": {
-      "versionId": "1",
-        "lastUpdated": "2018-09-18T01:28:26.000+00:00"
-      },
-      "text": {
-        "status": "generated",
-        "div": "<div><div>Hugh <b>CHAU </b></div><table><tbody><tr><td>Date of birth</td><td><span>05 June 1957</span></td></tr></tbody></table></div>"
-      },
-      "active": true,
+      .
+      .
+      .
       "name": [
         {
-          "text": "Hugh Chau",
-          "family": [
-            "Chau"
-          ],
-          "given": [
-            "Hugh"
-          ]
+          "use": "official",
+          "prefix": [ "Mr" ],
+          "family": [ "Chau" ],
+          "given": [ "Hugh" ]
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "type": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v2/0203",
+                "code": "MR"
+              }
+            ]
+          },
+          "value": "1234567"
         }
       ],
       "gender": "male",
@@ -117,7 +122,7 @@ The goal is to be able to search and filter for a patient by the following:
 - Name
 - Birthdate
 
-For an example of what the call returns, see the following reply example .
+See the following example  of this call.
 
 * * * 
     Request:
@@ -129,41 +134,19 @@ For an example of what the call returns, see the following reply example .
     {
       "resourceType": "Bundle",
       "id": "<bundle-id>",
-      "meta": {
-        "lastUpdated": "2018-10-30T00:21:34.943+00:00"
-      },
-      "type": "searchset",
-      "total": 1,
-      "link": [
-        {
-          "relation": "self",
-          "url": "<fhir-server>/Patient/_search"
-        }
-      ],
+      .
+      .
+      .
       "entry": [
         {
-          "fullUrl": "<fhir-server>/Patient/<patient-id>",
           "resource": {
             "resourceType": "Patient",
             "id": "<patient-id>",
-            "meta": {
-              "versionId": "1",
-              "lastUpdated": "2018-09-18T01:28:26.000+00:00"
-            },
-            "text": {
-              "status": "generated",
-              "div": "<div><div>Hugh <b>CHAU </b></div><table><tbody><tr><td>Date of birth</td><td><span>05 June 1957</span></td></tr></tbody></table></div>"
-            },
-            "active": true,
             "name": [
               {
                 "text": "Hugh Chau",
-                "family": [
-                  "Chau"
-                ],
-                "given": [
-                  "Hugh"
-                ]
+                "family": [ "Chau" ],
+                "given": [ "Hugh" ]
               }
             ],
             "gender": "male",
@@ -201,49 +184,23 @@ Resource search using GET method and the following parameters:
 
 The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).
 
-* * * 
+* * *
     Request:
-    GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&    category=vital-signs
+    GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
     
     Response:
     {
       "resourceType": "Bundle",
       "id": "<bundle-id>",
-      "meta": {
-        "lastUpdated": "2019-04-01T15:41:53.598+00:00"
-      },
       "type": "searchset",
       "total": 20,
-      "link": [
-        {
-          "relation": "self",
-          "url": "<fhir-server>/Observation?_sort%3Adesc=date&category=vital-signs&patient=<patient-id>"
-        }
-      ],
       "entry": [
         {
-          "fullUrl": "<fhir-server>/Observation/<resource-id>",
           "resource": {
             "resourceType": "Observation",
             "id": "<resource-id>",
-            "meta": {
-              "versionId": "3",
-              "lastUpdated": "2018-01-31T22:43:25.000+00:00"
-            },
-            "text": {
-              "status": "generated",
-              "div": "<div>2009-12-01: bmi = 34.4 kg/m2</div>"
-            },
-            "status": "final",
             "category": {
-              "coding": [
-                {
-                  "system": "http://hl7.org/fhir/observation-category",
-                  "code": "vital-signs",
-                  "display": "Vital Signs"
-                }
-              ],
-              "text": "Vital Signs"
+              "coding": [ { code": "vital-signs" } ],
             },
             "code": {
               "coding": [
@@ -253,13 +210,6 @@ The goal is to be able to retrieve the latest vital signs for a patient, [VitalS
                   "display": "bmi"
                 }
               ],
-              "text": "bmi"
-            },
-            "subject": {
-              "reference": "Patient/<patient-id>"
-            },
-            "encounter": {
-              "reference": "Encounter/<resource-id>"
             },
             "effectiveDateTime": "2009-12-01",
             "valueQuantity": {
@@ -269,147 +219,10 @@ The goal is to be able to retrieve the latest vital signs for a patient, [VitalS
               "code": "kg/m2"
             }
           },
-          "search": {
-            "mode": "match"
-          }
         },
-        {
-          "fullUrl": "<fhir-server>/Observation/<resource-id>",
-          "resource": {
-            "resourceType": "Observation",
-            "id": "<resource-id>",
-            "meta": {
-              "versionId": "3",
-              "lastUpdated": "2018-01-31T22:43:25.000+00:00"
-            },
-            "text": {
-              "status": "generated",
-              "div": "<div>2009-12-01: Blood pressure 100/60 mmHg<div>"
-            },
-            "status": "final",
-            "category": {
-              "coding": [
-                {
-                  "system": "http://hl7.org/fhir/observation-category",
-                  "code": "vital-signs",
-                  "display": "Vital Signs"
-                }
-              ],
-              "text": "Vital Signs"
-            },
-            "code": {
-              "coding": [
-                {
-                  "system": "http://loinc.org",
-                  "code": "55284-4",
-                  "display": "Blood pressure systolic and diastolic"
-                }
-              ],
-              "text": "Blood pressure systolic and diastolic"
-            },
-            "subject": {
-              "reference": "Patient/<patient-id>"
-            },
-            "encounter": {
-              "reference": "Encounter/<resource-id>"
-            },
-            "effectiveDateTime": "2009-12-01",
-            "component": [
-              {
-                "code": {
-                  "coding": [
-                    {
-                      "system": "http://loinc.org",
-                      "code": "8480-6",
-                      "display": "Systolic blood pressure"
-                    }
-                  ],
-                  "text": "Systolic blood pressure"
-                },
-                "valueQuantity": {
-                  "value": 100,
-                  "unit": "mmHg",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "mm[Hg]"
-                }
-              },
-              {
-                "code": {
-                  "coding": [
-                    {
-                      "system": "http://loinc.org",
-                      "code": "8462-4",
-                      "display": "Diastolic blood pressure"
-                    }
-                  ],
-                  "text": "Diastolic blood pressure"
-                },
-                "valueQuantity": {
-                  "value": 60,
-                  "unit": "mmHg",
-                  "system": "http://unitsofmeasure.org",
-                  "code": "mm[Hg]"
-                }
-              }
-            ]
-          },
-          "search": {
-            "mode": "match"
-          }
-        },
-        {
-          "fullUrl": "<fhir-server>/Observation/<resource-id>",
-          "resource": {
-            "resourceType": "Observation",
-            "id": "<resource-id>",
-            "meta": {
-              "versionId": "3",
-              "lastUpdated": "2018-01-31T22:43:25.000+00:00"
-            },
-            "text": {
-              "status": "generated",
-              "div": "<div>2009-12-01: respiratory_rate = 20.0     {breaths}/min</div>"
-            },
-            "status": "final",
-            "category": {
-              "coding": [
-                {
-                  "system": "http://hl7.org/fhir/observation-category",
-                  "code": "vital-signs",
-                  "display": "Vital Signs"
-                }
-              ],
-              "text": "Vital Signs"
-            },
-            "code": {
-              "coding": [
-                {
-                  "system": "http://loinc.org",
-                  "code": "9279-1",
-                  "display": "respiratory_rate"
-                }
-              ],
-              "text": "respiratory_rate"
-            },
-            "subject": {
-          "reference": "Patient/<patient-id>"
-            },
-            "encounter": {
-              "reference": "Encounter/<resource-id>"
-            },
-            "effectiveDateTime": "2009-12-01",
-            "valueQuantity": {
-              "value": 20.0,
-              "unit": "{breaths}/min",
-              "system": "http://unitsofmeasure.org",
-              "code": "{breaths}/min"
-            }
-          },
-          "search": {
-            "mode": "match"
-          }
-        },
-        .....
+        .
+        .
+        .
       ]
     }
 * * *
@@ -432,7 +245,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of  the call, see the following sample:
+See the following example of this call:
 
 * * *
     Request:
@@ -442,30 +255,13 @@ For an example of  the call, see the following sample:
     {
       "resourceType": "Bundle",
       "id": "<bundle-id>",
-      "meta": {
-        "lastUpdated": "2018-10-30T01:12:09.182+00:00"
-      },
       "type": "searchset",
       "total": 1,
-      "link": [
-        {
-          "relation": "self",
-          "url": "<fhir-server>/Condition?_count=10&    patient=<patient-id>"
-        }
-      ],
       "entry": [
         {
-          "fullUrl": "<fhir-server>/Condition/<resource-id>",
           "resource": {
             "resourceType": "Condition",
             "id": "<resource-id>",
-            "meta": {
-              "versionId": "1",
-              "lastUpdated": "2018-09-18T01:17:24.000+00:00"
-            },
-            "patient": {
-              "reference": "Patient/<patient-id>"
-            },
             "code": {
               "coding": [
                 {
@@ -473,16 +269,19 @@ For an example of  the call, see the following sample:
                   "code": "386033004",
                   "display": "Neuropathy (nerve damage)"
                 }
-              ],
-              "text": "Neuropathy (nerve damage)"
+              ]
             },
-            "clinicalStatus": "active",
-            "verificationStatus": "confirmed",
-            "onsetDateTime": "2018-09-17T07:00:00.000Z"
+            "dateRecorded": "2018-09-17",
+            "severity": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "24484000",
+                  "display": "Severe"
+                }
+              ]
+            }
           },
-          "search": {
-            "mode": "match"
-          }
         }
       ]
     }
@@ -508,7 +307,7 @@ Resource search using GET method and the following parameters:
 2. _sort:desc=\<field ex. date>
 3. _count=\<max results>
 
-The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. For an example of the call, see the following sample.
+The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. See the following example of this call.
 * * *
     Request:
     GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
@@ -525,32 +324,16 @@ The goal is to be able to retrieve the patient’s last known location. Each enc
             "id": "<resource-id>",
             "identifier": [{ "use": "official", "value": "<id>" }],
             "status": "arrived",
-            "class": "outpatient",
             "type": [
               {
-                "coding": [
-                  {
-                    "code": "Appointment",
-                    "display": "Appointment"
-                  }
-                ],
-                "text": "Visit Type"
+                "coding": [{ "display": "Appointment" }],
               }
             ],
             "patient": { "reference": "Patient/<patient-id>" },
-            "participant": [
-              {
-                "individual": {
-                  "reference": "Practitioner/<practitioner-id>",
-                  "display": "John Doe"
-                }
-              }
-            ],
             "period": { "start": "09/17/2018 1:00:00 PM" },
             "location": [
               {
                 "location": { "display": "Clinic - ENT" },
-                "status": "active"
               }
             ]
           }
@@ -581,7 +364,7 @@ Resource search using GET method and the following parameters:
 
 1. Patient =  \<patient id>
 
-For an example of the call, see the following example.
+See the following example of this call.
 
 * * *
     Request:
@@ -591,48 +374,30 @@ For an example of the call, see the following example.
     {
       "resourceType": "Bundle",
       "id": "<bundle-id>",
-      "meta": {
-        "lastUpdated": "2018-10-30T01:37:08.819+00:00"
-      },
       "type": "searchset",
       "total": 1,
-      "link": [
-        {
-          "relation": "self",
-          "url": "<fhir-server>/AllergyIntolerance?patient=<patient-id>"
-        }
-      ],
       "entry": [
         {
-          "fullUrl": "<fhir-server>/AllergyIntolerance/<resource-id>",
           "resource": {
             "resourceType": "AllergyIntolerance",
-            "id": "8",
-            "meta": {
-              "versionId": "1",
-              "lastUpdated": "2018-09-17T21:00:31.000+00:00"
-            },
-            "onset": "2018-09-17T07:00:00.000Z",
+            "id": "<resource-id>",
             "recordedDate": "2018-09-17T07:00:00.000Z",
-            "patient": {
-              "reference": "Patient/<patient-id>"
-            },
             "substance": {
-              "coding": [
-                {
-                  "code": "N0000175503",
-                  "display": "sulfonamide antibacterial"
-                }
-              ],
-              "text": "sulfonamide antibacterial"
+              "text": "Cashew nuts"
             },
             "status": "confirmed",
-            "criticality": "CRITL",
-            "type": "allergy",
-            "category": "medication"
-          },
-          "search": {
-            "mode": "match"
+            "reaction": [
+              {
+                "substance": {
+                  "text": "cashew nut allergenic extract Injectable Product"
+                },
+                "manifestation": [
+                  {
+                    "text": "Anaphylactic reaction"
+                  }
+                ]
+              }
+            ]
           }
         }
       ]
@@ -661,7 +426,7 @@ Resource search using GET method and the following parameters:
 1. patient=\<patient id>
 2. _count=\<max results>
 
-For an example of the call (Fiddle trace), see the following
+See the following example of this call:
 
 * * *
     Request:
@@ -671,57 +436,25 @@ For an example of the call (Fiddle trace), see the following
     {
       "resourceType": "Bundle",
       "id": "<bundle-id>",
-      "meta": {
-        "lastUpdated": "2018-10-30T02:01:31.148+00:00"
-      },
       "type": "searchset",
       "total": 1,
-      "link": [
-        {
-          "relation": "self",
-          "url": "<fhir-server>/MedicationOrder?_count=10&patient=<patient-id>"
-        }
-      ],
       "entry": [
         {
-          "fullUrl": "<fhir-server>/MedicationOrder/<resource-id>",
           "resource": {
             "resourceType": "MedicationOrder",
             "id": "<resource-id>",
-            "meta": {
-              "versionId": "1",
-              "lastUpdated": "2018-09-17T20:59:17.000+00:00"
-            },
-            "dateWritten": "2018-09-17T07:00:00.000Z",
-            "status": "active",
-            "dateEnded": "2018-09-17T07:00:00.000Z",
-            "patient": {
-              "reference": "Patient/<patient-id>"
-            },
+            "dateWritten": "2018-09-17",
             "medicationCodeableConcept": {
-              "coding": [
-                {
-                  "code": "314077",
-                  "display": "Lisinopril 20 MG Oral Tablet"
-                }
-              ],
               "text": "Lisinopril 20 MG Oral Tablet"
+            },
+            "prescriber": {
+              "display": "Jane Doe"
             },
             "dosageInstruction": [
               {
-                "text": "1 daily",
-                "timing": {
-                  "repeat": {
-                    "frequency": 1,
-                    "period": 1,
-                    "periodUnits": "d"
-                  }
-                }
+                "text": "1 daily"
               }
             ]
-          },
-          "search": {
-            "mode": "match"
           }
         }
       ]
@@ -740,7 +473,7 @@ Resource search using GET method and the following parameters:
 
 1. patient=\<patient id>
 
-For an example of the call, see the following example:
+See the following example of this call:
 
 * * *
     Request:
