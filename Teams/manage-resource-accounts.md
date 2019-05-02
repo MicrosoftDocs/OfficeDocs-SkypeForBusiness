@@ -89,6 +89,7 @@ Depending on whether your resource account is located online or on premises, you
 - For resource accounts homed on-premises in Skype For Business Server 2019 that can be used with Cloud Call Queues and Cloud Auto Attendants, see [Configure Cloud Call Queues](/skypeforbusiness/hybrid/configure-call-queue.md) or [Configure Cloud Auto Attendants](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Hybrid implementations (numbers homed on Direct Routing) will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
 
 The application ID's that you need to use while creating the application instances are:
+
 - **Auto Attendant:** ce933385-9390-45d1-9512-c8d228074e07
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
