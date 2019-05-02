@@ -145,8 +145,12 @@ The Authentication and Routing work-flow is shown below:
 4. Authorization message: Select the appropriate FHIR server to route to from tenant ID in scope
 5. Sends the app protected  data from the authorized FHIR server after authenticating with the app token.
 
+## Interfaces
 
+Specific calls and fields used by the Patients app are documented in the following links. Select the interface used by your FHIR server.
 
+- [DSTU2 interface specification](dstu2-interface.md)
+- [STU3 interface](stu3-interface.md)
 
 ## Performance and Reliability
 
