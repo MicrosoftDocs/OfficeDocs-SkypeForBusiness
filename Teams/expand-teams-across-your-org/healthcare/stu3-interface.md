@@ -17,7 +17,7 @@ description: Microsoft Teams Patient App EHR integration
 
 # STU3 interface specification
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 The FHIR server must support POST requests using bundles for the following resources:
 
@@ -85,6 +85,7 @@ The goal is to be able to search and filter for a patient by the following:
 See the following example call.
 
 * * *
+
     Request:
     POST <fhir-server>/Patient/_search
     Request Body:
@@ -185,7 +186,9 @@ See the following example call.
         }
       ]
     }
+
 * * *
+
     Request:
     GET <fhir-server>/Patient/<patient-id>
     
@@ -218,9 +221,10 @@ See the following example call.
       "gender": "male",
       "birthDate": "1925-12-23",
     }
+
 * * *
 
-## Observation 
+## Observation
 
 See [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html).
 
@@ -244,6 +248,7 @@ Resource search using GET method and the following parameters:
 Refer to this example of the call.
 
 * * *
+
     Request:
     GET <fhir-server>/Observation?patient=<patient-id>&category=vital-signs
     
@@ -290,6 +295,7 @@ Refer to this example of the call.
         .
       ]
     }
+
 * * *
 
 ## Condition
@@ -313,6 +319,7 @@ Resource search using GET method and the following parameters:
 See the following example of this call.
 
 * * *
+
     Request:
     GET <fhir-server>/Condition?patient=<patient-id>&_count=10
     
@@ -353,6 +360,7 @@ See the following example of this call.
         .
       ]
     }
+
 * * *
 
 ## Encounter
@@ -402,6 +410,7 @@ Resource search using GET method and the following parameters:
 For an example of the call, see the following.
 
 * * *
+
     Request:
     GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
     
@@ -449,6 +458,7 @@ For an example of the call, see the following.
         }
       ]
     }
+
 * * *
 
 ## Medication Request
