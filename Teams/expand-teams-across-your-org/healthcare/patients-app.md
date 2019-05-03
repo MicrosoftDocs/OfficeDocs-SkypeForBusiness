@@ -41,7 +41,8 @@ The following sections explain the requirements of the FHIR only data access lay
 - How to get started with FHIR and some common challenges faced with the Patients App
 - Future requirements for the next iteration of the Patient App
 
-Note: In the sections below, the word "partner" or "Interop partner" is used to refer to any 3rd party Organization that enables integration to EHR systems for the Microsoft Teams Patients app through FHIR and is implementing a FHIR Server to match the specifications listed below.
+> [!NOTE]
+> In the sections below, the word "partner" or "Interop partner" is used to refer to any 3rd party Organization that enables integration to EHR systems for the Microsoft Teams Patients app through FHIR and is implementing a FHIR Server to match the specifications listed below.
 
 ## Functional and technical requirements  
 
