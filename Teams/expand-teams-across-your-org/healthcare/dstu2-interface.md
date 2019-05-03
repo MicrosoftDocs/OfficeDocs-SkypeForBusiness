@@ -17,7 +17,7 @@ description: Microsoft Teams Patient App EHR integration
 
 # DSTU2 interface specification
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 The FHIR server must support POST requests using bundles for the following resources:
 
@@ -35,7 +35,7 @@ The FHIR server must support POST requests using bundles for the following resou
 
 Queries from the Patient App for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL. The server processes each request and returns a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
 
-All the following FHIR resources should be accessible by direct resource reference. 
+All the following FHIR resources should be accessible by direct resource reference.
 
 ## Conformance minimum required field set
 
@@ -67,6 +67,7 @@ In addition to the Argonaut fields, for a great user experience, we can also rea
 3. CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)
 
 * * *
+
     Request:
     GET <fhir-server>/Patient/<patient-id>
     
@@ -103,8 +104,8 @@ In addition to the Argonaut fields, for a great user experience, we can also rea
       "birthDate": "1957-06-05",
       "careProvider": [{ "display": "Jane Doe" }],
     }
-* * * 
 
+* * * 
 
 Resource search using POST method at /Patient/_search and the following parameters:
 
@@ -125,7 +126,8 @@ The goal is to be able to search and filter for a patient by the following:
 
 See the following example  of this call.
 
-* * * 
+* * *
+
     Request:
     POST <fhir-server>/Patient/_search
     Request Body:
@@ -159,6 +161,7 @@ See the following example  of this call.
         }
       ]
     }
+
 * * *
 
 ## Observation
@@ -186,6 +189,7 @@ Resource search using GET method and the following parameters:
 The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).
 
 * * *
+
     Request:
     GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
     
@@ -226,6 +230,7 @@ The goal is to be able to retrieve the latest vital signs for a patient, [VitalS
         .
       ]
     }
+
 * * *
 
 ## Condition
@@ -249,6 +254,7 @@ Resource search using GET method and the following parameters:
 See the following example of this call:
 
 * * *
+
     Request:
     GET <fhir-server>/Condition?patient=<patient-id>&_count=10
     
@@ -286,6 +292,7 @@ See the following example of this call:
         }
       ]
     }
+
 * * *
 
 ## Encounter
@@ -310,6 +317,7 @@ Resource search using GET method and the following parameters:
 
 The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field. See the following example of this call.
 * * *
+
     Request:
     GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
     
@@ -341,6 +349,7 @@ The goal is to be able to retrieve the patient’s last known location. Each enc
         }
       ]
     }
+
 * * *
 
 ## AllergyIntolerance
@@ -368,6 +377,7 @@ Resource search using GET method and the following parameters:
 See the following example of this call.
 
 * * *
+
     Request:
     GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
     
@@ -403,6 +413,7 @@ See the following example of this call.
         }
       ]
     }
+
 * * *
 
 ## Medication Order
@@ -430,6 +441,7 @@ Resource search using GET method and the following parameters:
 See the following example of this call:
 
 * * *
+
     Request:
     GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
     
@@ -460,6 +472,7 @@ See the following example of this call:
         }
       ]
     }
+
 * * *  
 
 ## Coverage
@@ -477,6 +490,7 @@ Resource search using GET method and the following parameters:
 See the following example of this call:
 
 * * *
+
     Request:
     GET <fhir-server>/Coverage?patient=<patient-id>
     
@@ -496,6 +510,7 @@ See the following example of this call:
         }
       ]
     }
+
 * * *
 
 ## Location

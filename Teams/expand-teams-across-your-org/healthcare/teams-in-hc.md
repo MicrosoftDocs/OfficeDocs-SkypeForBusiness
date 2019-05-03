@@ -74,7 +74,7 @@ The Microsoft Teams Patients app is built on the Teams extensibility platform an
 
 ![patients app screenshot](../../media/ehr-2.png)
 
-See [Integrating Electronic Healthcare Records into Microsoft Teams](../../healthcare/patients-app.md) for implementation details,.
+See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
 
 ## Templates
 
