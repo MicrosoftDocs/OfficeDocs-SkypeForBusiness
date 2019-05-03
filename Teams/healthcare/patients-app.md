@@ -86,9 +86,9 @@ The following sections explain the requirements of the FHIR only data access lay
 
 Note: In the sections below, the word "partner" or "Interop partner" is used to refer to any 3rd party Organization that enables integration to EHR systems for the Microsoft Teams Patients app through FHIR and is implementing a FHIR Server to match the specifications listed below.
 
-## Functional and technical requirements of the integration interface
+## Functional and technical requirements  
 
-### Authentication for the FHIR Endpoint with the Microsoft Teams Patients app
+### Authentication  
 
 First, a quick note about the current state of the industry:
 
@@ -161,7 +161,7 @@ While the Patients app is in private preview, we cannot make any guarantees on t
 
 ![Interop Partners](../media/FHIR.png)
 
-## Get started with FHIR - How to create a FHIR Server
+## Get started with FHIR  
 
 If you're new to FHIR and need easy access to a FHIR Server that you can expose to the Microsoft Teams EHR integration interface, please follow instructions from here. Microsoft has an open-source FHIR Server available for all developers to use. Please see [What is FHIR Server for Azure](https://docs.microsoft.com/en-us/azure/healthcare-apis/overview-open-source-server) article to learn more about the open source FHIR Server available from Microsoft and deploy it for your organizations.
 
