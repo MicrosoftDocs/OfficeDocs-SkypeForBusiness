@@ -15,11 +15,11 @@ ms.reviewer: anach
 description: Microsoft Teams Patient App EHR integration 
 ---
 
-# Patients App overview
+# Microsoft Teams Patients App overview
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Microsoft Teams is developing a Patients app specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The Microsoft Teams Patient App is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
+Microsoft Teams is developing a care coordination solution specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patient App, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams. This enables clinical workers to collaborate and communicate across the care continuum. The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients App to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
 
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
 - Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
@@ -30,7 +30,7 @@ An EHR integration and interop partner trying to implement Microsoft Teams for a
 
 ![EHR integration](../media/ehr-1.png)
 
-Microsoft Teams is bringing new healthcare-specific features to market in the care team collaboration and coordination space. Healthcare teams need a secure hub for coordinating care across multiple patients. The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app addresses the following challenges that are commonly observe in today's healthcare industry in the care coordination area:
+Microsoft Teams is bringing new healthcare-specific features to market in the care team collaboration and coordination space. Healthcare teams need a secure hub for coordinating care across multiple patients. The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
 
 - Low efficiency in hand-offs and critical communication through the patient experience
 - Siloed information that creates administrative burdens
@@ -45,7 +45,7 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
 - Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
 - Using the Microsoft Teams Patient App to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system.
 
-The Patients App adds the following features to Microsoft Teams:
+The Microsoft Teams Patients App itself adds the following features to Microsoft Teams:
 
 - Ability to fetch latest patient data from the EHRs and other medical information systems through FHIR
 - Ability to create multiple patient lists within a single channel.
@@ -53,6 +53,7 @@ The Patients App adds the following features to Microsoft Teams:
 - Ability to auto-provision the app through a team template.
 - Available on the Teams App for iOS and Android for mobile first healthcare workers as well as Microsoft Teams web and desktop client.
 - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
+- Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.
 
 The Microsoft Teams Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).  
 
@@ -62,15 +63,17 @@ Planned Patients app features include:
 - Support for notifications from Lab results, and Admit, Discharge & Transfer events.
 
 > [!NOTE]
-> The Microsoft Teams Patient App is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
+> The Microsoft Teams Patient App is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible. 
 
 ![Patients app screenshot](../media/ehr-2.png)
 
-This article is for you if you're a general healthcare IT developer that is interested in using FHIR APIs on top of your medical information system to connect to Microsoft Teams to enable the above mentioned care coordination scenarios. This article documents the FHIR interface specifications for the Patients App. The article will also guide you through the step-by-step process of setting up FHIR server and connecting to the Patients App in your development environment\tenant. **Note: There are no steps in this process that use the Microsoft Teams admin center or PowerShell cmdlets to enable features.**
+This article is for you if you're a general healthcare IT developer that is interested in using FHIR APIs on top of your medical information system to connect to Microsoft Teams to enable care coordination scenarios that match the needs of your healthcare organization. This article documents the FHIR interface specifications for the Patients App. The article will also guide you through the step-by-step process of setting up FHIR server and connecting to the Patients App in your development environment\tenant. **Note: There are no steps in this process that use the Microsoft Teams admin center or PowerShell cmdlets to enable features.**
+
+Illustrated below is the architecture of the Microsoft Teams Patients app: 
 
 ![patient app architecture](../media/patients-app-architecture.png)
 
-The following sections explain the requirements of the FHIR only data access layer for the Patients app that a FHIR server must meet in order to integrate with the Patients App, including the following:
+The following sections explain the requirements of the FHIR only data access layer for the Patients app that a FHIR server (or EHR enabled FHIR APIs) must meet in order to integrate with the Patients App, including the following:
 
 - Expectations around user authentication
 - Functional and technical requirements of the integration interface
@@ -147,7 +150,7 @@ The Authentication and Routing work-flow is shown below:
 
 ## Interfaces
 
-Specific calls and fields used by the Patients app are documented in the following articles. Select the interface used by your FHIR server.
+Specific calls and fields used by the Patients app are documented in the following articles. Select the interface applicable to your FHIR server/FHIR APIs.
 
 - [DSTU2 interface specification](dstu2-interface.md)
 - [STU3 interface](stu3-interface.md)
@@ -162,7 +165,7 @@ While the Patients app is in private preview, we cannot make any guarantees on t
 
 If you're new to FHIR and need easy access to a FHIR Server that you can expose to the Microsoft Teams EHR integration interface, please follow instructions from here. Microsoft has an open-source FHIR Server available for all developers to use. Please see [What is FHIR Server for Azure](https://docs.microsoft.com/en-us/azure/healthcare-apis/overview-open-source-server) article to learn more about the open source FHIR Server available from Microsoft and deploy it for your organizations.
 
-You can also use the HSPC Open sandbox EHR environment to create an open FHIR Server and use this to play around with the Patients app. We recommend that you read through the documentation [here](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Not only does the sandbox provide an easy, UI oriented, and user friendly way of creating, adding and editing Patients, it also gives you several samples to get started.  
+You can also use the HSPC Open sandbox EHR environment to create an an EHR which also supports an open FHIR Server and use this to play around with the Patients app. We recommend that you read through the documentation [here](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Not only does the sandbox provide an easy, UI oriented, and user friendly way of creating, adding and editing Patients, it also gives you several samples to get started.  
 
 ## Enroll in the private preview
 
@@ -178,4 +181,4 @@ Once you've created the open source FHIR Server, it's really easy to connect to 
 
     ![patients app server settings](../media/patients-server.png)
 
-5. Start using the app to search for Patients from the FHIR Server/EHR and add them to list and please give us feedback if something doesn't work. Also, to establish a fully authenticated version of the Patient App -> FHIR Server flow, please engage in offline dialogue with Microsoft Teams for healthcare product engineering, through the email request mentioned in Step 1 to clarify requirements and we will help enable this for you per the Authentication requirements described above in the FHIR Interface document. This part of the process will become more self-serve in the future. Stay tuned for more updates to this article!
+5. Start using the app to search for Patients from the FHIR Server/EHR and add them to list and please [give us feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) if something doesn't work. Also, to establish a fully authenticated version of the Patient App -> FHIR Server flow, please engage in offline dialogue with Microsoft Teams for healthcare product engineering, through the email request mentioned in Step 1 to clarify requirements and we will help enable this for you per the Authentication requirements described above in the FHIR Interface document. This part of the process will become more self-serve in the future. Stay tuned for more updates to this article!
