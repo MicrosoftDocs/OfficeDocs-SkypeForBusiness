@@ -26,7 +26,7 @@ Microsoft Teams offers a number of features useful for hospitals and other Healt
 
 ## Care Coordination - Microsoft Teams Patients app
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patient App, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams.  
 
@@ -41,7 +41,7 @@ An EHR integration and interop partner trying to implement Microsoft Teams for a
 
 <br>
 
-![EHR integration](../media/ehr-1.png)
+![EHR integration](../../media/ehr-1.png)
 
 <br>
 
@@ -67,16 +67,16 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
     - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
     - Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.
 
-The Microsoft Teams Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview).  
+The Microsoft Teams Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
 
 > [!NOTE]
 > The Microsoft Teams Patient App is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
 
-![Patients app screenshot](../media/ehr-2.png)
+![patients app screenshot](../../media/ehr-2.png)
 
 See [Integrating Electronic Healthcare Records into Microsoft Teams](../../healthcare/patients-app.md) for implementation details,.
 
-## Templates 
+## Templates
 
 New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
 
