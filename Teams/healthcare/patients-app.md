@@ -153,7 +153,7 @@ The Authentication and Routing work-flow is shown below:
 Specific calls and fields used by the Patients app are documented in the following articles. Select the interface applicable to your FHIR server/FHIR APIs.
 
 - [DSTU2 interface specification](dstu2-interface.md)
-- [STU3 interface](stu3-interface.md)
+- [STU3 interface specification](stu3-interface.md)
 
 ## Performance and Reliability
 

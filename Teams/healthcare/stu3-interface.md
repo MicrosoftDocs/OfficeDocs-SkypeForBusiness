@@ -15,7 +15,7 @@ ms.reviewer: anach
 description: Microsoft Teams Patient App EHR integration 
 ---
 
-# STU3 interface
+# STU3 interface specification
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
