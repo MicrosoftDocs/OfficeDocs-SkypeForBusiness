@@ -29,7 +29,7 @@ Here are the licenses that must be assigned:
 - A Microsoft Teams, Skype for Business, and Microsoft Stream license.
 
 > [!IMPORTANT]
-> The user creating and scheduling a live event must have an Exchange Online Mailbox.
+> The user creating and scheduling a live event must have an Exchange Online mailbox.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
 
