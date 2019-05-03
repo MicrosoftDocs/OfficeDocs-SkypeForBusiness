@@ -116,7 +116,7 @@ Specific calls and fields used by the Patients app are documented in the followi
 
 While the Patients app is in private preview, we cannot make any guarantees on the end-to-end performance. Factors in performance include the relative latencies of all the hops involved in the workflow, starting from the EHR in the health system's environment, to the Interop partner and their infra, including the FHIR Server and across to the Office 365 ecosystem and Microsoft Teams Patients app.
 
-![Interop Partners](../media/FHIR.png)
+![Interop Partners](../../media/FHIR.png)
 
 ## Get started with FHIR  
 
