@@ -340,7 +340,6 @@
 
 
 ## Reference
-### [App compliance](/appcompliance/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
@@ -638,6 +637,7 @@
 # Reference
 
 
+## [App compliance](/appcompliance/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Get ready to roll out Teams
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
