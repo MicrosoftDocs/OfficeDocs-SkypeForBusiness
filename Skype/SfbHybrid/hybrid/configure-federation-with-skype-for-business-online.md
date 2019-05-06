@@ -36,6 +36,8 @@ Federation allows users in your on-premises deployment to communicate with Offic
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
 ```
 
+If '-EnablePartnerDiscovery' value set to 1, Skype for Business Server will use DNS records to try and discover partner domains not listed in the AllowedDomains list. If the value set to 0, Skype for Business Server will only federate with domains found on the AllowedDomains list. This parameter is required if you use DNS service routing.
+
 
 
 ## Configure your on-premises environment to enable shared SIP address space with Office 365
