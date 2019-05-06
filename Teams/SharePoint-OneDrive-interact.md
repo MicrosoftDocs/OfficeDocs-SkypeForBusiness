@@ -69,7 +69,7 @@ The **Files** tab in Teams closely resembles the SharePoint documents view. On t
 - Identify which files need metadata
 - Sort or filter documents by approval status, who last modified the document, file name, and owner.
 - Group files based on column headings.
-- Modify column settings (move left or right, hide)
+- Modify column settings (move left or right, hide) and column width.
 
 ## Default link type setting
 
