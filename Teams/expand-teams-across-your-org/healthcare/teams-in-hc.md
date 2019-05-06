@@ -24,20 +24,20 @@ Microsoft Teams offers a number of features useful for hospitals and other Healt
 - Electronic Healthcare Record (EHR) integration
 - Firstline Worker integration
 
-## Care Coordination - Microsoft Teams Patient app
+## Care Coordination - Microsoft Teams Patients app
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patient app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams.  
+Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patients app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams.  
 
-The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patient app to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
+The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients app to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
 
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
 - Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
 - Dapasoft (through [Corolar on FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
 
-An EHR integration and interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patient app a secure and authenticated connection with the healthcare provider organization's EHR systems. This enables the one-directional (Read only) flow of the relevant patient records into to the Patient app. The Patient app understands the FHIR format, so the partner is also responsible for transforming the aggregated data from various other formats like HL7v2, etc. into FHIR DSTU2 or STU3.
+An EHR integration and interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patients app a secure and authenticated connection with the healthcare provider organization's EHR systems. This enables the one-directional (Read only) flow of the relevant patient records into to the Patients app. The Patients app understands the FHIR format, so the partner is also responsible for transforming the aggregated data from various other formats like HL7v2, etc. into FHIR DSTU2 or STU3.
 
 <br>
 
@@ -45,7 +45,7 @@ An EHR integration and interop partner trying to implement Microsoft Teams for a
 
 <br>
 
-The Patient app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patient app is the first major investment in the care coordination area which aims to address the following challenges:
+The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams’ secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
 
 - Low efficiency in hand-offs and critical communication through the patient experience
 - Siloed information that creates administrative burdens
@@ -58,7 +58,7 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
 - Having persistent conversations about different patients needing attention
 - Using channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources
 - Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
-- Using the Patient app to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system. The Patient app itself adds the following features to Microsoft Teams:
+- Using the Patients app to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system. The Patients app itself adds the following features to Microsoft Teams:
 
     - Ability to create multiple patient lists within a single channel.
     - Ability to view and sort information displayed about patients through configurable columns.
@@ -67,12 +67,12 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
     - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
     - Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.
 
-The Patient app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
+The Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
 
 > [!NOTE]
-> The Patient app is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
+> The Patients app is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
 
-![Patient app screenshot](../../media/ehr-2.png)
+![Patients app screenshot](../../media/ehr-2.png)
 
 See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
 

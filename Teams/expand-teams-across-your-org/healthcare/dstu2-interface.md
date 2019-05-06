@@ -12,7 +12,7 @@ ms.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams Patient app EHR integration 
+description: Microsoft Teams Patients app EHR integration 
 ---
 
 # DSTU2 interface specification
@@ -33,7 +33,7 @@ Setting up or reconfiguring an FHIR server to work with the Microsoft Teams Pati
 > [!NOTE]
 > The Patient resource is the only mandatory resource (without which the app will not load at all. However, it is recommended that the Partner implement support for all the above mentioned resources per specifications provided below for the best end-user experience with the Microsoft Teams Patients App.
 
-Queries from the Microsoft Teams Patient app for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL. The server processes each request and returns a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
+Queries from the Microsoft Teams Patients app for more than one resource post a bundle (BATCH) of requests to the FHIR server's URL. The server processes each request and returns a bundle of the resources matched by each request. For more information and examples, see [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
 
 All the following FHIR resources should be accessible by direct resource reference.
 
