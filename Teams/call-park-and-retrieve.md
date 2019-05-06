@@ -51,7 +51,7 @@ Call park and retrieve is currently supported by the following clients and devic
 
 ## Configuring call park and retrieve
 
-You must be an administrator to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the [Assign a call park policy](#assign-a-call-park-policy) procedure below.
+You must be an administrator to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the [Assign a call park policy](#assign-a-call-park-policy).
 
 For information about how to use the call park and retrieve feature, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
