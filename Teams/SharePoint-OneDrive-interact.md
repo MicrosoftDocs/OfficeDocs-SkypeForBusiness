@@ -59,8 +59,8 @@ The **Files** tab in Teams closely resembles the SharePoint documents view. On t
 - See additional options in the **New** file menu.
 - Upload or download files.
 - Sync files to their local drive.
-- Open files in SharePoint.
-- On the **All Documents** menu, switch from list view to compact list to grid (Tiles) view.
+- Open the SharePoint document view.
+- On the **All Documents** menu, switch from **List** view to **Compact list** to **Tiles** view.
 - Identify individual files by application icon.
 - Identify files that need attention or have malware.
 - Immediately see whether a file is read-only or checked out.
