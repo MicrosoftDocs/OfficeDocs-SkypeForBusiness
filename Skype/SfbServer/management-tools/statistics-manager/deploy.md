@@ -113,7 +113,7 @@ To validate the installation, perform the following steps:
     
    - If the healthcheck page shows up, the Listener installation was successful.
     
-   - If the KnownServersCount is 1 or higher, then the connection to Redis is established.
+   - If the KnownServerCount is 1 or higher, then the connection to Redis is established.
     
    - After waiting a few minutes, and after at least one Agent has been installed, check to see that the ValuesWritten counter is incrementing.
     
