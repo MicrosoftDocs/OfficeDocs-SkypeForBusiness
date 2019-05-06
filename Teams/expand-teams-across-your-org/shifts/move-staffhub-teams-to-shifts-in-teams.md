@@ -40,7 +40,7 @@ User details, schedule information, and chat and file data are transitioned to T
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
-As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams.
+As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams. If you have Azure AD Premium, you can [run a report](../../shifts/run-report-to-show-staffhub-usage.md) to get a list of StaffHub users in your organization who need to know about this change.  
 
 There's no rollback option after you move a StaffHub team to Teams.
 
