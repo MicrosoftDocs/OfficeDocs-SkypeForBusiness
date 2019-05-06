@@ -120,7 +120,7 @@ To Get Attached Devices
   
 ```
 invoke-command {Write-Host "VIDEO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
+gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Camera"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table Name,Status,Present} -ComputerName <Device fqdn>
 ```
