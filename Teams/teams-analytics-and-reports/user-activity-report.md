@@ -41,7 +41,7 @@ The Teams user activity report gives you insight into the types of activities th
 |**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, click **1:1 calls**, **Channel messages**, or **Chat messages** to see only the info related to each one. Changing the selection doesn’t change the information in the table. |
 |**5**   |The table gives you a breakdown of usage by user.   <ul><li>**Display name** is the display name of the user. You can click the display name to go to the user's setting page in the Microsoft Teams admin center.</li><li>**1:1 calls** is the number of 1:1 calls that the user participated in during the specified time period.</li><li>**Channel messages** is the number of unique messages that the user posted in a team chat during the specified time period.</li> <li>**Chat messages** is the number of unique messages that the user posted in a private chat during the specified time period.</li>  <li>**Last activity** is the last date (UTC) that the user participated in a Teams activity.</li> </ul>To see the information that you want in the table, make sure to add the columns to the table.
 |**6**   |Select **Edit columns** to add or remove columns in the table. |
-|**7**   |Select **˙˙˙**, and then **Print chart** to print the chart. |
+|**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)||
 
 ## Related topics
 - [Teams analytics and reporting](teams-reporting-reference.md)
