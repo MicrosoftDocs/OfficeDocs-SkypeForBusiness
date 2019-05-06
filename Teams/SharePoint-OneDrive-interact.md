@@ -54,7 +54,22 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ## Channel Files tab
 
-The **Files** tab in Teams closely resembles the SharePoint documents view. From the **Files** tab, users can go directly to SharePoint, download or upload files, and sync files to their local drive. They can easily identify individual files by application, see if a file is read-only or checked out, and identify which files need metadata (**Required info** will appear next to the file name). Users can sort or filter documents by who last modified the document, by file name, by owner, and by sign-off status.
+The **Files** tab in Teams closely resembles the SharePoint documents view. On the **Files** tab, users can:
+
+- See additional options in the **New** file menu.
+- Upload or download files.
+- Sync files to their local drive.
+- Open files in SharePoint.
+- On the **All Documents** menu, switch from list view to compact list to grid (Tiles) view.
+- Identify individual files by application icon.
+- Identify files that need attention or have malware.
+- Immediately see whether a file is read-only or checked out.
+- Check out and check in files.
+- Pin, unpin, and change the sort order of files.
+- Identify which files need metadata
+- Sort or filter documents by approval status, who last modified the document, file name, and owner.
+- Group files based on column headings.
+- Modify column settings (move left or right, hide)
 
 ## Default link type setting
 
