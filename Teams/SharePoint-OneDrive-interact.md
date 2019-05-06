@@ -52,6 +52,10 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files for each user's chats.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
+## Channel Files tab
+
+The **Files** tab in Teams closely resembles the SharePoint documents view. From the **Files** tab, users can go directly to SharePoint, download or upload files, and sync files to their local drive. They can easily identify individual files by application, see if a file is read-only or checked out, and identify which files need metadata (**Required info** will appear next to the file name). Users can sort or filter documents by who last modified the document, by file name, by owner, and by sign-off status.
+
 ## Default link type setting
 
 SharePoint and OneDrive have an admin setting for specifying the default link type for links that are created for a file. Teams is adopting that same approach by reusing the settings that the admin sets for SharePoint and OneDrive. More details about this approach are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
