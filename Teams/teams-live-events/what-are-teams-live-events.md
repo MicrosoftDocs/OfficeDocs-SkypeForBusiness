@@ -34,12 +34,7 @@ So, let's get started. First, take a look at the following diagram that shows hi
 ![Diagram showing key components of live events, scheduling, production, Microsoft Stream platform, certified third-party eCDN providers](../media/teams-live-events.png  "Diagram showing key components of live events, scheduling, production, Microsoft Stream platform, certified third-party eCDN providers")
 
 ### Event group roles
-Live events in Teams empowers multiple roles (organizer, producer, presenter, and attendee) to successfully broadcast and participate in an event. To learn more, see [Event group roles](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a#bkmk_roles].
-
-- **Organizer**: The organizer manages the live event end to end. This includes creating the event with appropriate attendee permissions, choosing the production method, inviting event team members and attendees and managing event reports. Event reports include recordings and attendance reports. With real-time captions & translation (coming soon), the organizer can also specify whether live event attendees can view captions in the supported languages.
-
-- **Producer**: As the host of the meeting, producers ensure attendees have a great viewing experience by controlling the media sources that are sent to the event. Additional capabilities include: Start / Stop, share own video, share participant video, share active desktop/window, select layouts, chat with other event team members, view live attendee count, and moderate Q & A.
-
+Live events in Teams empowers multiple roles (organizer, producer, presenter, and attendee) to successfully broadcast and participate in an event. To learn more, see [Event group roles](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## Key components
 So, you can see from the picture above, there are four key components that are used with live events in Teams.
