@@ -49,9 +49,7 @@ This section outlines the procedures for deploying Lync Server 2013 clients and 
 
   - [Deploying Lync Windows Store app in Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md)
 
-  - [Using Lync Connectivity Analyzer in Lync Server 2013](lync-server-2013-using-lync-connectivity-analyzer.md)
-
-</div>
+ </div>
 
 </div>
 
