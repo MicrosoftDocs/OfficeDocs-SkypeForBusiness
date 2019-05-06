@@ -72,7 +72,7 @@ If there is an existing chat or other communication between users, and a new pol
 
 ## Required licenses and permissions
 
-Currently, the information barrier features are in private preview. When these features are generally available, they'll be included in the following subscriptions:
+Currently, the information barrier features are in public preview. When these features are generally available, they'll be included in the following subscriptions:
 
 - Microsoft 365 E5/A5/G5
 - Office 365 E5/A5/G5
