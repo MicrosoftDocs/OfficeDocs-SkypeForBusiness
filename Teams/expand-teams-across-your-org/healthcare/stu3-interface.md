@@ -19,7 +19,7 @@ description: Microsoft Teams Patient App EHR integration
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-The FHIR server must support POST requests using bundles for the following resources:
+Setting up or reconfiguring an FHIR server to work with the Microsoft Teams Patients app requires understanding what data the app needs to access. The FHIR server must support POST requests using bundles for the following resources:
 
 - [Patient](#patient)
 - [Observation](#observation)
@@ -37,22 +37,20 @@ Queries from the Patient App for more than one resource shall post a bundle (BAT
 
 ## Capability Statement
 
-See [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html).
-
 These are the minimum required fields:
 
-1. Rest
+1. REST
    1. Mode
    2. Interaction
    3. Resource: Type
    4. Security: [Extension for OAuth URIs](http://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (Our code requires this to understand which version we should pivot to.)
 
-## Patient 
+See [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) for other details on this field set.
 
-See [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html).
+## Patient
 
-Here are the minimum required fields, a subset of the Argonaut patient profile fields:
+Here are the minimum required fields, which are a subset of the Argonaut patient profile fields:
 
 1. Name.Given
 2. Name.Family
@@ -60,13 +58,13 @@ Here are the minimum required fields, a subset of the Argonaut patient profile f
 4. BirthDate
 5. MRN (Identifier)
 
-In addition to the [Argonaut fields](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), for a great user experience, we can also read the following field(s):
+In addition to the [Argonaut fields](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), for a great user experience the Patients app can also read the following fields:
 
 1. Name.Use
 2. Name.Prefix
 3. [GeneralPractitioner] - The GeneralPractitioner reference should be included in the Patient resource (display field only)
 
-Resource search using POST method at /Patient/_search and the following parameters:
+A resource search uses the POST method at /Patient/_search and the following parameters:
 
 1. id
 2. family=(searches for all patients whose family name contains the value)
@@ -79,11 +77,11 @@ Resource search using POST method at /Patient/_search and the following paramete
 The goal is to be able to search and filter for a patient by the following:
 
 - ID: This is the resource ID that every resource in FHIR has.
-- MRN: This is the actual identifier for the patient that clinical staff would know. We understand this MRN is based on the type of identifier inside the identifier resource in FHIR
+- MRN: This is the actual identifier for the patient that clinical staff would know. We understand this MRN is based on the type of identifier inside the identifier resource in FHIR.
 - Name
 - Birthdate
 
-See the following example call.
+See the following example of the call:
 
 * * *
 
@@ -225,28 +223,28 @@ See the following example call.
 
 * * *
 
+See [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html) for other details on this field set.
+
 ## Observation
 
-See [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html).
-
-These are the minimum required fields, a subset of the [Argonaut Vital-Signs profile](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
+These are the minimum required fields, which are a subset of the [Argonaut Vital-Signs profile](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
 
 1. Effective (date time or period)
 2. Code.Coding.Code
 3. ValueQuantity.Value
 
-In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
+In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:
 
 1. Code.Coding.Display
 2. ValueQuantity.Unit
 
-Resource search using GET method and the following parameters:
+A resource search uses the GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _sort=-date
 3. category (we will query for “category=vital-signs”) to retrieve the list of vital signs.
 
-Refer to this example of the call.
+Refer to this example of the call:
 
 * * *
 
@@ -299,25 +297,25 @@ Refer to this example of the call.
 
 * * *
 
+See [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) for other details on this field set.
+
 ## Condition
 
-See [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html).
-
-Here's the minimum required fields, a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
+Here's the minimum required fields, which are a subset of the [Argonaut condition profile](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
 
 1. Code.Coding[0].Display
 
-In addition to the Argonaut fields, for a great user experience, we can also read the following fields:
+In addition to the Argonaut fields, for a great user experience the Patients app can also read the following fields:
 
 1. AssertedDate
 2. Severity
 
-Resource search using GET method and the following parameters:
+A resource search uses the GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _count=\<max results>
 
-See the following example of this call.
+See the following example of this call:
 
 * * *
 
@@ -363,12 +361,11 @@ See the following example of this call.
     }
 
 * * *
+See [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html) for other details on this field set.
 
 ## Encounter
 
-See [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html).
-
-These are the minimum required fields, a subset of the [US Core Encounter profile](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields).
+These are the minimum required fields, which are a subset of the [US Core Encounter profile](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) “must have” fields).
 
 1. Status
 2. Type[0].Coding[0].Display
@@ -378,7 +375,7 @@ In addition, the following fields from US Core Encounter profile’s “must sup
 1. Period.Start
 2. Location[0].Location.Display
 
-Resource search using GET method and the following parameters:
+A resource search uses the GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _sort:desc=\<field ex. date>
@@ -386,17 +383,17 @@ Resource search using GET method and the following parameters:
 
 The goal is to be able to retrieve the patient’s last known location. Each encounter references a location resource. The reference shall also include the location’s display field.
 
+See [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html) for other details on this field set.
+
 ## AllergyIntolerance
 
-See [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html).
-
-These are the minimum required fields, a subset of the [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) profile:
+These are the minimum required fields, which are a subset of the [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) profile:
 
 1. Code.Text
 2. Code.Coding[0].Display
 3. ClinicalStatus/VerificationStatus (we read both)
 
-In addition to the Argonaut fields, for a great user experience, we can also read the following field:
+In addition to the Argonaut fields, for a great user experience the Patients app can also read the following field:
 
 1. AssertedDate
 2. Note.Text
@@ -404,11 +401,11 @@ In addition to the Argonaut fields, for a great user experience, we can also rea
     1. Substance (one coding element)
     2. Manifestation (one coding element)
 
-Resource search using GET method and the following parameters:
+A resource search uses the GET method and the following parameters:
 
 1. Patient =  \<patient id>
 
-For an example of the call, see the following.
+See the following example of the call: 
 
 * * *
 
@@ -462,30 +459,30 @@ For an example of the call, see the following.
 
 * * *
 
+See [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html) for other details on this field set.
+
 ## Medication Request
 
-See [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html).
-
-These are the minimum required fields, a subset of the [US Core Medication Request profile](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
+These are the minimum required fields, which are a subset of the [US Core Medication Request profile](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
 
 1. Medication.Display (if Reference)
 2. Medication.Text (if CodableConcept)
 3. AuthoredOn
 4. Requester.Agent.Display
 
-In addition to the US Core fields, for a great user experience, we can also read the following fields:
+In addition to the US Core fields, for a great user experience the Patients app can also read the following fields:
 
 1. DosageInstruction[..].Text
 2. Text
 
-Resource search using GET method and the following parameters:
+A resource search uses the GET method and the following parameters:
 
 1. patient=\<patient id>
 2. _count=\<max results>
 
-## Coverage
+See [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) for other details on this field set.
 
-See [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html).
+## Coverage
 
 These are the minimum required fields, not covered by either US Core or Argonaut profiles:
 
@@ -495,8 +492,8 @@ These are the minimum required fields, not covered by either US Core or Argonaut
 2. Period
 3. SubscriberId
 
-Resource search using GET method and the following parameters:
+A resource search uses the GET method and the following parameters:
 
 1. Patient = \<patient id>
 
-\* We don't have a sample for Coverage, as it's not available on any open sandbox. However, it should work in a way that's similar to the other resources.
+See [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) for other details on this field set.
