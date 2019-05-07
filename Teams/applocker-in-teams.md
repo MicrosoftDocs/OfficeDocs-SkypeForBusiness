@@ -35,12 +35,12 @@ Since Teams desktop executable files are digitally signed, the publisher conditi
 
 For the Teams client app (all files, all versions):
 
-`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US <br>
 Product name: MICROSOFT TEAMS`
 
 For the Teams client update (all files, all versions):
 
-`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US <br>
 Product name: MICROSOFT TEAMS UPDATE`
 
 ## Related topics
