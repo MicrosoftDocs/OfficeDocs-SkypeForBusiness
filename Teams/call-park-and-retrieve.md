@@ -68,11 +68,10 @@ Follow these steps to enable a call park policy:
 
 Follow these steps to assign a call park policy to one or more users:
 
-1. Go to **Microsoft Teams admin center** > **Voice** > **Call park policies**.
-2. Select the policy by clicking to the left of the policy name.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you are finished adding users, select **Save**.
+1. Go to Microsoft Teams admin center > **Users**.
+2. In the Users page, search for the user by display name or by user name, select the name, and then open user by clicking on the username.
+3. In the Assigned policies section, click **Edit**.
+4. Select the Call park policy from the drop down list.
  
 ### Configure call park and retrieve with PowerShell
 
