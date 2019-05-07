@@ -31,7 +31,7 @@ When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phon
   
 ## Audio Conferencing coverage and pricing
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).
   
 ## Dial-in phone numbers in a meeting invite
 

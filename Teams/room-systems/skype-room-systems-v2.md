@@ -31,7 +31,7 @@ The following table lists the licensing-dependant features that are available in
 > [!NOTE]
 > The room that is being set up needs to be a user object and have these licenses assigned to it.
 
-|Microsoft Teams Rooms scenario |You currently have Office 365 Premium, Office 365 ProPlus0, or Skype for Business Standalone Plan 2.  <br/> Here's what you need to buy:  |You currently have an Enterprise-based plan.  <br/> Here's what you need to buy: |You have Skype for Business Server 2015 (on-premises or hybrid). <br/> Here's what you need to buy:|
+|Microsoft Teams Rooms scenario |You currently have Office 365 Premium, Office 365 ProPlus, or Skype for Business Standalone Plan 2.  <br/> Here's what you need to buy:  |You currently have an Enterprise-based plan.  <br/> Here's what you need to buy: |You have Skype for Business Server 2015 (on-premises or hybrid). <br/> Here's what you need to buy:|
 |:-----|:-----|:-----|:-----|
 |Join a scheduled meeting.  |Skype for Business Standalone Plan 1 |E1, 3, 4, or 5  |Skype for Business Server Standard CAL  |
 |Initiate an ad-hoc meeting. |Skype for Business Standalone Plan 2 |E1, 3, 4, or 5 |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|

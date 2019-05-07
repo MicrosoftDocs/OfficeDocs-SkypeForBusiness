@@ -72,7 +72,7 @@ To create a new resource account click **+ New account**. In the pop-up, fill ou
 
 Next, you will  need to apply a license to the resource account, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-![number 3](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a phone number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
+![number 3](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a Calling Plan service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
 
 ![resource account assign](media/r-a-assign.png)
 
