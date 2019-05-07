@@ -29,10 +29,13 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in a team | 5,000       |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams an Office 365 tenant can have    | 500,000     |
+|Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)         |
 
 &sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+
+&sup2;This limit includes archived teams.
+
 
 ### Deleted channels
 
