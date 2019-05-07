@@ -30,7 +30,7 @@ The following table lists the licensing-dependant features that are available in
   
 > [!NOTE]
 > The room that is being set up needs to be a user object and have these licenses assigned to it.
-> The new Meeting Room License is now available in Office 365.
+> The new Meeting Room license is now available in Office 365.
 
 |Microsoft Teams Rooms scenario |You currently have Office 365 Premium, Office 365 ProPlus, or Skype for Business Standalone Plan 2.  <br/> Here's what you need to buy:  |You currently have an Enterprise-based plan.  <br/> Here's what you need to buy: |You have Skype for Business Server 2015 (on-premises or hybrid). <br/> Here's what you need to buy:|
 |:-----|:-----|:-----|:-----|
