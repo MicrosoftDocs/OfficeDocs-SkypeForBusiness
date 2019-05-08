@@ -3,7 +3,7 @@ title: How SharePoint Online and OneDrive for Business interact with Microsoft T
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/01/2019
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -54,20 +54,19 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ## Channel Files tab
 
+> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+
 The **Files** tab in Teams closely resembles the SharePoint documents view. On the **Files** tab, users can:
 
 - See additional options in the **New** file menu.
-- Upload or download files.
 - Sync files to their local drive.
-- Open the SharePoint document view.
 - On the **All Documents** menu, switch from **List** view to **Compact list** to **Tiles** view.
-- Identify individual files by application icon.
 - Identify files that need attention or have malware.
 - Immediately see whether a file is read-only or checked out.
 - Check out and check in files.
 - Pin, unpin, and change the sort order of files.
 - Identify which files need metadata
-- Sort or filter documents by approval status, who last modified the document, file name, and owner.
+- Choose from many more filter options.
 - Group files based on column headings.
 - Modify column settings (move left or right, hide) and column width.
 
