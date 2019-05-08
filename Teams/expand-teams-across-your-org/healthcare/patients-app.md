@@ -62,7 +62,9 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
 2. The Partner service owns the Authentication/Authorization system, which   accepts and verifies (authenticates) the client credentials provided and gives back an access token with tenant hint in scope, as described below.
 3. For security reasons or in a case of a secret breach, the Patients app can re-generate the secret and invalidate or delete the old secret (Example of the same is available in Azure Portal - AAD App Registration)
 4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
-5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server.
+5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server as in this example:
+
+![Patients app 5](../../media/Patient-app-5.png)
 
 A request for an access token consists of the following parameters:
 
