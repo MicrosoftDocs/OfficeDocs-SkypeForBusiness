@@ -1,5 +1,5 @@
 ---
-title: Teams client update process
+title: Teams update process
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Teams client update process
+# Teams update process
 
 Teams desktop client updates are released every two weeks after rigorous internal testing and validation through our Technology Adoption Program (TAP). This usually takes place on a Tuesday. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 
@@ -30,7 +30,7 @@ Users need to be signed in for updates to be downloaded.
 
 ## What about updates to Office 365 ProPlus?
 
-Teams is installed by default with new installations of Office 365 ProPlus as described in [DeployMicrosoft Teams with Office 365 ProPlus](teams-install.md). 
+Teams is installed by default with new installations of Office 365 ProPlus as described in [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
 
 Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel.
 
