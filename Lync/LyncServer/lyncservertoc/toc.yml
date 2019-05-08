@@ -2419,8 +2419,6 @@
             href: ../lync-server-2013-removing-lync-for-iphone-and-ipad.md
       - name: Deploying Lync Windows Store app
         href: ../lync-server-2013-deploying-lync-windows-store-app.md
-      - name: Using Lync Connectivity Analyzer
-        href: ../lync-server-2013-using-lync-connectivity-analyzer.md
     - name: Planning and deploying unified contact store
       href: ../lync-server-2013-planning-and-deploying-unified-contact-store.md
       items:

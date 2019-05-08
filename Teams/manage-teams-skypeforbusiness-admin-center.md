@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
-description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 admin center to the new Microsoft Teams admin center.
+description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Microsoft 365 admin center to the new Microsoft Teams admin center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -37,7 +37,7 @@ The new admin center experience will provide you with a unified experience to ma
 
 The following table identifies the sections of the Teams experience that have been migrated and shows the relationship between the current settings and the policies in the new admin portal.
 
-|Section of Teams in Office 365 admin center  |Setting name (Tenant level)  |Microsoft Teams admin center policy   |Level: Tenant or User   |
+|Section of Teams in Microsoft 365 admin center  |Setting name (Tenant level)  |Microsoft Teams admin center policy   |Level: Tenant or User   |
 |---------|---------|---------|---------|
 |General     |Show Organizational Chat in Personal Profile        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Tenant       |
 |General     |Use Skype for Business for recipients who don’t have Teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
@@ -70,7 +70,7 @@ The following table identifies the sections of the Teams experience that have be
 |Messaging     |Allow users to delete their own messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Allows users to chat privately         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 
-<sup>1</sup> Deprecated for Guest. Enabling/disabling Guest can now be managed in the Microsoft Teams admin center. Enabling/disabling Teams for Business Enterprise, Edu Student, and Edu Faculty will be deprecated soon. This should be managed by assigning licenses in the Office 365 admin center. See [Manage user access to Microsoft Teams](user-access.md).
+<sup>1</sup> Deprecated for Guest. Enabling/disabling Guest can now be managed in the Microsoft Teams admin center. Enabling/disabling Teams for Business Enterprise, Edu Student, and Edu Faculty will be deprecated soon. This should be managed by assigning licenses in the Microsoft 365 admin center. See [Manage user access to Microsoft Teams](user-access.md).
 <br><br>
 <sup>2</sup> Sideloading is split as follows:
 
@@ -80,15 +80,15 @@ The following table identifies the sections of the Teams experience that have be
 <sup>3</sup> Default apps and external apps can be enabled and disabled at the user level in TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings. 
 
 > [!NOTE]
-> You’ll continue to use the Groups dashboard in the Office 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Office 365 admin center and will be migrated later. 
+> You’ll continue to use the Groups dashboard in the Microsoft 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Microsoft 365 admin center and will be migrated later. 
 
 ## Manage settings during the migration
 
-You can continue to modify settings in the Office 365 admin center and the Skype for Business admin center until migration for a section is complete for your tenant. 
+You can continue to modify settings in the Microsoft 365 admin center and the Skype for Business admin center until migration for a section is complete for your tenant. 
 
 The following table shows where you can manage features during the migration.
 
-|Feature  |Microsoft Teams admin center                      |Skype for Business admin center (legacy)  |Office 365 admin center  |
+|Feature  |Microsoft Teams admin center                      |Skype for Business admin center (legacy)  |Microsoft 365 admin center  |
 |---------|:---------:|:---------:|:---------:|
 |Teams Messaging, Meetings, and Live Events policies     |     X    |         |         |
 |Teams Upgrade policy     |    X     |         |         |
