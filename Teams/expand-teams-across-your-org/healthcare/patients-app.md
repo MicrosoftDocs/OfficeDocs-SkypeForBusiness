@@ -65,6 +65,7 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
 5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server.
 
 A request for an access token consists of the following parameters:
+
 * * *
 
     POST /token HTTP/1.1
