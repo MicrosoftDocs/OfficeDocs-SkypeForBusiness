@@ -130,9 +130,9 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 2. Go to the **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
-3. Select the phone number from the list, and in the Action pane, click **Unassign**.
+3. If the phone number is a toll-free number, select the phone number from the list, and in the Action pane, click **Unassign**. If the phone number is a toll-number, please contact [Microsoft support](https://go.microsoft.com/fwlink/?linkid=2091806) to have the phone number unassigned.
 
-4. In the confirmation window, click **Yes**.
+4. If the phone number is a toll-fre number, click **Yes** in the confirmation window.
 
    > [!IMPORTANT]
    > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
