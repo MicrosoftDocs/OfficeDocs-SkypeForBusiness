@@ -26,9 +26,12 @@ For the full Teams experience, every user should be enabled for Exchange Online,
 
 Users' Exchange mailboxes can be hosted online or on-premises. Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, add and configure connectors, tabs, and bots.
 
-Users hosted on either Exchange Online Dedicated - Legacy, or Exchange on-premises, must be synchronized to Azure Active Directory for Office 365. They can create and join teams and channels, add and configure tabs and bots, and chat and call. However, they can’t modify user profile pictures, or add and configure connectors. They can receive messages from connectors configured by other users. For creating and viewing meetings, it's a mixed bag: Creating and viewing meetings is supported for Exchange 2016 cumulative update 3 (CU3) and above, but not for versions prior to Exchange 2016 CU3.
+Users hosted on Exchange Online Dedicated (Legacy) – must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, make use of the chat and calling features. However, they can’t modify profile pictures manage meetings, access outlook contacts, or manage connectors.
 
-The following table provides information for users with Exchange Online hosted in various environments.
+For users with mailboxes hosted on-premises – They must be synchronized to Azure Active Directory. Can make use of all the features in the above scenario, but additionally they can also change the User Profile Picture, and manage meetings – With the requirement that the on-premise Exchange server is running a version above Exchange Server 2016 (Cumulative Update 3).
+
+For quick reference the table below should be very helpful for feature availability based on the Exchange Environment.
+
 
 **Actions supported:** 
 
@@ -36,8 +39,8 @@ The following table provides information for users with Exchange Online hosted i
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|No|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported  
 <sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.  
