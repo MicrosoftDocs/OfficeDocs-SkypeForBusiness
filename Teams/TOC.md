@@ -664,6 +664,7 @@
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+### [Teams client update process](teams-client-update.md)
 
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
