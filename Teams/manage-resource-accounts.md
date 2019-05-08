@@ -39,7 +39,7 @@ To get started it's important to remember a few things:
 - You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them
 
 > [!NOTE] 
-> Direct Routing service numbers for auto attendant and call queues is supported for Microsoft Teams users and agents only at the moment.
+> Direct Routing service numbers for auto attendant and call queues is supported for Microsoft Teams users and agents only.
 
 > [!NOTE] 
 > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
@@ -72,7 +72,7 @@ To create a new resource account click **+ New account**. In the pop-up, fill ou
 
 Next, you will  need to apply a license to the resource account, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-![number 3](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a phone number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
+![number 3](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a Calling Plan service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
 
 ![resource account assign](media/r-a-assign.png)
 

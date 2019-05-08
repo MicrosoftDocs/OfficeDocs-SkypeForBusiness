@@ -20,7 +20,7 @@ appliesto:
 > [!IMPORTANT]
 > Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
 
-> The capability discussed in this article hasn't yet been released. It's been announced, and is coming soon, towards the end of April 2019. If you're an admin, you can find out when this will be available in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)).
+> The capability discussed in this article hasn't yet been released. It's been announced, and is coming soon, towards the middle of May 2019. If you're an admin, you can find out when this will be available in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)).
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
@@ -41,6 +41,12 @@ User details, schedule information, and chat and file data are transitioned to T
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
 As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams.
+
+There's no rollback option after you move a StaffHub team to Teams.
+
+### User experience when you move a team
+
+There's minimal downtime (less than a second, if any at all) for users when their team is switched from StaffHub to Shifts in Teams. Users can continue using StaffHub until the move to Teams is completed. When the move is completed, team members will see a message to let them know that they need to start using Shifts in Teams to access their team schedule.
 
 ## Prepare
 

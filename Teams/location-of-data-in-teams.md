@@ -34,7 +34,7 @@ To learn more about the launch of Australia and Japan data residency for Teams, 
 
 To learn more about the launch of France data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches France Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
 
-To see which region houses data for your tenant, go to the [Office 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
+To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
 ![Screenshot of the data location table, including Teams, in the Office 365 admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

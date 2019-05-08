@@ -69,7 +69,7 @@ Before using this guide, make sure you have the proper tenant [roles](https://do
 
 Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
 
--   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Office 365 admin center, any reports from the [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
+-   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Office 365 admin center, any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
 
 ## What is quality?
 
@@ -818,9 +818,9 @@ _Table 6 - Diagnostic alerts_
 
 ### Message center
 
-The message center alerts you about new updates, features, or issues. The message center is available within the Office 365 admin center to service administrators. Each post provides a high-level overview of how the update, feature, or issue affects your users, and gives links to more detailed information.
+The message center alerts you about new updates, features, or issues. The message center is available within the Microsoft 365 admin center to service administrators. Each post provides a high-level overview of how the update, feature, or issue affects your users, and gives links to more detailed information.
 
-To open the message center, in the Office 365 admin center, go to **Health** > **Message center**, or select the message center card on the **Home** dashboard. The dashboard displays the last three messages that were posted and links to the full message center page.
+To open the message center, in the Microsoft 365 admin center, go to **Health** > **Message center**, or select the message center card on the **Home** dashboard. The dashboard displays the last three messages that were posted and links to the full message center page.
  
 
 ![The message center card displays the last three messages that were posted](media/qerguide-image-messagecentercard.png)

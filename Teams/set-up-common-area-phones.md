@@ -33,7 +33,7 @@ The first things you need to do are purchase a Common Area Phone (CAP) license a
 
 ## Step 1 - Buy the licenses
 
-1. In the Office 365 admin center, go to **Billing** > **Purchase services** and then expand **Other plans**.
+1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services** and then expand **Other plans**.
 
     ![Screenshot showing the Common Area Phone tile](media/set-up-common-area-phone-image1.png)
 
@@ -50,7 +50,7 @@ For more information on licenses, see [Microsoft Teams add-on licensing](teams-a
 
 ## Step 2 - Create a new user account for the phone and assign the licenses
 
-1. In the Office 365 admin center, go to **users** > **active users** > **add a user**.
+1. In the Microsoft 365 admin center, go to **users** > **active users** > **add a user**.
 
 2. Enter a user name like “Main" for the first name and "Reception” for the second name.
 
