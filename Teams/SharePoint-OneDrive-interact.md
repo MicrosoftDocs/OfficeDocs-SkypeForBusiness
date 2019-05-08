@@ -54,7 +54,7 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ## Channel Files tab
 
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 The **Files** tab in Teams closely resembles the SharePoint documents view. On the **Files** tab, users can:
 
