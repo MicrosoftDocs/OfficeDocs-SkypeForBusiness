@@ -43,7 +43,7 @@ Create customized email messages, posters, and flyers with your school's informa
 ## Call to action
 
 - Check out our hands-on [Microsoft Teams Interactive Demo](https://teamsdemo.office.com/) (5 minutes to complete)
-- Turn on Microsoft Teams in the [Office 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
+- Turn on Microsoft Teams in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
 - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
 - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
 
