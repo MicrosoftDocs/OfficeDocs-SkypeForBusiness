@@ -24,11 +24,13 @@ How Exchange and Microsoft Teams interact
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation.
 
-Users' Exchange mailboxes can be hosted online or on-premises. Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, add and configure connectors, tabs, and bots.
+Users' Exchange mailboxes can be hosted online or on-premises, however some features require for an hybrid deployment to be in place with your Office 365 tenant.
+
+Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, add and configure connectors, tabs, and bots.
 
 Users hosted on Exchange Online Dedicated (Legacy) – must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, make use of the chat and calling features. However, they can’t modify profile pictures manage meetings, access outlook contacts, or manage connectors.
 
-For users with mailboxes hosted on-premises – They must be synchronized to Azure Active Directory. Can make use of all the features in the above scenario, but additionally they can also change the User Profile Picture, and manage meetings – With the requirement that the on-premise Exchange server is running a version above Exchange Server 2016 (Cumulative Update 3).
+Users with mailboxes hosted on-premises – They must be synchronized to Azure Active Directory. Can make use of all the features in the above scenario, but additionally they can also change the User Profile Picture, and manage meetings – With the requirement that the on-premise Exchange server is running a version above Exchange Server 2016 (Cumulative Update 3).
 
 For quick reference the table below should be very helpful for feature availability based on the Exchange Environment.
 
@@ -39,16 +41,16 @@ For quick reference the table below should be very helpful for feature availabil
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|No|Yes|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported  
 <sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.  
 <sup>3</sup> Teams private chat messages are not yet supported for Legal Hold for this hosting option.
-
 <sup>4</sup> Retention will use a shadow mailbox for the online user to store messages. [Microsoft Teams Supports eDiscovery for Teams user in an Exchange Hybrid environment](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
-
 <sup>5</sup> Teams users with on premise Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
+<sup>6</sup> If one of the Owners for a given team can add connectors, everyone else will be able to, even if their mailboxes are homed on-premise.
+
 
 Additional information:
 
