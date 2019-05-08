@@ -8,7 +8,7 @@ ms.date: 05/06/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to run a report to show active StaffHub usage in your organizaiton.
+description: Learn how to run a report to get a list of active StaffHub users in your organization.
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
