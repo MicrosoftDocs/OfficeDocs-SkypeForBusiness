@@ -40,12 +40,10 @@ Basic functionalities will continue to work on Skype for Business certified devi
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
+| AudioCodes |440HD IP Phone|UC440HD_3.1.3.144.18|5/06/2019|
 | AudioCodes |445HD IP Phone|3.1.2.89 |12/21/2018|
 | AudioCodes |450HD IP Phone|3.0.4.120 |1/12/2018|
 | AudioCodes |405HD IP Phone|3.0.1.89 |6/14/2017|
-| AudioCodes |440HD IP Phone|3.0.1.89 |5/23/2017|
-| AudioCodes |430HD IP Phone|UC430HD_2.0.3.19 |7/02/2014|
-| AudioCodes |420HD IP Phone|UC420HD_2.0.1.44.9 |10/01/2013|
 | Crestron |Flex UC-P100-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 | Crestron |Flex UC-P110-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 | Polycom |VVX 201 Business Media Phone|5.9.0.9373 |1/22/2019|
@@ -74,9 +72,6 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Yealink |T42G IP Phone |x.8.1.62 |7/04/2017|
 | Yealink |T46G IP Phone |28.8.1.52 |2/11/2017|
 | Yealink |T48G IP Phone |35.8.1.52 |2/11/2017|
-| Yealink |T40P IP Phone |54.8.0.13 |4/29/2016|
-| Spectralink |84-Series Wireless Telephones |4.6.0.0008 |9/10/2013|
-| Spectralink |7000 Portfolio Handsets |PCS13Eb |9/04/2013|
 ||||
 
 ## Additional Resources

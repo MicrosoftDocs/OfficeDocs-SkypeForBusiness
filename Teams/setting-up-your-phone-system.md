@@ -53,9 +53,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
  
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in to Microsoft 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
@@ -82,7 +82,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
 
 3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
 
@@ -227,11 +227,11 @@ To create a new auto attendant, in the Skype for Business admin center, click **
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** and click on the conference bridge or by seeing  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Microsoft 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** and click on the conference bridge or by seeing  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Cloud Auto Attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
+- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Microsoft 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Cloud Auto Attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- For Call Queues, you can assign a dedicated number to a call queue by going to **Microsoft 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 **For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
 
@@ -244,7 +244,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 ### To set up Communications Credits
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in to Microsoft 365 with your work or school account.
 
 2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
 
@@ -260,7 +260,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Sign in to Office 365 with your work or school account.
 
-2. In the left navigation of the Office 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
+2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
 
 3. In the Action pane under **Product licenses**, click **Edit**.
 
