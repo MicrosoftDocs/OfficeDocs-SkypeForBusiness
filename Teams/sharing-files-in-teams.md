@@ -3,7 +3,7 @@ title: Sharing files in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/02/2019
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
