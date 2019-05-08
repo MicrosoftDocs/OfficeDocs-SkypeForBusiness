@@ -68,12 +68,16 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
 
 A request for an access token consists of the following parameters:
 
+* * *
+
     POST /token HTTP/1.1
     Host: authorization-server.com
 
     grant-type=client_credentials
     &client_id=xxxxxxxxxx
     &client_secret=xxxxxxxxxx
+
+* * *
 
 The Partner service provides the client_id and client_secret for Patients app, managed via an Auth registration portal on the partner’s side. The Partner service provides the endpoint to request access token using a client credential flow. A successful response must include the token_type, access_token and expires_in parameters.
 
