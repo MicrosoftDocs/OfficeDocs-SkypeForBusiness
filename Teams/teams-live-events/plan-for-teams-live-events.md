@@ -27,6 +27,9 @@ Here are the licenses that must be assigned:
 - An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license. 
 - A Microsoft Teams and Microsoft Stream license.
 
+> [!IMPORTANT]
+> The user creating and scheduling a live event must have an Exchange Online mailbox.
+
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
 
 - **For Quick start production**  The user must be assigned a Microsoft Teams license.

@@ -53,7 +53,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
 
 1. Sign in to Office 365 with your work or school account.
     
-2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
+2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
 
 3. Expand **Add-on subscriptions**, and then choose **Communications Credits** > **Buy now**.
     
@@ -86,7 +86,7 @@ When you are setting up Communications Credits, you will need to investigate cal
 
 1. Sign in to Office 365 with your work or school account.
     
-2. In the left navigation of the Office 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
+2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
     
 3. In the Action pane under **Product licenses**, click **Edit**.
     
@@ -105,7 +105,7 @@ You can see the plans and pricing by visiting one of the following links:
     
 - [Phone System Plans](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+You can also see information by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
 To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

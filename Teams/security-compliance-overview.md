@@ -109,7 +109,7 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 |![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
 |![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
 
-Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 admin center. By default, tenant admins have access.
+Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Microsoft 365 admin center. By default, tenant admins have access.
 
 Content Search and eDiscovery do not require enablement in the Security & Compliance Center.
 
@@ -130,7 +130,7 @@ For more information on Canada data residency for Teams, read Varun Sagar's blog
 
 To learn more about the launch of Australia and Japan data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches Australia and Japan Data Residency ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-To see which region houses data for your tenant, go to the [Office 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
+To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
 ![Screenshot of the Data location table, including Teams, in the Office 365 admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

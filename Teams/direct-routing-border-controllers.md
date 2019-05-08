@@ -12,7 +12,8 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: "Microsoft partners with selected SBC vendors to certify their SBCs work with Direct Routing."
 ---
 
@@ -43,7 +44,7 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
-|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20A.250.003   |
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |

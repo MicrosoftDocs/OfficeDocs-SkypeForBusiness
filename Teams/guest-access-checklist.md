@@ -55,7 +55,7 @@ A few things to remember:
 
 ## □  Step 1: Configure settings in Azure AD business-to-business
 
-1. Sign in to https://portal.azure.com.
+1. Sign in to https://portal.azure.com
 2. Click **Azure Active directory** in the left pane.
 3. Under **Manage**, click **User settings**.
 4. Under **External users**, click **Manage External collaboration settings**.

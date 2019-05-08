@@ -12,7 +12,8 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: "Read this topic to learn how Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System."
 ---
 
@@ -202,6 +203,7 @@ The table below summarizes the relationships between primary, secondary, and ter
 |||||
 
 ## Media traffic: Port ranges
+Note the requirements below apply if you ant to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass please refer to [Plan for Media Bypass with Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 The media traffic flows to and from a separate service in the Microsoft Cloud. The IP range for Media traffic:
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
