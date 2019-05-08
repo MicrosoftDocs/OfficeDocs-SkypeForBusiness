@@ -3,7 +3,7 @@ title: How SharePoint Online and OneDrive for Business interact with Microsoft T
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -17,8 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-How SharePoint Online and OneDrive for Business interact with Microsoft Teams
-=============================================================================
+# How SharePoint Online and OneDrive for Business interact with Microsoft Teams
 
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
@@ -32,7 +31,7 @@ If users aren't assigned and enabled with SharePoint Online licenses, they don't
 By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. 
 
 > [!NOTE]
-> Integration with Sharepoint On-premises is not supported for Microsoft Teams at this time.
+> Integration with SharePoint On-premises is not supported for Microsoft Teams at this time.
 
 The following is the example of relationships between team, channel, and document library.
 
@@ -53,8 +52,29 @@ For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to st
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files for each user's chats.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-More information
-----------------
+## Channel Files tab
+
+> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+
+The **Files** tab in Teams closely resembles the SharePoint documents view. On the **Files** tab, users can:
+
+- See additional options in the **New** file menu.
+- Sync files to their local drive.
+- On the **All Documents** menu, switch from **List** view to **Compact list** to **Tiles** view.
+- Identify files that need attention or have malware.
+- Immediately see whether a file is read-only or checked out.
+- Check out and check in files.
+- Pin, unpin, and change the sort order of files.
+- Identify which files need metadata
+- Choose from many more filter options.
+- Group files based on column headings.
+- Modify column settings (move left or right, hide) and column width.
+
+## Default link type setting
+
+SharePoint and OneDrive have an admin setting for specifying the default link type for links that are created for a file. Teams is adopting that same approach by reusing the settings that the admin sets for SharePoint and OneDrive. More details about this approach are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+
+## More information
 
 For more information about how SharePoint works with Teams, see [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 

@@ -33,13 +33,13 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using Teams. You must use the Office 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md). 
+> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md). 
   
  **To assign a license for a user**
   
-1. Sign in to Office 365 with your work or school account.
+1. Sign in to Microsoft 365 with your work or school account.
     
-2. In the left navigation of the **Office 365 admin center**, go to **Users** > **Active users**, and then select the user or users from the list of available users.
+2. In the left navigation of the **Microsoft 365 admin center**, go to **Users** > **Active users**, and then select the user or users from the list of available users.
     
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**.  
