@@ -23,7 +23,7 @@ To participate in the private preview, see [Enroll in the private preview](#enro
 
 This article is intended for a general healthcare IT developer interested in using FHIR APIs on top of a medical information system to connect to Microsoft Teams. This would enable care coordination scenarios that match the needs of a healthcare organization.
 
-This article documents the FHIR interface specifications for the Microsoft Teams Patients app, and understanding that is required for setting up a FHIR server and connecting to the Patients app in your development environment\tenant. You will also need to be familiar with the documentation of the FHIR server you have chosen, which must be one of the supported options:
+Linked articles document the FHIR interface specifications for the Microsoft Teams Patients app, and following sections explain what is required for setting up a FHIR server and connecting to the Patients app in your development environment or tenant. You will also need to be familiar with the documentation of the FHIR server you have chosen, which must be one of the supported options:
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
 - Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
