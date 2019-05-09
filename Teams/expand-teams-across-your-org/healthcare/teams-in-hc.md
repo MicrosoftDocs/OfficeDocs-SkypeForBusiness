@@ -87,10 +87,13 @@ Secure messaging supports collaboration within care teams, including several new
 
 - A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.
 - A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.
+- 
 
 Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New care teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
 
 See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
+
+Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (see [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
 
 ## Firstline Worker integration
 

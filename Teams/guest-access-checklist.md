@@ -55,7 +55,7 @@ A few things to remember:
 
 ## □  Step 1: Configure settings in Azure AD business-to-business
 
-1. Sign in to https://portal.azure.com.
+1. Sign in to https://portal.azure.com
 2. Click **Azure Active directory** in the left pane.
 3. Under **Manage**, click **User settings**.
 4. Under **External users**, click **Manage External collaboration settings**.
@@ -119,7 +119,7 @@ Make sure that users can add guests. Here's how:
 
 ## □ Step 5: Verify sharing setting in SharePoint
 
-1. Sign in to the Office 365 admin center.
+1. Sign in to the Microsoft 365 admin center.
 2. Click **Admin center**, and then select **SharePoint**.
 3. In the SharePoint admin center, select **Sharing**.
 4. Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.
