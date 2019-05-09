@@ -124,6 +124,9 @@ The media traffic bandwidth usage can be challenging to calculate because of the
 |SILK Wideband  <br/> |Peer-to-peer  <br/> |20.0  <br/> |36.0  <br/> |48.0  <br/> |68.0  <br/> |
 |SILK wideband/narrowband  <br/> |Peer-to-peer  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
+> [!NOTE]
+> PSTN calls from the Skype for Business client usually use the G.711 codec, which requires a high bandwidth. If enough bandwidth is not available for that codec, then calls can fail with an error that resembles the following in the Media logs: **Atleast one codec must be enabled, hr: c0042004**. Media logs (.blog files) are encrypted and can be decoded only by Microsoft support personnel.
+
 The bandwidth numbers in the previous table are based on 20ms packetization (50 packets per second) and for the Siren and G.722 codecs include the additional secure real-time transport protocol (SRTP) overhead from conferencing scenarios and assume the stream is 100% active. Forward Error Correction (FEC) is used dynamically when there is packet loss on the link to help maintain the quality of the audio stream.
 
 The stereo version of the G.722 codec is used by systems that are based on the Lync Room System, which uses a single stereo microphone or a pair of mono microphones to allow listeners to better distinguish multiple speakers in the meeting room.
