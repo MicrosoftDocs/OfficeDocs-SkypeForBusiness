@@ -32,7 +32,7 @@ Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure
 
 Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally they can also change the user profile picture and manage meetings, providing Exchange Server 2016 (Cumulative Update 3), or above, is running on-premises.
 
-For quick reference the table below should be very helpful for feature availability based on the Exchange Environment.
+The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
 
 **Actions supported:** 
