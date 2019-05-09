@@ -33,10 +33,13 @@ In Microsoft Teams or Skype for Business Online, each call queue or auto attenda
 
 To get started it's important to remember a few things:
   
-- An auto attendant or call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
+- An auto attendant or call queue is required to have an associated resource account. 
+- The resource account will need an assigned phone number if it will be assigned to a top level auto attendant or call queue. 
+- If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
+- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them.
+- If you are assigning a phone number that is used with Direct Routing and you have an Enterprise E1 or E3 licenses you must buy and assign a Phone System license to your the resource account that you will be using. If you have an Enterprise E5 license, Phone System is already included so there's no need to buy one. 
 - If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
-- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them
+
 
 > [!NOTE] 
 > Direct Routing service numbers for auto attendant and call queues is supported for Microsoft Teams users and agents only.
@@ -57,6 +60,16 @@ To assign a phone number to a resource account, you will need to get or port you
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
+
+### Phone numbers
+
+Creating a resource account that uses a phone number would require performing the following tasks in the following order:
+
+1. Transfer or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
+2. Buy a Phone System license and a Calling Plan.
+3. Create a new resource account.
+4. Assign the Phone System license and the Calling Plan to the resource account.
+5. Assign the service number to the resource account.
 
 ## Create a resource account in Microsoft Teams admin center
 
