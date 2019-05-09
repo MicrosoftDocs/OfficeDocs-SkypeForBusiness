@@ -1,7 +1,7 @@
 ---
 title: Migration and interoperability guidance for organizations using Teams together with Skype for Business
 author: arachmanGitHub
-ms.author: Rowille
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
