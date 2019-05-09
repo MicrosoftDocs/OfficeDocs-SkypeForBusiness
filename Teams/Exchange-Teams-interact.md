@@ -28,7 +28,7 @@ Users' Exchange mailboxes can be hosted online or on-premises. However, some fea
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, add and configure connectors, tabs, and bots.
 
-Users hosted on Exchange Online Dedicated (Legacy) – must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, make use of the chat and calling features. However, they can’t modify profile pictures manage meetings, access outlook contacts, or manage connectors.
+Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they can’t modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
 Users with mailboxes hosted on-premises – They must be synchronized to Azure Active Directory. Can make use of all the features in the above scenario, but additionally they can also change the User Profile Picture, and manage meetings – With the requirement that the on-premise Exchange server is running a version above Exchange Server 2016 (Cumulative Update 3).
 
