@@ -55,7 +55,7 @@ To get started using auto attendants, it's important to remember that:
 - You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them. 
 
 > [!NOTE]
-> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only at the moment.
+> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
 > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.

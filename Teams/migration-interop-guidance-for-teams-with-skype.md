@@ -43,7 +43,7 @@ As an organization with Skype for Business starts to adopt Teams, administrators
 
 7.  Upgrading a user to the TeamsOnly mode ensures that all incoming chats and calls will always land in the user's Teams client, regardless of what client it originated from. These users will also schedule all new meetings in Teams. To be in TeamsOnly mode, a user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user.To upgrade a user to TeamsOnly:
     - If the user is homed in Skype for Business online (or never had any Skype account), grant them TeamsUpgradePolicy with Mode=TeamsOnly using the "UpgradeToTeams" instance using PowerShell, or use the Teams Admin Center to select the TeamsOnly mode.
-    - If the user is homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online.  If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, you can specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams as part of the move online. This option will also migrate the user's meetings to Teams (although for now, meeting migration is only functional for TAP customers). If `-MoveToTeams` is not specified or not available, then after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center. For more details see [Move users between on-premises and cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more details on meeting migration, see [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+    - If the user is homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online.  If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, you can specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams as part of the move online. This option will also migrate the user's meetings to Teams. If `-MoveToTeams` is not specified or not available, then after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center. For more details see [Move users between on-premises and cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more details on meeting migration, see [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 8.	To use Teams Phone System features with Teams, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan.   
 
@@ -75,11 +75,11 @@ The modes are listed below.
 
 |Mode|Calling and Chat|Meeting Scheduling<sup>1</sup>|Teams & Channels|Use Case|
 |---|---|---|---|---|
-|**TeamsOnly**</br>*Requires home in Skype for Business Online*|Teams|Teams|Yes|The final state of being upgraded. Also the default for new tenants with <500 seats.|
+|**TeamsOnly<sup>2</sup>**</br>*Requires home in Skype for Business Online*|Teams|Teams|Yes|The final state of being upgraded. Also the default for new tenants with <500 seats.|
 |Islands|Either|Either|Yes|Default configuration. Allows a single user to evaluate both clients side by side. Chats and calls can land in either client, so users must always run both clients.|
-|SfBWithTeamsCollabAndMeetings|Skype for Business|Teams|Yes|"Meetings First". Primarily for on-premises organizations to benefit from Teams meeting functionality, if they are not yet ready to move calling to the cloud.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|Yes|"Meetings First". Primarily for on-premises organizations to benefit from Teams meeting functionality, if they are not yet ready to move calling to the cloud.|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|Yes|Alternate starting point for complex organizations that need tighter administrative control.|
-|SfBOnly|Skype for Business|Skype for Business|No<sup>2</sup>|Specialized scenario for organizations with strict requirements around data control. Teams is used only to join meetings scheduled by others.|
+|SfBOnly|Skype for Business|Skype for Business|No<sup>3</sup>|Specialized scenario for organizations with strict requirements around data control. Teams is used only to join meetings scheduled by others.|
 ||||||
 
 </br>
@@ -89,7 +89,9 @@ The modes are listed below.
 
 <sup>1</sup> The ability to join an existing meeting (whether scheduled in Teams or in Skype for Business) is not governed by mode. By default, users can always join any meeting they have been invited to.
 
-<sup>2</sup> Currently, Teams does not have the ability to disable the Teams and Channels functionality so this remains enabled for now.
+<sup>2</sup> By default, when assigning either TeamsOnly or SfbWithTeamsCollabAndMeetings to an individual user, any existing Skype for Business meetings scheduled by that user for the future are converted to Teams meetings. If desired, you can leaving leave these meetings as Skype for Business meetings either by specifying  `-MigrateMeetingsToTeams $false` when granting TeamsUpgradePolicy, or by unselecting the checkbox in the Teams Admin portal.   Note that the ability to convert meetings from Skype for Business to Teams is not avaialble when granting TeamsUpgradePolicy on a tenant-wide basis. 
+
+<sup>3</sup> Currently, Teams does not have the ability to disable the Teams and Channels functionality so this remains enabled for now.
 
 
 
@@ -184,4 +186,4 @@ TeamsInteropPolicy has been replaced by TeamsUpgradePolicy. All components that 
 
 [Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-
+[Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
