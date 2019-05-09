@@ -35,8 +35,8 @@ Since Teams desktop executable files are digitally signed, the publisher conditi
 
 For the Teams client app (all files, all versions):
 
-`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US <br>
-Product name: MICROSOFT TEAMS`
+`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US`<br>
+`Product name: MICROSOFT TEAMS`
 
 ## Related topics
 [What is AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
