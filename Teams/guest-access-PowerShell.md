@@ -19,7 +19,7 @@ appliesto:
 Use PowerShell to control guest access to a team
 ================================================
 
-In addition to using the Office 365 admin center and the Azure Active Directory portal, you can use Windows PowerShell to control guest access. With PowerShell, you can do the following:
+In addition to using the Microsoft 365 admin center and the Azure Active Directory portal, you can use Windows PowerShell to control guest access. With PowerShell, you can do the following:
   
 - Allow or block guest access to all teams and Office 365 groups
     
