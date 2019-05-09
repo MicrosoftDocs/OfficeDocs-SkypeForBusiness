@@ -38,11 +38,6 @@ For the Teams client app (all files, all versions):
 `Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US <br>
 Product name: MICROSOFT TEAMS`
 
-For the Teams client update (all files, all versions):
-
-`Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US <br>
-Product name: MICROSOFT TEAMS UPDATE`
-
 ## Related topics
 [What is AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
 [AppLocker technical reference](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
