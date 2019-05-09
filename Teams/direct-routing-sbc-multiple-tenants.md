@@ -98,7 +98,7 @@ To configure the base and subdomains, please follow the steps described below. I
 
 ### Ensure that you have appropriate rights in the carrier tenant
 
-You can only add new domains if you signed in to the Office 365 admin center as a Global Administrator. 
+You can only add new domains if you signed in to the Microsoft 365 admin center as a Global Administrator. 
 
 To validate the role you have, please sign in to the Microsoft 365 admin center (https://portal.office.com), go to **Users** > **Active Users**, and then verify that you have a Global Administrator role. 
 
@@ -139,7 +139,7 @@ You will need to create a unique subdomain name for every customer. In this exam
 
 ### Ensure that you have appropriate rights in the customer tenant
 
-You can only add new domains if you signed in to the Office 365 admin center as a Global Administrator. 
+You can only add new domains if you signed in to the Microsoft 365 admin center as a Global Administrator. 
 
 To validate the role you have, please sign in to the Microsoft 365 admin center (https://portal.office.com), go to **Users** > **Active Users**, and then verify that you have a Global Administrator role. 
 
