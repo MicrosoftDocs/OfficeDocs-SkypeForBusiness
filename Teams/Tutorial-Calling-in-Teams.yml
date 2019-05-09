@@ -582,7 +582,7 @@ items:
     > [!NOTE]
     > For the assigned phone numbers to show up in Teams, you must update
     the user’s office phone number in Azure Active Directory (Azure AD). You can
-    edit this attribute in the Office 365 Admin center if the user was created
+    edit this attribute in the Microsoft 365 Admin center if the user was created
     directly in Office 365 or Azure AD). If the user is synchronized from
     on-premises Active Directory, you must use on-premises Active Directory to
     update the office phone number attribute.
