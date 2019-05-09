@@ -31,7 +31,7 @@ We don't recommend the use of path rules because the Teams installation director
 
 Since Teams desktop executable files are digitally signed, the publisher condition identifies an app file based on its digital signature and embedded version attributes. The digital signature contains information about the company that created the app file (the publisher). The version information, which is obtained from the binary resource, includes the name of the product that the file is part of and the version number of the application file.
 
-### Examples of publisher condition rules
+### Example of publisher condition rules
 
 For the Teams client app (all files, all versions):
 
