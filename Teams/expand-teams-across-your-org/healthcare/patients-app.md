@@ -17,7 +17,9 @@ description: Microsoft Teams Patients app EHR integration
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+
+To participate in the private preview, see [Enroll in the private preview](#enroll-in-the-private-preview).
 
 This article is intended for a general healthcare IT developer interested in using FHIR APIs on top of a medical information system to connect to Microsoft Teams. This would enable care coordination scenarios that match the needs of a healthcare organization.
 
@@ -130,12 +132,12 @@ You can also use the HSPC Open sandbox EHR environment to create an an EHR which
 Once you've created the open source FHIR Server, it's really easy to connect to the Patients app inside of your tenant by following the steps mentioned below:
 
 1. [Contact us](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) with the following initial details:  
-    - Your Name, 
-    - Your Position, 
+    - Your Name
+    - Your Position
     - The company or organization you represent
-    - why you are interested in the Patients app for EHR integration. 
+    - Why you are interested in the Patients app for EHR integration
 
-    We will get back to you as soon as possible with more questions and guide you through a process to get setup for the private preview.
+    We will get back to you as soon as possible with more questions and guide you through a process to get set up for the private preview.
 
 2. Ensure that sideloading of custom apps is enabled in the tenant where you are going to try out the Patients app. Please refer to [App permission policies](../../admin-settings.md) to learn how to turn this on from the Teams Admin center for your or your customer's tenant.
 
