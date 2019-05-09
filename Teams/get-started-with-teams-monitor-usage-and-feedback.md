@@ -46,10 +46,10 @@ To view these reports, you must be a global admin in Office 365, Teams service a
 
 To learn more, check out [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### Teams activity reports (Office 365 admin center)
-You can also view Teams activity through reports that are available from the Office 365 admin center. These reports are part of the Office 365 reports in the Office 365 admin center and provide information about user activity and device usage. 
+### Teams activity reports (Microsoft 365 admin center)
+You can also view Teams activity through reports that are available from the Microsoft 365 admin center. These reports are part of the Office 365 reports in the Microsoft 365 admin center and provide information about user activity and device usage. 
 
-To view these reports, go to the Office 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
+To view these reports, go to the Microsoft 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
 
 To learn more, go to [Use activity reports for Teams](teams-activity-reports.md).
 
