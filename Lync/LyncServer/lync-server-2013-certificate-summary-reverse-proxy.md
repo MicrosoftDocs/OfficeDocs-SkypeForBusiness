@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Certificate summary - Reverse proxy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Certificate summary - Reverse proxy
 ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
 ms:contentKeyID: 48185820
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: PSTN gateway deployment options'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: PSTN gateway deployment options
 ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
 ms:contentKeyID: 48185445
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

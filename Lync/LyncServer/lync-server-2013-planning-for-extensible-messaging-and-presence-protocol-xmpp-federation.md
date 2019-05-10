@@ -1,13 +1,14 @@
 ---
 title: 'Planning for extensible messaging and presence protocol (XMPP) federation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 48184892
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

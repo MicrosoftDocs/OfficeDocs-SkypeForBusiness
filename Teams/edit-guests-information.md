@@ -1,7 +1,7 @@
 ---
 title: Edit guest user information
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/26/2017
 ms.topic: article

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblNode'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)
 ms:contentKeyID: 48184960
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

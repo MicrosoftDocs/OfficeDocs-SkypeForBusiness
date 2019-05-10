@@ -1,13 +1,14 @@
 ---
 title: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
 ms:contentKeyID: 57793362
 ms.date: 12/29/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

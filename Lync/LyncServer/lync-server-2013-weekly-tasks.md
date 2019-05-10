@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Weekly tasks'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Weekly tasks
 ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
 ms:contentKeyID: 63969650
 ms.date: 08/20/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: How a guest joins a team
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/20/17
 ms.topic: conceptual

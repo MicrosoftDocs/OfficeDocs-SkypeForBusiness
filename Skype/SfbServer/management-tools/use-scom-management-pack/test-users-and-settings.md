@@ -1,8 +1,8 @@
 ---
 title: "Configure watcher node test users and settings"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro

@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 A/V conferencing requirements
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: A/V conferencing requirements
 ms:assetid: fb8c282b-059a-455c-92e5-819d75739142
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619193(v=OCS.15)
 ms:contentKeyID: 49733883
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

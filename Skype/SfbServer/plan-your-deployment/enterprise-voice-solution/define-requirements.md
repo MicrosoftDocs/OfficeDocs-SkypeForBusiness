@@ -1,8 +1,8 @@
 ---
 title: "Define your requirements for emergency calls in Skype for Business Server"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual

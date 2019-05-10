@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Using Call Me At with a Lync-enabled phone'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Using Call Me At with a Lync-enabled phone
 ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383570(v=OCS.15)
 ms:contentKeyID: 56470326
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

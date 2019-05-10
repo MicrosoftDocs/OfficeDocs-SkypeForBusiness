@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining your mobility requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining your mobility requirements
 ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690039(v=OCS.15)
 ms:contentKeyID: 48185226
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Federation and external access cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Federation and external access cmdlets
 ms:assetid: 4a384a57-257f-47a6-98d9-54cea2c647b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415651(v=OCS.15)
 ms:contentKeyID: 48184018
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

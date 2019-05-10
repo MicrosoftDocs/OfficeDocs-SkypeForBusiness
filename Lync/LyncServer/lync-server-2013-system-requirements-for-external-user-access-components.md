@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: System requirements for external user access components'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: System requirements for external user access components
 ms:assetid: 4139b9a5-5b98-42a8-bfcc-6b371f1980db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425919(v=OCS.15)
 ms:contentKeyID: 48183966
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing federation and external access to Lync Server 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing federation and external access to Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -2,13 +2,14 @@
 title: 'Lync Server 2013: Managing Quality of Service (QoS)'
 ms.reviewer: 
 TOCTitle: Managing Quality of Service (QoS)
-author: kenwith
-ms.author: kenwith
+author: lanachin
+ms.author: v-lanac
 ms.manager: serdars
 ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

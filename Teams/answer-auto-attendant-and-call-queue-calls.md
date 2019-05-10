@@ -1,6 +1,6 @@
 ---
 title: Answer auto attendant and call queue calls directly from Teams
-ms.reviewer: 
+ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

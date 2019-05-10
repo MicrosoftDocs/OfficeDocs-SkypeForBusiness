@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 server collocation in an Enterprise Edition Front End pool deployment
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Server collocation in an Enterprise Edition Front End pool deployment
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398102(v=OCS.15)
 ms:contentKeyID: 48183287
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

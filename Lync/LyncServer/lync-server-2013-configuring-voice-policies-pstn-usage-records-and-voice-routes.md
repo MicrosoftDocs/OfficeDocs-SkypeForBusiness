@@ -1,13 +1,14 @@
 ---
 title: 'Configuring voice policies, PSTN usage records, and voice routes'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring voice policies, PSTN usage records, and voice routes
 ms:assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398272(v=OCS.15)
 ms:contentKeyID: 48183573
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

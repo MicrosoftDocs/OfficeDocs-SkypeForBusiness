@@ -1,8 +1,8 @@
 ---
 title: "Configure multiple emergency numbers in Skype for Business"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article

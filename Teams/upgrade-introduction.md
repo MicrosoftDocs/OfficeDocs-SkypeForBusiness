@@ -1,7 +1,7 @@
 ---
 title: Upgrade to Teams - Microsoft Teams
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 12/26/2018
 ms.topic: article

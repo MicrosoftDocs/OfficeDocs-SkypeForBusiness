@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploying Lync clients'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploying Lync clients
 ms:assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204827(v=OCS.15)
 ms:contentKeyID: 48183925
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

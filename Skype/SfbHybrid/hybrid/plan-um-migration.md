@@ -2,6 +2,7 @@
 title: Plan for Skype for Business Server and Exchange Server migration 
 ms.reviewer: 
 author: dstrome
+ms.author: dstrome
 manager: serdars 
 audience: ITPro 
 ms.topic: article
