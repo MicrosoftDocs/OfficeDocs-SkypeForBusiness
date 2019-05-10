@@ -650,7 +650,7 @@
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
-
+### [Use Network Testing Companion](use-network-testing-companion.md)
 
 
 
