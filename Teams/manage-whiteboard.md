@@ -3,7 +3,7 @@ title: Manage the Whiteboard in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/03/2019
+ms.date: 05/09/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: esmather
@@ -29,7 +29,7 @@ Microsoft Whiteboard is a free-form, digital canvas where people, content, and i
 
 Users can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in all the Whiteboard applications on Windows 10, iOS, and the Web App (Preview).
 
-## Turn on or turn off the Whiteboard app in Teams 
+## Turn on or turn off the Whiteboard
 
 To turn on or turn off the Whiteboard Web App (Preview), do the following: 
 
@@ -45,10 +45,14 @@ To turn on or turn off the Whiteboard Web App (Preview), do the following:
 
 5. Click Save.
 
+## Whiteboard on Surface Hub
+
+Make sure that Microsoft Whiteboard is installed on Surface Hub. If Whiteboard isn't installed, on the Surface Hub, go to the Microsoft Store app, and locate [Microsoft Whiteboard](https://www.microsoft.com/en-us/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, go to [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+
 ## More information
 
 For more information, see:
 
 - [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
 - [Enable Microsoft Whiteboard for your organization](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
-- [Set up and use Microsoft Whiteboard](https://docs.microsoft.com/surface-hub/whiteboard-collaboration) (Surface Hub article)
+- [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
