@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Teams Rooms"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.audience: ITPro

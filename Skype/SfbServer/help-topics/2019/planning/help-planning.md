@@ -5,6 +5,7 @@ ms.author: v-lanac
 author: lanachin
 ms.audience: ITPro
 ms.topic: article
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5

@@ -3,6 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Instructor-led training and videos for Microsoft Teams users
 ms.reviewer: 
+manager: serdars
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
 localization_priority : Priority
 author: lanachin

@@ -2,6 +2,7 @@
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
 author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

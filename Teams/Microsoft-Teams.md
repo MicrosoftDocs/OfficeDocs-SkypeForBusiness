@@ -4,6 +4,7 @@ hide_bc: true
 title: Microsoft Teams technical documentation
 ms.reviewer: 
 ms.author: kenwith
+manager: serdars
 author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
