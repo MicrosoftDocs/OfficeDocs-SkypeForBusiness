@@ -1,7 +1,7 @@
 ---
 title: Migration and interoperability guidance for organizations using Teams together with Skype for Business
 author: arachmanGitHub
-ms.author: Rowille
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -43,7 +43,7 @@ As an organization with Skype for Business starts to adopt Teams, administrators
 
 7.  Upgrading a user to the TeamsOnly mode ensures that all incoming chats and calls will always land in the user's Teams client, regardless of what client it originated from. These users will also schedule all new meetings in Teams. To be in TeamsOnly mode, a user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user.To upgrade a user to TeamsOnly:
     - If the user is homed in Skype for Business online (or never had any Skype account), grant them TeamsUpgradePolicy with Mode=TeamsOnly using the "UpgradeToTeams" instance using PowerShell, or use the Teams Admin Center to select the TeamsOnly mode.
-    - If the user is homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online.  If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, you can specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams as part of the move online. This option will also migrate the user's meetings to Teams. If `-MoveToTeams` is not specified or not available, then after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center. For more details see [Move users between on-premises and cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more details on meeting migration, see [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+    - If the user is homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online.  If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, you can specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams as part of the move online. This option will also migrate the user's meetings to Teams. If `-MoveToTeams` is not specified or not available, then after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center. For more details see [Move users between on-premises and cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more details on meeting migration, see [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 8.	To use Teams Phone System features with Teams, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan.   
 
@@ -186,4 +186,4 @@ TeamsInteropPolicy has been replaced by TeamsUpgradePolicy. All components that 
 
 [Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
