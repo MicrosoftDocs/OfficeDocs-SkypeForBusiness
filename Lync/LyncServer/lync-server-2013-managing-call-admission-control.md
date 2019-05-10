@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing call admission control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing call admission control
 ms:assetid: b0bd4783-6f47-408d-b010-2e30f9bc1770
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721851(v=OCS.15)
 ms:contentKeyID: 49733784
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New Archiving features'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New Archiving features
 ms:assetid: c002e367-41ad-498d-9d23-8b117ac435b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205225(v=OCS.15)
 ms:contentKeyID: 48185288
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

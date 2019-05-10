@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: MacAddress table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: MacAddress table
 ms:assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412761(v=OCS.15)
 ms:contentKeyID: 48184963
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
