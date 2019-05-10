@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Database and Management Server cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Database and Management Server cmdlets
 ms:assetid: b323bd59-8f71-4f03-af94-f3afb8620f4e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415671(v=OCS.15)
 ms:contentKeyID: 48185174
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

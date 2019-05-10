@@ -1,13 +1,14 @@
 ---
 title: 'Enable or disable sending an Archiving disclaimer to federated partners'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enable or disable sending an Archiving disclaimer to federated partners
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
