@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Administering the Address Book Service'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Administering the Address Book Service
 ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)
 ms:contentKeyID: 48184649
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

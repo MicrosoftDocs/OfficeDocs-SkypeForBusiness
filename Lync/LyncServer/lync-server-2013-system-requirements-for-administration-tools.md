@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: System requirements for administration tools'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: System requirements for administration tools
 ms:assetid: 327d3f1f-651d-4bb2-8c08-89186ee8135e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204791(v=OCS.15)
 ms:contentKeyID: 48183785
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

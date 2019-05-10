@@ -1,7 +1,7 @@
 ---
 title: Adding and updating Locations data
 author: tonysmit
-ms.author: lolaj
+ms.author: tonysmit
 manager: serdars
 audience: Admin
 ms.topic: article

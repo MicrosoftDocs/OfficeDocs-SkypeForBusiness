@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring Archiving options'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring Archiving options
 ms:assetid: b2f7f74d-e1ad-494e-9d46-5eb0efe5fb29
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205182(v=OCS.15)
 ms:contentKeyID: 48185158
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

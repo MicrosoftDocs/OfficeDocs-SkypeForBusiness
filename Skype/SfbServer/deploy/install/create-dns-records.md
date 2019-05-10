@@ -1,8 +1,8 @@
 ---
 title: "Create DNS records for Skype for Business Server"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro

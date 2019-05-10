@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Failing over the Edge pool used for Lync Server federation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Failing over the Edge pool used for Lync Server federation
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688071(v=OCS.15)
 ms:contentKeyID: 49733665
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

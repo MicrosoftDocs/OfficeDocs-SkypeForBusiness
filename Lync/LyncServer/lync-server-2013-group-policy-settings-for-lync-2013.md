@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Group Policy settings for Lync 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Group Policy settings for Lync 2013
 ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204924(v=OCS.15)
 ms:contentKeyID: 48184235
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

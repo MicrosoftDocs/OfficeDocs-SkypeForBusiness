@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining your requirements for conferencing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining your requirements for conferencing
 ms:assetid: 5c83e268-22bf-42b2-bac3-3237b5e02e03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204935(v=OCS.15)
 ms:contentKeyID: 48184255
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

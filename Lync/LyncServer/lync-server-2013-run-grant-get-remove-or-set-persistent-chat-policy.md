@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Run, grant, get, remove, or set Persistent Chat Policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Run, grant, get, remove, or set Persistent Chat Policy
 ms:assetid: 39ccdbe8-fb3d-47bc-96e2-9486b6d317e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204810(v=OCS.15)
 ms:contentKeyID: 48183857
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

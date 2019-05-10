@@ -1,13 +1,14 @@
 ---
 title: 'DNS summary - SIP, XMPP federation, and public instant messaging'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: DNS summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618369(v=OCS.15)
 ms:contentKeyID: 49105656
 ms.date: 03/09/2017
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

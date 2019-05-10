@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure phone number extensions for parking calls'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure phone number extensions for parking calls
 ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182611(v=OCS.15)
 ms:contentKeyID: 48185980
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

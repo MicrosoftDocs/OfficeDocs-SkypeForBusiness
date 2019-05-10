@@ -2,7 +2,7 @@
 title: Prepare your organization's network for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams

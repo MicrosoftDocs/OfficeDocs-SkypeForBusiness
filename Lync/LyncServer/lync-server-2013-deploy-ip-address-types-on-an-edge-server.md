@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploy IP address types on an Edge Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploy IP address types on an Edge Server
 ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204984(v=OCS.15)
 ms:contentKeyID: 48184435
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

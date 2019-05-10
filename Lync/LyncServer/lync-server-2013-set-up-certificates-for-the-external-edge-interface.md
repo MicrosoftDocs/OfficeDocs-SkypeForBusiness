@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Set up certificates for the external edge interface'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Set up certificates for the external edge interface
 ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
 ms:contentKeyID: 48184287
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

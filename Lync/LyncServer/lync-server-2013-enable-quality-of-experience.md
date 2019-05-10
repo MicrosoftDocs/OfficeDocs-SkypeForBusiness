@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enable Quality of Experience'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enable Quality of Experience
 ms:assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182583(v=OCS.15)
 ms:contentKeyID: 48185385
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

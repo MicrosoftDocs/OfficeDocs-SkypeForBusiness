@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing voice routing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing voice routing
 ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182596(v=OCS.15)
 ms:contentKeyID: 48185554
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

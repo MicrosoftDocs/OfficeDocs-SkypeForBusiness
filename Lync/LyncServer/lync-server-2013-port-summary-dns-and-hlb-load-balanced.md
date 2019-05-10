@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Port summary - DNS and HLB load balanced'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Port summary - DNS and HLB load balanced
 ms:assetid: b07c37e4-820e-46ee-a678-1da95d1b87af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205179(v=OCS.15)
 ms:contentKeyID: 48185149
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

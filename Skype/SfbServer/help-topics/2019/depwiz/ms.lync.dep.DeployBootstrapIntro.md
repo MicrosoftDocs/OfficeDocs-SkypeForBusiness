@@ -1,8 +1,8 @@
 ---
 title: "Setup or Remove Skype for Business Server Components (Intro)"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

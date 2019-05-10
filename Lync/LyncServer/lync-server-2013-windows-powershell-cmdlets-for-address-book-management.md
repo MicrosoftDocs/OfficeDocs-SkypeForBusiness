@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Windows PowerShell cmdlets for Address Book management'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Windows PowerShell cmdlets for Address Book management
 ms:assetid: 73bfa949-5628-4156-ad20-fe07a0dc6216
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429708(v=OCS.15)
 ms:contentKeyID: 48184512
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
