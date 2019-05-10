@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 client and device hardware support
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Client and device hardware support
 ms:assetid: f6aa1192-1bfe-44e0-8ea0-7b361632243d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413039(v=OCS.15)
 ms:contentKeyID: 48185851
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

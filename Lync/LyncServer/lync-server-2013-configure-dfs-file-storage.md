@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure DFS file storage'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure DFS file storage
 ms:assetid: a985be20-5a00-4f38-b45b-83dc82de3827
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205150(v=OCS.15)
 ms:contentKeyID: 48185037
 ms.date: 05/23/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuration of Location-Based Routing for conferencing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuration of Location-Based Routing for conferencing
 ms:assetid: d8c708cc-a1b1-48b1-808c-a64df15f7701
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362846(v=OCS.15)
 ms:contentKeyID: 56335088
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

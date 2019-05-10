@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Components and topologies for Persistent Chat Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
 ms:contentKeyID: 48184420
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
