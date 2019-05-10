@@ -35,19 +35,19 @@ To turn on or turn off the Whiteboard Web App (Preview), do the following:
 
 1. Go to the Microsoft 365 admin center.
 
-2. Go to **Settings** > **Services & add-ins**. 
+2. Go to **Settings** > **Services & add-ins**.
 
-3. On the **Service & add-ins** page, scroll down, and then choose **Whiteboard**. 
+3. On the **Service & add-ins** page, scroll down, and then choose **Whiteboard**.
 
 4. To turn on the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard preview on or off for your entire organization** to **On**.
 
-    To turn off the Whiteboard app, on the **Whiteboard*8 pane, switch **Turn Whiteboard preview on or off for your entire organization** to **Off**.
+    To turn off the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard preview on or off for your entire organization** to **Off**.
 
 5. Click Save.
 
 ## Whiteboard on Surface Hub
 
-Make sure that Microsoft Whiteboard is installed on Surface Hub. If Whiteboard isn't installed, on the Surface Hub, go to the Microsoft Store app, and locate [Microsoft Whiteboard](https://www.microsoft.com/en-us/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, go to [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+Before trying to use Microsoft Whiteboard on Surface Hub, make sure that the Microsoft Whiteboard app is installed on your Surface Hub device. If Whiteboard isn't installed, on the Surface Hub device, go to the Microsoft Store app, and get [Microsoft Whiteboard](https://www.microsoft.com/en-us/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, go to [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
 
 ## More information
 
