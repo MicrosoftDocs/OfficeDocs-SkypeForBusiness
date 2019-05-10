@@ -29,7 +29,7 @@ Microsoft Whiteboard is a free-form, digital canvas where people, content, and i
 
 Users can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in all the Whiteboard applications on Windows 10, iOS, and the Web App (Preview).
 
-## Turn on or turn off the Whiteboard
+## Turn on or turn off the Whiteboard app
 
 To turn on or turn off the Whiteboard Web App (Preview), do the following: 
 
