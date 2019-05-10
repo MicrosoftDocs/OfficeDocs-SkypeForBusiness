@@ -197,7 +197,7 @@ Skype Room Systems v1 (also known as Lync Room Systems) will have an upgrade ava
 
 ### What’s planned for new management experiences?
 
-Microsoft has launched the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) for IT pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
+Microsoft has launched the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) for IT pros within the Microsoft 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
 
 ## Device compatibility
 

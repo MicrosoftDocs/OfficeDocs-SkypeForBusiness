@@ -17,11 +17,13 @@ description: Microsoft Teams Patients app EHR integration
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+
+To participate in the private preview, see [Enroll in the private preview](#enroll-in-the-private-preview).
 
 This article is intended for a general healthcare IT developer interested in using FHIR APIs on top of a medical information system to connect to Microsoft Teams. This would enable care coordination scenarios that match the needs of a healthcare organization.
 
-This article documents the FHIR interface specifications for the Microsoft Teams Patients app, and understanding that is required for setting up a FHIR server and connecting to the Patients app in your development environment\tenant. You will also need to be familiar with the documentation of the FHIR server you have chosen, which must be one of the supported options:
+Linked articles document the FHIR interface specifications for the Microsoft Teams Patients app, and following sections explain what is required for setting up a FHIR server and connecting to the Patients app in your development environment or tenant. You will also need to be familiar with the documentation of the FHIR server you have chosen, which must be one of the supported options:
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
 - Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
@@ -68,12 +70,16 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
 
 A request for an access token consists of the following parameters:
 
+* * *
+
     POST /token HTTP/1.1
     Host: authorization-server.com
 
     grant-type=client_credentials
     &client_id=xxxxxxxxxx
     &client_secret=xxxxxxxxxx
+
+* * *
 
 The Partner service provides the client_id and client_secret for Patients app, managed via an Auth registration portal on the partner’s side. The Partner service provides the endpoint to request access token using a client credential flow. A successful response must include the token_type, access_token and expires_in parameters.
 
@@ -130,12 +136,12 @@ You can also use the HSPC Open sandbox EHR environment to create an an EHR which
 Once you've created the open source FHIR Server, it's really easy to connect to the Patients app inside of your tenant by following the steps mentioned below:
 
 1. [Contact us](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) with the following initial details:  
-    - Your Name, 
-    - Your Position, 
+    - Your Name
+    - Your Position
     - The company or organization you represent
-    - why you are interested in the Patients app for EHR integration. 
+    - Why you are interested in the Patients app for EHR integration
 
-    We will get back to you as soon as possible with more questions and guide you through a process to get setup for the private preview.
+    We will get back to you as soon as possible with more questions and guide you through a process to get set up for the private preview.
 
 2. Ensure that sideloading of custom apps is enabled in the tenant where you are going to try out the Patients app. Please refer to [App permission policies](../../admin-settings.md) to learn how to turn this on from the Teams Admin center for your or your customer's tenant.
 

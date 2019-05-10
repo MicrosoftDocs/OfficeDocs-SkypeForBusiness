@@ -80,11 +80,16 @@ This setting enables inbound calls to be sent to voicemail. Valid options are:
 
 ### Inbound calls can be routed to call groups 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 This setting controls whether incoming calls can be forwarded to a call group.
 
 ### Allow delegation for inbound and outbound calls
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions. For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
 
 ### Prevent toll bypass and send calls through the PSTN 
 
