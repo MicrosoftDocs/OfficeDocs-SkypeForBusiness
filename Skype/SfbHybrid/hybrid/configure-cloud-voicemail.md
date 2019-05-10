@@ -1,8 +1,8 @@
 ---
 title: "Configure Cloud Voicemail service for on-premises users"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 2/11/2019
 ms.audience: ITPro
