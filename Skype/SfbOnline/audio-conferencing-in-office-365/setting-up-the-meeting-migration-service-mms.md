@@ -29,14 +29,12 @@ The Meeting Migration Service (MMS) is service that updates a user’s existing 
 
 - When a user is migrated from on-premises to the cloud (whether to Skype for Business Online or to TeamsOnly).
 - When an admin makes a change to the user’s audio conferencing settings 
-- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings (TAP customers only)
+- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings
 - When you use PowerShell 
 
 
 By default, MMS is automatically triggered in each of these cases, although admins can disable it at the tenant level. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
 
-> [!NOTE]
-> The ability to convert Skype for Business meetings to Teams meetings and the ability to update existing Teams meetings to modify audio-conferencing settings is currently limited to TAP customers only. Microsoft expects to make this functionality available to all customers sometime in May 2019.
 
 **Limitations**: The meeting migration service can't be used if any of the following apply:
 
@@ -73,20 +71,18 @@ This section describes what happens when MMS is triggered in each of the followi
 
 - When a user is migrated from on-premises to the cloud
 - When an admin makes a change to the user’s audio conferencing settings 
-- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (TAP customers only)
-- When you use PowerShell 
+- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (using either Powershell or the Teams Admin Portal)
+- When you use the PowerShell cmdlet, Start-CsExMeetingMigration
 
 ### Updating meetings when you move an on-premises user to the cloud
 
 This is the most common scenario where MMS helps create a smoother transition for your users. Without meeting migration, existing meetings organized by a user in Skype for Business Server on-premises would no longer work once the user is moved online. Therefore, when you use the on-premises admin tools (either `Move-CsUser` or the Admin Control Panel) to move a user to the cloud, existing meetings are automatically moved to the cloud as follows:
 
-- If the `MoveToTeams` switch in `Move-CsUser` is specified, meetings are migrated directly to Teams. Use of this switch requires Skype for Business Server with CU8 or later.
+- If the `MoveToTeams` switch in `Move-CsUser` is specified, meetings are migrated directly to Teams and the user will be in TeamsOnly mode. Use of this switch requires Skype for Business Server with CU8 or later. These users can still join any Skype for Business meeting they may be invited to, using either the Skype for Business client or the Skype Meeting App.
 - Otherwise meetings are migrated to Skype for Business Online.
 
 In either case, if the user has been assigned an Audio Conferencing license before being moved to the cloud, the meetings will be created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only 1 meeting migration is triggered.
 
-> [!NOTE]
-> Currently the ability to migrate meetings directly to Teams via the MoveToTeams switch is only available in TAP. If you are not a TAP customer and the MoveToTeams switch is specified, the user will be moved to TeamsOnly mode, but the meetings will be moved to Skype for Business Online. Even though the user is in TeamsOnly mode, they can still join any Skype for Business meeting.
 
 ### Updating meetings when a user's audio conferencing settings change
 
@@ -107,23 +103,28 @@ Not all changes to a user's audio conferencing settings trigger MMS. Specificall
 
 ### Updating meetings when assigning TeamsUpgradePolicy
 
-> [!NOTE]
-> This section describes functionality that is currently only available to TAP customers. Microsoft expects to make this functionality available to all customers sometime in May 2019.
-
-By default, meeting migration will be automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`. If you do not want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy`.
+By default, meeting migration is automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`. If you do not want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy` (if using PowerShell) or uncheck the box to migrate meetings when setting a user's coexistence mode (if using the Teams admin portal).
 
 Also note the following:
 
-- Meeting migration is only invoked when you grant `TeamsUpgradePolicy` for a specific user. If you grant `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode=SfBWithTeamsCollabAndMeetings` on a tenant-wide basis, meeting migration is not invoked.
+- Meeting migration is only invoked when you grant `TeamsUpgradePolicy` for a specific user. If you grant `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode=SfBWithTeamsCollabAndMeetings` on a *tenant-wide* basis, meeting migration is not invoked.
 - A user can only be granted TeamsOnly mode if the user is homed online. Users that are homed on-premises must be moved using `Move-CsUser` as previously described.
 - Granting a mode other than TeamsOnly or SfBWithTeamsCollabAndMeetings does not convert existing Teams meetings to Skype for Business meetings.
 
-### Trigger Meeting Migration manually via PowerShell
+### Trigger Meeting Migration manually via PowerShell cmdlet
 
-In addition to automatic meeting migrations, admins can manually trigger meeting migration for a user by running the cmdlet `Start-CsExMeetingMigration`. This cmdlet queues a migration request for the specified user. The new `TargetMeetingType` parameter (which is currently limited to participants in the Technology Adoption Program) allows you to specify how to migrate the meetings: 
+In addition to automatic meeting migrations, admins can manually trigger meeting migration for a user by running the cmdlet `Start-CsExMeetingMigration`. This cmdlet queues a migration request for the specified user.  In addition to the required `Identity` parameter, it takes two optional parameters, `SourceMeetingType` and `TargetMeetingType`, which allow you to specify how to migrate meetings:
 
-- Using `TargetMeetingType Current` specifies that Skype for Business meetings remain Skype for Business meetings and Teams meetings remain Teams meetings. However audio conferencing coordinates might be changed, and any on-premises Skype for Business meetings would be migrated to Skype for Business Online.
+**TargetMeetingType:**
+
+- Using `TargetMeetingType Current` specifies that Skype for Business meetings remain Skype for Business meetings and Teams meetings remain Teams meetings. However audio conferencing coordinates might be changed, and any on-premises Skype for Business meetings would be migrated to Skype for Business Online. This is the default value for TargetMeetingType.
 - Using `TargetMeetingType Teams` specifies that any existing meeting must be migrated to Teams, regardless of whether the meeting is hosted in Skype for Business online or on-premises, and regardless of whether any audio conferencing updates are required. 
+
+**SourceMeetingType:**
+- Using `SourceMeetingType SfB` indicates that only Skype for Business meetings (whether on-premises or online) should be updated.
+- Using `SourceMeetingType Teams` indicates that only Teams meetings should be updated.
+- Using `SourceMeetingType All` indicates that both Skyep for Business meetings and Teams meetings should be updated. This is the default value for SourceMeetingType.
+    
 
 The example below shows how to initiate meeting migration for user ashaw@contoso.com so that all meetings are migrated to Teams:
 
@@ -131,8 +132,6 @@ The example below shows how to initiate meeting migration for user ashaw@contoso
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
-> [!NOTE]
-> The Start-CsExMeetingMigration cmdlet is available to all customers, but the new TargetMeetingTypeParameter is currently only functional for TAP customers. 
 
 
 ## Managing MMS

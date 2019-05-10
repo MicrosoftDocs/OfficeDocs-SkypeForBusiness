@@ -88,7 +88,7 @@ items:
 
     Teams is a cloud-based service. Once an educator or student has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. 
     
-    You can manage individual user licenses for Microsoft Teams by using the Office 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. 
+    You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. 
 
     > [!NOTE]
     > Before you turn on Teams for your school, make sure you have the proper controls in place. A piloting program helps significantly to ensure the proper users are able to use and give feedback on what types of controls enhance the usage and management of the product. 
@@ -115,11 +115,11 @@ items:
     > [!NOTE]
     > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
 
-    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
+    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Microsoft 365 admin center to manage Teams for your school.
 
-    1. From the [Office 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
+    1. From the [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
          
-         ![Screenshot of the Admin option in the Office 365 Admin Center.](media/o365-admin-option.png)
+         ![Screenshot of the Admin option in the Microsoft 365 Admin Center.](media/o365-admin-option.png)
     
     2. Select **Settings** > **Services & add-ins**.
 
@@ -127,11 +127,11 @@ items:
         
     3. Select **Microsoft Teams** from the list.
     
-         ![Screenshot of the options in the Services & add-ins page in the Office 365 Admin Center.](media/o365-services-select-teams.png)
+         ![Screenshot of the options in the Services & add-ins page in the Microsoft 365 Admin Center.](media/o365-services-select-teams.png)
 
     4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
 
-         ![Screenshot of Microsoft Teams settings section in the Office 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         ![Screenshot of Microsoft Teams settings section in the Microsoft 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 - title: Configure tenant-wide settings
   durationInMinutes: 3
@@ -142,14 +142,14 @@ items:
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Teams.
 
-    ![Screenshot of the settings in the General section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+    ![Screenshot of the settings in the General section in the Microsoft 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
     ### Email integration
     You can enable email integration with channels, as well as create a restricted senders list. To turn on or turn off email integration, move the toggle to **Off** or **On**, then select **Save**. 
 
     The **Allow senders list** helps you to control who can email teams within your organization. 
 
-    ![Screenshot of the settings in the Email integration section in the Office 365 admin center.](media/QS-edu-email-integration.png)
+    ![Screenshot of the settings in the Email integration section in the Microsoft 365 admin center.](media/QS-edu-email-integration.png)
 
     ### Apps
     You can enable external apps, new external apps, and sideloading for apps in Teams. To disable or enable the setting, move the toggle to **Off** or **On**, then choose **Save**.
@@ -158,7 +158,7 @@ items:
 
     The ability to sideload an app is only available to non-guest team members. This is useful if you have any programming courses or are testing any custom learning management systems that can integrate with Teams. To learn more, see [The Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/overview).
 
-    ![Screenshot of the settings in the Apps section in the Office 365 admin center.](media/QS-edu-apps2.png)
+    ![Screenshot of the settings in the Apps section in the Microsoft 365 admin center.](media/QS-edu-apps2.png)
 
     By enabling Assignments, educators can provide assignments and iterative feedback to students. 
 
@@ -171,7 +171,7 @@ items:
     ### Custom cloud storage
     You can enable various forms of cloud storage within Teams. Currently, Box, Dropbox, Google Drive, and ShareFile are supported. To disable or enable the setting, toggle the switch to **Off** or **On**, and then select **Save**. When these settings are enabled, any member of a team can add a new provider in which documents can be stored to or retrieved from.
 
-    ![Screenshot of the settings in the Custom cloud storage section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+    ![Screenshot of the settings in the Custom cloud storage section in the Microsoft 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
     Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you'll also learn how to let the service automatically handle that for you. 
 
@@ -180,11 +180,11 @@ items:
     > [!NOTE]
     > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
 
-    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
+    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Microsoft 365 admin center to manage Teams for your school.
 
-    1. From the [Office 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
+    1. From the [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
          
-         ![Screenshot of the Admin option in the Office 365 Admin Center.](media/o365-admin-option.png)
+         ![Screenshot of the Admin option in the Microsoft 365 Admin Center.](media/o365-admin-option.png)
     
     2. Select **Settings** > **Services & add-ins**.
 
@@ -192,19 +192,19 @@ items:
         
     3. Select **Microsoft Teams** from the list.
     
-         ![Screenshot of the options in the Services & add-ins page in the Office 365 Admin Center.](media/o365-services-select-teams.png)
+         ![Screenshot of the options in the Services & add-ins page in the Microsoft 365 Admin Center.](media/o365-services-select-teams.png)
 
     4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
 
-         ![Screenshot of Microsoft Teams settings section in the Office 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         ![Screenshot of Microsoft Teams settings section in the Microsoft 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
          
     You should only have Education listed in your license types. The dropdown includes Education-Faculty and staff, Education-Student, and Guest. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings.  
 
-    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
+    ![Screenshot of the settings in the Teams and channels section in the Microsoft 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
     To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch; eventually, you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.
     
-    ![Screenshot of the settings for Microsoft Teams license picker section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
+    ![Screenshot of the settings for Microsoft Teams license picker section in the Microsoft 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
 
     > [!NOTE]
     > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
@@ -214,7 +214,7 @@ items:
   content: |
    
    > [!IMPORTANT]
-   > The new Microsoft Teams admin center is here! Starting in March 2018, we're gradually migrating settings to it from both the current Skype for Business admin center and the Microsoft Teams experience in the Office 365 admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams admin center. For more information, see [Manage Teams during the transition to the new Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
+   > The new Microsoft Teams admin center is here! Starting in March 2018, we're gradually migrating settings to it from both the current Skype for Business admin center and the Microsoft Teams experience in the Microsoft 365 admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams admin center. For more information, see [Manage Teams during the transition to the new Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
      
     As part of the migration to the new Microsoft Teams admin center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
 

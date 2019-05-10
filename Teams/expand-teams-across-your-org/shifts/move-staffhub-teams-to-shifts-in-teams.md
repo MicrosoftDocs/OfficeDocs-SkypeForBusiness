@@ -40,13 +40,15 @@ User details, schedule information, and chat and file data are transitioned to T
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
-As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams.
+As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams. If you have Azure AD Premium, you can [run a report](run-report-to-show-staffhub-usage.md) to get a list of StaffHub users in your organization who need to know about this change.  
 
 There's no rollback option after you move a StaffHub team to Teams.
 
 ### User experience when you move a team
 
-There's minimal downtime (less than a second, if any at all) for users when their team is switched from StaffHub to Shifts in Teams. Users can continue using StaffHub until the move to Teams is completed. When the move is completed, team members will see a message to let them know that they need to start using Shifts in Teams to access their team schedule.
+There's minimal downtime (less than a second, if any at all) for users when their team is switched from StaffHub to Shifts in Teams. Users can continue using StaffHub until the move to Teams is completed. When the move is completed, team members will see a message to let them know that they need to start using Shifts in Teams to access their team schedule. Here's an example of the message that users see.
+
+![Example of the message that users see in StaffHub after the StaffHub team is moved to Teams. ](../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Example of the message that users see in StaffHub after the StaffHub team is moved to Teams")
 
 ## Prepare
 
