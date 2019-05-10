@@ -1,8 +1,8 @@
 ---
 title: "Voice Policy Create New or Edit Existing PSTN Usage Record"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

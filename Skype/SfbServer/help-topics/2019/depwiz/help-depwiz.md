@@ -1,8 +1,8 @@
 ---
 title: "Help-DepWiz"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
