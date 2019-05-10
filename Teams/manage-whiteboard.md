@@ -43,7 +43,7 @@ To turn on or turn off the Whiteboard Web App (Preview), do the following:
 
     To turn off the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard preview on or off for your entire organization** to **Off**.
 
-5. Click Save.
+5. Click **Save**.
 
 ## Whiteboard on Surface Hub
 
