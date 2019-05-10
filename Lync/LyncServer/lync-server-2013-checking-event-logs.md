@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Checking event logs'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Checking event logs
 ms:assetid: 5500720d-c628-4dbd-84bc-a5becc39b99c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720914(v=OCS.15)
 ms:contentKeyID: 63969602
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

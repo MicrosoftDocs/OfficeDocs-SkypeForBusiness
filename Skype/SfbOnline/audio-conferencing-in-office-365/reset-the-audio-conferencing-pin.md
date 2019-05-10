@@ -1,6 +1,6 @@
 ---
 title: "Reset the Audio Conferencing PIN in Skype for Business Online"
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

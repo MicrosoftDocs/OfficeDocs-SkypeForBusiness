@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test telephone number against a voice policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test telephone number against a voice policy
 ms:assetid: 30c51700-17c6-4c57-891a-8d5ec30b50ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725207(v=OCS.15)
 ms:contentKeyID: 63969596
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

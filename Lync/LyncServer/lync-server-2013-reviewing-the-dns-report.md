@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Reviewing the DNS Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Reviewing the DNS Report
 ms:assetid: 453cd63d-229a-4c4c-96c0-4571733398a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558641(v=OCS.15)
 ms:contentKeyID: 51541468
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

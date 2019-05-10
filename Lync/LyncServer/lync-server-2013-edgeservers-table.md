@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: EdgeServers table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: EdgeServers table
 ms:assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412833(v=OCS.15)
 ms:contentKeyID: 48185081
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

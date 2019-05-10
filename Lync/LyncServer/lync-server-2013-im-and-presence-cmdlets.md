@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: IM and presence cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: IM and presence cmdlets
 ms:assetid: 7b882480-f3d5-44a2-bb75-fffb7e5caede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398611(v=OCS.15)
 ms:contentKeyID: 48184589
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

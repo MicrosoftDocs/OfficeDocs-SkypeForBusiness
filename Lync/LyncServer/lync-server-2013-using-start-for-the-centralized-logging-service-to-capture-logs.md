@@ -1,13 +1,14 @@
 ---
 title: 'Using Start for the Centralized Logging Service to capture logs'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Using Start for the Centralized Logging Service to capture logs
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687958(v=OCS.15)
 ms:contentKeyID: 49733543
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

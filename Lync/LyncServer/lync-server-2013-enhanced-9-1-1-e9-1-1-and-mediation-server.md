@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) and Mediation Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enhanced 9-1-1 (E9-1-1) and Mediation Server
 ms:assetid: d231221f-5596-4a87-a463-269f5bcce65f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398903(v=OCS.15)
 ms:contentKeyID: 48185448
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enterprise Voice prerequisites'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enterprise Voice prerequisites
 ms:assetid: eca317b9-2f4f-4d40-9509-9d734b2305b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399068(v=OCS.15)
 ms:contentKeyID: 48185746
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

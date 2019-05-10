@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Reviewing the Firewall Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Reviewing the Firewall Report
 ms:assetid: 5ccc60b5-751a-425b-ab60-6885d3114c94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558654(v=OCS.15)
 ms:contentKeyID: 51541481
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

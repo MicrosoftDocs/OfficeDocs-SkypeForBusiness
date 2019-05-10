@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment checklist for Archiving'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment checklist for Archiving
 ms:assetid: 7479734d-be01-40d9-ad82-320a09d19d04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205009(v=OCS.15)
 ms:contentKeyID: 48184516
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

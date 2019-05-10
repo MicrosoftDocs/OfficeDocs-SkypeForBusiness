@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Voice application cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Voice application cmdlets
 ms:assetid: 0d73ace6-1185-484a-980a-4b3d63ba507b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415634(v=OCS.15)
 ms:contentKeyID: 48183404
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

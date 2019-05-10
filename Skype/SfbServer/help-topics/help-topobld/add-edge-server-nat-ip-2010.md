@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server NAT IP 2010"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro

@@ -1,13 +1,14 @@
 ---
 title: 'Configuring a watcher node to use Trusted Server authentication'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring a watcher node to use Trusted Server authentication
 ms:assetid: 42d879ac-aa90-4ed6-b5e2-1e208711672a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204852(v=OCS.15)
 ms:contentKeyID: 48184017
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

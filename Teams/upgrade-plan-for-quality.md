@@ -1,7 +1,7 @@
 ---
 title: Plan service management and quality | Technical Readiness
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Reviewing the Certificates Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Reviewing the Certificates Report
 ms:assetid: 549cfc9b-3cc5-4483-a93c-fc0738c7f622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558651(v=OCS.15)
 ms:contentKeyID: 51541477
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

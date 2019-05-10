@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Outgoing calls'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Outgoing calls
 ms:assetid: 885ffe6f-cd51-4f21-8d4f-a1ff8d818858
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994049(v=OCS.15)
 ms:contentKeyID: 51803960
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

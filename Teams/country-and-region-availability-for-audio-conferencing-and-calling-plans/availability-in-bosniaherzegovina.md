@@ -3,7 +3,7 @@ title: "Availability in Bosnia &amp; Herzegovina"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: serdars
 ms.topic: reference
 ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: SQL Server mirroring'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: SQL Server mirroring
 ms:assetid: bd72965f-223b-4fc0-bd69-59d4ac886145
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205218(v=OCS.15)
 ms:contentKeyID: 48185270
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

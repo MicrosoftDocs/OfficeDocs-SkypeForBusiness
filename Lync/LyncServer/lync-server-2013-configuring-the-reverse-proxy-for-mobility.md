@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring the reverse proxy for mobility'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring the reverse proxy for mobility
 ms:assetid: 3f4a9e33-77e4-4c18-a73f-24d4bec8ea9c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690011(v=OCS.15)
 ms:contentKeyID: 48183946
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

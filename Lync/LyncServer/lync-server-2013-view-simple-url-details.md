@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: View simple URL details'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View simple URL details
 ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)
 ms:contentKeyID: 48184399
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

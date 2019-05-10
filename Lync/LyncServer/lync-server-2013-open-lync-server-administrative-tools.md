@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Open Lync Server administrative tools'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Open Lync Server administrative tools
 ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195741(v=OCS.15)
 ms:contentKeyID: 48184778
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

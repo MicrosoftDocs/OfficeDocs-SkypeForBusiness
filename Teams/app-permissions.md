@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams apps permissions and considerations
-author: Lester-Hewett
-ms.author: lehewe
+author: rmw2890
+ms.author: rowille
 manager: serdars
 ms.date: 10/18/2018
 ms.topic: conceptual
@@ -10,7 +10,7 @@ MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: lehewe
+ms.reviewer: rowille
 description: Learn what data and permissions apps are requesting from your organization.
 localization_priority: Normal
 appliesto:

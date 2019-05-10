@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Device Update configuration settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Device Update configuration settings
 ms:assetid: a567b290-4c78-48bf-8ff7-39e32e54de39
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994058(v=OCS.15)
 ms:contentKeyID: 51803969
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

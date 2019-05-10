@@ -1,9 +1,9 @@
 ---
 title: "Microsoft Teams Rooms licenses"
-ms.author: tonysmit
-author: tonysmit
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: davgroom
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for response group disaster recovery'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for response group disaster recovery
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204699(v=OCS.15)
 ms:contentKeyID: 48183482
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 technical requirements for conferencing
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
 ms:contentKeyID: 48183923
 ms.date: 06/26/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

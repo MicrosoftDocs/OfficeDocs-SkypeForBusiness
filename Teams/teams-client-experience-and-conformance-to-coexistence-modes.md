@@ -1,7 +1,7 @@
 ---
 title: Teams client experience and conformance to coexistence modes
-author: dearbeen
-ms.author: bjwhalen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

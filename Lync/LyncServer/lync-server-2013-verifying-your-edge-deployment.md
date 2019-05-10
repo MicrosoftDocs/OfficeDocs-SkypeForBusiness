@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Verifying your edge deployment'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Verifying your edge deployment
 ms:assetid: 05ac3530-8756-4c77-8b3b-9d0027029dce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398108(v=OCS.15)
 ms:contentKeyID: 48183290
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

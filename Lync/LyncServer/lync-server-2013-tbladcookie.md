@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblADCookie'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblADCookie
 ms:assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558610(v=OCS.15)
 ms:contentKeyID: 48183366
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
