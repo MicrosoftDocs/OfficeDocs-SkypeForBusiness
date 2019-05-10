@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams guest access checklist
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/25/2019
 ms.topic: article

@@ -4,6 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 07/26/2018
+ms.reviewer: 
 ms.topic: reference
 ms.service: msteams
 ms.reviewer:

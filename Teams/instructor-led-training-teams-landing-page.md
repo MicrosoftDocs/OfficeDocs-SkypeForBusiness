@@ -5,9 +5,9 @@ title: Instructor-led training and videos for Microsoft Teams users
 ms.reviewer: 
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
 localization_priority : Priority
-author: dearbeen
+author: lanachin
 ms.topic: hub-page
-ms.author: dearbeen
+ms.author: v-lanac
 ms.service: msteams
 ms.collection:  
 - Teams_ITAdmin_Training

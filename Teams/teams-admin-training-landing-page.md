@@ -2,7 +2,7 @@
 title: Admin training for Microsoft Teams
 ms.reviewer: 
 description: Get the training you need to manage Microsoft Teams in your organization
-author: dearbeen
+author: lanachin
 manager: serdars
 ms.date: 01/22/2018
 layout: LandingPage
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Training
 ms.topic: landing-page
-ms.author: dearbeen
+ms.author: v-lanac
 ---
 # Admin training for Microsoft Teams
 

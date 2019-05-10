@@ -1,8 +1,8 @@
 ---
 title: View guest users in a team
 ms.reviewer: 
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article

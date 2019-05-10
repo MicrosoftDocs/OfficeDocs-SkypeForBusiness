@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: marubins
+ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority : Priority

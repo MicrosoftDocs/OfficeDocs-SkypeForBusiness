@@ -3,7 +3,7 @@ title: "Call Analytics and Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, siunies, gageames
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud

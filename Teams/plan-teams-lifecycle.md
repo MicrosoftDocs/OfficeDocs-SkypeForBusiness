@@ -1,7 +1,7 @@
 ---
 title: Plan for lifecycle management in Teams - Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 09/26/2018
 ms.topic: reference

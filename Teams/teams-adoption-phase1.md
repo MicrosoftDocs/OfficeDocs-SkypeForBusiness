@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 1 - Start
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin

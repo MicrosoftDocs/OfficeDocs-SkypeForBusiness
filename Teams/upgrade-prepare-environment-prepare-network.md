@@ -1,7 +1,7 @@
 ---
 title: Prepare your network for Microsoft Teams|  Port Firewall Requirements
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
