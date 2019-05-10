@@ -1,8 +1,8 @@
 ---
 title: "Plan Persistent Chat Server topology"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/17/2016
 ms.audience: ITPro
