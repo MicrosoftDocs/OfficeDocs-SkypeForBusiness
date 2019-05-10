@@ -1,8 +1,8 @@
 ---
 title: "Create or modify a collection of CDR configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
-author: heidip
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
