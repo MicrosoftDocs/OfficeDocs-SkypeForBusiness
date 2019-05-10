@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: EndpointSubnet table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: EndpointSubnet table
 ms:assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398933(v=OCS.15)
 ms:contentKeyID: 48185514
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

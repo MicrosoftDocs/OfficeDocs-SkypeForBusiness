@@ -1,11 +1,11 @@
 ---
 title: Install Microsoft Teams using MSI via SCCM
-author: Lester-Hewett
-ms.author: lehewe
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: rowille
 description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Application server and services cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Application server and services cmdlets
 ms:assetid: 4db74a72-2beb-4c95-a761-310ac9e5f624
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415653(v=OCS.15)
 ms:contentKeyID: 48184076
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

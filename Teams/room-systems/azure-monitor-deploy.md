@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms management with Azure Monitor"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 ms.audience: ITPro

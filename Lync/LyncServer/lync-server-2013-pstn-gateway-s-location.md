@@ -1,13 +1,14 @@
 ---
 title: "Lync Server 2013: PSTN gateway's location"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: PSTN gateway's location
 ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994031(v=OCS.15)
 ms:contentKeyID: 51803940
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

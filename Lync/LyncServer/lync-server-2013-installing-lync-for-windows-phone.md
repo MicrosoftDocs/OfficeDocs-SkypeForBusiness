@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Installing Lync for Windows Phone'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Installing Lync for Windows Phone
 ms:assetid: bf502546-ff69-489f-a92e-a78b58803d53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690996(v=OCS.15)
 ms:contentKeyID: 51541513
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

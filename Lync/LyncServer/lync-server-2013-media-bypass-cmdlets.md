@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Media bypass cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Media bypass cmdlets
 ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415674(v=OCS.15)
 ms:contentKeyID: 48185334
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Components required for the Director'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Components required for the Director
 ms:assetid: 15c7c8d4-b93f-4386-b2d1-d76dab8f801e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398228(v=OCS.15)
 ms:contentKeyID: 48183502
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing applications'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing applications
 ms:assetid: 34d8bbd0-3010-4b5e-8846-7ae7a0753cbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688019(v=OCS.15)
 ms:contentKeyID: 49733610
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

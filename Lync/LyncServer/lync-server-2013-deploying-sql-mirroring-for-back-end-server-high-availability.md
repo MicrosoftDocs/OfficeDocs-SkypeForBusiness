@@ -1,13 +1,14 @@
 ---
 title: 'Deploying SQL mirroring for Back End Server high availability'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploying SQL mirroring for Back End Server high availability
 ms:assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204992(v=OCS.15)
 ms:contentKeyID: 48184451
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

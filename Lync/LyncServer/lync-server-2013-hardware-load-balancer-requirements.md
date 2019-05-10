@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 hardware load balancer requirements
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Hardware load balancer requirements
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ656815(v=OCS.15)
 ms:contentKeyID: 49287208
 ms.date: 05/11/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

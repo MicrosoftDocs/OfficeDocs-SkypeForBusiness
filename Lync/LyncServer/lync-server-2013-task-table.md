@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Task table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Task table
 ms:assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205139(v=OCS.15)
 ms:contentKeyID: 48185010
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

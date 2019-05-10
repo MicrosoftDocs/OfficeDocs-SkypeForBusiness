@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure categories'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure categories
 ms:assetid: 4547f514-f0c0-404d-890f-092ddeeac852
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204859(v=OCS.15)
 ms:contentKeyID: 48184033
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Prepare users for Microsoft Teams
-author: dearbeen
+author: rmw2890
 ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018

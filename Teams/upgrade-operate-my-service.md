@@ -1,7 +1,7 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

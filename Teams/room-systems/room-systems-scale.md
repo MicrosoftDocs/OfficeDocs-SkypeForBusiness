@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms by using System Center Configuration Manager"
-author: jambirk
-ms.author: jambirk
+author: lanachin
+ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018

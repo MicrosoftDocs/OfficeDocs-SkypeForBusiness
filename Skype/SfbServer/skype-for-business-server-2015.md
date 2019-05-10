@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.date: 1/31/2018

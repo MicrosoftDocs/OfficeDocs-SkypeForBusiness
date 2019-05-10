@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Network settings for the advanced Enterprise Voice features'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Network settings for the advanced Enterprise Voice features
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
 ms:contentKeyID: 48184632
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

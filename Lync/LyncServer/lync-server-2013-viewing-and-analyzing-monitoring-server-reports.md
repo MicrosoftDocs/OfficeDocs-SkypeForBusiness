@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Viewing and analyzing monitoring server reports'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing and analyzing monitoring server reports
 ms:assetid: 4dd448f1-01d2-49b2-b109-0728f36566b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720332(v=OCS.15)
 ms:contentKeyID: 63969599
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

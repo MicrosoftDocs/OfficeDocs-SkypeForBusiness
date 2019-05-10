@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Editing the network configuration diagram'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Editing the network configuration diagram
 ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
 ms:contentKeyID: 51541469
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

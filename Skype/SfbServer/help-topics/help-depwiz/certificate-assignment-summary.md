@@ -1,8 +1,8 @@
 ---
 title: "Certificate Assignment (Summary)"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
