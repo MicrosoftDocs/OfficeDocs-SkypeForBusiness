@@ -1,8 +1,8 @@
 ---
 title: Plan Cloud Voicemail service for on-premises users| PBX Skype for Business Server 2019 
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

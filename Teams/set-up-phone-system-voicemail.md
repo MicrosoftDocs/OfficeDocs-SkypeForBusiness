@@ -1,7 +1,7 @@
 ---
 title: "Set up Cloud Voicemail"
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
