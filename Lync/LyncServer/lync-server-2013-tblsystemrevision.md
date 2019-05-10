@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblSystemRevision'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSystemRevision
 ms:assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615019(v=OCS.15)
 ms:contentKeyID: 48184901
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

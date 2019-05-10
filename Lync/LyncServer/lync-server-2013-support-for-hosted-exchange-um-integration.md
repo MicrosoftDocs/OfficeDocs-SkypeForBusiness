@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 support for hosted Exchange UM integration
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Support for hosted Exchange UM integration
 ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398821(v=OCS.15)
 ms:contentKeyID: 48185376
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

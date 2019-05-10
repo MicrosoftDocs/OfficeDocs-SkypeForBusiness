@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing Lync Client authentication'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Lync Client authentication
 ms:assetid: e22114cb-4456-4e5f-93ab-51592c4a8209
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689120(v=OCS.15)
 ms:contentKeyID: 63969659
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 supported topologies
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Supported topologies
 ms:assetid: 3475d430-0394-491b-a09b-ba85bd62be70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425833(v=OCS.15)
 ms:contentKeyID: 48183832
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
