@@ -18,19 +18,20 @@ Skype for Business Server 2019 hybrid implementations only use Cloud services pr
 
 In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system.md).
 
-To use Phone System services with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the call queue or auto attendant. Typically you will have multiple call queues and auto attendants, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts, and each of which routes call to available agents.
+To use Phone System services with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. Typically you will have multiple call queue and auto attendant nodes, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts, and each of which routes call to available agents.
 
-If you have an existing auto attendant and call queue system implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams Admin portal.
+If you have an existing auto attendant and call queue system implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.
+
+> [!NOTE] 
+> Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 ## Server configuration steps
 
 These steps are necessary whether you are creating a brand new call queue or auto attendant, or rebuilding structure originally created in Exchange UM.
 
-Log in to the front end server and run the following PowerShell cmdlets:
+Log in to the Skype for Business front end server and run the following PowerShell cmdlets:
 
 1. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each call queue or auto attendant, and give each one a name, sip address, and so on.
-
-    Configuring a phone number for a call queue is required only if you want to connect callers directly to a queue without using an auto attendant. Configuring a phone number for an auto attendant is required only for the main menu, and is optional for nested auto attendants or call queues that are accessed from a main auto attendant.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -45,6 +46,8 @@ Log in to the front end server and run the following PowerShell cmdlets:
     Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
     ```
 
+    Assigning a phone number to a nested service is required only if you want to connect callers directly to a nested auto attendant or call queue without using a main auto attendant. Configuring a phone number for an auto attendant is required only for the main menu, and is optional for nested auto attendants or call queues that are accessed from a main auto attendant.
+
     See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
 2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System services. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
@@ -57,11 +60,12 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 ## Online configuration steps
 
-Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
+Your online implementation of a call queue or auto attendant will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
 1. Assign Phone System licenses to the on-premise resource account as described in  [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) and [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-2. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) or [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) to implement the Phone System settings.  
+2. Assign phone numbers. A phone number homed on Skype for business Server can be assigned using the `Set-CsHybridApplicationEndpoint` command as mentioned earlier. Phone numbers using Direct Routing or O365 Calling Plans will need to be assigned using the Teams admin center.
+3. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) or [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) to implement the Phone System service settings.  
 
 An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
 
