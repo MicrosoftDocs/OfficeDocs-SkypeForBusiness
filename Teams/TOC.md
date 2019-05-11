@@ -101,7 +101,8 @@
 ## [Microsoft Teams Rooms](room-systems/index.md)
 
 
-## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
+## Audio conferencing
+### [Plan your deployment](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
 ### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
@@ -152,7 +153,9 @@
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
-#### [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+#### Country and region availability for Audio Conferencing and Calling Plans
+##### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -265,8 +268,8 @@
 <!-- ============================================================ -->
 
 
-
-# [Cloud voice](cloud-voice-landing-page.md)
+# Cloud voice 
+## [Plan your deployment](cloud-voice-landing-page.md)
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
 ### [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
@@ -292,12 +295,15 @@
 ### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
 
-## [Calling Plans](calling-plan-landing-page.md)
-### [Calling Plans for Office 365](calling-plans-for-office-365.md)
+
+## Calling Plans
+### [Which Calling Plan is right for you](calling-plan-landing-page.md)
+### [How to buy a Calling Plan](calling-plans-for-office-365.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 
-## [Phone System Direct Routing](direct-routing-landing-page.md)
+## Phone System Direct Routing
+### [Overview](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
 ### [Configure Direct Routing](direct-routing-configure.md)
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
