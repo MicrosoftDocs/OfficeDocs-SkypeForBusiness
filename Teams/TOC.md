@@ -7,7 +7,8 @@
 
 <!-- ============================================================ -->
 
-# [Get started](get-started-with-teams-quick-start.md)
+# Get started
+## [Overview](get-started-with-teams-quick-start.md)
 ## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Step 2: Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 ## [Step 3: Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -15,8 +16,8 @@
 
 <!-- ============================================================ -->
 
-
-# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# Chat, teams, channels, and apps
+## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
@@ -30,8 +31,9 @@
 
 
 
+## Apps, bot, and connectors
 
-## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
+### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
@@ -45,8 +47,8 @@
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
-
-## [Guest access](guest-access.md)
+## Guest access
+### [Overview](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
 ### [Authorize guest access in Teams](teams-dependencies.md)
@@ -60,7 +62,8 @@
 
 ## [External access (federation)](manage-external-access.md)
 
-## [Manage Teams](using-admin-roles.md)
+## Manage Teams
+### [Administrator roles](using-admin-roles.md)
 ### [Manage Teams settings for your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
@@ -82,8 +85,8 @@
 
 <!-- ============================================================ -->
 
-
-# [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+# Meetings and conferencing
+## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
