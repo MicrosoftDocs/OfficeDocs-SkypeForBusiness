@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Windows Update for Lync Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Windows Update for Lync Server 2013
 ms:assetid: fe26ab32-b1a9-421d-9227-506703d4b834
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518337(v=OCS.15)
 ms:contentKeyID: 62625495
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

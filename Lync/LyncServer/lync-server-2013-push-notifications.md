@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Push notifications'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Push notifications
 ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687991(v=OCS.15)
 ms:contentKeyID: 49733581
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

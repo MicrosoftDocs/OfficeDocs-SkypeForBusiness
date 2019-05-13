@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Common security threats in modern day computing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Common security threats in modern day computing
 ms:assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn433220(v=OCS.15)
 ms:contentKeyID: 56708403
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

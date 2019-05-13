@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync Web App supported platforms'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
 ms.date: 02/07/2017
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

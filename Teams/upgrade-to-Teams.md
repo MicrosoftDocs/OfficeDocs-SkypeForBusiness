@@ -1,7 +1,7 @@
 ---
 title: Upgrade to Microsoft Teams | Skype for Business Teams Roadmap
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams

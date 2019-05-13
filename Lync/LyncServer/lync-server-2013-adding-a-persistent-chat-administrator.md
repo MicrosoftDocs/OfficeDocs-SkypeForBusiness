@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Adding a Persistent Chat administrator'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Adding a Persistent Chat administrator
 ms:assetid: c107eb20-4e58-4463-b4f9-63fb5b1d9534
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205230(v=OCS.15)
 ms:contentKeyID: 48185300
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

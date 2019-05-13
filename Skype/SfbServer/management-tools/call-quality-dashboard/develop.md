@@ -1,8 +1,8 @@
 ---
 title: "Develop Call Quality Dashboard for Skype for Business Server"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

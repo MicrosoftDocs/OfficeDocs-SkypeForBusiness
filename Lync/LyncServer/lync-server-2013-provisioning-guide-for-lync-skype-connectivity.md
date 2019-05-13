@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Provisioning guide for Lync-Skype connectivity'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Provisioning guide for Lync-Skype connectivity
 ms:assetid: 69adda9b-5b72-4538-9be6-079b2f462e09
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440173(v=OCS.15)
 ms:contentKeyID: 57793363
 ms.date: 11/26/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: What the guest experience is like
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/26/18
 ms.topic: conceptual

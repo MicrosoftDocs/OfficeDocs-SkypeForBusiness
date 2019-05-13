@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Windows PowerShell and Lync Server management tools'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Windows PowerShell and Lync Server 2013 management tools
 ms:assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481130(v=OCS.15)
 ms:contentKeyID: 59893869
 ms.date: 07/20/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

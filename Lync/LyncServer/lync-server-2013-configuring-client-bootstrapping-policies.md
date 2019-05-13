@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring client bootstrapping policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring client bootstrapping policies
 ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)
 ms:contentKeyID: 48184031
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure add-ins for rooms'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure add-ins for rooms
 ms:assetid: 4eeaf19e-8369-4f6f-af65-a283cf7daa1c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204878(v=OCS.15)
 ms:contentKeyID: 48184090
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

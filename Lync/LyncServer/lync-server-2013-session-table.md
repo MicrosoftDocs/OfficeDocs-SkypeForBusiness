@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Session table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Session table
 ms:assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398635(v=OCS.15)
 ms:contentKeyID: 48184626
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

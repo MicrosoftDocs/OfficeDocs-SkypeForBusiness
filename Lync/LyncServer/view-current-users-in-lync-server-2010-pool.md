@@ -1,13 +1,14 @@
 ---
 title: View current users in Lync Server 2010 pool
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View current users in Lync Server 2010 pool
 ms:assetid: c0986800-8ee4-4d50-9e9c-39f7c4e67bed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721870(v=OCS.15)
 ms:contentKeyID: 49733804
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

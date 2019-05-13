@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify PIN policy settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: (Optional) Verify PIN policy settings
 ms:assetid: d000d2e7-dfd8-4dea-b1ff-f5385d0cfff3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398892(v=OCS.15)
 ms:contentKeyID: 48185415
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams guest access checklist
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/25/2019
 ms.topic: article
@@ -119,7 +119,7 @@ Make sure that users can add guests. Here's how:
 
 ## □ Step 5: Verify sharing setting in SharePoint
 
-1. Sign in to the Office 365 admin center.
+1. Sign in to the Microsoft 365 admin center.
 2. Click **Admin center**, and then select **SharePoint**.
 3. In the SharePoint admin center, select **Sharing**.
 4. Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.

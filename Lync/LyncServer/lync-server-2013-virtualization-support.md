@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 virtualization support
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Virtualization support
 ms:assetid: cb940808-2852-406a-a357-3eb5638ed2a0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398853(v=OCS.15)
 ms:contentKeyID: 48185484
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

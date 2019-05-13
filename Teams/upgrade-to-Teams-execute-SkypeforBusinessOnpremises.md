@@ -1,7 +1,7 @@
 ---
 title: Upgrade Skype for Business on-premises to Microsoft Teams | Deploy | Lync
-author: arachmanGitHub
-ms.author: arachman
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -54,4 +54,4 @@ For more information, see [Move users from on premises to Skype for Business Onl
 
 Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing (“Direct Routing”) or the Microsoft-provided Calling Plans for Office 365.
 
-If you're not using Calling Plans in Office 365, you need to transition your enterprise voice deployment to Phone System Direct Routing. To upgrade your users to Teams, see the [additional considerations for Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md).
+If Calling Plans isn’t available, you need to transition your enterprise voice deployment to Microsoft Phone System Direct Routing. To upgrade your users to Teams, see the [additional considerations for Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md).

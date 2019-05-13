@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Performing and monitoring backups'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Performing and monitoring backups
 ms:assetid: 2df415d4-0f37-460e-99ff-4035a9a2f445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720912(v=OCS.15)
 ms:contentKeyID: 63969595
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

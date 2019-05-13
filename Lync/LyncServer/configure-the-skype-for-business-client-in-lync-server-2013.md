@@ -1,13 +1,14 @@
 ---
 title: Configure the Skype for Business client in Lync Server 2013
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
 ms:contentKeyID: 65227958
 ms.date: 09/18/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

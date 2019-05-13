@@ -34,7 +34,7 @@ Customer satisfaction is a priority for Skype for Business. However, in the even
 
 - Toll-Free Phone Number: 0800 032 6417
 
-- Online: Sign in to the Office 365 admin center and submit a service request by selecting **New service request** under **Support**.
+- Online: Sign in to the Microsoft 365 admin center and submit a service request by selecting **New service request** under **Support**.
 
 ## Timelines
 

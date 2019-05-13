@@ -1,7 +1,7 @@
 ---
 title: Enterprise test plan for Audio Conferencing in Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article

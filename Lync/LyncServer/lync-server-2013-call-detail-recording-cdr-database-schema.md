@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call detail recording (CDR) database schema'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call detail recording (CDR) database schema
 ms:assetid: 754642cd-051a-47da-bb08-27800dae39d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398570(v=OCS.15)
 ms:contentKeyID: 48184527
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

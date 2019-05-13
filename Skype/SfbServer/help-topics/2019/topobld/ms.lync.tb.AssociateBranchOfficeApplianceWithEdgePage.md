@@ -1,8 +1,8 @@
 ---
 title: "Associate Branch Office Appliance With Edge"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

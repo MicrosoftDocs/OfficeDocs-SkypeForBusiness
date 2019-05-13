@@ -1,13 +1,14 @@
 ---
 title: 'Restoring a mirrored Enterprise Edition Back End Server - mirror'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - mirror
 ms:assetid: 4b3c8eae-6f1f-4377-b39b-6699e725c517
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945626(v=OCS.15)
 ms:contentKeyID: 51541471
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

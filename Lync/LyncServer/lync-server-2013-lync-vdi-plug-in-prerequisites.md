@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync VDI plug-in prerequisites'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync VDI plug-in prerequisites
 ms:assetid: da25a976-7624-4dfc-b332-9c4db4ee78da
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205304(v=OCS.15)
 ms:contentKeyID: 48185552
 ms.date: 03/07/2017
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

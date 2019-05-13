@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 backup Registrar relationships
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Backup Registrar relationships
 ms:assetid: 7e078271-84b9-4666-989c-c4507a0cdf4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205033(v=OCS.15)
 ms:contentKeyID: 48184631
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

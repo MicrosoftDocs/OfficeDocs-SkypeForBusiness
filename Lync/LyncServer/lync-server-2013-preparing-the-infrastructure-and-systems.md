@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Preparing the infrastructure and systems'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Preparing the infrastructure and systems
 ms:assetid: 1254ee38-0679-4714-b293-1050f107c158
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398205(v=OCS.15)
 ms:contentKeyID: 48183458
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

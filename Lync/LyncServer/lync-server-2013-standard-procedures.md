@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Standard procedures'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Standard procedures
 ms:assetid: 1b45d610-9840-4568-89e5-004ba31a15cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720323(v=OCS.15)
 ms:contentKeyID: 63969581
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
