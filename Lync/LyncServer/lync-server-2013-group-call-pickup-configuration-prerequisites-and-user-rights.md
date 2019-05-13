@@ -1,13 +1,14 @@
 ---
 title: 'Group Call Pickup configuration prerequisites and user rights'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Group Call Pickup configuration prerequisites and user rights
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945641(v=OCS.15)
 ms:contentKeyID: 51541495
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

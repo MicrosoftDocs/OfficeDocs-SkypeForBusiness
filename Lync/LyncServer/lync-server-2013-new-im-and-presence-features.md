@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New IM and presence features'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New IM and presence features
 ms:assetid: dd54b9ef-37cb-4b8e-9067-9fb80b48b1b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205322(v=OCS.15)
 ms:contentKeyID: 48185600
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

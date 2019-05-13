@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Modify a voice policy and configure PSTN usage records'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Modify a voice policy and configure PSTN usage records
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398511(v=OCS.15)
 ms:contentKeyID: 48184419
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

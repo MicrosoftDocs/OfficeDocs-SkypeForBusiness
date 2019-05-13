@@ -1,13 +1,14 @@
 ---
 title: 'Delete an existing collection of Lync Phone Edition configuration settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete an existing collection of Lync Phone Edition configuration settings
 ms:assetid: 1bfc427d-4dcd-4199-b25f-8d5cfec2164f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687984(v=OCS.15)
 ms:contentKeyID: 49733574
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

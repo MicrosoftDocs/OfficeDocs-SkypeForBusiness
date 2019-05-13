@@ -1,13 +1,14 @@
 ---
 title: 'Delete an existing collection of A/V Edge Server configuration settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete an existing collection of A/V Edge Server configuration settings
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688077(v=OCS.15)
 ms:contentKeyID: 49733673
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

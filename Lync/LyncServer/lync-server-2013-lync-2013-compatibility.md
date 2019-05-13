@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync 2013 compatibility'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync 2013 compatibility
 ms:assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412817(v=OCS.15)
 ms:contentKeyID: 51541502
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Modifying user account properties'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Modifying user account properties
 ms:assetid: 0716c2ae-ffa7-4877-9d70-fe72be63ad9a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687961(v=OCS.15)
 ms:contentKeyID: 49733546
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

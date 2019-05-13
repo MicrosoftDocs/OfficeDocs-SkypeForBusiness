@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Capacity planning for Response Group'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Capacity planning for Response Group
 ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
 ms:contentKeyID: 48184951
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

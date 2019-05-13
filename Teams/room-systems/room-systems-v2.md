@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms"
-ms.author: Turgayo
-author: Turgayo
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom

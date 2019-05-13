@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Setting up the Director'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Setting up the Director
 ms:assetid: 408b76f7-6fdd-4e50-8a3e-e87db12c1394
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425915(v=OCS.15)
 ms:contentKeyID: 48183951
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

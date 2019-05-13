@@ -1,13 +1,14 @@
 ---
 title: 'Adding Archiving databases to an existing Lync Server 2013 Deployment'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Adding Archiving databases to an existing Lync Server 2013 Deployment
 ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204997(v=OCS.15)
 ms:contentKeyID: 48184482
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

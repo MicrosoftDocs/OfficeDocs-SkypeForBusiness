@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment checklist for call admission control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment checklist for call admission control
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398631(v=OCS.15)
 ms:contentKeyID: 48184621
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

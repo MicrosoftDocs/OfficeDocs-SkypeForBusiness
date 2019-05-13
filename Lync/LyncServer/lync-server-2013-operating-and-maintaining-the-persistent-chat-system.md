@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Operating and maintaining the Persistent Chat system'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Operating and maintaining the Persistent Chat system
 ms:assetid: 84572a6a-3a99-44de-828f-09e2af2d151d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398671(v=OCS.15)
 ms:contentKeyID: 48184701
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

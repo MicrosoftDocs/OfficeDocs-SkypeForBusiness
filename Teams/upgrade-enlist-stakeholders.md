@@ -1,7 +1,7 @@
 ---
 title: Enlist stakeholders | Skype for Business to Teams upgrade planning
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

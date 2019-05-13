@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Verify connectivity for external users'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Verify connectivity for external users
 ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398402(v=OCS.15)
 ms:contentKeyID: 48184249
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

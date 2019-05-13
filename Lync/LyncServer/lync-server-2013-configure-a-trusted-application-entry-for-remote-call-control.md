@@ -1,13 +1,14 @@
 ---
 title: 'Configure a trusted application entry for remote call control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
 ms:contentKeyID: 48183829
 ms.date: 11/03/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

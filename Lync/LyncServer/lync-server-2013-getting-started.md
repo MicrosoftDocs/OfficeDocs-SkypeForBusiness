@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Getting started'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Getting started
 ms:assetid: 8528232b-3709-472c-91e3-f1e8171af8cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398676(v=OCS.15)
 ms:contentKeyID: 48184710
 ms.date: 04/03/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

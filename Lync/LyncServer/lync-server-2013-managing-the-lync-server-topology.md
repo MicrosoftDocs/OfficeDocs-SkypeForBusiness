@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing the Lync Server topology'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing the Lync Server 2013 topology
 ms:assetid: 323ef486-c907-4036-a2bf-c869b1d7f288
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520973(v=OCS.15)
 ms:contentKeyID: 48183784
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

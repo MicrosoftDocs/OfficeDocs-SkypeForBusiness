@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Overview of monitoring'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Overview of monitoring
 ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204937(v=OCS.15)
 ms:contentKeyID: 48184261
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

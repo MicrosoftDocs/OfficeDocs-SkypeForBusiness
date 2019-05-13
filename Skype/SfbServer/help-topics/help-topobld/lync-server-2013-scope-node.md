@@ -1,8 +1,8 @@
 ---
 title: "Lync Server 2013 Scope Node"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro

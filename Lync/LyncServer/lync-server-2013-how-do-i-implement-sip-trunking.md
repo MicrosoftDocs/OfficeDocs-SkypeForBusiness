@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: How do I implement SIP trunking?'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: How do I implement SIP trunking?
 ms:assetid: 273a22b1-8a4c-4187-acf8-c57d5c6598ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425743(v=OCS.15)
 ms:contentKeyID: 48183666
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

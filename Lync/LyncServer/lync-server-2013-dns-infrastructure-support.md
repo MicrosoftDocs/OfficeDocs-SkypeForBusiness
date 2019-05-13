@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: DNS infrastructure support'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Domain Name System (DNS) infrastructure support
 ms:assetid: 37777c16-94ce-436d-b517-bcf53a564513
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425850(v=OCS.15)
 ms:contentKeyID: 48183878
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: View common area phone information'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View common area phone information
 ms:assetid: e652240c-6a3f-4be7-a083-32f24c08e655
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994081(v=OCS.15)
 ms:contentKeyID: 51803992
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

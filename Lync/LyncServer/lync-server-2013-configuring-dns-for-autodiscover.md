@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring DNS for Autodiscover'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring DNS for Autodiscover
 ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)
 ms:contentKeyID: 51541528
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
