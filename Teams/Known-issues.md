@@ -23,6 +23,13 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Administration
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|	
+|:-----|:-----|:-----|:-----|
+|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/> |To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
+
+
+
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |
