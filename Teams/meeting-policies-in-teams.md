@@ -147,7 +147,7 @@ Note that transcription for recorded meetings is currently only supported for us
 
 ### Allow cloud recording
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the setting is turned on for the participant and if they're an authenticated user from the same organization.
+This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording. 
 
@@ -380,7 +380,7 @@ Meeting organizers can click **Meeting Options** in the meeting invitation to ch
 
 Here's how this setting affects whether the meeting organizer can change the **Automatically admit people** setting for each meeting the organizer schedules.
 
-|Allow meeting organizers to override lobby settings  |Automatically admit people  |Behavior |
+|Allow organizers to override lobby settings  |Automatically admit people  |Behavior |
 |---------|---------|---------|
 |True    | Everyone      | Organizer can change the setting to any other value. |
 |   | Everyone in your organization       | Organizer can change the setting to any other value.|
