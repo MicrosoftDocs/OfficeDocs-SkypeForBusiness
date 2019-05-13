@@ -90,6 +90,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
+- [Allow private Meet now (coming soon)](#allow-private-meet-now-coming-soon)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -99,6 +100,10 @@ When you select an existing policy on the **Meeting policies** page or select **
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad-hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad-hoc meeting in the channel.
 
 ![meeting-policies-meet-now.png](media/meeting-policies-meet-now.png)
+
+### Allow private Meet now (coming soon)
+
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  
 
 ### Allow the Outlook add-in
 
@@ -130,16 +135,21 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (KBs)](#media-bit-rate-kbs)
+- [Enable live captions](#enable-live-captions)
 
 ### Allow transcription
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
+This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription. 
+
+Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
 ![meeting-policies-transcription.png](media/meeting-policies-transcription.png)
 
 ### Allow cloud recording
 
 This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the setting is turned on for the participant and if they're an authenticated user from the same organization.
+
+People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording. 
 
 ![meeting-policies-recording.png](media/meeting-policies-recording.png)
 
@@ -149,12 +159,15 @@ Let's look at the following example.
 |---------|---------|---------|
 |Daniela | Global   | False |
 |Amanda | Location1MeetingPolicy | True|
+|John (external user) | Not applicable | Not applicable|
 
-Meetings organized by Daniela can't be recorded and Amanda, who has the policy setting enabled, can't record meetings organized by Daniela. Meetings organized by Amanda can be recorded and Daniela, who has the policy setting disabled, can't record meetings organized by Amanda. To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
+Meetings organized by Daniela can't be recorded and Amanda, who has the policy setting enabled, can't record meetings organized by Daniela. Meetings organized by Amanda can be recorded, however,  Daniela, who has the policy setting disabled and John who is an external user, can't record meetings organized by Amanda.
+
+To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
 ### Allow IP video
 
-This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users’ meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
+This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users’ meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
 ![meeting-policies-audio-video-settings.png](media/meeting-policies-audio-video-settings.png)
 
@@ -173,9 +186,15 @@ If Daniela calls Amanda with video on, Amanda can answer the call with audio onl
 
 ### Media bit rate (KBs)
 
-This is a per-organizer policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in meetings for a user. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend to have enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
+This is a per-organizer policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend to have enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
 
-For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set,the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. If there isn’t enough bandwidth for a meeting, participants see a message that indicates poor network quality.
+If there isn’t enough bandwidth for a meeting, participants see a message that indicates poor network quality.
+
+For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set,the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
+
+### Enable live captions (coming soon)
+
+This is a per-user policy and applies during a meeting. If this setting is on, the user sees an option to display captions during a meeting.
 
 <a name="bkcontentsharing"> </a>
 
@@ -187,10 +206,11 @@ For meetings that need the highest quality video experience, such as CEO board m
 - [Allow PowerPoint sharing](#allow-powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)
+- [Allow chat in meetings (coming soon)](#allow-chat-in-meetings-coming-soon)
 
 ### Screen sharing mode
 
-This is a per-organizer policy. This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, including anonymous and federated participants) inherit the policy of the meeting organizer.
+This is a combination of a per-organizer and per-user policy. This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -205,7 +225,7 @@ Let's look at the following example.
 |Daniela  | Global   | Entire screen |
 |Amanda   | Location1MeetingPolicy  | Disabled |
 
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela’s meeting, Amanda can share her screen or a specific application, even though her policy is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them. This means that Daniela can't share her screen or a single application in Amanda’s meetings.  
+Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela’s meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them. This means that Daniela can't share her screen or a single application in Amanda’s meetings.  
 
 Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
 
@@ -235,11 +255,11 @@ Daniela can give control of the shared desktop or window to other participants i
 This is a per-user policy. This setting controls whether external participants in a meeting can give control of their shared desktop or window to other participants in the meeting. External participants in Teams meetings can be categorized as follows:  
 
    - Anonymous user
-   - Guest user  
+   - Guest users  
    - B2B user
    - Federated user  
 
-Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control setting** setting in their organization.
+Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
 
 ### Allow PowerPoint sharing
 
@@ -256,7 +276,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ### Allow whiteboard
 
-This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer. 
+This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. 
 
 Let's look at the following example.
 
@@ -269,7 +289,7 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 ### Allow shared notes
 
-This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer. 
+This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have less than 20 participants. 
 
 Let's look at the following example.
 
@@ -280,47 +300,20 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
+### Allow chat in meetings (coming soon)
+
+This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. 
+
 <a name="bkparticipantsandguests"> </a>
 
 ## Meeting policy settings - Participants & guests
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
-- [Allow people that dial in to start a meeting](#allow-people-that-dial-in-to-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
+- [Allow external users to start a meeting](#allow-external-users-to-start-a-meeting)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Allow organizers to override lobby settings](#allow-organizers-to-override-lobby-settings-coming-soon)
-- [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
-- [Enable live captions](#enable-live-captions)
-- [Allow chat in meetings](#allow-chat-in-meetings)
-
-### Allow people that dial in to start a meeting
-
-This is a per-organizer policy. This setting controls whether people who dial in by phone and who haven't been authenticated join a meeting scheduled by the user without an authenticated user from the organization in attendance. This includes including federated and B2B participants.
-
-![meeting-policies-anonymous-user-lobby.png](media/meeting-policies-anonymous-user-lobby.png)
-
-Here's the join behavior of people who dial in when authenticated users are present in the meeting.
-
-|Allow people that dial in to start a meeting  |Automatically admit people |Join behavior of people who dial in |
-|---------|---------|---------|
-|True    | Everyone      | Join directly         |
-|   | Everyone in your organization       | Wait in lobby        |
-|   | Everyone in your organization and federated organizations       | Wait in lobby         |
-|False    | Everyone        | Join directly        |
-|   | Everyone in your organization     | Wait in lobby        |
-|   | Everyone in your organization and federated organizations      | Wait in lobby         |
-
-Here's the join behavior of people who dial in when no authenticated users are present in the meeting.
-
-|Allow people that dial in to start a meeting |Automatically admit people  |Join behavior of people who dial in |
-|---------|---------|---------|
-|True    | Everyone      | Join directly         |
-|   | Everyone in your organization       | Wait in lobby        |
-|   | Everyone in your organization and federated organizations       | Wait in lobby         |
-|False    | Everyone        | Wait in lobby. Users are automatically admitted when the first authenticated user joins the meeting.        |
-|   | Everyone in your organization     |Wait in lobby         |
-|   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
 ### Automatically admit people
 
@@ -335,6 +328,34 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, federated users, guests, anonymous users, and people who dial in by phone.       |
 |**Everyone in your organization and federated organizations**     |Authenticated users within the organization, including guest users and the users from federated organizations, join the meeting directly without waiting in the lobby.  Anonymous users and users who dial in by phone wait in the lobby.   |
 |**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Federated users, anonymous users, and users who dial in by phone wait in the lobby.           |
+
+### Allow external users to start a meeting
+
+This is a per-organizer policy. This setting controls whether external users, including anonymous, B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
+
+![meeting-policies-anonymous-user-lobby.png](media/meeting-policies-anonymous-user-lobby.png)
+
+Here's the join behavior of external users when authenticated users are present in the meeting.
+
+|Allow external users to start a meeting  |Automatically admit people |Join behavior of external users |
+|---------|---------|---------|
+|True    | Everyone      | Join directly         |
+|   | Everyone in your organization       | Wait in lobby        |
+|   | Everyone in your organization and federated organizations       | Wait in lobby         |
+|False    | Everyone        | Join directly        |
+|   | Everyone in your organization     | Wait in lobby        |
+|   | Everyone in your organization and federated organizations      | Wait in lobby         |
+
+Here's the join behavior of external users when no authenticated users are present in the meeting.
+
+|Allow external users to start a meeting |Automatically admit people  |Join behavior of external users |
+|---------|---------|---------|
+|True    | Everyone      | Join directly         |
+|   | Everyone in your organization       | Wait in lobby        |
+|   | Everyone in your organization and federated organizations       | Wait in lobby         |
+|False    | Everyone        | Wait in lobby. Users are automatically admitted when the first authenticated user joins the meeting.        |
+|   | Everyone in your organization     |Wait in lobby         |
+|   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
 ### Allow dial-in users to bypass the lobby (coming soon)
 
@@ -376,18 +397,6 @@ Here's how this setting affects whether the meeting organizer can change the **A
 |True      | False         | Organizer can change the setting to True.        |
 |False     | True        |Organizer can change the setting to False.         |
 |False      |False          |Organizer can't override the lobby setting and can't allow dial-in users to bypass the lobby in the meeting.        |
-
-### Allow Meet now in private meetings (coming soon)
-
-Turn this setting on to allow meeting attendees to meet privately via chat before the meeting begins.
-
-### Enable live captions (coming soon)
-
-Enable this setting to display captions in supported languages during a meeting.
-
-### Allow chat in meetings (coming soon)
-
-Enable this setting to permit chats during a meeting. This is helpful if users have questions or want to insert a hyperlink or note during a discussion, but they don't want to interrupt the conversation.
 
 [Full article](meeting-policies-in-teams.md)
 
