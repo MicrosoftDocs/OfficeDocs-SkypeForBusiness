@@ -311,7 +311,7 @@ This is a per-organizer policy. This setting controls whether meeting chat is al
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
 - [Automatically admit people](#automatically-admit-people)
-- [Allow external users to start a meeting](#allow-external-users-to-start-a-meeting)
+- [Allow anonymous people to start a meeting](#allow-anonymous-people-to-start-a-meeting)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Allow organizers to override lobby settings](#allow-organizers-to-override-lobby-settings-coming-soon)
 
@@ -329,15 +329,15 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |**Everyone in your organization and federated organizations**     |Authenticated users within the organization, including guest users and the users from federated organizations, join the meeting directly without waiting in the lobby.  Anonymous users and users who dial in by phone wait in the lobby.   |
 |**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Federated users, anonymous users, and users who dial in by phone wait in the lobby.           |
 
-### Allow external users to start a meeting
+### Allow anonymous people to start a meeting
 
-This is a per-organizer policy. This setting controls whether external users, including anonymous, B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
+This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
 
 ![meeting-policies-anonymous-user-lobby.png](media/meeting-policies-anonymous-user-lobby.png)
 
-Here's the join behavior of external users when authenticated users are present in the meeting.
+Here's the join behavior of anonymous people when authenticated users are present in the meeting.
 
-|Allow external users to start a meeting  |Automatically admit people |Join behavior of external users |
+|Allow anonymous people to start a meeting  |Automatically admit people |Join behavior of anonymous people |
 |---------|---------|---------|
 |True    | Everyone      | Join directly         |
 |   | Everyone in your organization       | Wait in lobby        |
@@ -346,9 +346,9 @@ Here's the join behavior of external users when authenticated users are present 
 |   | Everyone in your organization     | Wait in lobby        |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-Here's the join behavior of external users when no authenticated users are present in the meeting.
+Here's the join behavior of anonymous people when no authenticated users are present in the meeting.
 
-|Allow external users to start a meeting |Automatically admit people  |Join behavior of external users |
+|Allow anonymous people to start a meeting |Automatically admit people  |Join behavior of anonymous people |
 |---------|---------|---------|
 |True    | Everyone      | Join directly         |
 |   | Everyone in your organization       | Wait in lobby        |
