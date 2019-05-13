@@ -59,9 +59,9 @@ Then assign the policy to the users.
 
 ## Assign a meeting policy to users
 
-If you are applying the policy to one user, select **Users** on the left navigation pane, and then click the user's display name. On the user's page, next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and then select **Save**. You can also assign policies from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**. 
+If you're applying the policy to one user, select **Users** on the left navigation pane, and then click the user's display name. On the user's page, next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and then select **Save**. You can also assign policies from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**. 
  
-If you are applying a policy to more than one user, select **Users** on the left navigation pane, and then select each user by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**.
+If you're applying a policy to more than one user, select **Users** on the left navigation pane, and then select each user by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**.
  
 You can also assign a meeting policy to one or more users as follows:
 
@@ -69,7 +69,7 @@ You can also assign a meeting policy to one or more users as follows:
 2. Select the policy by clicking to the left of the policy name.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you are finished adding users, select **Save**.
+5. When you're finished adding users, select **Save**.
  
 > [!NOTE] 
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
