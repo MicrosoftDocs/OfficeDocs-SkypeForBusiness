@@ -135,7 +135,7 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (KBs)](#media-bit-rate-kbs)
-- [Enable live captions](#enable-live-captions)
+- [Enable live captions (coming soon)](#enable-live-captions-coming-soon)
 
 ### Allow transcription
 
