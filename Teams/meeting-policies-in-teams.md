@@ -391,7 +391,7 @@ Here's how this setting affects whether the meeting organizer can change the **A
 
 Here's how this setting affects whether the meeting organizer can change the **Allow dial-in users to bypass the lobby** setting for each meeting the organizer schedules.
     
-|Allow meeting organizers to override lobby settings  |Allow dial-in users to bypass the lobby  |Behavior |
+|Allow organizers to override lobby settings  |Allow dial-in users to bypass the lobby  |Behavior |
 |---------|---------|---------|
 |True    |  True        | Organizer can change the setting to False.       |
 |True      | False         | Organizer can change the setting to True.        |
