@@ -1,9 +1,10 @@
 ---
 title: "Plan for Mobility for Skype for Business Server"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 2/17/2018
+manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro

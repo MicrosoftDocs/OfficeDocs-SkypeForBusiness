@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync PreCall Diagnostics Tool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
 ms:contentKeyID: 56708404
 ms.date: 11/04/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

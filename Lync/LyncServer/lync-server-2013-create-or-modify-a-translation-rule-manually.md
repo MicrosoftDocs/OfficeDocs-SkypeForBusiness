@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or modify a translation rule manually'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or modify a translation rule manually
 ms:assetid: 049d1db3-af58-48c5-be89-52e1d068a4bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398099(v=OCS.15)
 ms:contentKeyID: 48183276
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

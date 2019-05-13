@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Internet Information Services (IIS) requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Internet Information Services (IIS) requirements
 ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
 ms:contentKeyID: 48184128
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

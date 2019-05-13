@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Delete a collection of Device Update configuration settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete a collection of Device Update configuration settings
 ms:assetid: 1a649136-34a9-42a7-a5b3-a78bbfe93f36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994019(v=OCS.15)
 ms:contentKeyID: 51803928
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

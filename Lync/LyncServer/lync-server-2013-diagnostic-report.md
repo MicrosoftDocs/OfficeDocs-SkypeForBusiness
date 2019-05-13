@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Diagnostic Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Diagnostic Report
 ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
 ms:contentKeyID: 48185159
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

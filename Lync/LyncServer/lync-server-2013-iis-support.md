@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: IIS support'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Internet Information Services (IIS) support
 ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398987(v=OCS.15)
 ms:contentKeyID: 48185627
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

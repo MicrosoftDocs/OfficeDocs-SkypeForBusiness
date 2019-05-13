@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create a dial plan'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create a dial plan
 ms:assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398909(v=OCS.15)
 ms:contentKeyID: 48185424
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

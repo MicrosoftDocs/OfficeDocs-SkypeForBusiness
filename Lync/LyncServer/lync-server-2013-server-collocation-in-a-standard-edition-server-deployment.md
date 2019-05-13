@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 server collocation in a Standard Edition server deployment
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Server collocation in a Standard Edition server deployment
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398131(v=OCS.15)
 ms:contentKeyID: 48183314
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

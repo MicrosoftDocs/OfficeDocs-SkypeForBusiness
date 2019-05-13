@@ -1,10 +1,11 @@
 ---
 title: "Help-DepWiz"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: article
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058

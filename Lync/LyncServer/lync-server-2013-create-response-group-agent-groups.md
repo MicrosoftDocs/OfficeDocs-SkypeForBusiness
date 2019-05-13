@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create Response Group agent groups'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create Response Group agent groups
 ms:assetid: 2a80de17-ead0-46e8-8a27-7a4e233dbde0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520969(v=OCS.15)
 ms:contentKeyID: 48183688
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

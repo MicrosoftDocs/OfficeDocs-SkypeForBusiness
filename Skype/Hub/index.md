@@ -4,6 +4,7 @@ hide_bc: true
 title: Skype for Business
 ms.reviewer: 
 ms.author: kenwith
+manager: serdars
 author: kenwith
 description: Skype for Business
 ---

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Running domain preparation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Running domain preparation
 ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
 ms:contentKeyID: 48184847
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

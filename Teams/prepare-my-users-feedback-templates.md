@@ -1,7 +1,7 @@
 ---
 title: User feedback surveys in Microsoft Teams or Skype for Business
-author: dearbeen
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article

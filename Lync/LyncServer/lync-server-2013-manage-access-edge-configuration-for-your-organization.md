@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Manage Access Edge Configuration for your organization'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Manage Access Edge Configuration for your organization
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

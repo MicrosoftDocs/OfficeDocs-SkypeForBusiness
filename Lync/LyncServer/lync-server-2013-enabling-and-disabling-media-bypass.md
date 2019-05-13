@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enabling and disabling media bypass'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enabling and disabling media bypass
 ms:assetid: f2b33a88-99c8-42ad-9fec-6bb9c5e9ff19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721937(v=OCS.15)
 ms:contentKeyID: 49733874
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Supported clients from previous deployments'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Supported clients from previous deployments
 ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398499(v=OCS.15)
 ms:contentKeyID: 48184390
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

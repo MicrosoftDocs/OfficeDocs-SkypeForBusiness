@@ -1,13 +1,14 @@
 ---
 title: 'Certificate summary - Single consolidated edge with public IP addresses'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Certificate summary - Single consolidated edge with public IP addresses
 ms:assetid: 25b8ae7a-e5a0-43c0-92ae-7e144d5e4a36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204747(v=OCS.15)
 ms:contentKeyID: 48183653
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Quick start guide - Configuring Calling Plans in Microsoft Teams
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: Rowille, lolaj
+ms.reviewer: rowille, crowe
 search.appverid: MET150
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 localization_priority: Normal

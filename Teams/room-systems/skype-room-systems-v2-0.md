@@ -1,7 +1,7 @@
 ---
 title: "Plan for Microsoft Teams Rooms"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018

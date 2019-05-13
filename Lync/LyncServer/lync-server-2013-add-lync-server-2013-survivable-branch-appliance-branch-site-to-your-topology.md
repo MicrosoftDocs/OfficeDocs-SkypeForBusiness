@@ -1,13 +1,14 @@
 ---
 title: 'Add Lync Server 2013 Survivable Branch Appliance branch site to your topology'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Add Lync Server 2013 Survivable Branch Appliance branch site to your topology
 ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721896(v=OCS.15)
 ms:contentKeyID: 49733830
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

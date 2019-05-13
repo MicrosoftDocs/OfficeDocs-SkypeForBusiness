@@ -1,7 +1,7 @@
 ---
 title: "Skype Meetings App minimum network requirements"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018

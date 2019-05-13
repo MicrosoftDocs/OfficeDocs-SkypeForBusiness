@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Home users on a Survivable Branch Appliance or Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Home users on a Survivable Branch Appliance or Server
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413066(v=OCS.15)
 ms:contentKeyID: 48185926
 ms.date: 12/11/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

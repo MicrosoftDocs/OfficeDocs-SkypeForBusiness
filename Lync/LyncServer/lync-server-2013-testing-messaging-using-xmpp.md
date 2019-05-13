@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing messaging using XMPP'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing messaging using XMPP
 ms:assetid: ae5305ba-e5fc-4ca0-a805-872b4ebaf981
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727312(v=OCS.15)
 ms:contentKeyID: 63969641
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
