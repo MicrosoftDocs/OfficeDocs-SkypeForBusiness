@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining and configuring the topology'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining and configuring the topology
 ms:assetid: 51d1601e-4f83-48d4-ad08-3b4d5e2003aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398339(v=OCS.15)
 ms:contentKeyID: 48184146
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

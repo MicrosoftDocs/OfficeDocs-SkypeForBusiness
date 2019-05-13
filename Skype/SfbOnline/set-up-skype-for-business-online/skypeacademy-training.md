@@ -1,9 +1,9 @@
 ---
 title: "Admin training for Skype for Business Online"
 ms.reviewer: 
-author: thomasbinder
-ms.author: thomasbinder
-manager: lehewe
+author: lanachin
+ms.author: v-lanac
+manager: serdars
 ms.date: 10/05/2018
 ms.topic: article
 ms.prod: skype-for-business-itpro

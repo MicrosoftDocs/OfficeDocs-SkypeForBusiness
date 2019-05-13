@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 reference topology for medium-size organizations
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
 ms:contentKeyID: 48184026
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

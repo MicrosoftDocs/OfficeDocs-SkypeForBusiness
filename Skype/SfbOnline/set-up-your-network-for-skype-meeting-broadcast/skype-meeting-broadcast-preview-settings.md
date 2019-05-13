@@ -1,6 +1,6 @@
 ---
 title: "Skype Meeting Broadcast Preview settings"
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan

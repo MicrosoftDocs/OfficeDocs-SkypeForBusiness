@@ -1,9 +1,10 @@
 ---
 title: "Skype for Business Server Capacity Planning Calculator"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 2/1/2018
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro

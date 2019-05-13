@@ -1,7 +1,7 @@
 ---
 title: "Install and test Skype for Business for iOS"
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: PhillipGarding

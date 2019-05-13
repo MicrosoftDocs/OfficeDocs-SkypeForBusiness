@@ -1,8 +1,8 @@
 ---
 title: "Call Detail Recording Create New or Edit Existing"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

@@ -1,13 +1,14 @@
 ---
 title: Apply Lync Server 2010 updates
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Apply Lync Server 2010 updates
 ms:assetid: 1e452282-a2ad-4081-9f2e-d3f61219364e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204730(v=OCS.15)
 ms:contentKeyID: 48183571
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

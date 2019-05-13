@@ -1,13 +1,14 @@
 ---
 title: 'Install operating systems and prerequisite software on servers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Install operating systems and prerequisite software on servers
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)
 ms:contentKeyID: 48183288
 ms.date: 07/24/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

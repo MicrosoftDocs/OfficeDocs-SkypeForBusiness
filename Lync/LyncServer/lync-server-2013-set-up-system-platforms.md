@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Set up system platforms'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Set up system platforms
 ms:assetid: 2e72e49d-2737-4b5b-8c0a-60f6ecb15bf1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204783(v=OCS.15)
 ms:contentKeyID: 48183756
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

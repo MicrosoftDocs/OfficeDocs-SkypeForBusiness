@@ -1,13 +1,14 @@
 ---
 title: 'IIS requirements for Front End pools and Standard Edition servers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: IIS requirements for Front End pools and Standard Edition servers
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
 ms:contentKeyID: 48185888
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblLastInviteId'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblLastInviteId
 ms:assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558625(v=OCS.15)
 ms:contentKeyID: 48183608
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

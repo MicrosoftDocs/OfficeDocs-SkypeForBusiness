@@ -1,7 +1,7 @@
 ---
 title: Training for Microsoft Teams | IT support Admin issues 
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams

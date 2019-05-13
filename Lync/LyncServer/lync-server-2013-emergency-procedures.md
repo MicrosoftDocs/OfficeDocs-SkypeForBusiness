@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Emergency procedures'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Emergency procedures
 ms:assetid: ac92b267-4c21-4304-91dc-606f9db6d4a6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720345(v=OCS.15)
 ms:contentKeyID: 63969640
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

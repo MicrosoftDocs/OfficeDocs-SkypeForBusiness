@@ -1,7 +1,7 @@
 ---
 title: About the upgrade framework
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 12/18/2018
 ms.topic: conceptual

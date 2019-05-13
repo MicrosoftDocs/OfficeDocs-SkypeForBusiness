@@ -1,13 +1,14 @@
 ---
 title: Configure Lync Server 2013 Scenarios
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure Lync Server 2013 Scenarios
 ms:assetid: 6705346b-1512-4af3-85e4-64dfa6ee6f80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945596(v=OCS.15)
 ms:contentKeyID: 51541420
 ms.date: 12/28/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

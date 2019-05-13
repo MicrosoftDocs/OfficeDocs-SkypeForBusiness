@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Region table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Region table
 ms:assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398235(v=OCS.15)
 ms:contentKeyID: 48183518
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Certificate and authentication cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Certificate and authentication cmdlets
 ms:assetid: ebb51778-3558-49d2-8343-d83e7a731559
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415680(v=OCS.15)
 ms:contentKeyID: 48185711
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

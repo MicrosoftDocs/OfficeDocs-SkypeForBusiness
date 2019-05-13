@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing Persistent Chat user access'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Persistent Chat user access
 ms:assetid: 588fab46-2960-435b-9ec0-7460079a9088
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398387(v=OCS.15)
 ms:contentKeyID: 48184211
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

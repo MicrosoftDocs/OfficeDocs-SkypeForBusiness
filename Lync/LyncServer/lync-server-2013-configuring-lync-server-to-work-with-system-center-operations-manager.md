@@ -1,13 +1,14 @@
 ---
 title: 'Configuring Lync Server to work with System Center Operations Manager'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring Lync Server to work with System Center Operations Manager
 ms:assetid: b55a24ab-648b-4142-b3cd-3792860ba872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205188(v=OCS.15)
 ms:contentKeyID: 48185179
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

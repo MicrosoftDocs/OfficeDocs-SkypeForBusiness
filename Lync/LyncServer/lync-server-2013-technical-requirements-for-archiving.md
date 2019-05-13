@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Technical requirements for Archiving'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Technical requirements for Archiving
 ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205059(v=OCS.15)
 ms:contentKeyID: 48184732
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

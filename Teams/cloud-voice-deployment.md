@@ -1,7 +1,7 @@
 ---
 title: Cloud voice deployment
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: ConferenceJoinTimeThresholds table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: ConferenceJoinTimeThresholds table
 ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
 ms:contentKeyID: 48183855
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Customize the Mac client experience in Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
 ms.audience: ITPro

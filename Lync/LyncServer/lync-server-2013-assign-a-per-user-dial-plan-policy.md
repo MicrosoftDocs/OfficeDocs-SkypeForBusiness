@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Assign a per-user dial plan policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assign a per-user dial plan policy
 ms:assetid: 9fea861f-7770-4cae-9b1f-2a960595bfc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688156(v=OCS.15)
 ms:contentKeyID: 49733760
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

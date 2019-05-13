@@ -1,7 +1,7 @@
 ---
 title: Upgrade Skype for Business on-premises to Microsoft Teams | Deploy | Lync
-author: arachmanGitHub
-ms.author: arachman
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
