@@ -47,7 +47,8 @@ try
     }
     if (Test-Path -Path $TeamsPath) {
         Write-Host "Deleting Teams directory"
-        Remove-Item –Path $TeamsPath -Recurse
+        Remove-Item -Path $TeamsPath -Recurse
+                    
     }
 }
 catch

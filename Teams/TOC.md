@@ -625,6 +625,7 @@
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+### [Install Moodle integration](install-moodle-integration.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)

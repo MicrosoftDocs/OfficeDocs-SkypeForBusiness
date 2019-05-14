@@ -1351,8 +1351,6 @@ For more information, see [this article about media quality and network performa
 
 -   Community: [Skype for Business Preview Program](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
--   To get support, sign in to our preview portal [www.skypepreview.com](http://www.skypepreview.com), select **Report an issue**, and use the **Create New Bug** option to report an issue. Please note that support engineers are available to provide support from Monday through Friday, between the hours of 6 AM and 9 PM Eastern Time (United States). Requests outside of those hours will be triaged the following day.
-
 ### Devices
 
 -   [Skype for Business Solutions Catalog Personal Peripherals & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)

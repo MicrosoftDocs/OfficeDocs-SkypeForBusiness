@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
