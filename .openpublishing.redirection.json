@@ -1305,6 +1305,11 @@
       "source_path": "Skype/SfbServer/room-systems/index.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/index", 
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/teams-for-healthcare-landing-page.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc", 
+      "redirect_document_id": true
     }
   ] 
 }
