@@ -261,6 +261,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Search function in SharePoint list tab  <br/> |Attempting to open a file from the search function of the SharePoint list tab will trigger a "You'll need a new app to open this about" prompt and the file will not be opened. <br/> |Open directly from list instead of search bar. <br/> |2/11/2019  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|File download failure <br/> |Attempting to download a file when the file path contains an apostrophe will trigger a "The file didn't download" failure when using the Microsoft Teams desktop client. <br/> |Download the file from the web client or SharePoint Online <br/> |5/10/2019  <br/> |
+
 ## Teams
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -298,3 +302,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |User not recieving welcome email when added administratively  <br/> |When adding a member to a team using PowerShell or the Teams admin center, they are not recieving a welcome email from Microsoft Teams  <br/> |Adding a member from the Teams UI directly will send an email. Currently, there is no workaround doing so administratively.  <br/> |2/12/19  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to move, delete or rename Fies after editing  <br/> |After a file is eidted in MS teams it cannot be moved or renamed or deleted immediately <br/> |This is urrently a known issue and the workaround is to wait for sometime before making administrativ chnage.  <br/> |03/12119  <br/> |
