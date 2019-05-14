@@ -146,7 +146,7 @@ After the resources are finished deploying to Azure, you'll need to configure th
 5. Copy the **Messaging Endpoint** from the **Overview** section.
 6. In Moodle, open the **Team Settings** page of your Office 365 Moodle plugin.
 7. In the **Bot Endpoint** field, paste the URL you just copied, and change the word *messages* to *webhook*. The URL should now look like this: **https://botname.azurewebsites.net/api/webhook**.
-8.** Click **Save Changes**.
+8. Click **Save Changes**.
 9. Once your changes are saved, go back to the **Team Settings** tab, click the **Download manifest file** button, and save the manifest package on your computer (you'll use it in the next step).
 
 ## Step 4: Deploy your Microsoft Teams app
