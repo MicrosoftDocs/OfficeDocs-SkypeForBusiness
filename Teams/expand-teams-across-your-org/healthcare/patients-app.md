@@ -81,11 +81,11 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
                             "extension": [
                                 {
                                     "url": "token",
-                                    "valueUri": "https://login.microsoftonline.com/145f4187-3b0b-41c8-aa24-b3c1291bfda6/oauth2/token"
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
                                 },
                                 {
                                     "url": "authorize",
-                                    "valueUri": "https://login.microsoftonline.com/145f4187-3b0b-41c8-aa24-b3c1291bfda6/oauth2/authorize"
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
                                 }
                             ],
                             "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
