@@ -1,7 +1,7 @@
 ---
 title: "Provisioning Skype Room System accounts in Office 365"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom

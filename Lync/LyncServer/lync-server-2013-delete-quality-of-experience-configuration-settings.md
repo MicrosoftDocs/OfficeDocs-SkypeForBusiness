@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Delete Quality of Experience configuration settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete Quality of Experience configuration settings
 ms:assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182613(v=OCS.15)
 ms:contentKeyID: 48185954
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

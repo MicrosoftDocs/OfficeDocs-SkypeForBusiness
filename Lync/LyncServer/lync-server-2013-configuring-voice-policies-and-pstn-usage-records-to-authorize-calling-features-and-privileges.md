@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring voice policies and PSTN usage records to authorize calling features and privileges'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring voice policies and PSTN usage records to authorize calling features and privileges
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398450(v=OCS.15)
 ms:contentKeyID: 48184307
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

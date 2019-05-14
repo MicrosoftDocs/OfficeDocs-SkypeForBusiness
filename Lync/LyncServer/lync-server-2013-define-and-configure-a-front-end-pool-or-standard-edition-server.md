@@ -1,13 +1,14 @@
 ---
 title: 'Define and configure a Front End pool or Standard Edition server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Define and configure a Front End pool or Standard Edition server
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
 ms:contentKeyID: 48184457
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

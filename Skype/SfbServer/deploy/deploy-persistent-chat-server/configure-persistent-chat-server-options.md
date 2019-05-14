@@ -1,8 +1,8 @@
 ---
 title: "Configure Persistent Chat Server options in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro

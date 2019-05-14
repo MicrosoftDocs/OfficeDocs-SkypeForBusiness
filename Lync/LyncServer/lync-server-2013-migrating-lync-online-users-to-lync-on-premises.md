@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Migrating Lync Online users to Lync on-premises'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Migrating Lync Online users to Lync on-premises
 ms:assetid: 0e29605b-db2d-4cbf-b6a9-15db6b9fdabc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689115(v=OCS.15)
 ms:contentKeyID: 62258120
 ms.date: 11/13/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

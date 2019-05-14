@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure web publishing rules for a single internal pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure web publishing rules for a single internal pool
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
 ms:contentKeyID: 48184725
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

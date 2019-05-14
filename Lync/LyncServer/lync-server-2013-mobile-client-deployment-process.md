@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Mobile client deployment process'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Mobile client deployment process
 ms:assetid: 6498235b-2fa9-421d-bfa0-0ccc09508dbd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690982(v=OCS.15)
 ms:contentKeyID: 51541484
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

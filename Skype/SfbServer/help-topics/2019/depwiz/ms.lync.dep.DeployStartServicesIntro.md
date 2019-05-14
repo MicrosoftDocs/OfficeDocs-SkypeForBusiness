@@ -1,8 +1,8 @@
 ---
 title: "StartServices (Intro)"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

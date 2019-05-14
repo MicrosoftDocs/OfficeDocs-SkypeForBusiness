@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure site information for E9-1-1'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure site information for E9-1-1
 ms:assetid: 3373be5c-0a99-437d-9604-05194a96c31e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425828(v=OCS.15)
 ms:contentKeyID: 48183824
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

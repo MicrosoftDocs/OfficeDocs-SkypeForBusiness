@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System migration considerations"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom

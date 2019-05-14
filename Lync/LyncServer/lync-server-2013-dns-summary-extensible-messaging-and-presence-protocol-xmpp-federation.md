@@ -1,13 +1,14 @@
 ---
 title: 'DNS summary - Extensible messaging and presence protocol (XMPP) federation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: DNS summary - Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618368(v=OCS.15)
 ms:contentKeyID: 49105655
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

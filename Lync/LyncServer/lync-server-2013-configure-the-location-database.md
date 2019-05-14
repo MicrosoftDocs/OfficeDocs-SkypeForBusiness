@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure the location database'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure the location database
 ms:assetid: 8544be31-6958-47ef-b926-fdc80d56191c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398679(v=OCS.15)
 ms:contentKeyID: 48184704
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure voice Quality of Service for Lync Phone Edition'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure voice Quality of Service for Lync Phone Edition
 ms:assetid: 2fbe19f7-7ebf-4f9b-a779-3a91f41d488f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520971(v=OCS.15)
 ms:contentKeyID: 48183741
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

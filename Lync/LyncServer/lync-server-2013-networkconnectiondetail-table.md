@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: NetworkConnectionDetail table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: NetworkConnectionDetail table
 ms:assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205185(v=OCS.15)
 ms:contentKeyID: 48185170
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

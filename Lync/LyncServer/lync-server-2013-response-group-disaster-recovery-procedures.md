@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 response group disaster recovery procedures
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Response group disaster recovery procedures
 ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205186(v=OCS.15)
 ms:contentKeyID: 48185171
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

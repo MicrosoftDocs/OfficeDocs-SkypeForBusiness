@@ -1,6 +1,6 @@
 ---
 title: "Reset the Audio Conferencing PIN in Microsoft Teams"
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

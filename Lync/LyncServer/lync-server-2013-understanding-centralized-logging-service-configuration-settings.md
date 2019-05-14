@@ -1,13 +1,14 @@
 ---
 title: 'Understanding Centralized Logging Service configuration settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Understanding Centralized Logging Service configuration settings
 ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688029(v=OCS.15)
 ms:contentKeyID: 49733619
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

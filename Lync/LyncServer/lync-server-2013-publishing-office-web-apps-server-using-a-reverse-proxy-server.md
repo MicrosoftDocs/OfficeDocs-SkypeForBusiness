@@ -1,13 +1,14 @@
 ---
 title: 'Publishing Office Web Apps Server using a reverse proxy server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
 ms:contentKeyID: 48183384
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

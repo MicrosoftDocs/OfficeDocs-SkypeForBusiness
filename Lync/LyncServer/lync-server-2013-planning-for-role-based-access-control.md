@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for role-based access control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for role-based access control (RBAC)
 ms:assetid: 41204ba3-ce5b-41a8-a6c3-b444468fa328
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425917(v=OCS.15)
 ms:contentKeyID: 48183962
 ms.date: 01/28/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

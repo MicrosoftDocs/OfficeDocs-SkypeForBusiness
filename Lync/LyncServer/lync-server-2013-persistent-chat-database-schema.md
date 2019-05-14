@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Persistent Chat database schema'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Persistent Chat database schema
 ms:assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558653(v=OCS.15)
 ms:contentKeyID: 48184228
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Test Device"
 ms.reviewer: 
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro

@@ -369,7 +369,7 @@ adoption plan isn’t being executed properly, or some other problem. Depending 
 the actual reason behind the low usage, the service administrator must
 collaborate with the related teams to help remove usage barriers.
 
-### Measuring usage with the Office 365 admin center
+### Measuring usage with the Microsoft 365 admin center
 
 Usage data from Teams is available in the Reporting dashboard. Teams usage data
 can be found in three different reports. The first report provides a
@@ -437,10 +437,10 @@ investigating the items below, in order, to determine where the problem is.
 
 ### References 
 
-[About the Office 365 admin
+[About the Microsoft 365 admin
 center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Activity Reports in the Office 365 admin
+[Activity Reports in the Microsoft 365 admin
 center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Supported server collocation for edge components'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Supported server collocation for edge components
 ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425934(v=OCS.15)
 ms:contentKeyID: 48183978
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

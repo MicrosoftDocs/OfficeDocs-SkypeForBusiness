@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or modify a workflow'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or modify a workflow
 ms:assetid: 5ac1c0f3-e82f-40ca-b972-91950e38c05b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520997(v=OCS.15)
 ms:contentKeyID: 48184225
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

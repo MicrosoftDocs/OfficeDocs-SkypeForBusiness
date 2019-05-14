@@ -1,7 +1,7 @@
 ---
 title: "Set up Cloud Voicemail"
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -60,6 +60,9 @@ The following information is about configuring Cloud Voicemail to work with on-p
 > The Exchange Hybrid Wizard run from Exchange 2013 CU5 or greater will handle the requirements in steps 5 and 6 automatically. 
 
 ## Setting voicemail policies in your organization
+
+> [!WARNING]
+> For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
 
 Voicemail transcription is enabled by default and transcription profanity masking is disabled by default for all organizations and users; however, you can control them by using the [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) and [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlets.
 

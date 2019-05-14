@@ -120,7 +120,7 @@ The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-
 
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
 
 - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Set up your computer for Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)

@@ -1,7 +1,7 @@
 ---
 title: Teams Only mode considerations
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
