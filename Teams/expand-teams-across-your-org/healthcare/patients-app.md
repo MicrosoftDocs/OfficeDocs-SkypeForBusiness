@@ -17,7 +17,7 @@ description: Microsoft Teams Patients app EHR integration
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 To participate in the private preview, see [Enroll in the private preview](#enroll-in-the-private-preview).
 
