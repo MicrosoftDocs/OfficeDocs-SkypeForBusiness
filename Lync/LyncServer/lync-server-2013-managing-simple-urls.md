@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing simple URLs'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing simple URLs
 ms:assetid: 97ad8230-f422-462a-9ce4-6061fa7f2617
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688146(v=OCS.15)
 ms:contentKeyID: 49733748
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms requirements"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018

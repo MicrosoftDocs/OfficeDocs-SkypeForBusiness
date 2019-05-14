@@ -1,7 +1,7 @@
 ---
 title: Upgrade to Teams from a Skype for Business hybrid or on-premises deployment - Microsoft Teams
-author: arachmanGitHub
-ms.author: arachman
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: article

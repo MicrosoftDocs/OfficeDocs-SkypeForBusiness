@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Client and device software and infrastructure support'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Client and device software and infrastructure support
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398412(v=OCS.15)
 ms:contentKeyID: 48184265
 ms.date: 08/27/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

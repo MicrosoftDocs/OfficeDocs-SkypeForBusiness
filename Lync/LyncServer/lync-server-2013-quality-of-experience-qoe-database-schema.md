@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Quality of Experience (QoE) database schema'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Quality of Experience (QoE) database schema
 ms:assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398687(v=OCS.15)
 ms:contentKeyID: 48184721
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

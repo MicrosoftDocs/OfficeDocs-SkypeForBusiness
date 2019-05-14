@@ -1,8 +1,8 @@
 ---
 title: "External Access Policy Create New or Edit Existing"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro

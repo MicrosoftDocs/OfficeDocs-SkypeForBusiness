@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Exchange on premises"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -97,7 +97,10 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 ### Assign an Office 365 license
 
-1. Connect to Azure Active Directory PowerShell. For instructions, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+1. Connect to Azure Active Directory. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
 2. The device account needs to have a valid Office 365 license, or Exchange and Microsoft Teams will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
 

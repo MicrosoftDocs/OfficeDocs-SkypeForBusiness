@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System manageability and tools"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Issues with the topology test'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Issues with the topology test
 ms:assetid: 821e8916-7b5d-4f64-8fb0-e5cc392ec1bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205045(v=OCS.15)
 ms:contentKeyID: 48184670
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Subnet table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Subnet table
 ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398582(v=OCS.15)
 ms:contentKeyID: 48184544
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

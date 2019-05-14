@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing application-level Response Group settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing application-level Response Group settings
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721843(v=OCS.15)
 ms:contentKeyID: 49733776
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

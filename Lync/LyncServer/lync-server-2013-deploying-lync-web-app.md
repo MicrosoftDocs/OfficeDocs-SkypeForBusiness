@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploying Lync Web App'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploying Lync Web App
 ms:assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205190(v=OCS.15)
 ms:contentKeyID: 48185189
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

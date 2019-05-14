@@ -1,7 +1,7 @@
 ---
 title: Project Scope Skype for Business to Microsoft Teams Adoption | Upgrade 
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

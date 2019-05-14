@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Upgrade | Environment Evaluation, Discovery Questions
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams

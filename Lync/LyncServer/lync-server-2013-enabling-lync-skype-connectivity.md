@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enabling Lync-Skype connectivity'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enabling Lync-Skype connectivity
 ms:assetid: 34c4db3e-582f-41fb-85c4-3438ae02f09f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440170(v=OCS.15)
 ms:contentKeyID: 57793361
 ms.date: 12/16/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

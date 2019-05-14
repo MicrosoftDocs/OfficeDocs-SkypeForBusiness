@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: UserSite table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: UserSite table
 ms:assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398256(v=OCS.15)
 ms:contentKeyID: 48183552
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

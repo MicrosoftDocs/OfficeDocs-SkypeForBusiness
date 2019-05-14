@@ -1,8 +1,8 @@
 ---
 title: "Archiving Policy Create New or Edit Existing"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro

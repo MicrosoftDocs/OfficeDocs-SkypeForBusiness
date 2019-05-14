@@ -1,8 +1,8 @@
 ---
 title: "Create or delete an announcement in Skype for Business Server"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article

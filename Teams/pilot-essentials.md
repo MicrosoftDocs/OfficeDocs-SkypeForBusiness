@@ -1,7 +1,7 @@
 ---
 title: Pilot Microsoft Teams with Skype for Business | Deploy, Adopt Implement 
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams

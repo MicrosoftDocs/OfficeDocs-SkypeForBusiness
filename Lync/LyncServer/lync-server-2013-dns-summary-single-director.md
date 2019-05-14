@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: DNS summary - Single Director'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: DNS summary - Single Director
 ms:assetid: 790ecb56-92cd-41f4-baf6-c290a707aa4d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205021(v=OCS.15)
 ms:contentKeyID: 48184568
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

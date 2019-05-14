@@ -19,16 +19,19 @@ description: Get started with Teams for Healthcare organizations
 
 Microsoft Teams offers a number of features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
 
-- Care Coordination
+- Care Coordination and collaboration
 - Secure Messaging
-- Electronic Healthcare Record (EHR) integration
-- Firstline Worker integration
+- Telehealth
+- Electronic Healthcare Record (EHR) integration 
+- Firstline Worker system integration 
+
+This is in addition to foundational capabilities of Microsoft Teams like meetings/calling, and messaging. 
 
 ## Care Coordination - Microsoft Teams Patients app
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them meet their ultimate goal of providing the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patients app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams.  
+Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them provide the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patients app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams in context to enable clinical collaboration and communication.  
 
 The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients app to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
 
@@ -87,9 +90,12 @@ Secure messaging supports collaboration within care teams, including several new
 - A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.
 - A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.
 
+
 Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New care teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
 
 See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
+
+Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (see [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
 
 ## Firstline Worker integration
 

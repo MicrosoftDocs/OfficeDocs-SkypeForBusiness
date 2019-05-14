@@ -1,7 +1,7 @@
 ---
 title: "Languages for voicemail greetings and messages"
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article

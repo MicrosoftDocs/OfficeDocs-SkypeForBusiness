@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Running synthetic transactions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Running synthetic transactions
 ms:assetid: 2b56c7bd-8956-4fa1-8232-1876b959b258
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720911(v=OCS.15)
 ms:contentKeyID: 63969593
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

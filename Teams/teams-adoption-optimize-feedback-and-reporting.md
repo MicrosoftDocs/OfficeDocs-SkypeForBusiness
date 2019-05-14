@@ -1,7 +1,7 @@
 ---
 title: Optimize feedback and reporting for your Microsoft Teams adoption
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin

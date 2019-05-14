@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing persistent chat'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing persistent chat
 ms:assetid: d351b6f2-bc31-42e0-9e8d-c347713d6b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727313(v=OCS.15)
 ms:contentKeyID: 63969651
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

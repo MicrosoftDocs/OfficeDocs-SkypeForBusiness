@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for Autodiscover'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for Autodiscover
 ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)
 ms:contentKeyID: 51541474
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

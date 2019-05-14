@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Restoring monitoring or archiving data'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Restoring monitoring or archiving data
 ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
 ms:contentKeyID: 51541483
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

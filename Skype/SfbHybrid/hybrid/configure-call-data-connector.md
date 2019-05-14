@@ -1,8 +1,8 @@
 ---
 title: "Configure Call Data Connector"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
