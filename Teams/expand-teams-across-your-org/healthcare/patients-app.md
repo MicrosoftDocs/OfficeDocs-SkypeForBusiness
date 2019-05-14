@@ -66,7 +66,50 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
 4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
 5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server as in this example:
 
-![Patients app 5](../../media/Patient-app-5.png)
+* * *
+    {
+        "resourceType": "CapabilityStatement",
+        .
+        .
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.microsoftonline.com/145f4187-3b0b-41c8-aa24-b3c1291bfda6/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.microsoftonline.com/145f4187-3b0b-41c8-aa24-b3c1291bfda6/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                .
+                .
+                .
+            }
+        ]
+    }
+
+* * *
 
 A request for an access token consists of the following parameters:
 
