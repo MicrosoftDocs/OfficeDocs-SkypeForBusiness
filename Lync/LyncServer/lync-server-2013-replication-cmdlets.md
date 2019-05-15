@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Replication cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Replication cmdlets
 ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415677(v=OCS.15)
 ms:contentKeyID: 48185527
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

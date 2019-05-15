@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182598(v=OCS.15)
 ms:contentKeyID: 48185622
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

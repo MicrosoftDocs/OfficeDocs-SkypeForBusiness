@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: (Optional) Define Response Group holiday sets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: (Optional) Define Response Group holiday sets
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688063(v=OCS.15)
 ms:contentKeyID: 49733657
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

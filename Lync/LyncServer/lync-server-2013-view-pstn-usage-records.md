@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: View PSTN usage records'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View PSTN usage records
 ms:assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398458(v=OCS.15)
 ms:contentKeyID: 48184361
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

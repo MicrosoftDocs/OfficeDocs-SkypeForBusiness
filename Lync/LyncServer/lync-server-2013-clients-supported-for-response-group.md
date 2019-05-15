@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Clients supported for Response Group'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Clients supported for Response Group
 ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)
 ms:contentKeyID: 48184705
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

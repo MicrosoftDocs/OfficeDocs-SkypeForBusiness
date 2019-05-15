@@ -34,7 +34,7 @@ As an admin, you can ensure that all Microsoft Teams meeting invitations include
 ## Customize your meeting invitations
 
 1. Sign in to Office 365 with your work or school account.
-2. From the Office 365 admin center, choose **Admin centers** > **Teams & Skype**.
+2. From the Microsoft 365 admin center, choose **Admin centers** > **Teams & Skype**.
 3. In the Microsoft Teams admin center, choose **Meetings** > **Meeting settings**.
 4. Complete the following:
     - **Logo URL** - Enter the URL where your logo is stored. Remember that it must be in JPG or PNG format!

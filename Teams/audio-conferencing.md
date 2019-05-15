@@ -1,12 +1,12 @@
 ---
 title: Practical guidance for Audio Conferencing in Microsoft Teams
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: Rowille, lolaj
+ms.reviewer: rowille, crowe
 description: Practical guidance for planning, deploying, and managing Audio Conferencing in Microsoft Teams using the Envision (Plan), Onboard (Deliver), Deliver Value (Operate) framework.
 localization_priority: Normal
 search.appverid: MET150

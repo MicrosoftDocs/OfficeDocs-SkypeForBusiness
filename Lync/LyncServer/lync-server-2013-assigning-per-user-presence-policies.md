@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Assigning per-user presence policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assigning per-user presence policies
 ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
 ms:contentKeyID: 48185955
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

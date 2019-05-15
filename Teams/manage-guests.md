@@ -1,7 +1,7 @@
 ---
 title: Manage guest access in Microsoft Teams
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/08/2019
 ms.topic: article

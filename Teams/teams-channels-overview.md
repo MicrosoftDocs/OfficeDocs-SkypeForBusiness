@@ -35,11 +35,11 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     
     A team is designed to bring together a group of people that work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
--   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team!
+-   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team! Files that you share in a channel (on the Files tab) are stored in SharePoint. To learn more, read [How SharePoint Online and OneDrive for Business  interact with Teams](SharePoint-OneDrive-interact.md).
 
-    -   Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat.
+    -   Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat (and files that you share in a chat are stored in OneDrive for Business). 
 
-    -   Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team.
+    -   Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, & connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 View this short video to learn more about best practices for creating teams and channels.
 

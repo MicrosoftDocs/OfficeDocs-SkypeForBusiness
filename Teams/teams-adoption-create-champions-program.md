@@ -1,7 +1,7 @@
 ---
 title: Create your champions program for Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin

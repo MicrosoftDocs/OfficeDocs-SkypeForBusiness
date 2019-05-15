@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test telephone number against a voice route'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test telephone number against a voice route
 ms:assetid: 9a77ed6d-9394-4bef-9344-3d91b6959b97
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725211(v=OCS.15)
 ms:contentKeyID: 63969631
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

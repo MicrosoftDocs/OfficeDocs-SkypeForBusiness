@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Moving response groups to a new pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Moving response groups to a new pool
 ms:assetid: da0db765-41e5-430b-b5a7-5418ec5ff2a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205298(v=OCS.15)
 ms:contentKeyID: 48185538
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

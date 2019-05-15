@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Schema classes and descriptions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Schema classes and descriptions
 ms:assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398625(v=OCS.15)
 ms:contentKeyID: 48184612
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

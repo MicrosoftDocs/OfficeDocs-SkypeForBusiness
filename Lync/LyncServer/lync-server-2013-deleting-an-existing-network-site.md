@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deleting an existing network site'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deleting an existing network site
 ms:assetid: 2762149b-3572-4513-b838-beda7fa9e81e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688001(v=OCS.15)
 ms:contentKeyID: 49733589
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure Persistent Chat Server options globally or for Persistent Chat Server pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
 ms:contentKeyID: 48183581
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

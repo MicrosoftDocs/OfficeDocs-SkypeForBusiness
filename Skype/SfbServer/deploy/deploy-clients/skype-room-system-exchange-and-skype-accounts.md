@@ -1,7 +1,7 @@
 ---
 title: "Provisioning of Skype Room System Exchange and Skype Accounts"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom

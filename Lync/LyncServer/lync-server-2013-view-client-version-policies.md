@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: View client version policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View client version policies
 ms:assetid: 6cd9a897-c694-4d6a-8259-2d3c01fce275
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898479(v=OCS.15)
 ms:contentKeyID: 50873759
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

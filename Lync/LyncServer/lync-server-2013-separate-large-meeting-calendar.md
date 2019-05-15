@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Separate large-meeting calendar'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Separate large-meeting calendar
 ms:assetid: 4f744b4e-67d8-4264-bfae-7aaa157ee73d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204880(v=OCS.15)
 ms:contentKeyID: 48184095
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

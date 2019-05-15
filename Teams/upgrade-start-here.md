@@ -1,7 +1,7 @@
 ---
 title: Getting started with your Microsoft Teams upgrade
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 01/30/2019
 ms.topic: conceptual

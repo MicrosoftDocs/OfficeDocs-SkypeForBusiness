@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: AudioClientEvent table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: AudioClientEvent table
 ms:assetid: fef73d8f-7261-4e5b-9769-82435b007979
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413086(v=OCS.15)
 ms:contentKeyID: 48185967
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

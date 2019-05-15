@@ -599,6 +599,7 @@
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Firstline Worker features coming soon to Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
+### [Run a report to show active StaffHub usage](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -615,6 +616,7 @@
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+### [Install Moodle integration](install-moodle-integration.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
@@ -709,6 +711,7 @@
 ### [Place a Teams user or team on legal hold](legal-hold.md)
 ### [Search the audit log for events in Teams](audit-log-events.md)
 ### [Use Content Search in Teams](content-search.md)
+### [AppLocker application control policies in Teams](applocker-in-teams.md)
 ### [Retention policies in Teams](retention-policies.md)
 #### [Retention policies FAQ](retention-policies-FAQ.md)
 #### [Retention policies known issues](retention-policies-known-issues.md)

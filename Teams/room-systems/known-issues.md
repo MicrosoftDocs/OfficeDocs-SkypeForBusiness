@@ -1,7 +1,7 @@
 ---
 title: "Known issues"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
@@ -54,7 +54,8 @@ If your Microsoft Teams Rooms device loses trust with the domain (for example, i
 ***
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0. 
 ***
-
+Microsoft Teams Room is a multi-window application and requires a front of room display to be connected to the HDMI port of the device, for the app to function correctly. Make sure you either have an HDMI display connected or use a dummy HDMI plug if you are testing and do not have a display purchased yet.
+***
 <a name="See"> </a>  
 ## See also
 

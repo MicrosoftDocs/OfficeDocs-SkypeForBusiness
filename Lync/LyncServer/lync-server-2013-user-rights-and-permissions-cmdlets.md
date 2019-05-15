@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: User rights and permissions cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: User rights and permissions cmdlets
 ms:assetid: b53aae4c-651f-4cbc-a762-ba818d63897e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415672(v=OCS.15)
 ms:contentKeyID: 48185178
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

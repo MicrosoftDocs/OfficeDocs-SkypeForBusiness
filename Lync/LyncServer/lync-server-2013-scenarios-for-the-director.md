@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Scenarios for the Director'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Scenarios for the Director
 ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
 ms:contentKeyID: 48185419
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

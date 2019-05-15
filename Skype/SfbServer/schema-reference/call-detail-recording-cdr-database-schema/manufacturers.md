@@ -1,8 +1,8 @@
 ---
 title: "Manufacturers table in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
