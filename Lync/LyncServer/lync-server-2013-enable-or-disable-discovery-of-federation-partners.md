@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enable or disable discovery of federation partners'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enable or disable discovery of federation partners
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

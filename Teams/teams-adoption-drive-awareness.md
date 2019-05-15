@@ -1,7 +1,7 @@
 ---
 title: Drive awareness and implement training for Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin

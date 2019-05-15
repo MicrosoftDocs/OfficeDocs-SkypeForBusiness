@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New and changed settings for Lync 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New and changed settings for Lync 2013
 ms:assetid: bb13789c-7eda-461c-a387-02ea8ca4dabe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205204(v=OCS.15)
 ms:contentKeyID: 48185241
 ms.date: 12/08/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

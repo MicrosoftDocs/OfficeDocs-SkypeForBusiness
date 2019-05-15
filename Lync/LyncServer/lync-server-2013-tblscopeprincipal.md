@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblScopePrincipal'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblScopePrincipal
 ms:assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558639(v=OCS.15)
 ms:contentKeyID: 48184009
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

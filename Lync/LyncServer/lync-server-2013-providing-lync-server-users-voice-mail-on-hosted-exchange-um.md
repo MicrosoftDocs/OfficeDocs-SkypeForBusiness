@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Providing Lync Server users voice mail on hosted Exchange UM'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Providing Lync Server 2013 users voice mail on hosted Exchange UM
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425807(v=OCS.15)
 ms:contentKeyID: 48183752
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

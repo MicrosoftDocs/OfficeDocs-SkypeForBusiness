@@ -3,7 +3,7 @@ title: Teams update process
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
+ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 MS.collection: 
@@ -18,7 +18,7 @@ appliesto:
 
 # Teams update process
 
-The Teams Web App is updated weekly.
+The Teams web app is updated weekly.
 
 Teams desktop client updates are released every two weeks after rigorous internal testing and validation through our Technology Adoption Program (TAP). This usually takes place on a Tuesday. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 

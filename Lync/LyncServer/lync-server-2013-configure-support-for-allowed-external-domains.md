@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure support for allowed external domains'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure support for allowed external domains
 ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425908(v=OCS.15)
 ms:contentKeyID: 48183943
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

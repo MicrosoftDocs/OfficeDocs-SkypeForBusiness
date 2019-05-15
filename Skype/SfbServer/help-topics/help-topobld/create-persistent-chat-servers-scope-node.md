@@ -1,8 +1,8 @@
 ---
 title: "Create Persistent Chat Servers Scope Node"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro

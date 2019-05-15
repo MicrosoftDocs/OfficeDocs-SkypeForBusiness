@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Components used by Call Park'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Components used by Call Park
 ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398824(v=OCS.15)
 ms:contentKeyID: 48185374
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

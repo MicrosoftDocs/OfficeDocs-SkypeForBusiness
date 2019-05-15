@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring media port range settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring media port range settings
 ms:assetid: 2c4b7c0b-0dce-48f4-a489-336d6e526f7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204770(v=OCS.15)
 ms:contentKeyID: 48183723
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment checklist for external user access'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment checklist for external user access
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
 ms:contentKeyID: 48183947
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

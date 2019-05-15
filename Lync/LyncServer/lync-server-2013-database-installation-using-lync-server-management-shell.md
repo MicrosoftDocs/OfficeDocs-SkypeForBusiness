@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Database installation using Lync Server Management Shell'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Database installation using Lync Server Management Shell
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398832(v=OCS.15)
 ms:contentKeyID: 48185401
 ms.date: 06/16/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

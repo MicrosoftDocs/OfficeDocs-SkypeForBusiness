@@ -1,7 +1,7 @@
 ---
 title: "Manage Microsoft Teams Rooms devices with Azure Monitor"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.audience: ITPro

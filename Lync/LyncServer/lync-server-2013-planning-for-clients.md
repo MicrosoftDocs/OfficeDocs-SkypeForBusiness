@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for clients'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for clients
 ms:assetid: 0a99b421-0d7c-41f1-9276-a18beeca86fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398155(v=OCS.15)
 ms:contentKeyID: 48183365
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

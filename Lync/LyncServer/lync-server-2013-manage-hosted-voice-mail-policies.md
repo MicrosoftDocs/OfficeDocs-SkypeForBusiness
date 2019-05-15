@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Manage hosted voice mail policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Manage hosted voice mail policies
 ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398332(v=OCS.15)
 ms:contentKeyID: 48184139
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

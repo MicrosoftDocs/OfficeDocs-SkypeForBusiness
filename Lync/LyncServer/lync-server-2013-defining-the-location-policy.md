@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining the location policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining the location policy
 ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
 ms:contentKeyID: 48185553
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

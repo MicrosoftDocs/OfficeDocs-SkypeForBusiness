@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: MediaLine view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: MediaLine view
 ms:assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687972(v=OCS.15)
 ms:contentKeyID: 49733560
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

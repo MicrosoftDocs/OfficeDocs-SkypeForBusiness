@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Viewing network subnet information'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing network subnet information
 ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688044(v=OCS.15)
 ms:contentKeyID: 49733636
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

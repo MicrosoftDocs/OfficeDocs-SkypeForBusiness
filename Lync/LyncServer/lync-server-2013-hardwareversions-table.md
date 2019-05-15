@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: HardwareVersions table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: HardwareVersions table
 ms:assetid: ca05582b-082c-4bab-9233-36fc9434dbca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398839(v=OCS.15)
 ms:contentKeyID: 48185406
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

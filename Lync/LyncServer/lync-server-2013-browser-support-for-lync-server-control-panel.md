@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Browser support for Lync Server Control Panel'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Browser support for Lync Server Control Panel
 ms:assetid: 716829ec-f00c-4425-9fb6-0c4c4d4006e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204993(v=OCS.15)
 ms:contentKeyID: 48184459
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

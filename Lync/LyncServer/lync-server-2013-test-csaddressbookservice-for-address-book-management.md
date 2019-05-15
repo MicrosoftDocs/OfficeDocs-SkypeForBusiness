@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test-CsAddressBookService for Address Book management'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test-CsAddressBookService for Address Book management
 ms:assetid: b88cea74-41fd-4c0e-9284-7135bff27a27
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429720(v=OCS.15)
 ms:contentKeyID: 48185206
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
