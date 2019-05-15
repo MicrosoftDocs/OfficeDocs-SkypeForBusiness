@@ -8,7 +8,7 @@ ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
 f1keywords: ms.teamsadmincenter.liveevents.policies
