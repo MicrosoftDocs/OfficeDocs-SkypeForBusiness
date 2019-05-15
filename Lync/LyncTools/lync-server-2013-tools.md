@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 Tools
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: '@NoTitle'
 ms:assetid: 3abcfff8-bab6-4d28-81d2-8d6fb6ca83e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn163598(v=OCS.15)
 ms:contentKeyID: 52253957
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

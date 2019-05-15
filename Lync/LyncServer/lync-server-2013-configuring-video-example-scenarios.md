@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring video example scenarios'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring video example scenarios
 ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
 ms:contentKeyID: 48185536
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

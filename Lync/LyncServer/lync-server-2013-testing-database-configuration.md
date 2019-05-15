@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing database configuration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)
 ms:contentKeyID: 63969606
 ms.date: 07/07/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

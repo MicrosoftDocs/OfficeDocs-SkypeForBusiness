@@ -1,7 +1,7 @@
 ---
 title: Skype for Business to Microsoft Teams| Upgrade User Change Readiness  
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

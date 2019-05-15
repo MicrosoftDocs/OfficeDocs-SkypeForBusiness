@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblSkippedAffiliations'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSkippedAffiliations
 ms:assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558611(v=OCS.15)
 ms:contentKeyID: 48183373
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

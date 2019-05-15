@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: View CDR configuration information'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View CDR configuration information
 ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688096(v=OCS.15)
 ms:contentKeyID: 49733695
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

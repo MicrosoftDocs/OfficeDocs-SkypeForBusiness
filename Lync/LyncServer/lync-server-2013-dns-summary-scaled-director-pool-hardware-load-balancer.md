@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: DNS summary - Scaled Director pool, hardware load balancer'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: DNS summary - Scaled Director pool, hardware load balancer
 ms:assetid: 08ba48e6-bfa1-4ab0-bc89-d58ddb9c20af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204655(v=OCS.15)
 ms:contentKeyID: 48183340
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploying devices'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploying devices
 ms:assetid: 37f48fe8-e385-4279-b512-5f78a200b361
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425854(v=OCS.15)
 ms:contentKeyID: 48183889
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

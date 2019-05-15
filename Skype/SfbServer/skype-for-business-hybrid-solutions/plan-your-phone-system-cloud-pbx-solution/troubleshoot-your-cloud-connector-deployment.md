@@ -199,7 +199,11 @@ Following are solutions to commonly encountered issues:
     **If certification authority certificates are compromised and there is only one appliance in the site,** perform the following steps:
     
 1. Run the Enter-CcUpdate cmdlet to drain services and put the appliance in maintenance mode.
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. Run the following cmdlets to reset and create new certification authority certificates and all internal server certificates:
     
     For Cloud Connector releases before 2.0:
@@ -217,20 +221,37 @@ Following are solutions to commonly encountered issues:
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from the appliance, and then install the exported certificate to your PSTN gateways. You may also be required to re-issue the certificate on your gateway.
 
-3. Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode.
-    
-4. Run the Export-CcRootCertificate cmdlet on the local file in the appliance, and then copy and install the exported certificate to your PSTN gateways.
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode.
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     **If certification authority certificates are compromised and there are multiple appliances in the site,** perform the following sequential steps on each appliance in the site.
     
     Microsoft recommends that you perform these steps during non-peak usage times.
     
-   - On the first appliance, run the Remove-CcCertificationAuthorityFile cmdlet to clean up the CA backup files in the \<SiteRoot\> directory.
+1. On the first appliance, run the Remove-CcCertificationAuthorityFile cmdlet to clean up the CA backup files in the \<SiteRoot\> directory.
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - Run the Enter-CcUpdate cmdlet to drain services and put each appliance in maintenance mode.
+2. Run the Enter-CcUpdate cmdlet to drain services and put each appliance in maintenance mode.
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - Run the following cmdlets to reset and create new certification authority certificates and all internal server certificates:
+3. On the first appliance, run the following cmdlets to reset and create new certification authority certificates and all internal server certificates:
     
      For Cloud Connector releases before 2.0:
     
@@ -248,15 +269,32 @@ Following are solutions to commonly encountered issues:
      Remove-CcLegacyServerCertificate 
      ```
 
-   - On the first appliance, run the following cmdlet to back up the CA files to the \<SiteRoot\> folder. Later, on all other appliances in the same site, the Reset-CcCACertificate cmdlet will consume the CA backup files automatically and appliances will use the same root certificate.
+4. On the first appliance, run the following cmdlet to back up the CA files to the \<SiteRoot\> folder.
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. On all other appliance's in the same site, run the following commands to consume the CA backup files, so that the appliances all use the same root certificate, and then request new certificates. 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from any appliance in the site, and then install the exported certificate to your PSTN gateways. You may also be required to re-issue the certificate on your gateway.
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode. 
 
-   - Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode. 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from any appliance in the site, and then install the exported certificate to your PSTN gateways. 
     
 - **Issue: You receive the following error message in the Cloud Connector Management Service Log, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService Error: 0 : Unexpected exception when reporting status to online: System.Management.Automation.CmdletInvocationException: Logon failed for the user \<Global Tenant Admin\>. Please create a new credential object, making sure that you have used the correct user name and password. ---\>**
     

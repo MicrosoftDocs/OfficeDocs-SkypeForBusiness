@@ -3,8 +3,9 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams technical documentation
 ms.reviewer: 
-ms.author: lolaj
-author: lolajacobsen
+ms.author: kenwith
+manager: serdars
+author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority

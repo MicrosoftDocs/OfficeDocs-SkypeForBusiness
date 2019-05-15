@@ -84,6 +84,9 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 
 &Dagger; If the number of attachments or images exceeds this limit, the message will not be processed and an NDR e-mail will be sent back to the sender notifying them of the error.
 
+> [!NOTE]
+> The message size, file attachments, and inline images limits are the same across all Office 365 licenses.
+
 For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
 ## Browsers

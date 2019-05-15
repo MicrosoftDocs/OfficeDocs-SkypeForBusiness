@@ -1,13 +1,14 @@
 ---
 title: 'Managing server-to-server authentication (OAuth) and partner applications'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing server-to-server authentication (OAuth) and partner applications
 ms:assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204817(v=OCS.15)
 ms:contentKeyID: 48183894
 ms.date: 05/15/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

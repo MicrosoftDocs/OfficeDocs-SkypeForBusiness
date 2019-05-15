@@ -1,8 +1,8 @@
 ---
 title: "Use the Office Customization Tool (OCT) in Skype for Business Server"
 ms.reviewer: 
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Creating or modifying network regions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Creating or modifying network regions
 ms:assetid: bd08bb66-5976-4ece-b45c-7de19569f814
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182579(v=OCS.15)
 ms:contentKeyID: 48185266
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

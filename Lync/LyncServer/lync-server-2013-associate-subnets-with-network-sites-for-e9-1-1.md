@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Associate subnets with network sites for E9-1-1'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Associate subnets with network sites for E9-1-1
 ms:assetid: f03f3ffb-dc07-4a01-8ab6-526ed786272a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412992(v=OCS.15)
 ms:contentKeyID: 48185787
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

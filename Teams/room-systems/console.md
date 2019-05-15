@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Configure a Microsoft Teams Rooms console"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: Travis-Snoozy
 manager: serdars
 ms.audience: ITPro

@@ -1,11 +1,11 @@
 ---
 title: Microsoft Teams Prerequisites | Dependencies Adoption Upgrade 
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: turgayo
+ms.reviewer: dearbeen
 description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization 
 localization_priority: Normal
 search.appverid: MET150

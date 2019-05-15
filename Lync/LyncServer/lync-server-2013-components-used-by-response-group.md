@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Components used by Response Group'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Components used by Response Group
 ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425768(v=OCS.15)
 ms:contentKeyID: 48183693
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

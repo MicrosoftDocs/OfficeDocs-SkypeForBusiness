@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Updating from the evaluation version'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Updating from the evaluation version of Lync Server 2013
 ms:assetid: 62a88180-4289-4a2a-9cb9-1b9899344a63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521005(v=OCS.15)
 ms:contentKeyID: 48184294
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

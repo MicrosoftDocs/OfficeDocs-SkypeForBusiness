@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Setting up XMPP federation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Setting up XMPP federation
 ms:assetid: 5fda6cb7-8d4d-495d-90c7-601f1036e085
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204939(v=OCS.15)
 ms:contentKeyID: 48184270
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

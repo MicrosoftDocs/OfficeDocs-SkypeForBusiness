@@ -1,8 +1,8 @@
 ---
 title: "Plan for media bypass in Skype for Business"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual

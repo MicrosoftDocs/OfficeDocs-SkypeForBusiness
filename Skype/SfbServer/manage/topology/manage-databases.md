@@ -1,8 +1,8 @@
 ---
 title: "Manage databases with an AlwaysOn Availability Group in Skype for Business Server"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article

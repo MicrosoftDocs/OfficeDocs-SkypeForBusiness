@@ -1,7 +1,7 @@
 ---
 title: "Prepare your Environment"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
@@ -22,7 +22,7 @@ This section contains an overview of the steps required to prepare your environm
     
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
-   - It must be able to receive an IP address using DHCP (note: Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup)
+   - It must be able to receive an IP address using DHCP. (Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup, but  afterwards static IP for the device could be configured on the device or on the upstream switch or router.)
     
    - It must have these ports open (in addition to opening the normal ports for media):
     
@@ -52,7 +52,7 @@ In order to function properly, the Microsoft Teams Rooms device must have access
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as your Microsoft Exchange and Skype for Business servers.
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms cannot be configured with a static IP address.
 - Access to HTTP ports 80 and 443.
-- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
+- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business Server implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
 
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.

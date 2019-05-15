@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: QoE table details'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: QoE table details
 ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413003(v=OCS.15)
 ms:contentKeyID: 48185775
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: Migration from Office Communications Server 2007 R2 to Lync Server 2013
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Migration from Office Communications Server 2007 R2 to Lync Server 2013
 ms:assetid: f3fa4f5f-e9a2-4fb7-a12d-20f04173e697
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205375(v=OCS.15)
 ms:contentKeyID: 48185802
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Using the Centralized Logging Service'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Using the Centralized Logging Service
 ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688101(v=OCS.15)
 ms:contentKeyID: 49733700
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
