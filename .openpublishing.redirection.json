@@ -1305,6 +1305,11 @@
       "source_path": "Skype/SfbServer/room-systems/index.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/index", 
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skypeacademy-training.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online", 
+      "redirect_document_id": true
     }
   ] 
 }
