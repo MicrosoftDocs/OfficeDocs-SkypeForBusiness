@@ -172,7 +172,7 @@ Along with Phone System, a Calling Plans let users make and receive phone calls.
 You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
 
 > [!NOTE]
-> The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Office 365 admin center**. 
+> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**. 
   
 ### Toll and toll-free phone numbers for services
 
