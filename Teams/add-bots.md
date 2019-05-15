@@ -29,8 +29,8 @@ Bots developed by the community can be leveraged within Microsoft Teams. The bot
 
 For more information, see the section "Using bots" in [Apps and services](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
 
-
-
+> [!IMPORTANT]
+> Adding a bot by GUID for anything other than testing purposes, is not recommended. Doing so severely limits the functionality of a bot. Bots in production use, should be added to Teams as part of an app. See [Create a bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-create) and [Test and debug your Microsoft Teams bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-test)
 
 Create custom bots for Microsoft Teams
 --------------------------------------
