@@ -77,6 +77,7 @@ With the help of CQD's Location-Enhanced Reports, aggregate call quality and rel
 If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Teams Communications Support Engineer**, **Teams Communications Support Specialist**, or **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
 
 - Global Administrator
+- Global Reader
 - Skype for Business Administrator
 - Teams Service Administrator
 - Teams Communications Administrator

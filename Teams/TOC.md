@@ -616,6 +616,7 @@
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+### [Install Moodle integration](install-moodle-integration.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
@@ -710,6 +711,7 @@
 ### [Place a Teams user or team on legal hold](legal-hold.md)
 ### [Search the audit log for events in Teams](audit-log-events.md)
 ### [Use Content Search in Teams](content-search.md)
+### [AppLocker application control policies in Teams](applocker-in-teams.md)
 ### [Retention policies in Teams](retention-policies.md)
 #### [Retention policies FAQ](retention-policies-FAQ.md)
 #### [Retention policies known issues](retention-policies-known-issues.md)
