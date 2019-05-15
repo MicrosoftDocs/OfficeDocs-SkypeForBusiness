@@ -260,7 +260,6 @@
 ### [What are Communications Credits?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Admin training for Skype for Business Online](../set-up-skype-for-business-online/skypeacademy-training.md)
 ### [Allow users to contact external Skype for Business users](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Configure presence in Skype for Business Online](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Configure presence privacy mode](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
