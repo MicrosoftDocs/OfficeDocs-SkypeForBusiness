@@ -121,11 +121,14 @@
 #### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
+
 ### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-#### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
 
+### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
 
-### [Manage the Audio Conferencing settings for users](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+### Manage the Audio Conferencing settings for users
+
+#### [Overview](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 #### [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
@@ -297,7 +300,7 @@
 
 
 ## Calling Plans
-### [Which Calling Plan is right for you](calling-plan-landing-page.md)
+### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
@@ -350,7 +353,9 @@
 
 
 ## Reference
-### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### Country and region availability for Calling Plan
+
+#### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
