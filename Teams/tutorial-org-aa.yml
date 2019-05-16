@@ -29,11 +29,11 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business Online](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview) and [Skype for Business Online](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
     [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and PBX capabilities in the Office 365 cloud. The license 
     is available as an add-on or as part of the Enterprise E5 licenses. Licensing details are at 
-    [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). 
+    [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). 
 
     A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
     voicemail, Call Queues, and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
@@ -46,10 +46,10 @@ items:
     ## Before you begin
 
     We assume you've already done the following: 
-    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
+    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
     to provide phone numbers to your users.
-    - [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
-    - Reviewed [What are Cloud Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
+    - [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
+    - Reviewed [What are Cloud Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
     Also, you'll be pleased to discover that most of the planning and design portion can be done using a white board or index cards: having a good plan 
