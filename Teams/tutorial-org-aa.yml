@@ -36,7 +36,7 @@ items:
     [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
     A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
-    voicemail, Call Queues, and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
+    voicemail, Call Queues, and [Auto Attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
     to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your 
     organization using the Skype for Business admin center.
     
@@ -470,7 +470,7 @@ items:
     |Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
-    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant) for more detail on the options available in these screens. 
+    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) for more detail on the options available in these screens. 
 
 
     ### Editing and testing Auto Attendants
