@@ -1,6 +1,6 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
-## [Teams content updats](teams-updates.md)
+## [Teams content updates](teams-updates.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
