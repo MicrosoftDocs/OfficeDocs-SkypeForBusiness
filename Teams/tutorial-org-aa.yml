@@ -466,8 +466,7 @@ items:
     |:---  |:---  |
     | ![Number 1](media/sfbcallout1.png) Company greeting	|None  |
     | ![Number 3](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9 above  |
-    | ![Number 5](media/sfbcallout5.png) 
-    |Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
+    | ![Number 5](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
     See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) for more detail on the options available in these screens. 
