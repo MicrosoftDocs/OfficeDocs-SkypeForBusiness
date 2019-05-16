@@ -25,7 +25,7 @@ description: "Information on how to join the Skype for Business Certification Pr
 ## Requirements and available programs
 Some programs already have sufficient partners to achieve our current product and market reach needs and are not seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
 
-Vendors interested in submitting their products for the **Certified for Skype for Business** program must have:
+Vendors interested in submitting their products for the **Certified for Microsoft Teams** program must have:
 - A proven record of developing and marketing enterprise grade and industry leading communications products
 - Evidence of ability to achieve the technical requirements of the program
 - Established global support channels (some programs may also require global enterprise sales channels)
