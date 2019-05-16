@@ -33,7 +33,7 @@ items:
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
     [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and PBX capabilities in the Office 365 cloud. The license 
     is available as an add-on or as part of the Enterprise E5 licenses. Licensing details are at 
-    [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). 
+    [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
     A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
     voicemail, Call Queues, and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
@@ -179,7 +179,7 @@ items:
     - There are usually 3-4 options per menu in this example. While Phone System supports menus with up to 9 options, most users 
     won't be able to keep track of more than 5 options without getting confused and needing to repeat the menu, which wastes their time and annoys them. 
     - The lawyer, paralegals, and billing menus can arguably be replaced with Call Queues. The main reason we've used an Auto Attendant is to keep our 
-    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
     for more about Call Queues. 
     - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
@@ -316,10 +316,10 @@ items:
     in Windows or have a professional voice-over artist use your scripts to record .wav files.
     
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
-    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
 
-    Your account must have Admin priveleges.  In the **Microsoft Teams admin center**, click **Voice** then select **Auto Attendants**, then click **+ New**. 
+    Your account must have Admin privileges. In the **Microsoft Teams admin center**, click **Voice** then select **Auto Attendants**, then click **+ New**. 
     The following tables show values to enter in the user interface screens. Each table represents a user interface screen.
     
     Create the following Auto Attendants in the following order and set their general information, then once the main and nested Auto Attendants are all created, edit them to set the 
@@ -470,7 +470,7 @@ items:
     |Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
-    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
+    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant) for more detail on the options available in these screens. 
 
 
     ### Editing and testing Auto Attendants
