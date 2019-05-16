@@ -74,6 +74,10 @@ When deciding which Office 365 apps and services to use, think about the work yo
 
 - **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote. 
 
+## Teams content updates
+
+See a [weekly list of Teams topics that have been updated](teams-updates.md).
+
 ## Teams known issues
 
 See [Known issues for Microsoft Teams](Known-issues.md).
