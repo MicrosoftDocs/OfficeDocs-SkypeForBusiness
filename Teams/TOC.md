@@ -1,6 +1,5 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
-## [Teams content updates](teams-updates.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
 #       
@@ -748,4 +747,5 @@
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
-## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
+## [Get help in Teams](get-help-in-microsoft-teams.md)
+## [Teams content updates](teams-updates.md)
