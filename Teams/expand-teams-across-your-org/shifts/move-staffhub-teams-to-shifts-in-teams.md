@@ -20,8 +20,6 @@ appliesto:
 > [!IMPORTANT]
 > Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
 
-> The capability discussed in this article hasn't yet been released. It's been announced, and is coming soon, towards the middle of May 2019. If you're an admin, you can find out when this will be available in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)).
-
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
 This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
@@ -97,7 +95,7 @@ Identify champions across pilot teams and enlist them to help evangelize Shifts.
 
 Team champions should ensure team members are set up by dedicating time for everyone to [get Teams clients](../../get-clients.md), sign in to Teams and check out their schedules in Shifts, and start chatting with each other. Users who are already familiar with StaffHub will be up and running quickly in Shifts. You can also point them to [Shifts Help](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) for additional help.
 
-### Move a StaffHub team (coming soon)
+### Move a StaffHub team
 
 Use these steps to move one StaffHub team at a time. We recommend this approach for your pilot teams. Later, when you're ready to move all your organization's StaffHub teams, see [Move your StaffHub teams](#move-your-staffhub-teams-coming-soon) for steps on how move multiple teams at a time.
 
@@ -143,11 +141,11 @@ Here's an example of the response you get when a move is in progress.
 
 When you're ready to go beyond your pilot teams and move your organization's StaffHub teams to Teams, it's important to first communicate the change across your organization. Spread the word about Shifts and the transition to Teams to raise awareness, generate excitement, and drive adoption.
 
-### Move your StaffHub teams (coming soon)
+### Move your StaffHub teams
 
 Use these steps to move StaffHub teams in bulk. You can choose to move all your organization's StaffHub teams or move specific StaffHub teams. If you want to move StaffHub teams one at a time, see [Move a StaffHub team](#move-a-staffhub-team-coming-soon).
 
-#### Move all StaffHub teams (coming soon)
+#### Move all StaffHub teams
 
 Run the following to get a list of all StaffHub teams in your organization.
 
@@ -172,7 +170,7 @@ For any team that was already moved to Teams or already exists in Teams, the job
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
-#### Move specific StaffHub teams (coming soon)
+#### Move specific StaffHub teams
 
 Run the following to get a list of all StaffHub team Ids in your organization.
 
@@ -193,7 +191,7 @@ After you create the CSV file, run the following to move the teams you specified
 ```
 Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
-### Confirm that your StaffHub teams have moved to Teams (coming soon)
+### Confirm that your StaffHub teams have moved to Teams
 
 Run the following to get a list of all teams in Shifts in your organization. 
 
