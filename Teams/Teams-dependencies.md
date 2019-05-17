@@ -10,6 +10,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
+localization_priority: Priority
 search.appverid: MET150
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 appliesto: 
