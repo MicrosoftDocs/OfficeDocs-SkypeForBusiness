@@ -69,7 +69,7 @@ Your online implementation will need to have a plan that includes Phone System l
 
 2. Use the procedures in [Set up a Cloud auto attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) to implement the Cloud auto attendant structure, including redirects to users, to nested auto attendants, to call queues, or other valid options.  
 
-An example of a small business implementation is available in [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
+An example of a small business implementation is available in [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa).
 
 ## Test the new auto attendant
 
