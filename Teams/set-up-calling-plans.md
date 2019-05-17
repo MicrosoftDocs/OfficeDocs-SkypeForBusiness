@@ -81,7 +81,7 @@ In the Skype for Business admin center, go to **Voice** > **Voice users** > **Em
 
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user) for more details.
+In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) for more details.
 
 ## Step 6: Tell your users about their new phone numbers
 <a name="bkmk_add_addresses"> </a>

@@ -174,7 +174,7 @@ For implementations in Teams or Skype for Business Online:
 
 [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Small business example - Set up an auto attendant](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)
 
 [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 

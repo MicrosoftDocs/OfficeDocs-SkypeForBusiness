@@ -69,7 +69,7 @@ Your online implementation will need to have a plan that includes Phone System l
 
 2. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
 
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa).
 
 ## Test the new call queue
 
@@ -101,7 +101,7 @@ The best way to test the implementation is to call the number configured for a c
 
 4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
 
-   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the auto attendant and user or call queue hierarchies in your old Exchange UM system.
+   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) to create a logical map of the auto attendant and user or call queue hierarchies in your old Exchange UM system.
 5. Test the Cloud call queue.
 6. Reassign the phone number linked to the Exchange UM call queue to the Cloud call queue.  
 

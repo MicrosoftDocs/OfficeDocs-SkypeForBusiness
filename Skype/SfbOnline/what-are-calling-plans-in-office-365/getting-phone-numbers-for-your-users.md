@@ -96,7 +96,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 - To acquire phone numbers, you must use the **Add new user numbers** page to see, search, and reserve those numbers. You can search by Country/Region, State/Region and City and then enter the number of phone numbers you will need for your users
     
-- After you get your phone numbers, you will need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
+- After you get your phone numbers, you will need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
 - You can use the **Phone numbers** page to see the list of available phone numbers in the **Number** column, see whether the phone number has been assigned in the **Assigned** column, and see the location for the phone number in the **Number location** column.
 
