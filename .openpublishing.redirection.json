@@ -1320,6 +1320,11 @@
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user", 
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users", 
+      "redirect_document_id": true
     }
   ] 
 }

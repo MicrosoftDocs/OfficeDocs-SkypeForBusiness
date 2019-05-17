@@ -89,7 +89,7 @@ Use the Skype for Business admin center to assign a number to the user.
 > [!NOTE]
 > Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
 
-For more information, see [Getting phone numbers for your users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+For more information, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
 
 You can also take your phone number that you have with another carrier and "port" or transfer it over to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 
