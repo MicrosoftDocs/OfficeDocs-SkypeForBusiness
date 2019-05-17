@@ -99,7 +99,7 @@ The best way to test the implementation is to call the number configured for an 
   Assign the main auto attendant a temporary number for testing purposes
 
 4. Configure a Cloud auto attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).  
-  You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the auto attendant and user hierarchies in your old Exchange UM auto attendant.
+  You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) to create a logical map of the auto attendant and user hierarchies in your old Exchange UM auto attendant.
 5. Test the Cloud auto attendant system.
 6. Reassign the phone number linked to the Exchange UM auto attendant to the Cloud auto attendant.
 
