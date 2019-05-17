@@ -546,20 +546,27 @@
 
 
 <!-- ============================================================ -->
-# [Adopt](adopt-microsoft-teams-landing-page.md) 
+# Adopt
 
+## [Overview](adopt-microsoft-teams-landing-page.md) 
 ## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - Start](teams-adoption-phase1.md)
+
+## Phase 1
+### [Start](teams-adoption-phase1.md)
 ### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
 ### [Create your first teams](teams-adoption-your-first-teams.md)
 ### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+
+## Phase 2
+### [Experiment](teams-adoption-phase2-experiment.md)
 ### [Create your champions program](teams-adoption-create-champions-program.md)
 ### [Governance quick start](teams-adoption-governance-quick-start.md)
 ### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
 ### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
 ### [Onboard support](teams-adoption-onboard-support.md)
-## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+
+## Phase 3
+### [Scale](teams-adoption-phase3-enable.md)
 ### [Define outcomes and success](teams-adoption-define-outcomes.md)
 ### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
@@ -716,8 +723,8 @@
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
-## [Security & compliance](security-compliance-overview.md)
+## Security and compliance
+### [Overview](security-compliance-overview.md)
 ### [Information barriers in Teams](information-barriers-in-teams.md)
 ### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ### [Identity models and authentication in Teams](identify-models-authentication.md)
@@ -726,7 +733,8 @@
 ### [Search the audit log for events in Teams](audit-log-events.md)
 ### [Use Content Search in Teams](content-search.md)
 ### [AppLocker application control policies in Teams](applocker-in-teams.md)
-### [Retention policies in Teams](retention-policies.md)
+### Retention policies in Teams
+#### [Overview](retention-policies.md)
 #### [Retention policies FAQ](retention-policies-FAQ.md)
 #### [Retention policies known issues](retention-policies-known-issues.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
@@ -757,8 +765,9 @@
 #### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
-## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+## Teams PowerShell
+### [Overview](teams-powershell-overview.md)
+### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
