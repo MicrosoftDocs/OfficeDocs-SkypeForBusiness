@@ -113,7 +113,7 @@ The best way to test the implementation is to call the number configured for a c
 
 [What are Cloud auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Set up a Cloud auto attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant)
 
 [Plan Cloud auto attendant](plan-cloud-auto-attendant.md)
 
