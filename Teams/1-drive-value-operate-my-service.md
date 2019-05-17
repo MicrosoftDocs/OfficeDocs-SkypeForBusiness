@@ -787,7 +787,7 @@ duties. The following tasks are commonly required to support users in Teams.
 #### Common tasks for Phone System
 
 [Assign, change, or remove a phone number for a
-user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)
+user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 [Assign or change an emergency address for a
 user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)

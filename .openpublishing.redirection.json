@@ -1310,6 +1310,16 @@
       "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skypeacademy-training.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online", 
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-org-aa.yml", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/tutorial-org-aa", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user", 
+      "redirect_document_id": true
     }
   ] 
 }
