@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Setup
