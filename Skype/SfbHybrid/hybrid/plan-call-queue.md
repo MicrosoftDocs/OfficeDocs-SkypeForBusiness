@@ -111,7 +111,7 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
 Exchange UM: [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
