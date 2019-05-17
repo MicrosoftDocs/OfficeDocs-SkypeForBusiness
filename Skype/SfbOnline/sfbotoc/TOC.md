@@ -130,7 +130,7 @@
 ### [Assign or change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Create and manage dial plans](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
+### [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [How to get Calling Plans for Office 365](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Phone number management for Australia](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

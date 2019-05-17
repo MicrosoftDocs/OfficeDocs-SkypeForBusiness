@@ -333,7 +333,7 @@
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Types of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md)
 ### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
 ### [Search for phone numbers for users](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [See a list of phone numbers in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

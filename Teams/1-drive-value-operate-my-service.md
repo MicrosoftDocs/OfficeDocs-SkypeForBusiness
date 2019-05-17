@@ -848,7 +848,7 @@ report to more effectively assist with this task.
 
 There are two methods to acquire numbers in Teams: You can port telephone
 numbers from another provider or you can provision the numbers directly from
-Microsoft’s number inventory. Both methods are described in [Getting phone numbers for your users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+Microsoft’s number inventory. Both methods are described in [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
 There is a limit to the number of telephone numbers you can provision from
 Microsoft’s number inventory. The limits are determined by a number of factors
