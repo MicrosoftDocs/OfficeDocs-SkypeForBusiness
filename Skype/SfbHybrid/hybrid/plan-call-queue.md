@@ -25,7 +25,7 @@ In addition, Cloud call queues can provide:
 - Music while callers are waiting on hold
 - Customized settings for call queue maximum size, timeout, and call handling options
 
-Each call queue is assigned a resource account on your Skype for Business Server 2019 system that is linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) for more detail on what call queues are and what options and features exist for call queues.
+Each call queue is assigned a resource account on your Skype for Business Server 2019 system that is linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
 > You are now able to link multiple inbound phone numbers to a single Cloud call queue.
@@ -48,7 +48,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the ON-PREM license.
 
-- Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) for each call queue, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
+- Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts) for each call queue, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
 - Implement a new Cloud call queue service with Skype for Business Online and Phone System. See [Configure Cloud call queues](configure-call-queue.md) for implementation details.
 
 ## Migration and interoperability
@@ -107,16 +107,16 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Configure Cloud call queues](configure-call-queue.md)
 
-[Enable custom prompt recording using the telephone user interface](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[Enable custom prompt recording using the telephone user interface](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+Exchange UM: [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md)
 
 [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md)
 
-[Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md)
+[Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)
