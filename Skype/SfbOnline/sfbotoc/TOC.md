@@ -125,7 +125,7 @@
 ### [Calling Plans known issues](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Add, change, or remove an emergency location for your organization](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Add, change, or remove an emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
-### [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
+### [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
 ### [Assign or change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Create and manage dial plans](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
