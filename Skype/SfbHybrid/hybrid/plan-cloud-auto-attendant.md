@@ -35,7 +35,7 @@ Your implementation might involve one or two of these paths, but it's unlikely y
 
 Also see:
 
-- [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+- [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## Requirements
