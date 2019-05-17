@@ -24,6 +24,8 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 ---
 
 # Set up the Common Area Phone license for Microsoft Teams
+> [!NOTE]
+> Common area phones do not support voicemail.
 
 A common area phone is typically placed in an area like a lobby or another area which is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are set up as devices rather than users, and can automatically sign into a network.
 
