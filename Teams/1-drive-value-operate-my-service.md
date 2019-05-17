@@ -621,7 +621,7 @@ the Quality of Experience Review Guide and associated training materials.
 
 [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Upload Building information](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
+[Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 
 [Quality of Experience Review Guide](https://aka.ms/qerguide)
 
