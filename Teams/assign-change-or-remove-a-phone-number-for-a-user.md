@@ -121,7 +121,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 
 ## Related topics
-[What is address validation?](/skypeforbusiness/what-is-address-validation)
+[What is address validation?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
