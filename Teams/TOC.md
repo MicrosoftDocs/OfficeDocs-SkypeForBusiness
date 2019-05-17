@@ -74,7 +74,9 @@
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-### [Teams analytics and reporting in the Microsoft Teams admin center](teams-analytics-and-reports/teams-reporting-reference.md)
+
+### Teams analytics and reporting in the Microsoft Teams admin center
+#### [Overview](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
@@ -455,7 +457,8 @@
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Toll-free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
+### Toll-free dialing limitations and restrictions
+#### [Overview](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -551,13 +554,13 @@
 ## [Overview](adopt-microsoft-teams-landing-page.md) 
 ## [Get started](teams-adoption-get-started.md)
 
-## Phase 1
+## Phase 1 - Start
 ### [Start](teams-adoption-phase1.md)
 ### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
 ### [Create your first teams](teams-adoption-your-first-teams.md)
 ### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
 
-## Phase 2
+## Phase 2 - Experiment
 ### [Experiment](teams-adoption-phase2-experiment.md)
 ### [Create your champions program](teams-adoption-create-champions-program.md)
 ### [Governance quick start](teams-adoption-governance-quick-start.md)
@@ -565,7 +568,7 @@
 ### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
 ### [Onboard support](teams-adoption-onboard-support.md)
 
-## Phase 3
+## Phase 3 - Scale
 ### [Scale](teams-adoption-phase3-enable.md)
 ### [Define outcomes and success](teams-adoption-define-outcomes.md)
 ### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
