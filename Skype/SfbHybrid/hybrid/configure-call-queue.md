@@ -69,7 +69,7 @@ Your online implementation will need to have a plan that includes Phone System l
 
 2. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
 
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa.yml).
 
 ## Test the new call queue
 
