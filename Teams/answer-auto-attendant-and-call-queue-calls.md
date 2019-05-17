@@ -52,12 +52,12 @@ Support for auto attendant and call queue calls is available in the following cl
 
 ## Configure auto attendant and call queue support for Microsoft Teams
 
-To receive auto attendant and call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. Please review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you do not have auto attendant and/or call queue configured and would like to do so, see [Set up a Cloud auto attendant](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) and [Create a Cloud call queue](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+To receive auto attendant and call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. Please review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you do not have auto attendant and/or call queue configured and would like to do so, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant) and [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
 ## Related topics
 
 -	[What is Phone System in Office 365](what-is-phone-system-in-office-365.md)
--	[Create a Cloud call queue](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-	[Create a Cloud call queue](create-a-phone-system-call-queue.md)
 -	[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
--	[Set up a Cloud auto attendant](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-	[Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 

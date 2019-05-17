@@ -135,7 +135,7 @@ Cloud auto attendants can be used to create a menu system for your organization 
 
 |Ask yourself|Action |
 |:------------|:-------|
-| Does my organization need auto attendants? | For more information, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md) and [Set up a Cloud auto attendant](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Does my organization need auto attendants? | For more information, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md) and [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md). |
 
 ### Devices
 
