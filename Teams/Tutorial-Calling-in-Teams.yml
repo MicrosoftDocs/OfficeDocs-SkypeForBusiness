@@ -577,7 +577,7 @@ items:
     ### 6. Assign phone numbers and emergency address to users
 
     Follow the instructions in [Assign, change, or remove a phone number for a
-    user](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
+    user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
 
     > [!NOTE]
     > For the assigned phone numbers to show up in Teams, you must update
