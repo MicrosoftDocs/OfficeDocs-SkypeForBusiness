@@ -16,6 +16,7 @@ MS.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
+localization_priority: Priority
 ---
 
 Guest access in Microsoft Teams
