@@ -74,7 +74,7 @@ If you still need help, please let us know how we can help you. In your Help req
 #### Additional resources:
 - To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+- To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
 - To get help setting up phone numbers for your organization, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
