@@ -78,7 +78,7 @@ This section describes what happens when MMS is triggered in each of the followi
 
 This is the most common scenario where MMS helps create a smoother transition for your users. Without meeting migration, existing meetings organized by a user in Skype for Business Server on-premises would no longer work once the user is moved online. Therefore, when you use the on-premises admin tools (either `Move-CsUser` or the Admin Control Panel) to move a user to the cloud, existing meetings are automatically moved to the cloud as follows:
 
-- If the `MoveToTeams` switch in `Move-CsUser` is specified, meetings are migrated directly to Teams and the user will be in TeamsOnly mode. Use of this switch requires Skype for Business Server with CU8 or later. These users can still join any Skype for Business meeting they may be invited to, using either the Skype for Business client or the Skype Meeting App.
+- If the `MoveToTeams` switch in `Move-CsUser` is specified, meetings are migrated directly to Teams and the user will be in TeamsOnly mode. Use of this switch requires Skype for Business Server 2015 with CU8 or later. These users can still join any Skype for Business meeting they may be invited to, using either the Skype for Business client or the Skype Meeting App.
 - Otherwise meetings are migrated to Skype for Business Online.
 
 In either case, if the user has been assigned an Audio Conferencing license before being moved to the cloud, the meetings will be created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only 1 meeting migration is triggered.
