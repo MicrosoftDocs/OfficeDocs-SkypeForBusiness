@@ -1,5 +1,5 @@
 ---
-title: Use Microsoft Teams admin roles to manage Teams
+title: Use Microsoft Teams administrator roles to manage Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Use Microsoft Teams admin roles to manage Teams
+# Use Microsoft Teams administrator roles to manage Teams
 
 Using Azure Active Directory (Azure AD), you can designate administrators who need different levels of access for managing Microsoft Teams. Administrators can manage the entire Teams workload, or they can have delegated permissions for troubleshooting call quality problems or managing your organization's telephony needs. 
 

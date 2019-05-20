@@ -184,7 +184,7 @@ You can select up to 200 call agents belonging to specified mailing lists or gro
 **Routing method** You can choose either **Attendant**,  **Serial**, or **Round Robin** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. When attendant routing is used, the first call in the queue will ring all of the call agents at the same time. The first call agent to pick up the call gets the call.
 
 - **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
-- **Serial routing** causes incoming calls to ring call agents one by one, starting from the beginning of the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.
+- **Serial routing** incoming calls will ring call agents one by one, starting from the beginning of the call agent list. Agents cannot be ordered within the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.
   > [!NOTE]
   > Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.
 - **Round robin** balances routing of incoming calls so that each call agent will get the same number of calls from the queue. This may be very desirable in an inbound sales environment to assure equal opportunity among all the call agents.

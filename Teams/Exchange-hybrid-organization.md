@@ -1,12 +1,12 @@
 ---
 title: Configure an Exchange hybrid organization for use with Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: crowe
+ms.reviewer: dstrome
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
