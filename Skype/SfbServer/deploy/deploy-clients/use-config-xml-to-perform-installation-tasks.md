@@ -3,7 +3,7 @@ title: "Use Config.xml to perform installation tasks in Skype for Business clien
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

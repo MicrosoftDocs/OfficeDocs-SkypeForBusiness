@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
+audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
