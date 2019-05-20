@@ -41,7 +41,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
@@ -81,7 +81,7 @@ In the Skype for Business admin center, go to **Voice** > **Voice users** > **Em
 
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user) for more details.
+In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) for more details.
 
 ## Step 6: Tell your users about their new phone numbers
 <a name="bkmk_add_addresses"> </a>
