@@ -3,7 +3,7 @@ title: "Install and test Skype for Business for iOS"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

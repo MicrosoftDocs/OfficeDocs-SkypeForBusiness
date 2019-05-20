@@ -12,7 +12,7 @@ ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
