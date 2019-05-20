@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: skype
 ms.service: skype-for-business
 ms.collection: Skype
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 - Skype for Business
