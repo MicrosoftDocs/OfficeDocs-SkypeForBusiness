@@ -88,7 +88,10 @@ The following table shows the calling and meeting features available to guests.
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
 ## Frequently asked questions
-  
+
+Q. How do I leave an organization that I've been invited to?<br>
+A. If you have been invited to an organization, that you don't want to be a guest of, you can self-service leave the organization. For more information, go to [Leave an organization as a guest user](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Alternatively, you can also ask the admin of the organization to remove you from their tenant. Note that in either case you'll need to be re-invited to the tenant if you want to access the organization in future.
+
 Q. Do guests have the same capabilities as team members?<br>
 A. No. For more information about what a guest can and cannot do, go to [Guest capabilities in Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
