@@ -244,4 +244,4 @@ To assign a service number, you will need to get or transfer your existing toll 
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)
