@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams

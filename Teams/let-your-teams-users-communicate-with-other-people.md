@@ -11,7 +11,7 @@ ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams

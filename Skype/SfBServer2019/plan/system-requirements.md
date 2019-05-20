@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
