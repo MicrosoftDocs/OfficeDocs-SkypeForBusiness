@@ -3,7 +3,7 @@ title: "Phones and Devices for Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: dvank
+ms.reviewer: divank
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -41,6 +41,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
 | AudioCodes |440HD IP Phone|UC440HD_3.1.3.144.18|5/06/2019|
+| AudioCodes |430HD IP Phone|UC430HD_3.1.3.144.18|5/06/2019|
 | AudioCodes |445HD IP Phone|3.1.2.89 |12/21/2018|
 | AudioCodes |450HD IP Phone|3.0.4.120 |1/12/2018|
 | AudioCodes |405HD IP Phone|3.0.1.89 |6/14/2017|
