@@ -3,7 +3,7 @@ title: Teams meetings on unsupported browsers
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/15/2019
+ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: msteams
 MS.collection: 
@@ -22,7 +22,7 @@ Some browsers, such as Internet Explorer 11, Safari, and Firefox, support the Te
 
 When Teams detects an unsupported browser, it automatically displays a message explaining the issue and the session limitations. The message provides further instructions for accessing the meeting audio, such as  advising the user to leave a call back number so that Teams can call the user, or instructing the user to call the conference number included in the meeting invitation. The message also encourages the user to download and use the [Teams desktop client](https://teams.microsoft.com/downloads) for the full Teams experience.
 
-If the meeting invitation does not contain PSTN information (because of a tenant policy, for example), then the user sees a message that calling is not available for the meeting.
+If PSTN is unavailable, the user will not see the instructions for accessing the meeting and will not be able to join the meeting.
 
 ## Browser limitations
 
