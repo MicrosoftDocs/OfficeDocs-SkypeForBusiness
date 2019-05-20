@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
 ms.collection: Lync
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync Server
 - Skype for Business
