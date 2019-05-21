@@ -19,15 +19,13 @@ description: Auditing read receipts for admins (june 19)
 
 Enables admin auditing of read receipts in security and compliance center. 
 
-
 ## Auditing read receipts overview
 
  Auditing read receipts allows after-incident response teams to review messages exchanged regarding patient care and determine if changes or improvements in policy or procedure are needed.
 
 *Usage example:*  Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia starts a group chat with a set of doctors and other nurses who will be working with the patient to coordinate care and start an emergency triage.  The nurses and doctors communicate and collaborate over the patient's care plan throughout the care coordination process.  Important and urgent messages are sent through 1:1 and group chat conversations. Sofia uses the read receipts functionality to determine if messages sent requesting support are delivered and read by the targeted physicians or nurses.
-    
- A few days later, the risk assessment team in the hospital gets an escalation about an incident with Jakob, and would like to determine if there was a breakdown in the communication process or how the process could be improved. As part of this risk assessment, the team accesses read receipt information using the Security and Compliance center to answer their questions.
 
+ A few days later, the risk assessment team in the hospital gets an escalation about an incident with Jakob, and would like to determine if there was a breakdown in the communication process or how the process could be improved. As part of this risk assessment, the team accesses read receipt information using the Security and Compliance center to answer their questions.
 
 ## [OPTIONAL] Planning for feature
 
