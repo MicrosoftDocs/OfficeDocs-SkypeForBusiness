@@ -92,7 +92,7 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 
 Use the following cmdlet to assign a direct routing number: 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber tel:+14250000000
+Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
 
 > [!IMPORTANT]
