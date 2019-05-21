@@ -41,7 +41,7 @@ Share the following resources with your IT staff members, and confirm that theyâ
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</li><li>Have you developed a training plan for onboarding additional staff as your upgrade progresses?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Verify that IT staff has the information they need.</li><li>Revisit your training and preparation plans as new features are released.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</li><li>Have you developed a training plan for onboarding additional staff as your upgrade progresses?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Verify that IT staff has the information they need.</li><li>Revisit your training and preparation plans as new features are released.</li></ul>|
 
 After youâ€™ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).
