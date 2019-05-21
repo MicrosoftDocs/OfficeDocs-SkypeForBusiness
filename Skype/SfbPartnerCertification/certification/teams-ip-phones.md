@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
 ms.collection: Teams
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal

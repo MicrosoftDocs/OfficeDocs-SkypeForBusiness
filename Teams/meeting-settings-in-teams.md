@@ -7,7 +7,7 @@ ms.reviewer: sonua
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal

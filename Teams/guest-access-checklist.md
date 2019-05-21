@@ -35,6 +35,7 @@ The guest experience has limitations by design. Make sure you understand the gue
 - Create or revise a team
 - Browse for a team
 - Upload files to a person-to-person chat
+- Guests can still search and find users, outside their team, if they know their full email ID. To prevent this, IT admins can use patterns like [scoped directory search](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) that have the ability to restrict Guests into their own virtual GAL.
 
 For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 

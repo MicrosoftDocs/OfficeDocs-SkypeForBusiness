@@ -64,7 +64,7 @@ See [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md) to l
 
 |Ask yourself|Action |
 |------------|-------|
-|Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).|
 |Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
 |Do I need to port numbers to use with audio conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).|
 |||
