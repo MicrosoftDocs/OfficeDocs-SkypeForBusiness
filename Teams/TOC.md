@@ -140,7 +140,7 @@
 #### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](outbound-calling-restriction-policies.md)
 #### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 

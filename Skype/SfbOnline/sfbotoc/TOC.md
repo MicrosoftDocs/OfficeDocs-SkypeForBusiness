@@ -104,7 +104,7 @@
 ### [Enable users to record their name when they join a meeting](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
 ### [Manage the Audio Conferencing settings for my organization](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
 ### [Manage the Audio Conferencing settings for a user](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md)
-### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
+### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/microsoftteams/outbound-calling-restriction-policies?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Phone numbers for Audio Conferencing](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [Reset a conference ID for a user](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
 ### [Reset the Audio Conferencing PIN](../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md)
