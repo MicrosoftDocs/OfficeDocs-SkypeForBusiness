@@ -19,4 +19,4 @@ Skype for Business Server includes Role-Based Access Control (RBAC) groups to en
   
 With RBAC, administrative privilege is granted by assigning users to pre-defined administrative roles, including the 11 predefined roles that cover many common administrative tasks. Each role is associated with a specific list of Lync Server Management Shell cmdlets that users in that role are allowed to run. You can use RBAC to follow the principle of "least privilege," in which users are given only the administrative abilities that their jobs require. 
   
-More details on RBAC roles can be found at: https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx
+More details on RBAC roles can be found at: [Planning for role-based access control](https://docs.microsoft.com/lyncserver/lync-server-2013-planning-for-role-based-access-control)
