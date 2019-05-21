@@ -48,7 +48,7 @@ The following tables provide a comparison of features between the available Team
 |Add members to group chats & share history|●|●|●|●|●| |||
 |Edit messages|●|●|●|●|●| |||
 |Share to Teams app| | | |●|●| |||
-|Record and share voice messages|● play only|● play only| ● play only|●|●|   |||
+|Record and share voice messages|● <br>play only|● <br>play only| ● <br>play only|●|●|   |||
 |Message translation|●|●|●|   |   | |||
 ||||||||||
 
@@ -84,7 +84,7 @@ The following tables provide a comparison of features between the available Team
 |Group call|●|●|●|●|●|   |||
 |Native dialer integration|●|●| |●|●|   |||
 |Join meeting|●|●|●|●|●|   |||
-|Share screen in meeting|●|●| ● Chrome browser required|●|   | |||
+|Share screen in meeting|●|●| ● <br>Chrome browser required|●|   | |||
 |Share video, photo in meeting| | | |●|●| |||
 |Share PPT content with coviewing|●|●|●|●|●|   |||
 |Share whiteboard|●|●|●|●|●| |||
