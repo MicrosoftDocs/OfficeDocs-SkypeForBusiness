@@ -29,7 +29,10 @@ Bots developed by the community can be leveraged within Teams. The bot's functio
 
 For more information, see [Apps and services](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
-Create custom bots for Teams
+> [!IMPORTANT]
+> Adding a bot by GUID, for anything other than testing purposes, is not recommended. Doing so severely limits the functionality of a bot. Bots in production use should be added to Teams as part of an app. See [Create a bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-create) and [Test and debug your Microsoft Teams bot](https://docs.microsoft.com/microsoftteams/platform/concepts/bots/bots-test)
+
+Create custom bots for Microsoft Teams
 --------------------------------------
 
 You can easily create a bot that integrates in to your LOB applications, using the Microsoft Bot Framework. See the [Creating and Testing a bot for Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=854371) guidance to learn how you can develop and publish your own bots.

@@ -5,7 +5,7 @@ ms.author: v-lanac
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
