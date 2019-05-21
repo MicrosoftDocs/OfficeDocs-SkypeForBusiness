@@ -41,7 +41,7 @@ You have two ways of getting service numbers so you can use them with Skype for 
   
 ## Get new service numbers
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     

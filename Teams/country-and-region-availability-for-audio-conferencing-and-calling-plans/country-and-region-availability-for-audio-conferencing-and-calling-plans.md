@@ -157,7 +157,7 @@ Dialing out from a meeting to another country/region in the world that is not li
 ### Phone System
 With Phone System, you can create auto attendants and call queues (with a toll or toll-free number) to answer incoming calls for your organization, and when you add a Calling Plan for users they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users can click a name in their address book and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.
 
-> The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users). You can also see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users). You can also see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -180,7 +180,7 @@ In addition to getting phone numbers for individual users from Office 365, it's 
   
 The following is a list of capitals and major cities from where you can get toll service numbers to use with Audio Conferencing and Calling Plans. You can get toll service numbers from these locations using the **Skype for Business admin center**.
   
-If you want to get a toll or toll-free service number, you can see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). If you already have a toll or toll-free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+If you want to get a toll or toll-free service number, you can see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers). If you already have a toll or toll-free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 Use the drop down list at the top of the page to search for a country or region and what services are available.
 
@@ -192,7 +192,7 @@ If you don't set up Communications Credits and assign a license to users and you
 
 
 ## Related topics
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  
