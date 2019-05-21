@@ -3,7 +3,7 @@ title: "Deploy Microsoft Teams Rooms with Office 365"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

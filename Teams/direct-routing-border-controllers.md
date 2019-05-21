@@ -4,7 +4,7 @@ ms.author: crowe
 ms.reviewer: NMuravlyannikov
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
