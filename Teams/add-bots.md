@@ -55,15 +55,14 @@ Upload your bot for group chats or channels
 
 If you want to share your bot with your colleagues, here's how to add it to group chats or channels of different teams:
 
-1. After you [create an app package for your bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), open Teams and browse to the team in which you'll be sideloading the bot.
+1. After you [create an app package for your bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), open Teams and browse to the team in which you'll be uploading the bot.
 2. Add **[App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, app to Teams.
 3. In App Studio, select the **Manifest Editor** Tab. 
 ![Manifest Editor Tab Screenshot.](media/Adding_Bot_To_Teams.png)
-4. To add your bot, in capabilities, select the bot and choose to add an existing bot, then you will have the option 
-to choose an existing bot or enter the Id of one of your existing bots.
+4. To add your bot, in capabilities, select the bot and choose to add an existing bot. Then, choose an existing bot or enter the Id of an existing bot.
 ![Select your bot you already created.](media/Select_Existing_Bot.png)
 5. Browse to the location of your app package, select it, and then click **Open**.
-6. Select your bot's name (Don't forget to select the **Group chat** or **Team** check box under the scope section).
+6. Select your bot's name. (Don't forget to select the **Group chat** or **Team** check box under the scope section).
 7. Select **Test and distribute**.
 8. Select the group chat or team where you want to connect your bot to.
 
