@@ -63,6 +63,7 @@ The following tables provide a comparison of features between the available Team
 ||||||||||
 
 **Team Admin features**
+
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:--- |:--- |:---|:---|:---|:--- |:---|:---|
 |Create/delete/admin team/channel |●|●|●|●|●| |On mobile, can't add DLs/groups||
