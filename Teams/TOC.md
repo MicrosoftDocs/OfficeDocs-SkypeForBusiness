@@ -285,7 +285,7 @@
 #### [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
-#### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Auto attendants and call queues 
 #### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)

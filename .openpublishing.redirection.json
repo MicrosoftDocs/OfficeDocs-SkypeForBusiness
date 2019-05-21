@@ -1340,6 +1340,11 @@
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/outbound-calling-restriction-policies.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/outbound-calling-restriction-policies", 
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization", 
+      "redirect_document_id": true
     }
   ] 
 }

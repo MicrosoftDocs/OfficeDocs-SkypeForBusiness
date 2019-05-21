@@ -143,7 +143,7 @@
 #### [Phone number management for the Netherlands](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Phone number management for the U.K.](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Phone number management for the U.S.](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [How can caller ID be used in your organization](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
+### [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ###[More about Calling Line ID and Calling Party Name](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Search for phone numbers for users](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
