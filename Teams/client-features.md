@@ -23,7 +23,7 @@ The following tables provide a comparison of features between the available Team
 **General features**
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---|
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:|
 |Single sign-on               |●|●|●|●|●|●|
 |Multi-factor auth            |●|●|●|●|●|●|
 |Auto-update                  |●|●|●| | | |
@@ -34,7 +34,7 @@ The following tables provide a comparison of features between the available Team
 **Messaging features**
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---         |
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:         |
 |Basic messaging                           |●|●|●|●|●|●|
 |Rich text messaging                       |●|●|●|●|●| |
 |@mentions                                 |●|●|●|●|●|●|
@@ -57,7 +57,7 @@ The following tables provide a comparison of features between the available Team
 **Notification features** 
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---         |
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:         |
 |Notification settings                  |●|●|●|●|●|●|
 |Always-on notifications                |●|●|●|●|●|●|
 |Do not disturb - presence mode &Dagger;|●|●|●| | | |
@@ -69,7 +69,7 @@ The following tables provide a comparison of features between the available Team
 **Team Admin features**
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---         |
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:         |
 |Create/delete/admin team/channel&Dagger; |●|●|●|●|●| |
 |Add members                     |●|●|●|●|●| |
 |Discover/search/join team       |●|●|●|●|●| |
@@ -85,7 +85,7 @@ The following tables provide a comparison of features between the available Team
 **Calling features**
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---|
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:|
 |Audio call                      |●|●|●|●|●| |
 |Video call                      |●|●|●|●|●| |
 |Group call                      |●|●|●|●|●| |
@@ -105,7 +105,7 @@ The following tables provide a comparison of features between the available Team
 **Extensibility features**
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---|
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:|
 |View tabs (app links)        |●|●|●|●|●|●|
 |View tabs within app (native)|●|●|●|●|●| |
 |Apps hub                     |●|●|●| | | |
@@ -116,7 +116,7 @@ The following tables provide a comparison of features between the available Team
 **Other features**
 
 |Feature|Windows|Mac |Web |iOS |Android|Windows Phone|
-|:---   |:---   |:---|:---|:---|:---   |:---|
+|:---:   |:---:   |:---:|:---:|:---:|:---:   |:---:|
 |Chromebook Android app     | | | | |●| |
 |Optimized Tablet experience| | | |●| | |
 ||||||||
