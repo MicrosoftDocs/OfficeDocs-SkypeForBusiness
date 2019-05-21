@@ -81,7 +81,7 @@ To see a list of those countries/regions that have phone numbers automatically a
 ## How do you get dedicated phone numbers?
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. You can get dedicated toll and toll-free phone numbers for your conferencing bridges in one of three ways:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your conference bridges using the Skype for Business admin center. See [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your conference bridges using the Skype for Business admin center. See [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
