@@ -104,8 +104,8 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 
 - Up to two 1080p displays with HDMI connections. HDMI cables of appropriate length.
 
-    > [!NOTE]
-    > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
+> [!NOTE]
+> A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
 
 > [!NOTE]
 > Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device. 

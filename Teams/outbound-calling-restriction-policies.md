@@ -37,11 +37,11 @@ Outbound call controls can be applied on a per-user basis and provide the follow
    > A call is considered domestic if the number dialed is in the same country where Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls). 
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## Restrict audio conferencing outbound calls 
 
-![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -53,7 +53,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Click **Save**. 
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1.	In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
 
@@ -61,12 +61,12 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 3.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
-    ![The Restrictions to dial-outs options](../images/restrictions-to-dial-outs.png)
+    ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
 
 5. Click **Save**.
 
 > [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Using PowerShell**
 

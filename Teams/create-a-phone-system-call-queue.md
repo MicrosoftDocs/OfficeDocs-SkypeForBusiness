@@ -316,7 +316,7 @@ Here are the cmdlets that you need to manage a call queue.
 
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Getting service phone numbers](getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
