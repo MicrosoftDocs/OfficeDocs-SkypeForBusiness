@@ -11,7 +11,8 @@ description: "Learn how to install and configure the Moodle integration app for 
 keywords: Teams Moodle app integration plugin
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
-appliesto: Microsoft Teams
+appliesto: 
+- Microsoft Teams
 ---
 
 
@@ -66,7 +67,8 @@ You can find more information on how to install Moodle plugins in the [Moodle do
 Next you'll need to register Moodle as an application in your Azure Active Directory. We've provided a PowerShell script to help you complete this process. The PowerShell Script provisions a new Azure AD application for your Office 365 tenant, which will be used by the Office 365 Moodle Plugin. The script will provision the app for your O365 tenant, set up all the required Reply URLs and Permissions for the provisioned app and return the AppID and Key. You can use the generated AppID and Key in your O365 Moodle Plugin Setup Page to configure your Moodle server with Azure AD. If you want to see the detailed manual steps that the PowerShell script is automating, you can find them in the full [documentation for the plugin](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application).
 
 ### Moodle tab for Microsoft Teams information flow
-![Illustration of Moodle tab for Microsoft Teams information flow](media/MoodleTabInformationFlow.png)
+
+<img width="530px" src="media/MoodleTabInformationFlow.png" title="Illustration of Moodle tab for Microsoft Teams information flow" />
 
 1. From the Microsoft Office 365 Integration plugin page slect the **Setup** tab.
 1. Click the **Download PowerShell Script** button and save it to your local computer.
@@ -131,7 +133,8 @@ The free Moodle Assistant Bot for Microsoft Teams helps teachers and students an
 
 ### Moodle bot information flow
 
-![Illustration of Moodle bot for Microsoft Teams information flow](media/MoodleBotInformationFlow.png) 
+<img width="530px" src="media/MoodleBotInformationFlow.png" title="Illustration of Moodle bot for Microsoft Teams information flow" />
+
 
 To install the bot, you'll first need to register it on the [Microsoft Identity Platform](https://identity.microsoft.com/Landing). This allows your Bot to authenticate against your Microsoft endpoints. To register your bot:
 
