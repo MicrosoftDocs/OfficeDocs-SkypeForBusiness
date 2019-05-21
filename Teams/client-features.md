@@ -27,7 +27,7 @@ The following tables provide a comparison of features between the available Team
 | |Auto-update|●|●|●| | | |||
 | |Flaky network/offline support|| |●|●|●|||
 | |Dark theme support|●|●|●|●|●| |||
-| |||||   |   | |||
+|||||||||||
 
 |Area|Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:---|:--- |:--- |:---|:---|:---|:--- |:---|:---|
@@ -46,7 +46,7 @@ The following tables provide a comparison of features between the available Team
 | |Share to Teams app| | | |●|●| |||
 | |Record and share voice messages|● play only|● play only| ● play only|●|●|   |||
 | |Message translation|●|●|●|   |   | |||
-| |||||   |   | |||
+|||||||||||
 
 |Area|Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:---|:--- |:--- |:---|:---|:---|:--- |:---|:---|
@@ -54,7 +54,7 @@ The following tables provide a comparison of features between the available Team
 | |Always-on notifications|●|●|●|●|●|●|||
 | |Do not disturb - presence mode|●|●|●| | | |On mobile, OS has a DND mode|
 | |Quiet hours for Teams notifications| | | |●|●| |||
-| |||||   |   | |||
+|||||||||||
 
 |Area|Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:---|:--- |:--- |:---|:---|:---|:--- |:---|:---|
@@ -66,7 +66,7 @@ The following tables provide a comparison of features between the available Team
 | |Guest access|●|●|●|●|●|   |||
 ||Guest tenant switcher|●|●|●|●|●|   |||
 | |Private channels|   |   |   |   |   | |||
-| |||||   |   | |||
+|||||||||||
 
 |Area|Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:---|:--- |:--- |:---|:---|:---|:--- |:---|:---|
@@ -82,7 +82,7 @@ The following tables provide a comparison of features between the available Team
 | |View shared content in meeting|●|●|●|●|●| |||
 | |Schedule meeting|●|●|●|●|●| |||
 | |Anonymous join|●|●|●|●|●| |||
-| |||||   |   | |||
+|||||||||||
 
 |Area|Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:---|:--- |:--- |:---|:---|:---|:--- |:---|:---|
@@ -91,7 +91,7 @@ The following tables provide a comparison of features between the available Team
 | |Apps hub|●|●|●|   |   | |||
 | |Configure connectors|●|●|●|   |   | |||
 | |Add/discover bots to teams|●|●|●|   |   |   |||
-| |||||   |   | |||
+|||||||||||
 
 |Area|Feature|Windows|Mac |Web |iOS |Android|Windows Phone|Comment|
 |:---|:--- |:--- |:---|:---|:---|:--- |:---|:---|
