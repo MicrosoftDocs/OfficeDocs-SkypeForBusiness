@@ -82,7 +82,7 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/p/?LinkId=717926)
+- [Plan your Phone System in Office 365 (Cloud PBX) solution](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## Related topics
