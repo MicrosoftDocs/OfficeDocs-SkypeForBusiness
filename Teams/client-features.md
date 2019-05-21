@@ -16,7 +16,7 @@ appliesto:
 
 # Teams client feature comparison
 
-The following tables provide a comparison of features between the available Teams clients. 
+The following tables provide a comparison of features between the available Teams clients.
 
 ● = Supported
 
