@@ -48,7 +48,7 @@ The following tables provide a comparison of features between the available Team
 |Add members to group chats & share history|●|●|●|●|●| |
 |Edit messages                             |●|●|●|●|●| |
 |Share to Teams app                        | | | |●|●| |
-|Record and share voice messages           |● &sup1;|● &sup1;| ● &sup1;|●|●|||
+|Record and share voice messages           |● &sup1;|● &sup1;| ● &sup1;|●|●||
 |Message translation|●|●|●|||||
 ||||||||
 
