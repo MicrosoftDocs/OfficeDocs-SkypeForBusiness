@@ -1350,6 +1350,11 @@
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/set-the-caller-id-for-a-user", 
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/more-about-calling-line-id-and-calling-party-name.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/more-about-calling-line-id-and-calling-party-name", 
+      "redirect_document_id": true
     }
   ] 
 }
