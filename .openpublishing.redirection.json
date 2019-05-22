@@ -1335,6 +1335,21 @@
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-service-phone-numbers.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers", 
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/outbound-calling-restriction-policies.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/outbound-calling-restriction-policies", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/set-the-caller-id-for-a-user", 
+      "redirect_document_id": true
     }
   ] 
 }

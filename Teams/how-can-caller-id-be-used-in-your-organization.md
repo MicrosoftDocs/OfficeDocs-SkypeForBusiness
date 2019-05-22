@@ -54,7 +54,7 @@ However, you can't assign these types of phone numbers for the outbound caller I
     
 - A Skype for Business Server on-premises phone number
     
-To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).
+To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user).
   
 ### End User Control of Outbound Caller ID
 
@@ -75,7 +75,7 @@ Your end users can set their caller ID to **Anonymous** by using the **Settings*
 
 The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
-To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).
+To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user).
   
 ## Related topics
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
