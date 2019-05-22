@@ -8,7 +8,7 @@ ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help

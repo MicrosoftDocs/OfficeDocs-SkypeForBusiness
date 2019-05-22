@@ -274,8 +274,7 @@ items:
     users.
 
     <span style="color:red">**Action**:</span> Review [Country and region availability for Audio Conferencing and
-    Calling
-    Plans](https://docs.microsoft.com/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+    Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     for the following information:
 
     -   For the country where your billing address is located, check whether Audio
@@ -439,7 +438,7 @@ items:
 
     -   Learn more about calling identity controls from [How can caller ID be used
     in your
-    organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+    organization](how-can-caller-id-be-used-in-your-organization.md).
 
     ### Optional: Dial Plans
 
@@ -577,7 +576,7 @@ items:
     ### 6. Assign phone numbers and emergency address to users
 
     Follow the instructions in [Assign, change, or remove a phone number for a
-    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
+    user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
 
     > [!NOTE]
     > For the assigned phone numbers to show up in Teams, you must update
@@ -592,7 +591,7 @@ items:
     Based on your implementation plan, you might need to configure the Calling
     Identity settings for your users. Follow the instructions in [Set the Caller ID
     for a
-    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user).
+    user](/microsoftteams/set-the-caller-id-for-a-user).
 
     ### 8. Optional: Assign Dial Plan settings to users
 

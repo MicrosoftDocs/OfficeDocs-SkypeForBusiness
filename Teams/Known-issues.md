@@ -305,4 +305,4 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to move, delete or rename Fies after editing  <br/> |After a file is eidted in MS teams it cannot be moved or renamed or deleted immediately <br/> |This is urrently a known issue and the workaround is to wait for sometime before making administrativ chnage.  <br/> |03/12119  <br/> |
+|Unable to move, delete or rename files after editing  <br/> |After a file is edited in Teams it cannot be moved or renamed or deleted immediately <br/> |This is currently a known issue and the workaround is to wait for some time before making administrative changes.  <br/> |03/12/19  <br/> |

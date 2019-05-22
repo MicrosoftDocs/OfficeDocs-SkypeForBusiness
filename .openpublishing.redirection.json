@@ -1305,6 +1305,61 @@
       "source_path": "Skype/SfbServer/room-systems/index.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/room-systems/index", 
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skypeacademy-training.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-org-aa.yml", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/tutorial-org-aa", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-service-phone-numbers.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/outbound-calling-restriction-policies.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/outbound-calling-restriction-policies", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/set-the-caller-id-for-a-user", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/more-about-calling-line-id-and-calling-party-name.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/more-about-calling-line-id-and-calling-party-name", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/Sfbserver/manage/authentication/use-adal.md", 
+      "redirect_url": "https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview", 
+      "redirect_document_id": false
     }
   ] 
 }

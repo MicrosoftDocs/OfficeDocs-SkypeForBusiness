@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

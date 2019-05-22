@@ -94,7 +94,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 |Ask yourself|Action |
 |:------------|:-------|
-|Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](set-the-caller-id-for-a-user.md). |
 |||
 
 ### Phone numbers from Microsoft
@@ -103,7 +103,7 @@ Microsoft has two types of telephone numbers available: *subscriber* (user) numb
 
 |Ask yourself|Action |
 | :------------|:-------|
-| Which user locations need new phone numbers from Microsoft? | For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). 
+| Which user locations need new phone numbers from Microsoft? | For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md). 
 | Which type of telephone number (subscriber or service) do I need? | To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 How do I port existing phone numbers to Office 365?|For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 |||
@@ -135,7 +135,7 @@ Cloud auto attendants can be used to create a menu system for your organization 
 
 |Ask yourself|Action |
 |:------------|:-------|
-| Does my organization need auto attendants? | For more information, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md) and [Set up a Cloud auto attendant](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Does my organization need auto attendants? | For more information, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md) and [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md). |
 
 ### Devices
 

@@ -11,7 +11,6 @@ ms.collection:
 - Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: None
 f1keywords: None
