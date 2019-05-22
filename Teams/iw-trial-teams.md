@@ -3,7 +3,6 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -24,7 +23,7 @@ Manage the Microsoft Teams Commercial Cloud Trial offer
 Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
 
 > [!IMPORTANT]
-> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality and is now owned and controlled by your organization's billing admin. This makes the trial easier to manage and makes it consistent with all other Microsoft 365 offers. Existing Teams Commercial Cloud Trial users will be migrated to the new plan.
+> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality and is now owned and controlled by your organization's billing admin. This makes the trial easier to manage and makes it consistent with all other Microsoft 365 offers. 
 
 ## What's in the offer
 
@@ -137,3 +136,13 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 
 > [!NOTE]
 > If the trial ends and a user is not immediately upgraded to a subscription that includes teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 
+
+### Remove a legacy Microsoft Teams Trial license
+
+As of April 22, 2019, all users can begin claiming the latest Microsoft Teams Commercial Cloud Trial license. Once the legacy license is removed, each affected user can claim the updated Microsoft Teams Commercial Cloud Trial license.
+
+- If you would like to remove this license via PowerShell, see:
+[Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+
+- If you would like to remove this license through the admin portal, see:
+[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
