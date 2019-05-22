@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
