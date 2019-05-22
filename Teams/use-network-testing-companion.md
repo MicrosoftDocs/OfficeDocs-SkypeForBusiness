@@ -3,7 +3,7 @@ title: Use the Network Testing Companion
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/15/2019
+ms.date: 05/22/2019
 ms.topic: article
 ms.service: msteams
 MS.collection: 
