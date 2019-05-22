@@ -82,7 +82,7 @@ For more details, see [Change the phone numbers on your audio conferencing bridg
 
 Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet callers when they dial in to a phone number for Audio Conferencing. 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
+![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
 1. From the Dashboard, go to **Meetings** > **Conference bridges**.
 2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
@@ -98,7 +98,7 @@ Next, you want to [Set auto attendant languages for Audio Conferencing](../audio
     
 After setting up your conferencing bridge, verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use; if they're not, you can change them. 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
+![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
 1. From the Dashboard, go to **Meetings** > **Conference bridges**.
 2. Select **Bridge settings**. This will open the **Bridge settings** pane. 
@@ -118,7 +118,7 @@ After you have created an Audio Conferencing bridge, you need to set the toll an
 
 You will need to do this for all of the people in your organization who lead or schedule meetings. 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
+![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
 1. From the Dashboard, click **Users**, select the user from the list, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.

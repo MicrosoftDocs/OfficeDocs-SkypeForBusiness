@@ -50,7 +50,7 @@ Refer to this article for a list of [Dimensions and measures available in Call Q
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
 Before you can start using the CQD, you'll need to activate it for your Office 365 organization.
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
  
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
     

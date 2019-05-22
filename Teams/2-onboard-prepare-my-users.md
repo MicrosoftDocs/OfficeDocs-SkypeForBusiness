@@ -40,11 +40,11 @@ Setting your project vision enables your key stakeholders to see the big picture
 
 The following image is an example of a vision-to-value statement for a customer upgrading from Skype for Business to Teams.
 
-![Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right")
+![Two-column table showing Vision and Value](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Create your vision and value statements for your current project scope, ensuring they align with your goals.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Create your vision and value statements for your current project scope, ensuring they align with your goals.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -54,8 +54,8 @@ The following image is an example of a vision-to-value statement for a customer 
 Organizational readiness helps determine how receptive (or not) your users might be to changing the way they work. Knowing how users might react to change empowers your organization to proactively address concerns, adjust your rollout plan for optimal reception, and identify users who can become your champions or ambassadors to help facilitate the change.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Are users ready and willing to change to the new solution?</li><li>Do users have the ability or competency to facilitate the change?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Use the following conversation starters to understand the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Are users ready and willing to change to the new solution?</li><li>Do users have the ability or competency to facilitate the change?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Use the following conversation starters to understand the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project.
 </li></ul></td></tr>
 </table>
 
@@ -93,8 +93,8 @@ Organizational readiness helps determine how receptive (or not) your users might
 People-level analysis gives you understanding of your user personas, cohorts, and use cases. By taking time to understand who your users are and how they work, you can ensure they have what they need to be successful as you implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training, whereas traveling field reps might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who should start using the new functionality today versus who might be best served by waiting.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Do certain users or cohorts have a core dependency on this solution to do their job effectively?</li><li>Are there specific use cases that can be facilitated by using this new solution?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Map user personas. First, segment your user base into persona/cohort groups (Executives, Road Warriors, Collaboration Workers, Retail, and so on). For manageability, list no more than eight groups. (For sample conversation starters, see below.) Use your findings to further design your user readiness campaigns and to segment pilot users from those who might benefit from upgrading later on.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Do certain users or cohorts have a core dependency on this solution to do their job effectively?</li><li>Are there specific use cases that can be facilitated by using this new solution?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Map user personas. First, segment your user base into persona/cohort groups (Executives, Road Warriors, Collaboration Workers, Retail, and so on). For manageability, list no more than eight groups. (For sample conversation starters, see below.) Use your findings to further design your user readiness campaigns and to segment pilot users from those who might benefit from upgrading later on.
 </li><li>Map use cases. After you’ve identified core user groups who will benefit from this new technology, consider your general user population. By understanding cross-team use cases and scenarios, you can visualize your organization working with this new technology. In addition, adding use case examples to your communication and training plans really help make them relevant for your users.</li></ul></td></tr>
 </table>
 
@@ -140,8 +140,8 @@ For examples of use cases, visit the [FastTrack Productivity Library](https://fa
 After you understand who your users are and how they’ll work within the new solution, you can design your readiness plan. Your user readiness plan incorporates how you’ll communicate, train, and support your users as you pilot, onboard, and operate the new solution. As you discovered in the previous steps in this article, readiness is not one-size-fits-all. Begin with a broad-reach awareness and training plan, incorporating the value messaging you defined at the beginning of this process. Then tailor your messaging, training, and support to the personas or cohorts you’ve defined, as appropriate. Your personalized plan will enable users to more quickly relate to the new solution while demonstrating that you understand their needs, which will help facilitate their transition.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>What readiness plan can you offer to help facilitate and accelerate adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Use the list in the following section to generate ideas for your readiness plan. Select the most relevant ones&mdash;or add your own&mdash;to design a readiness plan optimized for your organization.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Decision points</td><td><ul><li>What readiness plan can you offer to help facilitate and accelerate adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Use the list in the following section to generate ideas for your readiness plan. Select the most relevant ones&mdash;or add your own&mdash;to design a readiness plan optimized for your organization.</li></ul></td></tr>
 </table>
 
 ### Readiness plan ideas
