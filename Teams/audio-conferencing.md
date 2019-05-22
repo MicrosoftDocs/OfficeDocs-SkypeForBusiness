@@ -324,7 +324,7 @@ The Audio Conferencing service in Office 365 includes:
 For a full description of the included capabilities, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md) and [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
-> Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting service phone numbers for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Toll-free conference bridge phone numbers require Communications Credits.
+> Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md). Toll-free conference bridge phone numbers require Communications Credits.
 
 If there are existing conference bridge phone numbers that must be transferred to the Audio Conferencing service, assuming they are meeting the country-specific requirements, then the existing conference bridge phone numbers can be transferred to Microsoft.
 

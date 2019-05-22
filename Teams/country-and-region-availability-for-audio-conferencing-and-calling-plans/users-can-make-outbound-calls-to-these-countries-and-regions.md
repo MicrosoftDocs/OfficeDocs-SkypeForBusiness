@@ -88,7 +88,7 @@ description: "This topic contains all of the countries/regions that users can pl
 
 ## Related topics
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

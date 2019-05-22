@@ -53,7 +53,7 @@ Here is an example of the email that is sent to users when they are enabled for 
 
 You can use Microsoft Teams or Windows PowerShell to enable or disable email sent to users.
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

@@ -30,7 +30,7 @@ You can easily manage these settings in the Microsoft Teams admin center. In the
 
 This URL is shown to live event attendees. Add the support URL for your organization to give attendees a way to contact support during a live event.
 
-### ![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+### ![An icon showing the Microsoft Teams logo](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Support URL**, enter your organization's support URL. 
@@ -47,7 +47,7 @@ For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://doc
 
 If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams. 
 
-### ![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+### ![An icon showing the Microsoft Teams logo](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Third-party video distribution providers**, complete the following: 
