@@ -139,7 +139,7 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 
 ### Remove a legacy Microsoft Teams Trial license
 
-As of April 22, 2019, all users can begin claiming the latest Microsoft Teams Commercial Cloud Trial license. Once the legacy license is removed, each affected user can claim the updated Microsoft Teams Commercial Cloud Trial license.
+As of April 22, 2019, users can begin claiming the latest Microsoft Teams Commercial Cloud Trial license. If you would like to move users in your organization off of the legacy trial license and onto the latest one, you will need to first remove the legacy Microsoft Teams Trial license from each user. Once the legacy license is removed, each affected user can claim the updated Microsoft Teams Commercial Cloud Trial license.
 
 - If you would like to remove this license via PowerShell, see:
 [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
