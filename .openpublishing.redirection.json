@@ -1350,6 +1350,11 @@
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/set-the-caller-id-for-a-user", 
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/Sfbserver/manage/authentication/use-adal.md", 
+      "redirect_url": "https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview", 
+      "redirect_document_id": false
     }
   ] 
 }
