@@ -16,7 +16,9 @@ description: "set up a resource account for Skype for Business Server 2019."
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online. In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system.md).
 
-To use Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online or on premise. Typically you will have multiple call queue and auto attendant nodes, each of which plays an audio outgoing message to callers, each of which is mapped to one of these resource accounts, and each of which routes call to available agents.
+To use Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online (see [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md) to create resource accounts homed online) or on premise as described in this article. 
+
+Typically you will have multiple call queue and auto attendant nodes, each of which plays an audio outgoing message to callers, each of which is mapped to one of these resource accounts, and each of which routes call to available agents.
 
 If you have an existing auto attendant and call queue system implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.
 
@@ -25,9 +27,9 @@ If you have an existing auto attendant and call queue system implemented in Exch
 
 If your Phone System service will need a phone number, the process will be:
 
-1. obtain a toll-free service number
+1. Obtain a toll-free service number
 2. Buy a Phone System license and a Calling Plan
-3. Create the resource account.
+3. Create the resource account
 4. Wait for an active directory sync between online and on premise.
 5. Assign the Phone System license and the Calling Plan to the resource account.
 6. Assign a telephone number to the resource account.
@@ -57,12 +59,6 @@ Log in to the Skype for Business front end server and run the following PowerShe
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-  
-    ```
-
-    Assigning a phone number to a nested service is required only if you want to connect callers directly to a nested auto attendant or call queue without using a main auto attendant. Configuring a phone number for an auto attendant is required only for the main menu, and is optional for nested auto attendants or call queues that are accessed from a main auto attendant.
-
-    See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
 2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System services. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
@@ -75,7 +71,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
 3. create the service
 4. Associate RA and Service
 
-
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
 
 ### Apply phone numbers
 
@@ -91,28 +87,49 @@ Creating a resource account that uses a phone number would require performing th
    - [Office 365 Enterprise E5 Business Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
    - [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365.md)
 
-3. Create a new resource account as done previously in  [Server configuration steps](#server-configuration-steps).
+3. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each call queue or auto attendant, and give each one a name, sip address, and so on.
 
-4. Assign the Phone System license and the Calling Plan to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Assign the service number to the resource account. See [Server configuration steps](#server-configuration-steps).
-6. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
+    ``` Powershell
+    New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    ```
+
+    See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
+
+
+4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System services. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+
+    ``` Powershell
+    Start-ADSyncSyncCycle -PolicyType Delta
+    ```
+
+    See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+
+5. Assign the Phone System license and the Calling Plan to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+
+6. Assign the service number to the resource account. See [Server configuration steps](#server-configuration-steps).
+
+7. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
+    ```
 
-7. Associate the resource account with a Phone system service (call que or auto attendant). see OL doc.
+    See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
+8. Associate the resource account with a Phone system service (call queue or auto attendant). See [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) or [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
 
 ## Online service configuration steps
 
-Your online implementation of a call queue or auto attendant will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
-1. Assign Phone System licenses to the on-premise resource account as described in  [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) and [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+
+
 
 2. Assign phone numbers. A phone number homed on Skype for business Server can be assigned using the `Set-CsHybridApplicationEndpoint` command as mentioned earlier. Phone numbers using Direct Routing or O365 Calling Plans will need to be assigned using the Teams admin center.
 3. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) or [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) to implement the Phone System service settings.  
 
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+
 
 ## Test the implementation
 
