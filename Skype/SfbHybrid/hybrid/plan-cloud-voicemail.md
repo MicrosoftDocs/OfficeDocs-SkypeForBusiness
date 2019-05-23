@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
+description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
 
 # Plan Cloud Voicemail service for on-premises users
