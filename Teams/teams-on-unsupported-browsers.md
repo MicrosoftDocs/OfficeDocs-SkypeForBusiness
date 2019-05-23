@@ -3,7 +3,7 @@ title: Teams meetings on unsupported browsers
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/20/2019
+ms.date: 05/23/2019
 ms.topic: conceptual
 ms.service: msteams
 MS.collection: 
@@ -35,8 +35,8 @@ People who are using the Teams web app on unsupported browsers will experience t
 - Users won't receive incoming call notifications.
 - If the call is interrupted, the meeting will not automatically reconnect.
 
-## More information
+## Related topics
 
-For more information, see [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907).
-
+[Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907).
+[Limits and specifications for Microsoft Teams](limits-specifications-teams.md#Browsers)
 ---
