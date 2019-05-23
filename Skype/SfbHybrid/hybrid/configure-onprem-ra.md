@@ -18,16 +18,29 @@ Skype for Business Server 2019 hybrid implementations only use Cloud services pr
 
 In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system.md).
 
-To use Phone System services with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. Typically you will have multiple call queue and auto attendant nodes, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts, and each of which routes call to available agents.
+To use Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online or on premise. Typically you will have multiple call queue and auto attendant nodes, each of which plays an audio outgoing message to callers, each of which is mapped to one of these resource accounts, and each of which routes call to available agents.
 
 If you have an existing auto attendant and call queue system implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.
 
 > [!NOTE] 
-> Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
+> Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
-## Server configuration steps
+If your Phone System service will need a phone number, the process will be:
+1. Create the resource account and assign for TN: New-CsHybridApplicationEndpoint 
+2.Wait for an active directory sync between online and on premise.
+3. License it
+4.Assign the TN: Set-CsOnlineVoiceApplicationInstance
+5.Associate it with an application: New-CsApplicaionInstanceAssociation
 
-These steps are necessary whether you are creating a brand new call queue or auto attendant, or rebuilding structure originally created in Exchange UM.
+If the Phone system service you're creating will be nested and will not need a phone number, the process is: 
+
+1. Create the resource account  
+2. Wait for an active directory sync between online and on premise.
+3. Associate it with an application
+
+## Create a resource account on premise
+
+These steps are necessary whether you are creating a brand new call queue or auto attendant system, or rebuilding structure originally created in Exchange UM.
 
 Log in to the Skype for Business front end server and run the following PowerShell cmdlets:
 
@@ -39,11 +52,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-    > [!NOTE]
-    > You can also use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account after its initial creation.
-
-    ``` Powershell
-    Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
+  
     ```
 
     Assigning a phone number to a nested service is required only if you want to connect callers directly to a nested auto attendant or call queue without using a main auto attendant. Configuring a phone number for an auto attendant is required only for the main menu, and is optional for nested auto attendants or call queues that are accessed from a main auto attendant.
@@ -57,6 +66,10 @@ Log in to the Skype for Business front end server and run the following PowerShe
     ```
 
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+
+3. If the endpoint will be associated with a phone number, proceed to the next section. If not, you can proceed to creating your service and associuating the RA with it. links here
+
+
 
 ### Phone numbers
 
@@ -72,11 +85,16 @@ Creating a resource account that uses a phone number would require performing th
    - [Office 365 Enterprise E5 Business Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
    - [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365.md)
 
-3. Create a new resource account. See [Server configuration steps](#server-configuration-steps).
+3. Create a new resource account as done previously in  [Server configuration steps](#server-configuration-steps).
 4. Assign the Phone System license and the Calling Plan to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 5. Assign the service number to the resource account. See [Server configuration steps](#server-configuration-steps).
+6. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
 
-A resource account that doesn't require a phone number can omit steps 1,2, and 5.
+    ``` Powershell
+    Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
+
+7. Associate the resource account with a Phone system service (call que or auto attendant). see OL doc.
+
 
 ## Online service configuration steps
 
@@ -93,9 +111,9 @@ An example of a small business implementation is available in  [Small business e
 
 The best way to test the implementation is to call the number configured for a call queue or auto attendant and connect to one of the agents or menus. You can also quickly place a test call by using the **Test button** in the admin center Action pane. If you want to make changes to a call queue or auto attendant, select it and then in the Action pane click **Edit**.
 
-## Manually moving an Exchange UM call queue to Cloud call queue
+## Manually moving an Exchange UM auto attendant or call queue to Phone System
 
-1. Get a list of all call queues by running the following command on the Exchange 2013 or 2016 system while logged in as admin:
+1. Get a list of all auto attendants and call queues by running the following command on the Exchange 2013 or 2016 system while logged in as admin:
 
     ``` Powershell
     Get-UMAutoAttendant | Format-List
@@ -115,9 +133,9 @@ The best way to test the implementation is to call the number configured for a c
     - Holiday schedule
 
 3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps).
-   Assign the call queue a temporary number for testing purposes.
+   Assign the top-level auto attendant a temporary number for testing purposes.
 
-4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
+4. Configure a Phone system service that uses the endpoints as described above in [Online configuration steps](#online-configuration-steps).
 
    You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the auto attendant and user or call queue hierarchies in your old Exchange UM system.
 5. Test the Cloud call queue.
