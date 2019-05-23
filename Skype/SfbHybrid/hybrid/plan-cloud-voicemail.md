@@ -90,7 +90,7 @@ Version interoperability and supported topologies for Cloud Voicemail are listed
 | Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Not Supported | Cloud Voicemail <br> Exchange Online UM<sup>2</sup> |
 
 <sup>1</sup> Don't see this option yet? It's currently being rolled out and might not be available in your organization yet. See Step 6, Consider opting in, in [Exchange Unified Messaging Online migration support](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) to opt-in for planned connectivity to Cloud voicemail.
+) to opt-in for planned connectivity to Cloud Voicemail.
 
 <sup>2</sup> Until deprecated. See [Exchange Unified Messaging Online migration support](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) for more information. 
 
