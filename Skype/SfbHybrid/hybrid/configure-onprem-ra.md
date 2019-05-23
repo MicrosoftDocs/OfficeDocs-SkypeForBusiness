@@ -26,19 +26,25 @@ If you have an existing auto attendant and call queue system implemented in Exch
 > Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 If your Phone System service will need a phone number, the process will be:
-1. Create the resource account and assign for TN: New-CsHybridApplicationEndpoint 
-2.Wait for an active directory sync between online and on premise.
-3. License it
-4.Assign the TN: Set-CsOnlineVoiceApplicationInstance
-5.Associate it with an application: New-CsApplicaionInstanceAssociation
 
-If the Phone system service you're creating will be nested and will not need a phone number, the process is: 
+1. obtain a toll-free service number
+1. Buy a Phone System license and a Calling Plan
+1. Create the resource account.
+1. Wait for an active directory sync between online and on premise.
+1. Assign the Phone System license and the Calling Plan to the resource account.
+1. Assign a telephone number to the resource account.
+1. Create a Phone System service (call queue or auto attendant)
+1. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
+
+If the Phone system service you're creating will be nested and will not need a phone number, the process is:
 
 1. Create the resource account  
 2. Wait for an active directory sync between online and on premise.
-3. Associate it with an application
+3. Create a Phone System service (call queue or auto attendant)
+4. Associate the resource account with a service
 
-## Create a resource account on premise
+
+## Create a resource account on premise 
 
 These steps are necessary whether you are creating a brand new call queue or auto attendant system, or rebuilding structure originally created in Exchange UM.
 
@@ -86,6 +92,7 @@ Creating a resource account that uses a phone number would require performing th
    - [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365.md)
 
 3. Create a new resource account as done previously in  [Server configuration steps](#server-configuration-steps).
+
 4. Assign the Phone System license and the Calling Plan to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 5. Assign the service number to the resource account. See [Server configuration steps](#server-configuration-steps).
 6. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
