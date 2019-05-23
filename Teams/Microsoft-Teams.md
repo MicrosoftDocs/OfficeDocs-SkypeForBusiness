@@ -46,7 +46,7 @@ f1keywords:
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-introduction">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
