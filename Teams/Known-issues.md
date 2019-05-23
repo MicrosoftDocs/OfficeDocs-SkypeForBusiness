@@ -140,6 +140,12 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Client
 
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Can't start Teams for Surface Hub from Microsoft Store |Microsoft Teams for Surface Hub won't start when you click **Launch** in the Microsoft Store. | Launching the Teams for Surface Hub app from the Microsoft Store isn't supported by Windows on Surface Hub. | Please restart your Surface Hub after installing Teams. | 2/27/18 |
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Teams does not automatically update   <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.    <br/> | By design. Be sure to install the application in the default location: `user\Appdata`.  <br/> | 9/7/17  <br/> |
