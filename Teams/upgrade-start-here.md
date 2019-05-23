@@ -20,6 +20,8 @@ appliesto:
 
 # Getting started with your Microsoft Teams upgrade
 
+Congratulations on your pending upgrade from Skype for Business to Microsoft Teams. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.
+
 ## Why upgrade to Microsoft Teams?
 
 Microsoft Teams extends the capabilities of Skype for Business, bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. This new central hub for teamwork can help streamline the way users get things done, improving user satisfaction and accelerating business outcomes. As an existing Skype for Business customer, we invite you to upgrade to Microsoft Teams to experience this full suite of communication and collaboration capabilities in a single client experience.
