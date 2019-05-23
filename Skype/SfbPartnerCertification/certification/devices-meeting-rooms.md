@@ -10,7 +10,7 @@ ms.service: skype-for-business
 ms.collection: 
 - Lync
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync
 - Skype for Business 

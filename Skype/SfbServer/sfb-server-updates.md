@@ -3,7 +3,7 @@ title: "Skype for Business Server updates"
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro

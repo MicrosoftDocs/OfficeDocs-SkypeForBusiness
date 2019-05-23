@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -24,6 +24,8 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 ---
 
 # Set up the Common Area Phone license for Microsoft Teams
+> [!NOTE]
+> Common area phones do not support voicemail.
 
 A common area phone is typically placed in an area like a lobby or another area which is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are set up as devices rather than users, and can automatically sign into a network.
 
@@ -87,7 +89,7 @@ Use the Skype for Business admin center to assign a number to the user.
 > [!NOTE]
 > Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
 
-For more information, see [Getting phone numbers for your users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+For more information, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
 
 You can also take your phone number that you have with another carrier and "port" or transfer it over to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 

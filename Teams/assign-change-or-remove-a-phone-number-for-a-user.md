@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -20,7 +20,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in."
+description: "Learn how to assign, change, or remove a work phone number for your Teams or Skype for Business users so outside businesses and clients can call in."
 ---
 
 # Assign, change, or remove a phone number for a user
@@ -29,11 +29,11 @@ When you set up Calling Plans in Office 365, you assign phone numbers to your us
 
 In the Microsoft Teams client, the phone number you assign will be listed when they click **Calls**.
 
-![User's phone number displayed in Microsoft Teams.](../images/teams-phone-number.png)
+![User's phone number displayed in Microsoft Teams.](media/teams-phone-number.png)
 
 In the Skype for Business client, the phone number you assign will be listed in the **Work Phone** box and can't be changed by a user.
   
-![Work Phone Number is Greyed Out.](../images/5212fa64-b55c-4398-9709-a334f3ffa749.png)
+![Work Phone Number is Greyed Out.](media/5212fa64-b55c-4398-9709-a334f3ffa749.png)
   
 > [!IMPORTANT]
 > If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.
@@ -42,14 +42,14 @@ In the Skype for Business client, the phone number you assign will be listed in 
 
 When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.
   
-To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## Assign a phone number to a user
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -68,7 +68,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 6. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
     
     > [!TIP]
-    > If you don't see any phone numbers listed, you need to [get phone numbers for your users](getting-phone-numbers-for-your-users.md) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
+    > If you don't see any phone numbers listed, you need to [get phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
 7. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
     
@@ -81,7 +81,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
  ## Change a phone number for a user
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -105,7 +105,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
  ## Remove a phone number from a user
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -121,7 +121,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 
 ## Related topics
-[What is address validation?](what-is-address-validation.md)
+[What is address validation?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 

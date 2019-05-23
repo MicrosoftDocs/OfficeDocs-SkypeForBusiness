@@ -11,7 +11,7 @@ ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -40,7 +40,7 @@ Here is an example of the email that is sent:
   
 ## Send an email with audio conferencing information to a user
 
-### ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+### ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 

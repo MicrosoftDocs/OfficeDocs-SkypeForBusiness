@@ -10,10 +10,10 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Setup

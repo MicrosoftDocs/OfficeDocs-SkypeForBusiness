@@ -3,7 +3,7 @@ title: "Plan for Modern Authentication in Skype for Business"
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro

@@ -32,7 +32,7 @@ You can get a better understanding of the types of modes that are available to y
 
 ## Set upgrade options for all users in your organization
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Org-wide settings** > **Teams upgrade**. 
 
@@ -50,7 +50,7 @@ You can get a better understanding of the types of modes that are available to y
 
 ## Set upgrade options for a single user in your organization
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Users**, and then select the user from the list. 
 2. On the **Account** tab for the user, under **Teams upgrade**, click **Edit**.
