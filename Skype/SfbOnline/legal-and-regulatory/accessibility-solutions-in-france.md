@@ -11,7 +11,7 @@ ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 audience: Admin
-aappliesto:
+appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
