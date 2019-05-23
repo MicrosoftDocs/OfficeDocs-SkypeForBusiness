@@ -33,7 +33,8 @@ Windows 10 feature updates for devices running Microsoft Teams Rooms are not off
 
 From the time block is lifted (i.e. Window 10 feature update is offered to download on these devices), Microsoft Teams Rooms supports the specific Windows 10 feature release for 12-month period in line with App support policy. Since Windows 10 feature updates are offered about every 6 months, this also means that Microsoft Teams will have two additional releases to test by the time support for current version is ended. This also means that a Windows 10 version will be unblocked every 6 months to all Microsoft Teams Rooms customers. As we are continuously making app changes and are developing against last unblocked Windows release, in some cases need to take dependency on Windows features available in newer versions of Windows and the fact that it makes it harder for Microsoft to make changes to the version that is 12-18 months old. To ensure you get the app fix for an issue your encounter on your Microsoft Teams Rooms device, we urge all customers to upgrade these devices to latest Windows 10 feature update offered to stay within supported windows version guidance.
 
-As such, Microsoft Teams Rooms requires Windows 10 versions 1709 as minimum supported version starting May 2019. No new app releases will be offered to systems on Windows 10 Versions 1703 or below.
+> [!NOTE]
+> When Microsoft Teams Rooms device is compatible with the next version of Windows 10 OS, the device automatically updates to the next version through Windows Update. Microsoft Teams Rooms device should not be upgraded to next release of Windows 10 manually or via enabling Windows Update for Business (WUFB) group policy "Select when Preview Builds and Feature Updates are received" through GPO. A device with this group policy enabled is known to run into issues with Windows 10 OS update by Microsoft Teams Rooms app.
 
 <a name="See"> </a>  
 ## See also
