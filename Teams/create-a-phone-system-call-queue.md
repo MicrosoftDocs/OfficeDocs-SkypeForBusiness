@@ -177,6 +177,8 @@ You can select up to 200 call agents belonging to specified mailing lists or gro
 
 - Online users with a **Phone System** license and a Calling Plan that are added to an Office 365 Group, a mail-enabled Distribution List, or a Security Group. It might take up to 3 hours for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately.
 
+- If your agents are using Microsoft Teams App to receive call queue calls, they need to be in TeamsOnly mode.
+
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 
 ![Number 2](media/sfbcallout2.png)
@@ -280,7 +282,7 @@ Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-You can get more information on how to make changes to caller ID settings in your organization in the article [How can caller ID be used in your organization](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+You can get more information on how to make changes to caller ID settings in your organization in the article [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
   
 ## Want to know more?
 

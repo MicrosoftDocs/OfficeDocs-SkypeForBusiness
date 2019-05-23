@@ -55,8 +55,8 @@ When you’re onboarding users on a per-site basis, we highly recommended that y
 Business Online. You use the Microsoft 365 Admin Center and Microsoft Teams admin center to configure those settings.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -183,8 +183,8 @@ After the user environment and the service have been configured, the last step o
 -   Direct Routing compliance requirements have been identified and configured.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide which Audio Conferencing feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Audio Conferencing.</li><li>Identify service configuration requirements for Audio Conferencing.</li><br><li>Decide whether Direct Routing or Calling Plans will be deployed and configured.<li>Decide which Phone System feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Calling Plans or Direct Routing.</li><li>Identify service configuration requirement for Calling Plans or Direct Routing.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Develop and document your test plan approach.</li><li>Prepare your service environment and users in scope for Audio Conferencing features.</li><li>Prepare your service environment and users in scope for Calling Plans or Direct Routing features.</li><li>Execute test validation for the Audio Conferencing features that you want to enable.</li><li>Execute test validation for the Calling Plans or Direct Routing features that you want to enable.</li><li>For any test failures, confirm that your configuration is correct, review community articles, and—if required—raise a support case.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide which Audio Conferencing feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Audio Conferencing.</li><li>Identify service configuration requirements for Audio Conferencing.</li><br><li>Decide whether Direct Routing or Calling Plans will be deployed and configured.<li>Decide which Phone System feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Calling Plans or Direct Routing.</li><li>Identify service configuration requirement for Calling Plans or Direct Routing.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Develop and document your test plan approach.</li><li>Prepare your service environment and users in scope for Audio Conferencing features.</li><li>Prepare your service environment and users in scope for Calling Plans or Direct Routing features.</li><li>Execute test validation for the Audio Conferencing features that you want to enable.</li><li>Execute test validation for the Calling Plans or Direct Routing features that you want to enable.</li><li>For any test failures, confirm that your configuration is correct, review community articles, and—if required—raise a support case.</li></ul></td></tr>
 </table>
 
 

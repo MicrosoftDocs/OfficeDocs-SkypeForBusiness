@@ -94,7 +94,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 |Ask yourself|Action |
 |:------------|:-------|
-|Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](set-the-caller-id-for-a-user.md). |
 |||
 
 ### Phone numbers from Microsoft

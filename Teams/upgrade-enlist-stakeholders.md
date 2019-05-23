@@ -32,8 +32,8 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>Who are the right people to serve as your stakeholder team for this project?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn’t all-inclusive.<br><strong>Tip</strong><br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li> |
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>Who are the right people to serve as your stakeholder team for this project?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn’t all-inclusive.<br><strong>Tip</strong><br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li> |
 | <li>Decide whether to create a steering committee, and assign roles as appropriate.</li></ul> | |
 
 | Roles | Responsibility |

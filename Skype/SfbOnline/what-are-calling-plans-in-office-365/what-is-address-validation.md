@@ -13,7 +13,6 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business 
-- Microsoft Teams
 localization_priority: Normal
 f1keywords:
 - ms.lync.lac.CivicAddressValidation

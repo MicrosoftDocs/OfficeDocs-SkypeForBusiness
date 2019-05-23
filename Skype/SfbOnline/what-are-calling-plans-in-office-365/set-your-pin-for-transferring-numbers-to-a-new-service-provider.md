@@ -14,8 +14,7 @@ ms.collection:
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
-- Skype for Business 
-- Microsoft Teams
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:

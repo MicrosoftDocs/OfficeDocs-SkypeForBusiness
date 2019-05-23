@@ -37,7 +37,7 @@ Live events policies are used to control who in your organization can hold live 
 ### Create or edit a live events policy
 <a name="bkcreatepolicy"> </a>
 
-**![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center**
+**![An icon showing the Microsoft Teams logo](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Live events policies**. 
 2. Do one of the following:
@@ -64,7 +64,7 @@ You can also do this by using Windows PowerShell. For more information, see [Use
 
 If you created a custom live events policy, assign it to users for the policy to be active. 
 
-![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+![An icon showing the Microsoft Teams logo](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Users**, and then select the user.
 2. Next to **Assigned policies**, choose **Edit**. 
@@ -72,7 +72,7 @@ If you created a custom live events policy, assign it to users for the policy to
 
 You can also assign a live events policy to one or more users as follows:
 
-![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+![An icon showing the Microsoft Teams logo](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. Go to **Meetings** > **Live events policies**.
 2. Select the policy by clicking to the left of the policy name.

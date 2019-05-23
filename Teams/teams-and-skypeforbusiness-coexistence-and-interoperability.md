@@ -80,8 +80,8 @@ For more details about coexistence modes, prerequisites, and management, see [Mi
 
 | | | |
 |---|---|---|
-|<img src="media/audio_conferencing_image7.png" />|Decision point|<ul><li>Which coexistence mode(s) best fit your organization’s and users’ needs?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next step|<ul><li>Choose the best approach for your upgrade journey.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Decision point|<ul><li>Which coexistence mode(s) best fit your organization’s and users’ needs?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next step"/>|Next step|<ul><li>Choose the best approach for your upgrade journey.</li></ul>|
 
 ## Interoperability of Teams and Skype for Business
 
