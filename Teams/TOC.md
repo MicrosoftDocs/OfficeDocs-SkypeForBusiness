@@ -287,6 +287,7 @@
 ### Caller ID
 #### [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
 #### [Set the Caller ID for a user](set-the-caller-id-for-a-user.md)
+#### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 ### Auto attendants and call queues 
 #### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
 #### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
@@ -673,7 +674,7 @@
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
-
+### [Use the Network Testing Companion](use-network-testing-companion.md)
 
 
 
