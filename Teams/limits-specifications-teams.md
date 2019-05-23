@@ -3,7 +3,7 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/02/2019
+ms.date: 05/07/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -17,13 +17,11 @@ appliesto:
 - Microsoft Teams
 ---
 
-Limits and specifications for Microsoft Teams
-=============================================
+# Limits and specifications for Microsoft Teams
 
-This article describes some of the limits, specifications, and other requirements that apply to Teams. 
+This article describes some of the limits, specifications, and other requirements that apply to Teams.
 
-Teams and channels 
-------------------
+## Teams and channels 
 
 |Feature    | Maximum limit |
 |-----------|---------------|
@@ -31,20 +29,22 @@ Teams and channels
 |Number of members in a team | 5,000       |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams an Office 365 tenant can have    | 500,000     |
-|Number of channels per team    | 200 (includes deleted channels)         |
+|Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
+|Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 
 &sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-Meetings and calls 
-------------------
+&sup2;This limit includes archived teams.
+
+&sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+
+## Meetings and calls 
 
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 
-Storage
--------
+## Storage
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
@@ -64,8 +64,7 @@ Each Files tab in Teams runs on a SharePoint Online backend, so the storage limi
 
 For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
-Messaging
----------
+## Messaging
 
 Users who participate in conversations that are part of the Chat list in Microsoft Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the Chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the Chat list in Microsoft Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
@@ -87,14 +86,10 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 
 For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-Browsers 
---------
+## Browsers
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Operating systems
------------------
+## Operating systems
 
 For information about operating system requirements, see [Get clients for Microsoft Teams](get-clients.md).
-
-

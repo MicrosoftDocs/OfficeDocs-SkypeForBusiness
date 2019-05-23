@@ -32,8 +32,8 @@ When you do see opportunities to enhance your service, take the time to do it ri
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide who will monitor public roadmaps and other service announcements for new features or services that your organization might benefit from.</li><li>Decide on the cadence in which to report those new features or services back to the key stakeholders, via your steering committee.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Implement a strategy for staying up to date with your services to get the most value for your organization.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide who will monitor public roadmaps and other service announcements for new features or services that your organization might benefit from.</li><li>Decide on the cadence in which to report those new features or services back to the key stakeholders, via your steering committee.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Implement a strategy for staying up to date with your services to get the most value for your organization.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

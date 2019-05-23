@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -37,7 +37,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### To view the conference ID
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -57,7 +57,7 @@ See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powers
 
 You can reset a conference ID for a user if, for example, they forget it.
   
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 

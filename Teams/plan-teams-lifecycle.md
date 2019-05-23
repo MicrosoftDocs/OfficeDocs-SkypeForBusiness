@@ -145,8 +145,8 @@ Use these links to get more information about organizing your teams:
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What’s the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What’s the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
 
 
 #### Set up channels
@@ -157,8 +157,8 @@ To spark interest, the channel owner can post a welcome message, upload relevant
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
 
 ### Stage 2: Middle
 
@@ -182,8 +182,8 @@ If a team starts to get into a rut, consider:
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li><li>Identify unhealthy teams that still serve a purpose but need revitalizing.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li><li>Identify unhealthy teams that still serve a purpose but need revitalizing.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li></ul>|
 
 ### Stage 3: End
 
@@ -197,6 +197,6 @@ For information about setting up expiration and retention policies, see [Overvie
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 

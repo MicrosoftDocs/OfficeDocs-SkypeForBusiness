@@ -3,7 +3,7 @@ title: "Edge Server scenarios in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro

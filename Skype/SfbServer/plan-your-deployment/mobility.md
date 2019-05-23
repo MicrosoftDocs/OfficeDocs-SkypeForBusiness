@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 2/17/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

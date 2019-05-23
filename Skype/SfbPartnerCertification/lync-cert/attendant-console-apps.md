@@ -11,7 +11,7 @@ Robots:
 - no index
 ms.service: skype-for-business
 ms.collection: Lync
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync
 - Skype for Business

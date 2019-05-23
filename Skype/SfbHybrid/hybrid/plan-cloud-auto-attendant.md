@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars 
 ms.reviewer: wasseemh
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -35,8 +35,8 @@ Your implementation might involve one or two of these paths, but it's unlikely y
 
 Also see:
 
-- [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-- [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+- [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
+- [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## Requirements
 
@@ -97,7 +97,7 @@ See [Manually moving an Exchange UM auto attendant to Cloud auto attendant](conf
 
 ## Additional planning resources
 
-The tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Online Admin center. review the tutorial and use the exercises there to create your plan.
+The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Online Admin center. review the tutorial and use the exercises there to create your plan.
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud auto attendant](configure-cloud-auto-attendant.md).
 
@@ -110,13 +110,13 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Configure Cloud auto attendant](configure-cloud-auto-attendant.md)
 
-[Enable custom prompt recording using the telephone user interface](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[Enable custom prompt recording using the telephone user interface](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
 
-Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+Exchange UM: [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md)
 

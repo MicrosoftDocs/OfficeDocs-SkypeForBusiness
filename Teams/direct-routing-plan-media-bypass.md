@@ -3,7 +3,7 @@ title: "Plan for media bypass with Direct Routing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service:  

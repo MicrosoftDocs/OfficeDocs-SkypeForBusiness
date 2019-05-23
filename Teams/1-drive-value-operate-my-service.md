@@ -55,8 +55,8 @@ upon in the following sections.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -621,7 +621,7 @@ the Quality of Experience Review Guide and associated training materials.
 
 [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Upload Building information](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
+[Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 
 [Quality of Experience Review Guide](https://aka.ms/qerguide)
 
@@ -787,7 +787,7 @@ duties. The following tasks are commonly required to support users in Teams.
 #### Common tasks for Phone System
 
 [Assign, change, or remove a phone number for a
-user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)
+user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 [Assign or change an emergency address for a
 user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
@@ -848,7 +848,7 @@ report to more effectively assist with this task.
 
 There are two methods to acquire numbers in Teams: You can port telephone
 numbers from another provider or you can provision the numbers directly from
-Microsoft’s number inventory. Both methods are described in [Getting phone numbers for your users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+Microsoft’s number inventory. Both methods are described in [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
 There is a limit to the number of telephone numbers you can provision from
 Microsoft’s number inventory. The limits are determined by a number of factors
