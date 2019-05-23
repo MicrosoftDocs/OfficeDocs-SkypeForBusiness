@@ -34,9 +34,12 @@ People who are using the Teams web app on unsupported browsers will experience t
 - Users can't take control during a screen sharing session.
 - Users won't receive incoming call notifications.
 - If the call is interrupted, the meeting will not automatically reconnect.
+- Users can't start adhoc meetings.
 
 ## Related topics
 
-[Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907).
-[Limits and specifications for Microsoft Teams](limits-specifications-teams.md#Browsers)
+- [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907).
+
+- [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams#Browsers)
+
 ---
