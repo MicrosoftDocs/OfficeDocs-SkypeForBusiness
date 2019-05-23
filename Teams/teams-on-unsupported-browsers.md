@@ -40,6 +40,6 @@ People who are using the Teams web app on unsupported browsers will experience t
 
 - [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907).
 
-- [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams#Browsers)
+- [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams#browsers)
 
 ---
