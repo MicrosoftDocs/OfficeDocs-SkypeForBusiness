@@ -14,27 +14,25 @@ description: "set up a resource account for Skype for Business Server 2019."
 
 # Configure resource accounts
 
-Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online.
-
-In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system.md).
+Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online. In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system.md).
 
 To use Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online or on premise. Typically you will have multiple call queue and auto attendant nodes, each of which plays an audio outgoing message to callers, each of which is mapped to one of these resource accounts, and each of which routes call to available agents.
 
 If you have an existing auto attendant and call queue system implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 If your Phone System service will need a phone number, the process will be:
 
 1. obtain a toll-free service number
-1. Buy a Phone System license and a Calling Plan
-1. Create the resource account.
-1. Wait for an active directory sync between online and on premise.
-1. Assign the Phone System license and the Calling Plan to the resource account.
-1. Assign a telephone number to the resource account.
-1. Create a Phone System service (call queue or auto attendant)
-1. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
+2. Buy a Phone System license and a Calling Plan
+3. Create the resource account.
+4. Wait for an active directory sync between online and on premise.
+5. Assign the Phone System license and the Calling Plan to the resource account.
+6. Assign a telephone number to the resource account.
+7. Create a Phone System service (call queue or auto attendant)
+8. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
 
 If the Phone system service you're creating will be nested and will not need a phone number, the process is:
 
@@ -43,8 +41,9 @@ If the Phone system service you're creating will be nested and will not need a p
 3. Create a Phone System service (call queue or auto attendant)
 4. Associate the resource account with a service
 
+## Create a resource account on premise
 
-## Create a resource account on premise 
+This section discusses creating a resource account that is homed on premise. Creating a resource account that is homed online is discussed at [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md).
 
 These steps are necessary whether you are creating a brand new call queue or auto attendant system, or rebuilding structure originally created in Exchange UM.
 
@@ -73,11 +72,12 @@ Log in to the Skype for Business front end server and run the following PowerShe
 
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
-3. If the endpoint will be associated with a phone number, proceed to the next section. If not, you can proceed to creating your service and associuating the RA with it. links here
+3. create the service
+4. Associate RA and Service
 
 
 
-### Phone numbers
+### Apply phone numbers
 
 Creating a resource account that uses a phone number would require performing the following tasks in the following order:
 
