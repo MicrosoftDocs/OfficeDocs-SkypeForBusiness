@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice

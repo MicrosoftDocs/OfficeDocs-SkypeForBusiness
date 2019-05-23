@@ -3,7 +3,7 @@ title: "Help-LSCP"
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 manager: serdars
 ms.prod: skype-for-business-itpro

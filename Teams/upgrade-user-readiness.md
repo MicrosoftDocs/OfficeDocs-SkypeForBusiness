@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
+![Stages of the upgrade journey, highlighting the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -35,8 +35,8 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>How can you create a readiness plan to facilitate and accelerate user adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the list below to generate ideas for your readiness plan. Select the most relevant activities—or add your own—to design a readiness plan optimized for your organization. Remember to use a combination of broad-reach (for your whole organization) and targeted (for laggards or specific personas) campaigns for maximum results.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>How can you create a readiness plan to facilitate and accelerate user adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the list below to generate ideas for your readiness plan. Select the most relevant activities—or add your own—to design a readiness plan optimized for your organization. Remember to use a combination of broad-reach (for your whole organization) and targeted (for laggards or specific personas) campaigns for maximum results.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

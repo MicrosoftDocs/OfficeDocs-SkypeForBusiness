@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -47,7 +47,7 @@ Use the steps in this article when:
 
 You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Teams admin center**
+![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Teams admin center**
   
 1. Sign in with your Office 365 admin account. 
     

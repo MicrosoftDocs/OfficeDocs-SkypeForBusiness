@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -73,7 +73,7 @@ First, let's cover MA with Skype for Business in both On-premises-only or Cloud-
 |Topology name  <br/> |Example  <br/> |Description  <br/> |Supported  <br/> |
 |:-----|:-----|:-----|:-----|
 |Cloud only  <br/> |![Supported SFB with MA topology, Cloud only.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Users homed/mailboxes located: Online  <br/> |MA is on for both EXO and SFBO.  <br/> Therefore, the authorization server is Azure AD.  <br/> |Multi-factor authentication (MFA), Client-certificate based authentication (CBA), Conditional Access (CA)/Mobile Application Management (MAM) with Intune. \*  <br/> |
-|On-prem only  <br/> |![Supported SFB with MA topology, on-premises only.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Users homed/mailboxes located: On-premises  <br/> |MA is on for SFB on-premises.  <br/> Therefore, the authorization server is ADFS.  <br/> For configuration details, please see [this article.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Windows Desktop only - mobile clients are not supported). No Exchange integration features.  <br/> |
+|On-prem only  <br/> |![Supported SFB with MA topology, on-premises only.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Users homed/mailboxes located: On-premises  <br/> |MA is on for SFB on-premises.  <br/> Therefore, the authorization server is ADFS.  <br/> For configuration details, please see [this article.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Windows Desktop only - mobile clients are not supported). No Exchange integration features.  <br/><p> **We do not recommend this approach. Please see here:** [https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview)<p/> |
    
 > [!IMPORTANT]
 > It's recommended that the MA state be the same across Skype for Business and Exchange (and their online counterparts) to reduce the number of prompts. 

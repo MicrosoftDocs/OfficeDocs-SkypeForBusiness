@@ -11,7 +11,7 @@ ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
@@ -45,7 +45,7 @@ Follow these steps.
 
 ### Step 2 - Enable your organization to communicate with another Teams organization
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
    1. In the left navigation, go to **Org-wide settings** > **External access**. 
 

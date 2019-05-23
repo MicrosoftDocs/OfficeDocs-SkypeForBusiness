@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
 localization_priority: Normal
