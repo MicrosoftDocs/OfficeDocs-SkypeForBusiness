@@ -60,7 +60,7 @@ Teams includes a built-in Firstline Worker app setup policy that you can assign 
 
 To view the Firstline Worker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 
-![Screen shot of the Firstline Worker app setup policy in the Microsoft Teams admin center](../../media/firstline-worker-app-setup-policy.png "Screen shot of the Firstline Worker app setup policy in the Microsoft Teams admin center")
+![Screen shot of the Firstline Worker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screen shot of the Firstline Worker app setup policy in the Microsoft Teams admin center")
 
 #### Assign the Firstline Worker policy to individual users
 

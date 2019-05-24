@@ -74,7 +74,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 If you are setting it up to let your Teams users find and contact users that are in a Skype for Business organization that limits who can contact their users, you will ask the admin in that organization to follow these steps.
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using Skype for Business admin center** 
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using Skype for Business admin center** 
 
 Have the admin in that organization do these steps:
     

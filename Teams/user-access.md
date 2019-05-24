@@ -40,7 +40,7 @@ When a license SKU like E3 or E5 is assigned to a user, a Microsoft Teams licens
 
 A Teams user license can be disabled at any time. Once the license is disabled, the users access to Microsoft Teams will be prevented and the user will no longer be able to see Teams in the Office 365 app launcher and homepage.
 
-![Screenshot of Product licenses section in Office 365 admin center, showing Microsoft Teams selected.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+![Screenshot showing Teams selected in the Product licenses section.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
 ## Manage via PowerShell
 

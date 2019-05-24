@@ -36,7 +36,7 @@ For QoS to be effective, you will have to apply consistent QoS settings end to e
 
 _Figure 1. The relationship between an organization's networks and Office 365 services_
 
-![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png)
+![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
 
 In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
 
@@ -65,7 +65,7 @@ When you implement QoS, you define multiple queues using one of several congesti
 
 _Figure 2. Examples of QoS queues_
 
-![Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
+![Illustration of QoS queues](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
 
 A simple analogy is that QoS creates virtual “carpool lanes” in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
@@ -182,7 +182,7 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 
     Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
 
-    ![Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.](media/Qos-in-Teams-Image4.png "Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.")
+    ![Screenshot filters in the Display Filter dialog box.](media/Qos-in-Teams-Image4.png "The Display Filter dialog box in Network Monitor, showing the filters to apply.")
 
 5. Select **Apply** to activate the filter.
 
@@ -190,7 +190,7 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 
 7. In the **Frame Details** window, expand the IPv4 list item and note the value at the end of the line that begins with **DSCP**.
 
-    ![Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.](media/Qos-in-Teams-Image5.png "Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.")
+    ![Screenshot showing DSCP settings in the Frame Details dialog box.](media/Qos-in-Teams-Image5.png "The Frame Details dialog box in Network Monitor, highlighting DSCP settings.")
 
 In this example, the DSCP value is set to 46. This is correct, because the source port used is 50019, which indicates that this is a voice workload.
 

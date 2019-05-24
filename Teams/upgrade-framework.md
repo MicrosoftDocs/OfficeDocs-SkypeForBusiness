@@ -24,7 +24,7 @@ To help take the guesswork out of your upgrade journey, we’ve employed a prove
 
 Begin by bringing together the right stakeholders and defining your upgrade plan (eg. scope, goals and timeline). With a plan in place, confirm your technical environment and your end-users are ready for Teams. Then, implement your upgrade in stages, moving from a pilot to an organization-wide upgrade when ready. Once your organization is on Teams, establish an operational plan that monitors for quality and accelerates user adoption.
 
-![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Begin your upgrade journey")
+![Illustration of the upgrade journey framework](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
 Look for this framework graphic on related pages to identify where you are in the upgrade process.
 

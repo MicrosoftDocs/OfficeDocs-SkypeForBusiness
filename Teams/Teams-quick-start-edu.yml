@@ -127,11 +127,11 @@ items:
         
     3. Select **Microsoft Teams** from the list.
     
-         ![Screenshot of the options in the Services & add-ins page in the Microsoft 365 Admin Center.](media/o365-services-select-teams.png)
+         ![Screenshot of the options on the Services & add-ins page.](media/o365-services-select-teams.png)
 
     4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
 
-         ![Screenshot of Microsoft Teams settings section in the Microsoft 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         ![Screenshot of the Microsoft Teams settings section.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 - title: Configure tenant-wide settings
   durationInMinutes: 3
@@ -142,14 +142,14 @@ items:
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Teams.
 
-    ![Screenshot of the settings in the General section in the Microsoft 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+    ![Screenshot of the settings in the General section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
     ### Email integration
     You can enable email integration with channels, as well as create a restricted senders list. To turn on or turn off email integration, move the toggle to **Off** or **On**, then select **Save**. 
 
     The **Allow senders list** helps you to control who can email teams within your organization. 
 
-    ![Screenshot of the settings in the Email integration section in the Microsoft 365 admin center.](media/QS-edu-email-integration.png)
+    ![Screenshot of the settings in the Email integration section.](media/QS-edu-email-integration.png)
 
     ### Apps
     You can enable external apps, new external apps, and sideloading for apps in Teams. To disable or enable the setting, move the toggle to **Off** or **On**, then choose **Save**.
@@ -158,7 +158,7 @@ items:
 
     The ability to sideload an app is only available to non-guest team members. This is useful if you have any programming courses or are testing any custom learning management systems that can integrate with Teams. To learn more, see [The Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/overview).
 
-    ![Screenshot of the settings in the Apps section in the Microsoft 365 admin center.](media/QS-edu-apps2.png)
+    ![Screenshot of the settings in the Apps section.](media/QS-edu-apps2.png)
 
     By enabling Assignments, educators can provide assignments and iterative feedback to students. 
 
@@ -171,7 +171,7 @@ items:
     ### Custom cloud storage
     You can enable various forms of cloud storage within Teams. Currently, Box, Dropbox, Google Drive, and ShareFile are supported. To disable or enable the setting, toggle the switch to **Off** or **On**, and then select **Save**. When these settings are enabled, any member of a team can add a new provider in which documents can be stored to or retrieved from.
 
-    ![Screenshot of the settings in the Custom cloud storage section in the Microsoft 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+    ![Screenshot of the settings in the Custom cloud storage section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
     Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you'll also learn how to let the service automatically handle that for you. 
 
@@ -192,19 +192,19 @@ items:
         
     3. Select **Microsoft Teams** from the list.
     
-         ![Screenshot of the options in the Services & add-ins page in the Microsoft 365 Admin Center.](media/o365-services-select-teams.png)
+         ![Screenshot of the options in the Services & add-ins page.](media/o365-services-select-teams.png)
 
     4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
 
-         ![Screenshot of Microsoft Teams settings section in the Microsoft 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         ![Screenshot of Microsoft Teams settings section.](media/Services-and-addins-control-Microsoft-Teams.PNG)
          
     You should only have Education listed in your license types. The dropdown includes Education-Faculty and staff, Education-Student, and Guest. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings.  
 
-    ![Screenshot of the settings in the Teams and channels section in the Microsoft 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
+    ![Screenshot of the settings in the Teams and channels section.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
     To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch; eventually, you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.
     
-    ![Screenshot of the settings for Microsoft Teams license picker section in the Microsoft 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
+    ![Screenshot of the settings for Microsoft Teams license picker section.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
 
     > [!NOTE]
     > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
@@ -218,19 +218,19 @@ items:
      
     As part of the migration to the new Microsoft Teams admin center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
 
-   ![Screenshot of the Messaging policies page in the Microsoft Teams admin center.](media/teams-messaging-policies-edu.PNG)
+   ![Screenshot of the Messaging policies page.](media/teams-messaging-policies-edu.PNG)
    
    With policies, features can now be turned on/off at the per-user level. Here’s how policy assignments work:
       - By default, every new user will get the Global policy (tenant-level settings).
       - A user can be assigned a pre-canned user policy created by Microsoft if it meets your requirements. These pre-canned policies are not editable by tenant admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
 
-       ![Screenshot of the Assigned policies section of the Microsoft Teams admin center.](media/teams-assigned-policies-edu.PNG)
+       ![Screenshot of the Assigned policies section of the admin center.](media/teams-assigned-policies-edu.PNG)
       - A custom policy can be assigned to any user. To do this, click **+ New policy**, set the features, and click **Save**. This custom policy can be assigned to a user through the **Users** tab or via script.
-        ![Screenshot of the New policy option on the Messaging policies page of the Microsoft Teams admin center.](media/teams-new-messaging-policy-edu.PNG)
+        ![Screenshot of the New policy option on the Messaging policies page.](media/teams-new-messaging-policy-edu.PNG)
 
-        ![Screenshot of the Edit option for assigned policies in the Microsoft Teams admin center.](media/teams-assigned-policy-edit-edu.PNG)
+        ![Screenshot of the Edit option for assigned policies.](media/teams-assigned-policy-edit-edu.PNG)
 
-        ![Screenshot of the Edit user policies section in the Microsoft Teams admin center.](media/teams-edit-user-policies-edu.PNG)
+        ![Screenshot of the Edit user policies section.](media/teams-edit-user-policies-edu.PNG)
    ### How to enable different policies for faculty and students
    To have custom settings for faculty and students (for example, chat is enabled for faculty but not for students), there are two methods to create and assign them: 
       - Use the Powershell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
