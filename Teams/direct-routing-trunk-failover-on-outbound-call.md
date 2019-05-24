@@ -40,12 +40,12 @@ This particular SBC might be having difficulties connecting to the callee--perha
 In the following diagram, when a user makes a call to a phone number, there are two SBCs in the route that can potentially deliver this call. Initially, SBC1.contoso.com is selected for the call, but SBC1.contoso.com isn't able to reach a PTSN network due to a network issue.
 By default, the call will be completed at this moment. 
  
-![Shows SBC unable to reach PSTN due to network issue](media/direct-routing-failover-response-codes1.png)
+![Diagram showing SBC unable to reach PSTN due to network issue](media/direct-routing-failover-response-codes1.png)
 
 But there is one more SBC in the route which potentially can deliver the call.
 If you configure the parameter `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, the second SBC will be tried-- SBC2.contoso.com in the following diagram:
 
-![Shows routing to second SBC](media/direct-routing-failover-response-codes2.png)
+![Diagram showing routing to second SBC](media/direct-routing-failover-response-codes2.png)
 
 Setting the parameter -FailoverResponseCodes and specifying the codes helps you fine tune your routing and avoid potential issues when an SBC cannot make a call due to network or other issues.
 

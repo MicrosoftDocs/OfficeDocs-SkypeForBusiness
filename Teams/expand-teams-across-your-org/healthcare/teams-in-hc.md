@@ -44,7 +44,7 @@ An EHR integration and interop partner trying to implement Microsoft Teams for a
 
 <br>
 
-![EHR integration](../../media/ehr-1.png)
+![Illustration highlighting Care Coordination and collaboration](../../media/ehr-1.png)
 
 <br>
 
@@ -75,7 +75,7 @@ The Patients app is built on the Teams extensibility platform and takes advantag
 > [!NOTE]
 > The Patients app is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
 
-![Patients app screenshot](../../media/ehr-2.png)
+![Screen shot of the Patients app on desktop and mobile devices](../../media/ehr-2.png)
 
 See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
 
