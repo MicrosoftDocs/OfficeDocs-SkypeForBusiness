@@ -3,7 +3,7 @@ title: Manage the Whiteboard in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/09/2019
+ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: esmather
@@ -31,7 +31,7 @@ Users can share a whiteboard to make it available to all participants in a Teams
 
 ## Turn on or turn off the Whiteboard app
 
-To turn on or turn off the Whiteboard Web App (Preview), do the following: 
+To turn on or turn off the Whiteboard Web App (Preview), do the following:
 
 1. Go to the Microsoft 365 admin center.
 
