@@ -3,7 +3,7 @@ title: Use the Network Testing Companion
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/23/2019
+ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
 MS.collection: 
@@ -33,4 +33,4 @@ You can use this tool in the planning phase of a Skype for Business or Microsoft
 
 Download the Network Testing Companion from the [PowerShell Gallery](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).
 
-Download the [Installation Guide, User Guide, and Results Guidance](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip).
+Download the [Installation Guide, User Guide, and Results Guidance](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true).
