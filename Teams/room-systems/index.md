@@ -51,7 +51,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="An icon that represents planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -69,7 +69,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="An icon that represents deployment" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -87,7 +87,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Manage" />
+                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="An icon that represents management" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -94,7 +94,7 @@ After an agreement is in place, the corresponding teams should start to
 operationalize their roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Next steps</td>
 <td><ul><li>Use this document to facilitate the operational role mapping exercise.</li><li>Meet with the respective support teams to assign names to each item in the list of required activities.</li><li>Gain acceptance or sign-off on the assigned roles.</li><li>Ensure that the corresponding teams have the appropriate training, readiness, and resources to complete the activities required of them.</li></ul></td></table>
 
 ### Teams service dependencies

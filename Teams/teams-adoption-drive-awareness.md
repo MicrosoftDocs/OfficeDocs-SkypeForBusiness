@@ -62,4 +62,4 @@ Share the insights you get from your feedback channels with the hashtag #TeamsSt
 
 [Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center.](teams-activity-reports.md)
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+![An icon depicting the next steps](media/teams-adoption-next-icon.png) Next: [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
