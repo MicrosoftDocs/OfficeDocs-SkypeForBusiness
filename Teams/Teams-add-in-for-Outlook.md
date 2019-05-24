@@ -29,17 +29,13 @@ The Teams Meeting add-in is automatically installed for all Outlook users. Users
 
 If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
 
-## Teams Meeting add-in on Windows 7
+Before you install the Teams Meeting add-in, be aware of the following.
 
-Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.​
+- **Teams Meeting add-in on Windows 7** - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.​
 
-## Teams Meeting add-in on Mac
+- **Teams Meeting add-in on Mac** - The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running Production Build 16.20 and later.​
 
-The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running Production Build 16.20 and later.​
-
-## Teams Meeting add-in on a mobile device
-
-The Teams Meeting add-in works with Outlook on the web on iOS and Android devices.
+- **Teams Meeting add-in on a mobile device** - The Teams Meeting add-in works with Outlook on the web on iOS and Android devices.
 
 ## Authentication requirements
 
@@ -52,7 +48,7 @@ To learn more about how to configure authentication, see [Identity models and au
 
 ## Enable private meetings
 
-**Allow scheduling for private meetings** must be enabled in the Microsoft Teams admin center for the plug-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
+**Allow scheduling for private meetings** must be enabled in the Microsoft Teams admin center for the add-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
 
 ![Screenshot of the settings in the Microsoft Teams admin center.](media/teams-add-in-for-outlook-image1.png)
 
@@ -61,7 +57,7 @@ The Teams client installs the correct add-in by determining if users need the 32
 > [!NOTE]
 > Users might need to restart Outlook after an installation or upgrade of Teams to get the latest add-in.​
 
-## Teams upgrade policy and the Teams add-in for Outlook
+## Teams upgrade policy and the Teams Meeting add-in for Outlook
 
 Customers can [choose their upgrade journey from Skype for Business to Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Tenant admins can use the Teams co-existence mode to define this journey for their users. Tenant admins have the option to enable users to use Teams alongside Skype for Business (Islands mode). 
 
