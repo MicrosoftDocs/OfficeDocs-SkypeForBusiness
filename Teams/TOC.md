@@ -80,6 +80,7 @@
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
+#### [Teams live event usage report](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
 
