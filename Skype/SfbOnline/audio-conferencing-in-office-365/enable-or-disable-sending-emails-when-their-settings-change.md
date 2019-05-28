@@ -57,7 +57,7 @@ Here is an example of the email that is sent to users when they are enabled for 
 You can use the Skype for Business admin center or Windows PowerShell to enable or disable email sent to users.
 
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
     

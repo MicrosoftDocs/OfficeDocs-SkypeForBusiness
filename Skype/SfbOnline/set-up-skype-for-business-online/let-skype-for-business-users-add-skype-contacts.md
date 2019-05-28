@@ -27,7 +27,7 @@ With Skype for Business, your users can search for and IM with everyone who uses
   
 You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365 to do this.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
 1. Sign in with your Office 365 admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     

@@ -71,7 +71,7 @@ Once you get your toll and/or toll-free phone numbers for your conferencing brid
 
 Follow these steps to assign a new phone number to your audio conferencing bridge.
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
  1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
  2. Select **Voice** > **Phone numbers**.

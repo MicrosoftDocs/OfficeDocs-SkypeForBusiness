@@ -50,6 +50,7 @@ Refer to this article for a list of [Dimensions and measures available in Call Q
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
 Before you can start using the CQD, you'll need to activate it for your Office 365 organization.
+
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
  
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
@@ -61,13 +62,13 @@ Before you can start using the CQD, you'll need to activate it for your Office 3
   
 4. On the page that opens, sign in with your Global Administrator account or Microsoft Teams Service Admin account, and then provide the credentials for the account when prompted.
     
-     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Screen shot showing the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 After you sign in, once activated, the CQD will begin collecting and processing data.  
 > [!NOTE]
 > It may take a couple of hours to process enough data to display meaningful results in the reports. 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
     
@@ -75,11 +76,11 @@ After you sign in, once activated, the CQD will begin collecting and processing 
     
 3. In the Skype for Business admin center, select **Tools** in the left pane, and then select **Skype for Business Online Call Quality Dashboard**.
     
-     ![Skype for Business tools](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Screen shot showing selecting the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
     
-     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Screen shot showing the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 After you sign in, once activated, the CQD will begin collecting and processing data.
 
@@ -130,24 +131,24 @@ The four tabs include:
 
 Use the data on this tab to evaluate call quality status and trends by looking at the stream counts and poor percentages. The legend in the upper-right corner shows which color and visual elements represent these metrics.
   
-![CQD Data key](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![Screen shot showing the Call Quality tab](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).
   
 Use the scale on the left to measure the stream count values.
   
-![CQD data count](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![Screen shot showing stream count values](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use the scale on the right to measure the Poor % values.
   
-![CQD data per cent](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![Screen shot showing poor % values](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 You can also obtain the actual numerical values by hovering the mouse over a bar.
   
 > [!NOTE]
 > The following example is from a very small sample data set, and the values aren't realistic for an actual deployment. 
   
-![CQD Data numeric](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![Screen shot showing using mouse to access data](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 The overall stream volume is an important factor in determining how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
@@ -179,7 +180,7 @@ As the names indicate, this is a classification criteria based on the type of cl
 
 In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
-![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Screenshot showing the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
@@ -188,7 +189,7 @@ In Detailed reports, you can use the **Is Teams** dimension to filter the data t
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, mapping of Endpoint to Endpoint Make/Model/Type, etc.
   
-![CQD Dashboard](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![Screen shot showing the Call Quality Dashboard](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type…information). Currently we support upload “Building” and “Endpoint” data types for cqd.teams.microsoft.com(in preview stage and not officially available yet), cqd.lync.com only supports upload "Building" data type. A few more data types will be added with subsequent releases.
     
@@ -208,13 +209,13 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     
     Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message is displayed requesting a correction to the file. The following image shows an error occurring when the number of columns in the data file is incorrect.
     
-     ![CQD Example upload validation error](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![Screen shot showing an upload validation error](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
 5. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
     
     Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
     
-     ![CQD My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+     ![Screen shot showing the My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
 ### Tenant data file format and structure
 <a name="BKMKTenantDataFile"> </a>
@@ -285,11 +286,11 @@ CQD uses Endpoint data file by joining its EndpointName column to the call recor
 
 The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
-![Call Quality Dashboard Dimensions.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Screen shot showing Call Quality Dashboard Dimensions.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
 If you want to view the dimensions and measures for a single media type, the new MediaType dimension and filter may be required. For example, to have a report that shows the total session counts across different media types, include the MediaType dimension.
   
-![Call Quality Dashboard Total Stream Count.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Screen shot showing Call Quality Dashboard Total Stream Count.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## Related topics
 [Set up Skype for Business Call Analytics](set-up-call-analytics.md)

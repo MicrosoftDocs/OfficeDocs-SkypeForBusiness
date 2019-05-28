@@ -58,13 +58,13 @@ In order to successfully enable Turnitin for your organization, you will need to
 Here are some instructions to help you obtain this information.
 
 The TurnitinApiUrl is the host address of your admin console.
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin1.png)
+![Screen shot showing the host address](./educationImages/Assignments_mopo_turnitin1.png)
 
 Go to the Integrations tab and add an integration.
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
+![Screen shot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
 
 The TurnitinApiKey will be given to you after you follow the prompts. Copy this key and paste it into the Microsoft Teams admin center. 
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
+![Screen shot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
 [Learn more about the integration between Turnitin and Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 

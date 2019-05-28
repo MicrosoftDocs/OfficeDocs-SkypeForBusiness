@@ -76,7 +76,7 @@ Below are a few functional examples of how different types of users may approach
 
 Microsoft Teams is great at breaking down organizational silos and promoting cross-functional teams, so encourage your users to think about this as functional teams and not organizational silos.
 
-|Types of Teams  |Potential Channels  |Apps (Tabs ![Tabs icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Connectors icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Bots icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Types of Teams  |Potential Channels  |Apps (Tabs ![An icon depicting a folder with a tab](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![An icon depicting connecting blocks](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![An icon depicting a small robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Sales     |Annual Sales Meeting<br></br> Quarterly Business Review<br></br> Monthly Sales Pipeline Review<br></br> Sales Playbook |Power BI<br></br>Trello<br></br>CRM<br></br>Summarize Bot         |
 |Public Relations     |Press Releases<br></br>News and Updates<br></br>Fact Checking         |RSS Feed<br></br>Twitter         |
@@ -91,7 +91,7 @@ Microsoft Teams is great at breaking down organizational silos and promoting cro
 
 It is possible to create Teams that align to the organizational structure.  This is best used for leaders who want to drive morale, have team specfic reviews, clarify employee onboarding processes, discuss workforce plans and increase visibility across a diverse workforce.  
 
-![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
+![Hierarchy diagram of teams and channels organized in Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## Org-wide teams
 
