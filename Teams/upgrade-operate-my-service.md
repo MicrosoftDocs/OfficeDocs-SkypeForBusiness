@@ -52,7 +52,7 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activities that service management for Teams comprises.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
+![A diagram depicting a list of categories of tasks and activities](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
@@ -457,7 +457,7 @@ based on the following ratings:
 
 - From 1 through 6 are Detractors: Unhappy customers who can damage your service and impede growth.
 
-![A diagram that demonstrates the NPS scale, shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
+![A diagram that demonstrates the NPS scale](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
 
 Although the base NPS number is useful, you’ll get the most value from analyzing
 user comments. They’ll help you understand why the user would (or wouldn’t)

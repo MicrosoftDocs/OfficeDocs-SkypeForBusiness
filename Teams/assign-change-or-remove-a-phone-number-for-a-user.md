@@ -49,7 +49,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
   
  ## Assign a phone number to a user
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -81,7 +81,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
  ## Change a phone number for a user
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -105,7 +105,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
  ## Remove a phone number from a user
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
