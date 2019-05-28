@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 05/24/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -23,19 +23,31 @@ appliesto:
 Use the Teams Meeting add-in in Outlook
 =======================================
 
-The Teams Meeting add-in is automatically installed for all Outlook users. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon. 
+## Teams Meeting add-in in Outlook for Windows
 
-![Screenshot of Teams add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
-If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
+![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
 
-Before you install the Teams Meeting add-in, be aware of the following.
+> [!NOTE]
+> - If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
+> - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows for the Teams Meeting add-in to work.
 
-- **Teams Meeting add-in on Windows 7** - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.​
+## Teams Meeting add-in in Outlook for Mac
 
-- **Teams Meeting add-in on Mac** - The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running Production Build 16.20 and later.​
+The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running Production Build 16.23.326.1 and later.​
 
-- **Teams Meeting add-in on a mobile device** - The Teams Meeting add-in works with Outlook on the web on iOS and Android devices.
+## Teams Meeting add-in in Outlook Web App
+
+The Teams Meetings button in Outlook Web App will appear as part of new event creation if the user is on an early version of the new Outlook on the web. See the [Outlook Blog](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) to learn about how users can try the early version of the new Outlook on the web.
+
+![Screenshot of Teams Meeting add-in in Outlook Web App](media/teams-meeting-add-in-web.png)
+
+## Teams Meeting add-in in Outlook mobile (iOS and Android)
+
+The Teams Meeting button shows up in latest builds of the Outlook iOS and Android app.
+
+![Screenshot of Teamss Meeting add-in in Outlook mobile](media/teams-meeting-add-in-mobile.png)
 
 ## Authentication requirements
 
