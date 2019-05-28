@@ -53,13 +53,13 @@ An emergency address must be associated with a phone number; when this associati
 
 **To add an emergency address for your organization**
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 In the Skype for Business admin center, go to  **Voice** > **Emergency locations** > **Add new address**. See [Add or remove and emergency address for your organization](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) for details.
 
 **To add an emergency location for your organization** 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 In the Skype for Business admin center, go to **Voice** > **Emergency locations** > **Add new address**. See [Add, change, or remove an emergency location  for your organization](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) for details.
 
@@ -70,7 +70,7 @@ When you are setting up Calling Plans in Office 365, you must assign a phone num
 
 **To add an emergency address for a user** 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 In the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) for more details.
 
@@ -79,7 +79,7 @@ In the Skype for Business admin center, go to **Voice** > **Voice users** > **Em
 
 **To assign a phone number to a user**
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) for more details.
 
@@ -94,15 +94,15 @@ Here's how they can see that phone number in their **Skype for Business** app:
     
 2. Choose **Settings** > **Tools** > **Options**. 
     
-     ![To view your phone number, go to Settings > Tools > Options.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![Screen shot of Options on the Tools menu](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. Then choose **Phones**. 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Screen shot of selecting the Phones option](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](media/teams-phone-number.png)
+![Screen shot of choosing Calls in the left navigation.](media/teams-phone-number.png)
 
 ## What else do you need to know?
 <a name="bkmk_add_addresses"> </a>

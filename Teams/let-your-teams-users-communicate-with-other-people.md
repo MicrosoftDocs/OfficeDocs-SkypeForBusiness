@@ -53,7 +53,7 @@ Follow these steps.
 
    3. If you want to allow all Teams organizations to communicate with users in your organization, skip to step 5. 
    
-   4. If you want to limit which organizations can communicate with users in your organization you can either allow all but some domains, or only allow specific organizations. To allow all but some domains, add the domains you want to block by clicking **Add domain**. In the **Add a domain** pane, put in the domain name, click **Blocked** and then **Done**. To limit communications to specific organizatioins, add those domains to the list with a status of **Alowed**. Once you have added any domain to the Allow list, communications to other organizations will be limited to only those organizations whose domains are in the Allow list. 
+   4. If you want to limit which organizations can communicate with users in your organization you can either allow all but some domains, or only allow specific organizations. To allow all but some domains, add the domains you want to block by clicking **Add domain**. In the **Add a domain** pane, put in the domain name, click **Blocked** and then **Done**. To limit communications to specific organizatioins, add those domains to the list with a status of **Allowed**. Once you have added any domain to the Allow list, communications to other organizations will be limited to only those organizations whose domains are in the Allow list. 
    
    5. Click **Save**. 
 

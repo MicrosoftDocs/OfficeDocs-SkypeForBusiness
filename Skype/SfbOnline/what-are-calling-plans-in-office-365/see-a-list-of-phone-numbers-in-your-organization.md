@@ -29,7 +29,7 @@ There are different types of phone numbers that you can assign to users or other
   
 ## To see a list of all phone numbers that you have for your organization
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 
 1. Sign in to Office 365 with your work or school account.
@@ -59,7 +59,7 @@ There are different types of phone numbers that you can assign to users or other
     
 ## To see all of the phone numbers that are assigned to users
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 
 When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers can be assigned to them.
@@ -83,7 +83,7 @@ When you are setting up users, you might just want to see the list of the phone 
     
 ## To see the phone numbers that are assigned to voice users
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 
 When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.
