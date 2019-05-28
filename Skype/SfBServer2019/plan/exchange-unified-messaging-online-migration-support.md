@@ -81,9 +81,9 @@ Microsoft has identified various customer deployments that are consuming feature
 
     You can opt in for a planned Voicemail service migration to CVM. Before opting in, review the details of this article, especially the following sections:
 
-    - [Migration steps](#migration steps) (this section)
-    - [ExchUMO and Azure cloud-based services feature matrix](#ExchUMO and Azure cloud-based services feature matrix)
-    - [User experience impact](#user experience impact)
+    - Migration steps (this section)
+    - ExchUMO and Azure cloud-based services feature matrix
+    - User experience impact
 
     Note that by opting-in for a managed migration you will not be receiving a pre-migration 30-days notification in the Microsoft 365 admin portal message center.
  
