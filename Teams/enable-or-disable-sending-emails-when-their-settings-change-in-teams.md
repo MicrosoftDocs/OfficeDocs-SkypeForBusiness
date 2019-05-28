@@ -30,7 +30,7 @@ If you disable sending emails, Audio Conferencing emails won't be sent to your u
   
 Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
   
-![Audio Conferencing email](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Example of an Audio Conferencing email message](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## When are emails being sent to your users?
 

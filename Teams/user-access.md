@@ -40,7 +40,7 @@ When a license SKU like E3 or E5 is assigned to a user, a Microsoft Teams licens
 
 A Teams user license can be disabled at any time. Once the license is disabled, the users access to Microsoft Teams will be prevented and the user will no longer be able to see Teams in the Office 365 app launcher and homepage.
 
-![Screenshot of Product licenses section in Office 365 admin center, showing Microsoft Teams selected.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+![Screenshot showing Teams selected in the Product licenses section.](media/Manage_user_access_to_Microsoft_Teams_image4.png)
 
 ## Manage via PowerShell
 
@@ -65,8 +65,8 @@ To disable Teams for all users with an active license for your named plan, run t
 
 | | | |
 |---------|---------|---------|
-|![Decision Point icon.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Decision Point         |<ul><li>What is your organization’s plan for Teams onboarding across the organization?  (Pilot or Open)</li></ul>         |
-|![Next Steps icon.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Next Steps         |<ul><li>If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targeted communication.</li><li>Depending on decision, take steps to make sure only Pilot users who are allowed to access Teams (if needed).</li><li>Document the guidelines for which users who will (or will not) have access to Teams.</li></ul>         |
+|![An icon representing a decision point](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Decision Point         |<ul><li>What is your organization’s plan for Teams onboarding across the organization?  (Pilot or Open)</li></ul>         |
+|![An icon representing the next steps](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Next Steps         |<ul><li>If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targeted communication.</li><li>Depending on decision, take steps to make sure only Pilot users who are allowed to access Teams (if needed).</li><li>Document the guidelines for which users who will (or will not) have access to Teams.</li></ul>         |
 
 ## Manage Teams at the Office 365 tenant level
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
