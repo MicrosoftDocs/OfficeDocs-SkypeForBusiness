@@ -13,7 +13,7 @@ ms.collection:
 description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
-# Exchange Unified Messaging Online migration support  
+# Exchange Unified Messaging Online migration support
 
 In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity. 
  
@@ -26,9 +26,9 @@ Voicemail is primarily a Microsoft-driven migration; admin involvement and/or in
 
 Customers who are consuming any of the following features from Exchange Unified Messaging Online service are affected:
 
-1. Voicemail service 
-2. Auto Attendant service 
-3. Fax integration 
+- Voicemail service
+- Auto Attendant service
+- Fax integration
 
 > [!Note]
 > Customers who are using any of the Exchange Server on-premises with Unified Messaging are not affected. 
@@ -52,7 +52,6 @@ Microsoft has identified various customer deployments that are consuming feature
  
     Familiarize yourself with the [blog announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) and this article to plan a smooth migration for your users. See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) for details on the Cloud Voicemail capabilities.  
  
-
 2.	**Establish a Skype for Business hybrid topology**
 
     If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
@@ -78,16 +77,27 @@ Microsoft has identified various customer deployments that are consuming feature
     > [!Note]
     > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
 
-6. **Consider opting in starting from May 2019**
+6. **Consider opting in for a planned migration**
 
-    You can opt in for an early Voicemail service migration by May 2019 (if you have not received a migration notification), to align your migration with a license annuity or admin staff vacations, or to avoid business-critical periods. Details on the opt-in process will be updated in this article before May 2019.  
+    You can opt in for a planned Voicemail service migration to CVM. Before opting in, review the details of this article, especially the following sections:
+
+    - [Migration steps](#migration steps) (this section)
+    - [ExchUMO and Azure cloud-based services feature matrix](#ExchUMO and Azure cloud-based services feature matrix)
+    - [User experience impact](#user experience impact)
+
+    Note that by opting-in for a managed migration you will not be receiving a pre-migration 30-days notification in the Microsoft 365 admin portal message center.
+ 
+    To opt-in for a planned migration, send an email request to [cvm@microsoft.com](mailto:cvm@microsoft.com), using your administrator's email address, with the following information:
+
+    - Preferred date (Tuesdays): migration waves are executed every Tuesday. Please select a date on a Tuesday that is not beyond 12/3/2019.
+ 
+    - Tenant ID: 32 characters number in this format 0046728c-688a-4472-a38f-098fec60ac6x. You can find your tenant ID in the Microsoft 365 admin portal under Azure Active Directory, or by executing the following PowerShell cmdlet: `Get-CsTenant | Select ObjectId`
+ 
+    You will receive an email confirmation once your tenant is successfully migrated. 
 
 ## Appendix
 
-### ExchUMO and Azure cloud-based services feature matrix 
-
-
-
+### ExchUMO and Azure cloud-based services feature matrix
 
 | Service | Feature level | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
@@ -158,8 +168,6 @@ Microsoft has identified various customer deployments that are consuming feature
 | AA | Tenant-Admin Features | PowerShell cmdlets  |  | Y | Y    |
 | Fax| Service Features | Fax integration|  | N | Y    |
 
-
-
 ### Suggested test plan and post-migration validation for admins
 
 When testing voicemail functionality after your users have been migrated, make sure to consider the following scenarios:
@@ -169,7 +177,6 @@ When testing voicemail functionality after your users have been migrated, make s
 - If your organization has a legal or compliance requirement to disable transcription for users, make sure it is disabled post migration. For more details, see [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail).
 - If you have previously configured Exchange VM policies and rules, make sure they are effective.
 - Familiarize yourself with the Cloud Voicemail service PowerShell cmdlets for changing user settings.  
-
 
 ### User experience impact
 
