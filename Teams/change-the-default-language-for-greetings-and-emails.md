@@ -46,11 +46,11 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 2. In the Microsoft 365 admin center, choose **Settings** > **Organization profile**. 
     
-     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Screen shot showing choosing Settings and then Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Choose **Edit**.
     
-    ![Choose Edit.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Screen shot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Select a language from the **Preferred language** list for everyone in your organization.
     
