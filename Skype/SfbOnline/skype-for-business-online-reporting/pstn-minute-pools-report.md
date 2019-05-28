@@ -36,7 +36,7 @@ This report, along with the other Skype for Business reports, gives you details 
   
 ## How to get to the Skype for Business PSTN minute pools report
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.
     

@@ -29,4 +29,4 @@ To ensure that the early adopter and champions teams will have the appropriate s
 - [#ThisisTeams Introductory Webinar](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
 - [Enabling Microsoft Teams IT Pro course](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).

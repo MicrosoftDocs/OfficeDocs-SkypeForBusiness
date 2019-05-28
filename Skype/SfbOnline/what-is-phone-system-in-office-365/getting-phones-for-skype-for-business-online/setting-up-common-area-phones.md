@@ -76,7 +76,7 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
 
 ### Step 3 - Assign a phone number to the Common Area Phone user account
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Assign a phone number to the user using the **Skype for Business admin center**
+![An icon showing the Skype for Business logo](../../images/sfb-logo-30x30.png) Assign a phone number to the user using the **Skype for Business admin center**
 
 1. In the Office 365 admin center > **Admin centers** > **Skype for Business**.
 2. In the **Skype for Business admin center** >  **Voice** > **Phone numbers**.
