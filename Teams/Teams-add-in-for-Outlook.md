@@ -23,7 +23,7 @@ appliesto:
 Use the Teams Meeting add-in in Outlook
 =======================================
 
-The Teams Meeting add-in lets you schedule a Teams meeting from Outlook. The add-in is available for Outlook on Windows, Mac, web, and mobile.
+The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The add-in is available for Outlook on Windows, Mac, web, and mobile.
 
 ## Teams Meeting add-in in Outlook for Windows
 
