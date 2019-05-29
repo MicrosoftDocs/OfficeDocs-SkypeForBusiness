@@ -31,7 +31,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 
 1. Sign in with your Office 365 global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
-2. In the Office 365 Admin center go to **Admin centers** > **Teams**.
+2. In the Office 365 Admin center, go to **Admin centers** > **Teams**.
     
 3. In the **Teams admin center**, go to **Legacy portal** > **Online meetings** > **Broadcast meetings**, and then select **Enable Skype Meeting Broadcast**.
     
