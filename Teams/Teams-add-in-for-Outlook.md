@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 05/28/2019
+ms.date: 05/29/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -49,7 +49,7 @@ The Teams Meetings button in Outlook Web App will appear as part of new event cr
 
 The Teams Meeting button shows up in latest builds of the Outlook iOS and Android app.
 
-![Screenshot of Teamss Meeting add-in in Outlook mobile](media/teams-meeting-add-in-mobile.png)
+![Screenshot of Teams Meeting add-in in Outlook mobile](media/teams-meeting-add-in-mobile.png)
 
 ## Authentication requirements
 
@@ -89,7 +89,7 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 
-- The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
+- The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
 - Users can't schedule live events from within Outlook. Go to Teams to schedule live events. For more information, see [What are Microsoft Teams live events?](teams-live-events/what-are-teams-live-events.md).
 
