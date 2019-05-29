@@ -23,6 +23,9 @@ description: Learn how to manage custom app policies and settings to control who
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
+> [!NOTE]
+> For the current method of managing apps in Microsoft Teams, see [Manage Microsoft Teams settings for your organization](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
+
 As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  
 
 ## Overview of custom apps
