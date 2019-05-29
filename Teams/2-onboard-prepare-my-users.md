@@ -120,7 +120,7 @@ For each persona group, discuss the following with your project team:
 
 The following image is an example of a persona table.
 
-![Table listing persona details](media/prepare-my-users-image2.png "Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.")
+![Values table listing persona details](media/prepare-my-users-image2.png "Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.")
 
 For each use case, discuss the following with your project team:
 
