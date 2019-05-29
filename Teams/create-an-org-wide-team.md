@@ -37,7 +37,7 @@ To get the most out of your org-wide team, we recommend team owners do the follo
 ### Allow only team owners to post to the General channel
 Reduce channel noise by having only team owners post to the General channel. Go to the team and click **More options (…)** > **Manage Team**. On the **Settings** tab, click **Member permissions** > select **Only owners can post messages**.
 ### Turn off @team and @[team name] mentions
- Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options (…)** > **Manage Team**. On the **Settings** tab, click <strong>@mention</strong> > turn off **Show members the option to @team or @[team name]**. 
+ Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options (…)** > **Manage Team**. On the **Settings** tab, click <strong>@mentions</strong> > turn off **Show members the option to @team or @[team name]**. 
 ### Automatically favorite important channels
  Favorite important channels to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
