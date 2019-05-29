@@ -44,11 +44,11 @@ Bots can be tested using the [Bot Framework Emulator](https://go.microsoft.com/f
 Side load your own bot for private chat
 ---------------------------------------
 
-1. After you have created your bot, go to the **Application Settings** for the bot you developed, then under **App settings**, copy the value of the **MicrosoftAppId** setting.![Screenshot of Application Settings page for a bot with the Microsoft App ID highlighted.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+1. After you have created your bot, go to the **Application Settings** for the bot you developed, then under **App settings**, copy the value of the **MicrosoftAppId** setting.![Screenshot of Application Settings page for a bot](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 
 
-2.  From within Microsoft Teams, on the **Chat** pane, select the **Add chat icon**. For **To**, paste your bot's **Microsoft app ID**. ![Screenshot of a chat pane with the icon for Add chat and the To line with the Microsoft app ID highlighted.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+2.  From within Microsoft Teams, on the **Chat** pane, select the **Add chat icon**. For **To**, paste your bot's **Microsoft app ID**. ![Screenshot of a chat pane with Microsoft app ID highlighted](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 
 
@@ -62,10 +62,10 @@ If you want to share your bot with your colleagues, here's how to add it to chan
 1. After you have [created an app package for your bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), open Teams and browse to the team in which you'll be side-loading the bot.
 2. Add **[App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, app to Microsoft Teams.
 3. In App Studio, select the **Manifest Editor** Tab. 
-![Manifest Editor Tab Screenshot.](media/Adding_Bot_To_Teams.png)
+![Screenshot of the Manifest Editor Tab.](media/Adding_Bot_To_Teams.png)
 4. To add your bot, In capabilities, select bot and chose to add an existing bot, then you will have the option 
 to chose an existing bot from a drop or enter the Id of one of your existing bots.
-![Select your bot you already created.](media/Select_Existing_Bot.png)
+![Shows selecting the bot you already created.](media/Select_Existing_Bot.png)
 5. Browse to the location of your app package, select it, and then click **Open**.
 6. Select your bot's name (Don't forget to check the "Team" checkbox under the scope section)
 7. Select the Test and distribute option.
