@@ -26,7 +26,7 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="tasks"/>
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +44,7 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="planning" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,7 +62,7 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="best practices" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">

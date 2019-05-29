@@ -146,7 +146,7 @@ The Quality Experience Review Guide has a set of activities that assess and
 provide remediation guidance in key areas that have the greatest impact for
 improving user experience, as shown in the figure below.
 
-![Illustration of key areas to examine during a quality experience review](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+![Illustration of key areas to examine during quality experience review](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
 
 By continually assessing and remediating the areas described in this document,
 you can reduce their potential to negatively affect user experience. Most
