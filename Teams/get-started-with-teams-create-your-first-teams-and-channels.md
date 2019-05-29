@@ -58,7 +58,7 @@ On the left side of Teams, click **Teams**, at the bottom of the teams list, cli
 
 Once you've created the team, invite people to join it. You can add individual users, groups, and even entire contact groups (formerly known as "distribution lists"). 
 
-![Create a team](media/get-started-with-teams-create-team.png "Screen shot of an example Get to know Teams team, showing the team name and description") 
+![Screen shot of an example team, showing the team name and description](media/get-started-with-teams-create-team.png "Screen shot of an example Get to know Teams team, showing the team name and description") 
 
 ### Add a team owner
 Find the team that you created, click **More options ˙˙˙** > **Manage team**. Then go to the **Members** tab. Find the people you want to designate as team owners. Under **Role**, click **Owner**.
@@ -66,7 +66,7 @@ Find the team that you created, click **More options ˙˙˙** > **Manage team**.
 ### Create a channel in a team
 Find the team that you created, click **More options ...** > **Add channel**. You can also click **Manage team** and add a channel in the **Channels** tab. 
 
-![Add a channel to a team](media/get-started-with-teams-add-channel.png "Screen shot of the Add channel option, Manage team option, and other options that are available when you click More options on a team") 
+![Screen shot of the options available when you click More options](media/get-started-with-teams-add-channel.png "Screen shot of the Add channel option, Manage team option, and other options that are available when you click More options on a team") 
 
 Give the channel a descriptive name to make it easier for users to understand the purpose of the channel. 
 
@@ -74,7 +74,7 @@ As a team owner, you can automatically favorite channels for the whole team, mak
 
 Here's an example of the "How do I" channel in the "Get to know Teams" team, showing pinned tabs that link to Teams webpages &ndash; Teams video training, Teams help center, and Teams download links. 
 
-![Pin tabs to a channel](media/get-started-with-teams-add-tabs.png "Screen shot of tabs pinned to the example Get to know Teams team.") 
+![Screen shot of tabs pinned to the example team](media/get-started-with-teams-add-tabs.png "Screen shot of tabs pinned to the example Get to know Teams team.") 
 
 ## Next steps
 Go to [Onboard your early adopters](get-started-with-teams-onboard-early-adopters.md).

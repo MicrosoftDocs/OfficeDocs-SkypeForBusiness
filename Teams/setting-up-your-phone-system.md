@@ -51,7 +51,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### Get new user phone numbers 
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Microsoft 365 with your work or school account.
 
@@ -77,7 +77,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### Get new service numbers
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 
 1. Sign in to Office 365 with your work or school account.

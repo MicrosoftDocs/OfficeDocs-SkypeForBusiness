@@ -53,7 +53,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
 ## Enable or disable emails sent to audio conferencing users
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
 
