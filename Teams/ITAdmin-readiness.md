@@ -29,7 +29,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +47,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -65,7 +65,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -22,7 +22,7 @@ appliesto:
 
 The Teams user activity report gives you insight into the types of activities that users in your organization perform in Teams. For example, you can see how many users communicate through 1:1 calls, how many users communicate through channel messages, and how many users engage in private chat messages.
 
-![Screen shot of the Teams user activity report in the Microsoft Teams admin center](../media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center")
+![Screen shot of the Teams user activity report](../media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center")
 
 ## View the report
 
@@ -31,7 +31,7 @@ The Teams user activity report gives you insight into the types of activities th
 
 ## Interpret the report
 
-![Screenshot of the Teams user activity report in the Microsoft Teams admin center with numbered callouts](../media/teams-reports-user-activity-with-callouts.png "Screenshot of the Teams user activity report in the Microsoft Teams admin center with numbered callouts")
+![Screenshot of the Teams user activity report with numbered callouts](../media/teams-reports-user-activity-with-callouts.png "Screenshot of the Teams user activity report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|

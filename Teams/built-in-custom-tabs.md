@@ -44,7 +44,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 - Detailed instructions are provided when a team member tries to add a custom tab to their channel or chat. When a custom tab is added to a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.
 
-    ![Screenshot of a custom tab with a tab conversation on the right side of the window.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Screenshot of a custom tab with a tab conversation on the right](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## Develop custom tabs
 

@@ -40,7 +40,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### To view the conference ID
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 You can view their conference ID and send it to users.
 
@@ -70,7 +70,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 You can reset a conference ID for a user if, for example, they forget it.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
 
