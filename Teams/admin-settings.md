@@ -27,21 +27,9 @@ Admin settings for apps in Microsoft Teams
 
 Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
-You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. You can set policies to control what apps are available to Teams users in your organization, customize Teams by pinning apps that are most important for your users, and specify whether users can upload custom apps (also known as sideloading). These policies and settings give you granular control over what apps are available, how they appear in Teams, and who can use them based on the needs of your organization.
+You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. Here, you can set policies to customize Teams by pinning apps that are most important for your users. 
 
-## App permission policies
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
-
-With app permission policies, you can block or allow apps, either org-wide or for specific users.  When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
-
-For example, you can use app permission policies to:
-
-- Disable an app that poses a permission or data loss risk to your organization.
-- Gradually roll out new third-party or custom built apps to specific users.
-- Simplify the user experience, especially when you start rolling out Teams across your organization.
-
-To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).
+We're continually improving the app experience in Teams and adding features and functionality. Over time, we'll be building additional app management capabilities so check back for the most up-to-date information on app policies.
 
 ## App setup policies
 
@@ -52,11 +40,3 @@ Here's some examples of how you can use app setup policies:
 - Selectively pin core Teams features, such as Chat, Teams, and Calling. Doing so can help ensure users are engaged in specific activities within Teams.
 
 To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md).
-
-## Custom app policies and settings
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
-
-Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom  apps.
-
-To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
