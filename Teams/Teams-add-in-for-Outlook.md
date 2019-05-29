@@ -89,10 +89,6 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 
-- Polling isn't yet available.
-- Whiteboard is starting to roll out.
-- Meeting options are currently not available.
-- Currently, you can only invite people from within your company, as it is not yet possible for external users to join meetings.
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
 - Users can't schedule live events from within Outlook. Go to Teams to schedule live events. For more information, see [What are Microsoft Teams live events?](teams-live-events/what-are-teams-live-events.md).
