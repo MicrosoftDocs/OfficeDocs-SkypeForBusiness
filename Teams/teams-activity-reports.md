@@ -40,13 +40,13 @@ There are currently two activity reports you can view:
 
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, as well as for each individual user.
 
-![Screenshot of the Teams user activity report in the Office 365 admin center.](media/teams-user-activity-report.png)
+![Screenshot of the user activity report in the Office 365 admin center.](media/teams-user-activity-report.png)
 
 #### Interpret the Microsoft Teams user activity report
 
 You can get a view into Teams user activity by looking at the **Activity** and **Users** charts.
 
-![Screen shot of the Teams user activity report in the Office 365 admin center with numbered callouts.](media/teams-user-activity-report-with-callouts.png)
+![Screen shot of the user activity report with numbered callouts.](media/teams-user-activity-report-with-callouts.png)
 
 |Callout |Description  |
 |--------|-------------|
@@ -64,13 +64,13 @@ You can get a view into Teams user activity by looking at the **Activity** and *
 
 The Teams device usage report provides you with information about how your users connect to Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
 
-![Screen shot of the Teams device usage report in the Office 365 admin center.](media/teams-device-usage-report.png)
+![Screen shot of the Teams device usage report.](media/teams-device-usage-report.png)
 
 ### Interpret the Microsoft Teams device usage report
 
 You can get a view into Teams device usage by looking at the **Users** and **Distribution** charts.
 
-![Screen shot of the Teams device usage report in the Office 365 admin center with numbered callouts.](media/teams-device-usage-report-with-callouts.png)
+![Screen shot of the Teams device usage report with numbered callouts.](media/teams-device-usage-report-with-callouts.png)
 
 |Callout |Description  |
 |--------|-------------|
@@ -102,10 +102,10 @@ You can assign the *Reports reader* role to non-IT staff who you want to have ac
 
 The Reports dashboard includes the usage data from Teams in the at-a-glance activity widget, which gives you a cross-product view of how users communicate and collaborate using the other various services in Office 365.
 
-![Screen shot of the Teams at-a-glance activity widget on the Reports dashboard.](media/at-a-glance-activity-widget.png)
+![Screen shot of the Teams at-a-glance activity widget.](media/at-a-glance-activity-widget.png)
 
 ### Teams activity card
 
 The Teams activity card on the Reports dashboard gives you an overview of the activity in Teams, including the number of active users, so that you can quickly understand how many users are using the service. Clicking the activity card on the dashboard takes you to the Teams user activity report. 
 
-![Screen shot of the Teams activity card on the Reports dashboard.](media/teams-activity-card.png)
+![Screen shot of the Teams activity card.](media/teams-activity-card.png)

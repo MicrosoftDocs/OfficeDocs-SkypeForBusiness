@@ -53,7 +53,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Click **Save**. 
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1.	In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
 

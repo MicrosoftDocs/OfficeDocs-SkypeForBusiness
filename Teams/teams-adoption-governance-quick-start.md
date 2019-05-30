@@ -28,7 +28,7 @@ The following activities will happen simultaneously, and they may involve all or
 - Has this individual (or group of individuals) suggested use cases that would be good candidates for this phase?  
 - Do they have enough interest from employees in their organization to be early adopters and give you meaningful and regular feedback? 
 
-## ![Decision Point icon.](media/teams-adoption-decision-icon.png)Decisions
+## ![An icon representing a decision point](media/teams-adoption-decision-icon.png)Decisions
 
 Make the following decisions (at this point, these decisions apply only to Phase 2):
 
@@ -60,4 +60,4 @@ In preparation for your broad deployment you may opt to use security labels to c
 
 A successful Teams implementation proceeds at a healthy pace to ensure appropriate momentum, focus, and learnings. We recommend that this phase of your project be 60 days in length to ensure that your early adopters complete sufficient business cycles. Extending experimentation for too lengthy a time increases the risk of a failed change program; however, this time will vary for every organization.  
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Define usage scenarios](teams-adoption-define-usage-scenarios.md)

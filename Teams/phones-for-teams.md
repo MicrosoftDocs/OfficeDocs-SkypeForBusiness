@@ -63,27 +63,27 @@ When a user clicks the sign-in button in Teams, sign-in is started via the Compa
 
 **User sign-in with credentials**
 
-![Signing in with credentials](media/sign-in-with-credentials.png)
+![Screen shot of signing in with credentials](media/sign-in-with-credentials.png)
 
 **User sign-in via PC/smartphone**
 
-![Signing in with another device](media/sign-in-with-device.jpg)
+![Screen shot of signing in with another device](media/sign-in-with-device.jpg)
 
 ## Personal/shared mode
 
 After successful sign-in, the user can choose whether the device will be used for personal use or in a shared conference room.
 
-![The personal or shared account option](media/personal-vs-shared-mode.jpg)
+![Screen shot of the personal or shared account option](media/personal-vs-shared-mode.jpg)
 
 The Teams phone experience is optimized based on the user's selection.
 
 **Personal mode**
 
-![Account in personal mode](media/personal-mode.png)
+![Screen shot of an account in personal mode](media/personal-mode.png)
 
 **Shared mode**
 
-![Account in shared mode](media/shared-mode.png)
+![Screen shot of an account in shared mode](media/shared-mode.png)
 
 ## Calling experience
 
@@ -91,11 +91,11 @@ The Microsoft Teams user can lift the handset or press the speaker button to lau
 
 **On-screen dial pad**
 
-![The on-screen dial pad](media/on-screen-dial-pad.png)
+![Screen shot of the on-screen dial pad](media/on-screen-dial-pad.png)
 
 **Calling screen**
 
-![The calling screen](media/calling-screen.png)
+![Screen shot of the calling screen](media/calling-screen.png)
 
 ## Meeting experience
 
@@ -103,24 +103,24 @@ The Microsoft Teams user can navigate to the meetings tab to view their meetings
 
 **Calendar view**
 
-![Meetings in calendar view](media/calendar-view.png)
+![Screen shot of meetings in calendar view](media/calendar-view.png)
 
 **Meeting join view**
 
-![A meeting in join view](media/meeting-join-view.png)
+![Screen shot of a meeting in join view](media/meeting-join-view.png)
 
 
 ## Voicemail
 
 The Microsoft Teams user can access their voicemail when they navigate to the **Voicemail** tab.
 
-![The Voicemail tab](media/voicemail-tab.png)
+![Screen shot of the Voicemail tab](media/voicemail-tab.png)
 
 ## User sign-out
 
 The Teams phone user can choose to sign out by selecting the **Sign Out** option from the top left menu.
 
-![Signing out of Teams](media/teams-sign-out.png)
+![Screen shot of signing out of Teams](media/teams-sign-out.png)
 
 ## Finding the Firmware version on a mobile device
 
@@ -128,11 +128,11 @@ The minimum firmware version can be checked on the Teams sign-in page by choosin
 
 **Teams sign-in page**
 
-![The Teams sign-in page](media/teams-sign-in-page.jpg)
+![Screen shot of the Teams sign-in page](media/teams-sign-in-page.jpg)
 
 **Settings page**
 
-![The Teams Settings page](media/teams-settings-page.jpg)
+![Screen shot of the Teams Settings page](media/teams-settings-page.jpg)
 
 ## Required Licenses
 

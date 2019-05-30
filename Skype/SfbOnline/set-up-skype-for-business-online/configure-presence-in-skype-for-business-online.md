@@ -29,7 +29,7 @@ By default, anyone who can communicate with one of the people in your organizati
 
 As the **[admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for everyone in your business, you can choose who sees their online presence in Skype for Business.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
 

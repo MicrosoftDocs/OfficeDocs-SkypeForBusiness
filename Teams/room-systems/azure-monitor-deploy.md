@@ -24,7 +24,7 @@ You can configure Log Analytics within Azure Monitor to provide basic telemetry 
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and Microsoft Teams Rooms application and operating system version distribution.
 
-![Sample Log Analytics view for Microsoft Teams Rooms](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
+![Screen shot of sample Log Analytics view for Microsoft Teams Rooms](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
 
 At a high level, you need to perform the following tasks:
 
@@ -59,7 +59,7 @@ You need to configure Log Analytics to collect the logs required to monitor Micr
 
 To configure Log Analytics to collect the Microsoft Teams Rooms events, see [Windows event log data sources in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
+![Screen shot of event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
 
 > [!IMPORTANT]
 > Configure Windows Event Log settings and enter **Skype Room System** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.

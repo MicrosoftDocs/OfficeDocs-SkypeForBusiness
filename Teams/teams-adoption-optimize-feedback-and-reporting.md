@@ -51,4 +51,4 @@ There are three types of reporting you should review as you deploy and adopt Mic
 - [Service activity](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – from Office 365 view [reports on Microsoft Teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). You may also use information from other systems within your organization.
 - Service satisfaction – Gathered from internal community forums and surveys on specific experiences
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Drive awareness and implement training](teams-adoption-drive-awareness.md)

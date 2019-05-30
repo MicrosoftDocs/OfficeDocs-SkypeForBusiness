@@ -2,6 +2,11 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/upgrade-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here",
+      "redirect_document_id": true 
+      },
+    {
       "source_path": "Teams/healthcare/healthcare-templates.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates",
       "redirect_document_id": true 
