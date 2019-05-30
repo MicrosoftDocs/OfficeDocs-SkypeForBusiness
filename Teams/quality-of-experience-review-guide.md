@@ -484,7 +484,7 @@ _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
 
-![Screem shot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
+![Screen shot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
 
 _Figure 9 - Navigating to Detailed Reports_
 
@@ -494,10 +494,10 @@ The Detailed Reports page in CQD looks like the following illustration.
 
 |             |           |
 | ------------|-----------|
-| ![one](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
-| ![two](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
-| ![three](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
-| ![four](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
+| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
+| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
+| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
+| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
 
 _Figure 10 - Detailed Reports page_
 

@@ -76,11 +76,11 @@ You can turn off a user’s ability to install trial apps and services.
 
 1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
 
-    ![Screenshot of the Services & add-ins page in the Office 365 admin center.](media/iw-trial-enable-1.png)
+    ![Screenshot of the Services & add-ins page in the admin center](media/iw-trial-enable-1.png)
 
 2. Turn off **Let users install trial apps and services**.
 
-    ![Screenshot of the User owned Apps and Services page in the Office 365 admin center.](media/iw-trial-enable-2.png)
+    ![Screenshot of the User owned Apps & Services page in the admin center](media/iw-trial-enable-2.png)
 
 
 ### Manage trial availability for a user with a license that includes Teams
@@ -97,7 +97,7 @@ To turn off access to Teams:
 
 4. In the **Product licenses** pane, switch the toggle to **Off**.
 
-    ![Screenshot of the Product licenses page in the Office 365 admin center.](media/iw-trial-enable-3.png)
+    ![Screenshot of the Product licenses page in the admin center.](media/iw-trial-enable-3.png)
 
 ### Manage Teams availability for users who already claimed the trial
 
@@ -113,7 +113,7 @@ To turn off the trial license:
 
 4. In the **Product licenses** pane, switch the toggle to **Off**.
 
-    ![Screenshot of the Teams trial license setting on the Product licenses pane](media/iW-trial-enable-4.png)
+    ![Screenshot of the Teams trial license setting on the licenses pane](media/iW-trial-enable-4.png)
     
 >[!Note]
 >The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
