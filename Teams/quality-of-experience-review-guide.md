@@ -27,7 +27,7 @@ This guide is about the Drive Value phase for Microsoft Teams and Skype for Busi
 To have the greatest impact on improving the user experience, organizations need to operationalize the key areas that are shown in the following figure. Additional areas include identifying operational tasks, establishing targets for quality metrics, ascertaining the metrics to use to gauge organizational success, and narrowing areas of investigation as needed.
 
 
-![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
+![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
 _Figure 1 - Key operational areas covered throughout this guide_
 
@@ -76,7 +76,7 @@ Alternatively, you can assign the following role to an Office 365 user account t
 When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
 
 <!-- Note: need to update graphic-->
-![Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
+![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
 _Figure 2 - What is quality?_
 
@@ -209,7 +209,7 @@ The success of operationalizing a high-quality and reliable deployment depends o
 
     -   Second are tasks your organization must manage to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Office 365 IP addresses as infrastructure is added to the service.
 
-![The categories of quality in an organization: service management, endpoints, and the network.](media/qerguide-image-categories.png "The categories of quality in an organization: service management, endpoints, and the network.")
+![Graph of the categories of quality in an organization](media/qerguide-image-categories.png "The categories of quality in an organization: service management, endpoints, and the network.")
 
 _Figure 3 - Critical categories for Teams and Skype for Business Online deployment_
 
@@ -283,7 +283,7 @@ There are two report editions in CQD Online: Summary and Detailed. Use the drop-
 
 For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
 
-![Drop-down menu with Summary Reports selected](media/qerguide-image-reportcategories.png)
+![Screen shot of drop-down menu with Summary Reports selected](media/qerguide-image-reportcategories.png)
 
 _Figure 4 - CQD report categories_
 
@@ -358,7 +358,7 @@ CQD can report on both Teams and Skype for Business telemetry. However, there mi
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Drop-down menu showing the option to filter CQD reports by workload](media/qerguide-image-productfilter.png)
+![Screen shot of drop-down menu showing the filter options](media/qerguide-image-productfilter.png)
 
 _Figure 5 - Select a Product Filter_
 
@@ -378,7 +378,7 @@ For more information about URL filters, see [Filtering reports](#filtering-repor
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
 
-![Add a filter to a detailed report.](media/qerguide-image-addteamsfilter.png)
+![Screen shot of the Add filter page](media/qerguide-image-addteamsfilter.png)
 
 _Figure 6 - Adding a Microsoft Teams filter to a report_
 
@@ -469,13 +469,13 @@ You can access CQD one of three ways:
 
 -   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
-![In the left nav pane, the link to Call quality dashboard is selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
+![Screen shot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
 _Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
-![Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
+![Screen shot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
 _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
@@ -484,20 +484,20 @@ _Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
 
-![Different types of reports that are available in CQD](media/qerguide-image-choosereports.png)
+![Screen shot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
 
 _Figure 9 - Navigating to Detailed Reports_
 
 The Detailed Reports page in CQD looks like the following illustration.
 
-![Different elements that make up a detailed report.](media/qerguide-image-detailedreportspage.png)
+![screen shot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
 
 |             |           |
 | ------------|-----------|
-| ![one](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
-| ![two](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
-| ![three](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
-| ![four](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
+| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
+| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
+| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
+| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
 
 _Figure 10 - Detailed Reports page_
 
@@ -507,14 +507,14 @@ Point to bar charts and trend lines in the report to display detailed values. Th
 
 When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
 
-![Different elements that make up a report when the report is being edited.](media/qerguide-image-queryeditor.png)
+![Screen shot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
 
 |             |           |
 | ------------|-----------|
-| ![one](media/qerguide-image-callout1.png "one") | You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.<ul><li>By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.</li><li>Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.</li><li>Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.</li></ul> |
-| ![two](media/qerguide-image-callout2.png "two") | The top pane shows options for chart customization. |
-| ![three](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
-| ![four](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
+| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.<ul><li>By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.</li><li>Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.</li><li>Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.</li></ul> |
+| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | The top pane shows options for chart customization. |
+| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
+| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
 
 _Figure 11 - Query Editor_
 
@@ -597,7 +597,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 5. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-   ![Notification that the template was successfully imported](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
+   ![Screen shot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
 6. Repeat steps 4 and 5 for the second CQD template.
 
@@ -683,13 +683,13 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 - Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![CQD report that defines how to create a VPN subnet](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screen shot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
 
   _Figure 12 - VPN using network name_
 
 - Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
-  ![CQD report that defines how to create a building definition that comprises a VPN subnet.](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screen shot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
 
   _Figure 13 - VPN using building name_
 
@@ -708,13 +708,13 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-   ![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Screen shot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
    _Figure 14 - Tenant Data Upload menu_
 
 3. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-   ![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screen shot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
    _Figure 15 - Building data upload banner_
 
@@ -724,7 +724,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 6. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-   ![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
+   ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
  
    _Figure 16 - Building data upload error_
 
@@ -771,7 +771,7 @@ Browse to the **Detailed Reports** page in CQD Online and navigate to the **Miss
 > [!NOTE] 
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
-![Report showing subnets not included in the CQD Building Data File that show usage.](media/qerguide-image-missingbuildingreport.png)
+![Screen shot showing missing subnet report](media/qerguide-image-missingbuildingreport.png)
 
 _Figure 17 - Missing Building Report_
 
@@ -823,7 +823,7 @@ The message center alerts you about new updates, features, or issues. The messag
 To open the message center, in the Microsoft 365 admin center, go to **Health** > **Message center**, or select the message center card on the **Home** dashboard. The dashboard displays the last three messages that were posted and links to the full message center page.
  
 
-![The message center card displays the last three messages that were posted](media/qerguide-image-messagecentercard.png)
+![Message center screen shot showing the last three messages posted](media/qerguide-image-messagecentercard.png)
 
 _Figure 18 - Message center card_
 
@@ -879,7 +879,7 @@ This summary report is used to discover and isolate any buildings or networks th
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
 
-![A list of reasons for call setup failures, organized by building, network, and subnet per month](media/qerguide-image-setupfailuresbysubnet.png)
+![Screen shot showing setup failures](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figure 20 - Audio Setup Failures by Subnet_
 
@@ -939,7 +939,7 @@ Failures reported here indicate that the call was dropped unexpectedly and resul
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 
-![Report that lists number and percentage of drop failures, organized by building, network, and subnet per month](media/qerguide-image-dropfailuresbysubnet.png)
+![Report that lists number and percentage of drop failures](media/qerguide-image-dropfailuresbysubnet.png)
 
 _Figure 22 – Drop failures by subnet_
 
@@ -1020,7 +1020,7 @@ Although the dimensions used might differ slightly between report, each report w
 > Common subnets are difficult to triage due to their widespread use. A separate report that displays the client’s public IP (Second Reflexive Local IP) has been added to the All Networks template to assist with remediating offices that use common networks.
 
 
-![Poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
+![Screen shot showing the poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
 
 _Figure 24 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
@@ -1110,7 +1110,7 @@ In the provided CQD templates, navigate to the TCP Streams by Building and Subne
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
+![Screen shot of TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
 
 _Figure 27 – TCP Streams by Building and Subnet - Conferencing_
 
@@ -1147,7 +1147,7 @@ We always recommend that you configure the client to directly connect to Teams a
 
 The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
 
-![Report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
+![Screen shot of report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
 _Figure 28 – Audio Streams with HTTP Proxy Usage_
 
@@ -1170,7 +1170,7 @@ This report identifies specific buildings and subnets that are contributing to H
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
+![Sreen shot of report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
 
 _Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
@@ -1204,7 +1204,7 @@ The reports in this space focus on identifying Skype for Business client version
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Client and Devices report](media/qerguide-image-clientversionreport.png)
+![Screen shot of the Client and Devices report](media/qerguide-image-clientversionreport.png)
 
 _Figure 30 - Client version report_
 
@@ -1260,7 +1260,7 @@ The device reports are used to assess device usage by volume and MOS score (audi
 > [!Note]
 > You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
 
-![Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
+![Screen shot of the Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
 _Figure 31 - Devices (Microphone) Report_
 

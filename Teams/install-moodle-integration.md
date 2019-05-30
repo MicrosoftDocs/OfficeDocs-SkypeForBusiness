@@ -68,7 +68,7 @@ Next you'll need to register Moodle as an application in your Azure Active Direc
 
 ### Moodle tab for Microsoft Teams information flow
 
-<img width="530px" src="media/MoodleTabInformationFlow.png" title="Illustration of Moodle tab for Microsoft Teams information flow" />
+<img width="530px" src="media/MoodleTabInformationFlow.png" alt="Illustration of Moodle tab for Microsoft Teams information flow" title="Illustration of Moodle tab for Microsoft Teams information flow" />
 
 1. From the Microsoft Office 365 Integration plugin page slect the **Setup** tab.
 1. Click the **Download PowerShell Script** button and save it to your local computer.
@@ -133,7 +133,7 @@ The free Moodle Assistant Bot for Microsoft Teams helps teachers and students an
 
 ### Moodle bot information flow
 
-<img width="530px" src="media/MoodleBotInformationFlow.png" title="Illustration of Moodle bot for Microsoft Teams information flow" />
+<img width="530px" src="media/MoodleBotInformationFlow.png" alt="llustration of Moodle bot for Microsoft Teams information flow" title="Illustration of Moodle bot for Microsoft Teams information flow" />
 
 
 To install the bot, you'll first need to register it on the [Microsoft Identity Platform](https://identity.microsoft.com/Landing). This allows your Bot to authenticate against your Microsoft endpoints. To register your bot:

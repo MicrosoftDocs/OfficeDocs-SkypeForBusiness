@@ -65,15 +65,15 @@ Check the firmware version on your phones. For:
   
 Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
   
-![Deploying phones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Screen shot showing deploying phones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 When a new firmware is available and ready for download and install, the phone will notify the user. Polycom phones will notify the user and provide them with an option to **Update** or **Postpone**.
   
-![Deploying phones.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![Screen shot showing Update and Postpone options.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 For a Polycom phone, you can update the firmware on the phone by selecting **SwUpdate**.
   
-![Deploying phones.](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![Screen shot showing the SwUpdate option](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 You can also choose to manage firmware updates using a partner provisioning system. For partner provisioning system management including advanced phone customization, refer to manufacturer administration guides.
   
@@ -96,17 +96,17 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     
   - Users with **Polycom VVX 5XX/6XX** phones will see:
     
-     ![Deploying phones.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Screen shot showing the Polycom phones logon](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Users with **Yealink T48G/T46G** phones will see:
     
-     ![Yealink phones logon.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
+     ![Screen shot showing the Yealink phones logon.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
     For details on sign-in options supported by the manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
 - **User ID** Using the phone's keypad or on-screen keyboard (if available), users can use their organization's user name and password to sign in to the phone. For example, they should use the UPN format like <em>amosm@contoso.com</em>  for their user name.
     
-     ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Screen shot showing the login screen](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > PIN authentication isn't supported for Skype for Business Online for LPE and Partner IP phones. 
@@ -116,47 +116,47 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
   > [!NOTE]
   > Users are required to use their organization's user name and password to sign in to the phone. For example, they should use the UPN format like  <em>amosm@contoso.com</em>  for their user name.
   
-     ![Deploying phones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Screen shot showing the login screen](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
   - Users with **Polycom VVX 5XX/6XX** phones will see:
     
-     ![Deploying phones.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Screen shot showing the Polycom instructions](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Users with **Yealink T48G/T46G** phones will see:
     
-     ![Yealink phone logon.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Screen shot showing Yealink instructions](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
   - Users with **Polycom VVX 5XX/6XX** phones will see:
     
-     ![PIN code expired.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Screen shot showing expired Polycom code](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - Users with **Yealink T48G/T46G** phones will see:
     
-     ![Yealink phones logon.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Screen shot showing expired Yealink code](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     Using a browser, navigate to the address displayed on the phone and enter your Skype for Business username.
     
-     ![Deploying phones.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Screen shot showing email verification](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Enter the code shown on the phone.
     
-     ![Deploying phones.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Screen shot showing entering code on login screen](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     Verify that the site shows "[Phone Manufacturer name] **Skype for Business Certified Phone**," and click **Continue**.
     
-     ![Deploying phones.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Screen shot showing verification of name](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Click the user's credentials or click **Use another account**:
     
-     ![Deploying phones.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![Screen shot showing credential options](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     When the following page is displayed, it is safe to close the browser.
     
-     ![Deploying phones.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![Screen shot showing confirmation message](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > LPE phones for Skype for Business Online support sign-in through USB tethering only. 
@@ -197,7 +197,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 1. Connect their PC to their phone using the PC port.
     
-     ![Deploying phones.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Screen shot showing connection to a PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. Download and install the latest BToE software from the manufacturer website from the links below. For a better user experience, you can distribute and install the BToE software using an admin distribution solution such as System Center Configuration Manager (SCCM). For help using SCCM, See [Packages and programs in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
     

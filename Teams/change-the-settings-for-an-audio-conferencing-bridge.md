@@ -61,7 +61,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 6. Click **Save**. 
 
 
-## ![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
+## ![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Set up the meeting experience when callers join a meeting**
     

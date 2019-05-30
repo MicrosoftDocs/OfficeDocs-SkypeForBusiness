@@ -51,13 +51,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### Get new user phone numbers 
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Microsoft 365 with your work or school account.
 
 2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, displayed as a plus symbol](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
 ### Get new numbers that aren't available in the Skype for Business admin center
   
@@ -77,7 +77,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### Get new service numbers
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 
 1. Sign in to Office 365 with your work or school account.
@@ -105,9 +105,9 @@ If you have been following the steps above, you have already bought and assigned
 
 1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
 
-2. In the **New address** pane, enter a name for your address, and then complete the remaining boxes.
+2. In the **New Address** pane, enter a name for your address, and then complete the remaining boxes.
     
-     ![When you enter a new emergency address, the formatting of the street name might cause an error.](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
+     ![Screen shot of the New Address pane](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
     > [!TIP]
     > For English customers, if the street name is a number, be sure to include "st" or "th" at the end, as shown in the above picture.
@@ -153,15 +153,15 @@ Here's how they can see that phone number in their **Skype for Business** app:
     
 2. Choose **Settings** > **Tools** > **Options**. 
     
-     ![To view your phone number, go to Settings > Tools > Options.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![Screen shot of Options on the Tools menu](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. Then choose **Phones**. 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Screen shot of the Skype for Business phone options](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](media/teams-phone-number.png)
+![Screen shot of the options available after clicking Calls](media/teams-phone-number.png)
 
 **For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).**
 

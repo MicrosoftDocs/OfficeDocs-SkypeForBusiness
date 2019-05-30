@@ -29,11 +29,11 @@ Currently, connectors can be added by using Microsoft Teams desktop and web clie
 
 1.  To add a connector to a channel, click the **ellipses (…),** on the right of a channel name, then click **Connectors.**
 
-    ![Screenshot of the Teams interface with a channel name selected and the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Screenshot of the Teams interface with the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Users can select from a variety of available connectors, then click **Add**.
 
-    ![Screenshot of the Connectors dialog showing the connectors available to add.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Screenshot of the Connectors dialog showing available the connectors.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Fill in the required information of the selected connector and click **Save**. Each connector requires a diverse set of information to function properly, and some may require you to sign in to the service using the links provided on the connector configuration page.
 
@@ -54,7 +54,7 @@ It is very easy to develop custom connectors that can integrate into your Line-o
 
 2.  To create a Webhook, specify a **name**, update the Webhook image, if necessary, and click **Create**.
 
-    ![Screenshot of the configuration page for the Incoming Webhook connector. ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Screenshot of configuration page for the Incoming Webhook connector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Applications that push data to this channel, require the Webhook connector URL. A **unique URL** is created when you created the **Webhook**. Share this URL with your developers, so that they can configure their applications to push data, as needed.
 

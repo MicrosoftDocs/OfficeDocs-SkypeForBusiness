@@ -55,8 +55,6 @@ These apps are provided by third parties. You can configure the following settin
 
 - **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-To learn more, see [Admin settings for apps in Teams](admin-settings.md). 
-
 ## Teams org-wide settings in the Microsoft Teams admin center
 You can control organization-wide user settings in the Microsoft Teams admin center. To edit org-wide settings, go to the Microsoft Teams admin center, and then select **Org-wide settings**. You can configure the following settings.
 

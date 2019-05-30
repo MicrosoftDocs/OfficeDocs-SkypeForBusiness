@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](media/upgrade-banner-main.png "Begin your upgrade journey")
+![Diagram of the Teams upgrade journey](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
 # Plan for your upgrade
 

@@ -33,7 +33,7 @@ Sometimes Microsoft Teams users may need you to send them their Audio Conferenci
    
 Here is an example of the email that is sent:
   
-![Dial-in conferencing email](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Example of a dial-in conferencing email message](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
