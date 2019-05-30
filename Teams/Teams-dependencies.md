@@ -86,11 +86,11 @@ From Office 365 Groups, you can control adding guest users and guest access to a
     
 3. Select **Office 365 Groups**.
     
-     ![Office 365 groups](media/authorize-guest-image2.png)
+     ![Screen shot of Office 365 groups in settings](media/authorize-guest-image2.png)
   
 4. On the Office 365 Groups page, set the toggle to **On** or **Off**, depending on whether you want to let team and group owners outside your organization access Office 365 groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**. If you turn this toggle to **On**, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 groups and Microsoft teams. Set this toggle to **On** if you want to let group and team owners add guest users. 
  
-   ![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/authorize-guest-image3.png)
+   ![Screenshot of Office 365 Groups panel with the options turned on](media/authorize-guest-image3.png)
 
 These settings apply at the tenant level and control the guest experience in Office 365 Groups and Microsoft Teams.
 

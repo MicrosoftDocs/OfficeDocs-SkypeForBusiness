@@ -122,18 +122,18 @@ In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then clic
 
 ### Set the call queue display name and resource account
 
-![Setting up a call queue.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
+![Screen shot of a new call queue, with numbered callouts](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
 * * *
 
-![Number 1](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 **Name** Enter a descriptive display name for the call queue. This is required and can contain up to 64 characters, including spaces.
 
  This name will be displayed in the notification for the incoming call.
 
 * * *
 
-![Number 2](media/sfbcallout2.png)
+![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
 **Add Accounts** Select a resource account. The resource account may or may not be associated with a service toll or toll-free phone number for the call queue, but each call queue requires an associated resource account.
 
@@ -144,17 +144,17 @@ If there aren't any listed, you need to get service numbers and assign them to a
 
 ### Set the greeting and music played while on hold
 
-![Setting up a call queue.](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![Screen shot of greeting and music options, with numbered callouts](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 * * *
 
-![Number 1](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
 **Greeting** is optional. This is the greeting that is played for people who call in to the call queue number.
 
 You can upload an audio file (.wav, .mp3, or .wma formats).
 
-![Number 2](media/sfbcallout2.png)
+![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
 **Music on hold** You can either use the default Music on Hold provided with the call queue, or you can upload an audio file in .wav, mp3, or .wma formats to use as your custom Music on Hold.
 
@@ -162,9 +162,9 @@ You can upload an audio file (.wav, .mp3, or .wma formats).
 
 ### Select the call answering options
 
-![Shows the call distribution method options](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Screen shot of call answering options, with numbered callouts](media/5d249515-d532-4af2-90da-011404028b89.png)
 
-![Number 1](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
 You can select up to 200 call agents belonging to specified mailing lists or groups. Call agents must be either:
 
@@ -179,9 +179,9 @@ You can select up to 200 call agents belonging to specified mailing lists or gro
 
 - If your agents are using Microsoft Teams App to receive call queue calls, they need to be in TeamsOnly mode.
 
-![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
+![Screen shot of Add call agents pane](media/skype-for-business-add-agents-to-call-queue.png)
 
-![Number 2](media/sfbcallout2.png)
+![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
 **Routing method** You can choose either **Attendant**,  **Serial**, or **Round Robin** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. When attendant routing is used, the first call in the queue will ring all of the call agents at the same time. The first call agent to pick up the call gets the call.
 
@@ -193,11 +193,11 @@ You can select up to 200 call agents belonging to specified mailing lists or gro
 
 ### Select an agent opt out option
 
-![Shows the agent opt out check box](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![Screen shot of agent opt out options, with numbered callouts](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 * * *
 
-![Number 1](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
 **Agent Opt out option** You can choose to allow call queue agents to opt out of taking calls from a particular queue by selecting **Agent Opt out option**.
 
@@ -212,7 +212,7 @@ To access the opt-out option, agents can do the following:
     > [!NOTE]
     > Agents using apps or endpoints other than Skype for Business Desktop can access the opt out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
-![Number 2](media/sfbcallout2.png)
+![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 **Agent Alert setting**
 
 This defines the duration of an agent being notified of a call before the Serial or Round Robin routing methods move to the next agent.
@@ -223,17 +223,17 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
 ### Set the call overflow and timeout handling options
 
-![Set up a call queue.](media/3f018734-16fe-458b-827d-71fc25155cde.png)
+![Screen shot of overflow handling options, with numbered callouts](media/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 * * *
 
-![Number 1](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
 **Maximum calls in the queue** Use this to set the maximum calls that can wait in the queue at the same time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call will be handled in way you have set on the **When the maximum number of calls is reached** setting below.
 
 * * *
 
-![Number 2](media/sfbcallout2.png)
+![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
 **When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.
 
@@ -248,13 +248,13 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
 * * *
 
-![Number 3](media/sfbcallout3.png)
+![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
 
 **Call Timeout: maximum wait time** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes.
 
 The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search auto attendant.
 
-![Number 4](media/sfbcallout4.png)
+![Icon of the number 4, referencing a callout in the previous screenshot](media/sfbcallout4.png)
 
 **When call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to this call:
 

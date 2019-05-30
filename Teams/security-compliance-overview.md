@@ -75,11 +75,11 @@ During a litigation, it is often required that all data associated with a user (
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages. 
 
-![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagram of the workflow of Teams data to Exchange and SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 The following figure indicates the ingestion flow of Teams Meetings and calling data to Exchange.
 
-![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+![Diagram of the workflow of Teams Meetings and calling data to Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > There can be up to a 24-hour delay to discover Teams content.
@@ -106,8 +106,8 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 
 | |  |  |
 |---------|---------|---------|
-|![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
-|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
+|![An icon representing a decision point](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
+|![An icon representing the next steps](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
 
 Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Microsoft 365 admin center. By default, tenant admins have access.
 
@@ -132,7 +132,7 @@ To learn more about the launch of Australia and Japan data residency for Teams, 
 
 To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
-![Screenshot of the Data location table, including Teams, in the Office 365 admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Screenshot of Data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 How do Conditional Access policies work for Teams?
 -------------------------

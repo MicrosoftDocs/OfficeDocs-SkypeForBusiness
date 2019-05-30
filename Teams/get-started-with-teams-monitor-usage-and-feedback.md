@@ -35,14 +35,14 @@ To view these reports, you must be a global admin in Office 365, Teams service a
 
 - **Teams usage report**: This report gives you an overview of usage activity in Teams, including the total active users and channels, and the number of active users and channels, guests, and messages in each team. 
 
-    ![Teams usage report](media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")     
+    ![Screen shot of a Teams usage report](media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")     
 - **Teams user activity report**: This report gives you insight into the types of activities users engage in, such as how many people communicate through 1:1 calls, channel messages, and private chat messages. 
 
-    ![Teams user activity report](media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center") 
+    ![Screen shot of a Teams user activity report](media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center") 
 `
 - **Teams device usage report**: This report shows you how users connect to Teams, including how many people use Teams on their mobile devices when on-the-go. 
 
-    ![Teams device usage report](media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center")
+    ![Screen shot of a Teams device usage report](media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center")
 
 To learn more, check out [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md). 
 
