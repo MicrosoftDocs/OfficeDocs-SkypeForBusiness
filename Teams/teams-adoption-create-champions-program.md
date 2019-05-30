@@ -26,7 +26,7 @@ Champions are essential to driving awareness, adoption, and education in your or
 
 Champions will fit into your overall launch planning in a variety of ways as shown below.
 
-![Champions and launch planning](media/teams-adoption-champions.png)
+![Illustration of Champions launch planning](media/teams-adoption-champions.png)
 
 Champions should:
 
@@ -52,5 +52,5 @@ Use our [Champions Program Guide](https://go.microsoft.com/fwlink/?linkid=854665
 
 - Train champions early and often: Your program kick off and monthly meetings can be used to build skills in your champion community. Use these opportunities to bring them on board, conduct their initial training, encourage them to attend our courses, and make sure they are ready to support their employees as they move forward in the experimentation phase.  
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Complete the governance quick start](teams-adoption-governance-quick-start.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Complete the governance quick start](teams-adoption-governance-quick-start.md)
 

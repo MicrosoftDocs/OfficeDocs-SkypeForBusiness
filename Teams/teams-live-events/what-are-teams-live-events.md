@@ -30,7 +30,7 @@ Teams live events are considered the next version of Skype Meeting Broadcast and
 
 So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they are connected. 
 
-![Diagram showing key components of live events, scheduling, production, Microsoft Stream platform, certified third-party eCDN providers](../media/teams-live-events.png  "Diagram showing key components of live events, scheduling, production, Microsoft Stream platform, certified third-party eCDN providers")
+![Diagram showing key components of live events](../media/teams-live-events.png  "Diagram showing key components of live events, scheduling, production, Microsoft Stream platform, certified third-party eCDN providers")
 
 ### Event group roles
 Live events in Teams empowers multiple roles (organizer, producer, presenter, and attendee) to successfully broadcast and participate in an event. To learn more, see [Event group roles](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
@@ -41,18 +41,18 @@ So, you can see from the picture above, there are four key components that are u
 ### Scheduling
 Teams provides the ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select production method, and invite attendees. If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with people in the event. 
 
-![Screen shot showing the New live events screen to create and schedule a new live event](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
+![Screen shot showing the New live events screen](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
 ### Production
 The video input is the foundation of the Live events and it can vary from a single webcam to a multi-camera professional video production. The live events in Microsoft 365 support a spectrum of production scenarios, include a quick start event using web cams or an event produced in an external device or application. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
 
 - **Microsoft Teams**: This production method allows users to produce their live events in Microsoft Teams using their webcam or using A/V input from Teams room systems. This option is best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters for participating in the event. This option allows users to easily use their web cams and share their screen as input into the event. 
 
-    ![Screen shot showing a live event produced by using the quick start production method](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
+    ![Screenshot showing a live event produced using quick start method](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
 
 - **External application or device**: External encoders allow users to produce their live events directly from an external hardware or a software-based encoder with [Microsoft Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to an Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience. 
 
-    ![Screen shot showing a live event produced by using the external encoder production method](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external encoder production method")
+    ![Screen shot showing a live event produced using the external encoder](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external encoder production method")
 
 ### Streaming platform
 The live event streaming platform is made up of the following pieces:

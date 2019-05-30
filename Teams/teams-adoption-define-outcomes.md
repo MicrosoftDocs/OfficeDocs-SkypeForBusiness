@@ -27,7 +27,7 @@ What follows is a recommended strategy for mapping these criteria. There are man
   
 There are four categories of outcomes that can be prioritized for your business. They are interconnected and form the foundation of the modernization and digital transformation that individual employees will experience.  
 
-![Four outcome categories](media/teams-adoption-outcomes.png)
+![Chart illustrating the four outcome categories](media/teams-adoption-outcomes.png)
 
 Example of outcomes in each category are:
 
@@ -61,7 +61,7 @@ Example of outcomes in each category are:
  
 In general, you should think of these measures aggregating to create a change quotient for your company in this manner:
 
-![Change quotient](media/teams-adoption-change-quotient.png)
+![Tangible measures divided by individual sentiment equal change quotient](media/teams-adoption-change-quotient.png)
 
 ## Select a service enablement strategy
 
@@ -86,7 +86,7 @@ The following are our recommendations for most customer organizations. However, 
 
 For each enablement strategy, it's essential to work closely with your technical readiness team to ensure that your environment will deliver a great employee experience. 
 
-![Decision Point icon.](media/teams-adoption-decision-icon.png) Decision: Select an enablement strategy that will best support your business outcomes for Microsoft Teams and that can be enabled by your technical implementation team. This is a joint decision between IT leadership, program management leads, and user adoption specialists. This decision often rests with the executive stakeholder who is the ultimate success owner for Microsoft Teams or collaboration services in your organization.
+![An icon representing decision points](media/teams-adoption-decision-icon.png) Decision: Select an enablement strategy that will best support your business outcomes for Microsoft Teams and that can be enabled by your technical implementation team. This is a joint decision between IT leadership, program management leads, and user adoption specialists. This decision often rests with the executive stakeholder who is the ultimate success owner for Microsoft Teams or collaboration services in your organization.
 
 Best Practice: Enablement strategies can be appropriate for a given phase of your project or divisional implementation schedule. Use key personas and their needs to make selections. Work closely with your technical implementation team to ensure a high-quality experience for your users.  
 
@@ -94,7 +94,7 @@ Best Practice: Enablement strategies can be appropriate for a given phase of you
 
 Communication and managing expectations are key elements in a successful change project. It's important to regularly communicate your overall vision and your progress toward that goal to your stakeholders and others in your organization. 
 
-![Decision Point icon.](media/teams-adoption-decision-icon.png) Decision: Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. 
+![An icon representing decision points](media/teams-adoption-decision-icon.png) Decision: Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. 
 
 Option: To create an ongoing knowledge base of information about your project, consider using news pages in your SharePoint communication site. Your news page library (site pages in the SharePoint site associated with your planning team) can be made public so they can be shared with all interested parties.
 
@@ -102,7 +102,7 @@ Option: To create an ongoing knowledge base of information about your project, c
 
 In a large organization you should try to incorporate many different roles in your broad enablement phase. This may include additional business sponsors, IT support staff, additional members in your champion community, and in some cases formal change management or training personnel. The illustration below shows a large scale adoption team that allows for a separation of duties.
 
-![Large scale corporate adoption team model](media/teams-adoption-large-scale-model.png)
+![Illustration of the large scale corporate adoption team model](media/teams-adoption-large-scale-model.png)
 
 In a smaller organization one or more of these roles might be performed by a single individual, but the skills required remain the same.  Technical, communication and training skills are important in a successful change project. 
 
@@ -138,4 +138,4 @@ Take the following steps to streamline your work with business units.  Recognize
 4. Capture feedback and develop champions with business unit knowledge to support the transition,
 5. Set up monthly check points to discuss progress and prioritize the backlog of additional projects.
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)

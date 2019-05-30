@@ -38,10 +38,10 @@ When you dial out to someone, we recommend that you do so using their full phone
 
 Here's how to get dial out to work:
 
- **Step 1:** In the meeting, use the **Add people** ![Add people button](media/add-people-button.png) option to dial out to a phone number.
+ **Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.
  **Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.
   
-![Invite someone or dial a number box](media/invite-someone-box.png)
+![Screenshot of the Invite someone or dial a number box](media/invite-someone-box.png)
     
 ## Supported countries and regions
 

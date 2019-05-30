@@ -51,4 +51,4 @@ Every adoption project varies in size and complexity based on your environment, 
 Each of these adoption phases depends on your technical and environmental readiness for Teams. Let's get started!
 
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|
