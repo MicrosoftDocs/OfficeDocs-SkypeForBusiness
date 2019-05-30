@@ -55,8 +55,8 @@ upon in the following sections.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -94,7 +94,7 @@ After an agreement is in place, the corresponding teams should start to
 operationalize their roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Next steps</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td>
 <td><ul><li>Use this document to facilitate the operational role mapping exercise.</li><li>Meet with the respective support teams to assign names to each item in the list of required activities.</li><li>Gain acceptance or sign-off on the assigned roles.</li><li>Ensure that the corresponding teams have the appropriate training, readiness, and resources to complete the activities required of them.</li></ul></td></table>
 
 ### Teams service dependencies

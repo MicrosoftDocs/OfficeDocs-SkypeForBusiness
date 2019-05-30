@@ -59,19 +59,19 @@ See your Teams and Skype for Business admin if you need help with permissions.
     
 3. On the **Dashboard**, in **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot or select **View users** to see a list of users.
     
-    ![Screenshot of the User Search box of Call Analytics in the Microsoft Teams admin center.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Screenshot of the User Search box of Call Analytics](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. Select the user from the list.
 
 5. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
     
-    ![Screenshot shows the call history page for a user.](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![Screenshot of the call history page for a user.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
     
     In the session details for each call or meeting, minor issues appear in yellow. (For example, in the following screenshot, the values are in yellow for Average jitter, Max jitter, and Average packet loss rate.) If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session. 
     
-    ![Screenshot shows the Advanced tab of a user's Call history ](media/use-call-analytics-to-troubleshoot-image-3.png)
+    ![Screenshot of the Advanced tab of a user's Call history ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
 In rare cases, quality of experience data isn't received for audio sessions. Often this is caused by the call dropping and connection with the client terminating. When this occurs, the session rating is **unavailable**.
   

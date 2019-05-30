@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -58,7 +58,7 @@ There are specific requirements to the deployment that are critically important 
 
 An organization or supporting partner should start planning for three key components during the Technical Readiness stage of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagram illustrating the three components of quality, and how service management overlaps all three components.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagram illustrating the three components of quality, and how service management overlaps all three components.")
 
 #### Service management
 
@@ -96,7 +96,7 @@ The notion of service management is most likely not a new concept for most organ
 
 Service management encompasses all the activities and processes involved in managing Microsoft Teams end to end. As described earlier, some components of service management—the infrastructure components that the Office 365 service itself comprises—are Microsoft’s responsibility, whereas the customer is accountable to its users to manage the various aspects of Teams, the network, and endpoints they provide. This section of the document will focus on the customer’s responsibility from a service management perspective.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.")
 
 ### Introduction to the Operations Guide
 
@@ -126,7 +126,7 @@ The tasks and activities associated with the role have been documented in the Op
 
 The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
 
-![A diagram that illustrates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "A diagram that illustrates the key areas that are examined during a quality experience review.")
+![Diagram illustrating key areas examined during quality experience review](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "A diagram that illustrates the key areas that are examined during a quality experience review.")
 
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
@@ -152,7 +152,7 @@ The Quality Experience Review Guide can be found [here](https://aka.ms/qerguide)
 
 Planning for network quality will be the focus for the following section.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
 As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
@@ -269,7 +269,7 @@ The network assessment can be conducted by using a Microsoft partner, third-part
 
 As you can see from the diagram below, endpoints are an important building block in providing a high-quality experience for users.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
 
 Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets, and mobile devices. Part of the experience not only encompasses the device, but how a user connects to the device—for example, by using the device’s built-in mic/speaker, earbuds, or an optimized headset. Using an optimized headset can enrich the overall user experience.
 
