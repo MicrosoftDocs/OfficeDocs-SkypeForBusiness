@@ -67,8 +67,8 @@ If QoS is enabled for the following media ports and VbSS is also enabled, during
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
 |**VideoPortStart** <br/> |**57501** <br/> |UDP  <br/> |
 |**VideoPortCount** <br/> |**8034** <br/> |UDP  <br/> |
-|AppSharingPortStart  <br/> |40803  <br/> |UDP  <br/> |
-|AppSharingPortCount  <br/> |8348  <br/> |UDP  <br/> |
+|AppSharingPortStart  <br/> |40803  <br/> |TCP  <br/> |
+|AppSharingPortCount  <br/> |8348  <br/> |TCP  <br/> |
    
 ### Capacity planning
 

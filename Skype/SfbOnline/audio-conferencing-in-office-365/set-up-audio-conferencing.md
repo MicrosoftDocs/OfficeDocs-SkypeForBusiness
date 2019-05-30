@@ -69,7 +69,7 @@ Once you get your toll and/or toll-free phone numbers for your conferencing brid
 
 To assign a new phone number to your audio conferencing bridge:
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
  1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
  2. Select **Voice** > **Phone numbers**.
@@ -87,7 +87,7 @@ Next, you want to [Set auto attendant languages for Audio Conferencing](../audio
 1. From the Dashboard, go to **Meetings** > **Conference bridges**.
 2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
 
 1. Go to the **Office 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Microsoft bridge**. 
@@ -105,7 +105,7 @@ After setting up your conferencing bridge, verify that the default settings such
 
 For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
 1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Microsoft bridge settings**. This will open the **Microsoft bridge settings** page. 
@@ -123,7 +123,7 @@ You will need to do this for all of the people in your organization who lead or 
 1. From the Dashboard, click **Users**, select the user from the list, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
 1. Go to the **Microsoft 365 admin center** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. 

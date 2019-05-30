@@ -30,5 +30,5 @@ The following are known issues for retention policies in Teams that are being tr
 
 | | | |
 |---------|---------|---------|
-|![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
-|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next steps         |Document your required security and compliance features.         |
+|![An icon representing a decision point](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
+|![An icon representing the next steps](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next steps         |Document your required security and compliance features.         |

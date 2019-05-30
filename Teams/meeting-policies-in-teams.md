@@ -99,7 +99,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad-hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad-hoc meeting in the channel.
 
-![meeting-policies-meet-now.png](media/meeting-policies-meet-now.png)
+![Screen shot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
 ### Allow private Meet now (coming soon)
 
@@ -109,7 +109,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile).
 
-![meeting-policies-outlook-add-in.png](media/meeting-policies-outlook-add-in.png)
+![Screen shot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
 
 If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
@@ -117,9 +117,9 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Select a channel to meet** option won't be available to the user when they schedule a meeting from Meetings in Teams.
 
-![meeting-policies-schedule-a-meeting.png](media/meeting-policies-schedule-a-meeting.png)
+![Screen shot showing the Schedule a meetion option in Teams](media/meeting-policies-schedule-a-meeting.png)
 
-![meeting-policies-select-a-channel-to-meet-in.png](media/meeting-policies-select-a-channel-to-meet-in.png)
+![Screen shot showing the Select a channel to meet in option](media/meeting-policies-select-a-channel-to-meet-in.png)
 
 ### Allow scheduling private meetings
 
@@ -143,7 +143,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
-![meeting-policies-transcription.png](media/meeting-policies-transcription.png)
+![Screen shot showing transcription options in a meeting](media/meeting-policies-transcription.png)
 
 ### Allow cloud recording
 
@@ -151,7 +151,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording. 
 
-![meeting-policies-recording.png](media/meeting-policies-recording.png)
+![Screen shot showing recording options](media/meeting-policies-recording.png)
 
 Let's look at the following example.
 
@@ -169,7 +169,7 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users’ meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
-![meeting-policies-audio-video-settings.png](media/meeting-policies-audio-video-settings.png)
+![Screen shot showing a meeting with audio and video settings](media/meeting-policies-audio-video-settings.png)
 
 Let's look at the following example.
 
@@ -235,11 +235,11 @@ This is a per-user policy. This setting controls whether the user can give contr
 
 If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session. 
 
-![meeting-policies-give-control.png](media/meeting-policies-give-control.png)
+![Screen shot showing the Give Control option](media/meeting-policies-give-control.png)
 
 If the settings is turned off for the user, the **Give Control** option isn't available.
 
-![meeting-policies-give-control-not-available.png](media/meeting-policies-give-control-not-available.png)
+![Screen shot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
 
 Let's look at the following example.
 
@@ -319,7 +319,7 @@ These settings control which meeting participants wait in the lobby before they 
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user.
 
-![meeting-policies-lobby.png](media/meeting-policies-lobby.png)
+![Screen shot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule. **(coming soon)**
   
@@ -333,7 +333,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
 
-![meeting-policies-anonymous-user-lobby.png](media/meeting-policies-anonymous-user-lobby.png)
+![Screen shot showing a message to a waiting user](media/meeting-policies-anonymous-user-lobby.png)
 
 Here's the join behavior of anonymous people when authenticated users are present in the meeting.
 

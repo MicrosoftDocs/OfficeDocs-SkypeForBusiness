@@ -64,7 +64,7 @@ Our Early Adopter Program Guide is a helpful resource for kicking off this progr
 
 Change is a human process that has nothing to do with technology. There is behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you will encounter natural resistance to change.  
 
-![Resistance to change](media/teams-adoption-resistance.png)
+![Graph illustrating resistance to change](media/teams-adoption-resistance.png)
 
 Every organization approaches change differently, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational change readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
 
@@ -96,4 +96,4 @@ Combine this data with the stakeholder profiles and employees who wish to opt in
 
 You can use internal champions to address the problem of having different change types. Here, feedback is the key to success: encourage people to share their challenges and needs. Embrace disrupters and dissenters by giving these individuals or groups a seat at the table during experimentation. This best practice will pave the way for a smoother broad deployment of your collaboration improvements.  
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 2: Experiment](teams-adoption-phase2-experiment.md) 
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 2: Experiment](teams-adoption-phase2-experiment.md) 
