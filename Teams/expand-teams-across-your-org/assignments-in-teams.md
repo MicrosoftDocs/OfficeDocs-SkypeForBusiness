@@ -19,7 +19,7 @@ appliesto:
 
 # Assignments in Teams for Education
 
-[!INCLUDE [preview-feature](../Teams/includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Assignments are tasks or units of work assigned to a student or team member in a class as part of their study. You can create assignments within your Teams class.
 
