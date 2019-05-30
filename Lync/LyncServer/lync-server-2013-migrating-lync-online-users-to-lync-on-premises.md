@@ -60,8 +60,35 @@ _**Topic Last Modified:** 2015-11-13_
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
-2.  Confirm that, on your on-premises Edge Servers, you have the certificate chain that enables connection to Lync Online. You can download this chain here: https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
-    
+2.  Confirm that, on your on-premises Edge Servers, you have the certificate chain that enables connection to Lync Online, as shown in the following table. You can download this chain here: https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
+
+
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Certificate</th>
+    <th>Certificate Store</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p>Baltimore CyberTrust Root</p></td>
+    <td><p>Trusted Root CA</p></td>
+    </tr>
+    <tr class="even">
+    <td><p>Microsoft Internet Authority (New CA certificate)</p></td>
+    <td><p>Intermediate CA</p></td>
+    </tr>
+    <tr class="odd">
+    <td><p>MSIT Machine Auth CA2 (New Issuing CA2)</p></td>
+    <td><p>Intermediate CA</p></td>
+    </tr>
+    </tbody>
+    </table>
 
 3.  In your on-premises Active Directory, enable the affected user accounts for Lync on-premises. You can do this for an individual user by typing the following cmdlet:
     
