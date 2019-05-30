@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
