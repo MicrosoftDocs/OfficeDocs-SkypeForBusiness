@@ -19,6 +19,8 @@ appliesto:
 
 # Assignments in Teams for Education
 
+[!INCLUDE [preview-feature](../Teams/includes/preview-feature.md)]
+
 Assignments are tasks or units of work assigned to a student or team member in a class as part of their study. You can create assignments within your Teams class.
 
 [Learn more about Assignments](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
@@ -58,18 +60,18 @@ In order to successfully enable Turnitin for your organization, you will need to
 Here are some instructions to help you obtain this information.
 
 The TurnitinApiUrl is the host address of your admin console.
-Ex. https:[]()//your-tenant-name.turnitin.com
+Example. https:[]()//your-tenant-name.turnitin.com
 
 The admin console is where you can create an integration and an API key associated with the integration.
 
-Select 'Integrations' from the side menu, then select 'Add Integration' and give the integration a name.
+Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.
 ![Screen shot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
 
 The TurnitinApiKey will be given to you after you follow the prompts. 
-Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key in the admin console.
+Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
 ![Screen shot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
-Upon clicking the 'save' button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.
+Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.
 
 [Learn more about the integration between Turnitin and Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
