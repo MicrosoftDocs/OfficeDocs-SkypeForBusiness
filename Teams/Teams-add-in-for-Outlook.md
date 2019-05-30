@@ -37,7 +37,9 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 
 ## Teams Meeting add-in in Outlook for Mac
 
-The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running Production Build 16.23.326.1 and later.​
+The Teams Meeting button in Outlook for Mac will appear in the Outlook for Mac ribbon if Outlook is running Production Build 16.24.414.0 and later.​
+
+The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
 ## Teams Meeting add-in in Outlook Web App
 
@@ -45,11 +47,15 @@ The Teams Meetings button in Outlook Web App will appear as part of new event cr
 
 ![Screenshot of Teams Meeting add-in in Outlook Web App](media/teams-meeting-add-in-web.png)
 
+The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
+
 ## Teams Meeting add-in in Outlook mobile (iOS and Android)
 
 The Teams Meeting button shows up in latest builds of the Outlook iOS and Android app.
 
 ![Screenshot of Teams Meeting add-in in Outlook mobile](media/teams-meeting-add-in-mobile.png)
+
+The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
 ## Authentication requirements
 
@@ -107,6 +113,3 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 For general guidance about how to disable add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
-
