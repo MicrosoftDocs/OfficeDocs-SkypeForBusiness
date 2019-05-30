@@ -27,7 +27,7 @@ Make sure that you understand the business projects (scenarios) that will be in 
 - Modern project management
 - Modern meetings
 
-![Core scenarios](media/teams-adoption-modernizing-core-scenarios.png)
+![An illustration of the three core scenarios](media/teams-adoption-modernizing-core-scenarios.png)
 
 Additional scenarios to consider are:
 
@@ -36,7 +36,7 @@ Additional scenarios to consider are:
 - Increase sales productivity and grow revenue
 - Streamline business reviews
 
-![Teams use cases for every scenario](media/teams-adoption-use-cases.png)
+![An illustration of Teams use cases for every scenario](media/teams-adoption-use-cases.png)
 
 Think of this scenario modernization motion as a cumulative process – get things going with more basic scenarios to create enthusiasm, familiarity, and credibility with this new way of working. Then move on to more ambitious areas of impact. As more impact with Microsoft Teams is demonstrated to your business colleagues, more of them will get engaged and momentum will build. For many of our customers, once they get this process going they find that business stakeholders approach them after learning how their colleagues got value from Microsoft Teams.
 
@@ -54,13 +54,13 @@ To confirm the selection of these early projects we recommend meeting directly w
 
 To be sure that you have the right information about the business scenario, consider using the following format to document the scenario from the perspective of the employee completing the work and the business owner of the process. Both perspectives are required to craft a successful path forward.
 
-![Framework for identifying scenarios](media/teams-adoption-identify-scenarios.png)
+![An illustration of the framework for identifying scenarios](media/teams-adoption-identify-scenarios.png)
 
 After speaking to one or more business stakeholders you can prioritize your scenarios based on impact vs. difficulty. (Your scenarios may be in addition to the scenarios we suggest above.) Appropriate candidates for your experimentation phase should have higher impact and low to medium difficulty. This will ensure your project isn't affected by scope creep or technical difficulties before you are able to show the value of your work. An example chart is shown below.
 
-![Scenario impact vs. difficulty](media/teams-adoption-impact-difficulty.png)
+![An illustration showing Scenario impact vs. difficulty](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
 > We are always eager to learn about how our customers use Teams in new an innovative ways. Share your #TeamsStories with us in our [Driving Adoption discussion forum]. Include the hashtag **#TeamsStories** in your post. We are always interested in how you use Teams in your organization.
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md).
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md).
