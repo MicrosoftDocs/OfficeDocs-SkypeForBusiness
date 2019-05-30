@@ -24,7 +24,7 @@ Use Teams live events settings to configure settings for live events that are he
 
 You can easily manage these settings in the Microsoft Teams admin center. In the left navigation, go to **Meetings** > **Live events settings**. 
 
-![live-event-settings.png](../media/teams-live-events-settings.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center") 
+![Screen shot of Teams live events settings](../media/teams-live-events-settings.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center") 
 
 ## Set up event support URL
 
@@ -35,7 +35,7 @@ This URL is shown to live event attendees. Add the support URL for your organiza
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Support URL**, enter your organization's support URL. 
 
-    ![Support URL setting for live events in the Microsoft Teams admin center](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")
+    ![Support URL setting for live events in the admin center](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")
 
 ### Using Windows PowerShell
 Run the following:
@@ -52,7 +52,7 @@ If you purchased and set up a software defined network (SDN) solution or enterpr
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Third-party video distribution providers**, complete the following: 
 
-    ![Third-party video distribution provider settings in the Microsoft Teams admin center](../media/teams-live-events-settings-distribution-provider.png "Screen shot of the third-party video distribution provider settings for live events")
+    ![Third-party video distribution provider settings in the admin center](../media/teams-live-events-settings-distribution-provider.png "Screen shot of the third-party video distribution provider settings for live events")
 
     - **Use a third-party distribution provider** Turn this on to enable the third-party video distribution provider.
     - **SDN provider name** Choose the provider you're using.

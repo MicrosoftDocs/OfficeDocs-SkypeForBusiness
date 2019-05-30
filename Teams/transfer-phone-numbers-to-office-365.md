@@ -40,7 +40,7 @@ Before you start transferring phone numbers, we recommend that you review the in
   > [!NOTE]
   > If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to select the correct country/region and download the correct forms and send them to us.
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
  
 1. Sign in to Office 365 with your work or school account.

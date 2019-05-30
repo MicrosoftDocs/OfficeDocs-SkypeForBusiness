@@ -40,7 +40,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 ## Customize your meeting invitations
 <a name="__top"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     

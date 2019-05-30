@@ -27,11 +27,11 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 1. Select **Meetings** > **Meeting policies**.
 
-    ![Select Meeting policies](media/configure-desktop-sharing-image1.png)
+    ![Screen shot showing Meeting policies selected](media/configure-desktop-sharing-image1.png)
 
 2. On the **Meeting policies** page, select **New policy**.
 
-    ![Select New policy](media/configure-desktop-sharing-image2.png)
+    ![Screen shot showing the Meeting policies message](media/configure-desktop-sharing-image2.png)
 
 3. Give your policy a unique title and enter a brief description.
 
@@ -41,7 +41,7 @@ To configure screen sharing, you create a new meetings policy and then assign it
    - **Single application** – lets users limit screen sharing to a single active application.
    - **Disabled** – Turns off screen sharing.
 
-    ![Choose a screen sharing mode](media/configure-desktop-sharing-image3.png)
+    ![Screen shot showing sharing mode options](media/configure-desktop-sharing-image3.png)
 
 5. Turn the following settings on or off:
 

@@ -77,21 +77,26 @@ A resource account that doesn't require a phone number can omit steps 1,2, and 5
 
 After you've bought a Phone System license and a Calling Plan, using Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**. 
 
-![asd](media/r-a-master.png)
+![Screen shot of the Resource accounts page](media/r-a-master.png)
 
-![number 1](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
 To create a new resource account click **+ New account**. In the pop-up, fill out the display name and user name for the resource account (the domain name should populate automatically) then click **Save**.
 
-![resource account](media/res-acct.png)
+![Screen shot of the New resource account options](media/res-acct.png)
 
 Next, apply a license to the resource account in the O365 Admin center, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
+### Edite resource account name
+![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option.  Click **Save** when you are done.
+![Screen shot of the Edit resource account option](media/r-a-edit.png)
+
 ### Assign/Unassign phone numbers and services
 
-![number 3](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a Calling Plan service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
+![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a Calling Plan service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
 
 Use the following cmdlet to assign a direct routing number: 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -99,10 +104,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > If your tenant hasn't bought a Phone System license and a Calling Plan, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a service.
 
-![resource account assign](media/r-a-assign.png)
-
-![number 2](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option.  Click **Save** when you are done.
-![edit resource account](media/r-a-edit.png)
+![Screen shot of the Assign/unassign options](media/r-a-assign.png)
 
 ## Create a resource account in Powershell
 
