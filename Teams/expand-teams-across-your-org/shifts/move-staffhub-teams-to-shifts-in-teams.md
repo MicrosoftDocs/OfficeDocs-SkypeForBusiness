@@ -65,7 +65,7 @@ Before you move a StaffHub team to Teams, make sure that:
 - The StaffHub team contains members. 
 - All StaffHub team members are linked to an Azure AD account. 
 
-If these prerequisites and dependencies aren't met, the move request will fail. 
+If these prerequisites aren't met, the move request will fail. 
 
 ### Assign Teams licenses
 
