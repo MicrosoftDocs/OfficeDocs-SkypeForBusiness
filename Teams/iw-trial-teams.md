@@ -80,7 +80,7 @@ You can turn off a user’s ability to install trial apps and services.
 
 2. Turn off **Let users install trial apps and services**.
 
-    ![Screenshot of the User owned Apps & Services page in the admin center](media/iw-trial-enable-2.png)
+    ![Screenshot of the User owned Apps & Services page in admin center](media/iw-trial-enable-2.png)
 
 
 ### Manage trial availability for a user with a license that includes Teams
