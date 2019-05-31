@@ -57,4 +57,4 @@ In your initial teams, we suggest pinning the following items for easy reference
 
 As you begin to use Teams, it will be important for you and the rest of the project team to commit to using Teams chat, channels, and resources to run your project. Your own usage of Teams is critical to the quality of your adoption project. We recommend that you resist fragmenting your project by continuing to have conversations with the core project team in email. By switching to Teams you will model the behavior you ultimately want your employees to embrace. Set the tone, go first, and begin to enjoy having your project information in one place!  
 
-![Icon depicting the next step](media/teams-adoption-next-icon.png) Next: [How ready is your organization for Microsoft Teams?](teams-adoption-assess-readiness.md)
+![An icon depicting the next step](media/teams-adoption-next-icon.png) Next: [How ready is your organization for Microsoft Teams?](teams-adoption-assess-readiness.md)

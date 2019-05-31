@@ -30,7 +30,7 @@ Use these training resources to help users in your organization get the most out
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="Megaphone icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +49,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Pointing hand icon representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +66,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Question mark icon representing help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +84,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Mortarboard icon representing training videos" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +102,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing YouTube videos" />
                         </div>
                     </div>
                     <div class="cardText">

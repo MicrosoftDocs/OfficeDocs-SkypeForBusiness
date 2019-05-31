@@ -32,7 +32,7 @@ You need to have Azure AD Premium to perform the steps in this article.
 4. Under **Application**, type **Microsoft StaffHub**.
 5. Set the date range that you want for the report, and then click **Apply**. 
 
-    ![Screen shot showing steps for how to run the report to show active StaffHub usage in the Azure portal](../../media/staffhub-active-usage-report.png)
+    ![Screen shot showing steps for how to show active StaffHub usage](../../media/staffhub-active-usage-report.png)
 
 ## Related topics
 

@@ -34,7 +34,7 @@ Linked articles document the FHIR interface specifications for the Microsoft Tea
 
 Illustrated below is the architecture of the Patients app:
 
-![Patients app architecture](../../media/patients-app-architecture.png)
+![Diagram of the Patients app architecture](../../media/patients-app-architecture.png)
 
 The following sections explain the requirements of the FHIR-only data access layer for the Patients app that a FHIR server (or EHR enabled FHIR APIs) must meet in order to integrate with the Patients app, including the following:
 
@@ -134,7 +134,7 @@ Mapping the AAD tenant to a provider endpoint uses the AAD Tenant ID (GUID). The
 
 The Authentication and Routing workflow is shown below:
 
-![Patients app 6](../../media/Patient-app-6.png)
+![Diagram of the Authentication and Routing workflow](../../media/Patient-app-6.png)
 
 1. Request for app access token by sending:
  
@@ -166,7 +166,7 @@ Specific calls and fields used by the Patients app are documented in the followi
 
 While the Patients app is in private preview, there are no guarantees on the end-to-end performance. Factors in performance include the relative latencies of all the hops involved in the workflow, starting from the EHR in the health system's environment, to the Interop partner and their infra, including the FHIR Server and across to the Office 365 ecosystem and Patients app.
 
-![Interop Partners](../../media/FHIR.png)
+![Illustration of Interop partners performance](../../media/FHIR.png)
 
 ## Get started with FHIR  
 
@@ -192,7 +192,7 @@ Once you've created the open source FHIR Server, it's really easy to connect to 
 
 4. Navigate to the general channel as the Team owner and then click on the Patients tab. You should see a first run experience that will present two options i.e. EHR Mode and Manual Mode. Please select the **EHR mode** and copy the FHIR Server endpoint (that you've just setup earlier with all the required data and resources per the specifications above) into the Link field and give the connection a name that well represents the FHIR Server. Click on Connect, and everything should be ready to go.
 
-    ![Patients app server settings](../../media/patients-server.png)
+    ![Screen shot of Patients app server settings](../../media/patients-server.png)
 
 5. Start using the app to search for Patients from the FHIR Server/EHR and add them to a list and please [give us feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) if something doesn't work. Also, to establish a fully authenticated version of the Patients app -> FHIR Server flow, please engage in offline dialogue with Microsoft Teams for healthcare product engineering, through the email request mentioned earlier to clarify requirements and we will help enable this for you per the Authentication requirements described above in the FHIR Interface document.  
 

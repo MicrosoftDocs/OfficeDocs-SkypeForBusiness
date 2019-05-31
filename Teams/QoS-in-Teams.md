@@ -65,7 +65,7 @@ When you implement QoS, you define multiple queues using one of several congesti
 
 _Figure 2. Examples of QoS queues_
 
-![Illustration of QoS queues](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
+![Illustration of QoS queues and bandwidth division](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
 
 A simple analogy is that QoS creates virtual “carpool lanes” in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 

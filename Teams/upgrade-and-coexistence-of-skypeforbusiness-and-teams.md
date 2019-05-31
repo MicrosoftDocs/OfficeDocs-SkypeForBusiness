@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Upgrade journey diagram, emphasizing Deployment and Implementation](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
@@ -45,7 +45,7 @@ When some of your users are ready to use only Teams for their day-to-day communi
 
 If it’s not feasible for your whole organization to move to Teams, you can start by piloting Teams alongside Skype for Business in **Islands** coexistence mode. As the additional coexistence modes, (i.e. **Skype for Business with Teams collaboration** and **Skype for Business with Teams collaboration and meetings**), are become progressively fully available in the next few months, you can also start by fully adopting Teams as a group collaboration solution first while keeping Skype for Business as your organization’s unified communications solution. That is Microsoft’s recommended path for customers using Skype for Business Server (on-premises or hybrid) and customers with significant complexity whose trajectory to Teams will include a long coexistence period.
 
-![A screenshot of upgrade building blocks from Skype for Business to Teams](media/upgrade_journeys_building_block.png "A screenshot of upgrade building blocks from Skype for Business to Teams, consisting of Skype for Business with Teams collaboration&ndash;only mode, Skype for Business with Teams collaboration and meetings mode, Islands mode, Teams-only mode and Skype for Business&ndash;only mode.")
+![Screenshot of upgrade building blocks from Skype for Business to Teams](media/upgrade_journeys_building_block.png "A screenshot of upgrade building blocks from Skype for Business to Teams, consisting of Skype for Business with Teams collaboration&ndash;only mode, Skype for Business with Teams collaboration and meetings mode, Islands mode, Teams-only mode and Skype for Business&ndash;only mode.")
 
 The following table compares coexistence and upgrade modes.
 
