@@ -65,7 +65,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
                         </div>
                     </div>
                     <div class="cardText">
