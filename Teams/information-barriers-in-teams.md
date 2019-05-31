@@ -75,9 +75,9 @@ If there is an existing chat or other communication between users, and a new pol
 
 Currently, the information barrier features are in public preview. When these features are generally available, they'll be included in subscriptions, such as:
 
+- Microsoft 365 E3
 - Microsoft 365 E5
 - Office 365 E5
 - Office 365 Advanced Compliance
-- Microsoft 365 E5 Compliance
 
 For more details, including plans and pricing, see [Compliance Solutions](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
