@@ -24,7 +24,7 @@ appliesto:
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. You'll learn [what you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams) and [how to prepare for the move](#prepare). We recommend you first [run a pilot](#run-a-pilot) with a couple of teams first before you [move all your StaffHub teams to Teams](#make-the-transition-from-staffhub-to-teams). Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
 
 You must be a global admin to perform the steps in this article. If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to any questions you may have. 
 
@@ -65,7 +65,7 @@ Before you move a StaffHub team to Teams, make sure that:
 - The StaffHub team contains members. 
 - All StaffHub team members are linked to an Azure AD account. 
 
-If these prerequisites and dependencies are not met, the move request will fail. 
+If these prerequisites and dependencies aren't met, the move request will fail. 
 
 ### Assign Teams licenses
 
@@ -76,7 +76,7 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 > [!NOTE]
 > If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### Provision accounts for StaffHub users who don't have an identity in Azure AD
+Provision accounts for StaffHub users who don't have an identity in Azure AD
 
 Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them by doing one of the following.
 
@@ -84,7 +84,7 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 
 StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
 
-#### Remove the non-provisioned account and then re-add it by using the UPN
+#### Remove the non-provisioned account and then re-add the account by using the UPN
 
 1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
 2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
@@ -97,7 +97,7 @@ If you haven't already, [install the StaffHub PowerShell module](install-the-sta
 
 Teams includes a built-in Firstline Worker app setup policy that you use to customize Teams for the Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. When you assign this policy to users, these apps are pinned to the app bar in Teams for quick and easy access. 
 
-To learn more, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams)
+To learn more, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams).
 
 ## Run a pilot
 
