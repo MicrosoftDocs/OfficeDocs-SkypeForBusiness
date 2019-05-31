@@ -318,6 +318,8 @@ These settings control which meeting participants wait in the lobby before they 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
+### Automatically admit people
+
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user.
 
 ![Screen shot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
