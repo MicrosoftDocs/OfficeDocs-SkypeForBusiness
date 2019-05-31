@@ -16,8 +16,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-How Exchange and Microsoft Teams interact 
-=========================================
+# How Exchange and Microsoft Teams interact
 
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
@@ -30,7 +29,7 @@ Users hosted on either Exchange Online Dedicated - Legacy, or Exchange on-premis
 
 The following table provides information for users with Exchange Online hosted in various environments.
 
-**Actions supported:** 
+**Actions supported:**
 
 | User's mailbox is hosted in: | eDiscovery| Legal&nbsp;Hold | Retention| Team and Channel mgmt |Create and view meetings| Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail |Add and configure connectors|Add and configure tabs|Add and configure bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -47,29 +46,29 @@ The following table provides information for users with Exchange Online hosted i
 
 <sup>5</sup> Teams users with on premise Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
-Additional information:
+## Requirements to get the most out of Microsoft Teams
 
--   Microsoft Teams doesn't support SharePoint on-premises.
+Microsoft Teams works with several Office 365 services to provide users with a rich experience. To support this experience, you need to enable certain features or services and assign licenses.
 
--   SharePoint Online is required to share and store files in team conversations.
+- SharePoint Online is required to share and store files in team conversations. Microsoft Teams doesn't support SharePoint on-premises.
 
--   OneDrive for Business is required to share and store files in private chats.
+- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Office 365.
 
--   If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Office 365.
+- Users must be enabled for Office 365 group creation to create teams in Microsoft Teams.
 
--   Users must be enabled for Office 365 group creation to create teams in Microsoft Teams.
+- To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
--   In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
+## Additional considerations
 
--   For Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
+Here are some extra things to think about as you implement Microsoft Teams in your organization.
 
--  Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+- In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
-> [!NOTE]
-> Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.
-> 
-> [!IMPORTANT]
-> In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users in Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
-> 
+- Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+
+- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.
+
+- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users in Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
 > [!TIP]
 > For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
