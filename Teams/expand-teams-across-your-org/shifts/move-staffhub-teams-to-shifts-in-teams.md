@@ -54,6 +54,19 @@ There's minimal downtime (less than a second, if any at all) for users when thei
 
 Here's how to prepare for the move to Teams.
 
+### Check that prerequisites are met
+
+Before you move a StaffHub team to Teams, make sure that:
+
+- The signed-in user is a global admin.
+- Teams is enabled for all users in the tenant.
+- Office 365 Groups creation is enabled in the tenant.
+- The StaffHub teamId is valid.
+- The StaffHub team contains members. 
+- All StaffHub team members are linked to an Azure AD account. 
+
+If these prerequisites and dependencies are not met, the move request will fail. 
+
 ### Assign Teams licenses
 
 Each user must have an active Microsoft 365 or Office 365 license from [an eligible plan ](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) and must be assigned a Teams license. Assigning a Teams license to users gives them access to Teams.
@@ -65,23 +78,26 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 ### Provision accounts for StaffHub users who don't have an identity in Azure AD
 
-Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them. Here's how.
+Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them by doing one of the following.
 
-- StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+#### Convert and link the account to a provisioned account
 
-- Admins can run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) and [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlets to remove a non-provisioned account from a StaffHub team and add the account back by using the UPN.
+StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+
+#### Remove the non-provisioned account and then re-add it by using the UPN
+
+1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
+2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
 ### Install the StaffHub PowerShell module
 
 If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md).
 
-When you move a StaffHub team, the move request checks for prerequisites. Here's reasons why a move request may fail:
+### Assign the Firstline Worker app setup policy to users
 
-- The signed-in user is not a global admin
-- Teams is disabled for all users in the tenant
-- Office 365 Groups creation is disabled in the tenant
-- The StaffHub teamId is not valid or has no members
-- The StaffHub team includes members that aren't linked to an Azure AD account  
+Teams includes a built-in Firstline Worker app setup policy that you use to customize Teams for the Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. When you assign this policy to users, these apps are pinned to the app bar in Teams for quick and easy access. 
+
+To learn more, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams)
 
 ## Run a pilot
 
