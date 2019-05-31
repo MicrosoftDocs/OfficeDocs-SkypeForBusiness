@@ -32,13 +32,13 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![app-setup-policies-desktop-app-bar.png](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar.png](media/app-setup-policies-mobile-app-bar.png)      |
+|![Screen shot showing Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Screen shot showing Teams mobile client](media/app-setup-policies-mobile-app-bar.png)      |
 
 You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
 
-![app-setup-policies.png](media/app-setup-policies.png)
+![Screen shot showing the App setup policies page](media/app-setup-policies.png)
 
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
@@ -53,11 +53,11 @@ You can use the Microsoft Teams admin center to create a custom policy.
 4. Turn on or turn off **Allow uploading custom apps**, depending on whether you want to let users upload custom apps to Teams.
 5. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
 
-     ![app-setup-policies-add-apps.png](media/app-setup-policies-add-apps.png)
+     ![Screen shot showing the Add pinned apps pane](media/app-setup-policies-add-apps.png)
 
 6. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
 
-    ![app-setup-policies-new-policy-setup.png](media/app-setup-policies-new-policy-setup.png)
+    ![Screen shot showing the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
 
 ## Edit an app setup policy
 
@@ -81,7 +81,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to indivi
 2. Next to **Assigned policies**, choose **Edit**.
 3. Under **Teams App Setup policy**, select the app setup policy you want to assign, and then choose **Save**.
 
-    ![app-setup-policies-assign-policy.png](media/app-setup-policies-assign-policy.png)
+    ![Screen shot showing the Edit user policies pane](media/app-setup-policies-assign-policy.png)
 
 You can also assign an app setup policy to one or more users as follows:
 
@@ -131,9 +131,7 @@ Keep in mind that the Teams app store lists all Teams apps whereas the **Add pin
 
 #### I'm a Teams for Education admin. What do I need to know about app setup policies in Teams for Education?
 
-- The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams. 
-
-- Currently, policy changes aren't reflected for Teams for Education users on the Teams Android app. We're working on a new version of the app that supports policy changes for Teams for Education.
+The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams.
 
 #### How many apps can be added to a policy?
 
@@ -152,7 +150,7 @@ To view all apps that are pinned for a user, users may have to do the following 
 |Teams desktop client |Teams mobile client |
 |---------|---------|
 |In the app bar on the side of Teams, click **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
-|![app-setup-policies-desktop-more-apps.png](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps.png](media/app-setup-policies-mobile-more-apps.png)  
+|![Screen shot showing More apps in the Teams desktop client](media/app-setup-policies-desktop-more-apps.png)<br>   |![Screen shot showing more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### What do I need to know about the Teams mobile experience?
 
