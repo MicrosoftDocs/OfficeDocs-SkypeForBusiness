@@ -52,7 +52,7 @@ There's minimal downtime (less than a second, if any at all) for users when thei
 
 ## Prepare
 
-Here's how to prepare for the move to Teams.
+Here's how to prepare for the move to Teams. We recommend you 
 
 ### Check that prerequisites are met
 
@@ -98,6 +98,14 @@ If you haven't already, [install the StaffHub PowerShell module](install-the-sta
 Teams includes a built-in Firstline Worker app setup policy that you use to customize Teams for the Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. When you assign this policy to users, these apps are pinned to the app bar in Teams for quick and easy access. 
 
 To learn more, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams).
+
+### Deploy Teams  (WIP)
+
+To learn more, see:
+- [Get started with Teams](..[/../get-started-with-teams-quick-start.md)
+- [Admin training for Teams](](../../ITAdmin-readiness.md))
+- [End-user training for Teams](../../enduser-training.md)
+- [Teams help center](https://support.office.com/teams)
 
 ## Run a pilot
 
