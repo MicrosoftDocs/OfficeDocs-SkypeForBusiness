@@ -103,15 +103,22 @@ If you haven't already, [install the StaffHub PowerShell module](install-the-sta
 
 ### Assign the Firstline Worker app setup policy to users
 
-Teams includes a built-in Firstline Worker app setup policy that you use to customize Teams for the Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. When you assign this policy to users, these apps are pinned to the app bar in Teams for quick and easy access. 
+Teams includes a built-in Firstline Worker app setup policy that you use to customize Teams for the Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. When you assign this policy to users, these apps are pinned to the app bar in Teams for quick and easy access.
 
-To learn more, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams).
+For steps on how to assign the Firstline Worker app setup policy to users, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take up to 24 hours to take effect.
+
+> [!NOTE]
+> We recommend you complete this step at least a week before you move your StaffHub teams and users to Teams. When users are on Teams, confirm that they can see and access the Shifts app.
+
+To learn more about app setup policies, check out [Manage app setup policies in Teams](../../teams-app-setup-policies.md).
 
 ### Onboard users to Teams
 
+As part of your onboarding strategy, provide training and guidance for users to get familiar with Teams.
+
 For guidance on deploying Teams and driving Teams adoption, see [How to roll out Teams](../../How-to-roll-out-teams.md).
 
-To onboard your users on Teams, use the following resources to get Teams clients, training, and support:
+Share the following resources with users so they know where to get Teams clients, training, and support:
 
 - [Teams web client](https://teams.microsoft.com)
 - [Desktop and mobile client download links](https://teams.microsoft.com/downloads)
