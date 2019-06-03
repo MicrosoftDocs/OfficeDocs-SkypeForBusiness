@@ -3,7 +3,7 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/03/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -44,6 +44,16 @@ This article describes some of the limits, specifications, and other requirement
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 50    |
+
+## Teams live events
+
+|Feature     | Maximum limit |
+|------------|---------------|
+|Audience size | 10,000 attendees |
+|Duration of event | 4 hours |
+|Concurrent live events in an Office 365 tenant | 15 |
+
+For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
 ## Storage
 
