@@ -26,10 +26,10 @@ The Shifts app in Teams provides a simple approach to managing schedules and the
 
 This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. It covers:
 
-- [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams).
-- [How to prepare for the move](#prepare)
-- [Run a pilot](#run-a-pilot) 
-- [Move all your StaffHub teams to Teams](#make-the-transition-from-staffhub-to-teams)
+- [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams)
+- [Prepare for the move to Teams](#prepare)
+- [Run a pilot to move a few StaffHub teams](#run-a-pilot) 
+- [Move all your StaffHub teams](#make-the-transition-from-staffhub-to-teams)
 - [Monitor Teams usage](#monitor-teams-usage)
 
 Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
