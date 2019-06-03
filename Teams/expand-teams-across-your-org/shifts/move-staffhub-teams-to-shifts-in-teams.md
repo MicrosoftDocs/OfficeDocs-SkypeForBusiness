@@ -103,7 +103,7 @@ If you haven't already, [install the StaffHub PowerShell module](install-the-sta
 
 ### Assign the Firstline Worker app setup policy to users
 
-Teams includes a built-in Firstline Worker app setup policy that you use to customize Teams for the Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. When you assign this policy to users, these apps are pinned to the app bar in Teams for quick and easy access.
+Teams includes a built-in Firstline Worker app setup policy that you can use to customize Teams to highlight the apps that are most important for the Firstline Workers in your organization. When you assign this policy to users, the apps in the policy are pinned to the app bar in Teams for quick and easy access. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
 
 For steps on how to assign the Firstline Worker app setup policy to users, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take up to 24 hours to take effect.
 
