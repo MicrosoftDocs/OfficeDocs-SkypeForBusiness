@@ -29,13 +29,13 @@ The user presence states available in Teams are:
 |:--- |:---|
 | ![Solid green chek mark, indicating Presence Available](media/Presence_Available.png) Available|![Solid green chek mark, indicating Presence Available](media/Presence_Available.png) Available|
 || ![Open green chek mark, indicating available oof](media/Presence_Available_OOF.png) Available, Out of Office |
-|  ![Solid red circle, indicating Busy](media/Presence_Busy.png) Busy |  ![Busy](media/Presence_Busy.png) Busy  |
+|  ![Solid red circle, indicating Busy](media/Presence_Busy.png) Busy |  ![Solid red circle, indicating Busy](media/Presence_Busy.png) Busy  |
 || ![Solid red circle, indicating Busy in a call](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicating Busy in a meeting](media/Presence_Busy.png) In a meeting |
 || ![Open red circle, indicating busy oof](media/Presence_Busy_OOF.png) In a call, out of office|
 |  ![Red circle with white line, indicating Do Not disturb](media/Presence_DND.png) Do not disturb ||
 || ![Red circle with white line, indicating Presenting](media/Presence_DND.png) Presenting|
-| ![Yellow clock icon, indicating away](media/Presence_Away.png) Away| ![away](media/Presence_Away.png) Away|
+| ![Yellow clock icon, indicating away](media/Presence_Away.png) Away| ![Yellow clock icon, indicating away](media/Presence_Away.png) Away|
 || ![Yellow clock icon, indicating away](media/Presence_Away.png) Away Last Seen *time*|
 |![Yellow clock icon, indicating away, be right back](media/Presence_Away.png) Be right back| |
 || ![Yellow clock icon, indicating away, off work](media/Presence_Away.png)  Off Work|
