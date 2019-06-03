@@ -53,7 +53,7 @@ This article describes some of the limits, specifications, and other requirement
 |Duration of event | 4 hours |
 |Concurrent live events in an Office 365 tenant | 15 |
 
-For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
 ## Storage
 
