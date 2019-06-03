@@ -60,7 +60,7 @@ There's minimal downtime (less than a second, if any at all) for users when thei
 
 ## Prepare
 
-Here's how to prepare for the move to Teams. We recommend you 
+Here's how to prepare for the move to Teams.
 
 ### Check that prerequisites are met
 
