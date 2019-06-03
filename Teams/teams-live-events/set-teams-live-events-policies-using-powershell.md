@@ -30,7 +30,7 @@ Here's some examples.
 ## Allow users to schedule live events 
 
 > [!NOTE]
-> These examples are for quick start events. For external encoder events, there are additional steps you must do. For more information, see [Enable users to schedule external encoder events](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).
+> These examples are for events produced in Teams. For events produced with an external app or device, there are additional steps you must do. For more information, see [Enable users to schedule events produced with an external app or device](set-up-for-teams-live-events.md#enable-users-to-schedule-events-produced-with-an-external-app-or-device).
 
 **Allow a user to schedule live events**
 
@@ -118,7 +118,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## Set the recording option for live events
 > [!NOTE]
-> This setting applies only to quick start events.
+> This setting applies only to events produced in Teams.
 
 Set the global policy to disable recording for live events:
 ```
@@ -126,7 +126,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## Set transcription and translation in live events (coming soon)
 > [!NOTE]
-> This setting applies only to quick start events. 
+> This setting applies only to events produced in Teams. 
 
 Set the global policy to turn on transcription and translation on for event attendees:
 ```

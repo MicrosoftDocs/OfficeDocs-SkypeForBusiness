@@ -24,16 +24,16 @@ When you are planning Teams live events to hold large meetings in your organizat
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
-- An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license. 
-- A Microsoft Teams and Microsoft Stream license.
+- An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license
+- A Microsoft Teams and Microsoft Stream license
 
 > [!IMPORTANT]
 > The user creating and scheduling a live event must have an Exchange Online mailbox.
 
-It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
+It's important to know that an Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
-- **For Quick start production**  The user must be assigned a Microsoft Teams license.
-- **For External encoder production** The user must be assigned a Microsoft Stream license.
+- **For events produced in Teams**  The user must be assigned a Microsoft Teams license.
+- **For events produced with an external app or device** The user must be assigned a Microsoft Stream license.
 
 For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -42,14 +42,14 @@ The user must have:
 - Video sharing enabled in Teams meetings (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
 - Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
 - Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
-- Permissions to create live events in Microsoft Stream (for external encoder production).
+- Permissions to create live events in Microsoft Stream (for external app or device production).
 
 > [!IMPORTANT]
 > Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guest and federated users can only watch live events anonymously. 
  
 ## Who can watch live events?
 
-|**Attendee visibility**       |**Quick start**  |**External encoder**  |
+|**Attendee visibility**       |**Teams production**  |**External app or device production**  |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
 |Guest users                   |  No<sup>1</sup> |  No                  |
