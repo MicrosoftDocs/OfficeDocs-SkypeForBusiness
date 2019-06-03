@@ -61,7 +61,7 @@ Example of outcomes in each category are:
  
 In general, you should think of these measures aggregating to create a change quotient for your company in this manner:
 
-![Tangible measures divided by individual sentiment equal change quotient](media/teams-adoption-change-quotient.png)
+![Tangible measures divided by individual sentiment = change quotient](media/teams-adoption-change-quotient.png)
 
 ## Select a service enablement strategy
 
