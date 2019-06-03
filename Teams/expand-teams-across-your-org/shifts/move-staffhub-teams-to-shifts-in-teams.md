@@ -114,16 +114,14 @@ To learn more about app setup policies, check out [Manage app setup policies in 
 
 ### Onboard users to Teams
 
-As part of your onboarding strategy, provide training and guidance for users to get familiar with Teams.
-
-For guidance on deploying Teams and driving Teams adoption, see [How to roll out Teams](../../How-to-roll-out-teams.md).
-
-Share the following resources with users so they know where to get Teams clients, training, and support:
+As part of your onboarding strategy, provide training and guidance for users to help them get familiar with Teams. Share the following resources with users so they know where to get Teams clients, training, and support:
 
 - [Teams web client](https://teams.microsoft.com)
 - [Desktop and mobile client download links](https://teams.microsoft.com/downloads)
 - [Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Teams Help documentation](https://support.office.com/teams)
+
+For guidance on deploying Teams and driving Teams adoption, see [How to roll out Teams](../../How-to-roll-out-teams.md) and [Adopt Teams](../../adopt-microsoft-teams-landing-page.md).
 
 ## Run a pilot
 
