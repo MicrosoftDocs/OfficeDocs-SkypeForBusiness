@@ -109,7 +109,7 @@ to Microsoft Teams voice.
   
    - ![Illustration of a green check mark](media/deploy-my-service-image3.png) **Yes, or not applicable (green):** The activity has been completed, or it’s not applicable for this site, and no further action is needed.</li>
    - ![Illustration of a yellow exclamation point](media/deploy-my-service-image4.png) <strong>The activity isn’t completed yet (yellow):</strong> The activity hasn’t been completed yet, and must be updated to Yes or No on its schedule.</li>
-   - ![Illustration of a red X mark](media/deploy-my-service-image5.png) <strong>No (red):</strong> The activity can’t be completed because of an issue and must be carried to the project status meeting.</li></ul>
+   - ![Illustration of a red X indicating no](media/deploy-my-service-image5.png) <strong>No (red):</strong> The activity can’t be completed because of an issue and must be carried to the project status meeting.</li></ul>
 
 6. The status is rolled up within each section, and the section heading is
    formatted with one of these status indicators. **Weekly status** is also

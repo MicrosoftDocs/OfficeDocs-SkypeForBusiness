@@ -22,9 +22,9 @@ description: "Summary: Learn how to configure interoperability between your on-p
 
 To configure Skype for Business hybrid, you need to:
 
-- [Configure your on-premises environment to federate with Office 365.](#configure-your-on-premises-edge-service-to-federate-with-Office-365)
-- [Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365.](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
-- [Enable shared SIP address space in your Office 365 tenant.](#configure-server-to-server-authentication-if-required)
+- [Configure your on-premises environment service to federate with Office 365](#configure-your-on-premises-edge-service-to-federate-with-office-365).
+- [Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
+- [Enable shared SIP address space in your Office 365 tenant](#enable-shared-sip-address-space-in-your-office-365-tenant).
 
 Note that if you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) and [Plan to integrate Skype for Business and Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
