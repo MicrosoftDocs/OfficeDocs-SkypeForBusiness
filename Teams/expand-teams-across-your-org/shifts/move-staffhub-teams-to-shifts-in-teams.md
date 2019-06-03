@@ -24,9 +24,17 @@ appliesto:
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. You'll learn [what you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams) and [how to prepare for the move](#prepare). We recommend you  [run a pilot](#run-a-pilot) with a couple of teams first before you [move all your StaffHub teams to Teams](#make-the-transition-from-staffhub-to-teams). Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. It covers:
 
-You must be a global admin to perform the steps in this article. If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to any questions you may have. 
+- [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams).
+- [How to prepare for the move](#prepare)
+- [Run a pilot](#run-a-pilot) 
+- [Move all your StaffHub teams to Teams](#make-the-transition-from-staffhub-to-teams)
+- [Monitor Teams usage](#monitor-teams-usage)
+
+Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+
+You must be a global admin to perform the steps in this article. If you haven't already done so, have a look through the [StaffHub retirement FAQ](microsoft-staffhub-to-be-retired.md) to get answers to any questions you may have.
 
 ## What you need to know about the move to Teams
 
@@ -99,13 +107,16 @@ Teams includes a built-in Firstline Worker app setup policy that you use to cust
 
 To learn more, see [Use the Firstline Worker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams).
 
-### Deploy Teams  (WIP)
+### Onboard users to Teams
 
-To learn more, see:
-- [Get started with Teams](..[/../get-started-with-teams-quick-start.md)
-- [Admin training for Teams](](../../ITAdmin-readiness.md))
-- [End-user training for Teams](../../enduser-training.md)
-- [Teams help center](https://support.office.com/teams)
+For guidance on deploying Teams and driving Teams adoption, see [How to roll out Teams](../../How-to-roll-out-teams.md).
+
+To onboard your users on Teams, use the following resources to get Teams clients, training, and support:
+
+- [Teams web client](https://teams.microsoft.com)
+- [Desktop and mobile client download links](https://teams.microsoft.com/downloads)
+- [Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Teams Help documentation](https://support.office.com/teams)
 
 ## Run a pilot
 
@@ -230,6 +241,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
 ## Related topics
+- [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md)
 - [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
 - [Manage the Shifts app for your organization in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
