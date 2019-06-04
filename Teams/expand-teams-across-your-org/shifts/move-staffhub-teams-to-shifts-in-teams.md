@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/29/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -86,6 +85,10 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them by doing one of the following.
 
+### Install the StaffHub PowerShell module
+
+If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md).
+
 #### Get a list of all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
 
 Run the following:
@@ -93,7 +96,6 @@ Run the following:
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
 ```
-
 #### Convert and link the account to a provisioned account
 
 StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
@@ -102,10 +104,6 @@ StaffHub team owners and managers can convert a dummy or inactive account and li
 
 1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
 2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
-
-### Install the StaffHub PowerShell module
-
-If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md).
 
 ### Assign the FirstlineWorker app setup policy to users
 
