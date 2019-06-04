@@ -53,17 +53,18 @@ To determine whether a private channel is appropriate, consider the following qu
 |No     |No         |Yes         |Consider creating a new team and then, depending on the confidentiality of each topic, consider creating separate standard or private channels for each topic.         |
 |No     |Yes         |No         |Create a new team or create a new private channel in an existing team.         |
 
-## Private Channel creation and membership
+## Private channel creation and membership
 
 By default, any team owner or member can create a private channel. Guests can't create them. Each team has a setting to disable private channel creation for members. In the future, there will be a setting to disable private channel creation for individual users.
 
 Any member of a team can be added to a private channel in the team, including guests.
 If a team member leaves a team, that user will also leave all private channels in the team. They must be added to private channels again if they are added back to the team.
 
-A team member can't leave a team if they are the last owner of one or more private channels.
+A team member can't leave a team if they are the last team owner of one or more private channels.
 
 Team owners can see the name and description of all private channels in their team. They can also delete any private channel in the team. (Careful – this can’t be undone!) Team owners can see the files in a private channel, but they can’t see conversations unless they are members of that private channel. 
-The following table shows who can view what in a Private Channel.
+
+The following table shows who can view what in a private channel.
 
 |Feature  |Team owner can see |Team members can see |
 |---------|---------|---------|
@@ -71,7 +72,24 @@ The following table shows who can view what in a Private Channel.
 |Conversations and tabs     |Only when added to the private channel         |Only when added to the private channel         |
 |Files and content    |Only when added to the private channel        |Only when added to the private channel         |
 
-Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in the private channel
+Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
+
+## Manage private channels
+
+Each private channel has its own independent settings, including the ability to add tabs and connectors, and @mentioning for the entire channel.
+
+The following table outlines which actions are available to owners, members, and guests.
+
+|Action  |Team owner|Team member|Team guest|Private channel owner|Private channel member|Private channel guest|
+|---------|---------|---------|---------|---------|---------|---------|
+|Createprivate channel|Yes|Yes<sup>1</sup>|No|N/A|N/A|N/A|
+|Delete private channel|Yes|No|No|Yes|No|No|
+|Leave private channel|N/A|N/A|N/A|Yes<sup>2</sup>|Yes|Yes|
+|Edit private channel|No|N/A|N/A|Yes|No|No|
+|Restore deleted private channel|Yes|No|No|Yes|No|No|
+|Add members|No|N/A|N/A|Yes|No|No|
+|Edit settings|No|N/A|N/A|Yes|No|No|
+|Manage tabs, apps, and connectors|No|N/A|N/A|Yes<sup>3</sup>|Yes<sup>4</sup>|No|
 
 ## Related topics
 - 
