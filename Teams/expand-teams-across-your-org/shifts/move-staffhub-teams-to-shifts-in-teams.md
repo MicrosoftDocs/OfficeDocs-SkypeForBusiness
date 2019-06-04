@@ -91,7 +91,6 @@ Each manager and team member must have an identity in Azure Active Directory (Az
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
-
 ```
 
 #### Convert and link the account to a provisioned account
