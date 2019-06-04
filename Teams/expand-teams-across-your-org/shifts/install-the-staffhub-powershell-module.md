@@ -33,15 +33,22 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     ```
     $ENV:PSModulePath
     ```
+    
 
 4. Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step. If folders are missing, create them.
-5. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
+5. Run the following to allow for the installation of the StaffHub PowerShell module:
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+6. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
     Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.2
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
+    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
 ## Connect to the Microsoft StaffHub PowerShell module
