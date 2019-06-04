@@ -28,6 +28,8 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 
 1. Download the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
 2. Open Windows PowerShell 3.0 or later as an administrator. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
+    > [!NOTE]
+    > To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
 3. Run the following:
 
     ```
@@ -38,9 +40,9 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 4. Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step. If folders are missing, create them.
 5. Run the following to allow for the installation of the StaffHub PowerShell module:
 
-```
-Set-ExecutionPolicy RemoteSigned
-```
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 6. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
