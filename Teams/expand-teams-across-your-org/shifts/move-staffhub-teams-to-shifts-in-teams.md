@@ -86,8 +86,9 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them by doing one of the following.
 
-#### Run a report to find all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
+#### Get a list of all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
 
+Run the following:
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
