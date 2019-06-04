@@ -173,7 +173,7 @@ You can select up to 200 call agents who either belong to specified mailing list
 
  To enable an agent for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Online users with a **Phone System** license or a Calling Plan that are added to either: an Office 365 Group, a mail-enabled Distribution List, or a Security Group. It might take up to 3 hours for a newly added agent in a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately.
+- Online users with a **Phone System** license or a Calling Plan that are added to either an Office 365 Group; a mail-enabled Distribution List; or a Security Group. It might take up to three hours for a newly added agent in a distribution list, or a security group, to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately.
 
 - If your agents are using Microsoft Teams App to receive call queue calls, they need to be in TeamsOnly mode.
 
