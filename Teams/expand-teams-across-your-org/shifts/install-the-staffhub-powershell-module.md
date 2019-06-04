@@ -38,11 +38,11 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     
 
 4. Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step. If folders are missing, create them.
-5. Run the following to allow for the installation of the StaffHub PowerShell module:
+5. Run the following to allow for installation of the StaffHub PowerShell module:
 
-```
-Set-ExecutionPolicy RemoteSigned
-```
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 6. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
