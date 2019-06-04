@@ -86,6 +86,14 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them by doing one of the following.
 
+#### Run a report to find all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
+
+```
+$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
+foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+
+```
+
 #### Convert and link the account to a provisioned account
 
 StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
@@ -101,14 +109,14 @@ If you haven't already, [install the StaffHub PowerShell module](install-the-sta
 
 ### Assign the FirstlineWorker app setup policy to users
 
-Teams includes a built-in FirstlineWorker app setup policy that you can use to customize Teams to highlight the apps that are most important for the Firstline Workers in your organization. When you assign this policy to users, the apps in the policy are pinned to the app bar in Teams for quick and easy access. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. Other apps added to Teams can be found in the app bar by clicking **... More apps** in the Teams desktop and web clients and by swiping up in the Teams mobile client.
+Teams includes a built-in FirstlineWorker app setup policy that you can use to customize Teams to highlight the apps that are most important for the Firstline Workers in your organization. When you assign this policy to users, the apps in the policy are pinned to the app bar in Teams for quick and easy access. Other apps added to Teams can be found in the app bar by clicking **... More apps** in the Teams desktop and web clients and by swiping up in the Teams mobile client. By default, the FirstlineWorker app setup policy includes the Activity, Shifts, Chat, and Calling apps.
 
 For steps on how to assign the FirstlineWorker app setup policy to users, see [Use the FirstlineWorker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take up to 24 hours to take effect.
 
 > [!NOTE]
 > We recommend you complete this step at least a week before you move your StaffHub teams and users to Teams. When users are on Teams, confirm that they can see and access the Shifts app.
 
-To learn more about how to manage app setup policies, check out [Manage app setup policies in Teams](../../teams-app-setup-policies.md).
+You can also create custom app setup policies and edit the settings in the global app setup policy. To learn more, check out [Manage app setup policies in Teams](../../teams-app-setup-policies.md).
 
 ### Onboard users to Teams
 
