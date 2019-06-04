@@ -22,6 +22,8 @@ appliesto:
 
 # Hardware decoder and encoder driver recommendations
 
+Microsoft supports all decoders and encoders except those listed in this article.
+
 ## Hardware decoder driver recommendations - Intel
 
 The following combinations of operating system, model, and driver are not enabled for hardware acceleration due to various driver issues.
