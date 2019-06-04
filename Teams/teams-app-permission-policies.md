@@ -16,6 +16,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization. 
 f1keywords: 
 - ms.teamsadmincenter.apppolicies.overview
