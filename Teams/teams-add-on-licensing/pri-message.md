@@ -17,7 +17,7 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: "Learn about add-on licenses, features, and how to buy for Office 365 ProPlus."
+description: "Learn about Priority Notifications in Teams Messaging."
 ---
 
 # Priority Notifications
