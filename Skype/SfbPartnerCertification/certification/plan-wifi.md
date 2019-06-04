@@ -31,12 +31,6 @@ Microsoft’s approach to drive quality and agility into the wireless networks c
 
 [Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/en-us/download/details.aspx?id=47257)
 
-## Success Story
-[Aruba Networks saves $2 million dollars by “cutting the cord” and moving to an all wireless Skype for Business unified communications platform.](https://customers.microsoft.com/Pages/CustomerStory.aspx?recid=20036)
-
->“Our strong partnership with Microsoft encompasses joint engineering work, go to market activities, and supporting Microsoft as a long-term Aruba Wi-Fi customer. We have been promoting Skype for Business to our customers for years, so when the time for a UCC upgrade at our own campus Skype for Business was clearly the path forward. The significant capital and operating savings we achieved were consistent with those reported by our customers.”  
-Kevin Canty, VP of Operations, Aruba Networks
-
 ### Additional Resources
 Learn about [Skype for Business certification](test-spec.md).
 

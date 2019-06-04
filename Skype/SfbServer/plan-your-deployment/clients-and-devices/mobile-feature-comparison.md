@@ -61,7 +61,7 @@ The following tables list the features that are available to Skype for Business 
  | Feature/capability  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Skype for Business session remains signed in  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
-|Support for push notifications  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714;|&#x2714;|
+|Support for push notifications  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714; &#x2779; |&#x2714; &#x2779; |
 |Account information for multiple users can be cached on the same device  <br/> |&#x2714;||||
 |Screen reader/voice over  <br/> |&#x2714;|&#x2714; &#x2777;           English only  <br/> |&#x2714;|&#x2714;|
 |Use an external keyboard for accessibility  <br/> |&#x2714;||&#x2714;|&#x2714;|
@@ -78,6 +78,12 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
  &#x2777;  In app only.
   
  &#x2778;  Notifications are available when the app is running in the background.
+ 
+ &#x2779;  Both Google/Android/GCNS and Apple/APNS mobile notification services use HTTPS/TLS encryption for delivery of notifications. The notification payload is handled in plain text while processed by the notification provider.
+ 
+-	Skype for Business for Android receives simple notifications (delivered via GCNS) with no customer data.
+-	Skype for Business for iOS receives notifications (delivered via APNS) which may include customer data for the call or message.
+ 
   
 ## Enhanced presence support
 
