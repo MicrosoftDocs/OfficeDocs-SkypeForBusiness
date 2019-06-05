@@ -82,13 +82,13 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 > [!NOTE]
 > If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### Provision accounts for StaffHub users who don't have an identity in Azure AD
-
-Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them by doing one of the following.
-
 ### Install the StaffHub PowerShell module
 
-If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md).
+If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
+
+### Provision accounts for StaffHub users who don't have an identity in Azure AD
+
+Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them. Here's how. 
 
 #### Get a list of all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
 
@@ -97,14 +97,17 @@ Run the following:
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
 ```
-#### Convert and link the account to a provisioned account
+#### Provision the account
 
-StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+Do one of the following:
 
-#### Remove the non-provisioned account and then re-add the account by using the UPN
+- Convert and link the account to a provisioned account.
 
-1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
-2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
+  StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+
+- Remove the non-provisioned account and then re-add the account by using the UPN.
+    1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
+    2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN. 
 
 ### Assign the FirstlineWorker app setup policy to users
 
