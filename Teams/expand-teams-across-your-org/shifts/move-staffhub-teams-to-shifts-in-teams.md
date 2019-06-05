@@ -24,9 +24,9 @@ The Shifts app in Teams provides a simple approach to managing schedules and the
 This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. It covers:
 
 - [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams)
-- [Prepare for the move to Teams](#prepare)
-- [Run a pilot to move a couple of StaffHub teams](#run-a-pilot) 
-- [Move all your StaffHub teams](#make-the-transition-from-staffhub-to-teams)
+- [Prepare](#prepare)
+- [Run a pilot](#run-a-pilot) 
+- [Go beyond your pilot and move all StaffHub teams](#go-beyond-your-pilot-and-move-all-staffhub-teams)
 - [Monitor Teams usage](#monitor-teams-usage)
 - [Troubleshooting](#troubleshooting)
 
@@ -212,7 +212,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 To move multiple files, loop over the files and run the second command on the loop. You don't need to repeat the first command if the session remains active.
 
-## Make the transition from StaffHub to Teams
+## Go beyond your pilot and move all StaffHub teams
 
 ### Raise awareness
 
