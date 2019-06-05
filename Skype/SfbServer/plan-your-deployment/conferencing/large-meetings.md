@@ -184,15 +184,23 @@ Create a new conferencing policy specifically for large meetings, and then assig
 > [!NOTE]
 > Support for large meetings in Skype for Business Server requires that the **AllowLargeMeetings** setting be set to true. When this setting is set to true, the Skype for Business experience will be optimized for extra-large meetings when users join the meeting. Specifically, in a large meeting, Skype for Business will not show the initial or update of the full meeting participant list, which is a performance bottleneck for both the client and Skype for Business Server. Instead, Skype for Business will only show information about the user and the list of presenters of the meeting. Skype for Business will still show the total number of participants available in the large meetings.
 
-The -AllowLargeMeetings $true setting causes the following:
-· Hides the Attendee roster. 
-· Disables errors in the IM window.
-· Disables multi-party video.
-· Disables ability to promote an Attendee to Presenter. You must plan ahead and declare all Presenters before the meeting.
-· Disables ability to unmute individual Attendees.
-· Disables ability to apply the Lock Video Spotlight feature to Attendees.
-· PSTN dial in users will be unable to unmute themselves using *6 because Personal Virtual Assistance which is responsible for DTMF commands in active large meetings is missing.
-· If the presenter/organizer schedules a meeting where everyone should be muted first ("Mute All"), PSTN users will be muted throughout the call and will not be able to unmute themselves.
+The **AllowLargeMeetings $true** setting causes the following:
+
+- Hides the Attendee roster. 
+
+- Disables errors in the IM window.
+
+- Disables multi-party video.
+
+- Disables ability to promote an Attendee to Presenter. You must plan ahead and declare all Presenters before the meeting.
+
+- Disables ability to unmute individual Attendees.
+
+- Disables ability to apply the Lock Video Spotlight feature to Attendees.
+
+- PSTN dial in users will be unable to unmute themselves using 6 because Personal Virtual Assistance which is responsible for DTMF commands in active large meetings is missing.
+
+- If the presenter/organizer schedules a meeting where everyone should be muted first ("Mute All"), PSTN users will be muted throughout the call and will not be able to unmute themselves.
 
 Except for the **Maximum meeting size** setting, all the other conferencing policy settings specified here are required in order to disable conferencing capabilities that are not necessary in large meetings.
   
