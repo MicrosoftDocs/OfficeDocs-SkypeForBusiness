@@ -110,3 +110,10 @@ The following table shows where you can manage features during the migration.
 When the migration of these settings is complete, we’ll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
 
 
+## EDU migration June-July 2019
+
+During June and July 2019, the remaining EDU tenants will be migrated from the old admin experience (in the Microsoft 365 admin center) to the Teams admin center. Check the Message Center (in the Microsoft 365 admin center) to learn when you'll be migrated. Here's what you'll see when you get migrated:
+
+|Section/setting in Microsoft 365 admin center |Microsoft 365 admin center PowerShell cmdlet  |Setting name in Teams admin center  |Microsoft Teams admin center PowerShell cmdlet   |Level: Tenant or User   |
+|---------|---------|---------|---------|
+|General    | |Show Organizational Chat in Personal Profile        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Tenant       |
