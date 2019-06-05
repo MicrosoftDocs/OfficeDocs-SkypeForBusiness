@@ -28,6 +28,7 @@ This article walks you through how to move your organization’s StaffHub teams 
 - [Run a pilot to move a couple of StaffHub teams](#run-a-pilot) 
 - [Move all your StaffHub teams](#make-the-transition-from-staffhub-to-teams)
 - [Monitor Teams usage](#monitor-teams-usage)
+- [Troubleshooting](#troubleshooting)
 
 Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
 
@@ -111,8 +112,7 @@ Teams includes a built-in FirstlineWorker app setup policy that you can use to c
 
 For steps on how to assign the FirstlineWorker app setup policy to users, see [Use the FirstlineWorker app setup policy to pin Shifts to Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). After you assign a policy, it can take up to 24 hours to take effect.
 
-> [!NOTE]
-> We recommend you complete this step at least a week before you move your StaffHub teams and users to Teams. When users are on Teams, confirm that they can see and access the Shifts app.
+We recommend you complete this step at least a week before you move your StaffHub teams and users to Teams. When users are on Teams, confirm that they can see and access the Shifts app.
 
 You can also create custom app setup policies and edit the settings in the global app setup policy. To learn more, check out [Manage app setup policies in Teams](../../teams-app-setup-policies.md).
 
@@ -149,9 +149,10 @@ Run the following to move a StaffHub team.
 
 ```
 Move-StaffHubTeam -TeamId <String>
+```
+Example:
 
-Sample:
-
+```
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
@@ -167,10 +168,11 @@ To check the status of a move request, run the following.
 
 ```
 Get-TeamMigrationJobStatus <String>
+```
+Example:
 
-Sample:
+```
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
-
 ```
 
 Here's an example of the response you get when a move is in progress.
@@ -180,6 +182,32 @@ Here's an example of the response you get when a move is in progress.
     ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
+
+### Move files from a StaffHub team to Teams
+
+This step only applies if the StaffHub team that you moved to Teams has files that you want to also move to Teams. You can move files directly in SharePoint Online or by using PowerShell. 
+
+#### In SharePoint Online
+
+See [How to move files in SharePoint Online](https://support.office.com/article/how-to-move-files-in-sharepoint-online-8c86f6c3-9612-4031-95b2-3d9d5c6e5a30).
+
+#### Using PowerShell
+
+Download and install the [SharePoint Online Management Shell](https://www.microsoft.com/download/details.aspx?id=35588), if you haven't already. It contains the cmdlets you need to move files.  
+
+Use the [Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) cmdlet to connect to the SharePoint Online team site.
+
+```
+Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
+```
+
+For each file that you want to move from StaffHub to Teams, use the Move-PnPFile (https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) cmdlet to move the file.
+
+```
+Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
+```
+
+To move multiple files, loop over the files and run the second command on the loop. You don't need to repeat the first command if the session remains active.
 
 ## Make the transition from StaffHub to Teams
 
@@ -202,7 +230,7 @@ $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 Then, run the following to move all teams.
 
 ```
-$StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
+$foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id
 ```
 
 Here's an example of the response.
@@ -245,9 +273,27 @@ Run the following to get a list of all teams in Shifts in your organization.
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
+### Move files from your StaffHub teams to Teams
+
+If the StaffHub teams that you moved contain files that you also want to move to Teams, see [Move files from a StaffHub team to Teams](#move-files-from-a-staffhub-team-to-teams).
+
 ## Monitor Teams usage
 
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
+
+## Troubleshooting 
+
+**When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
+
+This may occur if you're trying to move files in a private Office 365 group that you're not a member of. If this is the case, use the [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) cmdlet to add yourself to the StaffHub team, and then move the files. After you move the files, use the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) cmdlet to remove yourself from the team. 
+
+**When you try to move files from StaffHub to Teams, you get an error that says the General folder doesn't exist.**
+
+Run the following command to add the General folder to SharePoint, and then try again:
+
+  ```
+  Add-PnPFolder -Name General -Folder 'Shared Documents'
+  ```  
 
 ## Related topics
 - [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md)
