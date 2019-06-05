@@ -714,6 +714,7 @@
 ##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
+### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 
 
 ## Interoperability with Office 365

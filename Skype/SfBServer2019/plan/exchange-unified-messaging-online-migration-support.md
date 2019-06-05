@@ -170,6 +170,10 @@ Microsoft has identified various customer deployments that are consuming feature
 
 ### Suggested test plan and post-migration validation for admins
 
+To validate that your users have been migrated to Cloud Voicemail, simply leave a voicemail to a user and check the message body in Outlook, Cloud Voicemail messages have an additional footer that reads:
+
+**Thank you for using Transcription! If you don't see a transcript above, it's because the audio quality was not clear enough to transcribe.**
+
 When testing voicemail functionality after your users have been migrated, make sure to consider the following scenarios:
 
 - Validate voicemail access across all endpoint types in your organization: apps and IP phones. 
