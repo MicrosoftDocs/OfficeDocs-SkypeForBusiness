@@ -106,7 +106,7 @@ Creating a resource account that uses a phone number would require performing th
 
 5. Assign the Phone System license and the Calling Plan to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
-6. Assign the service number to the resource account. See [Server configuration steps](#server-configuration-steps).
+6. Assign the service number to the resource account.
 
 7. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
 
@@ -158,10 +158,10 @@ The best way to test the implementation is to call the number configured for a c
     - Language
     - Holiday schedule
 
-3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps).
+3. Create new on-premises endpoints as described above in [Online service configuration steps](#online-service-configuration-steps).
    Assign the top-level auto attendant a temporary number for testing purposes.
 
-4. Configure a Phone system service that uses the endpoints as described above in [Online configuration steps](#online-configuration-steps).
+4. Configure a Phone system service that uses the endpoints as described above in [Online service configuration steps](#online-service-configuration-steps).
 
    You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the auto attendant and user or call queue hierarchies in your old Exchange UM system.
 5. Test the Cloud call queue.
