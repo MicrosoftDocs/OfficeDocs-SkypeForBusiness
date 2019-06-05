@@ -95,11 +95,7 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 
 ![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a Calling Plan service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
 
-Use the following cmdlet to assign a direct routing number: 
-
-``` Powershell
-Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
-```
+To assign a direct routing number to a resource account you will need to use PowerShell, see the following section.
 
 > [!IMPORTANT]
 > If your tenant hasn't bought a Phone System license and a Calling Plan, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a service.
@@ -131,6 +127,8 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
 
 2. You will not be able to use the resource account until you apply a license to it. For how to apply a license to an account in the O365 admin center, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
+
+
 3. (Optional) Once the correct license is applied to the resource account you can  set a phone number to the resource account as shown below. Not all resource accounts will require a phone number. If you did not apply a license to the resource account, the phone number assignment will fail.
 
 ``` Powershell
@@ -143,6 +141,13 @@ See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell
 
 > [!NOTE]
 > It's easiest to set the online phone number using the Microsoft Teams admin center, as described previously.
+
+To assign a direct routing number to  a resource account, use the following cmdlet:
+
+``` Powershell 
+Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
+```
+
 
 ## Manage Resource account settings in Microsoft Teams admin center
 

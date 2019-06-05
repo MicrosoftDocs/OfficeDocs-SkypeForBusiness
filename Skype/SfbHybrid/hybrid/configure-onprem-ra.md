@@ -27,14 +27,15 @@ If you have an existing auto attendant and call queue system implemented in Exch
 
 If your Phone System service will need a phone number, the process will be:
 
-1. Obtain a toll-free service number
-2. Buy a Phone System license and a Calling Plan
+1. Obtain a service number (if using a Microsoft service number)
+2. Buy a Phone System license, and a Calling Plan if you are using a Microsoft service number
 3. Create the resource account
 4. Wait for an active directory sync between online and on premise.
-5. Assign the Phone System license and the Calling Plan to the resource account.
-6. Assign a telephone number to the resource account.
-7. Create a Phone System service (call queue or auto attendant)
-8. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
+5. Assign the Phone System license to the resource account
+6. Assign the Calling Plan to the resource account (if you are using a Microsoft service number).
+7. Assign a telephone number to the resource account.
+8. Create a Phone System service (call queue or auto attendant)
+9. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
 
 If the Phone system service you're creating will be nested and will not need a phone number, the process is:
 
@@ -90,11 +91,10 @@ Creating a resource account that uses a phone number would require performing th
 3. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each call queue or auto attendant, and give each one a name, sip address, and so on.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
-
 
 4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System services. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
@@ -111,20 +111,22 @@ Creating a resource account that uses a phone number would require performing th
 7. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
 
     ``` Powershell
-    Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
+    Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
     ```
 
     See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
+
+To assign a direct routing number to  a resource account, use the following cmdlet:
+
+``` Powershell 
+Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
+```
 
 8. Associate the resource account with a Phone system service (call queue or auto attendant). See [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) or [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
 
 An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
 
 ## Online service configuration steps
-
-
-
-
 
 2. Assign phone numbers. A phone number homed on Skype for business Server can be assigned using the `Set-CsHybridApplicationEndpoint` command as mentioned earlier. Phone numbers using Direct Routing or O365 Calling Plans will need to be assigned using the Teams admin center.
 3. Use the procedures in [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) or [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) to implement the Phone System service settings.  
