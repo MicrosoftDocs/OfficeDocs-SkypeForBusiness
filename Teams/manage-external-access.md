@@ -60,8 +60,8 @@ See the following table for a comparison of external and guest access features.
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.
 
-> [! NOTE]
-> For more information on guest features and the gues experience, see [Turn on or off guest access to Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) and [What the guest experience is like](https://docs.microsoft.com/microsoftteams/guest-experience).
+> [!NOTE]
+> For more information on guest features and the guest experience, see [Turn on or off guest access to Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) and [What the guest experience is like](https://docs.microsoft.com/microsoftteams/guest-experience).
 
 ## Turn on or turn off external access (Users can communicate with Skype for Business and Teams users)
 
