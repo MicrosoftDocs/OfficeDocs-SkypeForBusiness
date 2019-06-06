@@ -25,7 +25,7 @@ This article walks you through how to move your organization’s StaffHub teams 
 
 - [What you need to know about the move to Teams](#what-you-need-to-know-about-the-move-to-teams)
 - [Prepare](#prepare)
-- [Run a pilot](#run-a-pilot) 
+- [Conduct a pilot](#conduct-a-pilot) 
 - [Go beyond your pilot and move all StaffHub teams](#go-beyond-your-pilot-and-move-all-staffhub-teams)
 - [Monitor Teams usage](#monitor-teams-usage)
 - [Troubleshooting](#troubleshooting)
@@ -130,7 +130,7 @@ As part of your onboarding strategy, provide training and guidance for users to 
 
 For guidance on deploying Teams and driving Teams adoption, see [How to roll out Teams](../../How-to-roll-out-teams.md) and [Adopt Teams](../../adopt-microsoft-teams-landing-page.md).
 
-## Run a pilot
+## Conduct a pilot
 
 We recommend you start by moving two or three StaffHub teams for a select group of early adopters. Running a pilot helps you refine your transition plan and ensure you're ready to move all your organization's StaffHub teams to Teams. It also identifies champions who can help drive adoption across your organization. If you're a small business who doesn't need a phased approach, the steps in this section may be all you need to make the switch from StaffHub to Teams.
 
