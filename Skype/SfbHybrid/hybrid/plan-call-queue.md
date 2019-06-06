@@ -34,7 +34,7 @@ Each call queue is assigned a **resource account** (see[Configure resource accou
 
 The following requirements assume that you already have Skype for Business Server 2019 deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your auto attendants and call queues and re-create them in the cloud using Phone System. For more information, see [Manually moving an Exchange UM auto attendant to Cloud auto attendant](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant).
+- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your auto attendants and call queues and re-create them in the cloud using Phone System. For more information, see [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - For a new configuration of Cloud call queues, follow the steps outlined in [Configure resource accounts](configure-onprem-ra.md).
 
@@ -88,7 +88,7 @@ Currently we don't support automated migration to the Cloud of a UM call queue c
 5. Test the functionality of the Cloud call queue.
 6. Reassign the phone number assigned to the old Exchange UM call queue to the newly created Cloud call queue (it's possible it doesn't have a phone number, as call queues are often used in combination with auto attendants).
 
-See [Manually moving an Exchange UM auto attendant to Cloud auto attendant](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant) for details on these steps.
+See [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
 
 ## Additional planning resources
 
