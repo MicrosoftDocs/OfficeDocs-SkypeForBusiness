@@ -80,7 +80,7 @@ Members of a private channel have a secure conversation space, and when new memb
 
 ## Manage private channels
 
-Each private channel has its own independent settings, including the ability to add tabs and connectors, and @mentioning for the entire channel. Additionally, private channel settings are independent of the parent team settings.
+Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
 
 To manage settings for a private channel, click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and configure settings.  
 
