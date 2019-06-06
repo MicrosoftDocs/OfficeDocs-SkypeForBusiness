@@ -1,5 +1,5 @@
 ---
-title: User feedback in Microsoft Teams
+title: Manage feedback policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Learn how to control whether Teams users in your organization can submit feedback about Teams to Microsoft. 
 ---
 
-# User feedback in Microsoft Teams
+# Manage feedback policies in Microsoft Teams
 
 As an admin, you can use feedback policies in the Microsoft Teams admin center to control whether Teams users in your organization can send feedback about Teams to Microsoft. By default, all users in your organization are automatically assigned the global (Org-wide default) policy. You can make changes to the global policy or create and assign one or more custom policies. 
 
@@ -33,7 +33,6 @@ Say, for example, you want to allow all users in your organization to send feedb
 3. Enter a descriptive name for the policy.
 4. Turn on or turn off **Users can send feedback to Microsoft**, and then click **Save**.
 
-
-
 ## Related topics
+
 - [Teams PowerShell Overview](teams-powershell-overview.md)
