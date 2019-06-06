@@ -233,7 +233,7 @@ $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 Then, run the following to move all teams.
 
 ```
-$foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id
+foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
 Here's an example of the response.
@@ -266,7 +266,8 @@ Here's an example of how the CSV file should be formatted.
 After you create the CSV file, run the following to move the teams you specified in the CSV file.
 
 ```
-Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
+$StaffHubTeams = Import-Csv .\teams.csv
+foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 ### Confirm that your StaffHub teams have moved to Teams
 
