@@ -82,10 +82,6 @@ Members of a private channel have a secure conversation space, and when new memb
 
 Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
 
-To manage settings for a private channel, the private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and configure settings.  
-
-![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
-
 The following table outlines which actions are available to owners, members, and guests.
 
 |Action  |Team owner|Team member|Team guest|Private channel owner|Private channel member|Private channel guest|
@@ -103,6 +99,10 @@ The following table outlines which actions are available to owners, members, and
 <sup>2</sup>Assuming the private channel owner isn't the last owner of the channel. <br>
 <sup>3</sup>Requires the team to have an app installed for a private channel to use it.<br>
 <sup>4</sup>Private channel owners can configure this.
+
+To manage membership and settings for a private channel, the private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
+
+![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
 
 ### Classification
 
