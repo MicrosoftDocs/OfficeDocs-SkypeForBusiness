@@ -122,4 +122,4 @@ Exchange UM: [Automatically answer and route incoming calls](https://docs.micros
 
 [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md)
 
-[KB4480742: Calls to Subscriber Access or auto attendant fail with fast busy and “500 Server Internal" error after moving contact objects to Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+[KB4480742: Calls to Subscriber Access or auto attendant fail with fast busy and “500 Server Internal" error after moving contact objects to Skype for Business Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
