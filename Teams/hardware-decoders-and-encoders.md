@@ -4,7 +4,7 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/04/2019
+ms.date: 06/06/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
