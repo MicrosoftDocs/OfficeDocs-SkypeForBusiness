@@ -23,6 +23,7 @@
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
+## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
@@ -692,6 +693,7 @@
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Turn on Teams in your organization](Office-365-set-up.md)
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
