@@ -31,7 +31,7 @@ Starting on January 1, 2020, licensed users will be able to send Priority Notifi
 |SMB       ||Office 365 Business Essentials|Office 365 Business Premium / Microsoft 365 Business|
 |||||
 
-<-- |Government| | |
+<!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
 ||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
 ||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
