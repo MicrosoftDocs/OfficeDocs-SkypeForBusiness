@@ -4,7 +4,7 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/28/2018
+ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -35,8 +35,8 @@ appliesto:
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    | 
-|Video calls and meetings | For a better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional **Blur my background** video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support. |
-|Teams live events | If you are producing a Teams live events, we recommend using a computer that has a Core i5 Kaby Lake processor,  4.0 GB RAM (or higher) and hardware encoder.  |
+|Video calls and meetings | For a better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional **Blur my background** video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders. |
+|Teams live events | If you are producing a Teams live events, we recommend using a computer that has a Core i5 Kaby Lake processor, 4.0 GB RAM (or higher) and hardware encoder. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders. |
 
 ## Hardware requirements for the Teams desktop app on a Mac
 
@@ -49,7 +49,7 @@ appliesto:
 |Operating system  |    Mac OS X 10.11 El Capitan or later     |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support, supported on most late 2013 Mac devices and later.
+|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support, supported on most late 2013 Mac devices and later. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.|
 
 ## Hardware requirements for the Teams app on mobile devices
 

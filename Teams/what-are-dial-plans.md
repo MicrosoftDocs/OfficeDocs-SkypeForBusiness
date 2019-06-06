@@ -81,9 +81,6 @@ We recommend that you type the common, recognizable name of the geographic locat
 
 ### External access prefix
 
-> [!CAUTION]
-> External access prefix isn't currently supported. 
-
 You can specify an external access prefix of up to four characters (#, *, and 0-9) if users need to dial one or more additional leading digits (for example, 9) to get an external line.
 
 > [!NOTE]
