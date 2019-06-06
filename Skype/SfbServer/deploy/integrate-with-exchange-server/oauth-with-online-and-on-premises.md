@@ -28,6 +28,8 @@ This topic applies to integration with Exchange Server 2013 through 2019.
 
 - For information about keyboard shortcuts that may apply to the procedures in this topic, see [Keyboard shortcuts in the Exchange admin center]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
+- For information about compatibility, see [Skype for Business compatibility with Office apps](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office).
+
 ## Configure integration between Exchange Server and O365
 
 ### Step 1: Configure OAuth authentication between Exchange Server and O365
