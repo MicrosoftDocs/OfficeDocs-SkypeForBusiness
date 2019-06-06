@@ -59,7 +59,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
-|File upload limit       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|File upload limit  (per file)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
 Each Files tab in Teams runs on a SharePoint Online backend, so the storage limits above apply to each Channel within a Team.
 
