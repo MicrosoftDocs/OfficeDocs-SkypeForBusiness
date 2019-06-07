@@ -20,7 +20,7 @@ appliesto:
 
 Org-wide teams provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration.
  
-With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 5,000 users. There's also a limit of five org-wide teams per tenant.  If these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch** when creating a team. 
+With org-wide teams, global admins can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 5,000 users. There's also a limit of five org-wide teams per tenant.  If these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch** when creating a team. 
 
 ![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
