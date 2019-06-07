@@ -271,6 +271,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |File download failure <br/> |Attempting to download a file when the file path contains an apostrophe will trigger a "The file didn't download" failure when using the Microsoft Teams desktop client. <br/> |Download the file from the web client or SharePoint Online <br/> |5/10/2019  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to upload or download OneNote file <br/> |Attempting to upload or download a OneNote file or notebook will fail using Microsoft Teams. <br/> |Download or upload the file directly in SharePoint Online <br/> |5/7/2019  <br/> |
+
 ## Teams
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
