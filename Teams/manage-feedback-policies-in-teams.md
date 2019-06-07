@@ -52,6 +52,33 @@ You can edit the global policy or any custom policies that you create.
 2. Select the policy you want to edit.
 3. Turn on or turn off **Users can send feedback to Microsoft**, and then click **Save**.
 
+## Assign a custom feedback policy to users
+
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to groups of users, such as a security group or distribution group.
+
+> [!IMPORTANT]
+> We recommend using PowerShell only to assign policies to users. Use the Microsoft Teams admin center to create, edit, and manage policies.
+
+### Assign a custom feedback policy to individual users
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
+2. Next to **Assigned policies**, choose **Edit**.
+3. Under **Feedback policy**, select the policy you want to assign, and then choose **Save**.
+
+   <placeholder for screen shot>
+
+You can also assign an app setup policy to one or more users as follows:
+
+1. Go to **Microsoft Teams admin center** > **Teams apps** > **Feedback policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, select **Save**.
+
+### Assign a custom app setup policy to users in a group
+
+You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+
+
 ## Related topics
 
-- [Teams PowerShell Overview](teams-powershell-overview.md)
