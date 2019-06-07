@@ -1,5 +1,5 @@
 ---
-title: User Presence in Teams
+title: User presence in Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# User Presence in Teams
+# User presence in Teams
 
 Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) – and indicates the user’s current availability and status to other users in the organization. By default, anyone in your organization using Teams can see - in nearly real time - whether or not other users are available online.
 
@@ -53,15 +53,15 @@ Users can specify who can break through (contact them overriding a Do Not Distur
 
 ## Teams is not Skype for Business
 
-The following Admin settings in Skype for Business are different in Teams:
-- Presence sharing is always enabled in Teams for users in the organization. Privacy (deciding who can see Presence) configuration is not available in Teams.
-- Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in SfB) is visible under **Chat > Contacts** or under **Calls > Contacts**.
+The following admin settings in Skype for Business are different in Teams:
+- Presence sharing is always enabled in Teams for users in the organization. Privacy (deciding who can see presence) configuration is not available in Teams.
+- Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
-- Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.
+- Calendar (includes out of office and other calendar information) integration  is always enabled for users in Teams if integrated with Outlook.
 - The *Last seen* or *Away since* (if in a dual environment with Skype for Business) indicator is always enabled for users in Teams.
 
 > [!NOTE]
-> The ability of a Teams Admin to customize these settings is not currently supported.
+> The ability of a Teams admin to customize these settings is not currently supported.
 
 
 ## Coexistence with Skype for Business

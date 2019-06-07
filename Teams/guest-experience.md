@@ -26,7 +26,7 @@ When a guest is invited to join a team, they receive a welcome email message tha
     
 All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "GUEST" label appears next to each guest's name.
     
-![Screenshot showing banner notification guest users](media/guest-experience-image2.png "Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating "This team has guests" and users who are guests identified with the word "GUEST" next to their name.")
+![Screenshot showing banner notification guest users](media/guest-experience-image2.png "Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating that the team has guests and users who are guests are identified with the word GUEST next to their name.")
 
 The following table compares the Microsoft Teams functionality available for an organization's team members to the functionality available for a guest user on the team.
 
