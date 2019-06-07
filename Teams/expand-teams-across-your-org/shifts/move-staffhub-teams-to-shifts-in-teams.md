@@ -75,7 +75,7 @@ If these prerequisites aren't met, the move request will fail.
 
 ### Assign Teams licenses
 
-Each user must have an active Microsoft 365 or Office 365 license from [an eligible plan ](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) and must be assigned a Teams license. Assigning a Teams license to users gives them access to Teams.
+Each user must have an active Microsoft 365 or Office 365 license from [an eligible plan](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) and must be assigned a Teams license. Assigning a Teams license to users gives them access to Teams.
 
 You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Manage user access to Teams](../../user-access.md).
 
@@ -97,6 +97,7 @@ Run the following:
 $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
 ```
+
 #### Provision the account
 
 Do one of the following:
