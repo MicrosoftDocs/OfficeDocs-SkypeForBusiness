@@ -205,7 +205,7 @@ Use the [Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepo
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
-For each file that you want to move from StaffHub to Teams, use the [Move-PnPFile] (https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) cmdlet to move the file.
+For each file that you want to move from StaffHub to Teams, use the [Move-PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) cmdlet to move the file.
 
 ```
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
