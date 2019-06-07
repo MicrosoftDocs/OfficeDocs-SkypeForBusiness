@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 04/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -38,7 +37,7 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     
 
 4. Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step. If folders are missing, create them.
-5. Run the following to allow for the installation of the StaffHub PowerShell module:
+5. Run the following to allow for installation of the StaffHub PowerShell module:
 
     ```
     Set-ExecutionPolicy RemoteSigned
