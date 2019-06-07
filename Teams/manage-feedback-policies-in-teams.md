@@ -20,7 +20,7 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 # Manage feedback policies in Microsoft Teams
 
-Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. We value feedback from customers and use it to improve Teams.
+Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 The information that's sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data". 
 
@@ -28,7 +28,7 @@ As an admin, you can use feedback policies in the Microsoft Teams admin center t
 
 If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
 
-Say, for example, you want to allow all users in your organization to send feedback except for new hires in training. In this scenario, you create a custom feedback policy with the setting turned off and assign it to new hires in training.
+Say, for example, you want to allow all users in your organization to send feedback except for new hires in training. In this scenario, you create a custom policy to disable the feedback option and assign it to new hires in training and apply the global policy to enable feedback for all other users in your organization.
 
 ## Create a custom feedback policy
 
