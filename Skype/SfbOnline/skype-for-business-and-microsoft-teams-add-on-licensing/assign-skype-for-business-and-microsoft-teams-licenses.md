@@ -102,7 +102,9 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 |Skype for Business Online Standalone Plan 2  <br/> |MCOSTANDARD  <br/> |
 |Phone System  <br/> |MCOEV  <br/> |
 |International Calling Plan  <br/> |MCOPSTN2  <br/> |
-|Domestic Calling Plan  <br/> |MCOPSTN1  <br/> |
+|Domestic Calling Plan (3000 min US / 1200 min EU plans)  <br/> |MCOPSTN1  <br/> |
+|Domestic Calling Plan (120 min calling plan)  <br/> |MCOPSTN5  <br/> |
+|Domestic Calling Plan (240 min calling plan)  <br/> |MCOPSTN6  <br/> |
 |Communications Credits  <br/> |MCOPSTNC  <br/> |
 
 ## Audio Conferencing: Tips and scripts for assigning licenses
