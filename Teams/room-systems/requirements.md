@@ -46,8 +46,14 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 |Surface Pro (5th Gen)  |Core i5  |8GB or 4GB  |128GB or more  |
 |Surface Pro 4          |Core i5  |8GB or 4GB  |128GB or more  |
 
-> [!NOTE]
-> Core M3 processors are not supported.
+- One of the following docking station options to secure a tablet to the meeting room table. 
+
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+
+  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
+
 
 **Supported consoles**
 
@@ -59,17 +65,8 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|Audio-92.10.0.15</br>Video-92.10.0.15|
 |
- 
-
-- One of the following docking station options to secure a tablet to the meeting room table. 
-
-  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
-
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-
-  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-
+> [!NOTE]
+> Core M3 processors are not supported.
 
 **Certified firmware versions for USB audio and video peripherals**
 
@@ -146,6 +143,7 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), which you can use to provision Microsoft Teams Rooms accounts.
 
 ## See also
+[Browse All Bundles](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
 
 [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
