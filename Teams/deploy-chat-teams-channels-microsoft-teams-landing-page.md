@@ -22,7 +22,7 @@ appliesto:
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 > [!TIP]
-> We recommend that you include our featured apps (such as Planner) in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps-such as Planner-in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
 ## Chat deployment prerequisites
 
@@ -55,22 +55,15 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 |Who will be assigned the Teams Communications Support Specialist role?||
 |||
 
-### Teams user roles
+### Teams user roles and capabilities
 
-In addition to administrator roles, Teams lets you assign owner and member roles to control who can perform certain actions in a team.
+In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions in a team. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
 
 |Ask yourself|Action |
 |------------|-------|
-|Who should be assigned each role? | To compare the capabilities of each role, see [Assign team owners, moderators, and members in Microsoft Teams](assign-roles-permissions.md).
+|Who should be assigned to each role? | To compare the capabilities of each role, see [Assign team owners, moderators, and members in Microsoft Teams](assign-roles-permissions.md).
 |How do I assign a user role? | To assign or change a role, see [Assign a user role](assign-roles-permissions.md#assign-a-user-role).
-
-### Moderation
-
-You can set up moderation for your Teams channels. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
-
-|Ask yourself|Action |
-|------------|-------|
-||Do I need to control who can can post and reply in a channel? | To configure moderation, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+|Do I need to control who can post and reply in a channel? | To configure moderation, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### Messaging policies
 
