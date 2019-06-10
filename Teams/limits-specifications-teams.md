@@ -27,6 +27,7 @@ This article describes some of the limits, specifications, and other requirement
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of members in a team | 5,000       |
+|Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
