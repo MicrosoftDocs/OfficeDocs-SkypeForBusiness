@@ -64,7 +64,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > If Communications Credits haven't been set up, Audio Conferencing won't work for any users with pay-per-minute licenses.
+    > If Communications Credits haven't been set up, Audio Conferencing won't work for any users with pay-per-minute licenses. Also, if you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage but you might still need to assign them for another service.
 
 4. [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
 

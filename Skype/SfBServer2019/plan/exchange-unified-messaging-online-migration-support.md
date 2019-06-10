@@ -133,7 +133,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | VM | Caller Features  | Caller experience - private voicemail | The caller can choose an option to mark a recorded message as private  | N | Y    |
 | VM | Caller Features  | Silence detection   |  | N | Y    |
 | VM | Tenant-Admin Features | Server-level protected voicemail    | Tenant-admin can configure a service-level rule to mark incoming voicemail as protected | Y | Y    |
-| VM | Tenant-Admin Features | Change recording duration time limit  | CVM hard coded to 5 minutes    | N | Y    |
+| VM | Tenant-Admin Features | Change recording duration time limit  |     | Y | Y    |
 | VM | Tenant-Admin Features | Change silence detection timeout    |  | N/A    | Y    |
 | VM | Tenant-Admin Features | Change number of input failure | CVM: hard coded to 3 | N | Y    |
 | VM | Tenant-Admin Features | Change the default language |  | Y | Y    |
