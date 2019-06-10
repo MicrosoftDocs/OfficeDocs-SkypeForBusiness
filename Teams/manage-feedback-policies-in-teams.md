@@ -27,9 +27,9 @@ Users can send comments and suggestions about Teams to Microsoft by going to **H
 
 Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data"
 
-As an admin, you can use feedback policies in the Microsoft Teams admin center to control whether users in your organization can send feedback about Teams to Microsoft. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the feature is enabled in the policy. The exception is Teams for Education, where the feature is enabled for teachers and disabled for students.
+As an admin, you can use feedback policies in the Microsoft Teams admin center to control whether users in your organization can send feedback about Teams to Microsoft. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the feature is enabled in the policy. The exception is Teams for Education, where the feature is enabled for teachers and disabled for students in the global policy.
 
-You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
+You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
 <placeholder only, will replace with a better screen shot, when available><br>
 ![Screen shot of feedback policies in the admin center](media/manage-feedback-policies-in-teams-policy-setting.png)
@@ -38,9 +38,7 @@ Say, for example, you want to allow all users in your organization to send feedb
 
 ## Create a custom feedback policy
 
-After you create a custom policy, assign it to users for the changes to take effect. 
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Feedback policies**. 
+1. In the left navigation of the Microsoft Teams admin center, go to **Feedback policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy.
 4. Turn on or turn off **Users can send feedback to Microsoft**, and then click **Save**.
@@ -97,7 +95,7 @@ Get the members of the specified group.
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Assign all users in the group to a particular app setup policy. In this example, it's New Hire Feedback Policy.
+Assign all users in the group to a particular feedback policy. In this example, it's New Hire Feedback Policy.
 ```
 $members | ForEach-Object { Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
 ``` 
