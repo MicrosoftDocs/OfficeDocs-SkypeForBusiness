@@ -3,7 +3,7 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
