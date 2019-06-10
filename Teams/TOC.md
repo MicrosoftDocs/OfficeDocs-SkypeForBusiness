@@ -69,7 +69,9 @@
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
-### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
+### [Configure the Skype Meetings App to work with Teams]
+(configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
