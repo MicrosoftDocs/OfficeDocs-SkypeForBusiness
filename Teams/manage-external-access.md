@@ -45,11 +45,23 @@ See the following table for a comparison of external and guest access features.
 | Out of office message is shown | No | Yes |
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | No | Yes |
+| Make Private Calls | Yes | Yes |
+| Allow IP Video | Yes | Yes |
+| Screen Sharing Mode | Yes | Yes |
+| Allow Meet Now | No | Yes |
+| Edit Sent Messages | Yes | Yes |
+| Can Delete Sent Messages | Yes | Yes |
+| Use Giphy In Conversation | Yes | Yes |
+| Use Memes In Conversation | Yes | Yes |
+| Use Stickers In Conversation | Yes | Yes |
 ||||
 
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.
+
+> [!NOTE]
+> For more information on guest features and the guest experience, see [Turn on or off guest access to Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) and [What the guest experience is like](https://docs.microsoft.com/microsoftteams/guest-experience).
 
 ## Turn on or turn off external access (Users can communicate with Skype for Business and Teams users)
 

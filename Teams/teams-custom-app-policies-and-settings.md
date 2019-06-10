@@ -17,6 +17,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams. 
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Manage custom app policies and settings in Microsoft Teams
@@ -25,6 +26,10 @@ description: Learn how to manage custom app policies and settings to control who
 
 > [!NOTE]
 > For the current method of managing apps in Microsoft Teams, see [Manage Microsoft Teams settings for your organization](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
+
+> [!NOTE]
+> To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
+The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
 As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  
 

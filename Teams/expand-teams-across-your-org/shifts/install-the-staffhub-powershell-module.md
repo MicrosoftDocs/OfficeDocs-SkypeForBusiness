@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 04/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -28,20 +27,29 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 
 1. Download the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
 2. Open Windows PowerShell 3.0 or later as an administrator. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
+    > [!NOTE]
+    > To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
 3. Run the following:
 
     ```
     $ENV:PSModulePath
     ```
+    
 
 4. Check the folder path in the output and make sure that all folders in the path exist on your computer before you go to the next step. If folders are missing, create them.
-5. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
+5. Run the following to allow for installation of the StaffHub PowerShell module:
+
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
+
+6. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
     Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.2
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
+    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
 ## Connect to the Microsoft StaffHub PowerShell module

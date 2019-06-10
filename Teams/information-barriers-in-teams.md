@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams preview
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/14/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -18,7 +18,7 @@ appliesto:
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
-Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented from communicating with any outside contacts.
+Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
 
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
@@ -29,7 +29,7 @@ Information barrier policies also prevent lookups and discovery. This means that
 
 ## Background
 
-The primary driver for Information Barriers comes from the financial services industry. The Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org/)) reviews information barriers and conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
+The primary driver for Information Barriers comes from the financial services industry. The Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org)) reviews information barriers and conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
 
 ## When should I use information barriers?
 
@@ -42,14 +42,16 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, [sign up here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, see [Define policies for information barriers (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
 > Before you set up or define policies, **you must enable scoped directory search in Microsoft Teams**. Wait at least 24 hours after enabling scoped directory search before you set up or define policies for information barriers.
 
 ## Information barriers administrator role
 
-The information barriers administrator role is responsible for managing information barrier policies. For more information about this role and to participate in the preview, [sign up here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+The information barriers administrator role (IB Compliance Management) is responsible for managing information barrier policies. For more information about this role, see [Permissions in the Office 365 Security & Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+
+To participate in the preview, [sign up here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
 
 ## When are information barrier policies checked?
 
@@ -63,9 +65,9 @@ Information barrier policies are checked when the following Teams events take pl
 
 ## What happens to existing chat threads when a policy is changed?
 
-When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, the Information Barrier Policy Evaluation Service automatically searches the members to ensure that members of the Team are not violating any policies. 
+When the information barrier policy admin makes changes to a policy, or a policy change kicks into effect because of a change to a user’s profile (such as for a job change or a similar reason), the Information Barrier Policy Evaluation Service automatically searches the members to ensure that members of the Team are not violating any policies. 
 
-If there is an existing chat or other communication between users, and a new policy is set or an existing policy is changed, the service evaluates existing communications to make sure that they aren’t “poisoned” (no longer allowed): 
+If there is an existing chat or other communication between users, and a new policy is set or an existing policy is changed, the service evaluates existing communications to make sure that the communications are still allowed to occur. 
 
 - **1:1 chat** - If communication between the two users is no longer allowed (if a policy blocking communication is applied to one or both users), further communication is blocked and the chat conversation will become read-only.
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations. 
