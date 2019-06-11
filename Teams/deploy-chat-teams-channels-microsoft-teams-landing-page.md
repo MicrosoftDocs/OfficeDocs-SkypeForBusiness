@@ -55,9 +55,9 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 |Who will be assigned the Teams Communications Support Specialist role?||
 |||
 
-### Teams user roles and capabilities
+### Teams owners and members
 
-In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions in a team. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
+In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions within a channel. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
 
 |Ask yourself|Action |
 |------------|-------|
