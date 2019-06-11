@@ -51,8 +51,6 @@ Information barrier policies are managed with Security & Compliance Center (SCC)
 
 The information barriers administrator role (IB Compliance Management) is responsible for managing information barrier policies. For more information about this role, see [Permissions in the Office 365 Security & Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
-To participate in the preview, [sign up here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
-
 ## When are information barrier policies checked?
 
 Information barrier policies are checked when the following Teams events take place:
@@ -83,3 +81,9 @@ Currently, the information barrier features are in public preview. When these fe
 - Microsoft 365 E5 Compliance
 
 For more details, including plans and pricing, see [Compliance Solutions](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+
+## More information
+
+- To learn more about information barriers, see [Information barriers (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+
+- To set up information barrier policies, see [Define policies for information barriers (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
