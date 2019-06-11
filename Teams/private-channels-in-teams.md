@@ -59,7 +59,7 @@ To determine whether a private channel is appropriate, consider the following qu
 
 ## Private channel creation and membership
 
-By default, any team owner or team member can create a private channel. Guests can't create them. On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels. Admins can also use policies to control which users in your organization are allowed to create private channels.
+By default, any team owner or team member can create a private channel. Guests can't create them. On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels. Admins can also use [policies](#use-policies-to-control-which-users-can-create-private-channels) to control which users in your organization are allowed to create private channels.
 
 Any team member can be added to a private channel in the team, including guests.
 If a member leaves a team, that user will also leave all private channels in the team. If the user is added back to the team, they must be added to private channels in the team.
@@ -100,9 +100,38 @@ The following table outlines which actions are available to owners, members, and
 <sup>3</sup>Requires the team to have an app installed for a private channel to use it.<br>
 <sup>4</sup>Private channel owners can configure this.
 
+### Manage prviate channel membership and settings
+
 To manage membership and settings for a private channel, the private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
 ![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
+
+### Use policies to control which users can create private channels
+
+Admins can set a per-user policy to control which users in your organization can create private channels.
+
+> [!NOTE]
+> Microsoft introduced a new policy, TeamsAppPolicy, to control what parts of the Teams client are enabled, such as meetings, chat, and channels. When TeamsAppPolicy is available, TeamsUpgradePolicy will be updated so that when an admin tries to grant an instance of TeamsUpgradePolicy to a user, it will first check to ensure that TeamsAppPolicy is correctly configured for the mode. If not, the action fails with an error explaining how the other policy must first be set.
+
+By default, all Teams users in your organization can create private channels. As an admin, you might want to allow only certain users the ability to create private channels and turn off the ability for all other users in your organization.
+
+To do this, follow these steps:
+
+1. Run the following to edit the global policy and turn off the ability to create private channels for all users in your organization.
+
+    ```
+    Set-CsTeamsChannelsPolicy -Identity Global -AllowPrivateChannelCreation $false
+    ```
+2. Run the following to create a custom policy to turn on the ability to create private channels, and assign it to specific users.
+
+    ```
+    New-CsTeamsChannelsPolicy -Identity PrivateChannels -AllowPrivateChannelCreation $true
+    ```
+3. Assign the custom policy to users. These users can be team owners or team members.
+
+    ```
+    Grant-CsTeamsChannelsPolicy -Identity user@domain.com -PolicyName PrivateChannels
+    ```
 
 ### Classification
 
@@ -116,35 +145,6 @@ eDiscovery and GDPR work differently in private channels than in standard channe
 
 Retention is set to the general policy for all teams and channels. Scoped policy for specific teams won’t apply to the private channels in them.
 
-### Policies
-
-Admins can set a per-user policy to control which users in your organization can create private channels.
-
-> [!NOTE]
-> Microsoft introduced a new policy, TeamsAppPolicy, to control what parts of the Teams client are enabled, such as meetings, chat, and channels. When TeamsAppPolicy is available, TeamsUpgradePolicy will be updated so that when an admin tries to grant an instance of TeamsUpgradePolicy to a user, it will first check to ensure that TeamsAppPolicy is correctly configured for the mode. If not, the action fails with an error explaining how the other policy must first be set.
-
-#### Apply policies to control which users in your organization can create private channels
-
-By default, all Teams users in your organization can create private channels. As an admin, you might want to allow only certain users the ability to create private channels and turn off the ability for all other users in your organization.
-
-To do this, follow these steps:
-
-1. Run the following to disable the ability to create private channels for all users in your organization.
-
-    ```
-    Set-CsTeamsChannelsPolicy -Identity Global -AllowPrivateChannelCreation $false
-    ```
-2. Run the following to create a custom policy to enable the ability to create private channels, and assign it to specific users.
-
-    ```
-    New-CsTeamsChannelsPolicy -Identity PrivateChannels -AllowPrivateChannelCreation $true
-    ```
-    You can also edit and use the default policy.
-3. Assign the custom policy to users. These users can be team owners or team members.
-
-    ```
-    Grant-CsTeamsChannelsPolicy -Identity user@domain.com -PolicyName PrivateChannels
-    ```
 ## Related topics
 
 - [Overview of teams and channels in Teams](teams-channels-overview.md)
