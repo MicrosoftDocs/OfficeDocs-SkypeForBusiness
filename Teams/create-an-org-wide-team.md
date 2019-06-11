@@ -24,7 +24,7 @@ With org-wide teams, global admins can easily create a public team that pulls in
 
 ![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
-When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, they are assigned a Microsoft Teams Commercial Cloud Trial license. To learn more about the trial license, check out [Manage the Teams Commercial Cloud Trial offer](iw-trial-teams.md). Users who are disabled for Teams, guest users, and most rooms aren't added to the team. 
+When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, they are assigned a Microsoft Teams Commercial Cloud Trial license. To learn more about the trial license, check out [Manage the Teams Commercial Cloud Trial offer](iw-trial-teams.md). These types of accounts won't be added to your org-wide team: Accounts that are blocked from sign in, guest users, service accounts, room or equipment accounts, or accounts backed by a shared mailbox.
 
 As your organization's directory is updated to include new active users or if users no longer work at your company and their Teams license is disabled, changes are automatically synced and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
 
