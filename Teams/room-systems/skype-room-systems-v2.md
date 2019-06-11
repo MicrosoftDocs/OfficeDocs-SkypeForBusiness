@@ -28,25 +28,22 @@ description: "Learn about features available in Microsoft Teams Rooms. "
 
 ## Licensing Solutions for Shared Communication Devices
 
-Microsoft has two SKUs for licensing meetings and calling on a per-device basis - one for meeting room devices (such as Microsoft Teams Rooms) and one for common area phones (such as lobby phones available for guest use).
+Microsoft has and dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms and Microsoft Surface Hub).
 
-
-|   |Meeting Room | Common Area Phone   |
-|:--- |:---: |:---: |
-|Skype for Business |&#x2714;  |&#x2714;  |
-|Microsoft Teams      |  &#x2714;       |    &#x2714;     |
-|Phone Systems      |  &#x2714;       |      &#x2714;   |
-|Audio Conferencing      |  &#x2714; &sup1;      |     &#x2718; &sup2;   |
-|Microsoft Intune      |    &#x2714;     |   &#x2718;   &sup3;   |
-|Worldwide Availability | &#x2714; &sup3;       |   &#x2714;      |
-|Channel Availability | EA, EAS, CSP, <br>Web Direct | EA, EAS, CSP, GCC,<br> EES, Web Direct |
+||Microsoft Teams Rooms |  
+|:--- |:---: |
+|Skype for Business |&#x2714;|
+|Microsoft Teams|  &#x2714;|
+|Phone Systems|  &#x2714;|
+|Audio Conferencing|&#x2714; &sup1;|
+|Microsoft Intune|&#x2714;|  
+|Worldwide Availability | &#x2714; &sup2;|
+|Channel Availability | EA, EAS, CSP, <br>Web Direct |
 | | | |
 
 &sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
 
-&sup2; Common Area Phones can join audio conferences via dial-in number provided by the meeting organizer 
-
-&sup3; Not available in sovereign clouds  
+&sup2; Not available in sovereign clouds  
 
 
 > [!NOTE]
