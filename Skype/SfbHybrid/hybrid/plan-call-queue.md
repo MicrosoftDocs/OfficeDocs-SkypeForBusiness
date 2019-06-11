@@ -34,7 +34,7 @@ Each call queue is assigned a **resource account** (see[Configure resource accou
 
 The following requirements assume that you already have Skype for Business Server 2019 deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your auto attendants and call queues and re-create them in the cloud using Phone System. For more information, see [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
+- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your auto attendants and call queues and re-create them in the cloud using Phone System. For more information, see [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - For a new configuration of Cloud call queues, follow the steps outlined in [Configure resource accounts](configure-onprem-ra.md). You will need to create resource accounts either online or in Skype for Business Server 2019, and you may also need to associate a phone number with the call queue.
 
@@ -48,7 +48,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the ON-PREM license.
 
-- Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts) for each call queue, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
+- Create an on-premises [resource account](configure-onprem-ra.md) for each call queue, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
 - Implement a new Cloud call queue service with Skype for Business Online and Phone System. See [Configure resource accounts](configure-onprem-ra.md) for implementation details.
 
 ## Migration and interoperability
@@ -87,7 +87,7 @@ Currently we don't support automated migration to the Cloud of a UM call queue c
 5. Test the functionality of the Cloud call queue.
 6. Reassign the phone number assigned to the old Exchange UM call queue to the newly created Cloud call queue (it's possible it doesn't have a phone number, as call queues are often used in combination with auto attendants).
 
-See [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
+See [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
 
 ## Additional planning resources
 

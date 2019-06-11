@@ -42,7 +42,7 @@ Also see:
 
 The following requirements assume that you already have Skype for Business Server 2019 deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Cloud auto attendants. For more information, see [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
+- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Cloud auto attendants. For more information, see [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - For a new configuration of Cloud auto attendants, follow the steps outlined in  [Configure resource accounts](configure-onprem-ra.md).
 
@@ -93,7 +93,7 @@ Currently we don't support automated migration to the Cloud of a UM auto attenda
 5. Test the functionality of the Cloud auto attendant.
 6. Reassign the phone number assigned to the old Exchange UM auto attendant to the newly created main Cloud auto attendant.
 
-See [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
+See [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
 
 ## Additional planning resources
 

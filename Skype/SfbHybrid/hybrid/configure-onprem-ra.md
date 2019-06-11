@@ -35,7 +35,7 @@ If your Phone System service will need a service number, the various dependencie
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
-To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 If the Phone system service you're creating will be nested and will not need a phone number, the process is:
 
@@ -52,7 +52,7 @@ Creating a resource account that uses a phone number would require performing th
 
    Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](../../SfbOnline/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)  ?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json  or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365.md).
 
-   If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
+   If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
 2. Buy a Phone System license. See:  
    - [Office 365 Enterprise E1 and E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3.md)
@@ -170,10 +170,10 @@ Migration from Exchange UM to Phone System will require recreating the call queu
     - Language
     - Holiday schedule
 
-3. Create new on-premises endpoints as described above in [Online service configuration steps](#online-service-configuration-steps).
+3. Create new on-premises endpoints as previously described.
    Assign the top-level auto attendant a temporary number for testing purposes.
 
-4. Configure a Phone system service that uses the endpoints as described above in [Online service configuration steps](#online-service-configuration-steps).
+4. Configure a Phone system service that uses the endpoints as previously described.
 
    You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the hierarchies in your old Exchange UM system.
 5. Test the Phone System service.
