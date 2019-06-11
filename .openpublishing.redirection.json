@@ -1376,8 +1376,10 @@
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-onprem-ra", 
       "redirect_document_id": true
     },
+    {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/set-up-phone-system-voicemail", 
-      "redirect_document_id": true   }
+      "redirect_document_id": true   
+    }
   ] 
 }
