@@ -9,10 +9,10 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Overview of using a Cloud PBX auto attendant with Skype for Business Server 2019."
+description: "Overview of using a Cloud auto attendant with Skype for Business Server 2019."
 ---
 
-# Plan Cloud call queues 
+# Plan Cloud call queues
 
 The call queue service used with Exchange Unified Messaging (Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. See [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md) for information about moving Exchange UM services homed on Exchange server 2013 and 2016 to the cloud.
 
@@ -36,7 +36,7 @@ The following requirements assume that you already have Skype for Business Serve
 
 - If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your auto attendants and call queues and re-create them in the cloud using Phone System. For more information, see [Manually moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#manually-moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
-- For a new configuration of Cloud call queues, follow the steps outlined in [Configure resource accounts](configure-onprem-ra.md).
+- For a new configuration of Cloud call queues, follow the steps outlined in [Configure resource accounts](configure-onprem-ra.md). You will need to create resource accounts either online or in Skype for Business Server 2019, and you may also need to associate a phone number with the call queue.
 
 In addition to the requirements above, the below requirements must be configured to connect to the Microsoft Cloud call queue service:
 
@@ -44,7 +44,7 @@ In addition to the requirements above, the below requirements must be configured
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
-- For phone numbers that you assign to your call queue, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license.
+- For phone numbers that you assign to your call queue, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license that includes phone System, or an E1 or E3 license that has Phone System added.
 
 - If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the ON-PREM license.
 
@@ -60,7 +60,6 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 
 Version interoperability and supported topologies for Cloud call queues are listed in the following table. For the preview release, Cloud call queues only work with Skype for Business Server 2019 and Exchange Server 2019 or Exchange Online.
 
-
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online |
 |:---    |:---|:---|:---|:--- |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud call queue | Cloud call queue
@@ -73,7 +72,7 @@ Microsoft recommends the following migration paths:
 
 - If you are upgrading to Skype for Business Server 2019, you can use Exchange UM in Exchange Server 2013 or 2016, but you must upgrade to Cloud auto attendant if you are using Exchange Server 2019.
 
-- If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommends that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost. 
+- If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommends that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost.
 
 For more information about planning your migration, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
 

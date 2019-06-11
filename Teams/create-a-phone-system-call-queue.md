@@ -20,7 +20,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up Phone System for Cloud call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
+description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."
 ---
 
 # Create a Cloud call queue
@@ -57,13 +57,13 @@ To get started using call queues, it's important to remember a few things:
   
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
 - If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
-- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
-- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them. 
+- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
+- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them.
 
-> [!NOTE] 
+> [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 > [!NOTE]
@@ -270,7 +270,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
   - **Voice application** Select the name of either a call queue or auto attendant that has already been created.
 
-## Changing a user's Caller ID for outbound calls 
+## Changing a user's Caller ID for outbound calls
 
 You can protect a user's identity by changing their caller ID for outbound calls to a call queue, auto attendant, or any service number instead by creating a policy using the **New-CsCallingLineIdentity** cmdlet.
 
@@ -287,14 +287,10 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 ```
 
 You can get more information on how to make changes to caller ID settings in your organization in the article [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
-  
-## Want to know more?
 
-You can also use Windows PowerShell to create and set up call queues.
-  
-### Call queue cmdlets
+## Call queue cmdlets
 
-Here are the cmdlets that you need to manage a call queue.
+You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you need to manage a call queue.
   
 - [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
