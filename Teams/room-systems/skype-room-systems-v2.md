@@ -15,6 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -25,7 +26,7 @@ description: "Learn about features available in Microsoft Teams Rooms. "
 
 # Teams Meeting Room Licensing Update 
 
-## Licensing Solutions for Shared Communication Devices 
+## Licensing Solutions for Shared Communication Devices
 
 Microsoft has two SKUs for licensing meetings and calling on a per-device basis - one for meeting room devices (such as Microsoft Teams Rooms) and one for common area phones (such as lobby phones available for guest use).
 
