@@ -12,63 +12,31 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+# Operations checklists for Lync Server 2013 
 
-<div data-asp="http://msdn2.microsoft.com/asp">
 
-# Operations checklists for Lync Server 2013
-
-</div>
-
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2015-04-27_
+_**Topic Last Modified:** 2019-06-03_
 
 The checklists mentioned here are for your internal record keeping, and if necessary you can change them to meet your organization’s needs.
 
-<span id="Daily_task"></span>
-
-<div>
+<br>
 
 ## Daily task checklist
 
 The Daily Task checklist is presented in this [Excel spreadsheet](http://download.microsoft.com/download/9/a/3/9a3faa4b-07a8-41fe-9d25-30783a6253ff/operations+daily.xlsx).
 
-</div>
-
-<span id="Weekly_task"></span>
-
-<div>
+<br>
 
 ## Weekly task checklist
 
 The Weekly Task checklist is presented in this [Excel spreadsheet](http://download.microsoft.com/download/9/a/3/9a3faa4b-07a8-41fe-9d25-30783a6253ff/operations+weekly.xlsx).
 
-</div>
 
-<span id="Monthly_task"></span>
-
-<div>
+<br>
 
 ## Monthly task checklist
 
+
 The Monthly Task checklist is presented in this [Excel spreadsheet](http://download.microsoft.com/download/9/a/3/9a3faa4b-07a8-41fe-9d25-30783a6253ff/operations+monthly.xlsx).
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
 
