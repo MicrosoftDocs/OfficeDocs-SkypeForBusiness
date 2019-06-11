@@ -108,12 +108,10 @@ To manage membership and settings for a private channel, the private channel own
 
 ### Use policies to control which users can create private channels
 
-Admins can set a per-user policy to control which users in your organization can create private channels.
+By default, all Teams users in your organization can create private channels. As an admin, you can set a per-user policy to control which users can create private channels.  For example, you might want to allow only certain users the ability to create private channels and turn off the ability for all other users in your organization.
 
 > [!NOTE]
 > Microsoft introduced a new policy, TeamsAppPolicy, to control what parts of the Teams client are enabled, such as meetings, chat, and channels. When TeamsAppPolicy is available, TeamsUpgradePolicy will be updated so that when an admin tries to grant an instance of TeamsUpgradePolicy to a user, it will first check to ensure that TeamsAppPolicy is correctly configured for the mode. If not, the action fails with an error explaining how the other policy must first be set.
-
-By default, all Teams users in your organization can create private channels. As an admin, you might want to allow only certain users the ability to create private channels and turn off the ability for all other users in your organization.
 
 To do this, follow these steps:
 
