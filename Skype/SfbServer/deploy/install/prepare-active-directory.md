@@ -164,7 +164,7 @@ Watch the video steps for **Prepare Active Directory**:
   
 11. Log off, and then log back on to Windows so that your security token is updated with the new Skype for Business Server security group, and then reopen the Deployment Wizard.
     
-12. Verify that you see a green checkmark next to **Prepare Active Director** to confirm success, as shown in the figure.
+12. Verify that you see a green checkmark next to **Prepare Active Directory** to confirm success, as shown in the figure.
     
      ![Prepare Active Directory Completed.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
