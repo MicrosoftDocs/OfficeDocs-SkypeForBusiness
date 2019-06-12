@@ -33,12 +33,9 @@ The following settings are of special interest for Healthcare applications, and 
 
 ## Read receipts
 
-- ![Icon of the number 1, referencing a callout in the previous screenshot](../../media/sfbcallout1.png) **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read.
+- ![Icon of the number 1, referencing a callout in the previous screenshot](../../media/sfbcallout1.png) **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient in 1:1 and group chats 20 people or less. Use this setting to specify whether read receipts are user controlled, on for everyone, or off for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read.
 
-  For Healthcare applications, choose either **User controlled** or **Enabled for everyone**. Be aware that when using the **Enabled for everyone** setting, the only way to set receipts for the whole  tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts.
-
-  > [!NOTE]
-  > When read receipts are used in a large group chat (with over 100 users, for example), the receipt messages can overwhelm the actual messages, and lead to chat user frustration. This is something you will need to make users aware of. A smaller group chat (perhaps 20 users or less) makes better use of this feature.
+  For Healthcare applications, choose either **User controlled** or **On for everyone**. Be aware that when using the **On for everyone** setting, the only way to set receipts for the whole  tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts.The read receipts feature is most effective when the feature is enabled to **On for everyone**.
 
     *Usage example without read receipts:* Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia sends emails and other instant messages to a groups of nurses and doctors who use a variety of messaging clients and apps, and often gets no response or indication whether a message was read by team members. Due to tangled communication processes, Jakob's medication is misapplied and his hospital stay is extended.
 
