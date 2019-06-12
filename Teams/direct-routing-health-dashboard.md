@@ -40,9 +40,9 @@ Health Dashboard provides the following information related to overall health of
 
 - **Network Effectiveness Ratio (NER)** - The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.  
 
-   The NER measures the ability of networks to deliver calls to the far-end terminal--excluding user actions resulting in call rejections.  If the recipient rejected a call or sent the call to voicemail,the call is counted as a successful delivery. This means that an answer message, a busy signal, or a ring with no answer are all considered successful calls. 
+   The NER measures the ability of networks to deliver calls to the far-end terminal--excluding user actions resulting in call rejections.  If the recipient rejected a call or sent the call to voicemail, the call is counted as a successful delivery. This means that an answer message, a busy signal, or a ring with no answer are all considered successful calls. 
   
-   Assume Direct Routing sent a call to the SBC and the SBC returns SIP code “504 Server Time-out - The server attempted to access another server in attempting to process the request and did not receive a prompt response”. This response indicates there is an issue on the SBC side, and this will decrease the NER on the Health Dashboard for this SBC. 
+   For example, assume Direct Routing sent a call to the SBC and the SBC returns SIP code “504 Server Time-out - The server attempted to access another server in attempting to process the request and did not receive a prompt response”. This response indicates there is an issue on the SBC side, and this will decrease the NER on the Health Dashboard for this SBC. 
   
    Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter. If the number of calls is less than 100, the NER might be quite low, but still be normal. 
 
@@ -65,11 +65,11 @@ Health Dashboard provides the following information related to overall health of
 
    Possible values for SIP options status messages are as follows:
 
-    - Active – means that the SBC is active; Microsoft Direct Routing service sees the Options flowing on a regular interval.
+    - Active – means that the SBC is active; Microsoft Direct Routing service sees the options flowing on a regular interval.
 
     - Warning, no SIP options - The Session Border Controller exists in the database (your administrator created it using the command New-CsOnlinePSTNGateway). It is configured to send SIP options, but the Direct Routing service never saw the SIP options coming back from this SBC.
 
-    - Warning, SIP Messages aren't configured - Trunk monitoring using SIP options isn’t turned on. Microsoft Calling System uses SIP Options and Transport Layer Security (TLS) handshake monitoring to detect the health of the connected Session Border Controllers (SBCs) at the application level. You’ll have problems if this trunk can be reached at the network level (by ping), but the certificate has expired or the SIP stack doesn’t work. To help identify such problems early, Microsoft recommends enabling sending SIP options. Check your SBC manufacturer documentation to configure sending SIP options. 
+    - Warning, SIP Messages aren't configured - Trunk monitoring using SIP options isn’t turned on. Microsoft Calling System uses SIP options and Transport Layer Security (TLS) handshake monitoring to detect the health of the connected Session Border Controllers (SBCs) at the application level. You’ll have problems if this trunk can be reached at the network level (by ping), but the certificate has expired or the SIP stack doesn’t work. To help identify such problems early, Microsoft recommends enabling sending SIP options. Check your SBC manufacturer documentation to configure sending SIP options. 
 
 - **Concurrent calls capacity** - You can specify the limit of concurrent calls that an SBC can handle by using the New- or Set-CsOnlinePSTNGateway command with the -MaxConcurrentSessions parameter. This parameter calculates how many calls were sent or received by Direct Routing using a specific SBC and compares it with the limit set. Note:  If the SBC also handles calls to different PBXs, this number will not show the actual concurrent calls.
 
@@ -87,15 +87,15 @@ The detailed view shows the following additional parameters:
 
 - **TLS Connectivity last status** – shows time when the SBC made a TLS connection to the Direct Routing service;
 
-- **SIP Options status** – the same metric as on the “Overall Health” page;
+- **SIP options status** – the same metric as on the “Overall Health” page.
 
-- **SIP Options last checked** – time when the SIP Options were received last time;
+- **SIP options last checked** – time when the SIP options were received last time.
 
-- **SBC Status** – overall status of the SBC, based on all monitored parameters;
+- **SBC status** – overall status of the SBC, based on all monitored parameters.
 
-- **Concurrent call**- shows you how many concurrent call SBC handled. This information is useful to predict number of concurrent channels you need and see the trend. You can slide the data by number of days and call direction (inbound/outbound/All Streams)
+- **Concurrent call**- shows  how many concurrent calls the SBC handled. This information is useful to predict the number of concurrent channels you need and see the trend. You can slide the data by number of days and call direction (inbound/outbound/All streams).
 
-- **Network parameters** - All network parameters are measured from the Direct Routing Interface to the Session Border Controller. The recommended values are documented on this page https://docs.microsoft.com/en-us/microsoftteams/prepare-network. Please look at the Customer Edge to Microsoft Edge recommended values.
+- **Network parameters** - All network parameters are measured from the Direct Routing interface to the Session Border Controller. The recommended values are documented on this page https://docs.microsoft.com/en-us/microsoftteams/prepare-network. Please look at the Customer Edge to Microsoft Edge recommended values.
 
    - Jitter – Jitter is the millisecond measure of variation in network propagation delay time computed between two endpoints using RTCP(The RTP Control Protocol).
 
