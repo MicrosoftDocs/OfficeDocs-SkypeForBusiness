@@ -207,7 +207,7 @@ _**Topic Last Modified:** 2015-11-13_
     <td><p>sip:userName@contoso.com</p></td>
     </tr>
     <tr class="odd">
-    <td><p>sRTCSIP-UserEnabled</p></td>
+    <td><p>msRTCSIP-UserEnabled</p></td>
     <td><p>Enabled</p></td>
     <td><p>True</p></td>
     <td><p>True</p></td>
