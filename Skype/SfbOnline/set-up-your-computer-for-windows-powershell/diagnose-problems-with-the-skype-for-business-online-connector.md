@@ -69,9 +69,9 @@ The Skype for Business Online Connector module can be run only under Windows Pow
 ## Modern authentication fails when WinRM Basic authentication has been disabled
 <a name="BKMKWinRMBasicAuth"> </a>
 
-The latest version of the Skype for Business Online Connector module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication.  Modern authentication uses bearer tokens which are usually passed in the *Authorization: Bearer* header, but Windows PowerShell upon which Skype for Business PowerShell is built does not allow for manipulation of this header.   Instead, Skype for Business PowerShell uses the *Authorization: Basic* header to pass the bearer token.
+The latest version of the Skype for Business Online Connector module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication.  Modern authentication uses bearer tokens which are usually passed in the *Authorization: Bearer* header. Windows PowerShell upon which Skype for Business PowerShell is built does not allow for manipulation of this header.  Instead, Skype for Business PowerShell uses the *Authorization: Basic* header to pass the bearer token.
 
-See [Download and install Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
+See [Download and install Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
 
 ## Failed to connect to Live ID Server
 <a name="BKMKFailedConnect"> </a>
