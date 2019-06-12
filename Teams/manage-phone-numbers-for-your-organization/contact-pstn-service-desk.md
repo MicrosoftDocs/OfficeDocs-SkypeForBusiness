@@ -18,6 +18,7 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.voice.contactPSTNsupport
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
