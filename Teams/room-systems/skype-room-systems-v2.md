@@ -30,7 +30,7 @@ description: "Learn about features available in Microsoft Teams Rooms. "
 
 Microsoft has and dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms and Microsoft Surface Hub).
 
-||Microsoft Teams Rooms |  
+||Microsoft Room SKU |  
 |:--- |:---: |
 |Skype for Business |&#x2714;|
 |Microsoft Teams|  &#x2714;|
