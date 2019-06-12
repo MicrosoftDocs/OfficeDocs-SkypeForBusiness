@@ -23,8 +23,7 @@ Data in Teams resides in the geographic region associated with your Office 365 t
 
 > [!IMPORTANT]
 > Teams currently offers data residency in Australia, Canada, France, India, Japan, and the United Kingdom for new tenants only. 
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, and Japan will 
-> continue to have their Teams data stored in the APAC region. Existing tenants in Canada will continue to have their data stored in the Americas. France and the United Kingdom will have their data stored in the EMEA region.
+> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, and Japan will continue to have their Teams data stored in the APAC region. Existing tenants in Canada will continue to have their data stored in the Americas. Existing tenants in France and the United Kingdom will have their data stored in the EMEA region.
 
 To learn more about the launch of India and United Kingdom data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
@@ -36,5 +35,5 @@ To learn more about the launch of France data residency for Teams, read Varun Sa
 
 To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
-![Screenshot of the data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Screenshot of data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

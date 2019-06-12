@@ -133,7 +133,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | VM | Caller Features  | Caller experience - private voicemail | The caller can choose an option to mark a recorded message as private  | N | Y    |
 | VM | Caller Features  | Silence detection   |  | N | Y    |
 | VM | Tenant-Admin Features | Server-level protected voicemail    | Tenant-admin can configure a service-level rule to mark incoming voicemail as protected | Y | Y    |
-| VM | Tenant-Admin Features | Change recording duration time limit  | CVM hard coded to 5 minutes    | N | Y    |
+| VM | Tenant-Admin Features | Change recording duration time limit  |     | Y | Y    |
 | VM | Tenant-Admin Features | Change silence detection timeout    |  | N/A    | Y    |
 | VM | Tenant-Admin Features | Change number of input failure | CVM: hard coded to 3 | N | Y    |
 | VM | Tenant-Admin Features | Change the default language |  | Y | Y    |
@@ -169,6 +169,10 @@ Microsoft has identified various customer deployments that are consuming feature
 | Fax| Service Features | Fax integration|  | N | Y    |
 
 ### Suggested test plan and post-migration validation for admins
+
+To validate that your users have been migrated to Cloud Voicemail, simply leave a voicemail to a user and check the message body in Outlook, Cloud Voicemail messages have an additional footer that reads:
+
+**Thank you for using Transcription! If you don't see a transcript above, it's because the audio quality was not clear enough to transcribe.**
 
 When testing voicemail functionality after your users have been migrated, make sure to consider the following scenarios:
 

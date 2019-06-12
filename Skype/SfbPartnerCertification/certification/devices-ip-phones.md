@@ -33,13 +33,14 @@ Basic functionalities will continue to work on Skype for Business certified devi
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
 | Yealink| CP960| 73.8.0.27| 6/30/2018|
-| Polycom| RealPresence Trio 8800| 5.5.4.2255| 3/09/2017|
+| Polycom| RealPresence Trio 8800/8500| 5.5.2.11338 | 10/9/2018|
 ||||
 
 ## Desk phones
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
+| AudioCodes |C450HD IP Phone|UCC450HD_3.2.0.1003.61|6/11/2019|
 | AudioCodes |440HD IP Phone|UC440HD_3.1.3.144.18|5/06/2019|
 | AudioCodes |430HD IP Phone|UC430HD_3.1.3.144.18|5/06/2019|
 | AudioCodes |445HD IP Phone|3.1.2.89 |12/21/2018|
@@ -58,7 +59,6 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom |VVX 501 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 600 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 601 Business Media Phone|5.9.0.9373 |1/22/2019|
-| Polycom |Trio Series 8800/8500 IP Phone| 5.5.2.11338 |10/9/2018|
 | Polycom |VVX 250 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 350 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 450 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
