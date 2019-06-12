@@ -23,9 +23,9 @@ ms.custom:
 - Calling Plans
 description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
 ---
-#PSTN service desk
+# PSTN service desk help
 
-If you still need help, please let us know how we can help you. In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
+If you need help with getting or transferring numbers to us but need help please let us know how we can help you in an email and send it to us. In your email Help request, include as many details as you can and include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
 
 Then send your request to one of the following email addresses:
 
