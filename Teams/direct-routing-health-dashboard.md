@@ -57,15 +57,15 @@ Health Dashboard provides the following information related to overall health of
 
 - **TLS connectivity status** - TLS (Transport Layer Security) connectivity shows the status of the TLS connections between Direct Routing and the SBC. Health Dashboard also analyzes the certificate expiration date and warns if a certificate is set to expire within 30 days so that administrators can renew the certificate before service is disrupted.
 
-   By clicking on the Warning message you can see a detailed issue description in a popup window on the right and recommendations for how to fix the issue.
+   By clicking the Warning message, you can see a detailed issue description in a popup window on the right and recommendations for how to fix the issue.
 
 - **SIP options status** – By default, the SBC sends options messages every minute. This configuration can vary for different SBC vendors. Direct Routing warns if the SIP options are not sent or are not configured. For more information about SIP options monitoring, and conditions when an SBC can be marked as not functional, see [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md).
 
-- **Detailed SIP options status** - In addition to showing that there is an issue with SIP options flow, the Health Dashboard also provides detailed descriptions of the errors. You can access the description by clicking  “Warning” message. A pop up window on the right will show the detailed error description.
+- **Detailed SIP options status** - In addition to showing that there is an issue with SIP options flow, the Health Dashboard also provides detailed descriptions of the errors. You can access the description by clicking the “Warning” message. A pop-up window on the right will show the detailed error description.
 
    Possible values for SIP options status messages are as follows:
 
-    - Active – means that the SBC is active; Microsoft Direct Routing service sees the options flowing on a regular interval.
+    - Active – The SBC is active--Microsoft Direct Routing service sees the options flowing on a regular interval.
 
     - Warning, no SIP options - The Session Border Controller exists in the database (your administrator created it using the command New-CsOnlinePSTNGateway). It is configured to send SIP options, but the Direct Routing service never saw the SIP options coming back from this SBC.
 
@@ -95,17 +95,17 @@ The detailed view shows the following additional parameters:
 
 - **Concurrent call**- shows  how many concurrent calls the SBC handled. This information is useful to predict the number of concurrent channels you need and see the trend. You can slide the data by number of days and call direction (inbound/outbound/All streams).
 
-- **Network parameters** - All network parameters are measured from the Direct Routing interface to the Session Border Controller. The recommended values are documented on this page https://docs.microsoft.com/en-us/microsoftteams/prepare-network. Please look at the Customer Edge to Microsoft Edge recommended values.
+- **Network parameters** - All network parameters are measured from the Direct Routing interface to the Session Border Controller. For information about the recommended values, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network), and look at the Customer Edge to Microsoft Edge recommended values.
 
-   - Jitter – Jitter is the millisecond measure of variation in network propagation delay time computed between two endpoints using RTCP(The RTP Control Protocol).
+   - Jitter – Is the millisecond measure of variation in network propagation delay time computed between two endpoints using RTCP (The RTP Control Protocol).
 
-   - Packet Loss – Packet Loss is a measure of packet that failed to arrive, it is computed between two endpoints.
+   - Packet Loss – Is a measure of packet that failed to arrive; it is computed between two endpoints.
 
-   - Latancy - Latency (also known as round trip time) is the length of time it takes for a signal to be sent plus the length of time it takes for the acknowledgement of that signal to be received. This time delay therefore consists of the propagation times between the two points of a signal.
+   - Latancy - (Also known as round trip time) is the length of time it takes for a signal to be sent plus the length of time it takes for the acknowledgement of that signal to be received. This time delay consists of the propagation times between the two points of a signal.
 
    You can slide the data by number of days and call direction (inbound/outbound/All streams).
 
-**Network Effectiveness ratio** - This is the same parameter that appears on the “Overall Health” dashboard, but with the option to slice the data by time series or call direction.
+**Network Effectiveness ratio** - This is the same parameter that appears on the Overall Health dashboard, but with the option to slice the data by time series or call direction.
 
 
 
