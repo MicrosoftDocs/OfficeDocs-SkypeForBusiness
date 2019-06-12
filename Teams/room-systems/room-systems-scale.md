@@ -125,6 +125,9 @@ For more information, see [Manage boot images with System Center Configuration M
 
 ## Create Configuration Manager packages
 
+> [!IMPORTANT]
+> We don't document the required OS version for each SRS installer version. It changes with every MSI release and the guidance is to run the console setup script once to determine the best OS version for a given MSI.
+
 Configuration Manager requires a number of packages to deploy and configure the Microsoft Teams Rooms units.
 
 You need to create and configure the following packages, and then distribute them to the Configuration Manager site systems that have been assigned the distribution point server role.
