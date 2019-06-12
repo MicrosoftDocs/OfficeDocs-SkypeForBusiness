@@ -34,7 +34,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
 - **There's no way to change the system language for only one person in your organization.** You can only change the greeting language for everyone on your organization.
     
     > [!NOTE]
-    > Users can change their own greeting language through their settings after they sign in. 
+    > Users can record a personal greeting through their settings after they sign in. 
   
 - **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
