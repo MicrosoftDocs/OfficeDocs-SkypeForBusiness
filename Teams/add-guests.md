@@ -27,7 +27,7 @@ Anyone with a business or consumer email account, such as Outlook, Gmail, or oth
 As an admin, you can add a new guest user to the organization in a couple ways: 
 - Global admins who are owners of a team and owners of a team can add a guest to a team through either the Microsoft Teams desktop or the web clients. For more details, check out [Add guests to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)
 > [!NOTE] 
-> This does not apply when **AAD admins and users in the guest inviter role can invite** is enabled.
+> This does not apply when **Admins and users in the guest inviter role can invite** is enabled.
 
 - Add guests to your organization through Azure Active Directory B2B collaboration. Azure Active Directory B2B collaboration allows a global admin to invite and authorize a set of external users by uploading a comma-separated values (CSV) file of no more than 2,000 lines to the B2B collaboration portal. For more details, check out [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=826383).
 
