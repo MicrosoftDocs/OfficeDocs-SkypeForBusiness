@@ -7,7 +7,7 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
 ---
@@ -83,10 +83,10 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows 8.1<sup>1</sup></p></td>
@@ -96,10 +96,10 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 8 (Intel based)<sup>1</sup></p></td>
@@ -109,10 +109,10 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>Yes</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows 7 with SP1<sup>2</sup></p></td>
@@ -122,7 +122,7 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>Yes</p></td>
 <td><p>Yes</p></td>
 <td><p>Yes</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
 <td><p>No</p></td>
@@ -135,7 +135,7 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>Yes</p></td>
 <td><p>Yes</p></td>
 <td><p>Yes</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
 <td><p>No</p></td>
@@ -148,7 +148,7 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>No</p></td>
 <td><p>Yes</p></td>
 <td><p>No</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
 <td><p>No</p></td>
@@ -161,10 +161,10 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>Yes</p></td>
-<td><p>Yes</p></td>
+<td><p>No</p></td>
 </tr>
 </tbody>
 </table>
