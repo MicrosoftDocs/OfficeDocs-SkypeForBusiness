@@ -3,7 +3,6 @@ title: Add bots for private chats and channels in Microsoft Teams
 author: LolaJacobsen 
 ms.author: lolaj
 manager: serdars
-ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 MS.collection: 
@@ -11,7 +10,7 @@ MS.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
-description: Learn how to add bots in Microsoft Teams for personal (one-on-one) chats, group chats, and channels,  and upload your own bots for personal chats, groups chats, and channels.
+description: Learn how to add bots in Microsoft Teams for personal chats, group chats, and channels, and upload your own bots for personal chats, groups chats, and channels.
 appliesto: 
 - Microsoft Teams
 ---
@@ -23,7 +22,7 @@ Add bots for personal chats, group chats, and channels in Microsoft Teams
 
 Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services like task management, scheduling, and polling, through chat conversations in Microsoft Teams. Bots for Teams are built on the [Microsoft Bot Framework](https://go.microsoft.com/fwlink/?linkid=854370). The bots that are developed using this framework can be enabled easily for Teams. For more information, see [Manage Microsoft Teams settings for your organization](enable-features-office-365.md).
 
-Currently, Teams supports bots in personal  (one-on-one) chats, group chats, and channels within a team. Administrators can control whether the use of bots is allowed or prohibited within the Office 365 tenant.<span id="_T-Bot" class="anchor"></span>
+Currently, Teams supports bots in personal chats, group chats, and channels within a team. Administrators can control whether the use of bots is allowed or prohibited within the Office 365 tenant.<span id="_T-Bot" class="anchor"></span>
 
 Bots developed by the community can be leveraged within Teams. The bot's functionality and the ability to upload custom apps (also known as sideloading) must be enabled on the tenant level for custom bots to be functional. Bots can be used in personal chats, group chats, and channels. For channels, team owners or members can add bots.
 
