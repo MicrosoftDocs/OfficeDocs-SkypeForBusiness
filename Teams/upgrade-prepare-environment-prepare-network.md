@@ -190,7 +190,7 @@ Quality of service (QoS) can be used to battle impairments by prioritizing and s
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Network Readiness Assessment</a>.</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. </li><li>Perform network remediation based on the results of the network readiness assessment for every network segment.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -203,7 +203,7 @@ These are the main takeaways from this guidance. You must:
 
 - Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
 
-- Ensure that you have sufficient bandwidth for deploying Teams by completing the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+- Ensure that you have sufficient bandwidth for deploying Teams.
 
 - Run the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure that you meet the requirements described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) from both the edge segment and the client segment.
 
