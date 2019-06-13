@@ -14,6 +14,8 @@ description: "This article explains how to use Modern Authentication (which is b
 ---
 
 # How to use Modern Authentication (ADAL) with Skype for Business
+
+IMPORTANT - this method is not recommended. Instead please refer to: [Hybrid Modern Authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview).
  
 This article explains how to use Modern Authentication (which is based on the Active Directory Authentication Library (ADAL) and OAuth 2.0) that can be found in the March 2016 Cumulative Update for Skype for Business for Skype for Business Server 2015, or from initial release for Skype for Business Server 2019.
   
