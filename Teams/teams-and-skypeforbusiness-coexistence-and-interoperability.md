@@ -47,7 +47,7 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 In this coexistence mode, called **Islands**, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users run both clients and can communicate natively in the client from which the communication was initiated. As such, there’s no need for interoperability in **Islands** mode.
 
 > [!Important]
-> In **Islands** mode all messages from federated users (people outside your organization) are delivered to Skype for Business. After switching to **Teams Only** mode, all messages from outside your organization are delivered to Teams.
+> In **Islands** mode, all messages from federated users (people outside your organization) are delivered to Skype for Business. After switching to **Teams Only** mode, all messages from outside your organization are delivered to Teams.
 
 > [!Tip]
 > Skype for Business Online customers recommended path is to start with the default **Islands** mode, drive adoption saturation in the organization and then move to **Teams Only** mode rapidly. On premises and hybrid customers may benefit from deploying the upcoming **Skype for Business with Teams collaboration** mode as a starting point rather than Islands, and progress from there to **Teams Only** mode when the organization is ready to adopt Teams.
