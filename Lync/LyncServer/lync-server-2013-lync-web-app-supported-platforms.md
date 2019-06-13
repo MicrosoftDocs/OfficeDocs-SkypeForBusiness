@@ -7,7 +7,7 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
 ---
@@ -70,10 +70,10 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>64-bit Internet Explorer 10</p></td>
 <td><p>32-bit Internet Explorer 9</p></td>
 <td><p>64-bit Internet Explorer 9</p></td>
-<td><p>Firefox 32-bit</p></td>
-<td><p>Firefox 64-bit</p></td>
+<td><p>Firefox 32-bit<sup>4</sup></p></td>
+<td><p>Firefox 64-bit<sup>4</sup></p></td>
 <td><p>Safari</p></td>
-<td><p>Chrome</p></td>
+<td><p>Chrome<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -83,98 +83,100 @@ To use Lync Web App, you must have one of the following supported operating syst
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
-<td><p>Yes</p></td>
 <td><p>No</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 8.11</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows 8 (Intel based)1</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>N/A</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 7 with SP12</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>N/A</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows Server 2008 R2 with SP12</p></td>
-<td><p>N/A</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 with SP23</p></td>
+<td><p>Windows 8.1<sup>1</sup></p></td>
 <td><p>N/A</p></td>
 <td><p>Yes</p></td>
-<td><p>Yes</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
 <td><p>No</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>Yes</p></td>
 <td><p>No</p></td>
 <td><p>N/A</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10.7 and later (Intel-based)2</p></td>
+<td><p>Windows 8 (Intel based)<sup>1</sup></p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
 <td><p>N/A</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows 7 with SP1<sup>2</sup></p></td>
 <td><p>N/A</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="even">
+<td><p>Windows Server 2008 R2 with SP1<sup>2</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows Server 2008 with SP2<sup>3</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>Yes</p></td>
 <td><p>Yes</p></td>
 <td><p>No</p></td>
 <td><p>Yes</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="even">
+<td><p>Mac OS X 10.7 and later (Intel-based)<sup>2</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
 <td><p>Yes</p></td>
+<td><p>No</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 On Windows 8 and Windows 8.1, the plug-in required to use computer-based audio, video, application viewing, application sharing, desktop viewing, and desktop sharing can be installed only if you’re running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 or Internet Explorer 11.
+<sup>1</sup> On Windows 8 and Windows 8.1, the plug-in required to use computer-based audio, video, application viewing, application sharing, desktop viewing, and desktop sharing can be installed only if you’re running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 or Internet Explorer 11.
 
-2 On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.6 is no longer supported.
+<sup>2</sup> On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.6 is no longer supported.
 
-3 On supported Windows Server 2008 operating systems, computer-based voice and video are not available. Application viewing, application sharing, desktop viewing, and desktop sharing are available.
+<sup>3</sup> On supported Windows Server 2008 operating systems, computer-based voice and video are not available. Application viewing, application sharing, desktop viewing, and desktop sharing are available.
+
+<sup>4</sup>  The plug-in requires support for NPAPI in the browser. Firefox removed support for NPAPI in version 52.0, and Chrome removed support in version 45, so these browsers are no longer supported in their current versions.
 
 </div>
 
