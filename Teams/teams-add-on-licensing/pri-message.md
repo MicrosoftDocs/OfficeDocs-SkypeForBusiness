@@ -22,7 +22,7 @@ description: "Learn about Priority Notifications in Teams Messaging."
 
 # Messaging policies licensing
 
-Starting on January 1, 2020, licensed users will be able to send Priority Notifications according to the terms of their subscription. IT Admins will be given reporting on priority notification usage to support appropriate user licensing.
+Starting on January 1, 2020, licensed users will be able to send Priority Notifications according to the terms of their subscription. IT Admins will be given reporting on priority notification usage to support appropriate user licensing. Users will be able to receive unlimited Urgent Messages with Priority Notifications, regardless of license. 
 
 |Segment| |Sending up to 5 messages included per user per month| Sending unlimited messages included per user per month|
 |---|---|---|---|
