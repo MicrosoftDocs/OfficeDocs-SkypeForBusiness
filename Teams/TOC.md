@@ -38,7 +38,7 @@
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
-### [Add bots for private chats and channels in Teams](add-bots.md)
+### [Add bots for personal chats, group chats, and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
@@ -310,11 +310,15 @@
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 ## Phone System Direct Routing
+
 ### [Overview](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
 ### [Configure Direct Routing](direct-routing-configure.md)
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
-### [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
+
+### Monitor and troubleshoot Direct Routing
+#### [Overview](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
