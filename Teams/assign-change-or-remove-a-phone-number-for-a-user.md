@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
@@ -34,11 +34,13 @@ When you're setting up users so they can make and receive phone calls, you must 
 To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
+> One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. **TBD**
   
  ## Assign a phone number to a user
+
+**TBD**
  
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -46,9 +48,7 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
     
 3. In the left navigation, click **Voice** > **Voice users**.
    > [!NOTE]
-   > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
- 
-   
+   > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
     
 4. On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.
     
@@ -66,11 +66,11 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
     > [!NOTE]
     > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
-
-
  ## Change a phone number for a user
+
+**TBD**
  
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
  
 1. Sign in to Office 365 with your work or school account.
     
@@ -91,10 +91,11 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 9. Click **Save**.
     
 
-
  ## Remove a phone number from a user
  
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+
+**TBD**
  
 1. Sign in to Office 365 with your work or school account.
     
