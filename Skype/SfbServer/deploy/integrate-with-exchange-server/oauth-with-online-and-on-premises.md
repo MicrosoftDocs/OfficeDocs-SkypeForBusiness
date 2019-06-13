@@ -72,13 +72,64 @@ Create a new partner application and will use the account you just created. Run 
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
+### Step 4: Export the on-premises authorization certificate
+
+Run a PowerShell script to export the on-premises authorization certificate, which you will import to your Skype for Business Online organization in the next step.
+
+Save the following text to a PowerShell script file named, for example, ExportAuthCert.ps1.
+
+``` Powershell
+$thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
+if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
+{
+md $env:SYSTEMDRIVE\OAuthConfig
+}
+cd $env:SYSTEMDRIVE\OAuthConfig
+$oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.Thumbprint -match $thumbprint}
+$certType = [System.Security.Cryptography.X509Certificates.X509ContentType]::Cert
+$certBytes = $oAuthCert.Export($certType)
+$CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+[System.IO.File]::WriteAllBytes($CertFile, $certBytes)
+```
+
+In Exchange PowerShell in your on-premises Exchange organization, run the PowerShell script that you just created. For example: .\ExportAuthCert.ps1
+
+### Step 6: Upload the on-premises authorization certificate to Azure Active Directory ACS
+
+Next, use Windows PowerShell to upload the on-premises authorization certificate that you exported in the previous step to Azure Active Directory Access Control Services (ACS). To do this, the Azure Active Directory Module for Windows PowerShell cmdlets must already be installed. If it's not installed, go to [https://aka.ms/aadposh](https://aka.ms/aadposh) to install the Azure Active Directory Module for Windows PowerShell. Complete the following steps after the Azure Active Directory Module for Windows PowerShell is installed.
+
+1. Click the **Azure Active Directory Module for Windows PowerShell** shortcut to open a Windows PowerShell workspace that has the Azure AD cmdlets installed. All commands in this step will be run using the Windows PowerShell for Azure Active Directory console.
+
+2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
+
+   ``` Powershell
+   Connect-MsolService;
+   Import-Module msonlineextended;
+   $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+   $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+   $cer.Import($CertFile);
+   $binCert = $cer.GetRawCertData();
+   $credValue = [System.Convert]::ToBase64String($binCert);
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   ```
+
+3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
+
+4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Azure AD organization. After running the script, leave the Windows PowerShell for Azure AD session open. You will use this to run a PowerShell script in the next step.
+
+
+
 ### Verify your success
 
 Verify that the configuration is correct by verifying some of the features are working successfully. 
 
-1. Confirm Outlook Calendar delegation works betweeen two Teams users with Exchange Server 2016 or 2019 mailboxes.
+1. Confirm conversation history for mobile clients is visible in the Outlook Conversation History folder.
 
-2. Confirm conversation history for mobile clients is visible in the Outlook Conversation History folder.
+2. Confirm that archived chat messages are deposited in the user's on premise mailbox in the Purges folder using [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
 Alternately, look at your traffic. The traffic in an OAuth handshake is really distinctive (and doesn't look like Basic authentication), particularly around realms, where you’ll begin to see issuer traffic that looks like this: 00000004-0000-0ff1-ce00-000000000000@ (sometimes with a / before the @ sign), in the tokens that are being passed. You won’t see a username or password, which is the point of OAuth. But you will see   the ‘Office’ issuer – in this case ‘4’ is Skype for Business – and the realm of your subscription.
 
