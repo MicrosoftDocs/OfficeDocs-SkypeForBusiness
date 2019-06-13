@@ -14,7 +14,7 @@ ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: "Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in Feature support."
 ---
 
-# Configure Integration between Skype for Business Online or Microsoft Teams and Exchange Server 
+# Configure Integration and OAuth between Skype for Business Online and Exchange Server 
 
 Configuring integration between Exchange server and Skype for Business Online enables the Skype for Business and Exchange Integration features described in [Feature support](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
 
@@ -38,14 +38,14 @@ Perform the steps in the following article:
 
 [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### Step 2: Create a new Mail User account for the Skype for Business Online or Teams Partner Application
+### Step 2: Create a new Mail User account for the Skype for Business Online Partner Application
 
 This step is done on the Exchange server. It will create a mail user and assign it the appropriate management role rights. This account will then be used in the next step.
 
 Specify a verified domain for your Exchange organization. This domain should be the same domain used as the primary SMTP domain used for the on-premises Exchange accounts. This domain is referred as \<your Verified Domain\> in the following procedure. Also, the \<DomainControllerFQDN\> should be the FQDN of a domain controller.
 
 ``` Powershell
-$user = New-MailUser -Name O365-ApplicationAccount -ExternalEmailAddress O365-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
+$user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 This command will hide the new mail user from address lists.
@@ -64,7 +64,7 @@ New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainC
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-### Step 3: Create and enable a Partner Application for Skype for Business Online or Teams
+### Step 3: Create and enable a Partner Application for Skype for Business Online 
 
 Create a new partner application and will use the account you just created. Run the following command in the Exchange PowerShell in your on-premises Exchange organization.
 
@@ -120,8 +120,6 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
 
 4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Azure AD organization. After running the script, leave the Windows PowerShell for Azure AD session open. You will use this to run a PowerShell script in the next step.
-
-
 
 ### Verify your success
 
