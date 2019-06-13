@@ -47,7 +47,7 @@ The following settings are of special interest for Healthcare applications, and 
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
-- ![Icon of the number 2, referencing a callout in the previous screenshot](../../media/sfbcallout2.png) **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications notify users every two minutes for up to 20 minutes or until the message is picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.
+- ![Icon of the number 2, referencing a callout in the previous screenshot](../../media/sfbcallout2.png) **Users can send priority notifications** A user can mark a message as "Urgent" when sending chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications notify users every two minutes for up to 20 minutes or until the message is picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.
 
   An admin can enable or disable the ability for users assigned this policy to send priority notifications. This feature is on by default. The recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages. For Healthcare applications, we recommend enabling the feature for at least some users, but you'll need to determine which ones.
 
