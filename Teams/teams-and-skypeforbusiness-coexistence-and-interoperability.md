@@ -48,6 +48,9 @@ In this coexistence mode, called **Islands**, each of the client applications op
 
 To avoid a confusing or regressed Skype for Business experience, external (federated) communications, PSTN voice services and voice applications, Office integration, and several other integrations continue to be handled by Skype for Business.
 
+> [!Important]
+> In **Islands** mode, all messages from federated users (people outside your organization) are delivered to Skype for Business. After switching to **Teams Only** mode, all messages from outside your organization are delivered to Teams.
+
 > [!Tip]
 > Skype for Business Online customers recommended path is to start with the default **Islands** mode, drive Teams adoption saturation in the organization, and then move to **Teams Only** mode rapidly. On premises and hybrid customers may benefit from deploying the **Skype for Business with Teams collaboration** mode as a starting point rather than Islands, and progress from there to **Skype for Business with Teams collaboration and Meetings** mode, if appropriate, and to **Teams Only** mode when the organization is ready to adopt Teams.
 
