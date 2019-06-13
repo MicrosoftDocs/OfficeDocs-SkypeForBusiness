@@ -67,7 +67,10 @@ Use the following settings to change the global messaging policy or create a new
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
 - **Users can edit sent messages** Use this setting to let users edit the messages that they sent in chat.
-- **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
+- **Read receipts** Use this setting to specify whether read receipts are user controlled, on for everyone, or off for everyone. The default setting is user controlled. 
+    - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
+    - **On for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. 
+    - **Off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on. 
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
