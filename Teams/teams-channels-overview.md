@@ -57,8 +57,8 @@ Team owners can also create a team based on an existing Office 365 Group. Any ch
 **Team Roles**
 There are two main roles in Microsoft Teams: a team owner, the person who creates the team, and team members, the people who they invite to join their team. Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they’ve joined the team. Having multiple team owners enables you to share the responsibilities of managing settings and membership, including invitations.
 
-**Team Settings** 
-Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
+**Team Settings**
+Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard and private channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
 Take three minutes to check out this go-to-guide video for team owners: 
 

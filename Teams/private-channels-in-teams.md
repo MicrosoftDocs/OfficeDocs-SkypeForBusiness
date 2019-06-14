@@ -94,7 +94,7 @@ The following table outlines which actions are available to owners, members, and
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs, apps, and connectors|No|N/A|N/A|Yes<sup>3</sup>|Yes<sup>4</sup>|No|
 
-<sup>1</sup>Each team has a setting to control whether members can create private channels. Team owners can always private channels.<br>
+<sup>1</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always private channels.<br> 
 <sup>2</sup>Assuming the private channel owner isn't the last owner of the channel. <br>
 <sup>3</sup>Requires the team to have an app installed for a private channel to use it.<br>
 <sup>4</sup>Private channel owners can configure this.
