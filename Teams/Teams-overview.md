@@ -26,7 +26,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 ## Teams architecture
 
-Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Coming in summer 2019: Teams keeps working even when you're offline or in low-bandwidth conditions. 
+Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Coming in summer 2019: Teams keeps working even when you're offline or when your network connection is spotty. 
 
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
