@@ -40,7 +40,7 @@ When you create a team from an existing group, that group's membership, site, ma
 
 To customize and extend Teams, add third-party apps through [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
-For a deep dive into Teams architecture, don't miss the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
+For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
 
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
