@@ -195,29 +195,41 @@ For example: test@sbc1.customers.adatum.biz
 
 ### Create a trunk and provision users
 
-> [!NOTE]
-> Based on feedback we received in the Technical Adoption Program, Microsoft might change the process of creating trunks in the customer tenants to simplify the process. Please watch the documentation updates on this page and follow the Microsoft Technical Community blogs for further information. 
+With the initial release of the Direct Routing, Microsoft required to add a trunk to each served tenant (customer tenant) using New-CSOnlinePSTNGateway.
 
-Create a trunk in the customer domain using the New-CSonlinePSTNGateway command. The trunk FQDN **MUST** match the subdomain created for the customer.
+However, this showed as not being optimal for two reasons:
+ 
+• Management overhead. For example, offloading or draining an SBC, changing some parameters, like enabling or disabling media bypass, changing the port required changing parameters in multiple tenants (by running Set-CSonlinePSTNGateway), but in fact, it is the same SBC; 
+• Processing overhead. Gathering and monitoring trunk health data - SIP Options collected from multiple logical trunks but in reality, it is the same SBC and the same physical trunk, which slows down processing of the data for routing
+ 
 
-For example:
+Based on this feedback, Microsoft is bringing a new logic to provision the trunks for the customer tenants.
 
-```
-New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
-```
+Two new entities introduced:
+•	Carrier trunk registered in carrier tenant, using the command New-CSOnlinePSTNGateway, for example
+New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignallingport 5068 -ForwardPAI $true
+•	Derived trunk does not require registration. It is simple a desired host name added in from of the carrier trunk. It derives all configuration parameters from the carrier trunk. The derived trunk doesn't need to be created in PowerShell, the association with the carrier trunk based on the FQDN name (see details below);
 
-When creating the trunk, you may receive the following error message:
+Provisioning logic and example.
 
-```
-Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
-```
+•	Carriers only need to set up and manage a single trunk  (carrier trunk in the carrier domain), using Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz;
+•	In customer tenant, the carrier need only to add the derived trunk FQDN to voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
+•	 The derived trunk as the name suggests inherits or derives all the configuration parameters from the carrier trunk. 
+Examples:
+•	Customers.adatum.biz – carrier trunk which needs to be created in the carrier tenant
+•	Sbc1.customers.adatum.biz – derived trunk in a customer tenant, that don’t need to be created i PowerShell.  You can simply add in Online Voice Routing Policy the name of derived trunk in the customer tenant without creating it.
 
-Please allow some time for domain registration and activation to replicate and try again.
+•	All changes made on carrier trunk (on carrier tenant) automatically applied on derived trunks. For example, carriers can change a SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don’t need to go to every tenant and change the parameter on every trunk;
+•	The Options sent only to carrier trunk FQDN. The health status of the carrier trunk applied to all derived trunks. Note the health status is used for routing decisions, you can read about how Direct Routing uses Options here https://docs.microsoft.com/en-us/microsoftteams/direct-routing-monitor-and-troubleshoot
+•	Carrier can drain the carrier trunk; all derived trunks will be drained as well. 
+ 
 
-Provision users with the phone numbers and configure voice routing.
+Migration from the previous model to the Carrier Trunk
+ 
+For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customers. Remove the trunks from customer tenants, using Remove-CSOnluinePSTNGateway (leaving the trunk in the carrier tenant).
 
-For more information on the New-CSOnlinePSTNGateway, provisioning users, and configuring voice routing, please refer to [Configure Direct Routing](direct-routing-configure.md).
-
+We highly encourage migrating to the new solution as soon as possible as we will be enhancing the monitoring and provisioning using the carrier and derived trunk model.
+ 
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
 
