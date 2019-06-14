@@ -22,6 +22,8 @@ If you're the admin for Microsoft Teams in your organization, you're in the righ
 
 If you're new to Teams and want to learn more, read on. Check out this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). 
 
+If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).
+
 ## Teams architecture
 
 Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Coming in summer 2019: Teams keeps working even when you're offline or in low-bandwidth conditions. 
