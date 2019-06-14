@@ -98,6 +98,6 @@ Microsoft recommends the following migration paths:
 
 - If you are upgrading to Skype for Business Server 2019, you can use Exchange UM in Exchange Server 2013 or 2016, but you must upgrade to Cloud Voicemail if you are using Exchange Server 2019.
 - If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommends that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost.
-- If you are upgrading to Skype for Busienss Server 2019, and have Skype for Business Server 2015 configured for voicemail with Exchange online UM, users' voicemail will automatically migrate from Exchange online UM to Cloud Voicemail when their account is moved to Skype for Business Server 2019. 
+- If you are upgrading to Skype for Business Server 2019, and have Skype for Business Server 2015 configured for voicemail with Exchange Online UM, users' voicemail will automatically migrate from Exchange Online UM to Cloud Voicemail when their account is moved to Skype for Business Server 2019. 
 
 For more information about planning your migration, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
