@@ -44,7 +44,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
   
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) **TBD**
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) **TBD**
  
 
   

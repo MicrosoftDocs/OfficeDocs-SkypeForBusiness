@@ -45,17 +45,15 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 **TBD**
-  
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
+1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, which is a plus icon](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+2. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, which is a plus icon](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
-4. On the **Add new user numbers** page, choose the following:
+3. On the **Add new user numbers** page, choose the following:
     
    - **Country/Region**
     
@@ -63,14 +61,14 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
    - **City**
     
-5. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
+4. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
     
     > [!NOTE]
     > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total user numbers you can acquire**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
   
-6. You can click **Show numbers** to see the full list of phone numbers. This is helpful is you don't want to select a specific phone number in the list.
+5. You can click **Show numbers** to see the full list of phone numbers. This is helpful is you don't want to select a specific phone number in the list.
     
-7. Select the phone numbers you want, and then click **Acquire numbers**.
+6. Select the phone numbers you want, and then click **Acquire numbers**.
     
     > [!IMPORTANT]
     > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
@@ -88,12 +86,10 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 **TBD**
-
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
+1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
-3. In the left navigation, go to **Voice** > **Phone numbers**. The phone numbers you have for your organization are listed under **Number**.
+2. In the left navigation, go to **Voice** > **Phone numbers**. The phone numbers you have for your organization are listed under **Number**.
     
     > [!NOTE]
     > You can view specific phone numbers based and the type of number in the **Assigned** and **Number type** columns.
@@ -119,7 +115,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) **TBD**
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) **TBD**
 
   
  
