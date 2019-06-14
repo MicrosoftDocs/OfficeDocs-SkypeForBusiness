@@ -20,11 +20,11 @@ appliesto:
 # Welcome to Microsoft Teams
 If you're the admin for Microsoft Teams in your organization, you're in the right place. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
 
-If you're new to Teams and want to learn more, read on.
+If you're new to Teams and want to learn more, read on. Check out this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). 
 
 ## Overview of Teams
 
-If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this architecture poster: [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). To see where Teams fits in the context of Microsoft 365, check out this architecture poster: [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
@@ -37,7 +37,7 @@ When you create a team from an existing group, that group's membership, site, ma
 
 Don't miss [org-wide teams](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
 
-To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
+To customize and extend Teams, add third-party apps through [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
@@ -46,14 +46,14 @@ To customize and extend Teams, add third-party apps through [apps, bots, & conne
 
 As the admin, you'll manage Teams through the Microsoft Teams admin center. To learn more:
 - [Use Teams admin roles to manage Teams](using-admin-roles.md)
-- [Manage Teams in the Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
-- [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-in-modern-portal.md)
+- [Manage Teams in the Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
+- [Manage Teams during the transition to the new Teams admin center](manage-teams-in-modern-portal.md)
 - [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
 
 To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 
 ## Upgrade from Skype for Business to Teams
-Teams is the primary client for intelligent communications in Office 365, eventually replacing Skype for Business Online. To learn more about the new features coming to Teams, see the [Microsoft 365 Roadmap](http://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
+Teams is the primary client for intelligent communications in Office 365, and it'll eventually replace Skype for Business Online. To stay on top of new features coming to Teams, see the [Microsoft 365 Roadmap](http://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](journey-skypeforbusiness-teams.md).
 
@@ -80,9 +80,9 @@ See a [weekly list of Teams topics that have been updated](teams-updates.md).
 
 ## Teams known issues
 
-See [Known issues for Microsoft Teams](Known-issues.md).
+See [Known issues for Teams](Known-issues.md).
 
 ## Teams client release notes
 
-See [What's new in Microsoft Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+See [What's new in Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
