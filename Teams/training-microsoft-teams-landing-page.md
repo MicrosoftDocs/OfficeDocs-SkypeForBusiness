@@ -139,7 +139,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft 365 Certified: Teamwork Administrator Associate</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 Teamwork Administrators configure, deploy, and manage Office 365 workloads that focus on efficient and effective collaboration, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams. </a></p>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 Teamwork Administrators configure, deploy, and manage Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams. </a></p>
                     </div>
                 </div>
             </div>
