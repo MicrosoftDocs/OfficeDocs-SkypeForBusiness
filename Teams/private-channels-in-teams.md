@@ -59,13 +59,19 @@ To determine whether a private channel is appropriate, consider the following qu
 
 ## Private channel creation and membership
 
+By default, any team owner or team member can create a private channel. Guests can't create them. On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels. As an admin, you can use [policies](#use-policies-to-control-which-users-in-your-organization-can-create-private-channels) to control which users in your organization are allowed to create private channels.
+
+Any team member can be added to a private channel in the team, including guests. If a member leaves a team, that user will also leave all private channels in the team. If the user is added back to the team, they must be added to the private channels in the team.
+
+A team member can't leave a team if they are the last owner of one or more private channels.
+
 Team owners can see the name of all private channels in their team. They can also delete any private channel in the team. (Careful – this can’t be undone!) Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
 The following table shows who can view what in a private channel.
 
 |Feature  |Team owner can see |Team members can see |
 |---------|---------|---------|
-|Name and description    |All private channels in the team]         |Only the private channels that they are added to         |
+|Name and description    |All private channels in the team         |Only the private channels that they are added to         |
 |Conversations and tabs     |Only when added to the private channel         |Only when added to the private channel         |
 |Files and content    |Only when added to the private channel        |Only when added to the private channel         |
 
