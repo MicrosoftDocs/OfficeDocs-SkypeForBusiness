@@ -216,7 +216,7 @@ Provisioning logic and example.
 •	 The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 Examples:
 •	Customers.adatum.biz – carrier trunk which needs to be created in the carrier tenant
-•	Sbc1.customers.adatum.biz – derived trunk in a customer tenant, that don’t need to be created i PowerShell.  You can simply add in Online Voice Routing Policy the name of derived trunk in the customer tenant without creating it.
+•	Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that does not need to be created in PowerShell.  You can simply add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.
 
 •	Any changes made on a carrier trunk (on carrier tenant) is automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don’t need to go to every tenant and change the parameter on every trunk.
 •	The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. To find out more about Direct Routing options, refer to [Monitor and troubleshoot Direct Routing] https://docs.microsoft.com/en-us/microsoftteams/direct-routing-monitor-and-troubleshoot.
