@@ -226,7 +226,7 @@ Examples:
 
 Migration from the previous model to the Carrier Trunk
  
-For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customers. Remove the trunks from customer tenants, using Remove-CSOnluinePSTNGateway (leaving the trunk in the carrier tenant).
+For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnluinePSTNGateway (leaving the trunk in the carrier tenant).
 
 We highly encourage migrating to the new solution as soon as possible as we will be enhancing monitoring and provisioning using the carrier and derived trunk model.
  
