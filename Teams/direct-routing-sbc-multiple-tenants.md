@@ -203,7 +203,7 @@ However, this has proved to be not optimal for two reasons:
 • **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
  
 
-Based on this feedback, Microsoft is bringing a new logic to provision the trunks for the customer tenants.
+Based on this feedback, Microsoft is bringing in a new logic to provision the trunks for the customer tenants.
 
 Two new entities introduced:
 •	Carrier trunk registered in carrier tenant, using the command New-CSOnlinePSTNGateway, for example
