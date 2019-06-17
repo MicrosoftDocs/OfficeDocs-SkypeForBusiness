@@ -207,7 +207,6 @@ Based on this feedback, Microsoft is bringing in a new logic to provision the tr
 
 Two new entities were introduced:
 •	A carrier trunk registered in the carrier tenant using the command New-CSOnlinePSTNGateway, for example New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignallingport 5068 -ForwardPAI $true.
-New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignallingport 5068 -ForwardPAI $true
 •	Derived trunk does not require registration. It is simple a desired host name added in from of the carrier trunk. It derives all configuration parameters from the carrier trunk. The derived trunk doesn't need to be created in PowerShell, the association with the carrier trunk based on the FQDN name (see details below);
 
 Provisioning logic and example.
