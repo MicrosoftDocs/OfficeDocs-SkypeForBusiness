@@ -25,7 +25,8 @@ The following prerequisites are required for the user to schedule a Teams live e
 
 Here are the licenses that must be assigned:  
 - An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license
-- A Microsoft Teams and a Microsoft Stream license
+- A Microsoft Teams license
+- A Microsoft Stream license
 
 > [!IMPORTANT]
 > The user creating and scheduling a live event must have an Exchange Online mailbox.
