@@ -195,7 +195,7 @@ For example: test@sbc1.customers.adatum.biz
 
 ### Create a trunk and provision users
 
-With the initial release of the Direct Routing, Microsoft required to add a trunk to each served tenant (customer tenant) using New-CSOnlinePSTNGateway.
+With the initial release of Direct Routing, Microsoft required a trunk to be added to each served tenant (customer tenant) using New-CSOnlinePSTNGateway.
 
 However, this showed as not being optimal for two reasons:
  
