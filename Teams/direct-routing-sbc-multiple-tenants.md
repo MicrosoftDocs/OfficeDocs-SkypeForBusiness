@@ -224,7 +224,7 @@ Examples:
 •	Carrier can drain the carrier trunk; all derived trunks will be drained as well. 
  
 
-Migration from the previous model to the Carrier Trunk
+Migration from the previous model to the carrier trunk
  
 For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnluinePSTNGateway (leaving the trunk in the carrier tenant).
 
