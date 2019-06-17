@@ -215,7 +215,7 @@ Provisioning logic and example.
 •	In the customer tenant, the carrier need only to add the derived trunk FQDN to the voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
 •	 The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 Examples:
-•	Customers.adatum.biz – carrier trunk which needs to be created in the carrier tenant
+•	Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
 •	Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that does not need to be created in PowerShell.  You can simply add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.
 
 •	Any changes made on a carrier trunk (on carrier tenant) is automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don’t need to go to every tenant and change the parameter on every trunk.
