@@ -228,7 +228,7 @@ Migration from the previous model to the Carrier Trunk
  
 For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customers. Remove the trunks from customer tenants, using Remove-CSOnluinePSTNGateway (leaving the trunk in the carrier tenant).
 
-We highly encourage migrating to the new solution as soon as possible as we will be enhancing the monitoring and provisioning using the carrier and derived trunk model.
+We highly encourage migrating to the new solution as soon as possible as we will be enhancing monitoring and provisioning using the carrier and derived trunk model.
  
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
