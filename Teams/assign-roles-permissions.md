@@ -56,7 +56,7 @@ The table below shows the difference in permissions between an owner and a membe
 
 <sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
 
-*To learn more about permissions for private channels, see [Private channels in Teams](private-channels-in-teams.md)
+*To learn more about permissions for private channels, see [Private channels in Teams](private-channels-in-teams.md).
 
 > [!NOTE]
 > Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
