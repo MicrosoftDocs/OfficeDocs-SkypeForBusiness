@@ -200,7 +200,7 @@ With the initial release of Direct Routing, Microsoft required a trunk to be add
 However, this has proved to be not optimal for two reasons:
  
 • **Overhead management**. Offloading or draining an SBC, for example, changes some parameters, like enabling or disabling media bypass. Changing the port requires changing parameters in multiple tenants (by running Set-CSonlinePSTNGateway), but it is in fact the same SBC. 
-• Processing overhead. Gathering and monitoring trunk health data - SIP Options collected from multiple logical trunks but in reality, it is the same SBC and the same physical trunk, which slows down processing of the data for routing
+• **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
  
 
 Based on this feedback, Microsoft is bringing a new logic to provision the trunks for the customer tenants.
