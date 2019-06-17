@@ -209,10 +209,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to use fun picker or Giphys or stickers in mobile app  <br/> |You can't use gifs, emojis or stickers on the mobile clients.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
 |Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 
