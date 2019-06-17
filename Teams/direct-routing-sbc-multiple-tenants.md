@@ -213,7 +213,7 @@ Provisioning logic and example.
 
 •	Carriers only need to set up and manage a single trunk  (carrier trunk in the carrier domain), using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz;
 •	In the customer tenant, the carrier need only to add the derived trunk FQDN to the voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
-•	 The derived trunk as the name suggests inherits or derives all the configuration parameters from the carrier trunk. 
+•	 The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 Examples:
 •	Customers.adatum.biz – carrier trunk which needs to be created in the carrier tenant
 •	Sbc1.customers.adatum.biz – derived trunk in a customer tenant, that don’t need to be created i PowerShell.  You can simply add in Online Voice Routing Policy the name of derived trunk in the customer tenant without creating it.
