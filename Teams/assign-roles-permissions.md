@@ -46,8 +46,6 @@ The table below shows the difference in permissions between an owner and a membe
 |        **Add connectors**         |    Yes     |    Yes<sup>2</sup>|
 |           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
 
-*To learn more about permissions for private channels, see [Private channels in Teams](private-channels-in-teams.md)
-
 <sup>1</sup> Team owners can create teams unless they've been restricted from doing so. See "Permissions to create teams" below.
 >
 <sup>2</sup> These items can be turned off by an owner at a team level, in which case members would not have access to them.
@@ -57,6 +55,8 @@ The table below shows the difference in permissions between an owner and a membe
 <sup>4</sup> Team members can add other members to a public team.
 
 <sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
+
+*To learn more about permissions for private channels, see [Private channels in Teams](private-channels-in-teams.md)
 
 > [!NOTE]
 > Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
