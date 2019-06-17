@@ -30,7 +30,7 @@ Here's some examples.
 ## Allow users to schedule live events 
 
 > [!NOTE]
-> These examples are for events produced in Teams. For events produced with an external app or device, there are additional steps you must do. For more information, see [Enable users to schedule events produced with an external app or device](set-up-for-teams-live-events.md#enable-users-to-schedule-events-produced-with-an-external-app-or-device).
+> These examples are for events produced in Teams. For events produced with an external app or device, there are additional steps you must do. For more information, see [Enable users to schedule events that were produced with an external app or device](set-up-for-teams-live-events.md#enable-users-to-schedule-events-produced-with-an-external-app-or-device).
 
 **Allow a user to schedule live events**
 

@@ -53,7 +53,7 @@ Live events policies are used to control who in your organization can hold live 
 |---------|---------|
 |**Name**     |This is the name of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.          |
 |**Description**    |Use this to add a friendly description for the policy.         |
-|**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule a live event produced with an external app or device, there are additional steps you must do. To learn more, see  [Enable users to schedule events produced with an external app or device](#enable-users-to-schedule-events-produced-with-an-external-app-or-device).     |
+|**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule a live event produced with an external app or device, there are additional steps you must do. To learn more, see  [Enable users to schedule events that were produced with an external app or device](#enable-users-to-schedule-events-produced-with-an-external-app-or-device).     |
 |**Allow transcription for attendees** (coming soon) |This setting can only be applied to events produced in Teams. Turning this on enables live event attendees to see real-time captions and translation during the event.         |
 |**Who can join scheduled live events**    |Choose one of the following.<br><br>**Everyone** Users can create live events that everyone, including people outside your organization, can attend. This setting enables the **Public** permission type in Teams when a user schedules a live event.<br> **Everyone in the organization** Users can create live events that only people in your organization can attend. Users can't create live events that are attended by anonymous users. This setting enables the **Org-wide** permission type in Teams when a user schedules a live event.<br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. Users can't create live events that are attended by everyone in your organization or by anonymous users. This setting enables the **People and groups** permission type in Teams when a user schedules a live event.       |
 |**Recording setting**  <br>     | This setting can only be applied to events produced in Teams. Choose one of the following. <br><br> **Always record** Live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** Live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it's recorded, after the event is over, event team members can download the recording and attendees can watch the event.      
@@ -81,7 +81,7 @@ You can also assign a live events policy to one or more users as follows:
 5. When you are finished adding users, select **Save**.
  
 
-### Enable users to schedule events produced with an external app or device
+### Enable users to schedule events that were produced with an external app or device
 
 For users to schedule events produced with an external app or device, you must also do the following:
 
