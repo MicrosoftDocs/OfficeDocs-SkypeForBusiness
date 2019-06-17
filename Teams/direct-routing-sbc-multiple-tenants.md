@@ -211,7 +211,7 @@ Two new entities were introduced:
 
 Provisioning logic and example.
 
-•	Carriers only need to set up and manage a single trunk  (carrier trunk in the carrier domain), using Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz;
+•	Carriers only need to set up and manage a single trunk  (carrier trunk in the carrier domain), using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz;
 •	In customer tenant, the carrier need only to add the derived trunk FQDN to voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
 •	 The derived trunk as the name suggests inherits or derives all the configuration parameters from the carrier trunk. 
 Examples:
