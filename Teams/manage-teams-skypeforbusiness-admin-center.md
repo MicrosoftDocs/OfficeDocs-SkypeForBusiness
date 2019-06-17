@@ -3,7 +3,7 @@ title: Manage Teams during the transition to the new Microsoft Teams admin cente
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/17/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
