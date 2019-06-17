@@ -29,21 +29,18 @@ There are different types of phone numbers that you can assign to users or other
   
 ## To see a list of all phone numbers that you have for your organization
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
-
-1. Sign in to Office 365 with your work or school account.
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
-2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
+1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
+2. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
-4. To view the phone numbers that are assigned, see the **Number** column.
+3. To view the phone numbers that are assigned, see the **Number** column.
     
-5. You can use the drop-down list to filter your view by:
+4. You can use the drop-down list to filter your view by:
     
    - **All** phone numbers including service phone numbers.
     
@@ -112,6 +109,6 @@ When you are setting up users in your organization to make and receive phone cal
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

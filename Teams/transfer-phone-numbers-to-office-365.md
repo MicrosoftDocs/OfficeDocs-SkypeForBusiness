@@ -22,36 +22,33 @@ f1keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: "Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them."
+description: "Learn what you need to know and do before porting phone numbers to Teams, and how to create a port order to transfer them."
 ---
 
 # Transfer phone numbers to Office 365
 
-It's easy to transfer your phone numbers from your current service provider to Skype for Business. After you port your phone numbers to Skype for Business, Microsoft will become your service provider and will bill you for those phone numbers.
+It's easy to transfer your phone numbers from your current service provider to Microsoft Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers.
   
-Before you start transferring phone numbers, we recommend that you review the information in [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md). If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
+Before you start transferring phone numbers, we recommend that you review the information in [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md). If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
 
   > [!NOTE]
-  > We process port orders for transferring phone numbers only on U.S. business days and not on public holidays or weekends. 
+  > We process port orders for transferring phone numbers only on U.S. business days and not on public holidays or weekends.
   
-## How to create a port order and transfer your phone numbers to Skype for Business
+## How to create a port order and transfer your phone numbers to Teamss
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to select the correct country/region and download the correct forms and send them to us.
+  > If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to select the correct country/region and download the correct forms and send them to us.
  
 ![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
- 
-1. Sign in to Office 365 with your work or school account.
+   
+1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
-2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
+2. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     
-3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
+3. On the **New Local Number Port Order** page, read the information and then click **Let's get started**.
     
-4. On the **New Local Number Port Order** page, read the information and then click **Let's get started**.
-    
-5. On the **Account info** page, enter the following and then click **Next**:
+4. On the **Account info** page, enter the following and then click **Next**:
     
    - **Account number** Account number for the service provider or carrier.
     
@@ -100,7 +97,7 @@ Your port order request will be checked and updated daily and you will be notifi
 
  **The service address isn't the same as the billing address. The address information I submitted on the order matches my customer's bill copy, why is it still rejecting?** Most carriers will identify the porting information based on the service address information, not the billing address. Since a bill copy is a billing record, it may not provide the same information as the service address for the telephone number(s) being ported.
   
- **What should I do if my order is taking too long to process?** We want number porting to be very simple and quick process. If your order is taking longer than you think it should and the status still doesn't show as complete in the Skype for Business admin center, please open support ticket and include the port order ID.
+ **What should I do if my order is taking too long to process?** We want number porting to be a very simple and quick process. If your order is taking longer than you think it should and the status still doesn't show as complete in the Skype for Business admin center, please open a support ticket and include the port order ID.
 
    
 ## Related topics
@@ -110,7 +107,7 @@ Your port order request will be checked and updated daily and you will be notifi
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

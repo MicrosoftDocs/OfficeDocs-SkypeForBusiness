@@ -20,12 +20,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "The following are frequently asked questions about transferring phone numbers to Skype for Business. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See Transfer phone numbers to Office 365 for instructions."
+description: "The following are frequently asked questions about transferring phone numbers to Teams. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See Transfer phone numbers to Office 365 for instructions."
 ---
 
 # Transferring phone numbers common questions
 
-The following are frequently asked questions about transferring phone numbers to Skype for Business. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for instructions.
+The following are frequently asked questions about transferring phone numbers to Microsoft Teams. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for instructions.
   
 ## What countries/regions support number porting?
 
@@ -70,9 +70,9 @@ In general, you can transfer any phone number that is from a supported provider,
     
 - Phone numbers dedicated to faxing.
     
-    If you have existing dedicated phone numbers that are being used for faxing, you  *can*  transfer these numbers over to Skype for Business but your fax services won't continue to work as expected. Faxing services aren't available to Skype for Business customers, even if you have licenses for **Phone System**, **Domestic Calling Plan** or **International Calling Plan**.
+    If you have existing dedicated phone numbers that are being used for faxing, you  *can*  transfer these numbers over to Teams but your fax services won't continue to work as expected. Faxing services aren't available to Teams customers, even if you have licenses for **Phone System**, **Domestic Calling Plan** or **International Calling Plan**.
     
-    If you port the phone number to Skype for Business, you can assign this phone number to a user in your organization instead of using it for faxing.
+    If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
     
 > [!NOTE]
 > At this time in the United Kingdom (U.K.), we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872. 
@@ -85,11 +85,11 @@ You'll need to have all of the account information for your current carrier. The
 
 When you are porting phone numbers to Office 365, you have the option to transfer all of your numbers, or some of them.
   
-- **Full-port** This is when you transfer all of your numbers from your current service provider to Skype for Business Online. When you are asked for the phone numbers you want to transfer, you *must include* the billing telephone number along with all of the other phone numbers on your account.
+- **Full-port** This is when you transfer all of your numbers from your current service provider to Teams. When you are asked for the phone numbers you want to transfer, you *must include* the billing telephone number along with all of the other phone numbers on your account.
     
     For example, let's say your billing telephone number is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.
     
-- **Partial-port** This is when you are only transferring some of your phone numbers from your current service provider to Skype for Business Online. When you are want to port some of the phone numbers tied to the same billing telephone number, you ** *must not include* ** the billing telephone number along with all of the other phone numbers on your account.
+- **Partial-port** This is when you are only transferring some of your phone numbers from your current service provider to Teams. When you are want to port some of the phone numbers tied to the same billing telephone number, you ** *must not include* ** the billing telephone number along with all of the other phone numbers on your account.
     
     For example, let's say your billing phone number (BTN) is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
     
@@ -160,7 +160,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 ## Can you transfer or port out numbers?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring numbers to a new service provider](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring numbers to a new service provider](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -172,6 +172,6 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

@@ -7,11 +7,10 @@ ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- Teams_ITAdmin_Help
 audience: Admin
 appliesto:
 - Skype for Business 
@@ -33,30 +32,27 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
   
 ## Search for phone numbers
 
- **To search for phone numbers for your users**
+**To search for phone numbers for your users**
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
-1. Sign in to Office 365 with your work or school account.
+1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
-2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
-    
-3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
+2. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.  
     
+3. On the **Add new user numbers** page, click the **Country** and **State** lists to select the state that you want to select numbers from, and then select the area code for the city from the **City** list.
     
-4. On the **Add new user numbers** page, click the **Country** and **State** lists to select the state that you want to select numbers from, and then select the area code for the city from the **City** list.
-    
-5.  Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers. If you take more than 10 minutes, the numbers will be returned to the pool of phone numbers.
+4.  Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers. If you take more than 10 minutes, the numbers will be returned to the pool of phone numbers.
     
     > [!NOTE]
     > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total user numbers you can acquire**. 
   
-6. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
+5. You can click **Show numbers** to see the full list of phone numbers. This is helpful if you don't want to select a specific phone number in the list.
     
-7. Select the phone numbers you want, and then click **Acquire numbers**.
+6. Select the phone numbers you want, and then click **Acquire numbers**.
     
     > [!IMPORTANT]
     > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
@@ -70,7 +66,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
