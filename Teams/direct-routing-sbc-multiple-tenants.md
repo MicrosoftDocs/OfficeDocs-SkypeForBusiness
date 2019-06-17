@@ -197,7 +197,7 @@ For example: test@sbc1.customers.adatum.biz
 
 With the initial release of Direct Routing, Microsoft required a trunk to be added to each served tenant (customer tenant) using New-CSOnlinePSTNGateway.
 
-However, this showed as not being optimal for two reasons:
+However, this has proved to be not optimal for two reasons:
  
 • Management overhead. For example, offloading or draining an SBC, changing some parameters, like enabling or disabling media bypass, changing the port required changing parameters in multiple tenants (by running Set-CSonlinePSTNGateway), but in fact, it is the same SBC; 
 • Processing overhead. Gathering and monitoring trunk health data - SIP Options collected from multiple logical trunks but in reality, it is the same SBC and the same physical trunk, which slows down processing of the data for routing
