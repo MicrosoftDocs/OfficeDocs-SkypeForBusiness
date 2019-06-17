@@ -220,7 +220,7 @@ Examples:
 •	Sbc1.customers.adatum.biz – derived trunk in a customer tenant, that don’t need to be created i PowerShell.  You can simply add in Online Voice Routing Policy the name of derived trunk in the customer tenant without creating it.
 
 •	All changes made on carrier trunk (on carrier tenant) automatically applied on derived trunks. For example, carriers can change a SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don’t need to go to every tenant and change the parameter on every trunk;
-•	The Options sent only to carrier trunk FQDN. The health status of the carrier trunk applied to all derived trunks. Note the health status is used for routing decisions, you can read about how Direct Routing uses Options here https://docs.microsoft.com/en-us/microsoftteams/direct-routing-monitor-and-troubleshoot
+•	The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. To find out more about Direct Routing options, refer to [Monitor and troubleshoot Direct Routing] https://docs.microsoft.com/en-us/microsoftteams/direct-routing-monitor-and-troubleshoot.
 •	The carrier can drain the carrier trunk, in which case all derived trunks will be drained as well. 
  
 
