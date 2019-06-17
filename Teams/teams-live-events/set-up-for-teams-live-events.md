@@ -22,8 +22,8 @@ appliesto:
 
 When you're setting up for live events, there are several steps that you must take:
 
-## Step 1: Set up your network for live events in Microsoft Teams
-Live events produced in Teams require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
+## Step 1: Set up your network for live events in Teams
+Live events produced in Teams require you to [prepare your organization's network for Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## Step 2: Get and assign licenses
 Ensure you have correct license assignments for [who can create and schedule live events](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) and [who can watch live events](plan-for-teams-live-events.md#who-can-watch-live-events).
@@ -85,13 +85,13 @@ You can also assign a live events policy to one or more users as follows:
 
 For users to schedule events produced with an external app or device, you must also do the following:
 
-1. Enable Microsoft Stream for users in your organization. Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service. Microsoft Stream isn't included in Business Essentials or Business Premium plans. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
+1. Enable Microsoft Stream for users in your organization. Stream is available as part of eligible Office 365 subscriptions or as a standalone service. Stream isn't included in Business Essentials or Business Premium plans. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
-      Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure Microsoft Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
+      Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
-2. Ensure users have live event creation permission in Microsoft Stream. By default, administrators can create events with an external app or device. Microsoft Stream administrator can [enable additional users for live event creation](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.  
+2. Ensure users have live event creation permission in Stream. By default, administrators can create events with an external app or device. Stream administrator can [enable additional users for live event creation](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.  
 
-3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with an external app or device) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
+3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with an external app or device) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
 ## Step 4: Set up a video distribution solution for live events in Teams
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
@@ -99,7 +99,7 @@ Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a u
 **Purchase and set up your solution outside of Teams**
 Get expert help with scaling video delivery by leveraging Microsoft’s trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
 
-The following SDN/eCDN solutions are pre-integrated and can be set up to be used with Microsoft Stream.
+The following SDN/eCDN solutions are pre-integrated and can be set up to be used with Stream.
 
 - **Hive Streaming** provides a simple and powerful solution for live and on-demand enterprise video distribution. Hive is a software-based solution that requires no additional hardware or bandwidth and provides a secure way to enable thousands of simultaneous video viewers without impact to your network. For customers looking to understand the impact video is having on their network prior to purchasing an SDN/eCDN solution, Hive Streaming also provides a browser-based analytics solution for Microsoft customers. [Learn more](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
