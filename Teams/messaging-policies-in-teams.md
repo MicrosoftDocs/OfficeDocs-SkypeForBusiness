@@ -92,5 +92,8 @@ Use the following settings to change the global messaging policy or create a new
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them. 
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 
+> [!NOTE]
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners. T
+
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
