@@ -46,14 +46,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 **TBD**
     
-1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
-    
-2. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, which is a plus icon](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Get new numbers**.
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
-3. On the **Add new user numbers** page, choose the following:
+3. Enter a name for the order and if you want, enter a description.
+4. On the **Add new user numbers** page, choose the following:
     
    - **Country/Region**
     
@@ -87,9 +86,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 **TBD**
     
-1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
-    
-2. In the left navigation, go to **Voice** > **Phone numbers**. The phone numbers you have for your organization are listed under **Number**.
+1. In the left navigation, go to **Voice** > **Phone numbers**. The phone numbers you have for your organization are listed under **Number**.
     
     > [!NOTE]
     > You can view specific phone numbers based and the type of number in the **Assigned** and **Number type** columns.
