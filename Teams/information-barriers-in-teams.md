@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams preview
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/05/2019
+ms.date: 06/17/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -70,6 +70,30 @@ If there is an existing chat or other communication between users, and a new pol
 - **1:1 chat** - If communication between the two users is no longer allowed (if a policy blocking communication is applied to one or both users), further communication is blocked and the chat conversation will become read-only.
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations. 
 - **Team** - Any users who have been removed from the group are removed from the team and will not be able to see or participate in existing or new conversations.
+
+## What will users experience if another user is blocked?
+
+Currently, users experience the following if an information barrier policy blocks another user:
+
+- **People tab** - A user may see some blocked users on the **People** tab. The user can select the blocked users.
+- **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
+- **Org charts** - If a user accesses an org chart on which a blocked user appears, the user will see the blocked user on the chart and can click actions on the chart, but the actions (such as calling) will not go through.
+- **People card** - If a user participates in a conversation and is subsequently blocked, other users can still see the people card for the blocked user. All actions listed on the card (such as calling and chat) will be available, but the actions will not go through.
+- **Suggested contacts** - On the suggested contacts list (the initial contact list that appears for new users), users can see all suggested contacts (including blocked users). However, if a user clicks the name of a blocked user to open the Chats pane, the message will be blocked.
+- **Chat contacts** - A user can see blocked users on the chat contact list.
+- **Calls contacts** - A user can see blocked users on the calls contact list and actions such as calling and messaging will appear, but when the user tries to call or send a message to the blocked user, the call or message will not go through.
+- **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
+
+Coming soon: users will experience the following if an information barrier policy blocks another user:
+
+- **People tab** - A user cannot see blocked users on the **People** tab.
+- **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
+- **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user will not appear on the org chart and an error message will appear instead.
+- **People card** - If a user participates in a conversation and the user is subsequently blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
+- **Suggested contacts** - Blocked users do not appear on the suggested contacts list (the initial contact list that appears for new users).
+- **Chat contacts** - A user cannot see blocked users on the chat contact list.
+- **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified and the only action the user can perform is to delete them.
+- **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
 
 ## Required licenses and permissions
 
