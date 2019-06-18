@@ -121,13 +121,23 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Azure AD organization. After running the script, leave the Windows PowerShell for Azure AD session open. You will use this to run a PowerShell script in the next step.
 
+### Step 7: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
+1. In the PowerShell opened and authenticated to Azure Active Directory, run the following
+```
+Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+```
+2. Press Enter when prompted for ReturnKeyValues
+3. Confirm you see a key listed with start date and end data that matches your Exchange Oauth certificate start and end dates
+
 ### Verify your success
 
 Verify that the configuration is correct by verifying some of the features are working successfully. 
 
-1. Confirm conversation history for mobile clients is visible in the Outlook Conversation History folder.
+1. Confirm that Skype for Business users with Cloud Voicemail service, in an organization with a Hybrid Exchange Server configuration, can successfully change their voicemail greetings.
 
-2. Confirm that archived chat messages are deposited in the user's on premise mailbox in the Purges folder using [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
+2. Confirm conversation history for mobile clients is visible in the Outlook Conversation History folder.
+
+3. Confirm that archived chat messages are deposited in the user's on premise mailbox in the Purges folder using [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
 Alternately, look at your traffic. The traffic in an OAuth handshake is really distinctive (and doesn't look like Basic authentication), particularly around realms, where you’ll begin to see issuer traffic that looks like this: 00000004-0000-0ff1-ce00-000000000000@ (sometimes with a / before the @ sign), in the tokens that are being passed. You won’t see a username or password, which is the point of OAuth. But you will see   the ‘Office’ issuer – in this case ‘4’ is Skype for Business – and the realm of your subscription.
 
