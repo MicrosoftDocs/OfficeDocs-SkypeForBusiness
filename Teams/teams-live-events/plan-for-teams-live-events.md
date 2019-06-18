@@ -58,7 +58,7 @@ The user must have:
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> Can watch live events when the live event is set up using the **Org-wide** option.
+<sup>1</sup> Can watch live events if the live event is set up using the **Org-wide** option.<br>
 <sup>2</sup> Can only watch live events as anonymous users.
 
  
