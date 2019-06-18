@@ -220,7 +220,7 @@ Examples:
 
 •	Any changes made on a carrier trunk (on carrier tenant) is automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don’t need to go to every tenant and change the parameter on every trunk.
 •	The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
-•	The carrier can drain the carrier trunk, in which case all derived trunks will be drained as well. 
+•	The carrier can drain the carrier trunk, and all derived trunks will be drained as well. 
  
 
 Migration from the previous model to the carrier trunk
