@@ -2,6 +2,11 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/customize-meeting-invitations.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams",
+      "redirect_document_id": true 
+      },
+    {
       "source_path": "Teams/upgrade-introduction.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here",
       "redirect_document_id": true 
@@ -1365,6 +1370,10 @@
       "source_path": "Skype/Sfbserver/manage/authentication/use-adal.md", 
       "redirect_url": "https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview", 
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/set-up-phone-system-voicemail", 
+      "redirect_document_id": true   }
   ] 
 }

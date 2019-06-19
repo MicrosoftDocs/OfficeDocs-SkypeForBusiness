@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/18/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -27,7 +26,7 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Office 365 app launcher. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
+Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Office 365 app launcher in existing tenants. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
 
 #### What will happen once StaffHub is retired?
 
@@ -157,6 +156,10 @@ We recommend that you ensure all users in your organization are covered with an 
 To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by October 1, 2019.
 
 Ensure that Office 365 Group creation is enabled in the Microsoft 365 admin center before the transition begins, as this is essential to us being able to move your StaffHub chat data into Teams. Failure to turn on this service by June 30, 2019, will result in a later migration date or less chat data being copied over.
+
+#### What happens to files that have been uploaded to StaffHub?
+
+You can move the files that your teams need from StaffHub to Teams. The files you move are stored in the General folder of the team site in SharePoint Online. In Teams, users can access the files from the **Files** tab in the General channel of the team. To learn more, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 #### Can I export shift schedules from Shifts?
   
