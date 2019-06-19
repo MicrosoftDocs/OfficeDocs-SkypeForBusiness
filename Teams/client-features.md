@@ -22,7 +22,7 @@ The following tables provide a comparison of features between the available Team
 
 Blank = unsupported
 
-**General features**
+## General features
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:  |:---:        |
@@ -33,7 +33,7 @@ Blank = unsupported
 |Dark theme support                         |●|●|●|●|●| |
 ||||||||
 
-**Messaging features**
+## Messaging features
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:   |:---:       |
@@ -56,7 +56,7 @@ Blank = unsupported
 
 &sup1; play only
 
-**Notification features** 
+## Notification features
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:  |:---:        |
@@ -68,7 +68,7 @@ Blank = unsupported
 
 &Dagger; On mobile, OS has a Do Not Disturb mode
 
-**Team Admin features**
+## Team Admin features 
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:  |:---:        |
@@ -84,7 +84,7 @@ Blank = unsupported
 
 &Dagger; On mobile, can't add DLs/groups
 
-**Calling features**
+## Calling features
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:  |:---:        |
@@ -104,7 +104,7 @@ Blank = unsupported
 
 &sup1; Chrome browser required
 
-**Extensibility features**
+## Extensibility features
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:  |:---:        |
@@ -115,7 +115,7 @@ Blank = unsupported
 |Add/discover bots to teams                 |●|●|●| | | |
 ||||||||
 
-**Other features**
+## Other features
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
 |:---   |:---:  |:---:|:---:|:---:|:---:  |:---:        |
