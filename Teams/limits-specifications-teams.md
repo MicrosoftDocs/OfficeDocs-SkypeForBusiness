@@ -45,6 +45,16 @@ This article describes some of the limits, specifications, and other requirement
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 
+## Teams live events
+
+|Feature     | Maximum limit |
+|------------|---------------|
+|Audience size | 10,000 attendees |
+|Duration of event | 4 hours |
+|Concurrent live events in an Office 365 tenant | 15 |
+
+For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
 ## Storage
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
