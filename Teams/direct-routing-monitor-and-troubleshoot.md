@@ -62,6 +62,8 @@ Demotion means that the SBC will not be tried first. For example, we have sbc1.c
 
 If sbc1.contoso.com does not send SIP options on a regular interval as described above, it is demoted. Next, sbc2.contoso.com tries for the call. If sbc2.contoso.con cannot deliver the call, the sbc1.contoso.com (demoted) is tried again before a failure is generated. 
 
+If two (or more) SBCs in one route concidered healthy and equal, Fisher-Yates shuffle applied to distrubute the calls between the SBCs.
+
 ## Monitor Call Quality Analytics dashboard and SBC logs 
  
 In some cases, especially during the initial pairing, there might be issues related to misconfiguration of the SBCs and/or the Direct Routing service. 

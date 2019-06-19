@@ -44,8 +44,10 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 ### Tips for creating a logo for meeting invitations  
 
 1. Create an image that's no more than 188 pixels wide by 30 pixels tall (it's quite small).
-2. Save the image in JPG format.
+2. Save the image in JPG or PNG format.
 3. Store the image in a central location that everyone in your organization can access, such as a network share.
+
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### Customize your meeting invitations
 
