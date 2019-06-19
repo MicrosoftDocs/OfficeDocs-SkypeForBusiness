@@ -228,7 +228,7 @@ To set up an auto attendant and the menu options, go [Set up a Cloud auto attend
   
 ### Assigning phone numbers for an auto attendant
 
-You can assign a Microsoft direct routing hybrid number to your auto attendant. See [Plan Direct Routing](direct-routing-plan.md) for details.
+You can assign a Microsoft Calling Plan or direct routing hybrid number to your auto attendant. See [Plan Direct Routing](direct-routing-plan.md) for details.
 
 To assign a service number, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the <!-- validate nav path --> **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   

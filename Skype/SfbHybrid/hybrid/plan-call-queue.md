@@ -25,7 +25,7 @@ In addition, Cloud call queues can provide:
 - Music while callers are waiting on hold
 - Customized settings for call queue maximum size, timeout, and call handling options
 
-Each call queue is assigned a **resource account** (see[Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) for more detail on what call queues are and what options and features exist for call queues.
+Each call queue is assigned a **resource account** (see [Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
 > You are now able to link multiple inbound phone numbers to a single Cloud call queue.
