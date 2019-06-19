@@ -47,7 +47,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 
 4. Select a number type from the **Number type** drop-down list.
 
-5. In the **Location** box, type the partial name of a location, and then select the location from the list. Click **Add a location** if the location you want doesn't appear on the list.
+5. In the **Location** box, type the name of the city where the user is located, and then select the location from the list. Click **Add a location** if the location you want doesn't appear on the list.
 
 6. Select the area code for the location.
 
@@ -56,7 +56,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
     > [!NOTE]
     > You can see the number of phone numbers available to you (which is based on the number of licenses), listed next to **Quantity**. 
   
-8. On the **Get numbers** page, select the phone numbers you want, and then click **Acquire numbers**, and then click **Next**.
+8. On the **Get numbers** page, select the phone numbers you want, click **Acquire numbers**, and then click **Next**.
 
     > [!IMPORTANT]
     > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
