@@ -174,6 +174,22 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 
 Once you do that, you can delete the resource account from the O365 admin portal, under Users tab.
 
+## Troubleshooting
+
+In case you do not see the phone number assigned to the resource account on the Teams Admin Center and you are unable to assign the number from there, please check the following:
+
+``` Powershell
+Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
+```
+
+If the department attribute displays Skype for Business Application Endpoint please run the cmdlet below :
+
+``` Powershell
+Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+```
+> [!NOTE]
+> Refresh the Teams Admin center webpage after running the cmldet, and you should be able to assign the number correctly.
+
 ## Related Information
 
 For implementations that are hybrid with Skype for Business Server:
