@@ -19,7 +19,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. "
+description: "See how to search for phone numbers that you can assign to your users, by country/region and city, and specify the quantity of numbers you need."
 ---
 
 # Search for phone numbers for users
