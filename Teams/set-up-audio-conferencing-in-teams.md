@@ -117,7 +117,7 @@ If you need more details, see [Assign Microsoft as the audio conferencing provid
 ## Step 8: Set up meeting invitations (optional)
 <a name="__top"> </a>
  
-The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to meeting attendees. However, you can add your own help and legal links, a text message, and small company graphic if you want. See [Customize meeting invitations](customize-meeting-invitations.md).
+The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to meeting attendees. However, you can add your own help and legal links, a text message, and small company graphic if you want. See [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations).
    
 ## Related topics
 

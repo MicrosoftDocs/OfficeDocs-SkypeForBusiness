@@ -91,8 +91,7 @@
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
-## [Manage meetings settings](meeting-settings-in-teams.md)
-## [Customize meeting invitations](customize-meeting-invitations.md)
+## [Manage meetings settings](meeting-settings-in-teams.md
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
