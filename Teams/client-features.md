@@ -20,6 +20,8 @@ The following tables provide a comparison of features between the available Team
 
 ● = Supported
 
+Blank = unsupported
+
 **General features**
 
 |Feature|Windows| Mac | Web | iOS |Android|Windows Phone|
