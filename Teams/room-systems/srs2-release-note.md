@@ -49,14 +49,14 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.0.85.0 (04/8/2018)
+### 4.0.85.0 (04/8/2019)
 
 Introduced in this update:
 
 - Fixes an issue with the "give feedback" feature 
 - Optimizations in preparation for the forthcoming MTR device upgrade to Windows 10 Version 1809
 
-### 4.0.78.0 (03/14/2018)
+### 4.0.78.0 (03/14/2019)
 
 Introduced in this update:
 
