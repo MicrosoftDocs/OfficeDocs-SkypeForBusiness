@@ -42,7 +42,7 @@ Effective October 1, 2019, StaffHub will be retired. We encourage you to start u
 
 ### What is moved to Teams
 
-User details, schedule information, and chat and file data are transitioned to Teams. This includes team membership, team schedules, and chats and files from the last 90 days.
+User details, schedule information, and chat data are transitioned to Teams. When you move a StaffHub team, team membership, team schedules, and chats are moved to Teams. Files aren't moved when you move a StaffHub team. You move the files that you want to keep separately.
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
@@ -86,29 +86,32 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
 
-### Provision accounts for StaffHub users who don't have an identity in Azure AD
+### Provision an account for StaffHub team members that aren't linked to an Azure AD account
 
-Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them. Here's how. 
+Each manager and team member on a StaffHub team must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, link an account for them. Here's how.
 
 #### Get a list of all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
 
 Run the following:
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
 ```
 
-#### Provision the account
+#### Link the account
 
 Do one of the following:
 
 - Convert and link the account to a provisioned account.
 
-  StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+  StaffHub team owners and managers can convert an inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
 
 - Remove the non-provisioned account and then re-add the account by using the UPN.
     1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
-    2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN. 
+    2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
+
+- Remove the user account. Use this option the user account isn't needed. 
 
 ### Assign the FirstlineWorker app setup policy to users
 
@@ -189,7 +192,7 @@ Here's an example of the response you get when a move is in progress.
 
 ### Move files from a StaffHub team to Teams
 
-This step only applies if the StaffHub team that you moved to Teams has files that you want to also move to Teams. You can move files directly in SharePoint Online or by using PowerShell. 
+This step only applies if the StaffHub team that you moved to Teams has files that you want to also move to Teams. You can move files directly in SharePoint Online or by using PowerShell.
 
 #### In SharePoint Online
 
@@ -228,7 +231,8 @@ Use these steps to move StaffHub teams in bulk. You can choose to move all your 
 Run the following to get a list of all StaffHub teams in your organization.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
 Then, run the following to move all teams.
@@ -270,6 +274,7 @@ After you create the CSV file, run the following to move the teams you specified
 $StaffHubTeams = Import-Csv .\teams.csv
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
+
 ### Confirm that your StaffHub teams have moved to Teams
 
 Run the following to get a list of all teams in Shifts in your organization. 
