@@ -45,7 +45,7 @@ For more details, see [What the guest experience is like](guest-experience.md) a
 
 ## If your guests are seeing license errors
 
-Guest access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the B2B licensing guidance to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
+Guest access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the [B2B licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
 
 A few things to remember:
 
