@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/25/2019
+ms.date: 5/10/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection: 
@@ -206,10 +206,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users might not be able to switch accounts on Intune-managed mobile devices  <br/> |Users might not be able to switch accounts on Intune-managed mobile devices.  <br/> |No workaround.  <br/> |9/20/17  <br/>|
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Unable to use fun picker or Giphys or stickers in mobile app  <br/> |You can't use gifs, emojis or stickers on the mobile clients.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
