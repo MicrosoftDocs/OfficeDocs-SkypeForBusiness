@@ -50,7 +50,7 @@ Reduce channel noise by having only team owners post to the General channel. Go 
 
 ### Turn off @team and @[team name] mentions
 
-Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click ```**@mentions**, and then turn off **Show members the option to @team or @[team name]**.
+Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click <strong>@mentions</strong>, and then turn off **Show members the option to @team or @[team name]**.
 
 ### Automatically favorite important channels
 
