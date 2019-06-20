@@ -23,7 +23,7 @@ With Microsoft Teams external access, users from other domains can participate i
 
 Use the steps in this article when:
   
-- You have users in different domains in your business; for example, Rob@ContosoEast.com and Ann@ContosoWest.com.
+- You have users in different domains in your business: for example, Rob@ContosoEast.com and Ann@ContosoWest.com.
 
 - You want the people in your organization to use Teams to contact people in specific businesses outside of your organization.
 
