@@ -19,7 +19,7 @@
 # Chat, teams, channels, and apps
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
-## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
+## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
