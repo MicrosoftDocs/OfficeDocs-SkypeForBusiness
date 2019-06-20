@@ -620,14 +620,61 @@
 
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
+
+
 ## Additional information
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 <!-- ============================================================ -->
-# 
-# 
+
+
+
+# Upgrade and migration
+
+
+## Get started
+
+## Evaluate your existing environment
+###  Skype for Business Online to Teams
+###  Skype for Business on-premises to Teams
+###  On-premises telephony network to Teams
+
+
+## Plan your upgrade journey
+### About the upgrade framework
+### Upgrade planning overview
+### Enlist your project stakeholders
+### Define your project scope
+### Define co-existence and interoperability requirements
+### Plan for quality
+### Prepare your environment for Teams
+### Prepare your organization for Teams
+### Conduct a user pilot
+
+## Coexistence and interoperability
+### Migration and interoperability with Skype for Business
+### Coexistence with Skype for Business
+### Teams client experience and conformance to coexistence modes
+
+## Upgrade from Skype for Business Online to Teams
+
+## Upgrade from Skype for Business on premises to Teams
+
+## Connect your on-premises telephony network to Teams (Direct Routing)
+
+
+
+
+
+
+
+
+
+
+
+
 
 # [Expand Teams across your organization](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
