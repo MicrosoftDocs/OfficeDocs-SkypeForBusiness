@@ -41,15 +41,16 @@ As your organization's directory is updated to include new active users or if us
 > - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
 
 ## Best practices
+
 To get the most out of your org-wide team, we recommend team owners do the following.
 
 ### Allow only team owners to post to the General channel
 
-Reduce channel noise by having only team owners post to the General channel. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click **Member permissions** > select **Only owners can post messages**.
+Reduce channel noise by having only team owners post to the General channel. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click **Member permissions**, and then select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
-Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click **@mentions**, and then turn off **Show members the option to @team or @[team name]**.
+Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click ```**@mentions**, and then turn off **Show members the option to @team or @[team name]**.
 
 ### Automatically favorite important channels
 
@@ -61,7 +62,7 @@ Even though members can’t leave an org-wide team, as a team owner, you can man
 
 ## FAQ
 
-### Is there a way to create an org-wide team other than using the Teams client? 
+### Is there a way to create an org-wide team other than using the Teams client?
 
 Global admins can only create an org-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team. For more information, see [Manage who can create Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
 
