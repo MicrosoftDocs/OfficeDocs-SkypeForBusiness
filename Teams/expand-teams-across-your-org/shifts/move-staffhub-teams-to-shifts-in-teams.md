@@ -111,7 +111,7 @@ Do one of the following:
     1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
     2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
-- Remove the user account. Use this option the user account isn't needed. 
+- Remove the user account. Use this option the user account isn't needed.
 
 ### Assign the FirstlineWorker app setup policy to users
 
@@ -289,9 +289,9 @@ If the StaffHub teams that you moved contain files that you also want to move to
 
 ## Monitor Teams usage
 
-Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
+Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. You can run reports that show you overall Teams usage, the types of activities that users perform in Teams, how users connect to Teams, and more. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
-## Troubleshooting 
+## Troubleshooting
 
 **When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
 
