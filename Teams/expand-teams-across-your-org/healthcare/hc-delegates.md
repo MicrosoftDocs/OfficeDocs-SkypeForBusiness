@@ -12,7 +12,7 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: (may 2019) A user can explicitly set another user as a delegate in their status message. 
+description: A user can explicitly set another user as a delegate in their status message. 
 ---
 
 # Set a delegate in a status message
