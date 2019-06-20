@@ -93,7 +93,7 @@ Use the following settings to change the global messaging policy or create a new
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 
 > [!NOTE]
-> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners. T
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
