@@ -51,7 +51,7 @@ Membership, roles, and settings
 **Team membership**
 When Microsoft Teams is activated for your entire organization, designated team owners are able to invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings, guests who are team members but outside of your organization can also be added to your teams. See [Guest Access in Microsoft Teams](guest-access.md) for more information.
 
-Team owners can also create a team based on an existing Office 365 Group. Any changes made to the group will be synched with Microsoft Teams automatically. Creating a team based on an existing Office 365 Group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
+Team owners can also create a team based on an existing Office 365 Group. Any changes made to the group will be synced with Microsoft Teams automatically. Creating a team based on an existing Office 365 Group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
 
 **Team roles**
 There are two main roles in Microsoft Teams: a team owner, the person who creates the team; and team members, the people who they invite to join their team. Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they’ve joined the team. Having multiple team owners enables you to share the responsibilities of managing settings and membership, including invitations.
