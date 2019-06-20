@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to manage and apply policy packages in Teams. 
+description: Learn how to manage and assign policy packages in Microsoft Teams. 
 ---
 
 # Manage policy packages in Microsoft Teams
@@ -53,5 +53,9 @@ There are five different policies that are created when you assign users to a po
 - **App setup policy** - @Lana - Insert description and link. I cant find the correct doc.
 - **Calling policy** - Calling policies control which calling and call forwarding features are available to users. [Learn more](teams-calling-policy.md)
 - **Live events policy** - Live event policies are used to control what features such as transcriptions for attendees, allow scheduling and other features are available to users that are assigned the policy. [Learn more](teams-live-events/set-up-for-teams-live-events.md)
+
+Policy packages in Microsoft Teams are predefined collections of policies and policy settings that you can assign to users in your organization. Policy packages let you control features that you want to allow or restrict for sets of people in your organization. You can customize the policy settings within each policy in a collection to meet your organization's needs.  
+
+For example, you can use the Education_Teacher policy package to apply a collection of policies that apply to all teachers in your school.
 
 ## Related topics
