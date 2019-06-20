@@ -80,7 +80,7 @@ See the following table for a comparison of external and guest access features.
 
 ## Let your Teams users chat and communicate with users in another organization
 
-Follow these steps.
+You can easily set up external access for your organization. Follow these steps.
 
 ### Step 1 - Make sure to set up the ports and URLs that are needed.
 
@@ -121,7 +121,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 ## Communicate with users in a Skype for Business Online organization
 
-If you are setting up external access to let your Teams users find and contact users who are in a Skype for Business organization that limits who can contact their users, follow the steps to set up external access from your domain to the other organization's domain, and then ask the admin in the other organization to follow these steps to configure external access for Skype for Business Online.
+If you are setting up external access to let your Teams users find and contact users who are in a Skype for Business organization that limits who can contact their users, follow the steps to set up external access from your domain to the other organization's domain. Then ask the admin in the other organization to follow the steps below to configure external access for Skype for Business Online.
 
 ![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
@@ -135,7 +135,7 @@ Have the admin in that organization do these steps:
 
     OR, if they want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. This is the default setting.
 
-4. Under **Blocked or allowed domains**, choose **+**, and then add the name of the domain you want to allow. 
+4. Under **Blocked or allowed domains**, choose **+**, and then add the name of the domain you want to allow.
 
 ## More information
 
