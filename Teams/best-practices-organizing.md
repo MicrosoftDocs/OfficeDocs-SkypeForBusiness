@@ -41,15 +41,15 @@ Once you've created your team, it’s a good idea to start to think about the di
 
 Learn more about [working in teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users. 
 
-## Use channels to focus discussions
+Our best practice guidance is to create teams with a larger set of members and more channels. To maintain a high-quality user experience it is helpful to minimize the number of teams that require a person's participation.  Channels within a team should be thought of as topics or work streams to aid the team in organizing their work to deliver on their join objectives. There is no specific number of channels that should be created. Each team should craft channels based on their work, priorities and style. Larger organizations may want to create teams as "templates" to standardize the information they capture about specific types of work. This is useful for strategic customer management, classroom management, health care scenarios, claims management, incident management, and other scenarios appropriate to a specific industry.
 
-Our best practice guidance is to create teams with a larger set of members and more channels. To maintain a high-quality user experience it is helpful to minimize the number of teams that require a person's participation.  Channels within a team should be thought of as topics or work streams to aid the team in organizing their work to deliver on their join objectives.  There is no specific number of channels that should be created.  Each team should craft channels based on their work, priorities and style.  Larger organizations may want to create teams as "templates" to standardize the information they capture about specific types of work.  This is useful for strategic customer management, classroom managment, health care scenarios, claim management, incident management and other scenarios appropriate to a specific industry.   
+## Use the General channel
 
 By default, the **General channel** is created for you when you create the team. There are many useful purposes for this channel:
 
-- Use this to share an overview of what the team wants to achieve such as a project charter or who's who in the team 
-- Use this channel for new team member onboarding and other high-level information that a new team member would find useful. 
-- Use it for announcements or configure the SharePoint News connector to post your modern status reports to this channel.  
+- Use it to share an overview of what the team wants to achieve, such as a project charter or a who's who in the team.
+- Use it for new team member onboarding and other high-level information that a new team member would find useful.
+- Use it for announcements, or configure the SharePoint News connector to post your modern status reports in this channel.  
 - For new or single purpose teams, it may be the only channel at the beginning as you decide how Teams can best support your goals.
 
 Currently, you cannot remove or unfavorite the General channel. When naming channels, remember that the channels will be ordered alphabetically after the General channel. In teams with many channels use the "Favorite a channel" feature to control the channels you automatically see when navigating to the team. 
