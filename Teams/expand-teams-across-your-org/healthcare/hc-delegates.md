@@ -50,10 +50,10 @@ Skype for Business doesn’t support expiry times for notes.
 
 Migration of notes from Skype for Business to Teams is not supported when a user is upgraded to TeamsOnly mode.
 
-## Configure feature
+## Configure allowing clients to use delegates
 
-This feature does not require configuration in Microsoft Teams admin center, or using PowerShell.
+This feature does not require configuration in Microsoft Teams admin center, or using PowerShell. In tenants that support it, it is available by default in the Teams client.
 
 ## Related topics
 
-[Coexistence with Skype for Business](../coexistence-chat-calls-presence.md)
+[Coexistence with Skype for Business](../../coexistence-chat-calls-presence.md)
