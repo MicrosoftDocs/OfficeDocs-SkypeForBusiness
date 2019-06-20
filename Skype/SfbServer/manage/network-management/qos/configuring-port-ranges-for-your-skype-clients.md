@@ -182,7 +182,7 @@ To create a Quality of Service audio policy for Windows 10 computers, first log 
 
 6.  In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy in the **Name** box. Select **Specify DSCP Value** and set the value to **46**. Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.
 
-7.  On the next page, make sure that **All applications** is selected, and then click **Next**. This setting instructs the network to look for all packets with a DSCP marking of 46, not just packets created by a specific application.
+7.  On the next page, select **Only applications with this executable name** and enter the name **Lync.exe**, and then click **Next**. This setting instructs the policy to only prioritize matching traffic from the Skype for Business client.
 
 8.  On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected, and then click **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent those packets and which computer (IP address) will receive those packets.
 
