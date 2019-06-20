@@ -111,8 +111,9 @@ A. No.
 
 Q. Can guests attach files?<br>
 A. Yes, a guest can attach files in these two ways:
-    - Select Files in the left pane, and then browse to the file location.
-    - Upload files from their computer.
+
+   - Select Files in the left pane, and then browse to the file location.
+   - Upload files from their computer.
 
 Q. Can a guest download a file in a private chat?<br>
 A. Yes, they can receive a file from a member in a private chat, and then download it to their desktop.

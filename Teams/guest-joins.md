@@ -28,7 +28,7 @@ Here's how a guest becomes a member of a team:
 
 - **Step 1** A team owner or an Office 365 admin [adds a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 
-- **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary: for example, allowing a guest to add or delete channels or disabling access to files.
+- **Step 2** The Office 365 admin or the team owner manages a guest's capabilities as necessary: for example, allowing a guest to add or delete channels or disabling access to files.
 
 - **Step 3** The guest receives a welcome email from the team owner, with information about the team and what to expect now that they're a member. Guest users who have an email address that belongs to an Azure Active Directory or Office 365 work or school account can accept the invitation directly. If the guest doesn’t yet have a Microsoft account associated with their email address, they will be directed to create one for free. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
 

@@ -19,7 +19,7 @@ appliesto:
 
 # User presence in Teams
 
-Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) – and indicates the user’s current availability and status to other users in the organization. By default, anyone in your organization using Teams can see - in nearly real time - whether or not other users are available online.
+Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) – and indicates the user’s current availability and status to other users in the organization. By default, anyone in your organization using Teams can see – in nearly real time – whether or not other users are available online.
 
 ## Presence states in Teams
 

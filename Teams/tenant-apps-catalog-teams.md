@@ -62,7 +62,7 @@ When you go back to your Tenant Apps Catalog, the new enterprise app will be the
 
 2. Navigate to the updated app package and select it, and then click **Open**.
 
-![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image04.png)
+    ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image04.png)
 
 The app will be revised to version 2.0. You can also delete the app for your entire company from this menu.
 
@@ -72,4 +72,4 @@ If you have apps that need bug fixes, you can temporarily disable apps through t
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image05.png)
 
-Disabling an app will block users from interacting with the app, without deleting the app entirely. These controls give admins additional flexibility and control when managing apps in your enterprise.
+Disabling an app will block users from interacting with the app, without deleting the app entirely. These controls give you additional flexibility and control when managing apps in your enterprise.
