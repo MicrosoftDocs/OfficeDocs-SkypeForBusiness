@@ -23,9 +23,9 @@ Best practices for organizing teams in Microsoft Teams
 > [!TIP]
 > Do you have a best practice or tip for using Teams? Share it with us in the **Comments** section at the end of this article.
 
-Teams are a collection of people who gather together around a common goal. This "tribe" of people may be within or across the organization.  What brings them together is the outcome they are driving toward. Members of this team may have different velocities of work or different behavior in creating assets for other team members.  In our experience they often collaborate quickly with each other lending to our term, "high velocity teamwork".  
+Teams are collections of people who gather together around a common goal. This group of people may be within a department or across the organization. What brings them together is the outcome they are driving toward. Members of a team work at a different pace or have different behavior in creating assets for other team members. In our experience they often collaborate quickly with each other, a process we call "high velocity teamwork."  
 
-Before creating a team in our product, it's a good practice to think about the goal, project, or work items and the organization’s people who can help deliver it collaboratively. Once created, add these people or groups to a team to start collaborating. It's a good idea to designate multiple owners for each team - see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Before creating a team in our product, it's a good practice to think about the goal, project, or work items and the organization’s people who can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Take a look at this short video to see some examples of how to structure cross-organizational or single purpose teams:
 
