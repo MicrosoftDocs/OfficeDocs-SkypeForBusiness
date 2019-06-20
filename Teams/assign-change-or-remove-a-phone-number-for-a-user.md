@@ -34,77 +34,55 @@ When you're setting up users so they can make and receive phone calls, you must 
 To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. **TBD**
+> One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated under **Calling plan**.  You can also use the Office 365 admin center.
   
  ## Assign a phone number to a user
-
-**TBD**
  
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
-1. Go to **Microsoft Teams admin center** > **Legacy portal**.
-    
-2. In the left navigation, click **Voice** > **Voice users**.
+1. In the left navigation, click **Voice** > **Voice users**.
    > [!NOTE]
-   > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
+   > For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
     
-3. On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.
+2. On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.
     
-4. In the Action pane, click **Assign number**.
+3. In the Action pane, click **Assign number**.
     
-5. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
+4. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
     
     > [!TIP]
     > If you don't see any phone numbers listed, you need to [get phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
-6. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
+5. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
     
-7. After you pick the phone number and emergency location, click **Save**.
+6. After you pick the phone number and emergency location, click **Save**.
     
     > [!NOTE]
     > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
  ## Change a phone number for a user
-
-**TBD**
  
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
-1. Go to **Microsoft Teams admin center** > **Legacy portal**.
-    
-2. In the left navigation, click **Voice** > **Voice users**.
-    
-3. On the **Voice users** page, locate and select the user or users that you want to change a phone number for.
-    
-4. In the Action pane, under **Assigned number**, click **Change**. 
-    
-5. On the **Assign number** page, click **Change number**.
-    
-6. On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number. 
-    
-7. To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
-    
-8. Click **Save**.
-    
+1. In the left navigation, click **Voice** > **Voice users**.
+2. On the **Voice users** page, locate and select the user or users that you want to change a phone number for.
+3. In the Action pane, under **Assigned number**, click **Change**. 
+4. On the **Assign number** page, click **Change number**.
+5. On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number.
+6. To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
+7. Click **Save**.
 
  ## Remove a phone number from a user
  
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-
-**TBD**
  
-1. Go to **Microsoft Teams admin center** > **Legacy portal**.
+1. In the left navigation, click **Voice** > **Voice users**.
+2. On the **Voice users** page, locate and select the user or users that you want to remove the phone number for.
+3. In the Action pane, under **Assigned number**, click **Remove**.
+4. On the **Remove selected assigned number?** page, click **Yes**.
     
-2. In the left navigation, click **Voice** > **Voice users**.
-    
-3. On the **Voice users** page, locate and select the user or users that you want to remove the phone number for.
-    
-4. In the Action pane, under **Assigned number**, click **Remove**. 
-    
-5. On the **Remove selected assigned number?** page, click **Yes**.
-    
-
 ## Related topics
+
 [What is address validation?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)

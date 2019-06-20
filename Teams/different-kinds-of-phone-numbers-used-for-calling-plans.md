@@ -25,11 +25,11 @@ description: Learn about the different phone number types that Teams uses for Ca
 
 # Different kinds of phone numbers used for Calling Plans
 
-Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the telephone number. Teams uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the Microsoft telephone number service desk.
+Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the telephone number. Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the Microsoft telephone number service desk.
   
-- **Subscriber numbers**
+- **User numbers**
     
-    Subscriber numbers are assigned to users, and there are two kinds:
+    User numbers are assigned to users, and there are two kinds:
     
   - **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
     
@@ -61,7 +61,4 @@ Microsoft Teams uses different telephone number types depending on the purpose f
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
-
-  
- 
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
