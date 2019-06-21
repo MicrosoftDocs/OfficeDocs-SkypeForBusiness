@@ -32,17 +32,17 @@ Teams includes the following policy packages.
 
 |**Package name**  |**Description** |
 |---------|---------|
-|Education_Teacher package     |Creates a set of policies and policy settings that apply to teachers in your organization.      |
-|Education_PrimaryStudent package    |Creates a set of policies and policy settings that apply to primary students in your organization.|
-|Education_SecondaryStudent package    |Creates a set of policies and policy settings that apply  to secondary students in your organization.         |
-|Education_HigherEducationStudent package    |Creates a set of policies and policy settings that apply to higher education students in your organization.|
+|Education_Teacher package     |Creates a set of policies and policy settings that apply to teachers.      |
+|Education_PrimaryStudent package    |Creates a set of policies and policy settings that apply to primary students.|
+|Education_SecondaryStudent package    |Creates a set of policies and policy settings that apply to secondary students.         |
+|Education_HigherEducationStudent package    |Creates a set of policies and policy settings that apply to higher education students.|
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
 
 ## Policies included in a policy package
 
-The following policies are created when you a policy package to users. Each individual policy includes the name of the policy package, for example, [add an example name here] so you can easily identify the policies that are linked to a policy package.
+The following policies are created when you assign a policy package to users. Each individual policy includes the name of the policy package, for example, [add an example name here] so you can easily identify the policies that are linked to a policy package.
 
 - **Messaging policy** - Messaging policies are used to control which chat and channel messaging features are available to users in Teams. [Learn more](messaging-policies-in-teams.md).
 - **Meeting policy** - Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization.  [Learn more](meeting-policies-in-teams.md).
@@ -61,7 +61,7 @@ It's important to know that the policies in a policy package aren't created unti
 You can view the settings of policies in a policy package before you assign it to users but you won't be able to make changes to any policy settings until after you assign the package.
 
 > [!IMPORTANT]
-> If a policy is deleted, you can still view the settings but you won't be able to make any changes to the settings of the policy. The deleted policy will be re-created when you assign the package.
+> If a policy is deleted, you can still view the settings but you won't be able to change any settings. The deleted policy will be re-created when you assign the policy package.
 
 ## View a policy in a policy package
 
