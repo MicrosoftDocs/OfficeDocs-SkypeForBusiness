@@ -67,7 +67,8 @@ Follow these steps to begin building your network plan:
 
     c. Add network details: WAN-enabled, WAN capacity, internet egress (**Local** or **Remote**), and PSTN egress (none, local, or remote).
 
-      > [!NOTE] You must add WAN and internet capacity numbers to see specific bandwidth recommendations when you generate a report.
+      > [!NOTE]
+      > You must add WAN and internet capacity numbers to see specific bandwidth recommendations when you generate a report.
 
     d. Click **Save**.
 
