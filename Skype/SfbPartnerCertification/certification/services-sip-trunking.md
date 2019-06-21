@@ -64,7 +64,6 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Netstream](http://www.netstream.ch/index.php?id=506) |Lync Connect|&#x2714;|
 |[Nuwave Communications, Inc.](https://www.nuwave.com/integration/skype-for-business.html) |NuWave Connect|&#x2714;|
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications) |Intelligent SIP Trunk| |
-|[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/) |Lync Trunking|&#x2714;|
 |[OneStream Networks](http://www.onestreamnetworks.com/Default.aspx?RD=3339) |Skype for Business SIP Trunking|&#x2714;|
 |[Orange Business Services](http://www.orange-business.com/en/voice-and-telephony) |Business Talk (SIP Trunking)| |
 |[Peerless Network](http://www.peerlessnetwork.com/enterprise-service/) |Enterprise SIP Trunking| |
