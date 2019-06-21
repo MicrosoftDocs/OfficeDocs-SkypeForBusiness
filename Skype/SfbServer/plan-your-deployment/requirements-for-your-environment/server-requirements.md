@@ -63,7 +63,7 @@ Once you have the hardware in place, you'll need to install operating systems (O
   
 |||
 |:-----|:-----|
-|Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
+|Windows Server 2019 (You need Skype for Business Cumulative Update 9 or later). <br/> |Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
 |Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
    
