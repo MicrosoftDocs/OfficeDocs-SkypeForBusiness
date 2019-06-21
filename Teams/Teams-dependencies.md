@@ -102,9 +102,9 @@ Teams relies on SharePoint Online and OneDrive for Business to store files and d
    
 To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:
 
-- In SharePoint Online: **Only allow sharing with external users already in the directory**
+- In SharePoint Online: **Existing guests**, **New and existing guests**, or **Anyone**
     
-    For more information, see [Manage external sharing for your SharePoint Online environment](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+    For more information, see [Turn external sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
     
 - In Office 365 groups: **Let group owners add people outside the organization to groups**
     
