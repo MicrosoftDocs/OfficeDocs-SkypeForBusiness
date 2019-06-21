@@ -129,6 +129,8 @@ You can have the following for failover clustering:
   
 Two-node:
   
+- Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack.
+
 - Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack.
 
 - Microsoft SQL Server 2016 Standard (64-bit edition) with Service Pack 1 or later. We recommend running with the latest service pack.
@@ -138,6 +140,8 @@ Two-node:
 -  Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.
 
 Sixteen-node:
+
+- Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 
 - Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 
