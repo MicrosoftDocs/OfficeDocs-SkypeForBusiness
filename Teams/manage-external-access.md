@@ -21,8 +21,6 @@ Manage external access (federation) in Microsoft Teams
 
 With Microsoft Teams external access, users from other domains can participate in your chats and calls. You can also allow external users who are still using Skype for Business Online or Skype for Business on-prem to participate.
 
-
-
 Use the steps in this article when:
   
 - You have users in different domains in your business: for example, Rob@ContosoEast.com and Ann@ContosoWest.com.
@@ -82,18 +80,17 @@ See the following table for a comparison of external and guest access features.
 
 ## Let your Teams users chat and communicate with users in another organization
 
-External access lets your Teams and Skype for Business users communicate with other users that are outside of your organization. By default, your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed but if you add allowed domains, all other domains will be blocked. You can easily set up external access for your organization. There are three scenarios to set it up:
+External access lets your Teams and Skype for Business users communicate with other users who are outside of your organization. By default, your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed but if you add allowed domains, all other domains will be blocked. You can easily set up external access for your organization. There are three scenarios for setting it up:
 
-**Scenario 1** - You can use **OPEN FEDERATION** - this is the default setting and let's people in your organization find, call, and send instant messages, as well as set up meetings with people external to your organization.
+- **Scenario 1** - You can use **OPEN FEDERATION**. This is the default setting and it lets people in your organization find, call, and send instant messages, as well as set up meetings with people external to your organization.
 
-When you use this set up, your users can communicate with ALL external domains that are running Teams but have set up their domain/organization to allow your domain.
+    When you use this set up, your users can communicate with ALL external domains that are running Teams but have set up their domain/organization to allow your domain.
 
-**Scenario 2** - You can add a domain or domains to the **ALLOW** list. Meaning click **Add a domain**, add the domain name and click **Action to take on this domain** then select **Allowed**. It's important to know that if you do this it will **BLOCK** all other domains.
+- **Scenario 2** - You can add a domain or domains to the **ALLOW** list. To do this, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Allowed**. It's important to know that if you do this it will **BLOCK** all other domains.
 
-**Scenario 3** - You can add a domain or domains to the **BLOCK** list. Meaning click **Add a domain**, add the domain name and click **Action to take on this domain** then select **Blocked**. It's important to know that if you do this it will **ALLOW** all other domains.
+- **Scenario 3** - You can add a domain or domains to the **BLOCK** list. To do this, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Blocked**. It's important to know that if you do this it will **ALLOW** all other domains.
 
-
-Follow these steps to allow or block domains:
+Follow these steps to allow or block domains.
 
 ### Step 1 - Enable your organization to communicate with another Teams organization
 
@@ -116,7 +113,7 @@ Follow these steps to allow or block domains:
 
 6. Make sure the admin in the other Teams organization completes these same steps. For example, in their **allowed domains** list, their admin needs to enter the domain for your business if they limit the organizations that can communicate with their users.
 
-### Step 3 - Test it
+### Step 2 - Test it
 
 To test your setup, you need a Teams user who's not behind your firewall.
   
