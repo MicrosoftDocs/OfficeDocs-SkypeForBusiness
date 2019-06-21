@@ -42,7 +42,7 @@ Effective October 1, 2019, StaffHub will be retired. We encourage you to start u
 
 ### What is moved to Teams
 
-When you move a StaffHub team, team membership, user details, team schedules, and chats are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate operation. 
+When you move a StaffHub team, team membership, user details, team schedules, and chat data are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate step.
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
@@ -68,10 +68,10 @@ Before you move a StaffHub team to Teams, make sure that:
 - Teams is enabled for all users in the tenant.
 - Office 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
-- The StaffHub team contains members. 
-- All StaffHub team members are linked to an Azure AD account. 
+- The StaffHub team contains members.
+- All StaffHub team members are linked to an Azure AD account.
 
-If these prerequisites aren't met, the move request will fail. 
+If these prerequisites aren't met, the move request will fail.
 
 ### Assign Teams licenses
 
@@ -86,11 +86,16 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
 
-### Provision an account for StaffHub team members that aren't linked to an Azure AD account
+### Link an Azure AD account for StaffHub team members who don't have one
 
-Each manager and team member on a StaffHub team must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, link an account for them. Here's how.
+Each StaffHub team member must be linked to an Azure Active Directory (Azure AD) account. Users in your organization won't be linked to an Azure AD account if any of the following scenarios apply:
 
-#### Get a list of all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
+- A team owner added a user who doesn't have an Azure AD account.
+- A team owner invited a user to a StaffHub team and that user didn't accept the invitation.
+
+You can link an Azure AD account for these users.  Here's how.
+
+#### Get a list of all users on StaffHub teams that have team members that aren't linked to an Azure AD account
 
 Run the following:
 ```
@@ -103,15 +108,15 @@ foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where
 
 Do one of the following:
 
-- Convert and link the account to a provisioned account.
+- Convert and link the account.
 
-  StaffHub team owners and managers can convert an inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+  StaffHub team owners and managers can convert an inactive account and link it to an Azure AD account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
 
-- Remove the non-provisioned account and then re-add the account by using the UPN.
+- Remove the unlinked account and then re-add the account by using the UPN.
     1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
     2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
-- Remove the user account. Use this option the user account isn't needed.
+- Remove the unlinked user account. Use this option the user account is no longer needed.
 
 ### Assign the FirstlineWorker app setup policy to users
 
