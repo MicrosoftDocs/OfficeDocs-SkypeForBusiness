@@ -42,7 +42,7 @@ Effective October 1, 2019, StaffHub will be retired. We encourage you to start u
 
 ### What is moved to Teams
 
-User details, schedule information, and chat data are transitioned to Teams. When you move a StaffHub team, team membership, team schedules, and chats are moved to Teams. Files aren't moved when you move a StaffHub team. You move the files that you want to keep separately.
+When you move a StaffHub team, team membership, user details, team schedules, and chats are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate operation. 
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
