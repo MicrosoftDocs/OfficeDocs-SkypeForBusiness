@@ -639,10 +639,11 @@
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Set a delegate in a status message](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
