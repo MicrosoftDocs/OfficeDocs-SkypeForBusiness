@@ -17,7 +17,7 @@ description: Microsoft Teams Patients app EHR integration
 
 # Integrating Electronic Healthcare Records into Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 To participate in the private preview, see [Enroll in the private preview](#enroll-in-the-private-preview).
 
@@ -66,7 +66,50 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
 4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
 5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server as in this example:
 
-![Screen shot of token URL in a code sample](../../media/Patient-app-5.png)
+* * *
+    {
+        "resourceType": "CapabilityStatement",
+        .
+        .
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                .
+                .
+                .
+            }
+        ]
+    }
+
+* * *
 
 A request for an access token consists of the following parameters:
 
