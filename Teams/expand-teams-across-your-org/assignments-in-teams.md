@@ -19,8 +19,6 @@ appliesto:
 
 # Assignments in Teams for Education
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
-
 Assignments are tasks or units of work assigned to a student or team member in a class as part of their study. You can create assignments within your Teams class.
 
 [Learn more about Assignments](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
@@ -31,6 +29,8 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
 
 This setting is off by default.
@@ -43,10 +43,11 @@ This is a third party product or service that is subject to its own terms and
 
 This setting is off by default.
 
-[Learn more about MakeCode](https://www.microsoft.com/${locale}/makecode)
+[Learn more about MakeCode](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
 
