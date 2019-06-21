@@ -61,16 +61,16 @@ Follow these steps to begin building your network plan:
 
     To create a site:
 
-    a. Add a name and description for your site.
+    1. Add a name and description for your site.
 
-    b. Under **Network settings**, add the number of network users at that site (required).
+    2. Under **Network settings**, add the number of network users at that site (required).
 
-    c. Add network details: WAN-enabled, WAN capacity, internet egress (**Local** or **Remote**), and PSTN egress (none, local, or remote).
+    3. Add network details: WAN-enabled, WAN capacity, internet egress (**Local** or **Remote**), and PSTN egress (none, local, or remote).
 
       > [!NOTE]
       > You must add WAN and internet capacity numbers to see specific bandwidth recommendations when you generate a report.
 
-    d. Click **Save**.
+    4. Click **Save**.
 
 ## Create a report
 
