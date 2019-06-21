@@ -670,9 +670,12 @@
 
 ## [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 
-## [Upgrade from Skype for Business hybrid or on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## Upgrade from Skype for Business hybrid or on-premises to Teams
+### [Overview](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+### [Plan and configure hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+### [Cloud consolidation](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation)
 
-## Connect your on-premises telephony network to Teams (Direct Routing)
+## [Connect your on-premises telephony network to Teams](direct-routing-plan.md)
 
 
 
