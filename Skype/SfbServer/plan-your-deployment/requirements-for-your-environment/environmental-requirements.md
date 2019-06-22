@@ -250,7 +250,7 @@ So that's a lot to think about, and definitely, there's a variety of comfort lev
   
 ### Certificates for your internal servers
 
-You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's one located in your domain). If you want to, you can request these certificates from an external CA (one located on the internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](https://support.microsoft.com/kb/929395/en-us) list.
+You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's one located in your domain). If you want to, you can request these certificates from an external CA (one located on the internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](https://support.microsoft.com/help/2667698/lync-server-2010-certificate-requirements-for-user-access) list.
   
 You're also going to need certificates when Skype for Business Server 2015 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate these other apps and servers can use in a supported way. Skype for Business Server 2015 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2015.
   
