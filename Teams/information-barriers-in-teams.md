@@ -1,7 +1,7 @@
 ---
 title: Information barriers in Microsoft Teams preview
-author: LolaJacobsen
-ms.author: lolaj
+author: @MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.date: 06/17/2019
 ms.topic: article
