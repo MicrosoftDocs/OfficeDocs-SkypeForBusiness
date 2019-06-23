@@ -20,7 +20,7 @@ appliesto:
 
 View guest users in a team
 ==========================
-Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams. [See who's on a team or in a channel ](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.
+Anyone in a team can see all members of a team, including guests, via **Manage team** in Microsoft Teams. [See who's on a team or in a channel](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) has more details.
 
 To identify guest users:
 

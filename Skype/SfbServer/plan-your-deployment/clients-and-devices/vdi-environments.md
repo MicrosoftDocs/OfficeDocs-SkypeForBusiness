@@ -44,7 +44,7 @@ Review the following links for more information:
   
 - Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
-- [Technical Overview ](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
+- [Technical Overview](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
 - [CTX200279 Skype for Business Feature Support](https://support.citrix.com/article/CTX200279)
     
@@ -157,7 +157,7 @@ There is no support for the following features:
 The Lync VDI plug-in is not supported in an Office 365 environment.
   
 > [!NOTE]
-> The Citrix RealTime Optimization Pack does support Office 365. For Citrix-based virtual environments, review Citrix's [Technical Overview ](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) documentation for the list of supported features and versions.
+> The Citrix RealTime Optimization Pack does support Office 365. For Citrix-based virtual environments, review Citrix's [Technical Overview](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) documentation for the list of supported features and versions.
   
 ## See also
 <a name="Citrix_RT"> </a>
