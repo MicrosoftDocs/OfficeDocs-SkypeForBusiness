@@ -43,7 +43,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
         </div>
         </a>
     </li>
-  <li>
+  <li> 
         <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">

@@ -95,7 +95,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                          <p><a href="teams-in-30-training.md">Live, interactive workshops designed to get you going on Teams in just 30 days.</a></p>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </li><li>    <li>
         <div class="cardSize">
