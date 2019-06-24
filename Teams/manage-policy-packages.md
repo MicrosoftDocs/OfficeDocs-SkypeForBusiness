@@ -58,12 +58,11 @@ Policy packages let you control features that you want to allow or restrict for 
 
 ![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
 
-It's important to know that the policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the policy package.
+It's important to know that the policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the  package.
 
-You can view the settings of policies in a policy package before you assign it to users but you won't be able to make changes to any policy settings until after you assign the package.
+You can view the settings of policies in a policy package before you assign it but you won't be able to make changes to any policy settings until after you assign the package.
 
-> [!IMPORTANT]
-> If a policy is deleted, you can still view the settings but you won't be able to change any settings. The deleted policy will be re-created when you assign the policy package.
+ If a policy is deleted, you can still view the settings but you won't be able to change any settings. The deleted policy is re-created with the default settings when you assign the policy package.
 
 ## View a policy in a policy package
 
@@ -78,7 +77,11 @@ You can view the settings of policies in a policy package before you assign it t
 
 ## Edit a policy in a policy package
 
-You can edit the settings of each policy using the Policy packages icon or by going to the policy page in the left navigation of the Teams admin center.
+You can edit the settings of each policy using the policy packages icon or by going to the policy page in the left navigation of the Teams admin center.
+
+### Using the policy packages icon
+
+### Using the policy page
 
 
 ## Related topics
