@@ -1374,6 +1374,12 @@
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/set-up-phone-system-voicemail", 
-      "redirect_document_id": true   }
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams/let-your-teams-users-communicate-with-other-people.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-external-access", 
+      "redirect_document_id": true
+     }
   ] 
 }
