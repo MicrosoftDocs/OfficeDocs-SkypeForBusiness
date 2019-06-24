@@ -105,7 +105,7 @@ In addition you must ensure the following:
 
     If you are using Lync Server 2013, see [Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
-- **(Recommended) Active Directory Federation Services (AD FS)** We recommend deploying AD FS to support Single Sign-on. For more information, see [Active Directory Federation Services (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
+- **(Recommended) Active Directory Federation Services (AD FS).** We recommend deploying AD FS to support Single Sign-on. For more information, see [Active Directory Federation Services (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
 For information about deploying Phone System in Office 365, see [Enable users for Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](enable-users-for-phone-system.md).
 
