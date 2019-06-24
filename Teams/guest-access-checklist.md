@@ -23,6 +23,9 @@ Teams guest access checklist
 
 Use this checklist to help you enable and configure the guest access feature in Microsoft Teams according to the preferences of your organization.
 
+> [!NOTE] 
+> For collaboration restrictions see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+
 ## Understand the limitations for guests
 
 The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
