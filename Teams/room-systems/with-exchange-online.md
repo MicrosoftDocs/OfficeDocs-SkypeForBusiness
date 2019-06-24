@@ -28,7 +28,10 @@ The easiest way to set up user accounts is to configure them using remote Window
 
 Before you deploy Microsoft Teams Rooms with Exchange Online, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
   
-To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets.
+To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets. 
+
+   > [!NOTE]
+   >  These commands have been tested in setting up accounts for room system devices. It’s possible other commands would work, but they have not been tested for this specific scenario.
   
 ### Create an account and set Exchange properties
 
