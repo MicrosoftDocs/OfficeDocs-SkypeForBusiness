@@ -26,9 +26,9 @@
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
-## [User presence in Teams](presence-admins.md)
-## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## [Archive or delete a team](archive-or-delete-a-team.md)
+## [Overview of dynamic membership for teams](dynamic-memberships.md)
+## [Presence](presence-admins.md)
+## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
 
@@ -70,8 +70,8 @@
 ### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-### [Turn on inline message translation](inline-message-translation-teams.md)
+### [Manage external access](manage-external-access.md)
+### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 
 ### Teams analytics and reporting in the Microsoft Teams admin center
@@ -643,7 +643,7 @@
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Set a delegate in a status message](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
