@@ -54,7 +54,7 @@ For example, when you assign the Education_Teacher policy package to teachers in
 
 ## How to use policy packages
 
-Policy packages let you control features that you want to allow or restrict for specific sets of people across your organization. The following outlines how to use a policy package in your organization.
+Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. The following outlines how to use a policy package in your organization.
 
 ![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
 
@@ -86,6 +86,6 @@ You can edit the settings of each policy using the policy packages icon or by go
 
 ### Using the policy page
 
-1. In the left navigation of the Microsoft Teams admin center, click the policy type that you want to change. For example, **Messaging policy**. 
+1. In the left navigation of the Microsoft Teams admin center, click the policy type that you want to change. For example, **Messaging policies**. 
 2. Click the policy that you want to edit.  For example, **Education_Teacher**.
 3. Make the changes that you want, and then click **Save**.
