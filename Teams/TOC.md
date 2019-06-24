@@ -26,8 +26,7 @@
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
-## [Overview of dynamic membership for teams](dynamic-memberships.md)
-## [Presence](presence-admins.md)
+## [User presence in Teams](presence-admins.md)
 ## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
@@ -50,7 +49,7 @@
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
 ### [Authorize guest access in Teams](teams-dependencies.md)
-### [Turn on or off guest access to Teams](set-up-guests.md)
+### [Turn on or turn off guest access in Teams](set-up-guests.md)
 ### [Manage guest access in Teams](manage-guests.md)
 ### [Add a guest to a team](add-guests.md)
 ### [View guest users in a team](view-guests.md)
