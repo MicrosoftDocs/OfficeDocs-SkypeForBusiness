@@ -91,6 +91,17 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Teams in 30</h3>
+                         <p><a href="teams-in-30-training.md">Live, interactive workshops designed to get you going on Teams in just 30 days.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
                     </div>
