@@ -64,27 +64,27 @@ You can view the settings of policies in a policy package before you assign it b
 
 If a policy is deleted, you can still view the settings but you won't be able to change any settings. The deleted policy is re-created with the default settings when you assign the policy package.
 
-## View a policy in a policy package
+### View the settings of a policy in a policy package
 
 1. In the left navigation of the Microsoft Teams admin center, click **Policy package**, and then select a policy package.
-2. 
+2. Click the policy that you want to view.
 
-## Assign a policy package
+### Assign a policy package
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Policy package**, and then select the policy package that you want to assign. 
 2. Click **Manage users**.
 3. 
 
-## Edit a policy in a policy package
+### Edit a policy in a policy package
 
 You can edit the settings of each policy using the policy packages icon or by going to the policy page in the left navigation of the Teams admin center.
 
-### Using the policy packages icon
+#### Using the policy packages icon
 
 1.
 2.
 
-### Using the policy page
+#### Using the policy page
 
 1. In the left navigation of the Microsoft Teams admin center, click the policy type that you want to change. For example, **Messaging policies**. 
 2. Click the policy that you want to edit.  For example, **Education_Teacher**.
