@@ -26,7 +26,7 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Office 365 app launcher. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
+Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Office 365 app launcher in existing tenants. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
 
 #### What will happen once StaffHub is retired?
 

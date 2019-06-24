@@ -2,6 +2,11 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/customize-meeting-invitations.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams",
+      "redirect_document_id": true 
+      },
+    {
       "source_path": "Teams/upgrade-introduction.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here",
       "redirect_document_id": true 
@@ -1381,5 +1386,9 @@
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page", 
       "redirect_document_id": true 
     }
+      "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-external-access", 
+      "redirect_document_id": true
+     }
   ] 
 }

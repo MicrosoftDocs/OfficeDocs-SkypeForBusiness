@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/25/2019
+ms.date: 5/10/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection: 
@@ -25,7 +25,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|	
 |:-----|:-----|:-----|:-----|
-|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/> |To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
+|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/><br/> Resource Accounts configured using New-CsHybridApplicationEndpoint with Skype for Business Server will not have the Department parameter set properly which will cause the resource account creation in Skype for Business online to fail. In this case, you need to configure the department name in Active Directory before synchronizing to online.|To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
 
 
 
@@ -209,10 +209,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to use fun picker or Giphys or stickers in mobile app  <br/> |You can't use gifs, emojis or stickers on the mobile clients.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
 |Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 
@@ -270,6 +266,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |File download failure <br/> |Attempting to download a file when the file path contains an apostrophe will trigger a "The file didn't download" failure when using the Microsoft Teams desktop client. <br/> |Download the file from the web client or SharePoint Online <br/> |5/10/2019  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to upload or download OneNote file <br/> |Attempting to upload or download a OneNote file or notebook will fail using Microsoft Teams. <br/> |Download or upload the file directly in SharePoint Online <br/> |5/7/2019  <br/> |
 
 ## Teams
 

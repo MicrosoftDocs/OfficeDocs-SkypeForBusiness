@@ -27,7 +27,6 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
-## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
@@ -70,7 +69,7 @@
 ### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+### [Manage external access](manage-external-access.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 
@@ -90,8 +89,7 @@
 ## [Plan your deployment](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meeting policies](meeting-policies-in-teams.md)
-## [Manage meetings settings](meeting-settings-in-teams.md)
-## [Customize meeting invitations](customize-meeting-invitations.md)
+## [Manage meetings settings](meeting-settings-in-teams.md
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -640,10 +638,11 @@
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [Teams for Healthcare](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)

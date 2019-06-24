@@ -21,7 +21,7 @@ appliesto:
 > [!Tip] 
 > Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
 
-As an organization with Skype for Business starts to adopt Teams, administrators can manage the user experience in their organization using the concept of coexistence "mode" which is a property of TeamsUpgradePolicy. Using mode, administrators manage interop and migration as they manage the transition from Skype for Business to Teams.  A user's mode determines in which client incoming chats and calls land as well as in what service (Teams or Skype for Business) new meetings are scheduled. In the future, mode will also be used to define Teams client behavior in terms of what functionality will be available. 
+As an organization with Skype for Business starts to adopt Teams, administrators can manage the user experience in their organization using the concept of coexistence "mode" which is a property of TeamsUpgradePolicy. Using mode, administrators manage interop and migration as they manage the transition from Skype for Business to Teams.  A user's mode determines in which client incoming chats and calls land as well as in what service (Teams or Skype for Business) new meetings are scheduled. It also governs what functionality is available in the Teams client. 
 
 
 ## Fundamental concepts
@@ -148,12 +148,6 @@ When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsColl
 
 > [!Note] 
 > - Prior to delivery of the automatic enforcement of Teams and Channels, the SfbOnly and SfBWithTeamsCollab modes behave the same.
-
-
-
-## TeamsInteropPolicy has been retired 
-
-TeamsInteropPolicy has been replaced by TeamsUpgradePolicy. All components that previously honored TeamsInteropPolicy have been updated to honor TeamsUpgradePolicy instead. Microsoft had previously introduced the “Legacy” mode in TeamsUpgradePolicy to facilitate the transition from TeamsInteropPolicy to TeamsUpgradePolicy. In Legacy mode, routing components that understood TeamsUpgradePolicy would revert back to TeamsInteropPolicy. Routing now fully supports TeamsUpgradePolicy. Legacy mode is no longer supported and it is no longer possible to grant Legacy mode. All instances of TeamsInteropPolicy are in the process of being removed.
 
 
 ## Detailed mode descriptions
