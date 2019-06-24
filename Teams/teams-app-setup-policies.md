@@ -40,6 +40,8 @@ You can edit the settings in the global policy to include the apps that you want
 
 ![Screen shot showing the App setup policies page](media/app-setup-policies.png)
 
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
+
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
 
