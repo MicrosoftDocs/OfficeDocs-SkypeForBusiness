@@ -14,7 +14,6 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
@@ -44,7 +43,4 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
   
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)  **TBD**
- 
-  
- 
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)  

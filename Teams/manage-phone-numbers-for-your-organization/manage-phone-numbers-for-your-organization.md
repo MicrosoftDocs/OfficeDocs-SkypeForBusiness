@@ -33,7 +33,7 @@ There are three ways to get both user and service (toll and toll-free) numbers f
 - Transfer or "port" your existing numbers over to us.
 
 > [!IMPORTANT]
-> **TBD** In Belgium, Ireland, Germany, and the Netherlands, you can't get phone new phone numbers using the Microsoft Teams admin center. You have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
+> In Belgium, Ireland, Germany, and the Netherlands, you can't get phone new phone numbers using the Microsoft Teams admin center. You have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
 
 ***
 If you know what kind of forms you are looking for use the drop-down to select the country/region where you're getting numbers.
@@ -68,7 +68,7 @@ If you need to transfer phone numbers, you'll to download a **Letter of Authoriz
 - User numbers that you already have from another carrier.
 - Service (toll) numbers for audio conferencing bridges, auto attendants or call queues.
 - Service (toll-free) phone numbers.
-- You have more than 999 user phone numbers that you need to get but can't get in the Microsoft Teams admin center using the use the Local Number Porting wizard.  **TBD**
+- You have more than 999 user phone numbers that you need to get but can't get in the Microsoft Teams admin center using the use the Local Number Porting wizard.
 
 ## If you still need help and aren't sure what to do....
 

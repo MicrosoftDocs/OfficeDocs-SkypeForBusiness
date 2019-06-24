@@ -14,7 +14,6 @@ ms.collection:
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
-- Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
@@ -43,8 +42,6 @@ You must use the **Get phone numbers** page to see, search, get, and reserve tho
 ## Get new phone numbers for your users
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-
-**TBD**
     
 1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Get new numbers**.
     
@@ -81,11 +78,11 @@ In the left navigation, go to **Voice** > **Phone numbers** to view the numbers 
   
 ## What else do you need to know about users' phone numbers?
 
-- To get phone numbers, you must use the **Add new user numbers** page to see, search, and reserve those numbers. You can search by Country/Region, State/Region and City and then enter the number of phone numbers you'll need for your users. **TBD**
+- To get phone numbers, you must use the **Add new user numbers** page to see, search, and reserve those numbers. You can search by Country/Region, State/Region and City and then enter the number of phone numbers you'll need for your users. 
     
 - After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- You can use the **Phone numbers** page to see the list of available phone numbers in the **Number** column, see whether the phone number has been assigned in the **Assigned** column, and see the location for the phone number in the **Number location** column. **TBD**
+- You can use the **Phone numbers** page to see the list of available phone numbers in the **Number** column, see whether the phone number has been assigned in the **Assigned** column, and see the location for the phone number in the **Number location** column. 
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -100,7 +97,4 @@ In the left navigation, go to **Voice** > **Phone numbers** to view the numbers 
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) **TBD**
-
-  
- 
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
