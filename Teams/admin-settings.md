@@ -29,7 +29,9 @@ Apps provide out-of-the-box tools for your organization to get more out of Teams
 
 In **Teams apps** in the Microsoft Teams admin center, you can set policies to manage apps for your organization. For example, you can set policies to customize Teams by pinning the apps that are most important for your users.
 
-We're continually improving the app experience in Teams and adding features and functionality. Over time, we'll be building additional app management capabilities so check back for the most up-to-date information on app policies.
+We're continually improving the app experience in Teams and adding features and functionality. Over time, we'll be building additional app management capabilities, so check back for the most up-to-date information on app policies.
+
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
 
 ## App setup policies
 

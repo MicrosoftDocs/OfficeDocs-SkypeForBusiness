@@ -133,15 +133,12 @@ Use the following table to capture your organization’s networking details and 
 > | How do (or how will) the users in scope for migration <br>access Teams when they’re in the office? <br/>Select all that apply. | <input type="checkbox"> Routed NAT connection <br/> <input type="checkbox"> Proxy server <br/> <input type="checkbox"> Public Wi-Fi <br/> <input type="checkbox"> Managed (not public) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft peering) ||
 > | If access to Office 365 is through a proxy server, is there <br>any way to bypass the proxy? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Is ExpressRoute being used today? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> No, but it’s being planned | |
-> | Have you performed a Network Readiness Assessment? <br/>For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Have you performed a Network Readiness Assessment? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Are users required to use a VPN when connecting to <br>corporate resources remotely? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | If a VPN is used, can Teams traffic be excluded from <br>the VPN to access Office 365 Services directly? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Does your network support QoS? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Can you prioritize Teams audio and video traffic <br>to drive a high-quality experience? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Do all locations within a region have internet egress, <br>or is internet egress centralized for the entire region? | <input type="checkbox"> Regional access to the internet <br/> <input type="checkbox"> Centralized access to the internet | |
-
-> [!TIP]
-> To calculate the amount of bandwidth and other network requirements for your cloud voice deployment, depending your organization’s details and estimated usage, visit [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
 ## Endpoints
 

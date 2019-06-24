@@ -97,10 +97,6 @@ _Sample meeting/conference room inventory_
 | London HQ | Curie         | Medium        | 6&ndash;12                  | Yes          | Speakerphone                        | 1 screen, audio and video plus presentation<br>PSTN Access |
 | Sydney HQ | Hill          | Large         | 12&ndash;16                 | Yes          | Legacy AV unit, 1 screen and camera | 2 screens, audio and video plus presentation<br>PSTN Access |
 
-**Pro Tip** – If you have many sites to inventory, you might want to download
-and use the [Site Rollout and Migration Planning - Site
-Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15).
-
 ## Device selection 
 
 Evaluate which Microsoft Teams Rooms solution is the most suitable for each room based on the future capabilities you want for the room. Decide which AV peripheral devices are the best fit, depending on room size and layout. 
@@ -125,7 +121,7 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 | Medium 18' by 20'    | 6&ndash;12                  |                                  |                         |                 |
 | Large 15' by 32'     | 12&ndash;16                 |                                  |                         |                 |
 
-**Pro Tip –** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you’ve chosen. We recommend that you work with your vendor to discuss completing the design template to capture information that will be relevant to your deployment; you can [download this handy template](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) from MyAdvisor. 
+**Pro Tip –** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you’ve chosen.
 
 ## Procurement 
 
