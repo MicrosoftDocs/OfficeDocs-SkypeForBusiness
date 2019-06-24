@@ -33,43 +33,35 @@ When you're setting up users so they can make and receive phone calls, you must 
 To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated under **Calling plan**.  You can also use the Office 365 admin center.
+> One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Office 365 admin center.
   
  ## Assign a phone number to a user
  
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
-1. In the left navigation, click **Voice** > **Voice users**.
+1. In the left navigation, click **Voice** > **Phone numbers**.
    > [!NOTE]
    > For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license. 
-    
-2. On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.
-    
-3. In the Action pane, click **Assign number**.
-    
-4. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
-    
-    > [!TIP]
-    > If you don't see any phone numbers listed, you need to [get phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
-  
-5. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
-    
-6. After you pick the phone number and emergency location, click **Save**.
-    
+2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
+3. In the **Edit** pane, under **Asigned to**, search for the user by display name or user name, and then click **Assign**. 
+4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location. 
+6. Click **Save**.
     > [!NOTE]
-    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
+    > Because of the latency between Office 365 and Teams, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
  ## Change a phone number for a user
  
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
-1. In the left navigation, click **Voice** > **Voice users**.
-2. On the **Voice users** page, locate and select the user or users that you want to change a phone number for.
-3. In the Action pane, under **Assigned number**, click **Change**. 
-4. On the **Assign number** page, click **Change number**.
-5. On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number.
-6. To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
-7. Click **Save**.
+1. In the left navigation, click **Voice** > **Phone numbers**.
+2. 
+
+1. On the **Voice users** page, locate and select the user or users that you want to change a phone number for.
+1. In the Action pane, under **Assigned number**, click **Change**. 
+1. On the **Assign number** page, click **Change number**.
+1. On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number.
+1. To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
+1. Click **Save**.
 
  ## Remove a phone number from a user
  
@@ -89,6 +81,3 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 

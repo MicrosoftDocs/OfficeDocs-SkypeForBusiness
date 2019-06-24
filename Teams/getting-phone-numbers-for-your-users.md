@@ -46,7 +46,7 @@ You must use the **Get phone numbers** page to see, search, get, and reserve tho
 1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Get new numbers**.
     
     > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 2. Enter a name for the order and if you want, add a description.
 3. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
@@ -56,10 +56,11 @@ You must use the **Get phone numbers** page to see, search, get, and reserve tho
     2. Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
 4. Select the numbers you want. You can click **Show numbers** to see the full list of phone numbers. This is helpful is you don't want to select a specific phone number in the list.
 
-You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
+    You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 
- > [!NOTE]
+   > [!NOTE]
     > You can see the number of phone numbers, which is based on the number of licenses, listed next to **Total user numbers you can acquire**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
+
 5. When you're ready to place your order, click **Place order**.
     
     > [!IMPORTANT]
@@ -73,16 +74,17 @@ You have 10 minutes to select your phone numbers and place your order. If you ta
     
 ## Show phone numbers for your organization
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** 
+
 In the left navigation, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
   
 ## What else do you need to know about users' phone numbers?
 
-- To get phone numbers, you must use the **Add new user numbers** page to see, search, and reserve those numbers. You can search by Country/Region, State/Region and City and then enter the number of phone numbers you'll need for your users. 
+- To get phone numbers, you must use the **Get phone numbers** page to see, search, and reserve those numbers. You can search by Country/Region, State/Region and City and then enter the number of phone numbers you'll need for your users. 
     
 - After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- You can use the **Phone numbers** page to see the list of available phone numbers in the **Number** column, see whether the phone number has been assigned in the **Assigned** column, and see the location for the phone number in the **Number location** column. 
+- You can use the **Phone numbers** page to see the list of available phone numbers in the **Phone number** column, see whether the phone number has been assigned in the **Status** column, and see the location for the phone number in the **Location** column. 
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
