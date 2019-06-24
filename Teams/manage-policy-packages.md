@@ -44,7 +44,7 @@ The following policies are created when you assign a policy package to users. Ea
 
 - **Messaging policy** - Messaging policies are used to control which chat and channel messaging features are available to users in Teams. [Learn more](messaging-policies-in-teams.md).
 - **Meeting policy** - Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization.  [Learn more](meeting-policies-in-teams.md).
-- **App setup policy** - App setup policies let you customize Teams to highlight the apps that are most important for your users. You choose the apps that you want to pin to the app bar in Teams clients. [Learn more] (teams-app-setup-policies.md).
+- **App setup policy** - App setup policies let you customize Teams to highlight the apps that are most important for your users. You choose the apps that you want to pin to the app bar in Teams clients. [Learn more](teams-app-setup-policies.md).
 - **Calling policy** - Calling policies control which calling and call forwarding features are available to users. [Learn more](teams-calling-policy.md).
 - **Live events policy** - Live event policies are used to control what features available to users who hold live events in your organization. [Learn more](teams-live-events/set-up-for-teams-live-events.md).
 
