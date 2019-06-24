@@ -15,11 +15,15 @@ ms.reviewer: acolonna
 description: A user can explicitly set another user as a delegate in their status message. 
 ---
 
-# Set a delegate in a status message
+# Message delegation
 
-A user can already explicitly set their status to Away or Do not Disturb, and provide custom text. The delegation feature allows them to @username mention another user in part of a text status message, and suggest that while they are unavailable people who want to contact them contact the @username mentioned user instead. Someone trying to contact them can then hover over the nominated delegate and easily message them instead.  The person who has been assigned as a delegate is notified that they were nominated to be a delegate.
+A user can already explicitly set their status to Away or Do not Disturb, and provide custom text. The message delegation feature works as follows:
 
-This is a user-initiated process in the client, and no Admin involvement is required.
+1. A user @username mentions another user in part of a text status message, suggesting that while they are unavailable people who want to contact them instead contact the @username mentioned user.
+2. The person who has been assigned as a delegate is notified that they were nominated to be a delegate.
+3. Someone trying to contact the first user can then hover over the nominated delegate and easily message the delegate instead.  
+
+This is a user-initiated process in the client, and no Admin involvement is required to enable the feature. 
 
 ## Delegation use scenario in Healthcare
 
@@ -29,7 +33,7 @@ This is a user-initiated process in the client, and no Admin involvement is requ
 
 ## Impact of co-existence modes on user status in the Teams client
 
-Admins should be aware that status notes and delegation mentions will depend partly on a user’s co-existence mode. This matrix shows the possibilities:
+Admins should be aware that status notes and delegation mention behaviors will depend partly on a user’s co-existence mode. This matrix shows the possibilities:
 
 |Co-Existence Mode | Expected Behavior|
 |---|---|
@@ -44,15 +48,11 @@ A user can only set a note in Teams if their mode is TeamsOnly or Islands.
   
 There is no visual indication that a note was set from Skype for Business.
 
-Skype for Business doesn’t enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (…) at the end indicates truncation.
+Skype for Business doesn’t enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (…) at the end of a note indicates truncation.
   
 Skype for Business doesn’t support expiry times for notes.
 
 Migration of notes from Skype for Business to Teams is not supported when a user is upgraded to TeamsOnly mode.
-
-## Configure allowing clients to use delegates
-
-This feature does not require configuration in Microsoft Teams admin center, or using PowerShell. In tenants that support it, it is available by default in the Teams client.
 
 ## Related topics
 
