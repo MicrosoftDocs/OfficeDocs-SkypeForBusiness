@@ -3,7 +3,7 @@ title: Use the Network Planner for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/21/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
@@ -26,7 +26,9 @@ Welcome to the Network Planner. In just a few steps, the Network Planner can hel
 Network Planner allows you to:
 
 - Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system).
-NOTE: The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the two recommended personas.
+
+    > [!NOTE]The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the three recommended personas.
+
 - Generate reports and calculate bandwidth requirements for Teams usage.
 
 ## Create a custom persona
