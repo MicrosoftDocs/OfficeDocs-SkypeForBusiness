@@ -55,13 +55,13 @@ See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powers
 
 - If you want to reset the PIN, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
     
-- If anonymous access, or not requiring a PIN to start a meeting, is enabled:
+- If anonymous access, or not requiring a PIN to start a meeting, is disabled:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller will be prompted if he's the organizer; if he says yes, he'll be prompted for his PIN, and after he inputs the PIN, the meeting will start and the user will join the meeting.
     
   - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if he's the organizer and he'll never be prompted for the PIN; the meeting is already started, and the caller will join it.
     
-- If anonymous access, or not requiring a PIN to start a meeting, is disabled:
+- If anonymous access, or not requiring a PIN to start a meeting, is enabled:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
