@@ -1385,10 +1385,11 @@
       "source_path": "Teams/onboarding-test-plan-for-enterprises-phone-system.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page", 
       "redirect_document_id": true 
-    }
+    },
+    {
       "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-external-access", 
-      "redirect_document_id": true
-     }
+      "redirect_document_id": true 
+    }
   ] 
 }
