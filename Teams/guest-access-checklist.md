@@ -37,7 +37,7 @@ The guest experience has limitations by design. Make sure you understand the gue
 - Upload files to a person-to-person chat
 - Guests can still search and find users (outside their team) if they know the user's full email ID. To prevent this, IT admins can use patterns like [scoped directory search](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) that have the ability to restrict Guests into their own virtual GAL.
 
-For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 Groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 ### Guest access vs. external access (federation)
 
@@ -78,9 +78,9 @@ For more information, see [Authorize guest access in Microsoft Teams](Teams-depe
 2. Make sure **Let group members outside the organization access group content** is set to **On**. If this setting is turned off, guests won't be able to access any group content.
 3. Make sure **Let group owners add people outside the organization to groups** is set to **On**. If this setting is turned off, Team owners won't be able to add new guests. At a minimum, this setting must be On to support guest access.
 
-     ![Screenshot shows the Office 365 groups toggles](media/guest-access-checklist-office365.png)
+     ![Screenshot shows the Office 365 Groups toggles](media/guest-access-checklist-office365.png)
 
-For detailed instructions about configuring these settings, see [Manage guest access in Office 365 groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## □ Step 3: Enable guest access at the tenant level
@@ -95,7 +95,7 @@ At a minimum, you must turn on guest access for Microsoft Teams under the **Micr
 3. On this same page, configure any other guest settings that you require.
 4. Click **Save**.
 
-For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
+For detailed instructions, see [Turn on or turn off guest access to Microsoft Teams](set-up-guests.md).
 
 
 ## □  Step 4: Configure sharing in Office 365 
