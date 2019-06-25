@@ -80,7 +80,7 @@
 #### [PSTN blocked users report](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN minute pools report](teams-analytics-and-reports/PSTN-minute-pools-report.md)
-#### [PSTN usage](teams-analytics-and-reports/pstn-usage.md)
+#### [PSTN usage](teams-analytics-and-reports/pstn-usage-report.md)
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
 

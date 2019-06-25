@@ -20,6 +20,7 @@ appliesto:
 
 The PSTN blocked users report in the Microsoft Teams admin center shows you the users in your organization who are blocked from making PSTN calls in Teams.
 
+[placeholder only-replace with new screen shot]
 ![Screen shot of the PSTN blocked users report in the admin center](../media/teams-reports-teams-usage.png "Screen shot of the PSTN blocked users report in the Microsoft Teams admin center")
 
 ## View the report
@@ -28,6 +29,7 @@ Go to the Microsoft Teams admin center, in the left navigation, click **Analytic
 
 ## Interpret the report
 
+[placeholder only-replace with new screen shot]
 ![Screen shot of the PSTN blocked users report report in the admin center](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the PSTN blocked users report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
