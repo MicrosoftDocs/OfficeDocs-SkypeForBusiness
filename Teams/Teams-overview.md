@@ -24,7 +24,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 
 
-If you're new to Teams and want to learn more, check out our short Welcome to Teams video.
+If you're new to Teams and want to learn more, check out our short Welcome to Teams video (55 seconds).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
