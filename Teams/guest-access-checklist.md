@@ -47,7 +47,7 @@ For more details, see [What the guest experience is like](guest-experience.md) a
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 > [!NOTE] 
-> Currently, Teams does not support the guest inviter role. At a minimum the members can invite toggle must be set to "Yes" for guest access to work in Teams. If you set members can invite to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
+> Currently, Microsoft Teams does not support the guest inviter role. At a minimum the "members can invite" toggle must be set to "Yes" for guest access to work in Microsoft Teams. If you set "members can invite" to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
 
 ## If your guests are seeing license errors
 
