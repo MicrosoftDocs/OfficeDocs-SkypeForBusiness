@@ -18,7 +18,9 @@ appliesto:
 ---
 # Microsoft Teams in 30 days interactive training
 
-Microsoft is excited to offer a series of live, interactive workshops designed to get you up and running with Microsoft Teams, in just 30 days. No matter your role, we have a workshop for you. Join us to learn time-tested best practices, get your questions answered, and interact with the Teams engineering group directly. We look forward to meeting you - click a workshop below to register.<br>
+Microsoft is excited to offer a series of live, interactive workshops designed to get you up and running with Microsoft Teams, in just 30 days. No matter your role, we have a workshop for you. Join us to learn time-tested best practices, get your questions answered, and interact with the Teams engineering group directly. We look forward to meeting you.
+
+Click a workshop below to register.<br>
 
 
 <table><tr><td><a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page"><b>Get started with Teams in 30</b><br>Start your Teams in 30 program on the right foot. Get oriented to our program and find out who should participate.</br> </a></td><td> <b>Duration</b>: 30 minutes <br><b>Who should attend</b>: Business decision maker, IT admin responsible for Teams implementation<br><b>Prerequisites</b>: None <br>Join us to learn about our workshops, assets, and foundational pieces you need to know prior to engaging with our other workshops. During our time together, we'll cover:<li>Program goals and structure</li><li>How we intend to help you roll out Teams</li><li>What roles should participate</li><li>Foundational project management activities</li></td></tr>
