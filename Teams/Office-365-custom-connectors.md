@@ -30,7 +30,7 @@ Add a connector to a channel
 
 Currently, you can add connectors by using Microsoft Teams desktop and web clients. However, information posted by these connectors can be viewed in **all clients** including mobile.
 
-1. To add a connector to a channel, click the **ellipses (…),** on the right of a channel name, then click **Connectors.**
+1. To add a connector to a channel, click the **ellipses (…),** on the right of a channel name, then click **Connectors**.
 
     ![Screenshot of the Teams interface with the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
