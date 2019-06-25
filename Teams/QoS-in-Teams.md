@@ -42,16 +42,13 @@ In most cases, the network connecting your enterprise to the cloud will be an un
 
 ## Verify your network is ready
 
-If you are considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner](https://aka.ms/bwcalc/) in MyAdvisor.
+If you are considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). 
   
   Traffic congestion across a network will greatly impact media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use reporting,  [Call Analytics, and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md) to identify problems and then make adjustments using QoS and selective bandwidth additions.
 
 ### VPN considerations
 
 QoS only works as expected when implemented on all links between callers. If you use QoS on an internal network and a user signs in from a remote location, you can only prioritize within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN),  a VPN inherently adds packet overhead and creates delays in real-time traffic. We  recommend that you avoid running real-time communications traffic over a VPN.
-
-> [!NOTE]
-> VPN-connected remote users should implement split tunneling to maximize the quality of the user experience. The document [Deploy-Guidance-VPN Split Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) is available from MyAdvisor and has more information.
 
 In a global organization with managed links that span continents, we strongly recommend QoS because bandwidth for those links is limited in comparison to the LAN.
 
