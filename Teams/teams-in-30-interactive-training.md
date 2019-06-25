@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
-description: TLive, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
+description: Live, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
 appliesto: 
 - Microsoft Teams
 ---
