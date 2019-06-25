@@ -63,7 +63,7 @@ Azure AD includes the following settings to configure external users:
 For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
-> You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
+> You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 Groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups).
 
 Adding the user guest account manually to Azure AD B2B is not required, as the account will be added to the directory automatically when you add the guest to Teams.
 
@@ -86,9 +86,9 @@ From Office 365 Groups, you can control adding guest users and guest access to a
 
 3. Select **Office 365 Groups**.
 
-     ![Screen shot of Office 365 groups in settings](media/authorize-guest-image2.png)
+     ![Screen shot of Office 365 Groups in settings](media/authorize-guest-image2.png)
   
-4. On the Office 365 Groups page, set the toggle to **On** or **Off**, depending on whether you want to let team and group owners outside your organization access Office 365 groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**. If you turn this toggle to **On**, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 groups and Microsoft Teams. Set this toggle to **On** if you want to let group and team owners add guest users. 
+4. On the Office 365 Groups page, set the toggle to **On** or **Off**, depending on whether you want to let team and group owners outside your organization access Office 365 Groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**. If you turn this toggle to **On**, you'll see another option to control whether you want to let group and team owners add people outside your organization to Office 365 Groups and Microsoft Teams. Set this toggle to **On** if you want to let group and team owners add guest users. 
  
    ![Screenshot of Office 365 Groups panel with the options turned on](media/authorize-guest-image3.png)
 
@@ -106,7 +106,7 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
 
     For more information, see [Turn external sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
 
-- In Office 365 groups: **Let group owners add people outside the organization to groups**
+- In Office 365 Groups: **Let group owners add people outside the organization to groups**
 
     For more information, see [Control guest access in Office 365 Groups](#control-guest-access-in-office-365-groups), above.
   
