@@ -23,7 +23,7 @@ appliesto:
 Microsoft is excited to offer a series of live, interactive workshops designed to get you up and running with Microsoft Teams, in just 30 days. No matter your role, we have a workshop for you. Join us to learn time-tested best practices, get your questions answered, and interact with the Teams engineering group directly. We look forward to meeting you - click a workshop below to register.
 
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
         <div class="cardSize">
