@@ -78,9 +78,9 @@ For more information, see [Authorize guest access in Microsoft Teams](Teams-depe
 2. Make sure **Let group members outside the organization access group content** is set to **On**. If this setting is turned off, guests won't be able to access any group content.
 3. Make sure **Let group owners add people outside the organization to groups** is set to **On**. If this setting is turned off, Team owners won't be able to add new guests. At a minimum, this setting must be On to support guest access.
 
-     ![Screenshot shows the Office 365 groups toggles](media/guest-access-checklist-office365.png)
+     ![Screenshot shows the Office 365 Groups toggles](media/guest-access-checklist-office365.png)
 
-For detailed instructions about configuring these settings, see [Manage guest access in Office 365 groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Teams](Teams-dependencies.md#control-guest-access-in-office-365-groups).
+For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## □ Step 3: Enable guest access at the tenant level
