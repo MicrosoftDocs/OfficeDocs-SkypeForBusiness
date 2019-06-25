@@ -23,5 +23,8 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
 
 |  |  | 
 | ------------ | -------------------- |
-|Get started with Teams in 30
-<br>Start your Teams in 30 program on the right foot. Get oriented to our program and find out who should participate.</br> | **Duration**: 30 minutes <br>**Who should attend**: Business ecision maker, IT admin responsible for Teams implementation<br>**Prerequisites**: None <br>Join us to learn abouty our workshops, assets, and foundational pieces you need to know prior to engaging with our owther workshops. During our time together, we'll cover:<li>Pogram goals and structure</li><li>How we intene to help you roll out Teams</li><li>What roles should participate</li><li>Foundational project management activities</li>|
+|<H3>Get started with Teams in 30</H3><br>Start your Teams in 30 program on the right foot. Get oriented to our program and find out who should participate.</br> | **Duration**: 30 minutes <br>**Who should attend**: Business ecision maker, IT admin responsible for Teams implementation<br>**Prerequisites**: None <br>Join us to learn abouty our workshops, assets, and foundational pieces you need to know prior to engaging with our owther workshops. During our time together, we'll cover:<li>Pogram goals and structure</li><li>How we intene to help you roll out Teams</li><li>What roles should participate</li><li>Foundational project management activities</li>|
+
+<table>
+<tr><td>Get started with Teams in 30<br>Start your Teams in 30 program on the right foot. Get oriented to our program and find out who should participate.</td><td>  **Duration**: 30 minutes <br>**Who should attend**: Business decision maker, IT admin responsible for Teams implementation<br>**Prerequisites**: None <br>Join us to learn about our workshops, assets, and the foundational pieces you need to know prior to engaging with our other workshops. During our time together, we'll cover:<li>Program goals and structure</li><li>How we intend to help you roll out Teams</li><li>What roles should participate</li><li>Foundational project management activities</li>|
+</table>
