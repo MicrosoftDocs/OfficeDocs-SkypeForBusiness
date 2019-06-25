@@ -73,7 +73,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
                     </div>
                     <div class="cardText">
                         <h3>Advanced technical configuration for Teams</h3>
-                    <p>After you've got the foundation in place, you're ready to tackle advanced configurations - policies, compliance/retention and governance best practices, and audio conferencing.</p>
+                    <p>You've got the foundation in place and ready to tackle advanced configurations - policies, compliance/retention and governance best practices, and audio conferencing.</p>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
                     </div>
                     <div class="cardText">
                     <h3>Operate, adopt, and optimize Teams</h3>
-                    <p>Once you've deployed Teams, learn how to continue driving adoption, introduce new features, get support, and add additional workloads (such as meetings or cloud voice)</p>
+                    <p>Once you've rolled out Teams, learn how to drive adoption, introduce new features, and add additional workloads (such as meetings or cloud voice)</p>
                     </div>
                 </div>
             </div>
