@@ -3,7 +3,7 @@ title: Evaluate your environment for Microsoft Teams cloud voice workloads
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -50,7 +50,7 @@ numbers to
 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
 Knowing this will help your organization adjust its project plan accordingly and
 prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](environmental-discovery-for-microsoft-teams-rollout.md)
-from MyAdvisor to perform environmental discovery.
+to perform environmental discovery.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
@@ -93,9 +93,7 @@ These are the main takeaways from this guidance. You must:
 
 -   Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
 
--   Ensure that you have sufficient bandwidth for deploying Teams by completing
-    the [Network
-    Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+-   Ensure that you have sufficient bandwidth for deploying Teams.
 
 -   Run the [Network Assessment
     Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure
@@ -130,11 +128,6 @@ The first step toward network readiness is ensuring your network has enough
 bandwidth available for the modalities Teams will provide to users. Planning for
 sufficient bandwidth is a fairly straightforward task and a very low-barrier
 start to ensure your users will have a high-quality Teams experience.
-
-You start your bandwidth planning journey for Teams on the [My Advisor
-website](https://myadvisor.fasttrack.microsoft.com/) by using the Network
-Planner. The Network Planner provides per-site bandwidth planning for Teams and
-offers recommendations for optimizing network performance.
 
 ### Local internet egress
 
@@ -363,7 +356,7 @@ maintain these areas as part of your service management planning.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Network Readiness Assessment</a>.</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment.</li><li>Perform network remediation based on the results of the assessment for every network segment.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
