@@ -80,7 +80,7 @@ For more information, see [Authorize guest access in Microsoft Teams](Teams-depe
 
      ![Screenshot shows the Office 365 groups toggles](media/guest-access-checklist-office365.png)
 
-For detailed instructions about configuring these settings, see [Manage guest access in Office 365 groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Authorize guest access in Microsoft Teams](Teams-dependencies.md#control-guest-access-in-office-365-groups).
+For detailed instructions about configuring these settings, see [Manage guest access in Office 365 groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Teams](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## □ Step 3: Enable guest access at the tenant level
