@@ -3,7 +3,6 @@ title: Set up and manage channel moderation in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 5/15/2019
 ms.reviewer: jotaing
 ms.topic: article
 ms.tgt.pltfrm: cloud
