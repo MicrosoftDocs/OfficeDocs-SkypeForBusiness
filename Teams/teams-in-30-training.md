@@ -54,7 +54,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Prepare your environment for Teams</h3>
+                    <h3>Prepare your environment</h3>
                     <p>Set the foundation for your Teams deployment - prerequisites for Teams, networking and security best practices, coexistence policies, analytics and reporting, and client distribution best practices.</p>
 </div>
                 </div>
@@ -72,7 +72,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Advanced technical configuration for Teams</h3>
+                        <h3>Advanced technical configuration</h3>
                     <p>You've got the foundation in place and ready to tackle advanced configurations - policies, compliance/retention and governance best practices, and audio conferencing.</p>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prepare your organization for Teams</h3>
+                        <h3>Prepare your organization</h3>
                     <p>In parallel with your Teams rollout, get your users ready to adopt Teams.</p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ Microsoft is excited to offer a series of live, interactive workshops designed t
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Operate, adopt, and optimize Teams</h3>
+                    <h3>Operate, adopt, and optimize</h3>
                     <p>Once you've rolled out Teams, learn how to drive adoption, introduce new features, and add additional workloads (such as meetings or cloud voice)</p>
                     </div>
                 </div>
