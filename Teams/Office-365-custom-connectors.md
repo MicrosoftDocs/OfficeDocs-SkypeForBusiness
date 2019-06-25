@@ -34,7 +34,7 @@ Currently, you can add connectors by using Microsoft Teams desktop and web clien
 
     ![Screenshot of the Teams interface with the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
-2. Users can select from a variety of available connectors, then click **Add**.
+2. You can select from a variety of available connectors, and then click **Add**.
 
     ![Screenshot of the Connectors dialog showing available the connectors.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
