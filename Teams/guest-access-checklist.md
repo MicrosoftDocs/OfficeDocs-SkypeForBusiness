@@ -37,7 +37,7 @@ The guest experience has limitations by design. Make sure you understand the gue
 - Upload files to a person-to-person chat
 - Guests can still search and find users (outside their team) if they know the user's full email ID. To prevent this, IT admins can use patterns like [scoped directory search](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) that have the ability to restrict Guests into their own virtual GAL.
 
-For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 Groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 ### Guest access vs. external access (federation)
 
@@ -95,7 +95,7 @@ At a minimum, you must turn on guest access for Microsoft Teams under the **Micr
 3. On this same page, configure any other guest settings that you require.
 4. Click **Save**.
 
-For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
+For detailed instructions, see [Turn on or turn off guest access to Microsoft Teams](set-up-guests.md).
 
 
 ## □  Step 4: Configure sharing in Office 365 
