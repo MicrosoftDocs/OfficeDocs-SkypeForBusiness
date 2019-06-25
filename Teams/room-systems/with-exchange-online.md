@@ -31,7 +31,7 @@ Before you deploy Microsoft Teams Rooms with Exchange Online, be sure you have m
 To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets. 
 
    > [!NOTE]
-   >  These commands have been tested in setting up accounts for room system devices. It’s possible other commands would work, but they have not been tested for this specific scenario.
+   >  The [Azure Active Directory Module for Windows PowerShell cmdlets](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) in this section (for example,  Set-MsolUser) have been tested in setting up accounts for Microsoft Teams Rooms devices. It's possible that other cmdlets may work, however, they haven't been tested in this specific scenario.
   
 ### Create an account and set Exchange properties
 
