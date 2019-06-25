@@ -211,6 +211,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Issues you may encounter if using iOS 13 Beta  <br/> |1. Teams notifications are not being fired.  This includes chats, mentions, and calls.  2. File preview is not working with the beta build.  <br/> |At this time there is no workaround.  We are working with Apple developers to find fixes for these issues.  <br/> | 6/25/19  <br/>|
+
 
 ## People
 
