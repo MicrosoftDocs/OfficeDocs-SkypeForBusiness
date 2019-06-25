@@ -25,13 +25,13 @@ description: Learn about the different phone number types that Teams uses for Ca
 
 # Different kinds of phone numbers used for Calling Plans
 
-Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the telephone number. Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the Microsoft telephone number service desk.
+Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk help](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
 - **User numbers**
     
     User numbers are assigned to users, and there are two kinds:
     
-  - **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+  - **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
     
   - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
     
@@ -41,7 +41,7 @@ Microsoft Teams uses different telephone number types depending on the purpose f
     
     Toll service numbers may incur a toll cost to the caller, and there are two kinds:
     
-      - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+      - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
         
       - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
    
@@ -51,7 +51,7 @@ Microsoft Teams uses different telephone number types depending on the purpose f
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
   
 > [!NOTE]
-> If you need to get more telephone numbers than this,  [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## Related topics
 

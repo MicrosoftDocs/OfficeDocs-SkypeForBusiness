@@ -29,11 +29,11 @@ description: Learn how to get and manage phone numbers for Microsoft Teams for y
 
 There are three ways to get both user and service (toll and toll-free) numbers for your organization.
 - Get numbers in the Microsoft Teams admin center.
-- Use a request form for new numbers that aren't listed in the Microsoft Teams admin center.
 - Transfer or "port" your existing numbers over to us.
+- Use a request form for new numbers that aren't listed in the Microsoft Teams admin center.
 
 > [!IMPORTANT]
-> In Belgium, Ireland, Germany, and the Netherlands, you can't get phone new phone numbers using the Microsoft Teams admin center. You have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
+> In Belgium, France, Germany, Ireland, the Netherlands, and Spain, you can't get phone new phone numbers using the Microsoft Teams admin center. You have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
 
 ***
 If you know what kind of forms you are looking for use the drop-down to select the country/region where you're getting numbers.
@@ -81,7 +81,7 @@ If you still need help, let us know how we can help you. In your Help request, i
 - To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
-- To get help setting up phone numbers for your organization, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- To get help setting up phone numbers for your organization, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
     
 ## Related topics
