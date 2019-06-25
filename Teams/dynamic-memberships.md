@@ -18,20 +18,20 @@ appliesto:
 
 # Overview of dynamic membership for teams
 
-Microsoft Teams supports teams associated with Office 365 groups using dynamic membership. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in Azure Active Directory (AAD). Users are automatically added or removed to the correct teams as user attributes change or users join and leave the tenant.
+Microsoft Teams supports teams associated with Office 365 groups by using *dynamic membership*. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in Azure Active Directory (Azure AD). Users are automatically added or removed to the correct teams as user attributes change or users join and leave the tenant.
 
 With dynamic membership you can set up teams for certain cohorts of users in your organization. Possible scenarios include:
 - A hospital can create distinct teams for nurses, doctors, and surgeons to broadcast communications. This is especially important if the hospital relies on temp employees.
 - A university can create a team for all faculty within a particular college, including an adjunct faculty that changes frequently.
 - An airline wants to create a team for each flight (like a Tuesday afternoon non-stop from Chicago to Atlanta) and have a frequently changing flight crew automatically assigned or removed as needed.​
 
-Using this feature, a given team's members update automatically based on a specific set of criteria, instead of manually managing membership.​ Doing this requires Azure AD Premium P1 licenses and team membership can be [assigned by a tenant admin](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) to any user's AAD properties provided you have a tenant and an admin account​. 
+Using this feature, a given team's members update automatically based on a specific set of criteria, instead of manually managing membership.​ Doing this requires Azure AD Premium P1 licenses and team membership can be [assigned by a tenant admin](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) to any user's Azure AD properties provided you have a tenant and an admin account​.
 
-Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team. 
+Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team.
 
 > [!NOTE]
 > - Rules can define who is a team member, but not who is a team owner.
-> - See [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for current limits on Team and channel sizes.
+> - See [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for current limits on team and channel sizes.
 > - Owners will not be able to add or remove users as members of the team, since members are defined by dynamic group rules.
 > -	Members will not be able to leave teams backed by dynamic groups.
 
