@@ -32,7 +32,7 @@ This topic contains the following sections:
 
 - [Return specific information for specific users in Skype for Business Online](manage-user-accounts.md#BKMKReturninfoSpecificUsers)
 
-- [Return a filtered list of users in Skype for Business Online ](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
+- [Return a filtered list of users in Skype for Business Online](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
 > The **Set-CsUser** cmdlet is also included in the set of cmdlets available to Skype for Business Online admins. However, **Set-CsUser** cannot currently be used to manage Skype for Business Online, except for setting the _AudioVideoDisabled_ parameter. If you attempt to run the cmdlet with any other parameter, it will fail with an error message similar to this: Unable to set "SipAddress". This parameter is restricted within Remote Tenant PowerShell.

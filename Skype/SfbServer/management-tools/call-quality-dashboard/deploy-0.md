@@ -135,7 +135,7 @@ Detailed log messages will be shown if debug mode is enabled. To enable debug mo
 The main portal page is accessible via  `http://<machinename>/CQD`. 
 ## Managing User Access for the Portal
 
-For managing user authorization to the Portal, we recommend using URL Authorization, which was introduced in IIS 7.0. For more information on IIS security, see [Understanding IIS 7.0 URL Authorization ](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
+For managing user authorization to the Portal, we recommend using URL Authorization, which was introduced in IIS 7.0. For more information on IIS security, see [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
   
 Any web site or web application inherit the default URL Authorization configured for the entire IIS, which is typically "Allow All Users". If access to the Portal needs to be more restrictive, then administrators can grant access to only the specific group of users by editing the "Authorization Rules".
   
@@ -228,7 +228,7 @@ To enable SSL/TLS in IIS and force users to connect via secure HTTPS instead of 
   
 1. Configure Secure Sockets Layer in IIS, see [Configuring Secure Sockets Layer in IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Once done, replace  `http` with `https`.
     
-2. For instructions on enabling TLS in the SQL Server connections, see [How to enable SSL encryption for an instance of SQL Server by using Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
+2. For instructions on enabling TLS in the SQL Server connections, see [How to enable SSL encryption for an instance of SQL Server by using Microsoft Management Console](https://support.microsoft.com/en-us/kb/316898/).
     
 ## Cube Sync Fails
 
