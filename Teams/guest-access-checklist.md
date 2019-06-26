@@ -23,6 +23,9 @@ Teams guest access checklist
 
 Use this checklist to help you enable and configure the guest access feature in Microsoft Teams according to the preferences of your organization.
 
+> [!NOTE] 
+> For collaboration restrictions see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+
 ## Understand the limitations for guests
 
 The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
@@ -42,6 +45,9 @@ For more details, see [What the guest experience is like](guest-experience.md) a
 ### Guest access vs. external access (federation)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+> [!NOTE] 
+> Currently, Microsoft Teams does not support the guest inviter role. At a minimum the "members can invite" toggle must be set to "Yes" for guest access to work in Microsoft Teams. If you set "members can invite" to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
 
 ## If your guests are seeing license errors
 
