@@ -39,13 +39,13 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 #### Default apps
 
-These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
+Default apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box.
 
 ![Screen shot of the Default Apps section.](media/teams-manage-features-in-office365-image1.png "Screen shot of the Default Apps section")
 
 #### External apps
 
-These apps are provided by third parties. You can configure the following settings for external apps.
+External apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Screenshot of the External Apps section.](media/teams-manage-features-in-office365-image2.png "Screen shot of the External Apps section, showing settings that you can turn on and off")
 
@@ -60,7 +60,7 @@ You can control organization-wide user settings in the Microsoft Teams admin cen
 
 ### External access
 
-**External access** lets your Teams and Skype for Business users communicate with users who are outside of your organization. To configure external access, go to [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md).
+**External access** lets your Teams and Skype for Business users communicate with users who are outside of your organization or domain. To configure external access, go to [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md).
 
 To add or block a domain:
 
@@ -113,7 +113,7 @@ Switch this setting **On** to turn on scoped directory searches.
 You can use these settings to configure how your users will be upgraded from Skype for Business to Microsoft Teams. 
 
 #### Coexistence mode
-You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype for Business will coexist), or **Skype for Business only**. The Coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype for Business will coexist), or **Skype for Business only**. The coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### App preferences
 

@@ -22,14 +22,14 @@ localization_priority: Priority
 Guest access in Microsoft Teams
 ======================================
 
-## Guest access overview
-
 Guest access is one of the features customers asked for the most. Here’s how you can keep up with our progress on guest access and tell us your thoughts:
 
 - If you’re having trouble with guest access, check out [Known issues for Microsoft Teams](Known-issues.md).
 - Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
 - Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Share your experience in the Comments section below.
+
+## Guest access overview
 
 Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
 
@@ -55,7 +55,7 @@ Teams is built on Office 365 Groups and provides a new way to access shared asse
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## More information
-    
+
 [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 [Guest access in Office 365 Groups](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
