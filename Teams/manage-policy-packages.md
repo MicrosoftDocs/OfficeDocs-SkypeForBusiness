@@ -15,6 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to manage policy packages in Microsoft Teams. 
 ---
 
@@ -68,6 +69,7 @@ If a policy is deleted, you can still view the settings but you won't be able to
 
 1. In the left navigation of the Microsoft Teams admin center, click **Policy package**, and then select a policy package.
 2. Click the policy that you want to view.
+3. 
 
 ### Assign a policy package
 
