@@ -3,7 +3,6 @@ title: Microsoft Teams live event usage report
 author: LanaChin    
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -21,7 +20,7 @@ appliesto:
 
 The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. You can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events. 
 
-![Screen shot of the Teams live event usage report in the Microsoft Teams admin center](../media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")
+![Screen shot of the Teams live event usage report in the Microsoft Teams admin center](../media/teams-live-event-usage-report.png "Screen shot of the Teams usage report in the admin center")
 
 ## View the report
 
@@ -32,7 +31,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 
 ## Interpret the report
 
-![Screen shot of the Teams live events report in the Microsoft Teams admin center](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams live events usage report in the Microsoft Teams admin center with numbered callouts")
+![Screen shot of the Teams live event usage report in the Microsoft Teams admin center](../media/teams-live-event-usage-report-with-callouts.png "Screen shot of the Teams live events usage report in the admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
