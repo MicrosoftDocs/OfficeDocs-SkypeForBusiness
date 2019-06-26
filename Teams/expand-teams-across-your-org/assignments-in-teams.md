@@ -61,7 +61,7 @@ In order to successfully enable Turnitin for your organization, you will need to
 Here are some instructions to help you obtain this information.
 
 The TurnitinApiUrl is the host address of your admin console.
-Example. https:[]()//your-tenant-name.turnitin.com
+Example. `https://your-tenant-name.turnitin.com`
 
 The admin console is where you can create an integration and an API key associated with the integration.
 
