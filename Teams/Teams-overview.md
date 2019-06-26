@@ -20,19 +20,20 @@ appliesto:
 # Welcome to Microsoft Teams
 If you're the admin for Microsoft Teams in your organization, you're in the right place. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
 
-If you're new to Teams and want to learn more, read on. Check out this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). 
-
 If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
+
+
+
+If you're new to Teams and want to learn more, check out our short Welcome to Teams video (55 seconds).
+
+> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+
 
 ## Teams architecture
 
 Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). 
 
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
-
-[![Thumb image for Teams logical architecture poster](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
-
-
 
 When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
@@ -42,8 +43,6 @@ When you create a team, here's what gets created:
 - Ties into other Office 365 apps such as Planner and Power BI
 
 When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To learn more, check out this poster: [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
-
-[![Thumb image for groups infographic](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
 To customize and extend Teams, add third-party apps through [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
@@ -62,7 +61,7 @@ As the admin, you'll manage Teams through the Microsoft Teams admin center. To l
 To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 
 ## Upgrade from Skype for Business to Teams
-Teams is the primary client for intelligent communications in Office 365, and it'll eventually replace Skype for Business Online. To stay on top of new features coming to Teams, see the [Microsoft 365 Roadmap](http://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
+Teams is the primary client for intelligent communications in Office 365, and it'll eventually replace Skype for Business Online. To stay on top of new features coming to Teams, see the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](journey-skypeforbusiness-teams.md).
 
