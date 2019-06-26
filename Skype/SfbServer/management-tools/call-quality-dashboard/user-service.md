@@ -34,7 +34,7 @@ Repository API includes REST API URIs that expects an integer value to specify a
   
 Moreover, Repository API will accept two special user IDs at {userId} in URIs.
   
--  *default*  - represents the user who is currently interacting with the API. This allows applications to access current user's contents without keeping track of the actual user ID value. Example: ` https://<portal>/QoERepositoryService/repository/user/default`.
+-  *default*  - represents the user who is currently interacting with the API. This allows applications to access current user's contents without keeping track of the actual user ID value. Example: `https://<portal>/QoERepositoryService/repository/user/default`.
     
 -  *system*  - represents the system user. This allows applications to access the system user's contents without knowing the actual user ID value. Example: `https://<portal>/QoERepositoryService/repository/user/system`.
     

@@ -45,7 +45,7 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 > 
 > [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
 > 
-> [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+> [Collect more information and seek additional help](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## Check for common causes of Skype for Business Online sign-in errors
 <a name="toc323194094"> </a>
@@ -70,7 +70,7 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section,[Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
+>  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section, [Collect more information and seek additional help](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
 
 If the user cannot sign in after you have tried the suggestions in the previous section, then you can do additional troubleshooting based on the type of error. The table below lists the most common error messages and possible causes. Following the table are detailed procedures to address each issue.
 
