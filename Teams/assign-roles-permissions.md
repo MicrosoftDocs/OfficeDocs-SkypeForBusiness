@@ -23,7 +23,7 @@ Assign team owners and members in Microsoft Teams
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Within Microsoft Teams there are two user roles: **Owner** and **Member**. By default, a user who creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
+Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
 
 The table below shows the difference in permissions between an owner and a member.
 
@@ -46,21 +46,16 @@ The table below shows the difference in permissions between an owner and a membe
 |        **Add connectors**         |    Yes     |    Yes<sup>2</sup>|
 |           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
 
-<sup>1</sup> Team owners can create teams unless they've been restricted from doing so. See "Permissions to create teams" below.
->
-<sup>2</sup> These items can be turned off by an owner at a team level, in which case members would not have access to them.
-
-<sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.
-
-<sup>4</sup> Team members can add other members to a public team.
-
+<sup>1</sup> Team owners can create teams unless they've been restricted from doing so. See [Permissions to create teams](#permissions-to-create-teams) below.<br>
+<sup>2</sup> These items can be turned off by an owner at a team level, in which case members would not have access to them.<br>
+<sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.<br>
+<sup>4</sup> Team members can add other members to a public team.<br>
 <sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
 
 *To learn more about permissions for private channels, see [Private channels in Teams](private-channels-in-teams.md).
 
 > [!NOTE]
-> Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
-
+> Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team. This will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
 Permissions to create teams
 ---------------------------
