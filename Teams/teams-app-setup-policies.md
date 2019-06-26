@@ -3,7 +3,7 @@ title: Manage app setup policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/18/2019
+ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -26,7 +26,7 @@ f1keywords:
 > [!NOTE]
 > If you enabled the org-wide app permission policy setting, **Allow interaction with custom apps**, you may not see app setup policies yet in the Microsoft Teams admin center. It's currently being rolled out and will be available soon in your organization.
 
-As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including ones built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
+As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including those built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). 
 

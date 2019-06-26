@@ -22,12 +22,12 @@ appliesto:
 
 Microsoft Teams apps are a way to aggregate one or more capabilities into an _app package_ that can be installed, upgraded, and uninstalled. The capabilities include:
 
--   Bots
--   Messaging extensions
--   Tabs
--   Connectors
+- Bots
+- Messaging extensions
+- Tabs
+- Connectors
 
-Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities it contains. Therefore, this article focuses on permissions and considerations at the capability level.
+Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities that the app contains. Therefore, this article focuses on permissions and considerations at the capability level.
 
 The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](https://aka.ms/teamsdevdocs) or the [permissions for Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). They're simply a descriptive shorthand for the purpose of this article.
 
