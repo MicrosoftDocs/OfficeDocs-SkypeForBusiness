@@ -28,7 +28,7 @@ Use the Microsoft Teams admin center to edit settings for multiple users at a ti
 1. In the left navigation of the Microsoft Teams admin center, select **Users**.
 2. Search for the users you want to edit or filter the view to show the users you want to edit.
 3. In the **&#x2713;** (check mark) column, select users by doing one of the following:
-    - Select users one at a time. A **&#x2713;** is displayed next to each user you select. If you select more than 20 users, you won't be blocked but keep in mind that the more users you select, the operation will take longer to complete.
+    - Select users one at a time. A **&#x2713;** is displayed next to each user you select. If you select more than 20 users, you won't be blocked but keep in mind that the more users you select, the longer the operation will take to complete.
 
         ![Screen shot of the Users page showing user selection](media/bulk-edit-user-settings-select-users.png)
 

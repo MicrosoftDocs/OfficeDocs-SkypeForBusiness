@@ -77,4 +77,4 @@ For more information, refer to: [Deploying Mobility in Lync Server 2013](https:/
 
 [Frequently Asked Questions](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
-[Known issues ](https://go.microsoft.com/fwlink/p/?LinkId=798228)
+[Known issues](https://go.microsoft.com/fwlink/p/?LinkId=798228)
