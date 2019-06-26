@@ -19,15 +19,15 @@
 # Chat, teams, channels, and apps
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
-## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
+## [Assign team owners and members in Teams](assign-roles-permissions.md)
+## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
-## [Overview of dynamic membership for teams](dynamic-memberships.md)
-## [Presence](presence-admins.md)
+## [User presence in Teams](presence-admins.md)
 ## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
@@ -40,17 +40,17 @@
 ### [Add bots for personal chats, group chats, and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
-### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
+### [Publish apps in the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 ## Guest access
-### [Overview](guest-access.md)
+### [About guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
 ### [Authorize guest access in Teams](teams-dependencies.md)
-### [Turn on or off guest access to Teams](set-up-guests.md)
+### [Turn on or turn off guest access in Teams](set-up-guests.md)
 ### [Manage guest access in Teams](manage-guests.md)
 ### [Add a guest to a team](add-guests.md)
 ### [View guest users in a team](view-guests.md)

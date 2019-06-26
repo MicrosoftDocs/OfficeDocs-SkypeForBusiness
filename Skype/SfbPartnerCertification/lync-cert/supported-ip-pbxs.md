@@ -317,4 +317,4 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 	</tbody>
 </table>
 
-For more information on Direct SIP Configurations with Lync Server, please see: [PSTN Connectivity Components]().
+For more information on Direct SIP Configurations with Lync Server, please see: [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).
