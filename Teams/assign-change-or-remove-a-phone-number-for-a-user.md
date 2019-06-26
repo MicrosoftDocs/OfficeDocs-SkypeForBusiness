@@ -54,7 +54,7 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
 2. In the left navigation, click **Voice** > **Phone numbers**.
 3. On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.  
-4. In the **Edit** pane, under **Assigned to**, click the X to remove the user.
+4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
 5. Click **Save**.
 6. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
 7. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
@@ -68,7 +68,7 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
 2. In the left navigation, click **Voice** > **Phone numbers**.
 3. On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.  
-4. In the **Edit** pane, under **Assigned to**, click the X to remove the user.
+4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
 5. Click **Save**.
     
 ## Related topics
