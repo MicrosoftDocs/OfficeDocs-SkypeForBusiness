@@ -60,15 +60,15 @@ See the following table for a comparison of external and guest access features.
 | Out of office message is shown | No | Yes |
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | No | Yes |
-| Make Private Calls | Yes | Yes |
-| Allow IP Video | Yes | Yes |
-| Screen Sharing Mode | Yes | Yes |
-| Allow Meet Now | No | Yes |
-| Edit Sent Messages | Yes | Yes |
-| Can Delete Sent Messages | Yes | Yes |
-| Use Giphy In Conversation | Yes | Yes |
-| Use Memes In Conversation | Yes | Yes |
-| Use Stickers In Conversation | Yes | Yes |
+| Make private calls | Yes | Yes |
+| Allow IP video | Yes | Yes |
+| Screen sharing mode | No | Yes |
+| Allow meet now | No | Yes |
+| Edit sent messages | No | Yes |
+| Can delete sent messages | No | Yes |
+| Use Giphy in conversation | No | Yes |
+| Use memes in conversation | No | Yes |
+| Use stickers in conversation | No | Yes |
 ||||
 
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
