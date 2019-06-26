@@ -59,7 +59,7 @@ The easiest way to install the Windows desktop client is to:
 3. Start Teams after installation completes.
 
 > [!NOTE]
-> Later, when you're considering a more formal, mass rollout of Teams across your organization, check out the [Teams Windows desktop client](http://aka.ms/teams-clients) video to learn how to plan for and deploy it. 
+> Later, when you're considering a more formal, mass rollout of Teams across your organization, check out the [Teams Windows desktop client](https://aka.ms/teams-clients) video to learn how to plan for and deploy it. 
 
 #### Teams for Mac 
 The easiest way to install the Mac desktop client is to:

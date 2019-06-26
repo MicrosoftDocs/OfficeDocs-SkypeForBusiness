@@ -19,7 +19,7 @@ appliesto:
 
 # User presence in Teams
 
-Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) – and indicates the user’s current availability and status to other users in the organization. By default, anyone in your organization using Teams can see - in nearly real time - whether or not other users are available online.
+Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) – and indicates the user’s current availability and status to other users in the organization. By default, anyone in your organization using Teams can see – in nearly real time – whether or not other users are available online.
 
 ## Presence states in Teams
 
@@ -51,10 +51,11 @@ There is a 15 minute inactivity timeout, after which your users' current presenc
 
 Users can specify who can break through (contact them overriding a Do Not Disturb setting). These settings are available in-app.
 
-## Teams is not Skype for Business
+## Admin settings in Teams compared to Skype for Business
 
-The following admin settings in Skype for Business are different in Teams:
-- Presence sharing is always enabled in Teams for users in the organization. Privacy (deciding who can see presence) configuration is not available in Teams.
+The following admin settings Skype for Business are different in Teams:
+
+- In Teams, presence sharing is always enabled for users in the organization. Privacy (deciding who can see presence) configuration is not available in Teams.
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar (includes out of office and other calendar information) integration  is always enabled for users in Teams if integrated with Outlook.
@@ -62,7 +63,6 @@ The following admin settings in Skype for Business are different in Teams:
 
 > [!NOTE]
 > The ability of a Teams admin to customize these settings is not currently supported.
-
 
 ## Coexistence with Skype for Business
 
