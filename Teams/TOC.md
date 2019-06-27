@@ -339,7 +339,7 @@
 ### [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md)
 ### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
 ### [Search for phone numbers for users](search-for-phone-numbers-for-users.md)
-### [See a list of phone numbers in your organization](see-a-list-of-phone-numbers-in=your-organization.md)
+### [See a list of phone numbers in your organization](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Getting service phone numbers](getting-service-phone-numbers.md)
 ### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
