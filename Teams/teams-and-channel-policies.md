@@ -22,7 +22,7 @@ f1keywords:
 
 # Manage teams & channel policies in Microsoft Teams
 
-As an admin, you can use teams & channel policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users can discover private teams in search results and in the team gallery and whether users can create private channels.
+As an admin, you can use teams & channel policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to discover private teams in search results and in the team gallery and whether users are allowed to  create private channels.
 
 You manage teams & channel policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
@@ -36,6 +36,8 @@ You can edit the global policy or create and assign a custom policy. If a user i
 2. Select **New policy**.
 3. Enter a descriptive name for the policy.
 4. Turn on or turn off the settings that you want, and then click **Save**.
+
+To quickly create a custom policy from an existing one, click **Duplicate**, give it a new name, and then edit the settings to fit your organization's needs. 
 
 ## Edit a teams & channel policy
 
@@ -56,7 +58,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to one or
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
 2. Next to **Assigned policies**, choose **Edit**.
-3. Under **Teams & channel policies**, select the policy you want to assign, and then choose **Save**.
+3. Under **Teams & channel policies**, select the policy you want to assign, and then click **Save**.
 
 To assign a custom teams & channels policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
 
@@ -66,13 +68,13 @@ Or, you can also do the following:
 2. Select the policy by clicking to the left of the policy name.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, select **Save**.
+5. When you're finished adding users, click **Save**.
 
 ### Assign a custom teams & channel policy to users in a group
 
-You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+You may want to assign a custom teams & channel policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
-In this example, we assign a custom app setup policy called Marketing Teams & Channel Policy to all users in the Contoso Marketing group.  
+In this example, we assign a teams & channel policy called Marketing Teams & Channel Policy to all users in the Contoso Marketing group.  
 
 > [!NOTE]
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
