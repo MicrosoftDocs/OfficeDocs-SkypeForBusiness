@@ -39,15 +39,15 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 
 ## Global app permissions and considerations
 
-**Required permissions**
+### Required permissions
 
 None
 
-**Optional permissions**
+### Optional permissions
 
 None
 
-**Considerations**
+### Considerations
 
 An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.</td>
 
