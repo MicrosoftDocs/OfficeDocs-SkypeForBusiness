@@ -67,10 +67,11 @@ An app must disclose what data it uses and what the data is used for in its term
 
 - POST_MESSAGE_TEAM. Allows an app's bots to send direct (proactive) messages to any team member at any time, even if the user has never talked to the bot before.
 
-- The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest: 
-    - RECEIVE_MESSAGE_PERSONAL,<br/>REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT,<br/>REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM,<br/>REPLYTO_MESSAGE_TEAM
+- The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
+- 
+    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 - SEND_FILES, RECEIVE_FILES.<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
 
