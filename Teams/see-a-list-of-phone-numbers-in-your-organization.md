@@ -56,7 +56,7 @@ There are different types of phone numbers that you can assign to users or other
 
 When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers are available to be assigned to them.
   
-![An icon showing the Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. Go to the **Microsoft Teams admin center**.
 
@@ -77,7 +77,7 @@ When you are setting up users, you might just want to see the list of the phone 
 
 When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the activation status of the number assignments.
 
-![An icon showing the Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** !
   
 1. Go to the **Microsoft Teams admin center**.
 

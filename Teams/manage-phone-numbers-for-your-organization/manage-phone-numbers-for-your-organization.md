@@ -81,7 +81,7 @@ If you still need help, let us know how we can help you. In your Help request, i
 - To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
-- To get help setting up phone numbers for your organization, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+- To get help setting up phone numbers for your organization, [contact the PSTN service desk](contact-pstn-service-desk.md).
   
     
 ## Related topics
