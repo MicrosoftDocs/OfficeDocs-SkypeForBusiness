@@ -51,7 +51,7 @@ The grid displays the following properties:
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in the [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **GroupID** - the unique GroupID of the backing Office 365 group
 - **Classification** - the classification (if used in your organization) assigned to the backing Office 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **Description** - the description set for the backing Office 365 group
+- **Description** - the description of the backing Office 365 group
 
 > [!NOTE]
 > If you don't see all these properties in the grid, click the Settings icon. The **Edit columns** pane appears. You can use the toggles to turn on or turn off columns in the grid.
