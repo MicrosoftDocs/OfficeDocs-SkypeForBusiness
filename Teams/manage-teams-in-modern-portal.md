@@ -30,7 +30,7 @@ As an IT admin, you may need to view or update the teams that your organization 
 - Global Administrator
 - Teams Service Administrator
 
-You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
 This article provides an overview of the management tools for teams in the Microsoft Teams admin center.
 
@@ -48,9 +48,9 @@ The grid displays the following properties:
 - **Owners** - a count of owners for this team.
 - **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
 - **Privacy** - the Visibility/AccessType of the backing Office 365 group.
-- **Status** - the Archived or Active status for this team.  Learn more about archiving teams in the [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- **Status** - the Archived or Active status for this team. Learn more about archiving teams in the [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **GroupID** - the unique GroupID of the backing Office 365 group
-- **Classification** - the classification (if used in your organization) assigned to the backing Office 365 group.  Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classification** - the classification (if used in your organization) assigned to the backing Office 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
 - **Description** - the description set for the backing Office 365 group
 
 > [!NOTE]
@@ -92,14 +92,14 @@ You can navigate to the team profile page of any team from the main teams overvi
 
 On the team's profile page, click **Edit** to change the following elements of a team:
 
-- **Team members** - Add or remove members and promote or demote owners
-- **Channels** - Add new channels or remove existing channels. You cannot delete the default **General** channel. Once created, you can only edit the channel name, not the description.
+- **Team members** - add or remove members and promote or demote owners.
+- **Channels** - add new channels or remove existing channels. You cannot delete the default **General** channel. Once created, you can only edit the channel name, not the description.
 - **Team name**
 - **Description**
-- **Privacy** - Choose public or private.
-- **Classification** - Backed by your Office 365 group classifications. Choose **Confidential**, **Highly Confidential**, or **General**.
-- **Conversations** - Members can edit sent messages.
-- **Channels** - Members can create new channels and edit existing ones, and add, edit, and remove tabs, connectors, and apps.
+- **Privacy** - choose public or private.
+- **Classification** - backed by your Office 365 group classifications. Choose **Confidential**, **Highly Confidential**, or **General**.
+- **Conversations** - members can edit sent messages.
+- **Channels** - members can create new channels and edit existing ones, and add, edit, and remove tabs, connectors, and apps.
 - **Team member settings** - select team member settings.
 
 You can also archive or delete a team by selecting the team name on the grid and clicking **Archive** or **Delete**.
