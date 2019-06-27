@@ -3,7 +3,7 @@ title: Manage teams in the Microsoft Teams admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/27/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -44,7 +44,7 @@ The grid displays the following properties:
 
 - **Team name**
 - **Channels** - a count of all channels in the team, including the default General channel.
-- **Users** - a count of total users, including owners, guests, and members from your tenant.
+- **Team members** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
 - **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
 - **Privacy** - the Visibility/AccessType of the backing Office 365 group.
@@ -53,9 +53,12 @@ The grid displays the following properties:
 - **Classification** - the classification (if used in your organization) assigned to the backing Office 365 group.  Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
 - **Description** - the description set for the backing Office 365 group
 
-### Search
+> [!NOTE]
+> If you don't see all these properties in the grid, click the Settings icon. The **Edit columns** pane appears. You can use the toggles to turn on or turn off columns in the grid.
 
-Search currently supports the string "Begins with" and searches the **Team name** field.
+### Add
+
+You can add a new team. Select the **Add** button, and then in the **Add a new team** pane, give the team a name and description.
 
 ### Edit
 
@@ -63,34 +66,45 @@ You can edit group and team-specific settings by selecting a team from the grid 
 
 ![Screen shot of the Edit team options](media/manage-teams-in-modern-portal-image2.png)
 
+### Archive
+
+You can archive a team. Archiving a team puts the team into read-only mode within Microsoft Teams. As an admin, you can archive and unarchive teams on behalf of your organization via the admin portal.
+
+### Delete
+
+Deleting a team is a soft-delete of the team and corresponding Office 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+
+### Search
+
+Search currently supports the string "Begins with" and searches the **Team name** field.
+
 ## Team profile
 
 You can navigate to the team profile page of any team from the main teams overview grid by clicking on the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings. From the team profile page, you can:
 
 - Add or remove members and owners.
-- Add or remove channels (Note that you cannot remove the General channel).
+- Add or remove channels (note that you cannot remove the General channel).
 - Update team and group settings.
  
 ![Screen shot of an example team profile](media/manage-teams-in-modern-portal-image3.png)
 
 ## Making changes to teams
 
-You can change the following elements of a team:
-- **Users in the team** - you can add or remove members, and promote or demote owners
-- **Channels** - you can add new channels or remove existing channels.  You cannot delete the default "General" channel, and once created you can only edit channel name, not description.
+On the team's profile page, click **Edit** to change the following elements of a team:
+
+- **Team members** - Add or remove members and promote or demote owners
+- **Channels** - Add new channels or remove existing channels. You cannot delete the default **General** channel. Once created, you can only edit the channel name, not the description.
 - **Team name**
-- **Team description**
-- **Team privacy** - public or private
-- **Team classification** - backed by your Office 365 group classifications
-- **Team member settings** - select team member settings
+- **Description**
+- **Privacy** - Choose public or private.
+- **Classification** - Backed by your Office 365 group classifications. Choose **Confidential**, **Highly Confidential**, or **General**.
+- **Conversations** - Members can edit sent messages.
+- **Channels** - Members can create new channels and edit existing ones, and add, edit, and remove tabs, connectors, and apps.
+- **Team member settings** - select team member settings.
 
-## Other supported changes to teams
+You can also archive or delete a team by selecting the team name on the grid and clicking **Archive** or **Delete**.
 
-- **Delete** - Deleting a team is a soft-delete of the team and corresponding Office 365 group.  To restore a mistakenly deleted team, follow the instructions at [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
-- **Archive** - Archiving a team puts the team into read-only mode within Microsoft Teams.  As an admin, you can archive and unarchive teams on behalf of your organization via the admin portal.
-
-
-The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
+The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), the changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
 
 ## Troubleshooting
 
@@ -115,7 +129,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 5. Run the query on the top-right.
 
 6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview
-
 
 ## Learn more
 
