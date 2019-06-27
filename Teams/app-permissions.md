@@ -53,7 +53,7 @@ An app must disclose what data it uses and what the data is used for in its term
 
 ## Bots and messaging extensions
 
-**Required permissions**
+### Required permissions
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. The bot can receive messages from users and reply to them.<sup>1</sup>
 
@@ -61,7 +61,7 @@ An app must disclose what data it uses and what the data is used for in its term
 
 - GET_CHANNEL_LIST. Bots added to teams can get a list of names and IDs of the channels in a team.
 
-**Optional permissions**
+### Optional permissions
 
 - IDENTITY. When it's used in a channel, the app's bots can access basic identity information of team members (first name, last name, user principal name [UPN], email address); when it's used in a personal or group chat, the bot can access the same information for those users.
 
@@ -75,7 +75,7 @@ An app must disclose what data it uses and what the data is used for in its term
 
 - SEND_FILES, RECEIVE_FILES.<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
 
-**Considerations**
+### Considerations
 
 - Bots only have access to teams to which they've been added or to users who have installed them.
 
@@ -116,15 +116,15 @@ An app must disclose what data it uses and what the data is used for in its term
 
 A tab is a website running inside Teams.
 
-**Required permissions**
+### Required permissions
 
 SEND_AND_RECEIVE_WEB_DATA
 
-**Optional permissions**
+### Optional permissions
 
 None (currently)
 
-**Considerations**
+### Considerations
 
 - The risk profile for a tab is almost identical to that same website running in a browser tab. 
 
@@ -134,15 +134,15 @@ None (currently)
 
 A connector posts messages to a channel when events in an external system occur.
 
-**Required permissions**
+### Required permissions
 
 POST_MESSAGE_CHANNEL
 
-**Optional permissions**
+### Optional permissions
 
 REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which allow users to post targeted replies to the connector message, for example by adding a response to a GitHub issue or adding a date to a Trello card.
 
-**Considerations**
+### Considerations
 
 - The system that posts connector messages doesn't know who it's posting to or who receives the messages: no information about the recipient is disclosed. (Microsoft is the actual recipient, not the tenant; Microsoft does the actual post to the channel.)
 
@@ -165,15 +165,15 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 
 *Outgoing webhooks* are created on the fly by team owners or team members if sideloading is enabled for a tenant. They aren't capabilities of Teams apps; this information is included for completeness.
 
-**Required permissions**
+### Required permissions
 
 RECEIVE_MESSAGE, REPLYTO_MESSAGE. Can receive messages from users and reply to them.
 
-**Optional permissions**
+### Optional permissions
 
 None
 
-**Considerations**
+### Considerations
 
 - Outgoing webhooks are similar to bots but have fewer privileges. They must be explicitly mentioned, just like bots.
 
