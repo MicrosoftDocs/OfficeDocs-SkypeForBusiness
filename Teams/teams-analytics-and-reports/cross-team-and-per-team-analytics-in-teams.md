@@ -3,7 +3,6 @@ title: View cross-team and per-team analytics in Teams
 author: LanaChin    
 ms.author: v-lanac
 manager: serdars
-ms.date: 05/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -60,6 +59,3 @@ Per-team analytics gives users a more granular view of usage data for a specific
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
-- [Teams usage report](teams-usage-report.md)
-- [Teams user activity report](user-activity-report.md)
-- [Teams device usage report](device-usage-report.md)
