@@ -26,6 +26,8 @@ As an admin, you can use teams & channel policies in Microsoft Teams to control 
 
 You manage teams & channel policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
+[placeholder for screen shot]
+
 You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
 ## Create a custom teams & channels  policy
@@ -50,7 +52,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to one or
 > [!IMPORTANT]
 > We recommend using PowerShell only to assign policies to users. Use the Microsoft Teams admin center to create, edit, and manage policies.
 
-### Assign a custom feedback policy to a user
+### Assign a custom teams & channel policy to a user
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
 2. Next to **Assigned policies**, choose **Edit**.
@@ -66,7 +68,7 @@ Or, you can also do the following:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, select **Save**.
 
-### Assign a custom feedback policy to users in a group
+### Assign a custom teams & channel policy to users in a group
 
 You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
