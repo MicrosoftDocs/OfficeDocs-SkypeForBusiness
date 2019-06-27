@@ -22,7 +22,7 @@ f1keywords:
 
 # Manage teams & channel policies in Microsoft Teams
 
-As an admin, you can use teams & channel policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users can discover private channels in search results and in the team gallery and whether users can create private channels.
+As an admin, you can use teams & channel policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users can discover private teams in search results and in the team gallery and whether users can create private channels.
 
 You manage teams & channel policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
