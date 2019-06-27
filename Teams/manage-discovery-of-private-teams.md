@@ -74,7 +74,7 @@ Set the **AllowPrivateTeamDiscovery** parameter to **true** to allow users who a
 
 By default, **AllowPrivateTeamDiscovery** is set to **true** for all users in an organization.
 
-In this example, we create a policy named VendorPolicy that prevents users from discovering any private teams that are made discoverable, and then we assign the policy to a user named vendoruser1. 
+In this example, we create a policy named VendorPolicy that prevents users from discovering any private teams that are made discoverable, and then we assign the policy to a user named vendoruser1.
 ```
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
