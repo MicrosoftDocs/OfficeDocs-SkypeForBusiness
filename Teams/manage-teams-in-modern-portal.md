@@ -56,9 +56,11 @@ The grid displays the following properties:
 > [!NOTE]
 > If you don't see all these properties in the grid, click the Settings icon. The **Edit columns** pane appears. You can use the toggles to turn on or turn off columns in the grid.
 
-### Add
+### New team
 
-You can add a new team. Select the **Add** button, and then in the **Add a new team** pane, give the team a name and description.
+You can add a new team. Select the **New team** button, and then in the **Create a new team** pane, give the team a name and description.
+
+![Screen shot of the Edit team options](media/manage-teams-in-modern-portal-image4.png)
 
 ### Edit
 
