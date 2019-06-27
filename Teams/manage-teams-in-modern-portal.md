@@ -36,7 +36,7 @@ This article provides an overview of the management tools for teams in the Micro
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 ![Screen shot of the Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -54,7 +54,7 @@ The grid displays the following properties:
 - **Description** - the description of the backing Office 365 group
 
 > [!NOTE]
-> If you don't see all these properties in the grid, click the Settings icon. The **Edit columns** pane appears. You can use the toggles to turn on or turn off columns in the grid.
+> If you don't see all these properties in the grid, click the Settings icon. The **Edit columns** pane appears. You can use the toggles to turn on or turn off columns in the grid. When you are finished, click **Save**.
 
 ### New team
 
@@ -112,7 +112,7 @@ The changes that you make to a team are logged. If you are modifying group setti
 
 **Issue: Teams missing from the Team Overview Grid**
 
-When you enter the Microsoft Teams admin center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.
+When you enter the Microsoft Teams admin center, under the **Teams** option some of your teams are missing from the listing in the Teams overview grid.
 
 **Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
 
@@ -120,17 +120,17 @@ When you enter the Microsoft Teams admin center, under the **Teams** option some
 
 Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
-1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer).
 
-2. Sign in to Graph Explorer on the left menu
+2. Sign in to Graph Explorer on the left menu.
 
-3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}
+3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}.
 
-4. Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}
+4. Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}.
 
 5. Run the query on the top-right.
 
-6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview
+6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview.
 
 ## Learn more
 
