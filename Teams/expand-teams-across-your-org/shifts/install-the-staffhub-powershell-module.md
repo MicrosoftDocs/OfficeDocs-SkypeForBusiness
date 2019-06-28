@@ -45,7 +45,7 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 
 6. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
-Run each command separately.
+    Be sure to run each command separately.
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
