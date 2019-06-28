@@ -25,7 +25,7 @@ description: "Learn how to set up Phone System for Cloud call queues with Micros
 
 # Create a Cloud call queue
 
-Cloud call queues is a service that plays a greeting to customer calls before placing them in a queue with music on hold, while hunting for a pre-defined set of agents to answer these calls. You can create single or multiple call queues for your organization.
+Cloud call queues are a service that play a greeting to customer calls before placing them in a queue while searching among a pre-defined set of agents to answer these calls. You can create single or multiple call queues for your organization.
   
 Cloud call queues can provide:
   
@@ -56,7 +56,9 @@ All calls waiting in the queue will be distributed using one of the following me
 To get started using call queues, it's important to remember a few things:
   
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you plan to assign a phone number to your call queue, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 with Phone System add-on, or E5 which includes Phone System\).
+- If you plan to assign a phone number to your call queue, you need to acquire and assign one of the following licenses to your resource accounts:
+    - Office 365 Enterprise E1 or E3 with Phone System added
+    - Office 365 Enterprise E5 which includes Phone System
 - You only need to license the resource accounts with a phone number assigned to them. In a nested call queue, you do not need to license the rest of the call queues if they do not have phone numbers associated with them.
 
 > [!NOTE]
