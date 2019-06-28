@@ -113,7 +113,7 @@ Now that you’ve defined your testing approach, the next step is configuring yo
 
 For additional information, see:
 
-- [Technical Planning for Audio Conferencing](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [Technical Planning for Audio Conferencing](cloud-voice-deployment.md)
 
 - [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
