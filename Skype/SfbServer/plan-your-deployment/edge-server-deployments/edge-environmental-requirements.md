@@ -139,7 +139,7 @@ When it comes to Skype for Business Server Edge Server deployment, it's vital to
 
 These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
   
-- Internal network adapter: 172.25.33.10 (no default gateway's assigned)
+- Internal network adapter: 172.25.33.10 (no default gateways assigned)
     
     > [!NOTE]
     > Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Skype for Business Server or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0). 

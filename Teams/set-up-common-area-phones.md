@@ -50,6 +50,26 @@ The first things you need to do are purchase a Common Area Phone (CAP) license a
 
 For more information on licenses, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
+The Common Area Phone license supports: 
+
+
+|   |  Common Area Phone  |
+|---------|---------|
+|Skype for Business |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|Phone Systems |    &#x2714; |
+|Audio Conferencing |       &#x2718; &sup1;  |
+|Microsoft Intune |        &#x2718; &sup2; |
+|Worldwide Availability |    &#x2714; |
+|Channel Availability |    EA, EAS, CSP, GCC, EES, Web Direct  |
+|      |         |
+
+&sup1; Common Area Phones can join audio conferences via dial-in number provided by the meeting organizer
+
+&sup2; Not available in sovereign clouds  
+
+
+
 ## Step 2 - Create a new user account for the phone and assign the licenses
 
 1. In the Microsoft 365 admin center, go to **users** > **active users** > **add a user**.

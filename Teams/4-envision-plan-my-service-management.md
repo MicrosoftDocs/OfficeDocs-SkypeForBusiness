@@ -105,12 +105,6 @@ operational roles mapping exercise that you performed to support this project.
 |Exchange Operations|Manage the Exchange environment|TBA|TBA|
 |Telephony Operations|Manage the SBC's and the phone numbers|TBA|TBA|
 
-To facilitate a more detailed operational roles mapping, including the tasks
-associated with each operational role, you can use the [Operational Role Mapping
-Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)
-to capture the details that will provide the clarity around roles and
-responsibilities to support cloud voice workloads.
-
 <!--ENDOFSECTION-->
 
 ## The Quality Champion role

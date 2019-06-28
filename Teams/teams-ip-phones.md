@@ -40,6 +40,8 @@ The following phones are Certified for Microsoft Teams:
 |Audiocodes C450HD | C450HD_TEAMS_0.225 | March 2019|
 |Crestron M100|2.3875.00068|December 2018|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
+|Poly Trio 8500/8800 (shared mode only)| 5.9.0.10869|June 2019|
+|Yealink VP59 | 91.15.0.16 |June 2019|
 |Yealink T55 | 58.15.0.36 |May 2019|
 |Yealink CP 960 |73.15.0.20|December 2018|
 |Yealink T58 & T56 series |58.15.0.20|December 2018|
