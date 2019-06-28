@@ -52,7 +52,6 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 7. Exit Windows PowerShell.
 8. Open Windows PowerShell 3.0 or later as a global admin, and then run the following:
