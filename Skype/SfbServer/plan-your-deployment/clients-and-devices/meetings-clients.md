@@ -20,7 +20,7 @@ description: "Summary: IT Professionals should review the support requirements f
 # Plan for Meetings clients (Web App and Meetings App)
   
  >[!IMPORTANT]
- >As of April 5th, 2019, the Skype for Business Web App and Skype Meetings App will be replaced by the Skype for Business desktop app for Mac users. For more information, please see [Skype for Business desktop app on Mac to replace Skype Meetings App (web)](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Skype-for-Business-desktop-app-on-Mac-to-replace-Skype-Meetings/ba-p/357958).
+ >On April 5th, 2019, the Skype for Business Web App and Skype Meetings App have been replaced by the Skype for Business desktop app for Mac users. For more information, please see [Skype for Business desktop app on Mac to replace Skype Meetings App (web)](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Skype-for-Business-desktop-app-on-Mac-to-replace-Skype-Meetings/ba-p/357958).
  
 **Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article is not intended for the users of these apps.
   
