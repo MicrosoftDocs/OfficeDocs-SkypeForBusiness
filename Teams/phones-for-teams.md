@@ -24,7 +24,7 @@ Microsoft Teams supports a portfolio of desk phones for users who require a trad
 
 ## Teams certified IP phones
 
-To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. See [Currently certified IP Phones](/microsoftteams/teams-ip-phones#currently-certified-ip-phones) for current supported devices.
+To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. See [Currently certified IP Phones](https://docs.microsoft.com/MicrosoftTeams/teams-ip-phones#currently-certified-ip-phones) for current supported devices.
 
 ## Microsoft Teams phones feature set
 
@@ -144,4 +144,4 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 [Teams Marketplace](http://office.com/teamsdevices)
 
-[IP Phones certified for Microsoft Teams](/microsoftteams/teams-ip-phones
+[IP Phones certified for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-ip-phones)

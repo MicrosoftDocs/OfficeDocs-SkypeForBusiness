@@ -4,7 +4,7 @@
 
 ## Phones and Devices
 ### [Skype for Business IP Phones](../certification/devices-ip-phones.md)
-### [Teams IP Phones](/microsoftteams/teams-ip-phones
+### [Teams IP Phones](/microsoftteams/teams-ip-phones)
 ### [USB audio and video devices](../certification/devices-usb-devices.md) 
 ### [PCs](../certification/devices-pcs.md)  
 ### [Meeting room devices and solutions](../certification/devices-meeting-rooms.md)  
