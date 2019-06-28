@@ -48,7 +48,7 @@ If the Phone system service you're creating will be nested and will not need a p
 
 Creating a resource account that uses a phone number would require performing the following tasks in the following order:
 
-1. Transfer or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
+1. Port or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
 
    Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](../../SfbOnline/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)  ?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json  or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365.md).
 
@@ -90,7 +90,7 @@ Creating a resource account that uses a phone number would require performing th
 
     See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-    To assign a direct routing number to  a resource account, use the following cmdlet:
+    To assign a direct routing or hybrid number to  a resource account, use the following cmdlet:
 
    ``` Powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
