@@ -20,14 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click Different kinds of phone numbers used for Calling Plans to find out about the different phone numbers that are used in Skype for Business Online."
+description: "When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click Different kinds of phone numbers used for Calling Plans to find out about the different phone numbers that are used in Microsoft Teams."
 ---
 
 # How many phone numbers can you get?
 
-When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) to find out about the different phone numbers that are used in Skype for Business Online.
+When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) to find out about the different phone numbers that are used in Microsoft Teams.
   
-You can see the number of phone numbers you can get on the **Phone numbers** page in the Skype for Business admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet.
+You can see the number of phone numbers you can get on the **Get phone numbers** page in the Microsoft Teams admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet.
   
 > [!IMPORTANT]
 > The limits below don't include phone numbers you have ported or transferred to Microsoft. 
@@ -53,7 +53,7 @@ You can see the number of phone numbers you can get on the **Phone numbers** pag
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
