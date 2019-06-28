@@ -1390,6 +1390,11 @@
       "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-external-access", 
       "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/accessibility-solutions-in-france", 
+      "redirect_document_id": true 
     }
   ] 
 }

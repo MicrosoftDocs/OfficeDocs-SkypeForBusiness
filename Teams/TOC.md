@@ -338,10 +338,12 @@
 ### [Types of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md)
 ### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
+### [Search for phone numbers for users](search-for-phone-numbers-for-users.md)
+### [See a list of phone numbers in your organization](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Getting service phone numbers](getting-service-phone-numbers.md)
 ### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
-### [Transferring numbers common questions](transferring-phone-numbers-common-questions.md)
+### [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
 ## Call routing
 ### [What are dial plans?](what-are-dial-plans.md)
@@ -738,6 +740,7 @@
 ### [Phones for Teams](phones-for-teams.md)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## Security and compliance
@@ -756,7 +759,7 @@
 #### [Retention policies known issues](retention-policies-known-issues.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
 ### [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
 ###  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Data collection practices](data-collection-practices.md)
