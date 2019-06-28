@@ -671,7 +671,7 @@
 ### Upgrade from Skype for Business hybrid or on-premises to Teams
 #### [Overview](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-#### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
+#### [Plan hybrid connectivity](../../SfBHybrid/hybrid/plan-hybrid-connectivity.md)
 
 #### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 ##### [Configure Azure AD Connect for hybrid environments](../hybrid/configure-azure-ad-connect.md)
