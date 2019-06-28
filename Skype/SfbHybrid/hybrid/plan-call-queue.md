@@ -38,7 +38,7 @@ In addition to the requirements above, the below requirements must be configured
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
-- If you're assigning a phone number to your call queue, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license that includes phone System, or an E1 or E3 license with Phone system added.
+- If you're assigning a phone number to your call queue, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license that includes Phone System, or an E1 or E3 license with Phone System added.
 
 - Create an on-premises [resource account](configure-onprem-ra.md) for each call queue, and assign a license and phone number if required.  
 
