@@ -14,8 +14,7 @@ description: "Overview of using a Cloud auto attendant with Skype for Business S
 
 # Plan Cloud call queues
 
-
-Cloud call queue is a service that accepts customer calls, play a greeting message, and then place these calls in a queue with music on hold while hunting a pre-configured set of agents to answer these calls. You can define the set of agents in mail-enabled distribution lists or security groups. Your organization can have one or many call queues. Call queues are usually used in combination with auto attendants.
+Cloud call queue is a service that accepts customer calls, plays a greeting message, and then places these calls in a wait queue while searching a pre-configured list of agents to answer these calls. You can define the set of agents in mail-enabled distribution lists or security groups. Your organization can have one or many call queues. Call queues are usually used in combination with auto attendants.
 
 In addition, Cloud call queues can provide:
 
@@ -25,7 +24,7 @@ In addition, Cloud call queues can provide:
 Each call queue is assigned a **resource account** (see [Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to a call queue in the Microsoft Teams admin center. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
-> You can assign multiple phone numbers to a call queue, they must be Microsoft service numbers or hybrid numbers. 
+> You can assign multiple phone numbers to a call queue, but they must be Microsoft service numbers or hybrid numbers.
 
 ## Requirements
 
@@ -43,16 +42,13 @@ In addition to the requirements above, the below requirements must be configured
 
 - Create an on-premises [resource account](configure-onprem-ra.md) for each call queue, and assign a license and phone number if required.  
 
-
 ## Additional planning resources
 
 The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Online Admin center. review the tutorial and use the exercises there t create your plan.
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to  [Configure resource accounts](configure-onprem-ra.md).
 
-
 ## See Also
-
 
 [Configure resource accounts](configure-onprem-ra.md)
 
