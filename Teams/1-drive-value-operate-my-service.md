@@ -3,7 +3,7 @@ title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -561,14 +561,12 @@ be performed at regular intervals.
 | Provide building data                                          | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the [building definitions in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) are kept up to date. | As needed              |               |
 | Implement change                                               | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul>     | As needed              |               |
 | Network monitoring and reporting                               | Monitor the network end to end for availability, utilization, and capacity trends by using your existing third-party network management tools and reporting capabilities available from your network providers. Use trending data for network capacity planning.                                                                                                            | Daily, weekly, monthly |               |
-| Capacity planning                                              | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes. Leverage the results from the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to ensure that sufficient bandwidth is available for Microsoft Teams.                               | As needed              |               |
+| Capacity planning                                              | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes.                                | As needed              |               |
 | Network troubleshooting and remediation                        | Assist the Teams helpdesks, service owners, and key stakeholders to troubleshoot and remediate issues to related to Teams connectivity, reliability, or quality. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul>    | As needed              |               |
 | Disaster recovery and high availability testing                | Perform regular high availability and disaster recovery testing on the network infrastructure to ensure that it meets the stated service level objectives (SLOs) or service level agreements (SLAs) for the Teams service.                                                                                                                                                  | Monthly                |               |
 
 
 ### References 
-
-[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
@@ -618,8 +616,6 @@ the Quality of Experience Review Guide and associated training materials.
 
 
 ### References 
-
-[Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 

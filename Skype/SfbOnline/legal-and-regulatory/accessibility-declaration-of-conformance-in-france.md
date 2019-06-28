@@ -42,11 +42,11 @@ La présente attestation de conformité à la norme [EN 301 549](http://www.etsi
   
 ## Section 2: Références
 
-Références: [EN 301 549 ](http://mandate376.standards.eu/standard/references)
+Références: [EN 301 549](http://mandate376.standards.eu/standard/references)
   
 ## Section 3: Définitions et abréviations
 
-Définitions et abréviations: [EN 301 549 ](http://mandate376.standards.eu/standard/definitions-and-abbreviations)
+Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/standard/definitions-and-abbreviations)
   
 ## Section 4: Déclarations de conformité aux exigences fonctionnelles
 
@@ -64,7 +64,7 @@ Définitions et abréviations: [EN 301 549 ](http://mandate376.standards.eu/stan
   
 [4.2.6 Utilisation sans capacité vocale](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=40&amp;functional_statements_submitted=true)
   
-[4.2.7 Utilisation avec manipulation ou force limitée ](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&amp;functional_statements_submitted=true)
+[4.2.7 Utilisation avec manipulation ou force limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&amp;functional_statements_submitted=true)
   
 [4.2.8 Utilisation avec une portée limitée(<http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&amp;functional_statements_submitted=true>)
   
@@ -217,5 +217,5 @@ Le présent document n’est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doi
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
   
 ## Related topics
-[Accessibility solutions for Skype for Business Online in France](accessibility-solutions-in-france.md)
+[Accessibility solutions for Skype for Business Online in France](/microsoftteams/accessibility-solutions-in-france)
 

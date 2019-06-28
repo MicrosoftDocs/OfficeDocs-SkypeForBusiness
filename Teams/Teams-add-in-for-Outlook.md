@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 05/29/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -27,7 +27,7 @@ The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The a
 
 ## Teams Meeting add-in in Outlook for Windows
 
-The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2010, Office 2013 or Office 2016 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
 ![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
 
