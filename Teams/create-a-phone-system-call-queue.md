@@ -25,14 +25,14 @@ description: "Learn how to set up Phone System for Cloud call queues with Micros
 
 # Create a Cloud call queue
 
-Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Cloud call queues is a service that plays a greeting to customer calls before placing them in a queue with music on hold, while hunting for a pre-defined set of agents to answer these calls. You can create single or multiple call queues for your organization.
   
 Cloud call queues can provide:
   
-- An organizational greeting.
+- A greeting message.
 - Music while people are waiting on hold.
 - Redirecting of calls to call agents in mail-enabled distribution lists and security groups.
-- Making settings for call queue maximum size, timeout, and call handling options.
+- Settings different parameters such as queue maximum size, timeout, and call handling options.
 
 When someone calls in to a phone number that is associated  with a call queue via a [resource account](manage-resource-accounts.md), they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in *First In, First Out* (FIFO) order.
   
@@ -43,7 +43,7 @@ All calls waiting in the queue will be distributed using one of the following me
 - With round robin, routing of incoming calls is balanced so that each call agent will get the same number of calls from the queue.
 
     > [!NOTE]
-    > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue won't be called.
+    > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue will not recieve calls.
   
 - Only one incoming call notification (for the call at the head of the queue) at a time will be sent to the call agents.
 - After a call agent accepts the call, the next incoming call in the queue will start ringing call agents.
@@ -56,12 +56,11 @@ All calls waiting in the queue will be distributed using one of the following me
 To get started using call queues, it's important to remember a few things:
   
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
-- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
-- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them.
+- If you plan to assign a phone number to your call queue, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 with Phone System add-on, or E5 which includes Phone System\).
+- You only need to license the resource accounts with a phone number assigned to them. In a nested call queue, you do not need to license the rest of the call queues if they do not have phone numbers associated with them.
 
 > [!NOTE]
-> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
+> Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
 > Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
