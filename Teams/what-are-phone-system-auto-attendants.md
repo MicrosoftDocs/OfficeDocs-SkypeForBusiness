@@ -52,7 +52,7 @@ To get started using auto attendants, it's important to remember that:
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
 - If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
 - If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
-- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them.
+- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them. 
 
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
@@ -228,7 +228,7 @@ To set up an auto attendant and the menu options, go [Set up a Cloud auto attend
   
 ### Assigning phone numbers for an auto attendant
 
-You can assign a Microsoft Calling Plan or direct routing hybrid number to your auto attendant. See [Plan Direct Routing](direct-routing-plan.md) for details.
+You can assign a Microsoft service number or a direct routing hybrid number to your auto attendant. See [Plan Direct Routing](direct-routing-plan.md) for details.
 
 To assign a service number, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the <!-- validate nav path --> **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
