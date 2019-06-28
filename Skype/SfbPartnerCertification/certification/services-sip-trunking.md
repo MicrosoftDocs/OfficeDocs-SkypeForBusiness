@@ -60,11 +60,11 @@ The following table lists the SIP trunking services that are certified for Skype
 |[ipvision a/s](http://www.ipvision.dk/microsoft-lync/) |VIP Trunk |&#x2714;|
 |[Kordia](http://www.kordia.co.nz/) |Onkor Voice|&#x2714;|
 |[Level 3](http://level3.com/lync) |Level 3 Communications SIP Trunking| |
+|[Magna5](https://www.magna5global.com/sip-trunking/) |Business SIP Trunk| |
 |[Magnetic North](http://www.magneticnorth.com/cloud-pbx/sip-trunks) |Cloud PBX| |
 |[Netstream](http://www.netstream.ch/index.php?id=506) |Lync Connect|&#x2714;|
 |[Nuwave Communications, Inc.](https://www.nuwave.com/integration/skype-for-business.html) |NuWave Connect|&#x2714;|
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications) |Intelligent SIP Trunk| |
-|[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/) |Lync Trunking|&#x2714;|
 |[OneStream Networks](http://www.onestreamnetworks.com/Default.aspx?RD=3339) |Skype for Business SIP Trunking|&#x2714;|
 |[Orange Business Services](http://www.orange-business.com/en/voice-and-telephony) |Business Talk (SIP Trunking)| |
 |[Peerless Network](http://www.peerlessnetwork.com/enterprise-service/) |Enterprise SIP Trunking| |
@@ -75,6 +75,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Redwood Technologies](http://www.redwoodtech.com/products/microsoft-lync/) |SIP Trunk| |
 |[Red Sky Technologies](http://www.redskye911.com/e911-for-lync) |E911 Anywhere|&#x2714;|
 |[Rogers Business Solutions](http://business.rogers.com/) |Rogers Business Solutions (RBS) SIP Trunking| |
+|[SaskTel](https://www.sasktel.com/business/products-and-solutions/networks/trunking/ip-trunking/ip-trunking) |SaskTel IP Trunking Services| |
 |[SBC Europe](https://www.sbc-europe.com/sip-trunking) |SIP Trunking for Microsoft Lync (2013)| |
 |[SoTel Systems, LLC](http://www.sotelsystems.com/business-voip) |SIP Trunking| |
 |[Sprint](https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ) |Global SIP Trunking| |
