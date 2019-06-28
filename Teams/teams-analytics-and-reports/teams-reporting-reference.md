@@ -40,7 +40,7 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages<br/>Privacy setting of  teams<br/>Guests in a team   |
 |[Teams user activity report](user-activity-report.md)  |  1:1 calls a user participated in<br/>Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>Last activity date of a user     |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
-|[Teams live event usage report](teams-live-event-usage-report.md)   |  Total views     |
+|[Teams live event usage report](teams-live-event-usage-report.md)   |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
 
 > [!NOTE]
 > The Teams reports show data for active users and active teams. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
