@@ -589,7 +589,7 @@
 # Upgrade and migration
 
 
-## Get started
+##  [Get started](upgrade-start-here.md)
 
 
 ## Plan your upgrade journey
