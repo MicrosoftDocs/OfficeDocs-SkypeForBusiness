@@ -21,13 +21,13 @@ description: Learn how to manage policy packages in Microsoft Teams.
 
 # Manage policy packages in Microsoft Teams
 
-A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages are designed to simplify, streamline, and provide consistency when managing policies for specific groups of users across your organization.  
+A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and provide consistency when managing policies for specific groups of users across your organization.  
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of the policies in the package to meet your organization's needs.
 
 ## What is a policy package?
 
-Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes policies and policy settings that are specific to that role.
+Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes policies and policy settings that support that role.
 
 Teams currently includes the following policy packages.
 
@@ -41,13 +41,11 @@ Teams currently includes the following policy packages.
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
 
-The policies are created when you assign a policy package to users. Each individual policy is configured with default settings and is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
+The policies are created when you assign a policy package to users. Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
 
-For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy type in the package.
+For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
 [placeholder for screen shot of Education_Teacher policy package and policies]
-
-Because every organization has unique needs, you can edit the settings of the policies in a package to fit your needs.
 
 ## How to use policy packages
 
@@ -55,7 +53,7 @@ The following outlines how to use a policy package in your organization.
 
 ![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
 
-It's important to know that the policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the package.
+Remember that the policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the package.
 
 You can view the settings of policies in a policy package before you assign it but you won't be able to make changes to any settings until after you assign the package.
 
