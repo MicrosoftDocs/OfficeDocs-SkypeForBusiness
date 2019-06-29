@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: "Read this article to locate country codes for Direct Routing."
+description: "Read this article to locate media path country codes for Direct Routing."
 ---
 
-# Direct Routing country codes
+# Direct Routing media path country codes
 
-When choosing a routing path for media, Direct Routing, by default, always assigns a datacenter based on the public IP of the SBC, and always selects the path closest to the SBC datacenter.
+When choosing a routing path for media, Direct Routing, by default, always assigns a datacenter based on the public IP address of the Session Border Controller (SBC), and always selects the path closest to the SBC datacenter.
 
 However, in some cases the default media path might not be the optimal media path; for example, a public IP from a United States range might be assigned to an SBC located in Europe. 
 
@@ -29,6 +29,8 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 
 Note that Microsoft only recommends setting this parameter if the call logs clearly indicate that the default assignment of the datacenter for the media path does not use the path closest to the SBC datacenter. 
  
+## Country code reference table
+
 The following table shows the country code values for the -MediaRelayRoutingLocationOverride parameter:
 
 | Country         | Code 
