@@ -27,7 +27,7 @@ When you assign a policy package to users, the policies in the package are creat
 
 ## What is a policy package?
 
-Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes policies and policy settings that support that role.
+Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes policies and policy settings that support the collaboration and communication activities that are typical for that role.
 
 Teams currently includes the following policy packages.
 
@@ -53,7 +53,7 @@ The following outlines how to use a policy package in your organization.
 
 ![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
 
-Remember that the policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the package.
+It's important to know that policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the package.
 
 You can view the settings of policies in a policy package before you assign it but you won't be able to make changes to any settings until after you assign the package.
 
