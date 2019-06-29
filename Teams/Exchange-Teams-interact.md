@@ -36,7 +36,7 @@ The following table provides information for users with Exchange Online hosted i
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required; required license needs to be assigned for AAD Synced user)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported  
 <sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.  
@@ -57,6 +57,9 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 - Users must be enabled for Office 365 group creation to create teams in Microsoft Teams.
 
 - To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+
+> [!NOTE]
+>For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
 
 ## Additional considerations
 
