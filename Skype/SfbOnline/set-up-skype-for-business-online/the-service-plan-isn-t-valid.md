@@ -26,7 +26,7 @@ description: "See where to assign a valid service plan for a user after a Skype 
 
 Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.
   
-Go to the **Office 365 admin center** > **Active users** and assign a valid service plan to this user.
+Go to the *Microsoft 365 admin center** > **Active users** and assign a valid service plan to this user.
 
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
