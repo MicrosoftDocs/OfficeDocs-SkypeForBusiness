@@ -674,11 +674,38 @@
 
 <!-- ============================================================ -->
 
+
+# Security and compliance
+## [Overview](security-compliance-overview.md)
+## [Information barriers in Teams](information-barriers-in-teams.md)
+## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
+## [Identity models and authentication in Teams](identify-models-authentication.md)
+## [Sign in to Teams using modern authentication](sign-in-teams.md)
+## [Place a Teams user or team on legal hold](legal-hold.md)
+## [Search the audit log for events in Teams](audit-log-events.md)
+## [Use Content Search in Teams](content-search.md)
+## [AppLocker application control policies in Teams](applocker-in-teams.md)
+## Retention policies in Teams
+### [Overview](retention-policies.md)
+### [Retention policies FAQ](retention-policies-FAQ.md)
+### [Retention policies known issues](retention-policies-known-issues.md)
+## [Location of data in Teams](location-of-data-in-teams.md)
+## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
+##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [Data collection practices](data-collection-practices.md)
+## [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # Reference
