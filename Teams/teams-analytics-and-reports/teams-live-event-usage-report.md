@@ -47,7 +47,7 @@ The live event details page gives you a summary of the details of a live event a
 
 ![Screen shot showing details of a live event](../media/teams-live-event-usage-report-event-detail.png)
 
-If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)  eCDN or (Kollective)[https://kollective.com/] eCDN, you can get additional attendee analytics by clicking the partner report link.
+If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
 
 ## Related topics
 - [Teams analytics and reporting](teams-reporting-reference.md)
