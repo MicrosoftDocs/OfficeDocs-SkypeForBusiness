@@ -41,7 +41,8 @@ Teams currently includes the following policy packages.
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
 
-Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
+Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
+For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
 ![Screen shot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
 
@@ -59,24 +60,25 @@ If a policy is deleted, you can still view the settings but you won't be able to
 
 ### View the settings of a policy in a policy package
 
-1. In the left navigation of the Microsoft Teams admin center, click **Policy packages**, and then select the policy package by clicking to the left of the package name.
-2. Click the policy that you want to view. 
+1. In the left navigation of the Microsoft Teams admin center, click **Policy packages**, and then select a policy package by clicking to the left of the package name.
+2. Click the policy you want to view.
 
 ### Assign a policy package
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the  package name.
+1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the package name.
 2. Click **Manage users**.
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, select **Save**.
 
 ### Edit a policy in a policy package
 
-You can edit the settings of each policy using the policy packages icon or by going to the policy page in the left navigation of the Teams admin center.
+You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the left navigation of the Teams admin center.
 
 #### Using the policy packages icon
 
-1.
-2.
+1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package by clicking to the left of the package name.
+2. Click the policy you want to edit. 
+3. Make the changes that you want, and then click **Save**. 
 
 #### Using the policy page
 
