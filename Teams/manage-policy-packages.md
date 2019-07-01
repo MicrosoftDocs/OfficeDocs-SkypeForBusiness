@@ -41,11 +41,9 @@ Teams currently includes the following policy packages.
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
 
-The policies are created when you assign a policy package to users. Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
+Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
-For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
-
-[placeholder for screen shot of Education_Teacher policy package and policies]
+![Screen shot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
 
 ## How to use policy packages
 
