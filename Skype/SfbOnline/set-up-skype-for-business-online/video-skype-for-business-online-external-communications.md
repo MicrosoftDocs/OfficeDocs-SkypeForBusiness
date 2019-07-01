@@ -26,7 +26,7 @@ Set up Skype for Business Online external communications so your users can commu
 
  **Audience:** Office 365 admins
 
-****
+***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
 
 ***
