@@ -1,7 +1,7 @@
 ---
 title: "Get started with Teams templates for Small and Medium Businesses"
-author: 
-ms.author: 
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual 
