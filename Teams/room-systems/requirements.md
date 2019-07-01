@@ -48,7 +48,7 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 
 - One of the following docking station options to secure a tablet to the meeting room table. 
 
-  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
