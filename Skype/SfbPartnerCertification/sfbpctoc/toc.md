@@ -4,7 +4,7 @@
 
 ## Phones and Devices
 ### [Skype for Business IP Phones](../certification/devices-ip-phones.md)
-### [Teams IP Phones](../certification/teams-ip-phones.md)
+### [Teams IP Phones](/microsoftteams/teams-ip-phones)
 ### [USB audio and video devices](../certification/devices-usb-devices.md) 
 ### [PCs](../certification/devices-pcs.md)  
 ### [Meeting room devices and solutions](../certification/devices-meeting-rooms.md)  
@@ -27,6 +27,7 @@
 ### [SIP Trunking services](../certification/services-sip-trunking.md) 
 ### [E-911 service providers](../certification/services-e911.md) 
 ### [Audio conferencing providers](../certification/services-acps.md)
+### [Unified Communications certificate partners](../certification/services-ssl.md)
 
 ##  [IT Pro](../certification/it-pro-tools.md)
 ### [Network Pre-Assessment](../certification/it-pro-tools-pre-assessment.md) 

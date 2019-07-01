@@ -1372,6 +1372,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Skype/SfbHybrid/hybrid/configure-cloud-auto-attendant.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-onprem-ra", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbHybrid/hybrid/configure-call-queue.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-onprem-ra", 
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/set-up-phone-system-voicemail", 
       "redirect_document_id": true
@@ -1389,6 +1399,11 @@
     {
       "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-external-access", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/accessibility-solutions-in-france", 
       "redirect_document_id": true 
     }
   ] 
