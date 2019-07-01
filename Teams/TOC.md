@@ -673,8 +673,8 @@
 # 
 
 <!-- ============================================================ -->
-
-
+#
+#
 # Security and compliance
 ## [Overview](security-compliance-overview.md)
 ## [Information barriers in Teams](information-barriers-in-teams.md)
