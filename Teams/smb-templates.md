@@ -23,7 +23,7 @@ Microsoft Teams templates allow you to quickly and easily create teams by provid
 
 For small and medium businesses, templates can be especially powerful, as they help administrators to quickly deploy Teams across their organization. Templates also help orient users and get started with using Teams effectively. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
 
-We currently offer three first party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll-out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, please see [Get started with Teams templates](../../get-started-with-teams-templates.md).
+We currently offer three first party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll-out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, please see [Get started with Teams templates](get-started-with-teams-templates.md).
 
 ## Company-Wide template
 The Company-Wide template is meant for communication and collaboration that are relevant for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training and development. The Fun Stuff channel provides a social platform for all random and fun posts.
@@ -157,6 +157,6 @@ Content-Type: application/json
 
 ## Related topics
 
-- [Get started with Teams templates](../../get-started-with-teams-templates.md)
+- [Get started with Teams templates](get-started-with-teams-templates.md)
 - [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
 
