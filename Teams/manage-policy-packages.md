@@ -48,15 +48,19 @@ For example, when you assign the Education_Teacher policy package to teachers in
 
 ## How to use policy packages
 
-The following outlines how to use a policy package in your organization.
+The following outlines how to use policy packagex in your organization.
 
 ![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
 
-It's important to know that policies in a policy package aren't created until you assign the package to users, after which you can change the settings of individual policies in the package. Any changes you make to policy settings are automatically applied to users who are assigned the package.
+- **[View](#view-the-settings-of-a-policy-in-a-policy-package)**: View the settings of each policy in a policy package before you assign a package. Make sure that you understand each value and then decide whether the predefined settings are appropriate for your organization or whether you need to change the settings to be more restrictive or lenient based on your organization's needs.
 
-You can view the settings of policies in a policy package before you assign it but you won't be able to make changes to any settings until after you assign the package.
+    If a policy is deleted, you can still view the settings but you won't be able to change settings. A deleted policy is re-created with the predefined settings when you assign the policy package.
 
-If a policy is deleted, you can still view the settings but you won't be able to change any settings. The deleted policy is re-created with the default settings when you assign the policy package.
+- **[Assign](#assign-a-policy-package)**: Assign the policy package to users. Remember that policies in a policy package aren't created until you assign the package, after which you can change the settings of individual policies in the package.  
+
+- **[Customize](#customize-policies-in-a-policy-package)**: Customize the settings of policies in the policy package to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package.
+
+The following describes the steps for how to view, assign, and edit policies in a policy package. 
 
 ### View the settings of a policy in a policy package
 
@@ -70,18 +74,19 @@ If a policy is deleted, you can still view the settings but you won't be able to
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, select **Save**.
 
-### Edit a policy in a policy package
+### Customize policies in a policy package
 
-You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the left navigation of the Teams admin center.
+You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the the Teams admin center.
 
-#### Using the policy packages icon
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package by clicking to the left of the package name.
-2. Click the policy you want to edit. 
-3. Make the changes that you want, and then click **Save**. 
-
-#### Using the policy page
-
-1. In the left navigation of the Microsoft Teams admin center, click the policy type that you want to change. For example, **Messaging policies**. 
-2. Click the policy that you want to edit.  For example, **Education_Teacher**.
+1. In the left navigation of the Microsoft Teams admin center, do one of the following:
+    - Click **Policy packages**, and then select the policy package by clicking to the left of the package name.
+    - Click the policy type.  For example, click **Messaging policies**. 
+2. Click the policy you want to edit.
 3. Make the changes that you want, and then click **Save**.
+
+## Troubleshooting
+
+**You receive a ""[placeholder for error message]"" error when you assign a policy package**
+
+This may occur if one or more policies in the package weren't created or applied successfuly. Re-assign the policy package to your users. Retrying the operation typically fixes this issue.
+
