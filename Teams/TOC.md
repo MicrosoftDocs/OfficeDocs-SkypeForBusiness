@@ -630,7 +630,8 @@
 # 
 # 
 
-# [Expand Teams across your organization](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# Industries and government guidance
+## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,7 +667,8 @@
 
 <!-- ============================================================ -->
 
-# 
+# Small and medium business guidance
+## [Teams templates for small and medium businesses](smb-templates.md)
 # 
 
 <!-- ============================================================ -->
