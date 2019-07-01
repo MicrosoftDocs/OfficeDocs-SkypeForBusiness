@@ -1,5 +1,5 @@
 ### YamlMime:Tutorial
-title: Small business example - Set up an Auto Attendant
+title: Small business example - Set up an Auto Attendant 
 metadata:
   title: Small business example - Set up an Auto Attendant
   description: For IT admins, plan Auto Attendants across your organization.
@@ -46,8 +46,7 @@ items:
     ## Before you begin
 
     We assume you've already done the following: 
-    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
-    to provide phone numbers to your users.
+    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) to provide phone numbers to your users.
     - [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
     - Reviewed [What are Cloud Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.

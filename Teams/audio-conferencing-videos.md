@@ -23,8 +23,6 @@ Videos: Audio Conferencing in Microsoft Teams
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).
-
 > [!NOTE]
 > Audio Conferencing was formerly known as PSTN Conferencing
 

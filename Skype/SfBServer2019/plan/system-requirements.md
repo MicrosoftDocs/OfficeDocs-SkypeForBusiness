@@ -189,8 +189,8 @@ Skype for Business Server 2019 Enterprise Edition will require full SQL Server, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> |
-Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.|
+|Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.  <br/> |Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.  <br/> |
+Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.|
  |
 
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
@@ -208,13 +208,15 @@ You can have the following for failover clustering:
   
 Two-node:
   
-- Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
 
 Sixteen-node:
   
-- Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 
 SQL Always On is supported, and you can read more about it in [Back End Server high availability in Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
@@ -432,7 +434,7 @@ That's a lot to think about, and there are a variety of comfort levels with requ
   
 ### Certificates for your internal servers
 
-You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](https://support.microsoft.com/kb/929395/en-us) list.
+You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](/SkypeForBusiness/certification/services-ssl) list.
   
 You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
   

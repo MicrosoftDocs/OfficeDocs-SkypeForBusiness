@@ -35,7 +35,7 @@ An administrator using Azure Monitor can get notifications of Microsoft Teams Ro
 
 You must have a valid Azure subscription for Azure Monitor to use Log Analytics feature. See [Get started with a Log Analytics workspace](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) to create a subscription for your organization.
   
-You should familiarize yourself as necessary on how to use the Log Analytics View Designer. See [Views in Log Analytics ](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer) for those details.
+You should familiarize yourself as necessary on how to use the Log Analytics View Designer. See [Views in Log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer) for those details.
   
 ### Related Tasks
 

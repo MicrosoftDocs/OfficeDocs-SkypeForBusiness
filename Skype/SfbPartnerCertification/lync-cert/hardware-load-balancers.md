@@ -67,7 +67,7 @@ Software load balancers listed in the table that follows  have been tested by th
 |Vendor|Qualified Product |Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
 |[A10Networks](http://www.a10networks.com/solutions/application_solutions_microsoft.php) |64-bit AX Series: SoftAX|2.6|[AX Series for Lync 2010 Overview and Deployment Guide](http://www.a10networks.com/solutions/application_solutions_microsoft.php)|
-|[Citrix Systems]()     |Netscaler VPX|9.1.102.8|[Netscaler Developer Network](https://www.citrix.com/community.html)|
+|[Citrix Systems](https://www.citrix.com/)     |Netscaler VPX|9.1.102.8|[Netscaler Developer Network](https://www.citrix.com/community.html)|
 |[F5](https://f5.com/) |BIG-IP Local Traffic Manager Virtual Edition|10.x, 11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/)|ALOHA Load-Balancer Virtual Appliance|5.5|[Deployment guide](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |  Accelerating Load Balancer (ALB)  <br/><hr>  Accelerating Load Balancer Extreme (ALB-X)    |  ALB 2.0   <br/><hr>3.42.1 (Build 1475)|[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|

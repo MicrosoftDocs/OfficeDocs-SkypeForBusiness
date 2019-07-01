@@ -67,7 +67,10 @@ Use the following settings to change the global messaging policy or create a new
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
 - **Users can edit sent messages** Use this setting to let users edit the messages that they sent in chat.
-- **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
+- **Read receipts** Use this setting to specify whether read receipts are user controlled, on for everyone, or off for everyone. The default setting is user controlled. 
+    - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
+    - **On for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. 
+    - **Off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on. 
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
@@ -81,7 +84,7 @@ Use the following settings to change the global messaging policy or create a new
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
-- **Users can send priority notifications** If you turn this on, users can send a message that uses priority notifications. Priority notifications notify users repeatedly for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Users can send <a name="urgent-message">priority</a> notifications** If you turn this on, users can send a message that uses priority notifications. Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Voice message creation** 
     - **Allowed in chats and channels** This means that users can leave voice messages in both chats and channels.
     - **Allowed in chats only** This means that users can leave voice messages in chats, but not in channels.

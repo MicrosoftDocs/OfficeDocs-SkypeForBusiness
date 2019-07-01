@@ -2,6 +2,11 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/customize-meeting-invitations.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams",
+      "redirect_document_id": true 
+      },
+    {
       "source_path": "Teams/upgrade-introduction.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here",
       "redirect_document_id": true 
@@ -1365,6 +1370,41 @@
       "source_path": "Skype/Sfbserver/manage/authentication/use-adal.md", 
       "redirect_url": "https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview", 
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbHybrid/hybrid/configure-cloud-auto-attendant.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-onprem-ra", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbHybrid/hybrid/configure-call-queue.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-onprem-ra", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/set-up-phone-system-voicemail", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/onboarding-test-plan-for-enterprises-audio-conferencing.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/deploy-audio-conferencing-teams-landing-page", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/onboarding-test-plan-for-enterprises-phone-system.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/let-your-teams-users-communicate-with-other-people.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-external-access", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/accessibility-solutions-in-france", 
+      "redirect_document_id": true 
     }
   ] 
 }

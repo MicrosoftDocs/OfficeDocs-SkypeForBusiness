@@ -114,7 +114,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Adoption specialist certification</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.</a></p>
+                        <p><a href="https://aka.ms/AdoptionCert">The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.</a></p>
                     </div>
                 </div>
             </div>
@@ -127,6 +127,19 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                     <div class="cardText">
                         <h3>Introduction to teamwork in Microsoft 365</h3>
                         <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your org. </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    </li>
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Microsoft 365 Certified: Teamwork Administrator Associate</h3>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 Teamwork Administrators configure, deploy, and manage Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams. </a></p>
                     </div>
                 </div>
             </div>
