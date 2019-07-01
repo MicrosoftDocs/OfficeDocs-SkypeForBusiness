@@ -217,5 +217,5 @@ Le présent document n’est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doi
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
   
 ## Related topics
-[Accessibility solutions for Skype for Business Online in France](accessibility-solutions-in-france.md)
+[Accessibility solutions for Skype for Business Online in France](/microsoftteams/accessibility-solutions-in-france)
 
