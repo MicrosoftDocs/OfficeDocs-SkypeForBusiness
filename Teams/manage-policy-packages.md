@@ -48,7 +48,7 @@ For example, when you assign the Education_Teacher policy package to teachers in
 
 ## How to use policy packages
 
-The following outlines how to use policy packagex in your organization.
+The following outlines how to use policy packages in your organization.
 
 ![Overview of how to use policy packages](media/manage-policy-packages-overview.png)
 
@@ -60,7 +60,7 @@ The following outlines how to use policy packagex in your organization.
 
 - **[Customize](#customize-policies-in-a-policy-package)**: Customize the settings of policies in the policy package to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package.
 
-The following describes the steps for how to view, assign, and edit policies in a policy package. 
+Here are the steps for how to view, assign, and customize policy packages in the Microsoft Teams admin center.
 
 ### View the settings of a policy in a policy package
 
