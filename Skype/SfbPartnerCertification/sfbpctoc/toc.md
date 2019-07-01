@@ -27,6 +27,7 @@
 ### [SIP Trunking services](../certification/services-sip-trunking.md) 
 ### [E-911 service providers](../certification/services-e911.md) 
 ### [Audio conferencing providers](../certification/services-acps.md)
+### [Unified Communications certificate partners](../certification/services-ssl.md)
 
 ##  [IT Pro](../certification/it-pro-tools.md)
 ### [Network Pre-Assessment](../certification/it-pro-tools-pre-assessment.md) 
