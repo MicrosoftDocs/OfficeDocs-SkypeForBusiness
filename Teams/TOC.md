@@ -670,8 +670,8 @@
 
 # Small and medium business guidance
 ## [Teams templates for small and medium businesses](smb-templates.md)
-#
-#
+#    
+#    
 
 <!-- ============================================================ -->
 
