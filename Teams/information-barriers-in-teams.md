@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams preview
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 06/17/2019
+ms.date: 07/01/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -56,9 +56,9 @@ The information barriers administrator role (IB Compliance Management) is respon
 Information barrier policies are checked when the following Teams events take place:
 
 - **Members are added to a team** - Whenever you add a user to a team, the user’s policy must be evaluated against the information barrier policies of other team members. After the user is successfully added, the user can perform all functions in the team without further checks. If the user's policy blocks them from being added to the team, the user will not show up in search.
-- **A new chat is requested** - Each time a new chat is requested between two or more users, the chat is evaluated to make sure that it isn’t violating any information barrier policies. If the conversation violates an information barrier policy, then the conversation isn’t initiated, and an error message appears.
-- **A user is invited to join a meeting** - When a user is invited to join a meeting, the user's policy is evaluated against the policies of other team members, and if there’s a violation, the user will not be allowed to join the meeting and will see an error message.
-- **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn’t violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won’t be allowed, and an error message will appear.
+- **A new chat is requested** - Each time a new chat is requested between two or more users, the chat is evaluated to make sure that it isn’t violating any information barrier policies. If the conversation violates an information barrier policy, then the conversation isn’t initiated.
+- **A user is invited to join a meeting** - When a user is invited to join a meeting, the user's policy is evaluated against the policies of other team members, and if there’s a violation, the user will not be allowed to join the meeting.
+- **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn’t violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won’t be allowed.
 - **A user places a phone call (VOIP) in Teams** - Any time a voice call is initiated by a user to another user or group of users, the call is evaluated to make sure that it doesn’t violate the information barrier policies of other team members. If there is any violation, the voice call is blocked.
 
 ## What happens to existing chat threads when a policy is changed?
