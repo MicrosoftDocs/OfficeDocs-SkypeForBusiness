@@ -1402,6 +1402,11 @@
       "redirect_document_id": true 
     },
     {
+      "source_path": "Teams/journey-skypeforbusiness-teams.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here", 
+      "redirect_document_id": true 
+    },
+    {
       "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/accessibility-solutions-in-france", 
       "redirect_document_id": true 
