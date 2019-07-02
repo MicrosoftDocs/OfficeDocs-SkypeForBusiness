@@ -29,11 +29,11 @@ The following table includes the names and websites for the certification author
 |Certification authority  |Website  |
 |:---       |:--- |
 |Comodo     |  http://www.comodo.com/msexchange       |
-|DigiCert   | http://www.digicert.com/unified-communications-ssl-tls.htm |
-|GeoTrust   | http://www.geotrust.com/ssl/ssl-certificates-san-uc/ |
-|GlobalSign | http://www.globalsign.com/ssl/buy-ssl-certificates/unified-communications-ssl/|
-|GoDaddy    | https://www.godaddy.com/ssl/ssl-certificates.aspx |
-|Thawte     |  http://www.thawte.com/ssl/san-uc-ssl-certificates/index.html|
+|DigiCert   |  http://www.digicert.com/unified-communications-ssl-tls.htm |
+|GeoTrust   |  http://www.geotrust.com/ssl/ssl-certificates-san-uc/ |
+|GlobalSign |  http://www.globalsign.com/ssl/buy-ssl-certificates/unified-communications-ssl/   |
+|GoDaddy    |  https://www.godaddy.com/ssl/ssl-certificates.aspx |
+|Thawte     |  http://www.thawte.com/ssl/san-uc-ssl-certificates/index.html   |
 |           |     |
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
