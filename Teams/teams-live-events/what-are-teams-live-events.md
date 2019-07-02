@@ -71,6 +71,9 @@ The attendee experience is the most important aspect of live events and it's cri
 
 ![Screen shot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
 
+### Live event usage report 
+Tenant admins can view real time usage analytics for live events in Microsoft Teams admin center.  The [live event usage report](../teams-analytics-and-reports/teams-live-event-usage-report.md) shows the activity overview of the live events held in the organization.  Admins can view event usage information, including event status, start time, views and production type.  
+
 ## Next steps
 Go to [Plan for Teams live events](plan-for-teams-live-events.md).
 
