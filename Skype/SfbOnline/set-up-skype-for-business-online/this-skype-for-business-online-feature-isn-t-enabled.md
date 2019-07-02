@@ -28,9 +28,9 @@ Sorry, it looks like the user isn't licensed for this feature.
   
 |**Possible cause**|**Suggested action**|
 |:-----|:-----|
-|You have licenses available, but you haven't turned on the feature for this user.  <br/> |Go to the **Office 365 admin center** > **Active users** to license this user. <br/> |
-|The user is in a location where this feature isn't available.  <br/> |If possible, go to **Office 365 admin center** > **Active users** and assign this user to a location where the feature is available. <br/> |
-|The feature hasn't been turned on for your organization.  <br/> |Go to **Office 365 admin center** > **Skype for Business** and turn on the feature for your entire organization. <br/> |
+|You have licenses available, but you haven't turned on the feature for this user.  <br/> |Go to the **Microsoft 365 admin center** > **Active users** to license this user. <br/> |
+|The user is in a location where this feature isn't available.  <br/> |If possible, go to **Microsoft 365 admin center** > **Active users** and assign this user to a location where the feature is available. <br/> |
+|The feature hasn't been turned on for your organization.  <br/> |Go to **Microsoft 365 admin center** > **Skype for Business** and turn on the feature for your entire organization. <br/> |
    
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)

@@ -23,6 +23,8 @@ Using Azure Active Directory (Azure AD), you can designate administrators who ne
 
 There are four Teams admin roles available: Teams service administrator, Teams communications administrator, Teams communications support specialist, and Teams communications support engineer. Review the following table to understand what each role can do and which tools the admin can use in the Microsoft Teams admin center and PowerShell.
 
+
+
 <!-- add Global admin role? -->
 
 | Role | Can do these tasks | Can access the following tools |
@@ -48,7 +50,9 @@ You can assign users to these roles in Azure AD. To learn how to assign administ
 
 ## Cmdlets available for each role
 
-Most of the PowerShell tools for these admin roles live in the Skype for Business PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. To view the full list of cmdlets currently available to a given role in the Skype for Business PowerShell module, follow these steps:
+Most of the PowerShell tools for these admin roles live in the Skype for Business PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. The Skype for Business admin role also has access to all the cmdlets in the Skype for Business PowerShell module.
+
+To view the full list of cmdlets currently available to a given role in the Skype for Business PowerShell module, follow these steps:
 
 1. Assign that role to a user (and make sure that the user has no other roles).
 2. Connect to the Skype for Business PowerShell module:<br>
