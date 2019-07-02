@@ -26,7 +26,7 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 ## Install the Microsoft StaffHub PowerShell module
 
 1. Download the [StaffHub PowerShell module](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
-2. Open Windows PowerShell 3.0 or later as an administrator. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
+2. Open Windows PowerShell 3.0 or later as an admin. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
     > [!NOTE]
     > To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
 3. Run the following:
@@ -45,10 +45,18 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 
 6. Run the following, where &lt;path&gt; is the path in the output from step 2. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
+    Be sure to run each command separately.
+
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
+    Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    ```
+7. Exit Windows PowerShell.
+8. Open Windows PowerShell 3.0 or later as a global admin, and then run the following:
+
+    ```
     Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
