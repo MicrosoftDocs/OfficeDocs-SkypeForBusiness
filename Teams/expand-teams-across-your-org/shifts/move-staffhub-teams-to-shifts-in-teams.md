@@ -42,7 +42,7 @@ Effective October 1, 2019, StaffHub will be retired. We encourage you to start u
 
 ### What is moved to Teams
 
-User details, schedule information, and chat and file data are transitioned to Teams. This includes team membership, team schedules, and chats and files from the last 90 days.
+When you move a StaffHub team, team membership, user details, team schedules, and chat data are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate step.
 
 Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
 
@@ -68,10 +68,10 @@ Before you move a StaffHub team to Teams, make sure that:
 - Teams is enabled for all users in the tenant.
 - Office 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
-- The StaffHub team contains members. 
-- All StaffHub team members are linked to an Azure AD account. 
+- The StaffHub team contains members.
+- All StaffHub team members are linked to an Azure AD account.
 
-If these prerequisites aren't met, the move request will fail. 
+If these prerequisites aren't met, the move request will fail.
 
 ### Assign Teams licenses
 
@@ -86,29 +86,37 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
 
-### Provision accounts for StaffHub users who don't have an identity in Azure AD
+### Link an Azure AD account for StaffHub team members who don't have one
 
-Each manager and team member must have an identity in Azure Active Directory (Azure AD). If a user doesn't already have an identity in Azure AD, provision an account for them. Here's how. 
+Each StaffHub team member must be linked to an Azure Active Directory (Azure AD) account. Users in your organization won't be linked to an Azure AD account if any of the following scenarios apply:
 
-#### Get a list of all users on StaffHub teams that have team members that aren't provisioned with an Azure AD account
+- A team owner added a user who doesn't have an Azure AD account.
+- A team owner invited a user to a StaffHub team and that user didn't accept the invitation.
+
+You can link an Azure AD account for these users.  Here's how.
+
+#### Get a list of all users on StaffHub teams that have team members that aren't linked to an Azure AD account
 
 Run the following:
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
 ```
 
-#### Provision the account
+#### Link the account
 
 Do one of the following:
 
-- Convert and link the account to a provisioned account.
+- Convert and link the account.
 
-  StaffHub team owners and managers can convert a dummy or inactive account and link it to a provisioned account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
+  StaffHub team owners and managers can convert an inactive account and link it to an Azure AD account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
 
-- Remove the non-provisioned account and then re-add the account by using the UPN.
+- Remove the unlinked account and then re-add the account by using the UPN.
     1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
-    2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN. 
+    2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
+
+- Remove the unlinked user account. Use this option the user account is no longer needed.
 
 ### Assign the FirstlineWorker app setup policy to users
 
@@ -189,7 +197,7 @@ Here's an example of the response you get when a move is in progress.
 
 ### Move files from a StaffHub team to Teams
 
-This step only applies if the StaffHub team that you moved to Teams has files that you want to also move to Teams. You can move files directly in SharePoint Online or by using PowerShell. 
+This step only applies if the StaffHub team that you moved to Teams has files that you want to also move to Teams. You can move files directly in SharePoint Online or by using PowerShell.
 
 #### In SharePoint Online
 
@@ -228,7 +236,8 @@ Use these steps to move StaffHub teams in bulk. You can choose to move all your 
 Run the following to get a list of all StaffHub teams in your organization.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
 Then, run the following to move all teams.
@@ -270,6 +279,7 @@ After you create the CSV file, run the following to move the teams you specified
 $StaffHubTeams = Import-Csv .\teams.csv
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
+
 ### Confirm that your StaffHub teams have moved to Teams
 
 Run the following to get a list of all teams in Shifts in your organization. 
@@ -284,9 +294,9 @@ If the StaffHub teams that you moved contain files that you also want to move to
 
 ## Monitor Teams usage
 
-Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
+Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. You can run reports that show you overall Teams usage, the types of activities that users perform in Teams, how users connect to Teams, and more. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
-## Troubleshooting 
+## Troubleshooting
 
 **When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
 
