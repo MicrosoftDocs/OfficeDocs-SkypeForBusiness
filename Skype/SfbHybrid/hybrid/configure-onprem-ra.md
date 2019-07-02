@@ -192,9 +192,11 @@ Migration from Exchange UM to Phone System will require recreating the call queu
 
 [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[Plan Cloud auto attendant](plan-cloud-auto-attendant)
+[Plan Cloud auto attendants](plan-cloud-auto-attendant.md)
 
-[Plan Cloud Voicemail service](plan-cloud-voicemail)
+[Plan Cloud call queues](plan-call-queue.md)
+
+[Plan Cloud Voicemail service for on-premises users](plan-cloud-voicemail.md)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
