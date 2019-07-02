@@ -14,9 +14,9 @@ description: "set up a resource account for Skype for Business Server 2019."
 
 # Configure resource accounts
 
-Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System for unified messaging and do not integrate with Exchange Online. In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system.md).
+Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System for unified messaging and do not integrate with Exchange Online. In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-To use these Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online (see [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md) to create resource accounts homed online) or on premise as described in this article. Typically you will have multiple Phone System service nodes, each of which is mapped to a resource accounts, which can be homed online or in Skype for Business Server 2019.
+To use these Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online (see [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) to create resource accounts homed online) or on premise as described in this article. Typically you will have multiple Phone System service nodes, each of which is mapped to a resource accounts, which can be homed online or in Skype for Business Server 2019.
 
 If you have an existing Exchange UM auto attendant and call queue system, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.
 
@@ -35,7 +35,7 @@ If your Phone System service will need a service number, the various dependencie
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
-To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 If the Phone system service you're creating will be nested and will not need a phone number, the process is:
 
@@ -50,7 +50,7 @@ Creating a resource account that uses a phone number would require performing th
 
 1. Port or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
 
-   Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365.md).
+   Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
    If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
 
@@ -75,7 +75,7 @@ Creating a resource account that uses a phone number would require performing th
 
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
-5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
     If you are assigning a phone number and you have an Enterprise E1 or E3 licenses you must buy and assign a Phone System license to your the resource account that you will be using. If you have an Enterprise E5 license, Phone System is already included so there's no need to buy one.
 
@@ -107,8 +107,10 @@ The resource account will need an assigned phone number if it will be assigned t
     > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 7. Create the Phone system service. See one of the following:
+
    - [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)  
+
 8. Associate the resource account with the Phone system service you chose previously.
 
 An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
@@ -184,15 +186,15 @@ Migration from Exchange UM to Phone System will require recreating the call queu
 
 ## See Also
 
-[Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
+[Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[What are Cloud auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
+[What are Cloud auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md)  
+[Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[Plan Cloud auto attendant](plan-cloud-auto-attendant.md)
+[Plan Cloud auto attendant](plan-cloud-auto-attendant)
 
-[Plan Cloud Voicemail service](plan-cloud-voicemail.md)
+[Plan Cloud Voicemail service](plan-cloud-voicemail)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
