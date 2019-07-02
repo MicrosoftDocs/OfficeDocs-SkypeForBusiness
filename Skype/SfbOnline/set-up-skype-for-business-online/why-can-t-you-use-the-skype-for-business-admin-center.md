@@ -40,7 +40,7 @@ First, let's break down a few terms.
     
 - **Migrating** This is pretty much the same as "moving." In this case, it means we're moving your Skype for Business Online users and settings from one datacenter to another that's closer to you to improve your service.
     
-- **Latency** This is amount of time it takes you to access the Office 365 admin center, make a settings change, and then save those changes.
+- **Latency** This is amount of time it takes you to access the Microsoft 365 admin center, make a settings change, and then save those changes.
     
 - **Correlation ID** You might have seen this listed in the message you just came from. This information is used by Microsoft support engineers to help you troubleshoot an error. If you contact Microsoft support, you might be asked for the Correlation ID.
     
