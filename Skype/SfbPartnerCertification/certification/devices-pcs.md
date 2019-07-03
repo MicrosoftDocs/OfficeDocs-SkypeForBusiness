@@ -22,6 +22,7 @@ description: "Skype for Businees Certification of PCs ensures that workers can u
 
 # PCs
 Effective June 2019, the Skype for Business certification program for Personal Computers is no longer active. Microsoft and the PC OEMs will continue to support PCs that were previously certified, but no new devices will be certified. Personal Computers are not certified under the Microsoft Teams devices certification program. 
+
 The listing of recent Skype for Business PC certifications will be maintained for a transitionary period so customers can determine which PCs had been previously certified. However, it is recommended customers no longer include Skype for Business PC certification as a prerequisite for future purchasing decisions (or RFQs) since new models will not be certified.
 
 When the Skype for Business PC certification program was active, PCs were tested to deliver:
