@@ -32,15 +32,12 @@ Go to the Microsoft Teams admin center, in the left navigation, click **Analytic
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The Teams usage activity report can be viewed for trends over the last 7 days or 28 days. |
+|**1**   |The Teams minute pools report can be viewed for trends over the last 7 days or 28 days. |
 |**2**   |Each report has a date for when this report was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
-|**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the count of active items or activity.</li> </ul>Hover over the dot representing an item or activity on a given date to see the number of instances of that item or activity on that given date.|
-|**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, click  **Total active users**, **Teams & Channels active users**,  **Active channels**, or **Messages** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
-|**5**   |The table gives you a breakdown of usage by team. <ul><li>**Team name** is the display name of the team. You can click the team name to go to the team's settings page in the Microsoft Teams admin center. </li> <li>**Privacy** refers to whether the team is a private team or public team.</li> <li>**Active users** is the number of active users in the team in the specified time period.</li><li>**Guests** is the number of guests in the team in the specified time period.</li> </li> </ul>To see the information that you want in the table, make sure to add the columns to the table. |
-|**6**   |Select **Edit columns** to add or remove columns in the table.|
-|**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
+|**3**   |The table gives you a breakdown of minute pools by license (capability) and usage location. <ul><li>**Capability**  is the license/service plan used for the call. The license/service plans you may see in this report include: <ul></ul><li>MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans</li><li>MCOPSTN2 - Domestic & International Calling Plan from which you will see a domestic pool (3000-minute US/Canada/PR, 1200-minute European countries) and an international pool (600-minutes). Minute cap is reached whenever the domestic -OR- international cap is reached within the calendar month.</li><li>MCOPSTN5 - Domestic Calling Plan (120-minute calling plan.)</li><li>MCOPSTN6 - Domestic Calling Plan (240-minute calling plan)</li><li>MCOMEETADD - Audio Conferencing</li></li> <li>**Capability Description** is a description of the license type utilized for the call.</li> <li>**Country Minute Pool** is the license usage location of the user(s) who share the minute pool.</li><li>**Used Minutes** is the number of minutes used each month</li> <li>**Total Minutes** is the total number of minutes available for the month.</li><li>**Percent Used** is the percent of minutes used for the month.</li></li> </ul> |
+|**4**   |Click to drag a column to create a view that groups all data into one or more columns|
+|**5**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
 
 ## Related topics
 - [Teams analytics and reporting](teams-reporting-reference.md)
-- [Teams user activity report](user-activity-report.md)
-- [Teams device usage report](device-usage-report.md)
+
