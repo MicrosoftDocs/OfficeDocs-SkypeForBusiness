@@ -20,6 +20,8 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 # Manage feedback policies in Microsoft Teams
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
