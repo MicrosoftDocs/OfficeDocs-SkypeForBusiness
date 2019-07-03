@@ -717,6 +717,7 @@
 ## Get ready to roll out Teams
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
+### [Use Network Planner for Teams](network-planner.md)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 ### [Limits and specifications for Teams](limits-specifications-teams.md)
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
