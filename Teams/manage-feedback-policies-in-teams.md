@@ -36,9 +36,9 @@ You can edit the global policy or create and assign a custom policy. If a user i
 
 Say, for example, you want to allow all users in your organization to send feedback except for new hires in training. In this scenario, you create a custom policy to turn off the feature and assign it to new hires. All other users in your organization get the global policy with the feature turned on.  
 
-You use the **New-CsTeamsFeedbackPolicy** to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet the assign it to one or more users or groups of users, such as a security group or distribution group. 
+You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet the assign it to one or more users or groups of users, such as a security group or distribution group. 
 
-In the policy, set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
+Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
 
 ## Create a custom feedback policy
 
