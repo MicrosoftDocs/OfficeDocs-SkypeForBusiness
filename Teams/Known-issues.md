@@ -23,10 +23,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Administration
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|	
-|:-----|:-----|:-----|:-----|
-|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/><br/> Resource Accounts configured using New-CsHybridApplicationEndpoint with Skype for Business Server will not have the Department parameter set properly which will cause the resource account creation in Skype for Business online to fail. In this case, you need to configure the department name in Active Directory before synchronizing to online.|To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
-
 
 
 
@@ -221,6 +217,35 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |3/1/17 <br/> |
+
+
+
+## Phone System
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/><br/> Resource Accounts configured using New-CsHybridApplicationEndpoint with Skype for Business Server will not have the Department parameter set properly which will cause the resource account creation in Skype for Business online to fail. In this case, you need to configure the department name in Active Directory before synchronizing to online.|To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
+
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Resource accounts sync delay|Can’t assign a phone number to the resource account, or you get the error “The following application instance is not present in BVD.”|Allow 24 hours for syncing. If it has already been 24 hours, remove the phone number assignment, delete the resource account, and create a new one with a different name.|5/18/2019|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Can’t assign a toll service number from the Teams admin center|When you try to assign a toll service number in the Teams admin center, you get the error “You need a phone system license.”|Use PowerShell cmdlets to assign a toll service number instead.|5/18/2019|
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Resource account corrupted|Resource account not working|Removing or replacing the license of a resource account, or creating a new resource account with the same SIP URI as a previously deleted one will result in a corrupt resource account.|5/18/2019|
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Phone number blocked|Phone number blocked: Deleting the resource account before removing the phone number will block the phone number.|Contact Microsoft support to release the telephone number.|5/18/2019|
+
 
 ## Provisioning
 
