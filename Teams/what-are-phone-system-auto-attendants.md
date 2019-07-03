@@ -50,17 +50,11 @@ A Cloud auto attendant has the following features:
 To get started using auto attendants, it's important to remember that:
 
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you plan to assign a phone number to your auto attendant, you need to acquire and assign one of the following licenses to your resource accounts: 
-    - Office 365 Enterprise E1 or E3 with Phone System added
-    - Office 365 Enterprise E5 which includes Phone System
-- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them. 
+- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
-
-> [!NOTE]
-> Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
-    
+  
    > [!TIP]
    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
