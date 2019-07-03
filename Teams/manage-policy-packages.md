@@ -84,7 +84,7 @@ Here are the steps for how to view, assign, and customize policy packages in the
 
 ### Customize policies in a policy package
 
-You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the the Microsoft Teams admin center.
+You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, do one of the following:
     - Click **Policy packages**, and then select the policy package by clicking to the left of the package name.
@@ -96,4 +96,4 @@ You can edit the settings of a policy through the **Policy packages** page or by
 
 **You receive an error when you assign a policy package**
 
-This may occur if one or more policies in the package weren't created or applied successfully. Re-assign the policy package to your users. Retrying the operation typically fixes this issue.
+This may occur if one or more policies in the package weren't created or applied successfully. Reassign the policy package to your users. Retrying the operation typically fixes this issue.
