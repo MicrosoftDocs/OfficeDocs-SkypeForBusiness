@@ -32,7 +32,7 @@ Users need to be signed in for updates to be downloaded.
 
 Teams is installed by default with new installations of Office 365 ProPlus as described in [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
 
-Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel.
+Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## What about updates to Teams on VDI?
 
