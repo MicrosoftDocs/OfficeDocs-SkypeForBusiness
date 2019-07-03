@@ -3,11 +3,10 @@ title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag, lajin 
+ms.reviewer: ritikag, rarang 
 description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams. 
 localization_priority: Normal
 ms.custom:
@@ -27,11 +26,23 @@ Admin settings for apps in Microsoft Teams
 
 Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
-In **Teams apps** in the Microsoft Teams admin center, you can set policies to manage apps for your organization. For example, you can set policies to customize Teams by pinning the apps that are most important for your users.
+In **Teams apps** in the Microsoft Teams admin center, you can set policies to manage apps for your organization. For example, you can set policies control what apps are available to Teams users and you can customize Teams by pinning the apps that are most important for your users.
 
 We're continually improving the app experience in Teams and adding features and functionality. Over time, we'll be building additional app management capabilities, so check back for the most up-to-date information on app policies.
 
 [!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
+
+## App permission policies
+
+With app permission policies, you can block or allow apps, either org-wide or for specific users.  When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
+
+For example, you can use app permission policies to:
+
+- Disable an app that poses a permission or data loss risk to your organization.
+- Gradually roll out new third-party or custom built apps to specific users.
+- Simplify the user experience, especially when you start rolling out Teams across your organization.
+
+To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## App setup policies
 
