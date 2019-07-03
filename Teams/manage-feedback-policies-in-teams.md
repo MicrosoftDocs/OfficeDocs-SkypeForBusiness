@@ -27,13 +27,32 @@ Users can send comments and suggestions about Teams to Microsoft by going to **H
 
 Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
-As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the feature is enabled in the policy. The exception is Teams for Education, where the feature is enabled for teachers and disabled for students in the global policy.
+As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the feature is enabled in the policy. The exception is Teams for Education, where the feature is enabled for teachers and disabled for students.
 
 You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
 Say, for example, you want to allow all users in your organization to send feedback except for new hires in training. In this scenario, you create a custom policy to turn off the feature and assign it to new hires. All other users in your organization get the global policy with the feature turned on.  
 
 You can use the Skype for Business PowerShell module to assign a custom policy to one or more users or groups of users, such as a security group or distribution group.
+
+## Create a custom feedback policy
+
+Run the following.  In this example, we create a new feedback policy called New Hire Feedback Policy.
+
+```
+New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
+```
+
+## Assign a custom feedback policy
+
+Run the following. In this example, we assign the custom New Hire Feedback Policy to user1.
+
+## Assign a custom feedback policy to a user
+
+```
+New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
+```
+
 
 ### Assign a custom feedback policy to users in a group
 
@@ -57,6 +76,3 @@ Assign all users in the group to a particular feedback policy. In this example, 
 $members | ForEach-Object { Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
-
-## Related topics
-
