@@ -84,7 +84,7 @@ Creating a resource account that does not need a phone number would require perf
 
 ## Create a resource account in Microsoft Teams admin center
 
-After you've bought a Phone System license and a Calling Plan, using Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**.
+After you've bought a Phone System license, using Microsoft Teams admin center navigate to **Org-wide settings** > **Resource accounts**.
 
 ![Screen shot of the Resource accounts page](media/r-a-master.png)
 
