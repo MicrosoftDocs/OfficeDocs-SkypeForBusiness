@@ -21,25 +21,28 @@ description: "Skype for Businees Certification of PCs ensures that workers can u
 ---
 
 # PCs
+Effective June 2019, the Skype for Business certification program for Personal Computers is no longer active. Microsoft and the PC OEMs will continue to support PCs that were previously certified, but no new devices will be certified. Personal Computers are not certified under the Microsoft Teams devices certification program. 
+The listing of recent Skype for Business PC certifications will be maintained for a transitionary period so customers can determine which PCs had been previously certified. However, it is recommended customers no longer include Skype for Business PC certification as a prerequisite for future purchasing decisions (or RFQs) since new models will not be certified.
 
-The PCs certification ensures that workers can use their PCs as their unified communications endpoint when dedicated audio or video peripherals are not available. Form factors tested include all-in-one desktops, convertible tablets, laptops and monitors.
+When the Skype for Business PC certification program was active, PCs were tested to deliver:
 
-All of these form factors are tested to deliver:
 - High-definition audio and optimal speaker and mic placement for conference calls.
 - Rich, crisp video, at up to 1080p resolution\*, and with a wide field of view, so that video conferencing is easier and more useful.
 
 \* Check manufacturer’s documentation to see if the product supports 720p or 1080p.
 
 > [!NOTE]
-> This list only includes devices certified within the last 2-3 years (current cut-off date is 1/1/2015).
+> This list only includes devices certified after 1/1/2015.
 
 ## PCs
 
 |Manufacturer | Model| Qualification Date|
 |:--- |:--- |:--- |
-| HP| HP EliteOne 800 G5 | 6/26/2019 | 
-| Lenovo | ThinkBook 14s | 6/26/2019 | 
-| Dell | Vostro 5390 / 5391 | 5/3/2019 | 
+| Lenovo | ThinkPad E595 | 6/2019 |
+| HP| ProOne 400 G5 20-inch| 6/2019 |
+| HP| EliteOne 800 G5 | 6/2019 |
+| Lenovo | ThinkBook 14s | 6/2019 | 
+| Dell | Vostro 5390 / 5391 | 5/2019 |
 | Lenovo | P1 / X1 Extreme | 10/18/2018 | 
 | Dell | OptiPlex 5270 | 5/3/2019 | 
 | Dell | OptiPlex 7470 | 5/3/2019 | 
