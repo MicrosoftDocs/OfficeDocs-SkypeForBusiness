@@ -33,11 +33,11 @@ You can edit the global policy or create and assign a custom policy. If a user i
 
 Say, for example, you want to allow all users in your organization to send feedback except for new hires in training. In this scenario, you create a custom policy to turn off the feature and assign it to new hires. All other users in your organization get the global policy with the feature turned on.  
 
-You can use the Skype for Business PowerShell module to assign a custom policy to one or more users or groups of users, such as a security group or distribution group.
+You use the **New-CsTeamsFeedbackPolicy** to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet the assign a custom policy to one or more users or groups of users, such as a security group or distribution group. Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
 
 ## Create a custom feedback policy
 
-Run the following.  In this example, we create a new feedback policy called New Hire Feedback Policy.
+Run the following. In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback.
 
 ```
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
@@ -45,18 +45,17 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 
 ## Assign a custom feedback policy
 
+### Assign a custom feedback policy to a user
+
 Run the following. In this example, we assign the custom New Hire Feedback Policy to user1.
 
-## Assign a custom feedback policy to a user
-
 ```
-New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
+Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-
 
 ### Assign a custom feedback policy to users in a group
 
-You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+You may want to assign a custom feedback policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
 In this example, we assign a custom app setup policy called New Hire Feedback Policy to all users in the Contoso New Hires group.  
 
