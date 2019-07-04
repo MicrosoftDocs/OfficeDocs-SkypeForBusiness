@@ -48,6 +48,9 @@ While thousands of customers have successfully upgraded to Microsoft Teams, ther
 
 **User-specific considerations**: Some user scenarios are still evolving, and administrators may decide to temporarily postpone the upgrade of certain users while upgrading other users in the organization. We are working on addressing these scenarios; please monitor the [Office 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) site for announcements.
 
+> [!NOTE]
+> Meeting Room devices that don’t support Teams need to be replaced with supporting devices before moving to Teams Only mode. Alternatively get an update from the vendor on such devices.
+
 | Scenario | Notes |
 |----------|-------|
 |User’s primary work device is a Mac, and user needs to see colleagues' availability in Outlook. | Outlook presence in Teams is not yet fully supported for Mac devices. |
