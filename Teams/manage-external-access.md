@@ -52,28 +52,27 @@ See the following table for a comparison of external and guest access features.
 | User can search for users across external tenants | Yes<sup>2</sup> | No |
 | User can share files | No | Yes |
 | User can access Teams resources | No | Yes |
-| User can be added to a group chat | No | Yes |
+| User can be added to a group chat | Yes | Yes |
 | User can be added to a meeting | Yes | Yes |
-| Additional users can be added to a chat with an external user | No<sup>3</sup> | N/A |
+| Additional users can be added to a chat with an external user | Yes | N/A |
 | User is identified as an external party | Yes | Yes |
-| Presence is displayed | Yes | Yes |
+| Presence is displayed | No | Yes |
 | Out of office message is shown | No | Yes |
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | No | Yes |
 | Make private calls | Yes | Yes |
 | Allow IP video | Yes | Yes |
-| Screen sharing mode | No | Yes |
+| Screen sharing mode | Yes | Yes |
 | Allow meet now | No | Yes |
 | Edit sent messages | No | Yes |
 | Can delete sent messages | No | Yes |
-| Use Giphy in conversation | No | Yes |
-| Use memes in conversation | No | Yes |
-| Use stickers in conversation | No | Yes |
+| Use Giphy in conversation | Yes | Yes |
+| Use memes in conversation | Yes | Yes |
+| Use stickers in conversation | Yes | Yes |
 ||||
 
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
-<sup>3</sup> External (federated) chat is 1:1 only.
 
 > [!NOTE]
 > For more information on guest features and the guest experience, see [Turn on or off guest access to Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) and [What the guest experience is like](https://docs.microsoft.com/microsoftteams/guest-experience).
