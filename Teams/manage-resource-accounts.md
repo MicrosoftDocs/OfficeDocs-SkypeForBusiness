@@ -41,6 +41,9 @@ If your Phone System service will need a service number, the various dependencie
 6. Create a Phone System service (a call queue or auto attendant)
 7. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
 
+> [!NOTE]
+> Prerequisites for assigning a service number to a resource account are E1, E3 + Phone System/E5. A calling plan is not needed. When assigning a service number to a resource account, wait up to 24 hours after assigning the necessary subscription. Search for the service number by country code which will then display all acquired non-assigned service numbers that are available to be assigned to a resource account.
+
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
 To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
