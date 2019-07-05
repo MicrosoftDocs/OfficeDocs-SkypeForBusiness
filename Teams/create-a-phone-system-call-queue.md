@@ -56,16 +56,10 @@ All calls waiting in the queue will be distributed using one of the following me
 To get started using call queues, it's important to remember a few things:
   
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you plan to assign a phone number to your call queue, you need to acquire and assign one of the following licenses to your resource accounts:
-    - Office 365 Enterprise E1 or E3 with Phone System added
-    - Office 365 Enterprise E5 which includes Phone System
-- You only need to license the resource accounts with a phone number assigned to them. In a nested call queue, you do not need to license the rest of the call queues if they do not have phone numbers associated with them.
+- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
 > [!NOTE]
 > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
-
-> [!NOTE]
-> Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 > [!NOTE]
 > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See  [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
