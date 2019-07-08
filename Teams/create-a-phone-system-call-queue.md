@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up Phone System for Cloud call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options."
+description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."
 ---
 
 # Create a Cloud call queue
 
-Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Cloud call queues are a service that play a greeting to customer calls before placing them in a queue while searching among a pre-defined set of agents to answer these calls. You can create single or multiple call queues for your organization.
   
 Cloud call queues can provide:
   
-- An organizational greeting.
+- A greeting message.
 - Music while people are waiting on hold.
 - Redirecting of calls to call agents in mail-enabled distribution lists and security groups.
-- Making settings for call queue maximum size, timeout, and call handling options.
+- Settings different parameters such as queue maximum size, timeout, and call handling options.
 
 When someone calls in to a phone number that is associated  with a call queue via a [resource account](manage-resource-accounts.md), they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in *First In, First Out* (FIFO) order.
   
@@ -43,7 +43,7 @@ All calls waiting in the queue will be distributed using one of the following me
 - With round robin, routing of incoming calls is balanced so that each call agent will get the same number of calls from the queue.
 
     > [!NOTE]
-    > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue won't be called.
+    > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue will not recieve calls.
   
 - Only one incoming call notification (for the call at the head of the queue) at a time will be sent to the call agents.
 - After a call agent accepts the call, the next incoming call in the queue will start ringing call agents.
@@ -56,15 +56,10 @@ All calls waiting in the queue will be distributed using one of the following me
 To get started using call queues, it's important to remember a few things:
   
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you plan to assign a Direct Routing number, you need to acquire and assign the following licenses to your resource accounts \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on\).
-- If you are assigning a Microsoft service number instead, you need to acquire and assign the following licenses to your resource account \(Office 365 Enterprise E1, E3 or E5, with the Phone System add-on and a Calling Plan\).
-- You only need to license the resource accounts with a phone number assigned to them. In a nested auto attendant or call queue, you do not need to license the rest of the auto attendants or call queues if they do not have phone numbers associated with them. 
+- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
-> [!NOTE] 
-> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
-
-> [!NOTE] 
-> Microsoft is working on a cost-free licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
+> [!NOTE]
+> Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
 > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See  [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -270,7 +265,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 
   - **Voice application** Select the name of either a call queue or auto attendant that has already been created.
 
-## Changing a user's Caller ID for outbound calls 
+## Changing a user's Caller ID for outbound calls
 
 You can protect a user's identity by changing their caller ID for outbound calls to a call queue, auto attendant, or any service number instead by creating a policy using the **New-CsCallingLineIdentity** cmdlet.
 
@@ -287,14 +282,10 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 ```
 
 You can get more information on how to make changes to caller ID settings in your organization in the article [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
-  
-## Want to know more?
 
-You can also use Windows PowerShell to create and set up call queues.
-  
-### Call queue cmdlets
+## Call queue cmdlets
 
-Here are the cmdlets that you need to manage a call queue.
+You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you need to manage a call queue.
   
 - [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
