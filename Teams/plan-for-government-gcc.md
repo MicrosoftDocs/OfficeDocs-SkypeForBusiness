@@ -96,7 +96,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Meeting notes | Available |
 | | Broadcast meetings | On the Government backlog |
 | | Federated meetings | Available |
-| | Surface Hub support (preview) | On the Government backlog |
+| | Surface Hub support | Not available |
 | Calls | Contacts | Available |
 | | History | Available |
 | | Voicemail | Available |
