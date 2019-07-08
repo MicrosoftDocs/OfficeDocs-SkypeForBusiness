@@ -72,7 +72,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 When you assign an **Audio Conferencing** license to people in your organization who don't have Skype for Business integrated with a 3rd party audio conferencing provider, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
-If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Microsoft as the audio conferencing provider](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## Step 3: Other admin tasks
 
