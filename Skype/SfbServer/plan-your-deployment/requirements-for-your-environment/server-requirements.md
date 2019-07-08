@@ -84,7 +84,7 @@ In addition to the latest service pack, you'll want to ensure the following upda
 <a name="DBs"> </a>
 
 > [!NOTE]
-> SQL back end must be local to the SFB front ends (not across a low speed link). It is not supported to share SQL back ends between two or more pools.
+> For a well-connected SQL back end, the connection to the SFB front end should be local, and not across a low speed link. Sharing SQL back ends between two or more pools is not supported.
 
 When installing Skype for Business Server 2015 Standard Edition, you'll have SQL Server 2014 Express (64-bit edition) is automatically installed as well.
   
