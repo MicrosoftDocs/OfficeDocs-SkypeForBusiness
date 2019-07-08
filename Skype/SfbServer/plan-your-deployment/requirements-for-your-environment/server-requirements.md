@@ -83,7 +83,7 @@ In addition to the latest service pack, you'll want to ensure the following upda
 ## Back end databases that will work with Skype for Business Server 2015
 <a name="DBs"> </a>
 
-> [!IMPORTANT]
+> [!NOTE]
 > SQL back end must be local to the SFB front ends (not across a low speed link). It is not supported to share SQL back ends between two or more pools.
 
 When installing Skype for Business Server 2015 Standard Edition, you'll have SQL Server 2014 Express (64-bit edition) is automatically installed as well.
