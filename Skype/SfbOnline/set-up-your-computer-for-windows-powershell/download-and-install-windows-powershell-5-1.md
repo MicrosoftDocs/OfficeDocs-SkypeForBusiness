@@ -88,7 +88,7 @@ Before installing Windows Management Framework 5.1:
 
 If you aren't sure which version of Windows you are running, or you aren't sure if you've installed Windows 7 Service Pack 1, click **Start**, right-click **Computer**, and then click **Properties**. This information will be reported in the System dialog box.
   
-To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure)
+To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
   
 After the computer has rebooted, verify that Windows PowerShell can start and that the application can be run under administrative credentials. To do this:
   
