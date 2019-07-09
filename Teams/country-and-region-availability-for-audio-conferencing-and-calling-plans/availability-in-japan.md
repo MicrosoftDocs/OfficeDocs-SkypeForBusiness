@@ -74,7 +74,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Tokyo  <br/> |
-|Are toll numbers available?  <br/> |Yes  <br/> |
+|Are toll numbers available?  <br/> |Yes <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
