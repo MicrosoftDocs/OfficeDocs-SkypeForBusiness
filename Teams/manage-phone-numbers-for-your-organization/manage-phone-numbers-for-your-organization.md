@@ -46,6 +46,7 @@ If you know what kind of forms you are looking for use the drop-down to select t
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
 > - [Ireland](phone-number-management-for-ireland.md)
+> - [Japan](phone-number-management-for-japan.md)
 > - [Netherlands](phone-number-management-for-the-netherlands.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [U.K.](phone-number-management-for-the-u-k.md)
@@ -74,7 +75,8 @@ If you need to transfer phone numbers, you'll to download a **Letter of Authoriz
 
 If you still need help, let us know how we can help you. In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
 - For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).
-- For help with phone numbers outside the U.S., [send your request](mailto:ptneu@microsoft.com).
+- For help with phone numbers in Europe, [send your request](mailto:ptneu@microsoft.com).
+- For help with phone number in Asia, [send your request](mailto:ptnapac@microsoft.com).
 
 #### Additional resources
 
