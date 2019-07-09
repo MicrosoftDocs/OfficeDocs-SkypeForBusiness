@@ -68,6 +68,7 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 |[Logitech Tap+NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
 |[Logitech Tap Touch Controller for Video Meeting Rooms](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
 |||||
 
 > [!NOTE]
