@@ -103,12 +103,13 @@ Communication between any on-premise Skype for Business deployment and Skype use
 On-premise deployments are required to publish a Federation DNS SRV record for each domain that they host. Guidance is available in [DNS Planning](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#dns-planning). Each domain must resolve by DNS SRV query to an edge server FQDN that satisfies a top-level suffix match of the domain. For example, consider the domain "contoso.com":
 
 |**Valid FQDNs**|**Comment**|
-|sip.contoso.com <br/> ||
-|sipfed.contoso.com <br/> |In each case, the exact FQDN must be present in either the SN or the SAN of the external certificate installed on the edge server. <br/> |
-|access.contoso.com <br/> ||
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |In each case, the exact FQDN must be present in either the SN or the SAN of the external certificate installed on the edge server.   |
+|access.contoso.com   ||
 |**Invalid FQDNs**|**Reason**|
-|sip.contoso-edge.com <br/> |Not a suffix match. <br/> |
-|sip.it.contoso.com <br/> |Not a top-level suffix match. <br/> |
+|sip.contoso-edge.com   |Not a suffix match.  |
+|sip.it.contoso.com   |Not a top-level suffix match.   |
 
 Further guidance regarding External Certificates can be found in [Certificate planning](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#certificate-planning).
 
