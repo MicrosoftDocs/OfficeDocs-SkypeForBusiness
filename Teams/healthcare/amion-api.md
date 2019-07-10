@@ -1,5 +1,5 @@
 ---
-title: "AMION API integration with Teams "
+title: "AMION app scheduling with Teams "
 author: jambirk
 ms.author: jambirk 
 manager: serdars
@@ -11,13 +11,15 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.reviewer: vanido
-description: Auditing read receipts for admins (june 19)
+ms.reviewer: vanido, acolonna
+description: scheduling interop with shifts
 ---
 
-# AMION API integration with Teams 
+# AMION scheduling app for Teams 
 
-Enable AMION integration with teams using APIs 
+The AMION app displays on-call data for hospitals and gives users an option to import that data into Shifts. The import happens seamlessly using the Graph APIs without further user input. 
+
+Admins in a healthcare environment can choose to restrict access to third party apps, but if you wish to use the patients app and shifts you will probably want to enable this app as well.
 
 
 ## FeatureName overview
