@@ -17,9 +17,9 @@ description: scheduling interop with shifts
 
 # AMiON scheduling app for Teams 
 
-The [AMION scheduling app](http://amion.com) displays on-call data for hospitals and gives healthcare workers an option to import that data into Shifts. This import happens seamlessly using Graph APIs without further user input.
+The [AMION scheduling app](http://amion.com/Enterprises.shtml) displays on-call data for hospitals and gives healthcare workers an option to import that data into Shifts. This import happens seamlessly using Graph APIs without further user input. This mobile app is also available as an app within Teams. 
 
-Admins in a healthcare environment could choose to restrict access to third party apps, but if you wish to use the Patients app and Shifts you will probably want to enable this app as well. We strongly recommend enabling this app and making it prominent in your organization's [app setup policies](../teams-app-setup-policies.md).
+Admins in a healthcare environment could choose to restrict access to third party apps, but if you wish to use the Patients app and Shifts you will probably want to enable this app and make it prominent in your organization's [app setup policies](../teams-app-setup-policies.md).
 
 ## Overview
 
