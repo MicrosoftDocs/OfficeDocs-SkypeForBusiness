@@ -36,18 +36,18 @@ Beginning December 1, 2019, the complimentary dial-out capability will end. See 
 
 ### Complimentary dial out period details
 
-For customers adopting our Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing subscription license through November 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 "Zone A" countries listed below. This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.
+For customers adopting our Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing subscription license through November 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 "Zone A" countries/regions listed below. This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.
 
 Further, there is a 900 minute cap limit during the complimentary dial out period as such:
 
-Users with a license usage location (this is the user country location defined in the licensing area of the Office 365 admin portal) in ANY country can dial out from a conference to any of the 44 Zone A countries. Each user receives 900 minutes per user per month to ANY of the Zone A countries which is pooled at the tenant level. For example, a customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in US, 100 users in the UK and 5 users in India, all with Audio Conferencing subscription licenses assigned to their users. Note: Pool size is based on assigned licenses and not purchased licenses.
+Users with a license usage location (this is the user country location defined in the licensing area of the Office 365 admin portal) in ANY country can dial out from a conference to any of the 44 Zone A countries/regions. Each user receives 900 minutes per user per month to ANY of the Zone A countries/regions which is pooled at the tenant level. For example, a customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in US, 100 users in the UK and 5 users in India, all with Audio Conferencing subscription licenses assigned to their users. Note: Pool size is based on assigned licenses and not purchased licenses.
  
-- All 115 users share a pool of (115 users X 900 min) = 103,500 conferencing dial-out out minutes per calendar month which can be used to place outbound calls to any of the Zone A countries.
+- All 115 users share a pool of (115 users X 900 min) = 103,500 conferencing dial-out out minutes per calendar month which can be used to place outbound calls to any of the Zone A countries/regions.
 - All calls exceeding the 103,500 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination. (Note: Tenant must set up Communications Credits and assign the Communications Credits license to the meeting organizer).
 - All outbound calls to destinations not in the Zone A country list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
 > [!NOTE]
-> You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center. In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as “Outbound Calls to Zone A Countries.”
+> You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center. In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as “Outbound Calls to Zone A Countries/Regions.”
 
 Email notifications will be sent to all tenant administrators of a given customer when the utilization of the tenant’s dial-out minutes pool has reached 80% and 100%.
 
@@ -55,7 +55,7 @@ For dial-out calls that are billed per minute (calls exceeding the tenant dial-o
 
 For additional information on Communication Credits, see [Communications Credits](what-are-communications-credits.md).
 
-**Zone A Countries**
+**Zone A Countries/Regions**
 
 |    |
 |-----|
