@@ -12,7 +12,7 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: vanido, acolonna
-description: scheduling interop with shifts
+description: AMiON scheduling interop with shifts
 ---
 
 # AMiON scheduling app for Teams 
