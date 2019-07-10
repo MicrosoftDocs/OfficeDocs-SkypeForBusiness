@@ -35,7 +35,7 @@ Here's how to roll out your first set of teams and channels so your early adopte
 
 If you're a large organization, have a hybrid or on-premises Skype for Business configuration, have strict regulatory or compliance requirements, or if you want to roll out meetings or voice features (such as calling plans or phone system), start by reading [How to roll out Teams](how-to-roll-out-teams.md). We recommend you still begin with this **Get started** section to build your skills and start planning your org-wide deployment. "Plan Teams with Teams." Start small by rolling out Teams with chat, teams, channels, & apps and build from there. These initial experiences will help you spread the word about Teams, generating excitement throughout the organization for your next launch phase. 
 
-If you're a small business, you may be able to use this Get started guidance to fully roll out Teams in your organization. Small businesses might not need to do a phased Teams deployment. Be sure to check out the templates that are available specifically for small business to make deployment in your organization easier and more streamlined, see [Get started with Teams templates for Small and Medium Businesses](https://docs.microsoft.com/microsoftteams/smb-templates).
+If you're a small business, you may be able to use this Get started guidance to fully roll out Teams in your organization. Small businesses might not need to do a phased Teams deployment. Be sure to check out the templates that are available specifically for small business to make deployment in your organization easier and more streamlined. See [Get started with Teams templates for Small and Medium Businesses](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## Before you get started
 
