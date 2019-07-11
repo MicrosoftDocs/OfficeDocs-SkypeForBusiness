@@ -48,24 +48,29 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 
 - One of the following docking station options to secure a tablet to the meeting room table. 
 
-  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
-**Supported consoles**
+**Other Supported Microsoft Teams Room consoles**
 
-|Console|Processor|RAM|Disk|Firmware version|
-|:-----|:-----|:-----|:-----|:----|
-|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|1.0.16.490|
-|[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | |
-|[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | |
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  |
-|[Logitech Tap Touch Controller for Video Meeting Rooms](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240GB  |  |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|Audio-92.10.0.15</br>Video-92.10.0.15|
-|
+|Console|Processor|RAM|Disk|
+|:-----|:-----|:-----|:-----|
+|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|
+|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|8GB |128GB |
+[Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
+|[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | 
+|[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | 
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+|[Logitech Tap+NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
+|[Logitech Tap Touch Controller for Video Meeting Rooms](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
+|||||
+
 > [!NOTE]
 > Core M3 processors are not supported.
 

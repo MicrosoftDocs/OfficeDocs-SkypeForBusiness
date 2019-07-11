@@ -58,6 +58,9 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 
 - To let Microsoft Teams work with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
+> [!NOTE]
+>For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
+
 ## Additional considerations
 
 Here are some extra things to think about as you implement Microsoft Teams in your organization.
