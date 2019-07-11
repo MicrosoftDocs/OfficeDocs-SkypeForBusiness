@@ -50,3 +50,6 @@ You can also add Phone System and a Calling Plan to a Small Business Essentials 
 3. Scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**.
 
 If you don't see the license, it may not be available to your tenant yet.
+
+
+[Set up Calling Plans](../set-up-calling-plans.md)
