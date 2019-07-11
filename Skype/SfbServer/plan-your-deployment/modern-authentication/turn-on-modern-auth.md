@@ -85,7 +85,7 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 > Note: After configuring the CsAuthConfig, you must run Enable-CsComputer on each computer in order for the settings to take effect.
 
 > [!IMPORTANT]
-> If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change their pin, they will need to login to their corporation to do so, internally.
+> If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change their pin, they will need to login to their corporation to do so, internally. Skype meeting app (SMA) can only be used using guest access internally or externally
 
 ## Links 
 - For more PowerShell information:
