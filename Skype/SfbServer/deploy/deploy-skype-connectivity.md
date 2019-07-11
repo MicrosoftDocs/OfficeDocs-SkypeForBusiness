@@ -91,49 +91,48 @@ Skype for Business Server uses the federation access architecture to support con
 > [!NOTE]
 > If Skype for Business Server is already configured to connect with Windows Messenger by using Public Instant Messaging Connectivity (PIC), your deployment is already configured for Skype connectivity. The only change you may want to consider is to rename your existing Messenger PIC entry as Skype. 
   
-### Accessing the Skype for Business Server public IM connectivity provisioning site from Skype for Business Server
+### The Skype for Business Server public IM connectivity provisioning site is no longer available
 
-This provisioning process can take up to thirty days to complete but may take only a few days depending on the volume of requests. We recommend that you start this process first, prior to completing the remaining steps in this document. After the Skype provisioning process is completed for your account, the account is activated and your eligible users are enabled for public IM connectivity. 
+The site that was formerly used to manually provision federation between Skype for Business on-premise deployments and Skype is no longer necessary and will be shut down on 8/15/2019. Federation with Skype now utilizes federated partner discovery, which is the same mechanism required for federation with Skype for Business Online.
+
+Communication between any on-premise Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premise edge server configuration to be compatible with Skype for Business Online.
+
+> [!NOTE]
+> No action is needed by most customers, including all deployments that federate with Skype for Business Online.
   
-To provision Skype connectivity, you need the following information:
-  
-- Microsoft Agreement Number
-    
-- Access Edge service fully qualified domain name (FQDN)
-    
-- Session Initiation Protocol (SIP) domain(s)
-    
-- Any additional Access Edge service FQDNs
-    
-- Contact information
-    
-To initiate the provisioning process for Skype Connectivity:
-  
-1. Sign in to the website, https://pic.lync.com, using your Microsoft Windows Live ID.
-    
-2. Select the Microsoft licensing agreement type.
-    
-3. Select the check box, verifying that you have read and accept the Product Use Rights for Skype for Business Server.
-    
-4. On the Initiate a Provisioning Request page, click the appropriate link to initiate a provisioning request:
-    
-5. On the Specify Provisioning Information page, enter the Access Edge service FQDN. For example, sip.contoso.com.
-    
-    > [!IMPORTANT]
-    > After July 1st 2017 Microsoft will additionally require customers have the Federation DNS SRV record deployed for Public IM connectivity to continue to work. 
-  
-6. Enter at least one or more SIP domain names, and then click Add.
-    
-    > [!NOTE]
-    > At least one Access Edge server is required to complete the provisioning process. While a single Access Edge FQDN can support multiple SIP domains, a single SIP domain cannot be represented by more than one Access Edge FQDN. The SIP domain and the Access Edge server must be active, functioning, and reachable on the network. 
-  
-7. In the list of Public IM Service providers, select Skype, and click Next to add contact information, and submit the provisioning request.
-    
-After the provisioning request has been submitted, it can take up to 30 days, but may take only a few days depending on queue, for the account to activate and for users to be enabled for Skype Connectivity.
-  
+On-premise deployments are required to publish a Federation DNS SRV record for each domain that they host. Guidance is available in [DNS Planning](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#dns-planning). Each domain must resolve by DNS SRV query to an edge server FQDN that satisfies a top-level suffix match of the domain. For example, consider the domain "contoso.com":
+
+|**Valid FQDNs**|**Comment**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |In each case, the exact FQDN must be present in either the SN or the SAN of the external certificate installed on the edge server.   |
+|access.contoso.com   ||
+|**Invalid FQDNs**|**Reason**|
+|sip.contoso-edge.com   |Not a suffix match.  |
+|sip.it.contoso.com   |Not a top-level suffix match.   |
+
+Further guidance regarding External Certificates can be found in [Certificate planning](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#certificate-planning).
+
+#### FAQs
+
+**Why is the provisioning website being shut down?**
+The public IM (PIC) provisioning mechanism (pic.lync.com) that was deployed in 2006 is no longer serviceable and will be shut down on 8/15/2019. Instead, public IM federation will assume the same federation model used by Skype for Business Online, known as "partner discovery", whereby an on-premise deployment is publicly discoverable by its federation DNS SRV record(s).
+
+**Does this change mean that Public IM federation is being deprecated?**
+No. Public IM federation will continue to be supported for many years, probably until the Skype for Business on-premise product reaches end-of-life.
+
+**Our company has a hybrid relationship (shared address space) with Skype for Business Online, are we affected?**
+No, since you are already federating with Skype for Business Online, this change will not affect you.
+ 
+**Does this change mean that our company has to enable federation with Skype for Business Online?**
+No. If your edge server proxy settings do not enable federation with the Skype for Business Online hosting provider (sipfed.online.lync.com) then this change will not affect that. However, the same DNS and certificate requirements that apply to federating with Skype for Business Online now also apply to federating with Skype users.
+ 
+**Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons … what can we do?**
+Any on-premise organization that cannot change its edge server configuration as specified should reach out to product support at the earliest opportunity.
+
 ### Enabling Federation and Public IM Connectivity (PIC)
 
-After you have submitted the provisioning request, you can focus on the Skype for Business Server environment and administrative tasks required to configure Skype Connectivity. In this section, we assume that the administrator has deployed Skype for Business Server and configured external access, also known as Edge servers. 
+Now focus on the Skype for Business Server environment and administrative tasks required to configure Skype Connectivity. In this section, we assume that the administrator has deployed Skype for Business Server and configured external access, also known as Edge servers. 
   
 There are three primary steps required to enable federation and PIC. These are:
   
@@ -148,7 +147,7 @@ There are three primary steps required to enable federation and PIC. These are:
 Federation is required to enable Skype users to communicate with Skype for Business users in your organization. Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Skype for Business users to communicate with Skype users. Federation and PIC are configured by using the Skype for Business Server Control Panel.
   
 > [!NOTE]
-> PIC federation is no longer supported by Live Communication Server 2005 SP1 or by Office Communications Server 2007. The supported platforms for PIC federation include Skype for Business Server, Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2. 
+> PIC federation is no longer supported by product releases prior to Lync Server 2010 (Live Communication Server, Office Communications Server). The supported platforms for PIC federation include Skype for Business Server, Lync Server 2013, and Lync Server 2010. 
   
 Federation is required to enable Skype users to communicate with Skype for Business users in your organization. Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Skype for Business Server users to communicate with Skype users. Federation and PIC are configured by using the Edge configuration dialog of the Skype for Business Server Control Panel as shown in the figure.
   

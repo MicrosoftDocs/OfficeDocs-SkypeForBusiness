@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -70,6 +70,9 @@ The goal of eCDN is to take the video content from the internet and distribute t
 The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Azure Media Player (for events produced in Teams) and Stream Player (for events produced in an external app or device) and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs, and the live attendee experience is integrated into these collaboration tools. 
 
 ![Screen shot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
+
+### Live event usage report 
+Tenant admins can view real time usage analytics for live events in Microsoft Teams admin center.  The [live event usage report](../teams-analytics-and-reports/teams-live-event-usage-report.md) shows the activity overview of the live events held in the organization.  Admins can view event usage information, including event status, start time, views and production type.  
 
 ## Next steps
 Go to [Plan for Teams live events](plan-for-teams-live-events.md).

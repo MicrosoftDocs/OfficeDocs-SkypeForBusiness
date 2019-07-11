@@ -21,22 +21,79 @@ description: "Skype for Businees Certification of PCs ensures that workers can u
 ---
 
 # PCs
+Effective June 2019, the Skype for Business certification program for Personal Computers is no longer active. Microsoft and the PC OEMs will continue to support PCs that were previously certified, but no new devices will be certified. Personal Computers are not certified under the Microsoft Teams devices certification program. 
 
-The PCs certification ensures that workers can use their PCs as their unified communications endpoint when dedicated audio or video peripherals are not available. Form factors tested include all-in-one desktops, convertible tablets, laptops and monitors.
+The listing of recent Skype for Business PC certifications will be maintained for a transitionary period so customers can determine which PCs had been previously certified. However, it is recommended customers no longer include Skype for Business PC certification as a prerequisite for future purchasing decisions (or RFQs) since new models will not be certified.
 
-All of these form factors are tested to deliver:
+When the Skype for Business PC certification program was active, PCs were tested to deliver:
+
 - High-definition audio and optimal speaker and mic placement for conference calls.
 - Rich, crisp video, at up to 1080p resolution\*, and with a wide field of view, so that video conferencing is easier and more useful.
 
 \* Check manufacturer’s documentation to see if the product supports 720p or 1080p.
 
 > [!NOTE]
-> This list only includes devices certified within the last 2-3 years (current cut-off date is 1/1/2015).
+> This list only includes devices certified after 1/1/2015.
 
 ## PCs
 
 |Manufacturer | Model| Qualification Date|
 |:--- |:--- |:--- |
+| Lenovo | ThinkPad E595 | 6/2019 |
+| HP| ProOne 400 G5 20-inch| 6/2019 |
+| HP| EliteOne 800 G5 | 6/2019 |
+| Lenovo | ThinkBook 14s | 6/2019 | 
+| Dell | Vostro 5390 / 5391 | 5/2019 |
+| Lenovo | P1 / X1 Extreme | 10/18/2018 | 
+| Dell | OptiPlex 5270 | 5/3/2019 | 
+| Dell | OptiPlex 7470 | 5/3/2019 | 
+| Dell | OptiPlex 7770 | 5/3/2019 | 
+| Lenovo | ThinkPad E590 / R590 | 2/19/2019 | 
+| HP| ProBook 650 G5 | 6/20/2019 | 
+| Lenovo | ThinkPad E495 | 6/11/2019 | 
+| Lenovo | ThinkPad T590 / P53s | 6/11/2019 | 
+| Lenovo | ThinkPad X390 | 6/11/2019 | 
+| Lenovo | ThinkPad L490 | 6/11/2019 | 
+| Lenovo | ThinkPad L590 | 6/11/2019 | 
+| Dell | Vostro 7590 | 6/11/2019 | 
+| Lenovo | ThinkPad E490s / S3 | 1/18/2019 | 
+| Acer | Predator PH317-53 | 5/6/2019 | 
+| Acer | Nitro AN517-51 | 5/6/2019 | 
+| Lenovo | ThinkPad T490s | 5/3/2019 | 
+| Lenovo | ThinkPad T490 / P43s | 5/3/2019 | 
+| Acer | Predator PH315-52 | 5/3/2019 | 
+| Dell | Latitude 7400  | 5/3/2019 | 
+| Dell | Latitude 5300 2-in-1 | 3/29/2019 | 
+| Acer | TravelMate P614-51 | 3/28/2019 | 
+| HP | EliteBook x360 830 G5 | 3/20/2019 | 
+| Dell | Latitude 5300 | 3/20/2019 | 
+| Lenovo | Thinkpad X390 yoga | 3/20/2019 | 
+| Dell | Latitude 7300  | 3/20/2019 | 
+| Dell | Latitude 5500/Prec 3540 | 3/20/2019 | 
+| Lenovo | V540  | 3/20/2019 | 
+| HP | EliteBook x360 1040 G5 | 3/20/2019 | 
+| Acer | Predator PT515-51 | 3/8/2019 | 
+| Dell | Latitude 5400 / 5403 / 5401 | 3/8/2019 | 
+| Dell | Latitude 7400 2-in-1 | 3/8/2019 | 
+| Acer | Nitro AN515-54 | 3/8/2019 | 
+| Acer | TravelMate X514-51 | 3/8/2019 | 
+| Acer | Aspire A715-73G | 3/8/2019 | 
+| Acer | Aspire A715-74G | 3/8/2019 | 
+| Acer | Nitro AN715-51  | 3/8/2019 | 
+| Acer | Aspire A515-52 / A515-52G | 1/18/2019 | 
+| HP | ProBook 455 G6 | 1/16/2019 | 
+| HP | ProBook 445 G6 | 1/16/2019 | 
+| Lenovo | ThinkPad E490 / R490 | 12/12/2018 | 
+| Lenovo | ThinkPad L390 Yoga | 12/12/2018 | 
+| Lenovo | ThinkPad X1 Carbon (5th) | 12/12/2018 | 
+| HP | ProBook 430 G6 | 12/12/2018 | 
+| HP | ProBook 450 G6 | 12/12/2018 | 
+| Acer | Swift 3/ SF314-56 | 12/12/2018 | 
+| HP | ProBook 440 G6 | 11/27/2018 | 
+| Acer | Swift 5 / SF515-51T | 11/26/2018 | 
+| Acer | TravelMate X3410 / X3310 | 10/29/2018 | 
+| Lenovo | A285 | 10/29/2018 | 
+| Lenovo | P72 | 10/29/2018 | 
 | Acer| Veriton Z6860G / VA890| 09/19/2018| 
 | Acer | Z24-890 / Aspire Z24-891 | 09/19/2018| 
 | HP| EliteOne 1000 G2 27-in| 08/17/2018| 
