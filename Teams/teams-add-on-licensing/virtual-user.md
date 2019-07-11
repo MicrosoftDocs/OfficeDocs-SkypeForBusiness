@@ -24,6 +24,8 @@ description: "Learn about Priority Notifications in Teams Messaging."
 
 They can either buy a Phone System license or use a Phone System - virtual user license for resource accounts. However, for the time being, they must also have a Calling Plan. They need three licenses to be assigned to a resource account: Phone System (either), Calling Plan, Communication Credits.
 
+
+
 ## Free Virtual Licenses
 
 The number of free licenses your organization has to assign to call queues or auto attendants depends on the overall size. The table below summarizes how free licenses scale.
@@ -37,7 +39,9 @@ The number of free licenses your organization has to assign to call queues or au
 |Row5     |         |
 |Row6     |         |
 
-If your organization uses up its free licenses in creating auto attendant or call queue nodes, you'll have to use the paid licenses.
+If your organization uses up its free licenses in creating auto attendant or call queue nodes, you'll have to use the paid licenses.  
+
+You can also add Phone System and a Calling Plan to a Small Business Essentials license.
 
 ## Steps
 
@@ -61,3 +65,14 @@ To acquire acquire the new cost-free Phone System Virtual User License:
 3. Then scroll to the end - you will see "Phone System - Virtual User" licenses.
 
 If you don's see the license, you'll need to wait until it arrives to your tenant.
+
+
+
+
+## Virtual User License customers: How to see prices and buy
+
+1. Sign in to the Microsoft 365 admin center.
+2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
+3. Scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**.
+
+If you don's see the license, it may net be available to your tenant.
