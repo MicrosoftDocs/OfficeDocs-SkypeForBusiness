@@ -222,6 +222,7 @@ Software updates include any update, update rollup, service pack, feature pack, 
 
 ## Related topics
 
+- [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/skype-for-business-server-2019)
 - [Install Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [Upgrade to  Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
 - [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)
