@@ -33,13 +33,17 @@ In Microsoft Teams or Skype for Business Online, each call queue or auto attenda
 
 If your Phone System service will need a service number, the various dependencies can be met in the following sequence:
 
-1. Obtain a service number
-2. Buy a Phone System license (Office 365 Enterprise E1 or E3 with Phone System added, or Office 365 Enterprise E5 which includes Phone System)
-3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
-4. Assign the Phone System license to the resource account.
-5. Assign a phone number to the resource account.
-6. Create a Phone System service (a call queue or auto attendant)
-7. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
+1. Obtain a service number.
+2. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
+3. Obtain a Phone System or Phone System Virtual User license.
+4. Buy a Domestic or International Calling Plan.
+5. Assign the Phone System or a Phone System Virtual User license to the resource account.
+6. Assign a calling plan license to the resource account.
+7. Assign a Communications Credits license to the resource account.
+8. Set up Communication Credits and set up auto-recharge for your organization.
+9. Assign a service phone number to the resource account you just assigned licenses to.
+10. Create a Phone System service (a call queue or auto attendant).
+11. Link the resource account with a service.
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
@@ -59,18 +63,20 @@ Creating a resource account that uses a phone number would require performing th
 
    Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 
-2. Buy a Phone System license. See:  
-   - [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-   - [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-   - [Office 365 Enterprise E5 Business Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
-3. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell)
-4. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
-6. Set up one of the following:
+2. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell)
+3. Obtain a Phone System or Phone System Virtual User license. From the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**.
+4. Buy a Domestic or International [Calling Plan](calling-plans-for-office-365.md).
+5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+6. Assign a calling plan license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) for more information.
+7. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
+8. Set up Communication Credits and set up auto-recharge for your organization. [Assign a Communications Credits license](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) to the resource account.
+9. [Assign a service phone number](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge) to the resource account you just assigned licenses to. 
+10. Set up one of the following:
    - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
    - [Cloud call queue](create-a-phone-system-call-queue.md)
-7. Assign the resource account to the service. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
+11. Link the resource account to the auto attendant or call queue. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
 
 ### Create a resource account without a phone number
 
@@ -84,7 +90,7 @@ Creating a resource account that does not need a phone number would require perf
 
 ## Create a resource account in Microsoft Teams admin center
 
-After you've bought a Phone System license and a Calling Plan, using Microsoft Teams admin center, navigate to **Org-wide settings** > **Resource accounts**.
+After you've bought a Phone System license, using Microsoft Teams admin center navigate to **Org-wide settings** > **Resource accounts**.
 
 ![Screen shot of the Resource accounts page](media/r-a-master.png)
 
