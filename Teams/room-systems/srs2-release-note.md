@@ -61,6 +61,7 @@ Introduced in this update:
 - Removed support for upgrade to Windows 10 Version 1809 due to compatibility issues found with Microsoft Teams Room client. Windows 10 Version 19H1 support will be added in future releases
 
 <sup>1</sup> Microsoft Teams service rollout using Teams rings. This feature may be available earlier or later than 4.0.105.0 client update
+
 <sup>2</sup> Requires IT admins to turn Microsoft Whiteboard web on. Additionally, If you have touch front of room display, you must calibrate multiple touch displays using Windows settings with device adminstrator login to start using Microsoft Whiteboard for collboration from room display after shared into Teams meeting.
 
 ### 4.0.85.0 (04/8/2019)
