@@ -34,7 +34,7 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="Megaphone icon representing an introduction" />
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Grid of three shapes representing a process" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,11 +53,11 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Pointing hand icon representing getting started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="Cloud image and carpenter's square, representing cloud architecture" />
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Prepare your environment</h3>
+                    <h3>Prepare your environment - Part I</h3>
                     <p>Set the foundation for your Teams deployment - prerequisites for Teams, networking and security best practices, coexistence policies, analytics and reporting, and client distribution best practices.</p>
 </div>
                 </div>
@@ -71,11 +71,11 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Question mark icon representing help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Grid of four blocks representing architecture" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Advanced technical configuration</h3>
+                        <h3>Prepare your environment - Part II</h3>
                     <p>You've got the foundation in place and ready to tackle advanced configurations - policies, compliance/retention and governance best practices, and audio conferencing.</p>
                     </div>
                 </div>
@@ -90,11 +90,11 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Mortarboard icon representing training videos" />
+                            <img src="https://docs.microsoft.com/office/media/icons/health-teams.svg" alt="Heart icon with a heartbeat line representing users" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prepare your organization</h3>
+                        <h3>Ready your end users</h3>
                     <p>In parallel with your Teams rollout, get your users ready to adopt Teams.</p>
                     </div>
                 </div>
@@ -109,11 +109,11 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing YouTube videos" />
+                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph.svg" alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Operate, adopt, and optimize</h3>
+                    <h3>Optimize and expand</h3>
                     <p>Once you've rolled out Teams, learn how to drive adoption, introduce new features, and add additional workloads (such as meetings or cloud voice)</p>
                     </div>
                 </div>
