@@ -1,9 +1,12 @@
 <!-- ============================================================ -->
+### [Audio Conferencing with Direct Routing for GCCH and DOD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 
+### [Direct Routing special considerations for GCCH and DODg](special-considerations-for-gcch-and-dodg.md) 
+
+ 
+<!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
-#       
-#        
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -144,7 +147,7 @@
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](outbound-calling-restriction-policies.md)
 #### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-#### [Audio Conferencing with Direct Routing for GCCH and DOD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+
 
 ### Manage meetings settings for audio conferencing
 
@@ -316,7 +319,7 @@
 ### [Plan Direct Routing](direct-routing-plan.md)
 ### [Configure Direct Routing](direct-routing-configure.md)
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
-### [Direct Routing special considerations for GCCH and DODg](special-considerations-for-gcch-and-dodg.md)
+
 
 
 ### Monitor and troubleshoot Direct Routing
