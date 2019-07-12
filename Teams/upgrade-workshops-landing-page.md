@@ -19,13 +19,11 @@ appliesto:
 ---
 # Teams upgrade planning workshops
 
-Congratulations on your pending upgrade from Skype for Business to Microsoft Teams. More than a backend technical migration, upgrading to Teams offers your users the ability to transform they work, streamlining productivity, improving user satisfaction, and accelerating business outcomes. ​
+Congratulations on your pending upgrade from Skype for Business to Teams. We're excited to invite you to a series of live, interactive upgrade workshops, providing guidance, best practices and resources to guide you through your upgrade to Teams.​ More than a backend technical migration, upgrading to Teams lets your users transform they work, streamlining productivity, improving user satisfaction, and accelerating business outcomes. ​
 
-As a valued Skype for Business customer, we are committed to your success and want to ensure you have everything you need as you navigate your journey to Teams. We're excited to invite you to a series of live, interactive upgrade workshops, providing guidance, best practices and resources you can leverage to facilitate your upgrade to Teams.​
-
-We strongly encourage all members of your project team to start with Plan Your Upgrade, a 30-min foundational session that establishes the framework for your upgrade journey.​
+Everyone on your project team should take the "Plan your upgrade" workshop, a 30-min foundational session that establishes the framework for your upgrade journey.​
 ​
-New to Teams? Read [Welcome to Teams](Teams-overview.md) to learn more.
+Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more about Teams, read [Welcome to Teams](Teams-overview.md).
 
 
 <ul class="panelContent cardsF">
@@ -41,7 +39,7 @@ New to Teams? Read [Welcome to Teams](Teams-overview.md) to learn more.
                     </div>
                     <div class="cardText">
                         <h3>Plan your upgrade (Start here!)</h3>
-                        <p>Begin your upgrade journey with an orientation to our proven framework and key resources, ensuring you have everything you need for upgrade success.<p>Target audience: All project stakeholders accountable for upgrade success</p>
+                        <p>Begin your upgrade journey with an orientation to our Upgrade framework, which gives you everything you need for a successful upgrade.<p>Target audience: Entire Upgrade project team</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +58,7 @@ New to Teams? Read [Welcome to Teams](Teams-overview.md) to learn more.
                     </div>
                     <div class="cardText">
                         <h3>Prepare your users</h3>
-                        <p>Learn tips for designing a user readiness strategy that facilitates user acceptance and adoption of Teams and accelerates their transition from Skype for Business.​<p>Target audience: User readiness/change lead</p>
+                        <p>Learn how to design a user readiness strategy to facilitate acceptance and adoption of Teams and accelerate user transition from Skype for Business.​<p>Target audience: User readiness/change lead</p>
                     </div>
                 </div>
             </div>
@@ -79,7 +77,7 @@ New to Teams? Read [Welcome to Teams](Teams-overview.md) to learn more.
                     </div>
                     <div class="cardText">
                         <h3>Understand coexistence and interop</h3>
-                        <p>Considering running Skype for Business alongside Teams as you plan your upgrade? Discover the various modes and user experiences available to your organization.​<p>Target audience: IT Pro/Teams admin</p>
+                        <p>Need to run Skype for Business alongside Teams as you plan your upgrade? This workshop shows you how.​<p>Target audience: IT pro/Teams admin</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +96,7 @@ New to Teams? Read [Welcome to Teams](Teams-overview.md) to learn more.
                     </div>
                     <div class="cardText">
                         <h3>Manage Teams admin center</h3>
-                        <p>Learn various options and controls for enabling Teams functionality as well as effectively migrating users to Teams Only mode.​<p>Target audience: IT Pro/Teams admin</p>
+                        <p>Learn how to manage Teams functionality, including migration to Teams Only mode.​<p>Target audience: IT pro/Teams admin</p>
                     </div>
                 </div>
             </div>
