@@ -19,8 +19,9 @@ appliesto:
 ---
 # Teams upgrade planning workshops
 
-We're excited to invite you to a series of live, interactive Upgrade Planning workshops, with best practices and resources to guide you through your upgrade to Teams from Skype for Business.​ More than a backend technical migration, upgrading to Teams transforms the way your users work - streamlined productivity, improved satisfaction, accelerated business outcomes. ​
-​
+We're excited to invite you to a series of live, interactive Upgrade Planning workshops, with best practices and resources to guide you through your upgrade to Teams from Skype for Business.​ More than a backend technical migration, upgrading to Teams transforms the way your users work - streamlined productivity, improved satisfaction, accelerated business outcomes.
+
+
 Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more about Teams, read [Welcome to Teams](Teams-overview.md).
 
 
