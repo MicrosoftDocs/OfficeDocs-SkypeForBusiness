@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams in 30 days interactive training
+title: Teams in 30
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,9 +18,12 @@ f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto: 
 - Microsoft Teams
 ---
-# Microsoft Teams in 30 days interactive training
+# Teams in 30 
 
-Microsoft is excited to offer a series of live, interactive workshops designed to get you up and running with Microsoft Teams, in just 30 days. No matter your role, we have a workshop for you. Join us to learn time-tested best practices, get your questions answered, and interact with the Teams engineering group directly. We look forward to meeting you - click a workshop below to register.
+Microsoft is excited to invite you to **Teams in 30**, a series of live, interactive workshops designed to help your organization get up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
+ 
+
+*Get Started with Teams in 30 today.*
 
 
 <ul class="panelContent cardsF">
