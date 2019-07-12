@@ -67,7 +67,7 @@ Creating a resource account that uses a phone number would require performing th
 
 2. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell)
 3. Obtain a Phone System or Phone System Virtual User license. From the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**.
-4. Buy a Domestic or International Calling Plan.
+4. Buy a Domestic or International [Calling Plan](calling-plans-for-office-365.md).
 5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 6. Assign a calling plan license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) for more information.
 7. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
