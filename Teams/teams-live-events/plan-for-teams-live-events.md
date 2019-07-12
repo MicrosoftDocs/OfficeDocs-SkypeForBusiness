@@ -1,8 +1,9 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,13 +19,13 @@ appliesto:
 
 # Plan for live events in Microsoft Teams
 
-When you are planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up. 
+When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up. 
 
 ## Who can create and schedule live events? 
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
-- An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license
+- An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license
 - A Microsoft Teams license
 - A Microsoft Stream license
 
@@ -46,7 +47,7 @@ The user must have:
 - Permissions to create live events in Stream (for external app or device production).
 
 > [!IMPORTANT]
-> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guest and federated users can only watch live events anonymously. 
+> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guests and federated users can only watch live events anonymously. 
  
 ## Who can watch live events?
 
@@ -82,11 +83,11 @@ The following table highlights core capabilities and features offered in live ev
 |Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  | (coming soon) |N/A |
 |Presenter – PSTN access |X |&#x2714; (Teams) |N/A |
 |Present a screen |X |&#x2714; (Teams) |N/A |
-|Present a PowerPoint (PPT Sharing) |&#x2714; |X (mitigated via screen sharing) |N/A |
+|Present a PowerPoint (PPT sharing) |&#x2714; |X (mitigated via screen sharing) |N/A |
 |Cloud based meeting recording |&#x2714; |&#x2714; |&#x2714; |
-|Auto Publish Recording to Stream |X |X |&#x2714; |
-|Real Time Captions and Translation |&#x2714; |&#x2714; (coming soon) |X |
-|Captions in live event recordings |&#x2714; |&#x2714; (coming soon) |&#x2714; |
+|Auto publish recording to Stream |X |X |&#x2714; |
+|Live captions and subtitles |&#x2714; |&#x2714; |X |
+|Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
 |Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
@@ -108,7 +109,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Go Local Canada
 
 **Exclusions and considerations**
-- **Go Locals:** United Kingdom, India, Australia, Japan and other Teams Go Locals are not currently supported.
+- **Go Locals:** United Kingdom, India, Australia, Japan, and other Teams Go Locals are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps

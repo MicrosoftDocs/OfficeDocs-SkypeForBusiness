@@ -62,7 +62,7 @@ In Teams, go to the private team, click **More options** > **Manage team**. On t
 
 Use the **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** cmdlet to turn off or turn on the discovery setting for an existing private team. Here's an example of how to make a team discoverable:
 ```
-    Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInSearchAndSuggestions $true
+    Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 You can use this cmdlet in a script to set the discovery setting of existing private teams in bulk.
 
