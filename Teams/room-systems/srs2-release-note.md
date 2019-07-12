@@ -22,6 +22,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 | Release | Published to <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -48,6 +49,19 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+### 4.0.105.0 (07/10/2019)
+
+Introduced in this update:
+- Skype Room System store app rebranding to "Microsoft Teams Room"
+- Microsoft Teams Room console user interface alignment to Microsoft Teams
+- Theme update to only keep custom background image on front of room displays while making console background neutral color to ensure console UI controls meet color contrast accessibility requirements
+- Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup>
+- Call quality feedback rating after Teams calls/ meetings<sup>1</sup>
+- Recieve/ render Microsoft Whitebord on Microsoft Teams Room front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup>  <sup>2</sup>
+- Removed support for upgrade to Windows 10 Version 1809 due to compatibility issues found with Microsoft Teams Room client. Windows 10 Version 19H1 support will be added in future releases
+
+<sup>1</sup> Microsoft Teams service rollout using Teams rings. This feature may be available earlier or later than 4.0.105.0 client update
+<sup>2</sup> Requires IT admins to turn Microsoft Whiteboard web on. Additionally, If you have touch front of room display, you must calibrate multiple touch displays using Windows settings with device adminstrator login to start using Microsoft Whiteboard for collboration from room display after shared into Teams meeting.
 
 ### 4.0.85.0 (04/8/2019)
 
