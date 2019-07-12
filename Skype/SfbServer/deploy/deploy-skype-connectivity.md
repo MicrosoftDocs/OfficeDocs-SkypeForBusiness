@@ -14,7 +14,7 @@ description: "Summary: Learn how to connect Skype for Business Server with Skype
 ---
 
 # Deploy Skype Connectivity in Skype for Business Server
- 
+
 **Summary:** Learn how to connect Skype for Business Server with Skype consumer. Also known as Skype connectivity.
   
 This article walks through deployment for Skype Connectivity.
@@ -111,7 +111,7 @@ On-premise deployments are required to publish a Federation DNS SRV record for e
 |sip.contoso-edge.com   |Not a suffix match.  |
 |sip.it.contoso.com   |Not a top-level suffix match.   |
 
-Further guidance regarding External Certificates can be found in [Certificate planning](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#certificate-planning).
+Further guidance regarding External Certificates can be found in [Certificate planning](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
 
 #### FAQs
 
