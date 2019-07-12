@@ -62,7 +62,7 @@ Introduced in this update:
 
 <sup>1</sup> Microsoft Teams service rollout using Teams rings. This feature may be available earlier or later than 4.0.105.0 client update
 
-<sup>2</sup> Requires IT admins to turn Microsoft Whiteboard web on. Additionally, If you have touch front of room display, you must calibrate multiple touch displays using Windows settings with device adminstrator login to start using Microsoft Whiteboard for collboration from room display after shared into Teams meeting.
+<sup>2</sup> Requires IT admins to turn Microsoft Whiteboard web on. Additionally, If you have touch front of room display, you must calibrate multiple touch displays using Windows settings with device adminstrator login to start using Microsoft Whiteboard for collboration from room display after shared into Teams meeting
 
 ### 4.0.85.0 (04/8/2019)
 
