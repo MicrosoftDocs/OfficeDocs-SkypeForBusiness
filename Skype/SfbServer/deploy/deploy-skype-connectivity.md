@@ -100,7 +100,7 @@ Communication between any on-premise Skype for Business deployment and Skype use
 > [!NOTE]
 > No action is needed by most customers, including all deployments that federate with Skype for Business Online.
   
-On-premise deployments are required to publish a Federation DNS SRV record for each domain that they host. Guidance is available in [DNS Planning](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#dns-planning). Each domain must resolve by DNS SRV query to an edge server FQDN that satisfies a top-level suffix match of the domain. For example, consider the domain "contoso.com":
+On-premise deployments are required to publish a Federation DNS SRV record for each domain that they host. Guidance is available in [DNS planning](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Each domain must resolve by DNS SRV query to an edge server FQDN that satisfies a top-level suffix match of the domain. For example, consider the domain "contoso.com":
 
 |**Valid FQDNs**|**Comment**|
 |:-----|:-----|
@@ -111,7 +111,7 @@ On-premise deployments are required to publish a Federation DNS SRV record for e
 |sip.contoso-edge.com   |Not a suffix match.  |
 |sip.it.contoso.com   |Not a top-level suffix match.   |
 
-Further guidance regarding External Certificates can be found in [Certificate planning](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#certificate-planning).
+Further guidance regarding External Certificates can be found in [Certificate planning](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements#certificate-planning).
 
 #### FAQs
 
