@@ -38,7 +38,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                     </div>
                     <div class="cardText">
                         <h3>Plan your upgrade (Start here!)</h3>
-                        <p>Our Upgrade framework has everything you need for a successful journey to Teams. (Audience: **Entire Upgrade project team**)</p>
+                        <p>Our Upgrade framework has everything you need for a successful journey to Teams. (Audience: <b>Entire Upgrade project team</b>)</p>
                     </div>
                 </div>
             </div>
