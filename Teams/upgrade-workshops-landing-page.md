@@ -19,7 +19,7 @@ appliesto:
 ---
 # Teams upgrade planning workshops
 
-We're excited to invite you to a series of live, interactive Upgrade workshops, providing guidance, best practices and resources to guide you through your upgrade to Teams from Skype for Business.​ More than a backend technical migration, upgrading to Teams transforms the way your users work - streamlined productivity, improved satisfaction, accelerated business outcomes. ​
+We're excited to invite you to a series of live, interactive Upgrade workshops, with best practices and resources to guide you through your upgrade to Teams from Skype for Business.​ More than a backend technical migration, upgrading to Teams transforms the way your users work - streamlined productivity, improved satisfaction, accelerated business outcomes. ​
 
 Everyone on your project team should take the "Plan your upgrade" workshop, a 30-min foundational session that establishes the framework for your upgrade journey.​
 ​
@@ -34,7 +34,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing finger with an arrow representing get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -58,7 +58,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                     </div>
                     <div class="cardText">
                         <h3>Prepare your users</h3>
-                        <p>Learn how to design a user readiness strategy to facilitate acceptance and adoption of Teams and accelerate user transition from Skype for Business.​<p>Target audience: User readiness/change lead</p>
+                        <p>Design a user readiness strategy to help your users adopt Teams and accelerate their transition from Skype for Business.​<p>Target audience: User readiness/change lead</p>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user.svg" alt="A person icon representing a user" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-teams.svg" alt="A grid and a cloud icon representing a hybrid deployment" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -91,7 +91,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user.svg" alt="A person icon representing a user" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/usage-report-teams.svg" alt="A graphical report icon representing usage reports" />
                         </div>
                     </div>
                     <div class="cardText">
