@@ -19,9 +19,7 @@ appliesto:
 ---
 # Teams upgrade planning workshops
 
-We're excited to invite you to a series of live, interactive Upgrade workshops, with best practices and resources to guide you through your upgrade to Teams from Skype for Business.​ More than a backend technical migration, upgrading to Teams transforms the way your users work - streamlined productivity, improved satisfaction, accelerated business outcomes. ​
-
-Everyone on your project team should take the "Plan your upgrade" workshop, a 30-min foundational session that establishes the framework for your upgrade journey.​
+We're excited to invite you to a series of live, interactive Upgrade Planning workshops, with best practices and resources to guide you through your upgrade to Teams from Skype for Business.​ More than a backend technical migration, upgrading to Teams transforms the way your users work - streamlined productivity, improved satisfaction, accelerated business outcomes. ​
 ​
 Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more about Teams, read [Welcome to Teams](Teams-overview.md).
 
@@ -39,7 +37,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                     </div>
                     <div class="cardText">
                         <h3>Plan your upgrade (Start here!)</h3>
-                        <p>Get oriented to our Upgrade framework, with everything you need for a successful upgrade.<p>Target audience: Entire Upgrade project team</p>
+                        <p>Our Upgrade framework has everything you need for a successful journey to Teams. (Audience: **Entire Upgrade project team**)</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +56,7 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                     </div>
                     <div class="cardText">
                         <h3>Prepare your users</h3>
-                        <p>Design a user readiness strategy to help your users adopt Teams and accelerate their transition from Skype for Business.​<p>Target audience: User readiness/change lead</p>
+                        <p>Design a user readiness strategy to help your users adopt and love Teams. (Audience: User readiness/change lead)</p>
                     </div>
                 </div>
             </div>
@@ -76,8 +74,8 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Understand coexistence and interop</h3>
-                        <p>Need to run Skype for Business alongside Teams as you plan your upgrade? This workshop shows you how.​<p>Target audience: IT pro/Teams admin</p>
+                        <h3>Coexistence and interop</h3>
+                        <p>Learn how to run Skype for Business alongside Teams as you plan your upgrade.​ (Audience: IT pro/Teams admin)</p>
                     </div>
                 </div>
             </div>
@@ -95,8 +93,8 @@ Don't miss our [Upgrade to Teams](upgrade-start-here.md) guidance. To learn more
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Manage Teams admin center</h3>
-                        <p>Learn how to manage Teams functionality, including migration to Teams Only mode.​<p>Target audience: IT pro/Teams admin</p>
+                        <h3>Teams admin center</h3>
+                        <p>Learn how to manage Teams, including migration to Teams Only mode.​ (Audience: IT pro/Teams admin)</p>
                     </div>
                 </div>
             </div>
