@@ -3,7 +3,7 @@ title: Manage external access (federation) in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/19/2019
+ms.date: 07/12/2019
 ms.topic: article
 ms.service: msteams
 MS.collection: 
@@ -11,19 +11,21 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
+f1keywords: 
+- ms.teamsadmincenter.externalaccess.overview
 description: Your IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
 - Microsoft Teams
+localization_priority: Normal
 ---
-
-Manage external access (federation) in Microsoft Teams
+Manage external access in Microsoft Teams
 ======================================================
 
-With Microsoft Teams external access, users from other domains can participate in your chats and calls. You can also allow external users who are still using Skype for Business Online or Skype for Business on-prem to participate.
+With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow othe external users who are still using Skype for Business Online, Skype for Business on-prem or even Skype to participate.
 
 Use the steps in this article when:
   
-- You have users in different domains in your business: for example, Rob@ContosoEast.com and Ann@ContosoWest.com.
+- You have users in different domains in your business: for example, Rob@contoso.com and Ann@northwindtraders.com.
 
 - You want the people in your organization to use Teams to contact people in specific businesses outside of your organization.
 
@@ -81,7 +83,7 @@ For more information about the free version of Teams and how it works with featu
 
 ## Quick steps for scenarios
 
-|**You want to....**  |**Steps**  |
+|**You want to....**  |**Quick steps**  |
 |---------|-----------------------|
 |You want to let **Teams users** in your organization communicate with **Teams users** in another (external) organization.|In External Access, add the external domain to the Allowed list or use open federation. <p>Then have the administrator in the other Teams organization do the same thing.      |
 |You want to let **Teams users**  in your organization  communicate with **Skype for Business Online users**  in the same organization.  |Enable Coexistence mode or choose the Islands upgrade mode to support Skype for Business users in your organization.   |
@@ -113,7 +115,7 @@ Follow these steps to allow or block domains.
 
 ### Step 1 - Enable your organization to communicate with another Teams organization
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
 
@@ -162,6 +164,6 @@ Have the admin in that organization do these steps:
 
 4. Under **Blocked or allowed domains**, choose **+**, and then add the name of the domain you want to allow.
 
-## More information
+## Related topics
 
 For information about guest access in Microsoft Teams, see [Manage guest access in Microsoft Teams](manage-guests.md).
