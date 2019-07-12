@@ -38,11 +38,12 @@ If your Phone System service will need a service number, the various dependencie
 3. Obtain a Phone System or Phone System Virtual User license.
 4.	Buy a Domestic or International Calling Plan.
 5. Assign the Phone System or a Phone System Virtual User license to the resource account.
-6.	Assign a Commmications Credits license to the resource account.
-7.	Set up Communication Credits and set up auto-recharge for your organization.
-8. Assign a service phone number to the resource account you just assigned licenses to.
-9. Create a Phone System service (a call queue or auto attendant)
-10. Link the resource account with a service
+6. Assign a calling plan license to the resource account.
+7.	Assign a Commmications Credits license to the resource account.
+8.	Set up Communication Credits and set up auto-recharge for your organization.
+9. Assign a service phone number to the resource account you just assigned licenses to.
+10. Create a Phone System service (a call queue or auto attendant)
+11. Link the resource account with a service
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
@@ -68,13 +69,14 @@ Creating a resource account that uses a phone number would require performing th
 3. Obtain a Phone System or Phone System Virtual User license. From the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**.
 4. Buy a Domestic or International Calling Plan.
 5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-6. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
-7.	Set up Communication Credits and set up auto-recharge for your organization. Assign the Commmications Credits license to the resource account.
-8. Assign a service phone number to the resource account you just assigned licenses to.
-9. Set up one of the following:
+6. Assign a calling plan license to the resource account. See [Assign Microsoft Teams licenses](https://docs.microsoft.com/MicrosoftTeams/assign-teams-licenses) for more information.
+7. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
+8.	Set up Communication Credits and set up auto-recharge for your organization. Assign the Commmications Credits license to the resource account.
+9. Assign a service phone number to the resource account you just assigned licenses to.
+10. Set up one of the following:
    - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
    - [Cloud call queue](create-a-phone-system-call-queue.md)
-10. Link the resource account to the auto attendant or call queue. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
+11. Link the resource account to the auto attendant or call queue. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
 
 ### Create a resource account without a phone number
 
