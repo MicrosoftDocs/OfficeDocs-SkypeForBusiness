@@ -39,7 +39,7 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                     </div>
                     <div class="cardText">
                         <h3>Get started with Teams in 30</h3>
-                        <P>Start your Teams in 30 program on the right foot. Get oriented to our program and find out who should participate.</P>
+                        <P>Start your Teams in 30 journey on the right foot. Understand the program, who should participate, and what resources you can use to ensure your success.</P>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                     </div>
                     <div class="cardText">
                     <h3>Prepare your environment - Part I</h3>
-                    <p>Set the foundation for your Teams deployment - prerequisites for Teams, networking and security best practices, coexistence policies, analytics and reporting, and client distribution best practices.</p>
+                    <p>Set the foundation for your Teams rollout. Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations. (Audience: IT admins)</p>
 </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                     </div>
                     <div class="cardText">
                         <h3>Prepare your environment - Part II</h3>
-                    <p>You've got the foundation in place and ready to tackle advanced configurations - policies, compliance/retention and governance best practices, and audio conferencing.</p>
+                    <p>Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams. (Audience: IT admins)</p>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                     </div>
                     <div class="cardText">
                         <h3>Ready your end users</h3>
-                    <p>In parallel with your Teams rollout, get your users ready to adopt Teams.</p>
+                    <p>Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout. (Audience: Adoption and change owners)</p>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@ Microsoft is excited to invite you to **Teams in 30**, a series of live, interac
                     </div>
                     <div class="cardText">
                     <h3>Optimize and expand</h3>
-                    <p>Once you've rolled out Teams, learn how to drive adoption, introduce new features, and add additional workloads (such as meetings or cloud voice)</p>
+                    <p>Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users. (Audience: All)</p>
                     </div>
                 </div>
             </div>
