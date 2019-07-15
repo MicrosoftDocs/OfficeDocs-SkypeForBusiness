@@ -17,13 +17,11 @@ search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---
-# Teams upgrade planning workshops
-
-As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the *Plan your upgrade* session below.
-
-New to Teams? Learn more [here](Teams-overview.md).
-
-
+<div id="main" class="v2">
+    <div class="container">
+        <h1>Teams upgrade planning workshops</h1>
+           <p>As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the <b>Plan your upgrade</b> session below.
+            <p>New to Teams? Learn more [here](Teams-overview.md).
 <ul class="panelContent cardsF cols cols2">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
@@ -37,7 +35,7 @@ New to Teams? Learn more [here](Teams-overview.md).
                     </div>
                     <div class="cardText">
                         <h3>Plan your upgrade (Start here!)</h3>
-                        <p>Our Upgrade framework has everything you need for a successful journey to Teams. (Audience: <b>Entire Upgrade project team</b>)</p>
+                        <p>Our Upgrade framework has everything you need for a successful journey to Teams. (Audience: Entire Upgrade project team)</p>
                     </div>
                 </div>
             </div>
