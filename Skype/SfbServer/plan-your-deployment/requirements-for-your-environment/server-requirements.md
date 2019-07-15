@@ -70,7 +70,7 @@ Once you have the hardware in place, you'll need to install operating systems (O
 If it's not on this list, it won't work properly, please don't try it for new installs of Skype for Business Server 2015.
   
 > [!NOTE]
-> You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015. 
+> You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015 and will reach end-of-life on the 14th of January 2020.
   
 In addition to the latest service pack, you'll want to ensure the following updates are installed where relevant to you:
   
