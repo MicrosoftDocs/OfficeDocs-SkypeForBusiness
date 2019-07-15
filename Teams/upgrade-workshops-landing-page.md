@@ -1,6 +1,6 @@
 ---
 title: Teams upgrade planning workshops
-ms.reviewer: 
+ms.reviewer: dearbeen
 description: Use these instructor-led courses to help you plan your upgrade to Microsoft Teams from Skype for Business.
 layout: HubPage
 ms.topic: hub-page
@@ -17,9 +17,6 @@ search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---
-<div id="main" class="v2">
-    <div class="container">
-
 # Teams upgrade planning workshops
 
 As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the *Plan your upgrade* session below.
@@ -102,8 +99,6 @@ New to Teams? Learn more [here](Teams-overview.md).
                 </div>
             </div>
         </div>
-</div>
-</div>
         </a>
     </li>
 </ul>
