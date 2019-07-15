@@ -40,6 +40,9 @@ To configure and enable Call Data Connector, you will use the following cmdlets:
 | Set-CsCloudCallDataConnector | An on-premises cmdlet that saves an on-premises copy of the connection information created by the New-CsCloudCallDataConnection cmdlet. |  
 | Set-CsCloudCallDataConnectorConfiguration | An on-premises cmdlet that allows you to enable or disable the connector and customize the scope level.|
 
+> [!NOTE]
+> To erase your configuration and start over, please use this cmdlet - Remove-csclouddatconnectorconfiguration.
+
 ### Configure your environment 
 
 To configure your environment to enable an online data collector, you must first log in to Skype for Business Online PowerShell as an administrator. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
