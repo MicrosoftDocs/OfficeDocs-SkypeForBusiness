@@ -1,5 +1,5 @@
 ---
-title: Block PSTN calls on Microsoft Teams desktop and mobile clients
+title: Understand how users can block PSTN calls on Microsoft Teams desktop and mobile clients
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: alklasin
@@ -7,16 +7,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Learn about the block callers feature in Microsoft Teams. 
+description: Learn how users can block PSTN calls in Microsoft Teams. 
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---
 
-# Block PSTN calls on Microsoft Teams desktop and mobile clients
+# Understand how users can block PSTN calls on Microsoft Teams desktop and mobile clients
 
-If users are receiving calls that they don’t want to receive on their desktop or mobile (iOS or Android) Teams client, they can use the block calls feature to prevent future calls from the sender. Users can also manage their blocked caller list.
+If users are receiving calls that they don’t want to receive on their desktop or mobile (iOS or Android) Teams clients, they can use the block calls feature to prevent future calls from the sender. Users can also manage their blocked caller list.
 
 This feature allows users to reduce the following types of calls:
 
