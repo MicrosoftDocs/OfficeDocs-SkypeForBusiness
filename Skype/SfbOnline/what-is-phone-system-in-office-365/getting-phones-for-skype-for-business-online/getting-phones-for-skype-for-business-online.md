@@ -26,12 +26,13 @@ description: "Learn which phones work with Skype for Business from Polycom, HP, 
 # Getting phones for Skype for Business Online
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
-  
-To get the latest updates and most up-to-date information on supported devices, see the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+
+> [!NOTE]
+> Skype For Business will slowly be replaced by Microsoft Teams as the primary communication method in Office 365.  See [A new vision for intelligent communications in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) for more information.
+>
+>To get the latest updates and most up-to-date information on supported devices, see the [Microsoft Teams devices for intelligent communications](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## Supported phones
-
-For Skype for Business Online users, you can choose from several models within the *Certified for Skype for Business Phones*  and phones running Lync Phone Edition (LPE) listed under the Skype for Business Online category in the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Microsoft is partnering and working closely with Polycom, Yealink, and AudioCodes to develop and certify a wide variety of devices through the Partner IP Phone Program (PIP) for the Phone System in Office 365 and Skype for Business Server.
   
