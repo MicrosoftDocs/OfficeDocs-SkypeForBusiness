@@ -32,6 +32,9 @@ description: "Here are the Office 365 services for Skype for Business and Micros
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
 Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan.
+
+> [!IMPORTANT]
+> Using SoftBank for calling in Japan is currently only available to Early Adopters (EA).
   
 ## Audio Conferencing
 
@@ -51,13 +54,21 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
+> [!IMPORTANT]
+> Only available through SoftBank for Japanese-based tenants. 
+> For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)).
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |[SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)  <br/> |
-|Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
-|Can make outbound calls to?  <br/> |Not applicable  <br/> |
-   
+|Calling Plans are available to purchase?  <br/> |Yes,  see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).  <br/> |
+|Minutes available for Calling Plans  <br/> |See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+|Can make outbound calls to?  <br/> |See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+
+> [!IMPORTANT]
+> To delete user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.
+> To update emergency address information for user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.
+> For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).
+
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
