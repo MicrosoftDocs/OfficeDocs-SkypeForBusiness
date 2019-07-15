@@ -32,7 +32,7 @@ Network Planner allows you to:
 
 - Generate reports and calculate bandwidth requirements for Teams usage.
 
-To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator. 
+To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.
 
 ## Create a custom persona
 
@@ -95,4 +95,4 @@ After you add all sites, you can create a report, as follows.
 
 ## Example scenario
 
-For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the Network Planner How-To PowerPoint deck (in English only).
+For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the [Network Planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx) (English only).
