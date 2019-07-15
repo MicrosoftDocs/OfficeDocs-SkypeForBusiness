@@ -59,15 +59,15 @@ Microsoft Teams Rooms can scale to different room sizes through accessories depe
 
 |Console|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB|
-|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|8GB |128GB |
+|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8GB |128GB |
 [Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
+|[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
 |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  | 
 |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB | 
 |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
-|[Logitech Tap+NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|8GB |128GB |
+|[Logitech Tap](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8GB |128GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
-|[Logitech Tap Touch Controller for Video Meeting Rooms](https://www.logitech.com/en-us/product/tap) |Core i5  |8GB  |240GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
 |||||
 
 > [!NOTE]
