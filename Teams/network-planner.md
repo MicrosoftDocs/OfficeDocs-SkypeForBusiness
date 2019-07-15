@@ -93,5 +93,6 @@ After you add all sites, you can create a report, as follows.
 
 4. Click **Save**. Your report will be available on the reports list for later viewing.
 
-> [!NOTE]
-> For a step-by-step walkthrough of how to use Network Planner to set up a network plan and generate a report, download the Network Planner How-To PowerPoint deck (in English only).
+## Example scenario
+
+For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the Network Planner How-To PowerPoint deck (in English only).
