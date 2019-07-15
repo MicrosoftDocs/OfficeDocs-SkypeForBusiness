@@ -59,7 +59,7 @@ There are three ways to get user numbers:
   
 - If you need 999 or fewer phone numbers for your users, you can use the legacy portal in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers to Teams.
     
-- If you need to port more than 999 phone numbers, see [Manually submit a custom service request](/skypeforbusiness/manually-submit-a-custom-service-request) to submit a port order service request or order to get all of these phone numbers ported over to Office 365.
+- If you need to port more than 999 phone numbers, see [Manage service requests in Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) to submit a port order service request or order to get all of these phone numbers ported over to Office 365.
     
 ## Show phone numbers for your organization
 
