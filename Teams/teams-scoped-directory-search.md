@@ -49,6 +49,5 @@ To learn how to use address book policies, read [Address book policies in Exchan
 
     ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
 
-> [!NOTE]
-> Hybrid configurations (Teams with Exchange on-premises) do not support scoped search mode. 
+
 
