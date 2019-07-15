@@ -36,9 +36,9 @@ To enable calls to landlines and mobile phones, Phone System can be connected to
   
 - By purchasing the a Calling Plan (domestic or domestic and international) for Office 365. See [Phone System and Calling Plans](calling-plan-landing-page.md)
     
-- By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Planning your Phone System](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Diagram that describes Cloud PBX offerings](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## More about Calling Plans
 
