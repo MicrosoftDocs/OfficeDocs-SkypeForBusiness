@@ -63,6 +63,7 @@ New to Teams? Learn more [here](Teams-overview.md).
         </div>
         </a>
     </li>
+    <li></li>
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
         <div class="cardSize">
