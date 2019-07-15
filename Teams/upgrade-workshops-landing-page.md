@@ -24,7 +24,7 @@ As a valued Skype for Business customer, we want to ensure you have what you nee
 New to Teams? Learn more [here](Teams-overview.md).
 
 
-<ul class="panelContent cardsF">
+<ul class="panelContent cardsF cols cols2">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
         <div class="cardSize">
@@ -63,7 +63,6 @@ New to Teams? Learn more [here](Teams-overview.md).
         </div>
         </a>
     </li>
-    <li></li>
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
         <div class="cardSize">
