@@ -10,14 +10,21 @@ ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: "Find and manage updates for Skype for Business Server 2015 and Lync 2013 in one place. Use the links on this page to get more information about updates, and then download the updates."
+description: "Find and manage updates for Skype for Business Server 2015/2019 and Lync 2013 in one place. Use the links on this page to get more information about updates, and then download the updates."
 ---
 
 # Skype for Business Server updates
 
-Find and manage updates for [Skype for Business Server 2015](#skype-for-business-server-2015-update-history),  [Lync Server 2013](#lync-server-2013-update-history),  and [Lync Server 2010](#lync-server-2010-update-history) in one place. Use the links on this page to get more information about updates, and then download the updates.
+Find and manage updates for [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history),  [Lync Server 2013](#lync-server-2013-update-history),  and [Lync Server 2010](#lync-server-2010-update-history) in one place. Use the links on this page to get more information about updates, and then download the updates.
 
 For the latest Skype for Business Online and Office 365 updates, see the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
+
+## Skype for Business Server 2019 update history
+
+|Package Name|KB Number|Release Date|
+|:--- |:--- |:--- |
+|Skype for Business Server 2019 Cumulative Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
+| | | |
 
 ## Skype for Business Server 2015 update history
 
