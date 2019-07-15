@@ -45,9 +45,9 @@ items:
     ## Before you begin
 
     We assume you've already done the following: 
-    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md).
-    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
-    - Reviewed  [What are auto attendants and call queues?](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls.md) to get a 
+    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system)
+    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail)
+    - Reviewed  [What are auto attendants and call queues?](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) to get a 
     better understanding of the Phone System features that can interact with a call queue.
 
 

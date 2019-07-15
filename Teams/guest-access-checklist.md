@@ -62,21 +62,25 @@ A few things to remember:
 
 ## □  Step 1: Configure settings in Azure AD business-to-business
 
-1. Sign in to https://portal.azure.com.
-2. Click **Azure Active Directory** in the left pane.
-3. Under **Manage**, click **User settings**.
-4. Under **External users**, click **Manage external collaboration settings**.
-5. On the **External collaboration settings** page make sure **Members can invite** is set to **Yes**.
+1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
+2. Select **Azure Active Directory** > **Users** > **User settings**.
+3. Under **External users**, select **Manage external collaboration settings**.
+   > [!NOTE]
+   > The **External collaboration settings** are also available from the **Organizational relationships** page. In Azure Active Directory, under **Manage**, go to **Organizational relationships** > **Settings**.
+4. On the **External collaboration settings** page, choose the policies you want to enable.
 
-      ![Screenshot shows an example of an AAD settings toggle. ](media/guest-access-checklist-AADSettings1.png)
+   ![External collaboration settings](media/control-who-to-invite.png)
 
-    To support guests, **Members can invite** must be set to **Yes**.
-
-    > [!NOTE] 
-    > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
-
-For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
-
+  - **Guest users permissions are limited**: This policy determines permissions for guests in your directory. Select **Yes** to block guests from certain directory tasks, like enumerating users, groups, or other directory resources. Select **No** to give guests the same access to directory data as  regular users in your directory.
+   - **Admins and users in the guest inviter role can invite**: To allow admins and users in the "Guest Inviter" role to invite guests, set this policy to **Yes**.
+   - **Members can invite**: To allow non-admin members of your directory to invite guests, set this policy to **Yes**.
+   
+       > [!NOTE]
+       > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+   
+   - **Guests can invite**: To allow guests to invite other guests, set this policy to **Yes**.
+   - **Enable Email One-Time Passcode for guests (Preview)**: For more information about the one-time passcode feature, see [Email one-time passcode authentication (preview)](one-time-passcode.md).
+   - **Collaboration restrictions**: For more information about allowing or blocking invitations to specific domains, see [Allow or block invitations to B2B users from specific organizations](allow-deny-list.md).
 
 ## □ Step 2: Configure Office 365 Groups
 

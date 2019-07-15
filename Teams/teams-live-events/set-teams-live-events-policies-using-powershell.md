@@ -1,9 +1,9 @@
 ---
 title: Use PowerShell to set live events policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -25,7 +25,7 @@ You can use the following Windows PowerShell cmdlets to set and assign policy se
 - [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-Here's some examples.
+Here are some examples.
 
 ## Allow users to schedule live events 
 
@@ -124,11 +124,11 @@ Set the global policy to disable recording for live events:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## Set transcription and translation in live events (coming soon)
+## Set live captions and subtitles in live events
 > [!NOTE]
 > This setting applies only to events produced in Teams. 
 
-Set the global policy to turn on transcription and translation on for event attendees:
+Set the global policy to turn on live captions and subtitles (transcription) for event attendees:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
