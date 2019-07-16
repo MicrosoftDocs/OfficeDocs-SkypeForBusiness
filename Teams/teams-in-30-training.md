@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Training
 - Teams_ITAdmin_JourneyFromSfB
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Live, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
@@ -29,7 +29,7 @@ appliesto:
                     <li>
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
-<ul class="panelContent cardsF">
+                <ul class="panelContent cardsF cols 2col">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
         <div class="cardSize">
