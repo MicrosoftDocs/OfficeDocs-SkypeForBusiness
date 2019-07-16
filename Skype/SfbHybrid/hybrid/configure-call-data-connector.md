@@ -41,7 +41,7 @@ To configure and enable Call Data Connector, you will use the following cmdlets:
 | Set-CsCloudCallDataConnectorConfiguration | An on-premises cmdlet that allows you to enable or disable the connector and customize the scope level.|
 
 > [!NOTE]
-> To erase your configuration and start over, please use this cmdlet - Remove-csclouddatconnectorconfiguration.
+> To erase your configuration and start over, please use the Remove-csclouddatconnectorconfiguration cmdlet.
 
 ### Configure your environment 
 
