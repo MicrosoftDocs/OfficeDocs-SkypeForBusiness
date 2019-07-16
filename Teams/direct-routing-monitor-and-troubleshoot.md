@@ -53,7 +53,7 @@ When a call is made, the following logic applies:
 
 Direct Routing takes the regular interval options three times (the regular interval is one minute). If options were send during the last three minutes, the SBC is considered healthy.
 
-If the SBC in our example sent options at any period between 11.12 AM and 11.15 AM (the time the call was made), it is considered healthy. If not, the SBC will be demoted from the route. 
+If the SBC in the example sent options at any period between 11.12 AM and 11.15 AM (the time the call was made), it is considered healthy. If not, the SBC will be demoted from the route. 
 
 Demotion means that the SBC will not be tried first. For example, we have sbc1.contoso.com and sbc2.contoso.com with equal priority.  
 
