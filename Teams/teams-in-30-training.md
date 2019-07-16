@@ -21,7 +21,7 @@ appliesto:
     <div class="container">
         <h1>Teams in 30</h1>
            <p>Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
-           <p><font color="#6264A7"><strong>Ready to jump in?</strong></font> We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session. Click a session title below to sign up.
+           <p><font color="#6264A7">Ready to jump in?</font> We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session. Click a session title below to sign up.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
