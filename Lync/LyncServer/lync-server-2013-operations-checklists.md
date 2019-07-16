@@ -24,13 +24,13 @@ The checklists mentioned here are for your internal record keeping, and if neces
 
 ## Daily task checklist
 
-The Daily Task checklist is presented in this [Excel spreadsheet](http://download.microsoft.com/download/9/a/3/9a3faa4b-07a8-41fe-9d25-30783a6253ff/operations+daily.xlsx).
+The Daily Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-daily.xlsx?raw=true).
 
 <br>
 
 ## Weekly task checklist
 
-The Weekly Task checklist is presented in this [Excel spreadsheet](http://download.microsoft.com/download/9/a/3/9a3faa4b-07a8-41fe-9d25-30783a6253ff/operations+weekly.xlsx).
+The Weekly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-weekly.xlsx?raw=true).
 
 
 <br>
@@ -38,5 +38,5 @@ The Weekly Task checklist is presented in this [Excel spreadsheet](http://downlo
 ## Monthly task checklist
 
 
-The Monthly Task checklist is presented in this [Excel spreadsheet](http://download.microsoft.com/download/9/a/3/9a3faa4b-07a8-41fe-9d25-30783a6253ff/operations+monthly.xlsx).
+The Monthly Task checklist is presented in this [Excel spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Lync/LyncServer/downloads/operations-monthly.xlsx?raw=true).
 
