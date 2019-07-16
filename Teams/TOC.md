@@ -302,6 +302,7 @@
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
+### [Understand how users can block PSTN calls on Teams clients](block-pstn-calls-on-Teams-clients.md)
 
 
 ## Calling Plans
