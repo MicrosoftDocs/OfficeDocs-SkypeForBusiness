@@ -29,7 +29,6 @@ appliesto:
                     <li>
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
-    <li></li>
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
         <div class="cardSize">
@@ -49,7 +48,8 @@ appliesto:
         </div>
         </a>
     </li>
-  <li> 
+    <li></li>  
+    <li> 
         <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
