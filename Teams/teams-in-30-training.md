@@ -20,8 +20,8 @@ appliesto:
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams in 30</h1>
-           <p>Microsoft is excited to invite you to **Teams in 30**, a series of live, interactive workshops designed to help your organization get up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
-           <p><b>Get Started with Teams in 30 today</b>.
+           <p>Microsoft is excited to invite you to Teams in 30, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
+           <p><font color="rgb(98,100m,167)">Ready to jump in?</font> We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session. Click a session title below to sign up.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
