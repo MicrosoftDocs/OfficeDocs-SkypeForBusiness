@@ -31,7 +31,7 @@ The _Skype for Business downloads and updates_ web page that was once on Technet
         - [Lync 2010 Attendee updates](sfb-client-updates.md#lync-2010-attendee-updates)
 
 - [Skype for Business Server updates](sfb-server-updates.md) which  contains the sections:
-    - [Skype for Business Server 2019 update history](https://docs.microsoft.com/skypeforbusiness/skype-for-business-server-2019)
+    - [Skype for Business Server updates](https://docs.microsoft.com/skypeforbusiness/sfb-client-updates)
     - [Skype for Business Server 2015 update history](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 update history](sfb-server-updates.md#lync-server-2013-update-history)
         - [Lync Server 2013 Dev tools](sfb-server-updates.md#lync-server-2013-dev-tools)
