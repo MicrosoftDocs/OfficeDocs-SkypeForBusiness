@@ -3,29 +3,32 @@ title: Teams in 30
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: LandingPage
+layout: HubPage
+ms.topic: hub-page
 ms.date: 7/1/19
-ms.topic: landing-page
 ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Training
 - Teams_ITAdmin_JourneyFromSfB
-ms.reviewer: nsuter
+ms.reviewer: dearbeen
 search.appverid: MET150
 description: Live, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
-ms.topic: landing-page
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto: 
 - Microsoft Teams
 ---
-# Teams in 30 
-
-Microsoft is excited to invite you to **Teams in 30**, a series of live, interactive workshops designed to help your organization get up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
- 
-
-*Get Started with Teams in 30 today.*
-
-
+<div id="main" class="v2">
+    <div class="container">
+        <h1>Teams in 30</h1>
+           <p>Microsoft is excited to invite you to **Teams in 30**, a series of live, interactive workshops designed to help your organization get up and running with Microsoft Teams in as little as 30 days. Join us to learn time-tested guidance and best practices and get your Teams questions answered. Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.
+           <p><b>Get Started with Teams in 30 today</b>.
+        <ul class="pivots">
+            <li>
+                <a href="#home" data-linktype="self-bookmark"></a>
+                <ul id="home">
+                    <li>
+                        <a href="#home-all" data-linktype="self-bookmark"></a>
+                        <ul id="home-all" class="panelContent cardsF cols cols2">        
 <ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
