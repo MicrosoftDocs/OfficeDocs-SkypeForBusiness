@@ -45,7 +45,7 @@ When a user makes a call to number +1 425 \<any seven digits>, Direct Routing ev
 
 An SBC is considered healthy if statistics at the moment of sending the call shows that the SBC sends Options every minute.  
 
-When a call made the following logic applies. 
+When a call is made, the following logic applies:
 
 - The SBC was paired at 11.00 AM.  
 - The SBC sends options at 11.01 AM, 11.02 AM, and so on.  
