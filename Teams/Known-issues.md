@@ -247,7 +247,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to configure unanswered calls to go to voicemail in the desktop app|When a user is in Teams-only mode, their Exchange mailbox is on premises and they access Settings > Calls in the Teams desktop app, they cannot select the options to forward calls to voicemail (unanswered calls or all calls). If either option was already configured, the act of opening the Calls tab of Settings will disable forwarding to voicemail.|Configure forwarding to voicemail using the Teams mobile app.|5/27/2019|
+|Unable to configure unanswered calls to go to voicemail in the desktop app|When a user is in Teams-only mode, their Exchange mailbox is on premises and if they access **Settings** > **Calls** in the Teams desktop app, they cannot select the option to forward calls to voicemail (unanswered calls or all calls). If either option was already configured, opening the Calls tab in Settings will disable forwarding to voicemail.|Configure forwarding to voicemail using the Teams mobile app.|5/27/2019|
 
 
 ## Provisioning
