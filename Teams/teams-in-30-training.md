@@ -94,7 +94,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/health-teams.svg" alt="Heart icon with a heartbeat line representing users" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
                         </div>
                     </div>
                     <div class="cardText">
