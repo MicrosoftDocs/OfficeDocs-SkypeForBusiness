@@ -90,7 +90,7 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 
 > [!NOTE]
 > The audio conferencing license is *required* to:
-> - Escalate from 1:1 call to a group call
+> - Escalate from 1:1 call to a group call.
 > - Add external participants to scheduled meetings, by either dialing out or providing the dial-in number. 
 
 
