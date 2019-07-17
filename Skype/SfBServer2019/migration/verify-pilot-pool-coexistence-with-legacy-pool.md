@@ -60,7 +60,7 @@ This topology now includes legacy and Skype for Business Server 2019 server role
 ## Don't attempt to open the topology in the legacy Topology Builder
 <a name="sectionSection2"> </a>
 
-If you attempt to open the topology using the legacy Topology Builder, you will encounter the error below. The topology can only be viewed using Skype for Business Server 2019 Topology Builder. The Skype for Business Server 2019 Topology Builder must be used to create pools for both Skype for Business Server 2019 and the legacy install.
+The topology can only be viewed using Skype for Business Server 2019 Topology Builder. The Skype for Business Server 2019 Topology Builder must be used to create pools for both Skype for Business Server 2019 and the legacy install.
 
   
 
