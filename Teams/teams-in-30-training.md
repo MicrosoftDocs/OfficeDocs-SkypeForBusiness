@@ -42,6 +42,7 @@ appliesto:
                     <div class="cardText">
                         <h3>Get started with Teams in 30</h3>
                         <P>Start your Teams in 30 journey on the right foot. Understand the program, who should participate, and what resources you can use to ensure your success.</P>
+                        <p>Audience: Business sponsors, IT admins, adoption and change owners</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,8 @@ appliesto:
                     </div>
                     <div class="cardText">
                     <h3>Optimize and expand</h3>
-                    <p>Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users. (Audience: All)</p>
+                    <p>Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</p>
+                    <p>Audience: Business sponsors, IT admins, adoption and change owners</p>
                     </div>
                 </div>
             </div>
