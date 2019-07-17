@@ -83,8 +83,6 @@ In addition to the latest service pack, you'll want to ensure the following upda
 ## Back end databases that will work with Skype for Business Server 2015
 <a name="DBs"> </a>
 
-> [!NOTE]
-> For a well-connected SQL back end, the connection to the SFB front end should be local, and not across a low speed link. Sharing SQL back ends between two or more pools is not supported.
 
 When installing Skype for Business Server 2015 Standard Edition, you'll have SQL Server 2014 Express (64-bit edition) is automatically installed as well.
   
@@ -97,8 +95,9 @@ Skype for Business Server 2015 Enterprise Edition is a little more complicated, 
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
-> [!NOTE]
-> You're also going to need to install SQL Server Reporting Services for the Monitoring Server role.
+- You're also going to need to install SQL Server Reporting Services for the Monitoring Server role.
+- For a well-connected SQL back end, the connection to the Skype for Business front end should be local, and not across a low speed link. 
+- Sharing SQL back ends between two or more pools is not supported.
 
 ### Microsoft Exchange storage
 Meeting content files, such as PowerPoint presentations, are archived as attachments. If you want to store Skype for Business archive data with Exchange compliance data, you must use Exchange for your Exchange deployment and ensure that the maximum storage size supports storage of the meeting content files. You must deploy Exchange prior to deploying and enabling archiving using the Microsoft Exchange integration option. 
