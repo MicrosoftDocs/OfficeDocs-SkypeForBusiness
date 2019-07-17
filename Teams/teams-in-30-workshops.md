@@ -30,7 +30,7 @@ appliesto:
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/T30GetStarted">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -51,7 +51,7 @@ appliesto:
     </li>
     <li></li>  
     <li> 
-        <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/T30PrepareI">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -69,7 +69,7 @@ appliesto:
         </div>
         </a>
     </li> <li>
-        <a href="https://support.office.com/teams">
+        <a href="https://microsoftteams.eventbuilder.com/T30PrepareII">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -88,7 +88,7 @@ appliesto:
         </a>
     </li> 
    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -107,7 +107,7 @@ appliesto:
         </a>
     </li>
  <li>
-        <a href="https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/T30Optimize">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
