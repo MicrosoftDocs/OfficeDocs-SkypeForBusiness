@@ -31,7 +31,7 @@
 
 
 
-## Apps, bot, and connectors
+## Apps, bots, and connectors
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
