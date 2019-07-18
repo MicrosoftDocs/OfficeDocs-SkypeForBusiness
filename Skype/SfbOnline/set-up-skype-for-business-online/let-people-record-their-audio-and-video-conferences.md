@@ -27,7 +27,7 @@ description: "How to turn on recording for audio and video conferences, and lear
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.
+1. Go to admin center > **Skype for Business**, and then click **Users**.
     
 2. On the **Users** page, select the user or users from the list, and then click **Edit**.
     

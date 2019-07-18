@@ -29,11 +29,11 @@ Check out [Reports overview](https://support.office.com/article/0d6dfb17-8582-41
 This report, along with the other Skype for Business reports give you details on activity including session details across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 
   
 ## How to get to the Skype for Business Session details report
 
-1. Go to the **Office 365 admin center** > **Reports**
+1. Go to the admin center > **Reports**
     
 2. Select **Reports** from the left menu, and then click **Usage**.
     
@@ -113,7 +113,7 @@ For each session, there is a sub table with different data available depending o
 - [Skype for Business PSTN minute pools report](pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
     
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  
