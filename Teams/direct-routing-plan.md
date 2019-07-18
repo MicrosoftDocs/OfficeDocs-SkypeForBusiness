@@ -84,14 +84,15 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 - Microsoft Teams 
 - Microsoft Audio Conferencing 
 
-> [!NOTE]
-> When you are escalating from a 1:1 call the audio conferencing license is required
 
 > [!IMPORTANT]
 >  In the case that you would like to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is *required*.
 
 > [!NOTE]
-> The E5 license includes both Phone System and Audio Conferencing.   
+> The audio conferencing license is *required* to:
+> - Escalate from 1:1 call to a group call.
+> - Add external participants to scheduled meetings, by either dialing out or providing the dial-in number. 
+
 
 In addition, you must ensure the following:
  
