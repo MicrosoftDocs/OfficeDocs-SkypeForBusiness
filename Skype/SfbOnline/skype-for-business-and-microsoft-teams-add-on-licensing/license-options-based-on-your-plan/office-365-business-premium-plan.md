@@ -56,7 +56,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
  **To get Audio Conferencing and Communication Credits:**
 
-1. Sign in to the Office 365 admin center.
+1. Sign in to the admin center.
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
@@ -68,7 +68,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 1. Switch to the E1 or E3 plan.
 
-2. Go to Office 365 admin center > **Billing** > **Subscriptions**.
+2. Go to the admin center > **Billing** > **Subscriptions**.
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

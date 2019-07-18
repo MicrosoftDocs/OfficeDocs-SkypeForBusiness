@@ -81,7 +81,7 @@ To enable feedback reporting for users in your organization and allow them to su
     
   - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
