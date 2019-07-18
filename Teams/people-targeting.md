@@ -20,7 +20,7 @@ description: Learn how to control whether private teams can be discovered by Mic
 
 # People targeting in Microsoft Teams
 
-People targeting in Microsoft Teams lets users communicate with a subset of people on a team. People targeting uses tags that can be applied to team members or groups to easily target the right subset of people. This feature lets team owners and members (if the feature if enabled for them) assign one or more tags to each person or group. Users can then use the tags in @mentions to start a conversation with only those people who are assigned that tag.
+People targeting in Microsoft Teams lets users communicate with a subset of people on a team. People targeting uses tags that can be applied to team members or groups to easily target the right subset of people. This feature lets team owners and members (if the feature if enabled for them) assign one or more tags to each person or group. The tags can then be used in @mentions to start a conversation with only those people who are assigned that tag.
 
 ## How tags work
 
@@ -56,7 +56,7 @@ By default, team owners can apply tags. You can change this setting to allow tea
 
 ### Configure tags settings
 
-When you turn on targeting, you can configure the following tags settings to control how tags are used across your organization.
+You can configure the following tags settings to control how tags are used across your organization.
 
 ![Tags settings ](media/people-targeting-settings.png)
 
