@@ -76,7 +76,7 @@ For a detailed list of features and comparisons for each Skype for Business plan
 ## How to see prices and buy add-on licenses
 <a name="bkmk_how"> </a>
 
- **After you buy an Office 365 plan, you see prices and buy add-ons through the Office 365 admin center**.
+ **After you buy an Office 365 plan, you see prices and buy add-ons through the Microsoft 365 admin center**.
 
 Depending on the add-ons you want, we recommend [comparing whether it's more cost effective](https://go.microsoft.com/fwlink/?linkid=844053) for you to switch to a plan that includes those features already.
 
