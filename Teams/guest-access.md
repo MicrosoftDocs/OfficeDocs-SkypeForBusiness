@@ -33,7 +33,7 @@ Guest access is one of the features customers asked for the most. Here’s how y
 
 Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
 
-Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions with no additional licensing requirement. You can have up to 5 guests per licensed user on your tenant. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance) and [Use SharePoint Online as a business-to-business (B2B) extranet solution](https://docs.microsoft.com/sharepoint/create-b2b-extranet).
+Guest access is included with many Office 365 subscriptions with no additional licensing requirement. You can have up to 5 guests per licensed user on your tenant. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) and [Use SharePoint Online as a business-to-business (B2B) extranet solution](https://docs.microsoft.com/sharepoint/create-b2b-extranet).
 
 Guest access is a tenant-level setting in Microsoft Teams and is turned off by default. Guest access is subject to Azure AD and Office 365 service limits.
 
