@@ -37,7 +37,7 @@ If your Phone System service will need a service number, the various dependencie
 2. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 3. Obtain a Phone System or Phone System Virtual User license.
 4. Buy a Domestic or International Calling Plan.
-5. Assign the Phone System or a Phone System Virtual User license to the resource account.
+5. Assign the Phone System or a Phone System [Virtual user license](teams-add-on-licensing/virtual-user.md) to the resource account.
 6. Assign a calling plan license to the resource account.
 7. Assign a Communications Credits license to the resource account.
 8. Set up Communication Credits and set up auto-recharge for your organization.
@@ -68,7 +68,7 @@ Creating a resource account that uses a phone number would require performing th
 2. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell)
 3. Obtain a Phone System or Phone System Virtual User license. From the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**.
 4. Buy a Domestic or International [Calling Plan](calling-plans-for-office-365.md).
-5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Assign  [Virtual User license](teams-add-on-licensing/virtual-user.md) or Phone System License to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 6. Assign a calling plan license to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) for more information.
 7. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
 8. Set up Communication Credits and set up auto-recharge for your organization. [Assign a Communications Credits license](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) to the resource account.
@@ -217,3 +217,5 @@ For implementations in Teams or Skype for Business Online:
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Virtual User license](teams-add-on-licensing/virtual-user.md)
