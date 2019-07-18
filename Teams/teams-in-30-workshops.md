@@ -113,7 +113,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph.svg" alt="Image of a graph, representing a report" />
+                            <img src="https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg" alt="Image of a graph, representing a report" />
                         </div>
                     </div>
                     <div class="cardText">
