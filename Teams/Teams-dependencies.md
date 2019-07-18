@@ -3,7 +3,6 @@ title: Authorize guest access in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection: 
@@ -117,3 +116,7 @@ You can manage SharePoint Online external user settings for the Teams connected 
 ## Guest access vs. external access (federation)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## Related topics
+
+- [Microsoft 365 guest sharing settings reference](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
