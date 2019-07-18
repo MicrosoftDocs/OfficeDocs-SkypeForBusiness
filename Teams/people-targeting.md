@@ -20,16 +20,18 @@ description: Learn how to control whether private teams can be discovered by Mic
 
 # People targeting in Microsoft Teams
 
-There may be times when you want to communicate with a subset of people in a team. To do this, you can use the people targeting feature in Teams. People targeting uses tags that can be applied to team members or groups to easily target the right subset of people. This feature lets you assign one or more tags to each person or group. You can then use the tags in @mentions to start a conversation with only those people who are assigned that tag.
+People targeting in Microsoft Teams lets users communicate with a subset of people on a team. People targeting uses tags that can be applied to team members or groups to easily target the right subset of people. This feature lets team owners and members (if the feature if enabled for them) assign one or more tags to each person or group. Users can then use the tags in @mentions to start a conversation with only those people who are assigned that tag.
 
-Tags can be:
+## How tags work
 
- - Team-scoped: The tag is applied to a person in a specific team (such as a role or a shift).
- - Tenant scoped: The tag is applied to a person or team across your organization (such as an office location).
+A tag can be applied at the team level or organization level.
 
-After a tag is applied, it can be used for targeting purposes in any channel in the team. 
+- **Team level**: The tag is applied to a person on a specific team (such as a role or a shift).
+- **Organization level**: The tag is applied to a person or team across your entire organization (such as an office location).
 
-Here's some examples of how you can use tags in Teams:
+After a tag is applied, it can be used for targeting purposes in any channel of the team. 
+
+Here's some examples of tags can be used in Teams:
 
  - A store manager wants to notify a group cashiers in a store to ask a question.
  - A charge nurse wants to message all on-call nurses in a ward.  
@@ -37,15 +39,30 @@ Here's some examples of how you can use tags in Teams:
  - A regional marketing manager wants to assign a task to all chefs located in the same Southwest region.
  - A hospital administrator wants to start a conversation with all radiologists in a hospital.
 
-## Determine who can set tags
+## Manage targeting for your organization
 
-By default, team owners can set tags. Team owners can change the setting to allow team members to set tags.
+As an admin, you manage targeting settings in the Microsoft Teams admin center.
 
-Admins can configure a set of suggested tags, and team owners can use these suggestions, add to them, or create a totally new set of tags.
- 
-If you're an admin, follow these steps to create a list of suggested tags:
+### Set who can apply tags
 
-If you're a team owner, follow these steps to create or modify a list of tags:
+By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off targeting for your organization. 
+
+1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
+2. Under **Targeting**, next to **Teams targeting is enabled for**, select one of the following options:
+
+    - **Team owners & members**: Allow team owners and members to apply tags.
+    - **Team owners**: Allow team owners to apply tags.
+    - **Disabled**: Turn off targeting.
+
+### Configure tags settings
+
+When you turn on targeting, you can configure the following tags settings to control how tags are used across your organization.
+
+![Tags settings ](media/people-targeting-settings.png)
+
+- **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags, regardless of whether targeting is enabled for members.
+- **Members can add additional tags**: 
+- **Default tags that will be suggested**: Use this to add a set of suggested tags. Team owners and team members (if the feature is enabled for them) can use these suggestions, add to them, or create a totally new set of tags.
 
 ## Assign a tag
 
