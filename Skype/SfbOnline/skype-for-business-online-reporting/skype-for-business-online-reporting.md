@@ -24,10 +24,10 @@ description: "Use this reference guide to learn about Skype for Business Online 
 
 As an administrator for your organization, it would be handy to have a complete list of all of the different reports available in Skype for Business Online. This is includes all of the different reports and the information that you can get with each report.
   
-To access the Skype for Business Online reports, log on to the Office 365 admin center using your user account and password. The account you use to log on must be assigned either assigned either the Global admin role, or delegate Skype for Business Service Administrator role in order to view the reports.
+To access the Skype for Business Online reports, log on to the Microsoft 365 admin center using your user account and password. The account you use to log on must be assigned either assigned either the Global admin role, or delegate Skype for Business Service Administrator role in order to view the reports.
   
 > [!NOTE]
-> To verify permissions, in the Office 365 admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> To verify permissions, in the admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## Skype for Business Online reporting reference
 
@@ -35,7 +35,7 @@ In the Office 365 and Skype for Business admin centers, you can use different ty
   
  **To view the reports**
   
-1. Go to the **Office 365 admin center** or **Skype for Business admin center** > **Reports**.
+1. Go to the admin center or **Skype for Business admin center** > **Reports**.
     
 2. In the dashboard window click the report widget or choose from the list select the report you want.
     
@@ -53,7 +53,7 @@ In the Office 365 and Skype for Business admin centers, you can use different ty
 |[Skype for Business session details report](session-details-report.md) <br/> | User alias <br/> Dialog ID  <br/> Media types  <br/> Start and end times <br/> To and from URI <br/> Conference URL <br/> Phone number <br/> |
  
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  
