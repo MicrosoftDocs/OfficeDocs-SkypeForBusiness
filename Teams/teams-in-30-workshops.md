@@ -30,7 +30,7 @@ appliesto:
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30GetStarted">
+        <a href="https://microsoftteams.eventbuilder.com/T30GetStarted"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
