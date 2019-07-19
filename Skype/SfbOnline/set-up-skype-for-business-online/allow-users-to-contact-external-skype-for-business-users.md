@@ -51,7 +51,7 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
   
 1. Sign in with your Office 365 admin account. 
     
-2. In the Office 365 admin center, go to **Admin Centers** > **Teams**.
+2. In the admin center, go to **Admin Centers** > **Teams**.
     
     ![Choose the Teams Admin.](../images/MS-Teams-Admin.png)
   
@@ -121,7 +121,7 @@ After you enable external communication for your entire business, you can turn i
   
 1. Sign in with your Office 365 admin account.
     
-2. In the Office 365 admin center, go to **Users** > **Active users**.
+2. In the admin center, go to **Users** > **Active users**.
     
 3. In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.
     
