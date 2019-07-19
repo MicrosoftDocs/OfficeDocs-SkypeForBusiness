@@ -192,9 +192,17 @@ If there isn’t enough bandwidth for a meeting, participants see a message that
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
-### Enable live captions (coming soon)
+### Enable live captions
 
-This is a per-user policy and applies during a meeting. If this setting is on, the user sees an option to display captions during a meeting.
+This is a per-user policy and applies during a meeting. This setting controls whether users see an option to display captions during a meeting. 
+
+![Screen shot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+
+|Setting value |Behavior  |
+|---------|---------|
+|**Enabled**    | The **Turn on live captions** option is displayed and users can turn on and turn off live caption during a meeting.  |
+|**Disabled but the organizer can override**   | The ability for users to display live captions is turned off and the meeting organizer can change the setting to allow users to turn on and turn off live captions.  |
+|**Disabled**     | The ability for users to display live captions is turned off in the meeting.         |
 
 <a name="bkcontentsharing"> </a>
 
