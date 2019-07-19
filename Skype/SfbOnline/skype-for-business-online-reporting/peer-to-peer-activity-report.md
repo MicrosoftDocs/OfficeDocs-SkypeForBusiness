@@ -32,11 +32,11 @@ Check out the [Reports overview](https://support.office.com/article/0d6dfb17-858
 This report, along with the other Skype for Business reports, gives you details on activity across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization. 
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 
   
 ## How to get to the Skype for Business peer-to-peer activity report
 
-1. Go to the **Office 365 admin center** > **Reports** > **Usage**.
+1. Go to the admin center > **Reports** > **Usage**.
     
 2. On the **Usage** page, click **Skype for Business peer-to-peer activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business peer-to-peer activity** on the **Skype for Business activity** list.
     
@@ -88,7 +88,7 @@ The X axis on both charts is the selected date range for this specific report.
 *    **Audio minutes** shows the total number of audio minutes that were used across your organization. 
 *    **Video minutes** shows the total number of video minutes that were used across your organization. 
 
-If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Number 9](../images/sfbcallout9.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
 ***
@@ -113,7 +113,7 @@ If your organization's policies prevents you from viewing reports where user inf
 - [Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.
     
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  
