@@ -1,6 +1,6 @@
 ---
 title: "Backing up Response Group Service (RGS) data in Skype for Business Server 2019"
-ms.reviewer: 
+ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: "Summary: Learn how to back up Response Group Service (RGS) data in Skype for Business Server 2019."
+description: "Learn how to back up Response Group Service (RGS) data in Skype for Business Server 2019."
 ---
 
 # Back up Response Group Service (RGS) data
@@ -20,7 +20,8 @@ With the Skype for Business Server 2019 July cumulative update, we’ve included
 ## RGS data replication
 
 To try RGS data replication functionality, please follow the steps below:
-1. Install the Jully cumulative update on all front-ends (FEs) of your paired pool.
+
+1. Install the July cumulative update on all front-ends (FEs) of your paired pool.
 1. Install the RGS database on both members of the paired pool:
     - `Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <Pool1 BackendDatabase FQDN>`
     - `Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <Pool2 BackendDatabase FQDN>`
@@ -48,11 +49,12 @@ To try RGS data replication functionality, please follow the steps below:
 1. Verify workflow functionality by making an audio call to Workflow.
 1. Failback the pool.
 1. Update RGS Data on source pool and perform another failover to check that changes are reflected on backup pool. RGS should behave in same way as it was behaving before failover.
+
 > [!TIP]
 > It is recommended you perform these steps on a bulk of data and do frequent failover and failbacks. Any new RGS created after this CU update should also be replicated.
 
-
 ## RGS cmdlets
+
 - To check BackupServiceStatus (The export status should be in the Final or Steady state. The import status should be in the Normal state. RGSBackupservice should be enabled.):
     - `Get-CsBackupServiceStatus -Category RGS -PoolFqdn <Pool1 FQDN>`
 - To Fully Sync RGS Data on the backup pool (This will sync the full RGS data on the backup pool.):
@@ -65,4 +67,3 @@ To try RGS data replication functionality, please follow the steps below:
     - `Backup-CsPool -PoolFqdn <Pool FQDN>`
 - To disable RGSBackupService (This will disable RGSBackupService globally. If this parameter is set to true , RGSBackupService will be disabled on all paired pools.):
     - `Set-CsBackupServiceConfiguration -EnableRgsBackupService 0`
-
