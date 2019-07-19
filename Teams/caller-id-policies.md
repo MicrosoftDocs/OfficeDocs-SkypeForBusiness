@@ -22,6 +22,11 @@ description: Learn how to use and manage calling line ID policies in Microsoft T
 
 As an admin, you can use calling line ID policies in Microsoft Teams to change or block the calling line ID (also known as caller ID). By default, the phone number of Teams users can be seen when they make a call to a PSTN phone and the phone number of PSTN callers can be seen when they call a Teams user. You can use a calling line ID policy to display an alternate phone number for Teams users in your organization or block an incoming number from being displayed.
 
+Here are some scenarios where you may want to use calling line ID policies:
+
+- Add scenario
+- Add scenario
+
 You manage calling line ID policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 [placeholder for MoPo screen shot of policy page]
@@ -36,11 +41,11 @@ You can edit the global policy or create and assign a custom policy. If a user i
 4. From here, configure the settings that you want: 
 
 - **Block incoming caller ID**: Turn this on to block the caller ID of incoming calls from being displayed.
-- **Users can override the caller ID policy**: Turn this on to let users override the calling line ID policy and choose whether to display their caller ID or block the caller ID of an incoming call.
+- **Users can override the caller ID policy**: Turn this on to let users override the settings in the calling line ID policy. This means that users can choose whether to display their caller ID or block the caller ID of an incoming call.
 - **Replace caller ID**: Set an alternate caller ID to be displayed for users by selecting one of the following:
 
     - **LineUri**: Displays the user's number.
-    - **Service**: Lets you choose a phone number to display as the caller ID. These numbers are [need more info here]
+    - **Service**: Lets you choose a service phone number to display as the caller ID. 
     - **Anonymous**: Displays the caller ID as Anonymous.
 
 5. Click **Save**.
@@ -84,7 +89,7 @@ Or, you can also do the following:
 
 You may want to assign a custom  policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
-In this example, we assign a custom calling line ID policy called Support Caller ID to all users in the Contoso Support group.  
+In this example, we assign a custom calling line ID policy called Support Caller ID Policy to all users in the Contoso Support group.  
 
 > [!NOTE]
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -97,9 +102,9 @@ Get the members of the specified group.
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Assign all users in the group to a particular calling line ID policy. In this example, it's Support Caller ID.
+Assign all users in the group to a particular calling line ID policy. In this example, it's Support Caller ID Policy.
 ```
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
