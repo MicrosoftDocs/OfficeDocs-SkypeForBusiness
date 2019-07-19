@@ -25,43 +25,45 @@ SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Ser
 
 Administrators can change call forwarding settings by using the following cmdlet in PowerShell:
 
-- `Get-CsUserForwardingSettings -Identity <String>`
+- `Get-CsUserForwardingSettings -Identity <UserIdParameter>`
 
 This cmdlet returns the specified user’s call forwarding settings as an object and displays the same on the screen.
 
-- `Set-CsUserForwardingSettings -Identity <String> [Param1 <Value>] [Param2 <Value>]…`
+- `Set-CsUserForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
 This cmdlet modifies the specified user’s call forwarding settings. This cmdlet returns the specified user’s call forwarding settings as an object, and displays the same on the screen, in case of success. In case of failure, an appropriate error message will be shown.
 
-- `Set-CsUserForwardingSettings -DisableForwarding -Identity <String> [-UnansweredToVoicemail] [-UnansweredToOther <Destination>] [-UnansweredWaitTime <Value>] [-SettingsActiveWorkHours]`
+- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-This cmdlet disables the user’s call forwarding settings.
+This cmdlet disables the user’s call forwarding settings (we show two different parameter examples here).
 
-- `Set-CsUserForwardingSettings -Identity <String> -EnableForwarding <ForwardDestination> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}] [-Delegates @{replace=[list]}] [-DelegateRingWaitTime] [-SettingsActiveWorkHours]`
+- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 This cmdlet modifies the user’s call forwarding settings.
 
-- `Set-CsUserForwardingSettings -Identity <String> -EnableSimulRing <SimulRingDestination> [-UnansweredToVoicemail] [-UnansweredToOther <Destination>] [-UnansweredWaitTime <Value>] [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}] [-Delegates @{replace=[list]}] [-Team @{add=[list]}] [-Team @{remove=[list]}] [-Team @{replace=[list]}] [-TeamDelegateRingWaitTime <Value>] [-SettingsActiveWorkHours]`
+- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-This cmdlet modifies the SimulRing settings.
+This cmdlet modifies the SimulRing settings (again, with two parameter examples, one for unanswered to voicemail and the second being unanswered to other).
 
 ## Delegation settings
 
 Administrators can change delegation settings by using the following cmdlet in PowerShell:
 
-- `Get-CsuserDelegates -Identity <String>`
+- `Get-CsuserDelegates -Identity <UserIdParameter>`
 
 This cmdlet returns an object of delegates list, and displays the specified user’s delegate list, in case of success. In case of failure, an appropriate error message will be shown.
 
-- `Set-CsUserDelegates -Identity <String> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}] [-Delegates @{replace=[list]}]`
+- `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
 This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list and displays the list of delegates, in case of success. In case of failure, an appropriate error message will be shown. 
 
-- `Set-CsUserDelegates -Identity <String> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
+- `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
 This cmdlet adds or removes a delegate.
 
-- `Set-CsUserDelegates -Identity <String> [-Delegates @{replace=[list]}]`
+- `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
 
 This cmdlet sets a delegate list to specific delegates.
 
@@ -69,19 +71,19 @@ This cmdlet sets a delegate list to specific delegates.
 
 Administrators can change team members and related settings by using the following cmdlet in PowerShell:
 
-- `Get-CsUserTeamMembers -Identity <String>`
+- `Get-CsUserTeamMembers -Identity <UserIdParameter>`
 
 This cmdlet returns an object that contains list of team members, and displays the object on screen, in case of success. In case of failure, an appropriate error message will be shown.
 
-- `Set-CsUserTeamMembers -Identity <String> [-Team @{add=[list]};@{remove=[list]};@{replace=[list]}]`
+- `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team <PSListModifier>]`
 
 This cmdlet modifies the specified user’s team members list, returns an object that contains the team member list and displays the object on the screen, in case of success. In case of failure, an appropriate error message will be shown.
 
-- `Set-CsUserTeamMembers -Identity <String> [-Team @{add=[list]}] [-Team @{remove=[list]}]`
+- `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{add=[list]}] [-Team @{remove=[list]}]`
 
 This cmdlet adds or removes team members.
 
-- `Set-CsUserTeamMembers -Identity <String> [-Team @{replace=[list]}]`
+- `Set-CsUserTeamMembers -Identity <UserIdParameter> [-Team @{replace=[list]}]`
 
 This cmdlet sets a team list to specific members.
 
