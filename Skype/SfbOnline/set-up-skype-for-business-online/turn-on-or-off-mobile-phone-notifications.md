@@ -34,7 +34,7 @@ On Android and Windows Phones, Skype for Business notifications pop up in real t
 
 1. Sign in to Office 365.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to admin center > **Skype for Business**.
     
 3. Go to **Organization** > **General**. 
     

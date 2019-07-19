@@ -40,7 +40,7 @@ There are currently two activity reports you can view:
 
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, as well as for each individual user.
 
-![Screenshot of the user activity report in the Office 365 admin center.](media/teams-user-activity-report.png)
+![Screenshot of the user activity report in the admin center.](media/teams-user-activity-report.png)
 
 #### Interpret the Microsoft Teams user activity report
 
