@@ -34,7 +34,7 @@ The service plans included in this offer are:
 - Forms
 - Microsoft Planner
 - Microsoft Teams (Teams1, Teams IW)
-- Office Online
+- Office 
 - PowerApps for Office 365 Plan 1
 - SharePoint Online Kiosk
 - Stream
