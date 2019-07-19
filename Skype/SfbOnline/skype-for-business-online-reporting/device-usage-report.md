@@ -18,7 +18,7 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the Skype for Business device usage report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. Check out Activity Reports in the Office 365 admin center to learn more."
+description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the Skype for Business device usage report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. Check out Activity Reports in the admin center to learn more."
 ---
 
 # Device usage report
@@ -30,11 +30,11 @@ Check out the [Reports overview](https://support.office.com/article/0d6dfb17-858
 This report, along with the other Skype for Business reports, gives you details on the types of clients/devices that are used across your organization. These details are very helpful when you are investigating, planning, and making other business decisions for your organization.
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 
   
 ## How to get to the Skype for Business device usage report
 
-1. Go to the **Office 365 admin center** > **Reports** > **Usage**.
+1. Go to the admin center > **Reports** > **Usage**.
     
 2. On the **Usage** page, click **Skype for Business device usage** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business device usage** on the **Skype for Business activity** list.
     
@@ -79,7 +79,7 @@ The X axis on both charts is the selected date range for this specific report.
 *    **iPhone** is selected if the user is has the Skype for Business client app installed on an iPhone and is using it. 
 *    **iPad** is selected if the user is has the Skype for Business client app installed on an iPad and is using it. 
 
-If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Number 8](../images/sfbcallout8.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
@@ -104,7 +104,7 @@ If your organization's policies prevents you from viewing reports where user inf
 - [Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.
     
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  
