@@ -57,11 +57,11 @@ Your organization might require that you implement strict controls on how teams 
 
 After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
 
--   [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
--   [Enforce a naming policy for Office 365 groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Enforce a naming policy for Office 365 groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
 
--   [Office 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Office 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## Group and team expiration, retention, and archiving
@@ -89,11 +89,11 @@ Your organization might have additional requirements for setting policies for ex
 
 For technical guidance on how to implement these settings, see:
 
--   [Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Set up Teams retention policies](retention-policies.md).
+- [Set up Teams retention policies](retention-policies.md).
 
--   [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 
 ## Teams feature management
@@ -112,10 +112,12 @@ Teams provides granular capabilities for controlling messaging, meeting, calling
 
 For detailed lists of all settings, including technical guidance on how to implement them for your organization, see the following articles:
 
--   [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
--   [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
--   [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
+- [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
+- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Manage messaging policies in Teams](messaging-policies-in-teams.md)
 
+Additionally, you can set up moderation for a channel and give moderator capabilities to certain users so that they can control who can create channel posts and respond to them. See [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md) for more information.
 
 ## Security and compliance
 
