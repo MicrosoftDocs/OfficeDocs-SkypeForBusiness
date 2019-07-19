@@ -27,7 +27,7 @@ description: "Address validation is an important part of setting up Calling Plan
 Address validation is an important part of setting up Calling Plans in Office 365. If for some reason a phone number isn't activated because of address validation, you will need to create a service request. How you do this is based on the size of your organization.
   
 ## For organizations 150 or less follow these steps
-1. In the **Office 365 admin center**, choose **Need help**?
+1. In the admin center, choose **Need help**?
 2. In the **Need help?** pane, tell us what you need help with, then choose **Get help**.
 3. If the results in the **View solutions** section don't help, choose one of the following:
     - **Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
@@ -37,7 +37,7 @@ Address validation is an important part of setting up Calling Plans in Office 36
 
 1. Sign in as an administrator to Office 365 with your work or school account.
     
-2. In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.
+2. In the admin center, in the left navigation, click **Support** > **New service request**.
     
 3. Under **Service requests**, click **Add**.
     
@@ -87,7 +87,7 @@ Address validation is an important part of setting up Calling Plans in Office 36
 8. Review the information, and then click **Submit request**.
     
 > [!TIP]
-> The reference number will be listed on the **Service requests** page in the Office 365 admin center.
+> The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
