@@ -51,7 +51,7 @@ appliesto:
     </li>
     <li></li>  
     <li> 
-        <a href="https://microsoftteams.eventbuilder.com/T30PrepareI">
+        <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -69,7 +69,7 @@ appliesto:
         </div>
         </a>
     </li> <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30PrepareII">
+        <a href="https://microsoftteams.eventbuilder.com/T30PrepareII"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -88,7 +88,7 @@ appliesto:
         </a>
     </li> 
    <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers">
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -107,7 +107,7 @@ appliesto:
         </a>
     </li>
  <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30Optimize">
+        <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
