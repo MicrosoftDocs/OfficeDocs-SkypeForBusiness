@@ -20,7 +20,7 @@ description: Learn how to use and manage calling line ID policies in Microsoft T
 
 # Manage calling line ID policies in Microsoft Teams
 
-As an admin, you can use calling line ID policies in Microsoft Teams to change or block the calling line ID (also known as caller ID). By default, the phone number of Teams users can be seen when they make a call to a PSTN phone and the phone number of PSTN callers can be seen when they call a Teams user. You can create a calling line ID policy to display an alternate phone number for Teams users in your organization or block an incoming number from being displayed.
+As an admin, you can use calling line ID policies in Microsoft Teams to change or block the calling line ID (also known as caller ID). By default, the phone number of Teams users can be seen when they make a call to a PSTN phone and the phone number of PSTN callers can be seen when they call a Teams user. You can use a calling line ID policy to display an alternate phone number for Teams users in your organization or block an incoming number from being displayed.
 
 You manage calling line ID policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
@@ -36,16 +36,16 @@ You can edit the global policy or create and assign a custom policy. If a user i
 4. From here, configure the settings that you want: 
 
 - **Block incoming caller ID**: Turn this on to block the caller ID of incoming calls from being displayed.
-- **Users can override the caller ID policy**: Turn this on to let users override the caller ID policy.
-- **Replace caller ID**: Specify an alternate caller ID to be displayed for users by selecting one of the following:
+- **Users can override the caller ID policy**: Turn this on to let users override the calling line ID policy and choose whether to display their caller ID or block the caller ID of an incoming call.
+- **Replace caller ID**: Set an alternate caller ID to be displayed for users by selecting one of the following:
 
     - **LineUri**: Displays the user's number.
-    - **Service**: Lets you choose a phone number to display as the caller ID.
+    - **Service**: Lets you choose a phone number to display as the caller ID. These numbers are [need more info here]
     - **Anonymous**: Displays the caller ID as Anonymous.
 
 5. Click **Save**.
 
-## Edit a calling ID policy
+## Edit a calling line ID policy
 
 You can edit the global policy or any custom policies that you create. 
 
