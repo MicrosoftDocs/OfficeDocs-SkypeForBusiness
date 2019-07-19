@@ -44,7 +44,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
 - **Users can override the caller ID policy**: Turn this on to let users override the settings in the calling line ID policy. This means that users can choose whether to display their caller ID or block the caller ID of an incoming call.
 - **Replace caller ID**: Set an alternate caller ID to be displayed for users by selecting one of the following:
 
-    - **LineUri**: Displays the user's number.
+    - **LineUri**: Displays the user's number. This is the default setting. 
     - **Service**: Lets you choose a service phone number to display as the caller ID. 
     - **Anonymous**: Displays the caller ID as Anonymous.
 
