@@ -20,21 +20,17 @@ ms.custom:
 description: "Learn about free virtual user licenses."
 ---
 
-# Virtual User license
+# Virtual User license  
 
-Starting July 2nd, 2020, licensed users will no longer need to assign a full Phone System user License to Resource Accounts that are used with Call Queues or Auto Attendants. 
-
-You must either buy a Phone System license or use a Phone System - virtual user license for resource accounts that will have an assigned service phone number, as well as a Calling Plan. You need three licenses to be assigned to a resource account: Phone System (either regular or Virtual User), Calling Plan, and Communication Credits.
+Starting July 2nd, 2019, an organization with Phone System licensed users can now assign a free Virtual User license or a full Phone System user License to resource accounts that are used with Call Queues or Auto Attendants that require a service phone number.  (A Calling Plan is no longer required.) 
 
 ## Free Virtual License scaling
 
-The number of free licenses your organization has to assign phone numbers to call queues or auto attendants depends on the overall size. There are 25 free licenses available to any organization that has a license that includes Phone System or has Phone System added to its licensing. For every 10 Phone System users in your organization, an additional free Virtual User license is available.
+Your organization is alotted a number of free Virtual User licenses depending on its overall size. There are 25 free licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional free Virtual User license is made available.
 
-If your organization uses up its free licenses in creating auto attendant or call queue nodes, you'll have to use the paid licenses.  
+If your organization uses up its free licenses in creating auto attendant or call queue nodes, you can still use the regular Phone system licenses with a resource account, but most organizations will have enough free Virtual User licenses.  
 
-You can also add Phone System and a Calling Plan to a Small Business Essentials license.
-
-## Virtual User License customers: How to  buy
+## How to aquire Virtual User licenses 
 
 1. Sign in to the Microsoft 365 admin center.
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
@@ -42,13 +38,12 @@ You can also add Phone System and a Calling Plan to a Small Business Essentials 
 
 Keep in mind you still need to **Buy** the license even though it has a cost of zero. If you don't see the license, it may not be available to your tenant yet.
 
-## Changing an existing resource account to use a Virtual User License
+## Change an existing resource account to use a Virtual User license
 
-If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to  buy the free Virtual User License, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to  aquire the free Virtual User license, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
-> Remove a full Phone System License and assign the Virtual Phone System license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected.  
-
+> Always remove a full Phone System License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account.  
 
 ## Related information
 
