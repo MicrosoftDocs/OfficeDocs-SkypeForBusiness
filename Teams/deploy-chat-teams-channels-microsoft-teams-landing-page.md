@@ -4,7 +4,6 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150

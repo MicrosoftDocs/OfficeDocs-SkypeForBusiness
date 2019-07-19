@@ -4,7 +4,6 @@ author: LolaJacobsen
 ms.author: lolaj
 ms.reviewer: 
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150

@@ -4,7 +4,6 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.

@@ -3,7 +3,6 @@ title: Assign team owners and members in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
