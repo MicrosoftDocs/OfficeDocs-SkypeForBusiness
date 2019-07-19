@@ -198,6 +198,7 @@ If the department attribute displays Skype for Business Application Endpoint ple
 ``` Powershell
 Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
 ```
+
 > [!NOTE]
 > Refresh the Teams Admin center webpage after running the cmldet, and you should be able to assign the number correctly.
 
@@ -206,8 +207,10 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
 For implementations that are hybrid with Skype for Business Server:
 
    [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+  
    [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue.md)
-   [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   
+   [Configure onprem resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
 
 
 For implementations in Teams or Skype for Business Online:
