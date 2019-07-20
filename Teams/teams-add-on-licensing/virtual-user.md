@@ -22,7 +22,7 @@ description: "Learn about free virtual user licenses."
 
 # Virtual User license  
 
-Starting July 2nd, 2019, an organization with Phone System licensed users can now assign a free Virtual User license or a full Phone System user License to resource accounts that are used with Call Queues or Auto Attendants that require a service phone number.  (A Calling Plan is no longer required.) 
+Starting July 2nd, 2019, an organization with Phone System licensed users can now assign a free Virtual User license or a full Phone System user License to resource accounts that are used with Call Queues or Auto Attendants that require a phone number.  A Calling Plan is no longer required. 
 
 ## Free Virtual License scaling
 
@@ -36,7 +36,7 @@ If your organization uses up its free licenses in creating auto attendant or cal
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
 3. Scroll to the end - you will see a "Phone System - Virtual User" license. Select **Buy now**.
 
-Keep in mind you still need to **Buy** the license even though it has a cost of zero. If you don't see the license, it may not be available to your tenant yet.
+Keep in mind you still need to **Buy** the license even though it has a cost of zero. 
 
 ## Change an existing resource account to use a Virtual User license
 
