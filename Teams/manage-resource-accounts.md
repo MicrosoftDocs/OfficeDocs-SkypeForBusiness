@@ -112,7 +112,7 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 To assign a direct routing or hybrid number to a resource account you will need to use PowerShell, see the following section.
 
 > [!IMPORTANT]
-> If your tenant doesn't have a Phone System license, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a service.
+> If your resource account doesn't have a Virtual User or Phone System license, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a service.
 
 ![Screen shot of the Assign/unassign options](media/r-a-assign.png)
 
