@@ -142,7 +142,7 @@ ms.collection:
                                     </div>
                                 </div>
                             </a>
-                        </li>
+                        </li> 
                         <li>
                             <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
                                 <div class="cardSize">
