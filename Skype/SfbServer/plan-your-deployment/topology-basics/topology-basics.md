@@ -284,7 +284,7 @@ The file share can be on a separate server, or you can collocate it on the same 
 - Persistent Chat compliance database
 
 > [!CAUTION]
-> Note that while you can collocate the file share on these servers, it's vital to note that we don't recommend it. If you'd collocating the file share with any other server role, please make sure you're monitoring for disk space and performance issues on a regular basis.
+> Note that while you can collocate the file share on these servers, it's vital to note that we don't recommend it. If you're collocating the file share with any other server role, please make sure you're monitoring for disk space and performance issues on a regular basis.
 
 ### Keep in mind
 
