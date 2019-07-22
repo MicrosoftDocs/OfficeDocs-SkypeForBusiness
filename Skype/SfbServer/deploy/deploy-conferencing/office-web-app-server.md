@@ -45,7 +45,7 @@ To add Office Web Apps Server to your topology, complete the following steps:
     
    - If the Office Web Apps Server is deployed outside your internal firewall, then select the option **Office Web Apps Server is deployed in an external network (that is, perimeter/Internet)**.
     
-7. In the **Define New Office Web Apps Server** dialog box, click **OK**, and then click **OK** in the **Edit Properties** dialog box. The Office Online discovery URL will then be listed as one of the pool's Associations.
+7. In the **Define New Office Web Apps Server** dialog box, click **OK**, and then click **OK** in the **Edit Properties** dialog box. The discovery URL will then be listed as one of the pool's Associations.
     
 You will have to repeat this process for each pool that needs to be associated with your Office Web Apps Server.
   
