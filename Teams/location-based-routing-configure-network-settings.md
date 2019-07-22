@@ -63,17 +63,17 @@ Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 192.168.1.0 and the Hyderabad network site.
+In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site.
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad" 
+New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
 ```
 The following table shows the subnets defined in this example. 
 
 ||Site 1 |Site 2 |
 |---------|---------|---------|
-|Subnet ID   |    192.168.0.0     |  192.168.1.0     |
-|Mask  |     24    |   24      |
+|Subnet ID   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
+|Mask  |     24    |   120      |
 |Site ID  | Site (Delhi) | Site 2 (Hyderabad) |
 
 For multiple subnets, you can import a CSV file by using a script such as the following.

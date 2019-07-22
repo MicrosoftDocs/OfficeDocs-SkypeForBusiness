@@ -109,7 +109,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 1.	In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 2.	In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
-    ![Screen shot showing the Add a domain page]](media/direct-routing-2-sbc-add-domain.png)
+    ![Screen shot showing the Add a domain page](media/direct-routing-2-sbc-add-domain.png)
 
 3. Click **Next**.
 4. In the example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because customers.adatum.biz is a subdomain for the already registered name. However, if you add an FQDN that has not been verified before, you will need to go through the process of verification. The process of verification is [described below](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
