@@ -38,7 +38,7 @@ _Figure 1. The relationship between an organization's networks and Office 365 se
 
 ![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
 
-In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network for both inbound and outbound traffic. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
 
 ## Verify your network is ready
 
