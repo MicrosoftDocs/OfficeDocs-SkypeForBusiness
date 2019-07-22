@@ -32,7 +32,7 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 
 ## Overview
 
-Assuming that your organization is using at least one Phone System License, assigning a Phone System service a service pnone number, the various dependencies can be met in the following sequence:
+Assuming that your organization is using at least one Phone System License, to assigning a Phone System service a phone number, you will need to address the various dependencies in the following sequence:
 
 1. Obtain a service number.
 2. Obtain a Phone System [Virtual user license](teams-add-on-licensing/virtual-user.md) or a regular Phone System license to use with the resource account.
