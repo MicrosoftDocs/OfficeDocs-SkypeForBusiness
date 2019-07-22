@@ -208,16 +208,16 @@ For implementations that are hybrid with Skype for Business Server:
 
    [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Configure onprem resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Configure onprem resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 For implementations in Teams or Skype for Business Online:
 
    [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
 
-   [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)
 
