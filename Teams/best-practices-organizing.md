@@ -4,7 +4,6 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
@@ -25,7 +24,7 @@ Best practices for organizing teams in Microsoft Teams
 
 Teams are collections of people who gather together around a common goal. This group of people may be within a department or across the organization. What brings them together is the outcome they are driving toward. Members of a team may work at a different pace or create assets differently, but in our experience they often collaborate quickly with each other, a process we call "high velocity teamwork."  
 
-Before creating a team in our product, it's a good practice to think about the goal, project, or work items and the organization’s people who can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Before creating a team in your product, it's a good practice to think about the goal, project, or work items and the organization’s people who can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Take a look at this short video to see some examples of how to structure cross-organizational or single purpose teams:
 
@@ -33,7 +32,7 @@ Take a look at this short video to see some examples of how to structure cross-o
 
 ## Build your team gradually
 
-You may start with a small number of team members to brainstorm as you move forward, and then add new people or groups as you go. The great thing about Microsoft Teams, is that when you add new people or groups, they can quickly get up to speed on what has already been discussed because the conversations and files are available to users regardless of when they join. Try to avoid creating different teams that have the same set of members, as this approach may not provide the desired focus to deliver the project or goal. Outlook is a great tool for sharing those types of group-wide communications.
+You may start with a small number of team members to brainstorm as you move forward, and then add new people or groups as you go. The great thing with Microsoft Teams, is that when you add new people or groups, they can quickly get up to speed on what has already been discussed as the conversations and files are available to users regardless of when they join. Try to avoid creating different teams that have the same set of members, as this approach may not provide the desired focus to deliver the project or goal. Outlook is a great tool for sharing those types of group-wide communications.
 
 ## Create channels to focus discussions
 
@@ -51,6 +50,8 @@ Larger organizations may want to create teams as "templates" to standardize the 
 
 By default, the **General channel** is created for you when you create the team. There are many useful purposes for this channel:
 
+Learn more about [working in channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) with these quick tips for end users.
+
 - Use it to share an overview of what the team wants to achieve such as a project charter or who's who in the team.
 - Use it for new team member onboarding and other high-level information that a new team member would find useful.
 - Use it for announcements, or configure the SharePoint News connector to post your modern status reports to this channel.  
@@ -58,4 +59,6 @@ By default, the **General channel** is created for you when you create the team.
 
 Currently, you cannot remove or unfavorite the General channel. When naming channels, remember that the channels will be ordered alphabetically after the General channel. In teams with many channels use the "Favorite a channel" feature to control the channels you automatically see when navigating to the team. 
 
-Learn more about [working in channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) with these quick tips for end users.
+## Consider setting up moderation in your channels
+
+Team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel. When you set up moderation, you can choose one or more team members to be moderators. (Team owners are moderators by default.) For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).

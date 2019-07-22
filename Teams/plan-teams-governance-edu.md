@@ -3,7 +3,6 @@ title: Microsoft Education governance FAQ for IT pros - Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 08/10/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
