@@ -4,11 +4,10 @@ ms.reviewer:
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Step-by-step guidance to rolling out chat, teams, channels, and apps in Microsoft Teams
+description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams
 localization_priority: Priority
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -22,7 +21,7 @@ appliesto:
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 > [!TIP]
-> We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps-such as Planner-in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
 ## Chat deployment prerequisites
 
@@ -37,16 +36,16 @@ Before you roll out Teams across your organization, take time to confirm that yo
 
 |Ask yourself|Action |
 |------------|-------|
-|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li> [Check your environment's readiness for Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)|
+|Is my organization ready to roll out Teams?|To answer this question, see: <ul><li> [Check your environment's readiness for Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## Core deployment decisions
 
-These are the chat, teams, & channels settings that most organizations want to change (if the default settings don't work for them).
+These are the chat, teams, and channels settings that most organizations want to change (if the default settings don't work for them).
 
 ### Teams administrators
 
-Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators. 
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -55,13 +54,23 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 |Who will be assigned the Teams Communications Support Specialist role?||
 |||
 
+### Teams owners and members
+
+In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions within a channel. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
+
+|Ask yourself|Action |
+|------------|-------|
+|Who should be assigned to each role? | To compare the capabilities of each role, see [Assign team owners, moderators, and members in Microsoft Teams](assign-roles-permissions.md).
+|How do I assign a user role? | To assign or change a role, see [Assign a user role](assign-roles-permissions.md#assign-a-user-role).
+|Do I need to control who can post and reply in a channel? | To configure moderation, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+
 ### Messaging policies
 
 Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
 
 |Ask yourself|Action |
 |------------|-------|
-|Will I customize the global messaging policy?|For information about using the Microsoft Teams admin center to change the global messaging policy or add a new policy, see [What are Messaging policies in Teams?](messaging-policies-in-teams.md).|
+|Will I customize the global messaging policy?|For information about using the Microsoft Teams admin center to change the global messaging policy or add a new policy, see [Manage messaging policies in Teams](messaging-policies-in-teams.md).|
 |Do I require multiple messaging policies?|To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md).|
 |How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 
@@ -77,7 +86,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 ### Guest access
 
-Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can’t use. Guest access is turned off by default. To learn more, see [Guest Access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can’t use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 |Ask yourself|Action |
 |------------|-------|
