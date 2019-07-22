@@ -25,10 +25,10 @@ If you have an existing Exchange UM auto attendant and call queue system, before
 If your Phone System service will need a service number, the various dependencies can be met in the following sequence:
 
 1. Obtain a service number
-2. Buy a Phone System license
+2. Buy a Phone System Virtual User or Phone System license
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 4. Wait for an active directory sync between online and on premise
-5. Assign the Phone System license to the resource account.
+5. Assign the Phone System Virtual User or Phone System license to the resource account.
 6. Assign a service number to the resource account.
 7. Create a Phone System service (a call queue or auto attendant)
 8. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
@@ -53,11 +53,10 @@ Creating a resource account that uses a phone number would require performing th
    Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
    If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
+   
+Direct routing or hybrid numbers can also be used.
 
-2. Buy a Phone System license. See:  
-   - [Office 365 Enterprise E1 and E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
-   - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
-   - [Office 365 Enterprise E5 Business Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
+2. Buy a Phone System Virtual User or Phone System license.
 
 3. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each Phone System service, and give each one a name, sip address, and so on.
 
@@ -75,9 +74,9 @@ Creating a resource account that uses a phone number would require performing th
 
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
-5. Assign the Phone System license to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Assign the Phone System Virtual User or Phone System license to the resource account. See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
-    If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
+If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
 
 6. Assign the service number to the resource account. Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.
@@ -100,9 +99,6 @@ The resource account will need an assigned phone number if it will be assigned t
 
     > [!NOTE]
     > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
-
-    > [!NOTE]
-    > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
 
 7. Create the Phone system service. See one of the following:
 
