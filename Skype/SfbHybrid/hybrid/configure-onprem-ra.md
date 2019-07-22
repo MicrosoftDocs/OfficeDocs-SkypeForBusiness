@@ -123,8 +123,13 @@ Log in to the Skype for Business front end server and run the following PowerShe
 
 1. Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each Phone System service, and give each one a name, sip address, and so on.
 
+The application ID's that you need to use while creating the resource account are:
+
+Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
     ```
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
