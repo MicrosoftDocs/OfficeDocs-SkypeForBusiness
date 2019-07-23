@@ -32,13 +32,13 @@ Without some form of QoS, you might see the following quality issues in voice an
 
 The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet. Since that is often cost-prohibitive, QoS provides a way to more effectively manage the resources you have instead of adding new resources. To fully address quality issues you would use QoS across the implementation, then add connectivity only where absolutely necessary.
 
-For QoS to be effective, you will have to apply consistent QoS settings end to end in your organization (This includes all user PCs, network switches, and routers to the internet), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
+For QoS to be effective, you will have have consistent QoS settings applied end to end in your organization, because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams online service.
 
 _Figure 1. The relationship between an organization's networks and Office 365 services_
 
 ![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
 
-In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network for both inbound and outbound traffic. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
 
 ## Verify your network is ready
 
