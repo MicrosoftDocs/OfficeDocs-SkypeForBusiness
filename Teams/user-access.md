@@ -36,7 +36,7 @@ Teams user-level licenses are managed directly through the Microsoft 365 admin c
 
 When a license SKU like E3 or E5 is assigned to a user, a Microsoft Teams license is automatically assigned, and the user is enabled for Microsoft Teams. Administrators can have a granular control over all the Office 365 services and licenses, and the Microsoft Teams license for a specific user or a group of users can be enabled or disabled.
 
-![Screenshot of Product licenses section in Office 365 admin center.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
+![Screenshot of Product licenses section in admin center.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
 A Teams user license can be disabled at any time. Once the license is disabled, the users access to Microsoft Teams will be prevented and the user will no longer be able to see Teams in the Office 365 app launcher and homepage.
 
