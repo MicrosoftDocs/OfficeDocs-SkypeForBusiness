@@ -24,6 +24,9 @@ description: "Learn about free virtual user licenses."
 
 Starting July 2nd, 2019, an organization with Phone System licensed users can now assign a free Virtual User license or a full Phone System user license to resource accounts that are used with Call Queues or Auto Attendants that require a phone number.  A Calling Plan is no longer required. 
 
+> [!TIP]
+> A Virtual User license is not needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. 
+
 ## Free Virtual license scaling
 
 Your organization is alotted a number of free Virtual User licenses depending on its overall size. There are 25 free licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional free Virtual User license is made available.
@@ -48,3 +51,5 @@ If you decide to switch the licenses on your existing resource account from a Ph
 ## Related information
 
 [Auto Attendant and Call Queues Service Update](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+
+[Manage resource accounts in Microsoft Teams](../manage-resource-accounts.md)
