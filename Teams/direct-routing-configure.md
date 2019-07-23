@@ -33,7 +33,6 @@ We recommend that you confirm that your SBC has already been configured as recom
 - [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-
 You can configure your Microsoft Phone System and enable users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
 - [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
