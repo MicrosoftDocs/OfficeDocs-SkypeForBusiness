@@ -21,6 +21,11 @@
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired",
       "redirect_document_id": true 
       },
+      {
+        "source_path": "Teams/microsoft-staffhub-to-be-retired.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired",
+        "redirect_document_id": true 
+        },
     {
       "source_path": "Teams/teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
