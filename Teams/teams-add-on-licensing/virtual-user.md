@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
-appliesto:
+appliesto: Because 
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
@@ -20,15 +20,17 @@ ms.custom:
 description: "Learn about free virtual user licenses."
 ---
 
-# Virtual User license  
+# Virtual User license
 
-Starting July 2nd, 2019, an organization with Phone System licensed users can now assign a free Virtual User license or a full Phone System user license to resource accounts that are used with Call Queues or Auto Attendants that require a phone number.  A Calling Plan is no longer required. 
+Resouce accounts are used for call routing for auto attendants and call queues twith an external phone number that people can call.
+
+Starting July 2nd, 2019, for resource accounts with an external phone number, an organization with auto attendants and call queues can now use a free Phone System - Virtual user license instead of having to assign a Phone System license that was purchased.
 
 ## Free Virtual license scaling
 
-Your organization is alotted a number of free Virtual User licenses depending on its overall size. There are 25 free licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional free Virtual User license is made available.
+Each organization is given a number of Phone System - Virtual user licenses depending on the number of Phone System licenses that have been already purchased. Each organization will be given 25 Phone System - Virtual user licenses that has one Office 365 license with Phone System or other Office 365 licenses have added Phone System. Then for every 10 Phone System licenses that have been purchased for users an additional Phone System - Virtual user license is added. So, if you have purchased 600 Phone System licenses, you will get an additional 60 Phone System - Virtual user licenses plus the 25 licenses will give you a total of 85 Phone System - Virtual user licenses.
 
-If your organization uses up its free licenses in creating auto attendant or call queue nodes, you can still use the regular Phone system licenses with a resource account, but most organizations will have enough free Virtual User licenses.  
+If your organization uses up the number of Phone System - Virtual user licenses when creating resouce accounts used with auto attendants or call queue, you can still assign a Phone system license you bought to a resource account. This means that if you organization exceeds the 85 Phone System - Virtual user licenses that were given, you will need to purchase additional Phone System licenses.
 
 ## How to aquire Virtual User licenses 
 
