@@ -39,6 +39,31 @@ This article describes some of the limits, specifications, and other requirement
 
 &sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
+## Messaging
+
+Users who participate in conversations that are part of the Chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the Chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the Chat list in Microsoft Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
+
+Teams chat works on a Microsoft Exchange backend, so you can apply the Exchange messaging limits to the chat function within Microsoft Teams. If users want to send an email to a channel in Teams, they use the channel email address. Once an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel. 
+
+|Feature  | Maximum limit  |
+|---------|---------|
+|Number of people in a private chat&sup1;  | 100    |
+|Message size&sup2;  |25 KB   |
+|Number of file attachments &sup3;  |10     |
+|Number of inline images &sup3; |50   |
+
+&sup1;If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
+
+&sup2;If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
+
+&sup3;If the number of attachments or images exceeds this limit, the message will not be processed and a non-delivery report (NDR) email will be sent to the sender.
+
+> [!NOTE]
+> The message size, file attachments, and inline images limits are the same across all Office 365 licenses.
+
+For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+
+
 ## Meetings and calls 
 
 |Feature     | Maximum limit |
@@ -74,28 +99,6 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
 For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
-
-## Messaging
-
-Users who participate in conversations that are part of the Chat list in Microsoft Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the Chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the Chat list in Microsoft Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
-
-Microsoft Teams chat function works on a Microsoft Exchange backend, so you can apply the Exchange messaging limits to the chat function within Microsoft Teams. If users want to send an email to a channel in Teams, they use the channel email address. Once an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel. 
-
-|Feature  | Maximum limit  |
-|---------|---------|
-|Number of people in a private chat  | 100    |
-|Message size &dagger;  |25 KB   |
-|Number of file attachments &Dagger;  |10     |
-|Number of inline images &Dagger; |50   |
-
-&dagger; If the message exceeds this limit, a preview message is generated and the user is asked to view/download the original email from the link provided.
-
-&Dagger; If the number of attachments or images exceeds this limit, the message will not be processed and an NDR email will be sent back to the sender notifying them of the error.
-
-> [!NOTE]
-> The message size, file attachments, and inline images limits are the same across all Office 365 licenses.
-
-For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
 ## Browsers
 
