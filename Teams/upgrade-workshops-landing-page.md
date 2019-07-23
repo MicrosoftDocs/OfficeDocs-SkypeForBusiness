@@ -62,7 +62,7 @@ appliesto:
                     <div class="cardText">
                         <h3>Ready your end users</h3>
                         <p>Design a user readiness strategy to help your users love and adopt Teams.</p>
-                        <p>Audience: User readiness/change manager)</p>
+                        <p>Audience: User readiness/change manager</p>
                     </div>
                 </div>
             </div>
