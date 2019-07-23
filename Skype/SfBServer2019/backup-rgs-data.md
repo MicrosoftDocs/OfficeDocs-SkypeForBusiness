@@ -4,7 +4,7 @@ ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.date: 07/17/2019
+ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
