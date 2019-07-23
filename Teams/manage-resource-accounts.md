@@ -24,7 +24,9 @@ description: "Learn about managing resource accounts in Microsoft Teams"
 
 A resource account is also known as a *disabled user object* in Azure Active Directory, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
 
-In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have an associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant. Refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
+In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have an associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
+
+![example of resource accounts and user licenses](media/resource-account.png)
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online. For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
@@ -32,7 +34,7 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 
 ## Overview
 
-Assuming that your organization is using at least one Phone System License, to assigning a Phone System service a phone number, you will need to address the various dependencies in the following sequence:
+Assuming that your organization is already using at least one Phone System License to assign a Phone System service a phone number, you will need to address the various dependencies in the following sequence:
 
 1. Obtain a service number.
 2. Obtain a Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md) or a regular Phone System license to use with the resource account.
