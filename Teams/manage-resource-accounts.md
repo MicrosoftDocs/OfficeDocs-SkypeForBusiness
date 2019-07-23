@@ -32,7 +32,7 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 
 ## Overview
 
-Assuming that your organization is using at least one Phone System License, assigning a Phone System service a service pnone number, the various dependencies can be met in the following sequence:
+Assuming that your organization is using at least one Phone System License, to assigning a Phone System service a phone number, you will need to address the various dependencies in the following sequence:
 
 1. Obtain a service number.
 2. Obtain a Phone System [Virtual user license](teams-add-on-licensing/virtual-user.md) or a regular Phone System license to use with the resource account.
@@ -208,16 +208,16 @@ For implementations that are hybrid with Skype for Business Server:
 
    [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Configure onprem resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Configure onprem resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 For implementations in Teams or Skype for Business Online:
 
    [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
 
-   [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)
 
