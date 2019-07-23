@@ -30,7 +30,7 @@ appliesto:
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/PlanYourUpgrade">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -41,7 +41,8 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Plan your upgrade (Start here!)</h3>
-                        <p>Our Upgrade framework has everything you need for a successful journey to Teams. (Audience: Entire Upgrade project team)</p>
+                        <p>Discover everything you need to facilitate a successful upgrade to Teams.</p>
+                        <p>Audience: All (Business sponsors, IT admins, user readiness/change manager, project lead)</p>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/UpgradeReadyUsers">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -59,8 +60,9 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Prepare your users</h3>
-                        <p>Design a user readiness strategy to help your users adopt and love Teams. (Audience: User readiness/change lead)</p>
+                        <h3>Ready your end users</h3>
+                        <p>Design a user readiness strategy to help your users love and adopt Teams.</p>
+                        <p>Audience: User readiness/change manager)</p>
                     </div>
                 </div>
             </div>
@@ -68,7 +70,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/UpgradeApproach">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -78,8 +80,9 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Coexistence and interop</h3>
-                        <p>Learn how to run Skype for Business alongside Teams as you plan your upgrade.​ (Audience: IT pro/Teams admin)</p>
+                        <h3>Identify your upgrade approach</h3>
+                        <p>Recognize the most suitable approach for your upgrade scenario.</p>
+                        <p>Audience:  IT admins</p>
                     </div>
                 </div>
             </div>
@@ -87,7 +90,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page">
+        <a href="https://microsoftteams.eventbuilder.com/UpgradeImplement">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -97,8 +100,9 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams admin center</h3>
-                        <p>Learn how to manage Teams, including migration to Teams Only mode.​ (Audience: IT pro/Teams admin)</p>
+                        <h3>Implement your upgrade approach</h3>
+                        <p>Execute your defined upgrade approach as part of your formal upgrade plan.</p>
+                        <p>Audience: IT admins)</p>
                     </div>
                 </div>
             </div>
