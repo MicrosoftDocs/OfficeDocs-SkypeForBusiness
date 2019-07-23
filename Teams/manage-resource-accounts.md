@@ -34,12 +34,12 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 
 ## Overview
 
-Assuming that your organization is already using at least one Phone System License to assign a Phone System service a phone number, you will need to address the various dependencies in the following sequence:
+Assuming that your organization is already using at least one Phone System license,  to assign a Phone System service a phone number you will need to address the various dependencies in the following sequence:
 
 1. Obtain a service number.
-2. Obtain a Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md) or a regular Phone System license to use with the resource account.
+2. Obtain a free Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or a paid Phone System license to use with the resource account.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
-4. Assign the Phone System or a Phone System Virtual user license to the resource account.
+4. Assign the Phone System or a Phone System - Virtual user license to the resource account.
 5. Assign a service phone number to the resource account you just assigned licenses to.
 6. Create a Phone System service (a call queue or auto attendant).
 7. Link the resource account with a service.
