@@ -1,7 +1,7 @@
 ---
 title: Teams upgrade planning workshops
 ms.reviewer: dearbeen
-description: Use these instructor-led courses to help you plan your upgrade to Microsoft Teams from Skype for Business.
+description: Use these instructor-led workshops to help you plan your upgrade to Microsoft Teams from Skype for Business.
 layout: HubPage
 ms.topic: hub-page
 author: LolaJacobsen
@@ -20,7 +20,7 @@ appliesto:
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams upgrade planning workshops</h1>
-           <p>As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the <b>Plan your upgrade</b> session below.
+           <p>As a valued Skype for Business customer, we want to ensure you have what you need as you navigate your journey to Teams. Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the <strong>Plan your upgrade</strong> session below.
             <p>New to Teams? Learn more <a href="http://docs.microsoft.com/microsoftteams/teams-overview">here</a>.
         <ul class="pivots">
             <li>
@@ -82,7 +82,7 @@ appliesto:
                     <div class="cardText">
                         <h3>Identify your upgrade approach</h3>
                         <p>Recognize the most suitable approach for your upgrade scenario.</p>
-                        <p>Audience:  IT admins</p>
+                        <p>Audience: IT admins</p>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ appliesto:
                     <div class="cardText">
                         <h3>Implement your upgrade approach</h3>
                         <p>Execute your defined upgrade approach as part of your formal upgrade plan.</p>
-                        <p>Audience: IT admins)</p>
+                        <p>Audience: IT admins</p>
                     </div>
                 </div>
             </div>
