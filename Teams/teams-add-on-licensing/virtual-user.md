@@ -29,9 +29,9 @@ Starting July 2nd, 2019, an organization with Phone System licensed users can no
 
 ![virtual user licenses](../media/resource-account.png)
 
-## Free Virtual license scaling
+## Virtual User license scaling
 
-Your organization is alotted a number of free Virtual User licenses depending on its overall size. There are 25 free licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional free Virtual User license is made available.
+Your organization is alotted a certain number of free Virtual User licenses depending on its overall size. There are 25 free licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional Virtual User license is made available for free.
 
 If your organization uses up its free licenses in creating auto attendant or call queue nodes, you can still use the regular Phone system licenses with a resource account, but most organizations will have enough free Virtual User licenses.  
 
