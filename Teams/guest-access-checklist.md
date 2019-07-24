@@ -55,7 +55,6 @@ Guest access in Microsoft Teams uses Azure Active Directory (Azure AD) Business 
 
 A few things to remember:
 
-- For each paid Azure AD license that you assign to a user, your users can invite up to five guest users under the External User Allowance.
 - Guests are users outside your organization. Your employees, onsite contractors, onsite agents, and so on can't be added as guests. The same applies to your affiliates.
 - Guest licenses are counted against the inviting organization. Consider this when you calculate the number of licenses you need.
 - Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.
