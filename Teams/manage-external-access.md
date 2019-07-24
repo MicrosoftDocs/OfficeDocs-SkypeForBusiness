@@ -9,7 +9,7 @@ ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: karvell
+ms.reviewer: vinbel
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.externalaccess.overview
