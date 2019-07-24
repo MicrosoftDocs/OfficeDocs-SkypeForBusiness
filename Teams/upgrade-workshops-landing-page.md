@@ -81,7 +81,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Identify your upgrade approach</h3>
-                        <p>Recognize the most suitable approach for your upgrade scenario.</p>
+                        <p>Determine the most suitable approach based on your current Skype for Business implementation and upgrade goals.</p>
                         <p>Audience: IT admins</p>
                     </div>
                 </div>
