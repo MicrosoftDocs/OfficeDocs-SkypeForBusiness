@@ -47,7 +47,7 @@ Upgrading from Skype for Business to Teams is more than a technical migration. I
 
 Start your journey by familiarizing yourself with our upgrade success framework and associated resources. This guidance serves as the cornerstone for navigating your journey from Skype for Business to Teams.
 
-[Learn about the Upgrade Framework](upgrade-framework.md) and join us for a live upgrade planning overview session.
+[Learn about the Upgrade Framework](upgrade-framework.md) and join us for a [live upgrade planning overview](https://aka.ms/SkypeToTeamsPlanning) session.
 
 > [!IMPORTANT]
 > Remember that a successful upgrade ensures both technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
