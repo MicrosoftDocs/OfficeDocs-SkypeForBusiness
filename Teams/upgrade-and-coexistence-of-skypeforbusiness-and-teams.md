@@ -40,7 +40,7 @@ This article outlines the various modes that enable you to manage which modaliti
 > [!TIP]
 > Join us for live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
 >
->Join the **Plan your upgrade** session first to get started.
+>Join the [Plan your upgrade](https://microsoftteams.eventbuilder.com/PlanYourUpgrade) session first to get started.
 
 
 ## Upgrade journey building blocks
