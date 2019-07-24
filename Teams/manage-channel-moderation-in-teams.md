@@ -20,6 +20,8 @@ description: Learn how to set up channels for moderation in Microsoft Teams, inc
 
 # Set up and manage channel moderation in Microsoft Teams
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 In Microsoft Teams, team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel.
 
 Team owners can also add team members as moderators. A team owner might not have the subject matter expertise at the channel level to best support channel moderation. By allowing specific team members to moderate a channel, the responsibility of managing content and context within a channel is shared between team owners and channel moderators. For example, a team owner can add business owners or content owners as moderators, which lets them control information sharing in that channel.
