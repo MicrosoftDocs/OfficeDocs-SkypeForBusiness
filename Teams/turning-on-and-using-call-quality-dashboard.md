@@ -154,7 +154,7 @@ The overall stream volume is an important factor in determining how relevant the
   
 ### Server-Client tab and Client-Client tabs
 
-These two tabs provide additional details for the streams that took place in their endpoint-to-endpoint scenarios. Both tabs have four collapsible sections, representing four scenarios under which media streams would flow.
+These two tabs provide additional details for the streams that took place in their endpoint-to-endpoint scenarios. The Server-Client tab has four collapsible sections, representing four scenarios under which media streams would flow.
   
 - Wired Inside
     
@@ -163,6 +163,19 @@ These two tabs provide additional details for the streams that took place in the
 - Wifi Inside
     
 - Wifi Outside
+
+Similarly, the Client-Client tab has five collapsible sections:
+
+- Wired Inside - Wired Inside
+
+- Wired Inside - Wired Outside
+
+- Wired Outside - Wired Outside
+
+- Wired Inside - Wifi Inside
+
+- Wired Inside - Wifi Outside
+    
     
 #### Inside Test
 
@@ -191,7 +204,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
   
 ![Screen shot showing the Call Quality Dashboard](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type…information). Currently we support upload “Building” and “Endpoint” data types for cqd.teams.microsoft.com(in preview stage and not officially available yet), cqd.lync.com only supports upload "Building" data type. A few more data types will be added with subsequent releases.
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type for uploading. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building as well as other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type… information). Currently we support uploading “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports uploading "Building" data type. A few more data types will be added with subsequent releases.
     
 2. After selecting the file data type, click **Browse** to choose a data file.
     
@@ -199,7 +212,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     
    - The data file must be no larger than 50MB in size.
 
-   - File uploaded to cqd.teams.microsoft.com has expanded row limit of 1,000,000 to speed up query performance. We may impose that limit on cqd.lync.com as well.
+   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 in order to keep query performance fast. We may impose that limit on cqd.lync.com as well.
     
    - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
     
@@ -216,12 +229,14 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
     
      ![Screen shot showing the My Uploads table](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
-  
+
+6. Note that if you choose to use multiple building data files or multiple endpoint data files, the operation speed of some reports will be slower.
+
 ### Tenant data file format and structure
 <a name="BKMKTenantDataFile"> </a>
 
 ### Building data file
-CQD uses Building data file by first derive Subnet column from expanding Network+NetworkRange column, then joining Subnet column to the call record’s First Subnet/Second Subnet column to show Building/City/Country/Region… information. The format of the data file you upload must meet the following to pass the validation check before uploading.
+CQD uses Building data file by first deriving the Subnet column from expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet/Second Subnet column to show Building/City/Country/Region… information. The format of the data file you upload must meet the following to pass the validation check before uploading.
   
 - The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
     
