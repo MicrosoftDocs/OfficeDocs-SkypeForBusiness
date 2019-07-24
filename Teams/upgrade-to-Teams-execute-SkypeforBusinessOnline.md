@@ -38,7 +38,7 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 ## Assign the coexistence and upgrade mode
 
-You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows Powershell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to ugprade the entire tenant in one step. 
+You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows Powershell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to upgrade the entire tenant in one step. 
 
 For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
