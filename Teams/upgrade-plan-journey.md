@@ -26,3 +26,8 @@ A healthy technical environment, sustained user adoption, and the realization of
 - [Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).
 - [Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).
 - [Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!TIP]
+> Join us for live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
+>
+> Join the **Plan your upgrade** session first to get started.

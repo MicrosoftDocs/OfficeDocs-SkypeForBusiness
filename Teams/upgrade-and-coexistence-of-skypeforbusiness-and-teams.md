@@ -30,12 +30,18 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 # Choose your upgrade journey from Skype for Business to Teams
 
-Microsoft Teams will eventually replace Skype for Business Online, so you need to plan for Teams now so you'll be ready.
-
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there’s some overlapping functionality between the two apps, we recommend that you review the available coexistence and upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams. Use the outcome of your pilot to help assess the right upgrade journey for your organization.
 
 > [!IMPORTANT]
+> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. 
+>
 > This article outlines the various modes that enable you to manage which modalities in Skype for Business and Teams are available to your users. As with any deployment, we strongly encourage you to [pilot your intended plan](pilot-essentials.md) with a selected group of users before upgrading your organization to Teams. Remember, introducing new technology can be disruptive for users. Take time to assess user readiness and implement a communication and training plan prior to implementing any of the modes outlined herein.
+
+> [!TIP]
+> Join us for live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
+>
+>Join the **Plan your upgrade** session first to get started.
+
 
 ## Upgrade journey building blocks
 
@@ -58,6 +64,9 @@ The following table compares coexistence and upgrade modes.
 |Skype for Business with Teams collaboration and meetings |Skype for Business deployment with significant use of enterprise voice and requirements that aren’t yet met by Teams calling<br><br>Long-term need for and/or commitment to Skype for Business<br><br>Might be using a third-party meeting service|Start Teams adoption quickly, going beyond group collaboration<br><br>Improve your users’ meetings experience<br><br>Recommended use for on premises organizations wanting to take advantage of Teams meetings prior to being ready to fully upgrade (generally due to Enterprise Voice on-premises). |No overlapping capabilities<br><br>Superior meetings on Teams. Features roadmap, UX and cross platform, quality and reliability<br><br>"Better Together" experiences between Skype for Business and Teams<br><br>Interoperability users in Teams Only.|Instant messaging and chat will reside in Skype for Business (tied to calling)|
 |Teams Only |Teams Only is the final destination for all users, eventually.<br><br>Some users need to stay on Skype for Business<br><br>You’re upgrading your Skype for Business Online users to Teams while keeping Skype for Business on-premises users on Skype for Business Server<br><br>You might have already deployed users in islands mode and are ready to retire Skype for Business for groups of users |Reduce variable costs on Skype for Business (on-premises server operations, outsourcing contract, and so on)<br><br>Go to the full Teams experience as quickly as possible, for at least some users|Limits user confusion by providing only one client to work with Interoperability with users in Skype for Business Only, Skype for Business with Teams Collaboration, Skype for Business with Teams Collaboration and Meetings|Interoperability only supports basic chat and calling between Skype for Business and Teams, and interop escalation scenarios for desktop sharing and multi-party chat and calling|
 |Skype for Business only |Some users need to stay on Skype for Business<br><br>|Limits user confusion by providing only one client to work with<br><br>User can still participate in Teams meetings they are invited to|Continue to meet business requirements that currently can only be met by Skype for Business<br><br>Interoperability with users in Teams Only|Interoperability only supports basic chat and calling between Skype for Business and Teams, and interop escalation scenarios for desktop sharing and multi-party chat and calling|
+
+> [!TIP]
+> To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage the Skype to Teams Upgrade Wizard.
 
 ## Upgrade journeys
 
