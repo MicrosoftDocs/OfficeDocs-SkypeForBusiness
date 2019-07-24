@@ -174,7 +174,7 @@ ms.collection:
                                             </div>
                                             <div class="cardText">
                                                 <h3>Firstline Workers with Teams</h3>
-                                                <p>Learn about the newly released firstline worker capabilities in Teams. (Audience: End users)</p>
+                                                <p>Learn about the firstline worker capabilities in Teams. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
