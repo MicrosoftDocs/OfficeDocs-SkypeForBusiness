@@ -31,7 +31,7 @@ The following Office 365 subscriptions enable users for Teams.
 |---------|---------|---------|---------|
 |Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Developer     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
-|     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |  |
+|Microsoft 365 for business     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
 
