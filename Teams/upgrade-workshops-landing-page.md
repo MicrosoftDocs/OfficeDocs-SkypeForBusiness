@@ -30,7 +30,7 @@ appliesto:
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/PlanYourUpgrade">
+        <a href="https://microsoftteams.eventbuilder.com/PlanYourUpgrade"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -50,7 +50,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/UpgradeReadyUsers">
+        <a href="https://microsoftteams.eventbuilder.com/UpgradeReadyUsers"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -70,7 +70,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/UpgradeApproach">
+        <a href="https://microsoftteams.eventbuilder.com/UpgradeApproach"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -90,7 +90,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/UpgradeImplement">
+        <a href="https://microsoftteams.eventbuilder.com/UpgradeImplement"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
