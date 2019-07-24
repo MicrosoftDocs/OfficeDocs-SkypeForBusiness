@@ -91,6 +91,17 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Teams in 30</h3>
+                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">Live, interactive workshops designed to get you going on Teams in just 30 days. </a></p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
                     </div>
@@ -114,7 +125,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Adoption specialist certification</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.</a></p>
+                        <p><a href="https://aka.ms/AdoptionCert">The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.</a></p>
                     </div>
                 </div>
             </div>

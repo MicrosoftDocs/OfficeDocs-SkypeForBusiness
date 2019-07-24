@@ -3,7 +3,7 @@ title: Microsoft Teams guest access checklist
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -23,6 +23,9 @@ Teams guest access checklist
 
 Use this checklist to help you enable and configure the guest access feature in Microsoft Teams according to the preferences of your organization.
 
+> [!NOTE] 
+> For collaboration restrictions see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+
 ## Understand the limitations for guests
 
 The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
@@ -35,42 +38,48 @@ The guest experience has limitations by design. Make sure you understand the gue
 - Create or revise a team
 - Browse for a team
 - Upload files to a person-to-person chat
-- Guests can still search and find users, outside their team, if they know their full email ID. To prevent this, IT admins can use patterns like [scoped directory search](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) that have the ability to restrict Guests into their own virtual GAL.
+- Guests can still search and find users (outside their team) if they know the user's full email ID. To prevent this, IT admins can use patterns like [scoped directory search](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) that have the ability to restrict Guests into their own virtual GAL.
 
-For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 Groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 ### Guest access vs. external access (federation)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
+> [!NOTE] 
+> Currently, Microsoft Teams does not support the guest inviter role. At a minimum the "members can invite" toggle must be set to "Yes" for guest access to work in Microsoft Teams. If you set "members can invite" to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
+
 ## If your guests are seeing license errors
 
-Guest access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the [B2B licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
+Guest access in Microsoft Teams uses Azure Active Directory (Azure AD) Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the [B2B licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
 
 A few things to remember:
 
-- For each paid Azure AD license that you assign to a user, your users can invite up to five guest users under the External User Allowance.
 - Guests are users outside your organization. Your employees, onsite contractors, onsite agents, and so on can't be added as guests. The same applies to your affiliates.
 - Guest licenses are counted against the inviting organization. Consider this when you calculate the number of licenses you need.
 - Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.
 
 ## □  Step 1: Configure settings in Azure AD business-to-business
 
-1. Sign in to https://portal.azure.com
-2. Click **Azure Active directory** in the left pane.
-3. Under **Manage**, click **User settings**.
-4. Under **External users**, click **Manage External collaboration settings**.
-5. On the **External collaboration settings** page make sure **Members can invite** is set to **Yes**.
+1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
+2. Select **Azure Active Directory** > **Users** > **User settings**.
+3. Under **External users**, select **Manage external collaboration settings**.
+   > [!NOTE]
+   > The **External collaboration settings** are also available from the **Organizational relationships** page. In Azure Active Directory, under **Manage**, go to **Organizational relationships** > **Settings**.
+4. On the **External collaboration settings** page, choose the policies you want to enable.
 
-      ![Screenshot shows an example of an AAD settings toggle. ](media/guest-access-checklist-AADSettings1.png)
+   ![External collaboration settings](media/control-who-to-invite.png)
 
-    To support guests, **Members can invite** must be set to **Yes**. 
+  - **Guest users permissions are limited**: This policy determines permissions for guests in your directory. Select **Yes** to block guests from certain directory tasks, like enumerating users, groups, or other directory resources. Select **No** to give guests the same access to directory data as  regular users in your directory.
+   - **Admins and users in the guest inviter role can invite**: To allow admins and users in the "Guest Inviter" role to invite guests, set this policy to **Yes**.
+   - **Members can invite**: To allow non-admin members of your directory to invite guests, set this policy to **Yes**.
    
-> [!NOTE] 
-> If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
-
-For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
-
+       > [!NOTE]
+       > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+   
+   - **Guests can invite**: To allow guests to invite other guests, set this policy to **Yes**.
+   - **Enable Email One-Time Passcode for guests (Preview)**: For more information about the one-time passcode feature, see [Email one-time passcode authentication (preview)](one-time-passcode.md).
+   - **Collaboration restrictions**: For more information about allowing or blocking invitations to specific domains, see [Allow or block invitations to B2B users from specific organizations](allow-deny-list.md).
 
 ## □ Step 2: Configure Office 365 Groups
 
@@ -78,14 +87,14 @@ For more information, see [Authorize guest access in Microsoft Teams](Teams-depe
 2. Make sure **Let group members outside the organization access group content** is set to **On**. If this setting is turned off, guests won't be able to access any group content.
 3. Make sure **Let group owners add people outside the organization to groups** is set to **On**. If this setting is turned off, Team owners won't be able to add new guests. At a minimum, this setting must be On to support guest access.
 
-     ![Screenshot shows the Office 365 groups toggles](media/guest-access-checklist-office365.png)
+     ![Screenshot shows the Office 365 Groups toggles](media/guest-access-checklist-office365.png)
 
-For detailed instructions about configuring these settings, see [Manage guest access in Office 365 groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## □ Step 3: Enable guest access at the tenant level
 
-At a minimum, you must turn on Guest access for Microsoft Teams under the **Microsoft Teams admin center**. 
+At a minimum, you must turn on guest access for Microsoft Teams under the **Microsoft Teams admin center**. 
 
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
@@ -95,7 +104,7 @@ At a minimum, you must turn on Guest access for Microsoft Teams under the **Micr
 3. On this same page, configure any other guest settings that you require.
 4. Click **Save**.
 
-For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
+For detailed instructions, see [Turn on or turn off guest access to Microsoft Teams](set-up-guests.md).
 
 
 ## □  Step 4: Configure sharing in Office 365 

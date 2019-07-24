@@ -22,8 +22,6 @@ localization_priority: Priority
 Guest access in Microsoft Teams
 ======================================
 
-## Guest access overview
-
 Guest access is one of the features customers asked for the most. Here’s how you can keep up with our progress on guest access and tell us your thoughts:
 
 - If you’re having trouble with guest access, check out [Known issues for Microsoft Teams](Known-issues.md).
@@ -31,9 +29,11 @@ Guest access is one of the features customers asked for the most. Here’s how y
 - Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Share your experience in the Comments section below.
 
+## Guest access overview
+
 Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
 
-Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions with no additional licensing requirement. You can have up to 5 guests per licensed user on your tenant. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
+Guest access is included with many Office 365 subscriptions with no additional licensing requirement. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 Guest access is a tenant-level setting in Microsoft Teams and is turned off by default. Guest access is subject to Azure AD and Office 365 service limits.
 
@@ -55,7 +55,7 @@ Teams is built on Office 365 Groups and provides a new way to access shared asse
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## More information
-    
+
 [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 [Guest access in Office 365 Groups](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   

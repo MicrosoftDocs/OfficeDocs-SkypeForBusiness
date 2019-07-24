@@ -29,13 +29,13 @@ Check out the [Reports overview](https://support.office.com/article/0d6dfb17-858
 This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 
   
 ## How to get to the Skype for Business PSTN usage details report
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-- Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN usage details**.
+- Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN usage details**.
     
     > [!NOTE]
     > Depending on the Office 365 subscription you have, you might not see all the products and reports that are shown here. 
@@ -99,7 +99,7 @@ This is what the report looks like.
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
-![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into a TAB delimited Excel file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. 
+![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into a TAB delimited Excel file, by clicking or tapping the **Export to Excel** button. You can export data up to one year from the current date.<br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 
@@ -122,7 +122,7 @@ This is what the report looks like.
 - [Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.
     
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
  

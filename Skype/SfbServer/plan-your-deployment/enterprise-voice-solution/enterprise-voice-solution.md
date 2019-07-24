@@ -22,7 +22,7 @@ description: "Summary: Learn about your options for planning a unified voice and
   
 Skype for Business Server offers two on-premises Enterprise Voice options—Enterprise Voice and Call Via Work—for you to integrate the telephone system of your organization with your Skype for Business Server deployment, making for a true unified communications solution. Both options enable users to use their Skype for Business client to initiate voice calls with other users, both inside and outside of your organization.
   
-You can also take advantage of Microsoft Cloud PBX services, including PBX services and PSTN calling, by connecting your on-premises telephony infrastructure to services provided by Skype for Business Online. For more information, see [Plan your Phone System in Office 365 (Cloud PBX) solution](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
+You can also take advantage of Microsoft Cloud PBX services, including PBX services and PSTN calling, by connecting your on-premises telephony infrastructure to services provided by Skype for Business Online. For more information, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
 You can also use both Enterprise Voice and Call Via Work together.
   

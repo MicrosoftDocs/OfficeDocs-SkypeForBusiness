@@ -33,13 +33,13 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> You can't assign licenses using the **Skype for Business admin center**. You must use the Microsoft 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **To assign a license for a user**
 
 1. Sign in to Office 365 with your work or school account.
 
-2. In the left navigation of the **Office 365 admin center**, go to **Users** > **Active users**, and then select the user or users from the list of available users.
+2. In the left navigation of the admin center, go to **Users** > **Active users**, and then select the user or users from the list of available users.
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -49,7 +49,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.
+> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the admin center or press CTRL+F5 to refresh the browser window.
 
 ## Enable or disable emails sent to audio conferencing users
 
@@ -57,7 +57,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business** and in the left navigation, click **Audio conferencing**.
+2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
 3. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
 
@@ -78,11 +78,11 @@ It might be easier for you to see all of the audio conferencing settings for Sky
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) to manage other settings for your organization, including email.
+    You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) to manage other settings for your organization, including email.
 
 ## Change the sender's contact information in email messages sent to users
 
-You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
+You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet. To make changes to the email address that is sending the email to the users, you must:
 
 - Enter the email address in the _SendEmailFromAddress_ parameter.
 
@@ -98,7 +98,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 If you want to change the email address information, you need to make sure that the inbound email policies of your organization allow emails that come from the custom email address.
 
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet to manage other settings for your organization, including email.
 
 See [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
 
@@ -106,7 +106,7 @@ See [Emails that are automatically sent to users when their Audio Conferencing s
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and in the Action pane under **Conference ID**, click **Reset**.
 
@@ -124,7 +124,7 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business** and in the left navigation, click **Audio conferencing**.
+2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
 3. Click **Users**, and then select the user that you want to reset the PIN for.
 
@@ -138,7 +138,7 @@ See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business** and in the left navigation, click **Audio conferencing**.
+2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
 3. Click **Users**, and then select the user that you want to reset the PIN for.
 
@@ -153,7 +153,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
 
@@ -171,7 +171,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
 
@@ -191,7 +191,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
 
@@ -205,7 +205,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business** and in the left navigation, click **Audio conferencing**.
+2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
 
 3. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
 
@@ -222,7 +222,7 @@ See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/chang
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.
 
@@ -236,7 +236,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
@@ -254,7 +254,7 @@ See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**> and then **Users**.
 
@@ -315,7 +315,7 @@ Here are the organization-level settings:
 
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
 
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

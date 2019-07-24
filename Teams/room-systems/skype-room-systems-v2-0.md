@@ -46,12 +46,13 @@ In addition to the Surface Pro/dock combination, you can also purchase Microsoft
 
 Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](room-systems-scale.md). 
 
-You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
+You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See the [Teams Meeting Room Licensing Update](skype-room-systems-v2.md) for information on the needed licenses.
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
+| | |
 
 ## Identify who will undertake the key activities throughout your deployment
 
@@ -97,10 +98,6 @@ _Sample meeting/conference room inventory_
 | London HQ | Curie         | Medium        | 6&ndash;12                  | Yes          | Speakerphone                        | 1 screen, audio and video plus presentation<br>PSTN Access |
 | Sydney HQ | Hill          | Large         | 12&ndash;16                 | Yes          | Legacy AV unit, 1 screen and camera | 2 screens, audio and video plus presentation<br>PSTN Access |
 
-**Pro Tip** – If you have many sites to inventory, you might want to download
-and use the [Site Rollout and Migration Planning - Site
-Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15).
-
 ## Device selection 
 
 Evaluate which Microsoft Teams Rooms solution is the most suitable for each room based on the future capabilities you want for the room. Decide which AV peripheral devices are the best fit, depending on room size and layout. 
@@ -125,7 +122,7 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 | Medium 18' by 20'    | 6&ndash;12                  |                                  |                         |                 |
 | Large 15' by 32'     | 12&ndash;16                 |                                  |                         |                 |
 
-**Pro Tip –** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you’ve chosen. We recommend that you work with your vendor to discuss completing the design template to capture information that will be relevant to your deployment; you can [download this handy template](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) from MyAdvisor. 
+**Pro Tip –** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you’ve chosen.
 
 ## Procurement 
 
