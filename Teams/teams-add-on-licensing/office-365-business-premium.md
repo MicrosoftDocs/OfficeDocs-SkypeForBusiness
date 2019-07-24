@@ -33,13 +33,13 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 - **Option 2. Keep your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.
     1. Buy the Phone System add-on.
     
-    2. Buy a [Calling Plan for Office 365](../calling-plans-for-office-365.md): you can only buy this after you buy the Phone System add-on.
+    2. Buy a [Calling Plan for Office 365](../calling-plans-for-office-365.md) - You can only buy this after you buy the Phone System add-on.
     
 - **Option 3. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.
 
     1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
 
-    2. If you decide to buy an Enterprise E5 license, it includes a Phone System license. If you use an Enterprise E1 or E3 license or an Office 365 Business Essentials or Office 365 Business Premium you will need to buy the Phone System add-on.
+    2. If you decide to buy an Enterprise E5 license, it includes a Phone System license. If you use an Enterprise E1 or E3 license or an Office 365 Business Essentials or Office 365 Business Premium licsense you will need to buy the Phone System add-on.
     
     3. Buy a [Calling Plan for Office 365](../calling-plans-for-office-365.md): you can only buy this after you buy the Phone System add-on.
 
