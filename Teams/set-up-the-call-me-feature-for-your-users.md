@@ -40,13 +40,13 @@ Another way to join is to dial in directly to the meeting. On the **Use phone fo
 
 ### Switch to using phone for audio during a meeting
 
-If a user joins a meeting by using their computer and they experience audio or device issues during the meeting, the user can easily switch to using their phone for audio. Teams detects when an audio or device issue occurs and redirects the user to use their phone.
+If a user joins a meeting by using their computer and they experience audio or device issues during the meeting, the user can easily switch to using their phone for audio. Teams detects when an audio or device issue occurs and redirects the user to use their phone by displaying a **Call me back** option.
 
 Here's an example of the message and the **Call me back** option that's displayed when Teams doesn't detect a microphone.
 
 ![Screen shot of the Call me back option](media/set-upthe-call-me-feature-for-your-users-no-mic.PNG)
 
-The user clicks **Call me back** in the dialog box, which displays the **Use phone for audio** screen. From here, they can enter their phone number and have the Teams meeting call and join them to the meeting or dial in manually to the meeting.
+The user clicks **Call me back**, which brings up the **Use phone for audio** screen. From here, they can enter their phone number and have the Teams meeting call and join them to the meeting or dial in manually to the meeting.
 
 ## Set up the Call me feature
 
