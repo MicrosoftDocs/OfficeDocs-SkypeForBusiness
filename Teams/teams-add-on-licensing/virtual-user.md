@@ -22,7 +22,7 @@ description: "Learn about free Virtual User licenses."
 
 # Phone System — Virtual User license 
 
-Starting July 2nd, 2019, an organization with Phone System licensed users can now obtain and assign either a free Phone System — Virtual User license or a paid Phone System user license to resource accounts. A Calling Plan is no longer required. All auto attendants or call queues require an associated resource account. Resource accounts that need a phone number need a free Phone System — Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.
+As of July 2nd, 2019, an organization with Phone System licensed users can now obtain and assign either a free Phone System — Virtual User license or a paid Phone System user license to resource accounts. A Calling Plan is no longer required. All auto attendants or call queues require an associated resource account. Resource accounts that need a phone number need a free Phone System — Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.
 
 > [!TIP]
 > No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference: 
