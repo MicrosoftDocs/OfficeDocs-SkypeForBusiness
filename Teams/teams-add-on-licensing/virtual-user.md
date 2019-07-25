@@ -29,7 +29,7 @@ As of July 2, 2019, an organization with Phone System licensed users can now obt
 
 ![Virtual User licenses](../media/resource-account.png)
 
-## Virtual User license scaling
+## Virtual User license allocation
 
 Your organization is allotted Phone System–Virtual User licenses depending on its overall size. There are 25 Virtual User licenses available to any organization that has at least one license that includes Phone System or has Phone System added. When you add 10 Phone System user licenses in your organization, one more Phone System–Virtual User license becomes available.
 
@@ -38,7 +38,7 @@ Your organization is allotted Phone System–Virtual User licenses depending on 
 
 If your organization uses up the available free Phone System–Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account. Most organizations will have enough Virtual User licenses based on the scaling plan. 
 
-### License scaling example
+### License allocation example
 
 Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee), so they are allotted an initial 25 and an additional 60 Phone System–Virtual User licenses. Contoso has a total of 85 Phone System–Virtual User licenses. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the Phone System–Virtual User licenses and obtain 5 regular-priced Phone System licenses. 
 
