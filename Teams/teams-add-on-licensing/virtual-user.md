@@ -40,7 +40,7 @@ If your organization uses up the available free Phone System–Virtual User lice
 
 ### License allocation example
 
-Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee), so they are allotted an initial 25 and an additional 60 Phone System–Virtual User licenses. Contoso has a total of 85 Phone System–Virtual User licenses. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the Phone System–Virtual User licenses and obtain 5 regular-priced Phone System licenses. 
+Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee), so they are allotted an initial 25 and an additional 60 Phone System–Virtual User licenses. Contoso has a total of 85 Phone System–Virtual User licenses. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the Phone System–Virtual User licenses and obtain five regular-priced Phone System licenses. 
 
 Contoso should consider redesigning the auto attendant and call queue system to use fewer phone numbers and more nested nodes that don't need a phone number or any license. Removing unnecessary phone numbers simplifies the implementation and reduces costs. 
 
@@ -55,7 +55,7 @@ Contoso should consider redesigning the auto attendant and call queue system to 
 
 ## Change an existing resource account to use a Phone System–Virtual User license
 
-If you decide to switch the licenses on your existing resource account from a Phone System license to a Phone System–Virtual User license: 
+If you decide to switch the licenses on your resource account from a Phone System license to a Phone System–Virtual User license: 
 
 1. Get the new Phone System–Virtual User license. 
 2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
