@@ -38,9 +38,9 @@ Another way to join is to dial in directly to the meeting. On the **Use phone fo
 
 ![Screen shot of the Dial in manually option](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
-### Get a call back when something goes wrong with audio
+### Get a call back when something goes wrong with audio during a meeting
 
-If a user experiences audio issues when using their computer in a meeting, the user can easily switch to using their phone for audio. Teams detects when an audio or device issue occurs and redirects the user to use their phone by displaying a **Call me back** option.
+If a user experiences audio issues when using their computer during a meeting, the user can easily switch to using their phone for audio. Teams detects when an audio or device issue occurs and redirects the user to use their phone by displaying a **Call me back** option.
 
 Here's an example of the message and the **Call me back** option that's displayed when Teams doesn't detect a microphone.
 
