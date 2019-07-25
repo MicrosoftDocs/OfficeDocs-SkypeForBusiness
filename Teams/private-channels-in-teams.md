@@ -61,9 +61,9 @@ To determine whether a private channel is appropriate, consider the following qu
 
 By default, any team owner or team member can create a private channel. Guests can't create them. On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels. As an admin, you can use [policies](#set-whether-users-in-your-organization-can-create-private-channels) to control which users in your organization are allowed to create private channels.
 
-Any team member can be added to a private channel in the team, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel. If a member leaves a team, that user will also leave all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
+Any team member can be added to a private channel in the team, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel. If a member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
 
-A team member can't leave a team if they are the last owner of one or more private channels.
+A team member can't leave or be removed from a team if they are the last owner of one or more private channels.
 
 Team owners can see the name of all private channels in their team. They can also delete any private channel in the team. (Careful – this can’t be undone!) Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
@@ -79,7 +79,7 @@ The following table shows who can view what in a private channel.
 
 Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
 
-The following table outlines which actions are available to owners, members, and guests.
+The following table outlines what actions owners, members, and guests can do in private channels.
 
 |Action  |Team owner|Team member|Team guest|Private channel owner|Private channel member|Private channel guest|
 |---------|---------|---------|---------|---------|---------|---------|
@@ -92,7 +92,7 @@ The following table outlines which actions are available to owners, members, and
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs, apps, and connectors|No|N/A|N/A|Yes<sup>3</sup>|Yes<sup>4</sup>|No|
 
-<sup>1</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always private channels.<br> 
+<sup>1</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
 <sup>2</sup>Assuming the private channel owner isn't the last owner of the channel. <br>
 <sup>3</sup>Requires the team to have an app installed for a private channel to use it.<br>
 <sup>4</sup>Private channel owners can configure this.
@@ -102,6 +102,10 @@ The following table outlines which actions are available to owners, members, and
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
 ![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
+
+### Set whether team members can create private channels
+
+Team owners can turn off or turn on the ability for members to create private channels. To do this, on the **Settings** tab for the team, 
 
 ### Set whether users in your organization can create private channels
 
@@ -135,7 +139,13 @@ Private channels are subject to the same group classification as the parent team
 
 ### eDiscovery and General Data Protection Regulation (GDPR)
 
-eDiscovery and GDPR work differently in private channels than in standard channels. Records for messages sent in a private channel are delivered to the mailbox of all channel participants, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
+eDiscovery and GDPR work differently in private channels than in standard channels. Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
+
+To perform an eDiscovery search or legal hold on a team that has a private channel, perform a search across the following:
+
+- Team
+- Site collections associated with private channels in the team
+- Mailboxes of private channel members
 
 ### Retention
 
