@@ -34,15 +34,17 @@ In Microsoft Teams or Skype for Business Online, each Phone System call queue or
 
 ## Overview
 
-Assuming that your organization is already using at least one Phone System license,  to assign a Phone System service a phone number you will need to address the various dependencies in the following sequence:
+Assuming that your organization is already using at least one Phone System license,  to assign a Phone System call queue or auto attendant a phone number you will need to address the various dependencies in the following sequence:
 
 1. Obtain a service number.
 2. Obtain a free Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or a paid Phone System license to use with the resource account.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 4. Assign the Phone System or a Phone System - Virtual user license to the resource account.
-5. Assign a service phone number to the resource account you just assigned licenses to.
-6. Create a Phone System service (a call queue or auto attendant).
-7. Link the resource account with a service.
+5. Assign a service phone number to the resource account you just assigned licenses to. 
+6. Create a Phone System call queue or auto attendant
+7. Link the resource account with a call queue or auto attendant.
+
+
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
@@ -51,11 +53,11 @@ To redirect calls to people in your organization who are homed Online, they must
 > [!WARNING]
 > In order to avoid problems with the resource account, follow these steps in this order.
 
-If the Phone System service you're creating will be nested and will not need a phone number, the process is:
+If the Phone System call queue or auto attendant you're creating will be nested and will not need a phone number, the process is:
 
 1. Create the resource account  
-2. Create a Phone System service
-3. Associate the resource account with a Phone System service
+2. Create a Phone System call queue or auto attendant
+3. Associate the resource account with a Phone System call queue or auto attendant
 
 ### Create a resource account with a phone number
 
@@ -86,7 +88,7 @@ A nested auto attendant or call queue will require a resource account, but in ma
 2. Set up one of the following:
    - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
    - [Cloud call queue](create-a-phone-system-call-queue.md)
-3. Assign the resource account to the service. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
+3. Assign the resource account to the call queue or auto attendant. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
 
 
 ## Create a resource account in Microsoft Teams admin center
@@ -115,7 +117,7 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 To assign a direct routing or hybrid number to a resource account you will need to use PowerShell, see the following section.
 
 > [!IMPORTANT]
-> If your resource account doesn't have a Virtual User or Phone System license, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a service.
+> If your resource account doesn't have a valid license, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a call queue or auto attendant.
 
 ![Screen shot of the Assign/unassign options](media/r-a-assign.png)
 
