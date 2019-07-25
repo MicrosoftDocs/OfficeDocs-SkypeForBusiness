@@ -24,6 +24,7 @@
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
+## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
@@ -31,7 +32,7 @@
 
 
 
-## Apps, bot, and connectors
+## Apps, bots, and connectors
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
@@ -41,6 +42,7 @@
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Publish apps in the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -757,6 +759,7 @@
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
+### [Virtual User license](teams-add-on-licensing/virtual-user.md)
 
 
 ## Interoperability with Office 365

@@ -30,7 +30,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 > [!NOTE]
 > To find out how much it costs, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
-## Step 1: Assign an Audio Conferencing and Calling Plan license to your users
+## Step 1: Assign an Audio Conferencing or Calling Plan license to your users
 
 When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get search for the country or region [here](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   

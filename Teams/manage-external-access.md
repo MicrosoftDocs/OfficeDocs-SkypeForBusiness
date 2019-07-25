@@ -9,7 +9,7 @@ ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: karvell
+ms.reviewer: vinbel
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.externalaccess.overview
@@ -103,9 +103,9 @@ For more information about the free version of Teams and how it works with featu
 
 External access lets your Teams and Skype for Business users communicate with other users who are outside of your organization. By default, your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed but if you add allowed domains, all other domains will be blocked. You can easily set up external access for your organization. There are three scenarios for setting it up:
 
-- **Scenario 1** - You can use **OPEN FEDERATION**. This is the default setting and it lets people in your organization find, call, and send instant messages, as well as set up meetings with people external to your organization.
+- **Scenario 1** - You can use **OPEN FEDERATION**. This is the default setting and it lets people in your organization find, call, and send IM/Chats, as well as set up meetings with people external to your organization.
 
-    When you use this set up, your users can communicate with ALL external domains that are running Teams but have set up their domain/organization to allow your domain.
+    When you use this set up, your users can communicate with ALL external domains that are running Teams or Skype for Business AND are using Open Federation or have added your domain to the allow list.
 
 - **Scenario 2** - You can add a domain or domains to the **ALLOW** list. To do this, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Allowed**. It's important to know that if you do this it will **BLOCK** all other domains.
 
