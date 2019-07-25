@@ -30,4 +30,4 @@ A healthy technical environment, sustained user adoption, and the realization of
 > [!TIP]
 > Join us for live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
 >
-> Join the [Plan your upgrade](https://microsoftteams.eventbuilder.com/PlanYourUpgrade) session first to get started.
+> Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.
