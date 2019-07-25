@@ -44,7 +44,7 @@ If a user experiences audio issues when using their computer during a meeting, t
 
 Here's an example of the message and the **Call me back** option that's displayed when Teams doesn't detect a microphone.
 
-![Screen shot of the Call me back option](media/set-upthe-call-me-feature-for-your-users-no-mic.PNG)
+![Screen shot of the Call me back option](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
 The user clicks **Call me back**, which brings up the **Use phone for audio** screen. From here, they can enter their phone number and have the Teams meeting call and join them to the meeting or dial in manually to the meeting.
 
