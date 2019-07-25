@@ -42,7 +42,7 @@ If your organization uses up the available free Phone System — Virtual User li
 
 Contoso, Inc. purchased 600 Phone System licenses (one for each employee), so they are allotted an initial 25 and an additional 60 Phone System — Virtual User licenses. Contoso has a total of 85 Phone System — Virtual User licenses. Their organization has 90 call queues and auto attendants that have phone numbers, so they need to assign all the Phone System — Virtual User licenses and obtain 5 regular-priced Phone System licenses and assign them to the resource accounts linked to the remaining call queues and auto attendants requiring phone numbers. 
 
-Contoso should consider redesigning the auto attendant and call queue system to use fewer phone numbers and more nested nodes that don't need a phone number or any license. Removing unecessary phone numbers will simplify the implementation and reduce costs. 
+Contoso should consider redesigning the auto attendant and call queue system to use fewer phone numbers and more nested nodes that don't need a phone number or any license. Removing unnecessary phone numbers will simplify the implementation and reduce costs. 
 
 ## How to acquire Phone System — Virtual User licenses 
 
