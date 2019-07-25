@@ -31,22 +31,24 @@ Starting July 2nd, 2019, an organization with Phone System licensed users can no
 
 ## Virtual User license scaling
 
-Your organization is alotted a certain number of Phone System - Virtual User licenses depending on its overall size. There are 25 Virtual User licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional Phone System - Virtual User license is made available.
+Your organization is allotted a certain number of Phone System - Virtual User licenses depending on its overall size. There are 25 Virtual User licenses available to any organization that has at least one license that includes Phone System or has Phone System added. For every additional 10 Phone System user licenses in your organization, an additional Phone System - Virtual User license is made available.
 
-If your organization uses up its Phone System - Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account, but most organizations will have enough Virtual User licenses.  
+> [!NOTE]
+> Phone System is an add-on license available with Office 365 F1, E1, E3, and Office Premium licenses. Phone System is also included as part of Office 365 E5 licenses.
+
+If your organization uses up the available free its Phone System - Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account, but most organizations will have enough Virtual User licenses.  
 
 ### License scaling example
 
-Contoso, Inc. purchased 600 Phone System licenses, so they are alotted an initial 25 and an aditional 60 Phone System - Virtual User licenses, for a total of 85 Phone System - Virtual User licenses.  Their organization has a total of 150 call queues and auto attendants that have phone numbers, so they will need to assign all the Phone System - Virtual User licenses and purchase 65 Phone System licenses and assign them to the resource accounts linked to the remaining call queues and auto attendants.  
+Contoso, Inc. purchased 600 Phone System licenses (one for each employee), so they are allotted an initial 25 and an additional 60 Phone System - Virtual User licenses, for a total of 85 Phone System - Virtual User licenses.  Their organization has a total of 90 call queues and auto attendants that have phone numbers, so they will need to assign all the Phone System - Virtual User licenses and obtain  5 regular-priced Phone System licenses and assign them to the resource accounts linked to the remaining call queues and auto attendants requiring phone numbers.  
 
 Contoso may want to redesign the auto attendant and call queue system to use fewer phone numbers and more nested nodes that don't need a phone number or any license. An auto attendant node or call queue that an organization's callers only access from a main auto attendant or another nested auto attendant won't need a phone number, and this will simplify the implementation and reduce costs. 
-
 
 ## How to acquire Phone System - Virtual User licenses 
 
 1. Sign in to the Microsoft 365 admin center.
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
-3. Scroll to the end - you will see a "Phone System - Virtual User" license. Select **Buy now**.
+3. Scroll to the end - you will see a **"Phone System - Virtual User"** license. Select **Buy now**.
 
 > [!WARNING]
 > Keep in mind you still need to **Buy** the license even though it has a cost of zero. 
