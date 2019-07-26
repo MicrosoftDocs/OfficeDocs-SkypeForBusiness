@@ -56,7 +56,7 @@ All calls waiting in the queue will be distributed using one of the following me
 To get started using call queues, it's important to remember a few things:
   
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
+- If you are assigning a phone number to a resource account you can now use the cost-free Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md). This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue services.
 
 > [!NOTE]
 > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.

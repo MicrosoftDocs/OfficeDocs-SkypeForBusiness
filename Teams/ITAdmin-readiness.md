@@ -111,4 +111,3 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 - [Enabling Teamwork with Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
-- [Teams in 30 interactive training](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
