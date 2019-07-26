@@ -27,11 +27,13 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
+
+
+
 
 # Perform your upgrade to Teams
 
-# Perform your upgrade to Teams
+**Note:**  Before beginning your upgrade, be sure you [conduct a user pilot](pilot-essentials.md).
 
 The steps you take to perform your upgrade to Teams depends on your current deployment of Skype for Business:
 
@@ -41,6 +43,7 @@ The steps you take to perform your upgrade to Teams depends on your current depl
 - [Plan hybrid connectivity](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-hybrid-connectivity) 
 - [Configure hybrid connectivity](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-hybrid-connectivity) 
 - [Move users between on-premises and the cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)
+
 
 
 

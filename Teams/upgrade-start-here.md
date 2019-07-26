@@ -18,20 +18,12 @@ appliesto:
 - Microsoft Teams
 ---
 
-#  NOTE:  
-
-**Repurpose this article as a landing page to guide people to the right content based on their business scenario:
-
-- Upgrade from SfBO
-- Upgrade from on-prem environment
-- ...
-
 
 # Getting started with your Microsoft Teams upgrade
 
 Congratulations on your pending upgrade from Skype for Business to Microsoft Teams. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.
 
-Whether you are upgrading from Skype for Business Online to Teams or from an on-premises Skype for Business environment to Teams, the upgrade framework will guide you through the process based on your business scenario.
+**Whether you are upgrading from Skype for Business Online to Teams or from an on-premises Skype for Business environment to Teams, the upgrade framework will guide you through the process based on your business scenario.**
 
 ## Why upgrade to Microsoft Teams?
 

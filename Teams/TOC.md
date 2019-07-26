@@ -622,14 +622,13 @@
 
 
 ## Upgrade to Teams
-### [Overview] 
+### [Overview](upgrde-to-Teams.md)
 ### [Conduct a user pilot](pilot-essentials.md)
 
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 
 
 ### Upgrade Skype for Business on-premises to Teams
-#### [Overview](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 #### [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 #### [Configure hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
