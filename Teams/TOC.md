@@ -622,6 +622,7 @@
 
 
 ## Upgrade to Teams
+### [Overview] 
 ### [Conduct a user pilot](pilot-essentials.md)
 
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
