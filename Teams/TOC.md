@@ -593,45 +593,42 @@
 
 
 
-# Upgrade and migration
+# Upgrade to Teams
 
 
-##  [Get started](upgrade-start-here.md)
-
+## [Get started](upgrade-start-here.md)
+## [About the upgrade framework](upgrade-framework.md)
 
 ## Plan your upgrade journey
-### [About the upgrade framework](upgrade-framework.md)
+
 ### [Upgrade planning overview](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
-### Define co-existence and interoperability requirements
-### [Plan for quality](upgrade-plan-for-quality.md)
-### Prepare your environment for Teams
-#### [Technical readiness overview](upgrade-prepare-environment.md)
-#### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
-#### [Prerequisites](upgrade-plan-journey-prerequisites.md)
-#### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
-#### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
-#### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
-### Prepare your organization for Teams
-#### [Organizational readiness overview](upgrade-prepare-organization.md)
-#### [Assess organizational change readiness](upgrade-org-change-readiness.md)
-#### [Prepare a user readiness plan](upgrade-user-readiness.md)
+### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
+## Prepare your environment for Teams
+### [Technical readiness overview](upgrade-prepare-environment.md)
+### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
+### [Prerequisites](upgrade-plan-journey-prerequisites.md)
+### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
+### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
+### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
+
+## Prepare your organization for Teams
+### [Organizational readiness overview](upgrade-prepare-organization.md)
+### [Assess organizational change readiness](upgrade-org-change-readiness.md)
+### [Prepare a user readiness plan](upgrade-user-readiness.md)
+
+
+## Upgrade to Teams
 ### [Conduct a user pilot](pilot-essentials.md)
 
-## Coexistence and interoperability
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 
-## Upgrade from Skype for Business
 
-### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
-### Upgrade from Skype for Business hybrid or on-premises to Teams
+### Upgrade Skype for Business on-premises to Teams
 #### [Overview](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 #### [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 #### [Configure hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
@@ -656,6 +653,11 @@
 ##### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
 #### [Integration with Exchange and SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+## Coexistence and interoperability
+### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 
 
