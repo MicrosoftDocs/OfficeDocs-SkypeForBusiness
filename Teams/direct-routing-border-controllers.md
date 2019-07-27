@@ -65,4 +65,4 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
 To give us product feedback about Teams, such as ideas for new features, please visit [Uservoice](https://microsoftteams.uservoice.com)
-Note the certification granted a a major version. That means that firmware with any number in the SBC firmware after the major version is supported.
+Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.
