@@ -25,20 +25,20 @@ You can use the Microsoft Teams Tenant Apps Catalog to test and distribute line-
 
 The Teams Tenant Apps Catalog lets you distribute line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions.
 
-To publish apps for your organization, sign in to your Teams client using your global admin credentials and then follow the instructions below.
+To publish apps for your organization, sign in to your Teams client using an account with the global admin or teams service admin roles and then follow the instructions below.
 
 ## Publish an app in the Tenant Apps Catalog from the Teams client
 
 > [!NOTE]
-> You need to be signed in to the Microsoft Teams client using your global admin credentials to publish apps for your organization.
+> You need to be signed in to the Microsoft Teams client using an account that has either the global admin or teams service admin role enabled to publish apps for your organization.  [Learn more about the admin roles for managing teams](https://docs.microsoft.com/en-us/MicrosoftTeams/using-admin-roles).
 
 ### Get a Teams app package
 
-A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Once you have the app package, you can add it to the enterprise app catalog. While all users in the tenant can view the app catalog, currently only global admins have the ability to publish and manage it. (Eventually, Teams admins will be able to do this as well.)
+A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Once you have the app package, you can add it to the enterprise app catalog. While all users in the tenant can view the app catalog, only global admins and teams service admins have the ability to publish and manage it.
 
 ### Go to the Tenant Apps Catalog
 
-Start the Microsoft Teams client and sign-in using your global admin credentials. From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
+Start the Microsoft Teams client and sign-in using your global or teams service admin credentials. From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image01.png)
 
