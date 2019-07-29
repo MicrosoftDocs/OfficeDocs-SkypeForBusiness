@@ -26,7 +26,7 @@ appliesto:
 > - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop) (53 minutes)
 > - [Administrator experience](https://aka.ms/teams-upgrade-admin) (24 minutes)
 
-## Heading???
+## Skype for Business Online retirement
 
 ### Why is Microsoft Teams replacing Skype for Business Online? 
 
