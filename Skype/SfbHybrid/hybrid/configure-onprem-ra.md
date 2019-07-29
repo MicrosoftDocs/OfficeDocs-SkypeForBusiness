@@ -31,7 +31,7 @@ If your Phone System service will need a service number, the various dependencie
 5. Assign the Phone System Virtual User or Phone System license to the resource account.
 6. Assign a service number to the resource account.
 7. Create a Phone System service (a call queue or auto attendant)
-8. Associate the resource account with a service: (New-CsApplicationInstanceAssociation)
+8. Associate the resource account with a service: (New-CsApplicationInstanceAssociation).
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
