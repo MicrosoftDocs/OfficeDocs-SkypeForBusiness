@@ -196,7 +196,7 @@ Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) softwar
 
 ### What are the management experiences for Teams?
 
-Like the Skype for Business Admin Console, the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/) within the Microsoft 365 Admin Center is the single place to administer new Teams experiences. With this portal, administrators can create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users. 
+Like the Skype for Business Admin Console, the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) within the Microsoft 365 admin center is the single place to administer new Teams experiences. With this portal, administrators can create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users. 
 
 ## Device compatibility
 
