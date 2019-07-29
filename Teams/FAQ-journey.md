@@ -34,7 +34,7 @@ Microsoft Teams expands on the capabilities in Skype for Business Online by brin
 
 ### When is the retirement of Skype for Business Online? 
 
-Skype for Business Online will retire on July 31, 2021. Skype for Business Online customers should see no change to the service prior to the retirement date. Read [Microsoft Teams innovation paves the way for Skype for Business Online retirement](https://aka.ms/sfboannounce) for more details.  
+Skype for Business Online will retire on July 31, 2021. Skype for Business Online customers should see no change to the service prior to the retirement date. Read [Skype for Business Online to Be Retired](https://aka.ms/sfboannounce) for more details.  
 
 ### Will current Skype for Business Online customers be able to add new seats to their tenant?
 
@@ -74,7 +74,7 @@ In effort to support smaller customers that may not have dedicated IT resources,
 
 ### How does the Skype for Business Online retirement announcement affect organizations with hybrid configurations (Skype for Business Online and Skype for Business Server)?
 
-Hybrid customers with online and on-prem configurations will be required to transition users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Qualifying customers with hybrid configurations are encouraged to engage Microsoft resources, such as FastTrack, for help with transition planning and change management.
+Hybrid customers with online and on-prem configurations will be required to transition users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Customers with eligible subscriptions are encouraged to engage with [FastTrack](https://fasttrack.microsoft.com/) for Teams onboarding assistance.
 
 ## Skype for Business to Teams upgrade
 
@@ -88,7 +88,7 @@ Your organization's journey from Skype for Business to Teams can be defined by y
 
 ### Is there a recommended upgrade path for Skype for Business Online? 
 
-Plan your journey from Skype for Business Online to Teams at [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) where we document various scenarios that outlines the steps required to get from Skype for Business Online to Teams. For additional information on the upgrade paths supported and recommendations, see [https://aka.ms/SkypeToTeamsWizard](https://aka.ms/SkypeToTeamsWizard).
+Customers are encouraged to plan your journey from Skype for Business Online to Teams leveraging the planning guidance and resources at [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) to identify and implement the upgrade path that best meets your organization’s needs.
 
 ### Where can I learn more about coexistence modes in the Microsoft Teams admin center? 
 
@@ -178,13 +178,15 @@ There will be no change in the coverage for Audio Conferencing as a result of it
 
 There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services in Office 365. Customers who need to leverage ACP support in Skype for Business meetings can continue to use their Skype for Business client to join Skype for Business meetings. Meetings scheduled in Teams will need to utilize the Audio Conferencing services of Office 365.
 
+Support for the integration of third-party party Audio Conferencing Providers (ACP) into Skype for Business Online has been extended to July 31, 2021, with limited support for remaining active tenants to allow additional time for transition.  This is an update in the ACP timeline announced in April 2018.
+
 ### What’s the plan for video interoperability support for Teams meetings?
 
 [Meeting room devices](https://products.office.com/microsoft-teams/across-devices) are critical to our vision for the modern workplace. [Cloud video interoperability services](cloud-video-interop.md) to support Teams meetings with existing VTC systems are available through our partners Pexip, Polycom, and Blue Jeans.
 
 ### Will the latest generation of Skype Room Systems v2 support meetings in Teams?
 
-We rebranded Skype Room Systems to Microsoft Teams Room which fully supports Microsoft Teams meetings and offer an easy migration path from Skype for Business to Teams by just enabling Teams on the device.
+We rebranded Skype Room Systems to Microsoft Teams Rooms which fully supports Microsoft Teams meetings and offer an easy migration path from Skype for Business to Teams by just enabling Teams on the device.
 
 In addition to the ability for users to identify nearby Microsoft Teams Rooms with proximity detection, Teams meetings can be joined with a single-click, dual screen support, Microsoft Whiteboard and we continue to bring innovative features like content camera with intelligent capture.
 
