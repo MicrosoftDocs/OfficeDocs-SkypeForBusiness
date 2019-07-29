@@ -88,7 +88,7 @@ Yes. Skype for Business Online will be retired on July 31, 2021, at which point 
 
 ### How long will it take to upgrade my organization to Teams? 
 
-Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, we’ve developed comprehensive upgrade guidance based upon a proven framework designed to help you navigate the technical and organizational elements of change. Start your journey by familiarizing yourself with our [upgrade success framework](upgrade-framework.md))  and associated resources that serve as the cornerstone for navigating your journey from Skype for Business to Teams.
+Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, we’ve developed comprehensive upgrade guidance based upon a proven framework designed to help you navigate the technical and organizational elements of change. Start your journey by familiarizing yourself with our [upgrade success framework](upgrade-framework.md)  and associated resources that serve as the cornerstone for navigating your journey from Skype for Business to Teams.
 
 ### Is there a recommended upgrade path for Skype for Business Online? 
 
@@ -102,7 +102,7 @@ Within the Microsoft Teams admin center, you’ll notice options for coexistence
 
 A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn’t quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey](https://aka.ms/skypetoteams-home) today.
 
-Microsoft also offers live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation. [Learn about upgrade planning workshops](http://ttps://aka.ms/SkypeToTeamsPlanning).
+Microsoft also offers live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation. [Learn about upgrade planning workshops](https://aka.ms/SkypeToTeamsPlanning).
 
 ### My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?
 
@@ -144,7 +144,7 @@ See the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 ### Which APIs and SDKs will be made available for Teams?
 
-See [Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/) for information about available APIs and SDKs.
+Visit the [Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/) for information about available APIs and SDKs.
 
 ### Will you support third-party development opportunities in Teams?
 
@@ -176,7 +176,7 @@ Customers interested in bringing their own telephone service to Teams can now do
 
 ### Is Audio Conferencing coverage in Teams different in Skype for Business?
 
-There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans]((country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)).
+There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ### Are third-party audio conferencing providers (ACP) supported in Teams?
 
