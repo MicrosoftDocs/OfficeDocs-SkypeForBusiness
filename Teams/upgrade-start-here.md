@@ -27,7 +27,7 @@ Microsoft Teams extends the capabilities of Skype for Business, bringing togethe
 
 ## When should my organization upgrade to Teams?
 
-Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. While the Skype for Business Online service will be fully functional through July 31, 2021, Microsoft encourages customers to begin their upgrade journey today, allowing ample time to complete their upgrade prior to the retirement date.  Read our retirement announcement to learn more.
+Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. While the Skype for Business Online service will be fully functional through July 31, 2021, Microsoft encourages customers to begin their upgrade journey today, allowing ample time to complete their upgrade prior to the retirement date.  Read our [retirement announcement](https://aka.ms/sfboannounce) to learn more.
 
 ## Can we continue to use Skype for Business Online as we prepare for and execute our upgrade to Teams?
 
