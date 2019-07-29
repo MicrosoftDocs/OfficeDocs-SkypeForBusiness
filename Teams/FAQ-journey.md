@@ -56,10 +56,6 @@ Starting September 1, 2019, all new Office 365 customers will be onboarded to Te
 
 ### What do you recommend for customers who are currently in the process of deploying—or planning to deploy—Skype for Business in Office 365? 
 
-We’re bringing the key set of Skype for Business capabilities in Office 365 into Teams over time along with new voice, video, and meetings innovation. We encourage all Office 365 customers to start using Teams today, whether independently or side-by-side with Skype for Business.
-
-### Will you continue to invest in improving Skype for Business Online?
-
 Customers currently deploying Skype for Business Online may continue to do so. We encourage all new Office 365 customers to start using Teams, independently of or in parallel with Skype for Business and determine the path (coexistence or Teams only) and timing that meets their business needs. Regardless of tenure with Skype for Business Online, customers will need to move to Teams before the Skype for Business Online retirement date.
 
 ### What support do you offer customers who want to move to Teams, especially those who have made significant investments in Skype for Business Online? 
