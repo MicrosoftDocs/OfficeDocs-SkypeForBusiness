@@ -26,8 +26,6 @@ As an admin, you can use teams policies in Microsoft Teams to control what users
 
 You manage teams policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-[placeholder for screen shot]
-
 You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
 ## Create a custom teams policy
@@ -37,14 +35,12 @@ You can edit the global policy or create and assign a custom policy. If a user i
 3. Enter a name and description for the policy.
 
     ![Screen shot of teams policy settings](media/teams-policies.png)
-4. Specify the settings that you want:
+4. Choose the settings that you want:
 
-- **Discover private teams**: Turn on to allow users to discover private teams in search results and in the team gallery.
-- **Create private channels**: Turn on to allow users to create private channels.
+- **Discover private teams**: Turn this on to allow users to discover private teams in search results and in the team gallery.
+- **Create private channels**: Turn this on to allow users to create private channels.
 
 5. Click **Save**.
-
-To quickly create a custom policy from an existing one, click **Duplicate**, give it a new name, and then edit the settings to fit your organization's needs.
 
 ## Edit a teams policy
 
@@ -93,7 +89,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular teams policy. In this example, it's Marketing Teams Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsFeedbackPolicy -PolicyName "Marketing Teams Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeams???Policy -PolicyName "Marketing Teams Policy" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
