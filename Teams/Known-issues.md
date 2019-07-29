@@ -245,6 +245,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Phone number blocked|Phone number blocked: Deleting the resource account before removing the phone number will block the phone number.|Contact Microsoft support to release the telephone number.|5/18/2019|
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to configure unanswered calls to go to voicemail in the desktop app|When a user is in Teams-only mode, their Exchange mailbox is on premises and if they access **Settings** > **Calls** in the Teams desktop app, they cannot select the option to forward calls to voicemail (unanswered calls or all calls). If either option was already configured, opening the Calls tab in Settings will disable forwarding to voicemail.|Configure forwarding to voicemail using the Teams mobile app.|5/27/2019|
+
 
 ## Provisioning
 
@@ -340,3 +344,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Unable to move, delete or rename files after editing  <br/> |After a file is edited in Teams it cannot be moved or renamed or deleted immediately <br/> |This is currently a known issue and the workaround is to wait for some time before making administrative changes.  <br/> |03/12/19  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Interoperability issue between Symantec DLP and Teams <br/> |Symantec DLP Endpoint agents can interfere with Teams process, which can then lead to a launch or exit failure.  <br/> |Exclude (whitelist) Teams.exe from the Symantec DLP's Endpoint agents as described in this <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec support article</a>. <br/> |07/15/19  <br/> |
