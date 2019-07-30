@@ -77,7 +77,7 @@
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 
-### Teams analytics and reporting in the Microsoft Teams admin center
+### Analytics and reports in the Teams admin center 
 #### [Overview](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
@@ -627,7 +627,6 @@
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
 
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Additional information
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
