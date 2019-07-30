@@ -57,7 +57,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to one or
 ### Assign a custom teams policy to a user
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
-2. Next to **Assigned policies**, choose **Edit**.
+2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
 3. Under **Teams policies**, select the policy you want to assign, and then click **Save**.
 
 To assign a custom teams policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
