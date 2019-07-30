@@ -102,7 +102,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Tutorials</h2>
 
-- [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
