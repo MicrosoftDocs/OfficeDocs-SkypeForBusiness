@@ -36,10 +36,11 @@ Each private channel has a separate SharePoint site collection. The parent Share
 
 ## Private channel limitations
 
-Private channels don't support the following:
+Private channels currently don't support the following:
 
 - Wikis
-- Apps and bots
+- Apps that have messaging extensions
+- Bots
 - Scheduled channel meetings
 
 Each team can have a maximum of 30 private channels and a each private channel can have a maximum of 250 members.
@@ -62,12 +63,11 @@ To determine whether a private channel is appropriate, consider the following qu
 By default, any team owner or team member can create a private channel. Guests can't create them. On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels. As an admin, you can use [policies](#set-whether-users-in-your-organization-can-create-private-channels) to control which users in your organization are allowed to create private channels.
 
 The person who creates the private channel is the private channel owner and only private channel owners can directly add or remove people from it.
+A private channel owner can add any team member to a private channel in the team, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
-Any team member can be added to a private channel in the team, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel. If a member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
+If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team. A team member can't be removed from a team if they are the last owner of one or more private channels.
 
-A team member can't leave or be removed from a team if they are the last owner of one or more private channels.
-
-Team owners can see the name of all private channels in their team. They can also delete any private channel in the team. (Careful – this can’t be undone!) Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
+Team owners can see the names of all private channels in their team. They can also delete any private channel in the team. (Careful – this can’t be undone!) Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
 The following table shows who can see what in a private channel.
 
@@ -135,7 +135,7 @@ You might want to allow only certain users the ability to create private channel
     Grant-CsTeamsChannelsPolicy -Identity user1@contoso.com -PolicyName CreatePrivateChannels
     ```
 
-### Classification
+### Sensitivity labels
 
 Private channels are subject to the same group classification as the parent team. To learn more about group classifications, see &lt;TBD&gt;.
 
