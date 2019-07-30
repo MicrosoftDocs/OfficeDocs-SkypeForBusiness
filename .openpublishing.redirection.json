@@ -7,6 +7,11 @@
       "redirect_document_id": true 
       },
     {
+      "source_path": "Teams/tutorial-journey-skypeforbusiness-to-teams.md",
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here",
+      "redirect_document_id": true 
+      },
+    {
       "source_path": "Teams/upgrade-introduction.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here",
       "redirect_document_id": true 
