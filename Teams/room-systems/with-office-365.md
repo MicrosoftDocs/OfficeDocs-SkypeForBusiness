@@ -177,7 +177,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   Get-CsService -RegistrarPool
    ```
 
    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
@@ -185,9 +185,8 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
     ``` Powershell
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
-
     > [!NOTE]
-    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
+    > All new Microsoft Teams Room accounts must be created in the same RegistrarPool.
 
 After you've completed the preceding steps to enable your Microsoft Teams Rooms account in Microsoft Teams or Skype for Business Online, you need to assign a license to Microsoft Teams Rooms device. Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
 
