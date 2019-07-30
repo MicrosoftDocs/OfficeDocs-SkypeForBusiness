@@ -89,7 +89,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular teams policy. In this example, it's Marketing Teams Policy.
 ```
-$members | ForEach-Object { Grant-CsTeams???Policy -PolicyName "Marketing Teams Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
