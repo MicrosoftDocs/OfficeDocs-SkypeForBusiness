@@ -152,7 +152,7 @@ Teams is available in all Office 365 for Education suite licensing: Education, E
 
 ### Is Teams available in the government community cloud (GCC)?
 
-Yes, Teams is available for the US Government Cloud Community (GCC). [Learn more](plan-for-government-gcc).
+Yes, Teams is available for the US Government Cloud Community (GCC). [Learn more](plan-for-government-gcc.md).
 
 ## Calling capabilities
 
