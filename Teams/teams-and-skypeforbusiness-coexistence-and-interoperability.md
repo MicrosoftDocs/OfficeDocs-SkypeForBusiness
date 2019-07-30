@@ -26,10 +26,14 @@ This article is part of the Project Definition stage of your upgrade journey, an
 
 # Understand Microsoft Teams and Skype for Business coexistence and interoperability
 
-If your organization uses Skype for Business today and you intend to start using Teams alongside Skype for Business—or you intend to start upgrading to Teams—it’s important to understand how the two applications coexist, when and how they interoperate, and how to manage users’ migration all the way to their eventual upgrade from Skype for Business to Teams.
+If your organization uses Skype for Business today and you are starting to use Teams alongside Skype for Business—or you are starting to upgrade to Teams—it’s important to understand how the two applications coexist, when and how they interoperate, and how to manage users’ migration all the way to their eventual upgrade from Skype for Business to Teams.
 
 > [!Tip]
-> Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop).
+>
+> Additionally, you can join us for live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
+>
+> Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.
 
 ## Coexistence of Teams and Skype for Business
 
@@ -76,12 +80,15 @@ Use this mode to introduce Teams in your environment while you continue to lever
 
 Use this coexistence mode to accelerate the availability of Teams meeting capabilities in your organization, in addition to its collaboration capabilities, enabling your users to take advantage of the superior Teams meetings experience-great quality, innovative capabilities such as transcription and translation or background blurring, and superior user experience across all platforms, including mobile devices and browsers.
 
-Along with using Teams for teams and channels–based conversations in this mode, users will use Teams to schedule and conduct their meetings. Private chat, and calling remain on Skype for Business. Teams and Skype for Business benefit from a range of “better together” capabilities, such as presence reconciliation, automatic hold/unhold, and HID device support across both applications. 
+Along with using Teams for teams and channels–based conversations in this mode, users will use Teams to schedule and conduct their meetings. Private chat and calling remain on Skype for Business. Teams and Skype for Business benefit from a range of “better together” capabilities, such as presence reconciliation, automatic hold/unhold, and HID device support across both applications. 
 
 This coexistence mode is especially useful for users in Skype for Business on-premises deployments with enterprise voice, who are likely to take some time to be upgraded to Teams and want to benefit from the superior Teams meetings as soon as possible.
 
 > [!Note]
 > When deployed in specific coexistence modes, Teams and Skype for Business can [interoperate](#interoperability-of-teams-and-skype-for-business), enabling users to chat with and call one another, and ensuring that communications remain fluid across your organization during your upgrade journey to Teams. Coexistence modes govern interoperability. The coexistence mode of the receiver determines whether interoperability will be available. For example, if the receiver is in a mode in which chat is only available in one client (say, Teams), chat interoperability will generally be available in case the initiator uses the other client (in this case, Skype for Business) to start the chat. On the other hand, if the receiver is in a mode in which chat is available in both clients (Islands mode), interoperability won’t be available for the chat. The message will be received by the receiver in the same client in which the initiator started the chat. Therefore, proper communication in Islands mode requires Teams adoption saturation; that is, all users actively using and monitoring both clients.
+
+> [!TIP]
+> To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage the [Skype to Teams Upgrade Wizard](https://aka.ms/SkypeToTeamsWizard).
 
 For more details about coexistence modes, prerequisites, and management, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://aka.ms/SkypeToTeams-Interop) and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence).
 
