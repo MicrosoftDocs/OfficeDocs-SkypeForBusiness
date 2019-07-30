@@ -39,15 +39,18 @@ Each private channel has a separate SharePoint site collection. The parent Share
 Private channels currently don't support the following:
 
 - Wikis
-- Apps that have messaging extensions
+- Apps that use messaging extensions
 - Bots
 - Scheduled channel meetings
+
+> [!NOTE]
+> We're continually improving the app experience for private channels so check back here for the most up-to-date information.
 
 Each team can have a maximum of 30 private channels and a each private channel can have a maximum of 250 members.
 
 ## When to create a private channel
 
-To determine whether a private channel is appropriate, consider the following questions about who you want to work with and what the collaboration is about.
+To determine whether a private channel is appropriate, consider the following questions about who needs to work together and what the collaboration is about.
 
 |Is there already a team that has these people as team members?  |Does this work need to be kept private from others?  |Are there multiple distinct topics to discuss?  |Recommendation  |
 |---------|---------|---------|---------|
@@ -135,9 +138,11 @@ You might want to allow only certain users the ability to create private channel
     Grant-CsTeamsChannelsPolicy -Identity user1@contoso.com -PolicyName CreatePrivateChannels
     ```
 
-### Sensitivity labels
+## Compliance
 
-Private channels are subject to the same group classification as the parent team. To learn more about group classifications, see &lt;TBD&gt;.
+### Classification
+
+Private channels are subject to the same group classification as the parent team. To learn more, see [Plan for governance in Teams](plan-teams-governance.md).
 
 ### eDiscovery and General Data Protection Regulation (GDPR)
 
@@ -149,9 +154,11 @@ To perform an eDiscovery search or legal hold on a team that has a private chann
 - Site collections associated with private channels in the team
 - Mailboxes of private channel members
 
-### Retention
+### Retention policies
 
-Retention is set to the general policy for all teams and channels. Scoped policy for specific teams won’t apply to the private channels in them.
+Retention policies in Teams don't apply to private channel messages. To delete private channel messages from a user's mailbox after a specific period of time, run the following script:
+
+[placeholder for script]
 
 ## Related topics
 
