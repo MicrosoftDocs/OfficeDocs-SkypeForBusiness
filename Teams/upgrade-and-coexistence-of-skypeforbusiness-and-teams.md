@@ -66,7 +66,7 @@ The following table compares coexistence and upgrade modes.
 |Skype for Business only |Some users need to stay on Skype for Business<br><br>|Limits user confusion by providing only one client to work with<br><br>User can still participate in Teams meetings they are invited to|Continue to meet business requirements that currently can only be met by Skype for Business<br><br>Interoperability with users in Teams Only|Interoperability only supports basic chat and calling between Skype for Business and Teams, and interop escalation scenarios for desktop sharing and multi-party chat and calling|
 
 > [!TIP]
-> To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage the Skype to Teams Upgrade Wizard.
+> To help identify the recommended upgrade mode based on the capabilities you want to enable in Teams while Skype for Business is still in use, leverage the [Skype to Teams Upgrade Wizard](https://aka.ms/SkypeToTeamsWizard).
 
 ## Upgrade journeys
 
