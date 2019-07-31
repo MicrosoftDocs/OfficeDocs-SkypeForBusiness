@@ -535,7 +535,10 @@ Skype for Business Server 2019 can use the same file share for all file storage.
   
 - A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [Creating a Cluster](https://support.microsoft.com/en-us/help/224967) KB article will help you with those details.
+- We recommend a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or higher versions
+
+> [!Note]
+> **Why the latest Windows?** Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [Creating a Cluster](https://support.microsoft.com/en-us/help/224967) KB article will help you with those details.
     
 > [!CAUTION]
 > You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. 
