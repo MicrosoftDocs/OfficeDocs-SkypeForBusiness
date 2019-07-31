@@ -92,7 +92,7 @@ The following table shows who can see what in a private channel.
 |Conversations and tabs     |Only when added to the private channel         |Only when added to the private channel         |
 |Files and content    |Only when added to the private channel        |Only when added to the private channel         |
 
-## What can private channel owners, members, and guests do in a private channel?
+## Manage private channels
 
 The following table outlines what actions owners, members, and guests can do in private channels.
 
@@ -113,15 +113,13 @@ The following table outlines what actions owners, members, and guests can do in 
 <sup>4</sup>Requires the team to have an app installed for a private channel to use it.<br>
 <sup>5</sup>Private channel owners can configure this.
 
-## Manage private channel membership and settings
+### Manage private channel membership and settings
 
 Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
 
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
 ![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
-
-## Manage who can create private channels
 
 ### Set whether team members can create private channels
 
