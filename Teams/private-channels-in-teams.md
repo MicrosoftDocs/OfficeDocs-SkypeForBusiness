@@ -63,6 +63,8 @@ To determine whether a private channel is appropriate, consider the following qu
 |No     |No         |Yes         |Consider creating a new team and then, depending on the confidentiality of each topic, consider creating separate standard or private channels for each topic.         |
 |No     |Yes         |No         |Create a new team or create a new private channel in an existing team.         |
 
+When a private channel is created, it is linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels or vice versa.
+
 ## Private channel creation and membership
 
 ### Who can create private channels?
@@ -72,13 +74,19 @@ By default, any team owner or team member can create a private channel. Guests c
 - On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels.
 - As an admin, you can use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
 
-The person who created the private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to the private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
+The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
 For steps on how to create a private channel, see ADD LINK TO END USER CONTENT.
 
 ### What happens when a team member leaves or is removed from a team?
 
-If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team. A team member can't be removed from a team if they are the last owner of one or more private channels.
+If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
+
+## What happens when a private channel owner is removed from a private channel?
+
+A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
+
+If a private channel owner leaves your organization or if they are removed from the Office 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
 
 ### What can team owners and team members see in a private channel?
 
@@ -180,6 +188,10 @@ To perform an eDiscovery search or legal hold on a team that has a private chann
 Retention policies in Teams don't apply to private channel messages. To delete private channel messages from a user's mailbox after a specific period of time, run the following script:
 
 [placeholder for script]
+
+### Data loss prevention (DLP)
+
+DLP policies that are applied to users' mailboxes also apply to private channel messages.
 
 ## Related topics
 
