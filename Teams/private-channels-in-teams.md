@@ -34,7 +34,7 @@ A lock icon indicates a private channel. Team owners can see all private channel
 
 The architecture for private channels is different from standard channels. Each private channel has it's own SharePoint site collection where files shared in the channel are stored. The site collection is created in the same geographic region as the parent team site where standard channel files are stored but is separate from it.
 
-A private channel site collection inherits data classification and guest access permissions from the parent team site. The parent team site and the private channel site settings are synced when a private channel is created and can be changed independently afterwards.
+A private channel site collection inherits data classification and guest access permissions from the parent team site.
 
 ## Private channel limitations
 
@@ -77,13 +77,11 @@ By default, any team owner or team member can create a private channel. Guests c
 
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
-For steps on how to create a private channel, see ADD LINK TO END USER CONTENT.
-
 ### What happens when a team member leaves or is removed from a team?
 
 If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
 
-## What happens when a private channel owner is removed from a private channel?
+### What happens when a private channel owner is removed from a private channel?
 
 A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
 
@@ -116,7 +114,7 @@ The following table outlines what actions owners, members, and guests can do in 
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs, apps, and connectors|No|N/A|N/A|Yes<sup>4</sup>|Yes<sup>5</sup>|No|
 
-<sup>1</sup>Assuming the policy that you set allows the user to create private channels.<br>
+<sup>1</sup>Assuming the policy that you, the admin, sets allows the user to create private channels.<br>
 <sup>2</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
 <sup>3</sup>Assuming the private channel owner isn't the last owner of the channel. <br>
 <sup>4</sup>Requires the team to have an app installed for a private channel to use it.<br>
@@ -167,32 +165,6 @@ For example, you might want to allow only certain users the ability to create pr
     ```
     Grant-CsTeamsChannelsPolicy -Identity user1@contoso.com -PolicyName CreatePrivateChannels
     ```
-
-## Compliance
-
-### Classification
-
-Private channels are subject to the same group classification as the parent team. To learn more, see [Plan for governance in Teams](plan-teams-governance.md).
-
-### eDiscovery and General Data Protection Regulation (GDPR)
-
-eDiscovery and GDPR work differently in private channels than in standard channels. Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
-
-To perform an eDiscovery search or legal hold on a team that has a private channel, perform a search across the following:
-
-- Team
-- Site collections associated with private channels in the team
-- Mailboxes of private channel members
-
-### Retention policies
-
-Retention policies in Teams don't apply to private channel messages. To delete private channel messages from a user's mailbox after a specific period of time, run the following script:
-
-[placeholder for script]
-
-### Data loss prevention (DLP)
-
-DLP policies that are applied to users' mailboxes also apply to private channel messages.
 
 ## Related topics
 
