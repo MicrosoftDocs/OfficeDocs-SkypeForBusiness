@@ -29,7 +29,7 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
 - User has an Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium or Business Essentials
-- User needs to be licensed for Microsoft Stream
+- User needs to be licensed for Microsoft Stream<sup>1</sup> 
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
@@ -38,6 +38,8 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 
 > [!NOTE]
 > Additionally, to allow the person initiating the recording to choose whether to automatically transcribe the recording, the user's TeamsMeetingPolicy -AllowTranscription setting must be set to true
+
+<sup>1</sup>User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting.  If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
 ## Set up Teams cloud meeting recording for users in your organization
 
