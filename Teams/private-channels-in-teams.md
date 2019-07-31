@@ -17,6 +17,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage private teams in Microsoft Teams. 
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Private channels in Microsoft Teams
