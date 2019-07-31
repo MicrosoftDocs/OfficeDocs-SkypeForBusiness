@@ -21,6 +21,8 @@ description: Learn how to use and manage private teams in Microsoft Teams.
 
 # Private channels in Microsoft Teams
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. You might want to use a private channel if you want to limit communication to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
 
 For example, a private channel is useful in the following scenarios:
@@ -138,35 +140,14 @@ As an admin, you can set policies by using the Microsoft Teams admin center or P
 
 #### Using the Microsoft Teams admin center
 
-Use teams policies to set which users in your organization are allowed to create private channels. For more information, see [Manage teams policies in Teams](teams-policies.md).
+Use teams policies to set which users in your organization are allowed to create private channels. To learn more, see [Manage teams policies in Teams](teams-policies.md).
 
 #### Using PowerShell
 
-Create a custom policy by using the **New-CSTeamsChannelPolicy** cmdlet, and then assign the policy to users.
-
-Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels.  Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy.
-
-By default, **AllowPrivateChannelCreation** is set to **true** in the global policy, and all users in your organization can create private channels.
-
-For example, you might want to allow only certain users the ability to create private channels and turn off the ability for all other users in your organization. The following steps show you how to do this.
-
-1. Run the following to edit the global policy and turn off the ability to create private channels for all users in your organization.
-
-    ```
-    Set-CsTeamsChannelsPolicy -Identity Global -AllowPrivateChannelCreation $false
-    ```
-2. Run the following to create a custom policy to turn on the ability to create private channels.
-
-    ```
-    New-CsTeamsChannelsPolicy -Identity CreatePrivateChannels -AllowPrivateChannelCreation $true
-    ```
-3. Assign the custom policy to users. These users can be team owners or team members.
-
-    ```
-    Grant-CsTeamsChannelsPolicy -Identity user1@contoso.com -PolicyName CreatePrivateChannels
-    ```
+Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels. Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels. Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy. To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
 
 ## Related topics
 
 - [Overview of teams and channels in Teams](teams-channels-overview.md)
 - [Assign team owners and members in Teams](assign-roles-permissions.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
