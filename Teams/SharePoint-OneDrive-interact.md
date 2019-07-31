@@ -3,12 +3,11 @@ title: How SharePoint Online and OneDrive for Business interact with Microsoft T
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Learn how SharePoint Online and OneDrive for Business interact with Microsoft Teams such as how private chat files are stored, and the relationship between team, channel, and the document library.
+description: Learn how SharePoint Online and OneDrive for Business interact with Microsoft Teams such as how private chat files are stored, and the relationship between team, standard channel, and the document library.
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -22,20 +21,23 @@ appliesto:
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
-Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+Each team in Microsoft Teams has a team site in SharePoint Online, and each standard channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+
+> [!NOTE]
+> This article applies only to standard channels. The architecture for private channels is different from standard channels. Each private channel has it's own SharePoint site collection that's separate from the parent team site. To learn more, see [Private channels in Microsoft Teams](private-channels-in-teams.md).
 
 Private chat files are stored in the sender’s OneDrive for Business folder, and permissions are automatically granted to all participants as part of the file sharing process.
 
-If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in channels, but users won't be able to share files in chats without OneDrive for Business storage in Office 365.
+If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in standard channels, but users won't be able to share files in chats without OneDrive for Business storage in Office 365.
 
 By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. 
 
 > [!NOTE]
 > Integration with SharePoint On-premises is not supported for Microsoft Teams at this time.
 
-The following is the example of relationships between team, channel, and document library.
+The following is the example of relationships between team, standard channel, and document library.
 
-For every team, a SharePoint site is created, and the **Shared Documents** folder is the default folder created for the team. Each channel, including the **General** channel (the default channel for each team) has a folder in **Shared Documents**.
+For every team, a SharePoint site is created, and the **Shared Documents** folder is the default folder created for the team. Each standard channel, including the **General** channel (the default channel for each team) has a folder in **Shared Documents**.
 
 ![Diagram of Shared Documents folders In SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 

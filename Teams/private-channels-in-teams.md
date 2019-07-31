@@ -116,7 +116,7 @@ The following table outlines what actions owners, members, and guests can do in 
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs, apps, and connectors|No|N/A|N/A|Yes<sup>4</sup>|Yes<sup>5</sup>|No|
 
-<sup>1</sup>Assuming the policy that you, the admin, sets allows the user to create private channels.<br>
+<sup>1</sup>Assuming the policy that you, the admin, configured allows the user to create private channels.<br>
 <sup>2</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
 <sup>3</sup>Assuming the private channel owner isn't the last owner of the channel. <br>
 <sup>4</sup>Requires the team to have an app installed for a private channel to use it.<br>
@@ -144,7 +144,9 @@ Use teams policies to set which users in your organization are allowed to create
 
 #### Using PowerShell
 
-Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels. Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels. Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy. To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
+Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels. Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels. Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy. 
+
+To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
 
 ## Related topics
 
