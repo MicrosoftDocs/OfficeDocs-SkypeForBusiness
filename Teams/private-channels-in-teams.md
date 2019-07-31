@@ -70,9 +70,9 @@ To determine whether a private channel is appropriate, consider the following qu
 By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level:
 
 - On the **Settings** tab for a team, team owners can turn off or turn on the ability for members to create private channels.
-- As an admin, you can use [policies](#set-whether-users-in-your-organization-can-create-private-channels) to control which users in your organization are allowed to create private channels.
+- As an admin, you can use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
 
-The person who created the private channel is the private channel owner and only private channel owners can directly add or remove people from it. A private channel owner can add any team member to the private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
+The person who created the private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to the private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
 For steps on how to create a private channel, see ADD LINK TO END USER CONTENT.
 
@@ -92,9 +92,7 @@ The following table shows who can see what in a private channel.
 |Conversations and tabs     |Only when added to the private channel         |Only when added to the private channel         |
 |Files and content    |Only when added to the private channel        |Only when added to the private channel         |
 
-## Manage private channels
-
-Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
+## What can private channel owners, members, and guests do in a private channel?
 
 The following table outlines what actions owners, members, and guests can do in private channels.
 
@@ -115,25 +113,29 @@ The following table outlines what actions owners, members, and guests can do in 
 <sup>4</sup>Requires the team to have an app installed for a private channel to use it.<br>
 <sup>5</sup>Private channel owners can configure this.
 
-### Manage private channel membership and settings
+## Manage private channel membership and settings
+
+Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
 
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
 ![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
 
+## Manage who can create private channels
+
 ### Set whether team members can create private channels
 
-Team owners can turn off or turn on the ability for members to create private channels. To do this, on the **Settings** tab for the team, 
+Team owners can turn off or turn on the ability for members to create private channels. To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.
 
 ### Set whether users in your organization can create private channels
 
 As an admin, you can set policies by using the Microsoft Teams admin center or PowerShell to control which users in your organization are allowed to create private channels.
 
-## Using the Microsoft Teams admin center
+#### Using the Microsoft Teams admin center
 
 Use teams policies to set which users in your organization are allowed to create private channels. For more information, see [Manage teams policies in Teams](teams-policies.md).
 
-## Using PowerShell
+#### Using PowerShell
 
 Create a custom policy by using the **New-CSTeamsChannelPolicy** cmdlet, and then assign the policy to users.
 
