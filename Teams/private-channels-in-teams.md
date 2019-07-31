@@ -32,7 +32,7 @@ A lock icon indicates a private channel. Team owners can see all private channel
 
 ![Screen shot of private channels in a team](media/private-channels-in-teams.png)
 
-Each private channel has it's own SharePoint site collection where files shared in the channel are stored. This site collection is separate from the parent team site where files for standard channels are stored.
+Each private channel has it's own SharePoint site collection where files shared in the channel are stored. The site collection is created in the same geographic region as the parent site where standard channel files are stored but is separate from it.
 
 A private channel site collection inherits data classification and guest access permissions from the parent team site. The parent team site and the private channel site settings are synced when a private channel is created and can be changed independently afterwards.
 
