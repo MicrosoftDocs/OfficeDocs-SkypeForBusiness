@@ -34,11 +34,11 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 Follow the guidance in this article if you have wholly deployed Skype for Business Online and want to upgrade your users from Skype for Business to Teams. You can upgrade users selectively or all-in, based on the upgrade journey that your organization has chosen, by assigning the appropriate coexistence and upgrade mode to your users.
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
 
 ## Assign the coexistence and upgrade mode
 
-You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows Powershell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to ugprade the entire tenant in one step. 
+You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows Powershell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to upgrade the entire tenant in one step. 
 
 For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
@@ -64,7 +64,7 @@ Follow these steps if you want to gradually upgrade your users to TeamsOnly.
 
 Often organizations may choose to upgrade their organizations in success waves of users.  You'll want to identify these users first so you can easily search for them in the Microsoft Teams admin center. Alternatively, you may want to use PowerShell to more efficiently do this. Once you have identified the set of users for a given upgrade wave, continue with the remaining steps.
 
-### Step 2: Set notification for the users in the current ugprade wave (optional)
+### Step 2: Set notification for the users in the current upgrade wave (optional)
 
 If using the Microsoft Teams admin center, you can configure TeamsUpgradePolicy for up to 20 user at once:
 1. In the Microsoft Teams admin center, select **Users**, and find and multi-select the checkbox for up to 20 users who should be upgraded. 

@@ -271,9 +271,10 @@ Both trunks can point to the same SBC with the same public IP address. The TLS s
 
 For information about how to configure two trunks on the same SBC, see the documentation provided by your SBC vendor:
 
-- AudioCodes
-- Ribbon
-- TE-Systems (Anynode)   
+ - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 ## Client endpoints supported with media bypass
 
