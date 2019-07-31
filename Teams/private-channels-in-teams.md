@@ -41,9 +41,10 @@ A private channel site collection inherits data classification and guest access 
 Private channels currently don't support the following:
 
 - Wikis
-- Apps that use messaging extensions
+- Messaging extensions
 - Bots
 - Scheduled channel meetings
+- Creation on Teams mobile clients
 
 > [!NOTE]
 > We'll be adding more support for apps in private channels so check back here for the most up-to-date information.
