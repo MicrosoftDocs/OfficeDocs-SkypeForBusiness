@@ -46,11 +46,14 @@ Private channels currently don't support the following:
 - Wikis
 - Messaging extensions
 - Bots
+- Connectors
 - Scheduled channel meetings
 - Creation on Teams mobile clients
 
+Not all apps are supported in private channels.
+
 > [!NOTE]
-> We'll be adding more support for apps and other capabilities in private channels so check back here for the most up-to-date information.
+> We'll be adding more support for apps and other capabilities in private channels so check back for the most up-to-date information.
 
 Each team can have a maximum of 30 private channels and a each private channel can have a maximum of 250 members.
 
