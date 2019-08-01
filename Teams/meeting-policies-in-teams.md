@@ -27,7 +27,7 @@ description: Learn to manage meeting policy settings in Teams.
 ::: zone target="docs"
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign users to the policy. You manage meeting policies in the Microsoft Teams admin center or by [using PowerShell](teams-powershell-overview.md).
 
-You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting. 
+You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
 
 |Implementation type  |Description  |
 |---------|---------|
@@ -194,15 +194,16 @@ For meetings that need the highest quality video experience, such as CEO board m
 
 ### Enable live captions
 
-This is a per-user policy and applies during a meeting. This setting controls whether users see the **Turn on live captions** option to display captions during a meeting.
+This is a per-user policy and applies during a meeting. This setting controls whether live captions are displayed in meetings that the user attends and whether the **Turn on live captions** option is available for the user to turn on and turn off live captions.
 
 ![Screen shot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**    | The **Turn on live captions** option is displayed and users can turn on and turn off live captions during a meeting.  |
-|**Disabled but the organizer can override**   | The ability for users to display live captions is turned off and the meeting organizer can change the setting to allow users to turn on and turn off live captions.  |
-|**Disabled**     | The ability for users to display live captions is turned off in the meeting.         |
+|**Enabled**    | Live captions are always displayed during a meeting. The user can't turn off live captions.  |
+|**Enabled and the user can override**   | Live captions are displayed and the user can turn off or turn on live captions by using the **Turn on live captions** option.  |
+|**Disabled**     | Live captions are not displayed during a meeting. The user can't turn on live captions.         |
+|**Disabled and the user can override**     | Live captions are not displayed and the user can turn on or turn off live captions by using the **Turn on live captions** option. |
 
 <a name="bkcontentsharing"> </a>
 
