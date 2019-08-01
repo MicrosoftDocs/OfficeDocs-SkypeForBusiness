@@ -91,17 +91,6 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Teams in 30</h3>
-                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">Live, interactive workshops designed to get you going on Teams in just 30 days. </a></p>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
                         <h3>Teamwork</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">Course: Enabling Teamwork with Teams</a></p>
                     </div>
