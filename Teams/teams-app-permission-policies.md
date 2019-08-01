@@ -35,7 +35,7 @@ Say, for example, you want to block all third-party apps and allow specific apps
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
+Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
@@ -141,10 +141,6 @@ You can use app setup policies together with app permission policies. Pre-pinned
 
 To learn more about how to restrict uploading custom apps, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 
-#### How long does it take for policy changes to take effect?
-
-After you edit the global policy or assign a policy to users, it can take up to 24 hours for changes to take effect. Org-wide app settings take effect immediately.
-
 #### Does blocking an app apply to Teams mobile clients?
 
 Yes, when you block an app, that app is blocked across all Teams clients.  
@@ -164,12 +160,11 @@ For example, when an app is blocked, users can't do any of the following:
 - Set up connectors to receive notifications
 - Use the app’s messaging extension
 
-+++++
+The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
 
-The legacy portal allowed controlling apps at the org level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
-
-However, if an app with bot or connector capability is allowed and then blocked at the org level through the legacy portal, and if the app is then allowed for some users, members of a group chat or channel that don't have permission to that app can see messages posted by the bot or connector, but can't interact with it.
+For app permission policies assigned to specific users, if an app with bot or connector capability was allowed and then blocked, and if the app is then allowed only for some users in a shared context, members of a group chat or channel that don't have permission to that app can see the messages and the message history that were posted by the bot or connector, but can't interact with it.
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
+- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)

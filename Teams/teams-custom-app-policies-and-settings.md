@@ -3,7 +3,6 @@ title: Manage custom app policies and settings in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/18/2019
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,7 +16,6 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams. 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Manage custom app policies and settings in Microsoft Teams
@@ -69,7 +67,7 @@ You can edit the settings in the global app setup policy to include the apps tha
 #### Set a user custom app policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Select **New policy**.
+2. Click **Add**.
 3. Turn on or turn off **Allow uploading custom apps**.
 4. Choose any other settings that you want to for the policy.
 5. Click **Save**.
