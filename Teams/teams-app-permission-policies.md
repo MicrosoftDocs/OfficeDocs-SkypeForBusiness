@@ -37,7 +37,7 @@ Say, for example, you want to block all third-party apps and allow specific apps
 
 Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Permission policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
 ![Screen shot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
@@ -92,7 +92,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to one or
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Under **App permission policy**, select the app permission policy you want to assign, and then click **Apply**.
 
-To assign a custom app permission policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
 
 Or, you can also do the following:
 
@@ -149,12 +149,6 @@ After you edit the global policy or assign a policy to users, it can take up to 
 
 Yes, when you block an app, that app is blocked across all Teams clients.  
 
-#### Why can users in a group chat or channel see messages from a bot or connector that they don't have permission to?
-
-The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
-
-However, if an app with bot or connector capability is enabled and then disabled, and if the app is enabled for some users, members of a group chat or channel that don't have permission to that app can see messages posted by the bot or connector, but can't interact with it.
-
 ### User experience
 
 #### What does a user experience when an app is blocked?
@@ -169,6 +163,12 @@ For example, when an app is blocked, users can't do any of the following:
 - View the app’s tab
 - Set up connectors to receive notifications
 - Use the app’s messaging extension
+
+#### Why can users in a group chat or channel see messages from a bot or connector that they don't have permission to?
+
+The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
+
+However, if an app with bot or connector capability is allowed and then blocked at the org level, and if the app is allowed for some users, members of a group chat or channel that don't have permission to that app can see messages posted by the bot or connector, but can't interact with it.
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
