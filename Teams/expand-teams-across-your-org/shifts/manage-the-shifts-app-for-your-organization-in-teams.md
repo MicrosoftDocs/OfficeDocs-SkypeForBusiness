@@ -51,6 +51,10 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
     ![Screen shot of the Default Apps section](../../media/firstline-worker-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
 
+### Use app permission policies to block or allow Shifts for specific users
+
+You can use app permission policies to block or allow Shifts for specific users in your organization. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
+
 ### Use the FirstlineWorker app setup policy to pin Shifts to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
