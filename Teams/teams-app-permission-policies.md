@@ -164,7 +164,7 @@ For example, when an app is blocked, users can't do any of the following:
 - Set up connectors to receive notifications
 - Use the app’s messaging extension
 
-#### Why can users in a group chat or channel see messages from a bot or connector that they don't have permission to?
++++++
 
 The legacy portal allowed controlling apps at the org level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
 
