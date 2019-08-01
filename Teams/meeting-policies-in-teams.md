@@ -135,7 +135,7 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (KBs)](#media-bit-rate-kbs)
-- [Enable live captions (coming soon)](#enable-live-captions-coming-soon)
+- [Enable live captions](#enable-live-captions)
 
 ### Allow transcription
 
@@ -194,13 +194,13 @@ For meetings that need the highest quality video experience, such as CEO board m
 
 ### Enable live captions
 
-This is a per-user policy and applies during a meeting. This setting controls whether users see an option to display captions during a meeting. 
+This is a per-user policy and applies during a meeting. This setting controls whether users see the **Turn on live captions** option to display captions during a meeting.
 
 ![Screen shot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**    | The **Turn on live captions** option is displayed and users can turn on and turn off live caption during a meeting.  |
+|**Enabled**    | The **Turn on live captions** option is displayed and users can turn on and turn off live captions during a meeting.  |
 |**Disabled but the organizer can override**   | The ability for users to display live captions is turned off and the meeting organizer can change the setting to allow users to turn on and turn off live captions.  |
 |**Disabled**     | The ability for users to display live captions is turned off in the meeting.         |
 
