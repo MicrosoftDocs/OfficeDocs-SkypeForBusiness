@@ -153,7 +153,7 @@ Yes, when you block an app, that app is blocked across all Teams clients.
 
 #### What does a user experience when an app is blocked?
 
-Users can't interact with a blocked app or its capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context. Teams indicates to the user when an app is blocked. 
+Users can't interact with a blocked app or its capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context. Teams indicates to the user when an app is blocked.
 
 For example, when an app is blocked, users can't do any of the following:
 
@@ -166,9 +166,9 @@ For example, when an app is blocked, users can't do any of the following:
 
 #### Why can users in a group chat or channel see messages from a bot or connector that they don't have permission to?
 
-The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
+The legacy portal allowed controlling apps at the org level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
 
-However, if an app with bot or connector capability is allowed and then blocked at the org level, and if the app is allowed for some users, members of a group chat or channel that don't have permission to that app can see messages posted by the bot or connector, but can't interact with it.
+However, if an app with bot or connector capability is allowed and then blocked at the org level through the legacy portal, and if the app is then allowed for some users, members of a group chat or channel that don't have permission to that app can see messages posted by the bot or connector, but can't interact with it.
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
