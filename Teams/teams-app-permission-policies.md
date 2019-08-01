@@ -53,10 +53,10 @@ Use org-wide app settings to control which apps are available across your organi
 
 If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide settings. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Permission policies**.
-2. Select **New policy**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Click **Add**.
     ![Screen shot of new app permission policy](media/app-permission-policies-new-policy.png)
-3. Enter a descriptive name for the policy.
+3. Enter a name and description for the policy.
 4. Under **Microsoft apps**, **Third-party apps**, and **Tenant apps**, select one of the following:
 
     - **Allow all apps**
@@ -77,34 +77,30 @@ If you want to control the apps that are available for different groups of users
 
 You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Permission policies**.
-2. Select the policy you want to edit.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
 3. From here, make the changes that you want. You can manage settings based on the app publisher and add and remove apps based on the allow/block setting.
 4. Click **Save**.
 
 ## Assign a custom app permission policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module to assign a custom policy to multiple users, such as all users in a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to one or more users or the Skype for Business PowerShell module to assign a custom policy to groups of users, such as all users in a security group or distribution group.
 
-> [!IMPORTANT]
-> We recommend using PowerShell only to assign policies to users. Use the Microsoft Teams admin center to create, edit, and manage policies.
+### Assign a custom app permission policy to a user
 
-### Assign a custom app permission policy to individual users
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Under **App permission policy**, select the app permission policy you want to assign, and then click **Apply**.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Next to **Assigned policies**, choose **Edit**.
-3. Under **App permission policy**, select the app permission policy you want to assign, and then choose **Save**.
+To assign a custom app permission policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
 
-    ![app-setup-permission-assign-policy.png](media/app-permission-policies-assign-policy.png)
+Or, you can also do the following:
 
-You can also assign an app permission policy to one or more users as follows:
-
-1. Go to **Microsoft Teams admin center** > **Teams apps** > **Permission policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select the policy by clicking to the left of the policy name.
 3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you are finished adding users, select **Save**.
- 
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, click **Save**.
 
 ### Assign a custom app permission policy to users in a group
 
@@ -153,6 +149,12 @@ After you edit the global policy or assign a policy to users, it can take up to 
 
 Yes, when you block an app, that app is blocked across all Teams clients.  
 
+#### Why can users in a group chat or channel see messages from a bot or connector that they don't have permission to?
+
+The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting in app permission policies works exactly the same way.
+
+However, if an app with bot or connector capability is enabled and then disabled, and if the app is enabled for some users, members of a group chat or channel that don't have permission to that app can see messages posted by the bot or connector, but can't interact with it.
+
 ### User experience
 
 #### What does a user experience when an app is blocked?
@@ -171,4 +173,3 @@ For example, when an app is blocked, users can't do any of the following:
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
-- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
