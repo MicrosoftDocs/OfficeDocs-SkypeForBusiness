@@ -230,8 +230,8 @@ The port range of the Media Processors is shown in the following table:
 Applies to both media bypass case and non-bypass cases
 
 The Direct Routing interface on the leg between the Session Border Controller and Cloud Media Processor (without media bypass) or between the Teams client and the SBC (if Media Bypass enabled) can use the following codecs:
-- Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G,729
-- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G,729, OPUS
+- Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G.729
+- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G.729, OPUS
 
 You can force use of the specific codec on the Session Border Controller by excluding undesirable codecs from the offer.
 
