@@ -20,11 +20,6 @@ description: Learn how to manage custom app policies and settings to control who
 
 # Manage custom app policies and settings in Microsoft Teams
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
-
-> [!NOTE]
-> For the current method of managing apps in Microsoft Teams, see [Manage Microsoft Teams settings for your organization](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
-
 > [!NOTE]
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
 The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
