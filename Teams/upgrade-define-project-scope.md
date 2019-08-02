@@ -17,6 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
+
 ![Upgrade journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
@@ -76,7 +77,7 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 | Objective | Key result | To do |
 |---|---|---|
-| Pilot Teams alongside Skype for Business, in [collaboration-only mode](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY18Q2: 500-user pilot conducted and completed | <ul><li>Identify pilot users</li><li>Create a pilot test plan</li><li>Enable pilot users on Teams</li><li>Implement the pilot</li><li>Execute a pilot feedback survey</li><li>Measure pilot success</li></ul> |
+| Pilot Teams alongside Skype for Business, in [collaboration-only mode](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2: 500-user pilot conducted and completed | <ul><li>Identify pilot users</li><li>Create a pilot test plan</li><li>Enable pilot users on Teams</li><li>Implement the pilot</li><li>Execute a pilot feedback survey</li><li>Measure pilot success</li></ul> |
 | Successfully run collaboration-only mode for all users in the organization alongside Skype for Business | <ul><li>60% of Skype for Business users are using Teams within 30 days of rollout</li><li>User satisfaction with Teams is &#8805;80%</li></ul> | <ul><li>Design and execute a broad communications and training plan</li><li>Enable all users for Teams in collaboration-only mode</li><li>Track usage monthly</li><li>Gather user feedback</li><li>Monitor network health/quality</li><li>Mitigate as needed</li></ul> |
 
 | Type | Key success indicator | How measured | Success criteria | Measured |
@@ -114,3 +115,5 @@ As you scope your upgrade journey, be sure to set a timeline for key milestones 
 As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](https://aka.ms/UpgradePro), which we encourage you to adjust as needed to align with the specific needs of your organization.
 
 After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](https://aka.ms/SkypeToTeams-TechnicalReadiness) and [organizational readiness](https://aka.ms/SkypeToTeams-UserReadiness) planning activities.
+
+Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.
