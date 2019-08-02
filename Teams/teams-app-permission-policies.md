@@ -37,6 +37,9 @@ Say, for example, you want to block all third-party apps and allow specific apps
 
 Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
+> [!NOTE]
+> If your organization is already on Teams, the app settings you configured in the Microsoft admin center are reflected in the org-wide app settings. If you're new to Teams and just getting started, by default, all apps are allowed. This includes apps published by Microsoft, third-parties, and your organization.
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
 ![Screen shot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
@@ -129,17 +132,15 @@ Depending on the number of members in the group, this command may take several m
 
 ### Working with app permission policies
 
-#### Can I control line of business (LOB) apps?
-
-Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps.
-
 #### How do app permission policies relate to pinned apps and app setup policies?
 
 You can use app setup policies together with app permission policies. Pre-pinned apps are selected from the set of enabled apps for a user. Additionally, if a user has an app permission policy that blocks an app in their app setup policy, that app won't appear in Teams.
 
 #### Can I use app permission policies to restrict uploading custom apps (also known as sideloading)?
 
-To learn more about how to restrict uploading custom apps, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
+Use org-wide settings in app permission policies to restrict uploading custom apps for your organization.  
+
+To restrict specific users from uploading custom apps, use custom app policies. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 
 #### Does blocking an app apply to Teams mobile clients?
 
