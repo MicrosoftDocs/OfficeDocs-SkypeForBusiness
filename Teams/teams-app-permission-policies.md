@@ -45,7 +45,7 @@ Use org-wide app settings to control which apps are available across your organi
 ![Screen shot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
-    - **Allow third-party apps in Teams**: This controls whether users can use third-party apps.
+    - **Allow third-party or custom apps in Teams**: This controls whether users can use third-party or custom apps.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 4. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps.
