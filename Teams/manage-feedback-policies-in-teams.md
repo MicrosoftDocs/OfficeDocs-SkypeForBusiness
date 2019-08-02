@@ -26,7 +26,7 @@ Users can send comments and suggestions about Teams to Microsoft by going to **H
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Users can also rate their experience with Teams on a scale of zero to 10 and include comments to let us know how we're doing. This survey form is displayed to XYZ users. 
+Users can also rate their experience with Teams on a scale of zero to 10 and send us their comments to let us know how we're doing. This survey form is displayed to XYZ users. 
 
 placeholder for screen shots.
 
@@ -38,7 +38,7 @@ As an admin, you can control whether users in your organization can send feedbac
 
 You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
-Say, for example, you want to allow all users in your organization to send feedback except for new hires in training. In this scenario, you create a custom policy to turn off the feature and assign it to new hires. All other users in your organization get the global policy with the feature turned on.  
+Say, for example, you want to allow all users in your organization to send feedback and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
 You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. 
 
