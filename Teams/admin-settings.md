@@ -30,8 +30,6 @@ In **Teams apps** in the Microsoft Teams admin center, you can set policies to m
 
 We're continually improving the app experience in Teams and adding features and functionality. Over time, we'll be building additional app management capabilities, so check back for the most up-to-date information on app policies.
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
-
 ## App permission policies
 
 With app permission policies, you can block or allow apps, either org-wide or for specific users.  When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
