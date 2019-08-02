@@ -166,6 +166,4 @@ Make sure that you follow the logo guidelines before you submit the app. To lear
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
-- [Manage app setup policies in Teams](teams-app-setup-policies.md)
-- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 - [Publish an app to the Tenant Apps Catalog from the Teams client](tenant-apps-catalog-teams.md)

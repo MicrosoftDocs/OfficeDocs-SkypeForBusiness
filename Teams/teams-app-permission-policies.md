@@ -143,7 +143,7 @@ You can use app setup policies together with app permission policies. Pre-pinned
 
 Use org-wide settings in app permission policies to restrict uploading custom apps for your organization.  
 
-To restrict specific users from uploading custom apps, use custom app policies. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
+To restrict specific users from uploading custom apps, use custom app policies (coming soon). To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 
 #### Does blocking an app apply to Teams mobile clients?
 
@@ -170,5 +170,3 @@ For app permission policies assigned to specific users, if an app with bot or co
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
-- [Manage app setup policies in Teams](teams-app-setup-policies.md)
-- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
