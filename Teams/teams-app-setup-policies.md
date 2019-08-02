@@ -81,7 +81,7 @@ To assign a policy to multiple users at a time, see [Edit Teams user settings in
 
 Or, you can also do the following:
 
-1. In the left navigation of the Microsoft Teams admin center, go to > **Teams apps** > **Setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Select the policy by clicking to the left of the policy name.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
