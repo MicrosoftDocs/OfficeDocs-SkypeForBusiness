@@ -630,6 +630,8 @@
 
 
 ### Upgrade Skype for Business on-premises to Teams
+### [Overview](upgrade-to-Teams-execute-SkypeforBusinesHybridOnPrem.md)
+
 #### [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 #### [Configure hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
@@ -656,7 +658,10 @@
 #### [Integration with Exchange and SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
 ## Operate, adopt, and optimize
-
+### [Operational plan overview](continue-journey.md)
+### [Operate your service](upgrade-operate-my-service.md)
+### [Monitor quality](upgrade-monitor-quality.md)
+### [Enhance your service](upgrade-enhance-my-service.md)
 
 
 ## [FAQ](FAQ-journey.md)
@@ -665,19 +670,10 @@
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
-
-
-## [Connect your local telephony network to Teams](direct-routing-plan.md)
-
-
-
-
-
-
-
-
-
+<!-- ============================================================ -->
 
 
 

@@ -33,16 +33,16 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 # Perform your upgrade to Teams
 
-**Note:**  Before beginning your upgrade, be sure you [conduct a user pilot](pilot-essentials.md).
-
 The steps you take to perform your upgrade to Teams depends on your current deployment of Skype for Business:
 
-- **If you are upgrading from Skype for Business Online to Teams**, follow the steps in [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
+1. Before beginning your upgrade, be sure you [conduct a user pilot](pilot-essentials.md).
 
-- **If you are upgrading from a Skype for Business on-premises environment**, you'll need to perform some extra steps to set up connectivity between your on-premises and online environments before you move your users to Teams. For more information, see 
-- [Plan hybrid connectivity](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-hybrid-connectivity) 
-- [Configure hybrid connectivity](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-hybrid-connectivity) 
-- [Move users between on-premises and the cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)
+2.  Next, based on your current environment, choose your upgrade path:  
+
+    - **If you are upgrading from Skype for Business Online to Teams**, follow the steps in [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
+
+    -  **If you are upgrading from a Skype for Business on-premises environment**, you'll need to perform some extra steps to set up connectivity between your on-premises and online environments before you move your users to Teams. For more information, see [Upgrade Skype for Business on-premises to Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).
+
 
 
 
