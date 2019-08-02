@@ -622,7 +622,7 @@
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
 
-## Upgrade to Teams
+## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
 ### [Conduct a user pilot](pilot-essentials.md)
 

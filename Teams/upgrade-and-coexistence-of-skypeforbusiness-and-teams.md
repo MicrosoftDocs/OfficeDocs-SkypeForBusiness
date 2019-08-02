@@ -20,9 +20,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Upgrade journey diagram, emphasizing Deployment and Implementation](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Upgrade journey diagram, emphasizing the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
-This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the Project Definition stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)

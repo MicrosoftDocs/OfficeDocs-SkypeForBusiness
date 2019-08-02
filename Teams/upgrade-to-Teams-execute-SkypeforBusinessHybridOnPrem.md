@@ -30,30 +30,30 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
-# Upgrade to Teams from a Skype for Business on-premises deployment
+# Upgrade from Skype for Business on-premises to Teams
 
-Follow the guidance in this article if you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Teams either selectively—by using multiple coexistence modes—or all-in. The first step is to set up hybrid connectivity with your Office 365 tenant, and then move your users to Teams and assign them the appropriate coexistence and upgrade mode. 
+If you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You'll need to set up hybrid connectivity with your Office 365 tenant, and then move your users to Teams and assign them the appropriate coexistence and upgrade mode. 
 
 > [!IMPORTANT]
 > Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
 
 ## Step 1: Configure hybrid connectivity 
 
-The key prerequisite for upgrading your users to Teams is to configure hybrid connectivity. This might involve deploying new external connectivity for your existing Skype for Business or Lync deployment, or simply configuring a hybrid relationship with your Office 365 tenant. 
+The key prerequisite for upgrading your users to Teams is to configure hybrid connectivity. 
 
-Start by reading [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) and then follow the tasks outlined in 
-
-[Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Start by reading [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) and then follow the tasks outlined in [Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 ## Step 2: Move users between on-premises and the cloud 
 
-After you’ve completed your hybrid setup, move users to Teams.  This might be one or two steps depending on your current on-premises environment.  
+After you’ve completed your hybrid setup, you can move users to Teams.  This might involve one or two steps depending on your current on-premises environment.  
 
 For more information, see [Move users between on-premises and the cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud). 
 
 ## Step 3: Assign a coexistence and upgrade mode
 
-After you’ve moved your users the cloud, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+After you’ve moved users to the cloud, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+
+**WHAT ARE THE RIGHT ARTICLES TO LINK TO?**
 
 
 
