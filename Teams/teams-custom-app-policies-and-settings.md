@@ -16,6 +16,8 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams. 
+f1keywords: 
+- ms.teamsadmincenter.appsetuppolicies.allowsideloading
 ---
 
 # Manage custom app policies and settings in Microsoft Teams
