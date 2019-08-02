@@ -18,6 +18,7 @@ search.appverid: MET150
 description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization. 
 f1keywords: 
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
 # Manage app permission policies in Microsoft Teams
