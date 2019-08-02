@@ -56,7 +56,7 @@ To learn more, check out [Manage app setup policies in Teams](teams-app-setup-po
 
 ## Custom app policies and settings
 
-[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom  apps.
 
