@@ -32,14 +32,13 @@ You manage app permission policies in the Microsoft Teams admin center. You can 
 > [!NOTE]
 > Users in your organization will automatically get the global policy unless you create and assign a custom policy. Org-wide app settings override the global policy and any custom policies that you create and assign to users.
 
+ If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft admin center are reflected in org-wide app settings. If you're new to Teams and just getting started, by default, all apps are allowed in the global policy. This includes apps published by Microsoft, third-parties, and your organization.
+
 Say, for example, you want to block all third-party apps and allow specific apps from Microsoft for the HR team in your organization. You would create a custom policy named HR App Permission Policy, set it to block and allow the apps that you want, and then assign it to users on the HR team.
 
 ## Manage org-wide app settings
 
 Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
-
-> [!NOTE]
-> If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft admin center are reflected in org-wide app settings. If you're new to Teams and just getting started, by default, all apps are allowed. This includes apps published by Microsoft, third-parties, and your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
