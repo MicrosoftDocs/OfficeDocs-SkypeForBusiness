@@ -23,7 +23,9 @@ appliesto:
 
 ## Teams apps settings in the Microsoft Teams admin center
 
-You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. For example, you can set policies to control what apps are available org-wide or to specific Teams users and you can customize Teams by pinning the apps that are most important for your users. To learn more, see [Admin settings for apps in  Teams](admin-settings.md).  
+You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. For example, you can set policies to control what apps are available org-wide or to specific Teams users and you can customize Teams by pinning the apps that are most important for your users. 
+
+To learn more, see [Admin settings for apps in  Teams](admin-settings.md).  
 
 ## Teams org-wide settings in the Microsoft Teams admin center
 You can control organization-wide user settings in the Microsoft Teams admin center. To edit org-wide settings, go to the Microsoft Teams admin center, and then select **Org-wide settings**. You can configure the following settings.
