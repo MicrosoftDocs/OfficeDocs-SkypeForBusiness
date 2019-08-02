@@ -47,8 +47,8 @@ You can edit the settings in the global policy to include the apps that you want
 You can use the Microsoft Teams admin center to create a custom policy.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Select **New policy**.
-3. Enter a descriptive name for the policy, and then click **Add apps**.
+2. Click **Add**.
+3. Enter a name and description for the policy, and then click **Add apps**.
 4. Turn on or turn off **Allow uploading custom apps**, depending on whether you want to let users upload custom apps to Teams. You won't be able to change this setting if **Allow third-party or custom apps** is turned off in [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in app permission policies.
 5. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
 
@@ -71,7 +71,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to groups of users, such as a security group or distribution group.
 
-### Assign a custom app setup policy to individual users
+### Assign a custom app setup policy to users
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
