@@ -630,7 +630,8 @@
 
 
 ### Upgrade Skype for Business on-premises to Teams
-### [Overview](upgrade-to-Teams-execute-SkypeforBusinesHybridOnPrem.md)
+
+#### [Overview](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 #### [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
