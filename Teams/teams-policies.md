@@ -17,7 +17,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels. 
 f1keywords: 
-- ms.teamsadmincenter.teamsandchannelpolicies.overview, ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover, ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
+- ms.teamsadmincenter.teamsandchannelpolicies.overview
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 ---
 
 # Manage teams policies in Microsoft Teams
@@ -96,4 +98,3 @@ Depending on the number of members in the group, this command may take several m
 ## Related topics
 
 - [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
-- [Private channels in Teams](private-channels-in-teams.md)
