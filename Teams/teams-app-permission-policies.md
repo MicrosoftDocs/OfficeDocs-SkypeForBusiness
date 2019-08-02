@@ -133,7 +133,7 @@ Depending on the number of members in the group, this command may take several m
 ### Working with app permission policies
 
 #### Can I control line of business (LOB) apps?
-Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps. You can create a custom policy or edit the global policy to allow or block the custom apps based on the needs of your organization.
+Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps. You can create a custom policy or edit the global policy to allow or block custom apps based on the needs of your organization.
 
 #### How do app permission policies relate to pinned apps and app setup policies?
 
