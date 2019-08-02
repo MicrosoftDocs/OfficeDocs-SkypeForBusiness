@@ -78,7 +78,7 @@ If you want to control the apps that are available for different groups of users
 
 ## Edit an app permission policy
 
-You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
+You can use the Microsoft Teams admin center to edit a policy, including the global policy and custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
