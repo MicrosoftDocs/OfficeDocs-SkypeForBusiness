@@ -1,7 +1,7 @@
 ---
 title: Upgrade to Microsoft Teams | Skype for Business Teams Roadmap
-author: lanachin
-ms.author: v-lanac
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -31,7 +31,7 @@ This article is part of the Deployment and Implementation stage of your upgrade 
 
 
 
-# Perform your upgrade to Teams
+# Overview
 
 The steps you take to perform your upgrade to Teams depends on your current deployment of Skype for Business:
 
