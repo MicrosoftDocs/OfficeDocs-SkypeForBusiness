@@ -25,8 +25,6 @@ description: "Learn how to set up Phone System for Cloud call queues with Micros
 
 # Create a Cloud call queue
 
-Cloud call queues are a service that plays a greeting to customer calls before placing them in a queue while searching among a pre-defined set of agents to answer these calls. You can create single or multiple call queues for your organization.
- 
 Cloud call queues can provide:
  
 - A greeting message.
@@ -34,7 +32,12 @@ Cloud call queues can provide:
 - Redirecting of calls to call agents in mail-enabled distribution lists and security groups.
 - Settings different parameters such as queue maximum size, timeout, and call handling options.
 
-When someone calls a phone number that is associated with a call queue via a [resource account](manage-resource-accounts.md), they  hear a greeting (if any is set up), and then their call is put in the queue to wait for the next available call agent. The caller hears music while they are on hold, and the call connects to the call agents in *First In, First Out* (FIFO) order.
+When someone calls a phone number that is associated with a call queue via a [resource account](manage-resource-accounts.md): 
+1. They  hear a greeting (if any is set up) 
+2. Their call is put in the queue to wait for the next available call agent. 
+ 
+
+The caller hears music while they are on hold, and the call connects to the call agents in *First In, First Out* (FIFO) order.
  
 All calls in the queue are sent to agents by one of the following methods:
  
@@ -45,18 +48,18 @@ All calls in the queue are sent to agents by one of the following methods:
     > [!NOTE]
     > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue will not recieve calls.
  
-- Only one incoming call notification (for the call at the head of the queue) at a time will be sent to the call agents.
+- Only one incoming call notification (for the call at the head of the queue) at a time goes to the call agents.
 - After a call agent accepts the call, the next incoming call in the queue will start ringing call agents.
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
 
-## Step 1 - Get started
+## Step 1 — Get started
 
 To get started using call queues, it's important to remember a few things:
  
 - A call queue is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you are assigning a phone number to a resource account, you can now use the cost-free Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md). This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue services.
+- When you assign a phone number to a resource account, you can now use the cost-free Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md). Phone System allows phone numbers at the organizational level for use with low-cost auto attendant and call queue services.
 
 > [!NOTE]
 > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
@@ -66,12 +69,12 @@ To get started using call queues, it's important to remember a few things:
  
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
-- You can only assign Cloud call queues toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider. You are required to set up Communications Credits to get and use toll-free service numbers.
+- You can only assign Cloud call queues toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider. Communications Credits are required for toll-free service numbers.
 
     > [!NOTE]
     > User (subscriber) phone numbers can't be assigned to call queues - only service toll or toll-free phone numbers can be used.
  
-- When you are distributing the incoming calls from a Cloud call queue, these clients are supported for call agents:
+- The following clients are supported for call agents associated to a Cloud call queue:
 
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
 
