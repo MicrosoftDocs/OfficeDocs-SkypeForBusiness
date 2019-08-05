@@ -130,7 +130,9 @@ The following table outlines what actions owners, members, and guests can do in 
 
 ### Manage private channel membership and settings
 
-Each private channel has its own settings, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are also independent of the parent team settings. When a channel is created, it inherits XYZ from the parent team site and all other settings are managed separately from it.
+Each private channel has its own settings, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings.
+
+When a private channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
 
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
