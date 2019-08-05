@@ -162,7 +162,7 @@ Direct Routing is offered in the following Office 365 environments:
 - Office 365 DoD
 Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
 
-### Office 365 and Office 365 GCC envirionments
+### Office 365 and Office 365 GCC environments
 
 The connection points for Direct Routing are the following three FQDNs:
 
