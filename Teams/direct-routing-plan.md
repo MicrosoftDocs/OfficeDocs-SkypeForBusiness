@@ -168,7 +168,7 @@ Microsoft is working on adding additional certification authorities based on cus
 ## SIP Signaling: FQDNs 
 
 Direct Routing is offered in the following Office 365 envirionments:
-- Office 365;
+- Office 365
 - Office 365 GCC;
 - Office 365 GCC High
 - Office 365 DoD
