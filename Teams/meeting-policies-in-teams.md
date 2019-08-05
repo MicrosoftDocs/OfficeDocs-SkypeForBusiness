@@ -135,7 +135,7 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (KBs)](#media-bit-rate-kbs)
-- [Enable live captions](#enable-live-captions)
+- [Enable live captions (preview)](#enable-live-captions-preview)
 
 ### Allow transcription
 
@@ -192,7 +192,7 @@ If there isn’t enough bandwidth for a meeting, participants see a message that
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
-### Enable live captions (preview feature)
+### Enable live captions (preview)
 
 This is a per-user policy and applies during a meeting. This setting controls whether live captions are automatically turned on in meetings that the user attends and whether the **Turn on live captions** option is available for the user to turn on and turn off live captions.
 
