@@ -120,7 +120,7 @@ The following table outlines what actions owners, members, and guests can do in 
 |Restore deleted private channel|Yes|No|No|Yes|No|No|
 |Add members|No|N/A|N/A|Yes|No|No|
 |Edit settings|No|N/A|N/A|Yes|No|No|
-|Manage tabs, apps, and connectors|No|N/A|N/A|Yes<sup>4</sup>|Yes<sup>5</sup>|No|
+|Manage tabs and apps|No|N/A|N/A|Yes<sup>4</sup>|Yes<sup>5</sup>|No|
 
 <sup>1</sup>Assuming the policy that you, the admin, configured allows the user to create private channels.<br>
 <sup>2</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
@@ -130,7 +130,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 ### Manage private channel membership and settings
 
-Each private channel has its own independent settings, including the ability to add and remove members, add tabs and connectors, and @mentioning for the entire channel. These settings are also independent of the parent team settings.
+Each private channel has its own settings, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are also independent of the parent team settings. When a channel is created, it inherits XYZ from the parent team site and all other settings are managed separately from it.
 
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
