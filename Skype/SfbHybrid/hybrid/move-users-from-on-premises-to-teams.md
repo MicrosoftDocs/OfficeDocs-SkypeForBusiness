@@ -84,7 +84,7 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
 The on-premises admin tools in Skype for Business Server 2015 with CU8, as well as in Skype for Business Server 2019, enable you to notify on-premises Skype for Business users of their upcoming move to Teams. When you enable these notifications, users will see a notification in their Skype for Business client (Win32, Mac, web, and mobile) as shown below. If users click the **Try it** button, the Teams client will be launched if it is installed; otherwise, users will be navigated to the web version of Teams in their browser. By default, when notifications are enabled, Win32 Skype for Business clients silently download the Teams client so that the rich client is available prior to moving the user to Teams Only mode; however, you can also disable this behavior.  Notifications are configured using the on-premises version of `TeamsUpgradePolicy`, and silent download for Win32 clients is controlled via the on-premises `TeamsUpgradeConfiguration` cmdlet.
 
 > [!TIP]
-> Some servers in the topology will need a reboot for this to work in 2015 w/CU8.
+> Some servers may need to reboot for this to work in Skype for Business 2015 with CU8.
 
 ![Notification of upcoming move to Teams](../media/teams-upgrade-notification.png)
 
