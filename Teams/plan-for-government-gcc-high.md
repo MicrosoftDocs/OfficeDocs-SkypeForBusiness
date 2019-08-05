@@ -79,7 +79,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Files | Available |
 | | Org chart | Available |
 | | Activity | Available |
-| | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
+| | InterOp (1:1 Teams-Skype for Business chat) | Available |
 | Teams | Channel message | Available |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |
