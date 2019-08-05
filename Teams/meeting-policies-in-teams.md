@@ -192,7 +192,7 @@ If there isn’t enough bandwidth for a meeting, participants see a message that
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
-### Enable live captions
+### Enable live captions (preview feature)
 
 This is a per-user policy and applies during a meeting. This setting controls whether live captions are displayed in meetings that the user attends and whether the **Turn on live captions** option is available for the user to turn on and turn off live captions.
 
@@ -200,10 +200,11 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**    | Live captions are always displayed during a meeting. The user can't turn off live captions.  |
-|**Enabled and the user can override**   | Live captions are displayed and the user can turn off or turn on live captions by using the **Turn on live captions** option.  |
-|**Disabled**     | Live captions are not displayed during a meeting. The user can't turn on live captions.         |
-|**Disabled and the user can override**     | Live captions are not displayed and the user can turn on or turn off live captions by using the **Turn on live captions** option. |
+|**Disabled and the user can override**     | Live captions aren't automatically turned on during a meeting but the user sees the **Turn on live captions** option in the menu to turn on live captions. |
+|**Enabled**    | Live captions are automatically turned on during a meeting. The user can't turn off live captions.  |
+|**Enabled and the user can override**   | Live captions are automatically turned on during a meeting and the user sees the **Turn on live captions** option in the menu to turn off live captions.  |
+|**Disabled**     | Live captions aren't displayed during a meeting. The user doesn't have the option to turn on live captions.          |
+
 
 <a name="bkcontentsharing"> </a>
 
