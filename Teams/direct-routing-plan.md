@@ -228,7 +228,7 @@ You will need to open ports for all these IP addresses in your firewall to allow
 
 ## SIP Signaling: Ports
 
-Prt requiremtns are the same for all Office 365 envirionments, where Direct Routing is offered:
+Port requirements are the same for all Office 365 environments where Direct Routing is offered:
 - Office 365;
 - Office 365 GCC;
 - Office 365 GCC High;
