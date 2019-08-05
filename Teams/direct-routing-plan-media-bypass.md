@@ -156,7 +156,7 @@ Ensure your SBC has access to the Transport Relays as described below.
 For SIP signaling, the FQDN and firewall requirements are the same as for non-bypassed cases. 
 
 Direct Routing is offered in the following Office 365 environments:
-- Office 365;
+- Office 365
 - Office 365 GCC;
 - Office 365 GCC High;
 - Office 365 DoD
