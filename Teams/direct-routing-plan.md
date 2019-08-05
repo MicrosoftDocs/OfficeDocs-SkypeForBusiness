@@ -269,7 +269,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 - 52.127.64.0/21
 
-### Office 365 GCC High envirionment
+### Office 365 GCC High environment
 
 - 52.127.88.0/21
 
