@@ -26,7 +26,7 @@ Users can send comments and suggestions about Teams to Microsoft by going to **H
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Users can also rate their experience with Teams and send us details about the rating they gave. These pop-up surveys are displayed to users from time-to-time in the Teams desktop client. When a user clicks **Provide feedback** in the notification, the survey form opens for them to give their rating.
+Users can also rate their experience with Teams and send us details about the rating they give. These pop-up surveys are displayed to users from time-to-time in the Teams desktop client. When a user clicks **Provide feedback** in the notification, the survey form opens for them to give their rating.
 
 ![Screen shot of the survey form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
