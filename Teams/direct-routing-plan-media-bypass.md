@@ -304,7 +304,7 @@ The IP range for media traffic is
 
 - 52.127.88.0/21
 
-The port range of the Media Processors (applicable to all envirionments) is shown in the following table:
+The port range of the Media Processors (applicable to all environments) is shown in the following table:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
