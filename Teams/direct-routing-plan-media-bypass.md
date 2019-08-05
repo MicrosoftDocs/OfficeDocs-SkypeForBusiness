@@ -261,7 +261,7 @@ Transport Relays are in the same range as Media Processors (for non-bypass cases
 
 - 52.127.64.0/21
 
-### Office 365 GCC High envirionment
+### Office 365 GCC High environment
 
 - 52.127.88.0/21
 
