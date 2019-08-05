@@ -22,34 +22,37 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
+Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. Users can tell us what they like about Teams and what we could do better. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Users can also rate their experience with Teams on a scale of zero to 10 and send us their comments to let us know how we're doing. This survey form is displayed to XYZ users. 
+Users can also rate their experience with Teams and send us details about the rating they gave. These pop-up surveys are displayed to users from time-to-time in the Teams desktop client. When a user clicks **Provide feedback** in the notification, the survey form opens for them to give their rating.
 
-placeholder for screen shots.
+![Screen shot of the survey form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 ## Set whether users can send feedback about Teams to Microsoft
 
-As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft and receive the survey. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey is enabled in the policy. The exception is Teams for Education, where the feature is enabled for teachers and disabled for students.
+As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft and receive the survey. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy. The exception is Teams for Education, where the features are enabled for teachers and disabled for students.
 
 You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
 Say, for example, you want to allow all users in your organization to send feedback and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
-You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. 
+You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.
 
-Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
+Set the following parameters:
+
+ - **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
+ - **Survey**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
 
 ## Create a custom feedback policy
 
-In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback.
+In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback and receive surveys.
 
 ```
-New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
+New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
 ## Assign a custom feedback policy
