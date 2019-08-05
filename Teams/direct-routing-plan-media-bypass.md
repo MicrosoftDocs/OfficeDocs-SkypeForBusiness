@@ -266,7 +266,7 @@ Transport Relays are in the same range as Media Processors (for non-bypass cases
 - 52.127.88.0/21
 
 
-The port range of the Teams Transport Relays (applicable to all envirionments) is shown in the following table:
+The port range of the Teams Transport Relays (applicable to all environments) is shown in the following table:
 
 
 | Traffic | From | To | Source port | Destination port|
