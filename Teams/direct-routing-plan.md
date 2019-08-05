@@ -170,7 +170,7 @@ Microsoft is working on adding additional certification authorities based on cus
 Direct Routing is offered in the following Office 365 envirionments:
 - Office 365;
 - Office 365 GCC;
-- Office 365 GCC High;
+- Office 365 GCC High
 - Office 365 DoD
 
 Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
