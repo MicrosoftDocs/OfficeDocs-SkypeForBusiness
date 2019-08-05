@@ -190,6 +190,12 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 
 Once you do that, you can delete the resource account from the O365 admin portal, under Users tab.
 
+To dissociate a direct routing telephone number from the resource account, use the following cmdlet:
+
+``` Powershell
+Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+```
+
 ## Troubleshooting
 
 In case you do not see the phone number assigned to the resource account on the Teams Admin Center and you are unable to assign the number from there, please check the following:
