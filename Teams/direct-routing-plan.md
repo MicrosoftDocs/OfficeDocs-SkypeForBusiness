@@ -217,7 +217,7 @@ You will need to open ports for all these IP addresses in your firewall to allow
 
 The connection point for Direct Routing is the following FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us** – Global FQDN. Note as the GCC High envirionment exists only in the US datacenters, there is no secondary and tertiary FQDNs
+**sip.pstnhub.gov.teams.microsoft.us** – Global FQDN. As the GCC High environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
 
 The FQDNs – sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the following IP addresses:
 
