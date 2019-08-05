@@ -230,7 +230,7 @@ You will need to open ports for all these IP addresses in your firewall to allow
 
 Port requirements are the same for all Office 365 environments where Direct Routing is offered:
 - Office 365;
-- Office 365 GCC;
+- Office 365 GCC
 - Office 365 GCC High;
 - Office 365 DoD
 
