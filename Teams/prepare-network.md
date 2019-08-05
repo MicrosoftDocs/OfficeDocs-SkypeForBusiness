@@ -53,10 +53,7 @@ Your company site connection to the Microsoft network edge includes first hop ne
 
 The network performance targets assume proper bandwidth and/or [QoS planning](QoS-in-Teams.md). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
 
-To test both network segments, you can use the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. The tool includes limited documentation, but a deeper documentation around the usage of the tool can be found here: [Network Readiness Assessment](https://blogs.technet.microsoft.com/skypehybridguy/2017/08/11/assess-your-networks-readiness-for-skype-for-business-online/). By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
-
-> [!NOTE]
-> This is the same Network Readiness Assessment that is recommended to be run for customers who are looking to successfully deploy Skype for Business.
+For more help with preparing your network for Teams, check out [Network Planner](https://docs.microsoft.com/microsoftteams/network-planner).
 
 
 ## Bandwidth requirements
