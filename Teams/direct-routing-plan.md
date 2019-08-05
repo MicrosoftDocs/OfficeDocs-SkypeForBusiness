@@ -213,7 +213,7 @@ The FQDNs – sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the 
 
 You will need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.dod.teams.microsoft.us resolves to all the IP addresses above. 
 
-### Office 365 GCC High envirionment
+### Office 365 GCC High environment
 
 The connection point for Direct Routing is the following FQDN:
 
