@@ -189,7 +189,7 @@ The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **s
 
 You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
 
-### Office 365 GCC DoD envirionment
+### Office 365 GCC DoD environment
 
 The connection point for Direct Routing is the following FQDN:
 
