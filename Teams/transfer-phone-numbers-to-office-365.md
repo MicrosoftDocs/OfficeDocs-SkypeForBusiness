@@ -34,7 +34,7 @@ Before you start transferring phone numbers, we recommend that you review the in
   > [!NOTE]
   > We process port orders for transferring phone numbers only on U.S. business days and not on public holidays or weekends.
   
-## How to create a port order and transfer your phone numbers to Teamss
+## How to create a port order and transfer your phone numbers to Teams
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
