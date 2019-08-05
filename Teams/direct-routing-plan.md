@@ -273,7 +273,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 - 52.127.88.0/21
 
-### Port range (applicable to all envirionments)
+### Port range (applicable to all environments)
 The port range of the Media Processors is shown in the following table: 
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
