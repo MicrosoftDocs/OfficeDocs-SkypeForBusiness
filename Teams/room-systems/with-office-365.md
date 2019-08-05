@@ -186,7 +186,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
     > [!NOTE]
-    > All new Microsoft Teams Room accounts must be created in the same RegistrarPool.
+    > All new Microsoft Teams Rooms accounts must be created in the same RegistrarPool.
 
 After you've completed the preceding steps to enable your Microsoft Teams Rooms account in Microsoft Teams or Skype for Business Online, you need to assign a license to Microsoft Teams Rooms device. Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
 
