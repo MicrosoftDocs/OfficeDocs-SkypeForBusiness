@@ -123,10 +123,13 @@ To assign a direct routing or hybrid number to a resource account you will need 
 
 ## Change an existing resource account to use a Virtual User license
 
-If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to  aquire the free Virtual User license, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to  acquire the free Virtual User license, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Always remove a full Phone System License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account. 
+
+> [!NOTE]
+> Obtain a Phone System or Phone System Virtual User license. Sign in to the Microsoft 365 admin center. Go to Billing > Purchase services > Add-on subscriptions. Scroll to the end to find the "Phone System–Virtual User" license. Select Buy now.
 
 ## Create a resource account in Powershell
 
