@@ -197,7 +197,7 @@ The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pst
 - 52.114.7.24 
 - 52.114.14.70
 
-You will need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN sip-all.pstnhub.microsoft.com resolves to all the IP addresses above. 
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN sip-all.pstnhub.microsoft.com resolves to all these IP addresses. 
 
 
 ### Office 365 GCC DoD environment
