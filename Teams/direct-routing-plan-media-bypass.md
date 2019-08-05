@@ -296,7 +296,7 @@ The IP range for media traffic is
 
 -52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
-## Office 365 GCC DoD envirionment
+## Office 365 GCC DoD environment
 
 - 52.127.64.0/21
 
