@@ -224,7 +224,7 @@ The FQDNs – sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the 
 - 52.127.88.59
 - 52.127.92.64
 
-You will need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all the IP addresses above. 
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP addresses. 
 
 ## SIP Signaling: Ports
 
