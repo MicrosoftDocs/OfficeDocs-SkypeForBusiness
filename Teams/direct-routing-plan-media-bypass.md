@@ -253,7 +253,7 @@ Note: If you have a network device that translates the client's source ports, pl
 
 Transport Relays are in the same range as Media Processors (for non-bypass cases): 
 
-### Office 365 and Office 365 GCC envirionments
+### Office 365 and Office 365 GCC environments
 
 -52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
