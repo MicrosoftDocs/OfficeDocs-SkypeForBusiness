@@ -34,7 +34,7 @@ We're continually improving the Teams experience and we use this feedback to mak
 
 ## Set whether users can send feedback about Teams to Microsoft
 
-As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft and receive the survey. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy. The exception is Teams for Education, where the features are enabled for teachers and disabled for students.
+As an admin, you can control whether users in your organization can give feedback about Teams to Microsoft and receive the survey. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy. The exception is Teams for Education, where the features are enabled for teachers and disabled for students.
 
 You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
 
