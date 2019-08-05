@@ -24,9 +24,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. You might want to use a private channel if you want to limit communication to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
+Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team.
 
-For example, a private channel is useful in the following scenarios:
+You might want to use a private channel if you want to limit communication to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
+
+For example, a private channel is useful in these scenarios:
 
 - A group of people in a team want a focused space to collaborate without having to create a separate team.
 - A subset of people in a team want a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
@@ -70,7 +72,7 @@ To determine whether a private channel is appropriate, consider the following qu
 |No     |No         |Yes         |Consider creating a new team and then, depending on the confidentiality of each topic, consider creating separate standard or private channels for each topic.         |
 |No     |Yes         |No         |Create a new team or create a new private channel in an existing team.         |
 
-When a private channel is created, it is linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels or vice versa.
+When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
 
 ## Private channel creation and membership
 
@@ -95,7 +97,7 @@ If a private channel owner leaves your organization or if they are removed from 
 
 ### What can team owners and team members see in a private channel?
 
-Team owners can see the names of all private channels in their team. They can also delete any private channel in the team. (Careful – this can’t be undone!) Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
+Team owners can see the names of all private channels in their team and can also delete any private channel in the team. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
 The following table shows who can see what in a private channel.
 
