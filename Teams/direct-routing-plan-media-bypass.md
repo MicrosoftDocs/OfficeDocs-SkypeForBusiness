@@ -292,7 +292,7 @@ Media Processors are always in the media path for voice applications and for Web
 
 The IP range for media traffic is 
 
-### Office 365 and Office 365 GCC envirionments
+### Office 365 and Office 365 GCC environments
 
 -52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
