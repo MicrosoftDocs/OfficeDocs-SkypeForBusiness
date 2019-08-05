@@ -300,7 +300,7 @@ The IP range for media traffic is
 
 - 52.127.64.0/21
 
-### Office 365 GCC High envirionment
+### Office 365 GCC High environment
 
 - 52.127.88.0/21
 
