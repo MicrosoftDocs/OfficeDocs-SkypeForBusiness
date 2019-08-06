@@ -7,6 +7,7 @@ manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 description: Describes Cloud auto attendants and call queues, and explains how you can answer these calls in Teams.
 localization_priority: Normal

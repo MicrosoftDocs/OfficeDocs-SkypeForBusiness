@@ -5,6 +5,7 @@ ms.author: rowille
 manager: serdars
 ms.date: 10/18/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_PracticalGuidance

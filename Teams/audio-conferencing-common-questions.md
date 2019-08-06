@@ -7,6 +7,7 @@ ms.reviewer: oscarr
 ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.collection:  
