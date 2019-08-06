@@ -22,15 +22,19 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. Users can tell us what they like about Teams and what we could do better. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
+Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
+
+**The Give feedback feature**
+
+Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Users can also rate their experience with Teams and send us details about the rating they give. These pop-up surveys are displayed to users from time-to-time in the Teams desktop client. When a user clicks **Provide feedback** in the notification, the survey form opens for them to give their rating.
+**User survey**
+
+Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in the Teams desktop client. When a user clicks **Provide feedback** in the notification, they survey form is displayed for them to complete.
 
 ![Screen shot of the survey form in Teams](media/manage-feedback-policies-in-teams-survey.png)
-
-We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 ## Set whether users can send feedback about Teams to Microsoft
 
