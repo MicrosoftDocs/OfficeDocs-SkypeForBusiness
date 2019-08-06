@@ -538,7 +538,7 @@ Skype for Business Server 2019 can use the same file share for all file storage.
 - We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [Creating a Cluster](https://support.microsoft.com/en-us/help/224967) KB article will help you with those details.
     
 > [!CAUTION]
-> You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. 
+> You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. This support limitation is caused by the variable design of NAS devices that have to provide file system adaptability to the Windows Server-based computer that accesses the devices' shared file system.
   
 
 
