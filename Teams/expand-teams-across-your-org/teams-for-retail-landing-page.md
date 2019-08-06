@@ -5,6 +5,7 @@ layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
+audience: admin
 manager: serdars
 ms.date: 03/01/2019
 ms.service: msteams

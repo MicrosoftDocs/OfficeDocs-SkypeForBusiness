@@ -3,6 +3,7 @@ title: Assign Teams licenses
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+audience: ITPro
 ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams

@@ -6,6 +6,7 @@ manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
 localization_priority: Normal

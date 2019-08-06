@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: Rowille
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.

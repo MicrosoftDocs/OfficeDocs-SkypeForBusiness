@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: Know where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
 localization_priority: Priority

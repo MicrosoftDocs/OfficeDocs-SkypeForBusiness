@@ -4,6 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang 

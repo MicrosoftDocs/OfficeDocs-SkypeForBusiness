@@ -2,6 +2,7 @@
 title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: Rowille
+audience: admin
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual

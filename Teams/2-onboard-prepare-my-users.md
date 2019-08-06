@@ -5,6 +5,7 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille

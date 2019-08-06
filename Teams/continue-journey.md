@@ -5,6 +5,7 @@ ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Guidance for continuing your journey from Skype for Business to Microsoft Teams

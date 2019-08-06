@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: rakayala
 description: Information Admins need to understand about Presence in Teams.
 localization_priority: Normal

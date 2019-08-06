@@ -7,6 +7,7 @@ ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
+audience: admin
 search.appverid: MET150
 description: Microsoft Teams uses the settings from OneDrive and SharePoint to control sharing.
 localization_priority: Normal

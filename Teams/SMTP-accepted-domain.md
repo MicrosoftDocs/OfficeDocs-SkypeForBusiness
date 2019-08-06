@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
+audience: admin
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help

@@ -5,6 +5,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
+audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection: 

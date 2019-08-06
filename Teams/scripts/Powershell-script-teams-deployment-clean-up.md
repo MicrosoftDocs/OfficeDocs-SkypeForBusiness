@@ -4,6 +4,7 @@ ms.reviewer:
 author: kenwith
 ms.author: kenwith
 manager: serdars
+audience: admin
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams

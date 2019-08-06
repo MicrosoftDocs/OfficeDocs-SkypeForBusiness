@@ -4,6 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: How to perform a detailed environmental discovery as you plan your journey from Skype for Business to Microsoft Teams.

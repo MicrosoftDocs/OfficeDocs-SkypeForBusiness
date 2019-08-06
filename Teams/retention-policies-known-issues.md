@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer: anach
 description: Current list of known issues for Microsoft Teams retention policies.
 localization_priority: Normal

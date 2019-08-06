@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150

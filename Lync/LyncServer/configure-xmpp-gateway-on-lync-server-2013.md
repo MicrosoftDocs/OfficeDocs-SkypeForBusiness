@@ -3,6 +3,7 @@ title: Configure XMPP gateway on Lync Server 2013
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+audience: Admin
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721881(v=OCS.15)

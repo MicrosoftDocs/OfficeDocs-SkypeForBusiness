@@ -7,6 +7,7 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
+audience: admin
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

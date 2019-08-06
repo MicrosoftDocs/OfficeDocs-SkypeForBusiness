@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

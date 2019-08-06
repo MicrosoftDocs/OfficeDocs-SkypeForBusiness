@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Tasks and activities required for monitoring quality and usage of Microsoft Teams 
 localization_priority: Normal

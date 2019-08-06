@@ -4,6 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
+audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150

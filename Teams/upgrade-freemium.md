@@ -7,6 +7,7 @@ ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+audience: admin
 search.appverid: MET150
 description: Learn how to upgrade the free version of Microsoft Teams
 localization_priority: Normal
