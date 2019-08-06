@@ -13,7 +13,7 @@ ms.custom: Teams-upgrade-guidance
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:

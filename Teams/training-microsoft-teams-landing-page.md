@@ -10,7 +10,7 @@ manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

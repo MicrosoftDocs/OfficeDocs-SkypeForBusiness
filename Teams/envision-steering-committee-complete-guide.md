@@ -10,7 +10,7 @@ ms.reviewer: rowille
 description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers. 
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

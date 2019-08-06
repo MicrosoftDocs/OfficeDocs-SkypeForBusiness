@@ -9,7 +9,7 @@ search.appverid: MET150
 ms.reviewer: srividhc
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

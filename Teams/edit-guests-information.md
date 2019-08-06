@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/26/2017
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta

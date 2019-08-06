@@ -12,7 +12,7 @@ description: Learn how to manage Microsoft Teams user settings in bulk in the Mi
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.edit
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---

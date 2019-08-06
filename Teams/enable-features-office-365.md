@@ -11,7 +11,7 @@ description: Learn how to turn on or off Microsoft Teams org-wide settings for y
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

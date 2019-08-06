@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

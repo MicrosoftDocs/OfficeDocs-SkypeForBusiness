@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Choose a deployment model, develop a responsible-accountable-consulted-informed (RACI) matrix, create execution and governance plans.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

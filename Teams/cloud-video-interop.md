@@ -9,7 +9,7 @@ search.appverid: MET150
 ms.reviewer: srividhc
 description: Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

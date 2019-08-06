@@ -10,7 +10,7 @@ ms.service: msteams
 description: Describes Cloud auto attendants and call queues, and explains how you can answer these calls in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

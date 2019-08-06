@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Choose usage scenarios for the experiment phase of your Teams adoption.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: francoid
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:

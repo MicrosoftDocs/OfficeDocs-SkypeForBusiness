@@ -12,7 +12,7 @@ description: Learn about admin features in Teams free.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

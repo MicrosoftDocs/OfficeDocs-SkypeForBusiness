@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

@@ -10,7 +10,7 @@ ms.reviewer: rowille
 description: Follow the core, to-do tasks and activities in this checklist when you configure Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

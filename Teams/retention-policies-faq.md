@@ -10,7 +10,7 @@ ms.reviewer: anach
 description: Frequently asked questions about retention policies in Microsoft Teams. 
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

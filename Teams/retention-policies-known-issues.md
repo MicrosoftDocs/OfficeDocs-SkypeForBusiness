@@ -10,7 +10,7 @@ ms.reviewer: anach
 description: Current list of known issues for Microsoft Teams retention policies.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Configure a meeting policy to let users share their desktops in Teams chats or meetings
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

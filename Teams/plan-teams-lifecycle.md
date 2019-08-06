@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Learn about how to plan for implementing lifecycle management capabilities in Teams.
 localization_priority: Priority
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:

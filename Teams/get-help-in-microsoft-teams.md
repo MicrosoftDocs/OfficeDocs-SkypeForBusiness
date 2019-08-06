@@ -7,7 +7,7 @@ ms.date: 10/10/2018
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
