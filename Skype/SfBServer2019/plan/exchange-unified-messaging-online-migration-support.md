@@ -61,7 +61,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 3. **Plan your Auto Attendant migration**
     
-    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details. Microsoft plans to deliver additional Auto Attendant capabilities that customers consider critical for their migration by March 2019. Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details. Microsoft continues to deliver additional Auto Attendant capabilities that customers may consider required for their migration, admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Plan for your voicemail post-migration validation and testing**
 
@@ -153,7 +153,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | AA | Service Features | Multi-language support | Language details here: https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | Service Features | Transfer to operator, CQ, or a user |  | Y | Y    |
 | AA | Service Features | Transfer to PSTN number internally (DID RNL)  |  | Y | Y    |
-| AA | Service Features | Transfer to PSTN number externally  |  | Q2CY19 | Y    |
+| AA | Service Features | Transfer to PSTN number externally  |  | Q3CY19 | Y    |
 | AA | Service Features | Business hours |  | Y | Y    |
 | AA | Service Features | Menu options | IVR menu options  | Y | Y    |
 | AA | Service Features | Assigning an cloud PSTN number to AA |  | Y | N    |
