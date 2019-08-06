@@ -53,7 +53,7 @@ Set the following parameters:
 
 ## Create a custom feedback policy
 
-In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback and receive surveys.
+In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback through **Give feedback** and the survey.
 
 ```
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
