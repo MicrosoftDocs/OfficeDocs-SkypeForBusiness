@@ -7,6 +7,7 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
 localization_priority: Normal
 search.appverid: MET150

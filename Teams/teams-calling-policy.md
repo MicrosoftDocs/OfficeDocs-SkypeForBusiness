@@ -7,6 +7,7 @@ ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
+audience: admin
 search.appverid: MET150
 description: Learn about calling policy settings in Microsoft Teams.
 localization_priority: Normal
