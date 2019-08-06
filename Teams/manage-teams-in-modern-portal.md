@@ -127,4 +127,4 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 [Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Use Teams administrator roles to manage Teams](using-admin-roles.md)
-[Plan for lifecycle management in Teams](plan-teams-lifecycle)
+[Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
