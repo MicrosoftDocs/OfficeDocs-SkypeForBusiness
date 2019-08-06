@@ -9,7 +9,7 @@ ms.tgt.pltfrm: lync
 Robots: 
 - nofollow
 - no index
-ms.service: skype-for-business
+ms.service: skype-for-business-online-admin
 ms.collection: Lync
 audience: Admin
 appliesto:
