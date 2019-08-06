@@ -19,11 +19,11 @@ appliesto:
 
 # Location of data in Microsoft Teams
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, Americas, APAC, and EMEA regions. 
+Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, South Korea, South Africa, Americas, APAC, and EMEA regions. 
 
 > [!IMPORTANT]
-> Teams currently offers data residency in Australia, Canada, France, India, Japan, and the United Kingdom for new tenants only. 
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, and Japan will continue to have their Teams data stored in the APAC region. Existing tenants in Canada will continue to have their data stored in the Americas. Existing tenants in France and the United Kingdom will have their data stored in the EMEA region.
+> Teams currently offers data residency in Australia, Canada, France, India, Japan, United Kingdom, South Korea, and South Africa for new tenants only.
+> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, Japan, and South Korea will continue to have their Teams data stored in the APAC region. Existing tenants in Canada will continue to have their data stored in the Americas. Existing tenants in France, United Kingdom, and South Africa will have their data stored in the EMEA region.
 
 To learn more about the launch of India and United Kingdom data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
