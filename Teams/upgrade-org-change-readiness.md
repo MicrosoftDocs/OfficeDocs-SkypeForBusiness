@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Ensure your organization and users are ready for Microsoft Teams
 localization_priority: Normal

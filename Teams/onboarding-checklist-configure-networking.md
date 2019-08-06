@@ -7,6 +7,7 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure your network for Teams.
 localization_priority: Normal
 search.appverid: MET150

@@ -3,6 +3,7 @@ title: Document your Microsoft Teams success plan
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams

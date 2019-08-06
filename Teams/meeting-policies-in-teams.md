@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua 
+ms.reviewer: sonua
+audience: admin 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

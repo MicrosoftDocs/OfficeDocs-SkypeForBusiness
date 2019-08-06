@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams
 localization_priority: Normal
 search.appverid: MET150

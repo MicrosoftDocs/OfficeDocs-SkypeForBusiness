@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams 
 localization_priority: Normal
 search.appverid: MET150

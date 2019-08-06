@@ -7,7 +7,8 @@ manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: 
+audience: admin
+MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviwer: sbhatta

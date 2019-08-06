@@ -6,6 +6,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
 localization_priority: Normal
 search.appverid: MET150

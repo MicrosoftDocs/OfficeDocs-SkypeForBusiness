@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings. 

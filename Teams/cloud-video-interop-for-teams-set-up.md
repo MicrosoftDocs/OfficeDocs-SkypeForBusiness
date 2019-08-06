@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization. 

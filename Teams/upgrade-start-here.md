@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Learn about the upgrade from Skype for Business to Microsoft Teams. 
 localization_priority: Normal
 search.appverid: MET150

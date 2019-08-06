@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection: 

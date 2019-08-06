@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from a Skype for Business hybrid deployment. 
 localization_priority: Normal

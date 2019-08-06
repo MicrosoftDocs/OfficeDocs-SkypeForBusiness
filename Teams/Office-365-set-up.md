@@ -7,6 +7,7 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+audience: admin
 description: Learn how to turn on Microsoft Teams for your Office 365 organization.
 localization_priority: Normal
 ms.custom:

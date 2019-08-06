@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
 description: Learn about admin features in Teams free.

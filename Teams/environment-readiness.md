@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 5/11/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dansteve
 description: Learn what to look for when checking your environment’s readiness for Microsoft Teams.
 localization_priority: Normal

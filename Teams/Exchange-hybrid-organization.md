@@ -5,6 +5,7 @@ ms.author: dstrome
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.

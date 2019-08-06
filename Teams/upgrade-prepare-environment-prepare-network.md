@@ -4,6 +4,7 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance to prepare your network for Teams deployment and rollout 

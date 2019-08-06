@@ -7,6 +7,7 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers. 
 localization_priority: Normal
 search.appverid: MET150

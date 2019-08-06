@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Enlist stakeholders to serve on the project team for your upgrade. 
 localization_priority: Normal

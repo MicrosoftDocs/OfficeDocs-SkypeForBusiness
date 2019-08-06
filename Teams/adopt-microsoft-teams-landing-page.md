@@ -8,6 +8,7 @@ ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
+audience: admin 
 ms.service: msteams
 ms.custom: Adopt
 ms.collection: 

@@ -7,6 +7,7 @@ ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+audience: admin
 description: Learn how to use the Network Planner to determine network requirements for Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150

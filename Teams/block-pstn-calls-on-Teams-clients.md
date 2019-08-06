@@ -6,6 +6,7 @@ ms.reviewer: alklasin
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn how users can block PSTN calls in Microsoft Teams. 
 localization_priority: Normal

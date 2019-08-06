@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: Learn about using the Whiteboard Web app (Preview) in Microsoft Teams

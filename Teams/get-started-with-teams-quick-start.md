@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
 description: Get started with Microsoft Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy widely across your organization.  

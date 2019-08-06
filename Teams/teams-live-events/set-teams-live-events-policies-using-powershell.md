@@ -7,6 +7,7 @@ ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection: 

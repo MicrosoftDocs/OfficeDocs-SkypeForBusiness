@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams. 
 localization_priority: Normal

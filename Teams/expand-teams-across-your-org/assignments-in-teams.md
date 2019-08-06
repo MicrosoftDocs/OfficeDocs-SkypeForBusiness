@@ -5,7 +5,8 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: 
+audience: admin
+MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

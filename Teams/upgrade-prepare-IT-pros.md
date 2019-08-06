@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Prepare IT staff in your organization for deploying and supporting Microsoft Teams. 
 localization_priority: Normal

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Use this guidance if you're in a large org or you have heavily customized your Skype for Business deployment. 
 localization_priority: Normal
 search.appverid: MET150

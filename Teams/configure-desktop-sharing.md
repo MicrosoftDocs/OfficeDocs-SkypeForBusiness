@@ -6,6 +6,7 @@ manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Configure a meeting policy to let users share their desktops in Teams chats or meetings

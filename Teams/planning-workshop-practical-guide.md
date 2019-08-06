@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 localization_priority: Normal
