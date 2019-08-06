@@ -47,7 +47,7 @@ Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** 
 
 ## Limitations
 
-A tenant can contain a maximum of 32,768 call groups. There can be a maximum of 5 users in each call group. 
+A tenant can contain a maximum of 32,768 call groups. There can be a maximum of 25 users in each call group. 
 
 ## More information
 
