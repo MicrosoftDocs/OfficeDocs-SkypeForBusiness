@@ -4,6 +4,7 @@ ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
