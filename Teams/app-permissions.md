@@ -68,7 +68,7 @@ An app must disclose what data it uses and what the data is used for in its term
 - POST_MESSAGE_TEAM. Allows an app's bots to send direct (proactive) messages to any team member at any time, even if the user has never talked to the bot before.
 
 - The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
-- 
+ 
     - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
     - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
@@ -108,7 +108,7 @@ An app must disclose what data it uses and what the data is used for in its term
 <sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the manifest.json file for the app.
 
 > [!NOTE]
-> f a bot has its own sign-in, there's a second—different—consent experience the first time the user signs in.
+> If a bot has its own sign-in, there's a second—different—consent experience the first time the user signs in.
 >
 >Currently, the Azure AD permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are completely separate from the Teams permissions listed here.
 
