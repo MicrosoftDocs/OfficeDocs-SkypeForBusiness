@@ -3,6 +3,7 @@ title: 'Example XMPP configuration – XMPP federation with Google Talk'
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+manager: serdars
 audience: admin
 TOCTitle: Example XMPP configuration – XMPP federation with Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
