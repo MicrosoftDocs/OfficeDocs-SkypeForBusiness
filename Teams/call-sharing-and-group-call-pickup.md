@@ -43,7 +43,9 @@ To set up group call pickup, a user first configures a call group (this is not t
 
 Call group creation and notification preferences are user-driven features; administrators do not have to configure these features for their users. Call groups cannot be created from security groups or Office 365 groups; they must be created in Teams.
 
-Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** setting for a user. Admins can only control whether this user can configure call groups. Once the bit is set to true, admins cannot prevent the user from configuring and adding the call group users of their choice.
+Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** setting for a user. Admins can also enable this via Teams Admin portal.  In addition, the configured user can also configure their call groups via the client directly. Admin or end users cannot block the configuration by each other, but Teams Admin portal and Teams client should show this relationship accurately in both places. 
+
+Important: When admins turn off call groups for users (after it has been turned on and the call group relationships are configured), the admins have to clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing. 
 
 ## Limitations
 
