@@ -22,17 +22,17 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
+Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 **The Give feedback feature**
 
-Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in the Teams clients. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
+Users can send comments and suggestions about Teams to Microsoft by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **User survey**
 
-Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in the Teams desktop client. When a user clicks **Provide feedback** in the notification, they survey form is displayed for them to complete.
+Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When the user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
 
 ![Screen shot of the survey form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
@@ -44,12 +44,10 @@ You can edit the global policy or create and assign a custom policy. If a user i
 
 Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
-You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.
-
-Set the following parameters:
+You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. Set the following parameters to turn off and turn on the features:
 
  - **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
- - **Survey**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
+ - **Survey**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
 
 ## Create a custom feedback policy
 
