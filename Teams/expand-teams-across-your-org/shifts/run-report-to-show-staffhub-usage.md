@@ -6,6 +6,7 @@ ms.reviewer: lisawu
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn how to run a report to get a list of active StaffHub users in your organization.
 localization_priority: Normal

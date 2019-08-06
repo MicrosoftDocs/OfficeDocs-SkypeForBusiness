@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
