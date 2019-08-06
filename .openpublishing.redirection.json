@@ -1179,7 +1179,7 @@
     {      
       "source_path": "Teams/phone-system-with-calling-plans.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page", 
-      "redirect_document_id": true 
+      "redirect_document_id": false 
     },
     {      
       "source_path": "Teams/what-are-calling-plans-in-office-365.md", 
