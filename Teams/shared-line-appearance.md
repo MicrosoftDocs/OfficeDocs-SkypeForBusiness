@@ -38,7 +38,11 @@ Both managers and delegates need to be enterprise voice enabled. The shared line
 
 Delegation and shared line appearance are user-driven features: there are no admin settings to configure. For information about how to use the feature, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-The tenant admin should enable delegation via the **TeamsCallingPolicy AllowDelegation** setting for this feature to work.
+The tenant admin can enable delegation via the **TeamsCallingPolicy AllowDelegation** setting or via Teams Admin Portal for this feature to work. 
+
+The tenant admin can also configure delegation relationships for a user via Teams Admin Portal. In addition, the end user can also configure their delegation relationships via the client directly. The Tenant admin or the user cannot block the configuration by each other, but Teams Admin portal and Teams client should show this relationship accurately in both places. 
+
+Important: When The tenant admin disable delegation for a user (after it has been enabled), please ensure that the tenant admin cleans up the delegation relationships for that user via Teams Admin Portal to avoid incorrect call routing.
 
 ## Shared line appearance feature availability
 
