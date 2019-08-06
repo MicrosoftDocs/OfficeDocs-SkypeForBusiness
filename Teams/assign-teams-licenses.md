@@ -6,7 +6,6 @@ manager: serdars
 audience: ITPro
 ms.date: 12/14/2018
 ms.topic: article
-audience: admin 
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help

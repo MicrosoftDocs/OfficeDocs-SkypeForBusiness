@@ -6,6 +6,7 @@ manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 

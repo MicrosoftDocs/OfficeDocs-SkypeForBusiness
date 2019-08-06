@@ -7,6 +7,7 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: Learn the best practices for user feedback methods in Microsoft Teams to ensure the best team experience possible.
 localization_priority: Normal
 search.appverid: MET150

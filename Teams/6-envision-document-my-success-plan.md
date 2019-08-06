@@ -6,7 +6,6 @@ manager: serdars
 audience: ITPro
 ms.date: 03/13/2018
 ms.topic: conceptual
-audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille

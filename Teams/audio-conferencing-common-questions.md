@@ -14,7 +14,6 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
