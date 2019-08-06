@@ -3,11 +3,10 @@ title: Manage teams in the Microsoft Teams admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/27/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: islubin 
+ms.reviewer: islubin, jastark 
 description: "Learn how to view or update your teams in the Microsoft Teams admin center."
 localization_priority: Normal
 ms.custom:
@@ -22,7 +21,6 @@ appliesto:
 Manage teams in the Microsoft Teams admin center
 ==========================================
 
-
 ## Overview
 
 As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
@@ -36,7 +34,7 @@ This article provides an overview of the management tools for teams in the Micro
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 ![Screen shot of the Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -49,28 +47,24 @@ The grid displays the following properties:
 - **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
 - **Privacy** - the Visibility/AccessType of the backing Office 365 group.
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **GroupID** - the unique GroupID of the backing Office 365 group
+- **Description** - the description of the backing Office 365 group.
 - **Classification** - the classification (if used in your organization) assigned to the backing Office 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **Description** - the description of the backing Office 365 group
+- **GroupID** - the unique GroupID of the backing Office 365 group.
 
 > [!NOTE]
-> If you don't see all these properties in the grid, click the Settings icon. The **Edit columns** pane appears. You can use the toggles to turn on or turn off columns in the grid. When you are finished, click **Save**.
+> If you don't see all these properties in the grid, click the **Edit columns** icon. In the **Edit columns** pane, you can use the toggles to turn on or turn off columns in the grid. When you're finished, click **Apply**.
 
 ### New team
 
-You can add a new team. Select the **New team** button, and then in the **Create a new team** pane, give the team a name and description.
-
-![Screen shot of the Edit team options](media/manage-teams-in-modern-portal-image4.png)
+To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team, and set the classification.
 
 ### Edit
 
-You can edit group and team-specific settings by selecting a team from the grid and then selecting the **Edit** button.
-
-![Screen shot of the Edit team options](media/manage-teams-in-modern-portal-image2.png)
+To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
 
 ### Archive
 
-You can archive a team. Archiving a team puts the team into read-only mode within Microsoft Teams. As an admin, you can archive and unarchive teams on behalf of your organization via the admin portal.
+You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
 
 ### Delete
 
@@ -82,37 +76,34 @@ Search currently supports the string "Begins with" and searches the **Team name*
 
 ## Team profile
 
-You can navigate to the team profile page of any team from the main teams overview grid by clicking on the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings. From the team profile page, you can:
+You can navigate to the team profile page of any team from the main teams overview grid by clicking  the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings. From the team profile page, you can:
 
 - Add or remove members and owners.
-- Add or remove channels (note that you cannot remove the General channel).
+- Add or remove channels (note that you can't remove the General channel).
 - Update team and group settings.
  
 ![Screen shot of an example team profile](media/manage-teams-in-modern-portal-image3.png)
 
 ## Making changes to teams
 
-On the team's profile page, click **Edit** to change the following elements of a team:
+On the team's profile page, you can change the following elements of a team:
 
-- **Team members** - add or remove members and promote or demote owners.
-- **Channels** - add new channels or remove existing channels. You cannot delete the default **General** channel. Once created, you can only edit the channel name, not the description.
+- **Members** - add or remove members and promote or demote owners.
+- **Channels** - add new channels or remove existing channels. You can't delete the default **General** channel. 
 - **Team name**
 - **Description**
-- **Privacy** - choose public or private.
-- **Classification** - backed by your Office 365 group classifications. Choose **Confidential**, **Highly Confidential**, or **General**.
-- **Conversations** - members can edit sent messages.
-- **Channels** - members can create new channels and edit existing ones, and add, edit, and remove tabs, connectors, and apps.
-- **Team member settings** - select team member settings.
+- **Privacy** - set whether the team is public or private.
+- **Classification** - this is backed by your Office 365 group classifications. Choose **Confidential**, **Highly Confidential**, or **General**.
+- **Conversations settings** - set whether members can edit and delete sent messages.
+- **Channels settings** - set whether members can create new channels and edit existing ones, and add, edit, and remove tabs, connectors, and apps.
 
-You can also archive or delete a team by selecting the team name on the grid and clicking **Archive** or **Delete**.
-
-The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), the changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
+The changes that you make to a team are logged. If you're modifying group settings (changing the name, description, photo, privacy, classification, or team members), the changes are attributed to you through the audit pipeline. If you're performing actions against Teams-specific settings, your changes are tracked and attributed to you in the General channel of the team.
 
 ## Troubleshooting
 
-**Issue: Teams missing from the Team Overview Grid**
+**Issue: Teams missing from the Team overview grid**
 
-When you enter the Microsoft Teams admin center, under the **Teams** option some of your teams are missing from the listing in the Teams overview grid.
+Some of your teams are missing from the list of teams in the Teams overview grid.
 
 **Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
 
@@ -134,9 +125,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 ## Learn more
 
-[Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
-[Admin roles in Microsoft Teams](using-admin-roles.md)
-<!--
-[Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
--->
-
+[Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+[Use Teams administrator roles to manage Teams](using-admin-roles.md)
+[Plan for lifecycle management in Teams](plan-teams-lifecycle)
