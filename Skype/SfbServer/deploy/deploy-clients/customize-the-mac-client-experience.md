@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
