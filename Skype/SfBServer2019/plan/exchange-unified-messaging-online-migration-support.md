@@ -19,7 +19,7 @@ In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/
  
 ExchUMO is deployed by customers for voicemail, Auto Attendant, and/or fax integration services. Microsoft plans to help these customers migrate to its cloud-based services that support thousands of customers already on Skype for Business Online and Microsoft Teams. 
 
-Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto Attendant is an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Cloud Auto Attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced last year in [this blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
+Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto attendants and call queues ihave an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Phone System auto attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced last year in [this blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
 ), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the cloud-based services; customers will need to migrate to a third-party solution. 
 
 ### Who is affected?
@@ -28,6 +28,7 @@ Customers who are consuming any of the following features from Exchange Unified 
 
 - Voicemail service
 - Auto Attendant service
+- Call Queue service
 - Fax integration
 
 > [!Note]
@@ -61,7 +62,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 3. **Plan your Auto Attendant migration**
     
-    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details. Microsoft plans to deliver additional Auto Attendant capabilities that customers consider critical for their migration by March 2019. Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins can start migrating their Auto Attendants from ExchUMO to the Phone System auto attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details.  Admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Plan for your voicemail post-migration validation and testing**
 
