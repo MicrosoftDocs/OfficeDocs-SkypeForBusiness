@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to turn on or off Microsoft Teams org-wide settings for your organization, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
