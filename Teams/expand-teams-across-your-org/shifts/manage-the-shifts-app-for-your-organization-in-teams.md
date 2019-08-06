@@ -43,13 +43,19 @@ Shifts data is currently stored in Azure in data centers in North America, Weste
 
 ### Enable or disable Shifts in your organization
 
-Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app for your organization in the Microsoft 365 admin center.
+Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app org-wide by using org-wide settings in app permission policies in the Microsoft Teams admin center.
 
-1. Sign in to the Microsoft 365 admin center with your Office 365 admin account.
-2. Go to **Settings** > **Services & add-ins** > **Microsoft Teams**. 
-3. Under **Tenant-wide settings**, select **Apps**, and then under **Default Apps**, clear or select the **Shifts** check box to turn off or turn on the app. 
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies** .
+2. Click **Org-wide settings**.
+3. In the **Org-wide settings** panel, under **Blocked apps**, do one of the following:
 
-    ![Screen shot of the Default Apps section](../../media/firstline-worker-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
+    - To turn off Shifts for your organization, search for the Shifts app, and click **Add** to add it to the blocked apps list.
+    - To turn on Shifts for your organization, remove the Shifts app from the blocked apps list.
+4. Click **Save**. 
+
+### Enable or disable Shifts for specific users in your organization
+
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization in org-wide settings, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
 ### Use the FirstlineWorker app setup policy to pin Shifts to Teams
 
