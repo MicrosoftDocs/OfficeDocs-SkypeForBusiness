@@ -14,7 +14,7 @@
     {
       "source_path": "Teams/upgrade-introduction.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here",
-      "redirect_document_id": true 
+      "redirect_document_id": false 
       },
     {
       "source_path": "Teams/healthcare/healthcare-templates.md",
@@ -24,7 +24,7 @@
     {
       "source_path": "Teams/teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired",
-      "redirect_document_id": true 
+      "redirect_document_id": false 
       },
       {
         "source_path": "Teams/microsoft-staffhub-to-be-retired.md",
@@ -1169,7 +1169,7 @@
     {      
       "source_path": "Teams/Deployment-overview.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page", 
-      "redirect_document_id": true 
+      "redirect_document_id": false 
     },
     {      
       "source_path": "Teams/get-started-with-teams-landing-page.md", 
@@ -1414,7 +1414,7 @@
     {
       "source_path": "Teams/journey-skypeforbusiness-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here", 
-      "redirect_document_id": true 
+      "redirect_document_id": false 
     },
     {
       "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md", 
