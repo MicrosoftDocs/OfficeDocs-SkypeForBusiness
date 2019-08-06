@@ -40,7 +40,7 @@ Also see:
 
 The following requirements assume that you already have Skype for Business Server 2019 deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Cloud auto attendants. For more information, see [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
+- If you are already using Exchange UM online or on-premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Cloud auto attendants. For more information, see [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - For a new configuration of Cloud auto attendants, follow the steps outlined in  [Configure resource accounts](configure-onprem-ra.md).
 
@@ -51,14 +51,14 @@ In addition to the requirements above, the below requirements must be configured
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
 - If you're assigning a phone number to to your auto attendant, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license.
-- Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) for each auto attendant, and assign phone numbers and licenses. 
+- Create an online [resource account](/MicrosoftTeams/manage-resource-accounts.md) or on-premises [resource account](configure-onprem-ra.md)for each auto attendant, and assign phone numbers and licenses. 
 
 ## Migration and interoperability
 
 If you are planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued support for auto attendants. Keep the following in mind:
 
 - Exchange Server 2019 no longer provides Exchange UM functionality
-- Exchange Unified Messaging Online is in retirement mode
+- Exchange Unified Messaging is in retirement mode
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
 Cloud auto attendants can be configured with Skype for Business Server 2019, 2015, and 2013.
@@ -86,7 +86,7 @@ See [Moving an Exchange UM auto attendant or call queue to Phone System](configu
 
 ## Additional planning resources
 
-The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Online Admin center. review the tutorial and use the exercises there to create your plan.
+The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Teams admin center. Review the tutorial and use the exercises there to create your plan.
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure resource accounts](configure-onprem-ra.md).
 
