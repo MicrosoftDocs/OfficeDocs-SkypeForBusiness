@@ -5,6 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 ms.topic: quickstart
+audience: admin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "Before you migrate updates must be applied to your environment. For the most up-to-date information, see Updates Resource Center at https://go.microsoft.com/fwlink/p/?linkid=232630."
