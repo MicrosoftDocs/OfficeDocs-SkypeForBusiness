@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business-online-admin
+ms.service: skype-for-business-online
 ms.collection: Lync
 audience: Admin
 appliesto:
