@@ -5,7 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: End User
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c

@@ -5,7 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "The procedures outlined in this topic are designed to guide you through the process of removing an Enterprise Edition Front End pool or a Standard Edition Front End Server. After migrating to Skype for Business Server 2019, this is one of the first steps to decommissioning your legacy environment."

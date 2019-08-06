@@ -5,7 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "The migration of the Call Park application includes provisioning the Skype for Business Server 2019 pool with any custom music on hold files that have been uploaded in the legacy install, restoring the service level settings and retargeting all Call Park orbits to the Skype for Business Server 2019 pool. If customized music-on-hold files have been configured in the pool, these files need to be copied to the new Skype for Business Server 2019 pool. Additionally, it is recommended that you back up any Call Park customized music-on-hold files from to another destination to keep a separate backup copy of any customized music-on-hold files that have been uploaded for Call Park. The customized music-on-hold files for the Call Park application are stored in the file store of the pool. To copy the audio files from a pool file store to a Skype for Business Server 2019 file store, use the Xcopy command with the following parameters:"

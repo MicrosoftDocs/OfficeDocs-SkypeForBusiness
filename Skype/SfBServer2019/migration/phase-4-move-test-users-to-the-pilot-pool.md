@@ -5,7 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "You can move a single user or groups of users to your new Microsoft Skype for Business Server 2019 deployment using the following two methods: Skype for Business Server Control Panel and Skype for Business Server Management Shell. The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment."

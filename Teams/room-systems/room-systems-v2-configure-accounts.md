@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
