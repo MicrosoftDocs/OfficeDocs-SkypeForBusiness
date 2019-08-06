@@ -38,7 +38,7 @@ A Teams app package is created by using [Teams App Studio](https://docs.microsof
 
 ### Go to the Tenant Apps Catalog
 
-Start the Microsoft Teams client and sign-in using your global or teams service admin credentials. From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
+Start the Microsoft Teams client and sign in using your global or teams service admin credentials. From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image01.png)
 
