@@ -1,9 +1,4 @@
 <!-- ============================================================ -->
-### [Audio Conferencing with Direct Routing for GCCH and DOD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 
-### [Direct Routing special considerations for GCCH and DODg](special-considerations-for-gcch-and-dodg.md) 
-
- 
-<!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)  
