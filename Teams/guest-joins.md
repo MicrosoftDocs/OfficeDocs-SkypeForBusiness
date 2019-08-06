@@ -7,7 +7,7 @@ ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta

@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
