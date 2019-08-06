@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
+ms.service: ms.teams
 ms.collection: Teams
 audience: Admin
 appliesto:
