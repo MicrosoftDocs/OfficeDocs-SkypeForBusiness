@@ -3,6 +3,7 @@ title: 'Lync Server 2013: Protecting data in transit – archiving, monitoring, 
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+manager: serdars
 audience: admin
 TOCTitle: Protecting data in transit – archiving, monitoring, group chat compliance server databases in Lync Server 2013
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
