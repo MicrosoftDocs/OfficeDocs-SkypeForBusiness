@@ -81,11 +81,11 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 
 |Client |Location |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*.blog         |
-|            |%appdata%\Microsoft\Teams\skylib\*.blog
-|            |%appdata%\Microsoft\Teams\media-stack\*.etl         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/skylib\*.blog         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*.blog         |
+|            |%appdata%\Microsoft\Teams\skylib\\*.blog
+|            |%appdata%\Microsoft\Teams\media-stack\\*.etl         |
+|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
+|            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
 
 
 
