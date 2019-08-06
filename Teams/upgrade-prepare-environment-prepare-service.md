@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Use this guidance to prepare your tenant for Teams deployment and rollout 
 localization_priority: Normal

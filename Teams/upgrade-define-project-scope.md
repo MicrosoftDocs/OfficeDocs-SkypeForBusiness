@@ -4,6 +4,7 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Scope your upgrade project by refining your vision and goals. 

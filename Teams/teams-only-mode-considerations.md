@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Prepare for your upgrade to Microsoft Teams Only mode 

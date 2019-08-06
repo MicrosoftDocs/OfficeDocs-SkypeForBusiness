@@ -7,6 +7,7 @@ layout: HubPage
 ms.topic: hub-page
 ms.date: 7/1/19
 ms.service: msteams
+audience: admin
 ms.collection: 
 - Teams_ITAdmin_Training
 - Teams_ITAdmin_JourneyFromSfB
