@@ -45,7 +45,7 @@ Call group creation and notification preferences are user-driven features; admin
 
 Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** setting for a user. Admins can also enable this via Teams Admin portal.  In addition, the configured user can also configure their call groups via the client directly. Admin or end users cannot block the configuration by each other, but Teams Admin portal and Teams client should show this relationship accurately in both places. 
 
-Important: When admins disable call groups for users (after it has been enabled and the call group relationships are configured), the admins have to clean up the call group relationships for user via Teams Admin Portal to avoid incorrect call routing. 
+Important: When admins turn off call groups for users (after it has been turned on and the call group relationships are configured), the admins have to clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing. 
 
 ## Limitations
 
