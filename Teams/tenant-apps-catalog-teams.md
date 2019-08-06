@@ -30,7 +30,7 @@ To publish apps for your organization, sign in to your Teams client using an acc
 ## Publish an app in the Tenant Apps Catalog from the Teams client
 
 > [!NOTE]
-> You need to be signed in to the Microsoft Teams client using an account that has either the global admin or teams service admin role enabled to publish apps for your organization.  [Learn more about the admin roles for managing teams](https://docs.microsoft.com/en-us/MicrosoftTeams/using-admin-roles).
+> You need to be signed in to the Microsoft Teams client with an account that has either the global admin or teams service admin role enabled to publish apps for your organization. Learn more about [using administrator roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
 
 ### Get a Teams app package
 
