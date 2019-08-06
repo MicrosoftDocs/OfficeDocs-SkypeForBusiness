@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 05/09/2019
 ms.topic: reference
+audience: admin
 ms.service: msteams
 ms.reviewer: anach
 description: Learn about where data is stored in Microsoft Teams. 
