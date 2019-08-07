@@ -11,7 +11,7 @@ audience: admin
 description: Learn the decisions you should make when planning for Office 365 Groups such as choosing Public and Private groups, using the Teams client or the Office 365 admin web console, and how to educate your teams about using conversations.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

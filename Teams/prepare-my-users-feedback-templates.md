@@ -11,7 +11,7 @@ audience: admin
 description: Gather user feedback to improve cloud voice implementation in Microsoft Teams or Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

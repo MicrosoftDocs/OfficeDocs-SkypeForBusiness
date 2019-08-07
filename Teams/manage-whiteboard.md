@@ -13,7 +13,7 @@ description: Learn about using the Whiteboard Web app (Preview) in Microsoft Tea
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

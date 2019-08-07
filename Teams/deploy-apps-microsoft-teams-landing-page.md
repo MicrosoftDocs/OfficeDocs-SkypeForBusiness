@@ -9,7 +9,7 @@ manager: serdars
 audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority

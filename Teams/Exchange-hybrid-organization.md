@@ -11,7 +11,7 @@ ms.reviewer: dstrome
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

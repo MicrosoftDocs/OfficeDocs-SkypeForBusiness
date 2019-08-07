@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin 
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

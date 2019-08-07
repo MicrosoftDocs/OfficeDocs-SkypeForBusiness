@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about Direct Routing, licensing, and the decisions that need to be made.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

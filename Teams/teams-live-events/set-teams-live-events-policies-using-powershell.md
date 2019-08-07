@@ -10,7 +10,7 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and features that are available in the events that they create

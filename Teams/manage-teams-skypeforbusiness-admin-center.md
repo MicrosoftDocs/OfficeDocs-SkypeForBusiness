@@ -14,7 +14,7 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

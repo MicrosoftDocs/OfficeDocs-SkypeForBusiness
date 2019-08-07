@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - Teams_ITAdmin_Training
 - M365-collaboration

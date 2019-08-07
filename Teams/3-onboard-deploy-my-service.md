@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Download the Site Enablement Playbook to plan your Teams rollout and accelerate and optimize user adoption, perception of quality, and satisfaction.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

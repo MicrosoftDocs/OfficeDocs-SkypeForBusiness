@@ -11,7 +11,7 @@ description: Stopgap for upgrading to Teams if the Admin Center hasn't lit up in
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:

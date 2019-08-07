@@ -7,7 +7,7 @@ ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach

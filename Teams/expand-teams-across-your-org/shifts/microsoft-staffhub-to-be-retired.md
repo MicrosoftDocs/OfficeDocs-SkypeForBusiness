@@ -10,7 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 description: 
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---

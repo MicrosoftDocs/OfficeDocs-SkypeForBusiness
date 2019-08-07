@@ -11,7 +11,7 @@ ms.date: 10/31/2018
 audience: admin 
 ms.service: msteams
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 search.appverid: MET150

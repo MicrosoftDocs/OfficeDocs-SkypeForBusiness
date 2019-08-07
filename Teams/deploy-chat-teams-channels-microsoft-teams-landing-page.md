@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams
 localization_priority: Priority
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

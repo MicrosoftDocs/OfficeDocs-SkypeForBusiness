@@ -11,7 +11,7 @@ ms.reviewer: rowille
 audience: admin
 description: Regularly evaluate opportunities to enhance the Teams service, monitor the Teams roadmap for any interesting feature enhancements.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

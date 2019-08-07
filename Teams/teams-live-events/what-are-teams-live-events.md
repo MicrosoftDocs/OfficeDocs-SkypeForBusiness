@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua

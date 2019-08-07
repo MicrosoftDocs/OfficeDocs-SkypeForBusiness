@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag

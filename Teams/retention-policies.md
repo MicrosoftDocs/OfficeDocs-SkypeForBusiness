@@ -11,7 +11,7 @@ ms.reviewer: anach
 description: Learn about how to retention policies and how to manage them in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

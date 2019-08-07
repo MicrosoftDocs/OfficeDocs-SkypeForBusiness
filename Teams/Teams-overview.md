@@ -11,7 +11,7 @@ ms.reviewer: LolaJ
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Office 365.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

@@ -6,13 +6,13 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

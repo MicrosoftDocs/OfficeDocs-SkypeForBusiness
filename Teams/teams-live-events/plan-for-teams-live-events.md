@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

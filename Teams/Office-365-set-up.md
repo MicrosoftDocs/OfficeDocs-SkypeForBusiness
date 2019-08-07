@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

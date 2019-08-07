@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Create a plan to drive user adoption by defining your goals, understanding what acceptance looks like, and providing training and support.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
