@@ -32,7 +32,6 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            | --- |
 |Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs after the Windows 10 Creators Update (version 1703) is installed on the Surface Pro 4 on which Microsoft Teams Rooms is running. | To work around this issue, manually open the virtual keyboard. To do this, follow these steps:<br><br> **1.** Tap and hold the task bar, and then tap **Show touch keyboard** button. A keyboard icon should appear on the right side of the task bar. <br><br> **2.** Tap the keyboard icon to open the virtual keyboard. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
-   
 
 <a name="Hardware"> </a>  
 ## Hardware
@@ -40,21 +39,29 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            |   --- |
 | Monitors not detected | When you run Microsoft Teams Rooms on a Surface Pro (Model 2017) device, monitors are not detected. |  Hold down the Surface Pro power button for 20 or more seconds. When you do this, the device restarts and clears the graphics cache. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
-          
+
 <a name="Limits"> </a>
 ## Limitations and expected behaviors
+
 ***
+
 Microsoft Teams Rooms does not support HDCP input, which has been observed to cause issues with HDMI ingest functionality (video, audio). Take care to ensure that switches connected to Microsoft Teams Rooms have HDCP options turned off. 
+
 ***
-A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
+
+A consumer TV used as a front of room display must support the Consumer Electronics Control (CEC) feature of HDMI to switch automatically to an active video source from standby mode. This feature is not supported on all TVs.
+
 ***
-Always use a wired 1 Gbps network connection to assure you will have the needed bandwidth. 
+
+Always use a wired 1-Gbps network connection to assure you have the needed bandwidth. 
+
 ***
-If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
+
+If your Microsoft Teams Rooms device loses trust with the domain, you won't be able to authenticate into the device and open up Settings. For example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined, trust is lost. The workaround is to log in with the local Admin account. 
 ***
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0. 
 ***
-Microsoft Teams Room is a multi-window application and requires a front of room display to be connected to the HDMI port of the device, for the app to function correctly. Make sure you either have an HDMI display connected or use a dummy HDMI plug if you are testing and do not have a display purchased yet.
+Microsoft Teams Rooms is a multi-window application and requires a front of room display to be connected to the HDMI port of the device, for the app to function correctly. Make sure that you either have an HDMI display connected or use a dummy HDMI plug if you are testing and do not have a display purchased yet.
 ***
 <a name="See"> </a>  
 ## See also
