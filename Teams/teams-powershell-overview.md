@@ -6,6 +6,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.collection: 
 - M365-collaboration

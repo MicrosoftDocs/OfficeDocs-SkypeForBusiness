@@ -7,6 +7,7 @@ ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn how to enable Location-Based Routing for Direct Routing.
 localization_priority: Normal
