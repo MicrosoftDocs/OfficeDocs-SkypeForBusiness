@@ -23,7 +23,7 @@ Manage teams in the Microsoft Teams admin center
 
 ## Overview
 
-As an admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
+As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
 - Global Administrator
 - Teams Service Administrator
@@ -54,7 +54,7 @@ The grid displays the following properties:
 > [!NOTE]
 > If you don't see all these properties in the grid, click the **Edit columns** icon. In the **Edit columns** pane, you can use the toggles to turn on or turn off columns in the grid. When you're finished, click **Apply**.
 
-### New team
+### Add
 
 To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team, and set the classification.
 
@@ -89,7 +89,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 On the team's profile page, you can change the following elements of a team:
 
 - **Members** - add or remove members and promote or demote owners.
-- **Channels** - add new channels,and edit or remove existing channels. Remember that you can't delete the default General channel.
+- **Channels** - add new channels, and edit or remove existing channels. Remember that you can't delete the default General channel.
 - **Team name**
 - **Description**
 - **Privacy** - set whether the team is public or private.
@@ -125,6 +125,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 ## Learn more
 
-[Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
-[Use Teams administrator roles to manage Teams](using-admin-roles.md)
-[Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+- [Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Use Teams administrator roles to manage Teams](using-admin-roles.md)
+- [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
