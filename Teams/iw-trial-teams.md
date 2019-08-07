@@ -10,7 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority : Priority
 description: "Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -34,7 +34,7 @@ The service plans included in this offer are:
 - Forms
 - Microsoft Planner
 - Microsoft Teams (Teams1, Teams IW)
-- Office Online
+- Office 
 - PowerApps for Office 365 Plan 1
 - SharePoint Online Kiosk
 - Stream

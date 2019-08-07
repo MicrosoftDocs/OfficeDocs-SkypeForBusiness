@@ -247,7 +247,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Sign in to Microsoft 365 with your work or school account.
 
-2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
+2. In the left navigation of the admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
 
 3. On the **Communications Credits** subscription page, fill in your information, and then click **Next**.
 

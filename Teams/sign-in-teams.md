@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.reviewer: 
 description: How to sign in to Microsoft Teams by using modern authentication.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

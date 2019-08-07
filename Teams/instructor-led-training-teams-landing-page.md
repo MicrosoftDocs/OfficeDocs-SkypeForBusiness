@@ -7,6 +7,7 @@ manager: serdars
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
 localization_priority : Priority
 author: lanachin
+audience: admin
 ms.topic: hub-page
 ms.author: v-lanac
 ms.service: msteams
@@ -30,7 +31,7 @@ ms.collection:
                                 </div>
                             </li>
                             <li>
-                                <a href="https://microsoftteams.eventbuilder.com/This%20is%20Teams">
+                                <a href="https://microsoftteams.eventbuilder.com/This%20is%20Teams"target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -49,7 +50,7 @@ ms.collection:
                                 </a>
                             </li>
                             <li>
-                                <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">
+                                <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -68,7 +69,7 @@ ms.collection:
                                 </a>
                             </li>
                             <li>
-                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -87,7 +88,7 @@ ms.collection:
                             </a>
                         </li>
                         <li>
-                            <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -98,7 +99,7 @@ ms.collection:
                                             </div>
                                             <div class="cardText">
                                                 <h3>Manage your upgrade from Skype for Business to Teams</h3>
-                                                <p>Plan & implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
+                                                <p>Plan and implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +107,7 @@ ms.collection:
                             </a>
                         </li>
                             <li>
-                            <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams">
+                            <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -125,7 +126,7 @@ ms.collection:
                             </a>
                         </li>
                         <li>
-                            <a href="https://aka.ms/TeamsEduWebinars">
+                            <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -142,9 +143,9 @@ ms.collection:
                                     </div>
                                 </div>
                             </a>
-                        </li>
+                        </li> 
                         <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -163,7 +164,7 @@ ms.collection:
                             </a>
                         </li>
                         <li> 
-                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -174,7 +175,7 @@ ms.collection:
                                             </div>
                                             <div class="cardText">
                                                 <h3>Firstline Workers with Teams</h3>
-                                                <p>Learn about the newly released firstline worker capabilities in Teams. (Audience: End users)</p>
+                                                <p>Learn about the firstline worker capabilities in Teams. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -182,7 +183,7 @@ ms.collection:
                             </a>
                         </li>
                         <li> 
-                            <a href="https://aka.ms/TeamsForGov">
+                            <a href="https://aka.ms/TeamsForGov"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">

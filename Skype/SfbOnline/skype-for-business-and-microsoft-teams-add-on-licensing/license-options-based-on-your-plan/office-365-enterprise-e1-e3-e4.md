@@ -39,7 +39,7 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 ## E1 and E3 customers: How to see prices and buy
 <a name="bkmk_buypremium"> </a>
 
-1. Sign in to the Office 365 admin center.
+1. Sign in to the admin center.
 
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
 
@@ -54,14 +54,14 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
-2. Sign in to the Office 365 admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
+2. Sign in to the admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
 
     Now you'll see the prices and option to buy the **Phone System** and **Audio Conferencing** add-ons.
 
 ## Why don't I see the option to buy add-ons?
 <a name="bkmk_how"> </a>
 
-In a few situations, you won't see the option to buy Skype for Business add-ons in the Office 365 admin center.
+In a few situations, you won't see the option to buy Skype for Business add-ons in the Microsoft 365 admin center.
 
 - **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Skype for Business add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell), and then you can buy them. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

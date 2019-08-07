@@ -31,7 +31,7 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
   
 1. Sign in with your Office 365 admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
-2. In the Office 365 admin center, go to **Admin Centers** > **Skype for Business**. 
+2. In the admin center, go to **Admin Centers** > **Skype for Business**. 
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   

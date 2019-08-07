@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 04/03/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Guidance for using Skype for Business and Microsoft Teams side by side.

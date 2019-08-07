@@ -6,11 +6,12 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Plan for your upgrade by enlisting stakeholders first, and then scoping the project. 
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
@@ -26,3 +27,8 @@ A healthy technical environment, sustained user adoption, and the realization of
 - [Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).
 - [Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope).
 - [Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!TIP]
+> Join us for live, interactive workshops in which we’ll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
+>
+> Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.

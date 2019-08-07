@@ -216,7 +216,7 @@ For a file transfer policy:
 
 The new policies you have created will not take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 This command can be run from any command window that is running under administrator credentials. To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.
 

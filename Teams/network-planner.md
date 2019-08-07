@@ -7,10 +7,11 @@ ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+audience: admin
 description: Learn how to use the Network Planner to determine network requirements for Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
@@ -19,7 +20,7 @@ appliesto:
 
 # Use the Network Planner for Microsoft Teams
 
-Welcome to the Network Planner. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+Network Planner is a new tool that is available in the Teams admin center. It can be found by going to **Org-wide settings** > **Network planner**. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 ![Screenshot of Network Planner](media/network-planner.png)
 
@@ -31,6 +32,8 @@ Network Planner allows you to:
     > The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the three recommended personas.
 
 - Generate reports and calculate bandwidth requirements for Teams usage.
+
+To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.
 
 ## Create a custom persona
 
@@ -90,3 +93,7 @@ After you add all sites, you can create a report, as follows.
     - An additional view will show the overall bandwidth needs with recommendations.
 
 4. Click **Save**. Your report will be available on the reports list for later viewing.
+
+## Example scenario
+
+For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the [Network Planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (English only).

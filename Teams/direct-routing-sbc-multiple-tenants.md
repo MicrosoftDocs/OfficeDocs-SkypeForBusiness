@@ -53,6 +53,7 @@ For the detailed steps on how to deploy and configure SBCs for an SBC hosting sc
 
 - **AudioCodes:** [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), the configuration of the SBC hosting scenario described in “Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note.” 
 - **Ribbon Communications:**  Please refer to the [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) for documentation on how to configure Ribbon Core Series SBCs and to this page [Ribbon Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **TE-Systems (anynode):**  Please register on the [TE-Systems Community page](https://community.te-systems.de/) for documentation and examples on how to configure anynode SBC for multiple tenants.
 
 > [!NOTE]
 > Please pay attention to how to configure the “Contact” header. The Contact header is used to find the customer tenant on the incoming invite message. 
@@ -109,7 +110,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 1.	In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 2.	In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
-    ![Screen shot showing the Add a domain page]](media/direct-routing-2-sbc-add-domain.png)
+    ![Screen shot showing the Add a domain page](media/direct-routing-2-sbc-add-domain.png)
 
 3. Click **Next**.
 4. In the example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because customers.adatum.biz is a subdomain for the already registered name. However, if you add an FQDN that has not been verified before, you will need to go through the process of verification. The process of verification is [described below](#add-a-subdomain-to-the-customer-tenant-and-verify-it).

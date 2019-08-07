@@ -27,13 +27,13 @@ The new Skype for Business **Reports** dashboard shows you the activity overview
  Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you sign in as an administrator to the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you sign in as an administrator to the Microsoft 365 admin center. 
   
 ## How to get to the Skype for Business users blocked report
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-- Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **Users blocked**.
+- Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **Users blocked**.
     
 ## Interpret the Skype for Business users blocked report
 
@@ -80,7 +80,7 @@ This exports data of all users and enables you to do simple sorting and filterin
 - [Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.
    
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -89,7 +89,7 @@ Next, you want to [Set auto attendant languages for Audio Conferencing](../audio
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
 
-1. Go to the **Office 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
+1. Go to the admin center > **Admin centers** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Microsoft bridge**. 
 3. Select the conferencing bridge phone number, select **Set languages**, and then choose the default language.
 

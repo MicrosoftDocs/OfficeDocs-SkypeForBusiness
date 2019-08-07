@@ -1,13 +1,14 @@
 ---
 title: Use log files in troubleshooting Microsoft Teams
-ms.reviewer: 
+ms.reviewer: tejeshs
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
+audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -81,11 +82,11 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 
 |Client |Location |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*.blog         |
-|            |%appdata%\Microsoft\Teams\skylib\*.blog
-|            |%appdata%\Microsoft\Teams\media-stack\*.etl         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/skylib\*.blog         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*.blog         |
+|            |%appdata%\Microsoft\Teams\skylib\\*.blog
+|            |%appdata%\Microsoft\Teams\media-stack\\*.etl         |
+|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
+|            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
 
 
 

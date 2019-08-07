@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Direct Routing.
@@ -225,7 +226,7 @@ Network site voice routing policy is no longer used. Instead, we use the user’
 
 ### Technical considerations for Location-Based Routing
 
-IPv4 and IPv6 subnets are supported, however, IPv6 takes precedence when checking for a match. Support for IPv6 is currently in progress and will be available by General Availability (GA) for Location-Based Routing. 
+IPv4 and IPv6 subnets are supported, however, IPv6 takes precedence when checking for a match.
 
 ### Client support for Location-Based Routing
 

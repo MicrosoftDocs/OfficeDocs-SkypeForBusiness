@@ -43,20 +43,17 @@ The following diagram shows an example of the configuration:
 
 When a user makes a call to number +1 425 \<any seven digits>, Direct Routing evaluates the route. There are two SBCs in the route: sbc1.contoso.com and sbc2.contoso.com. Both SBCs have equal priority in the route. Before picking an SBC, the routing mechanism evaluates the health of the SBCs based on when the SBC sent the SIP options last time. 
 
-An SBC is considered healthy if statistics at the moment of sending the call shows that the SBC sends Options on a regular interval.  
+An SBC is considered healthy if statistics at the moment of sending the call shows that the SBC sends Options every minute.  
 
-Direct Routing calculates regular intervals by taking two times the average when the SBC sends options before making the call and adding five minutes. 
+When a call is made, the following logic applies:
 
-For example, assume the following: 
-
-- An SBC is configured to send options every minute. 
 - The SBC was paired at 11.00 AM.  
 - The SBC sends options at 11.01 AM, 11.02 AM, and so on.  
 - At 11.15, a user makes a call and the routing mechanism selects this SBC. 
 
-The following logic is applied: Two times the average interval when the SBC sends options (one minute plus one minute = two minutes) plus five minutes = seven minutes. This is the value of the regular interval for the SBC.
- 
-If the SBC in our example sent options at any period between 11.08 AM and 11.15 AM (the time the call was made), it is considered healthy. If not, the SBC will be demoted from the route. 
+Direct Routing takes the regular interval options three times (the regular interval is one minute). If options were send during the last three minutes, the SBC is considered healthy.
+
+If the SBC in the example sent options at any period between 11.12 AM and 11.15 AM (the time the call was made), it is considered healthy. If not, the SBC will be demoted from the route. 
 
 Demotion means that the SBC will not be tried first. For example, we have sbc1.contoso.com and sbc2.contoso.com with equal priority.  
 

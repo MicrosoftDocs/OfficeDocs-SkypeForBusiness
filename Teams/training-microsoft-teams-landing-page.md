@@ -6,11 +6,12 @@ layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
+audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -87,17 +88,6 @@ appliesto:
 Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.
 <ul class="panelContent cardsW">
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Journey from Skype for Business to Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

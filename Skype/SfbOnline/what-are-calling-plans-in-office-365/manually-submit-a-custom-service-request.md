@@ -33,7 +33,7 @@ In some countries/regions, you will also need to manually submit a custom servic
 ## If you need to create and submit a service request follow these steps:
 
 ## For organizations 150 or less follow these steps
-1. In the **Office 365 admin center**, choose **Need help**?
+1. In the admin center, choose **Need help**?
 2. In the **Need help?** pane, tell us what you need help with, then choose **Get help**.
 3. If the results in the **View solutions** section don't help, choose one of the following:
     - **Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
@@ -43,7 +43,7 @@ In some countries/regions, you will also need to manually submit a custom servic
 
 1. Sign in as an administrator to Office 365 with your work or school account.
     
-2. In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.
+2. In the admin center, in the left navigation, click **Support** > **New service request**.
     
 3. Under **Service requests**, click **Add**.
     
@@ -93,7 +93,7 @@ In some countries/regions, you will also need to manually submit a custom servic
 8. Review the information, and then click **Submit request**.
     
 > [!TIP]
-> The reference number will be listed on the **Service requests** page in the Office 365 admin center.
+> The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.
   
 ## What else should you know about number porting?
 

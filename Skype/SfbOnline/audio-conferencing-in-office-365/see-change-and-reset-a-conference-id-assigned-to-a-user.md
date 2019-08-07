@@ -46,7 +46,7 @@ You can view their conference ID and send it to users.
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**> **Audio conferencing** > **Users**, select the user who needs the conference ID.
 
@@ -74,7 +74,7 @@ You can reset a conference ID for a user if, for example, they forget it.
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**> **Audio conferencing** > **Users**, in the Action pane under **Conference ID**, click **Reset**.
 
@@ -108,7 +108,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
 
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

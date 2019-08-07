@@ -30,11 +30,11 @@ Check out the [Reports overview](https://support.office.com/article/0d6dfb17-858
 This report, along with the other Skype for Business reports, gives you details on activity across your organization. These details are very helpful when you are investigating, planning, and making other business decisions for your organization.
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you log on as an administrator in the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you log on as an administrator in the Microsoft 365 admin center. 
   
 ## How to get to the Skype for Business activity report
 
-1. Go to the **Office 365 admin center** > **Reports** > **Usage**.
+1. Go to the admin center > **Reports** > **Usage**.
     
 2. On the **Usage** page, click **Skype for Business activity** on the **Select a report list** on the left, or click the **Skype for Business activity** widget.
     
@@ -90,7 +90,7 @@ The table shows you a breakdown of all the conferencing activities per user. Thi
 * **Participated-in conferences** shows the total number of conferences that this user participated in.
 * **Product assigned** is the Office 365 products that are assigned to this user.<br/>
 
-If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **Hide user details in the reports** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **Hide user details in the reports** section in the [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Number 8](../images/sfbcallout8.png)<br/>
 Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
@@ -116,7 +116,7 @@ You can also export the report data into an Excel .csv file, by clicking or tapp
 
     
 ## Related topics
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

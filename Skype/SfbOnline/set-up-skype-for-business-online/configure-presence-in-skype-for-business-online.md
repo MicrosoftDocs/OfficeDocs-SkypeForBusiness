@@ -31,7 +31,7 @@ As the **[admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-1. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+1. Go to the admin center > **Admin centers** > **Skype for Business**.
 
 2. In the **Skype for Business admin center**, choose **organization**.
 

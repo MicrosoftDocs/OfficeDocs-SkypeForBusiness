@@ -484,6 +484,8 @@
 ### [User accounts](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Customize properties](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Manage services](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Back-up RGS Data](../backup-rgs-data.md)
+### [Using SEFAUtil](../sefautil-functionality.md)
 ## [Management Tools](../management-tools-2019.md)
 ### [Call Quality Dashboard for Skype for Business Server](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [Plan for Call Quality Dashboard](../../SfbServer/management-tools/call-quality-dashboard/plan.md)

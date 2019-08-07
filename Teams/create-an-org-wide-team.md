@@ -5,11 +5,12 @@ ms.author: v-lanac
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to create and manage an org-wide team in Teams. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -46,15 +47,19 @@ To get the most out of your org-wide team, we recommend team owners do the follo
 
 ### Allow only team owners to post to the General channel
 
-Reduce channel noise by having only team owners post to the General channel. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click **Member permissions**, and then select **Only owners can post messages**.
+Reduce channel noise by having only team owners post to the General channel. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click **Member permissions** > select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
-Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options** > **Manage Team**. On the **Settings** tab, click <strong>@mentions</strong>, and then turn off **Show members the option to @team or @[team name]**.
+ Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click <strong>@mentions</strong> > turn off **Show members the option to @team or @[team name]**. 
 
 ### Automatically favorite important channels
 
 Favorite important channels to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### Set up channel moderation
+
+Consider setting up channel moderation and giving moderator capabilities to certain team members. (When moderation is set up, team owners are given moderator capabilities automatically.) Moderators can control who can start a new post in a channel, add and remove moderators, control whether team members can reply to existing channel messages, and control whether bots and connectors can submit channel messages. For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### Remove accounts that might not belong
 

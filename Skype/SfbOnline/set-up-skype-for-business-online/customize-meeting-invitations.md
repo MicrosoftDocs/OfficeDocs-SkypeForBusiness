@@ -44,7 +44,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 
 1. Sign in to Office 365 with your work or school account.
     
-2. From the Office 365 admin center, choose **Admin centers** > **Skype for Business**.
+2. From the admin center, choose **Admin centers** > **Skype for Business**.
     
 3. In the Skype for Business admin center, choose **online meetings**. 
     

@@ -7,7 +7,6 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
@@ -229,7 +228,7 @@ You need to open ports 3478 and 3479 for transitioning. When Microsoft introduce
 
 ### Requirements for using media processors
 
-Media Processors are always in the media path for voice applications. The requirements are the same as for non-bypass configuration.
+Media Processors are always in the media path for voice applications and for Web cleints (for exampe, Teams cleint in Edge or Google Chrome). The requirements are the same as for non-bypass configuration.
 
 
 The IP range for media traffic is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
@@ -271,15 +270,16 @@ Both trunks can point to the same SBC with the same public IP address. The TLS s
 
 For information about how to configure two trunks on the same SBC, see the documentation provided by your SBC vendor:
 
-- AudioCodes
-- Ribbon
-- TE-Systems (Anynode)   
+ - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 ## Client endpoints supported with media bypass
 
-Media bypass is supported with all Teams endpoints, except Teams Web clients until further notice. 
+Media bypass is supported with all Teams endpoints.
 
-If your users prefer Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox, the media bypass for such users must be turned off. We will introduce calling using a media bypass enabled trunk in the future.   
+Note for webcleints (Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox) we will covert the call to non-bypass even of it started as a bypass call. This happens automatically and does not require any actions on the administrator. 
  
 ## See also
 
