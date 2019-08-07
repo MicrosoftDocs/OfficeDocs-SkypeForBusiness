@@ -6,12 +6,13 @@ manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from a Skype for Business hybrid or on-premises deployment.  
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
