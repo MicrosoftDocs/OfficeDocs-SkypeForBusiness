@@ -36,7 +36,7 @@ This article provides an overview of the management tools for teams in the Micro
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-![Screen shot of the Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
+![Screen shot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
 
 The grid displays the following properties:
 
@@ -76,20 +76,20 @@ Search currently supports the string "Begins with" and searches the **Team name*
 
 ## Team profile
 
-You can navigate to the team profile page of any team from the main teams overview grid by clicking  the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings. From the team profile page, you can:
+You can navigate to the team profile page of any team from the main teams overview grid by clicking  the team name. The team profile page shows the members, owners, and guests that belong to the team (and its backing Office 365 group), as well as the team’s channels and settings. From the team profile page, you can:
 
 - Add or remove members and owners.
 - Add or remove channels (note that you can't remove the General channel).
-- Update team and group settings.
+- Change team and group settings.
  
-![Screen shot of an example team profile](media/manage-teams-in-modern-portal-image3.png)
+![Screen shot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## Making changes to teams
 
 On the team's profile page, you can change the following elements of a team:
 
 - **Members** - add or remove members and promote or demote owners.
-- **Channels** - add new channels or remove existing channels. You can't delete the default **General** channel. 
+- **Channels** - add new channels,and edit or remove existing channels. Remember that you can't delete the default General channel.
 - **Team name**
 - **Description**
 - **Privacy** - set whether the team is public or private.
