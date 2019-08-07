@@ -32,7 +32,7 @@ Users can send comments and suggestions about Teams to us by going to **Help** >
 
 **Surveys**
 
-Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When the user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
+Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
 
 ![Screen shot of the survey form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
