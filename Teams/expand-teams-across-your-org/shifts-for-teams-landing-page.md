@@ -58,24 +58,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
         </div>
         </a>
     </li>
-<li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Firstline Worker features coming to Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+
 </ul>
 
 ### Set up and manage Shifts
