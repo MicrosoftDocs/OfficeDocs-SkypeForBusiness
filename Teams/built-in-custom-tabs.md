@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
