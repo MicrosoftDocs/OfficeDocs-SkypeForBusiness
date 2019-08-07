@@ -7,10 +7,11 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: An overview of security and compliance features of Microsoft Teams, including auditing and reporting, compliance content search, eDiscovery, and more.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

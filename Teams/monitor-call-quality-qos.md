@@ -5,11 +5,12 @@ ms.author: jambirk
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: jambirk
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice 
 appliesto:

@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Complete the checklist to begin your Microsoft Teams adoption. 
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 

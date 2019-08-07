@@ -5,12 +5,13 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from Skype for Business Online 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
