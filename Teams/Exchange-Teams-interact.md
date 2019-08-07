@@ -4,12 +4,13 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

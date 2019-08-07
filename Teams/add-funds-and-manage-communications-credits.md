@@ -7,12 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams

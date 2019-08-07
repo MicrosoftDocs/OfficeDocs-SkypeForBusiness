@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to obtain user feedback and use service health reporting in your Teams adoption.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 

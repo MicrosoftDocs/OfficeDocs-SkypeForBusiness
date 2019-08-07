@@ -3,6 +3,7 @@ title: Configure trusted application servers
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure trusted application servers
 ms:assetid: 47a9e72e-566c-4c23-bec2-760a3098a974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204865(v=OCS.15)

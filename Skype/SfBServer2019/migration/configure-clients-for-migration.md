@@ -5,7 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "This topic contains the recommended client deployment steps you should take before migrating to Skype for Business Server 2019. These configuration changes should be made on Lync Server 2013 or Skype for Business Server 2015."
