@@ -7,11 +7,12 @@ ms.date: 07/26/2018
 ms.reviewer: 
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer:
 description: List of Teams resources helpful for IT admins in Education.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:

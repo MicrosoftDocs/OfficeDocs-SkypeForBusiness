@@ -5,12 +5,13 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Enlist stakeholders to serve on the project team for your upgrade. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:

@@ -3,10 +3,11 @@ title: Assign Teams licenses
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+audience: ITPro
 ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

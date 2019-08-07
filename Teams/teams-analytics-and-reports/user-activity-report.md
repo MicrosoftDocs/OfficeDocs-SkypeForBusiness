@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Learn how to use the Teams user activity report in the Microsoft Teams admin center to see how users in your organization are using Teams.

@@ -6,12 +6,13 @@ manager: serdars
 ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: daro
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.  
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
