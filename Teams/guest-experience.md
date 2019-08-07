@@ -5,12 +5,13 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

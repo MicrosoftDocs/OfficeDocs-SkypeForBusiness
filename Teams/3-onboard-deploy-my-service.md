@@ -3,14 +3,16 @@ title: Deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 05/16/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Download the Site Enablement Playbook to plan your Teams rollout and accelerate and optimize user adoption, perception of quality, and satisfaction.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

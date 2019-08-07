@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration 
 appliesto:

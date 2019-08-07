@@ -10,7 +10,7 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.analyticsandreports.overview
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Learn about the Teams reports that are available in the Microsoft Teams admin center.
