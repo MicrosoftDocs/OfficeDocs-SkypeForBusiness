@@ -5,12 +5,13 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 03/22/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
 description: Learn how to create your first set of teams and channels in Microsoft Teams. 
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

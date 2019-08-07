@@ -5,7 +5,8 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: bjwhalen

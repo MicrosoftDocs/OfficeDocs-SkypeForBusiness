@@ -6,10 +6,11 @@ manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration 
 appliesto: 

@@ -6,10 +6,11 @@ manager: serdars
 ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: marcl
+audience: admin
 localization_priority: Priority
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
