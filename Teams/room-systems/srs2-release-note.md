@@ -69,7 +69,7 @@ Introduced in this update:
 Introduced in this update:
 
 - Fixes an issue with the "give feedback" feature 
-- Optimizations in preparation for the forthcoming MTR device upgrade to Windows 10 Version 1809
+- Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809
 
 ### 4.0.78.0 (03/14/2019)
 
