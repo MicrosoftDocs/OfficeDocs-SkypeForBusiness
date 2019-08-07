@@ -114,7 +114,7 @@ Do one of the following:
   StaffHub team owners and managers can convert an inactive account and link it to an Azure AD account in StaffHub by changing the user's email address to a valid UPN on the StaffHub team settings page.
 
 - Remove the unlinked account and then re-add the account by using the UPN.
-    1. Run the [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
+    1. Run the [Remove-StaffHubMember](https://docs.microsoft.com/en-us/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
     2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
 - Remove the unlinked user account. Use this option the user account is no longer needed.
