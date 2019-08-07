@@ -58,11 +58,14 @@ By default, team owners can apply tags. You can change this setting to allow tea
 
 You can configure the following tags settings to control how tags are used across your organization.
 
+1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
+2. Set the following, depending on the needs of your organization.
+
 ![Tags settings ](media/people-targeting-settings.png)
 
 - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags, regardless of whether targeting is enabled for members.
 - **Members can add additional tags**: 
-- **Default tags that will be suggested**: Use this to add a set of suggested tags. Team owners and team members (if the feature is enabled for them) can use these suggestions, add to them, or create a totally new set of tags.
+- **Default tags that will be suggested**: Use this to add a set of suggested tags. When a team owner or team member (if the feature is enabled for them) adds a tag to a chat, they caan use these suggestions, add to them, or create a new set of tags.
 
 ## Assign a tag
 
