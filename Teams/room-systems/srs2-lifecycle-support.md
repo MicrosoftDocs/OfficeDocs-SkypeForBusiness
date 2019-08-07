@@ -24,7 +24,7 @@ Microsoft plans to release updates for Microsoft Teams Rooms a few times per yea
 > [!NOTE]
 > The latest version is always in the Servicing and Critical Updates servicing phase. This means that in the event that you encounter a code defect that warrants a critical update, you must have the latest version installed in order to receive a fix. All other supported versions will only be eligible to receive security updates.
 
-All support ends after the 12 (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version.
+All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version.
 
 All releases are listed in the [Microsoft Teams Rooms release notes](srs2-release-note.md).
 
