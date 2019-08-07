@@ -30,7 +30,7 @@ Users can send comments and suggestions about Teams to Microsoft by going to **H
 
 ![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-**User survey**
+**Surveys**
 
 Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When the user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
 
@@ -46,10 +46,10 @@ Say, for example, you want to allow all users in your organization to send feedb
 
 You use the **New-CsTeamsFeedbackPolicy** cmdlet to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.
 
-Set the following parameters to turn off and turn on the features:
+To turn off and turn on the features, set the following parameters:
 
  - **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
- - **Survey**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
+ - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
 
 ## Create a custom feedback policy
 
