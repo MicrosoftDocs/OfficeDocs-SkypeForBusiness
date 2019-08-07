@@ -7,6 +7,7 @@ manager: serdars
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
 localization_priority : Priority
 author: lanachin
+audience: admin
 ms.topic: hub-page
 ms.author: v-lanac
 ms.service: msteams

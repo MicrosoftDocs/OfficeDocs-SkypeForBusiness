@@ -7,12 +7,13 @@ ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
+audience: admin
 search.appverid: MET150
 description: Learn about calling policy settings in Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
