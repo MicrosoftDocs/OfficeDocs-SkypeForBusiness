@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/18/2019
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 ms.reviewer: islubin
 search.appverid: MET150
@@ -12,7 +13,7 @@ description: Learn how to archive or permanently delete a team.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
