@@ -5,11 +5,12 @@ ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to install and connect to the Microsoft StaffHub PowerShell module.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

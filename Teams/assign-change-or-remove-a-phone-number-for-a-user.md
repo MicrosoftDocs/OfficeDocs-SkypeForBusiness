@@ -7,12 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
-audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal

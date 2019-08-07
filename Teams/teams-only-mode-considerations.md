@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Prepare for your upgrade to Microsoft Teams Only mode 
@@ -12,7 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
