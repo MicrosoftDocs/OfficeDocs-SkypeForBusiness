@@ -4,13 +4,14 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Scope your upgrade project by refining your vision and goals. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:

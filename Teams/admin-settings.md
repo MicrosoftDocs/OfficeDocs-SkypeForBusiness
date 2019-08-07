@@ -4,6 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang 
@@ -12,7 +13,7 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.apppolicies.adminsettings
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

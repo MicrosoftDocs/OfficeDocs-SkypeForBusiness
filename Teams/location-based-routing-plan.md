@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Direct Routing.
