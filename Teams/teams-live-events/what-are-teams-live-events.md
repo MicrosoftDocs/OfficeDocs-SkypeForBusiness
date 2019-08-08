@@ -5,10 +5,11 @@ ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.  
 f1keywords: ms.teamsadmincenter.liveevents.policies

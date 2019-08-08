@@ -3,6 +3,7 @@ title: Document your Microsoft Teams success plan
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -10,7 +11,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Choose a deployment model, develop a responsible-accountable-consulted-informed (RACI) matrix, create execution and governance plans.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

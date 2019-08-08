@@ -6,11 +6,12 @@ manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams. 
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

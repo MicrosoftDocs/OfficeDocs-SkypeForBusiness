@@ -7,12 +7,13 @@ ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+audience: admin
 search.appverid: MET150
 description: Learn how to upgrade the free version of Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

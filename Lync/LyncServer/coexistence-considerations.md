@@ -3,6 +3,7 @@ title: Coexistence considerations
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Coexistence considerations
 ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205131(v=OCS.15)
