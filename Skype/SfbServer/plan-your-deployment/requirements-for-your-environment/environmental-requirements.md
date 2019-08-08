@@ -49,6 +49,8 @@ While a lot of configuration data for servers and services is stored in Skype fo
 ### OS for Domain Controllers
 
 So, what Domain Controller OS can be used? We have the following list:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -61,6 +63,8 @@ So, what Domain Controller OS can be used? We have the following list:
 - Windows Server 2008
     
 Now, the domain functional level of any domain you deploy Skype for Business Server 2015 into, and the forest functional level of any forest you deploy Skype for Business Server 2015 into, have to be one of the following:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
