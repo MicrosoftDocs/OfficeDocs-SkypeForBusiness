@@ -50,9 +50,10 @@ Planning your deployment of Direct Routing is key to a successful implementation
 - [Licensing and other requirements](#licensing-and-other-requirements)
 - [SBC domain names](#sbc-domain-names)
 - [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc)
-- [SIP Signaling: FQDNs and firewall ports](#sip-signaling-fqdns-and-firewall-ports)
-- [Media traffic: port ranges](#media-traffic-port-ranges)
-- [Supported SBCs](#supported-session-border-controllers-sbcs)
+- [SIP Signaling: FQDNs](#sip-signaling-fqdns)
+- [SIP Signaling: Ports](#sip-signaling-ports)
+- [Media traffic: Port ranges](#media-traffic-port-ranges)
+- [Supported Session Border Controllers (SBCs)](#supported-session-border-controllers-sbcs)
 
 For detailed information about configuring Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
@@ -70,7 +71,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Fully Qualified Domain Name (FQDN) for the SBC|A FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 tenant. For more information, see [SBC domain names](#sbc-domain-names).|
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
 |Public trusted certificate for the SBC |A certificate for the SBC to be used for all communication with Direct Routing. For more information, see [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
-|Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs and firewall ports](#sip-signaling-fqdns-and-firewall-ports).|
+|Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs](#sip-signaling-fqdns).|
 |Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall IP addresses and ports for Microsoft Teams media |For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
