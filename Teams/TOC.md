@@ -148,7 +148,6 @@
 #### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
-
 ### Manage meetings settings for audio conferencing
 
 #### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -320,8 +319,6 @@
 ### [Plan Direct Routing](direct-routing-plan.md)
 ### [Configure Direct Routing](direct-routing-configure.md)
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
-
-
 
 ### Monitor and troubleshoot Direct Routing
 #### [Overview](direct-routing-monitor-and-troubleshoot.md)
