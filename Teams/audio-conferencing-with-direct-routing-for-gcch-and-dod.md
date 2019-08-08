@@ -31,14 +31,14 @@ With Audio Conferencing with Direct Routing for GCC High and DoD, your organizat
 
 To use Audio Conferencing in GCC High or DoD, your organization and the users in your organization need to have an Audio Conferencing with Direct Routing license assigned. Here are the licenses you need to enable Audio Conferencing with Direct Routing for GCC High or DoD.
 
-- GCC High: An Audio Conferencing - GCCHigh Tenant license for your organization and Audio Conferencing - GCC High licenses for your users.
+- GCC High: An Audio Conferencing - GCC High Tenant license for your organization and Audio Conferencing - GCC High licenses for your users.
 
 - DoD: An Audio Conferencing - DoD Tenant license for your organization and Audio Conferencing - DoD licenses for your users.
 
 A tenant license and at least one user license are required to enable the service. You can't enable the service with only the tenant license or with only user licenses. To get service licenses for your tenant and the users in your organization, contact your account team.
 
 > [!IMPORTANT]
-> Users can’t be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommended that you not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.
+> Users can’t be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.
 
 ### Step 2: Set up Direct Routing
 
@@ -49,7 +49,7 @@ To set up Direct Routing, see the following articles:
 - [Configure Direct Routing](direct-routing-configure.md)
 
 > [!NOTE]
-> When you set up Direct Routing, remember to use the GCC High or DoD specific FQDNs and ports that are described in these two articles.
+> When you set up Direct Routing, remember to use the GCC High or DoD-specific FQDNs and ports that are described in these two articles.
 
 ### Step 3: Set up dial-in phone numbers
 
@@ -76,7 +76,8 @@ You can assign service phone numbers to the Audio Conferencing bridge of your or
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
-You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInConferencingBridge, for example:
+You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInConferencingBridge. For example:
+
   ```
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
@@ -108,8 +109,8 @@ The following are Audio Conferencing capabilities that are not supported in Audi
 
 - Entry and exit notifications using name recording. For Audio Conferencing with Direct Routing, entry and exit notifications are played in the meeting as tones.
 
-- Outbound calling restriction policies for Audio Conferencing: User level controls to restrict outbound calls aren’t applicable to meeting dial-out calls routed via Direct Routing.
+- Outbound calling restriction policies for Audio Conferencing. User-level controls to restrict outbound calls aren’t applicable to meeting dial-out calls routed via Direct Routing.
 
-- Disable the usage of toll-free numbers for the meetings specific organizer. User level controls to restrict the usage of toll-free numbers to join the meetings of your organization aren’t applicable to calls routed via Direct Routing.
+- Disable the usage of toll-free numbers for the meetings specific organizer. User-level controls to restrict the usage of toll-free numbers to join the meetings of your organization aren’t applicable to calls routed via Direct Routing.
 
 - Sending notification emails to users when their settings change. Audio Conferencing notification emails aren’t supported for Audio Conferencing with Direct Routing for GCC High and DoD.
