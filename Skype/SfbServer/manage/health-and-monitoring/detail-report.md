@@ -28,7 +28,7 @@ The Conference Detail Report can be accessed from the following reports:
 
 - The [User Activity Report](call-diagnostic-reports-per-user.md) (by clicking the Conference URI metric)
 
-From the Conference Detail Report you can access the [Diagnostic Repor](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
+From the Conference Detail Report you can access the [Diagnostic Report](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
 
 ## Filters
 
