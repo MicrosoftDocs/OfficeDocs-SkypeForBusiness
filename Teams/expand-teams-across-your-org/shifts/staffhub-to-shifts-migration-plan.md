@@ -24,10 +24,10 @@ appliesto:
 
 ## Prepare to move your StaffHub teams to Teams
 
-|Step |Guidance  |Resources |
+|Step |Guidance  |Resource |
 |---------|---------|---------|
 |1    |Prepare and identify stakeholders         |         |
-|2     |Review documentation about moving StaffHub teams to Teams and Teams onboarding         |[StaffHub to be retired](microsoft-staffhub-to-be-retired.md)<br><br>[Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Get started with Teams](../../get-started-with-teams-quick-start.md)         |
+|2     |Review the documentation on the transition from StaffHub to Teams and Teams onboarding         |[StaffHub to be retired](microsoft-staffhub-to-be-retired.md)<br><br>[Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Get started with Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |Install the StaffHub PowerShell module and test by moving one StaffHub team         |[Install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md)<br><br>[Move a StaffHub team](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)         |
 |4     |Determine timeline and identify StaffHub users for the move to Teams       |[Run a report to show active StaffHub usage](run-report-to-show-staffhub-usage.md)         |
 |5    |Create training content for users that's tailored for your organization         |[Prepare a user readiness plan for Teams](../../upgrade-user-readiness.md)         |
@@ -42,7 +42,7 @@ appliesto:
 
 ## Move your StaffHub teams to Teams
 
-|Step |Guidance |Resources  |
+|Step |Guidance |Resource  |
 |---------|---------|---------|
 |1  |Identify a pilot team and move one team          |[Move a StaffHub team](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)          |
 |2    |         |Validate the pilot team and identify any move issues. Update training documentation as needed.         |
