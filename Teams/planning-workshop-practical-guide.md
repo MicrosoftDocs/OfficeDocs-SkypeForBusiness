@@ -46,4 +46,10 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 [Tools for adoption](adopt-tools-and-downloads.md)
 
+[Skype for Business to Teams Upgrade Planning Workshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[Move users from on-premises to Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
+
 
