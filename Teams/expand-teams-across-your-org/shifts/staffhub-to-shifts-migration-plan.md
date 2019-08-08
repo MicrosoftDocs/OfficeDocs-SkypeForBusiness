@@ -49,4 +49,4 @@ appliesto:
 |3     |Identify additional pilot teams and move five to ten teams         |[Move your StaffHub teams](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |4     |Identify remaining StaffHub teams and move them in a phased approach         |[Move your StaffHub teams](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |5     |Continue to provide support for Shifts and Teams         |         |
-|6     |If self-service password reset is enabled, run a report for supporting logon issues in Teams       |[Run a report for self-service password reset setup] (https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting)        |
+|6     |If self-service password reset is enabled, run a report for supporting logon issues in Teams       |[Run a report for self-service password reset setup](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting)        |
