@@ -150,9 +150,18 @@ Teams Transport Relays are always in the media path in the following scenarios:
 Ensure your SBC has access to the Transport Relays as described below.    
 
 
-## SIP Signaling: FQDNs and firewall ports
+## SIP Signaling: FQDNs
 
 For SIP signaling, the FQDN and firewall requirements are the same as for non-bypassed cases. 
+
+Direct Routing is offered in the following Office 365 environments:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
+
+### Office 365 and Office 365 GCC environments
 
 The connection points for Direct Routing are the following three FQDNs:
 
@@ -177,7 +186,43 @@ The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **s
 - 52.114.7.24
 - 52.114.14.70
 
-You will need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all the IP addresses above. You must use the following ports:
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
+
+### Office 365 GCC DoD environment
+
+The connection point for Direct Routing is the following FQDN:
+
+**sip.pstnhub.dod.teams.microsoft.us** – Global FQDN. As the Office 365 DoD environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
+
+The FQDNs – sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the following IP addresses:
+
+- 52.127.64.33
+- 52.127.68.34
+
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.dod.teams.microsoft.us resolves to all these IP addresses. 
+
+### Office 365 GCC High environment
+
+The connection point for Direct Routing is the following FQDN:
+
+**sip.pstnhub.gov.teams.microsoft.us** – Global FQDN. As the GCC High environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
+
+The FQDNs – sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the following IP addresses:
+
+- 52.127.88.59
+- 52.127.92.64
+
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP addresses. 
+
+## SIP Signaling: Ports
+
+Port requirements are the same for all Office 365 environments where Direct Routing is offered:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+You must use the following ports:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -205,9 +250,22 @@ Note: If you have a network device that translates the client's source ports, pl
 
 ### Requirements for using Transport Relays
 
-Transport Relays are in the same range as Media Processors (for non-bypass cases):  52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+Transport Relays are in the same range as Media Processors (for non-bypass cases): 
 
-The port range of the Teams Transport Relays is shown in the following table:
+### Office 365 and Office 365 GCC environments
+
+-52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+
+## Office 365 GCC DoD environment
+
+- 52.127.64.0/21
+
+### Office 365 GCC High environment
+
+- 52.127.88.0/21
+
+
+The port range of the Teams Transport Relays (applicable to all environments) is shown in the following table:
 
 
 | Traffic | From | To | Source port | Destination port|
@@ -231,9 +289,21 @@ You need to open ports 3478 and 3479 for transitioning. When Microsoft introduce
 Media Processors are always in the media path for voice applications and for Web cleints (for exampe, Teams cleint in Edge or Google Chrome). The requirements are the same as for non-bypass configuration.
 
 
-The IP range for media traffic is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+The IP range for media traffic is 
 
-The port range of the Media Processors is shown in the following table:
+### Office 365 and Office 365 GCC environments
+
+-52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+
+## Office 365 GCC DoD environment
+
+- 52.127.64.0/21
+
+### Office 365 GCC High environment
+
+- 52.127.88.0/21
+
+The port range of the Media Processors (applicable to all environments) is shown in the following table:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
