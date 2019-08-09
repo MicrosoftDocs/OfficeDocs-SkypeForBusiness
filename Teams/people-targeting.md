@@ -29,9 +29,9 @@ A tag can be applied at the team level or organization level.
 - **Team level**: The tag is applied to a person on a specific team (such as a role or a shift).
 - **Organization level**: The tag is applied to a person or team across your entire organization (such as an office location).
 
-After a tag is applied, it can be used for targeting purposes in any channel of the team. 
+After a tag is applied, it can be used in @mentions in any channel of the team.
 
-Here's some examples of tags can be used in Teams:
+Here's some examples of how tags can be used in Teams:
 
  - A store manager wants to notify a group cashiers in a store to ask a question.
  - A charge nurse wants to message all on-call nurses in a ward.  
@@ -39,9 +39,11 @@ Here's some examples of tags can be used in Teams:
  - A regional marketing manager wants to assign a task to all chefs located in the same Southwest region.
  - A hospital administrator wants to start a conversation with all radiologists in a hospital.
 
-## Manage targeting for your organization
+## Manage targeting and tags settings for your organization
 
-As an admin, you manage targeting settings in the Microsoft Teams admin center.
+As an admin, you manage targeting and tags settings in the Microsoft Teams admin center.
+
+![Tags settings ](media/people-targeting-settings.png)
 
 ### Set who can apply tags
 
@@ -59,16 +61,14 @@ By default, team owners can apply tags. You can change this setting to allow tea
 You can configure the following tags settings to control how tags are used across your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
-2. Set the following, depending on the needs of your organization.
+2. Under **Targeting**, set the following, depending on the needs of your organization.
 
-![Tags settings ](media/people-targeting-settings.png)
-
-- **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags, regardless of whether targeting is enabled for members.
+- **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags.
 - **Members can add additional tags**: 
-- **Default tags that will be suggested**: Use this to add a set of suggested tags. When a team owner or team member (if the feature is enabled for them) adds a tag to a chat, they caan use these suggestions, add to them, or create a new set of tags.
+- **Default tags that will be suggested**: Use this to add a set of suggested tags. A team owner or member (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.  You can add up to 25 suggested tags, and each tag can contain a maximum of 25 characters.
 
 ## Assign a tag
 
-In Teams, the Manage Team page contains a **Tag** column. Users can click **Tag** to see the list of suggested tags for a user, and additional tags can be added to the list. 
+In Teams, the Manage team page contains a **Tag** column. Users can click **Tag** to see the list of suggested tags for a user, and additional tags can be added to the list. 
 
 ## Related topics
