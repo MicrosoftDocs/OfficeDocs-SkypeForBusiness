@@ -93,14 +93,14 @@ Skype for Business Server uses the federation access architecture to support con
   
 ### The Skype for Business Server public IM connectivity provisioning site is no longer available
 
-The site that was formerly used to manually provision federation between Skype for Business on-premise deployments and Skype is no longer necessary and will be shut down on 8/15/2019. Federation with Skype now utilizes federated partner discovery, which is the same mechanism required for federation with Skype for Business Online.
+The site that was formerly used to manually provision federation between Skype for Business on-premises deployments and Skype is no longer necessary and will be shut down on 8/15/2019. Federation with Skype now utilizes federated partner discovery, which is the same mechanism required for federation with Skype for Business Online.
 
-Communication between any on-premise Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premise edge server configuration to be compatible with Skype for Business Online.
+Communication between any on-premises Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premises edge server configuration to be compatible with Skype for Business Online.
 
 > [!NOTE]
 > No action is needed by most customers, including all deployments that federate with Skype for Business Online.
   
-On-premise deployments are required to publish a Federation DNS SRV record for each domain that they host. Guidance is available in [DNS planning](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Each domain must resolve by DNS SRV query to an edge server FQDN that satisfies a top-level suffix match of the domain. For example, consider the domain "contoso.com":
+On-premises deployments are required to publish a Federation DNS SRV record for each domain that they host. Guidance is available in [DNS planning](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Each domain must resolve by DNS SRV query to an edge server FQDN that satisfies a top-level suffix match of the domain. For example, consider the domain "contoso.com":
 
 |**Valid FQDNs**|**Comment**|
 |:-----|:-----|
@@ -116,10 +116,10 @@ Further guidance regarding External Certificates can be found in [Certificate pl
 #### FAQs
 
 **Why is the provisioning website being shut down?**
-The public IM (PIC) provisioning mechanism (pic.lync.com) that was deployed in 2006 is no longer serviceable and will be shut down on 8/15/2019. Instead, public IM federation will assume the same federation model used by Skype for Business Online, known as "partner discovery", whereby an on-premise deployment is publicly discoverable by its federation DNS SRV record(s).
+The public IM (PIC) provisioning mechanism (pic.lync.com) that was deployed in 2006 is no longer serviceable and will be shut down on 8/15/2019. Instead, public IM federation will assume the same federation model used by Skype for Business Online, known as "partner discovery", whereby an on-premises deployment is publicly discoverable by its federation DNS SRV record(s).
 
 **Does this change mean that Public IM federation is being deprecated?**
-No. Public IM federation will continue to be supported for many years, probably until the Skype for Business on-premise product reaches end-of-life.
+No. Public IM federation will continue to be supported for many years, probably until the Skype for Business on-premises product reaches end-of-life.
 
 **Our company has a hybrid relationship (shared address space) with Skype for Business Online, are we affected?**
 No, since you are already federating with Skype for Business Online, this change will not affect you.
@@ -128,7 +128,7 @@ No, since you are already federating with Skype for Business Online, this change
 No. If your edge server proxy settings do not enable federation with the Skype for Business Online hosting provider (sipfed.online.lync.com) then this change will not affect that. However, the same DNS and certificate requirements that apply to federating with Skype for Business Online now also apply to federating with Skype users.
  
 **Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons … what can we do?**
-Any on-premise organization that cannot change its edge server configuration as specified should reach out to product support at the earliest opportunity.
+Any on-premises organization that cannot change its edge server configuration as specified should reach out to product support at the earliest opportunity.
 
 ### Enabling Federation and Public IM Connectivity (PIC)
 
