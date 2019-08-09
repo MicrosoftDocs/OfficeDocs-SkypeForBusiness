@@ -5,7 +5,6 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 06/18/2019
 audience: admin
 ms.reviewer: LolaJ
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Office 365.
@@ -23,8 +22,6 @@ If you're the admin for Microsoft Teams in your organization, you're in the righ
 
 If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
-
-
 If you're new to Teams and want to learn more, check out our short Welcome to Teams video (55 seconds).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
@@ -32,7 +29,7 @@ If you're new to Teams and want to learn more, check out our short Welcome to Te
 
 ## Teams architecture
 
-Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). 
+Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Coming soon: Teams keeps working even when you're offline or in low-bandwidth conditions.
 
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
