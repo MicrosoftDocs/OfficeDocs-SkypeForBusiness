@@ -247,7 +247,7 @@ You need to define specific port numbers on each SBC for SIP signaling and
 media, and configure your firewalls to allow bidirectional traffic to these
 ports and their associated IP addresses.
 
-For more details, see [SIP Signaling: FQDNs and firewall ports](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)
+For more details, see [SIP Signaling: FQDNs](direct-routing-plan.md#sip-signaling-fqdns)
 and [Media traffic: Port ranges](direct-routing-plan.md#media-traffic-port-ranges).
 
 
