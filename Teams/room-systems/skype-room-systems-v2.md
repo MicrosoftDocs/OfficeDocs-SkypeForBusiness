@@ -47,7 +47,7 @@ Microsoft has and dedicated SKU for licensing meetings and calling on a per-devi
 
 
 > [!NOTE]
-> If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Standalone Plan 1 or Skype for Business Plan 2 or Skype for Business Plan 2 with Audio conferencing or with Office365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.  
+> If you are currently using E1, E3, E4, E5, GCC or GCC High and DoD SKUs with Skype for Business Standalone Plan 1 or Skype for Business Plan 2 or Skype for Business Plan 2 with Audio conferencing or with Office365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.  
 
 The following table lists the features that are available in Microsoft Teams Rooms and what licenses you need to buy to get them.
   
