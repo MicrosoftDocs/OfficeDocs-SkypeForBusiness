@@ -179,7 +179,7 @@ Microsoft is excited to host a series of free, live, online training classes des
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/office/media/icons/walkthrough-map-teams.svg" alt="Map symbol" />  
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Map symbol" />  
                         </div>
                     </div>
                     <div class="cardText">
