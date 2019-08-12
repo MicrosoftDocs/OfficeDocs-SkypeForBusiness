@@ -46,13 +46,13 @@ Using typical whiteboard markers, the optimal remote user experience is to share
 
 Camera distance from whiteboard (1920 ppi)
 
-|                     |1 mm per pixel | 1.5 mm per pixel <br> (optimal) | 2.0 mm  per pixel|
-|:---                 |:---     |:---     |:---     |
-|Camera HFoV = 80     |  7.2 ft. (2.2 m)| 11.1 ft.(3.4 m) | 15 ft. (4.6 m)  |
-|Camera HFoV = 90     |  6.2 ft. (1.9 m)|  9.1 ft. (2.8 m)| 12.4 ft. (3.8 m)|
-|Camera HFoV = 100    |  5.2 ft. (1.6 m)|  7.8 ft. (2.4 m)| 10.5 ft. (3.2 m)|
-|Camera HFoV = 110    |  4.2 ft. (1.3 m)|  6.5 ft. (2.0 m)| 8.8 ft. (2.7 m) |
-|Camera HFoV = 120    |  3.6 ft. (1.1 m)|  5.2 ft.(1.6 m) | 7.2 ft. (2.2 m) |
+|                  |1 mm per pixel | 1.5 mm per pixel <br> (optimal) | 2.0 mm  per pixel|
+|:---              |:---     |:---     |:---     |
+|Camera HFoV = 80  |7.2 ft. (2.2 m)|11.1 ft.(3.4 m) |15 ft. (4.6 m)  |
+|Camera HFoV = 90  |6.2 ft. (1.9 m)| 9.1 ft. (2.8 m)|12.4 ft. (3.8 m)|
+|Camera HFoV = 100 |5.2 ft. (1.6 m)| 7.8 ft. (2.4 m)|10.5 ft. (3.2 m)|
+|Camera HFoV = 110 |4.2 ft. (1.3 m)| 6.5 ft. (2.0 m)|8.8 ft. (2.7 m) |
+|Camera HFoV = 120 |3.6 ft. (1.1 m)| 5.2 ft.(1.6 m) |7.2 ft. (2.2 m) |
 |                     |         |         |         |
 
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Cameras with a larger HFoV (120 degrees for example) can be installed closer to the wall, and cameras with a narrower HFoV (like 82 degrees) will be installed farther away from the wall. Check the HFoV before you start to install the chosen camera.
