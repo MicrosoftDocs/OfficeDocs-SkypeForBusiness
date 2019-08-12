@@ -40,19 +40,18 @@ Microsoft is excited to host a series of free, live, online training classes des
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/itadmin-readiness">
+        <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
+                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="Icon depicting a pedestrian and an arrow pointing to devices" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Say hello to Microsoft Teams</h3>
-                        <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you. (Audience: All)</p>
-                    </div>
+                    <h3>Get started with Teams</h3>
+                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>                    </div>
                 </div>
             </div>
         </div>
