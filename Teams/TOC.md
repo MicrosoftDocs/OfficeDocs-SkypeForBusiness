@@ -1,9 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
-#       
-#        
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -74,6 +72,7 @@
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
+### [Manage policy packages in Teams](manage-policy-packages.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Manage external access](manage-external-access.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
@@ -672,6 +671,7 @@
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
+### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 <!-- ============================================================ -->
 
