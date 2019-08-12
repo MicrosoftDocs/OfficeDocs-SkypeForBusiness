@@ -48,6 +48,9 @@ The table below explains the elements shown in this sample SkypeSettings.xml (th
               <MicrophoneForCommunication>Microsoft LifeChat LX-6000</MicrophoneForCommunication>
               <SpeakerForCommunication>Realtek High Definition Audio</SpeakerForCommunication>
               <DefaultSpeaker>Polycom CX5100</DefaultSpeaker>
+              <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000 </ContentCameraId>         
+      <ContentCameraInverted>false</ContentCameraInverted> 
+      <ContentCameraEnhancement>true</ContentCameraEnhancement> 
   </Devices>
   <Theming> 
     <ThemeName>Custom</ThemeName>
@@ -88,6 +91,9 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
 |\<MicrophoneForCommunication\>   |String  &#x2778;  ||Sets the microphone that will be used as the recording device in a conference.   |
 |\<SpeakerForCommunication\>   |String  &#x2778;  ||Device to be used as speaker for the conference. This setting is used to set the speaker device that will be used hear the audio in a call.   |
 |\<DefaultSpeaker\>   |String  &#x2778;  ||Device to be used to play the audio from an HDMI ingest source.   |
+|\<ContentCameraId>  | String  &#x2778;  | | Define the instance path for the camera configured in room to share analog whiteboard content in a meeting. When specifying the path in XML, replace the ampersand (&) with \&amp;|
+|\<ContentCameraInverted>  | Boolean &#x2777; | | Specify if the content camera is physically installed upside down. For content cameras that support automatic rotation, specify false. |
+|\<ContentCameraEnhancement>  | Boolean &#x2777; | |When set to true (the default), the content camera image is digitally enhanced: the whiteboard edge is detected and an appropriate zoom is selected, ink lines are enhanced and the person writing on the whiteboard is made transparent.  <br><br> Set this to false if you intend to send a raw video feed to meeting participants for spaces where a whiteboard is not drawn on with a pen and instead the camera is used to show sticky notes, posters, or other media.  |
 | \<Theming\>  |Container   |First &#x2776;  |One of the features that can be applied using an XML file is a Custom Theme for your organization. You will be able to specify a theme name, background image, and color.   |
 |\<ThemeName\>   |String  &#x2778;  || Used to identify the theme on the client. The Theme Name options are Default, one of the provided preset themes, or Custom. <br/>  Custom theme names should always use the name *Custom*  . The client UI can be set at the console to the Default or one of the presets, but applying a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  To disable the current theme, use "No Theme" for the ThemeName.  |
 |\<CustomThemeImageUrl\>   |String  &#x2778;  ||Required if using a custom theme, otherwise optional. See the [Custom Theme Images](xml-config-file.md#Themes) section below for more details on the custom theme image.  |

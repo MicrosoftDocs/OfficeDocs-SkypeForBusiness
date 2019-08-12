@@ -76,16 +76,16 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 > [!NOTE]
 > Core M3 processors are not supported.
 
-**Certified firmware versions for USB audio and video peripherals**
+### **Certified firmware versions for USB audio and video peripherals**
 
-|Microsoft Teams Rooms peripherals|Firmware version certified for Microsoft Teams Rooms|
-|:-----|:-----|
+|Microsoft Teams Rooms peripherals|Firmware version certified for Microsoft Teams Rooms| Camera supports content camera use|
+|:--- |:--- | :--- |
 |[Logitech Rally](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam) <br/> |1.2.4 |
-|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
+|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240| &#x2714; |
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio — 1.0.172 <br/> Video — 1.0.156 <br/> |
 |[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0 <br/> 1.1.684 <br/> |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778 <br/> |
-|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
+|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778 <br/> | 
+|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> | &#x2714; |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0 <br/> |
@@ -99,6 +99,7 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0 <br/> |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23 <br/> |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c <br/> |
+|[Crestron Huddly IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) <br/> | TBD <br/> | &#x2714; |
 
 - **USB extenders**:
 
