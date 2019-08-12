@@ -1,14 +1,13 @@
 --- 
-layout: LandingPage
-hide_bc: true
+layout: HubPage
+ms.topic: hub-page
 title: Instructor-led training and videos for Microsoft Teams users
-ms.reviewer: 
+ms.reviewer: dearbeen
 manager: serdars
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
 localization_priority : Priority
 author: lolajacobsen
 audience: admin
-ms.topic: landing-page
 ms.author: lolaj
 ms.service: msteams
 ms.collection:  
@@ -16,9 +15,17 @@ ms.collection:
 - M365-collaboration
 ---
 
-# Instructor-led training for Microsoft Teams
-
-Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. For more training opportunities, including on-demand versions of live training, check out our <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end-user training</a>.<br><br>Click a tile to register.
+<div id="main" class="v2">
+    <div class="container">
+        <h1>Instructor-led training for Microsoft Teams</h1>
+           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. For more training opportunities, including on-demand versions of live training, check out our <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end-user training</a>.<br><br>Click a tile to register.
+        <ul class="pivots">
+            <li>
+                <a href="#home" data-linktype="self-bookmark"></a>
+                <ul id="home">
+                    <li>
+                        <a href="#home-all" data-linktype="self-bookmark"></a>
+                        <ul id="home-all" class="panelContent cardsF cols cols3">        
 <ul class="panelContent cardsF">
     <li>
         <a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams"target="_blank">
