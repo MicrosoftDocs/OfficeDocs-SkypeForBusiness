@@ -46,26 +46,40 @@ Using typical whiteboard markers, the optimal remote user experience is to share
 
 Camera distance from whiteboard (1920 ppi)
 
-|                  |1 mm per pixel | 1.5 mm per pixel <br> (optimal) | 2.0 mm  per pixel|
-|:---              |:---     |:---     |:---     |
-|Camera HFoV = 80  |7.2 ft. (2.2 m)|11.1 ft.(3.4 m) |15 ft. (4.6 m)  |
-|Camera HFoV = 90  |6.2 ft. (1.9 m)| 9.1 ft. (2.8 m)|12.4 ft. (3.8 m)|
-|Camera HFoV = 100 |5.2 ft. (1.6 m)| 7.8 ft. (2.4 m)|10.5 ft. (3.2 m)|
-|Camera HFoV = 110 |4.2 ft. (1.3 m)| 6.5 ft. (2.0 m)|8.8 ft. (2.7 m) |
-|Camera HFoV = 120 |3.6 ft. (1.1 m)| 5.2 ft.(1.6 m) |7.2 ft. (2.2 m) |
-|                     |         |         |         |
+|                   |1 mm per pixel | 1.5 mm per pixel <br> (optimal) | 2.0 mm  per pixel|
+|:---               |:---           |:---              |:---              |
+|Camera HFoV = 80°  |7.2 ft. (2.2 m)| 11.1 ft.(3.4 m)  | 15 ft. (4.6 m)   |
+|Camera HFoV = 90°  |6.2 ft. (1.9 m)|  9.1 ft. (2.8 m) | 12.4 ft. (3.8 m) |
+|Camera HFoV = 100° |5.2 ft. (1.6 m)|  7.8 ft. (2.4 m) | 10.5 ft. (3.2 m) |
+|Camera HFoV = 110° |4.2 ft. (1.3 m)|  6.5 ft. (2.0 m) | 8.8 ft. (2.7 m)  |
+|Camera HFoV = 120° |3.6 ft. (1.1 m)|  5.2 ft.(1.6 m)  | 7.2 ft. (2.2 m)  |
+|                   |               |                |                |
 
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Cameras with a larger HFoV (120 degrees for example) can be installed closer to the wall, and cameras with a narrower HFoV (like 82 degrees) will be installed farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
 If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software will select a middle area after failing to find whiteboard corners.
 
 > [!NOTE]
-> You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board. 
+> You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board.
 >
 > You can choose to have the camera mounted on a moveable tripod instead of a permanent mount. Place the tripod centered on the whiteboard. This setup may be temporary or used where there is little chance of knocking over the equipment. If you use a temporary mount, remember that content enhancement will be impacted if you move the camera after the initial share and you will need to re-share to correct for movement.
-> 
-> Any other variation that is not a whiteboard, such as colored surface boards, is not supported.
+>
+> A whiteboard, such as colored surface boards, is not supported.
 
 ### Supported cameras
 
 To determine whether you can use a camera as a content camera, refer to [Certified firmware versions for USB audio and video peripherals](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+
+### Camera settings
+
+Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
+
+1. Select **Settings**,  log in as Admin, and select> **Device Settings**.
+2. Under **Camera Defaults** select the content camera and make sure that the **Content enhancements** option is selected.
+3. (Optional) If the camera was installed upside down from the ceiling, check the **Rotate content camera 180°** option.
+
+## See also
+
+[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
+
+[Microsoft Teams Rooms requirements](requirements.md)
