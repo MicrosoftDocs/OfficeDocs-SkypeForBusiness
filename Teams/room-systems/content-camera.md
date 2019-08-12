@@ -8,7 +8,6 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
 ---
@@ -53,11 +52,11 @@ Camera distance from whiteboard (1920 ppi)
 |Camera HFoV = 100° |5.2 ft. (1.6 m)|  7.8 ft. (2.4 m) | 10.5 ft. (3.2 m) |
 |Camera HFoV = 110° |4.2 ft. (1.3 m)|  6.5 ft. (2.0 m) | 8.8 ft. (2.7 m)  |
 |Camera HFoV = 120° |3.6 ft. (1.1 m)|  5.2 ft.(1.6 m)  | 7.2 ft. (2.2 m)  |
-|                   |               |                |                |
+|                   |               |                  |                  |
 
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Cameras with a larger HFoV (120 degrees for example) can be installed closer to the wall, and cameras with a narrower HFoV (like 82 degrees) will be installed farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
-If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software will select a middle area after failing to find whiteboard corners.
+If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software will select a middle area if it fails to find whiteboard corners.
 
 > [!NOTE]
 > You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board.
