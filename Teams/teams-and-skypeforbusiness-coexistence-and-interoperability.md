@@ -154,7 +154,7 @@ Interop escalation consists in supplementing the native interop capabilities wit
 
 When interop escalation is triggered by the Teams user, a Teams meeting is created. When it is triggered by the Skype for Business user, a Skype for Business meeting is created. In both cases, the meeting created is a **Meet now** meeting, which is not reflected on the user’s calendar.
  
-The other party receives the meeting join link through interop chat and joins by clicking that link. If the Skype for Business user has a Teams account and is invited by the Teams user, they will join the meeting authenticated. Otherwise, they will join as an anonymous participant. Conversely, Teams users almost always have a Skype for Business account and a Skype for Business client they can use to join a Skype for Business meeting as an authenticated participant, but they might also join as an anonymous participant, for example using the Skype Meeting app.
+The other party receives the meeting join link through interop chat and joins by clicking that link. If the Skype for Business user has a Teams account and is invited by the Teams user, they will join the meeting authenticated. Otherwise, they will join as an anonymous participant. Conversely, Teams users almost always have a Skype for Business account and a Skype for Business client they can use to join a Skype for Business meeting as an authenticated participant, but they might also join as an anonymous participant, for example using the Skype Meeting App.
 
 Once the parties have joined the meeting, they can conduct any activity supported in meetings, such as desktop or content sharing, file sharing or transfer, adding other participants, and so on.
 
@@ -166,11 +166,11 @@ When the signaling indicated that the response came from (or through) the intero
  
 To prevent these false positives, the presence service is now informing the Skype for Business client when the other party is a **Teams Only** actual user. This allows Skype for Business to be aware that it needs to create an interop conversation ahead of it having been created, and the conversation window to be specific to interop.
 
-**Screenshot TBD**
+![Screen shot of Teams message to create interop conversation with a Skype for Business user](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 If the Skype for Business user wants to share their desktop for example, they are informed that we will start a meeting and guided through the steps.
 
-**Screenshot TBD**
+![Screen shot of Teams message to start meeting with a Teams user](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 Meanwhile, the Teams user receives an incoming chat message with the link to the meeting and are guided to join.
 
