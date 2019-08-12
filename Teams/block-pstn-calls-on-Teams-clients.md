@@ -6,10 +6,11 @@ ms.reviewer: alklasin
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn how users can block PSTN calls in Microsoft Teams. 
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---

@@ -6,12 +6,13 @@ manager: serdars
 ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: daro
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.  
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -72,14 +73,14 @@ To accommodate the requirements of our government cloud customers, there are som
 |-----------------------------|-----------------------------|----------------|
 | Base | Login | Available |
 | | Presence | Available |
-| | Unified presence (Skype for Business and Teams unified) | On the Government backlog |
+| | Unified presence (Skype for Business and Teams unified) | Available |
 | Activity | Feed | Available |
 |  | My Activity | Available |
 | Chat | Conversation | Available |
 | | Files | Available |
 | | Org chart | Available |
 | | Activity | Available |
-| | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
+| | InterOp (1:1 Teams-Skype for Business chat) | Available |
 | Teams | Channel message | Available |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |

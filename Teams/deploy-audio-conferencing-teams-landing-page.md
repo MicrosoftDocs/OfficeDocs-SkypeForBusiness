@@ -6,6 +6,7 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:  

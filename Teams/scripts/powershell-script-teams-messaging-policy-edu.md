@@ -6,9 +6,10 @@ manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
+audience: admin
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

@@ -5,6 +5,7 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: reference
+audience: admin 
 ms.service: msteams
 ms.collection: 
 - M365-collaboration

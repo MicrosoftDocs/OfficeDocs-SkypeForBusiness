@@ -3,10 +3,11 @@ title: Add a guest to a team
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
+audience: ITPro
 ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
