@@ -50,8 +50,9 @@ Microsoft is excited to host a series of free, live, online training classes des
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Get started with Teams</h3>
-                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>                    </div>
+                        <h3>Get started with Teams</h3>
+                        <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -178,7 +179,7 @@ Microsoft is excited to host a series of free, live, online training classes des
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="Icon depicting a roadmap with footsteps" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/office/media/icons/walkthrough-map-teams.svg" alt="Map symbol" />  
                         </div>
                     </div>
                     <div class="cardText">
