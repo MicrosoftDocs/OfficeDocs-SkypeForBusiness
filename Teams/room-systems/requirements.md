@@ -19,7 +19,7 @@ This article summarizes the requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
-You may also refer to:
+Also, refer to:
 
 - [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
