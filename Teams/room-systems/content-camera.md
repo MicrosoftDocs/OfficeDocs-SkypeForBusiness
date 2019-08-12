@@ -33,7 +33,7 @@ The size of the whiteboard used for sharing affects the placement of the camera.
 
 ## Camera location
 
-Ideal placement of a content camera is centered vertically and horizontally on the whiteboard. Local building codes may have height restrictions that require camera be elevated higher than the top of the white board.
+Ideal placement of a content camera is centered vertically and horizontally on the whiteboard. Local building codes may have height restrictions that require the camera be elevated higher than the top of the white board.
 
 You can install the camera up to 6 in. (152 mm) higher than the top of the whiteboard, and centered on the white board as shown. Make sure that the camera image includes a 6 in. (152 mm) border on both sides horizontally. You can use the camera preview in the Microsoft Teams Rooms app to determine final placement of the camera.
 
