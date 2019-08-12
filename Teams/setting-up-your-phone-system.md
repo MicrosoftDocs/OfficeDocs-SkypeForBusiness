@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -51,13 +51,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### Get new user phone numbers 
  
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Microsoft 365 with your work or school account.
 
 2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, displayed as a plus symbol](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
 ### Get new numbers that aren't available in the Skype for Business admin center
   
@@ -77,7 +77,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### Get new service numbers
 
-![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 
 1. Sign in to Office 365 with your work or school account.
@@ -105,9 +105,9 @@ If you have been following the steps above, you have already bought and assigned
 
 1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
 
-2. In the **New address** pane, enter a name for your address, and then complete the remaining boxes.
+2. In the **New Address** pane, enter a name for your address, and then complete the remaining boxes.
     
-     ![When you enter a new emergency address, the formatting of the street name might cause an error.](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
+     ![Screen shot of the New Address pane](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
     > [!TIP]
     > For English customers, if the street name is a number, be sure to include "st" or "th" at the end, as shown in the above picture.
@@ -153,15 +153,15 @@ Here's how they can see that phone number in their **Skype for Business** app:
     
 2. Choose **Settings** > **Tools** > **Options**. 
     
-     ![To view your phone number, go to Settings > Tools > Options.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![Screen shot of Options on the Tools menu](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. Then choose **Phones**. 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Screen shot of the Skype for Business phone options](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](media/teams-phone-number.png)
+![Screen shot of the options available after clicking Calls](media/teams-phone-number.png)
 
 **For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).**
 
@@ -206,7 +206,7 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
 
 Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
@@ -219,9 +219,10 @@ To create a new call queue, in the **Skype for Business admin center**, click **
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-To create a new auto attendant, in the Skype for Business admin center, click **Call routing** > **Auto attendants**, click **Add new**, and then follow the instructions for each page in **Step 2** of [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+To create a new auto attendant, in the Skype for Business admin center, click **Call routing** > **Auto attendants**, click **Add new**, and then follow the instructions for each page in **Step 2** of [Create a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**For more details about Cloud auto attendants, see [Set up a Cloud auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
+
+**For more details about Cloud auto attendants, see [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 
 ## Step 9: Assign service phone numbers (audio conferencing, call queues, auto attendants)
 
@@ -231,9 +232,9 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Microsoft 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Cloud Auto Attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Microsoft 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- For Call Queues, you can assign a dedicated number to a call queue by going to **Microsoft 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Cloud call queue](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
-**For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).**
+**For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).**
 
 ## Step 10: Set up Communications Credits for your organization
 
@@ -246,7 +247,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Sign in to Microsoft 365 with your work or school account.
 
-2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
+2. In the left navigation of the admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
 
 3. On the **Communications Credits** subscription page, fill in your information, and then click **Next**.
 
@@ -274,7 +275,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 ## Related topics
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     

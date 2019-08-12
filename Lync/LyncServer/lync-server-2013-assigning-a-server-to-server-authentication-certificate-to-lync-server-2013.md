@@ -1,13 +1,14 @@
 ---
 title: 'Assigning a server-to-server authentication certificate to Lync Server 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
 ms:contentKeyID: 48185367
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

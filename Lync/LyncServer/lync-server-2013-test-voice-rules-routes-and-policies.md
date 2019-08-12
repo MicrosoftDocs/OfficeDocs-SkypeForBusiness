@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test voice rules, routes, and policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test voice rules, routes, and policies
 ms:assetid: ebb9c3fa-6950-4311-87ca-e1ecd9280a43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725213(v=OCS.15)
 ms:contentKeyID: 63969661
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

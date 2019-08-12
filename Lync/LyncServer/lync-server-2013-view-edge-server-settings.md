@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: View Edge Server settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View Edge Server settings
 ms:assetid: 684154cc-cffc-4d2e-8baa-be52c625e5d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747890(v=OCS.15)
 ms:contentKeyID: 63969612
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

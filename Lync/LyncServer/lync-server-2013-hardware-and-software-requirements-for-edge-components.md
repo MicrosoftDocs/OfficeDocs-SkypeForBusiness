@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Hardware and software requirements for edge components'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Hardware and software requirements for edge components
 ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412931(v=OCS.15)
 ms:contentKeyID: 48185273
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

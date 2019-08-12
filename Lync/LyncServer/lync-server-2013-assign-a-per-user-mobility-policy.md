@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Assign a per-user mobility policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assign a per-user mobility policy
 ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721902(v=OCS.15)
 ms:contentKeyID: 49733836
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

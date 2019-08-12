@@ -1,13 +1,14 @@
 ---
 title: 'Managing Lync Server disaster recovery, high availability, and Backup Service'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
 ms:contentKeyID: 49733876
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

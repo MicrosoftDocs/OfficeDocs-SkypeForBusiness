@@ -1,7 +1,7 @@
 ---
 title: "Languages for voicemail greetings and messages"
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams

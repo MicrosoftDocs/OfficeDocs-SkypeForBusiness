@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -25,7 +25,7 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 # View and reset a conference ID assigned to a user in Skype for Business Online
 
 > [!Note]
-> For information about user conference IDs in Microsoft Teams, see [View and reset a conference ID assigned to a user in Microsoft Teasms](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
+> For information about user conference IDs in Microsoft Teams, see [View and reset a conference ID assigned to a user in Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
 
 A conferencing ID is automatically assigned to a Skype for Business user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID.
 
@@ -40,13 +40,13 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### To view the conference ID
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 You can view their conference ID and send it to users.
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**> **Audio conferencing** > **Users**, select the user who needs the conference ID.
 
@@ -70,11 +70,11 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 You can reset a conference ID for a user if, for example, they forget it.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the admin center > **Skype for Business**.
 
 3. In the **Skype for Business admin center**> **Audio conferencing** > **Users**, in the Action pane under **Conference ID**, click **Reset**.
 
@@ -108,7 +108,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
 
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

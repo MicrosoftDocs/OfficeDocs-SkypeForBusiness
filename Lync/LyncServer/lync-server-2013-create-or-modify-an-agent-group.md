@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or modify an agent group'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or modify an agent group
 ms:assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205370(v=OCS.15)
 ms:contentKeyID: 48185784
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

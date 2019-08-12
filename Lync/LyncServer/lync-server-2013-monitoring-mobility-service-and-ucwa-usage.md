@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Monitoring Mobility Service and UCWA usage'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring Mobility Service and UCWA usage
 ms:assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690025(v=OCS.15)
 ms:contentKeyID: 48184683
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

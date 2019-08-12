@@ -1,23 +1,24 @@
 ---
 title: Microsoft Teams User Adoption Plan | Best Practices
-author: dearbeen
-ms.author: dearbeen
+author: kenwith
+ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Guidance for continuing your journey from Skype for Business to Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
@@ -50,4 +51,4 @@ The lifecycle of any given technology has shifted to a dynamic growth cycle. Thi
 - Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
 
-![Example form showing expected release dates and notes about new functionality, listed with next steps and owners](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")
+![Example form showing expected release dates and notes](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")

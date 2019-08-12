@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Poster: Key Health Indicators'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
 ms:contentKeyID: 61084873
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

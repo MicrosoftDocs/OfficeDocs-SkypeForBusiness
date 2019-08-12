@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing Lync Server services and server roles'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Lync Server 2013 services and server roles
 ms:assetid: 4c316b2b-9445-49bd-868d-9b537d29b327
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688053(v=OCS.15)
 ms:contentKeyID: 49733646
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,23 +1,24 @@
 ---
 title: Skype for Business to Microsoft Teams| Upgrade User Change Readiness  
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Ensure your organization and users are ready for Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
+![Upgrade journey diagram, emphasizing the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -38,8 +39,8 @@ After you’ve secured your project team and defined your vision, scope, and goa
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization’s user readiness profile.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization’s user readiness profile.</li></ul>|
 
 ## Organizational change readiness
 
@@ -98,8 +99,8 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
 ### Examples
 

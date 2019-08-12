@@ -1,23 +1,24 @@
 ---
 title: Microsoft Teams requirements | Enhance Service
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Regularly evaluate opportunities to enhance the Teams service after you upgrade, monitor the Teams roadmap for any interesting feature enhancements.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
@@ -36,6 +37,6 @@ When you do see opportunities to enhance your service, take the time to do it ri
 When you do see opportunities to enhance your service, take the time to do it right. Revisit our [implementation phases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) and apply the same guidance end to end. When making small, incremental changes, it’s unlikely that you’ll need to complete all activities and tasks in full, but you should be sure to evaluate each activity and task along the way to give yourself the best chance at a successful outcome.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide who will monitor public roadmaps and other service announcements for new features or services that your organization might benefit from.</li><li>Decide on the cadence in which to report those new features or services back to the key stakeholders, via your steering committee.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Implement a strategy for staying up to date with your services to get the most value for your organization.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide who will monitor public roadmaps and other service announcements for new features or services that your organization might benefit from.</li><li>Decide on the cadence in which to report those new features or services back to the key stakeholders, via your steering committee.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Implement a strategy for staying up to date with your services to get the most value for your organization.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ul></td></tr>
 </table>

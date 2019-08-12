@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing Response Group workflows'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Response Group workflows
 ms:assetid: 42cfccdd-2844-4875-b4e3-813e1df15f08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520986(v=OCS.15)
 ms:contentKeyID: 48183974
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

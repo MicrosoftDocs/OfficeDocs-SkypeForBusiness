@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call admission control cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call admission control cmdlets
 ms:assetid: dd9d3912-b562-4839-a337-bfc5277cfb62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415676(v=OCS.15)
 ms:contentKeyID: 48185602
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

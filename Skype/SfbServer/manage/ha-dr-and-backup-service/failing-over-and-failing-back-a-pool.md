@@ -1,9 +1,10 @@
 ---
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
-author: heidip
+author: lanachin
+ms.author: v-lanac
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

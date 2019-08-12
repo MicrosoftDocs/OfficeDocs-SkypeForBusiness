@@ -3,7 +3,7 @@ title: "Plan Direct Routing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: conceptual
 ms.service: msteams
@@ -24,7 +24,7 @@ description: "Read this topic to learn how Microsoft Phone System Direct Routing
 
 Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System.  With this capability, for example, you can configure on-premises PSTN connectivity with Microsoft Teams client, as shown in the following diagram: 
 
-![Shows configuration of on-premises PSTN connectivity with Microsoft Teams client](media/PlanDirectRouting1-PSTNwithTeams.png)
+![Diagram showing configuration of on-premises PSTN connectivity](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration of on-premises PSTN connectivity with Microsoft Teams client")
 
   > [!NOTE]
   > Skype for Business Online also lets you pair a customer-provided SBC, but this requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contrast, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud. 
@@ -50,9 +50,10 @@ Planning your deployment of Direct Routing is key to a successful implementation
 - [Licensing and other requirements](#licensing-and-other-requirements)
 - [SBC domain names](#sbc-domain-names)
 - [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc)
-- [SIP Signaling: FQDNs and firewall ports](#sip-signaling-fqdns-and-firewall-ports)
-- [Media traffic: port ranges](#media-traffic-port-ranges)
-- [Supported SBCs](#supported-session-border-controllers-sbcs)
+- [SIP Signaling: FQDNs](#sip-signaling-fqdns)
+- [SIP Signaling: Ports](#sip-signaling-ports)
+- [Media traffic: Port ranges](#media-traffic-port-ranges)
+- [Supported Session Border Controllers (SBCs)](#supported-session-border-controllers-sbcs)
 
 For detailed information about configuring Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
@@ -70,7 +71,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Fully Qualified Domain Name (FQDN) for the SBC|A FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 tenant. For more information, see [SBC domain names](#sbc-domain-names).|
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
 |Public trusted certificate for the SBC |A certificate for the SBC to be used for all communication with Direct Routing. For more information, see [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
-|Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs and firewall ports](#sip-signaling-fqdns-and-firewall-ports).|
+|Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs](#sip-signaling-fqdns).|
 |Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall IP addresses and ports for Microsoft Teams media |For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -84,10 +85,15 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 - Microsoft Teams 
 - Microsoft Audio Conferencing 
 
-The Audio Conferencing license is required for adding external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number. 
- 
-  > [!NOTE]
-  > The E5 license includes both Phone System and Audio Conferencing.   
+
+> [!IMPORTANT]
+>  In the case that you would like to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is *required*.
+
+> [!NOTE]
+> The audio conferencing license is *required* to:
+> - Escalate from 1:1 call to a group call.
+> - Add external participants to scheduled meetings, by either dialing out or providing the dial-in number. 
+
 
 In addition, you must ensure the following:
  
@@ -160,7 +166,17 @@ The certificate needs to be generated by one of the following root certificate a
 
 Microsoft is working on adding additional certification authorities based on customer requests. 
 
-## SIP Signaling: FQDNs and firewall ports 
+## SIP Signaling: FQDNs 
+
+Direct Routing is offered in the following Office 365 environments:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
+
+### Office 365 and Office 365 GCC environments
 
 The connection point for Direct Routing are the following three FQDNs:
 
@@ -182,7 +198,44 @@ The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pst
 - 52.114.7.24 
 - 52.114.14.70
 
-You will need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN sip-all.pstnhub.microsoft.com resolves to all the IP addresses above.  You must use the following ports:
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN sip-all.pstnhub.microsoft.com resolves to all these IP addresses. 
+
+
+### Office 365 GCC DoD environment
+
+The connection point for Direct Routing is the following FQDN:
+
+**sip.pstnhub.dod.teams.microsoft.us** – Global FQDN. As the Office 365 DoD environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
+
+The FQDNs – sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the following IP addresses:
+
+- 52.127.64.33
+- 52.127.68.34
+
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.dod.teams.microsoft.us resolves to all these IP addresses. 
+
+### Office 365 GCC High environment
+
+The connection point for Direct Routing is the following FQDN:
+
+**sip.pstnhub.gov.teams.microsoft.us** – Global FQDN. As the GCC High environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
+
+The FQDNs – sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the following IP addresses:
+
+- 52.127.88.59
+- 52.127.92.64
+
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP addresses. 
+
+## SIP Signaling: Ports
+
+Port requirements are the same for all Office 365 environments where Direct Routing is offered:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+You must use the following ports:
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -203,11 +256,25 @@ The table below summarizes the relationships between primary, secondary, and ter
 |||||
 
 ## Media traffic: Port ranges
-Note the requirements below apply if you ant to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass please refer to [Plan for Media Bypass with Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+Note that the requirements below apply if you want to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass, please refer to [Plan for media bypass with Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+
+
 
 The media traffic flows to and from a separate service in the Microsoft Cloud. The IP range for Media traffic:
+
+### Office 365 and Office 365 GCC environments
+
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
 
+### Office 365 GCC DoD environment
+
+- 52.127.64.0/21
+
+### Office 365 GCC High environment
+
+- 52.127.88.0/21
+
+### Port range (applicable to all environments)
 The port range of the Media Processors is shown in the following table: 
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
@@ -225,8 +292,8 @@ The port range of the Media Processors is shown in the following table:
 Applies to both media bypass case and non-bypass cases
 
 The Direct Routing interface on the leg between the Session Border Controller and Cloud Media Processor (without media bypass) or between the Teams client and the SBC (if Media Bypass enabled) can use the following codecs:
-- Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G,729
-- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G,729, OPUS
+- Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G.729
+- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G.729, OPUS
 
 You can force use of the specific codec on the Session Border Controller by excluding undesirable codecs from the offer.
 

@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -28,6 +28,8 @@ This topic provides information that will help you diagnose and resolve problems
     
 - [Import-Module Error caused by incorrect version of Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
     
+- [Modern authentication fails when WinRM Basic authentication has been disabled](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
+    
 - [Failed to connect to Live ID Server](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
 - [Failed to load Live ID module](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedLoad)
@@ -38,9 +40,9 @@ This topic provides information that will help you diagnose and resolve problems
     
 - [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
-    
-- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMKPowerShellExecutionPolicy"> </a>
@@ -64,6 +66,13 @@ The Skype for Business Online Connector module can be run only under Windows Pow
 
 - **Resolution**: The only way to fix this problem is to install Windows PowerShell 3.0, which is available from the Microsoft Download Center at [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
+## Modern authentication fails when WinRM Basic authentication has been disabled
+<a name="BKMKWinRMBasicAuth"> </a>
+
+The latest version of the Skype for Business Online Connector module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication.  Modern authentication uses bearer tokens which are usually passed in the *Authorization: Bearer* header. Windows PowerShell, upon which Skype for Business PowerShell is built, does not allow for manipulation of this header.  Instead, Skype for Business PowerShell uses the *Authorization: Basic* header to pass the bearer token.
+
+See [Download and install Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
+
 ## Failed to connect to Live ID Server
 <a name="BKMKFailedConnect"> </a>
 

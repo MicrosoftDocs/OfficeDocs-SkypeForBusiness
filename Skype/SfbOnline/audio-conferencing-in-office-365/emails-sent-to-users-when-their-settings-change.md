@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
@@ -106,7 +106,7 @@ When you disable sending emails to users, email won't be sent even when a user g
   
 By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use the Skype for Business admin center or Windows PowerShell. 
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -122,7 +122,7 @@ By default, emails will be sent to your users, but if you want to prevent them f
 1. Run the following to disable sending all of your users email:
     
    ```
-   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
+   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 
 You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
@@ -147,7 +147,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -5,12 +5,13 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -43,7 +44,7 @@ idle.
 As you can see from the diagram below, endpoints are an important building block
 in providing a quality experience for users.
 
-![Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on endpoints.](media/plan-my-users-experience-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
+![Diagram describing the three components of quality](media/plan-my-users-experience-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
 
 Teams endpoints can run on many devices, including PCs, Macs, tablets,
 and mobile devices. Part of the experience not only encompasses the device, but
@@ -129,8 +130,8 @@ configuration guidance is provided in the following [support
 article](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>What Teams clients will be deployed in your organization?</li><li>How will you initially deploy Teams clients to your users?</li><li>Who is responsible for evaluating endpoints and devices to validate they meet Teams requirements for a quality experience?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the process that will be followed to deploy Teams clients.</li><li>Evaluate endpoints and devices and perform and remediation required.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>What Teams clients will be deployed in your organization?</li><li>How will you initially deploy Teams clients to your users?</li><li>Who is responsible for evaluating endpoints and devices to validate they meet Teams requirements for a quality experience?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the process that will be followed to deploy Teams clients.</li><li>Evaluate endpoints and devices and perform and remediation required.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -164,8 +165,8 @@ Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal
 solutions catalog.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide on your organization’s overall device strategy for user and meeting room experiences.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Complete a persona-to-device mapping exercise for your organization.</li><li>Document the process for obtaining devices for users and meeting rooms.</li><li>Document the process for deploying and configuration devices for users and meeting rooms.</li><li>Procure initial devices to begin your deployment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide on your organization’s overall device strategy for user and meeting room experiences.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Complete a persona-to-device mapping exercise for your organization.</li><li>Document the process for obtaining devices for users and meeting rooms.</li><li>Document the process for deploying and configuration devices for users and meeting rooms.</li><li>Procure initial devices to begin your deployment.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -1,16 +1,17 @@
 ---
 title: User feedback surveys in Microsoft Teams or Skype for Business
-author: dearbeen
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Gather user feedback to improve cloud voice implementation in Microsoft Teams or Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

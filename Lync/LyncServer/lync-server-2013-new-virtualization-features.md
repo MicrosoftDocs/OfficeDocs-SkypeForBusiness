@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New virtualization features'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New virtualization features
 ms:assetid: edeb2c41-765e-47b8-8a2b-7a7ce09de2ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721926(v=OCS.15)
 ms:contentKeyID: 49733861
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

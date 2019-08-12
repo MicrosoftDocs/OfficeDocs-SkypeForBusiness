@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: User management cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: User management cmdlets
 ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398677(v=OCS.15)
 ms:contentKeyID: 48184702
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

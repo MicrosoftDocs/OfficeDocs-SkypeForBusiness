@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining normalization rules'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining normalization rules
 ms:assetid: ed31d56c-00b5-4f72-bd9f-beb4100d441f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399071(v=OCS.15)
 ms:contentKeyID: 48185741
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

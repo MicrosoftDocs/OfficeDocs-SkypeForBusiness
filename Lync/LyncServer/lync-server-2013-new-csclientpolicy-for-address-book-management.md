@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New-CsClientPolicy for Address Book management'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New-CsClientPolicy for Address Book management
 ms:assetid: ef4415fc-82c4-4dc8-97d1-37a084553343
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429726(v=OCS.15)
 ms:contentKeyID: 48185771
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

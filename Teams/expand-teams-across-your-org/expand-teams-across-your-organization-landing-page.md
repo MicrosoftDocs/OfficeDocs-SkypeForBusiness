@@ -6,6 +6,7 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -25,7 +26,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +44,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="health" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +62,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="education" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -79,7 +80,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="business" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -97,7 +98,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="blocks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
                         </div>
                     </div>
                     <div class="cardText">

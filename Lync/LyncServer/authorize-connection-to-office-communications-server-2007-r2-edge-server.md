@@ -3,11 +3,13 @@ title: Authorize connection to Office Communications Server 2007 R2 Edge Server
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Authorize connection to Office Communications Server 2007 R2 Edge Server
 ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204702(v=OCS.15)
 ms:contentKeyID: 48183493
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

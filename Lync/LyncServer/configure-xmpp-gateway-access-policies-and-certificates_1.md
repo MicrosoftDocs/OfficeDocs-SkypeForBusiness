@@ -3,11 +3,13 @@ title: Configure XMPP gateway access policies and certificates
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure XMPP gateway access policies and certificates
 ms:assetid: cd91433e-6dfb-4553-8316-c1086b394221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721885(v=OCS.15)
 ms:contentKeyID: 49733819
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

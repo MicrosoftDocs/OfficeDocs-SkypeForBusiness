@@ -2,8 +2,9 @@
 title: Admin training for Microsoft Teams
 ms.reviewer: 
 description: Get the training you need to manage Microsoft Teams in your organization
-author: dearbeen
+author: lanachin
 manager: serdars
+audience: admin
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
@@ -14,7 +15,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Training
 ms.topic: landing-page
-ms.author: dearbeen
+ms.author: v-lanac
 ---
 # Admin training for Microsoft Teams
 
@@ -94,7 +95,7 @@ Learn how to manage Teams for your organization.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

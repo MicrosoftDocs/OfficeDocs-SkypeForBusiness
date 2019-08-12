@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Select the Central Management Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Select the Central Management Server
 ms:assetid: 1ca6b7d0-125c-4727-aac4-2d683d23394d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204726(v=OCS.15)
 ms:contentKeyID: 48183561
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

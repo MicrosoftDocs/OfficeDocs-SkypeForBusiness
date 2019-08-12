@@ -1,11 +1,11 @@
 ---
 title: "Plan to upgrade to Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -63,7 +63,7 @@ Make a plan that includes:
 1. An understanding of your current topology.
     
     > [!NOTE]
-    > Be sure to uninstall LRS Admin tool for Lync Server 2013 before running In-Place Upgrade. The LRS Admin Tool for Lync Server 2013 cannot coexist with Skype for Business Server 2015. After running In-Place Upgrade install the new LRS Admin tool, see [Microsoft Lync Room System Administrative Web Portal for Skype for Business Server 2015 ](https://go.microsoft.com/fwlink/?LinkID=544807)
+    > Be sure to uninstall LRS Admin tool for Lync Server 2013 before running In-Place Upgrade. The LRS Admin Tool for Lync Server 2013 cannot coexist with Skype for Business Server 2015. After running In-Place Upgrade install the new LRS Admin tool. See [Microsoft Lync Room System Administrative Web Portal for Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) for more details.
   
 2. The primary pool for the upgrade.
     

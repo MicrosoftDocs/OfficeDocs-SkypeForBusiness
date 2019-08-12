@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing sharing in conferences'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing sharing in conferences
 ms:assetid: e6021d70-6ed9-414d-954c-06eef397dc1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727314(v=OCS.15)
 ms:contentKeyID: 63969660
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

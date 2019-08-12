@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Install the Local Configuration store'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Install the Local Configuration store
 ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412874(v=OCS.15)
 ms:contentKeyID: 48185180
 ms.date: 06/28/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Add Persistent Chat Server to the topology'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
 ms:contentKeyID: 48184682
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

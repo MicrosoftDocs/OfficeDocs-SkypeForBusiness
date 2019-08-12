@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Guidance for Location-Based Routing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Guidance for Location-Based Routing
 ms:assetid: ce88cb39-f486-46d4-af48-cdf047ad3444
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994074(v=OCS.15)
 ms:contentKeyID: 51803985
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

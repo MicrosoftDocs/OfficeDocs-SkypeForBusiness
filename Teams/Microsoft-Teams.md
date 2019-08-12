@@ -3,8 +3,10 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams technical documentation
 ms.reviewer: 
-ms.author: lolaj
-author: lolajacobsen
+ms.author: kenwith
+audience: admin
+manager: serdars
+author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority
@@ -45,7 +47,7 @@ f1keywords:
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-introduction">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">

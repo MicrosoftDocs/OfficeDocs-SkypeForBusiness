@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -71,7 +71,7 @@ For more information, see [Phone numbers for Audio Conferencing in Microsoft Tea
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> The country or region location of your organization can be found by signing in to the **Office 365 admin center** and looking under **Organization Profile**. 
+> The country or region location of your organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**. 
   
 > [!CAUTION]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
@@ -81,7 +81,7 @@ To see a list of those countries/regions that have phone numbers automatically a
 ## How do you get dedicated phone numbers?
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. You can get dedicated toll and toll-free phone numbers for your conferencing bridges in one of three ways:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your conference bridges using the Skype for Business admin center. See [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your conference bridges using the Skype for Business admin center. See [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Specifying retention of CDR data'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Specifying retention of CDR data
 ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182581(v=OCS.15)
 ms:contentKeyID: 48185299
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

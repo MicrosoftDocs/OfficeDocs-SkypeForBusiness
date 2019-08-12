@@ -5,11 +5,12 @@ ms.author: Rowille
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 localization_priority: Normal
@@ -89,8 +90,8 @@ In addition to defining your business use cases, to set the project boundaries y
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li><li>What are all the business use cases for Calling Plans you can identify in your organization?</li><li>What are all the business use cases for Direct Routing you can identify in your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li><li>Document all business use cases for Calling Plans for your organization.</li><li>Document all business use cases for Direct Routing for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li><li>What are all the business use cases for Calling Plans you can identify in your organization?</li><li>What are all the business use cases for Direct Routing you can identify in your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li><li>Document all business use cases for Calling Plans for your organization.</li><li>Document all business use cases for Direct Routing for your organization.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -124,8 +125,8 @@ The business use cases defined in the previous step include an organizational sc
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Decision points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Next steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -217,8 +218,8 @@ You need to identify business risks as part of this exercise, and define a mitig
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization&#39;s OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Calling Plans in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Direct Routing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the OKRs and KSIs, and establish the risks register.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Decision points|<ul><li>What are your organization&#39;s OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Calling Plans in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Direct Routing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Next steps|<ul><li>Document the OKRs and KSIs, and establish the risks register.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -258,8 +259,8 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Decision points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Next steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
 
 Additional detailed guidance on how to operate a proper steering committee can be found in the [steering committee guide](envision-steering-committee-complete-guide.md).
 

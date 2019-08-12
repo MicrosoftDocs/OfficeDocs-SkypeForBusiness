@@ -1,23 +1,24 @@
 ---
 title: Training for Microsoft Teams | IT support Admin issues 
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Prepare IT staff in your organization for deploying and supporting Microsoft Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -41,7 +42,7 @@ Share the following resources with your IT staff members, and confirm that they�
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</li><li>Have you developed a training plan for onboarding additional staff as your upgrade progresses?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Verify that IT staff has the information they need.</li><li>Revisit your training and preparation plans as new features are released.</li></ul>|
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</li><li>Have you developed a training plan for onboarding additional staff as your upgrade progresses?</li></ul> |
+| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Verify that IT staff has the information they need.</li><li>Revisit your training and preparation plans as new features are released.</li></ul>|
 
 After you’ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).

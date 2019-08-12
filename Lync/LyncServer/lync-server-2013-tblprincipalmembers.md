@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblPrincipalMembers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMembers
 ms:assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615022(v=OCS.15)
 ms:contentKeyID: 48184965
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

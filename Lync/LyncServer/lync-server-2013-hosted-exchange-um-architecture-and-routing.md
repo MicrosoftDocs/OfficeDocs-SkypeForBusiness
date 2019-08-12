@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Hosted Exchange UM architecture and routing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Hosted Exchange UM architecture and routing
 ms:assetid: 4ea4a2ce-01d9-4209-bf8e-98fa9027fb7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398318(v=OCS.15)
 ms:contentKeyID: 48184122
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

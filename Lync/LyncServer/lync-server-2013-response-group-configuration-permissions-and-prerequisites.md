@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Response Group configuration permissions and prerequisites'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Response Group configuration permissions and prerequisites
 ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204840(v=OCS.15)
 ms:contentKeyID: 48183972
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

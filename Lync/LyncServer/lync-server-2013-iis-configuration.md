@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: IIS configuration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: IIS configuration
 ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412871(v=OCS.15)
 ms:contentKeyID: 48185169
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

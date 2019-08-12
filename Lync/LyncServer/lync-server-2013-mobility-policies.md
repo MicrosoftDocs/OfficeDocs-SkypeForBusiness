@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Mobility policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Mobility policies
 ms:assetid: 8caa5525-e16a-4e38-b3cd-acc0ae9ea375
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688126(v=OCS.15)
 ms:contentKeyID: 49733723
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

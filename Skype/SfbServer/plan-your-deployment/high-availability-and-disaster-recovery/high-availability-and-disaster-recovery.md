@@ -1,10 +1,10 @@
 ---
 title: "Plan for high availability and disaster recovery in Skype for Business Server"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.lync.plan.HighAvailabilityType

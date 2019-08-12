@@ -4,8 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding roles:"

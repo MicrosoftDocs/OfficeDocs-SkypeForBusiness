@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 3 - Scale
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to support the broad scale enablement of Teams for your organization.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -32,4 +32,4 @@ In this phase, you will use your learnings, talented project team, and relations
 7. Prepare for ongoing business engagement.
 8. Prepare for ongoing service health & adoption reviews.
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)

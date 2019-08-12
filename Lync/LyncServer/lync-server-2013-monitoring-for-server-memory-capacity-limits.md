@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Monitoring for server memory capacity limits'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring for server memory capacity limits
 ms:assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689982(v=OCS.15)
 ms:contentKeyID: 48183506
 ms.date: 12/29/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

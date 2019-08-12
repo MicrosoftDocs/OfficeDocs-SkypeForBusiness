@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Device Update Web service'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Device Update Web service
 ms:assetid: 036f473d-a131-431f-8051-76ccadc5cfba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994015(v=OCS.15)
 ms:contentKeyID: 51803921
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

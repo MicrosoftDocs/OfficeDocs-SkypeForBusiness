@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Response Group application cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Response Group application cmdlets
 ms:assetid: 5710163c-e6c2-4ca5-b247-5bf9df6c954e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415654(v=OCS.15)
 ms:contentKeyID: 48184199
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

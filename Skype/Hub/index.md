@@ -4,6 +4,7 @@ hide_bc: true
 title: Skype for Business
 ms.reviewer: 
 ms.author: kenwith
+manager: serdars
 author: kenwith
 description: Skype for Business
 ---
@@ -112,7 +113,7 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="/MicrosoftTeams/upgrade-start-here">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Performing an ABC Front End pool failover'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Performing an ABC Front End pool failover
 ms:assetid: 81ecd26d-49e3-4c72-a66e-02748efb513b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945637(v=OCS.15)
 ms:contentKeyID: 51541489
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining translation rules and normalization rules'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining translation rules and normalization rules
 ms:assetid: a22e4804-8802-42b1-a1b1-be42f85b3d46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688159(v=OCS.15)
 ms:contentKeyID: 49733763
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

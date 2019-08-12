@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Delete an unassigned number range'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete an unassigned number range
 ms:assetid: a8141bfb-b94d-4d0f-a7a9-2e60d10b103a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182565(v=OCS.15)
 ms:contentKeyID: 48185090
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

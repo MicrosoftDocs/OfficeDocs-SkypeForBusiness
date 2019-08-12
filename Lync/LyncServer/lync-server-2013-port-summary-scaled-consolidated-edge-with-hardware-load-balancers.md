@@ -1,13 +1,14 @@
 ---
 title: 'Port summary - Scaled consolidated edge with hardware load balancers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Port summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398739(v=OCS.15)
 ms:contentKeyID: 48184841
 ms.date: 04/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

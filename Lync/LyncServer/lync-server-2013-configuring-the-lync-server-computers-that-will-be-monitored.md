@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring the Lync Server computers that will be monitored'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring the Lync Server computers that will be monitored
 ms:assetid: 9f1b2b91-d5af-42ad-a27d-b0815f762ad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205118(v=OCS.15)
 ms:contentKeyID: 48184927
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Security cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Security cmdlets
 ms:assetid: 9a6c654d-287d-434e-8d93-409f0d623f5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398799(v=OCS.15)
 ms:contentKeyID: 48184968
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

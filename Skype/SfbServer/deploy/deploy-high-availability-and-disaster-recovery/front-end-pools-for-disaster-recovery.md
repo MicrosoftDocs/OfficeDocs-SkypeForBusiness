@@ -1,11 +1,11 @@
 ---
 title: "Deploy paired Front End pools for disaster recovery in Skype for Business Server"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17

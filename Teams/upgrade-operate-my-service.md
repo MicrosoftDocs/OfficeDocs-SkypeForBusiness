@@ -1,23 +1,24 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
@@ -52,11 +53,11 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
+![A diagram depicting a list of categories of tasks and activities](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 ### Operational role mapping
@@ -93,7 +94,7 @@ After an agreement is in place, the corresponding teams should start to
 operationalize their roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td>
 <td><ul><li>Use this document to facilitate the operational role mapping exercise.</li><li>Meet with the respective support teams to assign names to each item in the list of required activities.</li><li>Gain acceptance or sign-off on the assigned roles.</li><li>Ensure that the corresponding teams have the appropriate training, readiness, and resources to complete the activities required of them.</li></ul></td></table>
 
 ### Teams service dependencies
@@ -457,7 +458,7 @@ based on the following ratings:
 
 - From 1 through 6 are Detractors: Unhappy customers who can damage your service and impede growth.
 
-![This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
+![A diagram that demonstrates the NPS scale](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
 
 Although the base NPS number is useful, you’ll get the most value from analyzing
 user comments. They’ll help you understand why the user would (or wouldn’t)
@@ -511,13 +512,11 @@ be performed at regular intervals.
 | Provide building data | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the [building definitions in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) are kept up to date. | As needed | |
 | Implement change | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul> | As needed | |
 | Network monitoring and reporting | Monitor the network end to end for availability, utilization, and capacity trends by using your existing third-party network management tools and reporting capabilities available from your network providers. Use trending data for network capacity planning. | Daily, weekly, monthly | |
-| Capacity planning | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes. Leverage the results from the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to ensure that sufficient bandwidth is available for Microsoft Teams. | As needed | |
+| Capacity planning | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes.  | As needed | |
 | Network troubleshooting and remediation | Assist the Teams helpdesks, service owners, and key stakeholders to troubleshoot and remediate issues to related to Teams connectivity, reliability, or quality. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul> | As needed | |
 | Disaster recovery and high availability testing | Perform regular high availability and disaster recovery testing on the network infrastructure to ensure that it meets the stated service level objectives (SLOs) or service level agreements (SLAs) for the Teams service. | Monthly | |
 
 ### References
-
-[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
@@ -565,8 +564,6 @@ the Quality of Experience Review Guide and associated training materials.
 | Fill the Quality Champion role | End-to-end responsibility for quality in the organization. This includes:<ul><li>Ensure that the QER is being conducted regularly.</li><li>Report out to key stakeholders on quality status.</li><li>Ensure the building data definitions are up to date.</li><li>Coordinate remediation efforts across the organization to ensure that users have a high-quality experience with Teams.</li></ul> | Daily | |
 
 ### References
-
-[Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 

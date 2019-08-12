@@ -4,8 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "You can move users to the new Skype for Business Server 2019 deployment by using either Skype for Business Server Control Panel or Skype for Business Server Management Shell. You must meet some requirements to ensure a smooth transition to Skype for Business Server 2019. For details about prerequisites to completing the procedures in this topic, see Configure clients for migration. For detailed steps about moving users, see Phase 4: Move test users to the pilot pool."

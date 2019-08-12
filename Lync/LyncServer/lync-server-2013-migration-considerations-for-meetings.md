@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Migration considerations for meetings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
 ms:contentKeyID: 61097556
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

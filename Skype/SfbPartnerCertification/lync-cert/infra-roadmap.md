@@ -6,9 +6,9 @@ manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: lync-server
+ms.prod: lync-server-2013 
 ms.collection: Lync
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync
 - Skype for Business 

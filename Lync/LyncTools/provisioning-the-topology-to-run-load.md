@@ -8,6 +8,7 @@ ms:assetid: 6fba03df-3914-4d2a-8208-e252ad993aff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945598(v=OCS.15)
 ms:contentKeyID: 51541424
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

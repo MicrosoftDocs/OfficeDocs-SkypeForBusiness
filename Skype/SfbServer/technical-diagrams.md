@@ -1,10 +1,10 @@
 ---
 title: Posters for Skype for Business Server 2015 | Office 365 Voice PSTN
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

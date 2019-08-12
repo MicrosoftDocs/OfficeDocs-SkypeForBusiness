@@ -1,11 +1,11 @@
 ---
 title: "Create or modify a Call Park orbit range in Skype for Business"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:

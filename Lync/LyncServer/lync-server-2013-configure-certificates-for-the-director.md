@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure certificates for the Director'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure certificates for the Director
 ms:assetid: 22988186-15ae-43b1-92f4-0adb3b75a7fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398296(v=OCS.15)
 ms:contentKeyID: 48183612
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: VoipDetails table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: VoipDetails table
 ms:assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398566(v=OCS.15)
 ms:contentKeyID: 48184522
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

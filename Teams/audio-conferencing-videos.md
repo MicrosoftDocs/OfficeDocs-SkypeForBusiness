@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer: Rowille
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
 localization_priority: Normal
@@ -22,8 +23,6 @@ Videos: Audio Conferencing in Microsoft Teams
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).
 
 > [!NOTE]
 > Audio Conferencing was formerly known as PSTN Conferencing

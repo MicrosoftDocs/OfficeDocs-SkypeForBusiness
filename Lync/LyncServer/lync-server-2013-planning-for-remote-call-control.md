@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for remote call control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for remote call control
 ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558658(v=OCS.15)
 ms:contentKeyID: 48184371
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

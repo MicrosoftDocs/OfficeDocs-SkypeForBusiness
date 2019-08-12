@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing network subnets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing network subnets
 ms:assetid: 0127b27c-42a7-4d4b-b419-c92149f51e92
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687955(v=OCS.15)
 ms:contentKeyID: 49733540
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

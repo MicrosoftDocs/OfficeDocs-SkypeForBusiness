@@ -1,11 +1,11 @@
 ---
 title: "Deploy instant messaging and presence in Skype for Business Server"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7

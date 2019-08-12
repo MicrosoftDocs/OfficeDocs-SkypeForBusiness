@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync Server 2013 hybrid'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 hybrid
 ms:assetid: 3539abf6-e2e2-47fe-aad5-269bdf98c3b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204805(v=OCS.15)
 ms:contentKeyID: 48183839
 ms.date: 05/25/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

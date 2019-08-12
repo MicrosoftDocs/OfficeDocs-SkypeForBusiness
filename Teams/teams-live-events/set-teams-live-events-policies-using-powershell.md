@@ -1,15 +1,16 @@
 ---
 title: Use PowerShell to set live events policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and features that are available in the events that they create
@@ -25,12 +26,12 @@ You can use the following Windows PowerShell cmdlets to set and assign policy se
 - [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-Here's some examples.
+Here are some examples.
 
 ## Allow users to schedule live events 
 
 > [!NOTE]
-> These examples are for quick start events. For external encoder events, there are additional steps you must do. For more information, see [Enable users to schedule external encoder events](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).
+> These examples are for events produced in Teams. For events produced with an external app or device, there are additional steps you must do. For more information, see [Enable users to schedule events that were produced with an external app or device](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
 **Allow a user to schedule live events**
 
@@ -118,17 +119,17 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## Set the recording option for live events
 > [!NOTE]
-> This setting applies only to quick start events.
+> This setting applies only to events produced in Teams.
 
 Set the global policy to disable recording for live events:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## Set transcription and translation in live events (coming soon)
+## Set live captions and subtitles in live events
 > [!NOTE]
-> This setting applies only to quick start events. 
+> This setting applies only to events produced in Teams. 
 
-Set the global policy to turn on transcription and translation on for event attendees:
+Set the global policy to turn on live captions and subtitles (transcription) for event attendees:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

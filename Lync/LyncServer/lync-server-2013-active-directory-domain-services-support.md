@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Active Directory Domain Services support'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Active Directory Domain Services support
 ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
 ms:contentKeyID: 48185136
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

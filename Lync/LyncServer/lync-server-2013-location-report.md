@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Location Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Location Report
 ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
 ms:contentKeyID: 48185641
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

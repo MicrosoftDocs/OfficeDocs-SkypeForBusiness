@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Voice policies'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Voice policies
 ms:assetid: b7433c62-9d8c-48af-89a0-19f0d34806ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412891(v=OCS.15)
 ms:contentKeyID: 48185223
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

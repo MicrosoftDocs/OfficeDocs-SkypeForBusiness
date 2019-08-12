@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Topologies and components for mobility'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Topologies and components for mobility
 ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
 ms:contentKeyID: 48185282
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

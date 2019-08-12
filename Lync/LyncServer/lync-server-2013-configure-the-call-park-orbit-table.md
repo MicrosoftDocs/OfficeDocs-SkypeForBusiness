@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure the Call Park orbit table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure the Call Park orbit table
 ms:assetid: e5cc0c19-7b2c-48e7-a21d-cfb23c842f0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399020(v=OCS.15)
 ms:contentKeyID: 48185666
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

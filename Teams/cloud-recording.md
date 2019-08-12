@@ -5,13 +5,14 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -29,7 +30,7 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
 - User has an Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium or Business Essentials
-- User needs to be licensed for Microsoft Stream
+- User needs to be licensed for Microsoft Stream<sup>1</sup> 
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
@@ -38,6 +39,8 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 
 > [!NOTE]
 > Additionally, to allow the person initiating the recording to choose whether to automatically transcribe the recording, the user's TeamsMeetingPolicy -AllowTranscription setting must be set to true
+
+<sup>1</sup>User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
 ## Set up Teams cloud meeting recording for users in your organization
 
@@ -120,7 +123,7 @@ The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-
 
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
 
 - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Set up your computer for Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)

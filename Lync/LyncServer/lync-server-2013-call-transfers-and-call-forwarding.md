@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call transfers and call forwarding'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call transfers and call forwarding
 ms:assetid: 978610ec-63c7-4cf6-ad7a-9ef91559bf12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994051(v=OCS.15)
 ms:contentKeyID: 51803962
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

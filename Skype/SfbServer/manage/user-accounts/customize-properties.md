@@ -1,10 +1,10 @@
 ---
 title: "Customize user account properties for Skype for Business Server"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -20,7 +20,7 @@ There are two basic operations that can be done at the individual user level:
   
 - [Configure telephony options for a specific user account](customize-properties.md#Tel_Op)
     
-- [Move users to another pool ](customize-properties.md#Move_Users)
+- [Move users to another pool](customize-properties.md#Move_Users)
     
 ## Configure telephony options for a specific user account
 <a name="Tel_Op"> </a>

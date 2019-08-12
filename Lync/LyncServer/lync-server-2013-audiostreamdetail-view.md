@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: AudioStreamDetail view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: AudioStreamDetail view
 ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721859(v=OCS.15)
 ms:contentKeyID: 49733792
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

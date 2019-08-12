@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Troubleshooting and Key Health Indicators'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Troubleshooting and Key Health Indicators
 ms:assetid: 14ec9e21-aa2b-4d65-9be4-ef2adfbe9a8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720322(v=OCS.15)
 ms:contentKeyID: 63969585
 ms.date: 05/18/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

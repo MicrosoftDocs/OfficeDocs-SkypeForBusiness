@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring the meeting invitation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring the meeting invitation
 ms:assetid: 7faa4797-0344-418b-9fa3-59dfb9c2baf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398638(v=OCS.15)
 ms:contentKeyID: 48184641
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Installing the Planning Tool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Installing the Planning Tool
 ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615046(v=OCS.15)
 ms:contentKeyID: 51541525
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

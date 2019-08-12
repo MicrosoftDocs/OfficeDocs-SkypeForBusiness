@@ -5,6 +5,7 @@ layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
+audience: admin
 manager: serdars
 ms.date: 03/29/2019
 ms.service: msteams
@@ -28,7 +29,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -46,7 +47,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,24 +58,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
         </div>
         </a>
     </li>
-<li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Firstline Worker features coming to Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
+
 </ul>
 
 ### Set up and manage Shifts
@@ -87,7 +71,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -105,7 +89,7 @@ Teams gives Firstline Workers in your organization the tools they need to commun
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">

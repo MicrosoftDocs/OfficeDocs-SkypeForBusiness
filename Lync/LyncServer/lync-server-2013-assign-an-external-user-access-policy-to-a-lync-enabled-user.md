@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Assign an external user access policy to a Lync enabled user'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assign an external user access policy to a Lync enabled user
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

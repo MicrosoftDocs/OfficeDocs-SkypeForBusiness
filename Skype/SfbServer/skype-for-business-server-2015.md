@@ -1,12 +1,12 @@
 ---
 title: "Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

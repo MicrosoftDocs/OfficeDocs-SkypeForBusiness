@@ -1,13 +1,14 @@
 ---
 title: 'Request and configure a certificate for your reverse HTTP proxy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Request and configure a certificate for your reverse HTTP proxy
 ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
 ms:contentKeyID: 48184085
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

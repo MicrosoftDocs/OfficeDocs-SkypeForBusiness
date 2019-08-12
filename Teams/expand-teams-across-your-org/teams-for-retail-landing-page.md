@@ -5,6 +5,7 @@ layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
+audience: admin
 manager: serdars
 ms.date: 03/01/2019
 ms.service: msteams
@@ -26,7 +27,7 @@ Use the admin resources here to manage and get the most out of Teams for your re
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough"/>
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Icon depicting a map, representing getting started"/>
                         </div>
                     </div>
                     <div class="cardText">

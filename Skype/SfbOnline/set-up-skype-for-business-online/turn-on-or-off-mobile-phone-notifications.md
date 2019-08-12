@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -30,11 +30,11 @@ On Android and Windows Phones, Skype for Business notifications pop up in real t
 ## Turn push notifications off for all the Windows Phone or Apple devices in your organization
 <a name="__top"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to admin center > **Skype for Business**.
     
 3. Go to **Organization** > **General**. 
     

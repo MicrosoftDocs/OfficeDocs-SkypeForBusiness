@@ -5,12 +5,13 @@ ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about meetings, licensing and availability, configuring conference bridge settings, acquiring or transfering phone numbers, and choosing tenant dial plans. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -163,7 +164,7 @@ To learn more about conference bridge phone numbers, review the following articl
 
 -   [Phone numbers for Audio Conferencing](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-   [Getting service phone numbers](getting-service-phone-numbers.md)
 
 -   [Transfer phone numbers to Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 

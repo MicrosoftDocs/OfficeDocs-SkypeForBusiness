@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Modify the default file transfer filter'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Modify the default file transfer filter
 ms:assetid: 791774a2-0bb6-4b5b-aeb0-ff69abb170f4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521017(v=OCS.15)
 ms:contentKeyID: 48184584
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: "Associate a monitoring store with a Front End pool in Skype for Business Server"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b

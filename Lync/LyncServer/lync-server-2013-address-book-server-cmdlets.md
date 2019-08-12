@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Address Book Server cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Address Book Server cmdlets
 ms:assetid: 33da45da-3c57-4d04-9679-f0e5a0cfd37e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415643(v=OCS.15)
 ms:contentKeyID: 48183793
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

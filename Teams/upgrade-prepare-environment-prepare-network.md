@@ -1,23 +1,24 @@
 ---
 title: Prepare your network for Microsoft Teams|  Port Firewall Requirements
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance to prepare your network for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -33,7 +34,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your network for that functionality. Teams uses audio and video technology (codecs) that can adapt to—and therefore perform better under—most network conditions. To ensure optimal and consistent performance, you should prepare your network for Teams.
 
-![Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
+![Diagram describing the three components of quality](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
 ## Why should you prepare your network?
 
@@ -189,8 +190,8 @@ Quality of service (QoS) can be used to battle impairments by prioritizing and s
 >Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Network Readiness Assessment</a>.</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. </li><li>Perform network remediation based on the results of the network readiness assessment for every network segment.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -203,7 +204,7 @@ These are the main takeaways from this guidance. You must:
 
 - Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
 
-- Ensure that you have sufficient bandwidth for deploying Teams by completing the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+- Ensure that you have sufficient bandwidth for deploying Teams.
 
 - Run the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure that you meet the requirements described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) from both the edge segment and the client segment.
 

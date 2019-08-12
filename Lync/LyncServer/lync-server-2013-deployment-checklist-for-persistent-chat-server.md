@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment checklist for Persistent Chat Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment checklist for Persistent Chat Server
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412851(v=OCS.15)
 ms:contentKeyID: 48185155
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

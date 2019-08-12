@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 call management features for disaster recovery
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call management features for disaster recovery
 ms:assetid: effb75b4-499d-4414-a283-fffe165c26dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721935(v=OCS.15)
 ms:contentKeyID: 49733871
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

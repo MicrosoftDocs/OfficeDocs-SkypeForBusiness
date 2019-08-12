@@ -4,13 +4,13 @@ author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to set up and manage the Shifts app in Teams for Firstline Workers in your organization.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -44,35 +44,41 @@ Shifts data is currently stored in Azure in data centers in North America, Weste
 
 ### Enable or disable Shifts in your organization
 
-Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app for your organization in the Microsoft 365 admin center.
+Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app org-wide by using org-wide settings in app permission policies in the Microsoft Teams admin center.
 
-1. Sign in to the Microsoft 365 admin center with your Office 365 admin account.
-2. Go to **Settings** > **Services & add-ins** > **Microsoft Teams**. 
-3. Under **Tenant-wide settings**, select **Apps**, and then under **Default Apps**, clear or select the **Shifts** check box to turn off or turn on the app. 
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies** .
+2. Click **Org-wide settings**.
+3. In the **Org-wide settings** panel, under **Blocked apps**, do one of the following:
 
-    ![Screen shot of the Default Apps section](../../media/firstline-worker-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
+    - To turn off Shifts for your organization, search for the Shifts app, and click **Add** to add it to the blocked apps list.
+    - To turn on Shifts for your organization, remove the Shifts app from the blocked apps list.
+4. Click **Save**. 
 
-### Use the Firstline Worker app setup policy to pin Shifts to Teams
+### Enable or disable Shifts for specific users in your organization
+
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization in org-wide settings, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
+
+### Use the FirstlineWorker app setup policy to pin Shifts to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
  
-Teams includes a built-in Firstline Worker app setup policy that you can assign to Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
+Teams includes a built-in FirstlineWorker app setup policy that you can assign to Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
 
-To view the Firstline Worker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
+To view the FirstlineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 
-![Screen shot of the Firstline Worker app setup policy in the Microsoft Teams admin center](../../media/firstline-worker-app-setup-policy.png "Screen shot of the Firstline Worker app setup policy in the Microsoft Teams admin center")
+![Screen shot of the FirstlineWorker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screen shot of the FirstlineWorker app setup policy in the Microsoft Teams admin center")
 
-#### Assign the Firstline Worker policy to individual users
+#### Assign the FirstlineWorker policy to individual users
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Next to **Assigned policies**, choose **Edit**.
 3. Under **Teams App Setup policy**, select **FirstlineWorker**, and then choose **Save**.
 
-#### Assign the Firstline Worker app setup policy to users in a group
+#### Assign the FirstlineWorker app setup policy to users in a group
 
-You can assign the Firstline Worker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
+You can assign the FirstlineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
 
-In this example, we assign the Firstline Worker app setup policy to all users in the Contoso Firstline Team group.
+In this example, we assign the FirstlineWorker app setup policy to all users in the Contoso Firstline Team group.
 
 > [!NOTE]
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).

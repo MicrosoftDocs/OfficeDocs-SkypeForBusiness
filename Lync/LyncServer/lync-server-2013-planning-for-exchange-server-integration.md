@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for Exchange Server integration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for Exchange Server integration
 ms:assetid: 75152a25-f3cd-4134-9be7-7a0e6c5d0ed8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688094(v=OCS.15)
 ms:contentKeyID: 49733693
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

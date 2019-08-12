@@ -3,14 +3,15 @@ title: Evaluate your environment for Microsoft Teams cloud voice workloads
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.  
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -50,11 +51,11 @@ numbers to
 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
 Knowing this will help your organization adjust its project plan accordingly and
 prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](environmental-discovery-for-microsoft-teams-rollout.md)
-from MyAdvisor to perform environmental discovery.
+to perform environmental discovery.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -70,8 +71,8 @@ Deployment puts a new technology at a user's fingertips, but business results ar
 Use the following considerations to assess your organization’s preparedness to address user change management.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>If you answered &quot;yes&quot; to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered &quot;no&quot; to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>If you answered &quot;yes&quot; to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered &quot;no&quot; to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
 </table>
 
 
@@ -83,7 +84,7 @@ Teams uses audio and video technology (codecs) that can adapt to—and therefore
 perform better under—most network conditions. To ensure optimal and consistent
 performance, you should prepare your network for Teams.
 
-![Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
+![Diagram describing the three components of quality](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
 ## Key takeaways
 
@@ -93,9 +94,7 @@ These are the main takeaways from this guidance. You must:
 
 -   Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
 
--   Ensure that you have sufficient bandwidth for deploying Teams by completing
-    the [Network
-    Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+-   Ensure that you have sufficient bandwidth for deploying Teams.
 
 -   Run the [Network Assessment
     Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure
@@ -130,11 +129,6 @@ The first step toward network readiness is ensuring your network has enough
 bandwidth available for the modalities Teams will provide to users. Planning for
 sufficient bandwidth is a fairly straightforward task and a very low-barrier
 start to ensure your users will have a high-quality Teams experience.
-
-You start your bandwidth planning journey for Teams on the [My Advisor
-website](https://myadvisor.fasttrack.microsoft.com/) by using the Network
-Planner. The Network Planner provides per-site bandwidth planning for Teams and
-offers recommendations for optimizing network performance.
 
 ### Local internet egress
 
@@ -362,8 +356,8 @@ maintain these areas as part of your service management planning.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Network Readiness Assessment</a>.</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment.</li><li>Perform network remediation based on the results of the assessment for every network segment.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

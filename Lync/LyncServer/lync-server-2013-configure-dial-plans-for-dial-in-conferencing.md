@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure dial plans for dial-in conferencing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure dial plans for dial-in conferencing
 ms:assetid: a3e0958e-384f-43e5-b4c9-686b6ecac7ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412768(v=OCS.15)
 ms:contentKeyID: 48185051
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

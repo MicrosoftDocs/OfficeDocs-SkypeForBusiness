@@ -3,13 +3,14 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/25/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: marcl
+audience: admin
 localization_priority: Priority
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
@@ -22,6 +23,8 @@ appliesto:
 This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Administration
+
+
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -133,6 +136,12 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Client
 
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Can't start Teams for Surface Hub from Microsoft Store |Microsoft Teams for Surface Hub won't start when you click **Launch** in the Microsoft Store. | Launching the Teams for Surface Hub app from the Microsoft Store listing isn't supported by Windows on Surface Hub. <br> <br/> Please restart your Surface Hub after installing Teams. | 2/27/18 |
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Teams does not automatically update   <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.    <br/> | By design. Be sure to install the application in the default location: `user\Appdata`.  <br/> | 9/7/17  <br/> |
@@ -196,11 +205,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to use fun picker or Giphys or stickers in mobile app  <br/> |You can't use gifs, emojis or stickers on the mobile clients.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+|Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
+|Issues you may encounter if using iOS 13 Beta  <br/> |1. Teams notifications are not being fired.  This includes chats, mentions, and calls.  2. File preview is not working with the beta build.  <br/> |At this time there is no workaround.  We are working with Apple developers to find fixes for these issues.  <br/> | 6/25/19  <br/>|
 
 
 ## People
@@ -208,6 +217,39 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |3/1/17 <br/> |
+
+
+
+## Phone System
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/><br/> Resource Accounts configured using New-CsHybridApplicationEndpoint with Skype for Business Server will not have the Department parameter set properly which will cause the resource account creation in Skype for Business online to fail. In this case, you need to configure the department name in Active Directory before synchronizing to online.|To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
+
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Resource accounts sync delay|Can’t assign a phone number to the resource account, or you get the error “The following application instance is not present in BVD.”|Allow 24 hours for syncing. If it has already been 24 hours, remove the phone number assignment, delete the resource account, and create a new one with a different name.|5/18/2019|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Can’t assign a toll service number from the Teams admin center|When you try to assign a toll service number in the Teams admin center, you get the error “You need a phone system license.”|Use PowerShell cmdlets to assign a toll service number instead.|5/18/2019|
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Resource account corrupted|Resource account not working|Removing or replacing the license of a resource account, or creating a new resource account with the same SIP URI as a previously deleted one will result in a corrupt resource account.|5/18/2019|
+
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Phone number blocked|Phone number blocked: Deleting the resource account before removing the phone number will block the phone number.|Contact Microsoft support to release the telephone number.|5/18/2019|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to configure unanswered calls to go to voicemail in the desktop app|When a user is in Teams-only mode, their Exchange mailbox is on premises and if they access **Settings** > **Calls** in the Teams desktop app, they cannot select the option to forward calls to voicemail (unanswered calls or all calls). If either option was already configured, opening the Calls tab in Settings will disable forwarding to voicemail.|Configure forwarding to voicemail using the Teams mobile app.|5/27/2019|
+
 
 ## Provisioning
 
@@ -254,6 +296,14 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Search function in SharePoint list tab  <br/> |Attempting to open a file from the search function of the SharePoint list tab will trigger a "You'll need a new app to open this about" prompt and the file will not be opened. <br/> |Open directly from list instead of search bar. <br/> |2/11/2019  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|File download failure <br/> |Attempting to download a file when the file path contains an apostrophe will trigger a "The file didn't download" failure when using the Microsoft Teams desktop client. <br/> |Download the file from the web client or SharePoint Online <br/> |5/10/2019  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to upload or download OneNote file <br/> |Attempting to upload or download a OneNote file or notebook will fail using Microsoft Teams. <br/> |Download or upload the file directly in SharePoint Online <br/> |5/7/2019  <br/> |
+
 ## Teams
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -291,3 +341,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |User not recieving welcome email when added administratively  <br/> |When adding a member to a team using PowerShell or the Teams admin center, they are not recieving a welcome email from Microsoft Teams  <br/> |Adding a member from the Teams UI directly will send an email. Currently, there is no workaround doing so administratively.  <br/> |2/12/19  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to move, delete or rename files after editing  <br/> |After a file is edited in Teams it cannot be moved or renamed or deleted immediately <br/> |This is currently a known issue and the workaround is to wait for some time before making administrative changes.  <br/> |03/12/19  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Interoperability issue between Symantec DLP and Teams <br/> |Symantec DLP Endpoint agents can interfere with Teams process, which can then lead to a launch or exit failure.  <br/> |Exclude (whitelist) Teams.exe from the Symantec DLP's Endpoint agents as described in this <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec support article</a>. <br/> |07/15/19  <br/> |

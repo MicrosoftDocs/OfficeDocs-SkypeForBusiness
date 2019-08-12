@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: ContentTypes table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: ContentTypes table
 ms:assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399007(v=OCS.15)
 ms:contentKeyID: 48185723
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

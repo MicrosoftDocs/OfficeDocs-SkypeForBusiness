@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Protecting IIS'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Protecting IIS in Lync Server 2013
 ms:assetid: a67171a6-6703-4e09-abb3-35d335bb674e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518332(v=OCS.15)
 ms:contentKeyID: 62625492
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

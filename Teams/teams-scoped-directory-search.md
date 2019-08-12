@@ -3,7 +3,7 @@ title: Use Microsoft Teams scoped directory search
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -39,18 +39,15 @@ To learn how to use address book policies, read [Address book policies in Exchan
 > [!IMPORTANT]
 > Address book policies provide only a virtual separation of users from directory perspective. Users can still initiate communications with others by providing complete email addresses. It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.
 
-## Enable scoped directory search
+## Turn on scoped directory search
 
-1.	Use address book policies to configure your organization into virtual subgroups. For more information, see [Procedures for address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+1. Use address book policies to configure your organization into virtual subgroups. For more information, see [Procedures for address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
-2.  Sign in to the Microsoft 365 admin center, select **Admin centers**, and then select **Teams & Skype**.
- 
-3.	In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.
+2. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.
 
-4.	Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (APB)**, turn the toggle **On**. 
+3. Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (APB)**, turn the toggle **On**.
 
     ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
 
-> [!NOTE]
-> Hybrid configurations (Teams with Exchange on-premises) do not support scoped search mode. 
+
 

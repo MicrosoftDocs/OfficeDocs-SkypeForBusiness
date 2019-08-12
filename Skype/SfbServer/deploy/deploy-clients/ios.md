@@ -1,11 +1,11 @@
 ---
 title: "Install and test Skype for Business for iOS"
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b

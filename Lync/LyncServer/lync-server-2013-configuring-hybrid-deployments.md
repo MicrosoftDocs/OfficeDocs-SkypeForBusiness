@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring hybrid deployments'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring hybrid deployments
 ms:assetid: 62dda173-16ad-4472-9035-baafbc2b2e75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204956(v=OCS.15)
 ms:contentKeyID: 48184343
 ms.date: 06/14/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

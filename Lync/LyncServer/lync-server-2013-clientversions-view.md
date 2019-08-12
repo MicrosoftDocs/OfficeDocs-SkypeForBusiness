@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: ClientVersions view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: ClientVersions view
 ms:assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721891(v=OCS.15)
 ms:contentKeyID: 49733825
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

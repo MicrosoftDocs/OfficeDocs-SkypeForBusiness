@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -44,7 +44,7 @@ The first thing you need to do is to confirm that you have the following:
 You will need to follow these steps:
 
 ### Step 1 - Buy the licenses
-1. In the Office 365 admin center, go to **Billing** > **Purchase services**, and add **Other plans**.
+1. In the admin center, go to **Billing** > **Purchase services**, and add **Other plans**.
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Click on **Common Area Phone** > **Buy now** > on the **Checkout** page click on **Buy now**.
@@ -56,7 +56,7 @@ You will need to follow these steps:
 For more info on licenses, see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### Step 2 - Create a new user account for the phone and assign the licenses
-1. In the Office 365 admin center, go to **Users** > **Active Users** > **Add a user**.
+1. In the admin center, go to **Users** > **Active Users** > **Add a user**.
 2. Put in a **User name** like “Main" for the first name and "Reception” for the second name.
 3. Put in a **Display name** if it doesn't autogenerate one like "Main Reception".
 4. Put in a **User name** like "MainReception" or "Mainlobby".
@@ -76,9 +76,9 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
 
 ### Step 3 - Assign a phone number to the Common Area Phone user account
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Assign a phone number to the user using the **Skype for Business admin center**
+![An icon showing the Skype for Business logo](../../images/sfb-logo-30x30.png) Assign a phone number to the user using the **Skype for Business admin center**
 
-1. In the Office 365 admin center > **Admin centers** > **Skype for Business**.
+1. In the admin center > **Admin centers** > **Skype for Business**.
 2. In the **Skype for Business admin center** >  **Voice** > **Phone numbers**.
 3. Select a number from the list of phone numbers and click **Assign**.
 4. On the **Assign** page, in the **Voice user** box enter the name of the user that is used for the phone then select the user in the **Select a voice user** drop down.
@@ -90,7 +90,7 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
    > [!Note]
    > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
 
-For more stuff, see [Getting phone numbers for your users](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
+For more stuff, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
 
 If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 

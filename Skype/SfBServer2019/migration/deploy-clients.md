@@ -4,8 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
-ms.topic: get-started-article
+audience: End User
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "For details, see Deploying clients and devices in Skype for Business Server 2019 in the Deployment documentation."

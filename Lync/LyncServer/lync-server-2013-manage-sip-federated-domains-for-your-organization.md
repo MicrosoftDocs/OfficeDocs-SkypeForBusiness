@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Manage SIP federated domains for your organization'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Manage SIP federated domains for your organization
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

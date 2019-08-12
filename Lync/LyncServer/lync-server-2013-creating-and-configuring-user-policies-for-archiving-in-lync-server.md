@@ -1,13 +1,14 @@
 ---
 title: 'Creating and configuring user policies for Archiving in Lync Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Creating and configuring user policies for Archiving in Lync Server
 ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204923(v=OCS.15)
 ms:contentKeyID: 48184234
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

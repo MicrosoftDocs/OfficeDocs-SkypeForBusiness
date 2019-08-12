@@ -8,6 +8,7 @@ layout: LandingPage
 ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
+audience: admin
 ms.collection:  
 - Teams_ITAdmin_Training
 - M365-collaboration
@@ -29,7 +30,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +48,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -65,7 +66,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +103,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Tutorials</h2>
 
-- [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)

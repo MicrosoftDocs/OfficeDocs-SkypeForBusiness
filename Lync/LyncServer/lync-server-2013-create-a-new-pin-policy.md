@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create a new PIN policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create a new PIN policy
 ms:assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182547(v=OCS.15)
 ms:contentKeyID: 48184777
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

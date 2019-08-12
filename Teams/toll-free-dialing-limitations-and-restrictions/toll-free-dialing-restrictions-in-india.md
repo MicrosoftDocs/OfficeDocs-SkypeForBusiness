@@ -7,6 +7,7 @@ ms.reviewer: mikedav, oscarr
 ms.topic: reference
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 ms.collection: 
 - M365-collaboration
@@ -43,7 +44,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 ## Related topics
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

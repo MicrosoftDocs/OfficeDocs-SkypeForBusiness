@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Remote call control and phone number normalization'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Remote call control and phone number normalization
 ms:assetid: 291d9e87-4c65-4ea2-888f-517741391de5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558630(v=OCS.15)
 ms:contentKeyID: 48183696
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

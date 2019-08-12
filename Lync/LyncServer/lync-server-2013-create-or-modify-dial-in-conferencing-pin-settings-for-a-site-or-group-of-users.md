@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or modify dial-in conferencing PIN settings for a site or group of users'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or modify dial-in conferencing PIN settings for a site or group of users
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412959(v=OCS.15)
 ms:contentKeyID: 48185326
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

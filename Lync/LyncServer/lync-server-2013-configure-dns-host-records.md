@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure DNS Host records'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure DNS Host records
 ms:assetid: 78a1afcf-41c8-4da5-8740-c6570c19078c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398593(v=OCS.15)
 ms:contentKeyID: 48184577
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

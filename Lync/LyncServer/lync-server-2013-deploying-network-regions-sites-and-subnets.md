@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploying network regions, sites, and subnets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploying network regions, sites, and subnets
 ms:assetid: c4b75601-3538-4d07-8d23-1ad90459ae48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994067(v=OCS.15)
 ms:contentKeyID: 51803978
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

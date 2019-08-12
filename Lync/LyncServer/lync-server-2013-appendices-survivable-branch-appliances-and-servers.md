@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Appendices: Survivable Branch Appliances and Servers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: 'Appendices: Survivable Branch Appliances and Servers'
 ms:assetid: 38a83ac4-9970-4204-8a65-ae3b571bee05
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425861(v=OCS.15)
 ms:contentKeyID: 48183896
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

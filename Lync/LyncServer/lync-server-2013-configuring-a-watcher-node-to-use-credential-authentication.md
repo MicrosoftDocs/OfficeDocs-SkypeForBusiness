@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring a watcher node to use credential authentication'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring a watcher node to use credential authentication
 ms:assetid: 032e33f3-9483-42e6-a33c-347eb6779597
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204632(v=OCS.15)
 ms:contentKeyID: 48183255
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Validating voice number normalization and routing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating voice number normalization and routing
 ms:assetid: a6a825c7-6928-4e80-b7e9-803b7f7ebd13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720922(v=OCS.15)
 ms:contentKeyID: 63969633
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Conferencing devices'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Conferencing devices
 ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994050(v=OCS.15)
 ms:contentKeyID: 51803961
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

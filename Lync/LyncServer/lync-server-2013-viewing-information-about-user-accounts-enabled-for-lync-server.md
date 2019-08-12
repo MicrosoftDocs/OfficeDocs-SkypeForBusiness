@@ -1,13 +1,14 @@
 ---
 title: 'Viewing information about user accounts enabled for Lync Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing information about user accounts enabled for Lync Server 2013
 ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687980(v=OCS.15)
 ms:contentKeyID: 49733568
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

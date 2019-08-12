@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Define a Mediation Server in Topology Builder'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
 ms:contentKeyID: 48184217
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

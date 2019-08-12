@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: (Optional) Modify key mapping for DTMF commands'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: (Optional) Modify key mapping for DTMF commands
 ms:assetid: d753b78d-400c-4df2-957f-e7576b2019c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398943(v=OCS.15)
 ms:contentKeyID: 48185563
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

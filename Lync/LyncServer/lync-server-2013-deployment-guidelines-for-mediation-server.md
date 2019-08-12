@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment guidelines for Mediation Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment guidelines for Mediation Server
 ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398622(v=OCS.15)
 ms:contentKeyID: 48184606
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -4,8 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started. It is important to identify key services and features that exist in your legacy environment, prior to deploying a Skype for Business Server 2019 pilot pool. Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting."

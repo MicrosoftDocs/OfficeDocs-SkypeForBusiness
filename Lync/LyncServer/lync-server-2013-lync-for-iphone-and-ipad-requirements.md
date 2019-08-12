@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync for iPhone and iPad requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync for iPhone and iPad requirements
 ms:assetid: 35e3455a-1570-4ca6-9ec7-5f5e81fdf268
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690978(v=OCS.15)
 ms:contentKeyID: 51541462
 ms.date: 06/02/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

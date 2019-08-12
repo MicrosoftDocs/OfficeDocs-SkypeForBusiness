@@ -6,11 +6,12 @@ manager: serdars
 ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: Learn about the reporting options available to see how users are using Microsoft Teams and gather feedback on user experiences. 
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -35,21 +36,21 @@ To view these reports, you must be a global admin in Office 365, Teams service a
 
 - **Teams usage report**: This report gives you an overview of usage activity in Teams, including the total active users and channels, and the number of active users and channels, guests, and messages in each team. 
 
-    ![Teams usage report](media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")     
+    ![Screen shot of a Teams usage report](media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")     
 - **Teams user activity report**: This report gives you insight into the types of activities users engage in, such as how many people communicate through 1:1 calls, channel messages, and private chat messages. 
 
-    ![Teams user activity report](media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center") 
+    ![Screen shot of a Teams user activity report](media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center") 
 `
 - **Teams device usage report**: This report shows you how users connect to Teams, including how many people use Teams on their mobile devices when on-the-go. 
 
-    ![Teams device usage report](media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center")
+    ![Screen shot of a Teams device usage report](media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center")
 
 To learn more, check out [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### Teams activity reports (Office 365 admin center)
-You can also view Teams activity through reports that are available from the Office 365 admin center. These reports are part of the Office 365 reports in the Office 365 admin center and provide information about user activity and device usage. 
+### Teams activity reports (Microsoft 365 admin center)
+You can also view Teams activity through reports that are available from the Microsoft 365 admin center. These reports are part of the Office 365 reports in the Microsoft 365 admin center and provide information about user activity and device usage. 
 
-To view these reports, go to the Office 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
+To view these reports, go to the Microsoft 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
 
 To learn more, go to [Use activity reports for Teams](teams-activity-reports.md).
 

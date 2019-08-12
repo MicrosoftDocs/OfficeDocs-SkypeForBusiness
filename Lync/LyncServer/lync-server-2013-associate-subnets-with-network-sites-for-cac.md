@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Associate subnets with network sites for CAC'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Associate subnets with network sites for CAC
 ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412786(v=OCS.15)
 ms:contentKeyID: 48185017
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

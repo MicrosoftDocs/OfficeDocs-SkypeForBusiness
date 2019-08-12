@@ -6,11 +6,11 @@ manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
+ms.service: skype-for-business-online
 ms.collection: 
 - Lync
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
@@ -42,7 +42,7 @@ Microsoft Teams Rooms manages the Skype for Business or Teams transition in a tw
 
 You can find detailed Lync specifications here: [Phones and devices qualified for Lync](../lync-cert/ip-phones.md).
 
-You can visit http://aka.ms/MTRDocs for full details on Microsoft Teams Rooms devices.
+You can visit https://aka.ms/MTRDocs for full details on Microsoft Teams Rooms devices.
 
 View [room devices certified for Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices).
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment tasks for remote call control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
 ms:contentKeyID: 48183599
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

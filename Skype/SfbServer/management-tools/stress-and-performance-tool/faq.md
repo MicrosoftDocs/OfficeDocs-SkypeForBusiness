@@ -1,10 +1,11 @@
 ---
 title: "FAQ for the Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 11/11/2015
-ms.audience: ITPro
+manager: serdars
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

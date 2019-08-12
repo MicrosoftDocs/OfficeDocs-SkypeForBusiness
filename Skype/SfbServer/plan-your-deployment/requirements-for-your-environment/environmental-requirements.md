@@ -1,11 +1,11 @@
 ---
 title: "Environmental requirements for Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -49,6 +49,8 @@ While a lot of configuration data for servers and services is stored in Skype fo
 ### OS for Domain Controllers
 
 So, what Domain Controller OS can be used? We have the following list:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -61,6 +63,8 @@ So, what Domain Controller OS can be used? We have the following list:
 - Windows Server 2008
     
 Now, the domain functional level of any domain you deploy Skype for Business Server 2015 into, and the forest functional level of any forest you deploy Skype for Business Server 2015 into, have to be one of the following:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -250,7 +254,7 @@ So that's a lot to think about, and definitely, there's a variety of comfort lev
   
 ### Certificates for your internal servers
 
-You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's one located in your domain). If you want to, you can request these certificates from an external CA (one located on the internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](https://support.microsoft.com/kb/929395/en-us) list.
+You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's one located in your domain). If you want to, you can request these certificates from an external CA (one located on the internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](/SkypeForBusiness/certification/services-ssl) list.
   
 You're also going to need certificates when Skype for Business Server 2015 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate these other apps and servers can use in a supported way. Skype for Business Server 2015 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2015.
   

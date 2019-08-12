@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Registration view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Registration view
 ms:assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688120(v=OCS.15)
 ms:contentKeyID: 49733718
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

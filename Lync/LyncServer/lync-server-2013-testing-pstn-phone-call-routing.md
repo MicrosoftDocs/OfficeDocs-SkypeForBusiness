@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing PSTN phone call routing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)
 ms:contentKeyID: 63969598
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

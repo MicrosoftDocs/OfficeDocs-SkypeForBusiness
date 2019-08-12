@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Signing in and using Lync 2013 on the virtual machine'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Signing in and using Lync 2013 on the virtual machine
 ms:assetid: 6140fc19-5bef-4b58-9b0f-19112b5ecd00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204948(v=OCS.15)
 ms:contentKeyID: 48184318
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

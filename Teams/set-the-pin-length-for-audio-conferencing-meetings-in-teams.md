@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -34,7 +34,7 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## Setting the PIN length
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

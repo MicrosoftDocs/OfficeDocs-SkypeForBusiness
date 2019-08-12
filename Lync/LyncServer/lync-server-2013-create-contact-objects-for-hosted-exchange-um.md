@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create contact objects for hosted Exchange UM'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create contact objects for hosted Exchange UM
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412765(v=OCS.15)
 ms:contentKeyID: 48185045
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

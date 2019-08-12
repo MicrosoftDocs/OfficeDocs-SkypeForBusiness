@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Phone System with Calling Plans 
+# Which Calling Plan is right for you? 
 
 You've completed the [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use Microsoft Phone System with Calling Plan to connect to the Public Switched Telephone Network (PSTN). 
 
@@ -70,7 +71,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 |Ask yourself|Action |
 |:------------|:-------|
-|Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](set-the-caller-id-for-a-user.md). |
 |||
 
 

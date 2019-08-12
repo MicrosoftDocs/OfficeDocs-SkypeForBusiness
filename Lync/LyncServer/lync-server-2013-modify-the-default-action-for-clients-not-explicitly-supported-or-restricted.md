@@ -1,13 +1,14 @@
 ---
 title: 'Modify the default action for clients not explicitly supported or restricted'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Modify the default action for clients not explicitly supported or restricted
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520994(v=OCS.15)
 ms:contentKeyID: 48184137
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: UserAgentDef table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: UserAgentDef table
 ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
 ms:contentKeyID: 48184860
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

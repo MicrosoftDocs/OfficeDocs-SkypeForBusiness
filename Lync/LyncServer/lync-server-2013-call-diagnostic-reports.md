@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call Diagnostic Reports'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call Diagnostic Reports
 ms:assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615013(v=OCS.15)
 ms:contentKeyID: 48184794
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

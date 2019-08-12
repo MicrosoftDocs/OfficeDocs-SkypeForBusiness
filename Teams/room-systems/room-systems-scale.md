@@ -1,12 +1,12 @@
 ---
 title: "Deploy Microsoft Teams Rooms by using System Center Configuration Manager"
-author: jambirk
-ms.author: jambirk
+author: lanachin
+ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
@@ -124,6 +124,9 @@ For more information, see [Manage boot images with System Center Configuration M
 > You can create a bootable USB media to initiate Configuration Manager task sequence–based deployments for environments that have no PXE support. The bootable media contains only the boot image, optional prestart commands and their required files, and Configuration Manager binaries to support booting into Windows PE and connecting to Configuration Manager for the rest of the deployment process. For more information, see [How to Create Bootable Media](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## Create Configuration Manager packages
+
+> [!IMPORTANT]
+> The required operating system version for each SRS installer version changes with every MSI release. To determine the best operating system version for a given MSI, run the console setup script once. To learn more, see [Deploy Microsoft Teams Rooms by using System Center Configuration Manager](room-systems-scale.md).
 
 Configuration Manager requires a number of packages to deploy and configure the Microsoft Teams Rooms units.
 

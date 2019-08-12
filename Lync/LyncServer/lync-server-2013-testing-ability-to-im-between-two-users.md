@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing ability to IM between two users'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to IM between two users
 ms:assetid: a0f3f5c6-f115-4c3f-90ac-5fdc932b417e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743838(v=OCS.15)
 ms:contentKeyID: 63969635
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

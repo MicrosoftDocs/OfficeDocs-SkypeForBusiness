@@ -5,7 +5,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.date: 10/26/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -198,9 +198,9 @@ The following links connect you to information about common tasks that are assoc
   
 - [Management Pack Life Cycle](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [How to Import a Management Pack in Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [How to Import a Management Pack in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [How to Override a Rule or Monitor ](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [How to Override a Rule or Monitor](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
 - [How to Create a Run As Account in Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
@@ -218,7 +218,7 @@ The following links connect you to information about common tasks that are assoc
     
 - [How to Monitor Using Overrides](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [How to Create a Run As Account in Operations Manager 2007 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [How to Create a Run As Account in Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
 - [How to Modify an Existing Run As Profile](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     

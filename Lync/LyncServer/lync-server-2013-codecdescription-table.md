@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: CodecDescription table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: CodecDescription table
 ms:assetid: 3598acb8-7ea6-4748-8417-149c971c32a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204797(v=OCS.15)
 ms:contentKeyID: 48183802
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

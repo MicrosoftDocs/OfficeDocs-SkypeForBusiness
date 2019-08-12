@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing ability to employ group expansion'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to employ group expansion
 ms:assetid: 9b0fc954-6f9c-411a-ab32-94ebabc42de2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743836(v=OCS.15)
 ms:contentKeyID: 63969634
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

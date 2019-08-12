@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: FocusJoinsAndLeaves view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: FocusJoinsAndLeaves view
 ms:assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687992(v=OCS.15)
 ms:contentKeyID: 49733582
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

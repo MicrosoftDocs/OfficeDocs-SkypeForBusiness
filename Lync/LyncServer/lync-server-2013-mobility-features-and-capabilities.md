@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Mobility features and capabilities'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Mobility features and capabilities
 ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689983(v=OCS.15)
 ms:contentKeyID: 48183457
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

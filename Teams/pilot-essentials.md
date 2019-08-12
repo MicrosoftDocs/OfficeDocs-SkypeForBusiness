@@ -1,23 +1,24 @@
 ---
 title: Pilot Microsoft Teams with Skype for Business | Deploy, Adopt Implement 
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business 
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Upgrade journey diagram, highlighting Deployment and Implementation](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you’ve completed the following activities:
 
@@ -36,8 +37,8 @@ To achieve the most realistic results, the pilot should involve actual users, mi
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
 
 > [!Tip]
 > Use the sample [pilot resources](https://aka.ms/UpgradeSuccessKit) to help design your communications, test plan, and feedback survey.

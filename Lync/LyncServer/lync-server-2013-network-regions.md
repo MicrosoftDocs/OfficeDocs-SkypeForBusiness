@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Network regions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Network regions
 ms:assetid: 1818e9d2-bbb7-420a-93ea-4c3da3a55ad3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687979(v=OCS.15)
 ms:contentKeyID: 49733567
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

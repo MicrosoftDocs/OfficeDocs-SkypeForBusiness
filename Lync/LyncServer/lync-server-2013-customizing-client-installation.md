@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Customizing client installation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Customizing client installation
 ms:assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204934(v=OCS.15)
 ms:contentKeyID: 48184254
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

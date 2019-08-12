@@ -1,10 +1,10 @@
 ---
 title: "First Run Checklist for Skype for Business Server Control Panel"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.Home1stRunChkList

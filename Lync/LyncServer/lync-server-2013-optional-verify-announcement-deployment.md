@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify Announcement deployment'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: (Optional) Verify Announcement deployment
 ms:assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398362(v=OCS.15)
 ms:contentKeyID: 48184144
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

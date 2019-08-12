@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 response group experience during pool failure
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Response group experience during pool failure
 ms:assetid: 4e00fb38-64b1-4fd9-903d-7639177bc303
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204886(v=OCS.15)
 ms:contentKeyID: 48184116
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

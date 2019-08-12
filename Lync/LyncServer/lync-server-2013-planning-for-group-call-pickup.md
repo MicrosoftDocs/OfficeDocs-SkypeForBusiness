@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for Group Call Pickup'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for Group Call Pickup
 ms:assetid: 6d306466-778f-4c6a-9b6a-35dcd0d1811e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945636(v=OCS.15)
 ms:contentKeyID: 51541487
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

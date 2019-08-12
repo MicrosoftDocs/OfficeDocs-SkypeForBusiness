@@ -1,11 +1,11 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Exchange on premises"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
@@ -57,7 +57,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
     > [!NOTE]
     > Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms device account.
   
-4. After you've created the account, run a directory synchronization. When it's complete, go to the users page in your Office 365 admin center and verify that the account created in the previous steps has merged to online.
+4. After you've created the account, run a directory synchronization. When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has merged to online.
 
 ### Enable the remote mailbox and set properties
 
@@ -97,7 +97,10 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 ### Assign an Office 365 license
 
-1. Connect to Azure Active Directory PowerShell. For instructions, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+1. Connect to Azure Active Directory. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
 2. The device account needs to have a valid Office 365 license, or Exchange and Microsoft Teams will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
 
@@ -133,7 +136,13 @@ Skype for Business Online PowerShell is used to manage services for both Microso
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. To enable your Microsoft Teams Rooms account, run this command:
+2. Obtain SIP address of the account:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. To enable your Microsoft Teams Rooms account, run this command:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Components used by Group Call Pickup'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Components used by Group Call Pickup
 ms:assetid: 45db2f23-d486-4b20-a8cf-7b48a1f9fd3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945625(v=OCS.15)
 ms:contentKeyID: 51541470
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

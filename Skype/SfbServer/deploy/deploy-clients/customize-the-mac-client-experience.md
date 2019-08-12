@@ -1,11 +1,11 @@
 ---
 title: "Customize the Mac client experience in Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
@@ -29,7 +29,7 @@ To set these preferences, get to a terminal prompt on the client's Mac and as ne
 
 | Key | Type | Value | Description |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = manual server configuration  <br/> 1 = automatic server detection (default)    |Specify how Skype for Business identifies the transport and server to use during sign-in. If you enable this policy setting, you must specify **internalAutoDiscoveryURL** and **externalAutoDiscoveryURL**.   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = manual server configuration  <br/> 1 = automatic server detection (default)    |Specify how Skype for Business identifies the transport and server to use during sign-in. If you enable this policy setting, you must specify **internalAutoDiscoveryURL** and **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |String    |Full autodiscover URL    |Internal autodiscover URL    |
 |externalAutoDiscoveryURL    |String    |Full autodiscover URL    |External autodiscover URL    |
 |httpProxyDomain    |String    ||HTTP Proxy Domain    |

@@ -7,10 +7,10 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal

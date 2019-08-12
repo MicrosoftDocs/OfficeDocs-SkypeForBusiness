@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Modify an existing PIN policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Modify an existing PIN policy
 ms:assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520993(v=OCS.15)
 ms:contentKeyID: 48184143
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

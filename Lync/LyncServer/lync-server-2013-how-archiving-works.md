@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: How Archiving works'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: How Archiving works
 ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204900(v=OCS.15)
 ms:contentKeyID: 48184174
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

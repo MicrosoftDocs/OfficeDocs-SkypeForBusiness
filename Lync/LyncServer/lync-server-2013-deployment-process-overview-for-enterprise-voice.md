@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deployment process overview for Enterprise Voice'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deployment process overview for Enterprise Voice
 ms:assetid: cf92adbe-aa90-4b05-8e1a-f3794ca68132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398878(v=OCS.15)
 ms:contentKeyID: 48185526
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

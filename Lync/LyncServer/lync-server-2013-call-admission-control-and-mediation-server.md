@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call admission control and Mediation Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call admission control and Mediation Server
 ms:assetid: 76faccdc-67d0-4c8b-8e47-1e23c93b02c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398585(v=OCS.15)
 ms:contentKeyID: 48184546
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

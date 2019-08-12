@@ -4,7 +4,7 @@ ms.reviewer:
 description: Add a short description
 services: skype-for-business-online-admin
 author: samanro
-manager: samanro
+manager: cartayl
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin

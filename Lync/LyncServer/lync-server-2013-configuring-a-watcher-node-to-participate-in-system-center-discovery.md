@@ -1,13 +1,14 @@
 ---
 title: 'Configuring a watcher node to participate in System Center discovery'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring a watcher node to participate in System Center discovery
 ms:assetid: 15c5dcfd-603b-47ea-af1b-8714c2ec08af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204704(v=OCS.15)
 ms:contentKeyID: 48183500
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

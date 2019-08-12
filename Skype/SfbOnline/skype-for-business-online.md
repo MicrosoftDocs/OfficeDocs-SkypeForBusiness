@@ -94,7 +94,7 @@ Learn how to manage Skype for Business Online for your organization.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

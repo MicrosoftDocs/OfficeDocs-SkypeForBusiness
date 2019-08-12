@@ -4,8 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "After migrating to Skype for Business Server 2019, you need to move the Central Management Server to the Skype for Business Server 2019 Front End Server or pool, before you can remove the legacy server."

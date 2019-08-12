@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: FileTransfers view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: FileTransfers view
 ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721914(v=OCS.15)
 ms:contentKeyID: 49733848
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

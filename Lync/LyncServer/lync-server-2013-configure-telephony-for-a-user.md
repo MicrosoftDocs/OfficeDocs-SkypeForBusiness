@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure telephony for a user'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure telephony for a user
 ms:assetid: 4546432e-c839-4517-a2c5-bc0d4d8c6a03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520988(v=OCS.15)
 ms:contentKeyID: 48183987
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

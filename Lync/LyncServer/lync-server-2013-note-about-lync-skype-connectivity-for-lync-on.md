@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Note about Lync-Skype connectivity for Lync On'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Note about Lync-Skype connectivity for Lync On
 ms:assetid: 1d0f5c1a-74c6-468f-9877-ad2b1ddf355f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440169(v=OCS.15)
 ms:contentKeyID: 57793359
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Provisioning the topology to run load in Stress and Performance scenarios"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 12/17/2015
-ms.audience: ITPro
+manager: serdars
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

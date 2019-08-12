@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploy the Online Meeting Add-in for Lync 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploy the Online Meeting Add-in for Lync 2013
 ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398873(v=OCS.15)
 ms:contentKeyID: 48185485
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

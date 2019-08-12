@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
@@ -69,7 +69,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
    - **Microsoft is the provider**: Use the **Default toll number** and **Default toll-free number** lists to select the default numbers for the user.
     
      > [!NOTE]
-     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](/microsoftteams/getting-service-phone-numbers). 
   
    - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
 
@@ -132,7 +132,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

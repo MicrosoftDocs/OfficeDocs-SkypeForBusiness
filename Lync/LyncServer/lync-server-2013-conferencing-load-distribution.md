@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 conferencing load distribution
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Conferencing load distribution
 ms:assetid: 5901a076-1b6f-4720-8837-95fc7f3c37f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204922(v=OCS.15)
 ms:contentKeyID: 48184233
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

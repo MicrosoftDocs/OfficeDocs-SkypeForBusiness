@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploying the Lync VDI plug-in'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploying the Lync VDI plug-in
 ms:assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204683(v=OCS.15)
 ms:contentKeyID: 48183449
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test push notifications to smart phones'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test push notifications to smart phones
 ms:assetid: 8f5ca7d1-1ccb-4cb0-b417-730559e79b6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767948(v=OCS.15)
 ms:contentKeyID: 63969626
 ms.date: 03/15/2017
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

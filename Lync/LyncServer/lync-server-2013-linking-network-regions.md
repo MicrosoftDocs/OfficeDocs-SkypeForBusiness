@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Linking network regions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Linking network regions
 ms:assetid: 5ba6c80a-4124-437f-b57a-8d10534cf209
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688070(v=OCS.15)
 ms:contentKeyID: 49733662
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

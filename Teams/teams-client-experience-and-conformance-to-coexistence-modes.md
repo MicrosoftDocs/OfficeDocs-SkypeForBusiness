@@ -1,16 +1,17 @@
 ---
 title: Teams client experience and conformance to coexistence modes
-author: dearbeen
-ms.author: bjwhalen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
+audience: admin
 description: Teams client experience and comformance to coexistence modes
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
@@ -41,7 +42,7 @@ The available functionality in Teams depends on the user's coexistence mode, as 
 
 The following screenshots illustrate the difference between TeamsOnly or Islands mode and all other modes. Note that the chat and calling icons are available with TeamsOnly or Islands mode (left screenshot), but not with the other modes (right screenshot):
 
-![Shows Teams mode comparisons](media/teams-mode-comparison.png)
+![A side-by-side comparison of Teams modes](media/teams-mode-comparison.png)
 
 
  

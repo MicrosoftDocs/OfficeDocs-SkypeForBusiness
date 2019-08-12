@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Installing optional software'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Installing optional software
 ms:assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615032(v=OCS.15)
 ms:contentKeyID: 51541509
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

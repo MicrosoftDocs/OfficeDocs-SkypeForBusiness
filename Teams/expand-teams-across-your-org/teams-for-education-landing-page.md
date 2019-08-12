@@ -6,6 +6,7 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -27,7 +28,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="arrow" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +46,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +64,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -80,7 +81,7 @@ With Teams, teachers and faculty can create collaborative classrooms, connect in
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">

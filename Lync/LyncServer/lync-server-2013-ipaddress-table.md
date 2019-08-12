@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: IPAddress table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: IPAddress table
 ms:assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205077(v=OCS.15)
 ms:contentKeyID: 48184771
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

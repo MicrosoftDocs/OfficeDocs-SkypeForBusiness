@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test anonymous Web App access'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test anonymous Web App access
 ms:assetid: 92f691cd-e05e-4bab-beb5-251d4b837a19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767949(v=OCS.15)
 ms:contentKeyID: 63969630
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

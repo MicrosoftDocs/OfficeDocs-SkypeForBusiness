@@ -1,10 +1,10 @@
 ---
 title: "Disable TLS 1.0/1.1 in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: heidip
-author: heidip
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

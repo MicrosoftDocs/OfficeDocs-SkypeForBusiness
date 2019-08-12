@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Assign a per-user PIN policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assign a per-user PIN policy
 ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182594(v=OCS.15)
 ms:contentKeyID: 48185475
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

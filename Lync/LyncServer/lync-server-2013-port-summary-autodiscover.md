@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Port summary - Autodiscover'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Port summary - Autodiscover
 ms:assetid: 8bd16363-5e18-4e4b-be99-b3e6457b4c99
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945642(v=OCS.15)
 ms:contentKeyID: 51541497
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

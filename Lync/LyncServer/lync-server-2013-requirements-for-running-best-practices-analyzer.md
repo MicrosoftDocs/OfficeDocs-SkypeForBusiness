@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Requirements for running Best Practices Analyzer'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Requirements for running Best Practices Analyzer
 ms:assetid: 3c7dc44e-5f8a-40a7-9ebb-9ad707ac0007
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591345(v=OCS.15)
 ms:contentKeyID: 48183880
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

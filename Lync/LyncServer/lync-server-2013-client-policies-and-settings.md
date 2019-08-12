@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Client policies and settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Client policies and settings
 ms:assetid: c3ee47c0-7e20-47ec-809a-f4502d939586
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412966(v=OCS.15)
 ms:contentKeyID: 48185330
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

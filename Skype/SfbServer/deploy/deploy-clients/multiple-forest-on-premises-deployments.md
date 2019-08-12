@@ -1,11 +1,11 @@
 ---
 title: "Skype Room System multiple forest on-premises deployments"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967

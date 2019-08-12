@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Setting up the infrastructure for Archiving'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Setting up the infrastructure for Archiving
 ms:assetid: d3995b0d-52c4-49f9-8d33-ea8d77c65a9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205287(v=OCS.15)
 ms:contentKeyID: 48185494
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

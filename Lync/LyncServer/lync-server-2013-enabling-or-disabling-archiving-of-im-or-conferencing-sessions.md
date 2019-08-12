@@ -1,13 +1,14 @@
 ---
 title: 'Enabling or disabling Archiving of IM or conferencing sessions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enabling or disabling Archiving of IM or conferencing sessions
 ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182567(v=OCS.15)
 ms:contentKeyID: 48185104
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

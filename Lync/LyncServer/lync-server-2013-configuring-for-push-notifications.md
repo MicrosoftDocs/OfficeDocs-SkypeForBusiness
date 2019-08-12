@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring for push notifications'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring for push notifications
 ms:assetid: d77f2c06-0fe6-45d5-8f08-808ab871b3e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690047(v=OCS.15)
 ms:contentKeyID: 48185574
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

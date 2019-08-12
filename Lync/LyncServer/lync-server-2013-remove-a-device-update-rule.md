@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Remove a Device Update rule'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Remove a Device Update rule
 ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994066(v=OCS.15)
 ms:contentKeyID: 51803977
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

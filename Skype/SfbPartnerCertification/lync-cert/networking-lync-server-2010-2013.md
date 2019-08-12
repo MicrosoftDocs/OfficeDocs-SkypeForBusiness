@@ -1,14 +1,14 @@
 ---
 title: "Partner qualification for Lync"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
+ms.service: skype-for-business-online
 ms.collection: Lync
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync
 - Skype for Business 

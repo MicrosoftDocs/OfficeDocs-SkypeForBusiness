@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing Lync Server services'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Lync Server services
 ms:assetid: b564b450-a746-4ec9-aabb-e076309ccd5f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689119(v=OCS.15)
 ms:contentKeyID: 63969644
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

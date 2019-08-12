@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Guidelines for integrating on-premises Unified Messaging'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
 ms:contentKeyID: 48184681
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

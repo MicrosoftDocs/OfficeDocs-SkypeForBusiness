@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Certificate summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Certificate summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: 41677dbd-3d07-498a-8591-df255b606647
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425921(v=OCS.15)
 ms:contentKeyID: 48183959
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing Call Park'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Call Park
 ms:assetid: 9554cdf6-8e7c-48c8-94dd-f28e2befefdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688140(v=OCS.15)
 ms:contentKeyID: 49733740
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -5,12 +5,13 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Deliver and maintain a high-quality deployment by planning for operational roles and assigning a quality champion.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -46,7 +47,7 @@ For a complete discussion of the customer responsibility for Teams service
 management and how it relates to the key components that underpin the quality of
 the user experience, see [Plan for service management and quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.](media/plan-my-service-management-image1.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
+![Diagram of the three components of quality](media/plan-my-service-management-image1.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
 
 <!--ENDOFSECTION-->
 
@@ -105,12 +106,6 @@ operational roles mapping exercise that you performed to support this project.
 |Exchange Operations|Manage the Exchange environment|TBA|TBA|
 |Telephony Operations|Manage the SBC's and the phone numbers|TBA|TBA|
 
-To facilitate a more detailed operational roles mapping, including the tasks
-associated with each operational role, you can use the [Operational Role Mapping
-Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)
-to capture the details that will provide the clarity around roles and
-responsibilities to support cloud voice workloads.
-
 <!--ENDOFSECTION-->
 
 ## The Quality Champion role
@@ -146,7 +141,7 @@ The Quality Experience Review Guide has a set of activities that assess and
 provide remediation guidance in key areas that have the greatest impact for
 improving user experience, as shown in the figure below.
 
-![The key areas to examine during a quality experience review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+![Illustration of key areas to examine during quality experience review](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
 
 By continually assessing and remediating the areas described in this document,
 you can reduce their potential to negatively affect user experience. Most
@@ -178,8 +173,8 @@ nominated, they should start to familiarize themselves with the content in the
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Download the Planning for Service Management full guide.</li><li>Download the Quality Experience Review guide.</li><li>Review the Operations Guide in full.</li><li>Provide all guides to every operations team members to review and be familiar with operations requirements.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Download the Planning for Service Management full guide.</li><li>Download the Quality Experience Review guide.</li><li>Review the Operations Guide in full.</li><li>Provide all guides to every operations team members to review and be familiar with operations requirements.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

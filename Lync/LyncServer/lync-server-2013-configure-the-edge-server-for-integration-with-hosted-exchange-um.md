@@ -1,13 +1,14 @@
 ---
 title: 'Configure the Edge Server for integration with hosted Exchange UM'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure the Edge Server for integration with hosted Exchange UM
 ms:assetid: ede3f2f9-f412-418e-a705-8d8ec98176c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399075(v=OCS.15)
 ms:contentKeyID: 48185745
 ms.date: 01/24/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

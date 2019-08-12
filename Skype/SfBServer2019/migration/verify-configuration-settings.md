@@ -4,8 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "You can validate the replication of configuration information to the Edge server by running the Skype for Business Server 2019 Get-CsManagementStoreReplicationStatus cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Skype for Business Server 2019 Core Components (OcsCore.msi) is installed."

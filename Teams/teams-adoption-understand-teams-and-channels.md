@@ -1,7 +1,7 @@
 ---
 title: Understand teams and channels in Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn more about structuring teams and channels in Microsoft Teams. 
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -53,4 +53,4 @@ In an organizational team (shown on the left), key information about the way tha
   
 You will work more on the structure of your teams in [phase 2](teams-adoption-phase2-experiment.md) of your implementation.
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)
+![An icon depicting the next step](media/teams-adoption-next-icon.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)

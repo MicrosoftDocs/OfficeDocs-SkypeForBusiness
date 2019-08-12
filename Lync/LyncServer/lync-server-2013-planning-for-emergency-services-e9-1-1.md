@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for emergency services (E9-1-1)'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for emergency services (E9-1-1)
 ms:assetid: 0a76f97b-474a-4bc1-8cd3-28c7e2bb57b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398154(v=OCS.15)
 ms:contentKeyID: 48183363
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

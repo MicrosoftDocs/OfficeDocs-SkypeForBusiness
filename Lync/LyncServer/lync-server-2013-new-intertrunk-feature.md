@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New intertrunk feature'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New intertrunk feature
 ms:assetid: ca6c97a4-e981-4628-96e3-ab6a083c6c05
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721886(v=OCS.15)
 ms:contentKeyID: 49733820
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

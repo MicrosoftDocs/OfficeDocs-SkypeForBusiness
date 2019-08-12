@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring Lync Server to use the unified contact store'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring Lync Server 2013 to use the unified contact store
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688083(v=OCS.15)
 ms:contentKeyID: 49733680
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

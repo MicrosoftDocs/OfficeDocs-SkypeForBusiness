@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Install Edge Servers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Install Edge Servers
 ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398230(v=OCS.15)
 ms:contentKeyID: 48183503
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Active Directory cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Active Directory cmdlets
 ms:assetid: 313d73cb-f3db-4bc4-8708-de4da1d719c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415640(v=OCS.15)
 ms:contentKeyID: 48183769
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

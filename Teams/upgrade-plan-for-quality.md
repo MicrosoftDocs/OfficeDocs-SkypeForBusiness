@@ -1,23 +1,24 @@
 ---
 title: Plan service management and quality | Technical Readiness
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Use this guidance to learn about the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -58,7 +59,7 @@ There are specific requirements to the deployment that are critically important 
 
 An organization or supporting partner should start planning for three key components during the Technical Readiness stage of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagram illustrating the three components of quality, and how service management overlaps all three components.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagram illustrating the three components of quality, and how service management overlaps all three components.")
 
 #### Service management
 
@@ -96,7 +97,7 @@ The notion of service management is most likely not a new concept for most organ
 
 Service management encompasses all the activities and processes involved in managing Microsoft Teams end to end. As described earlier, some components of service management—the infrastructure components that the Office 365 service itself comprises—are Microsoft’s responsibility, whereas the customer is accountable to its users to manage the various aspects of Teams, the network, and endpoints they provide. This section of the document will focus on the customer’s responsibility from a service management perspective.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.")
 
 ### Introduction to the Operations Guide
 
@@ -126,7 +127,7 @@ The tasks and activities associated with the role have been documented in the Op
 
 The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
 
-![A diagram that illustrates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "A diagram that illustrates the key areas that are examined during a quality experience review.")
+![Diagram illustrating areas examined during quality experience review](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "A diagram that illustrates the key areas that are examined during a quality experience review.")
 
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
@@ -152,7 +153,7 @@ The Quality Experience Review Guide can be found [here](https://aka.ms/qerguide)
 
 Planning for network quality will be the focus for the following section.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
 As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
@@ -183,8 +184,6 @@ To measure current utilization, you need to monitor the network. This measuremen
 
 > [!NOTE]
 > When monitoring network utilization, it’s important to avoid using averages over the day. These averages can include non-core hours that skew the result. Averages can hide peak periods and mask an underlying problem.
-
-The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) helps you determine and organize network requirements for your deployment in just a few simple steps. By using the tool to gather your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements you’ll need for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
 
 #### Quality of service (QoS)
 
@@ -263,13 +262,13 @@ Part of the network readiness activities includes a network assessment. After yo
 
 The network assessment should be performed on both wired and Wi-Fi networks for all buildings that are being enabled for cloud voice capabilities in Teams.
 
-The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/download/details.aspx?id=53885).
 
 ## Plan for endpoint quality
 
 As you can see from the diagram below, endpoints are an important building block in providing a high-quality experience for users.
 
-![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
+![Diagram illustrating the three components of quality](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
 
 Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets, and mobile devices. Part of the experience not only encompasses the device, but how a user connects to the device—for example, by using the device’s built-in mic/speaker, earbuds, or an optimized headset. Using an optimized headset can enrich the overall user experience.
 
@@ -324,8 +323,6 @@ After you’ve selected the devices, include them in the pilot test plan for fin
 
 At this time, we recommend using audio devices that were certified through the Skype for Business Certification program. To find devices certified under this program, refer to the [USB Devices Certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) solutions catalog.
 
-For more details, see [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
-
 ## Client updates
 
 One of the key benefits of Microsoft Teams is that the client is kept up to date automatically. The clients on the PC and Mac are updated by using a background process that checks for new builds and downloads the new client when the app is idle. The client download size is roughly 100 MB.
@@ -339,20 +336,19 @@ This table includes a summary of planning activities with links to related conte
 | Area | Details | References |
 |---|---|---|
 | Plan for service management | Conduct an operational role mapping exercise <br/> Signoff from accountable teams <br/> Role readiness | [Operations Guide](1-drive-value-operate-my-service.md) |
-| | Nominate Quality Champion(s) <br/> Quality Champion readiness| [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Quality Experience Review Guide](https://aka.ms/qerguide) |
+| | Nominate Quality Champion(s) <br/> Quality Champion readiness| <br/> [Quality Experience Review Guide](https://aka.ms/qerguide) |
 | | Install Quality Experience Review templates <br/> Upload a building file | [QERLite templates](https://aka.ms/qertemplates) <br/> [Upload Building Information](turning-on-and-using-call-quality-dashboard.md)|
-| Plan for network quality | Run the Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| Plan for network quality | Perform network planning |  |
 | | Implement QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
 | | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
-| | Implement split-tunnel VPN | [VPN Split Tunnel Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | Implement split-tunnel VPN |  |
 | | Optimize Wi-Fi networks for real-time media | Consult third-party vendors |
 | | Implement local internet egress | [Local Internet Egress](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implement network connectivity <br/> Validate network connectivity | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
-| | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | Perform network assessment | [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| | Perform network assessment |[Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)  |
 | Plan for endpoint quality | Update endpoint firewalls | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
 | | Validate software requirements | [Get clients for Microsoft Teams](get-clients.md) |
 | | Implement endpoint Wi-Fi recommendations | Consult third-party vendors |
-| | Conduct persona to devices mapping <br/> Provision devices and pilot them | [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | Conduct persona to devices mapping <br/> Provision devices and pilot them |<br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
 After you’ve finished planning, proceed to the next step: [Prepare your environment for Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).

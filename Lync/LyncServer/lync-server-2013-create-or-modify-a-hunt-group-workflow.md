@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or modify a hunt group workflow'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or modify a hunt group workflow
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205321(v=OCS.15)
 ms:contentKeyID: 48185596
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

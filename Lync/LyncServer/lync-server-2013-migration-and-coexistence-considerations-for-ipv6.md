@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Migration and coexistence considerations for IPv6'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Migration and coexistence considerations for IPv6
 ms:assetid: 8c769c4f-c8a9-4cbf-9080-beee3be9848a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205068(v=OCS.15)
 ms:contentKeyID: 48184751
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

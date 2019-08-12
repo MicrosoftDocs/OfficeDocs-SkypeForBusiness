@@ -1,7 +1,7 @@
 ---
 title: Drive awareness and implement training for Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to increase awareness and implement a training program for Microsoft Teams adoption.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -62,4 +62,4 @@ Share the insights you get from your feedback channels with the hashtag #TeamsSt
 
 [Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center.](teams-activity-reports.md)
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+![An icon depicting the next steps](media/teams-adoption-next-icon.png) Next: [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)

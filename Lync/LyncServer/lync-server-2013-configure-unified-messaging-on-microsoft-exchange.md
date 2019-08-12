@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure Unified Messaging on Microsoft Exchange'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure Unified Messaging on Microsoft Exchange
 ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398129(v=OCS.15)
 ms:contentKeyID: 48183311
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

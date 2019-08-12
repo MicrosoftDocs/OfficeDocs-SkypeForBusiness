@@ -5,10 +5,10 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

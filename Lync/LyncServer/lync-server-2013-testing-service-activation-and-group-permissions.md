@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing service activation and group permissions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing service activation and group permissions
 ms:assetid: 2c59e603-ba85-40ba-91a7-51c6fd39472e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743833(v=OCS.15)
 ms:contentKeyID: 63969594
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

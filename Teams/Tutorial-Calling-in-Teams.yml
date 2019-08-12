@@ -274,8 +274,7 @@ items:
     users.
 
     <span style="color:red">**Action**:</span> Review [Country and region availability for Audio Conferencing and
-    Calling
-    Plans](https://docs.microsoft.com/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+    Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     for the following information:
 
     -   For the country where your billing address is located, check whether Audio
@@ -439,7 +438,7 @@ items:
 
     -   Learn more about calling identity controls from [How can caller ID be used
     in your
-    organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+    organization](how-can-caller-id-be-used-in-your-organization.md).
 
     ### Optional: Dial Plans
 
@@ -577,12 +576,12 @@ items:
     ### 6. Assign phone numbers and emergency address to users
 
     Follow the instructions in [Assign, change, or remove a phone number for a
-    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
+    user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
 
     > [!NOTE]
     > For the assigned phone numbers to show up in Teams, you must update
     the user’s office phone number in Azure Active Directory (Azure AD). You can
-    edit this attribute in the Office 365 Admin center if the user was created
+    edit this attribute in the Microsoft 365 Admin center if the user was created
     directly in Office 365 or Azure AD). If the user is synchronized from
     on-premises Active Directory, you must use on-premises Active Directory to
     update the office phone number attribute.
@@ -592,7 +591,7 @@ items:
     Based on your implementation plan, you might need to configure the Calling
     Identity settings for your users. Follow the instructions in [Set the Caller ID
     for a
-    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user).
+    user](/microsoftteams/set-the-caller-id-for-a-user).
 
     ### 8. Optional: Assign Dial Plan settings to users
 
@@ -717,18 +716,16 @@ items:
 
     Next steps
 
-    1.  Sign-up for [MyAdvisor](https://aka.ms/myadvisor) for personalized deployment
-    guidance.
-    2.  Start your Phone System deployment for Teams
-    3.  Send us feedback:
+    1.  Start your Phone System deployment for Teams
+    2.  Send us feedback:
         - Post in the comments section at the bottom of this page.
         - To give us your feedback about Teams or share your ideas for new
         features, please visit
         [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
-    4.  Stay up to date:
+    3.  Stay up to date:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
+    4.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
 
 

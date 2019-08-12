@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Locations table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Locations table
 ms:assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398596(v=OCS.15)
 ms:contentKeyID: 48184579
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

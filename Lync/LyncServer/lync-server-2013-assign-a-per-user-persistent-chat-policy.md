@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Assign a per-user Persistent Chat policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Assign a per-user Persistent Chat policy
 ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
 ms:contentKeyID: 49733842
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

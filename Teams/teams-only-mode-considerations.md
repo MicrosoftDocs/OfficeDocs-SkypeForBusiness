@@ -1,10 +1,11 @@
 ---
 title: Teams Only mode considerations
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Prepare for your upgrade to Microsoft Teams Only mode 
@@ -12,7 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
@@ -28,7 +29,7 @@ Upgrading to Teams Only mode offers users the full benefits of Microsoft Teams, 
 While thousands of customers have successfully upgraded to Microsoft Teams, there are considerations that may influence your organization’s upgrade timeline and user experience along the way. In particular, having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams. 
 
 > [!IMPORTANT]
-> If you are just starting your upgrade planning, be sure to review our full upgrade guidance and planning resources. [Start here](upgrade-introduction.md). 
+> If you are just starting your upgrade planning, be sure to review our full upgrade guidance and planning resources. [Start here](upgrade-start-here.md). 
 
 **Coexistence considerations**: Organizations already using Skype for Business Online and/or Skype for Business Server can introduce Teams into their environment at a pace that meets their needs. Organizations can incrementally roll out Teams to a desired set of users as needed, and users who use Teams can communicate with users who use Skype for Business and vice versa. To manage this experience, administrators use coexistence modes, which define the end user client experience, the routing behavior of incoming chats and calls, as well as whether new meetings are scheduled in Teams or Skype for Business. Users can federate with users in other organizations if the user is upgraded to **Teams Only**; however, the best experience is provided when both users use Teams. Users who are upgraded to Teams Only can still join Skype for Business meetings. 
 
@@ -47,6 +48,9 @@ While thousands of customers have successfully upgraded to Microsoft Teams, ther
  - Skype for Business tenant is hosted in South Korea **and** the organization requires Teams data to be stored in South Korea. Currently, organizations with Skype for Business data stored in South Korea that upgrade to Teams will have their Teams data stored in the Asia datacenter region, not in the South Korea datacenter region.
 
 **User-specific considerations**: Some user scenarios are still evolving, and administrators may decide to temporarily postpone the upgrade of certain users while upgrading other users in the organization. We are working on addressing these scenarios; please monitor the [Office 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) site for announcements.
+
+> [!NOTE]
+> Before you move to Teams Only mode you need to replace or update devices that don’t support Teams. 
 
 | Scenario | Notes |
 |----------|-------|

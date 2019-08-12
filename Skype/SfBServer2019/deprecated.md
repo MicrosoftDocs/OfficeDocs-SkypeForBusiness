@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,7 +16,7 @@ description: "Summary: These features have been removed from Skype for Business 
 
 Learn about the features and functionality that are deprecated in Skype for Business Server 2019. For information about new features in Skype for Business Server 2019, see [What's in Skype for Business Server 2019](whats-new.md).
 
-Some de-emphasised features are included in Skype for Business Server 2019 for compatibility with previous product versions.
+Some de-emphasized features are included in Skype for Business Server 2019 for compatibility with previous product versions.
 
 ## Features deprecated in Skype for Business Server 2019 
 
@@ -30,7 +30,7 @@ Skype for Business Server 2015 and its predecessors allowed you to configure an 
 
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat can't be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
 
-The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams).
+The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
 
 ### SQL Mirroring for Skype for Business Server
 

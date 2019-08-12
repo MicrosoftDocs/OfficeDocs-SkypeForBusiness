@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing the replica service'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the replica service
 ms:assetid: 4ff2cc91-0036-4c5a-9792-7bf43d8ce18d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727303(v=OCS.15)
 ms:contentKeyID: 63969600
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

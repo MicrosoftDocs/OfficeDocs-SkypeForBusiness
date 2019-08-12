@@ -6,12 +6,13 @@ manager: serdars
 ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: daro
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.  
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -45,7 +46,7 @@ The [Office 365 US Government service description](https://docs.microsoft.com/en
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Microsoft 365 Government - GCC High is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
+| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Microsoft 365 Government - GCC High is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government - GCC High is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -61,7 +62,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll need to modify any of the default Microsoft 365 Government - GCC High security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll need to modify any of the default Microsoft 365 Government - GCC High security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
 
 ## Step 4. Understand which Teams capabilities are currently available in Microsoft 365 Government - GCC High
@@ -72,14 +73,14 @@ To accommodate the requirements of our government cloud customers, there are som
 |-----------------------------|-----------------------------|----------------|
 | Base | Login | Available |
 | | Presence | Available |
-| | Unified presence (Skype for Business and Teams unified) | On the Government backlog |
+| | Unified presence (Skype for Business and Teams unified) | Available |
 | Activity | Feed | Available |
 |  | My Activity | Available |
 | Chat | Conversation | Available |
 | | Files | Available |
 | | Org chart | Available |
 | | Activity | Available |
-| | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
+| | InterOp (1:1 Teams-Skype for Business chat) | Available |
 | Teams | Channel message | Available |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |
@@ -136,7 +137,7 @@ To accommodate the requirements of our government cloud customers, there are som
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization’s needs.</li></ul> |
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization’s needs.</li></ul> |
 
 ## Step 5. Plan for governance
 
@@ -144,7 +145,7 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision point |<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Decision point |<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md). </li></ul>|
 
 ## Step 6. Deploy Teams for collaboration
 

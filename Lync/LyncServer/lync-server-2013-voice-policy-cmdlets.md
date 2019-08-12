@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Voice policy cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Voice policy cmdlets
 ms:assetid: 92744ec6-754d-498b-b430-dcd5c985ce10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415663(v=OCS.15)
 ms:contentKeyID: 48184800
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

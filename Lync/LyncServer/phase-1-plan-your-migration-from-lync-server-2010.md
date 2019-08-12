@@ -1,13 +1,14 @@
 ---
 title: 'Phase 1: Plan your migration from Lync Server 2010'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: 'Phase 1: Plan your migration from Lync Server 2010'
 ms:assetid: 1461b343-05cd-44a3-b722-4c297708de31
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204698(v=OCS.15)
 ms:contentKeyID: 48183480
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

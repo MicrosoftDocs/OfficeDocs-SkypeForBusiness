@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New conferencing features'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New conferencing features
 ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413085(v=OCS.15)
 ms:contentKeyID: 48185966
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

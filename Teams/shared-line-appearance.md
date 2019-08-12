@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -32,13 +32,18 @@ Shared line appearance is part of the delegation feature that lets a user choose
 
 A user must be an enterprise voice user to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
-Both managers and delegates need to be enterprise voice enabled. The shared line experience is part of delegation, and requires no additional license. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+Both managers and delegates need to be enterprise voice enabled. The shared line experience is part of delegation and requires no additional license. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
 
 ## Configuring delegation and shared line appearance
 
 Delegation and shared line appearance are user-driven features: there are no admin settings to configure. For information about how to use the feature, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-The tenant admin should enable delegation via the **TeamsCallingPolicy AllowDelegation** setting for this feature to work.
+The tenant admin can enable delegation via the **TeamsCallingPolicy AllowDelegation** setting or via Teams Admin Portal for this feature to work. 
+
+The tenant admin can also configure delegation relationships for a user in the Teams admin center. In addition, the end user can also configure their delegation relationships directly in Teams. The Tenant admin or the user cannot block the configuration by each other, but the Teams admin center and Teams client should show this relationship accurately in both places. 
+
+> [!IMPORTANT]
+> When the tenant admin turns off delegation for a user (after it has been turned on), they also need to clean up delegation relationships for that user in the Teams admin center to avoid incorrect call routing.
 
 ## Shared line appearance feature availability
 

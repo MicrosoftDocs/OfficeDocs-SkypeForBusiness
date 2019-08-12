@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Overview of external user access'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Overview of external user access
 ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398775(v=OCS.15)
 ms:contentKeyID: 48184934
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

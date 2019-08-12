@@ -6,11 +6,12 @@ manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams. 
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -59,7 +60,7 @@ The easiest way to install the Windows desktop client is to:
 3. Start Teams after installation completes.
 
 > [!NOTE]
-> Later, when you're considering a more formal, mass rollout of Teams across your organization, check out the [Teams Windows desktop client](http://aka.ms/teams-clients) video to learn how to plan for and deploy it. 
+> Later, when you're considering a more formal, mass rollout of Teams across your organization, check out the [Teams Windows desktop client](https://aka.ms/teams-clients) video to learn how to plan for and deploy it. 
 
 #### Teams for Mac 
 The easiest way to install the Mac desktop client is to:

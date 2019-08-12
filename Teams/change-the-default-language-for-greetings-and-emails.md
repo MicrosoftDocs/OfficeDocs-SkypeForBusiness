@@ -1,7 +1,7 @@
 ---
 title: "Change the default language for greetings and emails"
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -44,13 +44,13 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
 
 1. Sign in with your [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. In the Office 365 admin center, choose **Settings** > **Organization profile**. 
+2. In the Microsoft 365 admin center, choose **Settings** > **Organization profile**. 
     
-     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Screen shot showing choosing Settings and then Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Choose **Edit**.
     
-    ![Choose Edit.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Screen shot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Select a language from the **Preferred language** list for everyone in your organization.
     

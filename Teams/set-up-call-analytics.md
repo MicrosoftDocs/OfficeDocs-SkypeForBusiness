@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -39,7 +39,7 @@ As a Teams or Skype for Business Online admin, you can use Call Analytics to tro
 
 -  Select **Users** in the left navigation.
 
-   ![Screenshot of left navigation](media/set-up-call-analytics-image-2.png)
+   ![Screenshot of the left navigation](media/set-up-call-analytics-image-2.png)
   
 ## Set Call Analytics permissions
 <a name="BKMK_SetCAPerms"></a>

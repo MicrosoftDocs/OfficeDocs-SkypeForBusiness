@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing the ability of a user to log on to Lync Server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the ability of a user to log on to Lync Server
 ms:assetid: d9cd0f9b-6ef2-4050-a4ca-263c5afa93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743841(v=OCS.15)
 ms:contentKeyID: 63969655
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

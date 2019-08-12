@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Quality of Experience (QoE)'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Quality of Experience (QoE)
 ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687963(v=OCS.15)
 ms:contentKeyID: 49733548
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

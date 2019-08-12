@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblServerIdentity'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblServerIdentity
 ms:assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558648(v=OCS.15)
 ms:contentKeyID: 48184125
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

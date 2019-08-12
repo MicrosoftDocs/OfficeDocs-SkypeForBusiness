@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Import voice routing test cases'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Import voice routing test cases
 ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398460(v=OCS.15)
 ms:contentKeyID: 48184325
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

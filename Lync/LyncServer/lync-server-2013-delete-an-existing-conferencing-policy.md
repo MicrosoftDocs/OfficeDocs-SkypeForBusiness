@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Delete an existing conferencing policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete an existing conferencing policy
 ms:assetid: 709ed771-790f-4bf1-a4de-b37ca5168688
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688089(v=OCS.15)
 ms:contentKeyID: 49733688
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

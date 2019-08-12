@@ -12,10 +12,9 @@ search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
-- Skype for Business 
-- Microsoft Teams
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -46,7 +45,7 @@ Here is some specific information about this PIN you should know:
     
 ## Set up your PIN
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     

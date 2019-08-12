@@ -1,12 +1,13 @@
 ---
-title: Turn on or off guest access to Microsoft Teams
-author: somakbhattacharyya
-ms.author: sbhatta
+title: Turn on or turn off guest access to Microsoft Teams
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -19,10 +20,10 @@ appliesto:
 - Microsoft Teams
 ---
 
-Turn on or off guest access to Microsoft Teams
-======================================
+Turn on or turn off guest access to Microsoft Teams
+===================================================
 
-As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests. 
+As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests.
 
 The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
 
@@ -59,8 +60,8 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
     - **Giphy content rating** –  Select a rating from the drop-down list:
        - **Allow all content** - Guests will be able to insert all Giphys in chats, regardless of the content rating.
        - **Moderate** - Guests will be able to insert Giphys in chats, but will be moderately restricted from adult content.
-       - **Strict** – Guests will be able to insert Giphys in chats, but will be strictly restricted from inserting adult content.
-    - **Use Memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
+       - **Strict** – Guests will be able to insert Giphys in chats, but will be restricted from inserting adult content.
+    - **Use memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
     - **Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations. 
 
 

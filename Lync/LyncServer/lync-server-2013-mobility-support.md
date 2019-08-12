@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 mobility support
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Mobility support
 ms:assetid: 4a401502-9e17-40d0-a1bd-870ff1fa5b63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204858(v=OCS.15)
 ms:contentKeyID: 48184029
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

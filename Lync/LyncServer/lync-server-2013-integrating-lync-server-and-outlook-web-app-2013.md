@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Integrating Lync Server and Outlook Web App 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Integrating Lync Server 2013 and Outlook Web App 2013
 ms:assetid: 513d4cc7-aa87-4f68-b99d-d58b63bdf242
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688055(v=OCS.15)
 ms:contentKeyID: 49733649
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

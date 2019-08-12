@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -45,7 +45,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

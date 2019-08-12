@@ -4,17 +4,18 @@ ms.reviewer:
 ms.author: crowe
 author: CarolynRowe
 ms.date: 3/31/2017
-ms.audience: ITPro
+manager: serdars
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: "The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode. The appliance isdrained—that is, all existing calls will complete, but new calls are rejected."
+description: "The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode. The appliance immediately stops all services, ending any ongoing calls and rejecting any new calls."
 ---
 
 # Enter-CcUpdate
- 
-The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode. The appliance is "drained"—that is, all existing calls will complete, but new calls are rejected. 
+
+The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode. The appliance immediately stops all services, ending any ongoing calls and rejecting any new calls.
   
 ```
 Enter-CcUpdate

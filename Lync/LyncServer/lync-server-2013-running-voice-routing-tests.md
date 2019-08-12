@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Running voice routing tests'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Running voice routing tests
 ms:assetid: 577cdc57-930e-4e12-a515-fdcf61b93153
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398377(v=OCS.15)
 ms:contentKeyID: 48184185
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

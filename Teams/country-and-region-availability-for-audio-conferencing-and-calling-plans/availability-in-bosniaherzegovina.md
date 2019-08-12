@@ -3,7 +3,7 @@ title: "Availability in Bosnia &amp; Herzegovina"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: serdars
 ms.topic: reference
 ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -66,7 +66,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll numbers available?  <br/> |No  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## Communications Credits
 
@@ -78,7 +78,7 @@ If you want to set them up, see [Set up Communications Credits for your organiza
   
 ## Related topics
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

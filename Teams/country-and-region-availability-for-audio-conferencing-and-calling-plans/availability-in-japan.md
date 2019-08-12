@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -32,13 +32,16 @@ description: "Here are the Office 365 services for Skype for Business and Micros
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
 Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan.
+
+> [!IMPORTANT]
+> Using SoftBank for calling in Japan is currently only available to Early Adopters (EA).
   
 ## Audio Conferencing
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Tokyo</ul> If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Tokyo</ul> If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -51,22 +54,30 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
+> [!IMPORTANT]
+> Only available through SoftBank for Japanese-based tenants. 
+> For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan)).
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |No  <br/> |
-|Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
-|Can make outbound calls to?  <br/> |Not applicable  <br/> |
-   
+|Calling Plans are available to purchase?  <br/> |Yes,  see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).  <br/> |
+|Minutes available for Calling Plans  <br/> |See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+|Can make outbound calls to?  <br/> |See [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan). <br/> |
+
+> [!IMPORTANT]
+> To delete user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.
+> To update emergency address information for user (subscriber) numbers in Japan (Provided by SoftBank) please contact SoftBank directly.
+> For more information, see [SoftBank Calling for Office 365](https://aka.ms/SoftBankVoicePlan).
+
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Tokyo  <br/> |
-|Are toll numbers available?  <br/> |Yes  <br/> |
+|Are toll numbers available?  <br/> |Yes <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## Communications Credits
 
@@ -78,7 +89,7 @@ If you want to set them up, see [Set up Communications Credits for your organiza
   
 ## Related topics
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

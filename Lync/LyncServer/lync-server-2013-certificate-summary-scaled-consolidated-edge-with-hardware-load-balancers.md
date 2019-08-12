@@ -1,13 +1,14 @@
 ---
 title: 'Certificate summary - Scaled consolidated edge with hardware load balancers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Certificate summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398692(v=OCS.15)
 ms:contentKeyID: 48184729
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

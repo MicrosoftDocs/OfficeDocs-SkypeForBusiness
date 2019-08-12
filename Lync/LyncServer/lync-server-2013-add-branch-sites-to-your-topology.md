@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Add branch sites to your topology'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Add branch sites to your topology
 ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412905(v=OCS.15)
 ms:contentKeyID: 48185216
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

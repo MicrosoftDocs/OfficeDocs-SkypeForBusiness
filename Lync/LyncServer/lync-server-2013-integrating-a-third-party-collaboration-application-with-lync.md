@@ -1,13 +1,14 @@
 ---
 title: 'Integrating a third-party collaboration application with Lync'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Integrating a third-party collaboration application with Lync
 ms:assetid: 00b9312c-b0c8-4f79-8b76-05b2d820e197
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398068(v=OCS.15)
 ms:contentKeyID: 48183224
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

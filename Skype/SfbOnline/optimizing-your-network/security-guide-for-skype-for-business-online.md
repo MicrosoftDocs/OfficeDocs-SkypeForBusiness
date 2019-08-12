@@ -5,12 +5,13 @@ author: tonysmit
 manager: serdars
 ms.reviewer:
 ms.date: 01/22/2018
+ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Skype for Business Online

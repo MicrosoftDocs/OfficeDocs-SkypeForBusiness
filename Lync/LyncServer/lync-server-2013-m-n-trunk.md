@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: M:N trunk'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: M:N trunk
 ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
 ms:contentKeyID: 48185592
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

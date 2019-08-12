@@ -1,16 +1,17 @@
 ---
 title: Onboarding checklist for enabling the Office 365 service for Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure Office 365 for Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

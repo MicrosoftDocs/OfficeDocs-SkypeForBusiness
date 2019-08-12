@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 capacity planning using the user models
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
 ms:contentKeyID: 49733733
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

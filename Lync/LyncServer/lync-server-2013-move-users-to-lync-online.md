@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Move users to Lync Online'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Move users to Lync Online
 ms:assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204969(v=OCS.15)
 ms:contentKeyID: 48184392
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

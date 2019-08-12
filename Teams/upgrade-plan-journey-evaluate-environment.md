@@ -1,23 +1,24 @@
 ---
 title: Microsoft Teams Upgrade | Environment Evaluation, Discovery Questions
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for upgrading to Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
@@ -133,15 +134,12 @@ Use the following table to capture your organization’s networking details and 
 > | How do (or how will) the users in scope for migration <br>access Teams when they’re in the office? <br/>Select all that apply. | <input type="checkbox"> Routed NAT connection <br/> <input type="checkbox"> Proxy server <br/> <input type="checkbox"> Public Wi-Fi <br/> <input type="checkbox"> Managed (not public) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft peering) ||
 > | If access to Office 365 is through a proxy server, is there <br>any way to bypass the proxy? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Is ExpressRoute being used today? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> No, but it’s being planned | |
-> | Have you performed a Network Readiness Assessment? <br/>For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Have you performed a Network Readiness Assessment? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Are users required to use a VPN when connecting to <br>corporate resources remotely? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | If a VPN is used, can Teams traffic be excluded from <br>the VPN to access Office 365 Services directly? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Does your network support QoS? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Can you prioritize Teams audio and video traffic <br>to drive a high-quality experience? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Do all locations within a region have internet egress, <br>or is internet egress centralized for the entire region? | <input type="checkbox"> Regional access to the internet <br/> <input type="checkbox"> Centralized access to the internet | |
-
-> [!TIP]
-> To calculate the amount of bandwidth and other network requirements for your cloud voice deployment, depending your organization’s details and estimated usage, visit [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
 ## Endpoints
 
@@ -187,8 +185,8 @@ Use the following table and capture the current adoption and readiness state of 
 > | Which of the following best describes the rollout <br>strategy used for your Skype for Business <br>deployment? | <input type="checkbox"> Broad reach: Email campaign with <br>&nbsp; &nbsp; &nbsp;links to training <br/> <input type="checkbox"> Expanded: Broad reach plus a variety <br>&nbsp; &nbsp; &nbsp;of awareness campaigns (posters, <br>&nbsp; &nbsp; &nbsp;events, champions) and training <br>&nbsp; &nbsp; &nbsp;(videos, user guides, in-person) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br>&nbsp; &nbsp; &nbsp;messaging and training by persona <br/> <input type="checkbox"> Other <br>&nbsp; &nbsp; &nbsp;(Note the details in the Comments column.) | |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next step</td><td><ul><li>Document the results of the environment assessment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Next step</td><td><ul><li>Document the results of the environment assessment.</li></ul></td></tr>
 </table>
 
 After you evaluate your environment, proceed to the next step: [Prepare your network](upgrade-prepare-environment-prepare-network.md).

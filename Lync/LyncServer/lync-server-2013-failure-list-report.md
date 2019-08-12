@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Failure List Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Failure List Report
 ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
 ms:contentKeyID: 48185194
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

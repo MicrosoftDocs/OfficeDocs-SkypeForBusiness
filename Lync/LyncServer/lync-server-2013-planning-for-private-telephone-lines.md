@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for private telephone lines'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for private telephone lines
 ms:assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412728(v=OCS.15)
 ms:contentKeyID: 48184909
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

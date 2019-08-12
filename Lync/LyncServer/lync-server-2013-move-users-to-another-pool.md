@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Move users to another pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Move users to another pool
 ms:assetid: e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182600(v=OCS.15)
 ms:contentKeyID: 48185879
 ms.date: 02/09/2018
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: Upgrade checklist| Skype Business to Teams Upgrade | Basic Steps
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams 
 localization_priority: Normal
 search.appverid: MET150
@@ -13,7 +14,7 @@ ms.custom: Teams-upgrade-guidance
 f1keywords: 
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
@@ -27,6 +28,9 @@ appliesto:
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
 These ten easy steps provide everything you need for a successful upgrade. They’re designed to be completed in about 30 to 45 days, but you should adjust task completion dates based on your organization’s upgrade schedule.
+
+> [!IMPORTANT]
+> Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today.
 
 What happens to Skype for Business after the upgrade? After your users are upgraded to Teams (**Teams Only** mode):
 

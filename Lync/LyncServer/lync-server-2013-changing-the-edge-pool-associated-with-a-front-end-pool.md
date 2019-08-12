@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Changing the Edge pool associated with a Front End pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Changing the Edge pool associated with a Front End pool
 ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688023(v=OCS.15)
 ms:contentKeyID: 49733613
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

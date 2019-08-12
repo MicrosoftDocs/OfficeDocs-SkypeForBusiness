@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 load balancing requirements
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Load balancing requirements
 ms:assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615011(v=OCS.15)
 ms:contentKeyID: 48184697
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

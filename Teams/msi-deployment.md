@@ -1,15 +1,16 @@
 ---
 title: Install Microsoft Teams using MSI via SCCM
-author: Lester-Hewett
-ms.author: lehewe
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: rowille
+audience: admin
 description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto: 
@@ -24,6 +25,8 @@ Install Microsoft Teams using MSI
 
 To use System Center Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](https://aka.ms/teams32bitmsi) and [64-bit](https://aka.ms/teams64bitmsi)) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. (You can disable auto launch after installing the app. [See below](#disable-auto-launch-for-the-msi-installer).)
 We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment. 
+
+Teams can also be included with a deployment of Office 365 ProPlus. For more information, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
  
 > [!Note] 
 > To learn more about SCCM, see [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
@@ -42,7 +45,7 @@ We recommend that you deploy the package to the computer, so all new users of th
 
 The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams app will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
 
-Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams. 
+Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams. 
 
 > [!Important] 
 > We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service. 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -27,7 +27,7 @@ description: "When you buy Audio Conferencing licenses, Microsoft is hosting you
 
 When you buy **Audio Conferencing** licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so that meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
   
-In addition to the phone numbers already assigned to your conferencing bridge, you can [get additional service numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (toll and toll-free numbers used for audio conferencing) from other locations, and then assign them to the conferencing bridge so you can expand coverage for your users.
+In addition to the phone numbers already assigned to your conferencing bridge, you can [get additional service numbers](/microsoftteams/getting-service-phone-numbers) (toll and toll-free numbers used for audio conferencing) from other locations, and then assign them to the conferencing bridge so you can expand coverage for your users.
   
 > [!NOTE]
 > To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** in the legacy portal and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number.
@@ -38,7 +38,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 1. Sign in to Office 365 with your work account.
 
-2. Go to **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
+2. Go to **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
 3. Select the phone number from the list, and in the Action pane, click **Assign**.
 
@@ -52,7 +52,7 @@ Only a service toll number can be set as the default number for your conferencin
 
 1. Sign in to Office 365 with your work account.
 
-2. Go to **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Meetings** > **Conference Bridges**.
+2. Go to **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Meetings** > **Conference Bridges**.
 
 3. Highlight the service toll number that you want to configure as the default.
 
@@ -64,7 +64,7 @@ The default phone numbers of a user are the ones that are included on their meet
   
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Audio conferencing** > **Users**, and select the users on the list.
+2. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Audio conferencing** > **Users**, and select the users on the list.
 
 3. Click **Edit** in the action pane.
 
@@ -128,7 +128,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
+2. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
 3. If the phone number is a toll-free number, select the phone number from the list, and in the Action pane, click **Unassign**. If the phone number is a toll-number, please contact [Microsoft support](https://go.microsoft.com/fwlink/?linkid=2091806) to have the phone number unassigned.
 
@@ -148,7 +148,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 2. Type _Get-Host_ in the **Windows PowerShell** window to check the version.
 
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0.
+3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0.
 Restart your computer when you are prompted.
 
 4. You also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module is supported only on 64-bit computers and can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
@@ -212,7 +212,7 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
   ```
 
     > [!NOTE]
-    > The location that is used above needs to match the contact information of user(s) that is set in the Office 365 admin center.
+    > The location that is used above needs to match the contact information of user(s) that is set in the Microsoft 365 admin center.
 
 ## Troubleshooting
 
@@ -240,7 +240,7 @@ With Windows PowerShell you can manage users and what they are or are not allowe
 
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
 
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

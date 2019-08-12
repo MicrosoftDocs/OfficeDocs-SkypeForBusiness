@@ -1,13 +1,14 @@
 ---
 title: 'Verify connectivity between internal servers and Edge Servers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Verify connectivity between internal servers and Edge Servers
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398292(v=OCS.15)
 ms:contentKeyID: 48183602
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

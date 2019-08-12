@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Disabling or enabling a chat room'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Disabling or enabling a chat room
 ms:assetid: db0908fc-aae3-46e8-bc0b-245e9adfa1e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215883(v=OCS.15)
 ms:contentKeyID: 48706011
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

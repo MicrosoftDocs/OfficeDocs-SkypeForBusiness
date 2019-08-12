@@ -100,10 +100,10 @@
 ##### [Configure Cloud Voicemail](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Cloud Auto Attendants
 ##### [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
-##### [Configure Cloud auto attendants](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+##### [Configure resource accounts](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 #### Cloud Call Queues
 ##### [Plan Cloud call queues](../../SfbHybrid/hybrid/plan-call-queue.md)
-##### [Configure Cloud call queues](../../SfbHybrid/hybrid/configure-call-queue.md)
+##### [Configure resource accounts](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Unified Messaging](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Deployment overview](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
@@ -484,6 +484,8 @@
 ### [User accounts](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Customize properties](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Manage services](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Back-up RGS Data](../backup-rgs-data.md)
+### [Using SEFAUtil](../sefautil-functionality.md)
 ## [Management Tools](../management-tools-2019.md)
 ### [Call Quality Dashboard for Skype for Business Server](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [Plan for Call Quality Dashboard](../../SfbServer/management-tools/call-quality-dashboard/plan.md)

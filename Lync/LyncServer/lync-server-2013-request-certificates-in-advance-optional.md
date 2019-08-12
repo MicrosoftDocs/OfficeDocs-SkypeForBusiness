@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Request certificates in advance (optional)'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Request certificates in advance (optional)
 ms:assetid: 9d6d7de6-ff2a-46da-b1b7-a354c8e383e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412733(v=OCS.15)
 ms:contentKeyID: 48184915
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

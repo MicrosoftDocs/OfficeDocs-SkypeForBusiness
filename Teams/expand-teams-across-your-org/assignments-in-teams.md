@@ -1,11 +1,12 @@
 ---
 title: Assignments for Teams
-author: tonysmit
-ms.author: tonysmit
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -29,6 +30,8 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Guardian emails are weekly emails sent to students' parents or guardians. The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. The emails need to be updated by the admins using the School Data Sync feature.
 
 This setting is off by default.
@@ -41,10 +44,11 @@ This is a third party product or service that is subject to its own terms and
 
 This setting is off by default.
 
-[Learn more about MakeCode](https://www.microsoft.com/${locale}/makecode)
+[Learn more about MakeCode](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin is a plagiarism detection service. This is a third party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third party products and services.
 
@@ -58,13 +62,18 @@ In order to successfully enable Turnitin for your organization, you will need to
 Here are some instructions to help you obtain this information.
 
 The TurnitinApiUrl is the host address of your admin console.
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin1.png)
+Example. `https://your-tenant-name.turnitin.com`
 
-Go to the Integrations tab and add an integration.
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
+The admin console is where you can create an integration and an API key associated with the integration.
 
-The TurnitinApiKey will be given to you after you follow the prompts. Copy this key and paste it into the Microsoft Teams admin center. 
-![Finding the TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
+Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.
+![Screen shot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
+
+The TurnitinApiKey will be given to you after you follow the prompts. 
+Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
+![Screen shot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
+
+Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.
 
 [Learn more about the integration between Turnitin and Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 

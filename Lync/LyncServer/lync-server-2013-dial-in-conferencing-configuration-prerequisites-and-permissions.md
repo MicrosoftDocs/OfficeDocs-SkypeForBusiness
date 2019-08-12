@@ -1,13 +1,14 @@
 ---
 title: 'Dial-in conferencing configuration prerequisites and permissions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Dial-in conferencing configuration prerequisites and permissions
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
 ms:contentKeyID: 48185165
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

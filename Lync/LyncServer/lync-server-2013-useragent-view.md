@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: UserAgent view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: UserAgent view
 ms:assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721862(v=OCS.15)
 ms:contentKeyID: 49733795
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

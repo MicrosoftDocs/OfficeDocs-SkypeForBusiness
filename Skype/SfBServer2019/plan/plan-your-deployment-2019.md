@@ -5,7 +5,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.date: 2/8/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

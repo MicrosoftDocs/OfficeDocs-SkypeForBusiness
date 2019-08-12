@@ -1,10 +1,10 @@
 ---
 title: "Plan for Video Interop Server in Skype for Business Server"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.lync.plan.VideoInterop

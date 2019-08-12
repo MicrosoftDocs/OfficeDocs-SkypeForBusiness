@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Hosted Exchange Unified Messaging integration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Hosted Exchange Unified Messaging integration
 ms:assetid: f4de0165-da3b-499e-98fc-28ddd0db02d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413027(v=OCS.15)
 ms:contentKeyID: 48185829
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

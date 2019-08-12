@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: New voice mail feature'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: New voice mail feature
 ms:assetid: 84d13238-67ef-42cc-801a-2d8147ba3b7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688117(v=OCS.15)
 ms:contentKeyID: 49733715
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

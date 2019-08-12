@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: First steps before you start migrating users from Lync Online to Lync on-premises'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: First steps before you start migrating users from Lync Online to Lync on-premises
 ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689118(v=OCS.15)
 ms:contentKeyID: 62258123
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Technical requirements for media bypass'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Technical requirements for media bypass
 ms:assetid: 6162a204-0e7c-460a-8eb2-e592c6590a8a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398435(v=OCS.15)
 ms:contentKeyID: 48184321
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

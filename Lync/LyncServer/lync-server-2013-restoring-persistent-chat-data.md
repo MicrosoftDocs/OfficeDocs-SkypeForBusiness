@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Restoring Persistent Chat data'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Restoring Persistent Chat data
 ms:assetid: c251a7fa-50da-434b-b39a-17f5978ce736
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945649(v=OCS.15)
 ms:contentKeyID: 51541516
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

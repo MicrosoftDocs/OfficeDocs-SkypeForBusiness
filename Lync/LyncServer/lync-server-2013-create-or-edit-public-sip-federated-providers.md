@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or edit public SIP federated providers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or edit public SIP federated providers
 ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398349(v=OCS.15)
 ms:contentKeyID: 48184167
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

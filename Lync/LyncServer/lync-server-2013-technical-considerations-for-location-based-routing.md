@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Technical considerations for Location-Based Routing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Technical considerations for Location-Based Routing
 ms:assetid: 2e2a9199-7c6f-48d3-9adb-3873fc4f8c4e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994027(v=OCS.15)
 ms:contentKeyID: 51803936
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

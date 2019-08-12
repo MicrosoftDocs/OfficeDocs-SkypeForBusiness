@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Planning for devices'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Planning for devices
 ms:assetid: 76f7f6a2-52dd-411d-a6ec-5ed5b6124f3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398583(v=OCS.15)
 ms:contentKeyID: 48184545
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

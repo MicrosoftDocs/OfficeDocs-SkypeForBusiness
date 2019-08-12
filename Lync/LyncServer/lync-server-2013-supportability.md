@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 supportability
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Supportability
 ms:assetid: 3af43205-09dc-465d-ad64-3621f5622d52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425877(v=OCS.15)
 ms:contentKeyID: 48183916
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

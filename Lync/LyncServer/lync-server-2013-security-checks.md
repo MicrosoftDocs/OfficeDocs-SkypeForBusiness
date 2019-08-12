@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Security checks'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Security checks
 ms:assetid: 053c099f-a078-4121-bfe0-3fe5ef110b79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725205(v=OCS.15)
 ms:contentKeyID: 63969572
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

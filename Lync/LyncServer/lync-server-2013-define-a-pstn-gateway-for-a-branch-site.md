@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Define a PSTN gateway for a branch site'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Define a PSTN gateway for a branch site
 ms:assetid: 87be2fe2-1d56-4062-b430-439d4536414c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398689(v=OCS.15)
 ms:contentKeyID: 48184724
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

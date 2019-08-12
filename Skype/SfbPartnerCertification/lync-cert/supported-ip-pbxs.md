@@ -6,9 +6,9 @@ manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
+ms.service: skype-for-business-online
 ms.collection: Lync
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Lync
 - Skype for Business
@@ -317,4 +317,4 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 	</tbody>
 </table>
 
-For more information on Direct SIP Configurations with Lync Server, please see: [PSTN Connectivity Components]().
+For more information on Direct SIP Configurations with Lync Server, please see: [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).

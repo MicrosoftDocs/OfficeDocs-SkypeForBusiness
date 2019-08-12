@@ -1,7 +1,7 @@
 ---
 title: Get started driving adoption of Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn about the the startup, experiment, and enable phases of Microsoft Teams adoption.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -51,4 +51,4 @@ Every adoption project varies in size and complexity based on your environment, 
 Each of these adoption phases depends on your technical and environmental readiness for Teams. Let's get started!
 
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|

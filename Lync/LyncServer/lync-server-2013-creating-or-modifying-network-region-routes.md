@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Creating or modifying network region routes'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Creating or modifying network region routes
 ms:assetid: 76993daa-76c2-4cec-8363-de8aebef0145
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521016(v=OCS.15)
 ms:contentKeyID: 48184540
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Conference table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Conference table
 ms:assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425762(v=OCS.15)
 ms:contentKeyID: 48183700
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

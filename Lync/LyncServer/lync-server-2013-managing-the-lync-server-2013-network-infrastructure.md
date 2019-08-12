@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing the Lync Server 2013 network infrastructure'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing the Lync Server 2013 network infrastructure
 ms:assetid: cb13456a-8f66-4595-be21-8887f30ad4eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182585(v=OCS.15)
 ms:contentKeyID: 48185638
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

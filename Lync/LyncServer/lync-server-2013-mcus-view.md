@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Mcus view'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Mcus view
 ms:assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688127(v=OCS.15)
 ms:contentKeyID: 49733725
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Enabling or disabling the purging of archived data'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Enabling or disabling the purging of archived data
 ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520968(v=OCS.15)
 ms:contentKeyID: 48183678
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

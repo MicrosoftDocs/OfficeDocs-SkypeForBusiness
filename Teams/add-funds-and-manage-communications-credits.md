@@ -7,12 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -71,7 +71,7 @@ You can see the plans and pricing by visiting one of the following links:
     
 - [Phone System plans](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+You can also see information by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
 To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

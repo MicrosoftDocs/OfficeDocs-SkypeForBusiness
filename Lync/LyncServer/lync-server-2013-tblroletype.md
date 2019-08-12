@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: tblRoleType'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblRoleType
 ms:assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558623(v=OCS.15)
 ms:contentKeyID: 48183577
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

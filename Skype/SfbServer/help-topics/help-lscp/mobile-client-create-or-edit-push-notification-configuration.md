@@ -1,11 +1,11 @@
 ---
 title: "Mobile Client Create or Edit Push Notification Configuration"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit

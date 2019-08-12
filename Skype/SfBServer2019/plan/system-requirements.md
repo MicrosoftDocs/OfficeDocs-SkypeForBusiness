@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -107,7 +107,7 @@ There are some things you're going to need to install or configure for any serve
 |**Software/role**|**Details**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • This should be installed by default with Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal; click OK and go ahead. If you don't get this pop-up, you can assume those things are already installed and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2016 is installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7 <br/> |
+|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, initially no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal; click OK and go ahead. If you don't get this pop-up, you can assume those things are already installed and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 though, so you'd probably need to update it. You can find the update [here](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
 |Media Foundation  <br/> |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.  <br/> |
 |Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected, you're good. Otherwise select it and click **Next** to reach the **Install** button. <br/> |
 |Remote Server Administration Tools  <br/> |Role Administration Tools: AD DS and AD LDS tools  <br/> |
@@ -123,7 +123,7 @@ There are some things you're going to need to install or configure for any serve
 To help you out, here's a sample PowerShell script you can run to automate this:
   
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
+Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
 ```
 
  **Directors also need:**
@@ -189,8 +189,8 @@ Skype for Business Server 2019 Enterprise Edition will require full SQL Server, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> |
-Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.|
+|Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.  <br/> |Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.  <br/> |
+Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.|
  |
 
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
@@ -208,13 +208,15 @@ You can have the following for failover clustering:
   
 Two-node:
   
-- Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
 
 Sixteen-node:
   
-- Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 - Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 
 SQL Always On is supported, and you can read more about it in [Back End Server high availability in Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
@@ -432,7 +434,7 @@ That's a lot to think about, and there are a variety of comfort levels with requ
   
 ### Certificates for your internal servers
 
-You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](https://support.microsoft.com/kb/929395/en-us) list.
+You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](/SkypeForBusiness/certification/services-ssl) list.
   
 You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
   

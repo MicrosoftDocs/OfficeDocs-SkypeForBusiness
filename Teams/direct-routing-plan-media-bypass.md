@@ -3,12 +3,10 @@ title: "Plan for media bypass with Direct Routing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:  
-- msteams
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
@@ -42,7 +40,7 @@ But let's assume that a user is in the same building or network as the SBC. For 
 
 ![Shows signaling and media flow with media bypass](media/direct-routing-media-bypass-2.png)
 
-Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE light on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
+Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE lite on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
 
 
 ## Call flow and firewall planning
@@ -65,7 +63,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - The SIP signaling always takes paths 4 and 4’ (depending on the direction of the traffic). Media stays local and takes path 5b.
 
-![Shows Call flow with Media Bypass enabled, client is internal and can reach the public IP of the Session Border Controller (direct media)](media/direct-routing-media-bypass-3.png)
+![Shows Call flow with Media Bypass enabled, client is internal](media/direct-routing-media-bypass-3.png)
 
 
 ### Call flow if the user does not have access to the public IP address of the SBC
@@ -86,7 +84,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - Media is relayed via paths 3, 3', 4 and 4'
 
-![Shows Call flow if the user does not have access to the public IP of the SBC)](media/direct-routing-media-bypass-4.png)
+![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-4.png)
 
 
 ### Call flow if a user is outside the network and has access to the public IP of the SBC
@@ -100,7 +98,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 - The SIP signaling always takes paths 3 and 3’ (depending on the direction of the traffic). Media flows using path 2.
 
-![Shows Call flow if the user does not have access to the public IP of the SBC)](media/direct-routing-media-bypass-5.png)
+![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-5.png)
 
 
 ## Use of Media Processors and Transport Relays
@@ -120,7 +118,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
 
-![Shows two call flows – one with Media Bypass enabled and the second with Media Bypass disabled)](media/direct-routing-media-bypass-6.png)
+![Shows call flows with Media Bypass enabled and disabled](media/direct-routing-media-bypass-6.png)
 
 
 The table below summarizes the difference between Media Processors and Transport Relays.
@@ -152,9 +150,18 @@ Teams Transport Relays are always in the media path in the following scenarios:
 Ensure your SBC has access to the Transport Relays as described below.    
 
 
-## SIP Signaling: FQDNs and firewall ports
+## SIP Signaling: FQDNs
 
 For SIP signaling, the FQDN and firewall requirements are the same as for non-bypassed cases. 
+
+Direct Routing is offered in the following Office 365 environments:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
+
+### Office 365 and Office 365 GCC environments
 
 The connection points for Direct Routing are the following three FQDNs:
 
@@ -179,7 +186,43 @@ The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **s
 - 52.114.7.24
 - 52.114.14.70
 
-You will need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all the IP addresses above. You must use the following ports:
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
+
+### Office 365 GCC DoD environment
+
+The connection point for Direct Routing is the following FQDN:
+
+**sip.pstnhub.dod.teams.microsoft.us** – Global FQDN. As the Office 365 DoD environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
+
+The FQDNs – sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the following IP addresses:
+
+- 52.127.64.33
+- 52.127.68.34
+
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.dod.teams.microsoft.us resolves to all these IP addresses. 
+
+### Office 365 GCC High environment
+
+The connection point for Direct Routing is the following FQDN:
+
+**sip.pstnhub.gov.teams.microsoft.us** – Global FQDN. As the GCC High environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
+
+The FQDNs – sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the following IP addresses:
+
+- 52.127.88.59
+- 52.127.92.64
+
+You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP addresses. 
+
+## SIP Signaling: Ports
+
+Port requirements are the same for all Office 365 environments where Direct Routing is offered:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+You must use the following ports:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -207,9 +250,22 @@ Note: If you have a network device that translates the client's source ports, pl
 
 ### Requirements for using Transport Relays
 
-Transport Relays are in the same range as Media Processors (for non-bypass cases):  52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+Transport Relays are in the same range as Media Processors (for non-bypass cases): 
 
-The port range of the Teams Transport Relays is shown in the following table:
+### Office 365 and Office 365 GCC environments
+
+-52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+
+## Office 365 GCC DoD environment
+
+- 52.127.64.0/21
+
+### Office 365 GCC High environment
+
+- 52.127.88.0/21
+
+
+The port range of the Teams Transport Relays (applicable to all environments) is shown in the following table:
 
 
 | Traffic | From | To | Source port | Destination port|
@@ -230,12 +286,24 @@ You need to open ports 3478 and 3479 for transitioning. When Microsoft introduce
 
 ### Requirements for using media processors
 
-Media Processors are always in the media path for voice applications. The requirements are the same as for non-bypass configuration.
+Media Processors are always in the media path for voice applications and for Web cleints (for exampe, Teams cleint in Edge or Google Chrome). The requirements are the same as for non-bypass configuration.
 
 
-The IP range for media traffic is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+The IP range for media traffic is 
 
-The port range of the Media Processors is shown in the following table:
+### Office 365 and Office 365 GCC environments
+
+-52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
+
+## Office 365 GCC DoD environment
+
+- 52.127.64.0/21
+
+### Office 365 GCC High environment
+
+- 52.127.88.0/21
+
+The port range of the Media Processors (applicable to all environments) is shown in the following table:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -268,19 +336,20 @@ Users with only Teams end points (including new phones certified for Teams) | 98
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
 
-![Shows Both trunks can point to the same SBC with the same public IP)](media/direct-routing-media-bypass-7.png)
+![Shows both trunks can point to the same SBC with the same public IP](media/direct-routing-media-bypass-7.png)
 
 For information about how to configure two trunks on the same SBC, see the documentation provided by your SBC vendor:
 
-- AudioCodes
-- Ribbon
-- TE-Systems (Anynode)   
+ - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 ## Client endpoints supported with media bypass
 
-Media bypass is supported with all Teams endpoints, except Teams Web clients until further notice. 
+Media bypass is supported with all Teams endpoints.
 
-If your users prefer Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox, the media bypass for such users must be turned off. We will introduce calling using a media bypass enabled trunk in the future.   
+Note for webcleints (Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox) we will covert the call to non-bypass even of it started as a bypass call. This happens automatically and does not require any actions on the administrator. 
  
 ## See also
 

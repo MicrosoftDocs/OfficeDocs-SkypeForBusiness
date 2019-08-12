@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure an E9-1-1 voice route'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure an E9-1-1 voice route
 ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398496(v=OCS.15)
 ms:contentKeyID: 48184384
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

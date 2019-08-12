@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Running forest preparation'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Running forest preparation
 ms:assetid: 9d62f7be-bcfe-421d-8d8a-225567102a35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412732(v=OCS.15)
 ms:contentKeyID: 48184991
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Installing the Operation Manager agent files on a watcher node'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Installing the Operation Manager agent files on a watcher node
 ms:assetid: 39014de3-aec2-4954-a148-64c9d0af3c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204819(v=OCS.15)
 ms:contentKeyID: 48183901
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

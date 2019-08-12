@@ -1,11 +1,11 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Exchange Online"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
@@ -28,7 +28,10 @@ The easiest way to set up user accounts is to configure them using remote Window
 
 Before you deploy Microsoft Teams Rooms with Exchange Online, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
   
-To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets.
+To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets. 
+
+   > [!NOTE]
+   >  The [Azure Active Directory Module for Windows PowerShell cmdlets](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) in this section (for example,  Set-MsolUser) have been tested in setting up accounts for Microsoft Teams Rooms devices. It's possible that other cmdlets may work, however, they haven't been tested in this specific scenario.
   
 ### Create an account and set Exchange properties
 
@@ -74,11 +77,14 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     > Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms user account.
   
 4. Click **Finish** to create the account.
-5. After you've created the account, run a directory synchronization. When it's complete, go to the users page and verify that the two accounts created in the previous steps have merged.
+5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
 
 ### Assign an Office 365 license
 
-1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect.
+1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred

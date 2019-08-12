@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure unassigned phone numbers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure unassigned phone numbers
 ms:assetid: a0650659-dce7-455f-8977-02454bbfa400
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182559(v=OCS.15)
 ms:contentKeyID: 48185009
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

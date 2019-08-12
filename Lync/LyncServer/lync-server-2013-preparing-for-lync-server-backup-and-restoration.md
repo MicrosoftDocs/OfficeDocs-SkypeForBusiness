@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Preparing for Lync Server backup and restoration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Preparing for Lync Server backup and restoration
 ms:assetid: 044623a1-948e-4957-b6e1-354d301ad505
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202159(v=OCS.15)
 ms:contentKeyID: 51541442
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

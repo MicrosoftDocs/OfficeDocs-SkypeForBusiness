@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: DeRegisterType table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: DeRegisterType table
 ms:assetid: 09148118-6209-4fd7-a494-99118689a245
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398142(v=OCS.15)
 ms:contentKeyID: 48183346
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

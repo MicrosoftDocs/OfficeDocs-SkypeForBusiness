@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Additional server support and requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Additional server support and requirements
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398577(v=OCS.15)
 ms:contentKeyID: 48184535
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

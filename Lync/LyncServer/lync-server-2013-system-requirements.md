@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: System requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: System requirements
 ms:assetid: 9d4d1e6f-f6ed-4263-8425-3f72b415e2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205115(v=OCS.15)
 ms:contentKeyID: 48184912
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

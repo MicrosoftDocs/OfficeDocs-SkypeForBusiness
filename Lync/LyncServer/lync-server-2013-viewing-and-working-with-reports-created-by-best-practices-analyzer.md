@@ -1,13 +1,14 @@
 ---
 title: 'Viewing and working with reports created by Best Practices Analyzer'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing and working with reports created by Best Practices Analyzer
 ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607689(v=OCS.15)
 ms:contentKeyID: 48184215
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

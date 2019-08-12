@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -37,7 +37,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 

@@ -1,11 +1,11 @@
 ---
 title: "Configure archiving policies for Skype for Business Server"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f

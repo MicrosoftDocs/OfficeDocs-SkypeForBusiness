@@ -1,10 +1,10 @@
 ---
 title: "Client Version Rule"
 ms.reviewer: 
-ms.author: dianef
-author: dianef77
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit

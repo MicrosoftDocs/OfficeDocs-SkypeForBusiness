@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: (Optional) Define Response Group business hours'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: (Optional) Define Response Group business hours
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)
 ms:contentKeyID: 48185504
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

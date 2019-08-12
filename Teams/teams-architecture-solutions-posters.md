@@ -3,11 +3,11 @@ title: Microsoft Teams IT architecture and telephony solutions posters
 ms.author: lolaj
 author: lolajacobsen
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

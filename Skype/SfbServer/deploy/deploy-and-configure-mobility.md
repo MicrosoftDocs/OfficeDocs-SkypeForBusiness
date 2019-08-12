@@ -1,10 +1,11 @@
 ---
 title: "Deploy and Configure Mobility for Skype for Business Server"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
-ms.audience: ITPro
-ms.topic: get-started-article
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a

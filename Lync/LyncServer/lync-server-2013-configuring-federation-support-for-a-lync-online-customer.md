@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring federation support for a Lync Online customer'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring federation support for a Lync Online customer
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

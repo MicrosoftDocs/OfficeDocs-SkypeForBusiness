@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Device Update rules'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Device Update rules
 ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994062(v=OCS.15)
 ms:contentKeyID: 51803973
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

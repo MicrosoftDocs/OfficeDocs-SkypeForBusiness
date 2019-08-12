@@ -11,7 +11,7 @@ ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -33,14 +33,14 @@ Sometimes Microsoft Teams users may need you to send them their Audio Conferenci
    
 Here is an example of the email that is sent:
   
-![Dial-in conferencing email](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Example of a dial-in conferencing email message](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## Send an email with audio conferencing information to a user
 
-### ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+### ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 

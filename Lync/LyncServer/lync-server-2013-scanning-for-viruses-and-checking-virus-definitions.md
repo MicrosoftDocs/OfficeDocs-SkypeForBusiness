@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Scanning for viruses and checking virus definitions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Scanning for viruses and checking virus definitions
 ms:assetid: 287c0f43-82d1-4c1d-b08f-77112fcb5bfa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720909(v=OCS.15)
 ms:contentKeyID: 63969589
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

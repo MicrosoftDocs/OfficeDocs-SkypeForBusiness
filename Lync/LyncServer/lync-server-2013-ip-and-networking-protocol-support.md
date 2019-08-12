@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: IP and networking protocol support'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: IP and networking protocol support
 ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412848(v=OCS.15)
 ms:contentKeyID: 48185128
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

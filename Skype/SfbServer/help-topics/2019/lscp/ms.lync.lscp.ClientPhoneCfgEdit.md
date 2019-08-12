@@ -1,10 +1,10 @@
 ---
 title: "Device Configuration Create New or Edit Existing"
 ms.reviewer: 
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPhoneCfgEdit

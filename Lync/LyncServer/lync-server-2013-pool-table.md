@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Pool table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Pool table
 ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398746(v=OCS.15)
 ms:contentKeyID: 48184803
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

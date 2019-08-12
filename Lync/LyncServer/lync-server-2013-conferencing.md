@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 conferencing
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Conferencing
 ms:assetid: 6129b7e0-9abd-488e-a54e-86094eb9df7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417161(v=OCS.15)
 ms:contentKeyID: 48184274
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

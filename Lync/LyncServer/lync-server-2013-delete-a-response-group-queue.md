@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Delete a Response Group queue'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete a Response Group queue
 ms:assetid: 67c7a489-8c5f-4c6b-9387-9d4c11d43695
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521008(v=OCS.15)
 ms:contentKeyID: 48184356
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

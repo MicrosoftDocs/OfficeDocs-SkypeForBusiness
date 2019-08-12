@@ -1,13 +1,14 @@
 ---
 title: 'Add Lync Server 2010 Survivable Branch Appliance branch site to your topology'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Add Lync Server 2010 Survivable Branch Appliance branch site to your topology
 ms:assetid: 2920d66e-6e1f-4f7f-89d8-510f004ac4c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688004(v=OCS.15)
 ms:contentKeyID: 49733592
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

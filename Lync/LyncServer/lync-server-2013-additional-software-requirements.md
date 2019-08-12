@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Additional software requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Additional software requirements
 ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398686(v=OCS.15)
 ms:contentKeyID: 48184731
 ms.date: 12/09/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

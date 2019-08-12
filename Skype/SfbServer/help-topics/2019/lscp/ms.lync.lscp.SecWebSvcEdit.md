@@ -1,10 +1,10 @@
 ---
 title: "Web Service Security Settings Create New or Modify Existing"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SecWebSvcEdit

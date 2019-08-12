@@ -1,13 +1,14 @@
 ---
 title: 'Delete dial-in conferencing PIN settings for a site or group of users'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Delete dial-in conferencing PIN settings for a site or group of users
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520955(v=OCS.15)
 ms:contentKeyID: 48183498
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

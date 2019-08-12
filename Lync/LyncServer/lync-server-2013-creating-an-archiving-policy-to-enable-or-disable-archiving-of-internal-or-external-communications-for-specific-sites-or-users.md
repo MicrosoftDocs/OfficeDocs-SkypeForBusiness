@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Creating an Archiving policy to enable or disable Archiving of Internal or external communications for specific sites or users'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Creating an Archiving policy to enable or disable Archiving of Internal or external communications for specific sites or users
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398385(v=OCS.15)
 ms:contentKeyID: 48184193
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

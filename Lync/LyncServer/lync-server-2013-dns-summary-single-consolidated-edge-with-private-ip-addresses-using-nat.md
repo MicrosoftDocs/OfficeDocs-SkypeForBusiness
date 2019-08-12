@@ -1,13 +1,14 @@
 ---
 title: 'DNS summary - Single consolidated edge with private IP addresses using NAT'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: DNS summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412787(v=OCS.15)
 ms:contentKeyID: 48185025
 ms.date: 03/09/2017
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

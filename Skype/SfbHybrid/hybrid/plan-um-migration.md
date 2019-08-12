@@ -2,11 +2,12 @@
 title: Plan for Skype for Business Server and Exchange Server migration 
 ms.reviewer: 
 author: dstrome
+ms.author: dstrome
 manager: serdars 
 audience: ITPro 
 ms.topic: article
 localization_priority: Normal
-ms.prod: skypeforbusiness-server-itpro
+ms.prod: skype-for-business-itpro
 description: "This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to the latest version or to Skype for Business Online or Exchange Online."
 ---
 

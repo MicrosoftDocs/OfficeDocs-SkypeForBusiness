@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync Server network interfaces'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 network interfaces
 ms:assetid: d59abec1-f3cd-4cab-a684-c6afdd7faa77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721900(v=OCS.15)
 ms:contentKeyID: 49733834
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

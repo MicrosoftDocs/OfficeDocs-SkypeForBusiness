@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test-CsAddressBookWebQuery for Address Book management'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test-CsAddressBookWebQuery for Address Book management
 ms:assetid: 977a9c1f-5f4e-4539-9a26-8748b61a57d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429716(v=OCS.15)
 ms:contentKeyID: 48184865
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Navigating the Planning Tool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Navigating the Planning Tool
 ms:assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558601(v=OCS.15)
 ms:contentKeyID: 51541441
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

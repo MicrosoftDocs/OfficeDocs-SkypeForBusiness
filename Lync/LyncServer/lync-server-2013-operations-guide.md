@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Operations Guide'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Operations Guide
 ms:assetid: dcb9ddff-6fe3-4077-a2e3-0ba64f65e264
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720467(v=OCS.15)
 ms:contentKeyID: 63969658
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

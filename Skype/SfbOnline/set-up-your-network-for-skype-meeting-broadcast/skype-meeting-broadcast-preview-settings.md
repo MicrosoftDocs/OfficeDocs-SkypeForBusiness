@@ -1,6 +1,6 @@
 ---
 title: "Skype Meeting Broadcast Preview settings"
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal

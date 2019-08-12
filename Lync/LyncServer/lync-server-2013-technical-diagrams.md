@@ -1,13 +1,14 @@
 ---
 title: Lync Server 2013 technical diagrams
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing Group Call Pickup'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Group Call Pickup
 ms:assetid: 85846a25-e175-4854-b31f-528f219f9a05
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945640(v=OCS.15)
 ms:contentKeyID: 51541494
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Reset a Device Update rule'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Reset a Device Update rule
 ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994069(v=OCS.15)
 ms:contentKeyID: 51803980
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

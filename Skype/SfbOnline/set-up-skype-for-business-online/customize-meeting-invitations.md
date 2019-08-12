@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -40,11 +40,11 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 ## Customize your meeting invitations
 <a name="__top"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     
-2. From the Office 365 admin center, choose **Admin centers** > **Skype for Business**.
+2. From the admin center, choose **Admin centers** > **Skype for Business**.
     
 3. In the Skype for Business admin center, choose **online meetings**. 
     

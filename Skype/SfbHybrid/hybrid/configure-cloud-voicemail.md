@@ -1,11 +1,11 @@
 ---
 title: "Configure Cloud Voicemail service for on-premises users"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.date: 2/11/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

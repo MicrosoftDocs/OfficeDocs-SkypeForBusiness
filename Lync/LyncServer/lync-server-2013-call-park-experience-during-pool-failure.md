@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call Park experience during pool failure'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call Park experience during pool failure
 ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205383(v=OCS.15)
 ms:contentKeyID: 48185831
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

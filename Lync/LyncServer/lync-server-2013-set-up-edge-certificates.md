@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Set up Edge certificates'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Set up Edge certificates
 ms:assetid: b266e793-dcec-4807-b548-02c83848c983
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412858(v=OCS.15)
 ms:contentKeyID: 48185151
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

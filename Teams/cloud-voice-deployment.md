@@ -1,16 +1,17 @@
 ---
 title: Cloud voice deployment
-author: arachmanGitHub
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: Rowille
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto: 

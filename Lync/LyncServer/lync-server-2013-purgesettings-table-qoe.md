@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: PurgeSettings table (QoE)'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: PurgeSettings table (QoE)
 ms:assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204788(v=OCS.15)
 ms:contentKeyID: 48183777
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

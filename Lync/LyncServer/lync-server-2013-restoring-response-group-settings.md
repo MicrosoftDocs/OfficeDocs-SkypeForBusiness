@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Restoring Response Group settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Restoring Response Group settings
 ms:assetid: 4f8e1949-925d-4538-be1d-9ac7c06b2aca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202174(v=OCS.15)
 ms:contentKeyID: 51541473
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Branch site SIP trunking'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Branch site SIP trunking
 ms:assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412974(v=OCS.15)
 ms:contentKeyID: 48185350
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

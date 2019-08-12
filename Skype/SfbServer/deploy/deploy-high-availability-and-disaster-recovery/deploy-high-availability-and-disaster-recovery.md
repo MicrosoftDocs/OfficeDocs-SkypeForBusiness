@@ -1,10 +1,11 @@
 ---
 title: "Deploy high availability and disaster recovery"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
-ms.audience: ITPro
-ms.topic: get-started-article
+ms.author: v-lanac
+author: lanachin
+manager: serdars
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781

@@ -1,7 +1,7 @@
 ---
 title: Schedule service health reviews for your Microsoft Teams adoption
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use service health reporting in your Teams adoption.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 

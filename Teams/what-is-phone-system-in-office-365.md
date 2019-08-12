@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
@@ -24,8 +24,6 @@ description: "Learn about what Phone System can do for you. "
 
 # What is Phone System in Office 365?
 
-## Phone System in Office 365 and Skype for Business Server
-
 **Phone System** is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 cloud with Skype for Business Online and Microsoft Teams. Phone System allows you to replace your existing PBX system with a set of features delivered from Office 365 and tightly integrated into your organization's cloud experience. For more about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
   
 With Phone System, your users can use Skype for Business Online and Microsoft Teams to take care of basic call control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. Phone System users can click a name in their address book, and Skype for Business or Microsoft Teams places a call to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business and Microsoft Teams. For admins, Phone System provides the ability to manage calling within the same admin console used for messaging, collaboration, and so on.
@@ -36,15 +34,15 @@ To enable calls to landlines and mobile phones, Phone System can be connected to
   
 - By purchasing the a Calling Plan (domestic or domestic and international) for Office 365. See [Phone System and Calling Plans](calling-plan-landing-page.md)
     
-- By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Planning your Phone System](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Describes Cloud PBX offerings](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## More about Calling Plans
 
 Using a Calling Plan add-on to Phone System in Office 365 enables PSTN connectivity for calling to landlines and mobile phones around the world (depending on the level of service being licensed). Your users are homed in the cloud and are enabled for Phone System with the Calling Plan add-on provided by Microsoft. Using Calling Plans doesn't require an on-premises server deployment. Calling Plans only work with Phone System in Office 365, and you can't use Calling Plans with another PBX system.
 
-![Topology diagram showing Cloud PBX with PSTN Calling, the completely in-the-cloud voice solution.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![Topology diagram showing Cloud PBX with PSTN Calling](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 Because Calling Plans operate within Office 365, this is a completely-in-the-cloud offering that doesn't require an on-premises server deployment. You have the choice of using a Domestic or Domestic and International Calling Plan, which be assigned to each user that you want to make calls. [Want to know more?](calling-plan-landing-page.md).
   

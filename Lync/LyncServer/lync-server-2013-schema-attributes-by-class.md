@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Schema attributes by class'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Schema attributes by class
 ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
 ms:contentKeyID: 48184468
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

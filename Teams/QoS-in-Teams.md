@@ -1,17 +1,18 @@
 ---
 title: Implement Quality of Service in Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: Serdars
 ms.date: 12/17/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.qos
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -32,26 +33,23 @@ Without some form of QoS, you might see the following quality issues in voice an
 
 The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet. Since that is often cost-prohibitive, QoS provides a way to more effectively manage the resources you have instead of adding new resources. To fully address quality issues you would use QoS across the implementation, then add connectivity only where absolutely necessary.
 
-For QoS to be effective, you will have to apply consistent QoS settings end to end in your organization (This includes all user PCs, network switches, and routers to the internet), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
+For QoS to be effective, you will have have consistent QoS settings applied end to end in your organization, because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams online service.
 
 _Figure 1. The relationship between an organization's networks and Office 365 services_
 
-![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png)
+![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
 
-In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network for both inbound and outbound traffic. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
 
 ## Verify your network is ready
 
-If you are considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner](https://aka.ms/bwcalc/) in MyAdvisor.
+If you are considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). 
   
   Traffic congestion across a network will greatly impact media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use reporting,  [Call Analytics, and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md) to identify problems and then make adjustments using QoS and selective bandwidth additions.
 
 ### VPN considerations
 
 QoS only works as expected when implemented on all links between callers. If you use QoS on an internal network and a user signs in from a remote location, you can only prioritize within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN),  a VPN inherently adds packet overhead and creates delays in real-time traffic. We  recommend that you avoid running real-time communications traffic over a VPN.
-
-> [!NOTE]
-> VPN-connected remote users should implement split tunneling to maximize the quality of the user experience. The document [Deploy-Guidance-VPN Split Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) is available from MyAdvisor and has more information.
 
 In a global organization with managed links that span continents, we strongly recommend QoS because bandwidth for those links is limited in comparison to the LAN.
 
@@ -65,7 +63,7 @@ When you implement QoS, you define multiple queues using one of several congesti
 
 _Figure 2. Examples of QoS queues_
 
-![Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
+![Illustration of QoS queues and bandwidth division](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
 
 A simple analogy is that QoS creates virtual “carpool lanes” in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
@@ -99,7 +97,7 @@ The DSCP value tells a correspondingly configured network what priority to give 
 
 The relative size of the port ranges for different real-time streaming workloads sets the proportion of the total available bandwidth dedicated to that workload. To return to our earlier postal analogy: a letter with an "Air Mail" stamp might get taken within an hour to the nearest airport, while a small package marked "Bulk Mail" mark can wait for a day before traveling over land on a series of trucks.
 
-The following table shows the required DSCP markings for Teams with ExpressRoute, and the associated ports for workload queues. These ranges might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+The following table shows the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute. These ranges might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Recommended initial port ranges_
 
@@ -178,11 +176,11 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 
 3. Stop the capture.
 
-4. In the **Display Filter** field, use the source IP address of the PC that made the call, and refine the filter by defining DSCP value 46 (hex 0xb8) as search criteria, as shown in the following example:
+4. In the **Display Filter** field, use the source IP address of the PC that made the call, and refine the filter by defining DSCP value 46 (hex 0x2E) as search criteria, as shown in the following example:
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0x2E
 
-    ![Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.](media/Qos-in-Teams-Image4.png "Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.")
+    ![Screenshot filters in the Display Filter dialog box.](media/Qos-in-Teams-Image4.png "The Display Filter dialog box in Network Monitor, showing the filters to apply.")
 
 5. Select **Apply** to activate the filter.
 
@@ -190,7 +188,7 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 
 7. In the **Frame Details** window, expand the IPv4 list item and note the value at the end of the line that begins with **DSCP**.
 
-    ![Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.](media/Qos-in-Teams-Image5.png "Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.")
+    ![Screenshot showing DSCP settings in the Frame Details dialog box.](media/Qos-in-Teams-Image5.png "The Frame Details dialog box in Network Monitor, highlighting DSCP settings.")
 
 In this example, the DSCP value is set to 46. This is correct, because the source port used is 50019, which indicates that this is a voice workload.
 

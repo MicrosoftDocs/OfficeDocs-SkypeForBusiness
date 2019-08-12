@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Schema changes in Lync Server 2013'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Schema changes in Lync Server 2013
 ms:assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398944(v=OCS.15)
 ms:contentKeyID: 48185575
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

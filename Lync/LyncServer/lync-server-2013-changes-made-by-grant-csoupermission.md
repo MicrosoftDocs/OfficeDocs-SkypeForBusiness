@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Changes made by Grant-CsOUPermission'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Changes made by Grant-CsOUPermission
 ms:assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205310(v=OCS.15)
 ms:contentKeyID: 48185564
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

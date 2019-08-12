@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Best practices for backup and restoration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Best practices for backup and restoration
 ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
 ms:contentKeyID: 51541500
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Conferencing cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)
 ms:contentKeyID: 48184640
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

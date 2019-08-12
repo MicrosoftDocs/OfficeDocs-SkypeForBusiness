@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing response groups'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing response groups
 ms:assetid: 5a804d7d-3c1a-4647-a0e0-d5c4c8c23b73
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520996(v=OCS.15)
 ms:contentKeyID: 48184222
 ms.date: 02/01/2018
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

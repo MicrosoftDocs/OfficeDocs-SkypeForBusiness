@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call admission control on a SIP trunk'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call admission control on a SIP trunk
 ms:assetid: 7eada098-3d47-4be2-839f-8f87d582efe8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398632(v=OCS.15)
 ms:contentKeyID: 48184623
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -6,7 +6,7 @@ author: jambirk
 manager: serdars
 layout: LandingPage
 ms.date: 2/11/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -110,7 +110,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li> 
-        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-business-server-2019">
+        <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

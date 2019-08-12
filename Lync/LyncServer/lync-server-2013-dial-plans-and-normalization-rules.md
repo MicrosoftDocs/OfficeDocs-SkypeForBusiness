@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Dial plans and normalization rules'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Dial plans and normalization rules
 ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413082(v=OCS.15)
 ms:contentKeyID: 48185960
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

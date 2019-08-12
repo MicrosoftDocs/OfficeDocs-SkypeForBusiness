@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Determining your system requirements'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Determining your system requirements
 ms:assetid: 620e81e2-42df-4eda-8498-bd56a14aa0e1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398438(v=OCS.15)
 ms:contentKeyID: 48184286
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

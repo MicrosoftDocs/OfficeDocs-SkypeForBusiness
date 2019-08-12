@@ -1,13 +1,14 @@
 ---
 title: Deploy Lync Server 2013 clients
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploy Lync Server 2013 clients
 ms:assetid: c80a245e-df41-4d61-bd54-bf87b1757819
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205255(v=OCS.15)
 ms:contentKeyID: 48185375
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

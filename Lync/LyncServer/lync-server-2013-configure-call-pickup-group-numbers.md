@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure call pickup group numbers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure call pickup group numbers
 ms:assetid: 5cc67f0b-d70d-446a-8db1-befda8671121
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945631(v=OCS.15)
 ms:contentKeyID: 51541479
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

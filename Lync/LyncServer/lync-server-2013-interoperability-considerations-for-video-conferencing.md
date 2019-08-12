@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Interoperability considerations for video conferencing'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Interoperability considerations for video conferencing
 ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204790(v=OCS.15)
 ms:contentKeyID: 48183782
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

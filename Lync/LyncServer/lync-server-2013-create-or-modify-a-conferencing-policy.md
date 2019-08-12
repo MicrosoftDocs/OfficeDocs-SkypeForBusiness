@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Create or modify a conferencing policy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Create or modify a conferencing policy
 ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721910(v=OCS.15)
 ms:contentKeyID: 49733844
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

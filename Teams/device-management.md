@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: kelsawi
 ms.collection: 
 - M365-collaboration
@@ -32,7 +33,7 @@ Devices must be certified for Teams and enrolled in Teams. A device is automatic
 
 ## Manage devices in Teams
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **All devices**.  
@@ -59,7 +60,7 @@ Use configuration profiles to manage settings and features for Teams devices in 
 
 ::: zone target="docs"
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 
@@ -73,7 +74,7 @@ Use configuration profiles to manage settings and features for Teams devices in 
 
 ::: zone target="docs"
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 

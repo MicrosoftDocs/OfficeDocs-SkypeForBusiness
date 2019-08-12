@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Defining your requirements for call admission control'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Defining your organization's requirements for call admission control
 ms:assetid: 5122171a-a5b0-4059-b033-846caec10d1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398334(v=OCS.15)
 ms:contentKeyID: 48184104
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-ms.audience: ITPro
+audience: ITPro
 appliesto:
 - Skype for Business 
 - Microsoft Teams

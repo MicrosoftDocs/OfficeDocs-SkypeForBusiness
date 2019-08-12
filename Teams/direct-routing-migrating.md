@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
@@ -67,7 +67,7 @@ For more information about migrating from Calling Plans, see:
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-It is recommended that you remove previouslycconfigured licensing plan information as follows:
+It is recommended that you remove previously configured licensing plan information as follows:
  
 ```
 $companyname = “contoso” 

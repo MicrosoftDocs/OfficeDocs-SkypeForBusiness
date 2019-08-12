@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deleting an Archiving configuration'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deleting an Archiving configuration
 ms:assetid: a8744d39-5cf2-474c-9a99-a0f3a37f846f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205167(v=OCS.15)
 ms:contentKeyID: 48185093
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

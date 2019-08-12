@@ -6,6 +6,7 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:  
@@ -35,7 +36,7 @@ Before you can roll out Audio Conferencing for Teams, consider the following:
 |Ask yourself|Action |
 |------------|-------|
 |Is Audio Conferencing available for my country/region?|To find out if Audio Conferencing is available for your country/region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 E1 or Office 365 E3 subscription. <ul><li>To get and assign licenses, see [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](teams-add-on-licensing/office-365-business-premium.md) articles.</li></ul>|
+|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 Business Premium, E1 or E3 subscription. <ul><li>To get and assign licenses, see [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](teams-add-on-licensing/office-365-business-premium.md) articles.</li></ul>|
 |Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section below.|
 |||
 
@@ -64,7 +65,7 @@ See [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md) to l
 
 |Ask yourself|Action |
 |------------|-------|
-|Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).|
 |Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
 |Do I need to port numbers to use with audio conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).|
 |||
@@ -121,7 +122,7 @@ As an administrator, you can use outbound call controls to restrict the type of 
 
 |Ask yourself|Action |
 |------------|-------|
-| Will I limit the type of outbound calls that are allowed? | To restrict outbound calls, see [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| Will I limit the type of outbound calls that are allowed? | To restrict outbound calls, see [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](outbound-calling-restriction-policies.md).|
 |||
 
 

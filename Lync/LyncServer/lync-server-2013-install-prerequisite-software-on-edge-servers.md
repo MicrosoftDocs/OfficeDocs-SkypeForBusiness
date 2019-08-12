@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Install prerequisite software on Edge Servers'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Install prerequisite software on Edge Servers
 ms:assetid: 94091993-7c61-4cf0-9b33-5dce6c663ccd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398751(v=OCS.15)
 ms:contentKeyID: 48184811
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

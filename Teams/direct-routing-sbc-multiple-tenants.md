@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
@@ -52,7 +52,9 @@ The following are the technical implementation steps to configure the scenario.
 For the detailed steps on how to deploy and configure SBCs for an SBC hosting scenario, please refer to the SBC vendor's documentation.
 
 - **AudioCodes:** [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), the configuration of the SBC hosting scenario described in “Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note.” 
+- **Oracle:** [Direct Routing Configuration notes](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), the configuration of the SBC hosting scenario is described in the "Microsoft" section. 
 - **Ribbon Communications:**  Please refer to the [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) for documentation on how to configure Ribbon Core Series SBCs and to this page [Ribbon Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **TE-Systems (anynode):**  Please register on the [TE-Systems Community page](https://community.te-systems.de/) for documentation and examples on how to configure anynode SBC for multiple tenants.
 
 > [!NOTE]
 > Please pay attention to how to configure the “Contact” header. The Contact header is used to find the customer tenant on the incoming invite message. 
@@ -75,7 +77,7 @@ When a call arrives at the Office 365 Direct Routing interface, the interface us
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
-![Requirements to base domain, subdomains, and Contact header](media/direct-routing-1-sbc-requirements.png)
+![Diagram showing requirements to domains and Contact header](media/direct-routing-1-sbc-requirements.png)
 
 The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with SAN *\*.base_domain (for example, \*customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
@@ -98,7 +100,7 @@ To configure the base and subdomains, please follow the steps described below. I
 
 ### Ensure that you have appropriate rights in the carrier tenant
 
-You can only add new domains if you signed in to the Office 365 admin center as a Global Administrator. 
+You can only add new domains if you signed in to the Microsoft 365 admin center as a Global Administrator. 
 
 To validate the role you have, please sign in to the Microsoft 365 admin center (https://portal.office.com), go to **Users** > **Active Users**, and then verify that you have a Global Administrator role. 
 
@@ -109,17 +111,17 @@ For more information about admin roles and how to assign a role in Office 365, s
 1.	In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 2.	In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
-    ![Adding a base domain](media/direct-routing-2-sbc-add-domain.png)
+    ![Screen shot showing the Add a domain page](media/direct-routing-2-sbc-add-domain.png)
 
 3. Click **Next**.
 4. In the example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because customers.adatum.biz is a subdomain for the already registered name. However, if you add an FQDN that has not been verified before, you will need to go through the process of verification. The process of verification is [described below](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Confirmation of a verified domain name](media/direct-routing-3-sbc-verify-domain.png)
+    ![Screen shot showing confirmation of a verified domain name](media/direct-routing-3-sbc-verify-domain.png)
 
 5.	Click **Next**, and on the **Update DNS Settings** page, select **I’ll add the DNS records myself** and click **Next**.
 6.	On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
 
-    ![Domains showing a status of Setup complete](media/direct-routing-14-sbc-setup-complete.png)
+    ![Screen shot showing domains with status of Setup complete](media/direct-routing-14-sbc-setup-complete.png)
 
 ### Activate the domain name
 
@@ -129,7 +131,7 @@ After you have registered a domain name, you need to activate it by adding at le
 
 For example: test@customers.adatum.biz
 
-![Base domain activation page](media/direct-routing-4-sbc-domain-activation.png)
+![Screen shot of the base domain activation page](media/direct-routing-4-sbc-domain-activation.png)
 
 ## Register a subdomain name in a customer tenant
 
@@ -139,7 +141,7 @@ You will need to create a unique subdomain name for every customer. In this exam
 
 ### Ensure that you have appropriate rights in the customer tenant
 
-You can only add new domains if you signed in to the Office 365 admin center as a Global Administrator. 
+You can only add new domains if you signed in to the Microsoft 365 admin center as a Global Administrator. 
 
 To validate the role you have, please sign in to the Microsoft 365 admin center (https://portal.office.com), go to **Users** > **Active Users**, and then verify that you have a Global Administrator role. 
 
@@ -149,39 +151,39 @@ For more information about admin roles and how to assign a role in Office 365, s
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
 
-    ![Adding a customer subdomain](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![Screen shot of the Add a domain page](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Click **Next**.
 4. The FQDN has never been registered in the tenant. In the next step, you will need to verify the domain. Select **Add a TXT record instead**. 
 
-    ![Options on the Verify domain page](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![Screen shot of the Verify domain page](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. Click **Next**, and note the TXT value generated to verify the domain name.
 
-    ![Text records on the Verify domain page](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Screen shot of text records on the Verify domain page](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Create the TXT record with the value from the previous step in carrier’s DNS hosting provider.
 
-    ![Creating the TXT record in the carrier's DNS hosting provider](media/direct-routing-8-sbc-txt-record.png)
+    ![Screen shot showing creating the TXT record](media/direct-routing-8-sbc-txt-record.png)
 
     For more information, refer to [Create DNS records at any DNS hosting provider for Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Go back to the customer's Microsoft 365 admin center and click **Verify**. 
 8. On the next page, select **I’ll add the DNS records myself** and click **Next**.
 
-    ![Options on the Update DNS settings page](media/direct-routing-9-sbc-update-dns.png)
+    ![Screen shot of options on the Update DNS settings page](media/direct-routing-9-sbc-update-dns.png)
 
 9. On the **Choose your online services** page, clear all options and click **Next**.
 
-    ![The Choose your online services page](media/direct-routing-10-sbc-choose-services.png)
+    ![Screen shot of the Choose your online services page](media/direct-routing-10-sbc-choose-services.png)
 
 10. Click **Finish** on the **Update DNS settings** page.
 
-    ![The Update DNS settings page](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Screen shot of the Update DNS settings page](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Ensure that the status is **Setup complete**. 
     
-    ![Page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
+    ![Screen shot of page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
 
 ### Activate the subdomain name
 
@@ -191,33 +193,44 @@ After you register a domain name, you need to activate it by adding at least one
 
 For example: test@sbc1.customers.adatum.biz
 
-![Activation of the subdomain page](media/direct-routing-13-sbc-activate-subdomain.png)
+![Screen shot of the Activation of the subdomain page](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### Create a trunk and provision users
 
-> [!NOTE]
-> Based on feedback we received in the Technical Adoption Program, Microsoft might change the process of creating trunks in the customer tenants to simplify the process. Please watch the documentation updates on this page and follow the Microsoft Technical Community blogs for further information. 
+With the initial release of Direct Routing, Microsoft required a trunk to be added to each served tenant (customer tenant) using New-CSOnlinePSTNGateway.
 
-Create a trunk in the customer domain using the New-CSonlinePSTNGateway command. The trunk FQDN **MUST** match the subdomain created for the customer.
+However, this has not proved optimal for two reasons:
+ 
+• **Overhead management**. Offloading or draining an SBC, for example, changes some parameters, like enabling or disabling media bypass. Changing the port requires changing parameters in multiple tenants (by running Set-CSOnlinePSTNGateway), but it is in fact the same SBC. 
+• **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
+ 
 
-For example:
+Based on this feedback, Microsoft is bringing in a new logic to provision the trunks for the customer tenants.
 
-```
-New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
-```
+Two new entities were introduced:
+•	A carrier trunk registered in the carrier tenant using the command New-CSOnlinePSTNGateway, for example New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignallingport 5068 -ForwardPAI $true.
+•	A derived trunk, that does not require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The derived trunk doesn't need to be created in PowerShell, and the association with the carrier trunk is based on the FQDN name (see details below).
 
-When creating the trunk, you may receive the following error message:
+Provisioning logic and example.
 
-```
-Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
-```
+•	Carriers only need to set up and manage a single trunk  (carrier trunk in the carrier domain), using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz;
+•	In the customer tenant, the carrier need only to add the derived trunk FQDN to the voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
+•	 The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
+Examples:
+•	Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
+•	Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that does not need to be created in PowerShell.  You can simply add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it.
 
-Please allow some time for domain registration and activation to replicate and try again.
+•	Any changes made on a carrier trunk (on carrier tenant) is automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don’t need to go to every tenant and change the parameter on every trunk.
+•	The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+•	The carrier can drain the carrier trunk, and all derived trunks will be drained as well. 
+ 
 
-Provision users with the phone numbers and configure voice routing.
+Migration from the previous model to the carrier trunk
+ 
+For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnlinePSTNGateway (leaving the trunk in the carrier tenant).
 
-For more information on the New-CSOnlinePSTNGateway, provisioning users, and configuring voice routing, please refer to [Configure Direct Routing](direct-routing-configure.md).
-
+We highly encourage migrating to the new solution as soon as possible as we will be enhancing monitoring and provisioning using the carrier and derived trunk model.
+ 
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
 

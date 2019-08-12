@@ -1,10 +1,10 @@
 ---
 title: "Configure Call Data Connector"
 ms.reviewer: 
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -39,6 +39,9 @@ To configure and enable Call Data Connector, you will use the following cmdlets:
 | Get-CsCloudCallDataConnector | An on-premises cmdlet that retrieves the connection information created by the New-CsCloudCallDataConnection cmdlet. |
 | Set-CsCloudCallDataConnector | An on-premises cmdlet that saves an on-premises copy of the connection information created by the New-CsCloudCallDataConnection cmdlet. |  
 | Set-CsCloudCallDataConnectorConfiguration | An on-premises cmdlet that allows you to enable or disable the connector and customize the scope level.|
+
+> [!NOTE]
+> To erase your configuration and start over, please use the Remove-csclouddatconnectorconfiguration cmdlet.
 
 ### Configure your environment 
 

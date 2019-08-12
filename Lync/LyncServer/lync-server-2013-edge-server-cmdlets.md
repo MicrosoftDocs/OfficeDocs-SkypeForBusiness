@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Edge Server cmdlets'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Edge Server cmdlets
 ms:assetid: 1a5427f4-a0d1-4652-8135-91333158ffc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415635(v=OCS.15)
 ms:contentKeyID: 48183534
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

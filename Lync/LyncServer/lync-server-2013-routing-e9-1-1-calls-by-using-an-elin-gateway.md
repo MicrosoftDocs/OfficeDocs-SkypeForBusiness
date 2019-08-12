@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Routing E9-1-1 calls by using an ELIN gateway'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Routing E9-1-1 calls by using an ELIN gateway
 ms:assetid: 5a3997e3-898d-49cb-922a-4184c3373350
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204919(v=OCS.15)
 ms:contentKeyID: 48184221
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Change the Web Services URL'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
 ms:contentKeyID: 48184063
 ms.date: 11/16/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: PSTN connectivity components'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: PSTN connectivity components
 ms:assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398504(v=OCS.15)
 ms:contentKeyID: 48184408
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

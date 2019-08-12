@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Managing Response Group agent groups'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Managing Response Group agent groups
 ms:assetid: 36084cdc-38f1-4c45-922f-f81c7e86210c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520976(v=OCS.15)
 ms:contentKeyID: 48183806
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

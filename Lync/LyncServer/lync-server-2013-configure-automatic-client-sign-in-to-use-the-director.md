@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configure Automatic Client Sign-In to use the Director'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure Automatic Client Sign-In to use the Director
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398678(v=OCS.15)
 ms:contentKeyID: 48184703
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

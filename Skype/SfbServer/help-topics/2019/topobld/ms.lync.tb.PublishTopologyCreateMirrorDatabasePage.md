@@ -1,10 +1,10 @@
 ---
 title: "Publish Topology Create Mirror Database Page"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Call Detail Report'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Call Detail Report
 ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
 ms:contentKeyID: 48183843
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

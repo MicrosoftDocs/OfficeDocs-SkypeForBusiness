@@ -1,11 +1,11 @@
 ---
 title: "Customize Windows client installation in Skype for Business Server"
 ms.reviewer: 
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
-ms.topic: get-started-article
+audience: ITPro
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80

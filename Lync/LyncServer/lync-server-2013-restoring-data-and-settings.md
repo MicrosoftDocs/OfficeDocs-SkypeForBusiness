@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Restoring data and settings'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Restoring data and settings
 ms:assetid: b07f5dd7-7bed-4819-8cb5-617f5acd478e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202185(v=OCS.15)
 ms:contentKeyID: 51541503
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

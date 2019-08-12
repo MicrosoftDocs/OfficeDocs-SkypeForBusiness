@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 2 - Experiment
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to conduct the experiment phase of Teams adoption. 
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -33,4 +33,4 @@ You will complete the following steps in this phase:
 5. [Set up your feedback channels](teams-adoption-onboard-early-adopters.md#gather-feedback).
 6. [Bring your support staff on board](teams-adoption-onboard-support.md).
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)

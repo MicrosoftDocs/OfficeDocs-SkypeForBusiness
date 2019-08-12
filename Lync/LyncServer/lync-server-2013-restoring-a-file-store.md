@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Restoring a file store'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Restoring a file store
 ms:assetid: 89916fc6-31d3-4c7f-9eaf-c02584761ef4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202180(v=OCS.15)
 ms:contentKeyID: 51541491
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Testing user connection to Exchange UM voicemail'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
 ms:contentKeyID: 63969604
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

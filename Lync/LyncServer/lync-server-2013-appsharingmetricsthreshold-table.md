@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: AppSharingMetricsThreshold table'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: AppSharingMetricsThreshold table
 ms:assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205018(v=OCS.15)
 ms:contentKeyID: 48184556
 ms.date: 12/09/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -1,13 +1,14 @@
 ---
 title: "Lync Server 2013: What's new for devices"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: What's new for devices
 ms:assetid: d5481b83-99b7-46e3-9167-9811bded1f50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398926(v=OCS.15)
 ms:contentKeyID: 48185477
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

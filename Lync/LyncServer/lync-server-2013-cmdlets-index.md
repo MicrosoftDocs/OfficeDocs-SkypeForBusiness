@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013:  cmdlets index'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 cmdlets index
 ms:assetid: cd37aba7-3d27-4db9-b69f-3a6da1fb4b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398867(v=OCS.15)
 ms:contentKeyID: 48185661
 ms.date: 04/12/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

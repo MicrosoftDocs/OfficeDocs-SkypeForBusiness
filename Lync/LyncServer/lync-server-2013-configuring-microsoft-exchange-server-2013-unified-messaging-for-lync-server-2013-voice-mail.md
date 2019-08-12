@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring Microsoft Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49733573
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

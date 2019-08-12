@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Install Lync Server server components'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Install Lync Server server components
 ms:assetid: 186aed6e-7adf-4a92-9f2e-f9a4de5ff202
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398239(v=OCS.15)
 ms:contentKeyID: 48183528
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

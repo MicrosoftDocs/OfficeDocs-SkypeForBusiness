@@ -1,13 +1,14 @@
 ---
 title: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204849(v=OCS.15)
 ms:contentKeyID: 48184005
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

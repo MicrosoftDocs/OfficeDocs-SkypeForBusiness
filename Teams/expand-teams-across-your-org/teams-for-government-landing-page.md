@@ -6,6 +6,7 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -26,7 +27,7 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="tasks"/>
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +45,7 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="planning" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,11 +63,29 @@ Use these resources to plan and deploy Teams in Microsoft 365 Government environ
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="best practices" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Plan for Microsoft 365 Government - DOD deployments</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<li>
+        <a href="https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="Right-facing arrow" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Audio Conferencing with Direct Routing for GCC High and DoD</h3>
                     </div>
                 </div>
             </div>

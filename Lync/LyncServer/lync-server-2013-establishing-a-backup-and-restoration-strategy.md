@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Establishing a backup and restoration strategy'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
 ms:contentKeyID: 51541532
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

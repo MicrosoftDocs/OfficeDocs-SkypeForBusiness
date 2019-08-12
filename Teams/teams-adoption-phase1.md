@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 1 - Start
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn about the startup phase of Teams adoption. 
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -65,4 +65,4 @@ The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-
 - [Office 365 Champions Program](https://aka.ms/O365Champions) and the Driving Adoption community – Learn from your peers about how to best drive adoption of Office 365 workloads such as Teams, SharePoint, Yammer, and other products. Open to IT Pros, business users, the “accidental” developer, and anyone interested in driving adoption of cloud services.  
 
 
-![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)

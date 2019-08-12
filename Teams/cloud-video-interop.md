@@ -5,11 +5,12 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings. 
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -42,9 +43,9 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 |Partner|Partner solution|
 |----|---|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
-|![Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
-|![BlueJeans Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
+|![The logo representing Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
+|![The logo representing Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
+|![The logo representing BlueJeans Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
 
 ### Cloud Video Interop overview
 
@@ -54,14 +55,14 @@ The solutions offered by our partners consist of components that can be deployed
      
 The following diagram shows the high-level architecture of our partner solutions.
 
-![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
+![Diagram describing a Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## Deploy Cloud Video Interop
 
 When deploying a Cloud Video Interop solution, it’s important to understand that you are deploying a partner solution. The general steps you should take to deploy Cloud Video Interop are listed in the following diagram.
 
-![Deploying CVI in your organization](media/deploying-cvi.png)
+![Diagram describing deploying CVI in your organization](media/deploying-cvi.png)
 
 ### Plan
 

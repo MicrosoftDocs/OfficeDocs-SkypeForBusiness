@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
@@ -57,7 +57,7 @@ Here is an example of the email that is sent to users when they are enabled for 
 You can use the Skype for Business admin center or Windows PowerShell to enable or disable email sent to users.
 
  
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
     
@@ -105,7 +105,7 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Troubleshooting the Lync VDI plug-in'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Troubleshooting the Lync VDI plug-in
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
 ms:contentKeyID: 48183525
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

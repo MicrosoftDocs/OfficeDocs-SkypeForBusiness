@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Deploy Shared Line Appearance'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Deploy Shared Line Appearance
 ms:assetid: 6666dfef-9ecf-4834-af6a-2d5da227dfa3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712152(v=OCS.15)
 ms:contentKeyID: 72522137
 ms.date: 06/13/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 
@@ -135,7 +136,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
                   -MissedCallOption <Option> -MissedCallForwardTarget
                   <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     
-    The following example specifies that missed calls are to be forwarded to the user named `sla_forward_number`. The valid options for the `-MissedCallOption` parameter are `Forward`, `BusySignal`, or `Disconnect`. If you choose `Forward`, you must also include the `-MissedCallForwardTarget `parameter, with a user or phone number as the target:
+    The following example specifies that missed calls are to be forwarded to the user named `sla_forward_number`. The valid options for the `-MissedCallOption` parameter are `Forward`, `BusySignal`, or `Disconnect`. If you choose `Forward`, you must also include the `-MissedCallForwardTarget` parameter, with a user or phone number as the target:
     
         Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
                   Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 

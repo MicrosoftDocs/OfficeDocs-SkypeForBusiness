@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test mobile user access'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test mobile user access
 ms:assetid: 81d97420-428b-41b7-91ef-185d572d3456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767947(v=OCS.15)
 ms:contentKeyID: 63969624
 ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

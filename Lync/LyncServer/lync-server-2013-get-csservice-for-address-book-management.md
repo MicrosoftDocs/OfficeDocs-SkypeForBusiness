@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Get-CsService for Address Book management'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Get-CsService for Address Book management
 ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
 ms:contentKeyID: 48183853
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

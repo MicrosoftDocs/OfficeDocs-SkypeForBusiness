@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -37,10 +37,11 @@ This topic provides information that will help you diagnose and resolve problems
 - [The user does not have permission to manage this tenant](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
 - [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
-    
-- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
-    
-- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+
+- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
+
     
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMKPowerShellExecutionPolicy"> </a>

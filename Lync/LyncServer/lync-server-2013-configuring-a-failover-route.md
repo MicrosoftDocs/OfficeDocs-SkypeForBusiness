@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Configuring a failover route'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuring a failover route
 ms:assetid: 76e48df4-3b78-4fb7-b1f7-c1e604b81bad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398581(v=OCS.15)
 ms:contentKeyID: 48184542
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

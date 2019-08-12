@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Special setup instructions for synthetic transactions'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Special setup instructions for synthetic transactions
 ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688080(v=OCS.15)
 ms:contentKeyID: 49733676
 ms.date: 11/16/2015
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

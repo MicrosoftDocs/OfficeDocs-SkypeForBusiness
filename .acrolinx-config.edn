@@ -1,2 +1,2 @@
-{:allowed-branchname-matches ["master" "release-.*"]
- :allowed-filename-matches ["Lync" "Skype" "Teams"]}
+{:allowed-branchname-matches ["master"]
+ :allowed-filename-matches ["Skype/SfBHybrid/" "Teams/"]}

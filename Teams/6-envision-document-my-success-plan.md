@@ -3,6 +3,7 @@ title: Document your Microsoft Teams success plan
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -10,7 +11,7 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Choose a deployment model, develop a responsible-accountable-consulted-informed (RACI) matrix, create execution and governance plans.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -56,8 +57,8 @@ Potential deployment models include the following:
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide the Teams deployment execution model that’s applicable to your organization.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the Teams deployment execution model you’ve chosen, and include business and technical justifications.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide the Teams deployment execution model that’s applicable to your organization.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the Teams deployment execution model you’ve chosen, and include business and technical justifications.</li></ul></td></tr></table>
 
 ## RACI modeling
 
@@ -85,8 +86,8 @@ The following is an example of a RACI matrix for a cloud voice implementation.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide the activities/roles relevant to the cloud voice implementation project.</li><li>Decide the teams or people to be assigned to the responsibility assignment matrix (RACI matrix) of the cloud voice implementation project.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the RACI matrix.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide the activities/roles relevant to the cloud voice implementation project.</li><li>Decide the teams or people to be assigned to the responsibility assignment matrix (RACI matrix) of the cloud voice implementation project.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the RACI matrix.</li></ul></td></tr></table>
 
 ## Quarterly execution plan
 
@@ -118,8 +119,8 @@ of a cloud voice implementation.
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide the quarterly execution plan to achieve the objective key results (OKRs).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the quarterly execution plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide the quarterly execution plan to achieve the objective key results (OKRs).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the quarterly execution plan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -145,9 +146,9 @@ leverage in your cloud voice implementation project.
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide the communications and governance plan, including the frequency of regular status updates (daily, weekly, monthly, or quarterly), methods for conducting the status update meetings, and the owner of each meeting.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide the communications and governance plan, including the frequency of regular status updates (daily, weekly, monthly, or quarterly), methods for conducting the status update meetings, and the owner of each meeting.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the communications and governance plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the communications and governance plan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -226,8 +227,8 @@ success plan to ensure operational readiness of the solution.
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide how you will document your entire success plan for delivering your cloud voice workloads.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Confirm all components of your success plan have been documented.</li><li>Aggregate individual components of your success plan into a single summary document (optional).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how you will document your entire success plan for delivering your cloud voice workloads.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Confirm all components of your success plan have been documented.</li><li>Aggregate individual components of your success plan into a single summary document (optional).</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

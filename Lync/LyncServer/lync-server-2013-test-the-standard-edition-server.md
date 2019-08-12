@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Test the Standard Edition server'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test the Standard Edition server
 ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412890(v=OCS.15)
 ms:contentKeyID: 48185220
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

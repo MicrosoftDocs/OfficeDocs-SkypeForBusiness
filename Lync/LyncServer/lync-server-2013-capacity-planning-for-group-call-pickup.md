@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Capacity planning for Group Call Pickup'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Capacity planning for Group Call Pickup
 ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ984297(v=OCS.15)
 ms:contentKeyID: 51476680
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

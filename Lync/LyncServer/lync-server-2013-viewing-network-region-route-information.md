@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Viewing network region route information'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing network region route information
 ms:assetid: 34dd9fa3-e695-4680-b244-3019298b5009
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688021(v=OCS.15)
 ms:contentKeyID: 49733611
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

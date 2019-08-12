@@ -1,10 +1,10 @@
 ---
 title: "Define the IP Address of the IP or PSTN Gateway"
 ms.reviewer: 
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayIPPage

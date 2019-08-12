@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Validate addresses'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validate addresses
 ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412808(v=OCS.15)
 ms:contentKeyID: 48185108
 ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

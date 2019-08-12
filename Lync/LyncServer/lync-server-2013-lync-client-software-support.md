@@ -1,13 +1,14 @@
 ---
 title: 'Lync Server 2013: Lync client software support'
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync client software support
 ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
 ms:contentKeyID: 48184994
 ms.date: 02/25/2016
+manager: serdars
 mtps_version: v=OCS.15
 ---
 

@@ -7,5 +7,3 @@ docfx.json                          @microsoftdocs/officedocs-admin
 .openpublishing.publish.config.json @microsoftdocs/officedocs-admin
 CODEOWNERS                          @microsoftdocs/officedocs-admin
 /Skype/Hub/                         @samanro @AndreaBarr
-/Teams/                             @lolajacobsen @tonysmit @chuckedmonson @AndreaBarr @jambirk
-

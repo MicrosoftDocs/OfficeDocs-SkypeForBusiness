@@ -1,11 +1,11 @@
 ---
 title: "Skype for Business on Mac client requirements"
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -77,4 +77,4 @@ For more information, refer to: [Deploying Mobility in Lync Server 2013](https:/
 
 [Frequently Asked Questions](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
-[Known issues ](https://go.microsoft.com/fwlink/p/?LinkId=798228)
+[Known issues](https://go.microsoft.com/fwlink/p/?LinkId=798228)
