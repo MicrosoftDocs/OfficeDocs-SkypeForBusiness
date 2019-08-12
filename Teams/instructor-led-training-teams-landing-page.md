@@ -26,7 +26,6 @@ ms.collection:
                     <li>
                         <a href="#home-all" data-linktype="self-bookmark"></a>
                         <ul id="home-all" class="panelContent cardsF cols cols3">        
-<ul class="panelContent cardsF">
     <li>
         <a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams"target="_blank">
         <div class="cardSize">
