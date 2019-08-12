@@ -63,7 +63,7 @@ If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full
 >
 > You can choose to have the camera mounted on a moveable tripod instead of a permanent mount. Place the tripod centered on the whiteboard. This setup may be temporary or used where there is little chance of knocking over the equipment. If you use a temporary mount, remember that content enhancement will be impacted if you move the camera after the initial share and you will need to re-share to correct for movement.
 >
-> A whiteboard, such as colored surface boards, is not supported.
+> A writing board that isn't white is not supported.
 
 ### Supported cameras
 
@@ -73,9 +73,12 @@ To determine whether you can use a camera as a content camera, refer to [Certifi
 
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
 
-1. Select **Settings**,  log in as Admin, and select> **Device Settings**.
+1. Select **Settings** ![Settings icon](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png),  log in as Admin, and select **Device Settings**.
 2. Under **Camera Defaults** select the content camera and make sure that the **Content enhancements** option is selected.
-3. (Optional) If the camera was installed upside down from the ceiling, check the **Rotate content camera 180°** option.
+3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate content camera 180°** option.
+4. Select **Save and exit**.
+
+![content camera setup](../media/content-camera.png)
 
 ## See also
 
