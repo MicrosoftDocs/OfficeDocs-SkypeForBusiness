@@ -15,6 +15,8 @@ ms.custom:
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords: - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
 appliesto: 
 - Microsoft Teams
 ---

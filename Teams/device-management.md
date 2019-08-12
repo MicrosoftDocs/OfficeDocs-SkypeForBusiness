@@ -12,8 +12,8 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 f1keywords: 
-- ms.teamsadmincenter.devicemanagement.overview
 - ms.teamsadmincenter.managedevices.overview
+- ms.teamsadmincenter.devicemanagement.overview
 description: Learn how to manage devices used with Teams in your organization. 
 localization_priority: Normal
 appliesto: 

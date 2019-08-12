@@ -13,6 +13,8 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: 
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection: 
 - Teams_ITAdmin_Help

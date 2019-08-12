@@ -17,7 +17,8 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: 
+- ms.teamsadmincenter.callqueues.overview"
 ms.custom:
 - Phone System
 description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."

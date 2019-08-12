@@ -11,6 +11,7 @@ audience: admin
 ms.topic: hub-page
 ms.author: v-lanac
 ms.service: msteams
+f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:  
 - Teams_ITAdmin_Training
 - M365-collaboration
