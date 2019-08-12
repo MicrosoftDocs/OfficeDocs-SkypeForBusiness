@@ -1,5 +1,5 @@
 --- 
-layout: HubPage
+layout: LandingPage
 hide_bc: true
 title: Instructor-led training and videos for Microsoft Teams users
 ms.reviewer: 
@@ -8,13 +8,43 @@ description: Sign up for instructor-led classes to learn all about Microsoft Tea
 localization_priority : Priority
 author: lanachin
 audience: admin
-ms.topic: hub-page
+ms.topic: landing-page
 ms.author: v-lanac
 ms.service: msteams
 ms.collection:  
 - Teams_ITAdmin_Training
 - M365-collaboration
 ---
+
+# Instructor-led training for Microsoft Teams
+
+Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. For more training opportunities, including on-demand versions of live training, check out our <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end-user training</a>.<br><br>Click a tile to register.
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/itadmin-readiness">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Say hello to Microsoft Teams</h3>
+                        <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you. (Audience: All)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
+
+OLD BELOW
+
+
+
 <div id="main" class="v2">
     <div class="container">
         <h1>Instructor-led training for Microsoft Teams</h1>
@@ -27,7 +57,7 @@ ms.collection:
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. For more training opportunities, including on-demand versions of live training, check out our <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end-user training</a>.<br><br>Click a tile to register.</p>
+                                    <p></p>
                                 </div>
                             </li>
                             <li>
@@ -41,7 +71,7 @@ ms.collection:
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - Microsoft Teams overview</h3>
+                                                    <h3>Say hello to Microsoft Teams</h3>
                                                     <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you. (Audience: All)</p>
                                                 </div>
                                             </div>
@@ -60,7 +90,7 @@ ms.collection:
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Getting started with Teams</h3>
+                                                    <h3>Get started with Teams</h3>
                                                     <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>
                                                 </div>
                                             </div>
@@ -79,7 +109,7 @@ ms.collection:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams tips & tricks</h3>
+                                                <h3>Learn how to take Teams to the next level</h3>
                                                 <p>Understand creative ways to optimize and organize Teams in your day-to-day work. (Audience: End users)</p>
                                             </div>
                                         </div>
@@ -98,7 +128,7 @@ ms.collection:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Manage your upgrade from Skype for Business to Teams</h3>
+                                                <h3>Upgrade planning workshops</h3>
                                                 <p>Plan and implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
                                             </div>
                                         </div>
@@ -117,7 +147,7 @@ ms.collection:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Switch from Skype for Business to Teams: end user guidance</h3>
+                                                <h3>Switch from Skype for Business to Teams</h3>
                                                     <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
                                             </div>
                                         </div>
@@ -155,7 +185,7 @@ ms.collection:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Optimizing Teams Meetings</h3>
+                                                <h3>Run effective meetings with Teams</h3>
                                                 <p>Learn how you can leverage Teams for your pre, during, and post meetings experience. (Audience: End users)</p>
                                             </div>
                                         </div>
@@ -193,7 +223,7 @@ ms.collection:
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams for US government (GCC) overview</h3>
+                                                <h3>Teams for US government (GCC)</h3>
                                                 <p>Join us for an interactive overview of Teams in Office 365 GCC that showcases best practices for collaboration. (Audience: IT professionals, end users)</p>
                                             </div>
                                         </div>
@@ -210,4 +240,4 @@ ms.collection:
         </li>
     </ul>
     </div>
-</div>
+</div> 
