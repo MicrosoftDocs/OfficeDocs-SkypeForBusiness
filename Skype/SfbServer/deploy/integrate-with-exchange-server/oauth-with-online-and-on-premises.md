@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16

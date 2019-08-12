@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: vikramju
