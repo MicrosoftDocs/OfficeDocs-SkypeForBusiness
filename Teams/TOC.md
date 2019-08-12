@@ -73,6 +73,7 @@
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
+### [Manage policy packages in Teams](manage-policy-packages.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Manage external access](manage-external-access.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
