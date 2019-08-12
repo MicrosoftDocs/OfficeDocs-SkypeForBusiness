@@ -36,7 +36,7 @@ Before moving any users, be sure to review the [prerequisites](move-users-betwee
 
 
 > [!NOTE]
-> Unified Contact Store should be disabled on the on-prem SfB account, for the contact to come over to teams.
+> Unified Contact Store should be disabled on the on-prem SfB account for the contact to be moved to Teams.
 
 
 There are two methods to move a user from on premises to Teams:
