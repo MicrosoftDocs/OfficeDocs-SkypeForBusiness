@@ -184,7 +184,8 @@ Microsoft is excited to host a series of free, live, online training classes des
                     </div>
                     <div class="cardText">
                         <h3>Upgrade planning workshops</h3>
-                        <p>Plan and implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
+                        <p>Plan and implement a successful upgrade to Teams</p>
+                        <p>Audience: IT professionals, adoption change managers</p>
                     </div>
                 </div>
             </div>
