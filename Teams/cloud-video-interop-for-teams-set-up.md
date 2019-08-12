@@ -19,7 +19,7 @@ appliesto:
 
 # Set up Cloud Video Interop for Microsoft Teams
 
-After you have [chosen on your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the process. 
+After you have [chosen your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the process. 
 
 ![Deploying CVI in your organization](media/deploying-cvi.png)
 
