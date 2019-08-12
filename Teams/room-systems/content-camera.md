@@ -25,7 +25,7 @@ See the video [Work like you are in one place, with Microsoft Teams Rooms](https
 
 The size of the whiteboard used for sharing affects the placement of the camera. Board size recommendations are:
 
-- 3–6 ft. (.9–1.8 m) wide — Supported
+- 3–6 ft. (0.9–1.8 m) wide — Supported
 - 6–9 ft. (1.8–2.7 m) wide — Recommended
 - 9 ft. (2.7 m) wide — Ideal
 - 9–12 ft. (2.7–3.6 m) wide — Supported
@@ -41,7 +41,7 @@ You can install the camera up to 6 in. (152 mm) higher than the top of the white
 
 ### Approximate starting distances
 
-Using typical whiteboard markers, the optimal remote user experience is to share ink strokes in the 1–2 mm per pixel range in the content camera image, best results use 1.5 mm per pixel. All supported cameras provide 1920 x 1080 resolution, and some can exceed that resolution. The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. The following table shows calculated distances from a whiteboard, you can use these values as starting points to determine final placement of the content camera.
+Using typical whiteboard markers, the optimal remote user experience is to share ink strokes in the 1–2 mm per pixel range in the content camera image, best results use 1.5 mm per pixel. All supported cameras provide 1920 x 1080 resolution, and some can exceed that resolution. The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. The following table shows calculated distances from a whiteboard. You can use these values as starting points to determine final placement of the content camera.
 
 Camera distance from whiteboard (1920 ppi)
 
@@ -54,9 +54,9 @@ Camera distance from whiteboard (1920 ppi)
 | 120°        |3.6 ft. (1.1 m)|  5.2 ft.(1.6 m)  | 7.2 ft. (2.2 m)  |
 |             |               |                  |                  |
 
-The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Cameras with a larger HFoV (120 degrees for example) can be installed closer to the wall, and cameras with a narrower HFoV (like 82 degrees) will be installed farther away from the wall. Check the HFoV before you start to install the chosen camera.
+The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Install cameras with a larger HFoV (120 degrees for example) closer to the wall, and cameras with a narrower HFoV farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
-If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software will select a middle area if it fails to find whiteboard corners.
+If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software selects an area in the middle if it fails to find whiteboard corners.
 
 > [!NOTE]
 > You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board.
@@ -74,11 +74,11 @@ To determine whether you can use a camera as a content camera, refer to [Certifi
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
 
 1. Select **Settings** ![Settings icon](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png),  log in as Admin, and select **Device Settings**.
-2. Under **Camera Defaults** select the content camera and make sure that the **Content enhancements** option is selected.
+2. In the **Camera Defaults** section, select the content camera and make sure that the **Content enhancements** option is selected.
 3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate content camera 180°** option.
 4. Select **Save and exit**.
 
-![content camera setup](../media/content-camera.png)
+![Content camera setup](../media/content-camera.png)
 
 ## See also
 
