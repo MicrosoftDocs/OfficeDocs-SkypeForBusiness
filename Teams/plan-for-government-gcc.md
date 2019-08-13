@@ -93,9 +93,9 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Give and take control in sharing | Available |
 | | Connect from a conference room | Available |
 | | Anonymous join | Available |
-| | Cloud recording | On the Government backlog |
+| | Cloud recording | Available |
 | | Meeting notes | Available |
-| | Broadcast meetings | On the Government backlog |
+| | Live Events | Available |
 | | Federated meetings | Available |
 | | Surface Hub support | Not available |
 | Calls | Contacts | Available |
