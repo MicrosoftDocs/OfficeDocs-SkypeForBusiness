@@ -8,6 +8,7 @@ layout: LandingPage
 ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
+audience: admin
 ms.collection:  
 - Teams_ITAdmin_Training
 - M365-collaboration

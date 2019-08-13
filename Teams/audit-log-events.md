@@ -5,8 +5,9 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
@@ -45,7 +46,7 @@ Before you can look at audit data, you have to first turn on auditing in the **S
 
 ## Retrieve Teams data from the audit log
 
-1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search & Investigation**, select **Audit log search**.![Screenshot of the Audit log search page](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search & Investigation**, select **Audit log search**.
 
 2.  Use **Search** to filter by the activities, dates, and users you want to audit.
 

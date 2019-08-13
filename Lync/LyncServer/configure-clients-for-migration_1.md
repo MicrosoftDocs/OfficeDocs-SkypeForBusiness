@@ -3,6 +3,7 @@ title: Configure clients for migration
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure clients for migration
 ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)

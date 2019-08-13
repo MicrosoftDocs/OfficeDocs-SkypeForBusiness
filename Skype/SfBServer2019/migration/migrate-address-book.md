@@ -5,7 +5,7 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "In general, the Address Book is migrated along with the rest of your topology. However, you might need to perform some post-migration steps if you customized the following in your legacy environment:"

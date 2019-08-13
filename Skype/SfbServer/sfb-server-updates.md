@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: arianr
 ms.topic: reference
-ms.prod: skypeforbusiness-server-itpro
+ms.prod: skype-for-business-server
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
