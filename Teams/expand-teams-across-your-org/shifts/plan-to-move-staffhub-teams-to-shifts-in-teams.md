@@ -32,7 +32,7 @@ Use the timeline as guidance and customize it according to the needs of your org
 |---------|---------|---------|
 |1    |Prepare and identify stakeholders         |         |
 |2     |Review the documentation on the transition from StaffHub to Teams and Teams onboarding         |[StaffHub to be retired](microsoft-staffhub-to-be-retired.md)<br><br>[Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Get started with Teams](../../get-started-with-teams-quick-start.md)         |
-|3    |Make sure prerequisites are met         |[Check that prerequisites are met](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
+|3    |Enable Office 365 Groups for your organization        |[Office 365 Groups and Teams](../../Office-365-groups.md)      |
 |4    |Make sure prerequisites are met         |[Check that prerequisites are met](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Assign Teams licenses to StaffHub users in your organization|[Assign Teams licenses](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Manage user access to Teams](../../user-access.md)<br><br>[Get clients for Teams](../../get-clients.md)        |
 |6    |Install the StaffHub PowerShell module        |[Install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md)        |
