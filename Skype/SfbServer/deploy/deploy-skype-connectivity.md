@@ -95,7 +95,7 @@ Skype for Business Server uses the federation access architecture to support con
 
 The site that was formerly used to manually provision federation between Skype for Business on-premises deployments and Skype is no longer necessary and will be shut down on 8/15/2019. Federation with Skype now utilizes federated partner discovery, which is the same mechanism required for federation with Skype for Business Online.
 
-Communication between any on-premises Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premises edge server configuration to be compatible with Skype for Business Online.
+Communication between any on-premises Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premises Edge Server configuration to be compatible with Skype for Business Online.
 
 > [!NOTE]
 > No action is needed by most customers, including all deployments that federate with Skype for Business Online.
