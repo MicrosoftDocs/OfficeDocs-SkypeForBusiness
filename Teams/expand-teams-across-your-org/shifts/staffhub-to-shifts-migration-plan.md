@@ -22,7 +22,9 @@ appliesto:
 > [!IMPORTANT]
 > Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md). 
 
-Making the transition from StaffHub to Teams begins when you start planning for the change. To help make your transition successful, we've created sample timelines that take you from the planning phase where you will plan and prepare for the move through to how to move your organization's StaffHub teams to Teams.
+Making the transition from StaffHub to Teams begins when you start planning for the change. To help make your transition successful, we've created a sample timeline that demonstrates a typical transition plan. The sample timeline starts by outlining planning activities to prepare for the move and takes you through how to move your organization's StaffHub teams to Teams.
+
+Use these timelines as guidance . Be sure to review the resources that are linked to each step in the timeline.
 
 ## Prepare to move your StaffHub teams to Teams
 
