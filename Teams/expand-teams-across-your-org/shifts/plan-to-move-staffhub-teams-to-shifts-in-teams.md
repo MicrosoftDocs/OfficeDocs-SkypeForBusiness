@@ -24,7 +24,7 @@ appliesto:
 
 Making the transition from StaffHub to Teams begins when you start planning for the change. To help ensure your move to Teams is successful, we've created a sample  timeline that demonstrates a typical transition plan. The sample timeline outlines planning activities to prepare for the move and takes you through to moving your organization's StaffHub teams to Teams.
 
-Use the timeline as guidance and customize it according to the needs of your organization. Be sure to review the resources that are linked to each step in the timeline.
+Use the timeline as guidance for planning your move from StaffHub to Teams and customize it according to the needs of your organization. Be sure to review the resources linked to the steps in the timeline.
 
 ## Prepare to move your StaffHub teams to Teams
 
