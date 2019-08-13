@@ -286,7 +286,7 @@ You need to open ports 3478 and 3479 for transitioning. When Microsoft introduce
 
 ### Requirements for using media processors
 
-Media Processors are always in the media path for voice applications and for Web clients (for example, Teams client in Edge or Google Chrome). The requirements are the same as for non-bypass configuration.
+Media Processors are always in the media path for voice applications and for Web clients (for example, Teams clients in Edge or Google Chrome). The requirements are the same as for non-bypass configuration.
 
 
 The IP range for media traffic is 
