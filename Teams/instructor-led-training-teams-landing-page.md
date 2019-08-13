@@ -71,7 +71,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg alt="Tasks clipboard symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
                         </div>
                     </div>
                     <div class="cardText">
