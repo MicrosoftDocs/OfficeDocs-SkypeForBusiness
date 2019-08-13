@@ -15,7 +15,7 @@ description: "This article summarizes the requirements for supporting Microsoft 
 
 # Microsoft Teams Rooms requirements
 
-This article summarizes the requirements for supporting Microsoft Teams Rooms. 
+This article summarizes the requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
@@ -25,16 +25,17 @@ Also, refer to:
 - [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
-
-> [!NOTE]
+> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
+>
+> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
+>
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
 
 Microsoft Teams Rooms scales to different room sizes through accessories depending on audio and video peripherals. The hardware listed in this article supports both Skype and Teams meeting modes. Audio and video peripherals connect to Microsoft Teams Rooms via a USB or HDMI connection on the docking device. You will also need:
 
-- A|32 GB or larger USB disk you configure as bootable Windows installation media for Windows 10 Enterprise.
+- A 32 GB or larger USB disk you configure as bootable Windows installation media for Windows 10 Enterprise.
 
 - One of the following tablets or consoles:
 
@@ -54,7 +55,6 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-
 **Other Supported Microsoft Teams Rooms consoles**
 
 |Console|Processor|RAM|Disk|
@@ -65,9 +65,9 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 |[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
 [Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
 |[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-|[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB | 
-|[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB | 
-|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB | 
+|[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
+|[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
 |[Logitech Tap](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
 |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
@@ -84,7 +84,7 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Video — 1.0.156  |
 |[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   | 
+|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2)   |
@@ -115,10 +115,10 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 - Up to two 1080-p displays with HDMI connections. HDMI cables of appropriate length.
 
 > [!NOTE]
-> A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
+> A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs.
 
 > [!NOTE]
-> Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device. 
+> Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device.
 
 The following tables provide recommendations for peripherals based on room size:
 
@@ -153,6 +153,7 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) is an optional download you can use to provision Microsoft Teams Rooms accounts.
 
 ## See also
+
 [Browse All Bundles](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
 
 [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
