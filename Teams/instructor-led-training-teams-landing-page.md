@@ -148,7 +148,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="Education symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
                         </div>
                     </div>
                     <div class="cardText">
