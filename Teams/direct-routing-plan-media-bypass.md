@@ -349,7 +349,7 @@ For information about how to configure two trunks on the same SBC, see the docum
 
 Media bypass is supported with all Teams endpoints.
 
-Note for web clients (Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox) we will covert the call to non-bypass even of it started as a bypass call. This happens automatically and does not require any actions on the administrator. 
+Note for web clients (Teams Web app in Microsoft Edge, Google Chrome or Mozilla Firefox) we will covert the call to non-bypass even if it started as a bypass call. This happens automatically and does not require any actions from the administrator. 
  
 ## See also
 
