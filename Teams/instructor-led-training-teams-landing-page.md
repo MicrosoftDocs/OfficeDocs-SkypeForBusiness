@@ -134,7 +134,7 @@ ms.collection:
                     <div class="cardText">
                         <h3>Teams for US government (GCC)</h3>
                         <p>Join us for an interactive overview of Teams in Office 365 GCC that showcases best practices for collaboration.</p>
-                    <p>*Audience: IT professionals, end users*</p>
+                    <p><i>Audience: IT professionals, end users</i></p>
                     </div>
                 </div>
             </div>
