@@ -45,9 +45,9 @@ Channel names can't contain the following characters and words.
 
 |||
 |---------|---------|
-|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Characters     | ~ # % & * { } + / \ : < > ? | ' " ..        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
-|Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  _vti_|
+|Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
 Channel names also can't start with an underscore (_) or period (.) or end with a period (.).
 
