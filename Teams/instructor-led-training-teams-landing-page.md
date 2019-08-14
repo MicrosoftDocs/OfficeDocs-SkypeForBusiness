@@ -38,7 +38,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Say hello to Microsoft Teams</h3>
-                        <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you. (Audience: All)</p>
+                        <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you.</p>
+                        <p><i>Audience: All</i></p>
                     </div>
                 </div>
             </div>
@@ -57,7 +58,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Get started with Teams</h3>
-                        <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>
+                        <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence.</p>
+                        <p><i>Audience: End users</i></p>
                     </div>
                 </div>
             </div>
@@ -76,7 +78,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Run effective meetings with Teams</h3>
-                        <p>Learn how you can leverage Teams for your pre, during, and post meetings experience. (Audience: End users)</p>
+                        <p>Learn how you can leverage Teams for your pre, during, and post meetings experience.</p>
+                        <p><i>Audience: End users</i></p>
                     </div>
                 </div>
             </div>
@@ -95,7 +98,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Learn how to take Teams to the next level</h3>
-                        <p>Understand creative ways to optimize and organize Teams in your day-to-day work. (Audience: End users)</p>
+                        <p>Understand creative ways to optimize and organize Teams in your day-to-day work.</p>
+                        <p><i>Audience: End users</i></p>
                     </div>
                 </div>
             </div>
@@ -114,7 +118,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Switch from Skype for Business to Teams</h3>
-                        <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
+                        <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams.</p>
+                        <p><i>Audience: End users</i></p>
                     </div>
                 </div>
             </div>
@@ -153,7 +158,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Teams for Education - Webinars</h3>
-                        <p>Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)</p>
+                        <p>Learn how to use Teams in higher education.</p>
+                        <p><i>Audience: Staff, students, academics, research faculty, IT professionals</i></p>
                     </div>
                 </div>
             </div>
@@ -172,7 +178,8 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Firstline Workers with Teams</h3>
-                        <p>Learn about the firstline worker capabilities in Teams. (Audience: End users)</p>
+                        <p>Learn about the firstline worker capabilities in Teams.</p>
+                        <p><i>Audience: End users</i></p>
                     </div>
                 </div>
             </div>
@@ -192,7 +199,7 @@ ms.collection:
                     <div class="cardText">
                         <h3>Upgrade planning workshops</h3>
                         <p>Plan and implement a successful upgrade to Teams</p>
-                        <p>Audience: IT professionals, adoption change managers</p>
+                        <p><i>Audience: IT professionals, adoption change managers</i></p>
                     </div>
                 </div>
             </div>
