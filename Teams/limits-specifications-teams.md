@@ -45,7 +45,7 @@ Channel names can't contain the following characters and words.
 
 |||
 |---------|---------|
-|Characters     | ~ # % & * { } + / \ : < > ? | ' " ..        |
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
 |Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
