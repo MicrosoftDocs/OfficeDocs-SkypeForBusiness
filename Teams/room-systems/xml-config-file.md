@@ -105,7 +105,7 @@ If the XML file is badly formed (a variable value is of the wrong type, elements
  
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.
   
-&#x2777; A boolean flag can be any of the following: true, false, 0, or 1. Boolean or numeric values left empty might render the XML malformed so there would be no changes to the settings.
+&#x2777; A boolean flag can be any of the following: true, false, 0, or 1. Leaving boolean or numeric values empty might render the XML malformed and prevent changes to the settings.
   
  &#x2778; If a string parameter is present, empty, and empty is a valid value, the parameter is cleared on the device.
   
