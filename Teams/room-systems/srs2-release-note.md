@@ -22,7 +22,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br> Microsoft Store |
 |--- |--- |
-|4.1.20.0 |08/15/2019 |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -50,7 +50,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
-### 4.1.20.0 (08/15/2019)
+### 4.1.22.0 (08/15/2019)
 
 Introduced in this update:
 - A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting
