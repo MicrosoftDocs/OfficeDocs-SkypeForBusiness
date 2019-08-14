@@ -59,7 +59,7 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
 	       <RedComponent>100</RedComponent>
 	       <GreenComponent>100</GreenComponent>
 	       <BlueComponent>100</BlueComponent>
- 	     </CustomThemeColor>
+ 	    </CustomThemeColor>
   </Theming>
 </SkypeSettings>
 ```
