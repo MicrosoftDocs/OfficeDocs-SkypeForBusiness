@@ -26,48 +26,48 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
   
 ```
 <SkypeSettings>
-  <AutoScreenShare>true</AutoScreenShare>
-  <HideMeetingName>true</HideMeetingName>
-  <UserAccount>
-             <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
-             <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
-             <DomainUsername>Seattle\RanierConf</DomainUsername>
-             <Password>password</Password>
-             <ConfigureDomain>domain1, domain2</ConfigureDomain>
-  </UserAccount>
-  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
-  <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
-  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
-  <DualScreenMode>true</DualScreenMode>
-  <SendLogs>
-             <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
-	            <SendLogsAndFeedback>true</SendLogsAndFeedback>
-  </SendLogs>
-  <Devices>
-             <MicrophoneForCommunication>Microsoft LifeChat LX-6000</MicrophoneForCommunication>
-             <SpeakerForCommunication>Realtek High Definition Audio</SpeakerForCommunication>
-             <DefaultSpeaker>Polycom CX5100</DefaultSpeaker>
-             <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000</ContentCameraId>
-              <ContentCameraInverted>false</ContentCameraInverted>
-              <ContentCameraEnhancement>true</ContentCameraEnhancement>
-  </Devices>
-  <Theming>
-    <ThemeName>Custom</ThemeName>
-	   <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
-      <CustomThemeColor>
-	       <RedComponent>100</RedComponent>
-	       <GreenComponent>100</GreenComponent>
-	       <BlueComponent>100</BlueComponent>
- 	    </CustomThemeColor>
-  </Theming>
+    <AutoScreenShare>true</AutoScreenShare>
+    <HideMeetingName>true</HideMeetingName>
+    <UserAccount>
+        <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
+        <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <DomainUsername>Seattle\RanierConf</DomainUsername>
+        <Password>password</Password>
+        <ConfigureDomain>domain1, domain2</ConfigureDomain>
+    </UserAccount>
+    <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
+    <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <DualScreenMode>true</DualScreenMode>
+    <SendLogs>
+        <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
+        <SendLogsAndFeedback>true</SendLogsAndFeedback>
+    </SendLogs>
+    <Devices>
+        <MicrophoneForCommunication>Microsoft LifeChat LX-6000</MicrophoneForCommunication>
+        <SpeakerForCommunication>Realtek High Definition Audio</SpeakerForCommunication>
+        <DefaultSpeaker>Polycom CX5100</DefaultSpeaker>
+        <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000</ContentCameraId>
+        <ContentCameraInverted>false</ContentCameraInverted>
+        <ContentCameraEnhancement>true</ContentCameraEnhancement>
+    </Devices>
+    <Theming>
+        <ThemeName>Custom</ThemeName>
+        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeColor>
+            <RedComponent>100</RedComponent>
+            <GreenComponent>100</GreenComponent>
+            <BlueComponent>100</BlueComponent>
+        </CustomThemeColor>
+    </Theming>
 </SkypeSettings>
 ```
 
 If the XML file is badly formed (a variable value is of the wrong type, elements are out of order, elements are unclosed, and so on), settings found up to the point where the error is found are applied, then the rest of the file is ignored during processing. Any unknown elements in the XML are ignored. If a parameter is omitted, it remains unchanged on the device. If a parameter value is invalid, its prior value remains unchanged.
   
 **XML elements**
- 
+
 |Element|Type|Level|Usage|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\> |Container for all elements. ||Required. |
