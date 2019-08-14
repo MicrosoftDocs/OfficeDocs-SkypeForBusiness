@@ -91,7 +91,7 @@ If the XML file is badly formed (a variable value is of the wrong type, elements
 |\<MicrophoneForCommunication\> |String  &#x2778;  ||Sets the microphone used as the recording device in a conference. |
 |\<SpeakerForCommunication\> |String  &#x2778;  ||Device to be used as speaker for the conference. This setting is used to set the speaker device that will be used hear the audio in a call. |
 |\<DefaultSpeaker\> |String  &#x2778;  ||Device to be used to play the audio from an HDMI ingest source. |
-|\<ContentCameraId>  | String  &#x2778;  | | Define the instance path for the camera configured in room to share analog whiteboard content in a meeting. When specifying the path in XML, replace the ampersand (&) with \&amp;|
+|\<ContentCameraId>  | String  &#x2778;  | | Define the instance path for the camera configured in room to share analog whiteboard content in a meeting. See [Locate the Content camera USB instance path](#locate-the-content-camera-usb-instance-path).|
 |\<ContentCameraInverted>  | Boolean &#x2777; | | Specify if the content camera is physically installed upside down. For content cameras that support automatic rotation, specify false. |
 |\<ContentCameraEnhancement>  | Boolean &#x2777; | |When set to true (the default), the content camera image is digitally enhanced: the whiteboard edge is detected and an appropriate zoom is selected, ink lines are enhanced and the person writing on the whiteboard is made transparent.  <br><br> Set this to false if you intend to send a raw video feed to meeting participants for spaces where a whiteboard is not drawn on with a pen and instead the camera is used to show sticky notes, posters, or other media.  |
 | \<Theming\>  |Container |First &#x2776;  |One of the features that can be applied using an XML file is a Custom Theme for your organization. You are able to specify a theme name, background image, and color. |
@@ -131,7 +131,21 @@ The image file should be exactly 3840X1080 pixels and must be one of the followi
   
 The XML configuration file must be updated at device startup to recognize the theme image. Once the new XML file is processed and deleted, the theme graphic file is deleted from the directory.
   
+## Locate the Content camera USB instance path
+
+To locate the instance path:
+
+1. Go into Windows settings on the Microsoft Teams Rooms console.
+2. Enter the admin password.
+3. From a Command Prompt, type `devmgmt.msc` to bring up Device Manager.
+4. In **Device Manager**, look in the **Imaging devices** node and  locate the content camera.
+5. Right-click the camera, and open **Properties**.
+6. Select the **Details** tab, and locate the **Device instance path** property in the drop-down.
+7. The value shown is the device instance path to set in the XML configuration file. When specifying the path in XML, replace the ampersand (&) with `&amp;`.
+
 ## See also
+
+[Content cameras](content-camera.md)
 
 [Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
 

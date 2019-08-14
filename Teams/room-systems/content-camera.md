@@ -27,7 +27,6 @@ The size of the whiteboard used for sharing affects the placement of the camera.
 
 - 3–6 ft. (0.9–1.8 m) wide — Supported
 - 6–9 ft. (1.8–2.7 m) wide — Recommended
-- 9 ft. (2.7 m) wide — Ideal
 - 9–12 ft. (2.7–3.6 m) wide — Supported
 - Above 12 ft. (3.6 m) wide — camera covers 9–12 ft. (2.7–3.6 m) and crops the rest.
 
@@ -35,9 +34,12 @@ The size of the whiteboard used for sharing affects the placement of the camera.
 
 Ideal placement of a content camera is centered vertically and horizontally on the whiteboard. Local building codes may have height restrictions that require the camera be elevated higher than the top of the white board.
 
-You can install the camera up to 6 in. (152 mm) higher than the top of the whiteboard, and centered on the white board as shown. Make sure that the camera image includes a 6 in. (152 mm) border on both sides horizontally. You can use the camera preview in the Microsoft Teams Rooms app to determine final placement of the camera.
+You can install the camera up to 6 in. (152 mm) higher than the top of the whiteboard, and centered on the white board as shown. Make sure that the camera image includes at least a 6 in. (152 mm) border on both sides horizontally. You can use the camera preview in the Microsoft Teams Rooms app to determine final placement of the camera.
 
 ![Content camera placement diagram](../media/Magic-whiteboard.png)
+
+> [!NOTE]
+> “By the way” info not critical to a task
 
 ### Approximate starting distances
 
@@ -69,6 +71,8 @@ If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full
 
 To determine whether you can use a camera as a content camera, refer to [Certified firmware versions for USB audio and video peripherals](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
+These cameras are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+
 ## Camera settings
 
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
@@ -80,7 +84,7 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 
 ![Content camera setup](../media/content-camera.png)
 
-You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md). 
+You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
 
 ## See also
 
