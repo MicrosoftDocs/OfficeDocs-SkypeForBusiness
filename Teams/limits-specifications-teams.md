@@ -98,6 +98,15 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 
 For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
+## Contacts
+
+Teams uses these contacts:
+
+- Contacts in your organization's Active Directory.
+- Contacts added to the user's Outlook default folder.
+
+Teams users can communicate with anyone in your organization's Active Directory and can add anyone in your organization's Active Directory as a contact and to their contact lists. Teams users can also add contacts to Teams (**Chat** > **Contacts** or **Calls** > **Contacts**) for quick and easy access to the contact from within Teams.
+
 ## Browsers
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
