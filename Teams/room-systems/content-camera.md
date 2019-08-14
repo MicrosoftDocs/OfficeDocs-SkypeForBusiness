@@ -44,7 +44,7 @@ Using typical whiteboard markers, the optimal remote user experience is to share
 
 The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. "The following tables shows examples of distances for various whiteboard sizes. You can use these values as starting points to determine final placement of the content camera.
 
-**Minimum camera distance from whiteboard (1920 ppi)**
+**Camera distance from whiteboard (1920 ppi)**
 
 | Camera HFoV |3 ft. (0.91 m)     | 6 ft. (1.8 m)    | 9 ft. (2.74 m)        |12 ft.  (3.65 m)         | Max distance from Whiteboard  |
 |:---         |:---               |:---                |:---                 |:---             | :--- |
