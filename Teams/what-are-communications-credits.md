@@ -70,6 +70,9 @@ In the **Microsoft 365 admin center** > **Billing** > **Subscriptions**, you can
 Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Skype for Business already as their service provider, you can get usage data by reviewing it in either **Microsoft 365 admin center** > **Reports** or **Skype for Business admin center** > **Reports** > **PSTN usage details**.
   
 When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel and create custom reports.
+
+> [!NOTE]
+> Communications Credits are also used for premium rate numbers, incurring charges to caller.
   
 ## Recommended funding amounts
 
