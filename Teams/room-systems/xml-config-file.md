@@ -45,10 +45,10 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
 	            <SendLogsAndFeedback>true</SendLogsAndFeedback>
   </SendLogs>
   <Devices>
-              <MicrophoneForCommunication>Microsoft LifeChat LX-6000</MicrophoneForCommunication>
-              <SpeakerForCommunication>Realtek High Definition Audio</SpeakerForCommunication>
-              <DefaultSpeaker>Polycom CX5100</DefaultSpeaker>
-              <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000</ContentCameraId>
+             <MicrophoneForCommunication>Microsoft LifeChat LX-6000</MicrophoneForCommunication>
+             <SpeakerForCommunication>Realtek High Definition Audio</SpeakerForCommunication>
+             <DefaultSpeaker>Polycom CX5100</DefaultSpeaker>
+             <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000</ContentCameraId>
               <ContentCameraInverted>false</ContentCameraInverted>
               <ContentCameraEnhancement>true</ContentCameraEnhancement>
   </Devices>
