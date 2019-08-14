@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin

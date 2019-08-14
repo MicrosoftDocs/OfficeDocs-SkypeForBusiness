@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice

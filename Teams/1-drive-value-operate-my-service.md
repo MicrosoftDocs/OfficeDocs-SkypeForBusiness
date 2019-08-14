@@ -9,9 +9,6 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage.
 localization_priority: Normal
 ms.collection: 
