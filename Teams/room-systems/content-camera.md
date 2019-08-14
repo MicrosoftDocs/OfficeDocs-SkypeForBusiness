@@ -41,24 +41,26 @@ You can install the camera up to 6 in. (152 mm) higher than the top of the white
 > [!NOTE]
 > “By the way” info not critical to a task
 
-### Approximate starting distances
+### Camera distances
 
-Using typical whiteboard markers, the optimal remote user experience is to share ink strokes in the 1–2 mm per pixel range in the content camera image, best results use 1.5 mm per pixel. All supported cameras provide 1920 x 1080 resolution, and some can exceed that resolution. The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. The following table shows calculated distances from a whiteboard. You can use these values as starting points to determine final placement of the content camera.
+Using typical whiteboard markers, the optimal remote user experience is to share ink strokes in the 1–2 mm per pixel range in the content camera image, and the best results use 1.5 mm per pixel. All supported cameras provide 1920 x 1080 resolution, and some can exceed that resolution.
 
-**Camera distance from whiteboard (1920 ppi)**
+The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. "The following tables shows examples of distances for various whiteboard sizes. You can use these values as starting points to determine final placement of the content camera.
 
-| Camera HFoV |1 mm per pixel | 1.5 mm per pixel <br> (optimal) | 2.0 mm  per pixel|
-|:---         |:---           |:---              |:---              |
-| 80°         |7.2 ft. (2.2 m)| 11.1 ft.(3.4 m)  | 15 ft. (4.6 m)   |
-| 90°         |6.2 ft. (1.9 m)|  9.1 ft. (2.8 m) | 12.4 ft. (3.8 m) |
-| 100°        |5.2 ft. (1.6 m)|  7.8 ft. (2.4 m) | 10.5 ft. (3.2 m) |
-| 110°        |4.2 ft. (1.3 m)|  6.5 ft. (2.0 m) | 8.8 ft. (2.7 m)  |
-| 120°        |3.6 ft. (1.1 m)|  5.2 ft.(1.6 m)  | 7.2 ft. (2.2 m)  |
-|             |               |                  |                  |
+**Minimum camera distance from whiteboard (1920 ppi)**
+
+| Camera HFoV |3 ft. (0.91 m)     | 6 ft. (1.8 m)    | 9 ft. (2.74 m)        |12 ft.  (3.65 m)         | Max distance from Whiteboard  |
+|:---         |:---               |:---                |:---                 |:---             | :--- |
+| 80°         | 1.79 ft. (0.54 m) | 3.58 ft. (1.09 m)  | 5.36 ft. (1.6 m)    |7.15 ft. (2.17 m) |7.51 ft. (2.28 m) |
+| 90°         | 1.5 ft. (0.45 m) | 3.00 ft. (0.91 m)   | 4.5 ft. (1.37 m)    |6.0 ft. (1.82 m)    |6.3 ft. (1.92 m) |
+| 100°        | 1.26 ft. (0.38 m)| 2.52 ft. (0.77 m)   | 3.78 ft. (1.15 m)   |5.03 ft. (1.53 m)   |5.29 ft. (1.61 m) |
+| 110°        | 1.05 ft. (0.32 m)| 2.10 ft. (0.64 m)   | 3.15 ft. (0.96 m)   |4.2 ft. (1.28 m)    |4.41 ft. (1.31 m) |
+| 120°        | 0.87 ft. (0.26 m)| 1.73 ft. (0.52 m)   | 2.60 ft. (0.79 m)   |3.46 ft. (1.05 m)   |3.64 ft. (1.10 m) |
+|             |               |                  |                  |        |                    |                  |
 
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Install cameras with a larger HFoV (120 degrees for example) closer to the wall, and cameras with a narrower HFoV farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
-If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software selects an area in the middle if it fails to find whiteboard corners.
+If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software selects an area in the middle if it fails to find whiteboard corners.
 
 > [!NOTE]
 > You can use dark-colored tape or other items to create a defined content camera area on a full-wall white board.
@@ -71,7 +73,7 @@ If you have whiteboards larger than 12 ft. (3.6 m) or with no corners (like full
 
 To determine whether you can use a camera as a content camera, refer to [Certified firmware versions for USB audio and video peripherals](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
-These cameras are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+Or, refer to the Microsoft Teams devices marketplace for supported Content Camera Kits at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
 ## Camera settings
 
