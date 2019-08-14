@@ -42,9 +42,9 @@ You can install the camera up to 6 in. (152 mm) higher than the top of the white
 
 Using typical whiteboard markers, the optimal remote user experience is to share ink strokes in the 1–2 mm per pixel range in the content camera image, and the best results use 1.5 mm per pixel. All supported cameras provide 1920 x 1080 resolution, and some can exceed that resolution.
 
-The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. "The following tables shows examples of distances for various whiteboard sizes. You can use these values as starting points to determine final placement of the content camera.
+The distance of the camera from the whiteboard combines with the camera resolution and HFoV to determine the distance from the whiteboard. The following table shows examples of distances for various whiteboard sizes. You can use these values as starting points to determine final placement of the content camera.
 
-**Camera distance from whiteboard (1920 ppi)**
+**Camera distance from whiteboard**
 
 | Camera HFoV |3 ft. (0.91 m)     | 6 ft. (1.8 m)    | 9 ft. (2.74 m)        |12 ft.  (3.65 m)         | Max distance from Whiteboard  |
 |:---         |:---               |:---                |:---                 |:---             | :--- |
