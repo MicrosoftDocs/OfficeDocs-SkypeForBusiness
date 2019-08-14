@@ -37,8 +37,8 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
   </UserAccount>    
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
-  <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
-  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
+  <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <DualScreenMode>true</DualScreenMode>
   <SendLogs>                           
              <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
@@ -48,9 +48,9 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
               <MicrophoneForCommunication>Microsoft LifeChat LX-6000</MicrophoneForCommunication>
               <SpeakerForCommunication>Realtek High Definition Audio</SpeakerForCommunication>
               <DefaultSpeaker>Polycom CX5100</DefaultSpeaker>
-              <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000 </ContentCameraId>         
-      <ContentCameraInverted>false</ContentCameraInverted> 
-      <ContentCameraEnhancement>true</ContentCameraEnhancement> 
+              <ContentCameraId>USB\VID_046D&amp;PID_0843&amp;MI_00\7&amp;17446CF2&amp;0&amp;0000 </ContentCameraId>
+              <ContentCameraInverted>false</ContentCameraInverted>
+              <ContentCameraEnhancement>true</ContentCameraEnhancement>
   </Devices>
   <Theming> 
     <ThemeName>Custom</ThemeName>
