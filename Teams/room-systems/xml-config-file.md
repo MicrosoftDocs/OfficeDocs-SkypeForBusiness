@@ -34,13 +34,13 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
              <DomainUsername>Seattle\RanierConf</DomainUsername>
              <Password>password</Password>
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
-  </UserAccount>    
+  </UserAccount>
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <DualScreenMode>true</DualScreenMode>
-  <SendLogs>                           
+  <SendLogs>
              <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
 	            <SendLogsAndFeedback>true</SendLogsAndFeedback>
   </SendLogs>
@@ -52,7 +52,7 @@ The following table  explains the elements shown in this sample SkypeSettings.xm
               <ContentCameraInverted>false</ContentCameraInverted>
               <ContentCameraEnhancement>true</ContentCameraEnhancement>
   </Devices>
-  <Theming> 
+  <Theming>
     <ThemeName>Custom</ThemeName>
 	   <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
       <CustomThemeColor>
