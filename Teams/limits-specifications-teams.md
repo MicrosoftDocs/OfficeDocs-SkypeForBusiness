@@ -43,6 +43,7 @@ This article describes some of the limits, specifications, and other requirement
 
 Channel names can't contain the following characters and words.
 
+|||
 |---------|---------|
 |Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
