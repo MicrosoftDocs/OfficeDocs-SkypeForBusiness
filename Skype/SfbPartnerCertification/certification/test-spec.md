@@ -22,9 +22,13 @@ description: "Test specifications describe the unified Skype and Lync requiremen
 ---
 
 
-# Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems
+# Microsoft Teams and Skype for Business specifications for USB peripherals, PCs, and Microsoft Teams Room systems
 
-Use the following table to find the specifications that describe the unified Skype and Lync requirements for USB peripherals, PCs, and Lync room systems.
+The current "V4" specification is the first version that grants devices certification for Microsoft Teams (and also certification for Skype for Business). Prior versions only granted certification for Skype for Business and Lync.
+
+
+> NOTE:
+> Starting with V4 specification package, Microsoft is only releasing a subset of the specifications publically. Specifications for user flow, Accessory Signaling Protocol, are subject to more frequent change as the Teams client adds new features or refines existing ones, and are therefore only shared with our direct device OEM partners.
 
 
 |Version  |Date Published  |Specification  |
@@ -33,18 +37,8 @@ Use the following table to find the specifications that describe the unified Sky
 |1.0     |July 2014|[SkypeLync_Unified_1_0_Final_Custom_Audio_Processing.zip](https://download.microsoft.com/download/A/3/E/A3E43918-F8D5-467A-98B1-475F304FC53D/SkypeLync_Unified_1_0_Final_Custom_Audio_Processing.zip)|
 |2.0     |November 2014|[SkypeLync_Unified_Specification_2_0_Final.zip](https://download.microsoft.com/download/1/D/0/1D0E0CEB-2B30-4303-B3B2-70E331491FB1/Skype_Lync_Unified_Specifications_V2.zip)|
 |3.0 |December 2016 |[SkypeforBusiness_Logo_Specification_3_0.zip](https://download.microsoft.com/download/E/1/0/E108B62D-C15D-4C45-874F-42E785B10B99/SkypeforBusiness_Logo_3_0.zip) |
+|4.0 |April / August 2019 |[MicrosoftTeams V4 specifications ](https://download.microsoft.com/download/9/f/6/9f63c68d-817b-40ff-935c-9dd8b74cb07d/V4%20Release.zip)  (audio & video were released to partners in April all other specs released August)|
 | | | |
-
-
-## Skype Specifications
-The following table lists the Skype specifications to follow for USB peripherals, PCs, and Skype room systems prior to the Unified Specifications introduced in September 2014.
-
-
-|Version  |Date Published  |Specification  |
-|:---------|:---------|:---------|
-|6.3.2<br />8.3.1     |March 2013 | [SkypeCertification_V6.3.2_and8.3.1.zip](https://download.microsoft.com/download/0/8/7/087ECA26-58AF-41CA-BD1B-8F12BB85E179/SkypeCertification_V6.3.2_and8.3.1.zip)        |
-|      |         |         |
-
 
 
 ## Lync Specifications
@@ -53,13 +47,13 @@ The following table lists the Lync specifications to follow for USB peripherals,
 
 |Version  |Date Published  |Specification  |
 |:----|:---|:---|
-|Revision A |July 2009| Provided under NDA only |
-|Revision B |November 2009|Provided under NDA only|
-|Revision C |April 2010|Provided under NDA only|
-|Revision D |October 2010| [LyncLogoRevD.zip](https://download.microsoft.com/download/3/0/6/306D68D9-6D56-4ECD-A0CD-143431419290/LyncLogoRevD.zip) |
-|Revision E     |April 2011|[LyncLogoRevE.zip](https://download.microsoft.com/download/3/0/6/306D68D9-6D56-4ECD-A0CD-143431419290/LyncLogoRevE.zip)|
-|Revision F|October 2011|[LyncLogoRevF.zip](https://download.microsoft.com/download/3/0/6/306D68D9-6D56-4ECD-A0CD-143431419290/LyncLogoRevF.zip)|
-|Revision G |August 2012|[LyncLogoRevG_H264Encoding.zip](https://download.microsoft.com/download/3/0/6/306D68D9-6D56-4ECD-A0CD-143431419290/LyncLogoRevG_H264Encoding.zip)|
+|Revision A |July 2009| No longer active |
+|Revision B |November 2009|No longer active |
+|Revision C |April 2010| No longer active |
+|Revision D |October 2010| No longer active |
+|Revision E     |April 2011 | No longer active |
+|Revision F|October 2011|No longer active |
+|Revision G |August 2012|[LyncLogoRevG](https://download.microsoft.com/download/3/0/6/306D68D9-6D56-4ECD-A0CD-143431419290/LyncLogoRevG_H264Encoding.zip) (Deprecated - distributed for support reference only) |
 |      |         |         |
 
 
@@ -81,8 +75,8 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 
 [Phones and devices home](devices-ip-phones.md)
 
-[Compatible Devices Program](../lync-cert/partner-qualification.md#compatible-devices-program)
+[USB Audio and Video devices ](certification/devices-usb-devices)
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-View the [Microsoft Teams devices store](https://products.office.com/en-us/microsoft-teams/across-devices/devices) to see products certified for Skype for Business.
+View the [Microsoft Teams devices store](https://products.office.com/en-us/microsoft-teams/across-devices/devices) to see products certified for Microsoft Teams and Skype for Business.
