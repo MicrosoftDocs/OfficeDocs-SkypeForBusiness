@@ -38,9 +38,6 @@ You can install the camera up to 6 in. (152 mm) higher than the top of the white
 
 ![Content camera placement diagram](../media/Magic-whiteboard.png)
 
-> [!NOTE]
-> “By the way” info not critical to a task
-
 ### Camera distances
 
 Using typical whiteboard markers, the optimal remote user experience is to share ink strokes in the 1–2 mm per pixel range in the content camera image, and the best results use 1.5 mm per pixel. All supported cameras provide 1920 x 1080 resolution, and some can exceed that resolution.
