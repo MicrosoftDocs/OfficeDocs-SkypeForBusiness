@@ -2,18 +2,16 @@
 title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: Rowille
+audience: admin
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-MS.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:

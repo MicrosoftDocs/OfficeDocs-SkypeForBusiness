@@ -7,11 +7,12 @@ ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
+audience: admin
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation  
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -92,9 +93,9 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Give and take control in sharing | Available |
 | | Connect from a conference room | Available |
 | | Anonymous join | Available |
-| | Cloud recording | On the Government backlog |
+| | Cloud recording | Available |
 | | Meeting notes | Available |
-| | Broadcast meetings | On the Government backlog |
+| | Live Events | Available |
 | | Federated meetings | Available |
 | | Surface Hub support | Not available |
 | Calls | Contacts | Available |

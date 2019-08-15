@@ -6,10 +6,11 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
+audience: admin
 description: Learn about using Teams in an Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

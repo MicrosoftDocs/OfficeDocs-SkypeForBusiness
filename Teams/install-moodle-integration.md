@@ -5,12 +5,13 @@ ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: 
 search.appverid: MET150
 description: "Learn how to install and configure the Moodle integration app for Microsoft Teams"
 keywords: Teams Moodle app integration plugin
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+ms.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

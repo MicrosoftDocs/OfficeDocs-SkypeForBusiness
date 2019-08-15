@@ -6,11 +6,12 @@ manager: serdars
 ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
@@ -44,5 +45,11 @@ Download these tools to walk you through planning, delivering, and adopting Team
 [IT admin readiness for Teams](ITAdmin-readiness.md)
 
 [Tools for adoption](adopt-tools-and-downloads.md)
+
+[Skype for Business to Teams Upgrade Planning Workshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[Move users from on-premises to Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
 
 

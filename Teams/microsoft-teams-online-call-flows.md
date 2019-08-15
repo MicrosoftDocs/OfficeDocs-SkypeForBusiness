@@ -7,6 +7,7 @@ ms.date: 06/08/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua 
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:  

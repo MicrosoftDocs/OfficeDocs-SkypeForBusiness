@@ -7,7 +7,8 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150

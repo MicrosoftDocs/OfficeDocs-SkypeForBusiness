@@ -3,13 +3,13 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -39,7 +39,19 @@ This article describes some of the limits, specifications, and other requirement
 
 &sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
-## Meetings and calls 
+## Channel names
+
+Channel names can't contain the following characters or words.
+
+|||
+|---------|---------|
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Characters in these ranges    | 0 to 1F<br>80 to 9F        |
+|Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
+
+Channel names also can't start with an underscore (_) or period (.), or end with a period (.).
+
+## Meetings and calls
 
 |Feature     | Maximum limit |
 |------------|---------------|
@@ -51,6 +63,11 @@ This article describes some of the limits, specifications, and other requirement
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
+|Column1  |Column2  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
 |Concurrent live events in an Office 365 tenant | 15 |
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).

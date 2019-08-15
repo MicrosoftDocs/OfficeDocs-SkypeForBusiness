@@ -3,12 +3,13 @@ title: Plan for live events in Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -37,7 +38,10 @@ It's important to know that an Office 365 license is required to participate in 
 - **For events produced in Teams**  The user must be assigned a Teams license.
 - **For events produced with an external app or device** The user must be assigned a Stream license.
 
-For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> [!NOTE]
+> Teams live events is now available for US Government Cloud Community (GCC) organizations.
+
+For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 The user must have:
 - Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
