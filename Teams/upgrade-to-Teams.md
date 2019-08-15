@@ -38,7 +38,7 @@ The steps you take to perform your upgrade to Teams depends on your current depl
 
 1. Before beginning your upgrade, be sure you [conduct a user pilot](pilot-essentials.md).
 
-2.  Next, based on your current environment, choose your upgrade path:  
+2.  Next, based on your current environment, choose your starting point:  
 
     - **If you are upgrading from Skype for Business Online to Teams**, follow the steps in [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline).
 

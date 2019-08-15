@@ -54,8 +54,6 @@ For more information, see [Move users between on-premises and the cloud](https
 
 After you’ve moved users to the cloud, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
-**WHAT ARE THE RIGHT ARTICLES TO LINK TO?**
-
 
 
 ## Phone System and Teams upgrade
