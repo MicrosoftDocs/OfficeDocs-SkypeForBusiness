@@ -26,7 +26,7 @@ If you have an existing Exchange UM auto attendant and call queue system, before
 If your Phone System auto attendant or call queue will need a service number, the various dependencies can be met in the following sequence:
 
 1. Obtain a service number
-2. Obtain a free Phone System - [Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) or a paid Phone System license to use with the resource account.
+2. Obtain a free Phone System - [Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user) or a paid Phone System license to use with the resource account.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
 4. Wait for an active directory sync between online and on premise.
 5. Assign the Phone System license to the resource account.

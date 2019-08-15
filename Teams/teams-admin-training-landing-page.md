@@ -4,6 +4,7 @@ ms.reviewer:
 description: Get the training you need to manage Microsoft Teams in your organization
 author: lanachin
 manager: serdars
+audience: admin
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 

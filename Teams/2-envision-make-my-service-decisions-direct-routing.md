@@ -5,12 +5,13 @@ ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
+audience: admin 
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about Direct Routing, licensing, and the decisions that need to be made.
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -246,7 +247,7 @@ You need to define specific port numbers on each SBC for SIP signaling and
 media, and configure your firewalls to allow bidirectional traffic to these
 ports and their associated IP addresses.
 
-For more details, see [SIP Signaling: FQDNs and firewall ports](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)
+For more details, see [SIP Signaling: FQDNs](direct-routing-plan.md#sip-signaling-fqdns)
 and [Media traffic: Port ranges](direct-routing-plan.md#media-traffic-port-ranges).
 
 

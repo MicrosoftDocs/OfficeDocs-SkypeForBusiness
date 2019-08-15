@@ -1,23 +1,24 @@
 ---
-title: FAQ - Upgrading from Skype for Business to Microsoft Teams
+title: FAQ — Upgrading from Skype for Business to Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
-# FAQ - Upgrading from Skype for Business to Microsoft Teams
+# FAQ — Upgrading from Skype for Business to Microsoft Teams
 
 > [!Tip]
 > Watch the following videos for guidance on planning a successful upgrade from Skype for Business to Microsoft Teams:
@@ -28,13 +29,13 @@ appliesto:
 
 ## Skype for Business Online retirement
 
-### Why is Microsoft Teams replacing Skype for Business Online? 
+### Why is Microsoft Teams replacing Skype for Business Online?
 
 Microsoft Teams expands on the capabilities in Skype for Business Online by bringing together files, chats, and apps in an integrated app, with functionality that enables organizations to move faster and collaborate more efficiently. Because of the richer set of experiences offered in Teams, it replaces Skype for Business as the core communications client for Office 365.
 
-### When is the retirement of Skype for Business Online? 
+### When is the retirement of Skype for Business Online?
 
-Skype for Business Online will retire on July 31, 2021. Skype for Business Online customers should see no change to the service prior to the retirement date. Read [Skype for Business Online to Be Retired](https://aka.ms/sfboannounce) for more details.  
+Skype for Business Online will retire on July 31, 2021. Skype for Business Online customers should see no change to the service before the retirement date. Read [Skype for Business Online to Be Retired](https://aka.ms/sfboannounce) for more details.  
 
 ### Will current Skype for Business Online customers be able to add new seats to their tenant?
 
@@ -42,35 +43,35 @@ Yes. Current Skype for Business Online customers may add new seats to their tena
 
 ### What is the future of Skype for Business Server?
 
-We recognize that customers are using Skype for Business Server and many need to continue to use Skype for Business Server for some users or geographies due to their requirements. In these instances, we encourage organizations to adopt Teams in conjunction with Skype for Business Server to drive teamwork and collaboration. The latest version of Skype for Business Server 2019 was released in October 2018 with initial mainstream support planned through January 9, 2024.
+We recognize that customers are using Skype for Business Server and many need to continue to use Skype for Business Server for some users or geographies due to their requirements. In these instances, we encourage organizations to adopt Teams along with Skype for Business Server to drive teamwork and collaboration. The latest version of Skype for Business Server 2019 was released in October 2018 with initial mainstream support planned through January 9, 2024.
 
 ### What does this mean for existing Office 365 customers?
 
-We’ve brought the key set of Skype for Business Online capabilities into Teams along with new voice, video, and meetings innovation. We encourage all Office 365 customers to start using Teams today, whether independently or side-by-side with Skype for Business.
+We’ve brought the key set of Skype for Business Online capabilities into Teams along with new voice, video, and meetings innovation. We encourage all Office 365 customers to start using Teams today, whether independently or side by side with Skype for Business.
 
 ### Will you continue to invest in improving Skype for Business Online?
 
-We plan to support the Skype for Business Online and client through the July 31, 2021 retirement date. 
+We plan to support the Skype for Business Online and client through the July 31, 2021 retirement date.
 
-Starting September 1, 2019, all new Office 365 customers will be onboarded to Teams and will not have access to Skype for Business Online. Tenants already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. 
+Starting September 1, 2019, all new Office 365 customers will be onboarded to Teams and will not have access to Skype for Business Online. Tenants already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams.
 
-### What do you recommend for customers who are currently in the process of deploying—or planning to deploy—Skype for Business in Office 365? 
+### What do you recommend for customers who are currently in the process of deploying — or planning to deploy — Skype for Business in Office 365?
 
 Customers currently deploying Skype for Business Online may continue to do so. We encourage all new Office 365 customers to start using Teams, independently of or in parallel with Skype for Business and determine the path (coexistence or Teams only) and timing that meets their business needs. Regardless of tenure with Skype for Business Online, customers will need to move to Teams before the Skype for Business Online retirement date.
 
-### What support do you offer customers who want to move to Teams, especially those who have made significant investments in Skype for Business Online? 
+### What support do you offer customers who want to move to Teams, especially those who have made significant investments in Skype for Business Online?
 
-We encourage all Skype for Business customers to begin deploying Teams and planning their upgrades. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices will be available at [http://aka.ms/SkypetoTeams](http://aka.ms/SkypetoTeams).  We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, [instructor-led training](http://aka.ms/TeamsLiveTraining), customer support, and partners will be available to help guide customers through the transition. In addition, Microsoft is hosting [Upgrade Workshops](https://aka.ms/SkypeToTeamsPlanning) to help with upgrade planning. 
+We encourage all Skype for Business customers to begin deploying Teams and planning their upgrades. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance is at [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams).  We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, [instructor-led training](https://aka.ms/TeamsLiveTraining), customer support, and partners are available to help guide customers through the transition. In addition, Microsoft is hosting [Upgrade Workshops](https://aka.ms/SkypeToTeamsPlanning) to help with upgrade planning.
 
 ### What does this mean from a licensing perspective? How will customers pay for Intelligent Communications services in Teams?
 
-Teams is available in Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers will carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it’s available today.
+Teams is available in Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it’s available today.
 
 ### Is Microsoft planning scheduled upgrades?
 
-Currently, we have no plans to schedule upgrades for enterprise customers. Customers can choose to move to Teams as it makes sense for their organizations before the July 31, 2021 retirement date for Skype for Business Online. We’ll empower administrators and users with tools and guidance to assist in the transition to Teams.
+Currently, we have no plans to schedule upgrades for enterprise customers. Customers can choose to move to Teams as it makes sense for their organizations before the July 31, 2021 retirement date for Skype for Business Online. We’ll empower administrators and users with tools and guidance to help with the transition to Teams.
 
-In effort to support smaller customers that may not have dedicated IT resources, Microsoft is assisting with automated upgrades from Skype for Business Online to Teams. Eligible customers will be notified of the upgrade through emails and Message Center notifications. Additional details are provided in the communications.
+In effort to support smaller customers that may not have dedicated IT resources, Microsoft is assisting with automated upgrades from Skype for Business Online to Teams. Eligible customers are notified of the upgrade through emails and Message Center notifications. More details are provided in the communications.
 
 ### How does the Skype for Business Online retirement announcement affect organizations with hybrid configurations (Skype for Business Online and Skype for Business Server)?
 
@@ -78,19 +79,19 @@ Hybrid customers with online and on-prem configurations will be required to tran
 
 ## Skype for Business to Teams upgrade
 
-### Is there a firm deadline by which customers need to move from Skype for Business Online to Teams? 
+### Is there a firm deadline by which customers need to move from Skype for Business Online to Teams?
 
 Yes. Skype for Business Online will be retired on July 31, 2021, at which point it will no longer be accessible or supported. We encourage Skype for Business Online customers to start using Teams and begin planning their upgrades now to allow ample time to complete upgrade prior to the retirement date.
 
-### How long will it take to upgrade my organization to Teams? 
+### How long will it take to upgrade my organization to Teams?
 
 Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, we’ve developed comprehensive upgrade guidance based upon a proven framework designed to help you navigate the technical and organizational elements of change. Start your journey by familiarizing yourself with our [upgrade success framework](upgrade-framework.md)  and associated resources that serve as the cornerstone for navigating your journey from Skype for Business to Teams.
 
-### Is there a recommended upgrade path for Skype for Business Online? 
+### Is there a recommended upgrade path for Skype for Business Online?
 
 Customers are encouraged to plan your journey from Skype for Business Online to Teams leveraging the planning guidance and resources at [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) to identify and implement the upgrade path that best meets your organization’s needs.
 
-### Where can I learn more about coexistence modes in the Microsoft Teams admin center? 
+### Where can I learn more about coexistence modes in the Microsoft Teams admin center?
 
 Within the Microsoft Teams admin center, you’ll notice options for coexistence modes, enabling your organization to manage the Skype for Business to Teams journey that’s right for your organization. Learn more about [coexistence and upgrade modes](https://aka.ms/skypetoteams-coexist).
 
@@ -116,11 +117,11 @@ You have the flexibility to upgrade users to Teams as it makes sense for you, wh
 
 After your users are upgraded to Teams (**Teams only** mode):
 
-- Their Skype for Business client will be disabled for use as all chat and calls will go to Teams. This client will continue to be used for previously scheduled Skype for Business meetings. If this desktop client is uninstalled, users will be redirected to access previously scheduled Skype for Business meetings via the Skype for Business web app. 
+- Their Skype for Business client will be disabled for use as all chat and calls will go to Teams. This client will continue to be used for previously scheduled Skype for Business meetings. If this desktop client is uninstalled, users will be redirected to access previously scheduled Skype for Business meetings via the Skype for Business web app.
 
-- Any Skype for Business meetings scheduled before the upgrade will work as designed, but all new meetings will be scheduled in Teams. 
+- Any Skype for Business meetings scheduled before the upgrade will work as designed, but all new meetings will be scheduled in Teams.
 
-- If users attempt to sign in to Skype for Business, they’ll get a notification from their client that they’ve been upgraded to Teams. 
+- If users attempt to sign in to Skype for Business, they’ll get a notification from their client that they’ve been upgraded to Teams.
 
 - Users will need to manually uninstall the Skype for Business client on their mobile device.
 
@@ -144,7 +145,7 @@ Visit the [Microsoft Teams developer platform](https://docs.microsoft.com/micros
 
 ### Will you support third-party development opportunities in Teams?
 
-Yes, app integration is one of the key benefits of adopting Teams. We currently support third-party bots, connectors, and extensions in Teams. In addition, we have a large ecosystem of add-ins available in the Microsoft Teams app store. 
+Yes, app integration is one of the key benefits of adopting Teams. We currently support third-party bots, connectors, and extensions in Teams. In addition, we have a large ecosystem of add-ins available in the Microsoft Teams app store.
 
 ### Is Teams available in Office 365 Education?
 
@@ -164,7 +165,7 @@ The core of our voice solution is Phone System which is available today. Custome
 
 Calling in Microsoft Teams is ready for all your communication needs. We encourage all Microsoft 365 customers to start using Teams, independently of or in parallel with Skype for Business.
 
-### What is the guidance for customers using Enterprise Voice today who want to move to Teams and use calling capabilities? 
+### What is the guidance for customers using Enterprise Voice today who want to move to Teams and use calling capabilities?
 
 Customers interested in bringing their own telephone service to Teams can now do so with the general availability of [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359). Direct Routing and Calling Plans are the two choices for dial tone in Microsoft Teams.
 
@@ -198,7 +199,7 @@ Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) softwar
 
 ### What are the management experiences for Teams?
 
-Like the Skype for Business Admin Console, the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) within the Microsoft 365 admin center is the single place to administer new Teams experiences. With this portal, administrators can create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users. 
+Like the Skype for Business Admin Console, the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) within the Microsoft 365 admin center is the single place to administer new Teams experiences. With this portal, administrators can create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
 
 ## Device compatibility
 
@@ -206,9 +207,9 @@ Like the Skype for Business Admin Console, the [Microsoft Teams admin center](ht
 
 Teams meetings is now available on Surface Hub with Calling and Meetings experiences. For more information, see [Deploy Microsoft Teams for Surface Hub](teams-surface-hub.md).
 
-### Will current third-party IP (3PIP) phones continue to work with Microsoft Teams?And if so, how long? 
+### Will current third-party IP (3PIP) phones continue to work with Microsoft Teams? And if so, how long?
 
-After the Skype for Business Online retirement date of July 31, 2021, users with 3PIP devices who have been migrated over to Teams only will be able to continue using their 3PIP devices with a limited set of functionalities until July 31, 2023. 
+After the Skype for Business Online retirement date of July 31, 2021, users with 3PIP devices who have been migrated over to Teams only will be able to continue using their 3PIP devices with a limited set of functionalities until July 31, 2023.
 
 ### Will certified Skype for Business online phones work with Teams?
 

@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-audience: Admin
+audience: admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
