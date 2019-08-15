@@ -36,7 +36,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 |:---------|:---------|:--------|
 |**Product type**| VTC |Room System|
 |**Description**  |3rd party endpoint running non-Skype for Business media stack, interoperating with Skype for Business |Purpose-build Windows UWP app, a native Skype for Business client for conference rooms (native Teams client coming soon)|
-|**Qualification date** |January 2019|December 2016 (first release)|
+|**Qualification date** |Jan 2019|December 2016 (first release)|
 |**Version Tested** |6.2.0|3.0.16.0 (current)|
 |**Skype version supported**|Skype for Business Server 2015 <br>Skype for Business Online|Skype for Business Server 2015 <br>Skype for Business Online|
 |     |         |         |
