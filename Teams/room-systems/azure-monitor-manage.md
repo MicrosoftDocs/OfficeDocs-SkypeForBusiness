@@ -6,7 +6,7 @@ ms.reviewer: davgroom
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: M365-voice
