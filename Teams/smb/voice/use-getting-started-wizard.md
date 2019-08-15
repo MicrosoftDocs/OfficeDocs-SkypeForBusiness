@@ -34,17 +34,15 @@ After you've finished the wizard, here are a couple articles you can check out t
     </tr>
 </table>
 
-
-
 If you want to know more, see [What are emergency locations, addresses, and call routing](../../what-are-emergency-locations-addresses-and-call-routing.md)?
 
 ## Company phone number
 
 <table>
     <tr>
-        <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-choose-number.png?branch=dstrome-smb-voice" width="400">
-        </td>
         <td>In addition to setting up a new phone local phone number, you can choose to purchase a toll-free number or port an existing number to Microsoft 365. If you choose to set up a toll-free number, you'll be charged a setup fee and will also need to purchase a calling plan. If you want to port a number to Microsoft 365, you'll have an option to do so after the wizard completes.
+        </td>
+        <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-choose-number.png?branch=dstrome-smb-voice" width="400">
         </td>
     </tr>
 </table>
@@ -70,9 +68,9 @@ If you want to know more, see [What are emergency locations, addresses, and call
 
 <table>
     <tr>
-        <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-greeting.png?branch=dstrome-smb-voice" width="400">
-        </td>
         <td>You can upload a sound file (MP3 or WAV) that's less than 5 Megabytes (MB) to use as a greeting, or you can type out your greeting and Microsoft 365 will use text-to-speech to read it to a caller. The greeting will be the first time callers hear when they call your company phone number. You might need to mis-spell the words or use phonetic spellings to get the pronunciations correct.
+        </td>
+        <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-greeting.png?branch=dstrome-smb-voice" width="400">
         </td>
     </tr>
 </table>
@@ -91,9 +89,9 @@ If you want to know more, see [What are emergency locations, addresses, and call
 
 <table>
     <tr>
-        <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-finish-page.png?branch=dstrome-smb-voice" width="400">
-        </td>
         <td> something about the end page.
+        </td>
+        <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-finish-page.png?branch=dstrome-smb-voice" width="400">
         </td>
     </tr>
 </table>
