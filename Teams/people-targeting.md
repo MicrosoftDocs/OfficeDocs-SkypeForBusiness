@@ -41,13 +41,13 @@ Here's some examples of how tags can be used in Teams:
 
 ## Manage targeting and tags settings for your organization
 
-As an admin, you manage targeting and tags settings in the Microsoft Teams admin center.
+As an admin, you can control who can apply tags and how tags are used across your organization in the Microsoft Teams admin center.
 
 ![Tags settings ](media/people-targeting-settings.png)
 
 ### Set who can apply tags
 
-By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off targeting for your organization. 
+By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off targeting for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Targeting**, next to **Teams targeting is enabled for**, select one of the following options:
@@ -64,11 +64,17 @@ You can configure the following tags settings to control how tags are used acros
 2. Under **Targeting**, set the following, depending on the needs of your organization.
 
 - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags.
-- **Members can add additional tags**: 
+- **Members can add additional tags**:
 - **Default tags that will be suggested**: Use this to add a set of suggested tags. A team owner or member (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.  You can add up to 25 suggested tags, and each tag can contain a maximum of 25 characters.
 
-## Assign a tag
+## Manage tags for a team
 
-In Teams, the Manage team page contains a **Tag** column. Users can click **Tag** to see the list of suggested tags for a user, and additional tags can be added to the list. 
+Team owners can set whether members can apply tags and whether to automatically apply tags from your organization's directory and other apps.
+
+To do this, on the **Settings** tab for a team, <TBD>.
+
+## Apply a tag
+
+In Teams, the Manage team page contains a **Tag** column. Team owners and members (if the feature is enabled for them) can click **Tag** to see the list of suggested tags for a user, and add tags to the list.
 
 ## Related topics
