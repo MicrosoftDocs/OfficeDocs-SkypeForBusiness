@@ -21,7 +21,7 @@ appliesto:
 
 This article describes some of the limits, specifications, and other requirements that apply to Teams.
 
-## Teams and channels 
+## Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
@@ -118,8 +118,8 @@ For more information, see [Exchange Online limits](https://technet.microsoft.com
 
 Teams uses these contacts:
 
-- Contacts in your organization's Active Directory.
-- Contacts added to the user's Outlook default folder.
+- Contacts in your organization's Active Directory
+- Contacts added to the user's Outlook default folder
 
 Teams users can communicate with anyone in your organization's Active Directory and can add anyone in your organization's Active Directory as a contact and to their contact lists. Teams users can also add contacts to Teams (**Chat** > **Contacts** or **Calls** > **Contacts**) for quick and easy access to the contact from within Teams.
 
