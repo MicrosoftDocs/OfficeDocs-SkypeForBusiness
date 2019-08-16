@@ -7,7 +7,7 @@ ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: harij, rafarhi

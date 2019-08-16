@@ -14,7 +14,7 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.meetingsettings.overview
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Learn how to manage settings for Teams meetings that users schedule in your organization. 
@@ -33,7 +33,7 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Participants**, turn on **Anonymous users can join a meeting**.
 
-    ![Screen shot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screen shot of participants settings for Teams meetings in the Microsoft Teams admin center")
+    ![Screenshot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screen shot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
 If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
 
@@ -56,7 +56,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Email invitation**, do the following:
 
-    ![Screen shot of the meeting invitation settings you can customize](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings")
+    ![Screenshot of the meeting invitation settings you can customize](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings")
 
     - **Logo URL** Enter the URL where your logo is stored.
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
@@ -68,14 +68,17 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 <a name="bknetwork"> </a>
 
-If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic.
+If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. Setting port ranges for different traffic types is only one step in handling real-time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail.
+
+> [!IMPORTANT]
+> If you enable QoS or change settings in the Microsoft Teams admin center for the Microsoft Teams service, you will also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
  ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Network**, do the following:
 
-    ![Screen shot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams admin center")
+    ![Screenshot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS.
@@ -84,7 +87,7 @@ If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize networ
     >
     > Selecting a port range that is too narrow will lead to dropped calls and poor call quality. The recommendations below should be a bare minimum.
 
- If you are unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
+If you are unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
 
 _Port ranges and DSCP markings_
 
@@ -95,8 +98,6 @@ Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
 |Application/Screen Sharing| 50,040–50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* The port ranges you assign cannot overlap and must be adjacent to each other.
-
-Setting port ranges for different traffic types is only one step in handling real time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail. If you enable or change settings in the Microsoft Teams admin center, you will need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and internal network devices to fully implement the changes to QoS in Teams.
+\* The port ranges you assign cannot overlap and must be next to each other.
 
 After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

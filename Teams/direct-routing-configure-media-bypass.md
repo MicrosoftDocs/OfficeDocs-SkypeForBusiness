@@ -7,7 +7,6 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help

@@ -3,7 +3,6 @@ title: Manage custom app policies and settings in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/18/2019
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,15 +16,15 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams. 
-ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: 
+- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.allowsideloading
 ---
 
 # Manage custom app policies and settings in Microsoft Teams
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
-
-> [!NOTE]
-> For the current method of managing apps in Microsoft Teams, see [Manage Microsoft Teams settings for your organization](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 > [!NOTE]
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
@@ -69,7 +68,7 @@ You can edit the settings in the global app setup policy to include the apps tha
 #### Set a user custom app policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Select **New policy**.
+2. Click **Add**.
 3. Turn on or turn off **Allow uploading custom apps**.
 4. Choose any other settings that you want to for the policy.
 5. Click **Save**.
@@ -130,5 +129,3 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)
-- [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
-- [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md)

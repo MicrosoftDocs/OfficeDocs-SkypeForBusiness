@@ -6,11 +6,12 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 

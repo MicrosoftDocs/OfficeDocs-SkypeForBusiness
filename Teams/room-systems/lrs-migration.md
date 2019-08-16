@@ -5,8 +5,8 @@ author: lanachin
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
-ms.prod: skype-for-business-itpro
+ms.topic: quickstart
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: 

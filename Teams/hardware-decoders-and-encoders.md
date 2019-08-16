@@ -8,7 +8,7 @@ ms.date: 06/06/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
