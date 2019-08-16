@@ -50,14 +50,16 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
 ### 4.1.22.0 (08/15/2019)
 
 Introduced in this update:
+
 - A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting
 - Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console
 - Disabled share tray button if local content cable is not connected or a content camera is not connected
 - Fixed an issue with the touch keyboard where it failed appear the first time only after a MTR system restart
-- Quality and reliability fixes.
+- Quality and reliability fixes
 
 ### 4.0.105.0 (07/10/2019)
 
