@@ -93,7 +93,7 @@ You have several ways to set the Operator:
      > [!Note]
      > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
 
-- A **call queue** that you have set up.
+- **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 - You can set it up so the person calling is sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail.
 
 * * *
@@ -202,7 +202,7 @@ To set up your menu options, after you select the dial key(s), you will need to:
         > [!Note]
         > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-     - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. 
+       - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
 * * *
 
@@ -262,8 +262,7 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > [!Note]
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
 
-  - A **call queue** to transfer the call to an existing call queue that you have set up.
-  - Another **Auto attendant**, to create a second level of menu options containing a sub-menu. These are called nested auto attendants.
+   - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.

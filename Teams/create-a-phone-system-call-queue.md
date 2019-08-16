@@ -29,8 +29,8 @@ Cloud call queues can provide:
 
 - A greeting message.
 - Music while people are waiting on hold.
-- Redirecting of calls to call agents in mail-enabled distribution lists and security groups.
-- Settings different parameters such as queue maximum size, timeout, and call handling options.
+- Redirecting calls to call agents in mail-enabled distribution lists and security groups.
+- Setting different parameters such as queue maximum size, timeout, and call handling options.
 
 You would associate a phone number to a call queue using a [resource account](manage-resource-accounts.md). A call queue can be dialed directly or accessed by a selection on an auto attendant.
 
