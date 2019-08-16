@@ -643,7 +643,7 @@
 
 <!-- ============================================================ -->
 
-# Hybrid connectivity
+# Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
