@@ -63,11 +63,6 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Audience size | 10,000 attendees |
 |Duration of event | 4 hours |
-|Column1  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-
 |Concurrent live events in an Office 365 tenant | 15 |
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
