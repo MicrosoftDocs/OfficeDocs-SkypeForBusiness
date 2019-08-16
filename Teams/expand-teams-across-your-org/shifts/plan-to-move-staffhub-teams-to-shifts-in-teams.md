@@ -45,7 +45,7 @@ Use the timeline as guidance for planning your move from StaffHub to Teams and c
 |13     |Train users on how to use Shifts and Teams         |[Onboard users to Teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Shifts Help documentation](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams Help documentation](https://support.office.com/teams)<br><br>[Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |Review your list of StaffHub teams to make sure that all users on those teams should be moved to Teams. Remove users who shouldn't be on the schedule. |         |
 
-## Move your StaffHub teams to Teams
+## Move your organization's StaffHub teams to Teams
 
 |Step |Guidance |Resource  |
 |---------|---------|---------|
