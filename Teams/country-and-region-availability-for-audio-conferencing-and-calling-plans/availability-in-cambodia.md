@@ -36,8 +36,8 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li>Buenos Aires</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No  <br/> |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
    
 ## Phone System
@@ -61,9 +61,9 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?   | <ul><li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
-|Are toll numbers available?  <br/> |Yes  <br/> |
-|Are toll free numbers available?  <br/> |Yes  <br/> |
+|What capitals or major cities can you get toll numbers for?   | Phnom Penh ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) |
+|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Are toll free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -71,7 +71,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |Yes  <br/> |
+|Are Communications Credits available?  <br/> |No  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
