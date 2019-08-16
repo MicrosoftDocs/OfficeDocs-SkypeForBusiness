@@ -1,5 +1,5 @@
 ---
-title: How do I prepare my users for Microsoft 365 Business Voice?
+title: How do I get my users ready for Microsoft 365 Business Voice?
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -14,11 +14,17 @@ appliesto:
 - Microsoft Teams
 ---
 
-# How do I prepare my users for Business Voice?
+# How do I get my users ready for Business Voice?
+
+It's a good idea to get your users ready before you set up Business Voice. Make sure they have Microsoft Teams installed, set up devices on their computers, show them how to set up voicemail greetings and other Business Voice features, and encourage them to learn more about Teams so they get the most out of it.
 
 ## Install Microsoft Teams on computers and phones
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+If you haven't already, you need to install Teams on any computer and phone that users want to use to make calls over Business Voice. Teams is available for PCs and Macs, and for Android and iPhone phones. It's even on the web at https://teams.microsoft.com! All of these options support Business Voice. For PCs, Macs, and the web, you'll need to add a headset or other device that has a microphone and speakers. The next section has more information on that.
+
+For PCs and Macs, you can download Teams at https://teams.microsoft.com/downloads. If a user is running Windows 10 in S mode, they can install Teams from the Windows Store.
+For Android and iPhone phones, you can install the app by searching for Microsoft Teams in Google Play and the Apple App Store. Keep in mind that phones need to be running Android 4.4 or later, or iOS 10.0 or later.
+To use Teams on the web, you need to use a supported browser. For a list of supported browser, take a look at the [Web client section in Get clients for Microsoft Teams](../../get-clients.md#web-client).
 
 ## Devices for Business Voice
 
@@ -29,3 +35,13 @@ Users you license for Business Voice need a microphone and speakers to make or r
 * **Conference rooms** - Audio conferencing devices let you set up entire conference rooms with speakerphone abilities that can be used with Teams conference bridges to host large meetings.
 
 To see all the devices that are supported with Teams, take a look in the [Office Devices store](https://products.office.com/microsoft-teams/across-devices/devices).
+
+## Set up voicemail greetings and other Business Voice features
+
+Just like regular phones, you can set up voicemail greetings, call forwarding, choose ringtones, and more. Everything that can be set up by users can be found in the Teams app under **Settings**. They can get help with setting up these features by taking a look at [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+
+## Learn what Microsoft Teams and Business Voice can do
+
+Business Voice can do a lot more than regular phones, too. You can set up simultaneous ring and call groups, share a phone line with a delegate, park calls, make multiple calls at once, and more. Users can see what Teams with Business Voice can do, and learn how to set it up, by taking a look at [Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#ID0EAABAAA=Calls).
+
+If users want to know even more about everything Teams, they can take a look the [Microsoft Teams help center](https://support.office.com/teams).
