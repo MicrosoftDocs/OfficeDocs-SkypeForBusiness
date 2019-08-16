@@ -1,5 +1,5 @@
 ---
-title: How many licenses do I need?
+title: How many licenses do I need for Microsoft 365 Business Voice?
 author: dstrome 
 ms.author: dstrome
 manager: serdars

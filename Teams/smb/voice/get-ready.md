@@ -1,5 +1,5 @@
 ---
-title: What do I need to do to get ready for Business Voice?
+title: How do I get my organization ready for Microsoft 365 Business Voice?
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# What do I need to do to get ready for Business Voice?
+# How do I get my organization ready for Business Voice?
 
 ## Your Internet connection
 

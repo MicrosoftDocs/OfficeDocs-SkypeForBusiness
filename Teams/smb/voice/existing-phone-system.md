@@ -1,5 +1,5 @@
 ---
-title: Can I set up my existing phone system with Business Voice?
+title: Can I set up my existing phone system with Microsoft 365 Business Voice?
 author: dstrome 
 ms.author: dstrome
 manager: serdars
