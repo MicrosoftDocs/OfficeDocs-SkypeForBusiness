@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
@@ -46,12 +46,13 @@ In addition to the Surface Pro/dock combination, you can also purchase Microsoft
 
 Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](room-systems-scale.md). 
 
-You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
+You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See the [Teams Meeting Room Licensing Update](skype-room-systems-v2.md) for information on the needed licenses.
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
+| | |
 
 ## Identify who will undertake the key activities throughout your deployment
 

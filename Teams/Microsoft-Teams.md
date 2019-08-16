@@ -4,6 +4,7 @@ hide_bc: true
 title: Microsoft Teams technical documentation
 ms.reviewer: 
 ms.author: kenwith
+audience: admin
 manager: serdars
 author: kenwith
 description: Microsoft Teams technical documentation

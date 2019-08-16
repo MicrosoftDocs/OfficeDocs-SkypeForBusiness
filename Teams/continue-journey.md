@@ -5,12 +5,13 @@ ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Guidance for continuing your journey from Skype for Business to Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:

@@ -19,6 +19,7 @@
 ### [By using System Center Configuration Manager](room-systems-scale.md)
 ### [Management with Azure Monitor](azure-monitor-deploy.md)
 ### [Migrate SRS v1 or LRS](lrs-migration.md)
+### [Content cameras](content-camera.md)
 
 ## Manage
 ### [Management overview](skype-room-systems-v2.md)

@@ -52,7 +52,9 @@ The following are the technical implementation steps to configure the scenario.
 For the detailed steps on how to deploy and configure SBCs for an SBC hosting scenario, please refer to the SBC vendor's documentation.
 
 - **AudioCodes:** [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), the configuration of the SBC hosting scenario described in “Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note.” 
+- **Oracle:** [Direct Routing Configuration notes](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), the configuration of the SBC hosting scenario is described in the "Microsoft" section. 
 - **Ribbon Communications:**  Please refer to the [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) for documentation on how to configure Ribbon Core Series SBCs and to this page [Ribbon Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **TE-Systems (anynode):**  Please register on the [TE-Systems Community page](https://community.te-systems.de/) for documentation and examples on how to configure anynode SBC for multiple tenants.
 
 > [!NOTE]
 > Please pay attention to how to configure the “Contact” header. The Contact header is used to find the customer tenant on the incoming invite message. 
@@ -199,7 +201,7 @@ With the initial release of Direct Routing, Microsoft required a trunk to be add
 
 However, this has not proved optimal for two reasons:
  
-• **Overhead management**. Offloading or draining an SBC, for example, changes some parameters, like enabling or disabling media bypass. Changing the port requires changing parameters in multiple tenants (by running Set-CSonlinePSTNGateway), but it is in fact the same SBC. 
+• **Overhead management**. Offloading or draining an SBC, for example, changes some parameters, like enabling or disabling media bypass. Changing the port requires changing parameters in multiple tenants (by running Set-CSOnlinePSTNGateway), but it is in fact the same SBC. 
 • **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
  
 
@@ -225,7 +227,7 @@ Examples:
 
 Migration from the previous model to the carrier trunk
  
-For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnluinePSTNGateway (leaving the trunk in the carrier tenant).
+For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnlinePSTNGateway (leaving the trunk in the carrier tenant).
 
 We highly encourage migrating to the new solution as soon as possible as we will be enhancing monitoring and provisioning using the carrier and derived trunk model.
  

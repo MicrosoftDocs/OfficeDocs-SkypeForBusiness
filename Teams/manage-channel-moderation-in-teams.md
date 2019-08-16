@@ -7,7 +7,7 @@ ms.reviewer: jotaing
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -19,6 +19,8 @@ description: Learn how to set up channels for moderation in Microsoft Teams, inc
 ---
 
 # Set up and manage channel moderation in Microsoft Teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 In Microsoft Teams, team owners can turn on moderation for a channel to control who can start new posts and reply to posts in that channel.
 

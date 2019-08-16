@@ -13,7 +13,7 @@ search.appverid: MET150
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto: 
@@ -117,6 +117,8 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 - Restart the Outlook desktop client. (Make sure Outlook isn’t running in admin mode.)
 - Make sure the logged-in user account name does not contain spaces. (This is a known issue, and will be fixed in a future update.)
 - Make sure single sign-on (SSO) is enabled.
+
+If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. 
 
 For general guidance about how to disable add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

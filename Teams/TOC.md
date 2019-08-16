@@ -1,9 +1,7 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)
-#       
-#        
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -23,6 +21,7 @@
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
+## [Manage teams and channel policies](teams-policies.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Sharing files in Teams](sharing-files-in-teams.md)
@@ -69,14 +68,17 @@
 ### [Manage the free version of Teams](manage-freemium.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md)
+### [Manage app permission policies in Teams](teams-app-permission-policies.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
+### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
+### [Manage policy packages in Teams](manage-policy-packages.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Manage external access](manage-external-access.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 
-### Teams analytics and reporting in the Microsoft Teams admin center
+### Analytics and reports in the Teams admin center 
 #### [Overview](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
@@ -588,21 +590,18 @@
 #       
 #        
 
-
-<!-- ============================================================ -->
 # Upgrade to Teams
+
 ## [Get started](upgrade-start-here.md)
 ## [About the upgrade framework](upgrade-framework.md)
 
-## Plan for your upgrade journey
+## Plan your upgrade journey
+
 ### [Upgrade planning overview](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
-
-### Understand coexistence and interoperability
-#### [Coexistence and interoperability overview](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Plan for quality](upgrade-plan-for-quality.md)
+### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## Prepare your environment for Teams
 ### [Technical readiness overview](upgrade-prepare-environment.md)
@@ -616,9 +615,15 @@
 ### [Organizational readiness overview](upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
-## [Conduct a user pilot](pilot-essentials.md)
-## [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [Upgrade from Skype for Business hybrid or on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+
+## Implement your upgrade
+### [Overview](upgrade-to-Teams.md)
+### [Conduct a user pilot](pilot-essentials.md)
+### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
+### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## Operate, adopt, and optimize
 ### [Operational plan overview](continue-journey.md)
@@ -626,23 +631,60 @@
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
 
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 ## [FAQ](FAQ-journey.md)
-## Additional information
+
+## Learn more about coexistence
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
 <!-- ============================================================ -->
-# 
-# 
+
+# Hybrid connectivity 
+
+## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+
+## Configure hybrid connectivity
+### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Configure Azure AD Connect for hybrid environments](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Configure Skype for Business hybrid](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+
+## Move users between on-premises and cloud
+### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Move users from on-premises to Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Move users from the cloud to on premises](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+
+### [Manage meeting migration](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+
+## [Deploy a resource forest topology](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+
+## Cloud consolidation for Teams and Skype for Business Online
+### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Update the edge certificate](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+
+## [Integration with Exchange and SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+
+#       
+#        
+
+<!-- ============================================================ -->
+
+
+
 
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub to be retired](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Firstline Worker features coming soon to Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Install the Microsoft StaffHub PowerShell module](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Run a report to show active StaffHub usage](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
@@ -671,6 +713,7 @@
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
+### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 <!-- ============================================================ -->
 

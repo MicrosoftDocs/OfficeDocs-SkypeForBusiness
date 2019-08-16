@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna

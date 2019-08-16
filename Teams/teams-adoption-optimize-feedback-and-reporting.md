@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to obtain user feedback and use service health reporting in your Teams adoption.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 
@@ -41,7 +41,7 @@ Be clear in your champions program design what your employees will get and what 
 
 Best Practice: Hold a monthly Teams meeting for your internal champions. Split your agenda between teaching new features, addressing feedback, and providing self service tools for your employee community.
 
-Best Practice: ave representatives from your internal support department or IT Helpdesk join your champions community to stay up to date on new information about your Teams usage. 
+Best Practice: Have representatives from your internal support department or IT Helpdesk join your champions community to stay up to date on new information about your Teams usage. 
 
 ## Service reporting
 

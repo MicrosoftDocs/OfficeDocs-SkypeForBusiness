@@ -12,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 description: Choose early adopters for the experiment phase of your Teams adoption, and then gather feedback for your project.
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto: 

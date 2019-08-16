@@ -5,8 +5,8 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
-ms.prod: skype-for-business-itpro
+ms.topic: quickstart
+ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
@@ -136,7 +136,13 @@ Skype for Business Online PowerShell is used to manage services for both Microso
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. To enable your Microsoft Teams Rooms account, run this command:
+2. Obtain SIP address of the account:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. To enable your Microsoft Teams Rooms account, run this command:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

@@ -7,10 +7,11 @@ ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+audience: admin
 description: Learn how to use the Network Planner to determine network requirements for Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
@@ -19,7 +20,7 @@ appliesto:
 
 # Use the Network Planner for Microsoft Teams
 
-Welcome to the Network Planner. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+Network Planner is a new tool that is available in the Teams admin center. It can be found by going to **Org-wide settings** > **Network planner**. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 ![Screenshot of Network Planner](media/network-planner.png)
 
