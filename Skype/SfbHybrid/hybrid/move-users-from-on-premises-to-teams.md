@@ -34,6 +34,11 @@ When a user is moved from on premises to Teams Only, the user’s Skype for Busi
 
 Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud. Also be sure to review [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
+
+> [!NOTE]
+> Unified Contact Store should be disabled on the on-prem SfB account for the contact to be moved to Teams.
+
+
 There are two methods to move a user from on premises to Teams:
 
 - If you are using a version earlier than Skype for Business Server 2015 CU8, the move requires two steps (which can be scripted to be done together as a single step, if desired):
