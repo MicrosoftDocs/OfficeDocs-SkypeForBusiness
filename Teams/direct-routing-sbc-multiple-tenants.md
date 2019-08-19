@@ -207,6 +207,7 @@ However, this has not proved optimal for two reasons:
 Based on this feedback, Microsoft is bringing in a new logic to provision the trunks for the customer tenants.
 
 Two new entities were introduced:
+
 •	A carrier trunk registered in the carrier tenant using the command New-CSOnlinePSTNGateway, for example New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignallingport 5068 -ForwardPAI $true.<br>
 •	A derived trunk, that does not require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The derived trunk doesn't need to be created in PowerShell, and the association with the carrier trunk is based on the FQDN name (see details below).<br>
 
@@ -222,7 +223,7 @@ Examples:
 •	The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).<br>
 •	The carrier can drain the carrier trunk, and all derived trunks will be drained as well.<br>
 
-Migration from the previous model to the carrier trunk
+### Migration from the previous model to the carrier trunk
  
 For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnlinePSTNGateway (leaving the trunk in the carrier tenant).
 
