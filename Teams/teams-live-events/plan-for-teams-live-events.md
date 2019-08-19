@@ -97,7 +97,7 @@ The following table highlights core capabilities and features offered in live ev
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
-/* The limits that are set might be changed.
+*/ The limits that are set might be changed.
 
 ## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
