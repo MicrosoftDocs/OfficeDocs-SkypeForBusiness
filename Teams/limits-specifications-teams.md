@@ -116,9 +116,9 @@ Teams uses these contacts:
 - Contacts in your organization's Active Directory
 - Contacts added to the user's Outlook default folder
 
-Teams users can communicate with anyone in your organization's Active Directory and can add anyone in your organization's Active Directory as a contact by going to **Chat** > **Contacts** or **Calls** > **Contacts**.
+Teams users can communicate with anyone in your organization's Active Directory and can add anyone in your organization's Active Directory as a contact and to their contact lists by going to **Chat** > **Contacts** or **Calls** > **Contacts**.
 
-Teams users can also add a contact who isn't in your organization's Active Directory by going to **Calls** > **Contacts** for access to the contact from within Teams.
+Teams users can also add a person who isn't in your organization's Active Directory as a contact by going to **Calls** > **Contacts**.
 
 ## Browsers
 
