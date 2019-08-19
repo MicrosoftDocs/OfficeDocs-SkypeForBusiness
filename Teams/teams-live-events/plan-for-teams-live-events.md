@@ -68,11 +68,12 @@ The user must have:
 
  
 ## Teams live events and Skype Meeting Broadcast
+
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
 
 |**Capability**   |**Skype Meeting Broadcast** |**Events produced in Teams** |**Events produced in external app or device** |
 |---------|---------|---------|---------|
-|Maximum audience size |10,000 attendees |10,000 attendees* |10,000 attendees* |
+|Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
 |Maximum number of concurrent live events per Office 365 tenant |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
@@ -97,7 +98,7 @@ The following table highlights core capabilities and features offered in live ev
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
-*/ The limits that are set might be changed.
+<sup>1</sup> The limits that are set might be changed.
 
 ## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
