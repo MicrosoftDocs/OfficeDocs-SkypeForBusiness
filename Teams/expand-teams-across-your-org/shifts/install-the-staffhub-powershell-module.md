@@ -28,18 +28,18 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 1. Open Windows PowerShell 3.0 or later as an admin. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
     > [!NOTE]
     > To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
-2. Run the following to install stable version:
+2. Run the following to install the current stable version of the StaffHub PowerShell module:
 
     ```
     Install-Module -Name MicrosoftStaffHub
     ```
     
-    Or run this command in case you would like to install the latest unstable version `Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
+    You can run this command only if you need to install the latest version, which may have more instabilities than the current stable version: `Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
 
      > [!NOTE]
-     > Run this command in case if you will receive an error during unstable version installation `Install-Module PowershellGet -Force`
+     > If you receive an error during the installation of the latest version with more instabilities, you can run: `Install-Module PowershellGet -Force`
 
-3. Optional step. You could see the warning message
+3. You may see the warning message:
 
     ```
     Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
