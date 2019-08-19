@@ -3,7 +3,7 @@ title: Plan for live events in Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -97,8 +97,7 @@ The following table highlights core capabilities and features offered in live ev
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
-> [!IMPORTANT]
-> The limits that are set might be changed.
+/* The limits that are set might be changed.
 
 ## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
