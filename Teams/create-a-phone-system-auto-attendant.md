@@ -32,14 +32,14 @@ If you want to learn more about auto attendants, see [What are Cloud auto attend
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
 
-## Step 1 - Get started
+## Step 1 — Get started
 
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required.
 
 > [!TIP]
 > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-## Step 2 - Create a new auto attendant
+## Step 2 — Create a new auto attendant
 
 > [!IMPORTANT]
 > Every auto attendant is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the auto attendant.
@@ -56,59 +56,59 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
-**Name** Enter a descriptive display name for your auto attendant. The name is required and can contain up to 64 characters, including spaces. It will be listed in the **Name** column on the **Auto attendants** tab.
+**Name** Enter a descriptive display name for your auto attendant. The name is required and can contain up to 64 characters, including spaces. It is listed in the **Name** column on the **Auto attendants** tab.
 
 * * *
 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
-**Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but it might not. A top-level auto attendant usually have a resource account with an assigned phone number, but nested auto attendant (used as a level 2 menu that the first level auto attendant connects to) might not have a phone number assigned to its resource account.
+**Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but a phone number isn't a requirement. A top-level auto attendant usually has a resource account with an assigned phone number, but nested auto attendant (used as a level 2 menu that the first-level auto attendant connects to) might not have a phone number assigned to its resource account.
 
 * * *
 
 ![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
 
-**Time zone** You must set the time zone for your auto attendant, but it doesn't need to correspond to the time zone of the main address listed for your organization. Each auto attendant can have a different time zone, and the business hours set for the auto attendant will be set based on the time zone that you select here.
+**Time zone** You must set the time zone for your auto attendant, but it doesn't need to correspond to the time zone of the main address listed for your organization. Each auto attendant can have a different time zone, and the business hours set for the auto attendant are set based on the time zone that you select here.
 
 * * *
 
 ![Icon of the number 4, referencing a callout in the previous screenshot](media/sfbcallout4.png)
 
-**Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant will use to interact with people that call in to this auto attendant, and all the system prompts will be played in this language.
+**Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant uses to interact with people that call in to this auto attendant, and all the system prompts are played in this language.
 
 * * *
 
 ![Icon of the number 5, referencing a callout in the previous screenshot](media/sfbcallout5.png)
 
-**Operator** This is optional and doesn't need to be set for the auto attendant. However, you can set the **Operator** option for people that call in to be able to break out of the menus to speak to a person to help them.
+**Operator** This is optional, but you can set the **Operator** option to allow callers to break out of the menus and speak to a person.
 
-The key 0 is automatically assigned to Operator.
+The 0 key is assigned to Operator by default.
 
-If you set this up, you will also need to tell people who call in that this is an available option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you will need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero."
+If you set an Operator, you will also need to tell people who call about the option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero."
 
-You can set one of the following as Operator:
+You have several ways to set the Operator:
 
 - **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.
 
      > [!Note]
      > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
 
-- A **call queue** that you have set up.
-- You can set it up so the person calling will be sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail.
+- **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+- You can set it up so the person calling is sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail.
 
 * * *
 
 ![Icon of the number 6, referencing a callout in the previous screenshot](media/sfbcallout6.png)
 
-**Enable voice inputs** Speech recognition is available if this option is selected. People that call in can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). You can disable speech recognition by setting it to off if you want to only let people use their phone keypad.
+**Enable voice inputs** Speech recognition is available if this option is selected. People that call in can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). If you want to only let people use their phone keypad, you can disable speech recognition by setting it to off.
 
 * * *
 
-When you are finished with your selections, click on **Next**.
+When you are finished with your selections, click **Next**.
 
 #### Business hours page
 
-By default, business hours are set to 9am to 5pm, Monday through Friday.  All of the hours that aren't included in business hours are considered after business hours. You can click on **Select 24/7** to make all hours business hours. Unless you select the **Select 24/7** option, the **After hours call settings** page will be used to configure the call handling for after business hours for the auto attendant.
+By default, business hours are set to 9:00 am to 5:00 pm, Monday through Friday. All hours that aren't included in business hours are considered after business hours. You can click **Select 24/7** to make all hours business hours. Unless you select the **Select 24/7** option, the **After hours call settings** page will be used to configure the call handling rules for after business hours for the auto attendant.
 
 ![Screenshot of the Business Hours page](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -116,24 +116,24 @@ By default, business hours are set to 9am to 5pm, Monday through Friday.  All of
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
-By default, business hours are set to Monday to Friday, 9:00 am-5:00 pm. Select **Clear all hours** option to unselect all hours hours in the schedule. When you select **Reset to default**, business hours will be reset to Monday to Friday, 9:00 am-5:00 pm.
+By default, business hours are set to Monday to Friday, 9:00 am-5:00 pm. Select **Clear all hours** option to unselect all hours in the schedule. When you select **Reset to default**, business hours are reset to Monday to Friday, 9:00 am-5:00 pm.
 
 * * *
 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
-To change business hours, highlight the business hours you want to set using the calendar. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here will be set based on the time zone that you set on the **General info** page. To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar. You can set multiple breaks within business hours.
+To change business hours, highlight the business hours you want to set in the calendar. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here are based on the time zone that you set on the **General info** page. To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar. You can set multiple breaks within business hours.
 
 * * *
 
-When you are finished with your selections, click on **Next**.
+When you are finished with your selections, click **Next**.
 
 #### Business hours call settings
 
 > [!TIP]
 > If you use a custom business hours schedule, you will also need to set up call handing for after business hours using the **After hours call handling** page, which will give you the same options as **Business hours call settings**.
 
-You can set up greetings, prompts, and menus that people who call in to your organization's auto attendant phone number will hear during the business hours.
+You can set up greetings, prompts, and menus that people hear when they call to the phone number linked to your organization's auto attendant during business hours.
 
 ![Screenshot of the Business hours call handling page Greeting section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 ![Screenshot of the Business hours call handling page Actions section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
@@ -142,9 +142,7 @@ You can set up greetings, prompts, and menus that people who call in to your org
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
-**Greeting** A business hours greeting is optional and can be set to **No greeting**. In this case, the caller will hear no message or greeting before the call is handled by one of the actions you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
-
-- **No greeting** No greeting will be played when people call in to the auto attendant phone number.
+**Greeting** A business hours greeting is optional and can be set to **No greeting**. In this case, the caller won't hear a message or greeting before the call is handled by one of the actions you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 - **Upload an audio file** If you choose this, record the greeting and then upload your audio file (in a .wav, .mp3 or .wma format).
 - **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. Your call is important to us." in the **Callers will hear** box.
 
@@ -204,7 +202,7 @@ To set up your menu options, after you select the dial key(s), you will need to:
         > [!Note]
         > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-     - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. 
+       - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
 * * *
 
@@ -264,8 +262,7 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > [!Note]
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
 
-  - A **call queue** to transfer the call to an existing call queue that you have set up.
-  - Another **Auto attendant**, to create a second level of menu options containing a sub-menu. These are called nested auto attendants.
+   - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
