@@ -34,6 +34,11 @@ When a user is moved from on premises to Teams Only, the user’s Skype for Busi
 
 Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud. Also be sure to review [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
+
+> [!NOTE]
+> Unified Contact Store should be disabled on the on-prem SfB account for the contact to be moved to Teams.
+
+
 There are two methods to move a user from on premises to Teams:
 
 - If you are using a version earlier than Skype for Business Server 2015 CU8, the move requires two steps (which can be scripted to be done together as a single step, if desired):
@@ -82,6 +87,9 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
 ## Notify your Skype for Business on-premises users of the upcoming move to Teams
 
 The on-premises admin tools in Skype for Business Server 2015 with CU8, as well as in Skype for Business Server 2019, enable you to notify on-premises Skype for Business users of their upcoming move to Teams. When you enable these notifications, users will see a notification in their Skype for Business client (Win32, Mac, web, and mobile) as shown below. If users click the **Try it** button, the Teams client will be launched if it is installed; otherwise, users will be navigated to the web version of Teams in their browser. By default, when notifications are enabled, Win32 Skype for Business clients silently download the Teams client so that the rich client is available prior to moving the user to Teams Only mode; however, you can also disable this behavior.  Notifications are configured using the on-premises version of `TeamsUpgradePolicy`, and silent download for Win32 clients is controlled via the on-premises `TeamsUpgradeConfiguration` cmdlet.
+
+> [!TIP]
+> Some servers may need to reboot for this to work in Skype for Business 2015 with CU8.
 
 ![Notification of upcoming move to Teams](../media/teams-upgrade-notification.png)
 
