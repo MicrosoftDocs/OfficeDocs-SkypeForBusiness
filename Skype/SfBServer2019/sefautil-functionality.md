@@ -15,7 +15,7 @@ description: "Summary: Learn how to use PowerShell to obtain SEFAUtil functional
 
 # Using SEFAUtil functionality via PowerShell in Skype for Business Server 2019
 
-SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing, call-forwarding, and Group Call Pickup settings on behalf of a Skype for Business Server user. This tool also allows administrators to query the call-routing settings that are published for a particular user. After you install this update, the following functionality that can currently be managed only through SEFAUtil will be also manageable through PowerShell:
+SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing, call-forwarding, and Group Call Pickup settings on behalf of a Skype for Business Server user. This tool also allows administrators to query the call-routing settings that are published for a particular user. After you install the Skype for Business Server 2019 July cumulative update, the following functionality that can currently be managed only through SEFAUtil will be also manageable through PowerShell:
 
 - [Call forwarding settings](#call-forwarding-settings)
 - [Delegation settings](#delegation-settings)
