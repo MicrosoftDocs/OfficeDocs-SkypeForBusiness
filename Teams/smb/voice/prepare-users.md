@@ -44,4 +44,4 @@ Just like regular phones, you can set up voicemail greetings, call forwarding, c
 
 Business Voice can do a lot more than regular phones, too. You can set up simultaneous ring and call groups, share a phone line with a delegate, park calls, make multiple calls at once, and more. Users can see what Teams with Business Voice can do, and learn how to set it up, by taking a look at [Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#ID0EAABAAA=Calls).
 
-If users want to know even more about everything Teams, they can take a look the [Microsoft Teams help center](https://support.office.com/teams).
+If users want to know even more about Teams, they can take a look the [Microsoft Teams help center](https://support.office.com/teams).
