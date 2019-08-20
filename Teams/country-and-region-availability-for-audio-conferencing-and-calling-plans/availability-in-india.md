@@ -38,7 +38,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Mumbai<li> Chennai</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Chennai<li> Mumbai</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -62,7 +62,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Mumbai <li>Chennai<li>Other cities [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Chennai <li>Mumbai<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Ahmedabad [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Hyderabad [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Kolkata [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>New Dehli [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Pune [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
