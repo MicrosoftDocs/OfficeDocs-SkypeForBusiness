@@ -4,7 +4,7 @@
 ### [What's Microsoft 365 Business Voice?](voice/whats-business-voice.md)
 ### What to know before buying
 #### [What if I already have a phone system?](voice/existing-phone-system.md)
-#### [How many licenses do I need?](voice/how-many-licenses.md)
+#### [What do I need to buy?](voice/what-to-buy.md)
 #### [How do I get my organization ready?](voice/get-ready.md)
 #### [How do I prepare users?](voice/prepare-users.md)
 ### [Run the Getting Started wizard](voice/use-getting-started-wizard.md)
