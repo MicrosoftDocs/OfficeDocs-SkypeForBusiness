@@ -3,7 +3,6 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -22,7 +21,7 @@ appliesto:
 
 This article describes some of the limits, specifications, and other requirements that apply to Teams.
 
-## Teams and channels 
+## Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
@@ -40,7 +39,19 @@ This article describes some of the limits, specifications, and other requirement
 
 &sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
-## Meetings and calls 
+## Channel names
+
+Channel names can't contain the following characters or words.
+
+|||
+|---------|---------|
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Characters in these ranges    | 0 to 1F<br>80 to 9F        |
+|Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
+
+Channel names also can't start with an underscore (_) or period (.), or end with a period (.).
+
+## Meetings and calls
 
 |Feature     | Maximum limit |
 |------------|---------------|
@@ -97,6 +108,17 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 > The message size, file attachments, and inline images limits are the same across all Office 365 licenses.
 
 For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+
+## Contacts
+
+Teams uses these contacts:
+
+- Contacts in your organization's Active Directory
+- Contacts added to the user's Outlook default folder
+
+Teams users can communicate with anyone in your organization's Active Directory and can add anyone in your organization's Active Directory as a contact and to their contact lists by going to **Chat** > **Contacts** or **Calls** > **Contacts**.
+
+Teams users can also add a person who isn't in your organization's Active Directory as a contact by going to **Calls** > **Contacts**.
 
 ## Browsers
 

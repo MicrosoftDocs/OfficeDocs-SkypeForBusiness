@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: "This article discusses known issues for Microsoft Teams Rooms, by feature area."
