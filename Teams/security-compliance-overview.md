@@ -14,6 +14,8 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto: 
 - Microsoft Teams
 ---

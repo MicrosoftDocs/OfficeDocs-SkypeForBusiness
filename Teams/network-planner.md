@@ -14,6 +14,9 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords: 
+- ms.teamsadmincenter.networkplanner.overview
+- ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
 ---
