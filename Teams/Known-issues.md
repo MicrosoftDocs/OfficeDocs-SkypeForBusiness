@@ -80,10 +80,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Outlook add-in limitations  <br/> |To use the Outlook add-in, you must sign in to Teams using multi-factor authentication (MFA). If MFA fails halfway through the sign-in process, you'll still be able to sign into Teams, but you'll get an error message when you try to use the add-in.  <br/> The add-in is only available for Windows users for the time being.  <br/> The add-in won't work if you're using an authentication proxy.  <br/> | No workaround. <br/> |8/2/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
 |Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | No workaround. <br/> |8/2/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
