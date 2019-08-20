@@ -68,7 +68,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 <sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
 
 > [!NOTE]
-> The message size, file attachments, and inline images limits are the same across all Office 365 licenses.
+> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
 
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
