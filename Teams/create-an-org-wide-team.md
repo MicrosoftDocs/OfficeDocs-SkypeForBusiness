@@ -38,7 +38,7 @@ These types of accounts won't be added to your org-wide team:
 As your organization's directory is updated to include new active users or if users no longer work at your company and their account is disabled, changes are automatically synced and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
 
 > [!NOTE]
-> - If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or you have reached the five **Org-wide** Teams limit or your organization might have more than the current size limit of 5,000 members. We're looking to increase this limit in the future.
+> - If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out, you have reached the five **Org-wide** Teams limit, or your organization might have more than the current size limit of 5,000 members. We're looking to increase this limit in the future.
 > - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
 > - All actions by the system to add or remove members will be posted in the Teams main channel. The channel will also be marked as having new activity in the Teams client.
 
