@@ -79,7 +79,7 @@ The following diagram summarizes the requirements to base domain, subdomains, an
 
 ![Diagram showing requirements to domains and Contact header](media/direct-routing-1-sbc-requirements.png)
 
-The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with SAN *\*.base_domain (for example, \*customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
+The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
 The following table is an example of one configuration.
 
