@@ -11,6 +11,7 @@ audience: Admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -26,7 +27,7 @@ For example, when users make a call, you can change the caller ID to display you
 
 You manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
 
 ## Create a custom caller ID policy
 
