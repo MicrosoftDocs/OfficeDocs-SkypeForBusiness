@@ -12,6 +12,7 @@ search.appverid: MET150
 description: Learn how to manage Microsoft Teams user settings in bulk in the Microsoft Teams admin center. 
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
 ms.collection: Strat_MT_TeamsAdmin
 appliesto: 

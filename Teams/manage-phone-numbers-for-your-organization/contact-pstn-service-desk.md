@@ -17,6 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:

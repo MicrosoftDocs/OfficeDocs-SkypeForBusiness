@@ -16,6 +16,8 @@ ms.custom:
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.callingpolicies.overview
 appliesto: 
 - Microsoft Teams
 ---
