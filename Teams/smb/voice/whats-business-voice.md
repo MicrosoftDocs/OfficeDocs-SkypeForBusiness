@@ -33,7 +33,9 @@ When you buy Business Voice, you get the following features and more:
 
 <table>
     <tr>
-        <td><b>Audio Conferencing</b> Lets you host conference calls with people who don't have Teams or don't have an Internet connection.
+        <td><b>Audio Conferencing</b>
+        </td>
+        <td>Lets you host conference calls with people who don't have Teams or don't have an Internet connection.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
@@ -42,7 +44,9 @@ When you buy Business Voice, you get the following features and more:
 
 <table>
     <tr>
-        <td><b>Call menus</b> Lets callers choose which department or extension they want their call to be sent to.
+        <td><b>Call menus</b>
+        </td>
+        <td>Lets callers choose which department or extension they want their call to be sent to.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
@@ -51,7 +55,9 @@ When you buy Business Voice, you get the following features and more:
 
 <table>
     <tr>
-        <td><b>Domestic calling</b> Calls within your country or region are free. International plans and toll-free dialing are also available.
+        <td><b>Domestic calling</b>
+        </td>
+        <td>Calls within your country or region are free. International plans and toll-free dialing are also available.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
@@ -60,7 +66,9 @@ When you buy Business Voice, you get the following features and more:
 
 <table>
     <tr>
-        <td><b>Voice Mail, Caller ID, shared phone lines, emergency calling</b> Standard phone features are also included so people can easily manage their calls.
+        <td><b>Voice Mail, Caller ID, shared phone lines, emergency calling</b>
+        </td>
+        <td>Standard phone features are also included so people can easily manage their calls.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
