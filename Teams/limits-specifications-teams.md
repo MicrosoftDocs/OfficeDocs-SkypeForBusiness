@@ -76,9 +76,6 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
 
-## Meetings and calls 
-
-
 ## Channel names
 
 Channel names can't contain the following characters or words.
