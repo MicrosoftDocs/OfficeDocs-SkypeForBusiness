@@ -16,11 +16,8 @@ appliesto:
 
 # What is Microsoft 365 Business Voice?
 
-Business Voice is an offering from Microsoft 365 that makes it easy for small and medium businesses to turn Microsoft Teams into a power and flexible telephone system. It's a replacement for traditional telephony providers and in-house phone systems that can be difficult and costly to manage. 
+Microsoft 365 Business Voice makes it easy for organizations with 300 people or less to turn Microsoft Teams into a powerful and flexible telephone system. It's a replacement for traditional telephony providers and in-house phone systems that can be difficult and costly to manage. You can set up both toll and toll-free numbers, call menus to help callers get to the right department, audio conferencing so you can host meetings with anyone, and more. You can even give people their own phone numbers so they can get calls directly.
 
-It does this by wrapping all the features of Microsoft 365 Phone System into a single and easy-to-manage bundle. With Phone System, users can use Microsoft Teams to place and receive calls, transfer calls, and mute or unmute calls. Any device, from your PC or Mac to your iPhone or Android phone, can place or receive phone calls using your Business Voice phone number.
-
-As part of the bundle that includes Phone System, Business Voice also includes add-on features that enable audio conferencing, call trees, voice mail, domestic calling, and more.  
-
+Business Voice does all of this by bundling Microsoft 365 Phone System features into a single and easy-to-manage bundle. You don't need to worry about choosing the right plan or feature; they're all there and set up for you. Because Phone System is a part of Teams, you can turn any PC, Mac, or mobile device, into a phone that can use your Business Voice phone number.
 
 
