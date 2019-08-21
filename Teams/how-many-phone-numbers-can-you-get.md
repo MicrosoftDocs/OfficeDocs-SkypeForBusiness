@@ -17,7 +17,7 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: "When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click Different kinds of phone numbers used for Calling Plans to find out about the different phone numbers that are used in Microsoft Teams."
