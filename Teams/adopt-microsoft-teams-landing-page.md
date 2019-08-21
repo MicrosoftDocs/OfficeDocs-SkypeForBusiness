@@ -14,6 +14,8 @@ ms.custom: Adopt
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 ms.custom:
 - Calling Plans
 description: Learn about the different phone number types that Teams uses for Calling Plans. 
