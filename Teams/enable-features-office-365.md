@@ -51,7 +51,11 @@ To add or block a domain:
 
 ### Teams settings
 
-In **Teams settings**, you can set up email integration, cloud storage options, Skype for Business interoperability, and devices.
+In **Teams settings**, you can set up features for teams including notification and feeds, email integration, cloud storage options, and devices.
+
+#### Notifications and feeds
+
+Here you can control whether suggested feeds and trending feeds appear in users' activity feeds in Teams.
 
 #### Email integration
 
