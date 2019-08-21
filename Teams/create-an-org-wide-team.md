@@ -40,7 +40,7 @@ As your organization's directory is updated to include new active users or if us
 > [!NOTE]
 > - If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out, you have reached the five org-wide teams limit, or your organization might have more than the current size limit of 5,000 members. We're looking to increase this limit in the future.
 > - Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the org-wide team. Team owners can easily remove these accounts from the team.
-> - All actions by the system to add or remove members are posted in the main Teams channel. The channel will also be marked as having new activity in the Teams client.
+> - All actions by the system to add or remove members are posted in the General channel. The channel will also be marked as having new activity in the Teams client.
 
 ## Best practices
 
