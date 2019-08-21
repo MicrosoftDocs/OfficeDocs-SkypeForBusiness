@@ -16,7 +16,8 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: 
+- ms.teamsadmincenter.devices.roomsystems.overview
 ms.custom:
 - Skype for Business Certification
 - dn947482 
