@@ -57,9 +57,6 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
 
-> [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
-
 ### Emailing a channel
 
  If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
@@ -71,6 +68,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 <sup>1</sup>If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+
+> [!NOTE]
+> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
 
 ## Meetings and calls 
 
