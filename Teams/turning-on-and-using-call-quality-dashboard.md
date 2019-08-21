@@ -81,13 +81,13 @@ Before you can start using the CQD, activate it for your Office 365 organization
   
 After you sign in, once activated, the CQD will begin collecting and processing data.  
 > [!NOTE]
-> It may take a couple of hours to process enough data to display meaningful results in the reports.
+> It may take one or more hours to process enough data to display meaningful results in the reports.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
 
 1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
-2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
-3. In the Skype for Business admin center, select **Tools** in the left pane, and then select **Skype for Business Online Call Quality Dashboard**.
+2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
+3. In the Microsoft Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
 
      ![Screenshot: select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
