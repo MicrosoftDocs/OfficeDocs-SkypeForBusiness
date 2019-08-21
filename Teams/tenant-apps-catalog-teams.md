@@ -11,7 +11,9 @@ audience: admin
 description: Guidance for publishing apps in the Microsoft Teams Tenant Apps Catalog. 
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
+f1keywords: 
+- ms.teamsadmincenter.apppermspolicies.publishtenantapps
+- ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

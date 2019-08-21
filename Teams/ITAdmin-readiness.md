@@ -13,6 +13,8 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
 - Microsoft Teams
