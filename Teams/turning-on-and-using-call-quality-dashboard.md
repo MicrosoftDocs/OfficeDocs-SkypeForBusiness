@@ -298,6 +298,8 @@ CQD uses an Endpoint data file by joining its EndpointName column to the call re
 
 <a name="BKMKMediaType"></a>
 
+<!-- serious overhaul needed, PM review, this is totally different -->
+
 The detailed reports look at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
 ![Screenshot: shows Call Quality Dashboard Dimensions.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
