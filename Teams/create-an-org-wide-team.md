@@ -64,7 +64,7 @@ Consider setting up channel moderation and giving moderator capabilities to cert
 
 ### Remove accounts that might not belong
 
-Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. Make sure you use Teams to remove users from your org-wide team. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team.
+Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. **Make sure you use Teams to remove users from your org-wide team**. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team.
 
 ## FAQ
 
