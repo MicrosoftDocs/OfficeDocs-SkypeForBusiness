@@ -13,6 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
+f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams. 

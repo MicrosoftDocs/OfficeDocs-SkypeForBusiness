@@ -12,7 +12,10 @@ description: Learn about the  policies and settings you can use to manage apps f
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.apppolicies.adminsettings
+f1keywords: 
+- ms.teamsadmincenter.apppermspolicies.adminsettings
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
+- ms.teamsadmincenter.apppolicies.adminsettings
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
