@@ -50,8 +50,14 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Feature  | Maximum limit  |
 |---------|---------|
 |Number of people in a private chat<sup>1</sup>  | 100    |
+|Number of file attachments<sup>2</sup>  |10     |
+|Number of inline images<sup>2</sup> |50   |
 
 <sup>1</sup>If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
+<sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
+
+> [!NOTE]
+> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
 
 ### Emailing a channel
 
@@ -59,16 +65,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Message size<sup>1</sup>  |28 KB   |
-|Number of file attachments<sup>2</sup>  |10     |
-|Number of inline images<sup>2</sup> |50   |
+|Message size<sup>1<sup> | 24 KB |
 
 <sup>1</sup>If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
-
-<sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
-
-> [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Office 365 licenses.
 
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
