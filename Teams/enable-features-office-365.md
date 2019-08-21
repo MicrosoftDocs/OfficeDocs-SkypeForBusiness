@@ -51,7 +51,7 @@ To add or block a domain:
 
 ### Teams settings
 
-In **Teams settings**, you can set up features for teams including notification and feeds, email integration, cloud storage options, and devices.
+In **Teams settings**, you can set up features for teams including notifications and feeds, email integration, cloud storage options, and devices.
 
 #### Notifications and feeds
 
