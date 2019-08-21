@@ -66,3 +66,5 @@ When you buy Business Voice, you get the following features and more:
         </td>
     </tr>
 </table>
+
+You can see everything that's included with Business Voice by visiting [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
