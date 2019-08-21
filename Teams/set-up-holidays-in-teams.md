@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: "Learn how to set up holidays in Microsoft Teams and connect them to your auto attendant."
 ---
 
