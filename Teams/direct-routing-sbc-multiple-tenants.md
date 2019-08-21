@@ -81,6 +81,7 @@ The following diagram summarizes the requirements to base domain, subdomains, an
 
 The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with SAN *\*.base_domain (for example, \*customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
+
 The following table is an example of one configuration.
 
 
@@ -93,6 +94,9 @@ The following table is an example of one configuration.
 ||         |         |         |         |         |
 
 To configure the base and subdomains, please follow the steps described below. In the example, we will configure a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
+
+> [!NOTE]
+> Use sbcX.customers.adatum.biz in the carrier tenant to enable voice there.
 
 ## Register a base domain name in the carrier tenant
 
