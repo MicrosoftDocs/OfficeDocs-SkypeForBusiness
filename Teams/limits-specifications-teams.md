@@ -64,8 +64,12 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Feature  | Maximum limit  |
 |---------|---------|
 |Message size<sup>1<sup> | 24 KB |
+|Number of file attachments<sup>2</sup>  |20     |
+|Number of inline images<sup>2</sup> |50   |
 
 <sup>1</sup>If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
+
+<sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
 
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
