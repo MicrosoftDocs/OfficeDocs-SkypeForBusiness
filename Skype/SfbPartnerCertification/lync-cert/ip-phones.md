@@ -69,5 +69,4 @@ Contact the vendors for more information about these products.
 | Yealink SIP-T48G                          | March 2015         | 35.7.0.26                                                                                     | Not tested                                 | 35.7.0.26                                                                                     |
 |                                           |                    |                                                                                               |                                            |                                                                                               |
 
-## IP phones tested features comparison
-View the [IP phones tested features comparison workbook](http://partnersolutions.skypeforbusiness.com/solutionscatalog/Export?categoryid=1) to compare core and extended features across all IP Phones qualified for Lync.
+
