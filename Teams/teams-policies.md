@@ -17,6 +17,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels. 
 f1keywords: 
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
+- ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create

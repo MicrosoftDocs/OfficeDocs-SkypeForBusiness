@@ -11,7 +11,9 @@ audience: admin
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.meetingsettings.qos
+f1keywords: 
+- ms.teamsadmincenter.meetingsettings.qos
+- ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
