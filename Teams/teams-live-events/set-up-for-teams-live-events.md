@@ -52,7 +52,7 @@ Live events policies are used to control who in your organization can hold live 
 
 |Setting  |Description  |
 |---------|---------|
-|**Name**     |This is the name of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.          |
+|**Title**     |This is the title of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.          |
 |**Description**    |Use this to add a friendly description for the policy.         |
 |**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule a live event produced with an external app or device, there are additional steps you must do. To learn more, see  [Enable users to schedule events that were produced with an external app or device](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Allow transcription for attendees** |This setting can only be applied to events produced in Teams. Turning this on enables live event attendees to see live captions and subtitles during the event.         |
