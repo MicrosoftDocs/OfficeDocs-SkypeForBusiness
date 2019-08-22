@@ -351,7 +351,6 @@ For example, the Network Connection Detail Pair shows the Network Connection Det
 
 |Network Connection Detail Pair |How to interpret |
 |:--- |:--- |
-
 |Wired : Wired |First and second endpoints both used wired ethernet connections. |
 |Wired : wifi |First endpoint used wired ethernet connection and second endpoint used Wi-Fi connection, or the second endpoint used wired ethernet connection and first endpoint used Wi-Fi connection. |
 |: wifi |First endpoint used a WiFi connection and the network connection used by the second endpoint is unknown, or the second endpoint used a WiFi connection and the network connection used by the first endpoint is unknown. |
