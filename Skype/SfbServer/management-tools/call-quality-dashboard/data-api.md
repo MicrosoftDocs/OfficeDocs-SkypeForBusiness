@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: "Summary: Learn about the Rata API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
+description: "Summary: Learn about the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
 # Data API for Call Quality Dashboard (CQD) in Skype for Business Server
  
-**Summary:** Learn about the Rata API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
+**Summary:** Learn about the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
   
 The Data API provides programmatic access for Call Quality Dashboard for Skype for Business Server.
   
