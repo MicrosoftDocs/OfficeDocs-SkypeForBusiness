@@ -83,6 +83,9 @@ Before you start transferring phone numbers, we recommend that you review the in
 
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
 
+    > [!NOTE]
+    > There are no fees requested by Microsoft for the porting operation.
+
 10. On the **Submit** page under **Other people to notify** enter any other email address of the people you want to and click **Submit port order**. The port order will now be listed on the **Port orders** page. You can view the status of the order under **Status** column. You can view details of the port order such as the **Order ID**, **Submitted**, **Transfer date** and **Status**. You can see more details for the port order in the Action pane, including the name of the carrier.
 
 ## What happens next?
