@@ -90,7 +90,7 @@ We added a new feature that allows you, the [admin](https://support.office.com/a
   
 ## Can Audio Conferencing be used by the users who are part of an on-premises deployment of Skype for Business Server?
 
-We're not quite there. However, you can continue to use audio conferencing that is available in Skype for Business Server along with a PSTN gateway for your on-premise users. 
+With [Meetings First](meetings-first.md), Skype for Business Server users can benefit from Teams meetings and Teams Audio Conferencing. 
   
 ## Can a user get a personal conference ID?
 
