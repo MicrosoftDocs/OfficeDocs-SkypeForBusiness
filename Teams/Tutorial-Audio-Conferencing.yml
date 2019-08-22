@@ -108,11 +108,15 @@ items:
     If you’re already using Skype for Business, you’ll need to consider the
     following:
 
-    - **Skype for Business Server–homed users** — If you’re using Skype for Business Server, Teams meetings scheduled by users
+    ### Skype for Business Server–homed users
+    
+    If you’re using Skype for Business Server, Teams meetings scheduled by users
     who are homed on Skype for Business on-premises will not include PSTN meeting
     coordinates.
 
-    - **Skype for Business Online–homed users** — If users are homed in Skype for Business Online and are already enabled for
+    ### Skype for Business Online–homed users
+    
+    If users are homed in Skype for Business Online and are already enabled for
     Audio Conferencing, they’ll automatically be enabled for Audio Conferencing in
     Teams. The PIN they use for authenticating in meetings when they dial in will be
     the same for Skype for Business and Teams.
