@@ -8,8 +8,7 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: 
-- Teams_ITAdmin_Help
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -38,7 +37,7 @@ Many of the dimensions and measures in CQD are labeled as first or second. The f
 
 For example, each row represents a pair of User Agents involved in a stream:
 
-|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller| 
+|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller
 |:--- |:--- |:--- |:--- |:--- |
 |AV-MCU |OC (Skype for Business client) |AV-MCU |OC (Skype for Business client) |TRUE |
 |OC (Skype for Business client) |AV-MCU |AV-MCU |OC (Skype for Business client) |FALSE |
@@ -323,7 +322,7 @@ The following table lists the dimensions currently available in CQD:
 
 Dimensions that are provided as range or group of values are shown using the following format:
 
- _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>)_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 For example, the Duration (Minutes) dimension represents the call duration in seconds with the value reported as a range of values.
 
@@ -491,10 +490,9 @@ The following table lists the measures currently available in CQD:
 |Firewall DPI Media Failure Percentage |Percentage |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicates a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365. |
 
 ## Related topics
+
 [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-
-
