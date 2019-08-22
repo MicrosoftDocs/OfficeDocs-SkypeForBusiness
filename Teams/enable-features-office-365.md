@@ -55,7 +55,7 @@ In **Teams settings**, you can set up features for teams including notifications
 
 #### Notifications and feeds
 
-Here you can control whether suggested feeds and trending feeds appear in users' activity feed in Teams. To learn more about the activity feed, see [Explore the Activity feed in Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56). 
+Here you can control whether suggested feeds and trending feeds appear in users' activity feed in Teams. To learn more about the activity feed, see [Explore the Activity feed in Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
 #### Email integration
 
