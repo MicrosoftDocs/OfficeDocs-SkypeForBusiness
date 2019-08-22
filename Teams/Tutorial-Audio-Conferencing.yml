@@ -108,15 +108,11 @@ items:
     If you’re already using Skype for Business, you’ll need to consider the
     following:
 
-    **Skype for Business Server–homed users**
-    
-    If you’re using Skype for Business Server, Teams meetings scheduled by users
+    - **Skype for Business Server–homed users** — If you’re using Skype for Business Server, Teams meetings scheduled by users
     who are homed on Skype for Business on-premises will not include PSTN meeting
     coordinates.
 
-    **Skype for Business Online–homed users**
-    
-    If users are homed in Skype for Business Online and are already enabled for
+    - **Skype for Business Online–homed users** — If users are homed in Skype for Business Online and are already enabled for
     Audio Conferencing, they’ll automatically be enabled for Audio Conferencing in
     Teams. The PIN they use for authenticating in meetings when they dial in will be
     the same for Skype for Business and Teams.
@@ -177,7 +173,7 @@ items:
     Although we don’t describe how to perform every action, we recommend some
     scenarios to try out.
 
-    ###Requirements
+    ### Requirements
     -   An Office 365 tenant with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
         -   If you don’t have a test tenant, you can sign up for a trial tenant at
@@ -191,7 +187,7 @@ items:
             phone.
         -   A phone that can dial in to meetings and be dialed out to
 
-    ###Suggested scenarios to test
+    ### Suggested scenarios to test
     -   Enable users for Audio Conferencing.
     -   Set different conference bridge numbers for different users.
     -   Change the default conference bridge number for the tenant.

@@ -34,7 +34,7 @@ Because presence is an indication of reachability through chat and calling, when
 
 ## How the available functionality in Teams client changes based on mode
 
-The available functionality in Teams depends on the user's coexistence mode, as set by TeamsUpgradePolicy. The table below summarizes the  behavior:
+The available functionality in Teams depends on the user's coexistence mode, as set by TeamsUpgradePolicy. The following table summarizes the behavior:
 
 |User's effective mode|Experience in Teams client|
 |---|---|
@@ -72,7 +72,7 @@ Administrators need *not* explicitly set these policy settings when using co-exi
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superceded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. Below is an example of what the PowerShell warning looks like:
+When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superceded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. The following is an example of what the PowerShell warning looks like:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
