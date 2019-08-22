@@ -55,7 +55,7 @@ Meeting First brings the following capabilities together:
   - USB device HID control reconciliation (also available on Mac): The HID controls are honored by Teams while in Teams meetings and by Skype for Business in all other circumstances.
   - Unless otherwise mentioned, Better Together capabilities require recent Windows desktop clients at this time.
 
-## Pre-requisites for Meetings First
+## Prerequisites for Meetings First
 
 The only hard requirements for Meetings First are the same as the requirements for Teams with on-premises Active Directory and a Skype for Business on-premises deployment:
 
@@ -76,5 +76,36 @@ At minimum, users must be [licensed for Teams](https://docs.microsoft.com/office
 We recommend you [grant **SfBOnly** or **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) mode as tenant default at the time you license the users. This ensures users would not start using Teams on their own in the default **Islands** mode prior to you being ready to launch Meetings First.
 
 Meetings First is supported on full desktop clients (Windows and Mac), on browser clients, and on mobile clients. It is also compatible with [Microsoft Teams Rooms](https://docs.microsoft.com/en-us/microsoftteams/room-systems/). “Better Together” requires the full desktop client.
+
+## Prepare for Teams meetings in Meetings First
+
+For your users to have the best possible experience in Teams meetings, you should:
+
+- Follow the steps in [Meetings and conferencing for Microsoft Teams](deploy-meetings-microsoft-teams-landing-page.md), in particular.
+- [Evaluate your environment](3-envision-evaluate-my-environment.md).
+- [Prepare your organization’s network for Microsoft Teams](prepare-network.md).
+- Upgrade your meeting rooms with Teams capable [meeting room devices and solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), or use [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) to enable your existing third-party rooms and devices to join Teams meetings.
+- Equip your users with [certified USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+- Prepare to [drive awareness and adoption for Teams meetings](adopt-microsoft-teams-landing-page.md).
+- [Plan your service management](4-envision-plan-my-service-management.md).
+- Familiarize yourself with the rich Call Analytics reports to [troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+
+You might consider running a moderate scale production ready pilot at this stage.
+
+## Configure users for Meetings First
+
+Once you have licensed your users and prepared your organization for Teams meetings, it’s time to enable your users for Meetings First. We’ve made it easy: one single setting will do it all!
+
+All capabilities and user experiences in Meetings First, including the Teams client configuration and [auto-conformance](teams-client-experience-and-conformance-to-coexistence-modes.md) of the user experience, Meetings Migration Service, and Better Together capabilities, are configured by granting the user (or group of users, or tenant default) the [SfBWithTeamsCollabAndMeetings coexistence mode](setting-your-coexistence-and-upgrade-settings.md) either in the [Microsoft Teams admin center](manage-teams-in-modern-portal.md) or by using [PowerShell}(https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+
+Optionally, should you want to hide the Teams and Channels application from the left navigation of your users’ Teams client to further focus their experience on meetings, that can be achieved by using the [App Permission policy](teams-app-permission-policies.md).
+
+## Reporting and Call Analytics
+
+Reporting and Call Analytics for Teams meetings in Meetings First are unchanged from what they are in other modes.
+
+## Related links
+
+After you review this article, you might want to consult [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md), and [Coexistence with Skype for Business](coexistence-chat-calls-presence.md) for further details.
 
 
