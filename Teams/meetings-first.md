@@ -20,7 +20,7 @@ appliesto:
 
 # Meetings First
 
-“Meetings First” is a specific coexistence configuration between Teams and Skype for Business that is optimized for Skype for Business Server organizations who have a significant deployment of Enterprise Voice on premises, and who want to start consuming Teams meetings as rapidly as possible. For these organizations, Meetings First is an alternative to using **Islands** mode that provides a deterministic upgrade path focused on the Teams meetings experience.
+“Meetings First” is targeted at and optimized for Skype for Business Server organizations with Enterprise Voice on premises who want to start using Teams meetings as rapidly as possible. For these organizations, Meetings First is an alternative to using **Islands** mode that prioritizes the Teams meetings experience.
 
 ## What is Meetings First?
 
