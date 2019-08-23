@@ -44,15 +44,12 @@ OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |Th
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
 |VoiceRoutingPolicy|Has a value|Has a value|Has a value|N/A|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Has a value|
-|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly or Islands|$Null|$Null|Islands or TeamsOnly|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – please read the note below.|Teams or SfB |SfB|SfB|Teams|
+|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly|$Null|$Null|TeamsOnly|
 |TeamsCallingPolicy</br>AllowPrivateCalling|True|N/A|N/A|True|
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/A|N/A|True|
 ||||||
 
 <sup>1</sup>Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
-
-<sup>2</sup>As previously announced, TeamsInteropPolicy will be retired (targeted for the end of Q3), and its functionality is being consolidated into TeamsUpgradePolicy. Interop and migration will be managed using “coexistence mode” as determined by TeamsUpgradePolicy, which is now available. Selection of the user’s mode will govern both routing of incoming calls and chats and in which client the user can initiate chats and calls or schedule meetings. While TeamsInteropPolicy will be retired, it still needs to be set in parallel with TeamsUpgradePolicy during the phaseout.  
 
 As part of this effort, Microsoft recently updated the “Microsoft Teams admin center” (also known as Modern Portal) to reflect the new management model based on coexistence modes. In Modern Portal, configuring TeamsUpgradePolicy will now automatically also set TeamsInteropPolicy to consistent value, so TeamsInteropPolicy is no longer exposed in the user interface. However, admins using PowerShell must still set both TeamsUpgradePolicy and TeamsInteropPolicy together to ensure proper routing. After the transition to TeamsUpgradePolicy is complete, it will no longer be necessary to also set TeamsInteropPolicy.
 
