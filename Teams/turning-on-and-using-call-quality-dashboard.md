@@ -187,7 +187,7 @@ Similarly, the Client-Client tab has five collapsible sections:
 During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test  always classifies the streams as *Outside*.  
 
 > [!NOTE]
-> Inside Test for Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
+> The Inside Test for a Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
   
 #### Wired vs. wifi
 
@@ -220,11 +220,10 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type. Subsequent releases will add more data types.  <!-- needs PM update  -->
 2. After you select the file data type, click **Browse** to choose a data file.
 
-   - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
+   - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
    - The data file must be no larger than 50 MB.
    - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit may apply to cqd.lync.com as well. <!-- PM review -->
    - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
-
 3. Next, specify a **Start date** and, optionally, **Specify an end date**.
 4. Finally, select **Upload** to upload the file to the CQD server.
     Before the file is uploaded, it is first validated. Once validated, it is stored in an Azure blob. If validation fails or the file fails to be stored in an Azure blob, an error message requests a correction to the file. The following image shows a sample error with an incorrect number of columns in the data file.
@@ -246,53 +245,44 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 CQD uses a Building data file. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
   
-- The file must be either a .tsv file, which means, in each row, columns are separated by a TAB, or a .csv file with each column separated by a comma.
-- The content of the data file doesn't include table headers. That means the first line of the data file is expected to be real data, not header labels like "Network".
-- For each column, the data type can only be String, Number, or Bool. If it is Number, the value must be a numeric value. If it is Bool, the value must be either 0 or 1.
-- For each column, if the data type is string, the data can be empty but still must be separated by an appropriate delimiter (a tab or comma). This assigns that field an empty string value.
-- There must be 14 columns for each row, each column must have the following data type, and the columns must be in the order listed in the following table:
+- The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
+- The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
+- Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
+- If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
+- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
-|Column Name|Data type|Example|
-|:-----|:-----|:-----|
-|Network   | String   | 192.168.1.0   |
-|NetworkName   | String   | USA/Seattle/SEATTLE-SEA-1   |
-|NetworkRange   | Number   | 26   |
-|BuildingName   | String   | SEATTLE-SEA-1   |
-|OwnershipType   | String   | Contoso   |
-|BuildingType   | String   | IT Termination   |
-|BuildingOfficeType   | String   | Engineering   |
-|City   | String   | Seattle   |
-|ZipCode   | String   | 98001   |
-|Country   | String   | US   |
-|State   | String   | WA   |
-|Region   | String   | MSUS   |
-|InsideCorp   | Bool   | 1   |
-|ExpressRoute   | Bool   | 0   |
+||||||||||||||||
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |
+|**Column field name** |NetworkIP    |NetworkName               |NetworkRange |BuildingName  |OwnershipType | BuildingType   | BuildingOfficeType | City    |ZipCode |Country|State|Region   |InsideCorp   | ExpressRoute   |
+|**Data type**         | String     | String                     |Number       | String       | String       | String         | String             | String  | String |String |String|  String   |Boolean   | Boolean   |
+|**Example value**     |192.168.1.0 |USA/Seattle/SEATTLE-SEA-1   | 26          | SEATTLE-SEA-1| Contoso      | IT Termination | Engineering        | Seattle | 98001  |US     |WA |MSUS   | 1   |  0   |
+
+**Sample row:**
+
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,`
 
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (a combination of several subnets with a single routing prefix). All new building uploads are checked for overlaps in ranges. If you previously uploaded a building file, download and then re-upload the current file to identify overlaps, and fix issues (if any are present) before uploading again. Any overlap in previously uploaded files may result in faulty mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. When you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
 
 ### Endpoint data file
 
-CQD uses an Endpoint data file by joining its EndpointName column to the call record’s First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+CQD uses an Endpoint data file. The column values are used in the call record’s First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
-- For each column, the data type can only be String. The maximum allowed length is 64 characters.
-- For each column, the data can be empty (but still must be separated by an appropriate delimiter (that is, a tab or comma). An empty data field just assigns an empty string value.
-- EndpointName must be unique, otherwise the upload fails due to a duplicate row that causes incorrect joining.
-- EndpointLabel1, EndpointLabel2, EndpointLabel3 are customizable labels. They can be empty strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678” and so on.
-- There must be seven columns for each row and the columns must be in the order listed in the following table:
+- All seven columns use the String data type only. The maximum allowed length is 64 characters.
+- A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
+- EndpointName must be unique, otherwise the upload fails. Creating a duplicate row causes incorrect joining.
+- EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678”.
+- There must be seven columns for each row and the columns must be in the following order:
 
-|Column Name|Data type|Example|
-|:-----|:-----|:-----|
-|EndpointName   | String   | 1409W3534   |
-|EndpointMake   | String   | Fabrikam Inc   |
-|EndpointModel   | String   | Fabrikam Model 123   |
-|EndpointType    | String   | Laptop   |
-|EndpointLabel1   | String   | IT designated 2018 Laptop   |
-|EndpointLabel2   | String   | Asset Tag 5678   |
-|EndpointLabel3   | String   | Purchase 2018    |
+  **Field order:**
+
+  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
+
+  **Sample row:**
+
+  `1409W3534, Fabrikam Model 123,     Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## Select media type in detailed reports
 
