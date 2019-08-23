@@ -56,7 +56,7 @@ Creating a resource account that uses a phone number would require performing th
    If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
 
 2. Buy a Phone System license. See:  
-   - [Phone System–Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [Phone System–Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 and E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 Business Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -98,7 +98,7 @@ Creating a resource account that uses a phone number would require performing th
 
 The resource account will need an assigned phone number if it will be assigned to a top level auto attendant or call queue. User (subscriber) phone numbers can't be assigned to a resource account, only service toll or toll-free phone numbers can be used.
 
-  You can assign a Direct Routing Hybrid number to your resource account.  See [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan.md) for details.
+  You can assign a Direct Routing Hybrid number to your resource account.  See [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) for details.
 
   > [!NOTE]
   > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
@@ -110,7 +110,7 @@ The resource account will need an assigned phone number if it will be assigned t
 
 8. Associate the resource account with the Phone System auto attendant or call queue you chose previously.
 
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## Create a resource account without a phone number
 
@@ -141,7 +141,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
    - [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associate the resource account and the Phone System auto attendant or call queue you chose previously.
 
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## Test the implementation
 
@@ -175,7 +175,7 @@ Migration from Exchange UM to Phone System will require recreating the call queu
 
 4. Configure a Phone System auto attendant or call queue that uses the endpoints as previously described.
 
-   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the hierarchies in your old Exchange UM system.
+   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) to create a logical map of the hierarchies in your old Exchange UM system.
 5. Test the Phone System auto attendant or call queue.
 6. Reassign the phone number linked to the Exchange UM call queue or auto attendant to the corresponding Phone System auto attendant or call queue.  
 
