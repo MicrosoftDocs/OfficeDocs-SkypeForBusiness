@@ -33,16 +33,13 @@ When you buy Business Voice, you get the following features and more:
 
 <table>
     <tr>
-        <td><b>Audio Conferencing</b>
+        <td><b>Phone System</b>
         </td>
-        <td>Lets you host conference calls with people who don't have Teams or don't have an Internet connection.
+        <td>Standard phone features including Voice Mail, Caller ID, shared phone lines, and emergency calling.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
     </tr>
-</table>
-
-<table>
     <tr>
         <td><b>Call menus</b>
         </td>
@@ -51,9 +48,6 @@ When you buy Business Voice, you get the following features and more:
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
     </tr>
-</table>
-
-<table>
     <tr>
         <td><b>Domestic calling</b>
         </td>
@@ -62,13 +56,10 @@ When you buy Business Voice, you get the following features and more:
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
     </tr>
-</table>
-
-<table>
     <tr>
-        <td><b>Voice Mail, Caller ID, shared phone lines, emergency calling</b>
+        <td><b>Audio Conferencing</b>
         </td>
-        <td>Standard phone features are also included so people can easily manage their calls.
+        <td>Lets you host conference calls with people who don't have Teams or don't have an Internet connection.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
