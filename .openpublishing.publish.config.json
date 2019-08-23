@@ -89,6 +89,10 @@
     "SkypeServer2019": [
       "Publish",
       "Pdf"
+    ],
+    "dstrome-SMB-voice": [
+      "Publish",
+      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
