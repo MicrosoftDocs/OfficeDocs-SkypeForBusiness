@@ -40,18 +40,18 @@ When you buy Business Voice, you get the following features and more:
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
     </tr>
-    <tr>
-        <td><b>Call menus</b>
+<tr>
+        <td><b>Domestic calling</b>
         </td>
-        <td>Lets callers choose which department or extension they want their call to be sent to.
+        <td>Calls within your country or region are free. International plans and toll-free dialing are also available.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
     </tr>
     <tr>
-        <td><b>Domestic calling</b>
+        <td><b>Call menus</b>
         </td>
-        <td>Calls within your country or region are free. International plans and toll-free dialing are also available.
+        <td>Lets callers choose which department or extension they want their call to be sent to.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
