@@ -1384,7 +1384,7 @@
     {
       "source_path": "Skype/SfbHybrid/hybrid/configure-cloud-auto-attendant.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-onprem-ra", 
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbHybrid/hybrid/configure-call-queue.md", 
