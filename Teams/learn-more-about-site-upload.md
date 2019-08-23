@@ -1,5 +1,5 @@
 ---
-title: Adding and updating reporting labels
+title: Add and update reporting labels
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -23,7 +23,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-Adding and updating reporting labels
+Add and update reporting labels
 ============================
 
 Reporting labels are used in your organization to indicate the physical locations of offices, buildings, or organizational sites. The Reporting labels page in the Microsoft Teams admin center lets you provide a text file (.csv or .tsv) containing a list of physical locations and their associated network subnets. This file is used by Call Analytics and Call Quality Dashboard for generating reports. When you upload your subnet mapping, the reports provided by these services will contain the location names as well, making the reports easier to understand and use for remediating any potential issues.
