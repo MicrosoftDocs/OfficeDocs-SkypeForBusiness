@@ -24,7 +24,7 @@ appliesto:
 
 ## What is Meetings First?
 
-Meetings First is based on the **SfBWithTeamsCollabAndMeetings** coexistence mode. Meetings First is not a product or a feature—it leverages capabilities and features of Teams and Skype for Business to provide a uniquely tailored coexistence experience.
+Meetings First is based on the **SfBWithTeamsCollabAndMeetings** coexistence mode. Meetings First is not a product or a feature—it is a configuration that leverages capabilities and features of Teams and Skype for Business to provide a uniquely tailored coexistence experience.
 
 In Meetings First, users create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. There is no overlap of modalities between Teams and Skype for Business. Chat, calling, and presence are on in Skype for Business and off in Teams. This enables unique “better together” scenarios between Skype for Business and Teams that enhance the user’s experience during coexistence, as well as interoperability scenarios with **Teams Only** users.
 
@@ -51,7 +51,7 @@ Meeting First brings the following capabilities together:
 - Superior [Teams meeting experience](tutorial-meetings-in-teams.yml).
 - “Better Together” between Teams and Skype for Business: 
   - Automatic hold: When in a meeting in Teams, getting in a call in Skype for Business will place the Teams meeting on hold, and vice-versa. This prevents users from having their private calls overheard by the meetings participants.
-  - Presence reconciliation: Activity in Teams is reflected in the user’s presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show **Do Not Disturb** (based on their settings in Skype for Business).
+  - Presence reconciliation: Activity in Teams is reflected in the user’s presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show Do Not Disturb (based on their settings in Skype for Business).
   - USB device HID control reconciliation (also available on Mac): The HID controls are honored by Teams while in Teams meetings and by Skype for Business in all other circumstances.
   - Unless otherwise mentioned, Better Together capabilities require recent Windows desktop clients at this time.
 
@@ -69,7 +69,7 @@ Meetings First is supported with any version of the Skype for Business Server (a
 
 Once these requirements are met (and not prior), the users can be [licensed for Office 365 and Teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
 
-For the best Meetings First experience, users should be enabled for [Exchange Online](exchange-teams-interact.md), [SharePoint Online, and OneDrive for Business](sharepoint-onedrive-interact.md), and Office 365 Group creation. Meetings First is supported for users whose mailbox is on Exchange on-premises, or who don’t have SharePoint Online or OneDrive For Business, or Office 365 Group creation. However, their experience will be less complete. In particular, for organzations using Exchange Server on-premises, there might be (depending on the version of Exchange Server) some limitations to creating and viewing meetings from the Teams client, as well as with respect to compliance capabilities.
+For the best Meetings First experience, users should be enabled for [Exchange Online](exchange-teams-interact.md), [SharePoint Online, and OneDrive for Business](sharepoint-onedrive-interact.md), and Office 365 Group creation. Meetings First is supported for users whose mailbox is on Exchange on-premises, or who don’t have SharePoint Online or OneDrive For Business, or Office 365 Group creation. However, their experience will be less complete. In particular, for organizations using Exchange Server on-premises, there might be (depending on the version of Exchange Server) some limitations to creating and viewing meetings from the Teams client, as well as with respect to compliance capabilities.
 
 At minimum, users must be [licensed for Teams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). In addition, they can be licensed for [Audio Conferencing](set-up-audio-conferencing-in-teams.md), if needed.
 
