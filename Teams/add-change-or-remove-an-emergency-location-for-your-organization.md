@@ -37,23 +37,16 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, select the location that you want to change, and then click **Edit**.
-3. Make the changes you want to the address.    
+3. Make the changes you want to the address.
 4. Click **Save**.
     
 ## Remove an emergency location from an emergency address
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**. 
 2. In the list, select the location that you want to remove, and then click **Delete**
-
     
 ## Related topics
-[What is address validation?](what-is-address-validation.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
-
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 
