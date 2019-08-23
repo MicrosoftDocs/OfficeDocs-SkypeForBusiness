@@ -33,7 +33,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Caller ID policies**.
 2. Click **Add**.
-    ![Screen shot of new caller ID policy page in the admin center](media/caller-id-policies-add-policy.png)
+![Screen shot of new caller ID policy page in the admin center](media/caller-id-policies-add-policy.png)
 3. Enter a name and description for the policy.
 4. From here, choose the settings that you want:
 
@@ -45,7 +45,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
     - **Service number**: Lets you set a service phone number to display as the caller ID.
     - **Anonymous**: Displays the caller ID as Anonymous.
 
-- **Service number to use to replace the caller ID**: Choose a service number to use to replace the caller ID of users. This option is available if you selected **Service number** in **Replace caller ID**.
+- **Service number to use to replace the caller ID**: Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace caller ID**.
 
 5. Click **Save**.
 
