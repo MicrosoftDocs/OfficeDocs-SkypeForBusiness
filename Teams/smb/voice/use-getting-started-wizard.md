@@ -18,6 +18,8 @@ appliesto:
 
 The Getting Started wizard for Microsoft 365 Business Voice gives you and easy and quick way to start receiving and making phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, extensions, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a Business Voice pilot so you can try it out before moving to Microsoft 365.
 
+It's a good idea to read this article before you start the wizard. When you're ready, you can open the wizard from the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage). Make sure you sign in either with the account you used to create your subscription or another account that's a Global Administrator.
+
 After you've finished the wizard, here are a couple articles you can check out to see what you can do with Business Voice and learn how to customize it. If you don't want to customize anything, you're done! You can start using Business Voice right away.
 
 * [Things to try with Business Voice](things-to-try.md)
