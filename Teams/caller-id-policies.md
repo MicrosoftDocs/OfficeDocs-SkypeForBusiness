@@ -39,15 +39,15 @@ You can edit the global policy or create and assign a custom policy. If a user i
 3. Enter a name and description for the policy.
 4. From here, choose the settings that you want:
 
-- **Block incoming caller ID**: Turn on this setting to block the caller ID of incoming calls from being displayed.
-- **Users can override the caller ID policy**: Turn on this setting to let users override the settings in the policy. This means that users can choose whether to display their caller ID or block the caller ID of an incoming call.
-- **Replace caller ID**: Set the caller ID to be displayed for users by selecting one of the following:
+    - **Block incoming caller ID**: Turn on this setting to block the caller ID of incoming calls from being displayed.
+    - **Users can override the caller ID policy**: Turn on this setting to let users override the settings in the policy. This means that users can choose whether to display their caller ID or block the caller ID of an incoming call.
+    - **Replace caller ID**: Set the caller ID to be displayed for users by selecting one of the following:
 
-    - **User's number**: Displays the user's number. 
-    - **Service number**: Lets you set a service phone number to display as the caller ID.
-    - **Anonymous**: Displays the caller ID as Anonymous.
+        - **User's number**: Displays the user's number. 
+        - **Service number**: Lets you set a service phone number to display as the caller ID.
+        - **Anonymous**: Displays the caller ID as Anonymous.
 
-- **Service number to use to replace the caller ID**: Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace caller ID**.
+    - **Service number to use to replace the caller ID**: Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace caller ID**.
 
 5. Click **Save**.
 
