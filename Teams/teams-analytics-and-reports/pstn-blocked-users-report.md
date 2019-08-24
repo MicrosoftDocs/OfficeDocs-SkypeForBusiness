@@ -25,7 +25,7 @@ The PSTN blocked users report in the Microsoft Teams admin center shows you the 
 
 ## View the report
 
-Go to the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **PSTN blocked users**.
+In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, under **Report**, select **PSTN blocked users**, and then click **Run report**.
 
 ## Interpret the report
 
