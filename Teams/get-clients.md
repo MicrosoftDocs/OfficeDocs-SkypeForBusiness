@@ -119,7 +119,7 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 > [!NOTE]
 > The mobile version must be available to the public in order for Teams to work as expected.
 
-Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.
+Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the mobile Apps themselves will be supported provided the version is within three months of the current release.
 
 
 | | | |
