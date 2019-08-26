@@ -18,8 +18,6 @@ You can now use a content camera with a Microsoft Teams Room system. A content c
 
 See the video [Work like you are in one place, with Microsoft Teams Rooms](https://www.youtube.com/watch?v=1XvgH2rNpmk) for examples of content camera functionality.
 
-> [!VIDEO https://www.youtube.com/watch?v=1XvgH2rNpmk] 
-
 ## Set up a content camera
 
 > [!NOTE]
