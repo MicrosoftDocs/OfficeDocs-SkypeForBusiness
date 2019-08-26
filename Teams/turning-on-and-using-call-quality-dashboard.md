@@ -53,7 +53,7 @@ CQD version 3 has delivered a near real-time CQD dashboard with EUII, and report
 - Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
 - Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
 - Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
-- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data. (Self-serve upload functionality coming soon).  <!-- needs PM update  -->
+- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
 
 CQD version 2 added:
 
@@ -106,9 +106,9 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
   
 |Feature|Summary Reports|Detailed Reports|
 |:-----|:-----|:-----|
-|Application sharing metric   | No   | Yes   |
-|Customer building information support   | Yes   | Yes   |
-|Customer endpoint information support   | Only in cqd.teams.microsoft.com   | Only in cqd.teams.microsoft.com   |
+|Application sharing metric | No | Yes |
+|Customer building information support | Yes | Yes |
+|Customer endpoint information support | Only in cqd.teams.microsoft.com   | Only in cqd.teams.microsoft.com   |
 |Drill down analysis support   | No   | Yes   |
 |Media reliability metrics   | No   | Yes   |
 |Out-of-the-box reports   | Yes   | Yes   |
@@ -126,7 +126,7 @@ All editions of CQD provide an experience that gives you call quality metrics wi
   
 ### Overview reports
 
-Both editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!-- needs PM update  -->
+All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!-- needs PM update  -->
   
 Summary Reports provide a simplified tabbed page report view so you can quickly browse and understand the overall call quality status and trends.
   
@@ -217,12 +217,12 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
   
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type. Subsequent releases will add more data types.  <!-- needs PM update  -->
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type. 
 2. After you select the file data type, click **Browse** to choose a data file.
 
    - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
    - The data file must be no larger than 50 MB.
-   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit may apply to cqd.lync.com as well. <!-- PM review -->
+   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit also applies to CQD v2  on cqd<span></span>.lync<span></span>.com. 
    - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
 3. Next, specify a **Start date** and, optionally, **Specify an end date**.
 4. Finally, select **Upload** to upload the file to the CQD server.
@@ -259,7 +259,9 @@ CQD uses a Building data file. The Subnet column is derived by expanding the Net
 
 **Sample row:**
 
-`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,`
+```
+192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,
+```
 
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (a combination of several subnets with a single routing prefix). All new building uploads are checked for overlaps in ranges. If you previously uploaded a building file, download and then re-upload the current file to identify overlaps, and fix issues (if any are present) before uploading again. Any overlap in previously uploaded files may result in faulty mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. When you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
@@ -272,7 +274,7 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 - All seven columns use the String data type only. The maximum allowed length is 64 characters.
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- EndpointName must be unique, otherwise the upload fails. Creating a duplicate row causes incorrect joining.
+- EndpointName must be unique, otherwise the upload fails. Creating a duplicate row or two rows using the same EndpointName would cause incorrect joining.
 - EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678”.
 - There must be seven columns for each row and the columns must be in the following order:
 
@@ -284,15 +286,24 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
   `1409W3534, Fabrikam Model 123,     Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
-## Select media type in detailed reports
+## Create custom reports
 
 <a name="BKMKMediaType"></a>
 
-<!-- serious overhaul needed, PM review, this is totally different -->
+<!-- serious overhaul needed, PM review, previous content was insufficient -->
+
+You may find you want to create a specific report that focuses on certain dimension of the data in a way not available in the detailed reports provided.
+
+To create a custom detailed report, 
+
+1. Open CQD
+2. select stuff in the pulldown menu
+3. click on new report
+4. select media type and other parameters in the  settings screen (see screenshot)
 
 The detailed reports look at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
-![Screenshot: shows Call Quality Dashboard Dimensions.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Screenshot: create custom reports screen](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
 A view of the dimensions and measures for a single media type may require the MediaType dimension and filter. For example, to have a report that shows the total session counts across different media types, include the MediaType dimension.
   
