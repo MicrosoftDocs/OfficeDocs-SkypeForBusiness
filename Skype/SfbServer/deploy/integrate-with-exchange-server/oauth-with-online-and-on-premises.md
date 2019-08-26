@@ -30,6 +30,9 @@ This topic applies to integration with Exchange Server 2013 through 2019.
 
 - For information about compatibility, see [Skype for Business compatibility with Office apps](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/compatibility-with-office).
 
+> [NOTE]
+> If you have multiple primary SIP/SMTP domains on the same Exchange server. repeat  Step 3 (using a different account name), Step 4, and Step 7 for each domain.
+
 ## Configure integration between Exchange Server and O365
 
 ### Step 1: Configure OAuth authentication between Exchange Server and O365
