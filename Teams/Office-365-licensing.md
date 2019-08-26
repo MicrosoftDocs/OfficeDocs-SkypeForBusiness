@@ -13,9 +13,11 @@ search.appverid: MET150
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto: 
 - Microsoft Teams
 ---

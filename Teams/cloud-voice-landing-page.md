@@ -6,11 +6,14 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:  
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Landing page to deploying cloud voice in Teams
 appliesto: 

@@ -4,16 +4,17 @@ hide_bc: true
 title: Microsoft Teams technical documentation
 ms.reviewer: 
 ms.author: kenwith
+audience: admin
 manager: serdars
 author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority
-f1keywords: 
-- ms.teamsadmincenter.apppolicies.overview
+f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
+- ms.teamsadmincenter.apppolicies.overview
 ---
 <div id="main" class="v2">
     <div class="container">

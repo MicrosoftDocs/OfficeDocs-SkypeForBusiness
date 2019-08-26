@@ -1,5 +1,5 @@
 ---
-title: Meetings & conferencing in Microsoft Teams
+title: Meetings and conferencing in Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out meetings in Microsoft Teams.
 ms.topic: article
@@ -8,7 +8,8 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
@@ -18,12 +19,12 @@ appliesto:
 ---
 
 
-# Meetings & conferencing in Microsoft Teams
+# Meetings and conferencing in Microsoft Teams
 
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. Here's how. 
 
 
-## Meetings & conferencing deployment decisions
+## Meetings and conferencing deployment decisions
 
 Teams provides a great out-of-the-box experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
@@ -31,7 +32,7 @@ Teams provides a great out-of-the-box experience for your organization, and most
 > Watch the following session to learn more about Meetings: [Introduction to Meetings in Microsoft Teams for IT Pros](https://aka.ms/teams-meetings-intro)
 
 
-## Meetings & conferencing prerequisites 
+## Meetings and conferencing prerequisites 
 
 Before scaling your meetings deployment across your organization, take time to review and confirm that your environment is ready to provide users with the best
 possible experience. Review the following information and make any required changes to your environment as needed.

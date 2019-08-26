@@ -5,12 +5,17 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1keywords: 
+- ms.teamsadmincenter.assignments.overview
+- ms.teamsadmincenter.assignments.tooltip.emaildigest
+- ms.teamsadmincenter.assignments.tooltip.makecode
+- ms.teamsadmincenter.assignments.tooltip.turnitin
 description: Learn how to manage assignments in the Microsoft Teams admin center in Teams for Education.   
 localization_priority: Normal
 appliesto: 

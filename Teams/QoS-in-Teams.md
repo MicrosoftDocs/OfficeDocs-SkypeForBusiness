@@ -7,11 +7,14 @@ ms.date: 12/17/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.meetingsettings.qos
-MS.collection: 
+f1keywords: 
+- ms.teamsadmincenter.meetingsettings.qos
+- ms.teamsadmincenter.meetingsettings.network.qosmarkers
+ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
@@ -96,7 +99,7 @@ The DSCP value tells a correspondingly configured network what priority to give 
 
 The relative size of the port ranges for different real-time streaming workloads sets the proportion of the total available bandwidth dedicated to that workload. To return to our earlier postal analogy: a letter with an "Air Mail" stamp might get taken within an hour to the nearest airport, while a small package marked "Bulk Mail" mark can wait for a day before traveling over land on a series of trucks.
 
-The following table shows the required DSCP markings for Teams with ExpressRoute, and the associated ports for workload queues. These ranges might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+The following table shows the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute. These ranges might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Recommended initial port ranges_
 

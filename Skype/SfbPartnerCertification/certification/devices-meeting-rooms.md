@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
+ms.service: skype-for-business-online
 ms.collection: 
 - Lync
 - M365-voice
@@ -16,7 +16,8 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: 
+- ms.teamsadmincenter.devices.roomsystems.overview
 ms.custom:
 - Skype for Business Certification
 - dn947482 

@@ -7,9 +7,10 @@ ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.

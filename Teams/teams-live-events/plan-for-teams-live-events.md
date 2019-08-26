@@ -3,12 +3,13 @@ title: Plan for live events in Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -37,7 +38,10 @@ It's important to know that an Office 365 license is required to participate in 
 - **For events produced in Teams**  The user must be assigned a Teams license.
 - **For events produced with an external app or device** The user must be assigned a Stream license.
 
-For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> [!NOTE]
+> Teams live events is now available for US Government Cloud Community (GCC) organizations.
+
+For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 The user must have:
 - Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
@@ -64,11 +68,12 @@ The user must have:
 
  
 ## Teams live events and Skype Meeting Broadcast
+
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
 
 |**Capability**   |**Skype Meeting Broadcast** |**Events produced in Teams** |**Events produced in external app or device** |
 |---------|---------|---------|---------|
-|Maximum audience size |10,000 attendees |10,000 attendees* |10,000 attendees* |
+|Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
 |Maximum number of concurrent live events per Office 365 tenant |15  | 15  | 15  |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
@@ -93,8 +98,7 @@ The following table highlights core capabilities and features offered in live ev
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
-> [!IMPORTANT]
-> The limits that are set might be changed.
+<sup>1</sup> The limits that are set might be changed.
 
 ## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
@@ -109,7 +113,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Go Local Canada
 
 **Exclusions and considerations**
-- **Go Locals:** United Kingdom, India, Australia, Japan, and other Teams Go Locals are not currently supported.
+- **Go Locals:** United Kingdom and other Teams Go Locals are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps

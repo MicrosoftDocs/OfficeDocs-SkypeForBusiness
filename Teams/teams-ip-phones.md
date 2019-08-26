@@ -6,8 +6,8 @@ manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.service: skype-for-business
-ms.collection: Teams
+ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 audience: Admin
 appliesto:
 - Microsoft Teams

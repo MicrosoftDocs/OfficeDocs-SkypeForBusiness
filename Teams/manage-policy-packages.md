@@ -13,13 +13,15 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
+f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to use and manage policy packages in Microsoft Teams. 
 ---
 
 # Manage policy packages in Microsoft Teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 

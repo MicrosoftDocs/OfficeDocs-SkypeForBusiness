@@ -6,9 +6,11 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-MS.collection: 
+audience: admin
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to enable or disable user-level access on a per-user basis.

@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
@@ -56,6 +56,9 @@ In order to function properly, the Microsoft Teams Rooms device must have access
 
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
+
+> [!NOTE]
+> Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.
   
 ### Certificates
 
@@ -164,3 +167,5 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
 [Configure a Microsoft Teams Rooms console](console.md)
   
 [Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+
+[Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

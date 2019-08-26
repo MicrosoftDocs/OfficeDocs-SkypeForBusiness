@@ -7,12 +7,14 @@ manager: serdars
 ms.date: 04/19/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Learn how to manage Microsoft Teams user settings in bulk in the Microsoft Teams admin center. 
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---

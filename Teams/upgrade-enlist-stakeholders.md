@@ -5,12 +5,13 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Enlist stakeholders to serve on the project team for your upgrade. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
@@ -20,6 +21,7 @@ appliesto:
 ![Illustration showing the stakeholder state of the upgrade journey](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders")
 
 This article is part of the Project Stakeholders stage of your upgrade journey, the first and most essential activity you complete for your project’s success.
+
 
 # Enlist your project stakeholders
 

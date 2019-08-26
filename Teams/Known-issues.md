@@ -6,10 +6,11 @@ manager: serdars
 ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: marcl
+audience: admin
 localization_priority: Priority
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
@@ -76,10 +77,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings or from the Control Panel, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Security** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |11/1/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Outlook add-in limitations  <br/> |To use the Outlook add-in, you must sign in to Teams using multi-factor authentication (MFA). If MFA fails halfway through the sign-in process, you'll still be able to sign into Teams, but you'll get an error message when you try to use the add-in.  <br/> The add-in is only available for Windows users for the time being.  <br/> The add-in won't work if you're using an authentication proxy.  <br/> | No workaround. <br/> |8/2/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|

@@ -8,11 +8,14 @@ ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
+audience: admin 
 ms.service: msteams
 ms.custom: Adopt
-MS.collection: 
+ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams
