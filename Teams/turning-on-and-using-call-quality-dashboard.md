@@ -33,7 +33,7 @@ The Call Quality Dashboard (CQD) provides insights into the quality of calls mad
 
 ## Latest changes and updates
 
-CQD version 3 has delivered a near real-time CQD dashboard with EUII, and report interactivity to support new scenarios such as:
+CQD version 3 delivers a near real-time CQD dashboard with EUII, and report interactivity to support new scenarios such as:
 
 - Call Quality by Region:
 
@@ -59,13 +59,19 @@ CQD version 2 added:
 
 - Microsoft Teams data in addition to Skype for Business Online data.
 - Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
-- Video and VBSS stream quality classification logic updates. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the latest classifier definitions.
+- Video and VBSS stream quality classification logic updates. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the classifier definitions.
 
 Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
 > To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays on the dashboard.
-  
+ 
+CQD version 1 provided the following features:
+
+- Skype for Business Online data only
+
+<!-- PM comment needed  -->
+ 
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
 Before you can start using the CQD, activate it for your Office 365 organization.
