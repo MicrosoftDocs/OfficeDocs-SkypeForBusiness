@@ -22,7 +22,7 @@ localization_priority: Normal
 Manage external access in Microsoft Teams
 ======================================================
 
-With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow othe external users who are still using Skype for Business Online, Skype for Business on-prem or even Skype to participate.
+With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow other external users who are still using Skype for Business Online, Skype for Business on-prem or even Skype to participate.
 
 Use the steps in this article when:
   
