@@ -43,7 +43,7 @@ If you still have Communication Credits left over at the end of the month (eithe
 If you use up your monthly allotment of Communication Credits, or if you want to make international calls, you can buy more. We strongly recommend that you always keep a minimum amount of Communication Credits so that your users can always make phone calls. The easiest way to make sure you always have enough credits is to set up automatic recharging. With automatic recharging, if your Communication Credits balance goes below a minimum limit, Microsoft 365 will automatically purchase more for you. You can choose the minimum limit and the number of Communication Credits to buy each time. If you'd rather buy Communication Credits manually, you can do that too.
 
 > [!IMPORTANT]
-> Remember that you need Communications Credits to call phone numbers outside your organization. If you run out of Communications Credits, you won't be able to make domestic or international phone calls, and you won't be able to receive phone calls on toll-free phone numbers.
+> Remember that you need Communications Credits to call phone numbers outside your organization and receive toll-free calls. If you run out of Communications Credits, you won't be able to make domestic or international phone calls, and you won't be able to receive phone calls on toll-free phone numbers.
 
 If you want to know which features are included with Business Voice, take a look at [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
