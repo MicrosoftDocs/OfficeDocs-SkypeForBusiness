@@ -24,14 +24,29 @@ The Business Voice add-on that's available with small and medium-sized Microsoft
 
 If someone in your organization wants to make or receive phone calls to or from an external phone number, they need a Business Voice license. A Business Voice license gives them all the features they need to make or receive phone calls, host audio conferences, and more. Users who don't need to make or receive phone calls to or from external phone calls just need Teams; they don't need a Business Voice license. For example, you might have 10 factory employees and 5 office employees. The factory employees only need to call other employees within your company. The office employees need to call other employees, and they also need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Business Voice license.
 
-## International and toll-free calls
+## Communications credits
 
-While Business Voice includes domestic calling plans, you need to purchase communications credits to make international calls. Communication credits are an easy way for you to pay for long distance calls. When you buy communications credits, they're stored in your account until someone needs to make an international phone call. The cost of the international phone call is deducted from your communications credit balance at the end of the call. You can choose to do a one-time purchase of communications credits to add a balance to your account, or you can set up **auto-recharge**. With auto-recharge, your communications credit balance is topped-up when its minimum balance falls below an amount you specify. We recommend setting up an auto-recharge amount so you don't have to worry about periodically purchasing communications credits.
+Communications credits are used to pay for calls made to phone numbers outside your phone system. For example, if you call a domestic supplier, if you call your cell phone from an audio conference, or if you call an international number, you need Communication Credits. Communication Credits are also used if you purchased a toll-free number. When someone calls your toll-free number, Communication Credits are used to pay for the time they use.
 
-You can also buy toll-free numbers with Business Voice. Toll-free numbers have a one-time charge to purchase the number and then a per-minute rate for calls to the number. Like international calls, calls to toll-free numbers consume communications credits. If you purchase a toll-free number, you'll need to make sure you have enough communications credits to cover toll-free charges.
+When you buy Business Voice, your organization gets a monthly allotment of Communication Credits that can be used for domestic calls. Here's how much you get each month:
+
+|Where your organization's located  |Monthly allotment for domestic calls |
+|-----------------------------------|-------------------------------------|
+|Canada                             | 3000                                |
+|United Kingdom                     | 1200                                |
+|United States                      | 3000                                |
+
+If you still have Communication Credits left over at the end of the month (either from your monthly allotment or from Communications Credits you buy), they're carried over to the next month.
+
+### Buy Communication Credits
+
+If you use up your monthly allotment of Communication Credits, or if you want to make international calls, you can buy more. We strongly recommend that you always keep a minimum amount of Communication Credits so that your users can always make phone calls. The easiest way to make sure you always have enough credits is to set up automatic recharging. With automatic recharging, if your Communication Credits balance goes below a minimum limit, Microsoft 365 will automatically purchase more for you. You can choose the minimum limit and the number of Communication Credits to buy each time. If you'd rather buy Communication Credits manually, you can do that too.
+
+> [!IMPORTANT]
+> Remember that you need Communications Credits to call phone numbers outside your organization. If you run out of Communications Credits, you won't be able to make domestic or international phone calls, and you won't be able to receive phone calls on toll-free phone numbers.
 
 If you want to know which features are included with Business Voice, take a look at [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
-To learn more about communications credits, take a look at [What are Communications Credits](../../what-are-communications-credits.md)?
+To learn more about Communication Credits, take a look at [What are Communications Credits](../../what-are-communications-credits.md)?
 
 To see rates for toll-free and international calling, scroll down to **See rates for where you want to call** in [Online meetings with Microsoft Teams](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
