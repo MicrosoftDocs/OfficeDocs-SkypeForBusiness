@@ -17,7 +17,6 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage private teams in Microsoft Teams. 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Private channels in Microsoft Teams
@@ -48,7 +47,6 @@ Private channels currently don't support the following:
 - Wikis
 - Messaging extensions
 - Bots
-- Connectors
 - Scheduled channel meetings
 - Creation on Teams mobile clients
 
