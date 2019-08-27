@@ -27,10 +27,8 @@ Making the transition from StaffHub to Teams begins when you start preparing for
 ## Sample email
 
 ***
-
 > Subject: Move to Shifts in Microsoft Teams<br>
 > To: StaffHub team managers and teams
-
 ***
 Over the next few weeks you will see new functionality rolled out by &lt;Contoso IT&gt;. This new functionality will enable you to use Microsoft Teams so that you can chat, collaborate, and view your shift schedules through Teams.
 
