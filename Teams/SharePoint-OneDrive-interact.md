@@ -25,7 +25,7 @@ appliesto:
 Each team in Microsoft Teams has a team site in SharePoint Online, and each standard channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
-> This article applies only to standard channels. The architecture for private channels is different from standard channels. Each private channel has it's own SharePoint site collection that's separate from the parent team site. To learn more, see [Private channels in Microsoft Teams](private-channels-in-teams.md).
+> This article applies only to standard channels. The architecture for private channels is different from standard channels. Each private channel has its own SharePoint site collection that's separate from the parent team site. To learn more, see [Private channels in Microsoft Teams](private-channels-in-teams.md).
 
 Private chat files are stored in the sender’s OneDrive for Business folder, and permissions are automatically granted to all participants as part of the file sharing process.
 
