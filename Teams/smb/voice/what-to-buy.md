@@ -24,6 +24,8 @@ The Business Voice add-on that's available with small and medium-sized Microsoft
 
 If someone in your organization wants to make or receive phone calls to or from an external phone number, they need a Business Voice license. A Business Voice license gives them all the features they need to make or receive phone calls, host audio conferences, and more. Users who don't need to make or receive phone calls to or from external phone calls just need Teams; they don't need a Business Voice license. For example, you might have 10 factory employees and 5 office employees. The factory employees only need to call other employees within your company. The office employees need to call other employees, and they also need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Business Voice license.
 
+To buy Business Voice licenses, sign into the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), click on **Billing**, and then **Purchase services**.
+
 ## Communications credits
 
 Communications credits are used to pay for calls made to phone numbers outside your phone system. For example, if you call a domestic supplier, if you call your cell phone from an audio conference, or if you call an international number, you need Communication Credits. Communication Credits are also used if you purchased a toll-free number. When someone calls your toll-free number, Communication Credits are used to pay for the time they use.
