@@ -43,7 +43,7 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 
 |Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6| |Core i5||16 GB or 8 GB |128 GB or more |
+|Surface Pro 6| Core i5 |16 GB or 8 GB |128 GB or more |
 |Surface Pro (fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
 |Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
 
