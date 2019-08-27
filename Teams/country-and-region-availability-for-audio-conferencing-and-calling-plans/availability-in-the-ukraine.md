@@ -72,7 +72,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |Yes  <br/> |
+|Are Communications Credits available?  <br/> |No  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   

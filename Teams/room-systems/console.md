@@ -6,7 +6,7 @@ ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
@@ -86,7 +86,10 @@ You now need to apply the setup media you've created. The target device will run
 8. The system will shut down once installation is complete.
     
 After the system has shut down, it is safe to remove the USB setup disk. At this point, you can place the target device in its dock (if using a dock-based product), attach the peripherals needed for your meeting room, and connect to the network. Refer to the manufacturer instructions.
-  
+
+> [!NOTE]
+> Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.  
+
 ### Selecting a language 
 
 In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the console app to come up in French, but it's coming up in English).

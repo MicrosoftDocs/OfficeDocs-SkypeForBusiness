@@ -12,7 +12,9 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.  
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1keywords: 
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto: 
 - Microsoft Teams
 ---

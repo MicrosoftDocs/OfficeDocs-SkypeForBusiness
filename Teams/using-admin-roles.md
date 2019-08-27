@@ -10,6 +10,11 @@ audience: admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1keywords:
+- ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
+- ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle 
+- ms.teamsadmincenter.signin.error.nopermissions
+- ms.teamsadmincenter.directrouting.cqd
 ms.reviewer: islubin
 description: Learn to use the different administrative roles to manage Teams.
 appliesto: 

@@ -14,13 +14,26 @@ ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
+- ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
+- ms.teamsadmincenter.dashboard.widget.upgrade.planning
+- ms.teamsadmincenter.dashboard.widget.upgrade.pause
+- ms.teamsadmincenter.dashboard.widget.upgrade.rolledback
+- ms.teamsadmincenter.users.teamsupgradestatuscolumn
+- ms.teamsadmincenter.users.teamsupgradepage
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+- ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
 ---
 
+
 # Getting started with your Microsoft Teams upgrade
 
 Congratulations on your pending upgrade from Skype for Business to Microsoft Teams. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.
+
+Whether you are upgrading from Skype for Business Online to Teams or from a Skype for Business on-premises environment to Teams, the upgrade framework will guide you through the process based on your business scenario.
 
 ## Why upgrade to Microsoft Teams?
 
