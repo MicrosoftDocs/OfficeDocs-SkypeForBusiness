@@ -79,9 +79,7 @@ See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powers
   
     
 - The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
-    
-- The conference ID for all of your audio conferencing users will be 7 digits by default, and the number of digits can't be changed.
-    
+   
     
 ## Want to know more about Windows PowerShell?
 

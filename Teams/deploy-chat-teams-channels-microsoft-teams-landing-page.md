@@ -13,6 +13,8 @@ localization_priority: Priority
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
 - Microsoft Teams
 ---

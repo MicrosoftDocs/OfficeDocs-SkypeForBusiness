@@ -15,7 +15,8 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: 
+- ms.teamsadmincenter.users.voice.calldelegation.tooltip
 ms.custom:
 - Phone System
 description: "Shared line appearance lets a user choose a delegate to answer or handle calls on their behalf."
