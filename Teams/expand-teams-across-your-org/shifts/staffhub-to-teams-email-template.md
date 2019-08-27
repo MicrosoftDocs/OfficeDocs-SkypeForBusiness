@@ -46,8 +46,9 @@ We appreciate your patience.<br>
 Thank you,<br>
 &lt;Contoso IT&gt;
 
-If you need immediate help, reach out to &lt;Contoso IT email&gt;, &lt;Contoso IT support number&gt;
+If you need immediate help, reach out to &lt;Contoso IT email&gt;, &lt;Contoso IT support number&gt;.
 <br>
+
 
 ***
 
