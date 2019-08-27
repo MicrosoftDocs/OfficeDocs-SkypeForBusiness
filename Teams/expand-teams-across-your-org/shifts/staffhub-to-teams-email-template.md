@@ -42,12 +42,11 @@ You don’t need to take any action now. The IT department will move all your sc
 
 Be on the lookout for more emails from &lt;Contoso IT&gt; that will let you know when you can start using this functionality in addition to guidance on how to manage your shifts and collaborate in Teams.  
 
-We appreciate your patience.
-Thank you,
+We appreciate your patience.<br>
+Thank you,<br>
 &lt;Contoso IT&gt;
 
 If you need immediate help, reach out to &lt;Contoso IT email&gt;, &lt;Contoso IT support number&gt;
-
 <br>
 ***
 
