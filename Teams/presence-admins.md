@@ -36,6 +36,7 @@ The user presence states available in Teams are:
 || ![Open red circle, indicating busy oof](media/Presence_Busy_OOF.png) In a call, out of office|
 |  ![Red circle with white line, indicating Do Not disturb](media/Presence_DND.png) Do not disturb ||
 || ![Red circle with white line, indicating Presenting](media/Presence_DND.png) Presenting|
+|| ![Red circle with white line, indicating Focusing](media/Presence_DND.png) Focusing|
 | ![Yellow clock icon, indicating away](media/Presence_Away.png) Away| ![Yellow clock icon, indicating away](media/Presence_Away.png) Away|
 || ![Yellow clock icon, indicating away](media/Presence_Away.png) Away Last Seen *time*|
 |![Yellow clock icon, indicating away, be right back](media/Presence_Away.png) Be right back| |
