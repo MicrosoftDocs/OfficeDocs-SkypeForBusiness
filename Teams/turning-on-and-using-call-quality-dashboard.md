@@ -33,7 +33,7 @@ The Call Quality Dashboard (CQD) provides insights into the quality of calls mad
 
 ## Latest changes and updates
 
-CQD version 3 delivers a near real-time CQD dashboard with EUII, and report interactivity to support new scenarios such as:
+CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII) giving admins the ability to zoom in to the user level. There is also and report interactivity to support new scenarios such as:
 
 - Call Quality by Region:
 
@@ -55,6 +55,10 @@ CQD version 3 delivers a near real-time CQD dashboard with EUII, and report inte
 - Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
 - Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
 
+Version 3 also provides RBAC support, in case EUII access is not available.  
+
+An admin can also manage Skype for Business Server (not just Skype for Business Online and Microsoft Teams) through CQD version 3. 
+
 CQD version 2 added:
 
 - Microsoft Teams data in addition to Skype for Business Online data.
@@ -71,6 +75,11 @@ CQD version 1 provided the following features:
 - Skype for Business Online data only
 
 <!-- PM comment needed  -->
+
+CQD version 1 released the following features:
+
+
+
  
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 

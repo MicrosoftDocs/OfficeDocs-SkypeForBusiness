@@ -315,7 +315,7 @@ Information in the dimensions is based in part on data uploaded to the CQD porta
 
 ### Notes on dimension data type/units
 
-#### Boolean 
+#### Boolean
 
 Boolean values are always either True or False. In some cases, True can also be represented as 1 and False can be represented as 0.
 
