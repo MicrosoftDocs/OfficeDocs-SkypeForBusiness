@@ -30,17 +30,17 @@ Making the transition from StaffHub to Teams begins when you start preparing for
 Subject: Move to Shifts in Microsoft Teams<br>
 To: StaffHub team managers and teams
 ***
-Over the next few weeks you will see new functionality rolled out by &lt;Contoso IT&gt;. This new functionality will enable you to use Microsoft Teams so that you can chat, collaborate, and view your shift schedules through Teams.
+Over the next few weeks, you'll see new functionality rolled out by &lt;Contoso IT&gt;. This new functionality will enable you to use Microsoft Teams to chat, collaborate, and view your shift schedules.
 
-The Shifts app in Teams will is replacing StaffHub as your schedule management tool and soon access to StaffHub will no longer be available. The Shifts app experience in Teams should be very similar to your current scheduling experience in StaffHub and should be a smooth transition.
+The Shifts app in Teams is replacing StaffHub as your schedule management tool and soon access to StaffHub will no longer be available. The Shifts app experience in Teams should be very similar to your current scheduling experience in StaffHub and should be a smooth transition.
 
 We hope having all these tools within Teams will make your workday easier and enable you to connect with your team and the rest of the organization effortlessly.
 
 **Next steps**
 
-You don’t need to take any action now. The IT department will move all your scheduling data from StaffHub to the Shifts app in Teams, and starting &lt;date&gt;, you will begin using Microsoft Teams instead of Microsoft StaffHub to access your shift schedules.  
+You don’t need to take any action now. The IT department will move all your scheduling data from StaffHub to the Shifts app in Teams, and starting &lt;date&gt;, you'll start using Teams instead of StaffHub to access your shift schedules.  
 
-Be on the lookout for more emails from &lt;Contoso IT&gt; that will let you know when you can start using this functionality in addition to guidance on how to manage your shifts and collaborate in Microsoft Teams.  
+Be on the lookout for more emails from &lt;Contoso IT&gt; that will let you know when you can start using this functionality in addition to guidance on how to manage your shifts and collaborate in Teams.  
 
 ***
 
