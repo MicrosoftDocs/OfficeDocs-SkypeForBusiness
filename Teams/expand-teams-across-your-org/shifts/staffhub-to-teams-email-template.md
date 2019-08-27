@@ -41,6 +41,13 @@ We hope having these tools within Teams will make your workday easier and enable
 You don’t need to take any action now. The IT department will move all your scheduling data from StaffHub to the Shifts app in Teams, and on &lt;date&gt;, you'll start using Teams instead of StaffHub to access your shift schedules.  
 
 Be on the lookout for more emails from &lt;Contoso IT&gt; that will let you know when you can start using this functionality in addition to guidance on how to manage your shifts and collaborate in Teams.  
+
+We appreciate your patience.
+Thank you,
+&lt;Contoso IT&gt;
+
+If you need immediate help, reach out to &lt;Contoso IT email&gt;, &lt;Contoso IT support number&gt;
+
 <br>
 ***
 
