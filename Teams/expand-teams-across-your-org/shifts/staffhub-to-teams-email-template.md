@@ -48,6 +48,7 @@ Thank you,<br>
 
 If you need immediate help, reach out to &lt;Contoso IT email&gt;, &lt;Contoso IT support number&gt;
 <br>
+
 ***
 
 ## Related topics
