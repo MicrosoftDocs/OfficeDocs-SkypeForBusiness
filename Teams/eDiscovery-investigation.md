@@ -62,10 +62,10 @@ Use the following steps to identify files and messages in a private channel to i
     ```
     Get-SPOSite
     ```
-2. Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels on the team and the parent team group ID. 
+2. Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.
 
     ```
-    $sites = get-sposite -template "rechannel#0" 
+    $sites = get-sposite -template "rechannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 
@@ -83,7 +83,7 @@ Use the following steps to identify files and messages in a private channel to i
     ```
     Get-TeamChannelUser -GroupId &lt;GroupID&gt; -DisplayName "Engineering" -Role Member
     ```
-3. Include the user mailbox of at least one member from each private channel in the team as part of your eDiscovery search query.
+3. Include the mailbox of at least one member from each private channel in the team as part of your eDiscovery search query.
 
 ## Related topics
 
