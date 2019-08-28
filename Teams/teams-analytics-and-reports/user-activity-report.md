@@ -21,16 +21,14 @@ appliesto:
 
 The Teams user activity report gives you insight into the types of activities that users in your organization perform in Teams. For example, you can see how many users communicate through 1:1 calls, how many users communicate through channel messages, and how many users engage in private chat messages.
 
-![Screen shot of the Teams user activity report](../media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams admin center")
-
 ## View the report
 
-1. Go to the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams user activity**. 
-2. Under **Date range**, select a range, and then click **Run report**. 
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams user activity**.
+2. Under **Date range**, select a range, and then click **Run report**.
+
+    ![Screen shot of the Teams user activity report in the Teams admin center with callouts](../media/teams-reports-user-activity-with-callouts.png "Screen shot of the Teams user activity report in the Teams admin center with callouts")
 
 ## Interpret the report
-
-![Screenshot of the Teams user activity report with numbered callouts](../media/teams-reports-user-activity-with-callouts.png "Screenshot of the Teams user activity report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
@@ -43,4 +41,5 @@ The Teams user activity report gives you insight into the types of activities th
 |**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png) <br>When you view the report in Excel, you'll also see an **Id** column, which represents the team ID. A team ID is typically an alphanumeric string. If the **Id** column shows as **\n**, this means that a user requested their information to be deleted. ||
 
 ## Related topics
+
 - [Teams analytics and reporting](teams-reporting-reference.md)

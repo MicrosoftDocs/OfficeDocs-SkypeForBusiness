@@ -3,7 +3,6 @@ title: Microsoft Teams usage report
 author: LanaChin    
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -23,10 +22,10 @@ The Teams usage report in the Microsoft Teams admin center gives you an overview
 
 ## View the report
 
-1. In the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams usage**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams usage**.
 2. Under **Date range**, select a range, and then click **Run report**.
 
-    ![Screen shot of the Teams usage report in the admin center](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")
+  ![Screen shot of the Teams usage report in the Teams admin center with callouts](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams usage report in the Teams admin center with callouts")
 
 ## Interpret the report
 

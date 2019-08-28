@@ -3,7 +3,6 @@ title: Microsoft Teams device usage report
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -22,16 +21,14 @@ appliesto:
 
 The Teams device usage report in the Microsoft Teams admin center provides you with information about how users connect to Teams. You can use the report to see the devices that are used across your organization, including how many use Teams from their mobile devices when on-the-go.  
 
-![Screen shot of the Teams device usage report in the admin center](../media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center")
-
 ## View the report
 
-1. Go to the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams device usage**. 
-2. Under **Date range**, select a range, and then click **Run report**. 
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams device usage**.
+2. Under **Date range**, select a range, and then click **Run report**.
+
+    ![Screen shot of the Teams device usage report in the Teams admin center with callouts](../media/teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Teams admin center  with callouts")
 
 ## Interpret the report
-
-![Screen shot of the Teams device usage report in the admin center](../media/teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
@@ -43,4 +40,5 @@ The Teams device usage report in the Microsoft Teams admin center provides you w
 |**6**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports](../media/teams-reports-export-to-csv.png)|
 
 ## Related topics
+
 - [Teams analytics and reporting](teams-reporting-reference.md)
