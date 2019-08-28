@@ -65,7 +65,7 @@ You can configure the following tags settings to control how tags are used acros
 
 - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags in team settings.
 - **Members can add additional tags**:
-- **Default tags that will be suggested**: Use this to add a set of suggested tags. A team owner or member (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.  You can add up to 25 suggested tags, and each tag can contain a maximum of 25 characters.
+- **Default tags that will be suggested**: Use this to add a set of suggested tags. You can add up to 25 suggested tags, and each tag can contain a maximum of 25 characters. A team owner or member (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
 
 ## Manage tags settings for a team
 
