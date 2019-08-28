@@ -47,7 +47,7 @@ The following illustration shows how eDiscovery works for guest-to-guest chats i
 
 ## eDiscovery of private channels
 
-Records for chat messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
+Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
 
 Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.
 
