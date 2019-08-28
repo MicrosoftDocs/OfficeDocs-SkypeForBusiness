@@ -120,7 +120,7 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the editions are summarized here:
   
 |Feature|Summary Reports|Detailed Reports|
-|:-----|:-----|:-----|
+|:--- |:--- |:--- |
 |Application sharing metric | No | Yes |
 |Customer building information support | Yes | Yes |
 |Customer endpoint information support | Only in cqd.teams.microsoft.com   | Only in cqd.teams.microsoft.com   |
@@ -134,6 +134,7 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |Video metrics   | No   | Yes   |
 |Amount of data available   | Last 6 months   | Last 6 months   |
 |Microsoft Teams data   | Yes   | Yes   |
+| | | |
 
 ### Out-of-the-box reports
 
@@ -309,7 +310,7 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
 You may find you want to create a specific report that focuses on certain dimension of the data in a way not available in the detailed reports provided.
 
-To create a custom detailed report, 
+To create a custom detailed report:
 
 1. Open CQD
 2. select stuff in the pulldown menu
