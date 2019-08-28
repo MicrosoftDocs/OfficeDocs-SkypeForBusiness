@@ -21,16 +21,14 @@ appliesto:
 
 The Teams usage report in the Microsoft Teams admin center gives you an overview of the usage activity in Teams, including the number of active users and channels, so you can quickly see how many users across your organization are using Teams to communicate and collaborate. You can view usage information for  teams, including the number of active users and channels, guests, and messages in each team.
 
-![Screen shot of the Teams usage report in the admin center](../media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")
-
 ## View the report
 
-1.In the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams usage**.
+1. In the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams usage**.
 2. Under **Date range**, select a range, and then click **Run report**.
 
-## Interpret the report
+![Screen shot of the Teams usage report in the admin center](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams usage report in the Microsoft Teams admin center")
 
-![Screen shot of the Teams usage report in the admin center](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams usage report in the Microsoft Teams admin center with numbered callouts")
+## Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
