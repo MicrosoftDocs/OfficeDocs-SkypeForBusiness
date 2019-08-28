@@ -71,10 +71,12 @@ You can configure the following tags settings to control how tags are used acros
 
 Team owners can set whether members can apply tags and whether to automatically apply tags from your organization's directory and other apps.
 
-To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the tags settings that you want.
+To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the  settings that you want.
+
+![Team tags settings](media/people-targeting-team-settings.png)
 
 ## Apply tags
 
-In Teams, the Manage team page for a team includes a **Tag** column. Team owners and members (if the feature is enabled for them) can click **Manage Tags** next to a member to see the list of suggested tags for that member and add tags to the list.
+In Teams, the **Members** tab of the Manage team page for a team includes a **Tag** column. Team owners and members (if the feature is enabled for them) can click **Manage Tags** next to a member to see the list of suggested tags for that member and add tags to the list.
 
 ## Related topics
