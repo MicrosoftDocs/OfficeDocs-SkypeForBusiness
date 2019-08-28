@@ -16,17 +16,28 @@ appliesto:
 
 # What do I need to purchase to use Business Voice?
 
-## Maximum number of supported users
-
-The Business Voice add-on that's available with small and medium-sized Microsoft 365 subscriptions supports up to a maximum of 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase a Microsoft 365 E3 or E5 subscription.
-
 ## Business Voice license
 
 If someone in your organization wants to make or receive phone calls to or from an external phone number, they need a Business Voice license. A Business Voice license gives them all the features they need to make or receive phone calls, host audio conferences, and more. Users who don't need to make or receive phone calls to or from external phone calls just need Teams; they don't need a Business Voice license. For example, you might have 10 factory employees and 5 office employees. The factory employees only need to call other employees within your company. The office employees need to call other employees, and they also need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Business Voice license.
 
 To buy Business Voice licenses, sign into the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), click on **Billing**, and then **Purchase services**.
 
+## Calling Plans
+
+Calling Plans are pools of minutes that are given to each user each month so they can make calls to phone numbers that are outside of your organization. When a user makes a phone call, the number of minutes their call takes is deducted from the total minutes available in their Calling Plan. 
+
+There are two types of Calling Plans: Domestic and International. Each type of Calling Plan includes a certain number of minutes depending on the country in which your organization is located. The following sections give more information about each time of Calling Plan.
+
+> [!IMPORTANT]
+> Unused Calling Plan minutes don't roll over to the next month.
+
+### Domestic Calling Plans
+
+Each Business Voice license that's given to a user includes a Domestic Calling Plan. The D
+
 ## Communications credits
+
+Communications credits are like a digital wallet that's used to pay for calls made to phone numbers made outside your phone system. 
 
 Communications credits are used to pay for calls made to phone numbers outside your phone system. For example, if you call a domestic supplier, if you call your cell phone from an audio conference, or if you call an international number, you need Communication Credits. Communication Credits are also used if you purchased a toll-free number. When someone calls your toll-free number, Communication Credits are used to pay for the time they use.
 
@@ -54,3 +65,8 @@ If you want to know which features are included with Business Voice, take a look
 To learn more about Communication Credits, take a look at [What are Communications Credits](../../what-are-communications-credits.md)?
 
 To see rates for toll-free and international calling, scroll down to **See rates for where you want to call** in [Online meetings with Microsoft Teams](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
+
+## Maximum number of supported users
+
+The Business Voice add-on that's available with small and medium-sized Microsoft 365 subscriptions supports up to a maximum of 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase a Microsoft 365 E3 or E5 subscription.
+
