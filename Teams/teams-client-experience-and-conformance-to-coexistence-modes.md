@@ -47,7 +47,9 @@ The following screenshots illustrate the difference between **Teams Only** or **
 
 ![A side-by-side comparison of Teams modes](media/teams-mode-comparison.png)
 
+In addition, self presence is not available in the other modes, as shown here.
 
+![Screenshot of self presence in Meetings First](media/meetings-first-no-self-presence-general.png)
  
 **Note:**
 <sup>1</sup> At this time, SfBwithTeamsCollab and SfBOnly behave the same, but the intent is for SfBOnly mode to also disable Channels and Files functionality in Teams. In the interim, Channels can be hidden using the App Permissions policy.
