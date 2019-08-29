@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/21/2019
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer: keschm
 description: A quick start guide for Firstline Workers using Microsoft Teams
 localization_priority: Normal
