@@ -20,6 +20,9 @@ appliesto:
 
 # Microsoft Teams retention policies FAQ
 
+> [!NOTE]
+> This article applies to standard channels. Retention policies in Teams currently don't apply to private channel messages.
+
 ### What types of policies can I set up in retention policies and how do they work?
 
 In the Security & Compliance Center, when you set up a retention policy, for Teams or for any other workload, you can set up two main types of policies: 
