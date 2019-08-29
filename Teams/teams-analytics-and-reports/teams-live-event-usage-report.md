@@ -20,8 +20,6 @@ appliesto:
 
 The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. You can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events. 
 
-![Screen shot of the Teams live event usage report in the Microsoft Teams admin center](../media/teams-live-event-usage-report.png "Screen shot of the Teams usage report in the admin center")
-
 ## View the report
 
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams live event usage**.
@@ -29,9 +27,9 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 3. (Optional) Under **Organizer**, you can choose to show only live events organized by a specific user.
 4. Click **Run report**.  
 
-## Interpret the report
+    ![Screen shot of the Teams live event usage report in the Teams admin center with callouts](../media/teams-live-event-usage-report-with-callouts.png "Screen shot of the Teams live event usage report in the Teams admin center with callouts")
 
-![Screen shot of the Teams live event usage report in the Microsoft Teams admin center](../media/teams-live-event-usage-report-with-callouts.png "Screen shot of the Teams live events usage report in the admin center with numbered callouts")
+## Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
@@ -50,5 +48,6 @@ The live event details page gives you a summary of the details of a live event a
 If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
 
 ## Related topics
+
 - [Teams analytics and reporting](teams-reporting-reference.md)
 - [What are Teams live events?](../teams-live-events/what-are-teams-live-events.md)
