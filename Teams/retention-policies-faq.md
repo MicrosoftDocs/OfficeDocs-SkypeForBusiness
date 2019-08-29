@@ -21,7 +21,7 @@ appliesto:
 # Microsoft Teams retention policies FAQ
 
 > [!NOTE]
-> This article applies to standard channels. Retention policies in Teams currently don't apply to private channel messages.
+> Retention policies in Teams currently don't apply to private channel messages. This information in this article applies only to standard channels.
 
 ### What types of policies can I set up in retention policies and how do they work?
 
