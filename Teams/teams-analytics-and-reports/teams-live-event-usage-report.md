@@ -27,7 +27,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 3. (Optional) Under **Organizer**, you can choose to show only live events organized by a specific user.
 4. Click **Run report**.  
 
-    ![Screen shot of the Teams live event usage report in the Teams admin center with callouts](../media/teams-live-event-usage-report-with-callouts.png "Screen shot of the Teams usage report in the Teams admin center with callouts")
+    ![Screen shot of the Teams live event usage report in the Teams admin center with callouts](../media/teams-live-event-usage-report-with-callouts.png "Screen shot of the Teams live event usage report in the Teams admin center with callouts")
 
 ## Interpret the report
 
