@@ -26,7 +26,7 @@ Set up an effective pilot for Firstline Workers based on agile principles and an
 
 ## Technical Prerequisites
 
-Please review and complete the [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md).
+Please review and complete the [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md) before beginning this tutorial.
 
 ## Pilot Methodology
 
