@@ -3,7 +3,6 @@ title: Microsoft Teams device usage report
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -22,16 +21,14 @@ appliesto:
 
 The Teams device usage report in the Microsoft Teams admin center provides you with information about how users connect to Teams. You can use the report to see the devices that are used across your organization, including how many use Teams from their mobile devices when on-the-go.  
 
-![Screen shot of the Teams device usage report in the admin center](../media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center")
-
 ## View the report
 
-1. Go to the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams device usage**. 
-2. Under **Date range**, select a range, and then click **Run report**. 
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams device usage**.
+2. Under **Date range**, select a range, and then click **Run report**.
+
+    ![Screen shot of the Teams device usage report in the Teams admin center with callouts](../media/teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Teams admin center  with callouts")
 
 ## Interpret the report
-
-![Screen shot of the Teams device usage report in the admin center](../media/teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
@@ -40,7 +37,8 @@ The Teams device usage report in the Microsoft Teams admin center provides you w
 |**3**   |<ul><li>The X axis on the chart represents the different devices (**Windows**, **Mac**, **iOS**, **Android Phone**) used to connect to Teams. </li><li>The Y axis is the number of users using the device over the selected time period.</li> </ul>Hover over the bar representing a device to see the number of users using the device to connect to Teams.|
 |**4**   |The table gives you a breakdown of device usage by user. <ul><li>**Display name** is the display name of the user. You can click the display name to go to the user's setting page in the Microsoft Teams admin center. </li><li>**Windows** is selected if the user was active in the Teams desktop client on a Windows-based computer.</li><li>**Mac** is selected if the user was active in the Teams desktop client on a macOS computer. </li> <li>**iOS** is selected if the user was active on the Teams mobile client for iOS.</li><li>**Android phone** is selected if the user was active on the Teams mobile client for Android. <li>**Last activity** is the last date (UTC) that the user participated in a Teams activity.</li> </ul> Note that if a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
 |**5**   |Select **Edit columns** to add or remove columns in the table. |
-|**6**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports](../media/teams-reports-export-to-csv.png)|
+|**6**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screen shot of the Downloads tab showing exported reports](../media/teams-reports-export-to-csv.png)|
 
 ## Related topics
+
 - [Teams analytics and reporting](teams-reporting-reference.md)
