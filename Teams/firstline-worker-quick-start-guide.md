@@ -61,7 +61,7 @@ It's important to include all roles within that smallest logical grouping, from 
 
 For a successful Pilot for Firstline Workers, simplicity is key! For most customers, this community typically isn’t provided any company-supported communication or collaboration technology, but are likely already leveraging unsupported consumer tools to accomplish some basic needs. A recommended best practice it to begin where your users are: mimic the capabilities they’re using in consumer tools today. As your pilot progresses and the iteration process begins, you can grow the experience.
 
-#### Learn what consumer tools these users are currently using
+#### Learn what consumer tools users are currently using
 
 Included in the Firstline Worker “Pilot in a Box” are Sample User Surveys. Utilize the Pre-Pilot survey to inventory the tools, capabilities, and scenarios.
 
