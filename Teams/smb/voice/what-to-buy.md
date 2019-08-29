@@ -24,41 +24,46 @@ To buy Business Voice licenses, sign into the [admin center](https://admin.micro
 
 ## Calling Plans
 
-Calling Plans are pools of minutes that are given to each user each month so they can make calls to phone numbers that are outside of your organization. When a user makes a phone call, the number of minutes their call takes is deducted from the total minutes available in their Calling Plan. 
+Calling Plans let users call phone numbers outside of your organization. They come with an allotment of minutes that are given to each user each month. When a user makes a phone call, the number of minutes their call takes is deducted from the total minutes remaining in their Calling Plan. At the beginning of each month, the remaining balance of minutes in the Calling Plan is reset. The number of minutes given to each user each month depends on which country or region the user is located in.
 
-There are two types of Calling Plans: Domestic and International. Each type of Calling Plan includes a certain number of minutes depending on the country in which your organization is located. The following sections give more information about each time of Calling Plan.
+If a user uses up their Calling Plan balance, what happens depends on whether you have any Communications Credits available (we'll talk about Communications Credits later in this article). If you have Communications Credits, the user will start using them. If you don't have Communications Credits, users won't be able to make phone calls until their balance is reset at the beginning of the next month.
 
-> [!IMPORTANT]
-> Unused Calling Plan minutes don't roll over to the next month.
+There are two types of Calling Plans:
 
 ### Domestic Calling Plans
 
-Each Business Voice license that's given to a user includes a Domestic Calling Plan. The D
+Domestic Calling Plans let users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's given a Business Voice license. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
 
-## Communications credits
-
-Communications credits are like a digital wallet that's used to pay for calls made to phone numbers made outside your phone system. 
-
-Communications credits are used to pay for calls made to phone numbers outside your phone system. For example, if you call a domestic supplier, if you call your cell phone from an audio conference, or if you call an international number, you need Communication Credits. Communication Credits are also used if you purchased a toll-free number. When someone calls your toll-free number, Communication Credits are used to pay for the time they use.
-
-When you buy Business Voice, your organization gets a monthly allotment of Communication Credits that can be used for domestic calls. Here's how much you get each month:
-
-|Where your organization's located  |Monthly allotment for domestic calls |
+|Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
 |Canada                             | 3000                                |
 |United Kingdom                     | 1200                                |
 |United States                      | 3000                                |
 
-If you still have Communication Credits left over at the end of the month (either from your monthly allotment or from Communications Credits you buy), they're carried over to the next month.
+### International Calling Plans
+
+International Calling Plans let users call phone numbers outside their country or region. Business Voice doesn't include International Calling Plans for every user but they can be purchased as an add on. 
+
+When you think about whether to buy a user an International Calling Plan, check to see how often they make international calls and how much time they spend on them. This is important because, when you purchase an International Calling Plan, you're paying for a certain number of minutes up front. If a user doesn't use up all of the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes provided by an International Calling Plan, don't buy one and instead use Communications Credits (coming up in the next section).
+
+
+
+## Communications credits
+
+Communications credits are like a digital wallet that's used to pay for calls made to phone numbers outside your phone system. Communications Credits are used in a few situations:
+
+- **A user has run out of minutes in their Domestic or International Calling Plan** When the minutes in a Calling Plan are used up, Business Voice automatically starts using the balance available in your Communications Credits.
+- **A user doesn't have an International Calling Plan** If a user doesn't have an International Calling Plan, they'll immediately start using the balance available in your Communications Credits.
+- **You have one or more toll-free numbers** When someone calls a toll-free number, the cost of the call is deducted from your Communications Credit balance.
+
+If you still have Communication Credits left over at the end of the month, they're carried over to the next month.
 
 ### Buy Communication Credits
 
-If you use up your monthly allotment of Communication Credits, or if you want to make international calls, you can buy more. We strongly recommend that you always keep a minimum amount of Communication Credits so that your users can always make phone calls. 
-
-The easiest way to make sure you always have enough credits is to set up automatic recharging. With automatic recharging, if your Communication Credits balance goes below a minimum limit, Microsoft 365 will automatically purchase more for you. You can choose the minimum limit and the number of Communication Credits to buy each time. If you'd rather buy Communication Credits manually, you can do that too.
+We strongly recommend that you always keep a minimum Communication Credits balance so that your users can always make phone calls. The easiest way to make sure you always have a Communications Credits balance is to set up automatic recharging. With automatic recharging, if your Communication Credits balance goes below a minimum limit, Microsoft 365 will automatically refill your balance. You can choose the minimum limit and the amount to buy each time. If you'd rather refill your Communication Credits balance manually, you can do that too.
 
 > [!IMPORTANT]
-> Remember that you need Communications Credits to call phone numbers outside your organization and receive toll-free calls. If you run out of Communications Credits, you won't be able to make domestic or international phone calls, and you won't be able to receive phone calls on toll-free phone numbers.
+> Remember that you need Communications Credits if you run out of minutes in your Calling Plans or if you receive toll-free calls. If your Communications Credits balance is empty, you won't be able to receive phone calls on toll-free phone numbers and users won't be able to make calls if their Calling Plan balances are empty.
 
 If you want to know which features are included with Business Voice, take a look at [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
