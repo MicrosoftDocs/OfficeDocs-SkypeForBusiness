@@ -46,6 +46,9 @@ Contoso should consider redesigning the auto attendant and call queue system. If
 
 ## How to acquire Phone System–Virtual User licenses 
 
+> [!NOTE] 
+> When following these instructions, use Preview Mode to purchase a Phone System-Virtual User license.
+
 1. Sign in to the Microsoft 365 admin center.
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
 3. Scroll to the end to find the **"Phone System–Virtual User"** license. Select **Buy now**.
