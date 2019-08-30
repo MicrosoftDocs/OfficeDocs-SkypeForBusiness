@@ -1,5 +1,5 @@
 ---
-title: Can I set up my existing phone system with Microsoft 365 Business Voice?
+title: Can I set up my existing phone lines with Microsoft 365 Business Voice?
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -14,9 +14,18 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Can I set up my existing phone system with Business Voice?
+# Can I set up my existing phone lines with Business Voice?
 
-You might already have a phone system set up in your company. This is probably true if people can call a main phone number and dial an extension to get to a user. Callers might also get a call menu with options like Sales, Marketing, and so on, if you already have a phone system (often referred to as a PBX or personal branch exchange).
+Almost anyone can get set up phones with Microsoft 365 Business Voice, but whether you might need some help depends on how your phones are currently set up. Check out the following table to see whether you can set up Business Voice on your own or if you need to get help from a Microsoft partner.
 
-If you already have a phone system set up, or if you're not sure if you do, you'll need to contact a Microsoft partner. They can help you determine what you have set up and whether you need their help to connect your phone system to Business Voice. The Getting Started wizard doesn't support setting up an existing phone system with Business Voice.
+| Setup or features                            | Self or partner setup |
+|==============================================|=======================|
+| Single phone line                            | Self                  |
+| Individual phone lines to one or more people | Self                  |
+| Internal or direct dial                      | Partner               |
+| Call menus                                   | Partner               |
+| Online provider                              | Partner               |
 
+If you have a phone system that has any features listed next to "Partner" in the table above, you'll need help from a Microsoft partner. If you don't have anything that needs help from a partner, you can use the steps in these articles to get you up and running! 
+
+For a list of Microsoft partners who can help you, check out [Link to be determined](https://microsoft.com).
