@@ -51,15 +51,19 @@ To add or block a domain:
 
 ### Teams settings
 
-In **Teams settings**, you can set up email integration, cloud storage options, Skype for Business interoperability, and devices.
+In **Teams settings**, you can set up features for teams including notifications and feeds, email integration, cloud storage options, and devices.
+
+#### Notifications and feeds
+
+Here you can control whether suggested feeds appear in users' activity feed in Teams. To learn more about the activity feed, see [Explore the Activity feed in Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
 #### Email integration
 
-Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**. 
+Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**.
 
 #### Files
 
-Here you can turn on or turn off file sharing and cloud file storage options. 
+Here you can turn on or turn off file sharing and cloud file storage options.
 
 Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include ShareFile, Dropbox, Box, and Google Drive. Turn on the switch for the cloud storage providers that your organization wants to use.
 
