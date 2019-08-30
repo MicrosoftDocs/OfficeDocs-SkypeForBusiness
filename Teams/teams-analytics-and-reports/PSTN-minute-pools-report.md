@@ -20,11 +20,9 @@ appliesto:
 
 The Teams PSTN minute pools report in the Microsoft Teams admin center gives you an overview of audio conferencing and calling activity in your organization by showing you the number of minutes consumed during the current month. You can see a breakdown of activity including the license used for calls, total minutes available, used minutes, and license usage by location.
 
-![Screen shot of the Teams PSTN minute pools report in the admin center](../media/teams-reports-teams-usage.png "Screen shot of the Teams PSTN minute pools report in the Microsoft Teams admin center")
-
 ## View the report
 
-Go to the Microsoft Teams admin center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **PSTN minute pools**.
+In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN minute pools**, and then click **Run report**.
 
 ## Interpret the report
 
@@ -39,5 +37,6 @@ Go to the Microsoft Teams admin center, in the left navigation, click **Analytic
 |**5**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
 
 ## Related topics
+
 - [Teams analytics and reporting](teams-reporting-reference.md)
 
