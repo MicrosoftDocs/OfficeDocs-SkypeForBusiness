@@ -140,7 +140,7 @@ The application ID's that you need to use while creating the application instanc
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> If you want the call queue or auto attendant to be searchable by on-premise users, you should create your resource accounts on-premise, since online resource accounts are not synced down to Active Directory.
+> If you want the call queue or auto attendant to be searchable by on-premises users, you should create your resource accounts on-premise, since online resource accounts are not synced down to Active Directory.
 
 1. To create a resource account online for use with an auto attendant, use the following command.
 
