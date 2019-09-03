@@ -62,7 +62,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Chennai <li>Mumbai<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Ahmedabad [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Hyderabad [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Kolkata [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Bangalore [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>New Dehli [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Pune [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Chennai <li>Mumbai<li>Other cities [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    

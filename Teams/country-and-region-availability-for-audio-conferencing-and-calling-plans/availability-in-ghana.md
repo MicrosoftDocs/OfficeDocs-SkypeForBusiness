@@ -61,7 +61,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?   | Not applicable <br/> |
+|What capitals or major cities can you get toll numbers for?   | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/> |
 |Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Are toll free numbers available?  <br/> |No  <br/> |
    
