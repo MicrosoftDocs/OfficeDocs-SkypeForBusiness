@@ -64,7 +64,7 @@ To implement hybrid connectivity between your on-premises environment and Office
 - Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Skype for Business Server administrative tools.  These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet.
 - Online administrative tools.  You can use either the Teams admin center or Windows PowerShell to manage Teams and Skype for Business Online. To use PowerShell to manage either Teams or Skype for Business Online, download and install the Skype for Business Online Connector.
-- Shared SIP address space must be enabled, and your on-premise deployment must be configured to use Office 365 as a hosting provider. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+- Shared SIP address space must be enabled, and your on-premises deployment must be configured to use Office 365 as a hosting provider. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md).
 
 After you configure hybrid connectivity, you can move users to Teams or Skype for Business Online. For more information, see [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md) and [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
