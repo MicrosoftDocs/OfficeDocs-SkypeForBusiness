@@ -2,7 +2,7 @@
 title: StaffHub to Teams sample email to users
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: gumariam,aaku
+ms.reviewer: gumariam,aaku,kejames
 manager: serdars
 ms.topic: article
 audience: admin
