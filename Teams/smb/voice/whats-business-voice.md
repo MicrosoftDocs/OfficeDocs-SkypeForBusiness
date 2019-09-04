@@ -22,12 +22,14 @@ Business Voice does all of this by wrapping up Microsoft 365 Phone System featur
 
 Business Voice is right for you if your organization has 300 or fewer people and you're using one the following Microsoft 365 subscriptions:
 
+* Microsoft 365 A1
+* MIcrosoft 365 A3
 * Microsoft 365 Business
-* Office 365 Business Premium
 * Office 365 Business Essentials
-* Microsoft 365 E3
-* Microsoft 365 E5
-* Microsoft 365 F1
+* Office 365 Business Premium
+* Office 365 E1
+* Office 365 E3
+* Office 365 F1
 
 When you buy Business Voice, you get the following features and more:
 

@@ -26,11 +26,11 @@ For PCs and Macs, you can download Teams at https://teams.microsoft.com/download
 For Android and iPhone phones, you can install the app by searching for Microsoft Teams in Google Play and the Apple App Store. Keep in mind that phones need to be running Android 4.4 or later, or iOS 10.0 or later.
 To use Teams on the web, you need to use a supported browser. For a list of supported browser, take a look at the [Web client section in Get clients for Microsoft Teams](../../get-clients.md#web-client).
 
-## Devices for Business Voice
+## Devices for Microsoft Teams
 
 Users you license for Business Voice need a microphone and speakers to make or receive phone calls. There are lots of options depending on the needs of each user or environment. Here are some ideas to think about when deciding what to get:
 
-* **Mobile users or those in noisy environments** - USB headsets with microphones. Paired with Microsoft Teams, a computer can be turned into a phone as long as it has an Internet connection.
+* **Mobile users or those in noisy environments** - USB and wireless headsets with microphones. Paired with Microsoft Teams, a computer can be turned into a phone as long as it has an Internet connection.
 * **Receptionists and executives** - Full, multi-function, desktop handsets can be used just like regular phones; auto-dial, conferencing, speakerphone, and support for headsets, make these extremely flexible.
 * **Conference rooms** - Audio conferencing devices let you set up entire conference rooms with speakerphone abilities that can be used with Teams conference bridges to host large meetings.
 
