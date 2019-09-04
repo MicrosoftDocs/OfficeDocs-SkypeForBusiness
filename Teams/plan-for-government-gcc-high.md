@@ -3,7 +3,6 @@ title: Plan for Microsoft 365 Government - GCC High deployments - Microsoft Team
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
