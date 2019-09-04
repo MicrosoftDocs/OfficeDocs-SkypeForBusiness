@@ -3,7 +3,6 @@ title: Get started with Teams templates in retail
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
