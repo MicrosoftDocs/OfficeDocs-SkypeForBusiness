@@ -33,6 +33,7 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
 |Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
+|Skype for Business Server 2015 Cumulative Update 10 |[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
 |Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| May 2019 |
 |Cumulative update 8 for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
 |Cumulative update 7 for Skype for Business Server 2015, Front End server and Edge server |[KB 4340904](https://support.microsoft.com/kb/4340904) |July 2018 |
@@ -57,6 +58,7 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4458772](http://support.microsoft.com/kb/4458772)|June 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|January 2019|
 |Lync Server 2013 Cumulative Update 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|July 2018 |
 |Lync Server 2013 Cumulative Update 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |July 2017 |
