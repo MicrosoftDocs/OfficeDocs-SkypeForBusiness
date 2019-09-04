@@ -7,7 +7,6 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
@@ -17,7 +16,7 @@ appliesto:
 
 # Expand Microsoft Teams across your organization
 
-These resources build on the standard deployment guidance and are designed to help you get the most out of Teams for specific organization types. If you haven't deployed Teams yet, see the recommended path to Teams in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).
+These resources build on the standard Teams deployment guidance and are designed to help you get the most out of Teams for specific organization types. If you haven't deployed Teams yet, see the recommended path to Teams in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).
 
 <ul class="panelContent cardsFTitle">
  <li>
