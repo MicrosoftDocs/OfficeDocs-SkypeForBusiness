@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

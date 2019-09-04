@@ -16,7 +16,9 @@ description: "This article discusses remote management of the default settings u
 
 You can now use a content camera with a Microsoft Teams Room system. A content camera interacts with special image-processing software and a whiteboard to allow a presenter to draw on an analog whiteboard and share the content with remote participants.
 
-See the video [Work like you are in one place, with Microsoft Teams Rooms](https://www.youtube.com/watch?v=1XvgH2rNpmk) for examples of content camera functionality.
+See the following video for examples of content camera functionality.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
 
 ## Set up a content camera
 
