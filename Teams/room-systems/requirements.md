@@ -25,7 +25,7 @@ Also, refer to:
 - [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
+> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online（Office 365 operated by 21Vianet is not supported）.
 >
 > Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
 >
