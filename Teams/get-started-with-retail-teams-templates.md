@@ -28,7 +28,7 @@ Teams templates have pre-built definitions of team structures designed around re
 
 In this article, we will introduce each of the Teams templates and how we recommend using them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization.
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. We assume that you already have deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
 
 To learn more about team templates in general, please refer to [Get started with Teams templates](get-started-with-teams-templates.md).
 

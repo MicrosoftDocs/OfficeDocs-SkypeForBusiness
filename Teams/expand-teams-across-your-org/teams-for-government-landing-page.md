@@ -17,7 +17,7 @@ appliesto:
 
 # Teams for Government
 
-Use these resources to plan and deploy Teams in Microsoft 365 Government environments.
+Use these resources to learn about deployment considerations for Teams in Microsoft 365 Government environments. When you're ready, follow the same recommended deployment path for Teams as outlined in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).
 
 <ul class="panelContent cardsFTitle">
     <li>

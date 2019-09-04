@@ -25,7 +25,7 @@ Microsoft Teams offers a number of features useful for hospitals and other Healt
 - Electronic Healthcare Record (EHR) integration 
 - Firstline Worker system integration 
 
-This is in addition to foundational capabilities of Microsoft Teams like meetings/calling, and messaging. 
+This content in this section is in addition to foundational capabilities of Microsoft Teams like meetings/calling, and messaging and assumes that you already have Teams deployed in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## Care Coordination - Microsoft Teams Patients app
 

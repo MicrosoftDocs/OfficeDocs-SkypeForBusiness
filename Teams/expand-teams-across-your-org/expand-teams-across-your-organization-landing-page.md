@@ -17,7 +17,8 @@ appliesto:
 
 # Expand Microsoft Teams across your organization
 
-<br>
+These resources build on the standard deployment guidance and are designed to help you get the most out of Teams for specific organization types. If you haven't deployed Teams yet, see the recommended path to Teams in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).
+
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">
