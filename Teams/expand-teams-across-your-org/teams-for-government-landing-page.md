@@ -7,7 +7,6 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
@@ -17,7 +16,7 @@ appliesto:
 
 # Teams for Government
 
-Use these resources to learn about deployment considerations for Teams in Microsoft 365 Government environments. When you're ready, follow the same recommended deployment path for Teams as outlined in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).
+Use these resources to learn about specific considerations for deploying Teams in Microsoft 365 Government environments. When you're ready, follow the same recommended deployment path for Teams as outlined in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).
 
 <ul class="panelContent cardsFTitle">
     <li>
