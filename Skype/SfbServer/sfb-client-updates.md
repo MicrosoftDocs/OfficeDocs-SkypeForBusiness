@@ -1,7 +1,7 @@
 ---
 title: "Latest updates for versions of Skype for Business that use Windows Installer (MSI)"
-ms.author: v-lanac
-author: lanachin
+ms.author: phillipg
+author: PhillipGarding
 manager: serdars
 ms.reviewer: qingy
 audience: ITPro
