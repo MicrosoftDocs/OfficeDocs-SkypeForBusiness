@@ -1,0 +1,79 @@
+### YamlMime:Tutorial
+title: Using Network Planner - example scenario
+metadata:
+  title: Using Network Planner - example scenario
+  description: Walk through of using Network Planner to set up a network plan and generate a report.
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  ms.author: serdars
+  manager: serdars
+  ms.date: 05/16/2019
+  ms.reviewer: rowille
+  ms.service: msteams
+  ms.topic: tutorial
+  localization_priority: Normal
+  ms.collection: 
+  - M365-collaboration
+items:
+- durationInMinutes: 3
+  content: |
+    
+    Network Planner tool is available in the Teams admin center and it helps you determine network requirements for your organization. This example scenario shows how you can use the tool to create sites, personas, and running reports for a company called Contoso. 
+  
+    ## Before you begin
+
+    We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to prepare your network for Teams. If this is the first article you've seen on Network Planner, we recommend that you go through the following articles first:
+    
+    - [Prepare your organization's network for Teams](prepare-network)
+    - [Use the Network Planner for Microsoft Teams](network-planner) 
+
+    ## Overview of Contoso network
+
+    Contoso has three locations: main headquarters and two branch offices. Here are the characteristics of each location:
+
+    |Location|Total number of employees|Specialized calling only employees|Internet connection|PSTN connection|
+    |Seattle HQ|1000|25|Local Internet|Local PSTN using Direct Routing|
+    |Kirkland Office|400|10|Remote Internet through HQ|Remote PSTN through HQ|
+    |Denver Office|250|50|Local Internet|No PSTN connection|
+
+    Let's get started!
+
+- title: Add a network plan
+  durationInMinutes: 2
+  content: |
+    
+    In Teams admin center, expand **Org-wide settings** and then select **Network planner**. The first thing we need to do is go create a network plan. 
+
+    1. Click **Add a network plan** 
+    2. In the **New network plan** pane, add a name and description for your network plan. For this example, we will use *Contoso1* as the plan name, and *Contoso network plan* as the description.
+    3. Click **Save**
+
+    ![Add a new network plan](media/network-planner-new-network-plan.png)
+
+    After you save your network plan, it will be displayed in the list of your network plans. 
+
+    ![List of network plans](media/network-planner-network-plans.png)
+
+- title: Create custom personas
+  durationInMinutes: 3
+  content: |
+
+    Next we need to create the necessary personas to represent your users. Since in each office we have specialized users who will only make phone calls, we will create that persona.
+
+    1. On the Network planner page, click the **Personas** tab, and then click **+ Custom persona**. 
+    2. Add a name and description for this persona, for this example, we'll just call it *Calling only*.
+    3. Turn on **Audio** and turn off everything else so that calling is the only permission turned on.
+    4. Click **Save** to add the persona to the list.
+
+    ![Adding a persona in network planner](media/network-planner-add-persona.png)
+
+    
+
+
+
+
+
+    
+    
+
