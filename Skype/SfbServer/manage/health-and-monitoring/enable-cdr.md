@@ -61,7 +61,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
  This command enables CDR for all the CDR configuration settings currently in use in your organization.
 
   ```
-  Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
+  Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
 For more information, see the help topic for the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet.
