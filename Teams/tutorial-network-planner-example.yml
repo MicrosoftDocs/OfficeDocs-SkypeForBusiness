@@ -16,7 +16,7 @@ metadata:
   ms.collection: 
   - M365-collaboration
 items:
-- durationInMinutes: 3
+- durationInMinutes: 2
   content: |
     
     Network Planner tool is available in the Teams admin center and it helps you determine network requirements for your organization. This example scenario shows how you can use the tool to create sites, personas, and running reports for a company called Contoso. 
@@ -55,7 +55,7 @@ items:
     ![List of network plans](media/network-planner-network-plans.png)
 
 - title: Create custom personas
-  durationInMinutes: 3
+  durationInMinutes: 2
   content: |
 
     Next you need to create the necessary personas to represent your users. Since in each location has specialized users who will only make phone calls, you need to create that persona.
@@ -68,7 +68,7 @@ items:
     ![Adding a persona in network planner](media/network-planner-add-persona.png)
 
 - title: Add sites to your network plan
-  durationInMinutes: 7
+  durationInMinutes: 5
   content: |
 
     Now, you need to add the three sites to your network plan. The table below summarizes the characteristics of Contoso's network locations.
@@ -98,7 +98,7 @@ items:
     ![Remote site egress settings](media/network-planner-add-remote-site-egress.png)
 
 - title: Create a report
-  durationInMinutes: 5
+  durationInMinutes: 3
   content: |
 
    Now that you have your sites added, you can create a report. You'll be defining your user distribution while creating the report.
@@ -112,7 +112,7 @@ items:
    ![User distribution among different personas for each site](media/network-planner-persona-distribution-2.png)
 
 - title: Analyze report output
-  durationInMinutes: 10
+  durationInMinutes: 5
   content: | 
 
     Once you generate the report, you’ll see a screen displaying your bandwidth requirements both as overall and modality specific values. By default, the allowed bandwidth is set to 30%. By changing this value and clicking **Run report**, you can see the different impact on the bandwidth for your network. Any areas that need more bandwidth will be highlighted with red.
