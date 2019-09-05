@@ -23,19 +23,18 @@ items:
   
     ## Before you begin
 
-    We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to prepare your network for Teams. If this is the first article you've seen on Network Planner, we recommend that you go through the following articles first:
+    We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to prepare your network for Teams. If this is the first article you've seen on Network Planner, we recommend that you go through the following articles first.
     
     - [Prepare your organization's network for Teams](prepare-network)
     - [Use the Network Planner for Microsoft Teams](network-planner) 
 
     ## Overview of Contoso network
 
-    Contoso has three locations: main headquarters and two branch offices. Here are the characteristics of each location:
+    Contoso has three locations:
 
-    |Location|Total number of employees|Specialized calling only employees|Internet connection|PSTN connection|
-    |Seattle HQ|1000|25|Local Internet|Local PSTN using Direct Routing|
-    |Kirkland Office|400|10|Remote Internet through HQ|Remote PSTN through HQ|
-    |Denver Office|250|50|Local Internet|No PSTN connection|
+    - **Seattle Headquarters:** This is the main location for Contoso. There 1000 employees and 25 of them are calling only. The site is connected to the Internet, and there is a local telephone connection (PSTN.) Contoso has Direct Routing set up to be able to use the local telephone connection with Teams. 
+    - **Kirkland Office:** This branch office has 400 employees and 10 are calling only. The site uses its connection to the headquarters for both Internet and phone (PSTN) traffic. This office is connected to the Seattle HQ with a WAN connection.
+    - **Denver Office:** This office has 250 employees and 50 are calling only. The site has its own local Internet connection, but has no direct telephone connection (PSTN.)
 
     Let's get started!
 
@@ -43,7 +42,7 @@ items:
   durationInMinutes: 2
   content: |
     
-    In Teams admin center, expand **Org-wide settings** and then select **Network planner**. The first thing we need to do is go create a network plan. 
+    In Teams admin center, expand **Org-wide settings** and then select **Network planner**. The first thing you need to do is go create a network plan. 
 
     1. Click **Add a network plan** 
     2. In the **New network plan** pane, add a name and description for your network plan. For this example, we will use *Contoso1* as the plan name, and *Contoso network plan* as the description.
@@ -59,7 +58,7 @@ items:
   durationInMinutes: 3
   content: |
 
-    Next we need to create the necessary personas to represent your users. Since in each office we have specialized users who will only make phone calls, we will create that persona.
+    Next you need to create the necessary personas to represent your users. Since in each location has specialized users who will only make phone calls, you need to create that persona.
 
     1. On the Network planner page, click the **Personas** tab, and then click **+ Custom persona**. 
     2. Add a name and description for this persona, for this example, we'll just call it *Calling only*.
@@ -68,12 +67,74 @@ items:
 
     ![Adding a persona in network planner](media/network-planner-add-persona.png)
 
+- title: Add sites to your network plan
+  durationInMinutes: 7
+  content: |
+
+    Now, you need to add the three sites to your network plan. The table below summarizes the characteristics of Contoso's network locations.
+
+    |Location|Total number of employees|Specialized calling only employees|Internet connection|PSTN connection|
+    |Seattle HQ|1000|25|Local Internet|Local PSTN using Direct Routing|
+    |Kirkland Office|400|10|Remote Internet through HQ|Remote PSTN through HQ|
+    |Denver Office|250|50|Local Internet|No PSTN connection|
+
+    1. Click your network plan in Network Planner.
+    2. Select the **Network sites** tab and click **Add a network site**.
+
+    ![Adding a network site](media/network-planner-add-network-site.png)
+
+    3. Using the table above, fill in the details for the Seattle HQ site.
+
+    ![New site details](media/network-planner-add-network-site-2.png)
+
+    4. Since the Seattle HQ site has local Internet and local PSTN connections, you need to correctly specify these characteristics.
+
+    ![New site egress settings](media/network-planner-add-network-site-egress.png)
+
+    5. Click **Save** to complete adding the Seattle HQ site.
+    6. Create the Denver site using the same process.
+    7. Since the Kirkland site leverages the connection to Seattle HQ for both Internet and PSTN connectivity, it is considered a remote site. When creating the Kirkland site, you need to specify that it is connect to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
+
+    ![Remote site egress settings](media/network-planner-add-remote-site-egress.png)
+
+- title: Create a report
+  durationInMinutes: 5
+  content: |
+
+   Now that you have your sites added, you can create a report. You'll be defining your user distribution while creating the report.
+
+   1. Select the **Report** tab, and then click **Start a report**. This will open the user distribution page. Start by adding a name and a description for your report.
+
+   ![Creating a network planner report](media/network-planner-add-report.png)  
+
+   2. When you first start a report, the user counts for each site will be distributed automatically like to 80% to office workers, 20% to remote workers. This is where you’ll adjust the number of users for each persona to match your user population. Let's assume that Contoso has the same 80/20 split between office workers and remote workers for each site, and take out the calling only personas out of the number of users in the office. The resulting distribution should look like the image below.
+
+   ![User distribution among different personas for each site](media/network-planner-persona-distribution-2.png)
+
+- title: Analyze report output
+  durationInMinutes: 10
+  content: | 
+
+    Once you generate the report, you’ll see a screen displaying your bandwidth requirements both as overall and modality specific values. By default, the allowed bandwidth is set to 30%. By changing this value and clicking **Run report**, you can see the different impact on the bandwidth for your network. Any areas that need more bandwidth will be highlighted with red.
+
+    ![Report analysis](media/network-planner-report-output.png)
+
+    Network planner also gives you recommendations based on the projected impact of Microsoft Teams on your network. Click the recommendation view icon to see recommendations for each site, if there are any. The image below shows a sample recommendation view.
+
+    ![Recommendation view](media/network-planner-recommendation-view.png)
+
+    Here, you can see that currently the Kirkland site's bandwidth needs to be increased to get the best performance from Microsoft Teams. 
+
+- title: Additional resources
+  durationInMinutes: 1
+  content: |
     
+    Network Planner is part of an overall approach to network planning. For more information on getting your organization ready for Teams, check out the following resources:
+
+     - [Check your environment's readiness for Teams](environment-readiness.md)
+     - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
+     - [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+     - [Office 365 URLs and IP address ranges](https://https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 
 
-
-
-
-    
-    
 
