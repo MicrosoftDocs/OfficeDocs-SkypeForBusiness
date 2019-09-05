@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server updates"
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
