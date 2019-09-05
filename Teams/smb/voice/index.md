@@ -75,11 +75,11 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Customize your setup</h3>
-                                                <P><a href="port-phone-numbers.md" target="_blank"></a>Port existing phone numbers</p>
-                                                <P><a href="set-up-auto-attendants.md" target="_blank"></a>Set up auto attendants</p>
-                                                <P><a href="set-up-calling-policies.md" target="_blank"></a>Set up calling policies</p>
-                                                <P><a href="create-users.md" target="_blank"></a>Create more users</p>
-                                                <P><a href="set-up-call-queues.md" target="_blank"></a>Set up call queues</p>
+                                                <P><a href="port-phone-numbers.md" target="_blank">Port existing phone numbers</a></p>
+                                                <P><a href="set-up-auto-attendants.md" target="_blank">Set up auto attendants</a></p>
+                                                <P><a href="set-up-calling-policies.md" target="_blank">Set up calling policies</a></p>
+                                                <P><a href="create-users.md" target="_blank">Create more users</a></p>
+                                                <P><a href="set-up-call-queues.md" target="_blank">Set up call queues</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -96,10 +96,10 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Use</h3>
-                                                <P><a href="manage-devices.md" target="_blank"></a>Manage your devices</p>
-                                                <P><a href="monitor-quality.md" target="_blank"></a>Monitor call quality</p>
-                                                <P><a href="analytics-dashboard.md" target="_blank"></a>Call Analytics quality dashboard</p>
-                                                <P><a href="shared-line.md" target="_blank"></a>Shared line</p>
+                                                <P><a href="manage-devices.md" target="_blank">Manage your devices</a></p>
+                                                <P><a href="monitor-quality.md" target="_blank">Monitor call quality</a></p>
+                                                <P><a href="analytics-dashboard.md" target="_blank">Call Analytics quality dashboard</a></p>
+                                                <P><a href="shared-line.md" target="_blank">Shared line</a></p>
                                             </div>
                                         </div>
                                     </div>
