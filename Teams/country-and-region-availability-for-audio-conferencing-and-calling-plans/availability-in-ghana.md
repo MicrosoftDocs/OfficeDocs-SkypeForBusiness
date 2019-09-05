@@ -1,7 +1,7 @@
 ---
 title: "Availability in Ghana"
-author: CarolynRowe
-ms.author: crowe
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
