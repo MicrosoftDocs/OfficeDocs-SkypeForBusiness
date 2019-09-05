@@ -2,7 +2,7 @@
 title: "Prepare your Environment"
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -23,22 +23,17 @@ This section contains an overview of the steps required to prepare your environm
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
    - It must be able to receive an IP address using DHCP. (Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup, but  afterwards static IP for the device could be configured on the device or on the upstream switch or router.)
-    
    - It must have these ports open (in addition to opening the normal ports for media):
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - If your network runs through a proxy, you'll need the proxy address or script information as well.
     
      > [!NOTE]
-     > Microsoft Teams Rooms does not support HDCP input, which has been observed to cause issues with HDMI ingest functionality (video, audio). Take care to ensure that switches connected to Microsoft Teams Rooms have HDCP options turned off. 
+     > Microsoft Teams Rooms does not support HDCP input, which has been observed to cause issues with HDMI ingest functionality (video, audio). Take care to ensure that switches connected to Microsoft Teams Rooms have HDCP options turned off.
   
-3. In order to improve your experience, Microsoft collects data. To collect data, we need these sites whitelisted:
-    
+3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, whitelist these sites:
+
    - Telemetry client endpoint: https://vortex.data.microsoft.com/
-    
    - Telemetry settings endpoint: https://settings.data.microsoft.com/
     
 ### Create and test a device account
@@ -85,13 +80,13 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
  
 8. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
     
@@ -118,7 +113,7 @@ To use this application, you must be able to connect to the endpoints described 
 |Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |\*.contoso.com  <br/> |No  <br/> |Yes  <br/> |[Skype for Business IP ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype Telemetry  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |No  <br/> |No  <br/> |N/A  <br/> |TCP 443  <br/> |
 |Skype client quicktips  <br/> |Client Computer or Logged on user  <br/> |Ephemeral ports  <br/> |quicktips.skypeforbusiness.com  <br/> |No  <br/> |No  <br/> |N/A  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > The wildcard for contoso.com and broadcast.skype.com represents a long list of nodes that are exclusively used for Office 365. 
   
