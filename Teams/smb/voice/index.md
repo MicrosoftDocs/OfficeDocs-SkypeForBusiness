@@ -37,7 +37,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <h3>Explore</h3>
                                                 <P><a href="whats-business-voice" target="_blank">What's Business Voice</a></p>
                                                 <P>Links to other Marketing material</p>
-                                                <P><a href="/office365/servicedescriptions/microsoft-365-business-voice-service-description" target="_blank">Service description</a></p>
+                                                <P><a href="https://review.docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-business-voice-service-description?branch=dstrome-smb-voice" target="_blank">Service description</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -58,6 +58,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                <P><a href="existing-phone-system.md" target="_blank">What if I already have phone lines?</a></p>
                                                 <P><a href="get-ready.md" target="_blank">How do I get my organization ready?</a></p>
                                                 <P><a href="prepare-users.md" target="_blank">Run the Getting Started Wizard</a></p>
+                                                <P><a href="things-to-try.md" target="_blank">Things to try after setup</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -73,8 +74,12 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Move to Microsoft 365 Business</h3>
-                                                <P><a href="migrate-to-microsoft-365-business.md" target="_blank">Move from Office 365 Business Premium</a></p>
+                                                <h3>Customize your setup</h3>
+                                                <P><a href="port-phone-numbers.md" target="_blank"></a>Port existing phone numbers</p>
+                                                <P><a href="set-up-auto-attendants.md" target="_blank"></a>Set up auto attendants</p>
+                                                <P><a href="set-up-calling-policies.md" target="_blank"></a>Set up calling policies</p>
+                                                <P><a href="create-users.md" target="_blank"></a>Create more users</p>
+                                                <P><a href="set-up-call-queues.md" target="_blank"></a>Set up call queues</p>
                                             </div>
                                         </div>
                                     </div>
@@ -86,33 +91,15 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/office/media/icons/security-blue.svg" alt="Shield symbol" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Protect business data and devices</h3>
-                                                <P><a href="security-features.md" target="_blank">Learn more about security features</a></p>
-                                                <P><a href="remove-company-data.md" target="_blank">Remove data from devices</a></p>
-                                                <P><a href="reset-devices-to-factory-settings.md" target="_blank">Reset devices</a></p>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
                                                     <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started hand with arrow symbol" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Use</h3>
-                                                <P><a href="https://support.office.com/office-training-center" target="_blank">Help everyone get up and running with Office</a></p>
-                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Help everyone switch to Windows 10</a></p>
-                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune training</a></p>
+                                                <P><a href="manage-devices.md" target="_blank"></a>Manage your devices</p>
+                                                <P><a href="monitor-quality.md" target="_blank"></a>Monitor call quality</p>
+                                                <P><a href="analytics-dashboard.md" target="_blank"></a>Call Analytics quality dashboard</p>
+                                                <P><a href="shared-line.md" target="_blank"></a>Shared line</p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,7 +139,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Need help?</h3>
-                                                    <P><a href="https://www.microsoft.com/solution-providers/search" target="_blank">Find a partner</a></p>
+                                                    <P>Find a partner</a></p>
                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contact support for Office 365</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Small and medium business tech community</a></p>
                                                 </div>
@@ -171,8 +158,8 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Help documentation</h3>
-                                                     <P><a href="https://docs.microsoft.com/office/admins-itprofessionals" target="_blank">Office admin docs</a></p>
-                                                     <P><a href="https://docs.microsoft.com/intune/index">Microsoft Intune docs</a></p>
+                                                     <P><a href="https://docs.microsoft.com/microsoftteams" target="_blank">Microsoft Teams docs</a></p>
+                                                     <P><a href="https://docs.microsoft.com/office365/admin">Office 365 docs</a></p>
                                                 </div>
                                             </div>
                                         </div>
