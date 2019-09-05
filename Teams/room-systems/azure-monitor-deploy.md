@@ -29,13 +29,13 @@ By following this guide, you can use a dashboard like the following example to g
 At a high level, you need to perform the following tasks:
 
 
-1.  [Validate Log Analytics configuration](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [Configure test devices for Log Analytics management setup](azure-monitor-deploy.md#configure_test_devices)
-3.  [Map custom fields](azure-monitor-deploy.md#Custom_fields)
-4.  [Define the Microsoft Teams Rooms views in Log Analytics](azure-monitor-deploy.md#Define_Views)
-5.  [Define alerts](azure-monitor-deploy.md#Alerts)
-6.  [Configure all devices for Monitoring](azure-monitor-deploy.md#configure_all_devices)
-7.  [Configure additional Azure Monitor solutions](azure-monitor-deploy.md#Solutions)
+1. [Validate Log Analytics configuration](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [Configure test devices for Log Analytics management setup](azure-monitor-deploy.md#configure_test_devices)
+3. [Map custom fields](azure-monitor-deploy.md#Custom_fields)
+4. [Define the Microsoft Teams Rooms views in Log Analytics](azure-monitor-deploy.md#Define_Views)
+5. [Define alerts](azure-monitor-deploy.md#Alerts)
+6. [Configure all devices for Monitoring](azure-monitor-deploy.md#configure_all_devices)
+7. [Configure additional Azure Monitor solutions](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > Although with minimal configuration, Azure Monitor Log Analytics can monitor a computer running a Windows operating system, there are still some Microsoft Teams Rooms–specific steps that you need to take before you start deploying agents to all Microsoft Teams Rooms devices.
