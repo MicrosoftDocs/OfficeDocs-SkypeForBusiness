@@ -2,7 +2,7 @@
 title: "Manage Windows Updates for Microsoft Teams Rooms"
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
 audience: ITPro
