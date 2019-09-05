@@ -2,7 +2,7 @@
 title: "Known issues"
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro

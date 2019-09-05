@@ -3,7 +3,7 @@ title: "Conferencing policy for Skype Room System accounts"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
