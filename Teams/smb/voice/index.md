@@ -37,7 +37,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <h3>Explore</h3>
                                                 <P><a href="whats-business-voice" target="_blank">What's Business Voice</a></p>
                                                 <P>Links to other Marketing material</p>
-                                                <P><a href="https://review.docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-business-voice-service-description?branch=dstrome-smb-voice" target="_blank">Service description</a></p>
+                                                <P><a href="https://review.docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-business-voice-service-description?branch=dstrome-smb-voice-sd" target="_blank">Service description</a></p>
                                             </div>
                                         </div>
                                     </div>
