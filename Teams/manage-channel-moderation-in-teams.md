@@ -52,11 +52,13 @@ In this scenario, the teacher allows their teaching assistants to moderate the c
 
 In Teams, go to the channel, click **More options ...** > **Manage channel**. From here you can turn on and turn off moderation, add team members as moderators, and set preferences.
 
+Channel moderation is a per-channel setting. There's no tenant-level setting for channel moderation. If you'd like us to add a tenant-level channel moderation setting, request it on [Teams UserVoice](https://microsoftteams.uservoice.com/).
+
 ![manage-channel-moderation-in-teams-preferences.png](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### Turn on or turn off moderation for a channel
 
-By default, moderation is off and you can restrict new posts to only team members or allow everyone, including guests, to start new posts.
+By default, moderation is off, which means that the usual channel settings apply to team owners and team members. For example, you can restrict new posts to only team members or allow everyone, including guests, to start new posts.
 
 To turn on moderation for a channel, under **Channel moderation**, click **On**. When channel moderation is on, only moderators can start new posts. 
 

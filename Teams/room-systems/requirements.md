@@ -2,7 +2,7 @@
 title: "Microsoft Teams Rooms requirements"
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
