@@ -3,7 +3,7 @@ title: "Microsoft Teams Rooms licenses"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -24,7 +24,7 @@ ms.custom:
 description: "Learn about features available in Microsoft Teams Rooms. "
 ---
 
-# Teams Meeting Room Licensing Update 
+# Teams Meeting Room Licensing Update
 
 ## Licensing Solutions for Shared Communication Devices
 
@@ -38,7 +38,7 @@ Microsoft has and dedicated SKU for licensing meetings and calling on a per-devi
 |Audio Conferencing|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|  
 |Worldwide Availability | &#x2714; &sup2;|
-|Channel Availability | EA, EAS, CSP, <br>Web Direct |
+|Channel Availability | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
 &sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
