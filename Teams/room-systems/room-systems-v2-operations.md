@@ -38,7 +38,7 @@ The logs will be output as a ZIP file in c:\rigel.
 Configure the Front of Room display to Extended mode. Doing so will ensure that the console UI is not duplicated on that display when you cycle power on the display.
   
 > [!NOTE]
-> A consumer TV used as a front of room display does not need to support/enable the Consumer Electronics Control (CEC) feature of HDMI, since most commercial displays nowadays works great with this feature.
+> A consumer TV used as a front of room display does not need to support/enable the Consumer Electronics Control (CEC) feature of HDMI, since most modern commercial displays are fully compatible with this feature.
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
