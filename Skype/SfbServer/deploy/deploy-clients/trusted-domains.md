@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

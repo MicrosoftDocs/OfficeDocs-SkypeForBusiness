@@ -3,7 +3,7 @@ title: "Use the Microsoft Teams Rooms recovery tool"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article

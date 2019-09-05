@@ -25,7 +25,7 @@ Best practices for organizing teams in Microsoft Teams
 
 Teams are collections of people who gather together around a common goal. This group of people may be within a department or across the organization. What brings them together is the outcome they are driving toward. Members of a team may work at a different pace or create assets differently, but in our experience they often collaborate quickly with each other, a process we call "high velocity teamwork."  
 
-Before creating a team in your product, it's a good practice to think about the goal, project, or work items and the organization’s people who can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Before creating a team, think about the goal, project, or work items and who in your organization can help deliver it collaboratively. Once you've identified them, add these people or groups to a team to start collaborating. Because membership can change over time, it's a good idea to designate multiple owners for each team. For more information, see [Managing teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Take a look at this short video to see some examples of how to structure cross-organizational or single purpose teams:
 

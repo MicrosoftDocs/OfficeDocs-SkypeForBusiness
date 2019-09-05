@@ -2,7 +2,7 @@
 title: "Release notes"
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -13,14 +13,13 @@ ms.collection: M365-voice
 description: "This article discusses cumulative improvements in Microsoft Teams Rooms."
 ---
 
-# Release notes 
+# Release notes
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
-
 ## Version history
 
-|Release |Published to <br> Microsoft Store |
+|Release |Published to <br/> Microsoft Store |
 |--- |--- |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -64,6 +63,7 @@ Introduced in this update:
 ### 4.0.105.0 (07/10/2019)
 
 Introduced in this update:
+
 - Skype Room System store app rebrand to "Microsoft Teams Rooms"
 - Microsoft Teams Rooms console user interface realigned to Microsoft Teams
 - Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements
@@ -124,7 +124,7 @@ Introduced in this update:
 ### 4.0.27.0 (10/1/2018)
 
 Introduced in this update:
- 
+
 - Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade
 - Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window
 - Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
@@ -200,11 +200,10 @@ Introduced in this update:
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-
 ### 3.0.16.0 (11/27/2017)
 
 Introduced in this update:
- 
+
 - Fixes an issue with the "Give Feedback" feature.
 
 ### 3.0.15.0 (10/3/2017)
@@ -214,7 +213,6 @@ Introduced in this update:
 - Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)
 - Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room
-
 
 ### 3.0.12.0 (9/1/2017)
 
@@ -245,7 +243,6 @@ Introduced in this update:
 - Ability for IT Admin to configure devices remotely
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-
 ### 2.0.2.0 (03/15/2017)
 
 Introduced in this update:
@@ -258,7 +255,7 @@ Introduced in this update:
 **Feature(s):**
 
  **Built for Skype for Business**
- 
+
 - One-touch join of Skype Meetings
 - Skype Meeting experience optimized for rooms with screen-filling HD video and HD wide-band audio
 - All participants can connect to the Skype Meeting using their device of choice from wherever they may be located

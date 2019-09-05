@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server updates"
-author: lanachin
-ms.author: v-lanac
+author: ariantor
+ms.author: arianr
 manager: serdars
 audience: ITPro
 ms.reviewer: arianr
@@ -32,7 +32,7 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
+|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| September 2019 |
 |Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| May 2019 |
 |Cumulative update 8 for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
 |Cumulative update 7 for Skype for Business Server 2015, Front End server and Edge server |[KB 4340904](https://support.microsoft.com/kb/4340904) |July 2018 |

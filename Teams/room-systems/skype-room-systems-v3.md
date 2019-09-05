@@ -2,7 +2,7 @@
 title: "Management overview for Microsoft Teams Rooms"
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -14,7 +14,7 @@ ms.collection: M365-voice
 description: "Management overview for Microsoft Teams Rooms."
 ---
 
-# Management overview 
+# Management overview
 
 It’s essential that you develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users and deliver a great user experience. 
 
@@ -22,14 +22,12 @@ It’s essential that you develop and execute ongoing maintenance and operations
 
 Monitoring Microsoft Teams Rooms systems consists of two key activities:
 
--  Device, application, and peripheral device monitoring
-
--  Quality and reliability monitoring (CQD)
+- Device, application, and peripheral device monitoring
+- Quality and reliability monitoring (CQD)
 
 ### Microsoft Teams Rooms device, application, and peripheral device monitoring
 
 To ensure that users are able to use the Microsoft Teams Rooms units, the units must be on, connected to the network with the Microsoft Teams Rooms application correctly configured, and be connected to functioning peripheral devices. 
-
 
 Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor-manage.md#understand-the-log-entries). 
 
@@ -38,7 +36,7 @@ Information about the state of the Microsoft Teams Rooms application and connect
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
-   
+
 Transferring files using Group Policies is discussed in [Configure a File Item](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## Remote Management using PowerShell
