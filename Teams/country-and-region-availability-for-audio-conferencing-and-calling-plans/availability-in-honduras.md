@@ -3,7 +3,7 @@ title: "Availability in Honduras"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud

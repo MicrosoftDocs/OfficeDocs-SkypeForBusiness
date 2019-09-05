@@ -3,7 +3,7 @@ title: "Availability in India"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
@@ -66,7 +66,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Note that in India, service numbers can only be used for Audio Conferencing. So, if you want to get toll and toll-free phone numbers for Audio Conferencing, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## Communications Credits
 

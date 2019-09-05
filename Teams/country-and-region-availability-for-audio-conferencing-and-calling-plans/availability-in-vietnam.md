@@ -3,7 +3,7 @@ title: "Availability in Vietnam"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 86208bc1-fbf9-449e-913b-2e3654fc33e4
 ms.tgt.pltfrm: cloud

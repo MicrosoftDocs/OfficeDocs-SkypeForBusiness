@@ -3,7 +3,7 @@ title: "Availability in Pakistan"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e 
 ms.tgt.pltfrm: cloud
@@ -66,7 +66,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |No  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Note that in Pakistan, service numbers can only be used for Audio Conferencing. So, if you want to get toll and toll-free numbers for Audio Conferencing, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## Communications Credits
 

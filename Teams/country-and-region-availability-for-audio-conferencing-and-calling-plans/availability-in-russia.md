@@ -3,7 +3,7 @@ title: "Availability in Russia"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud

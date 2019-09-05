@@ -3,7 +3,7 @@ title: "Availability in Latvia"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
