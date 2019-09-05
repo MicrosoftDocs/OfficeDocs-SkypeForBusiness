@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal

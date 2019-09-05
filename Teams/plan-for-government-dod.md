@@ -3,7 +3,6 @@ title: Plan for Microsoft 365 Government - DoD deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -148,6 +147,6 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 ## Step 6. Deploy Teams for collaboration
 
-After you’ve been onboarded to Microsoft 365 Government – DoD, you can follow the standard deployment approach of using [FastTrack](https://www.microsoft.com/fasttrack) and your chosen partner to onboard the service.
+After you’ve been onboarded to Microsoft 365 Government – DoD, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](How-to-roll-out-teams.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
 
-When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
+You can also work with [FastTrack](https://www.microsoft.com/fasttrack) or your chosen partner to onboard the service.
