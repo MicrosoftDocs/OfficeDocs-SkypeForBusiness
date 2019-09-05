@@ -200,7 +200,7 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Disabled and the user can override**     | Live captions aren't automatically turned on during a meeting and the user sees the **Turn on live captions** option in the menu to turn on live captions. |
+|**Disabled and the user can override**     | Live captions aren't automatically turned on during a meeting and the user sees the **Turn on live captions** option in the menu to turn on live captions. This is the default setting. |
 |**Enabled**    | Live captions are automatically turned on during a meeting. The user can't turn off live captions.  |
 |**Enabled and the user can override**   | Live captions are automatically turned on during a meeting and the user sees the **Turn on live captions** option in the menu to turn off live captions.  |
 |**Disabled**     | The user doesn't have the option to turn on live captions. Live captions aren't displayed during a meeting.          |
