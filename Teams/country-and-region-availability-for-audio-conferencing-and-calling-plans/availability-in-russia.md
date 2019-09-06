@@ -3,7 +3,7 @@ title: "Availability in Russia"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
@@ -62,7 +62,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |Moscow  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Moscow <li>St. Petersburg ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |No  <br/> |
    
