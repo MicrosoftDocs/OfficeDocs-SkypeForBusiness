@@ -22,27 +22,17 @@ Read this topic to learn how to join a Skype Room System appliance PC to your do
 You can join the Skype Room System appliance PC to the Active Directory domain or leave it in a Workgroup. Consider the following points before making this decision:
   
 - Domain-joining the Skype Room System appliance PC helps in importing your organization's private root certificate chain automatically.
-    
 - Domain-joining the Skype Room System appliance PC enables you to grant domain users and groups administrative rights. By doing so, you will not have to remember the local machine level administrator account password.
-    
 - When you join an Skype Room System appliance PC to the domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all the Skype Room System machine objects reside. When you do this, create machine objects in the OU before joining the Skype Room System appliance PC to the domain.
-    
-- Many organizations have the following GPOs, which affect Skype Room System appliance PC functions. Ensure that you override or block the inheritance of these GPOs in the Skype Room System OU: 
-    
+- Many organizations have the following GPOs, which affect Skype Room System appliance PC functions. Ensure that you override or block the inheritance of these GPOs in the Skype Room System OU:
+
   - Timeout of logon sessions (auto lockout)
-    
   - Power management related policies
-    
   - Requiring additional authentication steps
-    
   - Denying access to local drives
-    
   - Prompting users for slow network connections
-    
   - Start a certain program at logon
-    
   - Create another domain user account on all domain-joined machines.
-    
   - Push Windows Update to Skype Room System
     
 - Alternatively, you might decide to leave the appliance PC in the workgroup. As with the desktop Microsoft Teams or Skype for Business client, this requires you to manually import the root certificate chain on the Skype Room System appliance PC. You're not required to import the root certificate chain if your deployment is using a public certificate (for example, Entrust, VeriSign, and so on). 

@@ -3,7 +3,7 @@ title: "Availability in Indonesia"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
 ms.tgt.pltfrm: cloud
@@ -62,7 +62,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |Not applicable  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |Jakarta ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Are toll numbers available?  <br/> |No  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
