@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
