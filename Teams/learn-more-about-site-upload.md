@@ -33,9 +33,9 @@ The report labels and locations data you provide is a single data structure – 
 **To edit the table of subnets and locations**
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Reporting labels**.
-1. Click **Replace locations data**.
-1. In the **Replace location data** pane, click **Select a file**, and then browse to and upload your edited .csv or .tsv file.
-1. Click **Upload**.
+2. Click **Replace locations data**.
+3. In the **Replace location data** pane, click **Select a file**, and then browse to and upload your edited .csv or .tsv file.
+4. Click **Upload**.
 
 You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 
