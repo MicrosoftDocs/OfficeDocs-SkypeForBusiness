@@ -36,7 +36,7 @@ Identify and  [Configure the Primary Management Server](configure-the-primary.md
 
 The Management Packs can be used with System Center Operations Manager 2007 R2 (64-bit) (Supported for Migration purposes only) or System Center Operations Manager 2012 SP1 &amp; R2 (64-bit) or System Center Operations Manager 2016 (64-bit). The following table shows the supported configurations for the Management Packs for Skype for Business Server 2015: 
   
-|**Configuration**|**Supported?**|
+|Configuration|Supported?|
 |:-----|:-----|
 |Windows Server 2008 R2 operating system  <br/> Windows Server 2012 R2 operating system  <br/> |Yes. Both on Skype for Business Server 2015 server and synthetic transaction watcher nodes.  <br/> |
 |Clustered servers  <br/> |Not supported.  <br/> |
@@ -49,7 +49,7 @@ The Management Packs can be used with System Center Operations Manager 2007 R2 (
    
 The following table shows the capacity and operating system requirements for a synthetic transaction watcher node:
   
-|**Hardware component**|**Minimum requirement**|
+|Hardware component|Minimum requirement|
 |:-----|:-----|
 |CPU  <br/> |One of the following:  <br/> 64-bit processor, quad-core, 2.33 GHz or higher  <br/> 64-bit 2-way processor, dual-core, 2.33 GHz or higher  <br/> |
 |Memory  <br/> |8 GB  <br/> |
@@ -80,7 +80,7 @@ The Monitoring Pack for Skype for Business Server 2015 includes the following fi
 
 The following features are new to Skype for Business Server 2015 Management Packs.
 
-- **Changes in latest update** -	Some alerts have had special characters removed, which in certain conditions, would interfere with the SCOM command channel notification feature.
+- **Changes in [June 2019 update](https://www.microsoft.com/en-in/download/details.aspx?id=47364)** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
 
 - **Automatic discovery for Client Sign-In** Client applications that sign-in to Skype for Business Server 2015 often automatically discover the server to sign-in to. Synthetic transactions now support verification that automatic discovery is configured correctly.
     
@@ -94,13 +94,14 @@ The following features are new to Skype for Business Server 2015 Management Pack
 
 The Skype for Business Server 2015 Management Pack leverages a variety of features to help you detect and diagnose issues. These features provide real-time visibility into the health of a Skype for Business Server 2015 environment.
   
-|**Monitoring scenario**|**Description**|
+|Monitoring scenario|Description|
 |:-----|:-----|
 |Synthetic transactions  <br/> | Windows PowerShell cmdlets to test and help ensure high availability of scenarios such as sign in, presence, IM, and conferencing for users. <br/> The synthetic transactions can be run from any geographic location including inside the enterprise, outside of the enterprise and in branch offices.  <br/> When a synthetic transaction fails, HTML log s are created to help determine the exact nature of the failure. This includes understanding which action failed, the latency of each action, the command line used to run the test, and the specific error that occurred.  <br/> |
 |Call reliability alerts  <br/> |Call Detail Records (CDRs) written by Skype for Business Server 2015 Servers reflect whether users are able to connect to a call or why a call is terminated. Call reliability alerts query the CDR database to produce alerts that indicate when a high number of users experience connectivity issues for peer-to-peer calls or basic conferencing functionality.  <br/> Scenario coverage includes audio calls, peer-to-peer instant messaging (IM) and other conferencing features.  <br/> |
 |Media quality alerts  <br/> |Database queries that look at Quality of Experience (QoE) reports published by Skype for Business Server 2015 clients at the end of each call. These queries produce alerts that pinpoint scenarios where users are most likely to experience compromised media quality during calls and conferences. The data is built on key metrics, such as packet latency and loss, which directly contribute to the quality of user experience.  <br/> |
 |Component health alerts  <br/> |Individual server components raise alerts via event logs and performance counters to indicate failure conditions that may significantly affect user scenarios. These alerts indicate a variety of conditions, such as services not running, high failure rates, high message latency, or connectivity issues.  <br/> |
 |Dependency health monitoring  <br/> |Skype for Business Server can fail for a variety of external reasons. The Management Pack monitors and collects data for critical external dependencies that can indicate severe issues. These dependencies include Internet Information Services (IIS) availability, and CPU of servers used for Skype for Business Server.  <br/> |
+|||
    
 ### Alert Prioritization
 
@@ -116,19 +117,18 @@ Alerts are classified into the following categories:
 
 Skype for Business Server 2015 Management Packs provide increased coverage for alerts through synthetic transactions. Synthetic transactions are Windows PowerShell cmdlets integrated into the Operations Manager management pack to test end-to-end user scenarios. When you designate a server to execute synthetic transactions, these cmdlets are triggered periodically by the management pack. Failures resulting from a synthetic transaction generate a stateful alert. Here are supported synthetic transactions for Skype for Business Server 2015:
   
-**Supported Synthetic Transactions for Registration, Presence, and Contacts**
 
-||||
+
+|Supported Synthetic Transactions for Registration, Presence, and Contacts|||
 |:-----|:-----|:-----|
 |1  <br/> |Registration (user login)  <br/> |Available Lync Server 2010 and beyond  <br/> |
 |2  <br/> |Address Book Service (file download)  <br/> |Available Lync Server 2010 and beyond  <br/> |
 |3  <br/> |Address Book Web Query  <br/> |Available Lync Server 2010 and beyond  <br/> |
 |4  <br/> |Presence  <br/> |Available Lync Server 2010 and beyond  <br/> |
 |5  <br/> |Unified Contact Store  <br/> |Available Lync Server 2013 and beyond  <br/> |
-   
-**Supported Synthetic Transactions for Peer-to-Peer Services**
+||||   
 
-||||
+|Supported Synthetic Transactions for Peer-to-Peer Services|||
 |:-----|:-----|:-----|
 |6  <br/> |Peer-to-Peer Instant Messaging  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |7  <br/> |Peer-to-Peer Audio Video  <br/> |Available in Lync Server 2010 and beyond  <br/> |
@@ -136,10 +136,9 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
  
 > [!NOTE]
 > MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
-  
-**Supported Synthetic Transactions for Conferencing and Persistent Chat**
 
-||||
+
+|Supported Synthetic Transactions for Conferencing and Persistent Chat|||
 |:-----|:-----|:-----|
 |9  <br/> |Audio Video Conferencing  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |10  <br/> |Data Conferencing  <br/> |Available in Lync Server 2013 and beyond  <br/> |
@@ -149,22 +148,22 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 |14  <br/> |Dial in Conferencing  <br/> |New in Skype for Business Server 2015  <br/> |
 |15  <br/> |Application Sharing Conferencing  <br/> |New in Skype for Business Server 2015  <br/> |
 |16  <br/> |UCWA Conference (web meeting join)  <br/> |New in Skype for Business Server 2015  <br/> |
-   
-**Supported Synthetic Transactions for Network and Partner Dependencies**
-
 ||||
+
+|Supported Synthetic Transactions for Network and Partner Dependencies|||
 |:-----|:-----|:-----|
 |17  <br/> |AV Edge Connectivity  <br/> |Available in Lync Server 2013 and beyond  <br/> |
 |18  <br/> |AV Edge Connectivity Exchange Unified Message Connectivity (voicemail)  <br/> |Available in Lync Server 2013 and beyond  <br/> |
 |19  <br/> |PSTN Peer-to-Peer Call  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |20  <br/> |XMPP Instant Messaging (federation)  <br/> |Available in Lync Server 2013 and Skype for Business 2015  <br/> |
 |21  <br/> |Video Interop Server  <br/> |New in Skype for Business Server 2015  <br/> |
+||||
    
 ## How Health Rolls Up
 
 The following Table shows the health states of objects the Skype for Business Server monitoring pack.
   
-|**Management Pack Object**|**Description**|
+|Management Pack Object|Description|
 |:-----|:-----|
 |Skype for Business Server Deployment  <br/> |Represents the deployment of Skype for Business Server 2015 in the organization.  <br/> |
 |Skype for Business Server Site  <br/> |Represents different geographical locations where services are deployed.  <br/> |
