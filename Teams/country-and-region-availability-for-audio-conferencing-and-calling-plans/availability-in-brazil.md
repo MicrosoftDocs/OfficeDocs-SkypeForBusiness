@@ -3,7 +3,7 @@ title: "Availability in Brazil"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
@@ -62,7 +62,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | <ul><li>Rio de Janeiro <li>  Sao Paulo </ul> |
+|What capitals or major cities can you get toll numbers for?  <br/> | <ul><li>Rio de Janeiro <li>  Sao Paulo <li>Other cities [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
