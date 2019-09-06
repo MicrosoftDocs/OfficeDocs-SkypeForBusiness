@@ -73,10 +73,11 @@ items:
 
     Now, you need to add the three sites to your network plan. The table below summarizes the characteristics of Contoso's network locations.
 
-    |Location|Total number of employees|Specialized calling only employees|Internet connection|PSTN connection|
-    |Seattle HQ|1000|25|Local Internet|Local PSTN using Direct Routing|
-    |Kirkland Office|400|10|Remote Internet through HQ|Remote PSTN through HQ|
-    |Denver Office|250|50|Local Internet|No PSTN connection|
+    |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |
+    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
+    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing|
+    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         |
+    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             |
 
     1. Click your network plan in Network Planner.
     2. Select the **Network sites** tab and click **Add a network site**.
