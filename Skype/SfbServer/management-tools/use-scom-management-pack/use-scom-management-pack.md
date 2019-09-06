@@ -79,7 +79,9 @@ The Monitoring Pack for Skype for Business Server 2015 includes the following fi
 ## What's New
 
 The following features are new to Skype for Business Server 2015 Management Packs.
-  
+
+- **Changes in latest update** -	Some alerts have had special characters removed, which in certain conditions, would interfere with the SCOM command channel notification feature.
+
 - **Automatic discovery for Client Sign-In** Client applications that sign-in to Skype for Business Server 2015 often automatically discover the server to sign-in to. Synthetic transactions now support verification that automatic discovery is configured correctly.
     
 - **Customized synthetic transaction run intervals** To simplify the set up process of Watcher Nodes, synthetic transactions can share user accounts. This slows down the frequency at which the tests are run as the tests are serialized to avoid conflicts. By default, synthetic transactions run every 15 minutes to ensure all tests have time to run. Administrators who choose to use more users or fewer tests per user may now reduce the run interval, as well.
