@@ -3,7 +3,7 @@ title: "Availability in Egypt"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -63,7 +63,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Not applicable  <br/> |
 |Are toll numbers available?  <br/> |No  <br/> |
-|Are toll-free numbers available?  <br/> |No <br/> |
+|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
