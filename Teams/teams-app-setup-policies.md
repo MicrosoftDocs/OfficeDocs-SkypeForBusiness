@@ -133,6 +133,8 @@ The Calling app isn't available in Teams for Education. When you create a new cu
 
 A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has less than two apps, the mobile clients won't reflect the policy settings and instead will continue to use the existing configuration.
 
+There's no limit on the number of apps you can add to a policy.
+
 #### How long does it take for policy changes to take effect?
 
 After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
