@@ -54,10 +54,11 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Set up</h3>
-                                              <P><a href="what-to-buy.md" target="_blank">What do I need to buy?</a></p>
-                                               <P><a href="existing-phone-system.md" target="_blank">What if I already have phone lines?</a></p>
-                                                <P><a href="get-ready.md" target="_blank">How do I get my organization ready?</a></p>
-                                                <P><a href="prepare-users.md" target="_blank">Run the Getting Started Wizard</a></p>
+                                              <P><a href="what-to-buy.md" target="_blank">How to get Business Voice</a></p>
+                                               <P><a href="existing-phone-system.md" target="_blank">Existing phone lines</a></p>
+                                                <P><a href="get-ready-internet.md" target="_blank">Internet connection requirements</a></p>
+                                                <P><a href="prepare-users.md" target="_blank">Get your users ready</a></p>
+                                                <P><a href="use-getting-started-wizard.md" target="_blank">Run the Getting Started wizard</a></p>
                                             <!--    <P><a href="things-to-try.md" target="_blank">Things to try after setup</a></p> -->
                                             </div>
                                         </div>

@@ -2,14 +2,12 @@
 ## Microsoft 365 Business Voice
 ### [What's Microsoft 365 Business Voice?](voice/whats-business-voice.md)
 ### What to know before buying
-#### [What if I already have phone lines?](voice/existing-phone-system.md)
-#### [What do I need to buy?](voice/what-to-buy.md)
-#### [How do I prepare users?](voice/prepare-users.md)
+#### [How to get Business Voice](voice/what-to-buy.md)
+#### [Existing phone lines](voice/existing-phone-system.md)
+#### [Internet connection requirements](voice/get-ready-internet.md)
+#### [Get your users ready](voice/prepare-users.md)
 ### [Run the Getting Started wizard](voice/use-getting-started-wizard.md)
 <!--
-
-#### [How do I get my organization ready?](voice/get-ready.md)
-
 ### [Things to try](voice/things-to-try.md)
 ### Customize your setup
 #### [Port phone numbers](voice/port-phone-numbers.md)
