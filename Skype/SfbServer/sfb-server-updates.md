@@ -26,6 +26,16 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 |Skype for Business Server 2019 Cumulative Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
 | | | |
 
+### Skype for Business Server 2019 tools
+
+|Package Name/Link|Release Date|
+|:--- |:--- |
+|[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  June 2019       |
+|[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | June 2018        |
+|[Skype for Business Server 2019, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | June 2018        |
+|||
+
+
 ## Skype for Business Server 2015 update history
 
 [KB 3061064](https://support.microsoft.com/kb/3061064) contains all Cumulative Updates that have been released. 
@@ -49,7 +59,14 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 |Cumulative update for Skype for Business Server 2015, Front End server and Edge server|[KB 3061059](https://support.microsoft.com/kb/3061059) |June 2015 |
 ||||
 
-* * *
+### Skype for Business Server 2015 tools
+
+|Package Name/Link|Release Date|
+|:--- |:--- |
+|[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  May 2015       |
+|[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   May 2015      |
+|[Skype for Business Server 2015, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  June 2019       |
+|||
 
 ## Lync Server 2013 update history
 
