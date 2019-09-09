@@ -57,12 +57,12 @@ CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minut
 
 Version 3 also provides RBAC support, in case EUII access is not available.  
 
-An admin can also manage Skype for Business Server (not just Skype for Business Online and Microsoft Teams) through CQD version 3. 
+An admin can manage Skype for Business Server 2019 (not just Skype for Business Online and Microsoft Teams) through CQD version 3. This requires a hybrid implementation and the use of Call Data Connector. See [Plan Call Data Connector](../Skype/SfbHybrid/hybrid/plan-call-data-connector.md) for more information.
 
 CQD version 2 added:
 
-- Microsoft Teams data in addition to Skype for Business Online data.
-- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
+- Data for Microsoft Teams and Skype for Business Online 
+- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data 
 - Video and VBSS stream quality classification logic updates. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the classifier definitions.
 
 Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
@@ -72,14 +72,14 @@ Refer to this article for a list of [Dimensions and measures available in Call Q
  
 CQD version 1 provided the following features:
 
-- Skype for Business Online data only
+<!-- PM approved? -->
 
-<!-- PM comment needed  -->
+CQD version 1 provided Skype for Business Server 2015 admins the following features:
 
-CQD version 1 released the following features:
-
-
-
+- Access to cached report data for fast access
+- Deep links to report pages for information sharing and publishing
+ - Streamlined report editing and creation, and editable metadata for report descriptions
+ - Web APIs that give usrs programmatic access to the cube data for use in custom dashboards
  
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
@@ -142,19 +142,51 @@ All editions of CQD provide an experience that gives you call quality metrics wi
   
 ### Overview reports
 
-All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!-- needs PM update  -->
+All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!-- add reports from latest changes, PM approve  -->
   
 Summary Reports provide a simplified tabbed page report view so you can quickly browse and understand the overall call quality status and trends.
   
+
 The four tabs include:
   
 - **Overall Call Quality** — provides information about all streams, which is an aggregation that shows monthly and daily trends for: 
-  - Server-Client streams 
-  - Client-Client streams 
+  - Server-Client streams
+  - Client-Client streams
   - Separate Server-Client and Client-Client streams
 - **Server—Client** — provides details for the streams between Server and Client endpoints.
 - **Client—Client** — provides details for the streams between two Client endpoints.
 - **Voice Quality SLA** — provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
+
+> [!NOTE]
+> CQD Version 3 works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to install [Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). also see [plan](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector)
+ 
+<!--clean up CDC article disclaiming CQD support, ask PM to approve -->
+[Plan Call Data Connector](../Skype/SfbHybrid/hybrid/plan-call-data-connector.md)
+[Configure Call Data Connector](../Skype/SfbHybrid/hybrid/configure-call-data-connector.md)
+
+
+- Call Quality by Region:
+
+  - date-by-region
+  - aggregated down to hour-by-region
+  - specific locations
+  - specific subnet
+  - impacted user or users
+
+- Call Reliability/Failure by Region:
+  - date-by-region
+  - aggregated down to hour-by-region
+  - specific locations
+  - specific subnet
+  - impacted user or users
+
+- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
+- Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
+- Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
+- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
+
+
+
 
 ### Overall Call Quality tab
 
@@ -304,18 +336,19 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
 ## Create custom reports
 
-<a name="BKMKMediaType"></a>
-
-<!-- serious overhaul needed, PM review, previous content was insufficient -->
+<!-- serious overhaul needed, PM review, add content from server article on creating reports  -->
 
 You may find you want to create a specific report that focuses on certain dimension of the data in a way not available in the detailed reports provided.
 
-To create a custom detailed report:
+Click "Edit" in the action menu of a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor, you  see:
 
-1. Open CQD
-2. select stuff in the pulldown menu
-3. click on new report
-4. select media type and other parameters in the  settings screen (see screenshot)
+![Use CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png) 
+![Edit reports](../Skype/SfbServer/media/e8969625-e6f9-4d67-873f-93e78dd12b35.png) <!-- redo screenshot, see UI deck-->
+
+1. Dimensions, measures, and filters are chosen in the left pane. Hover over one of the existing values to show an "x" button that allows the value to be removed. Click the "plus" button next to a heading to open the dialog where you can add a new dimension, measure, or filter.
+2. Options for chart customization are displayed at the top.
+3. A preview of the report is available in the Report Editor.
+4. A detailed report description can be created with the edit box at the bottom.
 
 The detailed reports look at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
