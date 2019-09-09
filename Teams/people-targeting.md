@@ -50,9 +50,9 @@ As an admin, you can control who can apply tags and how tags are used across you
 By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off targeting for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
-2. Under **Targeting**, next to **Teams targeting is enabled for**, select one of the following options:
+2. Under **Targeting**, next to **Targeting is enabled for**, select one of the following options:
 
-    - **Team owners & members**: Allow team owners and members to apply tags.
+    - **Team owners and members**: Allow team owners and members to apply tags.
     - **Team owners**: Allow team owners to apply tags.
     - **Disabled**: Turn off targeting.
 
@@ -71,7 +71,7 @@ You can configure the following tags settings to control how tags are used acros
 
 Team owners can set whether members can apply tags and whether to automatically apply tags from your organization's directory and other apps.
 
-To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the  settings that you want.
+To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the settings that you want.
 
 ![Team tags settings](media/people-targeting-team-settings.png)
 
