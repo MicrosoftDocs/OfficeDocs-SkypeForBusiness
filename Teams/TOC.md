@@ -576,7 +576,7 @@
 
 ## [Overview](adopt-microsoft-teams-landing-page.md) 
 ## [Get started](teams-adoption-get-started.md)
-## [Skype for Business Online retirement](skype-for-business-online-retirement.md))
+## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 
 ## Phase 1 - Start
 ### [Start](teams-adoption-phase1.md)
