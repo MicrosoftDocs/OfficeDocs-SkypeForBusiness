@@ -145,7 +145,10 @@ An example of a small business implementation is available in  [Small business e
 
 ## Test the implementation
 
-The best way to test the implementation is to call the number configured for a Phone System auto attendant or call queue and connect to one of the agents or menus. You can also quickly place a test call by using the **Test button** in the admin center Action pane. If you want to make changes to a Phone System auto attendant or call queue, select it and then in the Action pane click **Edit**.
+The best way to test the implementation is to call the number configured for a Phone System auto attendant or call queue and connect to one of the agents or menus. You can also quickly place a test call by using the **Test button** in the admin center Action pane. If you want to make changes to a Phone System auto attendant or call queue, select it and then in the Action pane click **Edit**. 
+
+> [!TIP]
+> If your resource account has difficulties with being assigned to a call queue or auto attendant, see [Known issues for Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) and the [How to fix my hybrid application instances](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) section in the Microsoft Teams Blog.
 
 ## Moving an Exchange UM auto attendant or call queue to Phone System
 
