@@ -30,7 +30,6 @@ Microsoft Teams lets organizations provide custom views of the directory to thei
 > [!NOTE]
 > In Exchange hybrid environments, this feature will only work correctly with Exchange Online mailboxes, and not with on-premises mailboxes.
 
-
 ## When should you use scoped directory searches?
 
 Scenarios that benefit from scoped directory searches are similar to address book policy scenarios. For example, you may want to use scoped directory search in the following situations:
