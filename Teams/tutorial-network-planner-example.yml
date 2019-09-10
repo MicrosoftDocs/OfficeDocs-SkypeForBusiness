@@ -25,8 +25,8 @@ items:
 
     We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to prepare your network for Teams. If this is the first article you've seen on Network Planner, we recommend that you go through the following articles first.
     
-    - [Prepare your organization's network for Teams](prepare-network)
-    - [Use the Network Planner for Microsoft Teams](network-planner) 
+    - [Prepare your organization's network for Teams](prepare-network.md)
+    - [Use the Network Planner for Microsoft Teams](network-planner.md) 
 
     ## Overview of Contoso network
 
