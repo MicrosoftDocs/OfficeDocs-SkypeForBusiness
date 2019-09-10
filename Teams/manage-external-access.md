@@ -37,6 +37,9 @@ External access allows external users to find, call, and send you instant messag
 > [!IMPORTANT]
 > Currently, to federate within the Microsoft Teams app to an external user outside of your organization who's not currently a guest of your Azure Active Directory (Azure AD) or tenant, you must be correctly set up for hybrid and moved to Skype for Business Online. As of 2/25/2019, Teams doesn't support native federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for hybrid and then moving to Teams, see [Upgrade Skype for Business hybrid deployment to Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
+> [!IMPORTANT]
+> Guest users follow Org-wide settings for coexistence mode. This cannot be changed.
+
 ## External access vs. guest access
 
 External access (federation) and guest access are different:
