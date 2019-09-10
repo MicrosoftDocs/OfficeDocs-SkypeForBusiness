@@ -19,7 +19,7 @@ appliesto:
 Almost anyone can get set up phones with Microsoft 365 Business Voice, but whether you might need some help depends on how your phones are currently set up. Check out the following table to see whether you can set up Business Voice on your own or if you need to get help from a Microsoft partner.
 
 | Setup or features                            | Self or partner setup |
-|==============================================|=======================|
+|----------------------------------------------|-----------------------|
 | Single phone line                            | Self                  |
 | Individual phone lines to one or more people | Self                  |
 | Internal or direct dial                      | Partner               |
