@@ -74,6 +74,8 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](http://support.microsoft.com/kb/4515509)|September 2019|
+|Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](http://support.microsoft.com/kb/4501392)|June 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|January 2019|
 |Lync Server 2013 Cumulative Update 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|July 2018 |
 |Lync Server 2013 Cumulative Update 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |July 2017 |
