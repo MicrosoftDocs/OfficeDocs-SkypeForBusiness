@@ -103,7 +103,7 @@ Anything other than the operating systems listed here won't work properly; pleas
 There are some things you're going to need to install or configure for any server running Skype for Business Server 2019. These are listed below, followed by additional requirements for specific server roles.
 
 > [!IMPORTANT]
-> .Net Framework 4.8 is still not supported with Skype For Business 2019.
+> .Net Framework 4.8 is supported with Skype For Business 2019.
   
  **All servers:**
   
