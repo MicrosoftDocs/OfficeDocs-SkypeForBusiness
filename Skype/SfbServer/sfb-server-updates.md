@@ -76,19 +76,19 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](http://support.microsoft.com/kb/4515509)|September 2019|
-|Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](http://support.microsoft.com/kb/4501392)|June 2019|
-|Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|January 2019|
-|Lync Server 2013 Cumulative Update 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|July 2018 |
-|Lync Server 2013 Cumulative Update 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |July 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |March 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |January 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 2 |[KB 3212869](http://support.microsoft.com/kb/3212869) |December 2016 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |November 2016 |
+|Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
+|Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
+|Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|January 2019|
+|Lync Server 2013 Cumulative Update 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|July 2018 |
+|Lync Server 2013 Cumulative Update 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |July 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |March 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |January 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |December 2016 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |November 2016 |
 |Lync Server 2013 Cumulative Update 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|August 2016 |
 |Lync Server 2013 Cumulative update 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|April 2016 |
 |Lync Server 2013 Cumulative Update 6 Hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|January 2016 |
-|Lync Server 2013 Cumulative Update 6 Hotfix 1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|December 2015 |
+|Lync Server 2013 Cumulative Update 6 Hotfix 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|December 2015 |
 |Lync Server 2013 Cumulative Update 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|September 2015 |
 |Lync Server 2013 Cumulative Update 5 Hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|July 2015 |
 |Lync Server 2013 Cumulative Update 5 Hotfix 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|May 2015 |
