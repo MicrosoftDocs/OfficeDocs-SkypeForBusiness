@@ -80,7 +80,7 @@ The Monitoring Pack for Skype for Business Server 2015 includes the following fi
 
 The following features are new to Skype for Business Server 2015 Management Packs.
 
-- **Changes in [June 2019 update](https://www.microsoft.com/en-in/download/details.aspx?id=47364)** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
+- **Changes in [Sept 2019 update](https://www.microsoft.com/en-in/download/details.aspx?id=47364)** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
 
 - **Automatic discovery for Client Sign-In** Client applications that sign-in to Skype for Business Server 2015 often automatically discover the server to sign-in to. Synthetic transactions now support verification that automatic discovery is configured correctly.
     
