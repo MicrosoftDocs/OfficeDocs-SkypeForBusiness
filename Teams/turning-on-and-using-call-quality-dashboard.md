@@ -90,7 +90,7 @@ Before you can start using the CQD, activate it for your Office 365 organization
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
 3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
-4. On the page that opens, sign in with your Global Administrator account or Microsoft Teams Service Admin account, and then provide the credentials for the account when prompted.
+4. On the page that opens \(https://<span>cqd.teams.microsoft.<span/>com\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account, and then provide the password for the account when prompted.
 
      ![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -108,22 +108,20 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
 
-     ![Screenshot: show the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
-  
-After you sign in, once activated, the CQD will begin collecting and processing data.
+After you sign in, once activated, the Call Quality Dashboard will begin collecting and processing data.
 
 ## Features of the Call Quality Dashboard for Microsoft Teams and Skype for Business Online
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3-->
+<!-- this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, PM please comment-->
 CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the editions are summarized here:
   
 |Feature|Summary Reports|Detailed Reports|
 |:--- |:--- |:--- |
 |Application sharing metric | No | Yes |
 |Customer building information support | Yes | Yes |
-|Customer endpoint information support | Only in cqd.teams.microsoft.com   | Only in cqd.teams.microsoft.com   |
+|Customer endpoint information support | Only in <span>cqd.teams.microsoft.com<span/> | Only in <span>cqd.teams.microsoft.com<span/> |
 |Drill down analysis support   | No   | Yes   |
 |Media reliability metrics   | No   | Yes   |
 |Out-of-the-box reports   | Yes   | Yes   |
@@ -158,13 +156,8 @@ The four tabs include:
 - **Voice Quality SLA** — provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
 
 > [!NOTE]
-> CQD Version 3 works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to install [Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). also see [plan](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector)
+> CQD Version 3 works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
  
-<!--clean up CDC article disclaiming CQD support, ask PM to approve -->
-[Plan Call Data Connector](../Skype/SfbHybrid/hybrid/plan-call-data-connector.md)
-[Configure Call Data Connector](../Skype/SfbHybrid/hybrid/configure-call-data-connector.md)
-
-
 - Call Quality by Region:
 
   - date-by-region
@@ -332,36 +325,31 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
   **Sample row:**
 
-  `1409W3534, Fabrikam Model 123,     Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
-## Create custom reports
+## Create custom detailed reports
 
 <!-- serious overhaul needed, PM review, add content from server article on creating reports  -->
 
 You may find you want to create a specific report that focuses on certain dimension of the data in a way not available in the detailed reports provided.
 
-Click "Edit" in the action menu of a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor, you  see:
+From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New** d Click "Edit" in the action menu of a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to the following:
 
-![Use CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png) 
-![Edit reports](../Skype/SfbServer/media/e8969625-e6f9-4d67-873f-93e78dd12b35.png) <!-- redo screenshot, see UI deck-->
+![Edit new reports](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
-1. Dimensions, measures, and filters are chosen in the left pane. Hover over one of the existing values to show an "x" button that allows the value to be removed. Click the "plus" button next to a heading to open the dialog where you can add a new dimension, measure, or filter.
+1. Dimensions, measures, and filters are chosen in the left pane. Click the "plus" button next to a heading to open the dialog where you can add a new dimension, measure, or filter by checking a box. If editing an existing report, you can uncheck existing values to remove them. For details, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 2. Options for chart customization are displayed at the top.
-3. A preview of the report is available in the Report Editor.
-4. A detailed report description can be created with the edit box at the bottom.
-
-The detailed reports look at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
-  
-![Screenshot: create custom reports screen](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
-  
-A view of the dimensions and measures for a single media type may require the MediaType dimension and filter. For example, to have a report that shows the total session counts across different media types, include the MediaType dimension.
-  
-![Screenshot: shows Call Quality Dashboard Total Stream Count.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+3. A preview of the report is available in the Query Editor.
+4. A detailed report name and description can be created with the edit box at the bottom.
 
 ## Related topics
 
+[Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
 [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
-[Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
