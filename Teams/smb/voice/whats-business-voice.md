@@ -32,7 +32,7 @@ Business Voice is right for you if your organization has 300 or fewer people and
 * Office 365 F1
 
 > [!IMPORTANT]
-> Microsoft Teams and Business Voice only work when your users' mailboxes are located Microsoft 365.  We don't support mailboxes located on on-premises Exchange server.
+> Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  We don't support mailboxes located on on-premises Exchange server.
 
 When you buy Business Voice, you get the following features and more:
 
