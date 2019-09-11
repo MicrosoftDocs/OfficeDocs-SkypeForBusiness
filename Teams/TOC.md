@@ -291,6 +291,7 @@
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
 #### [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
+#### [Manage Caller ID policies](caller-id-policies.md)
 #### [Set the Caller ID for a user](set-the-caller-id-for-a-user.md)
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 ### Auto attendants and call queues 
@@ -304,7 +305,6 @@
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
-### [Caller ID policy](caller-id-policies.md)
 ### [Shared line appearance](shared-line-appearance.md)
 ### [Understand how users can block PSTN calls on Teams clients](block-pstn-calls-on-Teams-clients.md)
 
