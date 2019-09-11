@@ -32,9 +32,9 @@ If a user uses up their Calling Plan balance, what happens depends on whether yo
 
 There are two types of Calling Plans:
 
-### Domestic Calling Plans
+### Domestic Calling Plan
 
-Domestic Calling Plans let users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's given a Business Voice license. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
+The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's given a Business Voice license. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
 
 |Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
@@ -42,9 +42,11 @@ Domestic Calling Plans let users call phone numbers in their country or region. 
 |United Kingdom                     | 1200                                |
 |United States                      | 3000                                |
 
-### International Calling Plans
+Calls between the United States and Canada are domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
 
-International Calling Plans let users call phone numbers outside their country or region. Business Voice doesn't include International Calling Plans for every user but they can be purchased as an add on. 
+### International Calling Plan
+
+The International Calling Plan lets users call phone numbers outside their country or region. Business Voice doesn't include the International Calling Plan for every user but it can be purchased as an add on. 
 
 When you think about whether to buy a user an International Calling Plan, check to see how often they make international calls and how much time they spend on them. This is important because, when you purchase an International Calling Plan, you're paying for a certain number of minutes up front. If a user doesn't use up all of the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes provided by an International Calling Plan, don't buy one and instead use Communications Credits (coming up in the next section).
 

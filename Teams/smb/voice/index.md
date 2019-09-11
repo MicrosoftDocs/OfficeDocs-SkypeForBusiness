@@ -78,7 +78,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <h3>Customize your setup</h3>
                                                 <P><a href="port-phone-numbers.md" target="_blank">Port existing phone numbers</a></p>
                                                 <P><a href="set-up-auto-attendants.md" target="_blank">Set up auto attendants</a></p>
-                                                <P><a href="set-up-calling-policies.md" target="_blank">Set up calling policies</a></p>
+                                                <P><a href="set-up-policies.md" target="_blank">Set up policies</a></p>
                                                 <P><a href="create-users.md" target="_blank">Create more users</a></p>
                                                 <P><a href="set-up-call-queues.md" target="_blank">Set up call queues</a></p>
                                             </div>

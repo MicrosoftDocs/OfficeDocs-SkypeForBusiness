@@ -1,5 +1,5 @@
 ---
-title: Set up calling policies
+title: Set up policies
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -14,4 +14,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up calling policies
+# Set up policies
