@@ -34,6 +34,8 @@ Users you license for Business Voice need a microphone and speakers to make or r
 * **Receptionists and executives** - Full, multi-function, desktop handsets can be used just like regular phones; auto-dial, conferencing, speakerphone, and support for headsets, make these extremely flexible.
 * **Conference rooms** - Audio conferencing devices let you set up entire conference rooms with speakerphone abilities that can be used with Teams conference bridges to host large meetings.
 
+If you're using a USB or wireless device, plug the device into a computer running Teams. You might need to go into device settings in Teams (click on your profile picture at the top of Teams, select **Settings**, and then **Devices**) and choose your device from **Audio devices**. For other devices, follow the instructions to set it up for use with Teams.
+
 To see all the devices that are supported with Teams, take a look in the [Office Devices store](https://products.office.com/microsoft-teams/across-devices/devices).
 
 ## Set up voicemail greetings and other Business Voice features
