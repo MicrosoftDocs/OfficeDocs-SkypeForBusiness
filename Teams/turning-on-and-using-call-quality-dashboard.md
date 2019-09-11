@@ -57,7 +57,7 @@ CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minut
 
 Version 3 also provides RBAC support, in case EUII access is not available.  
 
-An admin can manage Skype for Business Server 2019 (not just Skype for Business Online and Microsoft Teams) through CQD version 3. This requires a hybrid implementation and the use of Call Data Connector. See [Plan Call Data Connector](../Skype/SfbHybrid/hybrid/plan-call-data-connector.md) for more information.
+An admin can manage Skype for Business Server 2019 (not just Skype for Business Online and Microsoft Teams) through CQD version 3. This requires a hybrid implementation and the use of Call Data Connector. See [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) for more information.
 
 CQD version 2 added:
 
