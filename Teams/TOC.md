@@ -604,7 +604,6 @@
 # Upgrade to Teams
 
 ## [Get started](upgrade-start-here.md)
-## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [About the upgrade framework](upgrade-framework.md)
 
 ## Plan your upgrade journey
@@ -644,7 +643,7 @@
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
 
-
+## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
 ## Learn more about coexistence
