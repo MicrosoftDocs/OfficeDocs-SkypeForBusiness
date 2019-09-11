@@ -82,7 +82,7 @@ If you want to know more, see [What are emergency locations, addresses, and call
 <table>
     <tr>
         <td>You can forward all calls to a specific user, or you can set up a call menu they can choose options from. If you create a call menu, you can specify options that a caller can select either by pressing a number on a phone's keypad, or by speaking the option. Each menu option can be forwarded to one user. <br>
-        You can choose whether to upload a sound file (MP3 or WAV) that's less than 5MB that gives instructions to the caller or you can type out the instructions instead. Microsoft 365 will use text-to-speech to read the instuctions to the caller. You might need to mis-spell the words or use phonetic spellings to get the pronunciations correct.
+        You can choose whether to upload a sound file (MP3 or WAV) that's less than 5MB that gives instructions to the caller or you can type out the instructions instead. Microsoft 365 will use text-to-speech to read the instructions to the caller. You might need to mis-spell the words or use phonetic spellings to get the pronunciations correct.
         </td>
         <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png?branch=dstrome-smb-voice" width="400">
         </td>
@@ -91,7 +91,8 @@ If you want to know more, see [What are emergency locations, addresses, and call
 
 <table>
     <tr>
-        <td> something about the end page.
+        <td> <p>On the <b>Overview</b> page, the Getting Started wizard takes everything you've entered and sets up Business Voice for you. You can see what phone numbers will be assigned to your users, take a look at your call menu, listen to your greeting, and more. </p>
+             <p>Setting up Business Voice takes several minutes. You can click on <b>Done</b> and Business Voice will continue setup, or wait until it's finished. After it's finished, go to <b>Voice</b> in the <a href="http://admin.teams.microsoft.com" target="_blank">Teams admin center</a> to set up more Business Voice features.</p>
         </td>
         <td><img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/voice-wizard-finish-page.png?branch=dstrome-smb-voice" width="400">
         </td>
