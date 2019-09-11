@@ -130,7 +130,7 @@ items:
 
         ![Screenshot of the Edit option for assigned policies.](media/teams-assigned-policy-edit-edu.PNG)
 
-        ![Screenshot of the Edit user policies section.](media/teams-edit-user-policies-edu.PNG)
+        ![Screenshot of the Edit user policies pane.](media/teams-edit-user-policies-edu.PNG)
    ### How to enable different policies for faculty and students
    To have custom settings for faculty and students (for example, Chat is enabled for faculty but not for students), there are two methods to create and assign them: 
       - Use the PowerShell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
