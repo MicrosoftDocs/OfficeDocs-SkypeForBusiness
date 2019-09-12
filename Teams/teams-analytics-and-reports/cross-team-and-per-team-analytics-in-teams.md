@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu, v-rifer
+ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
