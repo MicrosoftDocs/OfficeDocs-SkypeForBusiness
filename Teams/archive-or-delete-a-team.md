@@ -64,7 +64,7 @@ Follow these steps to restore a deleted team by restoring the Office 365 group t
 ### Install the AzureADPreview module
 
 1. Open Windows PowerShell as an admin.
-2. If you have an earlier version of the AzureADPreview module installed or AzureAD installed, uninstall it by running one of the following:
+2. If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:
 
     ``` 
     Uninstall-Module AzureADPreview
