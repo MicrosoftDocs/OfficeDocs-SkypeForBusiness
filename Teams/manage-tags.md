@@ -1,9 +1,9 @@
 ---
-title: People targeting in Microsoft Teams
+title: Manage tags in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: acolonna, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to control whether private teams can be discovered by Microsoft Teams users through suggestions in the team gallery and search results. 
+description: Learn to manage how tags are used in your organization in Microsoft Teams. 
 ---
 
-# People targeting in Microsoft Teams
+# Manage tags in Microsoft Teams
 
-People targeting in Microsoft Teams lets users communicate with a subset of people on a team. People targeting uses tags that can be applied to team members or groups to easily connect with the right subset of people. This feature lets team owners and members (if the feature if enabled for them) assign one or more tags to a person or group. The tags can then be used in @mentions by anyone on the team to start a conversation with only those people who are assigned that tag.
+Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be applied to team members or groups to easily connect with the right subset of people. Team owners and members (if the feature if enabled for them) can assign one or more tags to a person or group. The tags can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
 
 ## How tags work
 
-A tag can be applied at the team level or organization level.
-
-- **Team level**: The tag is applied to a person on a specific team (such as a role or a shift).
-- **Organization level**: The tag is applied to a person or team across your entire organization (such as an office location).
-
-After a tag is applied, it can be used in @mentions in any channel of the team.
+A tag can be applied to a person on a specific team. After a tag is applied, it can be used in @mentions in any channel of the team.
 
 Here's some examples of how tags can be used in Teams:
 
@@ -39,7 +34,7 @@ Here's some examples of how tags can be used in Teams:
  - A regional marketing manager wants to assign a task to all chefs located in the same Southwest region.
  - A hospital administrator wants to start a conversation with all radiologists in a hospital.
 
-## Manage targeting and tags settings for your organization
+## Manage tags for your organization
 
 As an admin, you can control who can apply tags and how tags are used across your organization in the Microsoft Teams admin center.
 
@@ -47,7 +42,7 @@ As an admin, you can control who can apply tags and how tags are used across you
 
 ### Set who can apply tags
 
-By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off targeting for your organization.
+By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
 2. Under **Targeting**, next to **Targeting is enabled for**, select one of the following options:
@@ -69,9 +64,7 @@ You can configure the following tags settings to control how tags are used acros
 
 ## Manage tags settings for a team
 
-Team owners can set whether members can apply tags and whether to automatically apply tags from your organization's directory and other apps.
-
-To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the settings that you want.
+Team owners can set whether members can apply tags. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the setting that you want.
 
 ![Team tags settings](media/people-targeting-team-settings.png)
 
