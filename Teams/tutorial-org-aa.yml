@@ -311,8 +311,7 @@ items:
     The information needed to implement the design in the earlier diagram is presented in the tables that follow.
     The implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
     of entering your final text and deciding for yourself whether it conveys the impression you want. If not, it's up to you whether to record your 
-    own prompts using [Sound Recorder](https://support.microsoft.com/en-us/help/14090/windows-sound-recorder-app-faq) 
-    in Windows or have a professional voice-over artist use your scripts to record .wav files.
+    own prompts using recording software or have a professional voice-over artist use your scripts to record .wav files.
     
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
     Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
