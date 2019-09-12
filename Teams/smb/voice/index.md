@@ -6,8 +6,8 @@ ms.author: sirkkuw
 author: sirkkuw
 keywords: Microsoft 365 Business, Microsoft 365, business, SMB, small to midsize business, Microsoft 365 Business documentation, docs, documentation, technical information
 localization_priority: Normal
-audience: microsoft-business
-ms.prod: microsoft-365-business
+audience: admin
+ms.service: msteams
 ms.collection: M365-subscription-management 
 title: Microsoft 365 Business Voice
 description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
