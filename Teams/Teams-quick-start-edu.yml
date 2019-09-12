@@ -118,7 +118,7 @@ items:
      
     You can easily manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by signing in with your admin credentials.
 
-    Settings in the Microsoft Teams admin center are not managed based on user license type. Instead, we suggest that you define different policies to manage which capabilities are available to your users. To configure a policy, click the policy in the left navigation of the admin center. Here's an example of messaging policies. 
+    Settings in the Microsoft Teams admin center are not managed based on user license type. Instead, we suggest that you define different policies to manage which capabilities are available to your users. To configure a policy, click the policy in the left navigation of the Microsoft Teams admin center. Here's an example of messaging policies. 
 
    ![Screenshot of the Messaging policies page.](media/teams-messaging-policies-edu.PNG)
    
@@ -137,8 +137,6 @@ items:
       - In the Microsoft Teams admin center, create a new custom policy and assign the policy to users on the **Users** tab. 
     > [!NOTE]
     > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned to the student, the student can use Chat. In this case, it may be easier to disable Chat globally and use custom policies to enable Chat for faculty. 
-
-    [Learn more about the full set of policies that you can use to manage Teams](teams-overview.md).
 
     ### Appendix
     #### How to create and assign a messaging policy
