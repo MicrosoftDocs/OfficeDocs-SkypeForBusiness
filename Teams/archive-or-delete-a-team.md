@@ -3,7 +3,6 @@ title: Archive or delete a team in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/18/2019
 ms.topic: conceptual
 audience: admin 
 ms.service: msteams
@@ -58,5 +57,30 @@ If the team will not be required in the future, then you can delete it rather th
 3.	Select **Delete**. A confirmation message will appear.
 4.	Select **Delete** to permanently delete the team.
 
+## Restore a deleted team
 
+1. Open Windows PowerShell as an admin.
+2. Run the following to install the AzureADPreview module:
+
+    ```
+    Install-Module AzureADPreview
+    ```    
+3. Run the following to connect to Azure AD:
+    ```
+    Connect-AzureAD
+    ``` 
+4. When you're prompted, sign in.
+5. Run the following to display all Office 365 groups that were deleted. Use **-All $True** if you have a lot of groups.
+    ```
+    Get-AzureADMSDeletedGroup
+    ``` 
+6. Find the group that you want to restore, and then make a note of the ID.
+7. Run the following to restore the group, where [Id] is the group Id.
+    ```
+    Restore-AzureADMSDeletedDirectoryObject -Id [Id]
+    ```
+8.  Run the following to verify the group was successfully restored, where [Id] is the group Id.
+    ```
+    Get-AzureADGroup -ObjectId [ID]
+```
 
