@@ -27,7 +27,7 @@
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
-## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-and-per-team-analytics.md)
+## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
