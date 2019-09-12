@@ -141,6 +141,8 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <div class="cardText">
                                                     <h3>Need help?</h3>
                                                     <P>Find a partner</a></p>
+                                                    <p><a href="https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck" target="_blank">Microsoft 365 Business Voice licensing deck</a>
+                                                    <p><a href="https://partner.microsoft.com/en-us/support/partnersupport" target="_blank">Compare Partner Support Plans</a>
                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contact support for Office 365</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Small and medium business tech community</a></p>
                                                 </div>
@@ -159,8 +161,10 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Help documentation</h3>
-                                                     <P><a href="https://docs.microsoft.com/microsoftteams" target="_blank">Microsoft Teams docs</a></p>
-                                                     <P><a href="https://docs.microsoft.com/office365/admin">Office 365 docs</a></p>
+                                                     <P><a href="https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page" target="_blank">Microsoft Teams admin docs</a></p>
+                                                     <p><a href="https://microsoftteams.uservoice.com/" target="_blank">Microsoft Teams UserVoice feedback</a>
+                                                     <p><a href="https://support.office.com/teams" target="_blank">Microsoft Teams client docs</a>
+                                                     <P><a href="https://docs.microsoft.com/office365/admin">Office 365 admin docs</a></p>
                                                 </div>
                                             </div>
                                         </div>

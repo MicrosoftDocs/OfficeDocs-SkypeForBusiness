@@ -23,14 +23,15 @@ Business Voice does all of this by wrapping up Microsoft 365 Phone System featur
 
 Business Voice is right for you if your organization has 300 or fewer people and you're using one the following Microsoft 365 subscriptions:
 
-* Microsoft 365 A1
-* MIcrosoft 365 A3
-* Microsoft 365 Business
 * Office 365 Business Essentials
 * Office 365 Business Premium
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1
+* Microsoft 365 A1
+* Microsoft 365 A3
+* Microsoft 365 E3
+* Microsoft 365 Business
 
 > [!IMPORTANT]
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  We don't support mailboxes located on on-premises Exchange server.
