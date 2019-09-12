@@ -124,7 +124,7 @@ items:
    
    With policies, you can turn on and turn off features at the per-user level. Here’s how policy assignments work:
       - By default, every new user will get the Global policy (tenant-level settings).
-      - A user can be assigned a built-in user policy created by Microsoft if it meets your requirements. These built-in policies are not editable by admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
+      - A user can be assigned a pre-canned user policy created by Microsoft if it meets your requirements. These pre-canned policies are not editable by admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
       - A custom policy can be assigned to any user. To create a new custom policy, click **Add**, choose the settings you want for the policy, and click **Save**. Then assign the custom policy to a user by going to **Users** in the Microsoft Teams admin center or by using a script. 
         ![Screenshot of the Add option on the Messaging policies page.](media/teams-new-messaging-policy-edu.PNG)
 
