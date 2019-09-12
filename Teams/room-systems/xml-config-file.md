@@ -126,7 +126,7 @@ You are free to use any method you like so long as you can use it to transfer fi
 
 The custom theme image file must be placed in the`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder. Enter the file name and extension in the \<CustomThemeImageUrl\> variable.
   
-The image file should be exactly 3840X1080 pixels and must be one of the following file formats: jpg, jpeg, png, and bmp. If your organization wants a custom image, a graphic designer can use the [Custom Theme Photoshop Template](https://go.microsoft.com/fwlink/?linkid=870441). It contains further detail on where to place various elements in a theme image and what areas appear on consoles and displays.
+The image file should be exactly 3840X1080 pixels and must be one of the following file formats: jpg, jpeg, png, and bmp. If your organization wants a custom image, a graphic designer can use the [Custom Theme Photoshop Template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd?raw=true). It contains further detail on where various user interface elements are relative to the rest of a theme image and what areas appear on consoles and displays.
   
 The XML configuration file must be updated at device startup to recognize the theme image. Once the new XML file is processed and deleted, the theme graphic file is deleted from the directory.
   
