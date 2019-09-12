@@ -5,6 +5,7 @@ ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -20,6 +21,8 @@ appliesto:
 
 If someone in your organization wants to make or receive phone calls to or from an external phone number, they need a Microsoft 365 Business Voice license. A Microsoft 365 Business Voice license gives them all the features they need to make or receive phone calls, host audio conferences, and more. Users who don't need to make or receive phone calls to or from external phone calls just need Teams; they don't need a Microsoft 365 Business Voice license. For example, you might have 10 factory employees and 5 office employees. The factory employees only need to call other employees within your company. The office employees need to call other employees, and they also need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Microsoft 365 Business Voice license.
 
+Included with Business Voice is a Domestic Calling Plan, which gives you a certain amount of minutes per month to make calls within your country or region. You can also add an International Calling Plan for an additional cost if you plan on making calls other countries or regions. You can pay for an International Calling Plan, extra minutes per month for the Domestic Calling Plan, and for toll-free numbers, using Communications Credits. You can learn more about Calling Plans and Communications Credits later in this article.
+
 If you want to know which features are included with Microsoft 365 Business Voice, take a look at [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 To buy Microsoft 365 Business Voice licenses, sign into the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), click on **Billing**, and then **Purchase services**.
@@ -34,7 +37,7 @@ There are two types of Calling Plans:
 
 ### Domestic Calling Plan
 
-The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's given a Business Voice license. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
+The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's given a Business Voice license that includes an allotment of minutes they can use to make calls. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
 
 |Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
