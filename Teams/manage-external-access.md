@@ -22,7 +22,7 @@ localization_priority: Normal
 Manage external access in Microsoft Teams
 ======================================================
 
-With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow othe external users who are still using Skype for Business Online, Skype for Business on-prem or even Skype to participate.
+With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow other external users who are still using Skype for Business Online, Skype for Business on-prem, or even Skype to participate.
 
 Use the steps in this article when:
   
@@ -36,6 +36,9 @@ External access allows external users to find, call, and send you instant messag
 
 > [!IMPORTANT]
 > Currently, to federate within the Microsoft Teams app to an external user outside of your organization who's not currently a guest of your Azure Active Directory (Azure AD) or tenant, you must be correctly set up for hybrid and moved to Skype for Business Online. As of 2/25/2019, Teams doesn't support native federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for hybrid and then moving to Teams, see [Upgrade Skype for Business hybrid deployment to Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+
+> [!IMPORTANT]
+> Guest users follow Org-wide settings for coexistence mode. This cannot be changed.
 
 ## External access vs. guest access
 
@@ -128,7 +131,7 @@ Follow these steps to allow or block domains.
 
 4. If you want to limit the organizations that can communicate with users in your organization, you can either allow all except some domains, or you can allow only specific domains. 
 
-    - To allow all except some domains, add the domains you want to block by clicking **Add domain**. In the **Add a domain** pane, type the domain name, click **Blocked**, and then clik **Done**. 
+    - To allow all except some domains, add the domains you want to block by clicking **Add domain**. In the **Add a domain** pane, type the domain name, click **Blocked**, and then click **Done**. 
     - To limit communications to specific organizations, add those domains to the list with a status of **Allowed**. Once you have added any domain to the Allow list, communications with other organizations will be limited to only those organizations whose domains are in the Allow list. 
 
 5. Click **Save**.

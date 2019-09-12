@@ -32,7 +32,8 @@ You can select a country or region to see what cloud voice features are availabl
 ***
 ## Select your country or region to see what's available for your organization
 
-> [!div class="op_single_selector"]    
+> [!div class="op_single_selector"]
+> - [Algeria](availability-in-algeria.md)    
 > - [Argentina](availability-in-argentina.md)
 > - [Australia](availability-in-australia.md)
 > - [Austria](availability-in-austria.md)
@@ -40,10 +41,12 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Belarus](availability-in-belarus.md)
 > - [Belgium](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
+> - [Benin](availability-in-benin.md)
 > - [Bosnia and Herzegovina](availability-in-bosniaherzegovina.md)
 > - [Brazil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgaria](availability-in-bulgaria.md)
+> - [Cambodia](availability-in-cambodia.md)
 > - [Canada](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
@@ -62,6 +65,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [France](availability-in-france.md)
 > - [Georgia](availability-in-georgia.md)
 > - [Germany](availability-in-germany.md)
+> - [Ghana](availability-in-ghana.md)
 > - [Greece](availability-in-greece.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong Kong](availability-in-hong-kong.md)
@@ -73,7 +77,9 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Italy](availability-in-italy.md)
 > - [Japan](availability-in-japan.md)
 > - [Jordan](availability-in-jordan.md)
+> - [Kazakhstan](availability-in-kazakhstan.md)
 > - [Kenya](availability-in-kenya.md)
+> - [Kuwait](availability-in-kuwait.md)
 > - [Latvia](availability-in-latvia.md)
 > - [Lithuania](availability-in-lithuania.md)
 > - [Luxembourg](availability-in-luxembourg.md)
@@ -83,8 +89,11 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Mexico](availability-in-mexico.md)
 > - [Moldova](availability-in-moldova.md)
 > - [Monaco](availability-in-monaco.md)
+> - [Morocco](availability-in-morocco.md)
 > - [Netherlands](availability-in-the-netherlands.md)
 > - [New Zealand](availability-in-new-zealand.md)
+> - [Nicaragua](availability-in-nicaragua.md)
+> - [Nigeria](availability-in-nigeria.md)
 > - [Norway](availability-in-norway.md)
 > - [Pakistan](availability-in-pakistan.md)
 > - [Panama](availability-in-panama.md)
@@ -111,6 +120,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Taiwan](availability-in-taiwan.md)
 > - [Thailand](availability-in-thailand.md)
 > - [Trinidad and Tobago](availability-in-trinidad-and-tobago.md)
+> - [Tunisia](availability-in-tunisia.md)
 > - [Turkey](availability-in-turkey.md)
 > - [Ukraine](availability-in-the-ukraine.md)
 > - [United Arab Emirates (UAE)](availability-in-the-united-arab-emirates-uae.md)
@@ -120,7 +130,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**.
 
 ***
 

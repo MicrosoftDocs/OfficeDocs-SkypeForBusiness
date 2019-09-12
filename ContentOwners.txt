@@ -4,10 +4,10 @@
 # So if a pull request only touches javascript files, only these owners
 # will be requested to review.
 
-/Skype/SfbServer/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi @CrystalThomasMS @AndreaBarr
-/Skype/SfBServer2019/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi @CrystalThomasMS @AndreaBarr
-/Skype/SfbOnline/ @tonysmit @lolajacobsen @AndreaBarr
-/Skype/SfbPartnerCertification/ @jambirk @AndreaBarr
-/Skype/Hub/ @samanro @AndreaBarr
-/Teams/ @lolajacobsen @tonysmit @chuckedmonson @AndreaBarr
-/Lync/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi @AndreaBarr
+/Skype/SfbServer/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi @CrystalThomasMS
+/Skype/SfBServer2019/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi @CrystalThomasMS
+/Skype/SfbOnline/ @tonysmit @lolajacobsen
+/Skype/SfbPartnerCertification/ @jambirk
+/Skype/Hub/ @samanro
+/Teams/ @lolajacobsen @tonysmit @chuckedmonson
+/Lync/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi

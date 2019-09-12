@@ -371,6 +371,7 @@
 ### Country and region availability for Calling Plan
 
 #### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+#### [Algeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 #### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
@@ -378,10 +379,12 @@
 #### [Belarus](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 #### [Belgium](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
 #### [Belize](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
+#### [Benin](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md)
 #### [Bosnia & Herzegovina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
 #### [Brazil](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
 #### [Brunei](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 #### [Bulgaria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
+#### [Cambodia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
 #### [Canada](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
 #### [Chile](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
 #### [China](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md)
@@ -400,6 +403,7 @@
 #### [France](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 #### [Georgia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
 #### [Germany](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+#### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 #### [Greece](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 #### [Honduras](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
 #### [Hong Kong](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
@@ -411,7 +415,9 @@
 #### [Italy](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md)
 #### [Japan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
 #### [Jordan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
+#### [Kazakhstan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kazakhstan.md)
 #### [Kenya](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
+#### [Kuwait](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md)
 #### [Latvia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
 #### [Lithuania](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
 #### [Luxembourg](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
@@ -421,8 +427,11 @@
 #### [Mexico](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
 #### [Moldova](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
 #### [Monaco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+#### [Morocco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
 #### [Netherlands](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 #### [New Zealand](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
+#### [Nicaragua](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md)
+#### [Nigeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
 #### [Norway](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
 #### [Pakistan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
 #### [Panama](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
@@ -449,6 +458,7 @@
 #### [Taiwan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
 #### [Thailand](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
 #### [Trinidad & Tobago](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
+#### [Tunisia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
 #### [Turkey](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
 #### [Ukraine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 #### [United Arab Emirates (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
@@ -603,6 +613,7 @@
 ### [Define your project scope](upgrade-define-project-scope.md)
 ### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Meetings First](meetings-first.md)
 
 ## Prepare your environment for Teams
 ### [Technical readiness overview](upgrade-prepare-environment.md)
@@ -632,7 +643,7 @@
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
 
-
+## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
 ## Learn more about coexistence
@@ -690,6 +701,7 @@
 ### [Run a report to show active StaffHub usage](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Plan to move your StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Sample email communication to users](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams for Healthcare
