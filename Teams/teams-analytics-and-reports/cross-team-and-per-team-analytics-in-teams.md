@@ -54,7 +54,6 @@ Per-team analytics gives users a more granular view of usage data for a specific
     |**Role**   |Numbers of users on the team by role, including team owners, team members, and guests.|
     |**Active users** chart  |Number of active users on the team by date. Hover over the dot on a given date to see the number of active users on that date.|
     |**Messages** chart  |Number of unique messages posted in team chat by date. Hover over the dot on a given date to see the number of unique messages posted on that date.|
-   
 
 ## Related topics
 
