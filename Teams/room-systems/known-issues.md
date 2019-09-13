@@ -49,7 +49,7 @@ Microsoft Teams Rooms does not support HDCP input, which has been observed to ca
 
 ***
 
-A consumer TV used as a front of room display must support the Consumer Electronics Control (CEC) feature of HDMI to switch automatically to an active video source from standby mode. This feature is not supported on all TVs.
+If you desire a front of room display to automatically switch to an active video source (such as an MTR console) when the source wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a workspace controller such as an [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) may be needed to enable the desired behavior. 
 
 ***
 
