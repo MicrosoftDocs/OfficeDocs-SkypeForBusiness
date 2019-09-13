@@ -136,6 +136,10 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
+> [!NOTE]
+> With MeetingUxUseCdn in Skype for Business Server 2015 Cumulative Update 5, the default value is set to False. This causes an issue where Skype for Business for Mac client is unable to join non-federated partners' meetings as a guest, even if Skype for Business Admin has set MeetingUxUseCdn to True. For this to work, Skype for Business Server 2015 must have the Cumulative Update 7, 6.0.9319.534, or later. See [Enable Skype Meetings App to replace Skype for Business Web App in Skype for Business Server 2015](https://support.microsoft.com/kb/4132312).
+
+
 ## See also
 <a name="SMA_Enable"> </a>
 
