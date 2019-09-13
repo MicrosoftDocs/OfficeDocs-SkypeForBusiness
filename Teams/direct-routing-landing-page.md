@@ -72,7 +72,7 @@ You'll need to configure Phone System to route the calls to the specific SBCs.
 
 ### Ensure incoming calls land in the Teams client using TeamsUpgradePolicy
 
-Direct Routing is only supported with Microsoft Teams. To receive PSTN calls through Direct Routing, you need to configure TeamsUpgradePolicy to ensure incoming calls are received in Teams. Uses must be in Teams Only mode, which is achieved by assigning them the "UpgradeToTeams" instance of TeamsUpgradePolicy. 
+Direct Routing is only supported with Microsoft Teams. To receive PSTN calls through Direct Routing, you need to configure TeamsUpgradePolicy to ensure incoming calls are received in Teams. Users must be in Teams Only mode, which you can do by assigning them the "UpgradeToTeams" instance of TeamsUpgradePolicy. 
 
 |Ask yourself|Action |
 |:------------|:-------|
