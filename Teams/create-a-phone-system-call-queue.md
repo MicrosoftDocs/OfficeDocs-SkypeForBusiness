@@ -74,9 +74,6 @@ To get started using call queues, it's important to remember a few things:
 
 - The following clients are supported for call agents associated to a Cloud call queue:
 
-    > [!NOTE]
-    > Call queues with direct routing number assigned to them do not support Skype for business clients, Lync, or Skype for business IP       Phones as agents.  
-
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
 
   - Lync desktop client 2013 (32-bit and 64-bit versions)
@@ -98,6 +95,9 @@ To get started using call queues, it's important to remember a few things:
   - Microsoft Teams iPhone app
 
   - Microsoft Teams Android app
+
+    > [!NOTE]
+    > Call queues that are assigned a direct routing number will not support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. 
 
 ## Step 2 — Getting or transferring toll or toll-free service phone numbers
 
