@@ -100,4 +100,4 @@ Follow these steps to restore a deleted team by restoring the Office 365 group t
     Get-AzureADGroup -ObjectId [Id]
     ```
 
-    It can take up to 24 hours for the changes to take effect and for the team to be displayed in Teams.
+    It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.
