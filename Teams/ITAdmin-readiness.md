@@ -93,7 +93,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Network Planning | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Call Quality Overview | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
-| Media |[Video](https://aka.ms/media-in-teams)  | [Deck] (https://aka.ms/media-in-teams-deck)|
+| Media |[Video](https://aka.ms/media-in-teams)  | [Deck](https://aka.ms/media-in-teams-deck)|
 | Live Events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Phone System introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direct Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
