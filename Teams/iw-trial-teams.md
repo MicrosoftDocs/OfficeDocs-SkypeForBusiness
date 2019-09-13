@@ -42,7 +42,7 @@ The service plans included in this offer are:
 - Whiteboard
 - Yammer Enterprise 
 
-The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
+The trial grants a one-year trial subscription to your entire organization. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
 
 ## Who is eligible
 
