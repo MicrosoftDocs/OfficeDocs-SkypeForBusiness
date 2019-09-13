@@ -74,6 +74,9 @@ To get started using call queues, it's important to remember a few things:
 
 - The following clients are supported for call agents associated to a Cloud call queue:
 
+    > [!NOTE]
+    > Call queues with direct routing number assigned to them do not support Skype for business clients, Lync, or Skype for business IP       Phones as agents.  
+
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
 
   - Lync desktop client 2013 (32-bit and 64-bit versions)
