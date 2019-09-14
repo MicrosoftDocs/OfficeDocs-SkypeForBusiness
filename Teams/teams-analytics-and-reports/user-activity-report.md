@@ -23,7 +23,7 @@ The Teams user activity report gives you insight into the types of activities th
 
 ## View the report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams user activity**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams user activity**.
 2. Under **Date range**, select a range, and then click **Run report**.
 
     ![Screen shot of the Teams user activity report in the Teams admin center with callouts](../media/teams-reports-user-activity-with-callouts.png "Screen shot of the Teams user activity report in the Teams admin center with callouts")

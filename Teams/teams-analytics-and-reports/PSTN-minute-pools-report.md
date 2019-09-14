@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
@@ -24,15 +24,14 @@ The Teams PSTN minute pools report in the Microsoft Teams admin center gives you
 
 In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN minute pools**, and then click **Run report**.
 
-## Interpret the report
-
 ![Screen shot of the Teams PSTN minute pools report in the admin center](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams PSTN minute pools report in the Microsoft Teams admin center with numbered callouts")
+
+## Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The Teams minute pools report can be viewed for trends over the last 7 days or 28 days. |
-|**2**   |Each report has a date for when this report was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
-|**3**   |The table gives you a breakdown of minute pools by license (capability) and usage location. <ul><li>**Capability**  is the license/service plan used for the call. The license/service plans you may see in this report include: <ul></ul><li>MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans</li><li>MCOPSTN2 - Domestic & International Calling Plan from which you will see a domestic pool (3000-minute US/Canada/PR, 1200-minute European countries) and an international pool (600-minutes). Minute cap is reached whenever the domestic -OR- international cap is reached within the calendar month.</li><li>MCOPSTN5 - Domestic Calling Plan (120-minute calling plan.)</li><li>MCOPSTN6 - Domestic Calling Plan (240-minute calling plan)</li><li>MCOMEETADD - Audio Conferencing</li></li> <li>**Capability Description** is a description of the license type used for the call.</li> <li>**Country Minute Pool** is the license usage location of the user(s) who share the minute pool.</li><li>**Used Minutes** is the number of minutes used each month</li> <li>**Total Minutes** is the total number of minutes available for the month.</li><li>**Percent Used** is the percent of minutes used for the month.</li></li> </ul> |
+|**1**   |Each report has a date for when this report was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
+|**3**   |The table gives you a breakdown of minute pools by license (capability) and usage location. <ul><li>**Country or region** ???</li><li>**Capability description** is the description of the license type used for the call.  The license types you may see in this report include: <ul><li>Domestic and international calling plan (1200 domestic minutes)</li><li>Domestic and international calling plan (3000 domestic minutes)</li><li>Domestic and international calling plan (600 international minutes)</li></ul></li><li>**Total minutes** is the total number of minutes available for the month.</li><li>**Minutes used*** is the number of minutes used each month</li> <li>**Minutes available** is the number of available minutes for the month.</li><li>**Capability** is the license used for the call. The licenses you may see in this report include:<ul><li>**MCOPSTNPP** - Communications Credits</li><li>**MCOPSTN1** - Domestic Calling Plan (3000 min US / 1200 min EU plans)</li><li>**MCOPSTN2** - International Calling Plan</li><li>**MCOPSTN5** - Domestic Calling Plan (120 min calling plan)</li><li>**MCOPSTN6** - Domestic Calling Plan (240 min calling plan)</li><li>**MCOMEETADD** - Audio Conferencing</li><li>**MCOMEETACPEA** - Pay Per Minute Audio Conferencing</li></ul></li> </ul> |
 |**4**   |Click to drag a column to create a view that groups all data into one or more columns|
 |**5**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
 
