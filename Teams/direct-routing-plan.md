@@ -83,7 +83,7 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 
 - Microsoft Phone System 
 - Microsoft Teams + Skype for Business Plan 2 if included in Licensing Sku
-- Microsoft Audio Conferencing 
+- Microsoft Audio Conferencing (please read the notes and the paragraph below to see specific examples whed the license is requried)
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing SKU where it is included. 
@@ -92,10 +92,12 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 > [!IMPORTANT]
 >  In the case that you would like to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is *required*.
 
-> [!NOTE]
-> The audio conferencing license is *required* to:
-> - Escalate from 1:1 call to a group call.
-> - Add external participants to scheduled meetings, by either dialing out or providing the dial-in number. 
+
+Ad Hoc call escalation and Audio Conferencing license.
+
+A Teams User can start a one to one Teams to PSTN or Teams to Teams call and add a PSTN participant to it. This scenario called ad hoc conference. The path the call takes, depends if the Microsoft Audio Conferencing license assigned to the user who escalates the call or not.
+1. If the Teams user, who escalates the call has the Microsoft Audio Conferencing license assigned, the escalation happens via Microsoft Audio Conferencing service. The remote PSTN participant who is being invited to the existing call on notification about incoming call sees the number of the Microsoft bridge, assigned to the Teams user who initiated the escalation
+2. If the Teams user, who escalates the call does not have the Microsoft Audio Conferencing license assigned, the escalation happens via a Session Border Controller, connected to Direct Routing interface. The remote PSTN participant who is being invited to the call on notification about incoming call sees the number of the Teams User who initiated the escalation. The specific SBC, used for the escalation, defined by Routing Policy of the user. 
 
 
 In addition, you must ensure the following:
