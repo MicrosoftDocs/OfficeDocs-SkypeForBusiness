@@ -2,6 +2,16 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/manage-emergency-call-routing-policies.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing",
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Teams/manage-emergency-calling-policies.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing",
+      "redirect_document_id": false
+      },
+    {
       "source_path": "Teams/customize-meeting-invitations.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams",
       "redirect_document_id": true 
