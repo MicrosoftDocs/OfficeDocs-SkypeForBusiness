@@ -25,8 +25,6 @@ f1keywords:
 
 # Manage custom app policies and settings in Microsoft Teams
 
->[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
-
 > [!NOTE]
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
 The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
