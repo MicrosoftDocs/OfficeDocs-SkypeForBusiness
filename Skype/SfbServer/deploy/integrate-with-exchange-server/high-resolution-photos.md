@@ -11,7 +11,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: "Summary: Configure the use of high-resolution photos in Exchange Server 2019 or Exchange Server 2016 or Exchange Server 2013 or Exchange Online and Skype for Business Server."
+description: "Summary: Configure the use of high-resolution photos in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013, or Exchange Online and Skype for Business Server."
 ---
 
 # Configure the use of high-resolution photos in Skype for Business Server
