@@ -17,7 +17,7 @@ appliesto:
 
 # How do I get my users ready for Business Voice?
 
-It's a good idea to get your users ready before you set up Business Voice. Make sure they have Microsoft Teams installed, set up devices on their computers, show them how to set up voicemail greetings and other Business Voice features, and encourage them to learn more about Teams so they get the most out of it.
+It's a good idea to get your users ready before you set up Business Voice. Make sure they have Microsoft Teams and Office installed, set up devices on their computers, show them how to set up voicemail greetings and other Business Voice features, and encourage them to learn more about Teams so they get the most out of it.
 
 ## Install Microsoft Teams on computers and phones
 
@@ -37,7 +37,7 @@ Users you license for Business Voice need a microphone and speakers to make or r
 
 If you're using a USB or wireless device, plug the device into a computer running Teams. You might need to go into device settings in Teams (click on your profile picture at the top of Teams, select **Settings**, and then **Devices**) and choose your device from **Audio devices**. For other devices, follow the instructions to set it up for use with Teams.
 
-To see all the devices that are supported with Teams, take a look in the [Office Devices store](https://products.office.com/microsoft-teams/across-devices/devices).
+To see all the devices that are supported with Teams, take a look in the [Teams Devices store](https://products.office.com/microsoft-teams/across-devices/devices). To purchases devices, contact your local reseller. Most major online stores also carry most Teams devices.
 
 ## Set up voicemail greetings and other Business Voice features
 

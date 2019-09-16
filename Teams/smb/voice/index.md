@@ -15,7 +15,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Business Voice resources</h1>
-        <P>Microsoft 365 Business Voice makes it easy for small and medium organizations to turn Microsoft Teams into a powerful and flexible telephone system. Get up and running and take advantage of all of features available through Microsoft Teams and Microsoft 365 Business Voice.</p>
+        <P>Learn how to plan, set up, and use Microsoft 365 Business Voice in your organization. Business Voice makes it easy for small and medium organizations to set up a powerful and flexible telephone system without the expense and complexity of in-house solutions. </p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -55,7 +55,6 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             <div class="cardText">
                                                 <h3>Set up</h3>
                                               <P><a href="what-to-buy.md" target="_blank">How to get Business Voice</a></p>
-                                               <P><a href="existing-phone-system.md" target="_blank">Existing phone lines</a></p>
                                                 <P><a href="get-ready-internet.md" target="_blank">Internet connection requirements</a></p>
                                                 <P><a href="prepare-users.md" target="_blank">Get your users ready</a></p>
                                                 <P><a href="use-getting-started-wizard.md" target="_blank">Run the Getting Started wizard</a></p>

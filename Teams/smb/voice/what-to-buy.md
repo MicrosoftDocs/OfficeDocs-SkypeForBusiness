@@ -72,7 +72,7 @@ We strongly recommend that you always keep a minimum Communication Credits balan
 
 To learn more about Communication Credits, take a look at [What are Communications Credits](../../what-are-communications-credits.md)?
 
-To see rates for toll-free and international calling, scroll down to **See rates for where you want to call** in [Online meetings with Microsoft Teams](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
+To see rates for toll-free and international calling, scroll down to **Add time with Communication Credits** in [Cloud Based Phone System](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates).
 
 ## Maximum number of supported users
 
