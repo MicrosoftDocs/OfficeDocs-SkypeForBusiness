@@ -38,7 +38,7 @@ The logs will be output as a ZIP file in c:\rigel.
 Configure the Front of Room display to Extended mode. Doing so will ensure that the console UI is not duplicated on that display when you cycle power on the display.
   
 > [!NOTE]
-> A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
+> If you desire a front of room display to automatically switch to an active video source (such as an MTR console) when the source wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a workspace controller such as an [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) may be needed to enable the desired behavior. 
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
@@ -54,7 +54,7 @@ If Microsoft Teams Rooms isn't running well, performing a factory reset might he
 The following table summarizes the possible remote operations and the methods you can use to accomplish them.
   
 
-|**Workgroup**|**Not domain joined**|**Domain joined**|
+|Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
 |Restart  <br/> |Remote desktop  <br/> Remote Powershell  <br/> |Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> SCCM  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -68,7 +68,7 @@ The following table summarizes the possible remote operations and the methods yo
 This section covers system settings that Microsoft Teams Rooms depends on to function properly. When joining Microsoft Teams Rooms to a domain, ensure that your group policy doesn't override the settings in the following table.
   
 
-|**Setting**|**Allows**|
+|Setting|Allows|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
@@ -85,15 +85,10 @@ Transferring files using Group Policies is discussed in [Configure a File Item](
 You can perform the following management operations remotely by using PowerShell (see the table below for script samples):
   
 - Get attached devices
-    
 - Get app status
-    
 - Get system info
-    
 - Reboot system
-    
 - Retrieve logs
-    
 - Transfer files (requires a domain-joined Microsoft Teams Rooms)
     
 > [!NOTE]
@@ -102,21 +97,15 @@ You can perform the following management operations remotely by using PowerShell
 For example, you can enable Remote PowerShell as follows:
   
 1. Sign in as Admin on a Microsoft Teams Rooms device.
-    
 2. Open an elevated PowerShell command prompt.
-    
 3. Enter the following command: Enable-PSRemoting -force
-    
+
 To perform a management operation:
   
 1. Sign in to a PC with account credentials that have permission to run PowerShell commands on a Microsoft Teams Rooms device.
-    
 2. Open a regular PowerShell command prompt on the PC.
-    
 3. Copy the command text from the table below and paste it at the prompt.
-    
 4. Replace  `<Device fqdn>` fields with FQDN values appropriate to your environment.
-    
 5. Replace  *\<path\>*  with the file name and local path of the master SkypeSettings.xml configuration file (or Theme image).
     
 To Get Attached Devices
@@ -177,7 +166,6 @@ If you want to manage updates manually, and are unable to follow the normal proc
 ### To update using Powershell
 
 1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
-    
 2. Run the following script targeting the Microsoft Teams Rooms devices, changing \<share\> to the device share as appropriate:
     
 ```
@@ -192,28 +180,15 @@ Some management functions, like manually installing a private CA certificate, re
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app is running
 
 1. Hang up any ongoing calls, and return to the home screen.
-    
 2. Select the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
-    
 3. Select **Settings**.
-    
-4. Enter the Administrator Password. The Setup screen will appear.
-    
-    > [!NOTE]
-    > If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb' but it is recommended that your organization change this for security reasons as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account. 
-  
+4. Enter the Administrator Password. The Setup screen will appear.  If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb', change the password as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account. 
 5. Select **Windows Settings** in the left column.
-    
 6. Choose **Go to Admin Sign-in**.
-    
 7. Enter the Administrator Password. This will gracefully log off the app and take you to the Windows login screen. 
-    
 8. Log in to the desktop with your administrative credentials. You'll have the necessary privileges to manage the device.
-    
 9. Perform the necessary administrative tasks.
-    
 10. Sign out from the Admin account.
-    
 11. Return to Microsoft Teams Rooms by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
     
     If the **Skype** user is not listed, you might have to select **other user** and enter **.\skype** as the user name, and sign in.
@@ -223,29 +198,21 @@ The console is now back in its normal operation mode.The following procedure req
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
 1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen. 
-    
 2. Log in to the desktop with your administrative credentials.
-    
+3. Perform the necessary administrative tasks.
+4. Restart the machine when you're finished.
+
     > [!NOTE]
     > This method doesn't log the Skype user off or gracefully terminate the app, but you'd use it if the app wasn't responding and the other method wasn't available. 
-  
-3. Perform the necessary administrative tasks.
-    
-4. Restart the machine when you're finished.
-    
+
    The console restarts into its normal operation mode, running the Microsoft Teams Rooms app. You can remove the keyboard, if it was attached to allow you to perform this procedure.
    ## Troubleshooting tips
    <a name="TS"> </a>
 
 - Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting.
-    
 - Microsoft Teams Rooms doesn't support Exchange AutoDiscover redirects via Exchange 2010.
-    
 - In general, it's a good practice for IT admins to disable any audio endpoints they don't intend to use.
-    
 - In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera remote control.
-    
 - Loss of console touchscreen access has been known to occur. In such cases, the issue is sometimes resolved by restarting the Microsoft Teams Rooms system.
-    
 - Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
     
