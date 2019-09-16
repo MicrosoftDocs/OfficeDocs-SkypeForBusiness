@@ -25,8 +25,6 @@ f1keywords:
 
 # Manage custom app policies and settings in Microsoft Teams
 
->[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
-
 > [!NOTE]
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
 The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
@@ -37,7 +35,7 @@ As an admin, you can use custom app policies and settings to control who in your
 
 Users can add a custom app to Teams by uploading an app package (in a .zip file) directly to a team or in the personal context. This is different from how apps are added through the Teams app store. Adding a custom app by uploading an app package, also known as sideloading, lets you test an app as it's being developed, before it's ready to be widely distributed. It also lets you build an app for internal use only and share it with your team without submitting it to the Teams app catalog in the Teams app store.
 
-![Screen shot showing the upload a custom app option in the app store](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Screenshot showing the upload a custom app option in the app store](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## Custom app policy and settings
 
@@ -94,7 +92,7 @@ If this setting is turned on:
 2. Click **Settings**, and then expand **Member permissions**.
 3. Select or clear the **Allow members to upload custom apps** check box.
 
-    ![Screen shot showing the team custom app setting](media/teams-custom-app-policy-and-settings-team.png)
+    ![Screenshot showing the team custom app setting](media/teams-custom-app-policy-and-settings-team.png)
 
 ### Org-wide custom app setting
 
@@ -106,7 +104,7 @@ The org-wide custom app setting, **Allow interaction with custom apps**, applies
 2. Click **Org-wide app settings**.
 3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
 
-    ![Screen shot showing the org-wide custom app settings](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Screenshot showing the org-wide custom app settings](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## How custom app policies and settings work together
 
