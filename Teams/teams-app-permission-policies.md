@@ -44,7 +44,7 @@ Use org-wide app settings to control which apps are available across your organi
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
-![Screen shot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
+
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party or custom apps in Teams**: This controls whether users can use third-party or custom apps.
