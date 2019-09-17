@@ -51,7 +51,7 @@ For example, here each row represents a pair of User Agents involved in a stream
 
 Information in the dimensions is based in part on data uploaded to the CQD portal at the time of the call. Many Dimension values can also be used as filters. The following table lists the dimensions currently available in CQD, in the order listed in the query editor used to create new reports:
 
-| Name | Data type  | Description | Possible Reasons for Blank Values |
+| Name | Data type  | Description | Possible Reasons for blank values |
 |:---  |:---        |:---         |:--- |
 |**Endpoint**|||
 | First CPU Name  | String  | Name of the CPU used by the first endpoint. <br/> **Example value:** Contoso CPU X11 @ 1.80GHz | <br/>&bull; This data was not reported by the endpoint   |

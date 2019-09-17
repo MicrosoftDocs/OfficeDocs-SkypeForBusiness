@@ -31,6 +31,8 @@ Learn how to configure your Office 365 organization to use the Call Quality Dash
   
 The Call Quality Dashboard (CQD) provides insights into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
+Currently, CQD version 3 and CQD version 2 are both available for use.  CQDv3 is available  at https://cqd.teams.microsoft.com.  You log in using your CQD account and password. 
+
 ## Latest changes and updates
 
 CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII) giving admins the ability to zoom in to the user level. There is also and report interactivity to support new scenarios such as:
@@ -78,12 +80,32 @@ CQD version 1 provided Skype for Business Server 2015 admins the following featu
 
 - Access to cached report data for fast access
 - Deep links to report pages for information sharing and publishing
- - Streamlined report editing and creation, and editable metadata for report descriptions
- - Web APIs that give usrs programmatic access to the cube data for use in custom dashboards
- 
-## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
+- Streamlined report editing and creation, and editable metadata for report descriptions
+- Web APIs that give usrs programmatic access to the cube data for use in custom dashboards
 
-Before you can start using the CQD, activate it for your Office 365 organization.
+## CQD Near-Real-Time (NRT) Data
+
+CQD v3 utilizes a near-real-time data feed where Call Records are available at the CQD portal within 30 minutes of the end of the call.  Call Records from the NRT pipeline are only available for a few months before being removed from the data set. CQDv3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period will be exactly the same.  Queries on the data between the v2 and v3 for the NRT Data and NRT Data + PII periods will be different, with .
+
+Another important note is that as the NRT data issues are fixed, only the newest data will contain the fixes.  Therefore, the CQD team will replace the NRT data with the Archival data time to time until the NRT data is deemed “GA quality” in which case the NRT data will become the new Archival data.
+NRT data is also versioned, that means a Call Record in the current day may be updated multiple times
+
+### PII/EUII Data
+
+PII or EUII data only comes from the v3 pipeline.  Due to compliance reasons, PII/EUII data is only kept for 30 days (shown in green above).  As NRT data crosses the 30 day mark, the PII/EUII fields will be cleared out, resulting in PII-free NRT data shown in yellow above. The PII/EUII fields are:
+
+- Full IP address
+- Mac Address
+- BSSID
+- Sip URI (SFB only)
+- UPN
+- Machine Endpoint Name
+- User Verbatim Feedback
+
+ 
+# Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
+
+Before you can start using CQD, activate it for your Office 365 organization as follows: 
 
 ![An icon that shows the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
@@ -284,7 +306,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 ### Building data file
 
-CQD uses a Building data file. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
   
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
@@ -294,7 +316,7 @@ CQD uses a Building data file. The Subnet column is derived by expanding the Net
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |
-|**Column field name** |NetworkIP    |NetworkName               |NetworkRange |BuildingName  |OwnershipType | BuildingType   | BuildingOfficeType | City    |ZipCode |Country|State|Region   |InsideCorp   | ExpressRoute   |
+|**Column field name** |NetworkIP |NetworkName |NetworkRange |BuildingName |OwnershipType | BuildingType | BuildingOfficeType | City |ZipCode |Country|State|Region |InsideCorp   | ExpressRoute |
 |**Data type**         | String     | String                     |Number       | String       | String       | String         | String             | String  | String |String |String|  String   |Boolean   | Boolean   |
 |**Example value**     |192.168.1.0 |USA/Seattle/SEATTLE-SEA-1   | 26          | SEATTLE-SEA-1| Contoso      | IT Termination | Engineering        | Seattle | 98001  |US     |WA |MSUS   | 1   |  0   |
 
