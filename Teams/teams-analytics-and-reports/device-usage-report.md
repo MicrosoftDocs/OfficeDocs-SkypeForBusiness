@@ -26,7 +26,7 @@ The Teams device usage report in the Microsoft Teams admin center provides you w
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams device usage**.
 2. Under **Date range**, select a range, and then click **Run report**.
 
-    ![Screen shot of the Teams device usage report in the Teams admin center with callouts](../media/teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Teams admin center  with callouts")
+    ![Screenshot of the Teams device usage report in the Teams admin center with callouts](../media/teams-reports-device-usage-with-callouts.png "Screenshot of the Teams device usage report in the Teams admin center  with callouts")
 
 ## Interpret the report
 
