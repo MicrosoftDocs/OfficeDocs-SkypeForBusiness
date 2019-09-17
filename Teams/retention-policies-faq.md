@@ -39,7 +39,7 @@ Yes, they are. If you create a retention policy to delete data older than 60 day
 By default, Teams chat, channel, and files data are retained forever. A user can delete something, but in the absence of retention policies, Teams data is always archived into Exchange online mailboxes (user and group) and stays there for eDiscovery. 
 
 
-### What is the licensing required for retention policy? 
+### What licensing is require for a retention policy? 
 
 Usually, any license that contains Microsoft Teams and an active Exchange mailbox:
 
