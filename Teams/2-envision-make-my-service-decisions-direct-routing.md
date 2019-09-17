@@ -347,7 +347,7 @@ one of the following two methods:
 -   Configure Teams as the preferred calling client by assigning the
     TeamsCallingPolicy and the TeamsInteropPolicy.
 
-For more details, see [Set Microsoft Teams as the preferred calling client for users](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
+For more details, see [Assign Teams Only mode to users to ensure calls land in Microsoft Teams](direct-routing-configure.md#assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams).
 
 
 |         |         |         |
