@@ -45,7 +45,7 @@ Usually, all those that contain Microsoft Teams and an active Exchange mailbox:
 
 - Office 365 Business Premium
 - Office 365 Business Essentials
-- Office 365 E1, E3 or E5
+- Office 365 E1, E3, or E5
 - Microsoft 365 Business
 
 
