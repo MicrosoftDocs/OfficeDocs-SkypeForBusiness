@@ -27,7 +27,7 @@ The ability to make and receive calls by using Direct Routing involves the follo
 - Direct Routing components in the Microsoft Cloud 
 - Telecom trunks 
 
-If you have difficulties troubleshooting issues, please open a support case with your SBC vendor or Microsoft. 
+If you have difficulties troubleshooting issues, you can open a support case with your SBC vendor or Microsoft. 
 
 Microsoft is working on providing more tools for troubleshooting and monitoring. Please check the documentation periodically for updates. 
 
@@ -43,27 +43,27 @@ The following diagram shows an example of the configuration:
 
 When a user makes a call to number +1 425 \<any seven digits>, Direct Routing evaluates the route. There are two SBCs in the route: sbc1.contoso.com and sbc2.contoso.com. Both SBCs have equal priority in the route. Before picking an SBC, the routing mechanism evaluates the health of the SBCs based on when the SBC sent the SIP options last time. 
 
-An SBC is considered healthy if statistics at the moment of sending the call shows that the SBC sends Options every minute.  
+An SBC is considered healthy if statistics at the moment of sending the call shows that the SBC sends options every minute.  
 
 When a call is made, the following logic applies:
 
-- The SBC was paired at 11.00 AM.  
-- The SBC sends options at 11.01 AM, 11.02 AM, and so on.  
-- At 11.15, a user makes a call and the routing mechanism selects this SBC. 
+- The SBC was paired at 11:00 AM.  
+- The SBC sends options at 11:01 AM, 11:02 AM, and so on.  
+- At 11:15, a user makes a call and the routing mechanism selects this SBC. 
 
 Direct Routing takes the regular interval options three times (the regular interval is one minute). If options were send during the last three minutes, the SBC is considered healthy.
 
-If the SBC in the example sent options at any period between 11.12 AM and 11.15 AM (the time the call was made), it is considered healthy. If not, the SBC will be demoted from the route. 
+If the SBC in the example sent options at any period between 11:12 AM and 11:15 AM (the time the call was made), it is considered healthy. If not, the SBC will be demoted from the route. 
 
 Demotion means that the SBC will not be tried first. For example, we have sbc1.contoso.com and sbc2.contoso.com with equal priority.  
 
-If sbc1.contoso.com does not send SIP options on a regular interval as described above, it is demoted. Next, sbc2.contoso.com tries for the call. If sbc2.contoso.con cannot deliver the call, the sbc1.contoso.com (demoted) is tried again before a failure is generated. 
+If sbc1.contoso.com does not send SIP options on a regular interval as previously described, it is demoted. Next, sbc2.contoso.com tries for the call. If sbc2.contoso.con cannot deliver the call, the sbc1.contoso.com (demoted) is tried again before a failure is generated. 
 
-If two (or more) SBCs in one route concidered healthy and equal, Fisher-Yates shuffle applied to distrubute the calls between the SBCs.
+If two (or more) SBCs in one route are considered healthy and equal, Fisher-Yates shuffle is applied to distribute the calls between the SBCs.
 
 ## Monitor Call Quality Analytics dashboard and SBC logs 
  
-In some cases, especially during the initial pairing, there might be issues related to misconfiguration of the SBCs and/or the Direct Routing service. 
+In some cases, especially during the initial pairing, there might be issues related to misconfiguration of the SBCs or the Direct Routing service. 
 
 You can use the following tools to monitor your configuration:  
  
@@ -78,4 +78,4 @@ In case of call failures, Call Analytics provides standard SIP codes to help you
 
 ![Sample SIP code for call failure](media/failed-response-code.png)
 
-However, Call Analytics can only help when calls reach the internal components of Direct Routing and fail. In case of issues with SBC pairing or issues where SIP “Invite” was rejected (for example, the name of the trunk FQDN is misconfigured), Call Analytics will not help. In this case, please refer to the SBC logs. Direct Routing sends a detailed description of issues to the SBCs; these issues can be read from the SBC logs. 
+However, Call Analytics can only help when calls reach the internal components of Direct Routing and fail. In case of issues with SBC pairing or issues where SIP “Invite” was rejected (for example, the name of the trunk FQDN is misconfigured), Call Analytics will not help. In this case, refer to the SBC logs. Direct Routing sends a detailed description of issues to the SBCs; these issues can be read from the SBC logs. 
