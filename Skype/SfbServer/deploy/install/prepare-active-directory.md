@@ -30,7 +30,7 @@ Skype for Business Server works closely with Active Directory. You must prepare 
 Skype for Business Server is tightly integrated with Active Directory Domain Services (AD DS). Before Skype for Business Server can be installed for the first time, Active Directory must be prepared. The section of the Deployment Wizard titled **Prepare Active Directory** prepares the Active Directory environment for use with Skype for Business Server.
   
 > [!NOTE]
-> Skype for Business Server uses (AD DS) to track and communicate with all of the servers in a topology. Every server must be joined to the domain so that Skype for Business Server can work properly. 
+> Skype for Business Server uses (AD DS) to track and communicate with all of the servers in a topology. The majority of these servers must be joined to the domain so that Skype for Business Server can work properly. Keep in mind that servers such as Edge and Reverse Proxy should not be domain joined.
   
 > [!IMPORTANT]
 > The Prepare Active Directory procedure should be run only once for each domain in the deployment. 
