@@ -97,8 +97,8 @@ for each ($user in $users)
 | Phone System | MCOEV |
 | Domestic & International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
-| Domestic Calling Plan (120 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN5 |
-| Domestic Calling Plan (240 minutes per user/month for each country) </br>*Note: This plan is not available in US*. | MCOPSTN6 |
+| Domestic Calling Plan (120 minutes per user/month for each country) </br>*Note: This plan is available in US*. | MCOPSTN5 |
+| Domestic Calling Plan (240 minutes per user/month for each country) </br>*Note: This plan is available in US*. | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP | 
 
 ## Audio Conferencing: tips and scripts for assigning licenses
