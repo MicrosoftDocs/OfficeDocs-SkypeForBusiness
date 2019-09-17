@@ -114,7 +114,7 @@ items:
 
     ### Q: What language requirements do the customers have?
     Asking Julie Wolfe, we discover that there were only two callers in the whole week for whom English seemed to be a second language. They functioned 
-    well enough in English to make their enquiries, and they didn’t seem to speak the same native language. Confirming this with the business partners, 
+    well enough in English to make their inquiries, and they didn’t seem to speak the same native language. Confirming this with the business partners, 
     the lawyers, the need for bilingual or multilingual prompts was not seen as a priority.
 
     ### Q: What are the business hours, non-business hours and holidays?
@@ -154,7 +154,7 @@ items:
 
     ## Do a design mockup 
 
-    To do the initial design, you'll need a flexible and easy way to work out hierachies and structures of users and Auto Attendants. Here’s an exercise you 
+    To do the initial design, you'll need a flexible and easy way to work out hierarchies and structures of users and Auto Attendants. Here’s an exercise you 
     can do on any blank wall or whiteboard, using several colors of pen and some sticky notes or index cards and tape:
     1.	For each person with a voicemail account in the business, write their name and phone number on a sticky note or 3x 5 index card. You may need 
     several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and Auto Attendants at a glance.
@@ -311,8 +311,7 @@ items:
     The information needed to implement the design in the earlier diagram is presented in the tables that follow.
     The implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
     of entering your final text and deciding for yourself whether it conveys the impression you want. If not, it's up to you whether to record your 
-    own prompts using [Sound Recorder](https://support.microsoft.com/en-us/help/14090/windows-sound-recorder-app-faq) 
-    in Windows or have a professional voice-over artist use your scripts to record .wav files.
+    own prompts using recording software or have a professional voice-over artist use your scripts to record .wav files.
     
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
     Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
@@ -403,9 +402,9 @@ items:
     
     |   Option   | Setting|
     |:---  |:---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| None |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/> Callers will hear: Copy/paste Script 4 above |
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Jakob  <br/>Send to: Person in your company: Jakob Roth <br/>**2:** Enter the Name of the option: Laura<br/>Send to: Person in your company: **Laura Heinrich** |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/> Callers will hear: Copy/paste Script 4 above |
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Jakob  <br/>Send to: Person in your company: Jakob Roth <br/>**2:** Enter the Name of the option: Laura<br/>Send to: Person in your company: **Laura Heinrich** |
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     | |  |
 
@@ -418,8 +417,8 @@ items:
     |   Option   | Setting|
     |:---  |:---  |
     | Name |  Hours&Location| 
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| None |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above 
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above 
     |  |   |
 
     **Nested Auto Attendant: MoreOptions (nested under Main Menu)**     
@@ -428,9 +427,9 @@ items:
 
     |   Option   | Setting|
     |:---  |:---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| None  |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Copy/paste Script 6 above  |
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Edit Menu options	|Select **1** for lawyers  <br/>Transfer to: Auto Attendant **Lawyers** <br/>Select **2** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None  |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Copy/paste Script 6 above  |
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	|Select **1** for lawyers  <br/>Transfer to: Auto Attendant **Lawyers** <br/>Select **2** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
     |  |   |
 
     **Nested Auto Attendant: Lawyers (nested under More Options)**
@@ -439,9 +438,9 @@ items:
 
     |   Option   | Setting|
     |:---  |:---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| None  |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Copy/paste Script 7 above |
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Edit Menu options |	Select **1** for *Olga* <br/>Transfer to: Person in your company: Olga Gerasimova <br/>Select**2** for *Manuela* <br/>Send to: Person in your company: Manuela Carstens <br/>Select **3** for *Andrey* <br/>Transfer to: Person in your company: Andrey Alexeeva  |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None  |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Copy/paste Script 7 above |
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options |	Select **1** for *Olga* <br/>Transfer to: Person in your company: Olga Gerasimova <br/>Select**2** for *Manuela* <br/>Send to: Person in your company: Manuela Carstens <br/>Select **3** for *Andrey* <br/>Transfer to: Person in your company: Andrey Alexeeva  |
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
@@ -451,9 +450,9 @@ items:
 
     |   Option   | Setting|
     |:---  |:---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| None |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 8 above  | 
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Lena* <br/> Transfer to: Person in your company: Lena Ehrle <br/> Select **2** for *Svetlana* <br/>Transfer to: Person in your company: Svetlana Uvarova <br/> Select **3** for *Sofia* <br/>Transfer to: Person in your company: Sofia Krause <br/> Select **4** for *Mariya*<br/>Transfer to: Person in your company: Mariya Artemyeva <br/> Select **5** for *Dariya*<br/>Transfer to: Person in your company: Dariya Polyakova <br/> Select **6** for *Milana*<br/>Transfer to: Person in your company: Milana Nikolaeva|
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 8 above  | 
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Lena* <br/> Transfer to: Person in your company: Lena Ehrle <br/> Select **2** for *Svetlana* <br/>Transfer to: Person in your company: Svetlana Uvarova <br/> Select **3** for *Sofia* <br/>Transfer to: Person in your company: Sofia Krause <br/> Select **4** for *Mariya*<br/>Transfer to: Person in your company: Mariya Artemyeva <br/> Select **5** for *Dariya*<br/>Transfer to: Person in your company: Dariya Polyakova <br/> Select **6** for *Milana*<br/>Transfer to: Person in your company: Milana Nikolaeva|
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
@@ -463,9 +462,9 @@ items:
 
     |   Option   | Setting|
     |:---  |:---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	|None  |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9 above  |
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	|None  |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9 above  |
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
     See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) for more detail on the options available in these screens. 
