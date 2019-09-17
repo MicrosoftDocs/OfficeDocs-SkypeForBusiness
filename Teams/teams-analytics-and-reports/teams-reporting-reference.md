@@ -31,7 +31,7 @@ To access the reports, you must be a global admin in Office 365, Teams service a
 
 ## Teams reporting reference
 
-Here's a list of the Teams reports available in the Microsoft Teams admin center and an overview of the information that's available in each report.
+Here's a list of the Teams reports available in the Microsoft Teams admin center and an overview of some of the information that's available in each report.
 
 We're continually improving the Teams reporting experience and adding features and functionality. Over time, we'll be building additional capabilities into the reports and adding new reports in the Microsoft Teams admin center.
 
@@ -41,9 +41,11 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams user activity report](user-activity-report.md)  |  1:1 calls a user participated in<br/>Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>Last activity date of a user     |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 |[Teams live event usage report](teams-live-event-usage-report.md)   |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
-|[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
-|[Teams PSTN minute pools report](pstn-minute-pools-report.md))   |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
-|[Teams PSTN usage report](pstn-usage-report.md)  |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
+|[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |  Phone number<br>Reason<br>Action type<br>Action date and time   |
+|[Teams PSTN minute pools report](pstn-minute-pools-report.md))   |  Country or region<br>Capability (license) <br>Total minutes<br>Minutes used<br>Minutes available|
+|[Teams PSTN usage report - Calling Plans](pstn-usage-report.md#calling-plans)
+.md)  |  Time stamp<br>User name<br>Phone number<br>Call type <br>Called to<br>To country or region <br>Called from <br>From country or region<br>Charge<br>Currency<br>Duration<br>Domestic/International<br>Call ID<br>Number type<br>Country or region<br>Conference ID<br>Capability (license)|
+|[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Coorelation ID  |
 
 > [!NOTE]
 > The Teams reports show data for active users and active teams. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
