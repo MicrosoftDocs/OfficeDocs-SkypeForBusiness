@@ -95,7 +95,7 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 
 Ad Hoc call escalation and Audio Conferencing license.
 
-A Teams User can start a one to one Teams to PSTN or Teams to Teams call and add a PSTN participant to it. This scenario called ad hoc conference. The path the call takes, depends if the Microsoft Audio Conferencing license assigned to the user who escalates the call or not.
+A Teams user can start a one on one Teams to PSTN or Teams to Teams call and add a PSTN participant to it. This scenario is called an ad hoc conference. The path that the call takes depends whether the user who escalates the call has a Microsoft Audio Conferencing license assigned or not.
 1. If the Teams user, who escalates the call has the Microsoft Audio Conferencing license assigned, the escalation happens via Microsoft Audio Conferencing service. The remote PSTN participant who is being invited to the existing call on notification about incoming call sees the number of the Microsoft bridge, assigned to the Teams user who initiated the escalation
 2. If the Teams user who escalates the call does not have the Microsoft Audio Conferencing license assigned, the escalation happens via a Session Border Controller connected to the Direct Routing interface. The remote PSTN participant who is invited to the call receives a notification about the incoming call and sees the number of the Teams user who initiated the escalation. The specific SBC, used for the escalation, is defined by Routing Policy of the user. 
 
