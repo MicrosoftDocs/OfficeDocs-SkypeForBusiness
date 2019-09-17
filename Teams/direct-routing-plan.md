@@ -83,7 +83,7 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 
 - Microsoft Phone System 
 - Microsoft Teams + Skype for Business Plan 2 if included in Licensing Sku
-- Microsoft Audio Conferencing (please read the notes and the paragraph below to see specific examples whed the license is requried)
+- Microsoft Audio Conferencing (please read the notes and the paragraph below for specific examples about when the license is required)
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing SKU where it is included. 
