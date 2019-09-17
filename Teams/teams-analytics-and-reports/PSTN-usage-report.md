@@ -32,7 +32,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 ### Calling Plans
 
 [placeholder only-replace with new screen shot]
-![Screen shot of the PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-with-callouts.png "Screen shot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts")
+![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
@@ -43,12 +43,12 @@ The **Calling Plans** tab shows information including the number of minutes that
 |**5**   |Select **Edit columns** to add or remove columns in the table. |
 |**6**   |Select **Full screen** to view the report in full screen mode. |
 |**7**   |Select **Filter** to filter the report by username or call type |
-|**8**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
+|**8**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.|
 
 ### Direct Routing
 
 [placeholder only-replace with new screen shot]
-![Screen shot of the PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-with-callouts.png "Screen shot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts")
+![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
