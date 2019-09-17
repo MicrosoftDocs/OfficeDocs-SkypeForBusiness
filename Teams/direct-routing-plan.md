@@ -93,7 +93,7 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 >  In the case that you would like to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is *required*.
 
 
-Ad Hoc call escalation and Audio Conferencing license.
+Ad hoc call escalation and Audio Conferencing license
 
 A Teams user can start a one on one Teams to PSTN or Teams to Teams call and add a PSTN participant to it. This scenario is called an ad hoc conference. The path that the call takes depends whether the user who escalates the call has a Microsoft Audio Conferencing license assigned or not.
 1. If the Teams user, who escalates the call has the Microsoft Audio Conferencing license assigned, the escalation happens via Microsoft Audio Conferencing service. The remote PSTN participant who is being invited to the existing call on notification about incoming call sees the number of the Microsoft bridge, assigned to the Teams user who initiated the escalation
