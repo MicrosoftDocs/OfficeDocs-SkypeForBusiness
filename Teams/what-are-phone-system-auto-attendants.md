@@ -50,11 +50,11 @@ A Cloud auto attendant has the following features:
 To get started using auto attendants, it's important to remember that:
 
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
-- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
+- If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendants and call queues.
 
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and agents only.
-  
+
    > [!TIP]
    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
@@ -70,7 +70,7 @@ To get started using auto attendants, it's important to remember that:
 
 ### Dial by Name
 
-Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or EV enabled for onpremises users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations.
+Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations.
 
 ### Maximum directory size
 
@@ -112,13 +112,13 @@ There are several special characters that are used when searching for people usi
 
 ### Dial by Name - Name recognition with speech
 
-People can search for others in their organization using their voice (speech recognition). They can also reach anyone in the company's Active Directory by saying the name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
+People can search for others in their organization with their voice (speech recognition). They can also reach anyone in  Active Directory by saying the name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
   
-When you enable speech recognition for an auto attendant, phone keypad entry (DTMF) won't be disabled, so both types of input can be used. Phone keypad entry can't be disabled and can be used at any time, even if speech recognition is enabled on the auto attendant.
+You can enable speech recognition for an auto attendant, but phone keypad entry (DTMF) isn't disabled. Phone keypad entry can be used at any time even if speech recognition is enabled on the auto attendant.
   
-As with phone keypad entry, if multiple names are found, the person calling will be presented with a list of names to select from.
+As with phone keypad entry, if multiple names are found, the person calling hears a list of names to select from.
   
-People calling in can say names in the following formats:
+Callers can say names in the following formats:
   
 |Name with speech|Search type|Example|Search result|
 |:-----|:-----|:-----|:-----|
@@ -158,36 +158,35 @@ Speech recognition for auto attendants is available in the following languages:
 |English (US)  |Spanish (ES)  |
 |French (CA)   |Spanish (MX)  |
 
-The following voice commands are available in the fourteen (14﻿) languages supported for speech recognition:
+The following voice commands are available in the 14 languages supported for speech recognition:
   
 |Voice command| Corresponds to |
 |:-----|:-----|
-|Yes |Yes - corresponds to pressing 1 for Yes. |
-|No |No - corresponds to pressing 2 for No. |
-|Repeat |Repeats the list of options - corresponds to pressing * to repeat the list of options. |
-|Operator |Breakout to operator - corresponds to pressing 0 for "Operator". |
+|Yes | Press 1 for Yes. |
+|No | Press 2 for No. |
+|Repeat |Repeats the list of options. Press * on the keypad to repeat the list of options. |
+|Operator | Press 0 for "Operator" |
 |Main Menu  |Brings the caller to the main menu of the auto attendant. |
-|Zero |Corresponds to pressing 0 (by default, same as "Operator").|
-|One |Corresponds to pressing 1. |
-|Two |Corresponds to pressing 2. |
-|Three|Corresponds to pressing 3.|
-|Four |Corresponds to pressing 4. |
-|Five |Corresponds to pressing 5. |
-|Six  |Corresponds to pressing 6. |
-|Seven |Corresponds to pressing 7.|
-|Eight |Corresponds to pressing 8.|
-|Nine  |Corresponds to pressing 9.|
+|Zero | Press 0 (by default, same as "Operator").|
+|One | Press 1. |
+|Two | Press 2. |
+|Three| Press 3.|
+|Four | Press 4. |
+|Five | Press 5. |
+|Six  | Press 6. |
+|Seven | Press 7.|
+|Eight |Press 8.|
+|Nine  |Press 9.|
 
-### Using the operator option
+### The operator option
 
-Using the operator for an auto attendant is an optional setting that provides the caller with an option to speak to a human operator.
+An auto attendant can optionally be set to give a caller a selection to speak to a human operator.
   
 Key 0 and the voice command "Operator"  direct the call to the designated operator by default. This is the case for all languages supported for speech recognition. You can also use **Menu Options** to set a custom value for the Operator.
   
 The operator can be set to:
   
-- A Microsoft Teams user or a Skype for Business on premise user that is Enterprise Voice-enabled.
-  
+- A Microsoft Teams user or a Skype for Business Server user that is Enterprise Voice-enabled.
 - Another auto attendant that's set up for your organization.
 - Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
@@ -212,12 +211,12 @@ Cloud auto attendants allow you to create menu prompts ("Press 1 for Sales, Pres
   
 Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using the Skype for Business admin center. Different sets of menu options can be created for business hours and after hours, and you can enable or disable Dial by Name in the **Menu Options**. Keys can be mapped to transfer the calls to:
   
-- An operator, which is mapped to key 0 by default. However, it can be re-assigned to any other key, or removed from the menu.
+- An operator, which is mapped to key 0 by default. However, it can be reassigned to any other key, or removed from the menu.
 - A call queue.
 - Another auto attendant. Multi-level menus can be set up by pointing a **Menu Option** in one auto attendant to another auto attendant with its own set of Menu Options, which is called a "nested" auto attendant.
 - A Microsoft Teams user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person's calls to be automatically forwarded directly to voicemail.
   
-The name of every menu option becomes a speech-recognition keyword if speech recognition has been enabled. For example, callers can say "One" to select the menu option mapped to key 1, or they can simply say "Sales" to select the same menu option named "Sales."
+The name of every menu option becomes a speech-recognition keyword if speech recognition has been enabled. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the same menu option named "Sales."
   
 To set up an auto attendant and the menu options, go [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
   
@@ -225,7 +224,7 @@ To set up an auto attendant and the menu options, go [Set up a Cloud auto attend
 
 You can assign a Microsoft service number, a direct routing number, or a hybrid number to your auto attendant. See [Plan Direct Routing](direct-routing-plan.md) for details.
 
-To assign a service number, you will need to get or port your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the <!-- validate nav path --> **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+To assign a service number, you will need to get or port your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they show up in **Skype for Business admin center** > **Voice** > **Phone numbers**. **Number type** is listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.

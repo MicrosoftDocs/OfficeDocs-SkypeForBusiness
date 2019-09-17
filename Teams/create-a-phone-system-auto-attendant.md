@@ -25,7 +25,7 @@ description: "Learn how to set up and test Cloud auto attendants for Microsoft T
 
 # Set up a Cloud auto attendant
 
-Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Microsoft Teams admin center. To create a new auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create a new auto attendant for your organization with the Microsoft Teams admin center, or with Powershell. To create an auto attendant, go to **Voice** in the left navigation, and then select **Auto attendants** > **Add new**.
 
 If you want to learn more about auto attendants, see [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -44,7 +44,7 @@ If you want to learn more about auto attendants, see [What are Cloud auto attend
 > [!IMPORTANT]
 > Every auto attendant is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the auto attendant.
 
-### Using the Microsoft Teams admin center
+### With the Microsoft Teams admin center
 
 In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**, then click **+ New**:
 
@@ -54,73 +54,74 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 * * *
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1, a callout in the previous screenshot](media/sfbcallout1.png)
 
 **Name** Enter a descriptive display name for your auto attendant. The name is required and can contain up to 64 characters, including spaces. It is listed in the **Name** column on the **Auto attendants** tab.
 
 * * *
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
 
-**Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but a phone number isn't a requirement. A top-level auto attendant usually has a resource account with an assigned phone number, but nested auto attendant (used as a level 2 menu that the first-level auto attendant connects to) might not have a phone number assigned to its resource account.
+**Phone number (optional)** Enter the service phone number you want to assign to the auto attendant. If this auto attendant is supposed to be called by another auto attendant, it doesn't need a phone number. You can add one if for some reason you need to create multiple ways to dial in to the auto attendant system.
 
-* * *
-
-![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
-
-**Time zone** You must set the time zone for your auto attendant, but it doesn't need to correspond to the time zone of the main address listed for your organization. Each auto attendant can have a different time zone, and the business hours set for the auto attendant are set based on the time zone that you select here.
+<!-- **Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but a phone number isn't a requirement. A top-level auto attendant usually has a resource account with an assigned phone number. A nested auto attendant is used as a second-level menu that the first-level auto attendant connects to. A nested auto attendant isn't required to  have a phone number assigned to its resource account. -->
 
 * * *
 
-![Icon of the number 4, referencing a callout in the previous screenshot](media/sfbcallout4.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
 
-**Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant uses to interact with people that call in to this auto attendant, and all the system prompts are played in this language.
+**Time zone** You must set the time zone for your auto attendant. It doesn't need to correspond to the time zone of the main address listed for your organization. Each auto attendant can have a different time zone. The business hours set for the auto attendant are based on this time zone.
 
 * * *
 
-![Icon of the number 5, referencing a callout in the previous screenshot](media/sfbcallout5.png)
+![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
 
-**Operator** This is optional, but you can set the **Operator** option to allow callers to break out of the menus and speak to a person.
+**Operator** This is optional (but strongly recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
 The 0 key is assigned to Operator by default.
 
-If you set an Operator, you will also need to tell people who call about the option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero."
+If you set an Operator, tell people who call about the option in the **Edit menu options** on the **Business hours call handling** page. If you set an operator on your auto attendant, you need to enter the corresponding prompt text in the **Callers will hear** box or change your audio file to include this option. For example, "For the Operator, press zero."
 
 You have several ways to set the Operator:
 
-- **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365.
+- **No operator** disables the "Operator" and "Press 0" options.
+- **Person in your organization** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can also set it up so the person calling is sent to voicemail. To do this, select **Person in your organization** and set this person's calls to be forwarded directly to voicemail.
 
      > [!Note]
-     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
+     > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
 
-- **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
-- You can set it up so the person calling is sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail.
+- **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator will be redirected there.
+- **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator will be redirected there.
 
-* * *
+![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png)
 
-![Icon of the number 6, referencing a callout in the previous screenshot](media/sfbcallout6.png)
+**Language** Select the language that you want to use for your auto attendant. The auto attendant will use that language with callers, and all system prompts are played in this language.
+
+<!-- * * *
+
+![Icon of the number 6,  a callout in the previous screenshot](media/sfbcallout6.png)
 
 **Enable voice inputs** Speech recognition is available if this option is selected. People that call in can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). If you want to only let people use their phone keypad, you can disable speech recognition by setting it to off.
-
-* * *
+-->
+* * *  
 
 When you are finished with your selections, click **Next**.
 
-#### Business hours page
+#### Call flow page
 
-By default, business hours are set to 9:00 am to 5:00 pm, Monday through Friday. All hours that aren't included in business hours are considered after business hours. You can click **Select 24/7** to make all hours business hours. Unless you select the **Select 24/7** option, the **After hours call settings** page will be used to configure the call handling rules for after business hours for the auto attendant.
+<!-- By default, business hours are set to 9:00 am to 5:00 pm, Monday through Friday. All hours that aren't included in business hours are considered after business hours. You can click **Select 24/7** to make all hours business hours. Unless you select the **Select 24/7** option, the **After hours call settings** page will be used to configure the call handling rules for after business hours for the auto attendant.
 
 ![Screenshot of the Business Hours page](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 * * *
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
 
 By default, business hours are set to Monday to Friday, 9:00 am-5:00 pm. Select **Clear all hours** option to unselect all hours in the schedule. When you select **Reset to default**, business hours are reset to Monday to Friday, 9:00 am-5:00 pm.
 
 * * *
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
 
 To change business hours, highlight the business hours you want to set in the calendar. The calendar allows you to select business hours in 30-minute intervals, and the business hours you select here are based on the time zone that you set on the **General info** page. To set up a break (a lunch break, for example), deselect or drag to deselect the time on the calendar. You can set multiple breaks within business hours.
 
@@ -131,7 +132,7 @@ When you are finished with your selections, click **Next**.
 #### Business hours call settings
 
 > [!TIP]
-> If you use a custom business hours schedule, you will also need to set up call handing for after business hours using the **After hours call handling** page, which will give you the same options as **Business hours call settings**.
+> If you use a custom business hours schedule, you will also need to set up call handing for after business hours using the **After hours call handling** page, which will give you the same options as **Business hours call settings**. -->
 
 You can set up greetings, prompts, and menus that people hear when they call to the phone number linked to your organization's auto attendant during business hours.
 
@@ -140,75 +141,78 @@ You can set up greetings, prompts, and menus that people hear when they call to 
 
 * * *
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
 
-**Greeting** A business hours greeting is optional and can be set to **No greeting**. In this case, the caller won't hear a message or greeting before the call is handled by one of the actions you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
-- **Upload an audio file** If you choose this, record the greeting and then upload your audio file (in a .wav, .mp3 or .wma format).
-- **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. Your call is important to us." in the **Callers will hear** box.
+**First play a greeting message** A business hours greeting is optional and can be set to **On** or **Off**. If you select **Off**, the caller won't hear a message or greeting before the call is handled by one of the actions you select later. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
+
+- **Use recorded greeting** If you choose this, you can use a built-in sound recording app to **Record** the greeting and then **Upload** your audio file (in a .wav, .mp3 or .wma format). You can also **Upload** a professionally-recorded greeting message.
+- **Write your greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, in the **Callers will hear** box you might enter "Welcome to Contoso. Your call is important to us." Output will be created by text-to-voice software.
 
 * * *
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
 
-You can select what happens to calls that arrive during business hours. You can chose from the following actions:
+You can select what happens to calls that arrive during business hours from the following actions:
 
-- **Disconnect** If you select it, the person calling in will be disconnected after hearing a business hours greeting.
-- **Redirect call** This can be used to automatically send the call to:
-  - **Person in company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in company** and set this person to have their calls forwarded directly to voicemail.
+- **Then route the call**
+  - **Disconnect** If you select this option, the person calling in will be disconnected after hearing a greeting.
+  - **Redirect call to** This can be used to automatically send the call to:
+    - **Person in your organization** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your organization** and set this person to have their calls forwarded directly to voicemail.
 
     > [!Note]
-    > **Person in company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
+    > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
 
-   - Another **Auto attendant**
+    - **Auto attendant** Select the name of an auto attendant that has already been created. Callers that request an operator will be redirected there.
+    - **Call queue** Select the name of an auto attendant that has already been created. Callers that request an operator will be redirected there.
+    - **External phone number** routes the caller to a phone number outside your local system.
+    - **Operator** directs the call to a user you designated as an Operator. If you haven't set up an operator, you'll see an option to create one now. The 0 key is assigned to Operator by default. Options are:
 
-   You can use an existing auto attendant to create a second level of menu options containing a sub-menu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
+      - **No operator** disables the "Operator" and "Press 0" options.
+      - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
+      - **Auto attendant** Select the name of an auto attendant that has already been created. Callers that request an operator will be redirected there.
+      - **Call queue** Select the name of an auto attendant that has already been created. Callers that request an operator will be redirected there.
 
-- **Play menu options** can also be used to let you set up a prompt you want played.
+    - **Group Voicemail** routes the call to a voicemail box that you select.
 
-* * *
 
-![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
+  - **Play call menu** can also be used to let you set up a prompt you want played.
 
-**Menu prompt** To create main menu prompt, you can either use Text-to-Speech or upload an audio file (.wav, .mp3 or .wma). You can type the prompt in the **Set your menu navigation for callers** box or record an audio file and say, for example: "For Sales, say or press or say 1. For Services, press or say 2. For Customer Support, press or say 3. For the operator, press or say 0. To hear this menu again, press the star key or say repeat." **Type a greeting message** If you chose this, you should enter the text you want the system to read (up to 1000 characters). **Upload an audio file** If you chose this, you will need to record the greeting and then upload your audio file (in a .wav, mp3 or .wma format).
 
-* * *
 
-![Icon of the number 4, referencing a callout in the previous screenshot](media/sfbcallout4.png)
+    **Call menu builder** Menu options using key buttons on the keypad can be added or removed. To add a menu option, press **+ Assign a dial key**. A corresponding row of options will appear below. To delete a menu option, simply click to the left of the corresponding key on the keypad control and click on the delete icon above. The key mapping row will be removed.
 
-**Menu options setup** Menu options using key buttons on the keypad can be added or removed. To add a menu option, press **+ Assign a dial key**. A corresponding row of options will appear below. To delete a menu option, simply click to the left of the corresponding key on the keypad control and click on the delete icon above. The key mapping row will be removed.
+    > [!TIP]
+    > You will have to update menu prompts text or re-record the audio separately when adding to removing options because it won't be automatically done for the existing menu prompt.  
+    >
+    >Any menu option can be added and removed in any order, and the key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.
 
-> [!TIP]
-> You will have to update menu prompts text or re-record the audio separately when adding to removing options because it won't be automatically done for the existing menu prompt.  
->
->Any menu option can be added and removed in any order, and the key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the key 2 isn't used.
+    > [!NOTE]
+    > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
 
-> [!NOTE]
-> The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
+    To set up your menu options, for each **Dial key**, you will need to:
 
-To set up your menu options, after you select the dial key(s), you will need to:
+    - Enter **The voice command that will connect to destination** for that option. This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3.
+    - Select where the call will **Redirect to** if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to:
 
-- Enter the **Voice command**  of the option. This can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name will automatically be recognized, and the person calling in will be able to either press 3, say "three," or say "Customer Service" to select the option mapped to key 3.
-- Select where the call is to be sent if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to:
-
-  - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too.
-  - A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.
-
-    > [!Note]
-    > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server or Lync Server 2013.
-    - Another **Auto attendant**
-
-       You can use an existing auto attendant to create a second level of menu options containing a sub-menu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
-
-        > [!Note]
-        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
-
-       - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+      - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too.
+<!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
+      - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
+      - **Auto attendant** Select the name of an auto attendant that has already been created. Callers that request an operator will be redirected there.
+      - **Call queue** Select the name of an auto attendant that has already been created. Callers that request an operator will be redirected there.
+      - **External phone number** routes the caller to a phone number outside your local system.
+      - **Group Voicemail** routes the call to a voicemail box that you select.
 
 * * *
 
-![Icon of the number 5, referencing a callout in the previous screenshot](media/sfbcallout5.png)
+![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png)
 
-**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server or Lync Server 2013, can be found with Dial by Name.
+**Dial by name** If you choose this option, this will enable people who call in to search for people in your organization using Directory Search. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Any online user with a **Phone System** license, or any user hosted on-premises using Skype for Business Server, can be found with Dial by Name.
+
+**Instructions for callers** (slide 59)
+
+**Use recorded call instructions**
+**Write your call instructions** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter text that begins "Please choose from one of the following menu options... " and provide a script written to reflect your configuration.
+
 
 * * *
 
@@ -223,7 +227,7 @@ You can add up to 20 scheduled holidays to each auto attendant.
 
 ![Screenshot of the Holiday call settings page](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
 
 If you've already created other auto attendants, you might see an option you can use or edit into what you need on this list. If not, you'll need to create a new call handler.
 
@@ -231,29 +235,29 @@ To add a new call handler, click on **+ New call handler**.
 
 * * *
 
-![Screen shot showing adding a new call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Screenshot showing adding a new call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
 
 In the new window, enter a name for your new Call  handler at the top of the screen.
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
 
 If the name of your holiday already exists in the **Holiday** pull-down list, you can use it. If the holiday name you need does not already exist, select **Create new holiday** in the pull-down list and assign a name and a date for the new holiday in the new screen that appears. Click on **Save** when ready.
 
 Holiday names may consist of up to 64 characters and must be unique for the same auto attendant. For example, you cannot have two holidays named "Thanksgiving" in the same auto attendant.
 
-![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
 
 **Greeting** The greeting is optional and can be set to **No greeting**. In this case, the caller will hear no message or greeting before the call is handled by one of the options you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 
-- **No greeting** No greeting will be played when people call in to the auto attendant phone number.
+- **No greeting**  When people call the auto attendant phone number, no greeting will be played.
 - **Upload an audio file** If you choose this, record the holiday greeting and then upload your audio file (in a .wav, .mp3 or .wma format)
 - **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Happy New Year! Our offices are currently closed." in the **Type a greeting message** box.
 
-![Icon of the number 4, referencing a callout in the previous screenshot](media/sfbcallout4.png)
+![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
 
-**Actions** You can select what happens to the calls that arrive during this holiday. You can chose from the following options:
+**Actions** You can select what happens to the calls that arrive during this holiday. You chose from the following options:
 
 - **Disconnect** The person calling in will be disconnected after hearing the holiday greeting.
 - **Redirect call** This can be used to automatically send the call to:
@@ -262,32 +266,32 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > [!Note]
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013.
 
-   - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+  - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
 
 #### Select dial scope page
 
-On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
+On this page, you can set up which users will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
 
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
 * * *
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png) Using the **Include** option, you have two options:
+![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png) Using the **Include** option, you have two options:
 
-- **All Online users** Using this option allows all of the people in your organization to be included in directory search. All Online users with a **Phone System** license, as well as users hosted on-premises using Skype for Business Server or Lync Server 2013 who have Calling Plans in Office 365, will be listed.
-- **Custom user group** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and the people added to this Office 365 Group, distribution list, or security group who are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. You can add multiple Office 365 Groups, distribution lists, and security groups.
+- **All Online users** Using this option allows all of the people in your organization to be included in directory search. All Online users will be listed if they have a **Phone System** license or if they are hosted on-premises using Skype for Business Server and have Calling Plans in Office 365.
+- **Custom user group** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users can be added to this Office 365 Group, distribution list, or security group if they are either **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups.
 
 * * *
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
 
 Using the **Exclude** option, you have two options:
 
 - **None** Using this option will indicate that no Online users will be excluded from directory search.
-- **Custom user group** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
+- **Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. All added users will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory when someone uses Dial by Name with speech recognition.
@@ -302,9 +306,9 @@ If you want to make changes to an auto attendant, select the auto attendant, and
 
 You can also quickly place a test call to your auto attendant by using the **Test** button in the Action pane.
 
-## Auto attendant cmdlets
+### With Powershell
 
-You can also use Windows PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
+You can also use PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
 
 - [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
@@ -326,13 +330,13 @@ You can also use Windows PowerShell to create and set up auto attendants. Here a
 
 ### More about Windows PowerShell
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Microsoft Teams using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Microsoft Teams using a single point of administration that can simplify your daily work. To get started with Windows PowerShell, see these topics:
 
   - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Why you need to use Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as making setting changes for many users at once. Learn about these advantages in the following topics:
 
   - [Manage Office 365 with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
