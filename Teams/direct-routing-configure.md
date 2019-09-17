@@ -37,7 +37,7 @@ You can configure your Microsoft Phone System and enable users to use Direct Rou
 
 - [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Enable users for Direct Routing Service](#enable-users-for-direct-routing-service)
-- [Ensure that Microsoft Teams is the preferred calling client for the users]
+- Ensure that Microsoft Teams is the preferred calling client for the users
 
 ## Pair the SBC to the Direct Routing Service of Phone System 
 
