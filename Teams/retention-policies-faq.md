@@ -41,7 +41,7 @@ By default, Teams chat, channel, and files data are retained forever. A user can
 
 ### What is the licensing required for retention policy? 
 
-Usually, all those that contain Microsoft Teams and an active Exchange mailbox:
+Usually, any license that contains Microsoft Teams and an active Exchange mailbox:
 
 - Office 365 Business Premium
 - Office 365 Business Essentials
