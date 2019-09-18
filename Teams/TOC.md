@@ -364,6 +364,7 @@
 ### [Updated - What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 ### [New - Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [New - Add, change, or remove a place for an emergency location in your organization](add-change-or-remove-an-emergency-place-for-your-organization.md)
+### [New- Assign or change an emergency location for a user](change-the-emergency-location-for-a-user.md)
 ### [Add, change, or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Add, change, or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Assign or change an emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
