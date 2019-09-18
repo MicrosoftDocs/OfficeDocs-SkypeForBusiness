@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: prvijay
 audience: admin
 description: Frequently asked questions about retention policies in Microsoft Teams. 
 localization_priority: Normal
