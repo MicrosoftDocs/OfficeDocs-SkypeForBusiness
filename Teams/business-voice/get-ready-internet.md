@@ -49,22 +49,22 @@ Here's what you need to do:
 1. Open **Org-wide settings** and then select **Network planner**.
 1. Under **Network plans**, select **Add**. Give your plan a name, and then select **Apply**. Your network plan should look like this:
 
-    ![Network planner main screen](../../media/network-planner-main.png)
+    ![Network planner main screen](../media/network-planner-main.png)
 1. Click on your network plan's name (**Main office** in the picture above).
 1. On the next page, select **Add a network site** under the **Network sites** tab.
 1. Fill out the following information and then select **Save**.
 
-    ![Network planner site information](../../media/network-planner-site-info.png)
+    ![Network planner site information](../media/network-planner-site-info.png)
 1. Under the **Report** tab, select **Start a report**.
 1. Fill out the following information and then select **Generate report**
 
-    ![Network planner report information](../../media/network-planner-report-info.png)
+    ![Network planner report information](../media/network-planner-report-info.png)
 
 ## Find your minimum Internet connection speed
 
 When you select **Generate report**, Office 365 creates a report that looks like this:
 
-![Network planner report detail](../../media/network-planner-report.png)
+![Network planner report detail](../media/network-planner-report.png)
 
 The highlighted number shows how much of your Internet connection Teams and Business Voice will use. We recommend that this number be no more than 30% of your total Internet connection speed. For example, if your Internet connection is 60Mbps, Teams and Business Voice should take up no more than 18Mbps.
 
@@ -72,4 +72,4 @@ You can find your minimum Internet connection speed by doing this calculation: `
 
 If Teams and Business Voice will use more than 30% of your total Internet connection speed, the highlighted number will show up as red. If this happens, you might need to upgrade your Internet connection.
 
-![Connection speed warning](../../media/network-planner-report-speed-warning.png)
+![Connection speed warning](../media/network-planner-report-speed-warning.png)
