@@ -69,6 +69,8 @@ The following requirements assume that you already have Skype for Business Serve
 > [!IMPORTANT]
 > Call Data Connector will not function if Monitoring is not enabled on the front end pool.
 
+- A required Server-to-Server authentication configuration properly [see more](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications). 
+
 ## Comparison of on-premises and online Call Quality Dashboard (CQD) reports
 
 | Feature reports | Skype for Business Online | Skype for Business Server   |
