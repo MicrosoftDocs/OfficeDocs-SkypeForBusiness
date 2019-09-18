@@ -69,7 +69,7 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Thai <br/> |Thailand  <br/> |th-TH  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Vietnamese <br/> |Viet Nam  <br/> |vi-VN  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
+|Vietnamese <br/> |Vietnam  <br/> |vi-VN  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
    
 ## Related topics
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
