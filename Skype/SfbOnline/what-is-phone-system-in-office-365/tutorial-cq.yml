@@ -199,8 +199,7 @@ items:
     The information needed to implement the design in the earlier diagram is presented in the tables that follow.
     The implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
     of entering your final text and deciding for yourself whether it conveys the impression you want. If not, it's up to you whether to record your 
-    own prompts using [Sound Recorder](https://support.microsoft.com/en-us/help/14090/windows-sound-recorder-app-faq) 
-    in Windows or have a professional voice-over artist use your scripts to record .wav files.
+    own prompts using recording software or have a professional voice-over artist use your scripts to record .wav files.
       
     The account used for this task must have Admin privileges. The following tables show values to enter in the user interface screen.
     
