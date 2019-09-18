@@ -37,9 +37,9 @@ You don't need a Business Voice license to follow these steps.
 
 Before you start, you need to know the following information:
 
-- The speed of your Internet connection.
-- How many people will use Business Voice mainly from your office.
-- How many people will use Business Voice mainly from a remote location, such as a home office.
+* The speed of your Internet connection.
+* How many people will use Business Voice mainly from your office.
+* How many people will use Business Voice mainly from a remote location, such as a home office.
 
 ## Enter your information into the network planner
 

@@ -42,7 +42,7 @@ When you buy Business Voice, you get the following features and more:
     <tr>
         <td><b>Phone System</b>
         </td>
-        <td>Standard phone features including Voice Mail, Caller ID, shared phone lines, and emergency calling.
+        <td>Standard phone features including Voice Mail, Caller ID, call menus, shared phone lines, and emergency calling.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
@@ -51,14 +51,6 @@ When you buy Business Voice, you get the following features and more:
         <td><b>Domestic calling</b>
         </td>
         <td>Calls within your country or region are free. International plans and toll-free dialing are also available.
-        </td>
-        <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
-        </td>
-    </tr>
-    <tr>
-        <td><b>Call menus</b>
-        </td>
-        <td>Lets callers choose which department or extension they want their call to be sent to.
         </td>
         <td><img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" width="100">
         </td>
