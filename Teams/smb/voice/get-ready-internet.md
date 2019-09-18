@@ -17,7 +17,7 @@ appliesto:
 
 # How fast should my Internet connection be?
 
-Business Voice is located in the cloud with Microsoft 365. Every computer and device that uses Microsoft Teams and Business Voice needs a connection to the Internet. To get the best experience with Business Voice, you need a broadband Internet connection that can support the expected number of phone calls that will be made at any one time. This article helps you determine whether your Internet connection is fast enough for the number of people who need to make phone calls, host video conferences, and so on. You'll enter some information about your organization and get back a report with recommendations.
+Business Voice is located in the cloud with Microsoft 365. Every computer and device that uses Microsoft Teams and Business Voice needs a connection to the Internet. To get the best experience with Business Voice, you need a broadband Internet connection that can support the expected number of phone calls that will be made at any one time. This article helps you determine whether your Internet connection is fast enough for the number of people who need to make phone calls, host video conferences, and so on. You'll enter some information about your organization and get back a report with how much of your Internet connection will be used by Teams and Business Voice.
 
 To follow these steps, you need to have a tenant with one of the following subscriptions:
 
@@ -33,13 +33,15 @@ To follow these steps, you need to have a tenant with one of the following subsc
 
 You don't need a Business Voice license to follow these steps.
 
+## Get information about your Internet connection and users
+
 Before you start, you need to know the following information:
 
 - The speed of your Internet connection.
 - How many people will use Business Voice mainly from your office.
 - How many people will use Business Voice mainly from a remote location, such as a home office.
 
-## Create a report
+## Enter your information into the network planner
 
 Here's what you need to do:
 
@@ -58,7 +60,7 @@ Here's what you need to do:
 
     ![Network planner report information](../../media/network-planner-report-info.png)
 
-## Understand the report
+## Find your minimum Internet connection speed
 
 When you select **Generate report**, Office 365 creates a report that looks like this:
 
@@ -68,6 +70,6 @@ The highlighted number shows how much of your Internet connection Teams and Busi
 
 You can find your minimum Internet connection speed by doing this calculation: `<highlighted number> / .3`. Using the highlighted number in the picture above, the calculation would be `4.6875 / .3 = 15.6`. This means your minimum Internet connection speed needs to be at least 15.6Mbps.
 
-If Teams and Business Voice will use more than 30% of your total Internet connection speed, the highlighted number will show up as red:
+If Teams and Business Voice will use more than 30% of your total Internet connection speed, the highlighted number will show up as red. If this happens, you might need to upgrade your Internet connection.
 
 ![Connection speed warning](../../media/network-planner-report-speed-warning.png)
