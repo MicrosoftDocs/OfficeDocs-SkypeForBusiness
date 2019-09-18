@@ -71,8 +71,6 @@ Refer to this article for a list of [Dimensions and measures available in Call Q
   
 > [!NOTE]
 > To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays on the dashboard.
- 
-CQD version 1 provided the following features:
 
 <!-- PM approved? -->
 
