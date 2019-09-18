@@ -96,6 +96,9 @@ To get started using call queues, it's important to remember a few things:
 
   - Microsoft Teams Android app
 
+    > [!NOTE]
+    > Call queues that are assigned a direct routing number will not support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. 
+
 ## Step 2 — Getting or transferring toll or toll-free service phone numbers
 
 Before you can create and set up your call queues, you need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Legacy Portal** > **Voice** > **Phone numbers**, and the **Number type** will be listed as **Service — Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
@@ -172,7 +175,7 @@ Call agents selected must be one of the following:
 
 - Online users with a Phone System license and Enterprise Voice enabled 
 - Online users with a  Calling Plan
-- On-premise Skype for Businesss Server users
+- On-premises Skype for Business Server users
 
   > [!NOTE]
   > This also applies if you want to redirect calls to people in your organization who are online. These individuals must have a **Phone System** license and Enterprise Voice enabled **or** have a Calling Plan. For more information, see [Assign Skype for Business licenses](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/assign-teams-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
