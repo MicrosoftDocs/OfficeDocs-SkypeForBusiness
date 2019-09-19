@@ -28,12 +28,12 @@ Could sometimes be a before/after illustration that shows something going wrong 
 
 For information on how to set up Patients app, see [Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md).
 
-You enable activity audits for Patients App the same way you would any other activity in Office 365 as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). 
+You enable activity audits for Patients App the same way you would any other activity in Office 365 as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search).
 
 ## Run an audit
 
 For instructions on running a search of the activity log, see 
-[Search the audit log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).   
+[Search the audit log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
 
 ### (Optional) Use case
 
@@ -43,9 +43,9 @@ This is a simple illustration of how to do this, with a vertical-centered exampl
 
 ## Logged activities for Patients app
 
-Logged activities for Microsoft Teams are described in [Microsoft Teams activities](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities). 
+Logged activities for Microsoft Teams are described in [Microsoft Teams activities](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
 
-The Patients app has its own logged activities, listed in the following table: 
+The Patients app has its own logged activities, listed in the following table:
 
 |Friendly name |Operation|Description|
 |:---|:---|:---|
