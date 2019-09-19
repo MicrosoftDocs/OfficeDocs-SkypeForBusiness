@@ -25,10 +25,7 @@ description: "Learn how to create calling dial plans (PSTN Calling dial plans) i
 
 # Create and manage dial plans
 
-After you have planned the dial plans for your organization and figured out all of the normalization rules that need to be created for call routing, you will need to use Windows PowerShell to create the dial plans and make any setting changes.
-  
-> [!NOTE]
-> The Skype for Business admin center can't be used for creating and managing dial plans. 
+After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. You can use Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
   
 ## Verifying and starting Remote PowerShell
 
