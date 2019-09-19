@@ -43,7 +43,7 @@ This is a simple illustration of how to do this, with a vertical-centered exampl
 
 ## Logged activities for Patients app
 
-Logged activities for Microsoft Teams are described in [Microsoft Teams activities](https://docs.microsoft.com/ffice365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities). 
+Logged activities for Microsoft Teams are described in [Microsoft Teams activities](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities). 
 
 The Patients app has its own logged activities, listed in the following table: 
 
