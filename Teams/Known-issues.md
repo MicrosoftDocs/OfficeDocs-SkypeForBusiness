@@ -152,7 +152,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Presence in Office application not showing after a user is moved to Teams Only experience. <br/> |When a user is moved to TeamsOnly experience and the Skype for Business client is uninstalled, presence stops working.  <br/> |In order for Presence to work in Outlook, Skype for Business must be included in the Office deployment even if you intend to only use Microsoft Teams.  Work is being planned for the future to remove the Skype for Business dependency but it is not currently scheduled.     <br/> |9/2019  <br/> |
+|Presence in Outlook and other Office applications not showing after a user is moved to **Teams Only** mode. <br/> |If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams.  <br/> |To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.  <br/> |9/2019  <br/> |
 
 ## Environment
 
