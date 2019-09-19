@@ -150,6 +150,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of `C:\users\<user>\appData` is changed by moving the `C:\users` folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Presence in Office application not showing after a user is moved to Teams Only experience. <br/> |When a user is moved to TeamsOnly experience and the Skype for Business client is uninstalled, presence stops working.  <br/> |In order for Presence to work in Outlook, Skype for Business must be included in the Office deployment even if you intend to only use Microsoft Teams.  Work is being planned for the future to remove the Skype for Business dependency but it is not currently scheduled.     <br/> |9/2019  <br/> |
+
 ## Environment
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
