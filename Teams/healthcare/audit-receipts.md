@@ -37,7 +37,7 @@ How do you configure this feature? Cover these points:
 
 - Are there any prerequisites?
 
-- Is this feature per org or per user? 
+- Is this feature per org or per user?
 
 - Use PowerShell or UI?
 
@@ -45,11 +45,8 @@ How do you configure this feature? Cover these points:
 
 ## Manage feature
 
-- Add subsections with basic management tasks that would be required or that we expect customer to perform. 
+- Add subsections with basic management tasks that would be required or that we expect customer to perform.
 
-### Management task 1
-
-### Management task 2
 
 ## Security & Compliance
 
