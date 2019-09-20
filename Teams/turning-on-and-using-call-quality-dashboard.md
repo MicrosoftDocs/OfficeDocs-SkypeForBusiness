@@ -271,10 +271,11 @@ In Detailed reports, you can use the **Is Teams** dimension to filter the data t
 
 <a name="BKMKTenantDataInformationUpload"></a>
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:  
-- a map of IP address and geographical information
-- a map of each wireless AP and its MAC address
-- a map of Endpoint to Endpoint Make/Model/Type, etc.
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
+
+- A map of IP address and geographical information
+- A map of each wireless AP and its MAC address
+- A map of Endpoint to Endpoint Make/Model/Type, etc.
   
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
