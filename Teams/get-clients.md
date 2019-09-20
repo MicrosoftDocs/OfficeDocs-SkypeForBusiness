@@ -58,7 +58,7 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 - %LocalAppData%\\Microsoft\\Teams
 
-- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+- %LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
 - %AppData%\\Microsoft\\Teams
 
