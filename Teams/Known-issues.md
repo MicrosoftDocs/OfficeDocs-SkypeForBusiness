@@ -144,7 +144,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Symlink or mappying a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: `user\Appdata`. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
+|Symlink or mapping a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: `user\Appdata`. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
