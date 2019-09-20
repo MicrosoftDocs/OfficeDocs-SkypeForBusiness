@@ -76,7 +76,7 @@ Microsoft Teams Rooms scales to different room sizes through accessories dependi
 > [!NOTE]
 > Core M3 processors are not supported.
 
-### **Certified firmware versions for USB audio and video peripherals**
+#### **Certified firmware versions for USB audio and video peripherals**
 
 These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
@@ -121,6 +121,14 @@ These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices
 
 > [!NOTE]
 > Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device.
+
+
+
+**Microsoft Teams Rooms Supported DSP's**
+
+|Microsoft Teams Rooms Celing Tile|Firmware version certified for Microsoft Teams Rooms| Comments|
+|:----- |:----- |:----- |
+|[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://en-us.sennheiser.com/tcc2)+ </br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)|  Biamp DSP: 3.12.0.15  <br> TCC2: 1.3.3 </br> EX-UBT: 3.12.0.15 | Customers may choose required Dante interfce and Network switch recommended by Biamp/Sennheiser for this bundle |
 
 The following tables provide recommendations for peripherals based on room size:
 
