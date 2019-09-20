@@ -144,7 +144,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Symlink or mappying a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: `user\Appdata`. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
+|Symlink or mapping a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: `user\Appdata`. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -220,8 +220,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Resource Account misconfigured Department <br/> |Resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is undergoing to resolve this issue. <br/><br/> Resource Accounts configured using New-CsHybridApplicationEndpoint with Skype for Business Server will not have the Department parameter set properly which will cause the resource account creation in Skype for Business online to fail. In this case, you need to configure the department name in Active Directory before synchronizing to online.|To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> |5/8/19 <br/> |
-
+|Resource Account misconfigured Department <br/> | On premise resource Accounts associated with an auto attendant or call queue created before January 2019 might not have the Department parameter set properly, which might cause a phone number assignment to fail. A fix is underway to resolve this issue. <br/><br/> Resource Accounts configured using New-CsHybridApplicationEndpoint with Skype for Business Server may not have the Department parameter set properly which will cause the resource account creation in Teams admin center to fail. In this case, you need to configure the department name in Active Directory on premise before synchronizing to online.|To mitigate this issue, you can run the following Cmdlet to set the department parameter. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft Communication Application Instance" <br/> Also see the [Auto Attendant and Call Queues Service Update](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |5/8/19 <br/> |
 
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -245,6 +244,12 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Unable to configure unanswered calls to go to voicemail in the desktop app|When a user is in Teams-only mode, their Exchange mailbox is on premises and if they access **Settings** > **Calls** in the Teams desktop app, they cannot select the option to forward calls to voicemail (unanswered calls or all calls). If either option was already configured, opening the Calls tab in Settings will disable forwarding to voicemail.|Configure forwarding to voicemail using the Teams mobile app.|5/27/2019|
+
+## Presence
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Presence in Outlook and other Office applications not showing after a user is moved to **Teams Only** mode. <br/> |If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams.  <br/> |To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.  <br/> |9/2019  <br/> |
+
 
 
 ## Provisioning

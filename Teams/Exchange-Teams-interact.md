@@ -74,6 +74,9 @@ Microsoft Teams works with several Office 365 services to provide users with a r
 > [!NOTE]
 >For Exchange On-Premises and Teams integration, the required license needs to be assigned for the AAD synced user.
 
+> [!IMPORTANT]
+> If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams. Workaround: To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.
+
 ## Additional considerations
 
 Here are some extra things to think about as you implement Microsoft Teams in your organization.
