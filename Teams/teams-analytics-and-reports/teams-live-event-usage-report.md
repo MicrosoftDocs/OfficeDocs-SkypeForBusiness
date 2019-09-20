@@ -18,8 +18,6 @@ appliesto:
 ---
 # Microsoft Teams live event usage report
 
-In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN usage report**, and then click **Run report**.
-
 The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. You can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events.
 
 ## View the report
