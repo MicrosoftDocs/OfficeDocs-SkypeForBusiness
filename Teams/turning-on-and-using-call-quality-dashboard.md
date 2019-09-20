@@ -72,7 +72,7 @@ Refer to this article for a list of [Dimensions and measures available in Call Q
 > [!NOTE]
 > To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays on the dashboard.
 
-<!-- PM approved? -->
+<!-- Siunies added new section below, please review and approve -->
 
 CQD version 1 provided Skype for Business Server 2015 admins the following features:
 
@@ -134,7 +134,7 @@ After you sign in, once activated, the Call Quality Dashboard will begin collect
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, PM please comment-->
+<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
 CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the editions are summarized here:
   
 |Feature|Summary Reports|Detailed Reports|
@@ -160,11 +160,10 @@ All editions of CQD provide an experience that gives you call quality metrics wi
   
 ### Overview reports
 
-All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!-- add reports from latest changes, PM approve  -->
+All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!--   siunies please approve updated section in article  -->
   
 Summary Reports provide a simplified tabbed page report view so you can quickly browse and understand the overall call quality status and trends.
-  
-
+ 
 The four tabs include:
   
 - **Overall Call Quality** — provides information about all streams, which is an aggregation that shows monthly and daily trends for: 
@@ -350,7 +349,7 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
 ## Create custom detailed reports
 
-<!-- serious overhaul needed, PM review, add content from server article on creating reports  -->
+<!-- overhauled content in section, siunies please review and approve this section  -->
 
 You may find you want to create a specific report that focuses on certain dimension of the data in a way not available in the detailed reports provided.
 
