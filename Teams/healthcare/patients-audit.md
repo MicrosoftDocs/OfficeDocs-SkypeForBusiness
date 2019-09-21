@@ -16,7 +16,7 @@ description: Patients app for Teams admins
 
 # Auditing logs for Patients app
 
-Keeping an Audit log for Patients app activity allows after-incident response teams to review changes to patients records and determine if changes or improvements in policy or procedure are needed.
+Keeping an Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) and determine if changes or improvements in policy or procedure are needed.
 
 <!-- remember to add link to security page and from security page  -->
 
@@ -53,6 +53,8 @@ Logged activities for Microsoft Teams are described in [Microsoft Teams activiti
 
 The Patients app has its own logged activities, listed in the following table:
 
+<!-- a lot of this is first-pass guesswork. @ansuman please review-->
+
 |Friendly name |Operation|Description|
 |:---|:---|:---|
 | Viewed list of patients |PatientListViewed| A user viewed a patient list.|
@@ -63,16 +65,14 @@ The Patients app has its own logged activities, listed in the following table:
 | Added a patient to a list| PatientListPatientAdded |A patient was added to a list of patients. |
 | Removed a patient from a list|PatientListPatientRemoved |A patient was removed from a list of patients. |
 | Renamed a patient list |PatientListRename | A list of patients was renamed. |
-|Edited a list column|PatientListColumnEdited | A column in a list of patients was edited (added or removed). |
-|Added a note |PatientNoteAdded | A note was added to a patient record. |
-|Edited a detail | PatientDetailEdited | |
-||PatientDataExported | |
-||PatientSchemaCreated | |
-||PatientSchemaUpdated| |
-||EMRConnectionSet ||
+| Edited a list column|PatientListColumnEdited | A column in a list of patients was edited (added or removed). |
+| Added a note |PatientNoteAdded | A note was added to a patient record. |
+| Edited a detail | PatientDetailEdited |A detail on a patient record was edited. |
+| Exported patient data |PatientDataExported |A patient record was exported <!-- from EMR? to where? --> by the app. |
+| Created patient schema |PatientSchemaCreated |Created a new patient record in the EMR service. |
+| Updated patient schema|PatientSchemaUpdated  | Updated a patient record in the EMR service.|
+| Connected to EMR  |EMRConnectionSet | A Patients app client connected to the EMR service.|
 ||||
-
-
 
 ## Related topics
 
