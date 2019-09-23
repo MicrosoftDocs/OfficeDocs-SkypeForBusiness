@@ -40,7 +40,7 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
     ```
 
-Type `Y` and click `Enter`.
+    Type `Y`, and then click `Enter`.
  
 4. Exit Windows PowerShell.
 
