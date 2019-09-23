@@ -3,7 +3,7 @@ title: "Turn on and use Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -313,19 +313,26 @@ CQD uses a Building data file, which helps provide useful call details. The Subn
 - There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
 ||||||||||||||||
-|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |
-|**Column field name** |NetworkIP |NetworkName |NetworkRange |BuildingName |OwnershipType | BuildingType | BuildingOfficeType | City |ZipCode |Country|State|Region |InsideCorp   | ExpressRoute |
-|**Data type**         | String     | String                     |Number       | String       | String       | String         | String             | String  | String |String |String|  String   |Boolean   | Boolean   |
-|**Example value**     |192.168.1.0 |USA/Seattle/SEATTLE-SEA-1   | 26          | SEATTLE-SEA-1| Contoso      | IT Termination | Engineering        | Seattle | 98001  |US     |WA |MSUS   | 1   |  0   |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
+|**Column field name**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|City   |ZipCode|Country|State |Region|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (optional)|
+|**Data type**        | String    | String                  |Number      | String       | String      | String        |String            |String |String |String |String|String|Boolean   |Boolean     |Boolean|
+|**Example value**    |192.168.1.0|USA/Seattle/SEATTLE-SEA-1| 26         | SEATTLE-SEA-1| Contoso     | IT Termination|Engineering       |Seattle|98001  |US     |WA    |MSUS  | 1        |0           | 0|
+|||||||||||||||||
+
+&dagger; This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes if you decide to.
+
+&Dagger; This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes if you decide to.  
 
 **Sample row:**
 
 ```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,
+192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
 ```
 
 > [!IMPORTANT]
-> The network range can be used to represent a supernet (a combination of several subnets with a single routing prefix). All new building uploads are checked for overlaps in ranges. If you previously uploaded a building file, download and then re-upload the current file to identify overlaps, and fix issues (if any are present) before uploading again. Any overlap in previously uploaded files may result in faulty mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. When you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
+> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
+> 
+> The VPN column is optional and will default to 0.  If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
 ### Endpoint data file
 
@@ -349,7 +356,7 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
 ## Create custom detailed reports
 
-<!-- overhauled content in section, siunies please review and approve this section  -->
+<!-- overhauled content in section, @siunies please review and approve this section  -->
 
 You may find you want to create a specific report that focuses on certain dimension of the data in a way not available in the detailed reports provided.
 
