@@ -28,7 +28,7 @@ The concepts of teams and channels are fundamental to a healthy, productive impl
 
 - Channels are the collaboration spaces within a team in which the actual work is done. 
 
-To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). For comprehensive Teams adoption guidance, get the [Teams Adoption Guide](https:aka.ms/teamstoolkit). To learn more about Teams and Office 365 Groups, see [Office 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). For comprehensive Teams adoption guidance, get the [Teams Adoption Guide](https://aka.ms/teamstoolkit). To learn more about Teams and Office 365 Groups, see [Office 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
