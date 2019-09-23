@@ -24,22 +24,16 @@ appliesto:
 
 Use the steps in this article to install and connect to the Microsoft StaffHub PowerShell module. You'll need this to manage StaffHub by using PowerShell and to move your StaffHub teams to Microsoft Teams.
 
-## Install the Microsoft StaffHub PowerShell module
+## Install the prelease version of the Microsoft StaffHub PowerShell module
 
 1. Open Windows PowerShell 3.0 or later as an admin. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
     > [!NOTE]
     > To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
-2. Run the following to install the current stable version of the StaffHub PowerShell module:
+2. Run the following to install the prelease version of the StaffHub PowerShell module:
 
     ```
-    Install-Module -Name MicrosoftStaffHub
+    Install-Module -Name MicrosoftStaffHub -AllowPrelease
     ```
-    
-    You can run this command only if you need to install the latest version, which may have more instabilities than the current stable version: `Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
-
-     > [!NOTE]
-     > If you receive an error during the installation of the latest version with more instabilities, you can run: `Install-Module PowershellGet -Force`
-
 3. You may see the warning message:
 
     ```

@@ -85,7 +85,7 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 ### Install the StaffHub PowerShell module
 
-If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
+If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
 
 ### Link an Azure AD account for StaffHub team members who don't have one
 
