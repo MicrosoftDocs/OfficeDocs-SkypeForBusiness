@@ -82,8 +82,10 @@
 ### Analytics and reports in the Teams admin center 
 #### [Overview](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
-#### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
+#### [PSTN blocked users report](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams live event usage report](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
