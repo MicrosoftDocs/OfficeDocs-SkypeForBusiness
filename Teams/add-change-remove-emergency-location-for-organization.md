@@ -29,7 +29,7 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
   
 ## Add an emergency location
 
-1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency locations**.
+1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. Click **Add Location**.
 3. Enter a name and description for the location.
 4. Select the country or region, and then enter the address.
@@ -41,22 +41,22 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
     
 ## Change an emergency location
 
-1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency locations**.
+1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, select the location that you want to change, and then click **Edit**.
 3. Make the changes you want.
 4. Click **Save**.
 
 > [!NOTE]
-> You can change the address information for a location only when the address isn't validated. If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.
+> You can change the address information for a location only if the address isn't validated. If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.
     
 ## Remove an emergency location
 
-1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency locations**.
+1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 2. In the list, select the location that you want to remove, and then click **Delete**
     
 ## Related topics
 
 -[What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Add, change, or remove a place for an emergency location in your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
+- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-location-for-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
