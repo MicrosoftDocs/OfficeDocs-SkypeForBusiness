@@ -87,6 +87,8 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
 
+You must have the prerelease version of the module installed to move your StaffHub teams to Teams.
+
 ### Link an Azure AD account for StaffHub team members who don't have one
 
 Each StaffHub team member must be linked to an Azure Active Directory (Azure AD) account. Users in your organization won't be linked to an Azure AD account if any of the following scenarios apply:
