@@ -3,7 +3,7 @@ title: "Add, change, or remove an emergency location for your organization"
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: jastark, roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,9 +21,9 @@ description: "Learn how to add, change, or remove an emergency location for your
 
 # Add, change, or remove an emergency location for your organization
 
-An emergency location must be associated with a phone number, but when this happens can vary between country/regions. For example, in the United States, you need to associate an emergency location when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency location to the phone number when you're getting the phone numbers from Office 365 or transferring phone numbers from your current service provider.
+An emergency location must be associated with a phone number, but when this happens can vary between countries and regions. For example, in the United States, you need to associate an emergency location when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Office 365 or transfer phone numbers from your current service provider.
 
-No matter which country/region you are in, it's possible to add a place or places to an emergency location or remove an emergency location. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location. Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
   
 To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -35,7 +35,7 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
 4. Select the country or region, and then enter the address.
 
    > [!NOTE]
-   > In Belgium, France, Germany, Ireland, Netherlands, and Spain it is important to understand that in order to successfully activate a phone number in Office 365, the address setup in the emergency location, which will be used to acquire the number, must match the phone number’s area code.
+   > In Belgium, France, Germany, Ireland, Netherlands, and Spain i's important to understand that  to successfully activate a phone number in Office 365, the address setup in the emergency location, which os used to acquire the number, must match the phone number’s area code.
 5. If the address isn't found and you want to manually edit the address, turn on **Let me edit the address form manually if the address selected can't be found**.
 6. Click **Save**.
     
@@ -56,6 +56,7 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
     
 ## Related topics
 
+-[What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove a place for an emergency location in your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)

@@ -3,7 +3,7 @@ title: "Add, change, or remove a place for an emergency location in your organiz
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: jastark, roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,7 +21,7 @@ description: "Learn how to add, change, or remove a place for an emergency locat
 
 # Add, change, or remove a place for an emergency location in your organization
 
-Depending on the number of physical locations in your organization, you can add emergency places for buildings, floors, and offices to create a more specific emergency location. See [What are emergency locations, places, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information. 
+Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location. See [What are emergency locations, places, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.
   
 To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -50,4 +50,3 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
 - [Add, change, or remove a place for an emergency location in your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
- 
