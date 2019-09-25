@@ -123,8 +123,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | CDR Record Available  | Boolean  | True if at least one Call Detail Records was available for call/session.     | |
 | Media Line Label  | Integer  | Label in SDP for media line. Use Media Type to determine if label is used for video, audio, app sharing, or video based screen sharing. <br/> **Example value:** 0  | &bull; This data was not reported by the endpoint.  |
 | Media Type  | String  | Type of media (video, audio, app sharing, or video based screen sharing). <br/> **Example value:** Audio |  |
-|Media Line Label Text | String |The Session Description Protocol (SDP) Label Attribute of the media line corresponding to the stream.
-See [RFC 4574](https://tools.ietf.org/html/rfc4574) for more detailed info.  **Example values**: <br/> main-audio<br/> main-video<br/> main-video1<br/> main-video2<br/> main-video3<br/> main-video4<br/> main-video5<br/> main-video6<br/> main-video7<br/> main-video8<br/> main-video9<br/> panoramic-video<br/> applicationsharing-video<br/> data   | |
+|Media Line Label Text | String |The Session Description Protocol (SDP) Label Attribute of the media line corresponding to the stream. See [RFC 4574](https://tools.ietf.org/html/rfc4574) for more detailed info. <br/> **Example values**: <br/> main-audio<br/> main-video<br/> main-video1<br/> main-video2<br/> main-video3<br/> main-video4<br/> main-video5<br/> main-video6<br/> main-video7<br/> main-video8<br/> main-video9<br/> panoramic-video<br/> applicationsharing-video<br/> data   | |
 | First Is Server  | Enumeration <br/>**Possible values:** <br/>&bull; Client <br/>&bull; Server  | Indicates if the first endpoint is a server endpoint such as a conferencing server (AVMCU, ASMCU) or other media servers (Mediation Server), or is a client endpoint.  **Example value:** Client | |
 | Second Is Server  | Enumeration <br/>**Possible values:** <br/>&bull; Client <br/>&bull; Server   | Indicates if the second endpoint is a server endpoint, or is a client endpoint. <br/>  **Example value:** Client | |
 | First Is Caller  | Boolean  | True if the first endpoint was the caller who initiated the session.   | |
@@ -191,8 +190,8 @@ See [RFC 4574](https://tools.ietf.org/html/rfc4574) for more detailed info.  **E
 | Mediation Server Bypass Flag  | Boolean  | True if the media stream bypassed the Mediation Server and went straight between client and PSTN Gateway/PBX, False otherwise.   | &bull; Transport type was not reported <br/>&bull; The media path was not established    |
 | First CDR Connectivity Type  | Enumeration <br/>**Possible values:** <br/>&bull; OS <br/>&bull; PeerDerived <br/>&bull; Stun <br/>&bull; Turn  | Identifies the ICE connectivity path selected by the first endpoint for use for this stream. <br/> **Example value:** OS  | &bull; Transport type was not reported <br/>&bull; The media path was not established   |
 | Second CDR Connectivity Type  | Enumeration <br/>**Possible values:** <br/>&bull; OS <br/>&bull; PeerDerived <br/>&bull; Stun <br/>&bull; Turn  | Identifies the ICE connectivity path selected by the second endpoint for use for this stream.  <br/> **Example value:** OS   | &bull; Transport type was not reported <br/>&bull; The media path was not established   |
-|First BSSID|String | The unique address of the wireless access point the First endpoint used to connect to the network.| |
-| Second BSSID| String|The unique address of the wireless access point the Second endpoint used to connect to the network.| |
+|First BSSID|String | The Wireless LAN basic service set identifier of the First endpoint used to connect to the network.| |
+| Second BSSID| String|The Wireless LAN basic service set identifier of the Second endpoint used to connect to the network.| |
 |**Device**| |||
 | First Capture Dev  | String  | Name of the capture device used by the first endpoint. For: <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000)  | &bull; The data was not reported by the endpoint <br/>&bull; The media path was not established <br/>&bull; The stream was video-based screen sharing or application sharing.  |
 | Second Capture Dev  | String  | Name of the capture device used by the second endpoint.  <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000) | <br/>&bull; Data was not reported by the endpoint <br/>&bull; Media path was not established <br/>&bull; The stream was video-based screen sharing or application sharing   |
@@ -233,19 +232,19 @@ See [RFC 4574](https://tools.ietf.org/html/rfc4574) for more detailed info.  **E
 | Ratio Concealed Samples Avg  | Range (ratio)  | Ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames. Values grouped by range. 0.1 indicates 10% of frames contained concealed samples. <br/> **Example value:** 015: [0.01 - 0.02) | &bull; This value was not reported by the receiver of the stream <br/>&bull; The stream was not an audio stream  |
 |Conceal Ratio Max |Range (ratio) | The maximum seen number of audio frames with samples generated by packet loss concealment to the total number of audio frames. Values grouped by range. 0.1 indicates 10% of frames contained concealed samples. <br/> **Example value:** 015: [0.01 - 0.02)| |
 | Ratio Stretched Samples Avg  | Range (ratio)  | Ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames. Values grouped by range. 0.1 indicates 10% audio frames contained stretched samples. <br/> **Example value:** 017: [0.03 - 0.04) | &bull; This value was not reported by the receiver of the stream  <br/>&bull; The stream was not an audio stream   |
-|Healer Packet Drop Ratio|Range (ratio)   |Ratio of audio packets dropped by healer over total number of audio packets received by healer. See [2.2.1.12.1 Child Elements](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information.| |
+|Healer Packet Drop Ratio|Range (ratio) |Ratio of audio packets dropped by healer over total number of audio packets received by healer. See [2.2.1.12.1 Child Elements](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information.| |
 | Healer FEC Packet Used Ratio| Range (ratio)  |Ratio of used Forward Error Correction (FEC) packets over total number of received FEC packets. See [2.2.1.12.1 Child Elements](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information.  | |
 | Round Trip  | Range (milliseconds)  | Average network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/> **Example value:** 070: [15 - 20)  | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported  |
 | Round Trip Max  | Range (milliseconds)  | Maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/> **Example value:** 098: [350 - 375)   | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported |
-| Packet Utilization |<!-- @Gageames  got a pointer where to find these? lines 240-245-->||
-| Jitter Buffer Size Avg|||
-| Jitter Buffer Size Max|||
-| Jitter Buffer Size Min|||
-|Relative OneWay Gap Duration|||
-| Audio Post FECPLR|||
+| Packet Utilization | **TBD**  <!-- @Gageames  got a pointer where to find these? Plus, confirm lines 241-248-->||
+| Jitter Buffer Size Avg| Number <!-- are these dupes of 595-597 -->|Average size of jitter buffer during session.| |
+| Jitter Buffer Size Max|Number|Maximum size of jitter buffer during session. |
+| Jitter Buffer Size Min|Number|Minimum size of jitter buffer during session.|
+|Relative OneWay Gap Duration| **TBD** <!-- @gageames still stumped here -->||
+| Audio Post FECPLR|  Number |Reports packet loss rate after FEC has been applied for audio. Value between 0.00 and 1.00.| |
 | Network Jitter Avg  | Range (milliseconds)  | Average of network jitter in milliseconds computed over 20 second windows during the session. Values grouped by range. <br/> **Example value:** 066: [3–4)  | <br/>&bull; The stream was not an audio stream <br/>&bull; Data was not reported by the endpoint receiving the stream  |
-|Network Jitter Max|||
-| Network Jitter Min|||
+|Network Jitter Max|Number|Maximum of network jitter computed over 20 second windows during the session.|
+| Network Jitter Min|Number|Minimum of network jitter computed over 20 second window during the session.| |
 | Video Post FECPLR  | Range (ratio)  | Packet loss rate after FEC has been applied for aggregated across all video streams and codecs. Values grouped by range. <br/> **Example value:** 014: [0 - 0.01) | <br/>&bull; The stream was not a video or video-based-screen-sharing stream  <br/>&bull; Data was not reported by the endpoint receiving the stream   |
 | Video Local Frame Loss Percentage Avg  | Range (percentage)  | Average percentage of video frames lost as displayed to the user. Values grouped by range. This includes frames recovered from network losses. <br/> **Example value:** 160: [80 - 85) | <br/>&bull; The stream was not a video or video-based-screen-sharing stream  <br/>&bull; Data was not reported by the endpoint receiving the stream   |
 | Received Frame Rate Average  | Range (frames per second)  | Average frames per second received for all video streams computed over the duration of the session. Values grouped by range. <br/> **Example value:** 101: [14.5 - 15) | <br/>&bull; The stream was not a video or video-based-screen-sharing stream  <br/>&bull; Data was not reported by the endpoint receiving the stream   |
@@ -319,8 +318,8 @@ See [RFC 4574](https://tools.ietf.org/html/rfc4574) for more detailed info.  **E
 | Second RxAGC Signal Level |Range (dB decibels)|Signal level received at the automatic gain control (AGC) for the second inbound audio stream.|| 
 | First RxAGC Noise Level|Range (dB decibels)|Noise level received at the automatic gain control (AGC) for the first inbound audio stream. ||
 | Second RxAGC Noise Level|Range (dB decibels)|Noise level received at the automatic gain control (AGC) for the second inbound audio stream.||
-| First Render Loopback Signal Level |Range (dB decibels)|||
-| Second Render Loopback Signal Level |Range (dB decibels)|||
+| First Render Loopback Signal Level |Range (dB decibels)| <!-- @gageames  pure guesswork, confirm 321-322 --> Loopback signal level for the first inbound audio stream. ||
+| Second Render Loopback Signal Level |Range (dB decibels)|Loopback signal level for the Second inbound audio stream.||
 |**Client Event** |||
 | First Network Send Quality Event Ratio  | Range (ratio)  | Fraction of the call that the first endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02)   | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the first endpoint|
 | Second Network Send Quality Event Ratio  | Range (ratio)  | Fraction of the call that the second endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02)  | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
@@ -370,7 +369,7 @@ See [RFC 4574](https://tools.ietf.org/html/rfc4574) for more detailed info.  **E
 | Call Setup Failure Reason  | Enumeration  | Classification of why media connection could not be established for a call. <br/>**Possible values:** <br/> **Missing FW Deep Packet Inspection Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established due to deep packet inspection rules. This may be due to proxy or firewall rules not being correctly configured. <br/> **Missing FW IP Block Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established to the Office 365 network. This may be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Skype for Business traffic. <br/> **Other** - indicates the media path for the call could not be established but the root cause could not be classified. <br/> Not Media Failure - indicates no issue was detected with the establishment of the media path.  | &bull; Call set up failed due to an unknown media issue  |
 |**DNS**|||
 | Used DNS Resolve Cache  | Boolean  | True if endpoint used DNS cache to resolve media relay address, False otherwise.    | <br/>&bull; This data was not reported by the endpoint    |
-|**UserData**|<!-- @gageames suggestions here? -->||
+|**UserData**|<!-- @gageames suggestions here? 372-390 -->||
 | First User ObjectId|||
 | Second User ObjectId|||
 | First MAC Address|||
@@ -551,8 +550,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second RxAGC Signal Level|Number|Average signal level received at the automatic gain control for the second inbound audio stream.| |
 | Avg First RxAGC Noise Level|Number|Average noise level received at the automatic gain control for the first inbound audio stream.||
 | Avg Second RxAGC Noise Level|Number|Average noise level received at the automatic gain control for the second inbound audio stream.| |
-| Avg First Render Loopback Signal Level|Number| Average level of first speaker loopback signal (after any device offload effects have been applied).|	
-Average level of speaker loopback signal (after any device offload effects have been applied).|
+| Avg First Render Loopback Signal Level|Number| Average level of first speaker loopback signal (after any device offload effects have been applied).|	Average level of speaker loopback signal (after any device offload effects have been applied).|
 | Avg Second Render Loopback Signal Level|Number| Average level of second speaker loopback signal (after any device offload effects have been applied).|	
 |Avg First Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by first endpoints. |
 |Avg Second Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by second endpoints. |
@@ -589,16 +587,16 @@ Average level of speaker loopback signal (after any device offload effects have 
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
  Avg Packet Utilization||<!-- @GageAmes no guess here -->|
-|Avg Network Jitter |Milliseconds |Average of average network jitter in milliseconds computed over 20 second windows during the session for streams. |
-| Avg Network Jitter Max| Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.<!-- @GageAmes no guess here, 593-601 --> ||
-| Avg Network Jitter Min|||
-| Avg Jitter Buffer Size |||
-| Avg Jitter Buffer Size Max|||
-| Avg Jitter Buffer Size Min|||
-| Avg Relative OneWay |||
-| Avg Relative OneWay Gap Occurrences|||
-| Avg Relative OneWay Gap Density|||
-| Avg Relative OneWay Gap Duration|||
+|Avg Network Jitter |Milliseconds |	Average of network jitter computed over 20 second windows during the session. |
+| Avg Network Jitter Max|<!--@gageames please confirm 591, 593-601 --> Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  ||
+| Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.| |
+| Avg Jitter Buffer Size |Milliseconds|Average size of jitter buffer during session.| |
+| Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.| |
+| Avg Jitter Buffer Size Min|Milliseconds|Minimum size of jitter buffer during session.| |
+| Avg Relative OneWay ||| |
+| Avg Relative OneWay Gap Occurrences||| |
+| Avg Relative OneWay Gap Density||| |
+| Avg Relative OneWay Gap Duration||| |
 |Avg Audio Post FECPLR |Ratio |Average of packet loss rate after FEC has been applied for aggregated across all audio streams and codecs for streams. |
 |Avg Video Post FECPLR |Ratio |Average of packet loss rate after FEC has been applied for aggregated across all video streams and codecs for streams. |
 |Avg Video Local Frame Loss Percentage |Percentage |Average percentage of video frames lost as displayed to the user for streams. This includes frames recovered from network losses. |
@@ -614,7 +612,7 @@ Average level of speaker loopback signal (after any device offload effects have 
 |Avg Second Device Capture Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the second endpoint detected the capture device was not working properly. |
 |Avg First Device Render Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the first endpoint detected the render device was not working properly. |
 |Avg Second Device Render Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the second endpoint detected the render device was not working properly. |
-|Avg First Mic Glitch Rate|||
+|Avg First Mic Glitch Rate| <!-- @gageames need pointers here, 617-626 -->||
 | Avg Second Mic Glitch Rate|||
 | Avg First Speaker Glitch Rate|||
 | Avg Second Speaker Glitch Rate|||
