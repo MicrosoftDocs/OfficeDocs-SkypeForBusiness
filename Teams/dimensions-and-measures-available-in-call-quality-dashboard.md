@@ -371,9 +371,9 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Used DNS Resolve Cache  | Boolean  | True if endpoint used DNS cache to resolve media relay address, False otherwise.    | <br/>&bull; This data was not reported by the endpoint    |
 |**UserData**|<!-- @gageames suggestions here? 372-390 -->||
 | First User ObjectId|String|  | |
-| Second User ObjectId|String||
-| First MAC Address|String||
-| Second MAC Address|String||
+| Second User ObjectId|String| |
+| First MAC Address|String|| |
+| Second MAC Address|String|| |
 | First Sip Uri|String||
 | Second Sip Uri|String||
 | First Phone Number|String||
