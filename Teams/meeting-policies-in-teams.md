@@ -314,7 +314,6 @@ These settings control which meeting participants wait in the lobby before they 
 - [Automatically admit people](#automatically-admit-people)
 - [Allow anonymous people to start a meeting](#allow-anonymous-people-to-start-a-meeting)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [Allow organizers to override lobby settings](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -376,31 +375,6 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-### Allow organizers to override lobby settings (coming soon)
-
-This is a per-organizer policy. This setting controls whether the meeting organizer can override the lobby settings that an admin set in **Automatically admit people** and **Allow dial-in users to bypass the lobby** when they schedule a new meeting. 
-
-Meeting organizers can click **Meeting Options** in the meeting invitation to change lobby settings for each meeting they schedule. 
-
-Here's how this setting affects whether the meeting organizer can change the **Automatically admit people** setting for each meeting the organizer schedules.
-
-|Allow organizers to override lobby settings  |Automatically admit people  |Behavior |
-|---------|---------|---------|
-|True    | Everyone      | Organizer can change the setting to any other value. |
-|   | Everyone in your organization       | Organizer can change the setting to any other value.|
-|   | Everyone in your organization and federated organizations       | Organizer can change this to any other value.         |
-|False    | Everyone        | Organizer can change the setting to any other value.|
-|   | Everyone in your organization     |Organizer can change the setting to **Everyone in your organization**. |
-|   | Everyone in your organization and federated organizations      | Organizer can't override the lobby setting. |
-
-Here's how this setting affects whether the meeting organizer can change the **Allow dial-in users to bypass the lobby** setting for each meeting the organizer schedules.
-    
-|Allow organizers to override lobby settings  |Allow dial-in users to bypass the lobby  |Behavior |
-|---------|---------|---------|
-|True    |  True        | Organizer can change the setting to False.       |
-|True      | False         | Organizer can change the setting to True.        |
-|False     | True        |Organizer can change the setting to False.         |
-|False      |False          |Organizer can't override the lobby setting and can't allow dial-in users to bypass the lobby in the meeting.        |
 
 [Full article](meeting-policies-in-teams.md)
 
