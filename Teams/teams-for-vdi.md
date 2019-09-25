@@ -3,7 +3,6 @@ title: Teams for Virtualized Desktop Infrastructure
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi
@@ -24,11 +23,29 @@ This article describes the requirements and limitations for using Microsoft Team
 
 ## What is VDI?
 
-Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source. 
- 
-Currently, Teams in a virtualized environment is available with support for collaboration and chat functionality with a dedicated persistent virtualized machine (VM). To ensure an optimal user experience, follow the guidance in this article. 
+Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
 
-## Teams requirements
+Microsoft Teams in a virtualized environment is available with support for chat and collaboration as well as with calling and meeting on Citrix setups.
+ 
+Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, so the functionality will expand in the coming months and years.
+ 
+Using Teams in a virtualized environment may be somewhat different from using Teams non-virtualized. For example, some advanced features may not be available in a virtualized environment and video resolution may differ. To ensure an optimal user experience, follow the guidance included in this document.
+
+## Teams on VDI components
+
+Using Teams in a virtualized environment requires the following components:
+
+1. Virtualization broker: The resource and connection manager to the virtualization provider
+2. Virtual desktop: Virtual machine (VM) stack, Microsoft Teams
+3. Client: Endpoint that the user physically interfaces with
+
+## Teams on VDI requirements
+
+### Virtualization provider requirements
+
+### Citrix virtual apps and desktop requirements
+
+### Virtual machine minimum requirements
 
 ### Set policies to turn off calling and meeting functionality in Teams
 
