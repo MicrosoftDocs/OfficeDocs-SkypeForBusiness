@@ -3,7 +3,6 @@ title: Private channels in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 
 ms.reviewer: suchakr
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -16,7 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage private teams in Microsoft Teams. 
+description: Learn how to use and manage private channels in Microsoft Teams. 
 ---
 
 # Private channels in Microsoft Teams
@@ -41,7 +40,7 @@ Currently, private channels support connectors and tabs (except Wiki, Planner, a
 Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
 
 > [!NOTE]
-> We're continuing to add additional capabilities in private channels so check back for the most up-to-date information regarding apps, channel meetings, and scaling private channels for large teams.
+> We're continually adding capabilities to private channels so check back for the most up-to-date information regarding apps, channel meetings, and scaling private channels for large teams.
 
 ## When to create a private channel
 
@@ -124,7 +123,18 @@ The private channel owner can click **Manage channel**, and then use the **Membe
 
 ### Set whether team members can create private channels
 
-Team owners can turn off or turn on the ability for members to create private channels. To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.
+Team owners can turn off or turn on the ability for members to create private channels in team settings. To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.
+
+Admins can use Graph API to turn off or turn on the ability for members to create channels in specific teams. Here's an example.
+
+```
+PATCH /teams/<team_id>​
+{"memberSettings": ​
+  {​
+    "allowCreatePrivateChannels": false​
+  }​
+}
+```
 
 ### Set whether users in your organization can create private channels
 
@@ -136,9 +146,41 @@ Use teams policies to set which users in your organization are allowed to create
 
 #### Using PowerShell
 
-Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels. Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels. Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy. 
+Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels. Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels. Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy.
 
 To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
+
+### Create a private channel on behalf of a team owner
+
+As an admin, you can use PowerShell or Graph API to create a private channel on behalf of a team owner. For example, you may want to do this if your organization wants to centralize creation of private channels.
+
+Using PowerShell
+
+```
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+```
+
+Using Graph API
+
+```
+POST /teams/{id}/channels​
+{ "membershipType": "Private",​
+  "displayName": "<Channel_Name>",​
+  "members":[{    ​
+           "@odata.type":"#microsoft.graph.aadUserConversationMember",​
+           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",​
+           "roles":["owner"]​
+            }]
+```
+
+### Get a list of all private channel messages
+
+You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.  Here's how to use Graph API to do this.
+
+```
+GET /teams/{id}/channels/{id}/messages​
+GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
+```
 
 ## Private channel SharePoint sites
 
@@ -155,11 +197,10 @@ If the site collection for the private channel isn't automatically created when 
 1. Go to [https://&lt;tenantrootsite&gt;/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx), and then select **Check Permissions**.
 2. In the **Check Permissions** dialog box, under **User/Group**, enter the name of the user who created the private channel, and then click **Check Now**.
 3. Note the permission level of the user. For example, Edit.
-4. Go to [https://&lt;tenantrootsite&gt;/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx),and then select the check box next to the user's permission level.
+4. Go to [https://&lt;tenantrootsite&gt;/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx), and then select the check box next to the user's permission level.
 5. Under **Site Permissions**, make sure the **Use Remote Interfaces** check box is selected.
 
 ## Related topics
 
 - [Overview of teams and channels in Teams](teams-channels-overview.md)
-- [Assign team owners and members in Teams](assign-roles-permissions.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
