@@ -3,7 +3,6 @@ title: Conduct an eDiscovery investigation of content in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -25,7 +24,7 @@ Large Enterprises are often exposed to high penalty legal proceedings that deman
 All Teams 1:1 or group chats are journaled through to the respective users’ mailboxes, and all standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.
 
 > [!NOTE]
-> eDiscovery of messages and files in [private channels](private-channels-in-teams.md) work differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
+> eDiscovery of messages and files in [private channels](private-channels.md) work differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
 
 1.  To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [this](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.
 
@@ -57,6 +56,8 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in an eDiscovery search
 
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
     ```
@@ -73,15 +74,17 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel messages in an eDiscovery search
 
+Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.
+
 1. Run the following to get a list of private channels in the team.
 
     ```
-    Get-TeamChannel -GroupId &lt;GroupID&gt; -MembershipType Private
+    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. Run the following to get a list of private channel members.
 
     ```
-    Get-TeamChannelUser -GroupId &lt;GroupID&gt; -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. Include the mailbox of at least one member from each private channel in the team as part of your eDiscovery search query.
 

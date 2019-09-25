@@ -21,8 +21,6 @@ description: Learn how to use and manage private teams in Microsoft Teams.
 
 # Private channels in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team.
 
 You might want to use a private channel if you want to limit communication to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
@@ -34,9 +32,9 @@ For example, a private channel is useful in these scenarios:
 
 A lock icon indicates a private channel. Team owners can see all private channels in a team. Team members can only see those private channels that they are added to.
 
-![Screen shot of private channels in a team](media/private-channels-in-teams.png)
+![Screenshot of private channels in a team](media/private-channels-in-teams.png)
 
-The architecture for private channels is different from standard channels. Each private channel has it's own SharePoint site collection where files shared in the channel are stored. The site collection is created in the same geographic region as the parent team site where standard channel files are stored but is separate from it.
+The architecture of private channels is different from standard channels. Each private channel has it's own SharePoint site collection where files shared in the channel are stored. The site collection is created in the same geographic region as the parent team site where standard channel files are stored but is separate from it.
 
 A private channel site collection inherits data classification and guest access permissions from the parent team site.
 
@@ -132,7 +130,7 @@ Each private channel has its own settings, including the ability to add and remo
 
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
 
-![Screen shot of private channel settings](media/private-channels-in-teams-channel-settings.png)
+![Screenshot of private channel settings](media/private-channels-in-teams-channel-settings.png)
 
 ### Set whether team members can create private channels
 
@@ -151,6 +149,18 @@ Use teams policies to set which users in your organization are allowed to create
 Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels. Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels. Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy. 
 
 To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
+
+## Troubleshooting
+
+### When a team owner or member creates a private channel, the SharePoint site collection for the private channel isn't automatically created
+
+Check the user's permission level settings for the root site. 
+
+1. Go to [https://<tenantrootsite>/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx), and then select **Check Permissions**.
+2. In the **Check Permissions** dialog box, under **User/Group**, enter the name of the user who created the private channel, and then click **Check Now**.
+3. Note the permission level of the user. For example, Edit.
+4. Go to [https://<tenantrootsite>/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx),and then select the check box next to the user's permission level.
+5. Under **Site Permissions**, make sure the **Use Remote Interfaces** check box is selected.
 
 ## Related topics
 

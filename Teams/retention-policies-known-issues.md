@@ -21,7 +21,7 @@ appliesto:
 # Known issues for retention policies in Microsoft Teams
 
 > [!NOTE]
-> Retention policies in Teams currently don't apply to private channel messages. This information in this article applies only to standard channels.
+> Retention policies that are created for teams or users don't apply to private channel messages. The information in this article applies only to standard channels.
 
 The following are known issues for retention policies in Teams that are being tracked and investigated.
 
