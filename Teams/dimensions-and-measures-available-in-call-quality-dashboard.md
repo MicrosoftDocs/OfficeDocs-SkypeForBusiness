@@ -615,7 +615,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. ||
 | Avg First Speaker Glitch Rate|Number of glitches|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
-| First User Count||<!--@gageames still unsure   -->|
+| First User Count||<!-- @gageames still unsure   -->|
 | Second User Count|||
 | Avg First Device Glitches Event Ratio|||
 | Avg Second Device Glitches Event Ratio|||
