@@ -235,12 +235,12 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Healer Packet Drop Ratio|Range (ratio) |Ratio of audio packets dropped by healer over total number of audio packets received by healer. See [2.2.1.12.1 Child Elements](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information.| |
 | Healer FEC Packet Used Ratio| Range (ratio)  |Ratio of used Forward Error Correction (FEC) packets over total number of received FEC packets. See [2.2.1.12.1 Child Elements](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information.  | |
 | Round Trip  | Range (milliseconds)  | Average network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/> **Example value:** 070: [15 - 20)  | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported  |
-| Round Trip Max  | Range (milliseconds)  | Maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/> **Example value:** 098: [350 - 375)   | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported |
-| Packet Utilization | **TBD**  <!-- @Gageames  got a pointer where to find these? Plus, confirm lines 241-248-->||
-| Jitter Buffer Size Avg| Number <!-- are these dupes of 595-597 -->|Average size of jitter buffer during session.| |
-| Jitter Buffer Size Max|Number|Maximum size of jitter buffer during session. |
-| Jitter Buffer Size Min|Number|Minimum size of jitter buffer during session.|
-|Relative OneWay Gap Duration| **TBD** <!-- @gageames still stumped here -->||
+| Round Trip Max  | Range (milliseconds)  | Maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/>**Example value:** 098: [350 - 375)   | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported |
+| Packet Utilization | Number (Packets) |Number of Real-Time Transport Protocol (RTP) packets sent in the session.|
+| Jitter Buffer Size Avg|Number (Range) |Average size of jitter buffer during session.| |
+| Jitter Buffer Size Max|Number (Range)|Maximum size of jitter buffer during session. |
+| Jitter Buffer Size Min|Number (Range)|Minimum size of jitter buffer during session.|
+|Relative OneWay Gap Duration| Duration of gaps in the relative one way delay of the peer.||
 | Audio Post FECPLR|  Number |Reports packet loss rate after FEC has been applied for audio. Value between 0.00 and 1.00.| |
 | Network Jitter Avg  | Range (milliseconds)  | Average of network jitter in milliseconds computed over 20 second windows during the session. Values grouped by range. <br/> **Example value:** 066: [3–4)  | <br/>&bull; The stream was not an audio stream <br/>&bull; Data was not reported by the endpoint receiving the stream  |
 |Network Jitter Max|Number|Maximum of network jitter computed over 20 second windows during the session.|
@@ -318,7 +318,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second RxAGC Signal Level |Range (dB decibels)|Signal level received at the automatic gain control (AGC) for the second inbound audio stream.|| 
 | First RxAGC Noise Level|Range (dB decibels)|Noise level received at the automatic gain control (AGC) for the first inbound audio stream. ||
 | Second RxAGC Noise Level|Range (dB decibels)|Noise level received at the automatic gain control (AGC) for the second inbound audio stream.||
-| First Render Loopback Signal Level |Range (dB decibels)| <!-- @gageames  pure guesswork, confirm 321-322 --> Loopback signal level for the first inbound audio stream. ||
+| First Render Loopback Signal Level |Range (dB decibels)| Loopback signal level for the first inbound audio stream. ||
 | Second Render Loopback Signal Level |Range (dB decibels)|Loopback signal level for the Second inbound audio stream.||
 |**Client Event** |||
 | First Network Send Quality Event Ratio  | Range (ratio)  | Fraction of the call that the first endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02)   | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the first endpoint|
@@ -370,24 +370,24 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |**DNS**|||
 | Used DNS Resolve Cache  | Boolean  | True if endpoint used DNS cache to resolve media relay address, False otherwise.    | <br/>&bull; This data was not reported by the endpoint    |
 |**UserData**|<!-- @gageames suggestions here? 372-390 -->||
-| First User ObjectId|||
-| Second User ObjectId|||
-| First MAC Address|||
-| Second MAC Address|||
-| First Sip Uri|||
-| Second Sip Uri|||
-| First Phone Number|||
-| Second Phone Number|||
-| First UPN|||
-| Second UPN|||
-| First Feedback Text|||
-| Second Feedback Text|||
-| First Client Endpoint Name|||
-| Second Client Endpoint Name|||
-| First Endpoint Product Name|||
-| Second Endpoint Product Name|||
-| First UserType|||
-| Second UserType|||
+| First User ObjectId|String|  | |
+| Second User ObjectId|String||
+| First MAC Address|String||
+| Second MAC Address|String||
+| First Sip Uri|String||
+| Second Sip Uri|String||
+| First Phone Number|String||
+| Second Phone Number|String||
+| First UPN|String||
+| Second UPN|String||
+| First Feedback Text|String||
+| Second Feedback Text|String||
+| First Client Endpoint Name|String||
+| Second Client Endpoint Name|String||
+| First Endpoint Product Name|String||
+| Second Endpoint Product Name|String||
+| First UserType|String||
+| Second UserType|String||
 |**Datapair**|||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This may happen if the call could not be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent was not a known type  |
@@ -475,9 +475,9 @@ Many Measurement values can also be used as filters. The following table lists t
 |Media Failed Due To Firewall IP Blocked Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access to Skype for Business servers. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365. |
 |Firewall IP Blocked Media Failure Percentage |Percentage |Percentage of streams that failed to be established because network equipment blocked access to Skype for Business servers. These failures typically indicate a proxy, firewall, or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365. |
 | Media Failed Due To Other Stream Count|Number| Number of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason.| |
-| Other Media Failure Percentage|Number <!--@gageames please confirm guesses --> Percentage of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason. ||
+| Other Media Failure Percentage|Number | Percentage of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason. ||
 | Total CDR Available Call Count|Number|Total number of media streams with reliability/diagnostics information available.|
-| Total Media Failed Call Count|Number|Percentage of streams where media path could not be established between the endpoints.|
+| Total Media Failed Call Count|Number|Number of streams where media path could not be established between the endpoints.|
 |Audio Stream Count |Number of streams |Number of audio streams. |
 |Audio Poor Stream Count |Number of streams |Number of audio streams classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
  |Audio Good Stream Count |Number of streams |Number of audio streams classified as good based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
@@ -498,10 +498,10 @@ Many Measurement values can also be used as filters. The following table lists t
 |Audio Poor Call Stream Count |Number of streams |Number of audio streams where at least one audio stream in the call (call-leg) was classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
 |Audio Unclassified Call Stream Count |Number of streams |Number of audio streams where both audio streams in the call (call-leg) could not be classified due to missing network metrics. |
 |Audio Poor Call Level Percentage |Percentage |Percentage of all audio streams where at least one audio stream in the call (call-leg) was classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
-| Audio Call Count | Number <!-- @GageAmes please confirm  guesses lines 502-506 --> |Number of calls involving audio.| |
+| Audio Call Count | Number |Number of calls involving audio.| |
 | Audio Poor Call Count|Number  |Number of calls involving audio classified as poor.|
 | Audio Good Call Count |Number|Number of calls involving audio classified as good.|
-| Audio Unclassified Call Count |Number|Number of calls involving audio classified as unclassified.|
+| Audio Unclassified Call Count |Number|Number of calls involving audio that could not be classified Good or Poor.|
 | Audio Poor Call Percentage |Number|Percentage of calls involving audio classified as poor.|
 |AppSharing Stream Count |Number of streams |Number of RDP-based application sharing streams. |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |Number of streams |Number of application sharing streams where the spoiled tile percent total metric exceeds thresholds listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
@@ -544,14 +544,14 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Second Echo Percent Mic In |Percentage |Average percentage of time during the stream that the second endpoints detected echo in the audio from the capture or microphone device prior to echo cancellation. |
 |Avg First Echo Percent Send |Percentage |Average percentage of time during the stream that the first endpoints detected echo in the audio from the capture or microphone device after echo cancellation. |
 |Avg Second Echo Percent Send |Percentage |Average percentage of time during the stream that the second endpoints detected echo in the audio from the capture or microphone device after echo cancellation. |
-| Avg First Initial Signal Level RMS| Number <!-- @GageAmes please confirm  guesses 548-555 --> |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the first endpoint.  See [2.2.1.28.1 Child Elements](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) for more information|
-| Avg Second Initial Signal Level RMS|Number |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the second endpoint.||
+| Avg First Initial Signal Level RMS| Range (Decibels) |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the first endpoint.  See [2.2.1.28.1 Child Elements](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) for more information|
+| Avg Second Initial Signal Level RMS|Range (Decibels) |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the second endpoint.||
 | Avg First RxAGC Signal Level|Number |Average signal level received at the automatic gain control for the first inbound audio stream. | |
 | Avg Second RxAGC Signal Level|Number|Average signal level received at the automatic gain control for the second inbound audio stream.| |
 | Avg First RxAGC Noise Level|Number|Average noise level received at the automatic gain control for the first inbound audio stream.||
 | Avg Second RxAGC Noise Level|Number|Average noise level received at the automatic gain control for the second inbound audio stream.| |
 | Avg First Render Loopback Signal Level|Number| Average level of first speaker loopback signal (after any device offload effects have been applied).|	Average level of speaker loopback signal (after any device offload effects have been applied).|
-| Avg Second Render Loopback Signal Level|Number| Average level of second speaker loopback signal (after any device offload effects have been applied).|	
+| Avg Second Render Loopback Signal Level|Number| Average level of second speaker loopback signal (after any device offload effects have been applied).|
 |Avg First Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by first endpoints. |
 |Avg Second Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by second endpoints. |
 |Avg First Audio Received Signal Level |Decibels |Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the first endpoints. |
@@ -577,26 +577,25 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Jitter Max |Milliseconds |Maximum network jitter for streams in milliseconds. |
 |Avg Packet Loss Rate |Ratio |Average of average percentage of packets lost computed using 5 second interval for streams. 0.1 indicates 10% packet loss. |
 |Avg Packet Loss Rate Max |Ratio |Average of maximum percentage of packets lost during any 5 second interval for streams. 0.1 indicates 10% packet loss. |
-| Avg Send Listen MOS |Number  <!-- @GageAmes please confirm --> |Average of the prediction of the wideband Listening Quality Mean Opinion Score (MOS-LQ) of the audio stream that is being sent from the user. <br/>See "Avg. sending MOS" at [Lync Monitoring Reports Decoder](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
+| Avg Send Listen MOS |Number |Average of the prediction of the Wideband Listening Quality Mean Opinion Score (MOS-LQ) of the audio stream that is being sent from the user. <br/>See "Avg. sending MOS" at [Lync Monitoring Reports Decoder](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
 |Avg Overall Avg Network MOS |Mean Opinion Score (0-5) |Average or average network Mean Opinion Score for streams. Represents the average predicted quality of received audio factoring in network loss, jitter, and codec. |
 |Avg Ratio Concealed Samples |Ratio |Average of average ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples. |
-| Avg Conceal Ratio Max| Ratio <!-- @GageAmes please confirm --> |average of the maximum values of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples.| |
+| Avg Conceal Ratio Max| Ratio |Average of the maximum ratios of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples.| |
 |Avg Ratio Stretched Samples |Ratio |Average of average ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames for streams. 0.1 indicates 10% audio frames contained stretched samples. |
-| Avg Healer Packet Drop Ratio||<!-- @GageAmes no guess here --> |
-| Avg Healer FEC Packet Used Ratio||<!-- @GageAmes no guess here -->|
+| Avg Healer Packet Drop Ratio|Range (Ratio)|Average ratio of audio packets dropped by healer over total number of audio packets received by healer. | |
+| Avg Healer FEC Packet Used Ratio|Range (Ratio)|Average ratio of used FEC packets over total number of received FEC packets.|
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
- Avg Packet Utilization||<!-- @GageAmes no guess here -->|
+ Avg Packet Utilization|Number|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
 |Avg Network Jitter |Milliseconds |	Average of network jitter computed over 20 second windows during the session. |
-| Avg Network Jitter Max|<!--@gageames please confirm 591, 593-601 --> Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  ||
+| Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  ||
 | Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.| |
-| Avg Jitter Buffer Size |Milliseconds|Average size of jitter buffer during session.| |
 | Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.| |
 | Avg Jitter Buffer Size Min|Milliseconds|Minimum size of jitter buffer during session.| |
-| Avg Relative OneWay ||| |
-| Avg Relative OneWay Gap Occurrences||| |
-| Avg Relative OneWay Gap Density||| |
-| Avg Relative OneWay Gap Duration||| |
+| Avg Relative OneWay |Milliseconds|Average computed relative one way delay of the peer.| |
+| Avg Relative OneWay Gap Occurrences|Milliseconds|Average number of instances of gaps in the relative one way delay of the peer.| |
+| Avg Relative OneWay Gap Density|Milliseconds|Average density of gaps in the relative one way delay of the peer.| |
+| Avg Relative OneWay Gap Duration|Number (Milliseconds)|Average duration of gaps in the relative one way delay of the peer.| |
 |Avg Audio Post FECPLR |Ratio |Average of packet loss rate after FEC has been applied for aggregated across all audio streams and codecs for streams. |
 |Avg Video Post FECPLR |Ratio |Average of packet loss rate after FEC has been applied for aggregated across all video streams and codecs for streams. |
 |Avg Video Local Frame Loss Percentage |Percentage |Average percentage of video frames lost as displayed to the user for streams. This includes frames recovered from network losses. |
@@ -612,11 +611,11 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Second Device Capture Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the second endpoint detected the capture device was not working properly. |
 |Avg First Device Render Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the first endpoint detected the render device was not working properly. |
 |Avg Second Device Render Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the second endpoint detected the render device was not working properly. |
-|Avg First Mic Glitch Rate| <!-- @gageames need pointers here, 617-626 -->||
-| Avg Second Mic Glitch Rate|||
-| Avg First Speaker Glitch Rate|||
-| Avg Second Speaker Glitch Rate|||
-| First User Count|||
+|Avg First Mic Glitch Rate| Number|Average First Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream.  ||
+| Avg Second Mic Glitch Rate|Number|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. ||
+| Avg First Speaker Glitch Rate|Number|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
+| Avg Second Speaker Glitch Rate|Number|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
+| First User Count||<!--@gageames still unsure   -->|
 | Second User Count|||
 | Avg First Device Glitches Event Ratio|||
 | Avg Second Device Glitches Event Ratio|||
