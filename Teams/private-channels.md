@@ -152,7 +152,7 @@ To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powers
 
 ## Troubleshooting
 
-### When a team owner or member creates a private channel, the SharePoint site collection for the private channel isn't automatically created
+**When a team owner or member creates a private channel, the SharePoint site collection for the private channel isn't automatically created**
 
 Check the user's permission level settings for the root site. 
 
