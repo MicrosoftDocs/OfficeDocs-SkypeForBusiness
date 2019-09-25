@@ -23,7 +23,7 @@ description: Learn how to use and manage private teams in Microsoft Teams.
 
 Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team.
 
-You might want to use a private channel if you want to limit communication to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
+You might want to use a private channel if you want to limit collaboration to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
 
 For example, a private channel is useful in these scenarios:
 
@@ -34,26 +34,14 @@ A lock icon indicates a private channel. Team owners can see all private channel
 
 ![Screenshot of private channels in a team](media/private-channels-in-teams.png)
 
-The architecture of private channels is different from standard channels. Each private channel has it's own SharePoint site collection where files shared in the channel are stored. The site collection is created in the same geographic region as the parent team site where standard channel files are stored but is separate from it.
+## What you need to know about private channels
 
-A private channel site collection inherits data classification and guest access permissions from the parent team site.
+Currently, private channels support connectors and tabs (except Wiki, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
 
-## Private channel limitations
-
-Private channels currently don't support the following:
-
-- Wikis
-- Messaging extensions
-- Bots
-- Scheduled channel meetings
-- Creation on Teams mobile clients
-
-Not all apps are supported in private channels.
+Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
 
 > [!NOTE]
-> We'll be adding more support for apps and other capabilities in private channels so check back for the most up-to-date information.
-
-Each team can have a maximum of 30 private channels and a each private channel can have a maximum of 250 members.
+> We're continuing to add additional capabilities in private channels so check back for the most up-to-date information regarding apps, channel meetings, and scaling private channels for large teams.
 
 ## When to create a private channel
 
@@ -102,6 +90,8 @@ The following table shows who can see what in a private channel.
 |Name and description    |All private channels in the team         |Only the private channels that they are added to         |
 |Conversations and tabs     |Only when added to the private channel         |Only when added to the private channel         |
 |Files and content    |Only when added to the private channel        |Only when added to the private channel         |
+|Private channel owner    |All private channels in the team        |Only when added to the private channel         |
+|Last activity time stamp  |All private channels in the team       |Only when added to the private channel         |
 
 ## Manage private channels
 
@@ -150,16 +140,22 @@ Use **CsTeamsChannelsPolicy** to set which users in your organization are allowe
 
 To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).
 
-## Troubleshooting
+## Private channel SharePoint sites
 
-**When a team owner or member creates a private channel, the SharePoint site collection for the private channel isn't automatically created**
+Each private channel has it's own lightweight SharePoint site collection where files shared in the channel are stored. These lightweight site collections can be upgraded to full feature site collections through the site management interface. Each site collection is created in the same geographic region as the parent team site where standard channel files are stored. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
 
-Check the user's permission level settings for the root site. 
+The number of site collections per tenant has increased from 500,000 to 2,000,000.
 
-1. Go to [https://<tenantrootsite>/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx), and then select **Check Permissions**.
+A private channel site collection syncs data classification and inherits guest access permissions from the parent team site.
+
+### Troubleshooting
+
+If the site collection for the private channel isn't automatically created when a team owner or member creates a private channel, check the user's permission level settings for the root site.
+
+1. Go to [https://&lt;tenantrootsite&gt;/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx), and then select **Check Permissions**.
 2. In the **Check Permissions** dialog box, under **User/Group**, enter the name of the user who created the private channel, and then click **Check Now**.
 3. Note the permission level of the user. For example, Edit.
-4. Go to [https://<tenantrootsite>/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx),and then select the check box next to the user's permission level.
+4. Go to [https://&lt;tenantrootsite&gt;/_layouts/15/user.aspx](https://<tenantrootsite>/_layouts/15/user.aspx),and then select the check box next to the user's permission level.
 5. Under **Site Permissions**, make sure the **Use Remote Interfaces** check box is selected.
 
 ## Related topics

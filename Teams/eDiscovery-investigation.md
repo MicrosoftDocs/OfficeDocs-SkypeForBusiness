@@ -69,8 +69,13 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
     $sites = get-sposite -template "rechannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
+3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.
 
-2. Search the site URLs of the team group ID that you're searching.
+    ```
+    $sites = get-sposite -template "teamchannel#0"
+    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
+    ```
 
 ### Include private channel messages in an eDiscovery search
 
@@ -86,7 +91,7 @@ Before you perform these steps, make sure you have the [latest version of the Te
     ```
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
-3. Include the mailbox of at least one member from each private channel in the team as part of your eDiscovery search query.
+3. Include the mailboxes of all members from each private channel in the team as part of your eDiscovery search query.
 
 ## Related topics
 
