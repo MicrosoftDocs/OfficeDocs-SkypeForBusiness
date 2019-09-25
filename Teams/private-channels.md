@@ -125,7 +125,7 @@ The private channel owner can click **Manage channel**, and then use the **Membe
 
 Team owners can turn off or turn on the ability for members to create private channels in team settings. To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.
 
-Admins can use Graph API to turn off or turn on the ability for members to create channels in specific teams. Here's an example.
+As an admin, you can use Graph API to control whether members can create private channels in specific teams. Here's an example.
 
 ```
 PATCH /teams/<team_id>​
@@ -154,13 +154,13 @@ To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powers
 
 As an admin, you can use PowerShell or Graph API to create a private channel on behalf of a team owner. For example, you may want to do this if your organization wants to centralize creation of private channels.
 
-Using PowerShell
+#### Using PowerShell
 
 ```
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
-Using Graph API
+#### Using Graph API
 
 ```
 POST /teams/{id}/channels​
