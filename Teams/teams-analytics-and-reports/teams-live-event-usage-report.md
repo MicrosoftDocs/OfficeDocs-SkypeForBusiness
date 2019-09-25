@@ -18,16 +18,16 @@ appliesto:
 ---
 # Microsoft Teams live event usage report
 
-The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. You can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events. 
+The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. You can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events.
 
 ## View the report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams live event usage**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams live event usage**.
 2. Under **Date range**, select a predefined range or set a custom range. You can set a range to show  data up to a year, six months before and after the current date.
 3. (Optional) Under **Organizer**, you can choose to show only live events organized by a specific user.
 4. Click **Run report**.  
 
-    ![Screen shot of the Teams live event usage report in the Teams admin center with callouts](../media/teams-live-event-usage-report-with-callouts.png "Screen shot of the Teams live event usage report in the Teams admin center with callouts")
+    ![Screenshot of the Teams live event usage report in the Teams admin center with callouts](../media/teams-live-event-usage-report-with-callouts.png "Screenshot of the Teams live event usage report in the Teams admin center with callouts")
 
 ## Interpret the report
 
@@ -43,7 +43,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 
 The live event details page gives you a summary of the details of a live event and lists all the files, including transcripts and recordings, associated with the event. Click a file name to view or download the file.
 
-![Screen shot showing details of a live event](../media/teams-live-event-usage-report-event-detail.png)
+![Screenshot showing details of a live event](../media/teams-live-event-usage-report-event-detail.png)
 
 If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
 
