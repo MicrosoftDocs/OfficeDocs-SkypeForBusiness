@@ -99,7 +99,7 @@ It's important to understand the underlying non-uniform memory access (NUMA) con
 
 #### Non-persistent setup
 
-It is recommended to configure a caching manager to ensure efficient Teams run-time data sync.
+We recommend that you configure a caching manager to ensure efficient Teams run-time data sync.
 
 ### Teams performance on VDI
 
