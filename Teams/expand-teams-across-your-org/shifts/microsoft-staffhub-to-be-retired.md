@@ -17,7 +17,7 @@ appliesto:
 
 # Microsoft StaffHub to be retired
 
-Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
+Effective December 31, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
 
 These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for Firstline Workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
 
@@ -27,13 +27,13 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Office 365 app launcher in existing tenants. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
+Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and you will no longer be able to access the app from the Office 365 app launcher in existing tenants. Current users will still be able to use the service until December 31, 2019, however no additional features will be made available.
 
 #### What will happen once StaffHub is retired?
 
-Microsoft StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
+Microsoft StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
 
-Between April 2019 and October 2019, StaffHub users will receive in-app notifications encouraging them to use Teams.
+Between April 2019 and December 2019, StaffHub users will receive in-app notifications encouraging them to use Teams.
 
 #### Will Teams offer all the functionality currently offered in StaffHub?
 
@@ -154,7 +154,7 @@ We recommend that you ensure all users in your organization are covered with an 
  
 #### What happens to chats in StaffHub?
 
-To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by October 1, 2019.
+To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by December 31, 2019.
 
 Ensure that Office 365 Group creation is enabled in the Microsoft 365 admin center before the transition begins, as this is essential to us being able to move your StaffHub chat data into Teams. Failure to turn on this service by June 30, 2019, will result in a later migration date or less chat data being copied over.
 
