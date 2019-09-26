@@ -98,9 +98,9 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad-hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad-hoc meeting in the channel.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad hoc meeting in the channel.
 
-![Screen shot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
+![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
 ### Allow private Meet now (coming soon)
 
@@ -110,7 +110,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile).
 
-![Screen shot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
+![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
 
 If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
@@ -118,9 +118,9 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Select a channel to meet** option won't be available to the user when they schedule a meeting from Meetings in Teams.
 
-![Screen shot showing the Schedule a meetion option in Teams](media/meeting-policies-schedule-a-meeting.png)
+![Screenshot showing the Schedule a meeting option in Teams](media/meeting-policies-schedule-a-meeting.png)
 
-![Screen shot showing the Select a channel to meet in option](media/meeting-policies-select-a-channel-to-meet-in.png)
+![Screenshot showing the Select a channel to meet in option](media/meeting-policies-select-a-channel-to-meet-in.png)
 
 ### Allow scheduling private meetings
 
@@ -144,7 +144,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
-![Screen shot showing transcription options in a meeting](media/meeting-policies-transcription.png)
+![Screenshot showing transcription options in a meeting](media/meeting-policies-transcription.png)
 
 ### Allow cloud recording
 
@@ -152,7 +152,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording. 
 
-![Screen shot showing recording options](media/meeting-policies-recording.png)
+![Screenshot showing recording options](media/meeting-policies-recording.png)
 
 Let's look at the following example.
 
@@ -170,7 +170,7 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users’ meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 calls and group calls started by a user. Meetings organized by a user who has this policy enabled, allow video sharing in the meeting by the meeting participants, if the meeting participants also have the policy enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
-![Screen shot showing a meeting with audio and video settings](media/meeting-policies-audio-video-settings.png)
+![Screenshot showing a meeting with audio and video settings](media/meeting-policies-audio-video-settings.png)
 
 Let's look at the following example.
 
@@ -236,11 +236,11 @@ This is a per-user policy. This setting controls whether the user can give contr
 
 If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session. 
 
-![Screen shot showing the Give Control option](media/meeting-policies-give-control.png)
+![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
 
 If the settings is turned off for the user, the **Give Control** option isn't available.
 
-![Screen shot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
+![Screenshot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
 
 Let's look at the following example.
 
@@ -314,7 +314,6 @@ These settings control which meeting participants wait in the lobby before they 
 - [Automatically admit people](#automatically-admit-people)
 - [Allow anonymous people to start a meeting](#allow-anonymous-people-to-start-a-meeting)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [Allow organizers to override lobby settings](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -323,7 +322,7 @@ These settings control which meeting participants wait in the lobby before they 
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user.
 
-![Screen shot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
+![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule. **(coming soon)**
   
@@ -337,7 +336,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
 
-![Screen shot showing a message to a waiting user](media/meeting-policies-anonymous-user-lobby.png)
+![Screenshot showing a message to a waiting user](media/meeting-policies-anonymous-user-lobby.png)
 
 Here's the join behavior of anonymous people when authenticated users are present in the meeting.
 
@@ -376,31 +375,6 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-### Allow organizers to override lobby settings (coming soon)
-
-This is a per-organizer policy. This setting controls whether the meeting organizer can override the lobby settings that an admin set in **Automatically admit people** and **Allow dial-in users to bypass the lobby** when they schedule a new meeting. 
-
-Meeting organizers can click **Meeting Options** in the meeting invitation to change lobby settings for each meeting they schedule. 
-
-Here's how this setting affects whether the meeting organizer can change the **Automatically admit people** setting for each meeting the organizer schedules.
-
-|Allow organizers to override lobby settings  |Automatically admit people  |Behavior |
-|---------|---------|---------|
-|True    | Everyone      | Organizer can change the setting to any other value. |
-|   | Everyone in your organization       | Organizer can change the setting to any other value.|
-|   | Everyone in your organization and federated organizations       | Organizer can change this to any other value.         |
-|False    | Everyone        | Organizer can change the setting to any other value.|
-|   | Everyone in your organization     |Organizer can change the setting to **Everyone in your organization**. |
-|   | Everyone in your organization and federated organizations      | Organizer can't override the lobby setting. |
-
-Here's how this setting affects whether the meeting organizer can change the **Allow dial-in users to bypass the lobby** setting for each meeting the organizer schedules.
-    
-|Allow organizers to override lobby settings  |Allow dial-in users to bypass the lobby  |Behavior |
-|---------|---------|---------|
-|True    |  True        | Organizer can change the setting to False.       |
-|True      | False         | Organizer can change the setting to True.        |
-|False     | True        |Organizer can change the setting to False.         |
-|False      |False          |Organizer can't override the lobby setting and can't allow dial-in users to bypass the lobby in the meeting.        |
 
 [Full article](meeting-policies-in-teams.md)
 
