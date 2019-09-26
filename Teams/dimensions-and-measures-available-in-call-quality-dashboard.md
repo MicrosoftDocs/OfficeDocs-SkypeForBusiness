@@ -369,25 +369,29 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Call Setup Failure Reason  | Enumeration  | Classification of why media connection could not be established for a call. <br/>**Possible values:** <br/> **Missing FW Deep Packet Inspection Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established due to deep packet inspection rules. This may be due to proxy or firewall rules not being correctly configured. <br/> **Missing FW IP Block Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established to the Office 365 network. This may be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Skype for Business traffic. <br/> **Other** - indicates the media path for the call could not be established but the root cause could not be classified. <br/> Not Media Failure - indicates no issue was detected with the establishment of the media path.  | &bull; Call set up failed due to an unknown media issue  |
 |**DNS**|||
 | Used DNS Resolve Cache  | Boolean  | True if endpoint used DNS cache to resolve media relay address, False otherwise.    | <br/>&bull; This data was not reported by the endpoint    |
-|**UserData**|<!-- @gageames suggestions here? 372-390 -->||
-| First User ObjectId|String|  | |
-| Second User ObjectId|String| |
-| First MAC Address|String|| |
-| Second MAC Address|String|| |
-| First Sip Uri|String||
-| Second Sip Uri|String||
-| First Phone Number|String||
-| Second Phone Number|String||
-| First UPN|String||
-| Second UPN|String||
-| First Feedback Text|String||
-| Second Feedback Text|String||
-| First Client Endpoint Name|String||
-| Second Client Endpoint Name|String||
-| First Endpoint Product Name|String||
-| Second Endpoint Product Name|String||
-| First UserType|String||
-| Second UserType|String||
+|**UserData**| |||
+| First User ObjectId|String|The Active Directory object ID of the first endpoint's user. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.  | |
+| Second User ObjectId|String|The Active Directory object ID of the second endpoint's user. Only available for the past 30 days of data and only visible to users with roles allowing EUII access. | |
+| First MAC Address|String|The media access control (MAC) address of the first endpoint's network device. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.| |
+| Second MAC Address|String|The media access control (MAC) address of the second endpoint's network device. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.| |
+| First Sip Uri|String|The SIP URI of the first endpoint's user. Populated only for Skype for Business endpoints. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| Second Sip Uri|String|The SIP URI of the first endpoint's user. Populated only for Skype for Business endpoints. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| First Phone Number|String|The phone number of the first endpoint's user. Populated only for PSTN endpoints. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| Second Phone Number|String|The phone number of the second endpoint's user. Populated only for PSTN endpoints. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| First UPN|String|The user principal name (UPN) of the first endpoint's user. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| Second UPN|String|The user principal name (UPN) of the second endpoint's user. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| First Feedback Text|String|The machine name of the first endpoint.
+Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| Second Feedback Text|String|The machine name of the second endpoint.
+Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| First Client Endpoint Name|String|The machine name of the first endpoint. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| Second Client Endpoint Name|String|The machine name of the first endpoint. Only available for the past 30 days of data and only visible to users with roles allowing EUII access.|
+| First Endpoint Product Name|String|The product name of the first endpoint (Skype for Business or Microsoft Teams).|
+| Second Endpoint Product Name|String|The product name of the second endpoint (Skype for Business or Microsoft Teams).|
+| First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server.
+<br/>**Voicemail** - the endpoint was answered by voicemail service.||
+| Second UserType|Enumeration string|The type of user on the second endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server.
+<br/>**Voicemail** - the endpoint was answered by voicemail service.||
 |**Datapair**|||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This may happen if the call could not be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent was not a known type  |
@@ -615,12 +619,12 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. ||
 | Avg First Speaker Glitch Rate|Number of glitches|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
-| First User Count|Number<!-- @gageames still unsure 618-623  --> Number of users on the stream.| |
-| Second User Count|Number||
-| Avg First Device Glitches Event Ratio|Percentage|Ratio of glitches to successful packets on the first device.|
-| Avg Second Device Glitches Event Ratio|Percentage|Ratio of glitches to successful packets on the second device.|
-| First Device Glitches Event Count|Number of glitches on the first device.||
-| Second Device Glitches Event Count|Number of glitches on the second device.||
+| First User Count|Number | Number of unique or distinct first endpoint users.| |
+| Second User Count|Number|Number of unique or distinct second endpoint users.|
+| Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
+| Avg Second Device Glitches Event Ratio|Percentage|Average fraction of the call that the second endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
+| First Device Glitches Event Count|Number of streams where the first endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
+| Second Device Glitches Event Count|Number of stream where the second endpoint detected significant glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.||
 ||||
 
 ## Filters
