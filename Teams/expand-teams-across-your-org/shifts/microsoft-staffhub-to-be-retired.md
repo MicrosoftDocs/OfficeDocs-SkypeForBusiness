@@ -31,7 +31,7 @@ Starting the middle of April 2019, Microsoft StaffHub will no longer be availabl
 
 #### What will happen once StaffHub is retired?
 
-Microsoft StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
+Microsoft StaffHub will stop working for all users on January 1, 2020. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
 
 Between April 2019 and December 2019, StaffHub users will receive in-app notifications encouraging them to use Teams.
 
