@@ -107,7 +107,7 @@ Before you can start using CQD, activate it for your Office 365 organization as 
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
 3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
-4. On the page that opens \(https://<span>cqd.teams.microsoft.<span/>com\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
+4. On the page that opens \(https://<span>cqd.teams.microsoft.com<span/>\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
      ![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
