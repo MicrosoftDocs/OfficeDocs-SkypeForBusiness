@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi
+ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
 localization_priority: Normal
@@ -43,9 +43,52 @@ Using Teams in a virtualized environment requires the following components:
 
 ### Virtualization provider requirements
 
-### Citrix virtual apps and desktop requirements
+The Teams app is being validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
+  
+Teams on VDI with AV optimization has been certified with Citrix. See the following details to ensure both Citrix and Teams requirements are met for proper functionality.
 
-### Virtual machine minimum requirements
+### Citrix virtual Apps and Desktops requirements
+
+Citrix provides a new solution to deliver Microsoft Teams Optimization (MTOP) through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop).
+
+The required components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that need to be installed on the VDA or CWA (in contrast to RealTime Optimization Pack for Skype for Business RTC and RTME respectively).
+
+For the latest Citrix requirements, go to https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html.
+
+Server requirements
+
+|Component  |Requirement  |
+|---------|---------|
+|Operating system   |Windows 10 1607 or later<br>Windows Server 2012 R2 or later        |
+|VDA     |Version 1906      |
+|Microsoft .NET Framework    |Version 4.7.1 or later (installed automatically)        |
+|Microsoft Visual C++   |2013 and 2015 runtimes, 32-bit and 64-bit       |
+|BCR_x64.msi    |MSI that contains the Microsoft Teams optimization code and starts automatically from the GUI. If a command-line interface for the VDA installation is used, don't exclude it.      |
+
+#### Get the latest Citrix software updates
+
+Packages available for download at MyCitrix (credentials required) here 
+URL for MyCitrix:https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews/ 
+
+#### Citrix approved thin clients
+
+Citrix supports many clients and the clients are not vendor specific.  Clients need to support the minimum requirements at the system level as outlined in the client system requirements above. 
+
+### Virtual Machine minimum requirements
+
+### Teams performance on VDI
+
+## Install the Teams desktop client on VDI
+
+## Calling and meeting with Citrix platform
+
+## Chat and collaboration
+
+## Known issues and limitations
+
+## Appendix A
+
+## Appendix B
 
 ### Set policies to turn off calling and meeting functionality in Teams
 
