@@ -88,8 +88,9 @@ items:
 
     ### Best Practice
     Configure Phase 1 of the Firstline Teams experience to mimic the consumer tools these users are already using! We recommend starting your Pilot for Firstline Workers with “Show favorite channels in Chat” for simplified communications and Shifts (optional).
+    
     |  With Shifts  |  Without Shifts  |
-    |---------|---------|
+    |---------------|------------------|
     |![A phone screen image with the Shifts option added onto the bottom.](media/firstline-worker-chat-with-shifts.png)    |![A phone screen image with no Shifts option added onto the bottom bar.](media/firstline-worker-chat-without-shifts.png)|
 
     ### Decision Points:
