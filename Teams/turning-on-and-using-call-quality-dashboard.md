@@ -31,7 +31,7 @@ Learn how to configure your Office 365 organization to use the Call Quality Dash
   
 The Call Quality Dashboard (CQD) provides insights into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
-Currently, CQD version 3 and CQD version 2 are both available for use.  CQDv3 is available  at https://cqd.teams.microsoft.com.  You log in using your CQD account and password. 
+Currently, CQD version 3 and CQD version 2 are both available for use.  CQDv3 is available  at <span>https://cqd.teams.microsoft.com</span>.  You log in using your Microsoft Teams administrator credentials.
 
 ## Latest changes and updates
 
@@ -63,8 +63,8 @@ An admin can manage Skype for Business Server 2019 (not just Skype for Business 
 
 CQD version 2 added:
 
-- Data for Microsoft Teams and Skype for Business Online 
-- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data 
+- Data for Microsoft Teams and Skype for Business Online
+- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data
 - Video and VBSS stream quality classification logic updates. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the classifier definitions.
 
 Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
@@ -83,34 +83,31 @@ CQD version 1 provided Skype for Business Server 2015 admins the following featu
 
 ## CQD Near-Real-Time (NRT) Data
 
-CQD v3 utilizes a near-real-time data feed where Call Records are available at the CQD portal within 30 minutes of the end of the call.  Call Records from the NRT pipeline are only available for a few months before being removed from the data set. CQDv3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period will be exactly the same.  Queries on the data between the v2 and v3 for the NRT Data and NRT Data + PII periods will be different, with .
-
-Another important note is that as the NRT data issues are fixed, only the newest data will contain the fixes.  Therefore, the CQD team will replace the NRT data with the Archival data time to time until the NRT data is deemed “GA quality” in which case the NRT data will become the new Archival data.
-NRT data is also versioned, that means a Call Record in the current day may be updated multiple times
+CQD v3 utilizes a near-real-time data feed where Call Records are available at the CQD portal within 30 minutes of the end of the call.  Call Records from the NRT pipeline are only available for a few months before being removed from the data set. CQDv3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period will be exactly the same.  Queries on the data between the v2 and v3 for the NRT Data and NRT Data + PII periods will be different.
 
 ### PII/EUII Data
 
-PII or EUII data only comes from the v3 pipeline.  Due to compliance reasons, PII/EUII data is only kept for 30 days (shown in green above).  As NRT data crosses the 30 day mark, the PII/EUII fields will be cleared out, resulting in PII-free NRT data shown in yellow above. The PII/EUII fields are:
+PII or EUII data only comes from the v3 pipeline.  Due to compliance reasons, PII/EUII data is only kept for 30 days.  As NRT data crosses the 30 day mark, the PII/EUII fields will be cleared out, resulting in PII-free NRT data. The PII/EUII fields are:
 
 - Full IP address
-- Mac Address
-- BSSID
-- Sip URI (SFB only)
-- UPN
+- Media Access Control (MAC) Address
+- Basic Service Set identifier (BSSID)
+- Session Initiation Protocol (SIP) URI (Skype for Business only)
+- User Principal Name (UPN)
 - Machine Endpoint Name
 - User Verbatim Feedback
+- Object ID (the Active Directory object ID of the endpoint's user)
 
- 
-# Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
+## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
-Before you can start using CQD, activate it for your Office 365 organization as follows: 
+Before you can start using CQD, activate it for your Office 365 organization as follows:
 
 ![An icon that shows the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
 3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
-4. On the page that opens \(https://<span>cqd.teams.microsoft.<span/>com\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account, and then provide the password for the account when prompted.
+4. On the page that opens \(https://<span>cqd.teams.microsoft.<span/>com\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
      ![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -163,10 +160,10 @@ All editions of CQD provide an experience that gives you call quality metrics wi
 All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  <!--   siunies please approve updated section in article  -->
   
 Summary Reports provide a simplified tabbed page report view so you can quickly browse and understand the overall call quality status and trends.
- 
+
 The four tabs include:
   
-- **Overall Call Quality** — provides information about all streams, which is an aggregation that shows monthly and daily trends for: 
+- **Overall Call Quality** — provides information about all streams, which is an aggregation that shows monthly and daily trends for:
   - Server-Client streams
   - Client-Client streams
   - Separate Server-Client and Client-Client streams
@@ -176,7 +173,7 @@ The four tabs include:
 
 > [!NOTE]
 > CQD Version 3 works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
- 
+
 - Call Quality by Region:
 
   - date-by-region
@@ -196,9 +193,6 @@ The four tabs include:
 - Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
 - Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
 - Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
-
-
-
 
 ### Overall Call Quality tab
 
@@ -278,12 +272,12 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
   
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type. 
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
 2. After you select the file data type, click **Browse** to choose a data file.
 
    - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
    - The data file must be no larger than 50 MB.
-   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit also applies to CQD v2  on cqd<span></span>.lync<span></span>.com. 
+   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit also applies to CQD v2  on cqd<span></span>.lync<span></span>.com.
    - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
 3. Next, specify a **Start date** and, optionally, **Specify an end date**.
 4. Finally, select **Upload** to upload the file to the CQD server.
@@ -331,7 +325,7 @@ CQD uses a Building data file, which helps provide useful call details. The Subn
 
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
-> 
+>
 > The VPN column is optional and will default to 0.  If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
 ### Endpoint data file
