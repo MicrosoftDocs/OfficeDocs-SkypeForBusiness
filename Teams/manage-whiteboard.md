@@ -37,9 +37,9 @@ To turn on or turn off the Whiteboard web app, do the following steps:
 
 3. On the **Service & add-ins** page, scroll down, and then choose **Whiteboard**.
 
-4. To turn on the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard preview on or off for your entire organization** to **On**.
+4. To turn on the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard on or off for your entire organization** to **On**.
 
-    To turn off the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard preview on or off for your entire organization** to **Off**.
+    To turn off the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard on or off for your entire organization** to **Off**.
 
 5. Click **Save**.
 
