@@ -134,24 +134,53 @@ Note: You can also configure Teams by using the Microsoft Teams admin center.
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Run the following command to install the MSI to the VDI VM:
+2. Install the MSI to the VDI VM by running one of the following commands:
 
     - Per-user installation
     - Per-machine installation
 
+        ```
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        ```
 
-    This installs Teams to Program Files. At this point, the golden image setup is complete.
+    This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete.
  
-    The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property. 
+    The next interactive logon session starts Teams and asks for credentials.
 
-3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
+3. Uninstall the MSI from the VDI VM by running the following command:
 
+         ```
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+         ```
 
-    This uninstalls Teams from Program Files.
+    This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
-## Calling and meeting with Citrix platform
+#### Teams desktop app updates
+
+Updates for the Teams desktop app depends on whether deployment was per-machine or per-user. For per-machine deployments, automatic updates is disabled. This means that to update the Teams app, Teams must be uninstalled, and then reinstalled.
+
+To learn more, see [Teams update process](teams-client-update.md).
+
+#### Teams on VDI and Office 365 ProPlus support
+
+Teams clients on VDI aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version. To learn more, see [Teams update process](teams-client-update.md).
+
+## Teams on VDI - Calling and Meeting with the Citrix platform
+
+Teams on VDI with Calling and Meeting feature support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
+
+This diagram provides an overview of the architecture.
+
+Supported Calling and Meeting features
+
+## Known issues and limitations
+
+### Client deployment, installation, and setup
+
+- Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are.  You have to update the VM image at least once a month by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.  
+- MacOs and Linux-based clients are not supported at this time. Support for the Citrix-based platform will be announced by Citrix at a future time.
+- Dual installation
+
 
 ## Chat and collaboration
 
