@@ -83,9 +83,11 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 > [!NOTE]
 > If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your Firstline Workers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### Install the StaffHub PowerShell module
+### Install the prerelease version of the StaffHub PowerShell module
 
-If you haven't already, [install the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
+If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
+
+You must have the prerelease version of the module installed to move your StaffHub teams to Teams.
 
 ### Link an Azure AD account for StaffHub team members who don't have one
 
