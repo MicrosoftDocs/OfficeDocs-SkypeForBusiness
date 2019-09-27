@@ -26,7 +26,7 @@ Sometimes things aren't working like you expect. Here is a list of topics that c
 
 ## Troubleshoot admin issues for Skype for Business Online
 
-You can get answers for most of your Skype for Business Online questions by [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094). This KB article also includes many troubleshooting resources and error code references: [How to troubleshoot sign-in issues in Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+You can get answers for most of your Skype for Business Online questions in the article [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094). The following KB article also includes many troubleshooting resources and error code references: [Troubleshooting Skype for Business Online sign-in errors for administrators](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
 
 For dial-in conferencing issues, see [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
