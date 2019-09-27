@@ -34,6 +34,7 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 > [!NOTE]
 > - If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
 > - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows for the Teams Meeting add-in to work.
+> - If you are using an Office Outlook installation from the Microsoft Store, the Teams meetings add-in is not supported. Users who require this add-in are advised to install Click-to-Run version of Office, as outlined in the [Office on Windows 10 in S mode](https://support.office.com/en-us/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f?ui=en-US&rs=en-US&ad=US#OfficeWinStorePlans=Office_for_business) article. 
 
 ## Teams Meeting add-in in Outlook for Mac
 
