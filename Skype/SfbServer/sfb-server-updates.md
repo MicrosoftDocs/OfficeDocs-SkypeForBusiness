@@ -21,9 +21,12 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 ## Skype for Business Server 2019 update history
 
+KB 4470124 is the master KB for Skype for Business Server 2019 which has all the historical list of all the Cumulative Update and Hotfixes that have been published. 
+
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
 |Skype for Business Server 2019 Cumulative Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
+|Skype for Business Server 2019 Cumulative Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
 | | | |
 
 ### Skype for Business Server 2019 tools
