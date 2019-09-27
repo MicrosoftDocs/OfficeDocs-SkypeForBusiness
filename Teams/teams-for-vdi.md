@@ -226,7 +226,7 @@ Teams relies on Transport Relay servers in Azure for meetings, multiparty calls,
 
 We recommend evaluating your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
 
-To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md). 
+To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md).
 
 ### Migration from Skype for Business on VDI to Teams
 
@@ -234,7 +234,9 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 ## Teams on VDI - Chat and collaboration
 
+If your organization wants to only use Chat and collaboration features in Teams, you can use policies to turn off calling and meeting functionality. For steps for how to do this, see Appendix B. 
 
+It can take some time (a few hours) for policy changes to propagate across the tenant. If you don’t see changes for a given account immediately, try again after a few hours.
 
 ## Known issues and limitations
 
@@ -244,6 +246,24 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 - MacOs and Linux-based clients are not supported at this time. Support for the Citrix-based platform will be announced by Citrix at a future time.
 - Dual installation
 
+### Calling and Meeting Features
+
+-	Interop with Skype for Business (SfB) limited to audio calls, no video modality.
+-	No DTMF (Dual Tone Multi Frequency) support currently.
+- 	Joining Teams meetings as anonymous user is not AV optimized. The user will be able to join the meeting and get a non-optimized experience. Applies to TAP phase only.
+-	Accepting incoming calls can be delayed (up to 5s) for the call to be completely established. 
+-	Only single incoming video stream is supported in meetings or group calls. When there are multiple people sending their video, only the dominant speakers’ video will be shown at any time. 
+-	Both incoming & outgoing video stream resolution is limited to 720p resolution (Web RTC limitation).
+-	Only one video stream from incoming camera or screenshare streams is supported. Whenever there is an incoming screen share, we will switch to showing it instead of the video of the Dominant Speaker.
+-	Outgoing Screen Sharing
+o	Application Sharing is not supported.
+o	Note potential privacy issue with multiple screen
+-	Giving/Take Control 
+o	Not Supported during a screensharing/Application Sharing session.
+o	Supported during a PowerPoint sharing session. 
+-	In some cases, zooming windows that contain video content may create situations where UX elements are partially visible. 
+-.	High DPI Scaling on Citrix Workspace app is not supported
+-	For Teams known issues that aren’t related to VDI, see Known issues for Microsoft Teams.
 
 ## Chat and collaboration
 
