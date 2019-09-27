@@ -24,7 +24,7 @@ description: "Learn about managing resource accounts in Microsoft Teams"
 
 A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
 
-In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have an associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
+In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
 
 ![example of resource accounts and user licenses](media/resource-account.png)
 
@@ -44,7 +44,7 @@ If your organization is already using at least one Phone System license, to assi
 6. Create a Phone System call queue or auto attendant
 7. Link the resource account with a call queue or auto attendant.
 
-Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. 
+Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
@@ -55,7 +55,7 @@ To redirect calls to people in your organization who are homed Online, they must
 
 If the Phone System call queue or auto attendant you're creating will be nested and won't need a phone number, the process is:
 
-1. Create the resource account 
+1. Create the resource account
 2. Create a Phone System call queue or auto attendant
 3. Associate the resource account with a Phone System call queue or auto attendant
 
@@ -69,7 +69,7 @@ A top-level auto attendant or call queue will require a phone number be linked t
 
    If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
-2. Obtain a Phone System Virtual User license or a regular Phone System license. 
+2. Obtain a Phone System Virtual User license or a regular Phone System license.
 
    To get the Virtual User license, starting from the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**. There is a zero cost, but you still need to follow these steps to acquire the license.
 3. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell)
