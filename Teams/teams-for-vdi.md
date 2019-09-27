@@ -47,7 +47,7 @@ The Teams app is being validated with leading virtualization solution providers.
   
 Teams on VDI with AV optimization is certified with Citrix. See the following details to ensure both Citrix and Teams requirements are met for proper functionality.
 
-#### Citrix virtual Apps and Desktops requirements
+#### Citrix Virtual Apps and Desktops requirements
 
 Citrix provides a new solution to deliver Microsoft Teams optimization through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop).
 
@@ -121,11 +121,11 @@ There are variety of virtualized setups, each with a different focus for optimiz
 
 ## Install the Teams desktop app on VDI
 
-The Teams desktop app for VDI can be installed per-machine and per-user.  With per-machine installation,automatic updates is disabled for the Teams app. With the per-user installation, automatic updates is enabled.
+The Teams desktop app for VDI can be installed per-machine and per-user.  With per-machine installation, automatic updates is disabled for the Teams app. With the per-user installation, automatic updates is enabled.
 
 For most VDI deployments, we recommend to deploy Teams using a per-machine configuration.
 
-Note: You can also configure Teams by using the Microsoft Teams admin center.
+Note: You can also configure Teams in the Microsoft Teams admin center.
 
 ### Deploy the Teams desktop app
 
@@ -167,11 +167,74 @@ Teams clients on VDI aren't automatically updated the way that non-VDI Teams cli
 
 ## Teams on VDI - Calling and Meeting with the Citrix platform
 
-Teams on VDI with Calling and Meeting feature support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
+Teams on VDI with Calling and Meetings feature support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
 
-This diagram provides an overview of the architecture.
+The following diagram provides an overview of the architecture.
 
-Supported Calling and Meeting features
+### Supported Calling and Meeting features
+
+Here's a list of supported calling and meeting features.
+
+- 1:1 audio/video calls
+- 1:1 group call escalation
+    - Multi-call handling
+    - Blind transfer
+    - Consultative transfer
+- Transfer to PSTN
+    - Safe transfer
+    - Simultaneous ring
+    - Forward to group
+    - Call forwarding
+    - Group call pickup
+- Call blocking
+    - Boss and delegate support
+    - Distinctive ring
+    - Do not disturb
+    - Out of office support
+    - Voicemail
+    - Speed dial
+    - Suggested contacts
+    - Shared line appearance
+- Enterprise Voice (EV) Dial to PSTN numbers and receive calls to a user's EV PSTN number in Teams
+    - Schedule in Outlook and Teams
+    - Private and channel meetings
+- Cloud recording
+    - Participant management
+    - Device selection
+    - Mute other participants
+- Desktop screen sharing
+- PowerPoint load and share
+- Whiteboard and meeting notes
+
+The following calling and meeting features are not supported:
+
+- Enhanced emergency services
+- HID buttons and LED controls between the Teams app and devices
+- Background blur and effects
+- Broadcast/live events
+- Location-Based Routing (LBR)
+    - Call park
+    - Call queue
+
+### Upcoming Calling and Meeting features
+
+We're working to add calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
+
+### Network requirements
+
+Teams relies on Transport Relay servers in Azure for meetings, multiparty calls, and scenarios where two peers in a point-to-point call don't have direct connectivity. Therefore, the network health between the peer and the Office 365 cloud determines the performance of the call. This also implies that the client requires internet connectivity to use calling. 
+
+We recommend evaluating your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
+
+To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md). 
+
+### Migration from Skype for Business on VDI to Teams
+
+### Teams on Chrome browser versus Teams client
+
+## Teams on VDI - Chat and collaboration
+
+
 
 ## Known issues and limitations
 
