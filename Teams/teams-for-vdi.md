@@ -99,11 +99,57 @@ It's important to understand the underlying non-uniform memory access (NUMA) con
 
 #### Non-persistent setup
 
-We recommend that you configure a caching manager to ensure efficient Teams run-time data sync.
+We recommend that you configure a caching manager to ensure efficient Teams runtime data sync.
+
+#### Teams cached content exclusion list
+
+We recommend that you exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
+
+- .txt files
+- Media-stack folder
 
 ### Teams performance on VDI
 
-## Install the Teams desktop client on VDI
+There are variety of virtualized setups, each with a different focus for optimization. For example, user density. Use these guidelines to help optimize your setup based on the workload needs of your organization:
+
+- Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.
+- Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
+- Disabled features on VDI: Teams disables  GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
+
+- Teams CSS Animation
+- Giphy auto-start
+
+## Install the Teams desktop app on VDI
+
+The Teams desktop app for VDI can be installed per-machine and per-user.  With per-machine installation,automatic updates is disabled for the Teams app. With the per-user installation, automatic updates is enabled.
+
+For most VDI deployments, we recommend to deploy Teams using a per-machine configuration.
+
+Note: You can also configure Teams by using the Microsoft Teams admin center.
+
+### Deploy the Teams desktop app
+
+1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links.
+
+    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+
+2. Run the following command to install the MSI to the VDI VM:
+
+    - Per-user installation
+    - Per-machine installation
+
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+
+    This installs Teams to Program Files. At this point, the golden image setup is complete.
+ 
+    The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property. 
+
+3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
+
+        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+
+    This uninstalls Teams from Program Files.
 
 ## Calling and meeting with Citrix platform
 
