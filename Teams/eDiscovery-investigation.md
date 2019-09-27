@@ -66,7 +66,7 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
 2. Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.
 
     ```
-    $sites = get-sposite -template "rechannel#0"
+    $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.
