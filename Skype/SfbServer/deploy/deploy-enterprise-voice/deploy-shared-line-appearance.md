@@ -34,7 +34,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     a. Register SLA as a server application by running the following command for each pool:
 
    ```
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri 	https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled 				$true -Priority (Get-CsServerApplication -Identity 				'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri 	http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled 				$true -Priority (Get-CsServerApplication -Identity 				'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
    where %FQDN% is the fully qualified domain name of the pool.
