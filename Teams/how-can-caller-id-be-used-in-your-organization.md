@@ -73,6 +73,8 @@ Your end users can set their caller ID to **Anonymous** by using the **Settings*
    
 ## Inbound Caller ID
 
+Phone System will show called ID for an external phone number if the number is associated with a user in AAD. If the phone number is not in AAD, the telco provided display name will be shown if it is available.
+
 The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
 To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user).
