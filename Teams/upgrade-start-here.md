@@ -49,7 +49,7 @@ Yes, Microsoft offers several options for running Skype for Business Online and 
  
 ## How is Microsoft helping customers with their upgrade to Teams? 
 
-Microsoft is committed to helping make your transition from Skype for Business to Teams your a success. Microsoft is providing robust guidance built around a proven, end-to-end upgrade success framework designed to help you plan and execute the upgrade to Teams. Our guidance is designed for every stage of the upgrade journey, whether you are just getting started with planning, already running Teams alongside Skype for Business, or ready to upgrade to Teams.
+Microsoft is committed to helping make your transition from Skype for Business to Teams a success. Microsoft is providing robust guidance built around a proven, end-to-end upgrade success framework designed to help you plan and execute the upgrade to Teams. Our guidance is designed for every stage of the upgrade journey, whether you are just getting started with planning, already running Teams alongside Skype for Business, or ready to upgrade to Teams.
 
 To help facilitate your upgrade planning and implementation, Microsoft is hosting complimentary live, interactive upgrade planning workshops, designed to familiarize yourself with our upgrade framework, share insights into preparing your users for the upgrade, and identify the right path for your organization on your journey to Teams. Join us for an upgrade planning overview session: [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning).
  
