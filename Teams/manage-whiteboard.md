@@ -3,7 +3,7 @@ title: Manage the Whiteboard in Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/30/2019
+ms.date: 10/01/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
