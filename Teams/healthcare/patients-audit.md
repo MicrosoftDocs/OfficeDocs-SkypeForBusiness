@@ -1,7 +1,7 @@
 ---
-title: "Auditing Patients app for Teams admins "
-author: jambirk
-ms.author: jambirk 
+title: "Auditing Patients app for Teams IT and compliance admins "
+author: jambirk, anach
+ms.author: jambirk, anach 
 manager: serdars
 audience: ITPro
 ms.topic: article 
@@ -16,36 +16,32 @@ description: Patients app for Teams admins
 
 # Auditing logs for Patients app
 
-Keeping an Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) and determine if changes or improvements in policy or procedure are needed.
+Keeping an Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) and determine if changes or improvements in policy or procedure for PHI access in productivity tools are needed. The audit log events cover an extensive set of UI actions possible through the Patients app UI. 
 
 <!-- remember to add link to security page and from security page  -->
 
 ## Usage example
 
-Why would an admin need to enable this feature or perform this task in real life? What questions does this answer, or what problem does it solve? Answer the question in the back of the Admin's mind: "Why is this worth my time?"
+Why would an admin need to enable this feature or perform this task in real life? 
 
-Could sometimes be a before/after illustration that shows something going wrong because the feature isn't available or being used, and then the same situation with a better outcome because the feature helped the users.
+Per HIPAA guidelines, all access to PHI must be audited. Microsoft is committed to help its enterprise customers using Microsoft Teams meet HIPAA requirements and controls and therefore access to PHI via the Patients App is fully audited and made available in the [Audit Log Search functionality](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) in the M365 Security and Compliance center.
 
-<!-- Ansuman will add-->
+The burden of patient privacy is clearly on the provider and the law entitles patients to privacy. An IT or HIPAA controller/admin can easily determined which nurse, clinician or social worker acccessed which patient records or altered them. One of the most common examples of PHI access violation is access to VIP patients.Therefore, the audit log functionality helps in investigations around PHI access violation. 
 
-## Configure Patients app
+<!-- add an image from the security and compliance center audit log search page showing an event-->
 
-For information on how to prepare your environment to use Patients app, see [Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md).  You will also need to see [Manage app setup policies in Microsoft Teams](../teams-app-setup-policies.md) to enable Patients app for your organization.
+## Enabling Audit logs for the Patients App
 
 <!-- add link out to client doc -->
 
-You enable activity audits for Patients App the same way you would any other activity in Office 365 as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search).
+You enable activity audits for Patients App the same way you would any other activity in Office 365 as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). If audit logging is already on, you don't need to do anything special for the Patients App. Anytime users intall and run it within a Team, the audit logs will flow through. 
 
 ## Run an audit
 
 For instructions on running a search of the activity log, see 
 [Search the audit log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
 
-### (Optional) Use case
-<!-- Might remove this section -->
-Admin Bob is asked to check on Patients app activity for a specific date where some sort of activity went wrong. Step through the creation of the audit  of the activity logs that answers the question.
-
-This is a simple illustration of how to do this, with a vertical-centered example.
+<!-- Need to update audit log docs article with Mark Johnson to add Teams healthcare events too -->
 
 ## Logged activities for Patients app
 
@@ -57,23 +53,23 @@ The Patients app has its own logged activities, listed in the following table:
 
 |Friendly name |Operation|Description|
 |:---|:---|:---|
-| Viewed list of patients |PatientListViewed| A user viewed a patient list.|
-| Viewed patient record  | PatientViewed|A user viewed a patient record. |
-| Looked up patient record| PatientLookedup | A user looked up a patient record.|
-| Created a patient list|PatientListCreated |A user created a list of patients. |
-| Deleted patient list | PatientListDeleted |A user deleted a list of patients. |
-| Added a patient to a list| PatientListPatientAdded |A patient was added to a list of patients. |
-| Removed a patient from a list|PatientListPatientRemoved |A patient was removed from a list of patients. |
-| Renamed a patient list |PatientListRename | A list of patients was renamed. |
-| Edited a list column|PatientListColumnEdited | A column in a list of patients was edited (added or removed). |
-| Added a note |PatientNoteAdded | A note was added to a patient record. |
-| Edited a detail | PatientDetailEdited |A detail on a patient record was edited. |
-| Exported patient data |PatientDataExported |A patient record was exported <!-- from EMR? to where? --> by the app. |
-| Created patient schema |PatientSchemaCreated |Created a new patient record in the EMR service. |
-| Updated patient schema|PatientSchemaUpdated  | Updated a patient record in the EMR service.|
-| Connected to EMR  |EMRConnectionSet | A Patients app client connected to the EMR service.|
+| Viewed patient list | PatientListView | A user viewed a patient list.|
+| Viewed patient details | PatientView | A user viewed a patient record. |
+| Created patient list | PatientListCreate | A user created a list of patients. |
+| Deleted patient list | PatientListDelete | A user deleted a list of patients. |
+| Added patient to list | PatientListAddPatient | A patient was added to a list of patients. |
+| Removed patient from list|PatientListRemovePatient | A patient was removed from a list of patients. |
+| Renamed patient list | PatientListRename | A list of patients was renamed. |
+| Edited a list column | PatientListEditColumns | A column in a list of patients was edited (added or removed). |
+| Added note for patient | PatientNoteAdd | A note was added to a patient record. |
+| Edited patient details | PatientDetailsEdit | A detail on a patient record was edited. |
+| Exported patient data | ExportInitiation | A patient record was exported <!-- from EMR? to where? --> by the app. |
+| Created patient schema | PatientSchemaCreate | Created a new schema for patients. |
+| Updated patient schema | PatientSchemaUpdate  | Updated existing schema for patients. |
+| Searched for a patient from EHR | PatientSearch | Searched a patient record in the EHR service. |
+| Connected to EMR  | EHRConnectionSet | Set the EHR FHIR Server connection string. |
 ||||
 
 ## Related topics
-
+[Searching the Office 365 Audit log](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 [Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md)
