@@ -62,19 +62,19 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 Keep in mind that the realm name for a tenant is typically different than the organization name; in fact, the realm name is almost always the same as the tenant ID. Because of that, the first line in the script is used to return the value of the TenantId property for the specified tenant (in this case, fabrikam.com) and then assign that name to the variable $TenantId:
 
 ```
-$TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
+$TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
-To execute this script, you must have installed Skype for Business Online Powershell module and connect to your tenant with this module. If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available. After the script completes, you must then configure a trust relationship between Skype for Business Server and the authorization server, and a second trust relationship between Exchange 2013/2016 and the authorization server. This can only be done by using the Microsoft Online Services cmdlets.
+To execute this script, you must have installed Skype for Business Online PowerShell module and connect to your tenant with this module. If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available. After the script completes, you must then configure a trust relationship between Skype for Business Server and the authorization server, and a second trust relationship between Exchange 2013/2016 and the authorization server. This can only be done by using the Microsoft Online Services cmdlets.
 
 > [!NOTE]
-> If you have not installed the Microsoft Online Services cmdlets, you will need to install it from powershell repository with cmdlet install-module MSOnline. Detailed information for installing and using the Microsoft Online Services Module can be found on the Office 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Office 365 and Active Directory. 
+> If you have not installed the Microsoft Online Services cmdlets, you will need to install it from the PowerShell repository with the cmdlet `install-module MSOnline`. Detailed information for installing and using the Microsoft Online Services Module can be found on the Office 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Office 365 and Active Directory. 
 
 
 
-After you have configured Office 365, and after you have created Office 365 service principals for Skype for Business Server and Exchange 2013, you will then need to register your credentials with these service principals. In order to do this, you must first obtain an X.509 Base64 saved as a .CER file. This certificate will then be applied to the Office 365 service principals.
+After you have configured Office 365, and after you have created Office 365 service principals for Skype for Business Server and Exchange 2013, you will then need to register your credentials with these service principals. In order to do this, you must first obtain an X.509 Base64 certificate saved as a .CER file. This certificate will then be applied to the Office 365 service principals.
 
-When you have obtained the X.509 certificate, open Powershell console and import the Microsoft Online Windows PowerShell module containing the cmdlets that can be used to manage service principals:
+When you have obtained the X.509 certificate, open PowerShell console and import the Microsoft Online Windows PowerShell module containing the cmdlets that can be used to manage service principals:
 
 ```
 Import-Module MSOnline
