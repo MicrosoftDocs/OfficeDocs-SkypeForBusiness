@@ -6,6 +6,11 @@
       "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing",
       "redirect_document_id": false
       },
+      {
+      "source_path": "Teams/simplified-auto-attendant-settings.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants", 
+      "redirect_document_id": true
+      },
     {
       "source_path": "Teams/manage-emergency-calling-policies.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing",
