@@ -23,11 +23,11 @@ You can use the default policy or create one or more custom messaging policies f
 
 Policies can be easily managed in the [Microsoft Teams admin center](http://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
 
- ![Screen shot of the Messaging policies page](../../media/messaging-policies-image1.png)
+ ![Screenshot of the Messaging policies page](../../media/messaging-policies-image1.png)
 
 To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
 
-![Screen shot of  messaging policy settings](../../media/hc-message-policy.png)
+![Screenshot of  messaging policy settings](../../media/hc-message-policy.png)
 
 The following settings are of special interest for Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 
@@ -42,8 +42,6 @@ The following settings are of special interest for Healthcare applications, and 
     *Usage example with read receipts:* Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia starts a group chat with a set of doctors and other nurses who will be working with the patient to coordinate care and starts an emergency triage.  The nurses and doctors communicate and collaborate over the patient's care plan throughout the care coordination process.  Important and urgent messages are sent through 1:1 and group chat conversations. Sofia uses the read receipts functionality to determine if messages sent requesting support are delivered and read by the targeted physicians or nurses. Jakob's patient outcomes are near-optimal and he goes home sooner because his care team communicates smoothly.
 
 ## Priority notifications
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
