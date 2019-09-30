@@ -27,7 +27,7 @@ Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a d
 
 Microsoft Teams in a virtualized environment is available with support for chat and collaboration as well as with calling and meeting on Citrix setups.
  
-Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, so the functionality will expand in the coming months and years.
+Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, so  functionality will expand in the coming months and years.
  
 Using Teams in a virtualized environment may be somewhat different from using Teams non-virtualized. For example, some advanced features may not be available in a virtualized environment and video resolution may differ. To ensure an optimal user experience, follow the guidance in this article.
 
@@ -49,9 +49,11 @@ Teams on VDI with AV optimization is certified with Citrix. See the following de
 
 #### Citrix Virtual Apps and Desktops requirements
 
-Citrix provides a new solution to deliver Microsoft Teams optimization through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop).
+Citrix provides a new solution to deliver Microsoft Teams optimization through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop). You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews.html). You'll need to sign in first.
 
 The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA (in contrast to RealTime Optimization Pack for Skype for Business, RTC and RTME respectively).
+
+Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 **Server requirements**
 
@@ -65,6 +67,8 @@ The necessary components are bundled into the Citrix Workspace app (CWA) and Vir
 
 **Client requirements**
 
+Citrix supports many clients and the clients aren't vendor-specific. Clients must meet these minimum requirements.
+
 |Component  |Requirement  |
 |---------|---------|
 |Workspace app  |Version 1906 or later      |
@@ -72,16 +76,6 @@ The necessary components are bundled into the Citrix Workspace app (CWA) and Vir
 |CPU   |1.8 to 2.0 GHz quad core CPU that can support 360p nHD resolution during a peer-to-peer video conference call<br> 2.8 GHz quad core CPU that can support 720p HD resolution during a peer-to-peer video conference call|
 |Memory |1 GB RAM    |
 |Storage    |Minimum 600 MB free disk space|
-
-For the latest requirements for Citrix components, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
-
-#### Get the latest Citrix software
-
-You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews.html). You'll need to sign in first. 
-
-#### Citrix-approved thin clients
-
-Citrix supports many clients and the clients aren't vendor-specific. Clients must meet the minimum requirements as outlined in the earlier table.
 
 ### Virtual Machine minimum requirements
 
@@ -114,18 +108,22 @@ There are variety of virtualized setups, each with a different focus for optimiz
 
 - Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.
 - Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
-- Disabled features on VDI: Teams disables  GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
+- Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
 
 - Teams CSS Animation
 - Giphy auto-start
 
 ## Install the Teams desktop app on VDI
 
-The Teams desktop app for VDI can be installed per-machine and per-user.  With per-machine installation, automatic updates is disabled for the Teams app. With the per-user installation, automatic updates is enabled.
+You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, Teams must be uninstalled, and then reinstalled. With per-user installation, automatic updates is enabled.
 
-For most VDI deployments, we recommend to deploy Teams using a per-machine configuration.
+For most VDI deployments, we recommend to deploy Teams using a per-machine installation.
 
-Note: You can also configure Teams in the Microsoft Teams admin center.
+To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
+
+Note: You can also configure Teams in the Microsoft Teams admin center
+
+ For Teams on VDI and Office 365 ProPlus, you have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version. To learn more, see [Teams update process](teams-client-update.md).
 
 ### Deploy the Teams desktop app
 
@@ -154,16 +152,6 @@ Note: You can also configure Teams in the Microsoft Teams admin center.
          ```
 
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
-
-#### Teams desktop app updates
-
-Updates for the Teams desktop app depends on whether deployment was per-machine or per-user. For per-machine deployments, automatic updates is disabled. This means that to update the Teams app, Teams must be uninstalled, and then reinstalled.
-
-To learn more, see [Teams update process](teams-client-update.md).
-
-#### Teams on VDI and Office 365 ProPlus support
-
-Teams clients on VDI aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version. To learn more, see [Teams update process](teams-client-update.md).
 
 ## Teams on VDI - Calling and Meeting with the Citrix platform
 
@@ -222,7 +210,7 @@ We're working to add calling and meeting features that are currently only availa
 
 ### Network requirements
 
-Teams relies on Transport Relay servers in Azure for meetings, multiparty calls, and scenarios where two peers in a point-to-point call don't have direct connectivity. Therefore, the network health between the peer and the Office 365 cloud determines the performance of the call. This also implies that the client requires internet connectivity to use calling. 
+Teams relies on Transport Relay servers in Azure for meetings, multiparty calls, and scenarios where two peers in a point-to-point call don't have direct connectivity. Therefore, the network health between the peer and the Office 365 cloud determines the performance of the call. This also implies that the client requires internet connectivity to use calling.
 
 We recommend evaluating your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
 
@@ -230,13 +218,30 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 ### Migration from Skype for Business on VDI to Teams
 
-### Teams on Chrome browser versus Teams client
+If you're migrating from Skype for Business with VDI to Teams with VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some items that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:
+
+- Control of VDI calling experiences with policies for limiting media bit rate
+- Per-platform policy to disable some AV features in VDI
+- Give and take control when app sharing
+- Screen share from chat without audio
+- Simultaneous video and screen sharing send and receive
+
+### Teams on Chrome browser versus Teams client for VDI
+
+Teams on Chrome browser doesn't provide a replacement for VDI client with AV optimization. For chat and collaboration, it will work fine. When media is needed, there are some experiences that may not meet user expectations on Chrome browser.
+
+- The audio and video streaming experience may not be optimal. Users may experiences delays or reduced quality.
+- Device settings aren't available in settings.
+- Device management is handled through the browser and requires multiple settings in browser site settings. 
+- Device settings may also need to be set in Windows device management.
 
 ## Teams on VDI - Chat and collaboration
 
-If your organization wants to only use Chat and collaboration features in Teams, you can use policies to turn off calling and meeting functionality. For steps for how to do this, see Appendix B. 
+If your organization wants to only use Chat and collaboration features in Teams, you can use policies to turn off calling and meeting functionality. For steps for how to do this, see Appendix B.
 
 It can take some time (a few hours) for policy changes to propagate across the tenant. If you don’t see changes for a given account immediately, try again after a few hours.
+
+### Migrating chat and collaboration to Citrix with AV optimization
 
 ## Known issues and limitations
 
@@ -246,24 +251,25 @@ It can take some time (a few hours) for policy changes to propagate across the t
 - MacOs and Linux-based clients are not supported at this time. Support for the Citrix-based platform will be announced by Citrix at a future time.
 - Dual installation
 
-### Calling and Meeting Features
+### Calling and Meeting
 
--	Interop with Skype for Business (SfB) limited to audio calls, no video modality.
--	No DTMF (Dual Tone Multi Frequency) support currently.
-- 	Joining Teams meetings as anonymous user is not AV optimized. The user will be able to join the meeting and get a non-optimized experience. Applies to TAP phase only.
--	Accepting incoming calls can be delayed (up to 5s) for the call to be completely established. 
--	Only single incoming video stream is supported in meetings or group calls. When there are multiple people sending their video, only the dominant speakers’ video will be shown at any time. 
--	Both incoming & outgoing video stream resolution is limited to 720p resolution (Web RTC limitation).
--	Only one video stream from incoming camera or screenshare streams is supported. Whenever there is an incoming screen share, we will switch to showing it instead of the video of the Dominant Speaker.
--	Outgoing Screen Sharing
-o	Application Sharing is not supported.
-o	Note potential privacy issue with multiple screen
--	Giving/Take Control 
-o	Not Supported during a screensharing/Application Sharing session.
-o	Supported during a PowerPoint sharing session. 
--	In some cases, zooming windows that contain video content may create situations where UX elements are partially visible. 
--.	High DPI Scaling on Citrix Workspace app is not supported
--	For Teams known issues that aren’t related to VDI, see Known issues for Microsoft Teams.
+- Interoperability with Skype for Business is limited to audio calls, no video modality.
+- NoDual Tone Multi Frequency (DTMF) is not currently supported.
+- Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience. This applies only to TAP. 
+- Accepting incoming calls can be delayed (up to 5s) for the call to be completely established.  
+- Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.  
+- Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
+- Only one video stream from incoming camera or screenshare streams is supported. Whenever there is an incoming screen share, we will switch to showing it instead of the video of the Dominant Speaker. 
+- Outgoing screen sharing
+    - Application Sharing is not supported.
+    - Note potential privacy issue with multiple screen
+- Give and take control  
+    - Not supported during a screen sharing or application sharing session.
+    - Supported during a PowerPoint sharing session.  
+- In some cases, zooming windows that contain video content may create situations where UX elements are partially visible.  
+- High DPI scaling on Citrix Workspace app is not supported
+
+For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
 
 ## Chat and collaboration
 
