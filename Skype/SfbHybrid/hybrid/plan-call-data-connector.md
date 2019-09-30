@@ -18,8 +18,6 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 
 This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector. For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
 
-> [!NOTE]
-> At public preview release, only Call Analytics dashboard is available.
 
 Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality. Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
 
