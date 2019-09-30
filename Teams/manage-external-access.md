@@ -64,7 +64,7 @@ See the following table for a comparison of external and guest access features.
 | User is identified as an external party | Yes | Yes |
 | Presence is displayed | Yes | Yes |
 | Out of office message is shown | No | Yes |
-| Individual user can be blocked | No | Yes |
+| Individual user can be blocked | No | No |
 | @mentions are supported | No | Yes |
 | Make private calls | Yes | Yes |
 | Allow IP video | Yes | Yes |
