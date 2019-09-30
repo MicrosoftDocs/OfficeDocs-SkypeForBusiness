@@ -61,7 +61,7 @@ The E3 plan is part of your Action Pack. To buy the Phone System and Audio Confe
 
 In a few situations, you won't see the option to buy Microsoft Teams add-ons in the Microsoft 365 admin center:
 
-- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Microsoft Teams add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell), and then you can buy them. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Microsoft Teams add-ons. You need to switch to the E3 plan, and then you can buy them. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
