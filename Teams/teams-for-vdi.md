@@ -119,11 +119,11 @@ You can deploy the Teams desktop app for VDI using a per-machine installation or
 
 For most VDI deployments, we recommend to deploy Teams using a per-machine installation.
 
+Note: You can also configure Teams in the Microsoft Teams admin center.???
+
+ For Teams on VDI and Office 365 ProPlus, you have to update the VM image by installing a new MSI. You must uninstall the current version to update to a newer version.???
+
 To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
-
-Note: You can also configure Teams in the Microsoft Teams admin center
-
- For Teams on VDI and Office 365 ProPlus, you have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version. To learn more, see [Teams update process](teams-client-update.md).
 
 ### Deploy the Teams desktop app
 
@@ -254,28 +254,85 @@ It can take some time (a few hours) for policy changes to propagate across the t
 ### Calling and Meeting
 
 - Interoperability with Skype for Business is limited to audio calls, no video modality.
-- NoDual Tone Multi Frequency (DTMF) is not currently supported.
+- NoDual Tone Multi Frequency (DTMF) is currently not supported.
 - Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience. This applies only to TAP. 
 - Accepting incoming calls can be delayed (up to 5s) for the call to be completely established.  
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.  
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
-- Only one video stream from incoming camera or screenshare streams is supported. Whenever there is an incoming screen share, we will switch to showing it instead of the video of the Dominant Speaker. 
-- Outgoing screen sharing
-    - Application Sharing is not supported.
-    - Note potential privacy issue with multiple screen
-- Give and take control  
+- Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.
+- Outgoing screen sharing:
+    - Application sharing is not supported.
+    - Potential privacy issue with multiple screen
+- Give and take control:  
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.  
-- In some cases, zooming windows that contain video content may create situations where UX elements are partially visible.  
+- In some cases, zooming windows that contain video content may create situations where user interface elements are partially visible.  
 - High DPI scaling on Citrix Workspace app is not supported
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
 
-## Chat and collaboration
+## Appendix A Troubleshoot Citrix components
 
-## Known issues and limitations
+### Virtual Desktop Agent
 
-## Appendix A
+The following four services are installed by BCR_x64.msi.
+
+|Service  |Path the .exe file  |Log on as  |Description  |
+|---------|---------|---------|---------|
+|Citrix HDX HTML5 Video Redirection Service     |Program Files (x86)\Citrix\System32\WebSocketService.exe /service         |Local system account         |Provides HTML5 video redirection, Browser content redirection, and Teams redirection with secure WebSocket services        |
+|Citrix HDX Browser Redirection Service    |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g BrowserRedirSvcs          |This account (local service)         |Provides browser content redirection between the endpoint device and the virtual desktop        |
+|Citrix HDX Port Forwarding Service     |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g PortFwdSvcs         |This account (local service)         |Provides port forwarding between the endpoint device and the virtual desktop.         |
+|Citrx HDX Teams Redirection Service     |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g TeamsSvcs         |This account (local service)         |         |
+
+- Citrix HDX HTML5 Video Redirection Service
+- Citrix HDX Browser Redirection Service
+- Citrix HDX Port Forwarding Service
+- Citrx HDX Teams Redirection Service
+
+Of these, the Citrix HDX Teams Redirection Service and Citrix HDX HTML5 Video Redirection Service are responsible for Teams redirection in the VDA.
+
+#### Citrix HDX Teams Redirection Service
+
+Citrix HDX HTML5 Video Redirection Service establishes the virtual channel used in Teams.
+
+#### Citrix HDX HTML5 Video Redirection Service
+
+Citrix HDX HTML5 Video Redirection Service runs as WebSocketService.exe listening on 127.0.0.1:9002 TCP. WebSocketService.exe performs two main functions:
+
+- TLS termination for secure WebSockets. The service receives a secure WebSocket connection from vdiCitrixPeerConnection.js which is a component inside the Teams app. You can track this using Process Monitor.
+- User session mapping. WebSocketAgent.exe is launched in the user’s session in the VDA by WebSocketService.exe (which runs in Session 0 as a LocalSystem account) when the Teams app starts.
+
+To check whether the service is in an active listening state in the VDA, you can do the following.
+
+**Option 1**
+
+In a browser, go to [https://127.0.0.1:9002](https://127.0.0.1:9002). Success means there was communication with the service.
+
+**Option 2**
+
+1. Open the DevTools console in Microsoft Edge, and then type the following:
+
+```
+var exampleSocket = new WebSocket('wss://127.0.0.1:9002');  
+exampleSocket.onmessage = function(messageEvent) { console.log(JSON.stringify(messageEvent)); };
+```
+
+2. Wait a few seconds, and then type the following:
+
+```
+exampleSocket.readyState
+```
+
+The expected output is **1**, which indicates that the WebSocket connection was successful. The following table lists possible outputs
+
+|  |  |
+|---------|---------|
+|0 (CONNECTING) The connection is not yet open     | 1 (OPEN) The connection is open and ready to communicate      |
+|2 (CLOSING) The connection is in the process of closing   | 3 (CLOSED) The connection is closed or couldn't be opened |
+
+If the output is **3** or if you receive a "failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED [HdxWebRTC.js] Unable to connect to ewbsocket service!", make sure that the Citrix HDS Team Redirection Service is running. Restart, if necessary.
+
+### Citrix Workspace app
 
 ## Appendix B
 
