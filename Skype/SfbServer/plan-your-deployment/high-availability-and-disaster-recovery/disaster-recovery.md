@@ -51,7 +51,7 @@ For pool failover and pool failback, the engineering target for recovery time ob
   
 For pool failover and pool failback, the engineering target for recovery point objective (RPO) is 5 minutes. This represents the time measure of data that could be lost due to the disaster, due to replication latency of the Backup Service. For example, if a pool goes down at 10:00 A.M., and the RPO is 5 minutes, data written to the pool between 9:55 A.M. and 10:00 A.M .might not have replicated to the backup pool, and would be lost.
   
-All RTO and RPO numbers in this document assume that the two data centers are located within the same world region with high-speed, low-latency transport between the two sites. These numbers are measured for a pool with 40,000 concurrently active users and 200,000 users enabled for Lync with respect to a pre-defined user model where there is no backlog in data replication. They are subject to change based on performance testing and validation.
+All RTO and RPO numbers in this document assume that the two data centers are located within the same world region with high-speed, low-latency transport between the two sites. These numbers are measured for a pool with 40,000 concurrently active users and 200,000 users enabled for Skype for Business with respect to a pre-defined user model where there is no backlog in data replication. They are subject to change based on performance testing and validation.
   
 ## Central Management store failover
 
