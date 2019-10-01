@@ -16,23 +16,28 @@ description: Patients app for Teams admins
 
 # Auditing logs for Patients app
 
-A well-maintained Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) and determine if changes or improvements in policy or procedure for PHI access in productivity tools are needed. The audit log events cover an extensive set of UI actions possible through the Patients app UI.
+An Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) or Patient Healthcare Information (PHI) and determine if changes or improvements in policy or procedure for PHI access in productivity tools are needed. The audit log events cover actions performed through the Patients app User Interface.
 
-<!-- remember to add link to security page and from security page, see Brendan.  -->
+<!-- remember to add link from security page, see Brendan.  -->
 
 ## Meet HIPAA requirements
 
-Per HIPAA guidelines, it must be possible for all access to patient healthcare information (PHI) to be audited. Microsoft is committed to its enterprise customers using Microsoft Teams, and to helping them meet HIPAA requirements and controls. Access to PHI via the Patients App is fully tracked and logs are made available in the M365 Security and Compliance center, as described in the [Audit Log Search functionality](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article.
+According to HIPAA guidelines, healthcare providers are required to keep records of all access to PHI, so that it is possible for the changes to be audited. Microsoft is committed to its enterprise customers using Microsoft Teams, and to helping them meet HIPAA requirements and controls. Access to PHI via the Patients App is fully tracked and logs are made available in the M365 Security and Compliance center, as described in the [Audit Log Search functionality](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article.
 
-The burden of maintaining patient privacy is placed on the healthcare provider. The law entitles patients to privacy, and requires that an IT admin or HIPAA controller can easily determine which nurse, clinician, or social worker accessed or altered patient records. One of the most common examples of a PHI access violation is access to VIP patients. The audit log functionality helps in investigations of any PHI access violation.
+The burden of maintaining patient privacy is placed on the healthcare provider by law. The law entitles patients to privacy, and requires that an IT admin or HIPAA controller can easily determine which nurse, clinician, or social worker accessed or altered patient records. One of the most common examples of a PHI access violation is access to VIP patients. The audit log functionality is required to conduct investigations of any PHI access violation, and to meet HIPAA requirements.
 
-<!-- add an image from the security and compliance center audit log search page showing an event-->
+<!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
 ## Enable Audit logs for the Patients App
 
-For setup information on the Patients app, refer to <!-- add link out to client doc -->
+An Audit is dependant on several prior configurations:
 
-An administrator enables activity audits for Patients App the same way they enable any activity log audit in Office 365, as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). If audit logging is already on, nothing special is needed for the Patients App. Any time a healthcare provider installs and runs the app within a Team, the audit logs record their PHI activity.
+1. The admin would have to work with their FHIR service provider to have EMR in a format used by the Patients App. See [Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md)
+2. A healthcare provider admin would have to enable the patients app in Teams Admin center. See [Manage app setup policies in Microsoft Teams](../teams-app-setup-policies.md) and related articles for more information.
+3. The admin would have to enable activity audits in O365, the same way they enable any activity log audit in Office 365, as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). If audit logging is already on, nothing special is needed for the Patients App. Any time a healthcare provider installs and runs the app within a Team, the audit logs record their PHI activity.
+4. The admin would then need to announce availability of the Patients app, and Healthcare workers would have to start generating activity to be included in an audit.
+
+<!-- add link out to client doc -->
 
 ## Run an audit
 
@@ -61,7 +66,9 @@ The Patients app has its own logged activities, listed in the following table:
 | Connected to EMR  | EHRConnectionSet | Set the EHR FHIR Server connection string. |
 ||||
 
-Logged activities for Microsoft Teams are described in [Microsoft Teams activities](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
+You can customize your Audit as needed to search for or filter on any of these logged activities.
+
+Logged activities for Microsoft Teams in general are described in [Microsoft Teams activities](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
 
 ## Related topics
 
