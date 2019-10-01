@@ -1,5 +1,5 @@
 ---
-title: Patients app overview       
+title: Patients app integration       
 author: jambirk           
 ms.author: jambirk        
 manager: serdars                    

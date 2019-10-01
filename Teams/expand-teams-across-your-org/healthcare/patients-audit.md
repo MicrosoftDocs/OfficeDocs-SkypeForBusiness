@@ -32,8 +32,8 @@ The burden of maintaining patient privacy is placed on the healthcare provider b
 
 An Audit is dependant on several prior configurations:
 
-1. The admin would have to work with their FHIR service provider to have EMR in a format used by the Patients App. See [Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md)
-2. A healthcare provider admin would have to enable the patients app in Teams Admin center. See [Manage app setup policies in Microsoft Teams](../teams-app-setup-policies.md) and related articles for more information.
+1. The admin would have to work with their FHIR service provider to have EMR in a format used by the Patients App. See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md).
+2. A healthcare provider admin would have to enable the patients app in Teams Admin center. See [Manage app setup policies in Microsoft Teams](../../teams-app-setup-policies.md) and related articles for more information.
 3. The admin would have to enable activity audits in O365, the same way they enable any activity log audit in Office 365, as described in [Turn Office 365 audit log search on or off](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). If audit logging is already on, nothing special is needed for the Patients App. Any time a healthcare provider installs and runs the app within a Team, the audit logs record their PHI activity.
 4. The admin would then need to announce availability of the Patients app, and Healthcare workers would have to start generating activity to be included in an audit.
 
@@ -74,4 +74,4 @@ Logged activities for Microsoft Teams in general are described in [Microsoft Tea
 
 [Search the Office 365 Audit log](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
-[Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md)
+[Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md)

@@ -712,11 +712,11 @@
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Patients app overview](healthcare/patients-app-overview.md)
+### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
-#### [Auditing logs for Patients app](healthcare/patients-audit.md)
+#### [Auditing logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
