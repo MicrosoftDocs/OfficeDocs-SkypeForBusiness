@@ -26,6 +26,8 @@ A resource account is also known as a *disabled user object* in Azure AD, and ca
 
 In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
 
+<a name="phonenumber"> </a>
+
 > [!IMPORTANT]
 > A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
 
