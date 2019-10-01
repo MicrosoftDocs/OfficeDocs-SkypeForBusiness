@@ -32,6 +32,8 @@ If you want to learn more about auto attendants, see [What are Cloud auto attend
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
 
+Phone numbers are not directly assigned to the auto attendant, but rather to 
+
 Auto attendant implementations often involve several auto attendants. A *first-level* auto attendant usually has a resource account with an assigned phone number. A nested auto attendant is used as a second-level menu that the *first-level* auto attendant connects  as call to. A *nested* auto attendant isn't required to  have a phone number assigned to its resource account.
 
 ## Step 1 — Get started
@@ -74,11 +76,15 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 ![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
 
+<a name="timezone"> </a> 
+
 **Time zone** You must set the time zone for your auto attendant. The setting can be the same as the time zone of the main address listed for your organization, or a different time zone. Each auto attendant can have a different time zone. The business hours set for the auto attendant are based on this time zone.
 
 * * *
 
 ![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
+
+<a name="operator"> </a>
 
 **Operator** This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
@@ -98,6 +104,8 @@ You have several ways to set the Operator:
 - **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator are redirected there.
 
 ![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png)
+
+<a name="language"> </a>
 
 **Language** Select the language that you want to use for your auto attendant. The auto attendant uses that language with callers, and all system prompts are played in this language.
 
@@ -124,6 +132,8 @@ You can set up customized greetings, prompts, and menus that people hear when th
 
 ![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
 
+<a name="greetingsandrouting"> </a>
+
 **First play a greeting message** A greeting is optional and can be set to **On** or **Off**. If you select **Off**, the caller doesn't hear a message or greeting before the call is handled by one of the actions you select later. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 
 > [!NOTE]
@@ -146,13 +156,15 @@ You can select what happens next to calls from the following actions:
 
 ![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png) 
 
+<a name="redirectcalls"> </a>
+
 **Redirect call to** sends the caller to the chosen destination without choosing from options.
 - **Person in your organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in your organization** and set that account to have calls forwarded directly to voicemail.
 
 > [!Note]
 > **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
 
-- **Auto attendant** Select the name of an existing auto attendant. 
+- **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
 - **External phone number** routes the caller to a phone number outside your local system.
 - **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
