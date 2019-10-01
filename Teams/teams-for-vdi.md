@@ -362,10 +362,25 @@ Calling policies in Teams control which calling features are available to users.
 
 #### Using the Microsoft Teams admin center
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policy**.
-2. 
+To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **DisallowCalling**.
 
-To learn more, see [Create a custom calling policy](teams-calling-policy.md).
+To assign the DisallowCalling policy to users, do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Under **Calling policy**, click **DisallowCalling*, and then click **Apply**.
+
+To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+
+Or, you can also do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, click **Save**.
+
+To learn more, see [Calling policies in Teams](teams-calling-policy.md).
 
 #### Using PowerShell
 
