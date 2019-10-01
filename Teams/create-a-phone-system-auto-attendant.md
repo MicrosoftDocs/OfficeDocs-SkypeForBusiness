@@ -242,7 +242,7 @@ To add a new call handler, click on **+ New call handler**.
 
 * * *
 
-![Screen shot showing adding a new call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Screenshot showing adding a new call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
