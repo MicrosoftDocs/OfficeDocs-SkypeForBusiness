@@ -35,7 +35,7 @@ Currently, CQD version 3 and CQD version 2 are both available for use. CQD v3 is
 
 ## Latest changes and updates
 
-CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII), giving admins the ability to zoom in to the user level. There is also and report interactivity to support new scenarios such as:
+CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII), giving admins the ability to zoom in to the user level. There is also report interactivity to support new scenarios such as:
 
 - Call Quality by Region:
   - date-by-region
@@ -124,11 +124,11 @@ When a drill through field is selected, the Dashboard automatically navigates to
 
 For example, in a Call quality drill-through report, a user can click the date they would like to 'drill-through', which leads to the Location tab.
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
 
 You can add multiple dates from the location tab, such as adding 2019-09-22 to Date: 2019-09-24: 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
 
 > [!NOTE]
 > Don't jump directly to the last tab. Without filters selected from a previous drill-through the results would be too large to show on a table.
