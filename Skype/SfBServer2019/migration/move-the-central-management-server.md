@@ -62,7 +62,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
 
 1. On the Skype for Business Server 2019 server that will be the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
     
-2. Open Skype for Business Server Management Shell.
+2. Open Skype for Business Server Management Shell (Run as Administrator).
     
 3. In the Skype for Business Server Management Shell, type: 
     
