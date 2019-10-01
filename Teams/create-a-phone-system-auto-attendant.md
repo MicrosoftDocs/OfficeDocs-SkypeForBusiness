@@ -58,13 +58,13 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 * * *
 
-![Icon of the number 1, a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1, a callout in the previous screenshot](media/teamscallout1.png)
 
 **Name** Enter a display name for your auto attendant. The name is required and can contain up to 64 characters, including spaces. The **Name** is listed in a column on the **Auto attendants** tab.
 
 * * *
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
 
 <a name="phonenumber"> </a>
 
@@ -78,7 +78,7 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 * * *
 
-![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
 
 <a name="timezone"> </a> 
 
@@ -86,7 +86,7 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 * * *
 
-![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
+![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)
 
 <a name="operator"> </a>
 
@@ -107,7 +107,7 @@ You have several ways to set the Operator:
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
 - **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator are redirected there.
 
-![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png)
+![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png)
 
 <a name="language"> </a>
 
@@ -115,7 +115,7 @@ You have several ways to set the Operator:
 
  * * *
 
-![Icon of the number 6,  a callout in the previous screenshot](media/sfbcallout6.png)
+![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)
 
 **Enable voice inputs** Speech recognition is available if this option is selected. Callers can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). If you want to only let people use their phone keypad, you can disable speech recognition by setting it to off.
 
@@ -134,7 +134,7 @@ You can set up customized greetings, prompts, and menus that people hear when th
 
 * * *
 
-![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
 
 <a name="greetingsandrouting"> </a>
 
@@ -143,22 +143,22 @@ You can set up customized greetings, prompts, and menus that people hear when th
 > [!NOTE]
 > A greeting is most valuable for a first-level auto attendant. A nested auto attendant often doesn't need a greeting.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
 
  **Use recorded greeting** This option lets you use a built-in sound recording app to **Record** the greeting and then **Upload** your audio file (in a .wav, .mp3 or .wma format). You can also **Upload** a professionally recorded greeting message.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
  **Write your greeting** If you choose this option, enter the text you want the system to read (up to 1000 characters) in the field provided. For example, enter "Welcome to Contoso. Your call is important to us." Output is created by text-to-voice software.
 
 * * *
 
 You can select what happens next to calls from the following actions:
 
-![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
+![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)
 
  **Then route the call**  can be set to **On** or **Off**. If you select **Off**, the caller is disconnected after the greeting plays. If you select **On**, there are a number of options:
 
-![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png) 
+![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png) 
 
 <a name="redirectcalls"> </a>
 
@@ -183,7 +183,7 @@ You can select what happens next to calls from the following actions:
 ![Screenshot: call handling page Actions section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
 
-![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
 
  **Play call menu** lets you set up a prompts and options for the caller to choose. Select this instead of the **Redirect call to** option and the **Call menu builder** appears.
 
@@ -199,9 +199,9 @@ You can select what happens next to calls from the following actions:
 
 To set up your menu options, for each **Dial key**:
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png) **The voice command that will connect to destination** column for an option can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name is automatically recognized, and the caller is able to press 3, say "three," or say "Customer Service" to select the option mapped to key 3.
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) **The voice command that will connect to destination** column for an option can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name is automatically recognized, and the caller is able to press 3, say "three," or say "Customer Service" to select the option mapped to key 3.
 
-![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
 The **Redirect to** option sets where the call goes if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to:
 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
@@ -215,7 +215,7 @@ The **Redirect to** option sets where the call goes if the corresponding key is 
 
 * * *
 
-![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
+![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)
 
 **Instructions for callers** lets you choose **Use recorded call instructions** or **Write your call instructions**.  
 
@@ -243,22 +243,22 @@ Initially, the business hours are defined to start at 12:00 am and end at 12:00 
 ![screenshot of the after hours call flow settings](media/aa-afterhour.png)
  * * *
 
-![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
 You can click **Reset to 24/7** to make all hours business hours again for this auto attendant.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
 Select the **Clear all** option to unselect all changes in the schedule and define business hours to start at 12:00 am and end at 12:00 pm, Sunday through Saturday
 
-![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
 To customize start or end time for a day of the week, click on **Start at** or **End at** time you wish to reset and select the new time from the list that appears. The list allows you to select business hours in 15-minute intervals, and the business hours you select here are based on the time zone that you set on the **General info** page.
 
-![Icon of the number 4,  a callout in the previous screenshot](media/sfbcallout4.png)
+![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)
 To set up a break (a lunch break, for example), select **Add time slot** for that day of the week to create a new table row, and select new start and end times. You can set multiple breaks within business hours.
 
-![Icon of the number 5,  a callout in the previous screenshot](media/sfbcallout5.png)
+![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png)
  The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.
 
-![Icon of the number 6,  a callout in the previous screenshot](media/sfbcallout6.png)
+![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)
 
 The [Call flow](#call-flow) options available after hours are the same as the options available during business hours.
 
@@ -280,17 +280,17 @@ To set a custom call flow for holidays on the auto attendant with no holidays se
 
 * * *
 
-![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
 
 Enter a **Name** for your new call flow.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
 
 If you've already created holidays, you'll see them in the **Holiday** pull-down menu and can select them. You might see an unused option that you can edit into what you need. If not, click on **+ Add new** to create a new Holiday.  See [Set up holidays in Microsoft Teams](set-up-holidays-in-teams.md) for the steps used to create a holiday. 
 
 A holiday call flow name can be up to 64 characters long and must be unique for the organization. For example, you can't have two holiday call flows named "Thanksgiving" in the same organization. Your auto attendant can have a call flow for each Holiday you've set up, but you might want to have a common set of behaviors planned other than a customized greeting.
 
-![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
 
 The [Call flow](#call-flow) options available after hours are the same as the options available during business hours.
 
@@ -307,17 +307,17 @@ On this page, you can set who is listed in your directory and available for Dial
 
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png) 
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) 
 
 **Dial by name** If you enable this option, callers can search for people in your organization using Directory Search. You can select which users are listed as available or not available for Dial by Name in the other fields. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by Name.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
 
 **Include only custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.
 
 If you leave this blank when Dial by Name is enabled, all eligible users are included in directory search.
 
-![Icon of the number 3,  a callout in the previous screenshot](media/sfbcallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
 
 **Exclude custom user groups** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
 
@@ -334,10 +334,10 @@ A first level auto attendant will definitely need at least one resource account 
 
 ![screenshot: optional resource account management](media/aa-ra-optional.png) 
 
-![Icon of the number 1,  a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
 To add one or more existing and unassigned resource accounts to the auto attendant, click **+ Add resource accounts** and search and select them from the provided dialogs.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
 
 The resource account created while creating the auto attendant is shown in a list, and designated the **current auto attendant**.
 
