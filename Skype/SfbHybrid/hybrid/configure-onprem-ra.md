@@ -17,7 +17,7 @@ description: "Set up a resource account for Skype for Business Server 2019."
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System for unified messaging and do not integrate with Exchange Online. In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-To use an Phone System auto attendant or call queue with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online (see [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) to create resource accounts homed online) or on premise as described in this article. Typically you will have multiple Phone System auto attendant or call queue nodes, each of which is mapped to a resource accounts, which can be homed online or in Skype for Business Server 2019.
+To use an Phone System auto attendant or call queue with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant. This resource account can be homed online (see [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) to create resource accounts homed online) or on premises as described in this article. Typically you will have multiple Phone System auto attendant or call queue nodes, each of which is mapped to a resource accounts, which can be homed online or in Skype for Business Server 2019.
 
 If you have an existing Exchange UM auto attendant and call queue system, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.
 
@@ -28,7 +28,7 @@ If your Phone System auto attendant or call queue will need a service number, th
 1. Obtain a service number
 2. Obtain a free Phone System - [Virtual User license](/MicrosoftTeams/teams-add-on-licensing/virtual-user) or a paid Phone System license to use with the resource account.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
-4. Wait for an active directory sync between online and on premise.
+4. Wait for an active directory sync between online and on premises.
 5. Assign the Phone System license to the resource account.
 6. Assign a service number to the resource account.
 7. Create a Phone System call queue or auto attendant.
@@ -41,7 +41,7 @@ To redirect calls to people in your organization who are homed Online, they must
 If the Phone system auto attendant or call queue you're creating will be nested and will not need a phone number, the process is:
 
 1. Create the resource account  
-2. Wait for an active directory sync between online and on premise
+2. Wait for an active directory sync between online and on premises
 3. Create a Phone System auto attendant or call queue
 4. Associate the resource account with a Phone System auto attendant or call queue
 
@@ -69,7 +69,7 @@ Creating a resource account that uses a phone number would require performing th
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -114,7 +114,7 @@ An example of a small business implementation is available in  [Small business e
 
 ## Create a resource account without a phone number
 
-This section discusses creating a resource account that is homed on premise. Creating a resource account that is homed online is discussed at [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
+This section discusses creating a resource account that is homed on premises. Creating a resource account that is homed online is discussed at [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
 
 These steps are necessary whether you are creating a brand new Phone System auto attendant or call queue structure, or rebuilding structure originally created in Exchange UM.
 
@@ -128,7 +128,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
