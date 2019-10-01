@@ -61,4 +61,8 @@ This gives you the ability to implement QoS on some portions of your network (fo
 
 QoS can only be enabled and disabled by using Windows PowerShell. These options are not available in the Skype for Business Server Control Panel.
 
+> [!NOTE]
+> Skype for Business clients for iOS Version 6.17 and later now support QoS.  This QoS capability is only applicable to Skype for Business clients and IP phone devices which are registered directly to an internal Skype for Business or Lync pool Server on managed networks. QoS is not applicable for traffic routed over the Internet.
+
+
 
