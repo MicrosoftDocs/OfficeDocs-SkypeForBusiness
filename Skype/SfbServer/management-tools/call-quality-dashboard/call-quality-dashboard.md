@@ -22,11 +22,6 @@ The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer 
 The following topics are included in this section and should be reviewed before deploying Call Quality Dashboard.
   
 - [Plan for Call Quality Dashboard for Skype for Business Server](plan.md)
-    
 - [Deploy Call Quality Dashboard for Skype for Business Server](deploy-0.md)
-    
 - [Use Call Quality Dashboard for Skype for Business Server](use.md)
-    
 - [Develop Call Quality Dashboard for Skype for Business Server](develop.md)
-    
-
