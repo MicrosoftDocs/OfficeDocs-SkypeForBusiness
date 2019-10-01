@@ -66,9 +66,9 @@ All trials within your organization share the same start and end dates, which is
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
-Trial licenses are assigned the same way any other subscription acquired by an admin is assigned. For more information, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
+The Teams Trial is meant to be initiated by individual end users, and you may not initiate the Teams Trial offer on behalf of end-user employees.
 
-In addition, admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
+Admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
 
 ### Prevent users from installing trial apps and services
 
