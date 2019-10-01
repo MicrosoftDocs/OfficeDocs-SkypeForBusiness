@@ -22,15 +22,14 @@ description: "Summary: Learn about what to consider when you plan for the Call Q
 The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server. CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as for filtering and pivoting on the dataset. CQD features include:
   
 - **Archival storage of QoE data via the QoE Archive component of CQD.** The QoE Archive component can store QoE data for a much longer duration than the Monitoring Server can. This allows for trending and reporting for up to seven months of data at a time, with the ability to slide the reporting window as far back as there is data.
-    
 - **Reporting and analysis using the power and speed of Microsoft SQL Server Analysis Services.** CQD utilizes Microsoft SQL Analysis Services to provide fast summary, filter, and pivoting capabilities to power the dashboard via an Analysis Cube. Reporting execution speed and the ability to drill down into the data can reduce analysis times dramatically.
-    
 - **New data schema optimized for call quality reporting.** The Cube has a schema designed for voice quality reporting and investigations. Portal users can focus on the reporting tasks instead of figuring out how the QoE Metrics database schema maps to the views they need. The combination of the QoE Archive and the Cube provides an abstraction that reduces the complexity of reporting and analysis via CQD. The QoE Archive database schema also contains tables that can be populated with deployment-specific data to enhance the overall value of the data.
-    
 - **Built-in report designer and in-place report editing.** The Portal component comes with several built-in reports modeled after the Call Quality Methodology. Portal users can modify the reports and create new reports via the Portal's editing functionality.
-    
 - **Web API access to the Report Structure and Analysis Cube Data.** The Dashboard reporting framework is not the only way to display the data from the Cube. CQD provides several examples of using HTML and JavaScript to retrieve data from the CQD Web APIs and render the data in a custom format. The combination of the Report Editor and the CQD Web APIs allows rapid prototyping of reports and custom report layout.
-    
+
+> [!NOTE]
+> An admin can now manage Skype for Business Server 2019 using [CQD version 3](https://cqd.teams.microsoft.com) (log in with Admin credentials). This requires a hybrid implementation and the use of Call Data Connector (CDC). See [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) for more information on enabling CDC. For CQD version 3 documentation, see [Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) for more information about CQD version 3.
+
 ## CQD Design Goals
 
 CQD allows IT Pros to use aggregate data to identify focus areas in their environment experiencing media quality issues. It allows an IT Pro to compare statistics for different groups of users and identify trends and patterns. It is not focused on solving individual call issues, but on identifying problems and solutions that will apply to many users in a given environment. 
