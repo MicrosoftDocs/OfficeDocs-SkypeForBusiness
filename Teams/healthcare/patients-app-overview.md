@@ -17,6 +17,7 @@ description: Patients app for Teams admins
 # Patients app overview
 
 TBD
+<!-- Ansuman will add-->
 
 ## Usage example
 
@@ -28,7 +29,7 @@ TBD
 
 For information on how to prepare your environment to use Patients app, see [Integrating Electronic Healthcare Records into Microsoft Teams](../expand-teams-across-your-org/healthcare/patients-app.md).  You will also need to see [Manage app setup policies in Microsoft Teams](../teams-app-setup-policies.md) to enable Patients app for your organization.
 
-<!-- add link out to client doc -->
+<!-- add link out to client doc, doesn't seem to be available yet -->
 
 
 
