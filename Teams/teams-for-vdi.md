@@ -153,13 +153,13 @@ To learn more about updates for Teams, see [Teams update process](teams-client-u
 
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
-## Teams on VDI - Calling and Meeting with the Citrix platform
+## Teams on VDI - Calling and meeting with the Citrix platform
 
-Teams on VDI with Calling and Meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
+Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
 
 The following diagram provides an overview of the architecture.
 
-### Supported Calling and Meeting features
+### Supported calling and meeting features
 
 Here's a list of supported calling and meeting features.
 
@@ -249,7 +249,7 @@ It can take some time (a few hours) for policy changes to propagate. If you don�
 - MacOs and Linux-based clients are not supported at this time. Support for the Citrix-based platform will be announced by Citrix at a future time.
 - Dual installation
 
-### Calling and Meeting
+### Calling and meeting
 
 - Interoperability with Skype for Business is limited to audio calls, no video modality.
 - NoDual Tone Multi Frequency (DTMF) is currently not supported.
@@ -358,24 +358,24 @@ It can take some time (a few hours) for the policy changes to propagate. If you 
 
 ### Calling
 
-Calling policies in Teams control which calling features are available to users. Teams includes the built-in DisallowCalling policy, in which all calling features are turned off. Assign the built-in DisallowCalling policy to the users in your organization for which you want to disable calling.
+Calling policies in Teams control which calling features are available to users. Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who will be using Teams in a virtualized environment.
 
 #### Using the Microsoft Teams admin center
 
 To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **DisallowCalling**.
 
-To assign the DisallowCalling policy to users, do the following:
+**Assign the DisallowCalling calling policy**
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **Calling policy**, click **DisallowCalling*, and then click **Apply**.
+3. Under **Calling policy**, select **DisallowCalling**, and then click **Apply**.
 
 To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
 
 Or, you can also do the following:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**.
-2. Select the policy by clicking to the left of the policy name.
+2. Select **DisallowCalling** by clicking to the left of it.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
@@ -384,14 +384,14 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
 
 #### Using PowerShell
 
-Use the **CSTeamsCallingPolicy** cmdlets to control whether users can use calling features in Teams. Here's the list of policy settings and recommended values.
+Use the **CSTeamsCallingPolicy** cmdlets to manage calling policies in Teams. Here's the list of policy settings and recommended values.
 
 |Policy name  |Description |Recommended value  |
 |---------|---------|---------|
 |AllowCalling    |Controls interop calling capabilities. Turning this on allows Skype for Business users to have 1:1 calls with Teams users and vice versa.         |Set to False to prevent calls from Skype for Business users landing in Teams.          |
 |AllowPrivateCalling     | Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see calling and video call options in private chat         |Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the calling and video call options in private chat.          |
 
-**Create and assign a calling policy**
+**Assign the DisallowCalling calling policy**
 
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
@@ -413,7 +413,7 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users can use callin
     Get-CsTeamsCallingPolicy
     ```
 
-4. Look for the built-in policy where all calling policies are disabled. It looks like this.
+4. Look for the built-in policy where all calling features are turned off. It looks like this.
 
     ```
     Identity                        : Tag:DisallowCalling
@@ -428,7 +428,7 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users can use callin
     PreventTollBypass               : False
     ```
 
-5. Apply the built-in DisallowCalling policy to all users who will be using Teams in a virtualized environment.
+5. Apply the DisallowCalling policy to all users who will be using Teams in a virtualized environment.
 
     ```
     Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
@@ -438,13 +438,33 @@ To learn more, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powersh
 
 ### Meetings
 
-### Using the Microsoft Teams admin center
+Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who will be using Teams in a virtualized environment.
+
+#### Using the Microsoft Teams admin center
+
+To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**, and then in the list of policies, click **AllOff**.
+
+To assign the DisallowCalling policy to users, do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Under **Meeting policy**, select **AllOff**, and then click **Apply**.
+
+To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+
+Or, you can also do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
+2. Select **AllOff** by clicking to the left of it.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, click **Save**.
 
 To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 ### Using PowerShell
 
-Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. Here's the list of policy settings and recommended values.
+Use the **CsTeamsMeetingPolicy** cmdlets to manage meeting policies in Teams. Here's the list of policy settings and recommended values.
 
 |Policy Name |Description|Recommended Value                   |
 |-------------------|-----------------|-----------------------|
@@ -464,7 +484,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 | AllowSharedNotes | Determines whether users are allowed to take shared notes. | Set to False to prohibit users from taking shared notes |
 |MediaBitRateKB |Determines the media bit rate for audio/video/app sharing transmissions in meetings  | Suggested value is 5000 (5 MB). You can change it based on your organization’s needs.|
 
-**Create and assign a meeting policy**
+**Assign the AllOff meeting policy**
 
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
@@ -486,7 +506,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
     Get-CsTeamsMeetingPolicy
     ```
 
-4. Look for the built-in policy option where all meeting policies are disabled. It looks like this.
+4. Look for the built-in policy where all meeting features are turned off. It looks like this.
 
     ```   
     Identity                                    : Tag:AllOff
@@ -510,13 +530,15 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
     ScreenSharingMode                           : False
     ```
 
-5. Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.
+5. Apply the AllOff policy to all users who will be using Teams in a virtualized environment.
 
     ```
     Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
     ```
 
  To learn more, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+
++++++
 
 ## Install Teams on VDI
 
