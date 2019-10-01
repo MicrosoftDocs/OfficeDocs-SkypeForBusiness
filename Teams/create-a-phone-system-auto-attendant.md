@@ -32,7 +32,7 @@ If you want to learn more about auto attendants, see [What are Cloud auto attend
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
 
-Phone numbers are not directly assigned to the auto attendant, but rather to 
+Phone numbers are not directly assigned to the auto attendant, but rather to a [resource account](manage-resource-accounts.md) that is associated to the auto attendant.
 
 Auto attendant implementations often involve several auto attendants. A *first-level* auto attendant usually has a resource account with an assigned phone number. A nested auto attendant is used as a second-level menu that the *first-level* auto attendant connects  as call to. A *nested* auto attendant isn't required to  have a phone number assigned to its resource account.
 
@@ -66,11 +66,12 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 ![Icon of the number 2,  a callout in the previous screenshot](media/sfbcallout2.png)
 
-**Phone number (optional)** Enter the service phone number you want to assign to the auto attendant's linked resource account. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
+<a name="phonenumber"> </a>
+
+**Phone number (optional)** Enter the service phone number you want to assign to the new resource account this wizard creates and links to the new auto attendant. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
 
 > [!NOTE]
 > Auto attendants created after November 1st, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
-
 
 * * *
 
