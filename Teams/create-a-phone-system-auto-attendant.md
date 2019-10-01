@@ -64,19 +64,17 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 * * *
 
-![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
-
 <a name="phonenumber"> </a>
 
 <!-- 
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
+
 **Phone number (optional)** Enter the service phone number you want to assign to the new resource account this wizard creates and links to the new auto attendant. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
 
 > [!NOTE]
 > Auto attendants created after November 1st, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 
--->
-
-* * *
+* * * -->
 
 ![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
 
