@@ -49,9 +49,9 @@ Teams on VDI with AV optimization is certified with Citrix. See the following de
 
 #### Citrix Virtual Apps and Desktops requirements
 
-Citrix provides a new solution to deliver Microsoft Teams optimization through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop). You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews.html). You'll need to sign in first.
+Citrix provides a new solution to deliver Microsoft Teams optimization through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop). The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA (in contrast to RealTime Optimization Pack for Skype for Business, RTC and RTME respectively).
 
-The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA (in contrast to RealTime Optimization Pack for Skype for Business, RTC and RTME respectively).
+You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews.html). (You'll need to sign in first.)
 
 Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
@@ -121,7 +121,7 @@ For most VDI deployments, we recommend to deploy Teams using a per-machine insta
 
 Note: You can also configure Teams in the Microsoft Teams admin center.???
 
- For Teams on VDI and Office 365 ProPlus, you have to update the VM image by installing a new MSI. You must uninstall the current version to update to a newer version.???
+For Teams on VDI and Office 365 ProPlus, you have to update the VM image by installing a new MSI. You must uninstall the current version to update to a newer version.???
 
 To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
 
@@ -137,9 +137,9 @@ To learn more about updates for Teams, see [Teams update process](teams-client-u
     - Per-user installation
     - Per-machine installation
 
-        ```
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-        ```
+    ```
+    msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+    ```
 
     This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete.
  
@@ -147,15 +147,15 @@ To learn more about updates for Teams, see [Teams update process](teams-client-u
 
 3. Uninstall the MSI from the VDI VM by running the following command:
 
-         ```
-        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
-         ```
+    ```
+    msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+    ```
 
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
 ## Teams on VDI - Calling and Meeting with the Citrix platform
 
-Teams on VDI with Calling and Meetings feature support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
+Teams on VDI with Calling and Meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
 
 The following diagram provides an overview of the architecture.
 
@@ -204,9 +204,7 @@ The following calling and meeting features are not supported:
     - Call park
     - Call queue
 
-### Upcoming Calling and Meeting features
-
-We're working to add calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
+We're working on adding calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
 
 ### Network requirements
 
@@ -218,7 +216,7 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 ### Migration from Skype for Business on VDI to Teams
 
-If you're migrating from Skype for Business with VDI to Teams with VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some items that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:
+If you're migrating from Skype for Business with VDI to Teams with VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:
 
 - Control of VDI calling experiences with policies for limiting media bit rate
 - Per-platform policy to disable some AV features in VDI
@@ -231,7 +229,7 @@ If you're migrating from Skype for Business with VDI to Teams with VDI, besides 
 Teams on Chrome browser doesn't provide a replacement for VDI client with AV optimization. For chat and collaboration, it will work fine. When media is needed, there are some experiences that may not meet user expectations on Chrome browser.
 
 - The audio and video streaming experience may not be optimal. Users may experiences delays or reduced quality.
-- Device settings aren't available in settings.
+- Device settings aren't available in browser settings.
 - Device management is handled through the browser and requires multiple settings in browser site settings. 
 - Device settings may also need to be set in Windows device management.
 
@@ -256,7 +254,6 @@ It can take some time (a few hours) for policy changes to propagate across the t
 - Interoperability with Skype for Business is limited to audio calls, no video modality.
 - NoDual Tone Multi Frequency (DTMF) is currently not supported.
 - Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience. This applies only to TAP. 
-- Accepting incoming calls can be delayed (up to 5s) for the call to be completely established.  
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.  
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.
@@ -267,7 +264,7 @@ It can take some time (a few hours) for policy changes to propagate across the t
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.  
 - In some cases, zooming windows that contain video content may create situations where user interface elements are partially visible.  
-- High DPI scaling on Citrix Workspace app is not supported
+- High DPI scaling on CWA is not supported
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
 
@@ -284,23 +281,20 @@ The following four services are installed by BCR_x64.msi.
 |Citrix HDX Port Forwarding Service     |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g PortFwdSvcs         |This account (local service)         |Provides port forwarding between the endpoint device and the virtual desktop.         |
 |Citrx HDX Teams Redirection Service     |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g TeamsSvcs         |This account (local service)         |         |
 
-- Citrix HDX HTML5 Video Redirection Service
-- Citrix HDX Browser Redirection Service
-- Citrix HDX Port Forwarding Service
-- Citrx HDX Teams Redirection Service
-
 Of these, the Citrix HDX Teams Redirection Service and Citrix HDX HTML5 Video Redirection Service are responsible for Teams redirection in the VDA.
 
 #### Citrix HDX Teams Redirection Service
 
-Citrix HDX HTML5 Video Redirection Service establishes the virtual channel used in Teams.
+This service establishes the virtual channel used in Teams.
 
 #### Citrix HDX HTML5 Video Redirection Service
 
-Citrix HDX HTML5 Video Redirection Service runs as WebSocketService.exe listening on 127.0.0.1:9002 TCP. WebSocketService.exe performs two main functions:
+This service runs as WebSocketService.exe listening on 127.0.0.1:9002 TCP. WebSocketService.exe performs two main functions:
 
 - TLS termination for secure WebSockets. The service receives a secure WebSocket connection from vdiCitrixPeerConnection.js which is a component inside the Teams app. You can track this using Process Monitor.
-- User session mapping. WebSocketAgent.exe is launched in the user’s session in the VDA by WebSocketService.exe (which runs in Session 0 as a LocalSystem account) when the Teams app starts.
+- User session mapping. WebSocketAgent.exe starts in the user’s session in the VDA by WebSocketService.exe (which runs in Session 0 as a LocalSystem account) when the Teams app starts.
+
+WebSocketService.exe listens in two TCP sockets, 127.0.0.1:9001 and 127.0.0.1:9002. Port 9001 is used for browser content redirection and HTML5 video redirection features. Port 9002 is used for Teams redirection.
 
 To check whether the service is in an active listening state in the VDA, you can do the following.
 
@@ -310,29 +304,51 @@ In a browser, go to [https://127.0.0.1:9002](https://127.0.0.1:9002). Success me
 
 **Option 2**
 
-1. Open the DevTools console in Microsoft Edge, and then type the following:
+Open the DevTools console in Microsoft Edge, and then do the following:
+1. Type the following:
 
-```
-var exampleSocket = new WebSocket('wss://127.0.0.1:9002');  
-exampleSocket.onmessage = function(messageEvent) { console.log(JSON.stringify(messageEvent)); };
-```
+    ```
+    var exampleSocket = new WebSocket('wss://127.0.0.1:9002');  
+    exampleSocket.onmessage = function(messageEvent) { console.log(JSON.stringify(messageEvent)); };
+    ```
 
 2. Wait a few seconds, and then type the following:
 
-```
-exampleSocket.readyState
-```
+    ```
+    exampleSocket.readyState
+    ```
 
-The expected output is **1**, which indicates that the WebSocket connection was successful. The following table lists possible outputs
+The expected output is **1**, which indicates that the WebSocket connection was successful. The following table lists the possible outputs.
 
 |  |  |
 |---------|---------|
 |0 (CONNECTING) The connection is not yet open     | 1 (OPEN) The connection is open and ready to communicate      |
 |2 (CLOSING) The connection is in the process of closing   | 3 (CLOSED) The connection is closed or couldn't be opened |
 
-If the output is **3** or if you receive a "failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED [HdxWebRTC.js] Unable to connect to ewbsocket service!", make sure that the Citrix HDS Team Redirection Service is running. Restart, if necessary.
+If the output is **3** or if you receive a "failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED [HdxWebRTC.js] Unable to connect to websocket service!" error message, make sure that the Citrix HDX Team Redirection Service is running. Restart, if necessary.
 
 ### Citrix Workspace app
+
+When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeams.exe, on the user’s endpoint. If you don’t see the HdxTeams.exe  on the user's endpoint, do the following:
+
+1. Check the following:
+    - Make sure the correct version of the CWA is installed. You should install the version that's included in the TAP build.
+    - Make sure that HdxTeams.exe and Webrpc.dll are in the CWA installation folders.
+    - Use Wireshark or TCP View to monitor HdxTeams.exe and analyze the network traffic.
+    - Check whether there are incoming and outgoing packets between the process and the Azure cloud (or another peer).
+
+    If you still don't see the HdxTeams.exe service, go to step 2.
+
+2. Make sure that HdxTeams.exe is running.
+    1. Exit Teams on VDA.
+    2. Start services.msc on VDA, and then stop Citrix HDX Teams Redirection Service.
+    3. Disconnect the ICA session.
+    4. Start Citrix HDX Teams Redirection Service, and then restart Citrix HDX HTML5 Redirection Service.
+    5. Open Teams on VDA.
+
+   If you still don't see the HdxTeams.exe service, go to step 3.
+
+3. Restart the VDA, and then restart the client endpoint.
 
 ## Appendix B
 
