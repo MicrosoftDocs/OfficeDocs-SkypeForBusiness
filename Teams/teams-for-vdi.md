@@ -53,7 +53,7 @@ Teams on VDI with AV optimization is certified with Citrix. Review the informati
 
 Citrix provides a new solution to deliver Microsoft Teams optimization through . The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
 
-You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews.html). (You'll need to sign in first.)
+You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.)
 
 Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
@@ -69,7 +69,7 @@ Here are the minimum server and client requirements for Citrix components. For t
 
 **Client requirements**
 
-Citrix supports many thin clients and these clients aren't vendor-specific. Clients must meet these minimum requirements.
+Citrix supports many clients and the clients aren't vendor-specific. Clients must meet these minimum requirements.
 
 |Component  |Requirement  |
 |---------|---------|
@@ -104,7 +104,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 - .txt files
 - Media-stack folder
 
-### Teams performance on VDI
+### Teams performance on VDI considerations
 
 There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. Use these guidelines to help optimize your setup based on the workload needs of your organization:
 
@@ -116,11 +116,9 @@ There are variety of virtualized setup configurations, each with a different foc
 
 ## Install the Teams desktop app on VDI
 
-You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, Teams must be uninstalled, and then reinstalled. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend to deploy Teams using a per-machine installation.
+You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using a per-machine installation.
 
-Note: You can also configure Teams in the Microsoft Teams admin center.???
-
-For Teams on VDI and Office 365 ProPlus, you have to update the VM image by installing a new MSI. You must uninstall the current version to update to a newer version.???
+If you have Office 365 ProPlus, updates to Teams on VDI work the same way as a per-machine installation. You must uninstall the current version to update to a newer version.
 
 To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
 
@@ -149,7 +147,6 @@ To learn more about updates for Teams, see [Teams update process](teams-client-u
     ```
     msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
     ```
-
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
 ## Teams on VDI with calling and meeting with the Citrix platform
@@ -234,21 +231,21 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. For steps on how to do this, see [Appendix B: Turn off calling and meeting functionality in Teams](#appendix-b-turn-off-calling-and-meeting-functionality-in-teams).
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. For steps on how to do this, see [Appendix A: Turn off calling and meeting functionality in Teams](#appendix-a-turn-off-calling-and-meeting-functionality-in-teams).
 
 ### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
 
-If you have an existing implementation of Teams on VDI with chat and collaboration in which you set policies to turn off calling and meeting functionality for Teams users on VDI, and you're migrating to Citrix with AV optimization, use policies to turn on calling and meeting functionality for those Team users.
+If you have an existing implementation of Teams on VDI with chat and collaboration in which you set policies to turn off calling and meeting functionality for Teams users on VDI, and you're migrating to Citrix with AV optimization, set policies to turn on calling and meeting functionality for those Teams users.
 
-#### Calling
+#### Turn on calling
 
-Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. Assign the AllowCalling policy to all users in your organization who use Teams in a virtualized environment.
+Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. You can assign the AllowCalling policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.
 
 To view the settings in the AllowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **AllowCalling**.
 
-#### Meeting
+#### Turn on meeting
 
-Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. Assign the AllOn policy to all users in your organization who use Teams in a virtualized environment.
+Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. You can assign the AllOn policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.
 
 To view the settings in the AllOn policy, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**, and then in the list of policies, click **AllOn**
 
@@ -301,7 +298,7 @@ It can take some time (a few hours) for policy changes to propagate. If you donâ
 
 For Teams known issues that arenâ€™t related to VDI, see [Known issues for Teams](Known-issues.md).
 
-## Appendix A: Troubleshoot Citrix components
+Troubleshoot Citrix components
 
 ### Virtual Desktop Agent
 
@@ -383,7 +380,7 @@ When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeam
 
 3. Restart the VDA, and then restart the client endpoint.
 
-## Appendix B: Turn off calling and meeting functionality in Teams
+## Appendix A: Turn off calling and meeting functionality in Teams
 
 This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell.  
 
