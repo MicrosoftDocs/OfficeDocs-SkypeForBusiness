@@ -51,7 +51,7 @@ Teams on VDI with AV optimization is certified with Citrix. Review the informati
 
 #### Citrix Virtual Apps and Desktops requirements
 
-Citrix provides a new solution to deliver Microsoft Teams optimization through . The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
+Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) optimizes Teams on VDI for calling and meeting functionality. The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
 
 You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.)
 
