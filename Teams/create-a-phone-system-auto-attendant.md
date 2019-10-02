@@ -62,11 +62,14 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
+<a name="phonenumber"> </a>
+
 **Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but a phone number isn't a requirement. A top-level auto attendant usually has a resource account with an assigned phone number, but nested auto attendant (used as a level 2 menu that the first-level auto attendant connects to) might not have a phone number assigned to its resource account.
 
 * * *
 
 ![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png)
+<a name="timezone"> </a>
 
 **Time zone** You must set the time zone for your auto attendant, but it doesn't need to correspond to the time zone of the main address listed for your organization. Each auto attendant can have a different time zone, and the business hours set for the auto attendant are set based on the time zone that you select here.
 
@@ -74,11 +77,15 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 ![Icon of the number 4, referencing a callout in the previous screenshot](media/sfbcallout4.png)
 
+<a name="language"> </a>
+
 **Language** Select the language that you want to use for your auto attendant from any of the available languages listed. The language you set here is the language that the auto attendant uses to interact with people that call in to this auto attendant, and all the system prompts are played in this language.
 
 * * *
 
 ![Icon of the number 5, referencing a callout in the previous screenshot](media/sfbcallout5.png)
+
+<a name="operator"> </a>
 
 **Operator** This is optional, but you can set the **Operator** option to allow callers to break out of the menus and speak to a person.
 
@@ -142,6 +149,8 @@ You can set up greetings, prompts, and menus that people hear when they call to 
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
+<a name="greetingsandrouting"> </a>
+
 **Greeting** A business hours greeting is optional and can be set to **No greeting**. In this case, the caller won't hear a message or greeting before the call is handled by one of the actions you select. You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.
 - **Upload an audio file** If you choose this, record the greeting and then upload your audio file (in a .wav, .mp3 or .wma format).
 - **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters). For example, you might enter "Welcome to Contoso. Your call is important to us." in the **Callers will hear** box.
@@ -151,6 +160,8 @@ You can set up greetings, prompts, and menus that people hear when they call to 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 
 You can select what happens to calls that arrive during business hours. You can chose from the following actions:
+
+<a name="redirectcalls"> </a>
 
 - **Disconnect** If you select it, the person calling in will be disconnected after hearing a business hours greeting.
 - **Redirect call** This can be used to automatically send the call to:
@@ -195,14 +206,15 @@ To set up your menu options, after you select the dial key(s), you will need to:
 
     > [!Note]
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server or Lync Server 2013.
-    - Another **Auto attendant**
+
+  - Another **Auto attendant**
 
        You can use an existing auto attendant to create a second level of menu options containing a sub-menu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
 
         > [!Note]
         > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+    - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
 * * *
 
@@ -215,6 +227,8 @@ To set up your menu options, after you select the dial key(s), you will need to:
 When you are finished with your selections, click on **Next**.
 
 #### Holiday call settings
+
+<a name="holidaygreetings"> </a>
 
 You can add up to 20 scheduled holidays to each auto attendant.
 
@@ -231,7 +245,7 @@ To add a new call handler, click on **+ New call handler**.
 
 * * *
 
-![Screen shot showing adding a new call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Screenshot showing adding a new call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
 
@@ -267,6 +281,7 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
 
+<a name="dialscope"></a>
 #### Select dial scope page
 
 On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.

@@ -26,6 +26,9 @@ A resource account is also known as a *disabled user object* in Azure AD, and ca
 
 In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have an associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
 
+> [!IMPORTANT]
+> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
+
 ![example of resource accounts and user licenses](media/resource-account.png)
 
 > [!NOTE]
@@ -108,6 +111,7 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option. Click **Save** when you are done.
 ![Screenshot of the Edit resource account option](media/r-a-edit.png)
 
+<a name="phonenumber"></a>
 ### Assign/Unassign phone numbers and services
 
 ![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
