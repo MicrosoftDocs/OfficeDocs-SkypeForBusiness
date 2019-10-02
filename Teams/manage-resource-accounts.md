@@ -22,7 +22,7 @@ description: "Learn about managing resource accounts in Microsoft Teams"
 
 # Manage resource accounts in Microsoft Teams
 
-A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
+A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on-premises using Skype for Business Server 2019.
 
 In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have an associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
 
@@ -132,7 +132,7 @@ If you decide to switch the licenses on your existing resource account from a Ph
 
 ## Create a resource account in Powershell
 
-Depending on whether your resource account is located online or on premises, you would need to connect to the appropriate Powershell prompt with Admin privileges.
+Depending on whether your resource account is located online or on-premises, you would need to connect to the appropriate Powershell prompt with Admin privileges.
 
 - The following Powershell cmdlet examples show creating a resource account homed online using [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
 
