@@ -14,7 +14,6 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.voice.dialplans.overview
@@ -33,23 +32,23 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 ## Tenant dial plan scope
 
-A dial plan's scope determines the hierarchical level at which the dial plan can be applied. The scopes are different than in a Skype for Business Server on-premises deployment. Clients obtain the appropriate dial plan through provisioning settings that are automatically provided when users log on to Teams or Skype for Business Online. As an administrator, you can manage and assign dial plan scope levels by using Remote PowerShell.
+A dial plan's scope determines the hierarchical level at which the dial plan can be applied. Teams gets the appropriate dial plan through provisioning settings that are automatically provided when users sign in to Teams. As an admin, you can manage and assign dial plan scope levels by using the Microsoft Teams admin center or Remote PowerShell.
 
-In Teams and Skype for Business Online, there are two types of dial plans: service scoped and tenant (which is for your organization) scoped. A service scoped dial plan is defined for every country or region where the Office 365 Phone System is available. Each user is automatically assigned the service country dial plan that matches the Office 365 Usage Location assigned to the user. You can't change the service country dial plan, but you can create tenant scoped dial plans, which augment the service country dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country dial plan.
+In Teams, there are two types of dial plans: service-scoped and tenant-scoped (which is for your organization. A service-scoped dial plan is defined for every country or region where Phone System is available. Each user is automatically assigned the service country dial plan that matches the usage location assigned to the user. You can't change the service country dial plan, but you can create tenant scoped dial plans, which augment the service country dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country dial plan.
 
-Tenant dial plans can be further broken into two scopes - tenant scope or user scope. If a tenant defines and assigns a user scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country dial plan and the assigned user dial plan. If a tenant defines a tenant scoped dial plan but doesn't assign a user scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country dial plan and the tenant dial plan.
+Tenant dial plans can be further broken into two scopes - tenant-scope or user-scope. If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country dial plan and the assigned user dial plan. If a tenant defines a tenant-scoped dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country dial plan and the tenant dial plan.
 
-The following is the inheritance model of dial plans in Teams and Skype for Business Online.
+The following is the inheritance model of dial plans in Teams.
 
-![How dial plans are inherited in Teams and Skype for Business Online](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![How dial plans are inherited in Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 The following are the possible effective dial plans:
 
- **Service Country** If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the service country associated with their Office 365 Usage Location.
+ **Service Country** If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the service country associated with their usage location.
 
- **Tenant Global - Service Country** If a tenant user dial plan is defined but not assigned to a user, the provisioned user will receive an effective dial plan consisting of a merged tenant dial plan and the service country dial plan associated with their Office 365 Usage Location.
+ **Tenant Global - Service Country** If a tenant user dial plan is defined but not assigned to a user, the provisioned user will receive an effective dial plan consisting of a merged tenant dial plan and the service country dial plan associated with their usage location.
 
- **Tenant User - Service Country** If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their Office 365 Usage Location.
+ **Tenant User - Service Country** If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their usage location.
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
@@ -126,8 +125,9 @@ The following table shows sample normalization rules that are written as .NET Fr
 
  **Redmond dial plan based on normalization rules shown above.**
 
+ The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
 
-| The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table. |
+| |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Redmond dial plan** <br/>                                                                                                                              |
 | 5digitExtension <br/>                                                                                                                                    |
@@ -136,8 +136,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 | RedmondOperator <br/>                                                                                                                                    |
 
 > [!NOTE]
-> The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid. 
-
+> The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.
 
 ## Related topics
 
@@ -148,6 +147,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
