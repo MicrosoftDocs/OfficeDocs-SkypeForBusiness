@@ -153,7 +153,7 @@ To learn more about updates for Teams, see [Teams update process](teams-client-u
 
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
-## Teams on VDI - Calling and meeting with the Citrix platform
+## Teams on VDI with calling and meeting with the Citrix platform
 
 Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
 
@@ -214,9 +214,9 @@ We recommend evaluating your environment to identify any risks and requirements 
 
 To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md).
 
-### Migration from Skype for Business on VDI to Teams
+### Migrate from Skype for Business on VDI to Teams on VDI
 
-If you're migrating from Skype for Business with VDI to Teams with VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:
+If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:
 
 - Control of VDI calling experiences with policies for limiting media bit rate
 - Per-platform policy to disable some AV features in VDI
@@ -233,13 +233,46 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 - Device management is handled through the browser and requires multiple settings in browser site settings.
 - Device settings may also need to be set in Windows device management.
 
-## Teams on VDI - Chat and collaboration
+## Teams on VDI with chat and collaboration
 
-If your organization wants to only use Chat and collaboration features in Teams, you can set policies to turn off calling and meeting functionality. For steps for how to do this, see Appendix B.
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. For steps on how to do this, see [Appendix B: Turn off calling and meeting functionality in Teams](#appendix-b-turn-off-calling-and-meeting-functionality-in-teams).
+
+### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
+
+If you have an existing implementation of Teams on VDI with chat and collaboration in which you turned off calling and meeting functionality for Teams users on VDI, and you're migrating to Citrix with AV optimization, use policies to turn on calling and meeting functionality for those Team users.
+
+Depending on the needs of your organization, you can use the global (Org-wide default) policy or you can create and assign custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
+
+#### Create a custom calling policy
+
+In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **Add**. Turn on the settings that you want, and then click **Save**. 
+
+To learn more, see [Calling policies in Teams](teams-calling-policy.md).
+
+#### Create a meeting policy
+
+In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**, and then in the list of policies, click **DisallowCalling**.To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+
+#### Assign the policies to users
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Under **Calling policy** or **Meeting policy**, select the policy you want to assign.
+4. Click **Apply**.
+
+To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+
+Or, you can also do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, do one of the following:
+    - To assign a calling policy, go to **Voice** > **Calling policies**.
+    - To assign a meeting policy, go to **Meetings** > **Meeting policies**.
+2. Select the policy you want to assign by clicking to the left of it.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, click **Save**.
 
 It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
-
-### Migrating chat and collaboration to Citrix with AV optimization
 
 ## Known issues and limitations
 
@@ -259,12 +292,12 @@ It can take some time (a few hours) for policy changes to propagate. If you don�
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.
 - Outgoing screen sharing:
     - Application sharing is not supported.
-    - Potential privacy issue with multiple screen
-- Give and take control:  
+    - Potential privacy issue with multiple screen.
+- Give control and take control:  
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.  
 - In some cases, zooming windows that contain video content may create situations where user interface elements are partially visible.  
-- High DPI scaling on CWA is not supported
+- High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
 
@@ -539,29 +572,6 @@ Use the **CsTeamsMeetingPolicy** cmdlets to manage meeting policies in Teams. He
  To learn more, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 +++++
-
-## Install Teams on VDI
-
-Here's the process and tools to deploy the Teams desktop app. 
-
-1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
-
-    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
-
-2. Run the following command to install the MSI to the VDI VM (or complete updating it).
-
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-
-    This installs Teams to Program Files. At this point, the golden image setup is complete.
- 
-    The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property. 
-
-3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
-
-        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
-
-    This uninstalls Teams from Program Files.
 
 ## Known issues and limitations
 
