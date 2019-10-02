@@ -29,15 +29,17 @@ Microsoft Teams in a virtualized environment is available with support for chat 
  
 Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
  
-Using Teams in a virtualized environment may be somewhat different from using Teams non-virtualized. For example, some advanced features may not be available in a virtualized environment and video resolution may differ. To ensure an optimal user experience, follow the guidance in this article.
+Using Teams in a virtualized environment may be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features may not be available in a virtualized environment and video resolution may differ. To ensure an optimal user experience, follow the guidance in this article.
 
 ## Teams on VDI components
 
 Using Teams in a virtualized environment requires the following components.
 
-1. Virtualization broker: The resource and connection manager to the virtualization provider
-2. Virtual desktop: Virtual machine (VM) stack, Microsoft Teams
-3. Client: Endpoint that the user physically interfaces with
+![Teams on VDI components](media/teams-for-vdi-components.png)
+
+- **Virtualization broker**: The resource and connection manager to the virtualization provider
+- **Virtual desktop**: Virtual machine (VM) stack, Microsoft Teams
+- **Client**: Endpoint that the user physically interfaces with
 
 ## Teams on VDI requirements
 
@@ -115,9 +117,7 @@ There are variety of virtualized setup configurations, each with a different foc
 
 ## Install the Teams desktop app on VDI
 
-You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, Teams must be uninstalled, and then reinstalled. With per-user installation, automatic updates is enabled.
-
-For most VDI deployments, we recommend to deploy Teams using a per-machine installation.
+You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, Teams must be uninstalled, and then reinstalled. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend to deploy Teams using a per-machine installation.
 
 Note: You can also configure Teams in the Microsoft Teams admin center.???
 
