@@ -695,21 +695,25 @@
 ### [Internet connection requirements](business-voice/get-ready-internet.md)
 ### [Get your users ready](business-voice/prepare-users.md)
 ## [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
+
 <!--
 ## [Things to try](business-voice/things-to-try.md)
+-->
 ## Customize your setup
+### [Customziation options](business-voice/customize-business-voice.md)
 ### [Port phone numbers](business-voice/port-phone-numbers.md)
 ### [Set up auto attendants](business-voice/set-up-auto-attendants.md)
 ### [Set up calling policies](business-voice/set-up-calling-policies.md)
 ### [Create additional users](business-voice/create-users.md)
 ### [Set up call queues](business-voice/set-up-call-queues.md)
+<!--
 ## Manage your setup
 ### [Manage devices](business-voice/manage-devices.md)
 ### [Monitor call quality](business-voice/monitor-quality.md)
 ### [Call Analytics Quality Dashboard](business-voice/analytics-dashboard.md)
 ### [Shared line](business-voice/shared-line.md)
-
 -->
+
 
 #        
 #        
