@@ -26,16 +26,10 @@ A resource account is also known as a *disabled user object* in Azure AD, and ca
 
 In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
 
-<a name="phonenumber"> </a>
-
-> [!IMPORTANT]
-> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
-
 ![example of resource accounts and user licenses](media/resource-account.png)
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online. For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
-
 
 ## Overview
 
@@ -66,6 +60,11 @@ If the Phone System call queue or auto attendant you're creating will be nested 
 
 ### Create a resource account with a phone number
 
+<a name="phonenumber"> </a>
+
+> [!IMPORTANT]
+> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
+
 A top-level auto attendant or call queue will require a phone number be linked to its auto attendant. To create a resource account that uses a phone number, the process is:
 
 1. Port or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
@@ -84,6 +83,8 @@ A top-level auto attendant or call queue will require a phone number be linked t
    - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
    - [Cloud call queue](create-a-phone-system-call-queue.md)
 7. Link the resource account to the auto attendant or call queue. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
+
+When you create a resource account while creating an auto attendant, the licenses are applied automatically.
 
 ### Create a resource account without a phone number
 
