@@ -303,6 +303,8 @@ Once you have created a Holiday call flow, it will show up on the **Call Flows d
 
 #### Dial scope
 
+<a name="dialscope"> </a>
+
 On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default.
 
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
