@@ -60,15 +60,15 @@ To configure dynamic emergency calling, you need to perform the following tasks:
 
 ### Configure emergency addresses
 
-To support automated routing within the United States, you must fully configure the civic address that is part of the emergency locations that are assigned to network identifiers--and include the associated geo codes.  (Emergency addresses without geo-codes cannot be assigned to the network identifiers that are required for dynamic locations.) 
+To support automated routing within the United States, you must fully configure the civic address that is part of the emergency locations that are assigned to network identifiers--and include the associated geo codes. (Emergency addresses without geo-codes cannot be assigned to the network identifiers that are required for dynamic locations.)
 
-- If you enter an emergency address via the Teams Admin Center, the geo codes are automatically included if a match is found.
+- If you enter an emergency address via the Microsoft Teams admin center, the geo codes are automatically included if a match is found.
 
 - If a match is not automatically found, you will have the opportunity to manually create an emergency address.  
 
 This means that if an existing emergency address is configured for emergency calling, the same address needs to be re-created to include the geo codes.  To distinguish between the two addresses, you should include a different description. The new emergency address can be assigned to the users who have the old address. When fully migrated, the old address can be deleted. 
 
-For more information about configuring emergency addresses, see [What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md).
+For more information about configuring emergency addresses, see [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md).
 
 ### Configure network settings
 
@@ -96,7 +96,7 @@ For Calling Plan users:
 For more information, see [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md), which describes how to configure network settings. (The information in this article applies to both Calling Plans and Direct Routing.)
 
 
-### Configure Location Information Service 
+### Configure Location Information Service
 
 A Teams client obtains emergency addresses from the emergency locations associated with different network identifiers.  Subnets and Wireless Access Points are both supported. (Support for Ethernet switch/port is pending.)
 
@@ -115,7 +115,7 @@ To configure the Location Information Service (LIS) with network identifiers and
 
 Emergency policies determine what happens when a user in your organization makes an emergency call.  You can set who to notify and how they are notified when a user calls emergency services. For example, you can configure policy settings to automatically notify your organization's security desk and have them listen in on emergency calls.
 
-You manage emergency policies by using the New-, Set- and Grant-CsTeamsEmergencyCalling Policy cmdlets.  For more information, see **insert live ref here: Manage emergency calling policies**.
+You manage emergency policies by using the New-, Set- and Grant-CsTeamsEmergencyCalling Policy cmdlets.  For more information, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
 
 ### Enable users and sites
