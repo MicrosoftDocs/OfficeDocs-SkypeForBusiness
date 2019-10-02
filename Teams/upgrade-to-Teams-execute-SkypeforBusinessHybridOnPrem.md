@@ -33,23 +33,23 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 # Upgrade from Skype for Business on-premises to Teams
 
-If you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You'll need to set up hybrid connectivity with your Office 365 tenant, and then move your users to Teams and assign them the appropriate coexistence and upgrade mode. 
+If you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Teams, follow the guidance in this article. You'll need to set up hybrid connectivity with your Office 365 tenant, and determine coexistence requirements if you are moving your users to Teams in phases. 
 
 > [!IMPORTANT]
 > Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
 
 ## Step 1: Configure hybrid connectivity 
 
-The key prerequisite for upgrading your users to Teams is to configure hybrid connectivity. 
+The key prerequisite for upgrading your on-premises users to Teams is to configure hybrid connectivity. 
 
 Start by reading [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) and then follow the tasks outlined in [Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 
 ## Step 2: Assign a coexistence and upgrade mode (if you are moving your users to Teams in phases)
 
-If you want to move your users to Teams in phases, then you'll need to ensure that your Teams only users can communicate with Skype for Business users.  You do this by specifying a coexistence mode.
+If you want to move your users to Teams in phases, then you'll need to ensure that your Teams-only users can communicate with Skype for Business users.  You do this by specifying a coexistence mode.
 
-Depending on your requirements, you can assign the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Depending on your requirements, you can assign the appropriate coexistence mode based on the upgrade path that your organization has chosen. For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence).
 
 
 ## Step 3: Move users from Skype for Business on-premises to Teams Only
