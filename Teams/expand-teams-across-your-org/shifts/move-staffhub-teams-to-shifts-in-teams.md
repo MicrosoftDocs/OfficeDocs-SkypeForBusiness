@@ -127,7 +127,7 @@ Do one of the following:
     1. Run the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
     2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
-- Remove the unlinked user account. Use this option if the user account is no longer needed.
+- Remove the inactive account. Use this option if the user account is no longer needed.
 
 ### Assign the FirstlineWorker app setup policy to users
 
