@@ -39,8 +39,8 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Tea
 ## Related topics
 
 - [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-for-organization.md)
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-for-organization.md)
-- [Assign or change an emergency location for a user](assign-change-emergency-location-for-user.md)
+- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
+- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
+- [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)

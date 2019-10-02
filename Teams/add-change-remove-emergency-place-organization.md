@@ -47,6 +47,6 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
     
 ## Related topics
 
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-location-for-organization.md)
+- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-for-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
