@@ -50,7 +50,7 @@ Emergency locations and places are used during the process of routing emergency 
 
 1. **Plan for emergency locations**. The first step is to plan for your emergency locations. List all your physical addresses. Then, based on that, determine whether places for the emergency locations are needed and if so, what they are. For example, if a business has three office buildings each with four floors, it's likely that there needs to be three emergency locations, with floors one to four listed as a place for each.
     
-2. **Add your emergency locations**. The next step is to add your emergency locations. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-for-organization.md).
+2. **Add your emergency locations**. The next step is to add your emergency locations. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
     
     > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it's legitimate and correctly formatted. It's possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation. The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency dispatch center. If so, it will be returned as validated and then can be assigned to a phone number.
