@@ -530,7 +530,7 @@ Direct Routing requires that users be in Teams Only mode to ensure incoming call
 
 ## Configuring sending calls directly to voicemail
 
-Direct Routing allows you to end the call to a user or directly to the users' voicemail. If you want to send the call directly to voicemail, please attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail"
+Direct Routing allows you to end the call to a user and send it directly to the users' voicemail. If you want to send the call directly to voicemail, please attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail".
 In this case the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
 ## See also
