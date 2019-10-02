@@ -18,6 +18,7 @@ f1keywords:
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+ms.custom: okr_smb
 appliesto: 
 - Microsoft Teams
 ---
