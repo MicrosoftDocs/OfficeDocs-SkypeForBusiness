@@ -700,10 +700,10 @@
 ## [Things to try](business-voice/things-to-try.md)
 -->
 ## Customize your setup
-### [Customziation options](business-voice/customize-business-voice.md)
+### [Customization options](business-voice/customize-business-voice.md)
 ### [Port phone numbers](business-voice/port-phone-numbers.md)
 ### [Set up auto attendants](business-voice/set-up-auto-attendants.md)
-### [Set up calling policies](business-voice/set-up-calling-policies.md)
+### [Set up calling policies](business-voice/set-up-policies.md)
 ### [Create additional users](business-voice/create-users.md)
 ### [Set up call queues](business-voice/set-up-call-queues.md)
 <!--
