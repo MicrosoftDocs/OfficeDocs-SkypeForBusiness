@@ -15,4 +15,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up additional auto attendants and call trees
+[!INCLUDE [create-a-phone-system-auto-attendant](../create-a-phone-system-auto-attendant.md)]

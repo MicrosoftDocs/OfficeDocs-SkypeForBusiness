@@ -15,4 +15,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up call queues
+[!INCLUDE [create-a-phone-system-call-queue](../create-a-phone-system-call-queue.md)]
