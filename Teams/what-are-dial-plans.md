@@ -32,7 +32,7 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 ## Tenant dial plan scope
 
-A dial plan's scope determines the hierarchical level at which the dial plan can be applied. Teams gets the appropriate dial plan through provisioning settings that are automatically provided when users sign in to Teams. As an admin, you can manage and assign dial plan scope levels by using the Microsoft Teams admin center or Remote PowerShell.
+A dial plan's scope determines the hierarchical level at which the dial plan can be applied. Clients get the appropriate dial plan through provisioning settings that are automatically provided when users sign in to Teams. As an admin, you can manage and assign dial plan scope levels by using the Microsoft Teams admin center or Remote PowerShell.
 
 In Teams, there are two types of dial plans: service-scoped and tenant-scoped (which is for your organization. A service-scoped dial plan is defined for every country or region where Phone System is available. Each user is automatically assigned the service country dial plan that matches the usage location assigned to the user. You can't change the service country dial plan, but you can create tenant scoped dial plans, which augment the service country dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country dial plan.
 
@@ -78,7 +78,7 @@ For user dial plans, you should specify a descriptive name that identifies to th
 
 We recommend that you type the common, recognizable name of the geographic location or group of users to which the corresponding dial plan applies.
 
-### External access prefix
+### External access prefix<a name="#bkexternalprefix"> </a>
 
 You can specify an external access prefix of up to four characters (#, *, and 0-9) if users need to dial one or more additional leading digits (for example, 9) to get an external line.
 
@@ -87,7 +87,7 @@ You can specify an external access prefix of up to four characters (#, *, and 0-
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
-## Normalization rules
+## Normalization rules<a name="#bkoptimizedialing"> </a>
 
 Normalization rules define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
@@ -97,7 +97,7 @@ One or more normalization rules must be assigned to the dial plan. Normalization
 
 Because any tenant dial plan is effectively merged with a given user's service country dial plan it, it is likely that the service country dial plan's normalization rules need to be evaluated in order to determine which tenant dial plan normalization rules are needed. The **Get-CsEffectiveTenantDialPlan** cmdlet can be used for this purpose. The cmdlet takes the user's identity as the input parameter and will return all normalization rules that are applicable to the user.
 
-### Creating normalization rules
+### Creating normalization rules<a name="#createarule"> </a>
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format for the purpose of performing reverse number lookup. Normalization rules can be created by specifying the regular expression for the match and the translation to be done when a match is found. When you finish, you can enter a test number to verify that the normalization rule works as expected.
 
@@ -109,7 +109,7 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
- **Normalization rules using .NET Framework regular expressions**
+ **Normalization rules using .NET Framework regular expressions**<a name="#regularexpression"> </a>
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -136,7 +136,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 | RedmondOperator <br/>                                                                                                                                    |
 
 > [!NOTE]
-> The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.
+> The normalization rules names shown in the preceding table don't include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.
 
 ## Related topics
 
