@@ -1,7 +1,7 @@
 ---
 title: "Patients app for Teams admins "
-author: jambirk, anach
-ms.author: jambirk, anach
+author: jambirk
+ms.author: jambirk
 manager: serdars
 audience: ITPro
 ms.topic: article 
