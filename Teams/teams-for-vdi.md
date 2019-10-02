@@ -45,13 +45,13 @@ Using Teams in a virtualized environment requires the following components.
 
 ### Virtualization provider requirements
 
-The Teams app is being validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
+The Teams app is validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
   
 Teams on VDI with AV optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
 #### Citrix Virtual Apps and Desktops requirements
 
-Citrix provides a new solution to deliver Microsoft Teams optimization through Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop). The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA (in contrast to RealTime Optimization Pack for Skype for Business, RTC and RTME respectively).
+Citrix provides a new solution to deliver Microsoft Teams optimization through . The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
 
 You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/betas-and-tech-previews.html). (You'll need to sign in first.)
 
@@ -69,7 +69,7 @@ Here are the minimum server and client requirements for Citrix components. For t
 
 **Client requirements**
 
-Citrix supports many clients and the clients aren't vendor-specific. Clients must meet these minimum requirements.
+Citrix supports many thin clients and these clients aren't vendor-specific. Clients must meet these minimum requirements.
 
 |Component  |Requirement  |
 |---------|---------|
@@ -95,11 +95,11 @@ It's important to understand the underlying non-uniform memory access (NUMA) con
 
 #### Non-persistent setup
 
-We recommend that you configure a caching manager to ensure efficient Teams runtime data sync.
+Configure a caching manager to ensure efficient Teams runtime data sync.
 
 #### Teams cached content exclusion list
 
-We recommend that you exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
+Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 
 - .txt files
 - Media-stack folder
@@ -111,8 +111,7 @@ There are variety of virtualized setup configurations, each with a different foc
 - Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.
 - Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
 - Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
-
-- Teams CSS Animation
+- Teams CSS animation
 - Giphy auto-start
 
 ## Install the Teams desktop app on VDI
@@ -125,7 +124,7 @@ For Teams on VDI and Office 365 ProPlus, you have to update the VM image by inst
 
 To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
 
-### Deploy the Teams desktop app
+### Deploy the Teams desktop app to the VM
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links.
 
