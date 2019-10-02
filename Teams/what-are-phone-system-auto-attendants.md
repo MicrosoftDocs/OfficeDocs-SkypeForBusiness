@@ -86,6 +86,8 @@ There is no limit on the Active Directory size for which Dial by Name is support
   
 ### Dial by Name - Keypad (DTMF) entry
 
+<a name="dialscope"> </a>
+
 People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
 
 When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
