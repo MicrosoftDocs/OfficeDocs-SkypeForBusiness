@@ -214,7 +214,7 @@ To set up your menu options, after you select the dial key(s), you will need to:
         > [!Note]
         > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
+    - **Voice application** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.
 
 * * *
 
