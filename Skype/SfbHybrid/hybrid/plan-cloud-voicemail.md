@@ -72,7 +72,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - An External Exchange Web Services (EWS) URL and Autodiscover must be set up or some Cloud Voicemail features will be limited.
 
-- If you have an on-premises only deployment&#x2014;that is, only Exchange and Skype for Business on-premises servers&#x2014;but you want to take advantage of Cloud Voicemail, you will not need additional licenses.
+- If you have an on-premises only deployment&#x2014;that is, only Exchange and Skype for Business on-premises servers&#x2014;but you want to take advantage of Cloud Voicemail, please review licensing requirements for on-premise only enviornments [Set up Cloud Voicemail](https://docs.microsoft.com/en-us/microsoftteams/set-up-phone-system-voicemail).
 
 ## Migration and interoperability
 
