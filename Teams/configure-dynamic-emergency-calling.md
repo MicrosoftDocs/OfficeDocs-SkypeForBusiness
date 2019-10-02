@@ -139,17 +139,3 @@ If you assigned an emergency calling policy to a network site and to a user, and
 ### Test emergency calling
 
 To test emergency calling in the United States, use the predefined test emergency number 933.  This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call is automatically routed to the PSAP or screened first.  
-
-
-### For more information
-
-- Add references here
-- Add references here
-- Add references here
-
-
-
-
-
-
-
