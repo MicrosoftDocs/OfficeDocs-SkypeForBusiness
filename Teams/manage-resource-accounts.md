@@ -113,6 +113,7 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option. Click **Save** when you are done.
 ![Screenshot of the Edit resource account option](media/r-a-edit.png)
 
+<a name="phonenumber"> </a>
 ### Assign/Unassign phone numbers and services
 
 ![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
