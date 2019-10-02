@@ -27,7 +27,7 @@ Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a d
 
 Microsoft Teams in a virtualized environment is available with support for chat and collaboration as well as with calling and meeting on Citrix.
  
-Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, so  functionality will expand in the coming months and years.
+Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
  
 Using Teams in a virtualized environment may be somewhat different from using Teams non-virtualized. For example, some advanced features may not be available in a virtualized environment and video resolution may differ. To ensure an optimal user experience, follow the guidance in this article.
 
@@ -45,7 +45,7 @@ Using Teams in a virtualized environment requires the following components.
 
 The Teams app is being validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
   
-Teams on VDI with AV optimization is certified with Citrix. See the following details to ensure both Citrix and Teams requirements are met for proper functionality.
+Teams on VDI with AV optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
 #### Citrix Virtual Apps and Desktops requirements
 
