@@ -267,6 +267,8 @@ When you are finished with your selections, click **Next**.
 
 ##### Call flow during holidays
 
+<a name="holidaygreetings"> </a>
+
 You can add up to 20 scheduled holidays to each auto attendant.
 
 > [!TIP]
