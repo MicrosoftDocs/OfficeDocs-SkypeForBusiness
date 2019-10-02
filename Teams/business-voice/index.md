@@ -64,7 +64,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                     </div>
                                 </div>
                             </li>
-                     <!--       <li>
+                            <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -85,7 +85,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                     </div>
                                 </div>
                             </li> 
-                            <li>
+                           <!-- <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
