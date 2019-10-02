@@ -15,4 +15,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up policies
+[!INCLUDE [teams-calling-policy](../teams-calling-policy.md)]
