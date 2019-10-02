@@ -283,6 +283,8 @@ Holiday names may consist of up to 64 characters and must be unique for the same
 
 #### Select dial scope page
 
+<a name="dialscope"> </a>
+
 On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
 
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
