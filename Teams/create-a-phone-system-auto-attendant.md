@@ -206,7 +206,8 @@ To set up your menu options, after you select the dial key(s), you will need to:
 
     > [!Note]
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server or Lync Server 2013.
-    - Another **Auto attendant**
+
+  - Another **Auto attendant**
 
        You can use an existing auto attendant to create a second level of menu options containing a sub-menu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
 
@@ -226,6 +227,8 @@ To set up your menu options, after you select the dial key(s), you will need to:
 When you are finished with your selections, click on **Next**.
 
 #### Holiday call settings
+
+<a name="holidaygreetings"> </a>
 
 You can add up to 20 scheduled holidays to each auto attendant.
 
