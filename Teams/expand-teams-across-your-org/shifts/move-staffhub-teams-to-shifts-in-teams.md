@@ -45,7 +45,7 @@ Effective December 31, 2019, StaffHub will be retired. We encourage you to start
 
 When you move a StaffHub team, team membership, user details, team schedules, and chat data are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate step.
 
-Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
+Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team is associated with an Office 365 Group, the privacy setting of the group is retained when you move the team. If a StaffHub team doesn't have an Office 365 Group associated with it, a group with a privacy setting of Private is automatically created for you to support the transition.  Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams. 
 
 As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams. If you have Azure AD Premium, you can [run a report](run-report-to-show-staffhub-usage.md) to get a list of StaffHub users in your organization who need to know about this change.  
 
@@ -69,8 +69,10 @@ Before you move a StaffHub team to Teams, make sure that:
 - Teams is enabled for all users in the tenant.
 - Office 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
+- The StaffHub team has at least one team owner.
 - The StaffHub team contains members.
 - All StaffHub team members are linked to an Azure AD account.
+- All StaffHub team members are assigned a Teams license.  
 
 If these prerequisites aren't met, the move request will fail.
 
@@ -85,7 +87,7 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 ### Install the prerelease version of the StaffHub PowerShell module
 
-If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
+If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md).
 
 You must have the prerelease version of the module installed to move your StaffHub teams to Teams.
 
@@ -96,15 +98,21 @@ Each StaffHub team member must be linked to an Azure Active Directory (Azure AD)
 - A team owner added a user who doesn't have an Azure AD account.
 - A team owner invited a user to a StaffHub team and that user didn't accept the invitation.
 
-You can link an Azure AD account for these users.  Here's how.
+These users have inactive accounts and show a user state of Unknown, Invited, or InviteRejected. You can link an Azure AD account for these users.  Here's how.
 
-#### Get a list of all users on StaffHub teams that have team members that aren't linked to an Azure AD account
+#### Get a list of all inactive accounts on StaffHub teams
 
-Run the following:
+Run the following to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file.
+
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
-$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+$InvitedUsersObject = @()
+$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+}
+}
+$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### Link the account
@@ -119,7 +127,7 @@ Do one of the following:
     1. Run the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
     2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
-- Remove the unlinked user account. Use this option the user account is no longer needed.
+- Remove the unlinked user account. Use this option if the user account is no longer needed.
 
 ### Assign the FirstlineWorker app setup policy to users
 
@@ -300,6 +308,14 @@ If the StaffHub teams that you moved contain files that you also want to move to
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. You can run reports that show you overall Teams usage, the types of activities that users perform in Teams, how users connect to Teams, and more. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
 ## Troubleshooting
+
+**When you try to move a StaffHub team, the status shows as "Failure" and you receive a "Failed to retrieve applicable SKU categories for the user" error message**
+
+This can occur if one or more team members don't have a Teams license. Go to portal.office.com, find the group, and then confirm that group members are assigned a Teams license.
+
+**When you try to move a StaffHub team, the status shows as "Failure" and you receive a "Team owner not found" error message**
+
+This can occur if the group that's associated with the StaffHub team doesn't have a team owner. Go to portal.office.com, find the group, and then add one or more owners to the group.
 
 **When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
 
