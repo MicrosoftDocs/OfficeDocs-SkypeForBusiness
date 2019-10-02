@@ -39,7 +39,7 @@ If you assigned an emergency calling policy to a network site and to a user and 
 4. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
     - **Notification only**: A Teams chat message is sent to the users and groups that you specify.
     - **Conferenced in but are muted**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
-5.  If you selected the **Conferenced in but are muted** notification mode, in the **Dial-out number for notifications** box, you can enter a phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in or participate in the call.
+5.  If you selected the **Conferenced in but are muted** notification mode, in the **Dial-out number for notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in or participate in the call.
 6. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
 7. Click **Save**.
 

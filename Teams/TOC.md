@@ -371,8 +371,8 @@
 #### [Assign or change an emergency location for a user](assign-change-emergency-location-for-user.md)
 #### [Assign or change a place for an emergency location for a user](assign-change-emergency-place-for-user.md)
 #### [Emergency call labels](emergency-calling-labels.md)
-#### Manage emergency calling policies (manage-emergency-calling-policies.md)
-#### Manage emergency call routing policies (manage-emergency-call-routing-policies.md)
+#### [Manage emergency calling policies] (manage-emergency-calling-policies.md)
+#### [Manage emergency call routing policies] (manage-emergency-call-routing-policies.md)
 
 
 
