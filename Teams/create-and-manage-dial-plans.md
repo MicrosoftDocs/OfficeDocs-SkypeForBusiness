@@ -239,8 +239,10 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
 ## Related topics
 
+- [What are dial plans?](what-are-dial-plans.md)
 - [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 - [Emergency calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Teams PowerShell overview](teams-powershell-overview.md)
