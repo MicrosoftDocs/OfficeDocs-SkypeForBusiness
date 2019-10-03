@@ -242,8 +242,8 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 You can use the Microsoft Teams admin center or PowerShell to assign calling and meeting policies to your users.
 |  | |
 |---------|---------|
-|**Calling polices**    | Calling policies in Teams control which calling features are available to users. Teams includes the built-in **AllowCalling** calling policy, in which all calling features are turned on. You can assign the **AllowCalling** policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.        | 
-|**Meeting policies**  | Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. You can assign the **AllOn** policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.        | 
+|**Calling polices**    | Calling policies in Teams control which calling features are available to users. Teams includes the built-in **AllowCalling** calling policy, in which all calling features are turned on. You can assign the **AllowCalling** policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.        |
+|**Meeting policies**  | Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. You can assign the **AllOn** policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.        |
 
 **Using the Microsoft Teams admin center**
 
@@ -268,13 +268,14 @@ Or, you can also do the following:
 5. When you're finished adding users, click **Save**.
 
 It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
+
 #### Using PowerShell
 
 Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling policy to users who use Teams in a virtualized environment.
 
-    ```
-    Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
-    ```
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
 To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
 
