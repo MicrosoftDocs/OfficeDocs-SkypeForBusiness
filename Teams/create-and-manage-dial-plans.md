@@ -238,7 +238,6 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
 ## Related topics
 
-- [Create or modify a normalization rule](create-normalization-rules.md)
 - [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
