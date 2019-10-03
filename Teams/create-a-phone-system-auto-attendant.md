@@ -161,6 +161,7 @@ You can select what happens next to calls from the following actions:
 <a name="redirectcalls"> </a>
 
 **Redirect call to** sends the caller to the chosen destination without choosing from options.
+
 - **Person in your organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in your organization** and set that account to have calls forwarded directly to voicemail.
 
 > [!Note]
