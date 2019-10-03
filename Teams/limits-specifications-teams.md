@@ -93,6 +93,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
+|Max PowerPoint File Size | 2GB|
 
 ## Teams live events
 
