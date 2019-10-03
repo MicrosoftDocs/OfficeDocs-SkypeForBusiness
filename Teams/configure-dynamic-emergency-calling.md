@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: roykuntz
+localization_priority: Normal
 search.appverid: MET150
 description: Configure dynamic emergency calling
 appliesto: 
