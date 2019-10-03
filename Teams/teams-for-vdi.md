@@ -104,7 +104,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 - .txt files
 - Media-stack folder
 
-### Teams performance on VDI considerations
+## Teams performance on VDI considerations
 
 There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. Use these guidelines to help optimize your setup based on the workload needs of your organization:
 
@@ -235,15 +235,52 @@ If your organization wants to only use chat and collaboration features in Teams,
 
 ### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
 
-If you have an existing implementation of Teams on VDI with chat and collaboration in which you set policies to turn off calling and meeting functionality for Teams users on VDI, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams users.
+If you have an existing implementation of Teams on VDI with chat and collaboration in which you set user-level policies to turn off calling and meeting functionality, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on VDI users.
 
-#### Turn on calling functionality
+#### Set policies to turn on calling and meeting functionality
 
-Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. You can assign the AllowCalling policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.
+You can use the Microsoft Teams admin center or PowerShell to assign calling and meeting policies to your users.
+|  | |
+|---------|---------|
+|**Calling polices**    | Calling policies in Teams control which calling features are available to users. Teams includes the built-in **AllowCalling** calling policy, in which all calling features are turned on. You can assign the **AllowCalling** policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.        | 
+|**Meeting policies**  | Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. You can assign the **AllOn** policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.        | 
 
-To view the settings in the AllowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **AllowCalling**.
+**Using the Microsoft Teams admin center**
+
+To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Do the following:
+    a. Under **Calling policy**, click **AllowCalling**.
+    b. Under **Meeting policy**, click **AllOn**.
+4. Click **Apply**.
+
+To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+
+Or, you can also do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
+    - Go to **Voice** > **Calling policies**, and then click **AllowCalling**.
+    - Go to **Meetings** > **Meeting policies**, and then click **AllOn**.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, click **Save**.
+
+It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
+#### Using PowerShell
+
+Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling policy to users who use Teams in a virtualized environment.
+
+    ```
+    Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+    ```
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+
 
 #### Turn on meeting functionality
+
+To view the settings in the AllowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **AllowCalling**.
 
 Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. You can assign the AllOn policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.
 
@@ -384,7 +421,7 @@ When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeam
 
 This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
-### Turn off calling
+### Turn off calling functionality
 
 Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
 
@@ -416,7 +453,7 @@ Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/modul
     ```
 To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
-### Meetings
+### Turn off meeting functionality
 
 Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
@@ -443,7 +480,7 @@ Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/modul
     ```
     Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
     ```
-To learn more about using PowerShell to manage calling policies, see [[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 +++++
 
