@@ -140,11 +140,11 @@ items:
 
     5. Select the team you created to open the **Team Details** page.
 
-    ![Teams detail page.](media/firstline-worker-team-detail-page.png)
+    ![Teams detail page.](media/firstline-worker-team-details-page.png)
 
     6. Select **Channels** to view the current list of channels.
     7. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
-    ![Teams add channel selection window.](media/firstline-add-channel.png)
+    ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
 
     ### Decision Point
 
@@ -170,7 +170,7 @@ items:
     4. Click on the user's Display Name to open their User Details screen.
     5. Select **Edit** next to Assigned policies.
 
-    ![Teams user details page.](media/firstline-worker-user-details.page.png)
+    ![Teams user details page.](media/firstline-worker-user-details-page.png)
 
     6. Click on the **Teams App Setup policy** drop down, select the policy created for your Pilot, and click Save.
     7. Click on the **Teams Messaging policy** drop down, select the policy created for your Pilot, and click Save.
