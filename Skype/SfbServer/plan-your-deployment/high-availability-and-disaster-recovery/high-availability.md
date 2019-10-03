@@ -67,7 +67,7 @@ For a Front End pool to function at all, it cannot be in pool-level quorum loss.
 |7  <br/> |Any 4  <br/> |
 |8-9  <br/> |Any 4 of the first 7 servers  <br/> |
 |10-12  <br/> |Any 5 of the first 9 servers  <br/> |
-|12-16  **For Skype For business 2019**  <br/> |Any 7 of the first 12 servers  <br/> |
+|12-16  **For Skype for Business Server 2019**  <br/> |Any 7 of the first 12 servers  <br/> |
    
 In the preceding table, the "first servers" are the servers which were brought up first, chronologically, when the pool was started for the first time. To determine these servers, you can use the  `Get-CsComputer` cmdlet with the `-PoolFqdn` option. This cmdlet will show the servers in the order that they appear in the topology, and the ones at the top of the list are the first servers.
   
