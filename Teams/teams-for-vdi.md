@@ -235,17 +235,17 @@ If your organization wants to only use chat and collaboration features in Teams,
 
 ### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
 
-If you have an existing implementation of Teams on VDI with chat and collaboration in which you set policies to turn off calling and meeting functionality for Teams users on VDI, and you're migrating to Citrix with AV optimization, set policies to turn on calling and meeting functionality for those Teams users.
+If you have an existing implementation of Teams on VDI with chat and collaboration in which you set policies to turn off calling and meeting functionality for Teams users on VDI, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams users.
 
-#### Turn on calling
+#### Turn on calling functionality
 
-Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. You can assign the AllowCalling policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.
+Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. You can assign the AllowCalling policy or create a custom calling policy and assign it to users in your organization who use Teams in a virtualized environment.
 
 To view the settings in the AllowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **AllowCalling**.
 
-#### Turn on meeting
+#### Turn on meeting functionality
 
-Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. You can assign the AllOn policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.
+Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. You can assign the AllOn policy or create a custom meeting policy and assign it users in your organization who use Teams in a virtualized environment.
 
 To view the settings in the AllOn policy, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**, and then in the list of policies, click **AllOn**
 
@@ -380,21 +380,18 @@ When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeam
 
 3. Restart the VDA, and then restart the client endpoint.
 
-## Appendix A: Turn off calling and meeting functionality in Teams
+## Appendix A: Set policies to turn off calling and meeting functionality in Teams
 
-This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell.  
+This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
-It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
+### Turn off calling
 
-### Calling
-
-Calling policies in Teams control which calling features are available to users. Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment.
+Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
 
 #### Using the Microsoft Teams admin center
 
-To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **DisallowCalling**.
-
-To assign the DisallowCalling policy to users:
+> [!NOTE]
+> To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **DisallowCalling**.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -410,71 +407,20 @@ Or, you can also do the following:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
 
-To learn more, see [Calling policies in Teams](teams-calling-policy.md).
-
 #### Using PowerShell
 
-Use the **CSTeamsCallingPolicy** cmdlets to manage calling policies in Teams. Here's the list of policy settings and recommended values.
-
-|Policy name  |Description |Recommended value  |
-|---------|---------|---------|
-|AllowCalling    |Controls interop calling capabilities. Turning this on allows Skype for Business users to have 1:1 calls with Teams users and vice versa.         |Set to False to prevent calls from Skype for Business users landing in Teams.          |
-|AllowPrivateCalling     | Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see calling and video call options in private chat         |Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the calling and video call options in private chat.          |
-
-**Assign the DisallowCalling calling policy**
-
-1. Start a Windows PowerShell session as an administrator.
-2. Connect to the Skype Online Connector.
-
-    ```
-    # Set Office 365 User Name and Password
-    $username = “admin email address”
-    password = ConvertTo-SecureString "password" -AsPlainText -Force
-    $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-    # Connect to Skype Online
-    Import-Module SkypeOnlineConnector
-    $sfboSession = New-CsOnlineSession -Credential $LiveCred
-    Import-PSSession $sfboSession
-    ```
-
-3. View a list of calling policy options.
-
-    ```
-    Get-CsTeamsCallingPolicy
-    ```
-
-4. Look for the built-in policy where all calling features are turned off. It looks like this.
-
-    ```
-    Identity                        : Tag:DisallowCalling
-    AllowCalling                    : False
-    AllowPrivateCalling             : False
-    AllowVoicemail                  : False
-    AllowCallGroups                 : False
-    AllowDelegation                 : False
-    AllowUserControl                : False
-    AllowCallForwardingToUser       : False
-    AllowCallForwardingToPhone      : False
-    PreventTollBypass               : False
-    ```
-
-5. Apply the DisallowCalling policy to all users who use Teams in a virtualized environment.
+Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling policy to users who use Teams in a virtualized environment.
 
     ```
     Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
     ```
-
-To learn more, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
 ### Meetings
 
-Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment.
+Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 #### Using the Microsoft Teams admin center
-
-To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**, and then in the list of policies, click **AllOff**.
-
-To assign the DisallowCalling policy to users, do the following:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -490,83 +436,14 @@ Or, you can also do the following:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
 
-To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
-
 #### Using PowerShell
 
-Use the **CsTeamsMeetingPolicy** cmdlets to manage meeting policies in Teams. Here's the list of policy settings and recommended values.
-
-|Policy Name |Description|Recommended Value                   |
-|-------------------|-----------------|-----------------------|
-|AllowPrivateMeetingScheduling  | Determines whether a user is allowed to schedule private meetings.| Set to False to prohibit the user from being able to schedule private meetings.  |
-|AllowChannelMeetingScheduling  | Determines whether a user is allowed to schedule channel meetings. | Set to False to prohibit the user from being able to schedule channel meetings.                       |
-|AllowMeetNow |Determines whether a user is allowed to create or start ad-hoc meetings.              |  Set this to False to prohibit the user from being able to start ad-hoc meetings.                     |
-|ScreenSharingMode | Determines the mode in which a user is allowed to share their screen in calls or meetings. | Set to Disabled to prohibit the user from sharing their screens                          |
-|AllowIPVideo |Determines whether video is enabled in a user's meetings or calls.                  |    Set to False to prohibit the user from sharing their video                                         |
-| AllowAnonymousUsersToDialOut | Determines whether anonymous users are allowed to dial out to a PSTN number. | Set to False to prohibit anonymous users from dialing out                                  |
-| AllowAnonymousUsersToStartMeeting | Determines whether anonymous users can start a meeting.     |  Set to False to prohibit users from starting a meeting                                            |
-| AllowOutlookAddIn |Determines whether a user can schedule Teams meetings in the Outlook desktop client.| Set to False to prohibit a user from  scheduling Teams meetings in the Outlook desktop client|
-| AllowParticipantGiveRequestControl|Determines whether participants can request or give control of screen sharing.| Set to False to prohibit the user from giving and requesting control in a meeting    |
-| AllowExternalParticipantGiveRequestControl | Determines whether external participants can request or give control of screen sharing.| Set to False to prohibit an external user from giving, requesting control in a meeting|
-|AllowPowerPointSharing|Determines whether PowerPoint sharing is allowed in a user’s meetings. |Set to False to prohibit a user from sharing PowerPoint files in a meeting  |
-|AllowWhiteboard | Determines whether whiteboard is allowed in a user’s meetings. |   Set to False to prohibit whiteboard in a meeting |
-| AllowTranscription |Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings.|    Set to False to prohibit transcription  and captions in a meeting  |  
-| AllowSharedNotes | Determines whether users are allowed to take shared notes. | Set to False to prohibit users from taking shared notes |
-|MediaBitRateKB |Determines the media bit rate for audio/video/app sharing transmissions in meetings  | Suggested value is 5000 (5 MB). You can change it based on your organization’s needs.|
-
-**Assign the AllOff meeting policy**
-
-1. Start a Windows PowerShell session as an administrator.
-2. Connect to the Skype Online Connector.
-
-    ```
-    # Set Office 365 User Name and Password
-    $username = “admin email address”
-    password = ConvertTo-SecureString "password" -AsPlainText -Force
-    $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-    # Connect to Skype Online
-    Import-Module SkypeOnlineConnector
-    $sfboSession = New-CsOnlineSession -Credential $LiveCred
-    Import-PSSession $sfboSession
-    ```
-
-3. View a list of meeting policy options.
-
-    ```
-    Get-CsTeamsMeetingPolicy
-    ```
-
-4. Look for the built-in policy where all meeting features are turned off. It looks like this.
-
-    ```   
-    Identity                                    : Tag:AllOff
-    Description                                 :
-    AllowChannelMeetingScheduling               : False
-    AllowMeetNow                                : False
-    AllowIPVideo                                : False
-    AllowAnonymousUsersToDialOut                : False
-    AllowAnonymousUsersToStartMeeting           : False
-    AllowPrivateMeetingScheduling               : False
-    AutoAdmittedUsers                           : False
-    AllowCloudRecording                         : False
-    AllowOutlookAddIn                           : False
-    AllowPowerPointSharing                      : False
-    AllowParticipantGiveRequestControl          : False
-    AllowExternalParticipantGiveRequestControl  : False
-    AllowSharedNotes                            : False
-    AllowWhiteboard                             : False
-    AllowTranscription                          : False
-    MediaBitRateKb                              : False
-    ScreenSharingMode                           : False
-    ```
-
-5. Apply the AllOff policy to all users who use Teams in a virtualized environment.
+Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to users who use Teams in a virtualized environment.
 
     ```
     Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
     ```
-
- To learn more, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+To learn more about using PowerShell to manage calling policies, see [[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 +++++
 
@@ -584,8 +461,6 @@ The following are known issues and limitations for Teams on VDI.
 - **Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
 - **Client updates**: Teams on VDI isn't automatically updated with per-machine MSI installation. You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You must uninstall the current version to update to a newer version.
 - **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
-
-For Teams known issues that aren't related to VDI, see [Known issues for Teams](Known-issues.md).
 
 ## Related topics
 
