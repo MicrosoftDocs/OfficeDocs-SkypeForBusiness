@@ -46,7 +46,7 @@ The first time you start a new Front End pool, it is essential that 85% of the s
 |10  <br/> |8  <br/> |
 |11  <br/> |9  <br/> |
 |12  <br/> |10  <br/> |
-|16 **For Skype For business 2019** <br/> |12  <br/> |
+|16 **For Skype for Business Server 2019** <br/> |12  <br/> |
 
 
    
