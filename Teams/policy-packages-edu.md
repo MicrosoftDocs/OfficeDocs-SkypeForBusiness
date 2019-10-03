@@ -53,7 +53,7 @@ Each individual policy is given the name of the policy package so you can easily
 ![Screenshot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
-> If you decide that teachers and administrative support staff needed different policies, you can repurpose an existing package. Identify a package you aren't currently using and change the settings to be appropriate for that group. You might have to make a note to yourself which group has which package, but that's the only impediment to repurposing a package.
+> If you decide that teachers and administrative support staff need different policies, you can repurpose an existing package: identify a package you aren't currently using and change the settings to be appropriate for that group. You might have to make a note to yourself which group has which package, but that's the only impediment to repurposing a package.
 
 ## Why use policy packages
 
