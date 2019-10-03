@@ -16,8 +16,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-PowerShell script sample - SIP tester client
--------------------------------------------------------------------------
+# PowerShell script sample - SIP tester client
 
 Use this PowerShell script to test Phone System Direct Routing calling scenarios in Microsoft Teams. This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Azure PSTN Edge and Skype Next Gen Core.
 
