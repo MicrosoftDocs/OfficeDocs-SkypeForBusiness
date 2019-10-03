@@ -281,6 +281,7 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
 
+<a name="dialscope"></a>
 #### Select dial scope page
 
 On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
