@@ -62,7 +62,7 @@ Depending on your requirements, you can assign the appropriate coexistence mode 
 
 Ultimately, you'll want to move your users to TeamsOnly mode. This might involve one or two steps depending on your current on-premises environment.  
 
-For more information, see [Move users between on-premises and the cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
+For more information, see [Move users between on-premises and the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
 
 
