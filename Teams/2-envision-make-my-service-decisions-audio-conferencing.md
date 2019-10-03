@@ -335,7 +335,7 @@ The effective dial plan assigned to users is the combination of the service dial
 > [!Important]
 > There can be a maximum of 25 normalization rules in each tenant dial plan; therefore, it’s important to avoid duplicating normalization rules that are already available as part of the service dial plan.
 
-To learn more about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+To learn more about dial plans, see [What are dial plans?](what-are-dial-plans.md).
 
 <br>
 
