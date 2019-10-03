@@ -127,11 +127,24 @@ items:
     Configure the initial Team for the Pilot users identified in Step 2.
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. Navigate to Teams.
-    1. Select **New Team** from the Teams page.
-    1. Fill in the required fields, including Team name, description, and select an appropriate Team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several Teams. Select **Create Team**.
-    1. Select the team you created to open the **Team Details** page.
-    1. Select **Channels** to view the current list of channels.
-    1. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
+
+    ![Teams menu selection.](media/firstline-worker-teams-bar.png)
+
+    3. Select **New Team** from the Teams page.
+
+    ![Teams page.](media/firstline-worker-teams-page.png)
+
+    4. Fill in the required fields, including Team name, description, and select an appropriate Team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several Teams. Select **Create Team**.
+   
+    ![Teams Create a new Team menu.](media/firstline-worker-create-new-team.png)
+
+    5. Select the team you created to open the **Team Details** page.
+
+    ![Teams detail page.](media/firstline-worker-team-detail-page.png)
+
+    6. Select **Channels** to view the current list of channels.
+    7. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
+    ![Teams add channel selection window.](media/firstline-add-channel.png)
 
     ### Decision Point
 
@@ -147,12 +160,24 @@ items:
     Apply the App Setup Policy and Messaging Setting policy you created above to your Pilot users.
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. Navigate to Users.
-    1. Search for the pilot users by name.
-    1. Click on the user's Display Name to open their User Details screen.
-    1. Select **Edit** next to Assigned policies.
-    1. Click on the **Teams App Setup policy** drop down, select the policy created for your Pilot, and click Save.
-    1. Click on the **Teams Messaging policy** drop down, select the policy created for your Pilot, and click Save.
-    1. Repeat these steps for all pilot users.
+
+    ![Teams user menu selection.](media/firstline-worker-users-bar.png)
+
+    3. Search for the pilot users by name.
+
+    ![Teams user information page.](media/firstline-worker-users-page.png)
+
+    4. Click on the user's Display Name to open their User Details screen.
+    5. Select **Edit** next to Assigned policies.
+
+    ![Teams user details page.](media/firstline-worker-user-details.page.png)
+
+    6. Click on the **Teams App Setup policy** drop down, select the policy created for your Pilot, and click Save.
+    7. Click on the **Teams Messaging policy** drop down, select the policy created for your Pilot, and click Save.
+
+    ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
+
+    8. Repeat these steps for all pilot users.
 
     ### User Configuration: Powershell
     In the advent that you have a large volume of users with which you’d like to apply a policy, a more efficient option may be to use PowerShell.
@@ -178,10 +203,16 @@ items:
     Now that the Team structure is in place and the user policies are applied, it’s time to start inviting your Firstline Workers.
     1. Navigate to the Skype and Teams Admin Console found at [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
     1. Navigate to Teams.
-    1. Search for the team created during the Pilot Team Configuration phase.
-    1. Select the team you created to open the Team details page.
-    1. Select **Add members**.
-    1. Search for the pilot members' names and click **Save**.
+
+    ![Teams menu selection.](media/firstline-worker-teams-bar.png)
+
+    3. Search for the team created during the Pilot Team Configuration phase.
+    4. Select the team you created to open the Team details page.
+
+    ![Teams details page.](media/firstline-worker-team-details-page.png)
+
+    5. Select **Add members**.
+    6. Search for the pilot members' names and click **Save**.
 
 - title: Communicate
   durationInMinutes: 1
