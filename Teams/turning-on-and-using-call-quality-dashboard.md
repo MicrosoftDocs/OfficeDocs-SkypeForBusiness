@@ -334,6 +334,8 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 ### Building data file
 
 CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
+
+You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
   
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
