@@ -196,12 +196,12 @@ For meetings that need the highest quality video experience, such as CEO board m
 
 This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
-![Screen shot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Disabled and the user can override**     | Live captions aren't turned on during a meeting and the user sees the **Turn on live captions** option in the menu to turn on live captions. This is the default setting. |
-|**Disabled**     | Live captions aren't displayed during a meeting and the user doesn't have the option to turn on live captions.          |
+|**Disabled and the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
 
 <a name="bkcontentsharing"> </a>
