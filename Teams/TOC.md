@@ -706,14 +706,14 @@
 ### [Set up calling policies](business-voice/set-up-policies.md)
 ### [Create additional users](business-voice/create-users.md)
 ### [Set up call queues](business-voice/set-up-call-queues.md)
-<!--
+
 ## Manage your setup
 ### [Manage devices](business-voice/manage-devices.md)
 ### [Monitor call quality](business-voice/monitor-quality.md)
 ### [Call Analytics Quality Dashboard](business-voice/analytics-dashboard.md)
 ### [Shared line](business-voice/shared-line.md)
--->
 
+## [Partner resources](business-voice/partner-resources.md)
 
 #        
 #        
