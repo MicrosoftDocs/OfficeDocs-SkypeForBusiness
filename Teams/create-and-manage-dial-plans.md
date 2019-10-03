@@ -35,14 +35,14 @@ After you plan the dial plans for your organization and figured out all the norm
 3. Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. To do this:
     1. In the **External dialing prefix** box, enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
     2. Turn on **Optimized device dialing**. If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.
-4. Under **Normalization rules**, configure and associate one or more [normalization rules](create-normalization-rules.md) for the dial plan. Each dial plan must have at least one normalization rule associated with it.  To do this, do one or more of the following:
+4. Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan. Each dial plan must have at least one normalization rule associated with it.  To do this, do one or more of the following:
     - To create a new normalization rule and associate it with the dial plan, click **Add**, and then create the rule. To learn more, see TBD.
     - To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then click **Edit**. Make the changes you want, and then click **Save**.
     - To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then click **Remove**.
 5. Arrange the normalization rules in the order that you want. Click **Move up** or **Move down** to change the position of rules in the list.
 
-> [!NOTE]
-> Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.
+    > [!NOTE]
+    > Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.
 
 6. Click **Save**.
 7. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.

@@ -87,7 +87,7 @@ You can specify an external access prefix of up to four characters (#, *, and 0-
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
-## Normalization rules<a name="#bkoptimizedialing"> </a>
+## Normalization rules<a name="#bknormalizationrule"> </a>
 
 Normalization rules define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
