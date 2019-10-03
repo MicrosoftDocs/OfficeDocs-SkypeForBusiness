@@ -38,7 +38,7 @@ Once you move a user from the cloud back to on-premises:
 - The user interacts with your Skype for Business Server deployment for its functionality. 
 - Any contacts that existed in either Skype for Business Online or Teams are migrated  to Skype for Business Server. The two sets of contacts are merged and then migrated back to on-premises.  In addition, contacts that are pre-existing in Teams remain in Teams.
 - If the user also uses Teams, they will not have the ability to interoperate with Skype for Business users, nor will they be able to communicate with users in federated organizations.
-- Meetings in Skype for Business Online are *not* automatically migrated back to on-premises. Users should either reschedule their meetings or, if desired, use the [Meeting Migration Tool](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
+- Meetings in Skype for Business Online are *not* automatically migrated back to on-premises. Users should either reschedule their meetings or, if desired, use the [Meeting Migration Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
 ### Move users with Move-CsUser
 
