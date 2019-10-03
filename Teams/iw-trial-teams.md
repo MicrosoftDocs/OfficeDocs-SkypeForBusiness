@@ -42,7 +42,7 @@ The service plans included in this offer are:
 - Whiteboard
 - Yammer Enterprise 
 
-The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
+The trial grants a one-year trial subscription to your entire organization. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
 
 ## Who is eligible
 
@@ -66,9 +66,9 @@ All trials within your organization share the same start and end dates, which is
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
-Trial licenses are assigned the same way any other subscription acquired by an admin is assigned. For more information, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
+The Teams Trial is meant to be initiated by individual end users, and you may not initiate the Teams Trial offer on behalf of end-user employees.
 
-In addition, admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
+Admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
 
 ### Prevent users from installing trial apps and services
 
@@ -142,7 +142,7 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 As of April 22, 2019, users can begin claiming the latest Microsoft Teams Commercial Cloud Trial license. If you would like to move users in your organization off of the legacy trial license and onto the latest one, you will need to first remove the legacy Microsoft Teams Trial license from each user. Once the legacy license is removed, each affected user can claim the updated Microsoft Teams Commercial Cloud Trial license.
 
 - If you would like to remove this license via PowerShell, see:
-[Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+[Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

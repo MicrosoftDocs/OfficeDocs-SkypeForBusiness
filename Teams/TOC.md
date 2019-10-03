@@ -27,6 +27,7 @@
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
+## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Archive or delete a Team](archive-or-delete-a-team.md)
 
 
@@ -81,8 +82,10 @@
 ### Analytics and reports in the Teams admin center 
 #### [Overview](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
-#### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
+#### [PSTN blocked users report](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams live event usage report](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
@@ -291,6 +294,7 @@
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
 #### [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
+#### [Manage Caller ID policies](caller-id-policies.md)
 #### [Set the Caller ID for a user](set-the-caller-id-for-a-user.md)
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 ### Auto attendants and call queues 
@@ -304,7 +308,6 @@
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
-### [Caller ID policy](caller-id-policies.md)
 ### [Shared line appearance](shared-line-appearance.md)
 ### [Understand how users can block PSTN calls on Teams clients](block-pstn-calls-on-Teams-clients.md)
 
@@ -780,6 +783,7 @@
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Use Network Planner for Teams](network-planner.md)
+### [Network Planner walkthrough](tutorial-network-planner-example.yml)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 ### [Limits and specifications for Teams](limits-specifications-teams.md)
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)

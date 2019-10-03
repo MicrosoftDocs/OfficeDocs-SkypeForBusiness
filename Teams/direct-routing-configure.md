@@ -37,7 +37,7 @@ You can configure your Microsoft Phone System and enable users to use Direct Rou
 
 - [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Enable users for Direct Routing Service](#enable-users-for-direct-routing-service)
-- [Ensure that Microsoft Teams is the preferred calling client for the users](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- Ensure that Microsoft Teams is the preferred calling client for the users
 
 ## Pair the SBC to the Direct Routing Service of Phone System 
 
@@ -106,7 +106,7 @@ The following table lists the additional parameters that you can use in setting 
 |Required?|Name|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String, list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/help/909264)|
-|No|MediaBypass |The parameter reserved for future use. Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
+|No|MediaBypass |Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
 |Yes|SipSignallingPort |Listening port used for communicating with Direct Routing services by using the Transport Layer Security (TLS) protocol.|None|Any port|0 to 65535 |
 |No|FailoverTimeSeconds |When set to 10 (default value), outbound calls that are not answered by the gateway within 10 seconds are routed to the next available trunk; if there are no additional trunks, then the call is automatically dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily. The default value is 10.|10|Number|Int|
 |No|ForwardCallHistory |Indicates whether call history information will be forwarded through the trunk. If enabled, the Office 365 PSTN Proxy sends two headers: History-info and Referred-By. The default value is **False** ($False). |False|True<br/>False|Boolean|
@@ -523,11 +523,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 The result is that the voice policy applied to John Woods’ calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
-## Set Microsoft Teams as the preferred calling client for users
+## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
-Direct Routing only routes calls to and from users if they use the Teams client. 
-If your organization only uses Teams, setting "Teams Only" mode in upgrade policy is recommended. 
-If you organization uses Skype for Business Server or Skype for Business Online, see the following article for more information and select the appropriate option: [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information interoperability between Skype and Teams: [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## See also
