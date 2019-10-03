@@ -49,9 +49,9 @@ Start by reading [Plan hybrid connectivity](https://docs.microsoft.com/en-us/S
 
 Coexistence and interoperability between Skype for Business and Teams clients and users are defined by Teams Upgrade modes.  By default, organizations are in Islands mode, which allows users to use both Teams and Skype for Business clients side-by-side.
 
-For an organization moving to Teams, TeamsOnly mode is the final destination for each user, though not all users need to be assigned TeamsOnly (or any other mode) at the same time.
+For an organization moving to Teams, TeamsOnly mode is the final destination for each user--though not all users need to be assigned TeamsOnly (or any other mode) at the same time.
 
-Prior to users reaching TeamsOnly modes, organizations can optionally use any of the Skype for Business coexistence modes to ensure predictable coummunication between users who are TeamsOnly and those who aren't yet.  The purpose of the Skype for Business coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams. 
+Prior to users reaching TeamsOnly mode, organizations can optionally use any of the Skype for Business coexistence modes to ensure predictable coummunication between users who are in TeamsOnly mode and those who aren't yet.  The purpose of the Skype for Business coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams. 
 
 When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.
 
