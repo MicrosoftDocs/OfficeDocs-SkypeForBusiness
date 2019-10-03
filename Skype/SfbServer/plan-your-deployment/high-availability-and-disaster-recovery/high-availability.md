@@ -72,7 +72,7 @@ For a Front End pool to function at all, it cannot be in pool-level quorum loss.
 In the preceding table, the "first servers" are the servers which were brought up first, chronologically, when the pool was started for the first time. To determine these servers, you can use the  `Get-CsComputer` cmdlet with the `-PoolFqdn` option. This cmdlet will show the servers in the order that they appear in the topology, and the ones at the top of the list are the first servers.
   
 > [!IMPORTANT]
-> It's always relevant to know that the maximum front end number of servers has been increased to 16 on the [new skype for business 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)
+> The maximum number of front end servers has been increased to 16 in [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)
 > 
 #### Additional steps to ensure pools are functional
 
