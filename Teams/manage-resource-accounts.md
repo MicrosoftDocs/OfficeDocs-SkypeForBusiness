@@ -148,7 +148,9 @@ The application ID's that you need to use while creating the application instanc
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> If you want the call queue or auto attendant to be searchable by on-premises users, you should create your resource accounts on-premise, since online resource accounts are not synced down to Active Directory.
+> If you want the call queue or auto attendant to be searchable by on-premises users, you should create your resource accounts on-premises, since online resource accounts are not synced down to Active Directory. When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on-premises using SfB Management shell and synchronized to online Azure AD. 
+
+ 
 
 1. To create a resource account online for use with an auto attendant, use the following command:
 
