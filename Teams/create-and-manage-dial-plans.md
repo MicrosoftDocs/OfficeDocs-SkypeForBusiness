@@ -24,7 +24,7 @@ description: Learn how to create and manage calling dial plans (PSTN Calling dia
 
 # Create and manage dial plans
 
-After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. You can use Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
+After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. You can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
 
 ## Using the Microsoft Teams admin center
 
@@ -32,6 +32,7 @@ After you plan the dial plans for your organization and figured out all the norm
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.
 2. Click **Add**, and then enter a name and description for the dial plan.
+    ![Screenshot showing the Add page for creating a dial plan](media/create-dial-plan.png)
 3. Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. To do this:
     1. In the **External dialing prefix** box, enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
     2. Turn on **Optimized device dialing**. If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.
