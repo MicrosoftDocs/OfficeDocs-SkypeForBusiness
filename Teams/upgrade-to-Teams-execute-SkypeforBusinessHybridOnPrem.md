@@ -68,6 +68,6 @@ For more information, see [Move users between on-premises and the cloud](https
 
 ## Phone System and Teams upgrade
 
-If you’re transitioning your Skype for Business deployment to Phone System with Calling Plans and Microsoft will be your public switched telephone network (PSTN) provider--and assuming that you’ve completed the phone number porting--upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
+If you are transitioning your Skype for Business deployment to Phone System with Calling Plans, Microsoft will be your public switched telephone network (PSTN) provider. Assuming that you’ve completed the phone number porting--upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
-If Calling Plans isn’t available, you need to transition your enterprise voice deployment to Microsoft Phone System Direct Routing. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
+If you are transitioning your Skype for Business deployment to Phone System but are not using Calling Plans, you  need to transition your enterprise voice deployment to Microsoft Phone System Direct Routing. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
