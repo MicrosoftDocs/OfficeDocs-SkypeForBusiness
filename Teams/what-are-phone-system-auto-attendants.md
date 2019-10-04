@@ -49,7 +49,7 @@ A Cloud auto attendant has the following features:
 
 To get started using auto attendants, it's important to remember that:
 
-- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts. You can either use an existing resource account or create a new resource account as you set up your auto attendant.
+- An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts. <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
 - When you assigning a phone number to an auto attendant, strictly speaking you are assigning it to the resource account associated with that auto attendant. This provides a way to have more than one phone number access an auto attendant. Most often, a resource account will use the cost-free Phone System Virtual User license. This license provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendants and call queues.
 
 > [!NOTE]
@@ -68,13 +68,15 @@ To get started using auto attendants, it's important to remember that:
   
 ## Feature overview
 
-### Dial by Name
+### Searching for users
 
 Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by Name in an auto attendant.
 
+Dial by extension is a feature of an auto attendant that is also part of directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. Users you wish to have located and reached using Dial by extension  **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. Dial by extension  will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by extension in an auto attendant.
+
 #### Maximum directory size
 
-There is no limit on the number of Active Directory users  Dial by Name can support when a caller uses the phone keypad to search for a person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName). The maximum name list size that a single auto attendant can support using speech recognition is 80,000 users.
+There is no limit on the number of Active Directory users  Dial by Name and Dial by Extension can support when a caller search for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single auto attendant can support using speech recognition is 80,000 users.
   
 |Input type|Search format|Maximum number of users in an organization|
 |:-----|:-----|:-----|
@@ -181,7 +183,7 @@ The following voice commands are available in the 14 languages supported for spe
 
 An auto attendant can optionally be set to give a caller a selection to speak to a human operator.
   
-Key 0 and the voice command "Operator"  direct the call to the designated operator by default. This is the case for all languages supported for speech recognition. You can also use **Menu Options** to set a custom value for the Operator.
+Key 0 and the voice command "Operator"  direct the call to the designated operator by default. This is the case for all languages supported for speech recognition. You can also use **Set menu Options** to set a custom value for the Operator.
   
 The operator can be set to:
   
@@ -205,11 +207,11 @@ Each auto attendant has several possible call-handling options:
 
 These options are expressed to the caller by the auto attendant when it plays  menu prompts. For example: "Press 1 for Sales, Press 2 for Services. To speak to the operator, press 0 at any time."
 
-### Menu Options
+### Set menu Options
 
 Cloud auto attendants allow you to create menu prompts ("Press 1 for Sales, Press 2 for Services") and set up menu options to route calls based on  user selections. Menu options for an auto attendant let an organization provide a series of choices that guide callers to their destination faster, without relying on a human operator to handle incoming calls. Menu prompts can either be created by using text-to-speech (system-generated prompts) or by uploading a recorded audio file. Speech recognition accepts voice commands for hands-free navigation, but people calling in can also use the phone keypad to navigate menus.
   
-Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using the Skype for Business admin center. Different sets of menu options can be created for business hours and after hours, and you can enable or disable Dial by Name in the **Menu Options**. Keys can be mapped to transfer the calls to:
+Keys 0 through 9 can be assigned to dial keys in an auto attendant using the Skype for Business admin center. Different sets of menu options can be created for business hours and after hours, and you can enable or disable Dial by Name in the **Menu Options**. Keys can be mapped to transfer the calls to:
   
 - An operator, which is mapped to key 0 by default. However, it can be reassigned to any other key, or removed from the menu.
 - A call queue.

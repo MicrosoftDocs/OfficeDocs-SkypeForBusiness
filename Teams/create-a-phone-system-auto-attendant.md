@@ -40,7 +40,7 @@ Auto attendant implementations often involve several auto attendants. A *first-l
 
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts and all licenses required. 
 - 
-<!-- When you create a new auto attendant in Teams after October 110th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
+<!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
 > To redirect calls to an operator or a menu option that is an Online user with a Phone System license, you will need to enable them for Enterprise Voice. See [Assign Skype for Business licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -52,7 +52,7 @@ Auto attendant implementations often involve several auto attendants. A *first-l
 
 ### With the Microsoft Teams admin center
 
-In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**, then click **+ New**:
+In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**, then click **+ Add**:
 
 #### General info page
 
@@ -109,7 +109,7 @@ You have several ways to set the Operator:
  * * *
 
 ![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png)
-**Enable voice inputs** Speech recognition is available if this option is selected. Callers can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). If you want to only let people use their phone keypad to make selections, you can disable speech recognition by setting it to off.
+**Enable voice inputs** Speech recognition is available if this option is selected. Callers can use voice input in the  [language you set](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). If you want to only let people use their phone keypad to make selections, you can leave speech recognition set to **Off**.
 
 * * *  
 
@@ -146,14 +146,14 @@ If you select **No Greeting**, the caller doesn't hear a message or greeting bef
 
 * * *
 
-![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)
+
 You can select what happens next to calls from the following actions in the  **Then route the call** section. Settings are **Disconnect**, **Redirect call**, or **Play menu options**.
 
 If you select **Disconnect**, the caller is disconnected after the greeting plays. 
 
 <a name="redirectcalls"> </a>
 
-- **Redirect call** sends the caller to the chosen destination without choosing from options. The possible settings are:
+![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png) **Redirect call** sends the caller to the chosen destination without choosing from options. The possible settings are:
 
   - **Person in organization** The account you choose must have a Phone System license enabled for Enterprise Voice or have an assigned Calling Plan in Office 365. You can set it up so the caller can be sent to voicemail: select **Person in organization** and set that account to have calls forwarded directly to voicemail.
 
@@ -177,17 +177,13 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 ![Screenshot: call handling page Actions section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
-![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) When you select **Play menu options** You can select whether to use an audio file or enter text that will be rendered as text to speech to give dialpad menu options to callers. Select this instead of the **Redirect call to** or **Disconnect** options.
 
- **Play an audio file** lets you set up a prompts and options for the caller to choose. Select this instead of the **Redirect call to** option or **Disconnect**.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) **Play an audio file** lets you set up a prompts and options for the caller to choose. 
+- If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
- If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
-
- **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters) in the field provided. For example, enter "Welcome to Contoso. Your call is important to us." Output is created by text-to-voice software.
-
-![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
+- **Type a greeting message** If you choose this option, enter the text you want the system to read (up to 1000 characters) in the field provided. For example, enter "Welcome to Contoso. Your call is important to us." Output is created by text-to-voice software.
 
 **Set menu options** Telephone keypad or voice commands can be added or removed in this dialog. To delete a menu option, remove the voice command entry and set **Redirect to** back to **Select**.
 
@@ -212,10 +208,10 @@ The **Redirect to** option sets where the call goes if the corresponding key is 
 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
-- **Operator** If an operator is already set up, the option is automatically mapped to key 0, but can also be deleted or reassigned to a different key. If operator isn't set to any key, the voice command "Operator" is also disabled. The caller who selects this option is sent to the designated Operator.
+- **Operator** If an operator is already set up, the option is automatically mapped to key 0, but can also be deleted or reassigned to a different key. The caller who selects this option is sent to the designated Operator. If Operator isn't set to any key, the voice command "Operator" is also disabled. 
 - **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the person in the **Search by name** field.
 
-  - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
+  - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
@@ -228,7 +224,7 @@ The **Redirect to** option sets where the call goes if the corresponding key is 
 
 **Dial by name** If you enable this option, callers can search for people in your organization using **Dial by name**. They say the user's name and voice recognition matches them to a user. You can set who is and is not included in these services in the optional Dial Scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
 
-**Dial by extension** If you enable this option, callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the other fields. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by Name.
+**Dial by extension** If you enable this option, callers can connect with users in your organization by entering their phone extension **provided you have configured a Dial plan that uses extensions**. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
 
 * * *
 
@@ -246,8 +242,7 @@ When you are finished with your selections, you can click **Next** if you want t
 - Dial Scope
 - Resource accounts
 
-
-Since your auto attendant is required to have a resource account, you have a choice of proceeding to the **Resource account** page and associating a resource account you've already configured, or creating a resource account and associating it to the auto attendant as described in [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md).
+Since your auto attendant is required to have a resource account, you have a choice of proceeding to the **Resource account** page and associating a resource account you've already configured, or creating a resource account and associating it to the auto attendant as described in [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md). You won't be able to use this auto attendant until it has been associated to a resource account. to do this, click the **Next** button at the bottom of the screen and then click on **Resource accounts** in the left navigation to go straight to the Resource accounts page and associate your auto attendant to a resource account.
 
 #### Advanced settings (optional)
 
@@ -269,123 +264,122 @@ Initially, the business hours are defined to start at 12:00 am and end at 12:00 
 You can click **Select 24/7** to make all hours business hours for this auto attendant.
 
 ![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
-Select the **Reset to default** option to unselect all changes in the schedule and define business hours as 9:00 am to 5:00 pm Monday to Friday.
+Select the **Reset to default** option to revert all changes in the schedule and return to the default definition of business hours as 9:00 am to 5:00 pm Monday to Friday.
 
 ![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
-Select **Clear all hours** to completely clear the schedule. Doing this and leaving the hours set like this is a terrible idea.
+Select **Clear all hours** to completely clear the schedule. Selecting this and leaving the hours unset is not recommended, so use this option only if you want to completely redo your business hours.
 
 ![Icon of the number 4,  a callout in the previous screenshot](media/teamscallout4.png)  ![Icon of the number 5,  a callout in the previous screenshot](media/teamscallout5.png)
 To customize start or end time for a day of the week, click on **Start at** or **End at** time you wish to reset and select the new time from the list that appears. The list allows you to select business hours in 15-minute intervals, and the business hours you select here are based on the time zone that you set on the **General info** page.
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)
+![Icon of the number 6,  a callout in the previous screenshot](media/teamscallout6.png)  To set up a break (a lunch break, for example), select **Add new time** for that day of the week to create anew table row, and select new start and end times. You can set multiple breaks within business hours.
 
-To set up a break (a lunch break, for example), select **Add new time** for that day of the week to create anew table row, and select new start and end times. You can set multiple breaks within business hours.
-
-The [Call flow](#call-flow) options available after hours are the same as the options available during business hours.
-
-Scroll down to set up after hours call flow options. 
+The [Call flow](#call-flow) options available after hours are the same as the options available during business hours. Scroll down on the information entry page to set after hours call flow options.
 
 * * *
 
-When you are finished with your selections, click **Next**.
+When you are finished with your selections, click **Next**. You can also click on **Resource accounts** in the left navigation to go straight to the Resource accounts page and associate your auto attendant to a resource account.
 
 ##### Call flow during holidays
 
 <a name="holidaygreetings"> </a>
 
-You can add up to 20 scheduled holidays to each auto attendant.
+You can add up to 20 scheduled holidays to each auto attendant. Your organization may already have defined holidays as described in [Set up holidays in Microsoft Teams](set-up-holidays-in-teams.md). If not you will see the following screen: 
 
+![Screenshot: no holidays configured](media/aa-no-holidays.png)
+
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) To set a custom call flow for a holiday on the auto attendant, click **+ Add** the see the **New holiday call flow** screen.
 > [!TIP]
-> To create Holidays you can go the the screen at **Org-wide settings** > **Holidays** or you can create them when creating a new call flow.
+> To create Holidays you can  go to the screen at **Org-wide settings** > **Holidays**.  
 
-To set a custom call flow for holidays on the auto attendant with no holidays set, click **New call flow** the see the **New holiday call flow** screen.
+
 
 ![Screenshot: add a call handler](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
 * * *
 
-![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)  Enter a **Name** for your new call flow.
 
-Enter a **Name** for your new call flow.
-
-![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
-
-If you've already created holidays, you'll see them in the **Holiday** pull-down menu and can select them. You might see an unused option that you can edit into what you need. If not, click on **+ Add new** to create a new Holiday.  See [Set up holidays in Microsoft Teams](set-up-holidays-in-teams.md) for the steps used to create a holiday. 
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) If you've already created holidays, you'll see them in the **Holiday** pull-down menu and can select them. You might see an unused option that you can edit into what you need. If not, click on **Add** at the bottom of the pull-down list to create a new Holiday.  See [Set up holidays in Microsoft Teams](set-up-holidays-in-teams.md) for the steps used to create a holiday. 
 
 A holiday call flow name can be up to 64 characters long and must be unique for the organization. For example, you can't have two holiday call flows named "Thanksgiving" in the same organization. Your auto attendant can have a call flow for each Holiday you've set up, but you might want to have a common set of behaviors planned other than a customized greeting.
 
-![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png) The [Greetings](#call-flow) options available for a holiday call flow are the same as the options available during business hours. The **Actions** performed after the greeting plays is also similar, except that the only available actions are to **Disconnect** or **Redirect to**, and when choosing the **Redirect to** option the Operator is not one of the available choices. You can't set up a menu specific to a Holiday flow.
 
-The [Call flow](#call-flow) options available after hours are the same as the options available during business hours.
-
-> [!Note]
-> By default, all calls received during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if you want a custom behavior.
+> [!NOTE]
+> By default, all calls received during a holiday period are set to **Disconnect** after the greeting (if any), so you must specify a redirect if you want a custom behavior.
 
 ![Screenshot of the call flows during holidays page](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-Once you have created a Holiday call flow, it will show up on the **Call Flows during holidays** screen. 
+Click on Save to finish creating the Holiday call flow. Once you have created a Holiday call flow, it will show up on the **Call Flows during holidays** screen.
+
+Click on **Next** to set Dial scope, **Back** to make changes to after hour call flows, and **Submit** if you are finished. You can also click on **Resource accounts** in the left navigation to go straight to the Resource accounts page and associate your auto attendant to a resource account.
 
 #### Dial scope
 
 <a name="dialscope"> </a>
 
-
-
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) 
+On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default in an earlier screen. If you have created Dial plans, all users with an extension will be available if **Dial by extension** was selected earlier.
 
-On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default.
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) **Include** The options in this section are either **All online users** or **Custom user groups**
 
-**Dial by name** If you enable this option, callers can search for people in your organization using Directory Search. You can select which users are listed as available or not available for Dial by Name in the other fields. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by Name.
+If you select **All online users**, all eligible users are included in directory search.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
+**Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.
 
-**Include only custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.
 
-If you leave this blank when Dial by Name is enabled, all eligible users are included in directory search.
 
-![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png)
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) **Exclude** The options in this section let you exclude specific users or groups of users from the organization's directory.
 
-**Exclude custom user groups** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
+If you select **None**, all eligible users are included in directory search.
 
-If you leave this blank when Dial by Name is enabled, all eligible users are included in directory search.
+**Custom user group** You can search for an Office 365 Group, distribution list, or security group that has been created in your organization. Users in that group are excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups.
+
+
+If you leave settings at their default when Dial by Name is enabled, all eligible users are included in directory search.
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory. When someone uses Dial by Name with speech recognition, new accounts may not be available for this feature.
 
-After you enter all the required fields and set up call handling menus and options, click **Next**.
+After you enter all the required fields and set up call handling menus and options, click **Next** to proceed to associating a resource account.
 
 #### Resource accounts
 
-A first level auto attendant will definitely need at least one resource account with an associated service number. If you wish, you can assign several resource accounts, each with a separate service number, to an auto attendant.
+All auto attendants must have an associated resource account.  First level auto attendants will definitely need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
+
+If you haven't already configured a resource account to your auto attendant, you would see the following screen: 
 
 ![screenshot: optional resource account management](media/aa-ra-optional.png) 
 
-![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png)
-To add one or more existing and unassigned resource accounts to the auto attendant, click **+ Add resource accounts** and search and select them from the provided dialogs.
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) To add one or more existing and unassigned resource accounts to the auto attendant, click **Add accounts** and search and select them from the provided dialogs.
 
-![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png)
+![screenshot of the new attendant summary view](media/aa-assigned.png)
 
-The resource account created while creating the auto attendant is shown in a list, and designated the **current auto attendant**.
+![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) To add an additional resource account, click on **+ Add account**.
 
-## Edit and test auto attendants
+![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) The resource account or accounts assigned to this auto attendant are shown in a list.
 
-After you save your new auto attendant, it is listed on the **Auto attendants** page. That page allows you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
+## Edit auto attendants
+
+After you save your new auto attendant, it is listed on the **Auto attendants** page. That page allows you to quickly see some of the options that you have set up, including the name, associated resource account, language, and assigned Operator.
+
+![screenshot of the attendant list](media/aa-list.png)
 
 If you want to change auto attendant settings, select the auto attendant, and then in the Action pane click **Edit**.
 
-To quickly place a test call to your auto attendant, click the **Test** button in the Action pane.
+<!-- To quickly place a test call to your auto attendant, click the **Test** button in the Action pane. -->
 
-## Summary view
+<!-- ## Summary view
 
 You can use the Summary page to review the settings you've created.
 
 ![screenshot of the new attendant summary view](media/aa-new-summary.png)
 
-Press the **Create** button to finish setup of your new auto attendant.
+Press the **Create** button to finish setup of your new auto attendant. -->
 
 ### Create an auto attendant with Powershell
 
