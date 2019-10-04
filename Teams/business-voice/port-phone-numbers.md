@@ -27,5 +27,5 @@ After your phone numbers have been moved to Business Voice, you need to assign t
 
 If you need help, let us know! We're here to help you get your phone numbers moved to Business Voice as easy as possible. When you send us a request for help, be sure to include your organization ID (eg. ***contoso***.onmicrosoft.com), what types and how many numbers you need help with, the authorizing person on your account, and a description of the issue or question you have.
 
-- For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).
-- For help with phone numbers in Europe, [send your request](mailto:ptneu@microsoft.com).
+- For help with phone numbers in Canada and the United States, send your request to [ptn@microsoft.com](mailto:ptn@microsoft.com).
+- For help with phone numbers in Europe, send your request to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).
