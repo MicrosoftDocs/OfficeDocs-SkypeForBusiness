@@ -51,9 +51,9 @@ Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review
 
 #### Citrix Virtual Apps and Desktops requirements
 
-Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. This means that With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
+Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
 
-The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA. You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.)
+You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
 
 Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
@@ -245,7 +245,7 @@ You can use the Microsoft Teams admin center or PowerShell to set and assign cal
 
 **Meeting policies**: Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the **AllOn** policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
-**Assign policies using the Microsoft Teams admin center**
+#### Assign policies using the Microsoft Teams admin center
 
 To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:
 
