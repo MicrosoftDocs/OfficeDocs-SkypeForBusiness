@@ -21,8 +21,6 @@ description: Learn how to use and manage policy packages in Microsoft Teams.
 
 # Microsoft Teams policy packages for EDU admins
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 A policy package in Microsoft Teams collects predefined policies and policy settings that you can assign to users with similar roles in your institution. Policy packages simplify, streamline, and help provide consistency when managing policies. In normal practice, you assign each of your users a policy package, and as necessary redefine the policies in each package to suit the needs of that user group. When you update settings in a package, all users assigned to that package are changed as a bulk update.
 
 Educational institutions in general have many user types with unique needs, depending partly on the age and maturity of the students. For example, you may want to grant educators and staff full access to Microsoft Teams, but want to limit Microsoft Teams capabilities for students to encourage a safe and focused learning environment. You can use policy packages to tailor settings based on the needs of different cohorts in your school community.
