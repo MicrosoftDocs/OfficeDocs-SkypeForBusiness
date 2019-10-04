@@ -47,13 +47,13 @@ Using Teams in a virtualized environment requires the following components.
 
 The Teams app is validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
   
-Teams on VDI with AV optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
+Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
 #### Citrix Virtual Apps and Desktops requirements
 
-Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) optimizes Teams on VDI for calling and meeting functionality. The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
+Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. This means that With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
 
-You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.)
+The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA. You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.)
 
 Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
@@ -239,10 +239,11 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 
 #### Set policies to turn on calling and meeting functionality
 
-You can use the Microsoft Teams admin center or PowerShell to assign calling and meeting policies to your users.
+You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.
 
-- **Calling polices**: Calling policies in Teams control which calling features are available to users. Teams includes the built-in **AllowCalling** calling policy, in which all calling features are turned on. You can assign the **AllowCalling** policy to turn on all calling features or create a custom calling policy to turn on the calling features that you want and assign it to users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
-- **Meeting policies**: Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. You can assign the **AllOn** policy to turn on all meeting features or create a custom meeting policy to turn on the meeting features that you want and assign it users in your organization who use Teams in a virtualized environment. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+**Calling polices**: Calling policies in Teams control which calling features are available to users. Teams includes the built-in **AllowCalling** calling policy, in which all calling features are turned on. To turn on all calling features, assign the **AllowCalling** policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. To learn more, see [Calling policies in Teams](teams-calling-policy.md).
+
+**Meeting policies**: Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the **AllOn** policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 **Assign policies using the Microsoft Teams admin center**
 
@@ -268,20 +269,20 @@ Or, you can also do the following:
 
 It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
 
-#### Assign policies to users using PowerShell
+#### Assign policies using PowerShell
 
 Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling policy to users who use Teams in a virtualized environment.
 
 ```
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
 ```
 
 To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
-Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to users who use Teams in a virtualized environment.
+Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to users who use Teams in a virtualized environment.
 
 ```
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 ```
 
 To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
@@ -399,83 +400,49 @@ When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeam
 
 This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
-### Turn off calling functionality
+**Calling polices**: Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the **DisallowCalling** policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
 
-Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
+**Meeting policies**: Teams includes the built-in **AllOff** meeting policy, in which all meeting features are turned off. Assign the **AllOff** policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
-#### Using the Microsoft Teams admin center
+**Assign policies using the Microsoft Teams admin center**
 
-> [!NOTE]
-> To view the settings in the DisallowCalling policy, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**, and then in the list of policies, click **DisallowCalling**.
+To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **Calling policy**, select **DisallowCalling**, and then click **Apply**.
+3. Do the following:
+    1.  Under **Calling policy**, click **DisallowCalling**.
+    2.  Under **Meeting policy**, click **AllOff**.
+4. Click **Apply**.
 
 To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
 
 Or, you can also do the following:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling policies**.
-2. Select **DisallowCalling** by clicking to the left of it.
+1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
+    - Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.
+    - Go to **Meetings** > **Meeting policies**, and then click **AllOff**.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
 
-#### Using PowerShell
+#### Assign policies using PowerShell
 
 Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling policy to users who use Teams in a virtualized environment.
 
-    ```
-    Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
-    ```
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+
 To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
-
-### Turn off meeting functionality
-
-Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
-
-#### Using the Microsoft Teams admin center
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Under **Meeting policy**, select **AllOff**, and then click **Apply**.
-
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Select **AllOff** by clicking to the left of it.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, click **Save**.
-
-#### Using PowerShell
 
 Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to users who use Teams in a virtualized environment.
 
-    ```
-    Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
-    ```
-To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```
 
-+++++
-
-## Known issues and limitations
-
-The following are known issues and limitations for Teams on VDI.
-
-- **Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.
-- **Calling and meetings**:
-
-    - Calling and meeting scenarios aren't optimized for VDI. These scenarios will perform poorly. We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.  
-    - Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization. If users in your organization use non-VDI clients, you can choose to not apply the policies.  
-
-- **Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting. In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.  
-- **Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
-- **Client updates**: Teams on VDI isn't automatically updated with per-machine MSI installation. You have to update the VM image by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You must uninstall the current version to update to a newer version.
-- **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## Related topics
 
