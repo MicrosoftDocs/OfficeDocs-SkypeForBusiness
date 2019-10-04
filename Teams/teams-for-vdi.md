@@ -24,9 +24,9 @@ This article describes the requirements and limitations for using Microsoft Team
 ## What is VDI?
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
-
-Microsoft Teams in a virtualized environment is available with support for chat and collaboration as well as with calling and meeting on Citrix.
  
+Microsoft Teams in a virtualized environment supports chat and collaboration, and with the Citrix platform, calling and meeting functionality is also supported.
+
 Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
  
 Using Teams in a virtualized environment may be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features may not be available in a virtualized environment and video resolution may differ. To ensure an optimal user experience, follow the guidance in this article.
@@ -45,9 +45,9 @@ Using Teams in a virtualized environment requires the following components.
 
 ### Virtualization provider requirements
 
-The Teams app is validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
+We're working to validate the Teams app with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
   
-Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
+Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
 #### Citrix Virtual Apps and Desktops requirements
 
@@ -106,19 +106,19 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 
 ## Teams performance on VDI considerations
 
-There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. Use these guidelines to help optimize your setup based on the workload needs of your organization:
+There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning your setup, consider the following to help to optimize your setup based on the workload needs of your organization:
 
 - Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.
 - Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
 - Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
-- Teams CSS animation
-- Giphy auto-start
+    - Teams CSS animation
+    - Giphy auto-start
 
 ## Install the Teams desktop app on VDI
 
 You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using a per-machine installation.
 
-If you have Office 365 ProPlus, updates to Teams on VDI work the same way as a per-machine installation. You must uninstall the current version to update to a newer version.
+If you have Office 365 ProPlus, similar to updates for a per-machine installation, you must uninstall the current version of Teams to update to a newer version.
 
 To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
 
@@ -179,7 +179,7 @@ Here's a list of supported calling and meeting features.
 - Speed dial
 - Suggested contacts
 - Shared line appearance
-- Enterprise Voice (EV) Dial to PSTN numbers and receive calls to a user's EV PSTN number in Teams
+- Enterprise Voice (EV) dial to PSTN numbers and receive calls to a user's EV PSTN number in Teams
 - Schedule in Outlook and Teams
 - Private and channel meetings
 - Cloud recording
@@ -241,9 +241,9 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 
 You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.
 
-**Calling polices**: Calling policies in Teams control which calling features are available to users. Teams includes the built-in **AllowCalling** calling policy, in which all calling features are turned on. To turn on all calling features, assign the **AllowCalling** policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. To learn more, see [Calling policies in Teams](teams-calling-policy.md).
+**Calling polices**: Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. To learn more, see [Calling policies in Teams](teams-calling-policy.md).
 
-**Meeting policies**: Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in **AllOn** meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the **AllOn** policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+**Meeting policies**: Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 #### Assign policies using the Microsoft Teams admin center
 
@@ -400,9 +400,9 @@ When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeam
 
 This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
-**Calling polices**: Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the **DisallowCalling** policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
+**Calling polices**: Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
 
-**Meeting policies**: Teams includes the built-in **AllOff** meeting policy, in which all meeting features are turned off. Assign the **AllOff** policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+**Meeting policies**: Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 **Assign policies using the Microsoft Teams admin center**
 
