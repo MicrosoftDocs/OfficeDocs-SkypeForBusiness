@@ -176,7 +176,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
 3. Start a tenant Skype for Business remote PowerShell session using your Skype for Business tenant admin credentials, and then run the following cmdlet to set the Mediation Server and Edge Server FQDN to that user account, replacing \<DisplayName\> with the Display Name of the user for the account you created in step 1:
     
    ```
-   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   Set-CsHybridMediationServer -Identity <UserPrincipalName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 
     For Identity, use the Display Name of the Office 365 user account you created for this Mediation Server.
