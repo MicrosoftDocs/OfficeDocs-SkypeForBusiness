@@ -25,7 +25,7 @@ This article describes the requirements and limitations for using Microsoft Team
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
  
-Microsoft Teams in a virtualized environment supports chat and collaboration, and with the Citrix platform, calling and meeting functionality is also supported.
+Microsoft Teams in a virtualized environment supports chat and collaboration, and with the Citrix platform, calling and meeting functionality are also supported.
 
 Teams in a virtualized environment supports multiple configurations. These include VDI, RDHS, dedicated, shared, persistent and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
  
@@ -38,7 +38,7 @@ Using Teams in a virtualized environment requires the following components.
 ![Teams on VDI components](media/teams-for-vdi-components.png)
 
 - **Virtualization broker**: The resource and connection manager to the virtualization provider
-- **Virtual desktop**: Virtual machine (VM) stack, Microsoft Teams
+- **Virtual desktop**: Virtual Machine (VM) stack, Microsoft Teams
 - **Client**: Endpoint that the user physically interfaces with
 
 ## Teams on VDI requirements
@@ -53,7 +53,7 @@ Currently, Teams on VDI with audio/video (AV) optimization is certified with Cit
 
 Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
 
-You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. There's no additional components or plugins that you need to install on CWA or the VDA.
+You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. You don't need to install any additional components or plugins on CWA or the VDA.
 
 Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
@@ -65,7 +65,7 @@ Here are the minimum server and client requirements for Citrix components. For t
 |VDA     |Version 1906      |
 |Microsoft .NET Framework    |Version 4.7.1 or later (installed automatically)        |
 |Microsoft Visual C++   |2013 and 2015 runtimes, 32-bit and 64-bit       |
-|BCR_x64.msi    |MSI that contains the Microsoft Teams optimization code and starts automatically from the GUI. If a command-line interface for the VDA installation is used, don't exclude it.      |
+|BCR_x64.msi    |MSI that contains the Teams optimization code and starts automatically from the user interface. If a command-line interface for the VDA installation is used, don't exclude it.      |
 
 **Client requirements**
 
@@ -106,7 +106,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 
 ## Teams performance on VDI considerations
 
-There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning your setup, consider the following to help to optimize your setup based on the workload needs of your organization:
+There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help to optimize your setup based on the workload needs of your organization:
 
 - Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.
 - Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
@@ -118,9 +118,9 @@ There are variety of virtualized setup configurations, each with a different foc
 
 You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation. With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using a per-machine installation.
 
-If you have Office 365 ProPlus, similar to updates for a per-machine installation, you must uninstall the current version of Teams to update to a newer version.
+If you have Office 365 ProPlus, similar to the update process for a per-machine installation, you must uninstall the current version of Teams to update to a newer version.
 
-To learn more about updates for Teams, see [Teams update process](teams-client-update.md).
+To learn more about Teams updates, see [Teams update process](teams-client-update.md).
 
 ### Deploy the Teams desktop app to the VM
 
@@ -151,7 +151,7 @@ To learn more about updates for Teams, see [Teams update process](teams-client-u
 
 ## Teams on VDI with calling and meeting with the Citrix platform
 
-Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
+In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
 
 The following diagram provides an overview of the architecture.
 
@@ -231,7 +231,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. For steps on how to do this, see [Appendix A: Turn off calling and meeting functionality in Teams](#appendix-a-turn-off-calling-and-meeting-functionality-in-teams).
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. For steps on how to do this, see [Appendix A: Set policies to turn off calling and meeting functionality in Teams](#appendix-a-set-policies-to-turn-off-calling-and-meeting-functionality-in-teams).
 
 ### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
 
@@ -271,7 +271,7 @@ It can take some time (a few hours) for policy changes to propagate. If you don�
 
 #### Assign policies using PowerShell
 
-Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling policy to users who use Teams in a virtualized environment.
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
@@ -279,7 +279,7 @@ Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id�
 
 To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
-Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to users who use Teams in a virtualized environment.
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to a user.
 
 ```
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
@@ -314,13 +314,13 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
 
-Troubleshoot Citrix components
+## Troubleshoot Citrix components
 
 ### Virtual Desktop Agent
 
 The following four services are installed by BCR_x64.msi.
 
-|Service  |Path the .exe file  |Log on as  |Description  |
+|Service  |Path to the .exe file  |Log on as  |Description  |
 |---------|---------|---------|---------|
 |Citrix HDX HTML5 Video Redirection Service     |Program Files (x86)\Citrix\System32\WebSocketService.exe /service         |Local system account         |Provides HTML5 video redirection, Browser content redirection, and Teams redirection with secure WebSocket services        |
 |Citrix HDX Browser Redirection Service    |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g BrowserRedirSvcs          |This account (local service)         |Provides browser content redirection between the endpoint device and the virtual desktop        |
@@ -428,7 +428,7 @@ Or, you can also do the following:
 
 #### Assign policies using PowerShell
 
-Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling policy to users who use Teams in a virtualized environment.
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
@@ -436,7 +436,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email i
 
 To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
-Use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to users who use Teams in a virtualized environment.
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.
 
 ```
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
