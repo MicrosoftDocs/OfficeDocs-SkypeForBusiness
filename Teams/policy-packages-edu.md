@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams policy packages for EDU
+title: Microsoft Teams policy packages for EDU admins
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams. 
 ---
 
-# Microsoft Teams policy packages for EDU
+# Microsoft Teams policy packages for EDU admins
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
