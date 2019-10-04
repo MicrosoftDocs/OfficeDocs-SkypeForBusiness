@@ -21,6 +21,8 @@ f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 
 # Manage emergency calling policies in Microsoft Teams
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 If your organization uses Calling Plans or deployed Phone System Direct Routing, you can use emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call. You can set who to notify and how they are notified when a user who is assigned the policy calls emergency services. For example, you can configure policy settings to automatically notify your organization's security desk and have them listen in emergency calls.  
 
 You manage emergency calling policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](location-based-routing-terminology.md).
