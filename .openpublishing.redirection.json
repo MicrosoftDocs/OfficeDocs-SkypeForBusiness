@@ -2,19 +2,29 @@
   "redirections": [ 
     
     {
-      "source_path": "Teams/manage-emergency-call-routing-policies.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing",
-      "redirect_document_id": false
-      },
-      {
-      "source_path": "Teams/simplified-auto-attendant-settings.md", 
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants", 
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-place-organization", 
       "redirect_document_id": true
       },
     {
-      "source_path": "Teams/manage-emergency-calling-policies.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing",
-      "redirect_document_id": false
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization", 
+      "redirect_document_id": true
+        },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/assign-change-emergency-location-user", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/assign-change-emergency-place-user", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/simplified-auto-attendant-settings.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants", 
+      "redirect_document_id": true
       },
     {
       "source_path": "Teams/customize-meeting-invitations.md",
