@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to test basic functionality of a customer-paired SIP trunk with TBD.
+description: Use this PowerShell script to test basic functionality of a customer-paired SIP trunk with Azure PSTN Edge and Skype Next Gen Core.
 localization_priority: Normal
 ms.collection: 
 - Teams_ITAdmin_Help
