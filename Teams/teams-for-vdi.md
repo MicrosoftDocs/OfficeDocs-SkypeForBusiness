@@ -35,11 +35,9 @@ Using Teams in a virtualized environment may be somewhat different from using Te
 
 Using Teams in a virtualized environment requires the following components.
 
-![Teams on VDI components](media/teams-for-vdi-components.png)
-
-- **Virtualization broker**: The resource and connection manager to the virtualization provider
-- **Virtual desktop**: Virtual Machine (VM) stack, Microsoft Teams
-- **Client**: Endpoint that the user physically interfaces with
+- **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure
+- **Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams
+- **Thin client**: The endpoint that the user physically interfaces with
 
 ## Teams on VDI requirements
 
@@ -91,7 +89,7 @@ With the diverse workloads and user needs in a virtualized environment, the foll
 |RAM     |   4 GB      | 512 to 1024 MB per user        |
 |Storage    | 8 GB        | 40 to 60 GB        |
 
-It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.
+*It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.
 
 #### Non-persistent setup
 
@@ -204,8 +202,6 @@ We're working on adding calling and meeting features that are currently only ava
 
 ### Network requirements
 
-Teams relies on Transport Relay servers in Azure for meetings, multiparty calls, and scenarios where two peers in a point-to-point call don't have direct connectivity. Therefore, the network health between the peer and the Office 365 cloud determines the performance of the call. This also implies that the client requires internet connectivity to use calling.
-
 We recommend evaluating your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
 
 To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md).
@@ -214,7 +210,7 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren’t currently supported in Teams VDI that are in Skype for Business VDI are as follows:
 
-- Control of VDI calling experiences with policies for limiting media bit rate
+- Control of VDI calling experiences with policies for limiting media bitrate
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
 - Screen share from chat without audio
@@ -292,14 +288,14 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 ### Client deployment, installation, and setup
 
 - Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are.  You have to update the VM image at least once a month by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.  
-- MacOs and Linux-based clients are not supported at this time. Support for the Citrix-based platform will be announced by Citrix at a future time.
+- MacOs and Linux-based clients are not supported by Citrix at this time.
 - Dual installation **TBD**
 
 ### Calling and meeting
 
 - Interoperability with Skype for Business is limited to audio calls, no video modality.
 - NoDual Tone Multi Frequency (DTMF) is currently not supported.
-- Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience. This applies only to TAP. 
+- Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience.
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.  
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.
