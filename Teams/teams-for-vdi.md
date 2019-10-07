@@ -283,7 +283,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 ### Calling and meeting
 
 - Interoperability with Skype for Business is limited to audio calls, no video modality.
-- NoDual Tone Multi Frequency (DTMF) is currently not supported.
+- Dual Tone Multi Frequency (DTMF) interaction with telephony systems  is currently not supported.
 - Joining Teams meetings as an anonymous user isn't AV-optimized. The user can join the meeting and have a non-optimized experience.
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.  
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
