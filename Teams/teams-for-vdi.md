@@ -63,11 +63,11 @@ With the diverse workloads and user needs in a virtualized environment, the foll
 
 |Parameter  |Workstation operating system  |Server operation system  |
 |---------|---------|---------|
-|vCPU   |    2 cores     |  *4,6, or 8       |
+|vCPU   |    2 cores     |  4,6, or 8<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
 |RAM     |   4 GB      | 512 to 1024 MB per user        |
 |Storage    | 8 GB        | 40 to 60 GB        |
 
-*It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.
+
 
 #### Non-persistent setup
 
@@ -200,7 +200,7 @@ Or, you can also do the following:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
 
-#### Assign policies using PowerShell
+**Assign policies using PowerShell**
 
 The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
 
@@ -230,7 +230,7 @@ You can use the Microsoft Teams admin center or PowerShell to set and assign cal
 
 [**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.
 
-#### Assign policies using the Microsoft Teams admin center
+**Assign policies using the Microsoft Teams admin center**
 
 To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:
 
@@ -254,7 +254,7 @@ Or, you can also do the following:
 
 It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
 
-#### Assign policies using PowerShell
+**Assign policies using PowerShell**
 
 The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.
 
