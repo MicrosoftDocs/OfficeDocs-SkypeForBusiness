@@ -26,7 +26,7 @@ This article describes some of the limits, specifications, and other requirement
 |Feature    | Maximum limit |
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
-|Number of Groups a user can be a member of|1,000|
+|Number of groups a user can be a member of|1,000|
 |Number of members in a team | 5,000       |
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
