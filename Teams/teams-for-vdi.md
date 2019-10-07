@@ -106,7 +106,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 
 ## Teams performance on VDI considerations
 
-There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help to optimize your setup based on the workload needs of your organization:
+There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help optimize your setup based on the workload needs of your organization:
 
 - Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements.
 - Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
@@ -131,7 +131,7 @@ To learn more about Teams updates, see [Teams update process](teams-client-updat
 
 2. Install the MSI to the VDI VM by running one of the following commands:
 
-    - Per-user installation
+    - Per-user installation  **TBD**
     - Per-machine installation
 
     ```
@@ -197,8 +197,8 @@ The following calling and meeting features are not supported:
 - Background blur and effects
 - Broadcast/live events
 - Location-Based Routing (LBR)
- - Call park
- - Call queue
+- Call park
+- Call queue
 
 We're working on adding calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
 
@@ -293,7 +293,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 - Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are.  You have to update the VM image at least once a month by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.  
 - MacOs and Linux-based clients are not supported at this time. Support for the Citrix-based platform will be announced by Citrix at a future time.
-- Dual installation
+- Dual installation **TBD**
 
 ### Calling and meeting
 
