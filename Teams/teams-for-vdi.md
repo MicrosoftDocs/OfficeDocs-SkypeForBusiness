@@ -53,29 +53,7 @@ Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provi
 
 You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. You don't need to install any additional components or plugins on CWA or the VDA.
 
-Here are the minimum server and client requirements for Citrix components. For the latest requirements, see [this website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
-
-**Server requirements**
-
-|Component  |Requirement  |
-|---------|---------|
-|Operating system   |Windows 10 1607 or later<br>Windows Server 2012 R2 or later        |
-|VDA     |Version 1906      |
-|Microsoft .NET Framework    |Version 4.7.1 or later (installed automatically)        |
-|Microsoft Visual C++   |2013 and 2015 runtimes, 32-bit and 64-bit       |
-|BCR_x64.msi    |MSI that contains the Teams optimization code and starts automatically from the user interface. If a command-line interface for the VDA installation is used, don't exclude it.      |
-
-**Client requirements**
-
-Citrix supports many clients and the clients aren't vendor-specific. Clients must meet these minimum requirements.
-
-|Component  |Requirement  |
-|---------|---------|
-|Workspace app  |Version 1906 or later      |
-|Operating system     |Windows 7, Windows 10 1607 or later<br>32-bit and 64-bit including Embedded editions|
-|CPU   |1.8 to 2.0 GHz quad core CPU that can support 360p nHD resolution during a peer-to-peer video conference call<br> 2.8 GHz quad core CPU that can support 720p HD resolution during a peer-to-peer video conference call|
-|Memory |1 GB RAM    |
-|Storage    |Minimum 600 MB free disk space|
+For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ### Virtual Machine minimum requirements
 
@@ -149,46 +127,9 @@ To learn more about Teams updates, see [Teams update process](teams-client-updat
 
 ## Teams on VDI with calling and meeting with the Citrix platform
 
-In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation.
+In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation. The following diagram provides an overview of the architecture.
 
-The following diagram provides an overview of the architecture.
-
-### Supported calling and meeting features
-
-Here's a list of supported calling and meeting features.
-
-- 1:1 audio/video calls
-- 1:1 group call escalation
-- Multi-call handling
-- Blind transfer
-- Consultative transfer
-- Transfer to PSTN
-- Safe transfer
-- Simultaneous ring
-- Forward to group
-- Call forwarding
-- Group call pickup
-- Call blocking
-- Boss and delegate support
-- Distinctive ring
-- Do not disturb
-- Out of office support
-- Voicemail
-- Speed dial
-- Suggested contacts
-- Shared line appearance
-- Enterprise Voice (EV) dial to PSTN numbers and receive calls to a user's EV PSTN number in Teams
-- Schedule in Outlook and Teams
-- Private and channel meetings
-- Cloud recording
-- Participant management
-- Device selection
-- Mute other participants
-- Desktop screen sharing
-- PowerPoint load and share
-- Whiteboard and meeting notes
-
-The following calling and meeting features are not supported:
+These calling and meeting features are not supported:
 
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
@@ -202,7 +143,7 @@ We're working on adding calling and meeting features that are currently only ava
 
 ### Network requirements
 
-We recommend evaluating your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
+We recommend that you evaluate your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
 
 To learn more about how to prepare your network for Teams, see [Prepare your organization's network for  Teams](prepare-network.md).
 
@@ -227,7 +168,55 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. For steps on how to do this, see [Appendix A: Set policies to turn off calling and meeting functionality in Teams](#appendix-a-set-policies-to-turn-off-calling-and-meeting-functionality-in-teams).
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
+
+#### Set policies to turn off calling and meeting functionality
+
+You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
+
+[**Calling polices**](teams-calling-policy.md): Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. 
+
+[**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. 
+
+**Assign policies using the Microsoft Teams admin center**
+
+To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
+2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
+3. Do the following:
+    1.  Under **Calling policy**, click **DisallowCalling**.
+    2.  Under **Meeting policy**, click **AllOff**.
+4. Click **Apply**.
+
+To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
+
+Or, you can also do the following:
+
+1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
+    - Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.
+    - Go to **Meetings** > **Meeting policies**, and then click **AllOff**.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
+5. When you're finished adding users, click **Save**.
+
+#### Assign policies using PowerShell
+
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```
+
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
 
@@ -237,9 +226,9 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 
 You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.
 
-**Calling polices**: Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. To learn more, see [Calling policies in Teams](teams-calling-policy.md).
+[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. 
 
-**Meeting policies**: Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+[**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.
 
 #### Assign policies using the Microsoft Teams admin center
 
@@ -310,135 +299,11 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
 
-## Troubleshoot Citrix components
+## Troubleshooting
 
-### Virtual Desktop Agent
+#### Troublehoot Citrix components
 
-The following four services are installed by BCR_x64.msi.
-
-|Service  |Path to the .exe file  |Log on as  |Description  |
-|---------|---------|---------|---------|
-|Citrix HDX HTML5 Video Redirection Service     |Program Files (x86)\Citrix\System32\WebSocketService.exe /service         |Local system account         |Provides HTML5 video redirection, Browser content redirection, and Teams redirection with secure WebSocket services        |
-|Citrix HDX Browser Redirection Service    |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g BrowserRedirSvcs          |This account (local service)         |Provides browser content redirection between the endpoint device and the virtual desktop        |
-|Citrix HDX Port Forwarding Service     |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g PortFwdSvcs         |This account (local service)         |Provides port forwarding between the endpoint device and the virtual desktop.         |
-|Citrx HDX Teams Redirection Service     |Program Files (x86)\Citrix\System32\CtxSvcHost.exe" -g TeamsSvcs         |This account (local service)         |         |
-
-Of these, the Citrix HDX Teams Redirection Service and Citrix HDX HTML5 Video Redirection Service are responsible for Teams redirection in the VDA.
-
-#### Citrix HDX Teams Redirection Service
-
-This service establishes the virtual channel used in Teams.
-
-#### Citrix HDX HTML5 Video Redirection Service
-
-This service runs as WebSocketService.exe listening on 127.0.0.1:9002 TCP. WebSocketService.exe performs two main functions:
-
-- TLS termination for secure WebSockets. The service receives a secure WebSocket connection from vdiCitrixPeerConnection.js which is a component inside the Teams app. You can track this using Process Monitor.
-- User session mapping. WebSocketAgent.exe starts in the user’s session in the VDA by WebSocketService.exe (which runs in Session 0 as a LocalSystem account) when the Teams app starts.
-
-WebSocketService.exe listens in two TCP sockets, 127.0.0.1:9001 and 127.0.0.1:9002. Port 9001 is used for browser content redirection and HTML5 video redirection features. Port 9002 is used for Teams redirection.
-
-To check whether the service is in an active listening state in the VDA, you can do the following.
-
-**Option 1**
-
-In a browser, go to [https://127.0.0.1:9002](https://127.0.0.1:9002). Success means there was communication with the service.
-
-**Option 2**
-
-Open the DevTools console in Microsoft Edge, and then do the following:
-1. Type the following:
-
-    ```
-    var exampleSocket = new WebSocket('wss://127.0.0.1:9002');  
-    exampleSocket.onmessage = function(messageEvent) { console.log(JSON.stringify(messageEvent)); };
-    ```
-
-2. Wait a few seconds, and then type the following:
-
-    ```
-    exampleSocket.readyState
-    ```
-
-The expected output is **1**, which indicates that the WebSocket connection was successful. The following table lists the possible outputs.
-
-|  |  |
-|---------|---------|
-|0 (CONNECTING) The connection is not yet open     | 1 (OPEN) The connection is open and ready to communicate      |
-|2 (CLOSING) The connection is in the process of closing   | 3 (CLOSED) The connection is closed or couldn't be opened |
-
-If the output is **3** or if you receive a "failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED [HdxWebRTC.js] Unable to connect to websocket service!" error message, make sure that the Citrix HDX Team Redirection Service is running. Restart, if necessary.
-
-### Citrix Workspace app
-
-When Teams opens in the VDA, CWA for Windows instantiates a new service, HdxTeams.exe, on the user’s endpoint. If you don’t see the HdxTeams.exe  on the user's endpoint, do the following:
-
-1. Check the following:
-    - Make sure the correct version of the CWA is installed. You should install the version that's included in the TAP build.
-    - Make sure that HdxTeams.exe and Webrpc.dll are in the CWA installation folders.
-    - Use Wireshark or TCP View to monitor HdxTeams.exe and analyze the network traffic.
-    - Check whether there are incoming and outgoing packets between the process and the Azure cloud (or another peer).
-
-    If you still don't see the HdxTeams.exe service, go to step 2.
-
-2. Make sure that HdxTeams.exe is running.
-    1. Exit Teams on VDA.
-    2. Start services.msc on VDA, and then stop Citrix HDX Teams Redirection Service.
-    3. Disconnect the ICA session.
-    4. Start Citrix HDX Teams Redirection Service, and then restart Citrix HDX HTML5 Redirection Service.
-    5. Open Teams on VDA.
-
-   If you still don't see the HdxTeams.exe service, go to step 3.
-
-3. Restart the VDA, and then restart the client endpoint.
-
-## Appendix A: Set policies to turn off calling and meeting functionality in Teams
-
-This section describes how to set user-level policies to turn off calling and meeting functionality in Teams. You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
-
-**Calling polices**: Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
-
-**Meeting policies**: Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. To learn more about calling policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
-
-**Assign policies using the Microsoft Teams admin center**
-
-To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Do the following:
-    1.  Under **Calling policy**, click **DisallowCalling**.
-    2.  Under **Meeting policy**, click **AllOff**.
-4. Click **Apply**.
-
-To assign a policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).
-
-Or, you can also do the following:
-
-1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
-    - Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.
-    - Go to **Meetings** > **Meeting policies**, and then click **AllOff**.
-3. Select **Manage users**.
-4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, click **Save**.
-
-#### Assign policies using PowerShell
-
-The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
-```
-
-To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
-
-The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.
-
-```
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
-```
-
-To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+For information on how to troubleshoot the VDA and CWA, see [this Citrix website](https://docs.citrix.com/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ## Related topics
 
