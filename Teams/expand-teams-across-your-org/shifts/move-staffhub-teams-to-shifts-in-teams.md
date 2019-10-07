@@ -182,9 +182,9 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 Here's an example of the response you get when you submit a request to move a StaffHub team to Teams.
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ---------------------------------------    ----------------------------------------    ---------------------------          
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
+ jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+---------------------------------------    ----------------------------------------    ---------------------------          
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 To check the status of a move request, run the following.
@@ -201,9 +201,9 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 Here's an example of the response you get when a move is in progress.
 
 ```
-    jobId                                     status       teamId                                     isO365GroupCreated  Error
-    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
+jobId                                     status       teamId                                     isO365GroupCreated  Error
+----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ### Move files from a StaffHub team to Teams
@@ -262,10 +262,10 @@ Here's an example of the response.
 For any team that was already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ----------------------------------------   -----------------------------------------   --------------------------         
-    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
+jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+----------------------------------------   -----------------------------------------   --------------------------         
+null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### Move specific StaffHub teams
@@ -308,6 +308,24 @@ If the StaffHub teams that you moved contain files that you also want to move to
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. You can run reports that show you overall Teams usage, the types of activities that users perform in Teams, how users connect to Teams, and more. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
 ## Troubleshooting
+
+**How to get more information about failure errors**
+
+Run the following to get more information about "Failure" errors that occur when you try to move a team:
+
+```
+Move-StaffHubTeam -TeamId <TeamId>
+$res = Get-TeamMigrationJobStatus -JobId <JobId>
+$res.Status
+```
+
+You'll see one of the following statuses returned: Success, Failure, InProgress, Queued.
+
+If "Failure" is returned, run the following to get more information about the error:
+
+```
+$res.Result.Error.Innererror
+```
 
 **When you try to move a StaffHub team, the status shows as "Failure" and you receive a "Failed to retrieve applicable SKU categories for the user" error message**
 
