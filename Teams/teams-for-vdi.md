@@ -47,7 +47,7 @@ We're working to validate the Teams app with leading virtualization solution pro
   
 Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
-#### Citrix Virtual Apps and Desktops requirements
+### Citrix Virtual Apps and Desktops requirements
 
 Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
 
@@ -80,7 +80,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.
 - .txt files
 - Media-stack folder
 
-## Teams performance on VDI considerations
+## Teams on VDI performance considerations
 
 There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help optimize your setup based on the workload needs of your organization:
 
@@ -125,7 +125,7 @@ To learn more about Teams updates, see [Teams update process](teams-client-updat
     ```
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
-## Teams on VDI with calling and meeting with the Citrix platform
+## Teams on VDI with calling and meetings
 
 In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation. The following diagram provides an overview of the architecture.
 
@@ -168,7 +168,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. This feature level doesn't require Citrix Virtual Apps and Desktops. 
 
 #### Set policies to turn off calling and meeting functionality
 
@@ -302,6 +302,8 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 ## Troubleshooting
 
 #### Troublehoot Citrix components
+
+#### Troubleshoot Teams on VDI
 
 For information on how to troubleshoot the VDA and CWA, see [this Citrix website](https://docs.citrix.com/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
