@@ -195,16 +195,11 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 > [!NOTE]
 > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands.
 
-![Icon of the number 3, a callout in the previous screenshot](media/teamscallout3.png)
+![Icon of the number 3, a callout in the previous screenshot](media/teamscallout3.png) To set up a menu option, click on the  **+Assign a dial key** and enter information for the following options:
 
-To set up a menu option, click on the  **+Assign a dial key** and enter information for the following options:
+![Icon of the number 4, a callout in the previous screenshot](media/teamscallout4.png)  **Voice command** column for an option can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name is automatically recognized, and the caller is able to press 3, say "three," or say "Customer Service" to select the option mapped to key 3. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to the Operator."
 
-![Icon of the number 4, a callout in the previous screenshot](media/teamscallout4.png) 
-
-**Voice command** column for an option can be up to 64 characters long, and can contain multiple words like "Customer Service" or "Operations and Grounds." If speech recognition is enabled, the name is automatically recognized, and the caller is able to press 3, say "three," or say "Customer Service" to select the option mapped to key 3.
-
-![Icon of the number 5, a callout in the previous screenshot](media/teamscallout5.png)
-The **Redirect to** option sets where the call goes if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to:
+![Icon of the number 5, a callout in the previous screenshot](media/teamscallout5.png)  The **Redirect to** option sets where the call goes if the corresponding key is pressed, or the option is selected using speech recognition. The call can be sent to:
 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
@@ -218,13 +213,14 @@ The **Redirect to** option sets where the call goes if the corresponding key is 
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Icon of the number 6, a callout in the previous screenshot](media/teamscallout6.png) 
-
-**Directory search** In this section, you can enable **Dial by name** and **Dial by Extension** for the auto attendant. You can set who is and is not included in these services in the optional Dial Scope page. Directory search is set to **None** by default.
+![Icon of the number 6, a callout in the previous screenshot](media/teamscallout6.png)  **Directory search** In this section, you can enable **Dial by name** and **Dial by Extension** for the auto attendant. You can set who is and is not included in these services in the optional Dial Scope page. Directory search is set to **None** by default.
 
 **Dial by name** If you enable this option, callers can search for people in your organization using **Dial by name**. They say the user's name and voice recognition matches them to a user. You can set who is and is not included in these services in the optional Dial Scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
 
 **Dial by extension** If you enable this option, callers can connect with users in your organization by entering their phone extension **provided you have configured a Dial plan that uses extensions**. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+
+> [!NOTE]
+> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option 3 if they know the extension of the user, and set option 3 to transfer the call to an auto attendant enabled for Dial by extension. 
 
 * * *
 
