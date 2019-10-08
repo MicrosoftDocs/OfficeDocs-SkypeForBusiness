@@ -224,7 +224,7 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 
 ### Set policies to turn on calling and meeting functionality
 
-You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.
+You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users. It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
 
 [**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. 
 
@@ -251,8 +251,6 @@ Or, you can also do the following:
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
-
-It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
 
 #### Assign policies using PowerShell
 
@@ -303,14 +301,21 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 
 #### Troublehoot Citrix components
 
-For information on how to troubleshoot the VDA and CWA, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-
-#### Troubleshoot Teams on VDI
+#### Troubleshoot Teams on VDI 
 
 **TBD- Need content**
+
+**Users see a blank white screen in Teams**
+
+When users try to run Teams any time after the first time, they see a blank white screen. This occurs with the 64-bit version of Teams with XenApp 7.15 LTSR and XenDesktop 7.5 LTSR on Windows Server 2016.
+
+This issue is caused by Citrix hooks that prevent Teams working as expected. To resolve this issue, add the following registry entry on the VDA host to disable the Citrix hooks for Teams, and then restart Teams:
+
+    HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\teams.exe
 
 ## Related topics
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
-- [Teams PowerShell Overview](teams-powershell-overview.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
