@@ -24,6 +24,8 @@ To curb the number of unused teams, as an admin, you can use [Office 365 Group e
 
 When you apply an expiration policy to a team, a team owner receives a notification for team renewal 30 days, 15 days and 1 day before the team's expiration date. When the team owner receives the notification, they can click **Renew Now** to renew the team.
 
+![Screenshot of the Renew Now button to renew a team in team settings](media/team-expiration.png "Screenshot of the Renew Now button to renew a team in team settings")
+
 If the team owner doesn't renew the team, the team is put in a "soft-deleted" state, which means it can be restored within the next 30 days.
 
 ## Team auto-renewal
