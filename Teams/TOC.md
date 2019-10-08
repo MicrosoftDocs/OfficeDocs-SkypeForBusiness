@@ -28,7 +28,8 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
-## [Archive or delete a Team](archive-or-delete-a-team.md)
+## [Team expiration and renewal](team-expiration-renewal.md)
+## [Archive or delete a team](archive-or-delete-a-team.md)
 
 
 
