@@ -1,5 +1,5 @@
 ---
-title: PowerShell script sample - SIP tester client 
+title: PowerShell script to test Direct Routing SBC sessions in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to test basic functionality of a customer-paired SIP trunk with Azure PSTN Edge and Skype Next Gen Core.
+description: Use this PowerShell script sample to test Direct Routing Session Border Controller sessions in Microsoft TEams
 localization_priority: Normal
 ms.collection: 
 - Teams_ITAdmin_Help
@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 ---
 
-# PowerShell script sample - SIP tester client
+# PowerShell script to test Direct Routing SBC sessions in Microsoft Teams
 
-Use this PowerShell script to test Phone System Direct Routing calling scenarios in Microsoft Teams. This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with TBD.
+Use this PowerShell script to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams. This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk.
 
-This script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format. You can use this script to test the following scenarios:
+The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format. You can use this script to test the following scenarios:
 
 - Outbound and inbound calls
 - Simultaneous ring
