@@ -280,7 +280,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 - MacOs and Linux-based clients are not supported by Citrix at this time.
 - Dual installation **TBD**
 
-### Calling and meeting
+### Calling and meetings
 
 - Interoperability with Skype for Business is limited to audio calls, no video modality.
 - Dual Tone Multi Frequency (DTMF) interaction with telephony systems  is currently not supported.
