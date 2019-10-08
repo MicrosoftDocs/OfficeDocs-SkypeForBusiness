@@ -327,7 +327,9 @@ If you select **All online users**, all eligible users are included in directory
 
 **Custom user groups** This option lets you search for and select an Office 365 Group, distribution list, or security group already created in your organization. Users are added to the directory if they are in the chosen Office 365 Group, distribution list, or security group and they are **Online users with a Phone System license** or hosted on-premises using Skype for Business Server. You can add multiple Office 365 Groups, distribution lists, and security groups to the directory.
 
+<a name="dialscope"> </a>
 
+On this page, you can set up which users in your organization will be listed in your directory and available for Dial by Name when a person that calls in to your organization.
 
 ![Icon of the number 2,  a callout in the previous screenshot](media/teamscallout2.png) **Exclude** The options in this section let you exclude specific users or groups of users from the organization's directory.
 
