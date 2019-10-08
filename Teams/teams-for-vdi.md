@@ -218,7 +218,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 
 To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-## Migrate Teams on VDI with chat and collaboration to Citrix with calling and meetins
+## Migrate Teams on VDI with chat and collaboration to Citrix with calling and meetings
 
 If you have an existing implementation of Teams on VDI with chat and collaboration in which you had set user-level policies to turn off calling and meeting functionality, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on VDI users.
 
