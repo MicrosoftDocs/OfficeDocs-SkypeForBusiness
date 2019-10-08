@@ -8,8 +8,7 @@ ms.topic: article
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
-appliesto: Microsoft Teams
+ms.collection: Teams_ITAdmin_PracticalGuidance
 ms.reviewer: anach
 description: Patients app for Teams admins
 ---
