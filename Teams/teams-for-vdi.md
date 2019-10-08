@@ -170,7 +170,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. This feature level doesn't require Citrix Virtual Apps and Desktops. 
 
-#### Set policies to turn off calling and meeting functionality
+### Set policies to turn off calling and meeting functionality
 
 You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
@@ -178,7 +178,7 @@ You can set policies by using the Microsoft Teams admin center or PowerShell. It
 
 [**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. 
 
-**Assign policies using the Microsoft Teams admin center**
+#### Assign policies using the Microsoft Teams admin center
 
 To assign the DisallowCalling calling policy and the AllOff meeting policy to users, follow these steps:
 
@@ -200,7 +200,7 @@ Or, you can also do the following:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, click **Save**.
 
-**Assign policies using PowerShell**
+#### Assign policies using PowerShell
 
 The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
 
@@ -218,11 +218,11 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 
 To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-### Migrate Teams on VDI with chat and collaboration to Citrix with AV optimization
+## Migrate Teams on VDI with chat and collaboration to Citrix with calling and meetins
 
 If you have an existing implementation of Teams on VDI with chat and collaboration in which you had set user-level policies to turn off calling and meeting functionality, and you're migrating to Citrix with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on VDI users.
 
-#### Set policies to turn on calling and meeting functionality
+### Set policies to turn on calling and meeting functionality
 
 You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users.
 
@@ -230,7 +230,7 @@ You can use the Microsoft Teams admin center or PowerShell to set and assign cal
 
 [**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.
 
-**Assign policies using the Microsoft Teams admin center**
+#### Assign policies using the Microsoft Teams admin center
 
 To assign the AllowCalling calling policy and the AllOn meeting policy to users, follow these steps:
 
@@ -254,7 +254,7 @@ Or, you can also do the following:
 
 It can take some time (a few hours) for policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours.
 
-**Assign policies using PowerShell**
+#### Assign policies using PowerShell
 
 The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.
 
