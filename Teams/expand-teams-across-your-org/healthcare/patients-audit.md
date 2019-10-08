@@ -48,20 +48,22 @@ The Patients app has its own logged activities, listed in the following table:
 |Friendly name |Operation|Description|
 |:---|:---|:---|
 | Viewed patient list | PatientListView | A user viewed a patient list.|
-| Viewed patient details | PatientView | A user viewed a patient record.|
-| Created patient list | PatientListCreate | A user created a list of patients.|
 | Deleted patient list | PatientListDelete | A user deleted a list of patients.|
 | Added patient to list | PatientListAddPatient | A patient was added to a list of patients. |
-| Removed patient from list|PatientListRemovePatient | A patient was removed from a list of patients. |
-| Renamed patient list | PatientListRename | A list of patients was renamed. |
-| Edited a list column | PatientListEditColumns | A column in a list of patients was edited (added or removed). |
 | Added note for patient | PatientNoteAdd | A note was added to a patient record. |
-| Edited patient details | PatientDetailsEdit | A detail on a patient record was edited. |
-| Exported patient data | ExportInitiation | A patient record was exported <!-- from EMR? to where? --> by the app. |
 | Created patient schema | PatientSchemaCreate | A new schema for patients was created. |
+| User initiated an export | ExportInitiation | A patient record was exported <!-- from EMR? to where? --> by the app. |
+| Created patient list | PatientListCreate | A user created a list of patients.|
+| Set default patient list|||
+| Removed patient from list|PatientListRemovePatient | A patient was removed from a list of patients. |
+| Searched patient | PatientSearch | Searched a patient record in the EHR service. |
 | Updated patient schema | PatientSchemaUpdate  | Updated existing schema for patients. |
-| Searched for a patient from EHR | PatientSearch | Searched a patient record in the EHR service. |
-| Connected to EMR  | EHRConnectionSet | Set the EHR FHIR Server connection string. |
+| Moved patient to a different list|||
+| Renamed patient list | PatientListRename | A list of patients was renamed. |
+| Edited columns in patient list | PatientListEditColumns | A column in a list of patients was edited (added or removed). |
+| Viewed patient details | PatientView | A user viewed a patient record.|
+| Edited patient details | PatientDetailsEdit | A detail on a patient record was edited. |
+| Set EHR connection | EHRConnectionSet | Set the EHR FHIR Server connection string. |
 ||||
 
 You can customize your Audit as needed to search for or filter on any of these logged activities.
