@@ -107,7 +107,7 @@ After adding your users to Office 365, enable their accounts for Phone System in
   ```
 
     > [!NOTE]
-    > A user identity can be specified using the user's SIP address, user principal name (UPN), or the user's Active Directory display name (for example, "Bob Kelly"). The asterisk (&ast;) character can also be used with the Display Name as the user Identity. For example, the Identity "Smith" returns all the users who have a display name that ends with the string value " Smith".
+    > A user identity can be specified using the user's SIP address, user principal name (UPN), or the user's Active Directory display name (for example, "Bob Kelly"). The asterisk (&ast;) character can also be used with the Display Name as the user Identity. For example, the Identity "* Smith" returns all the users who have a display name that ends with the string value " Smith".
   
 You can then verify that the users were added and enabled using the following script:
   
