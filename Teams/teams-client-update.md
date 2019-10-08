@@ -3,7 +3,6 @@ title: Teams updates
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -29,8 +28,7 @@ Users can also manually download updates by clicking **Check for updates** on th
 
 Users need to be signed in for updates to be downloaded. 
 
-Starting July 9, 2019, Teams client updates use significantly lower network bandwidth during the update. This is turned on by default and requires no action from admins or users.
-
+Starting July 31, 2019, Teams client updates use significantly lower network bandwidth during the update. This is turned on by default and requires no action from admins or users.
 
 ## What about updates to Office 365 ProPlus?
 
@@ -45,3 +43,27 @@ Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updat
 ## Can admins deploy updates instead of Teams auto-updating?
 
 Teams does not give admins the ability to deploy updates through any delivery mechanism.
+
+## Servicing agreement
+
+As a modern online service, the Teams client auto-updates every two weeks. To ensure users have the latest capabilities, performance enhancements, and service reliability, Teams offers support to desktop clients up to two versions old.
+
+Users on Teams desktop clients that are more than six versions old will encounter a blocking page and are asked to update to the latest version of Teams from [https://teams.microsoft.com/download](https://teams.microsoft.com/download).
+
+Unsupported desktop client versions upon the first install and/or first run of Teams have a 28-day grace period before the above-mentioned servicing information takes effect. This includes users using the Teams desktop client as part of the Office 365 ProPlus bundle
+
+Teams desktop clients on Government Clouds currently have an exception to this servicing agreement until further notice.
+
+### What versions are currently supported?
+
+When Teams releases an update of the desktop client, the minimum supported version changes. Teams desktop clients that earlier than the following version numbers are not supported:
+
+- Windows: 1.2.00.1758
+- Mac: 1.2.00.1761
+
+Teams desktop clients that are earlier than the following version numbers are blocked:
+
+- Windows: 1.2.00.1758
+- Mac: 1.2.00.1761
+
+To avoid any disruption to your users' service, update to the latest version of the Teams desktop client.
