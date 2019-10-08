@@ -33,7 +33,7 @@ There are two methods for migrating an existing organization with Skype for Busi
 
 - **A side-by-side method**, using Islands mode, in which users in the organization continue to use both Skype for Business and Teams until the migration is complete and all users are in TeamsOnly mode.  With this approach, users have access to most, but not all, Teams functionality until the migration is complete.
 
-- **A phased method**, using one of the Skype for Business modes, in which users continue to use Skype for Business for core functionality, such as chat and calling, while using Teams for other functionality, such as Meetings. With this approach, you will progressively move more and more users to TeamsOnly mode until the migration is complete.  Users in the Skype for Business modes can continue to communicate with one another via client interoperability, but a given set of functionality, such as chat and calling, is available to them only in one client.
+- **A phased method**, using one of the Skype for Business modes, in which users continue to use Skype for Business for Unified Communications functionality, such as chat and calling, while using Teams for other functionality. With this approach, you will progressively move users to TeamsOnly mode until the migration is complete.  Users in the Skype for Business modes can continue to communicate with one another via client interoperability, but a given set of functionality, such as chat and calling, is available to them only in one client.
 
 This article helps you choose the right method for your organization by describing the pros and cons of both methods.
 
