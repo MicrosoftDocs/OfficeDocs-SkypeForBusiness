@@ -18,8 +18,6 @@ appliesto:
 ---
 # Microsoft Teams PSTN minute pools report
 
->[!INCLUDE [new-feature-coming-soon-article](../includes/new-feature-coming-soon-article.md)]
-
 The Teams PSTN minute pools report in the Microsoft Teams admin center gives you an overview of audio conferencing and calling activity in your organization by showing you the number of minutes consumed during the current month. You can see a breakdown of activity including the license used for calls, total minutes available, used minutes, and license usage by location.
 
 ## View the report
