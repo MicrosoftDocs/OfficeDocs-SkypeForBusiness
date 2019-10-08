@@ -53,7 +53,7 @@ Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provi
 
 You can download the latest version of Citrix Virtual Apps and Desktops [here](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the Citrix Workspace app (CWA) and Virtual Delivery Agent (VDA) by default. You don't need to install any additional components or plugins on CWA or the VDA.
 
-For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ### Virtual Machine minimum requirements
 
@@ -107,7 +107,7 @@ To learn more about Teams updates, see [Teams update process](teams-client-updat
 
 2. Install the MSI to the VDI VM by running one of the following commands:
 
-    - Per-user installation  **TBD**
+    - Per-user installation  ***TBD- Need content**
     - Per-machine installation
 
     ```
@@ -168,7 +168,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. This feature level doesn't require Citrix Virtual Apps and Desktops. 
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. This feature level doesn't require Citrix Virtual Apps and Desktops.
 
 ### Set policies to turn off calling and meeting functionality
 
@@ -276,9 +276,9 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 ### Client deployment, installation, and setup
 
-- Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are.  You have to update the VM image at least once a month by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.  
+- With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - MacOs and Linux-based clients are not supported by Citrix at this time.
-- Dual installation **TBD**
+- Dual installation **TBD- Need content**
 
 ### Calling and meetings
 
@@ -303,9 +303,12 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 
 #### Troublehoot Citrix components
 
+For information on how to troubleshoot the VDA and CWA, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+
+
 #### Troubleshoot Teams on VDI
 
-For information on how to troubleshoot the VDA and CWA, see [this Citrix website](https://docs.citrix.com/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+**TBD- Need content**
 
 ## Related topics
 
