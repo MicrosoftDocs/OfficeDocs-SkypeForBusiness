@@ -38,7 +38,7 @@ Using Teams in a virtualized environment requires the following components.
 - **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure
 - **Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams
 - **Thin client**: The endpoint that the user physically interfaces with
-- **Teams desktop app**: This is the Teams on VDI desktop client app
+- **Teams desktop app**: This is the Teams desktop client app
 
 ## Teams on VDI requirements
 
@@ -56,11 +56,17 @@ You can download the latest version of Citrix Virtual Apps and Desktops [here](h
 
 For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-### Virtual Machine minimum requirements
+## Install the Teams desktop app on VDI
+
+You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI package. Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.
+For a dedicated persistent setup, either approach would work.  However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
+
+With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
 
 #### Dedicated persistent setup
 
-With the diverse workloads and user needs in a virtualized environment, the following is the recommended minimum VM configuration.
+Dedicated persistent setup retains the user local OS changes, and hence 'persists' after user log off.
+The following is the recommended minimum VM configuration.
 
 |Parameter  |Workstation operating system  |Server operation system  |
 |---------|---------|---------|
@@ -70,6 +76,7 @@ With the diverse workloads and user needs in a virtualized environment, the foll
 
 #### Non-persistent setup
 
+Non-persistent setups do not retain OS changes once the user logs off; hence it is non-persistent.  Such setups are commonly shared multi users sessions.  VM configuration varies based on number of users and available physical box resources.
 For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section). This ensures an efficient launch of the Teams app during a user session. Using Teams with a non-persistent setup also requires a caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.  There are variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/en-us/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
 ##### Teams cached content exclusion list for non-persistent setup
@@ -78,23 +85,6 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. 
 
 - .txt files
 - Media-stack folder
-
-## Teams on VDI performance considerations
-
-There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help optimize your setup based on the workload needs of your organization:
-
-- Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements. For example, workloads for developers who use applications that demand more computing resources.
-- Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
-- Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
-    - Teams CSS animation
-    - Giphy auto-start
-
-## Install the Teams desktop app on VDI
-
-You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI. Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.
-For a dedicated persistent setup, either approach would work.  However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
-
-With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
 
 ### Office 365 ProPlus considerations
 
@@ -151,6 +141,16 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
     msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
     ```
     This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
+
+## Teams on VDI performance considerations
+
+There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help optimize your setup based on the workload needs of your organization:
+
+- Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements. For example, workloads for developers who use applications that demand more computing resources.
+- Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
+- Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
+    - Teams CSS animation
+    - Giphy auto-start
 
 ## Teams on VDI with calling and meetings
 
