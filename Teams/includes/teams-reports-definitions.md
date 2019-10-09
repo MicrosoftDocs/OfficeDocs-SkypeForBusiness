@@ -1,5 +1,6 @@
-The Teams reports show data for active users and active channels. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
+## Definitions
 
+The Teams reports show data for active users and active channels. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
 
 |Item  |Definition  |
 |---------|---------|
