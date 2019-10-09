@@ -62,7 +62,7 @@ The Patients app has its own logged activities, listed in the following table:
 | Edited columns in patient list | PatientListEditColumns | A column in a list of patients was edited (added or removed). |
 | Viewed patient details | PatientView | A user viewed a patient record.|
 | Edited patient details | PatientDetailsEdit | A detail on a patient record was edited. |
-| Set EHR connection | EHRConnectionSet | Set the URL used to connect to the EHR FHIR Service connection. Example: <span>https://api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
+| Set EHR connection | EHRConnectionSet | Set the URL used to connect to the EHR FHIR Service connection. Example: https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
 ||||
 
 You can customize your Audit as needed to search for or filter on any of these logged activities.
