@@ -18,7 +18,7 @@ appliesto:
 
 # PowerShell script to test Direct Routing SBC sessions in Microsoft Teams
 
-Use this PowerShell script to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams. This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk.
+Use this PowerShell script to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams. The script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk.
 
 The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format. You can use this script to test the following scenarios:
 
