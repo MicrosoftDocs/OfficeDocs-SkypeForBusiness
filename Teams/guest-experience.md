@@ -49,6 +49,7 @@ The following table compares the Microsoft Teams functionality available for an 
 |Create a team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Discover and join a public team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |View organization chart  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Use inline translation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 The following table shows the calling and meeting features available to guests.
 
