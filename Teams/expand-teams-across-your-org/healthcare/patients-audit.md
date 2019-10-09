@@ -51,19 +51,18 @@ The Patients app has its own logged activities, listed in the following table:
 | Deleted patient list | PatientListDelete | A user deleted a list of patients.|
 | Added patient to list | PatientListAddPatient | A patient was added to a list of patients. |
 | Added note for patient | PatientNoteAdd | A note was added to a patient record. |
-| Created patient schema | PatientSchemaCreate | A new schema for patients was created. |
-| User initiated an export | ExportInitiation | A patient record was exported <!-- from EMR? to where? --> by the app. |
+| Created patient schema | PatientSchemaCreate | A set of columns used in the patient record was created. |
+| User initiated an export | ExportInitiation | Patient data was exported from the Patients app into an Excel file. The file will be saved in the Team sharepoint site. |
 | Created patient list | PatientListCreate | A user created a list of patients.|
-| Set default patient list|||
-| Removed patient from list|PatientListRemovePatient | A patient was removed from a list of patients. |
+| Set default patient list| PatientListDefaultSet| A user set a particlular list as the default list.|
+| Removed patient from list| PatientListRemovePatient | A patient was removed from a list of patients. |
 | Searched patient | PatientSearch | Searched a patient record in the EHR service. |
-| Updated patient schema | PatientSchemaUpdate  | Updated existing schema for patients. |
-| Moved patient to a different list|||
+| Updated patient schema | PatientSchemaUpdate  | Updated an existing set of columns used in the patient record. |<!-- | Moved patient to a different list| PatientMoved | The patient record was moved from one list to another. |-->
 | Renamed patient list | PatientListRename | A list of patients was renamed. |
 | Edited columns in patient list | PatientListEditColumns | A column in a list of patients was edited (added or removed). |
 | Viewed patient details | PatientView | A user viewed a patient record.|
 | Edited patient details | PatientDetailsEdit | A detail on a patient record was edited. |
-| Set EHR connection | EHRConnectionSet | Set the EHR FHIR Server connection string. |
+| Set EHR connection | EHRConnectionSet | Set the URL used to connect to the EHR FHIR Service connection. Example: <span>https://api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
 ||||
 
 You can customize your Audit as needed to search for or filter on any of these logged activities.
