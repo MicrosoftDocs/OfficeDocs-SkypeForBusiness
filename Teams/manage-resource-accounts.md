@@ -22,12 +22,9 @@ description: "Learn about managing resource accounts in Microsoft Teams"
 
 # Manage resource accounts in Microsoft Teams
 
-A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on Skype for Business Server 2019.
+A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
 
 In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
-
-> [!IMPORTANT]
-> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
 
 ![example of resource accounts and user licenses](media/resource-account.png)
 
@@ -119,7 +116,8 @@ Next, apply a license to the resource account in the O365 Admin center, as descr
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option. Click **Save** when you are done.
 ![Screenshot of the Edit resource account option](media/r-a-edit.png)
 
-<a name="phonenumber"></a>
+<a name="phonenumber"> </a>
+
 ### Assign/Unassign phone numbers and services
 
 ![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
@@ -128,6 +126,9 @@ To assign a direct routing or hybrid number to a resource account you will need 
 
 > [!IMPORTANT]
 > If your resource account doesn't have a valid license, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a call queue or auto attendant.
+
+> [!IMPORTANT]
+> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
 
 ![Screenshot of the Assign/unassign options](media/r-a-assign.png)
 

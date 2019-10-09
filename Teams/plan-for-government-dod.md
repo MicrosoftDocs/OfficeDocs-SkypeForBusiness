@@ -103,7 +103,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | VoIP call | Available |
 | | Skype for Business - Teams calling | Available |
 | | Calling Plans | Not Available |
-| | Audio conferencing (by allowing meeting participants to join via PSTN) | On the Government backlog |
+| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
 | | Microsoft Phone System direct routing | On the Government backlog |
 | | Lobby for PSTN callers | On the Government backlog |
 | | Call queue | On the Government backlog |
