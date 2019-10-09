@@ -56,7 +56,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 Introduced in this update:
 
 - Windows 10 1903 support. Windows 10 1903 update is offered in a few days after app update
-- Fixes for On-screen keyboard not showing up realiably
+- Fixes for On-screen keyboard not showing up reliably
 
 ### 4.1.22.0 (08/15/2019)
 
