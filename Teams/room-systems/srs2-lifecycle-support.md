@@ -28,7 +28,7 @@ All support ends after the twelve (12) month lifecycle for a version has expired
 
 All releases are listed in the [Microsoft Teams Rooms release notes](srs2-release-note.md).
 
-# OS Version support
+## OS Version support
 
 Windows 10 feature updates for devices running Microsoft Teams Rooms are not offered for six months from the time when Windows makes a release update. This is accomplished by putting a special block for Microsoft Teams Rooms devices on Windows Update for Business channel (that is, Semi-Annual Channel) and through the app settings. During this blocked period Microsoft performs various tests both in-house and through our device OEM partners to make sure that new Windows 10 feature release is working in harmony with the Microsoft Teams Rooms app and peripherals connected to it. This is important to both ensure device security, consistent user experience and to make sure quality of experiences offered through Microsoft Teams Rooms app. 
 
