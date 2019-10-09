@@ -38,13 +38,13 @@ Using Teams in a virtualized environment requires the following components.
 - **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure
 - **Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams
 - **Thin client**: The endpoint that the user physically interfaces with
-- **Teams desktop app**: This is the Teams on VDI desktop client app 
+- **Teams desktop app**: This is the Teams on VDI desktop client app
 
 ## Teams on VDI requirements
 
 ### Virtualization provider requirements
 
-Teams desktop client app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
+The Teams desktop app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure minimum requirements are met.
   
 Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
@@ -68,16 +68,13 @@ With the diverse workloads and user needs in a virtualized environment, the foll
 |RAM     |   4 GB      | 512 to 1024 MB per user        |
 |Storage    | 8 GB        | 40 to 60 GB        |
 
-
-
 #### Non-persistent setup
 
-For non-persistent setup, it is required to have have Teams client app installer per-machine (see below section for further details) to the golden image.  This will ensure an efficient launch of Teams app during a user session.
-The use of Teams with non-persistent setups also requires the configuration of a caching manager to ensure efficient Teams runtime data sync.  This will ensure the appropriate user-specific information (e.g., user data, profile, and setting) are cached during the user session.  There are variety of solutions available. An example of a caching manager is FSLogix (https://docs.microsoft.com/en-us/fslogix/overview).  Please consult your caching manager provider for specific configufation instruction.
+For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section). This ensures an efficient launch of the Teams app during a user session. Using Teams with a non-persistent setup also requires a caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.  There are variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/en-us/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
-##### Teams cached content exclusion list for non-persistent setups
+##### Teams cached content exclusion list for non-persistent setup
 
-Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.  Excluding these will help reduce the user chaching size for further non-persistent setup optimization.
+Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams.  Excluding these help reduce the user caching size to further optimize your non-persistent setup.
 
 - .txt files
 - Media-stack folder
@@ -86,7 +83,7 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. 
 
 There are variety of virtualized setup configurations, each with a different focus for optimization. For example, user density. When planning, consider the following to help optimize your setup based on the workload needs of your organization:
 
-- Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements. For example, workloads for development workers using application demanding more computing resources.
+- Minimum requirement: Some workloads may require a setup using resources that are above the minimum requirements. For example, workloads for developers who use applications that demand more computing resources.
 - Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
 - Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
     - Teams CSS animation
@@ -94,19 +91,32 @@ There are variety of virtualized setup configurations, each with a different foc
 
 ## Install the Teams desktop app on VDI
 
-You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI. Deciding on the approach depends on the setup along with desired functionality.
-For dedicated persistent setups, either approach would work.  However, for non-persistent setups, per-machine installation is required for Teams to function efficiently (refer to section on non-persistent requirements).
+You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI. Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.
+For a dedicated persistent setup, either approach would work.  However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
 
-With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using a per-machine installation.
+With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
 
-## Office 365 ProPlus Considerations
-Office 365 ProPlus deploys Teams per-user only.  Therefore, to deploy Teams through Office 365 ProPlus, you must uninstall the current (per-machine or per-user) version, if previoulsly deployed, of Teams to update to a newer version. 
+### Office 365 ProPlus considerations
 
-To keep Teams deployed per-machine, deploying Teams thrugh the Office 365 ProPlus should be excluded.  To learn more about Teams and Office 365 ProPlus, see https://docs.microsoft.com/en-us/deployoffice/teams-install
+Consider the following when you deploy Teams with Office 365 ProPlus on VDI.
 
-Updates of Teams with Office 365 ProPlus - you must uninstall the current version of Teams to update to a newer version.
+#### New deployments of Teams through Office 365 ProPlus
 
-To learn more about Teams updates, see [Teams update process](teams-client-update.md).
+Before you deploy Teams through Office 365 ProPLus, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.
+
+Teams through Office 365 ProPlus is installed per-user. To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.
+
+#### Teams deployments through Office 365 ProPlus updates
+
+Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see XYZ and the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.
+
+#### Using Teams with per-machine installation and Office 365 ProPlus
+
+Office 365 ProPlus doesn't support per-machine installations of Teams. To use per-machine installation, you must exclude Teams from Office 365 ProPlus. See the [Deploy the Teams desktop app to the VM](#deploy-the-teams-desktop-app-to-the-vm) and [How to exclude Teams deployment through Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) sections.
+
+#### How to exclude Teams deployment through Office 365 ProPlus
+
+To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from new installations of Office 365 ProPlus](https://docs.microsoft.com/en-us/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](https://docs.microsoft.com/en-us/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### Deploy the Teams desktop app to the VM
 
@@ -119,20 +129,21 @@ To learn more about Teams updates, see [Teams update process](teams-client-updat
 
     - Per-user installation  (default)
   
-    ```
-    msiexec /i <path_to_msi> /l*v <install_logfile_name>
-    ```
-    This is the default installation, which  installs Teams to the %AppData% user folder. At this point, the golden image setup is complete.  Teams will not perform properly when installing per-user on non-persistent setups.
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        ```
+    
+        This is the default installation, which installs Teams to the %AppData% user folder. At this point, the golden image setup is complete. Teams will not work properly with per-user installation on a non-persistent setup.
     
     - Per-machine installation
 
-    ```
-    msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-    ```
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        ```
 
-    This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete.  Installing Teams per-machine is required for non-persistent setups.
+        This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete. Installing Teams per-machine is required for non-persistent setups.
  
-    The next interactive logon session starts Teams and asks for credentials.
+        The next interactive logon session starts Teams and asks for credentials.
 
 3. Uninstall the MSI from the VDI VM by running the following command:
 
@@ -292,7 +303,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - MacOs and Linux-based clients are not supported by Citrix at this time.
-- Dual installation **TBD- Need content**
+- Dual installation 
 
 ### Calling and meetings
 
@@ -320,8 +331,6 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 #### Troubleshoot Teams on VDI
-
-**TBD- Need content**
 
 ## Related topics
 
