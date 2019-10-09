@@ -43,6 +43,8 @@ The following settings are of special interest for Healthcare applications, and 
 
 ## Priority notifications
 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 - ![Icon of the number 2, referencing a callout in the previous screenshot](../../media/sfbcallout2.png) **Users can send priority notifications** A user can mark a message as "Urgent" when sending chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications notify users every two minutes for up to 20 minutes or until the message is picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.
