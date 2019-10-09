@@ -59,7 +59,7 @@ If your institution has hundreds, or even thousands of users, you may be asking 
 
 Assigning packages to hundreds of users is an investment in administrative time, without question. An important thing about investments is that they pay off over time, rather than immediately.
 
-In an educational environment, there are many users with the same or similar roles. You expend less effort over time when you manage their user experience the same way. Packages group a set of policies specific to the various roles in the institution. Users with the same license, but different roles, can have relevant policies assigned based on their role, which is more efficient than tweaking policies for individual users.
+In an educational environment, there are many users with the same or similar roles. You spend less effort over time when you manage their user experience the same way. Packages group a set of policies specific to the various roles in the institution. Users with the same license, but different roles, can have relevant policies assigned based on their role, which is more efficient than tweaking policies for individual users.
 
 Once you have all users in the institution sorted into groups and have packages applied, managing them from then on is a matter of changing the package settings once for all users assigned to the package. You can choose to fine-tune the policies within a package before or after assigning users to the package.
 
