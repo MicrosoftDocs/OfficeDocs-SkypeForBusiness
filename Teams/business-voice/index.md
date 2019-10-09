@@ -116,9 +116,9 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Resources for partners</h3>
-                                                <P><a href="get-microsoft-365-business.md" target="_blank">Get Microsoft 365 Business from Partner center</a></p>
-                                                <P><a href="https://www.microsoft.com/microsoft-365/partners/business" target="_blank">Microsoft 365 partner page</a></p>
-                                                <P><a href="https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck" target="_blank">Microsoft 365 Business licensing deck</a></p>
+                                                <P><a href="/partner-center" target="_blank">Get Microsoft 365 Business from Partner center</a></p>
+                                                <P><a href="/microsoft-365/partners/smb#teamwork" target="_blank">Microsoft 365 Business for Partners</a></p>
+                                                <p><a href="partner-resources" target="_blank">Microsoft 365 Business Voice Partner Deployment & Support Resources</a>
                                             </div>
                                         </div>
                                     </div>
@@ -140,8 +140,6 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <div class="cardText">
                                                     <h3>Need help?</h3>
                                                     <P>Find a partner</a></p>
-                                                    <p><a href="https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck" target="_blank">Microsoft 365 Business Voice licensing deck</a>
-                                                    <p><a href="https://partner.microsoft.com/en-us/support/partnersupport" target="_blank">Compare partner support plans</a>
                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contact support for Office 365</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Small and medium business tech community</a></p>
                                                 </div>

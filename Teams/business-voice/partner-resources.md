@@ -17,7 +17,8 @@ appliesto:
 
 # Microsoft 365 Business Voice partner resources
 
-This article is for Microsoft partners who are reselling Business Voice or who are implementing in on behalf of customers.
+Use this article to direct technical guidance and resources in order to plan, deploy and support Microsoft 365 Business Voice.  The article principally focuses on Business Voice and calling.  Before you deploy Business Voice, you should have a foundation in the deployment and support of Microsoft Teams.  
+This provides a concise resource for technical delivery and support personnel to consult when new to Business Voice.  Use this guide to assist with building your knowledge on Business Voice, coupled with the fundamentals of deploying and supporting Business Voice.
 
 - [Teams practical guidance](../cloud-voice-landing-page.md)
 - [Pre-assessment and planning](../3-envision-evaluate-my-environment.md)
