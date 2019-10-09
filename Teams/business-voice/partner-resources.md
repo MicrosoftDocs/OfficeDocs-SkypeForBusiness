@@ -27,3 +27,4 @@ This provides a concise resource for technical delivery and support personnel to
 - [Support](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
 - [Troubleshooting](../connectivity-issues.md)
 - [Partner support plans](https://partner.microsoft.com/support/partnersupport)
+- [Microsoft Teams Service Provider](https://aka.ms/teamsserviceproviderguide)
