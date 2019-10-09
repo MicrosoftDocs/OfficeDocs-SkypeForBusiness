@@ -38,6 +38,7 @@ Using Teams in a virtualized environment requires the following components.
 - **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure
 - **Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams
 - **Thin client**: The endpoint that the user physically interfaces with
+- **Teams Desktop Client App**: This is the Teams on VDI desktop client App 
 
 ## Teams on VDI requirements
 
