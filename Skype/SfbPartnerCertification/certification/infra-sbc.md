@@ -41,7 +41,7 @@ These session border controllers that are certified for Skype for Business.
 | | GX 9K SBC | |7.00A.044.007 |
 | | GX SW SBC | |7.20A.000.042 |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise/products/session-border-controller/index.html)| Net-Net 3820| |ECX6.4.0 MR-5 GA (Build 455) &Dagger; |
-| | Oracle Enterprise SBC AP4600 | &#x2714; |ECZ7.5.0 Patch 2 (Build 143) |
+| | Oracle Enterprise SBC AP4600 | &#x2714; |ECZ7.5.0 Patch 2 <br/> (Build 143) |
 | [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business) |SBC SWe | <br/> &#x2714; | 4.2.4 <br/> 05.01.00-R000 |
 | | SWe Lite | &#x2714; | 6.1.2 |
 | | SBC 1000 | <br/> &#x2714; | 5.0.0.395 <br/> 6.1.0 Build 457 |
