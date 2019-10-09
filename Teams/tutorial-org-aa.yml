@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Small business example - Set up an Auto Attendant 
+title: Small business example — Set up an Auto Attendant 
 metadata:
-  title: Small business example - Set up an Auto Attendant
+  title: Small business example — Set up an Auto Attendant
   description: For IT admins, plan Auto Attendants across your organization.
   audience: IT Pro
   level: Intermediate
@@ -30,22 +30,23 @@ items:
   content: |
     
     [Microsoft Teams](/MicrosoftTeams/Teams-overview) and [Skype for Business Online](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
-    are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
-    [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and PBX capabilities in the Office 365 cloud. The license 
-    is available as an add-on or as part of the Enterprise E5 licenses. Licensing details are at 
-    [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+    are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. 
+    They both require [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) licenses to enable call control and 
+    PBX capabilities in the Office 365 cloud. The license is available as an add-on or as part of the Enterprise E5 licenses. 
+    Licensing details are at [Skype for Business add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
     A Phone System license allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include 
     voicemail, Call Queues, and [Auto Attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them 
-    to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your 
-    organization using the Skype for Business admin center.
+    to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. 
+    You create an Auto Attendant system for your organization with the Microsoft Teams admin center.
     
-    If you are asked to set up an Auto Attendant, this article provides an illustration of planning and implementing Auto Attendants for a hypothetical small business. 
-    It's not a one-size-fits-all solution, it's intended as an illustration of the thought process behind creating a functioning structure of several auto attendants. 
+    If you are asked to set up an Auto Attendant, this article provides an illustration of a plan, design, and implementation process
+    illustration for Auto Attendants in a hypothetical small business. This is not a one-size-fits-all solution, rather the 
+    thought process behind a functioning structure of several auto attendants. 
   
     ## Before you begin
 
-    We assume you've already done the following: 
+    This tutorial assumes you've already done these tasks: 
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) to provide phone numbers to your users.
     - [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
     - Reviewed [What are Cloud Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants) to get a 
@@ -162,7 +163,7 @@ items:
     You'll probably also want  an Auto Attendant to represent the hours and location recording (if you’re choosing to use one), 
     and additional Auto Attendants as needed to cover the needs of your callers. If possible, use a different color of note to represent Auto Attendants.
     3.	Place the main Auto Attendant note on your board space, if any of the top options go directly to a single employee put their note to the right of the note representing the attendant. 
-    4.	It’s unlikely all the options will fit on a the Main Auto Attendant menu, so think about which additional attendants might be needed and how they might nest under the main attendant.  
+    4.	It’s unlikely all the options will fit on the Main Auto Attendant menu, so think about which additional attendants might be needed and how they might nest under the main attendant.  
     5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to the Call Queue.
     Place notes representing the users in the queue to the right of the note representing the queue, or over the top of it (whichever is clearer to you).
 
@@ -170,7 +171,7 @@ items:
 
     ![Diagram of Auto Attendants at a lawyer's office](media/AA-LawyerOfficeExample.png)
 
-    The example in the diagram takes into account the reasons the office's customers call, and the do and don't recommendations. Even in a small 
+    The example in the diagram takes into account the reasons the office's customers call, and the "do and don't" recommendations. Even in a small 
     office, the complexity of an Auto Attendant can grow quickly.   You might notice the following things about the design chosen here:
     
     - The most common reason for calling was to schedule appointments, so it was listed first. The other reasons to call are given as options in 
@@ -210,7 +211,7 @@ items:
     2.	Use multilingual prompts, but put the secondary language or languages at the end of the first set of options.
     3.	Present the option, then the number to press ("For Sales, press 3"). When the caller hears the option they want, their attention immediately focuses, so 
     that's the time to tell them what will get them there.
-    4.	Make sure the voice for the prompts leaves the impression you want and is clearly understandable.  Phone System has a built in text to speech 
+    4.	Make sure the voice for the prompts leaves the impression you want and is clearly understandable.  Phone System has a built-in text to speech 
     engine which gives you the option of entering your final text and deciding for yourself whether it's conveying the impression you want. If not, 
     recording an audio prompt is fully supported. If the voice mumbles, sounds condescending, or has other issues, keep looking.
     5.	Mention significant changes to your option structure when that happens, but don't leave that part of the greeting active for more than a month. If you 
@@ -225,25 +226,26 @@ items:
     Text to speech engines don't usually do well with abbreviations.
     5.	Include sales information in the scripts, you'll annoy your callers. Let your sales force take care of that sort of thing.
 
-    And finally, if your company has a slogan, think twice about including it in the script at all. Chances are your callers have heard it before if they're calling 
-    you. If you do include it, put it somewhere it brings the Auto Attendant experience to a close, like when transferring to an individual's desk line or voicemail. 
+    And finally, if your company has a slogan, think twice about including it in the script at all. Chances are your callers have 
+    heard the slogan before if they're calling you. If you do include a slogan, put it somewhere near the close of the Auto Attendant experience to a close, like when 
+    The auto attendant transfers the call to a  desk line or voicemail. 
     If you’ve had a slogan or tag line for a long time that many of your customers know, it might or might not be worth including. The "golden rule" here is to connect the caller to a person as efficiently as possible.
 
     ### Sample Auto Attendant scripts
 
     > [!Important]
-    > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
-    "Repeat" and \# will correspond with the "Back" voice commands.
+    > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* is equivalent to  
+    "Repeat" and \# is equivalent to the "Back" voice commands.
 
-    These scripts reflect the design we chose earlier, and the suggested guidelines for writing Auto Attendant scripts. 
+    These scripts reflect the design chosen earlier, and the suggested guidelines for writing Auto Attendant scripts. 
 
     #### Script 1: company greeting
     Thanks for calling VanArsdel, Ltd. At any time you can press zero to transfer to the Operator, press star to repeat the menu, or press pound to return to the previous menu.
     
-    (Optional, if Dial by Name will be enabled) If you know the name of the person you're calling, say their name at any time and you'll be transferred to them.
+    (Optional, use if Dial by Name is enabled) If you know the name of the person you're calling, say their name at any time to transfer to their extension.
 
     #### Script 2: after-hours greeting
-    Thanks for calling VanArsdel, Ltd.  We’re closed at this time, press zero and leave a message with our Operator. We’ll call you back when we return to the office. 
+    Thanks for calling VanArsdel, Ltd.  We’re closed currently, press zero and leave a message with the Operator. Someone will call you back when the office is open. 
 
     #### Script 3: main menu
     For scheduling, press 1.
@@ -262,7 +264,7 @@ items:
      This script could be omitted if you redesigned using Call Queues.
 
     #### Script 5: hours and Location
-    We are open for business from 8:30am to 5:30 pm, Tuesday through Saturday. Our address is 1234 Green Street near Central avenue, Planktown Pennsylvania, 
+    We are open for business from 8:30am to 5:30 pm, Tuesday through Saturday at 1234 Green Street near Central avenue, Planktown Pennsylvania, 
     directly across from City Hall.
 
     Available options not mentioned: zero, *, and #.
@@ -296,7 +298,7 @@ items:
 
      This script could be omitted if you redesigned using Call Queues.
 
-    ####	Script 9: additional menu options
+    ####	Script 9: Other menu options
     To speak to our investigator, press 1.
     To request a copy of your records, press 2.
 
@@ -308,36 +310,35 @@ items:
   durationInMinutes: 7
   content: |
 
-    The information needed to implement the design in the earlier diagram is presented in the tables that follow.
-    The implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
-    of entering your final text and deciding for yourself whether it conveys the impression you want. If not, it's up to you whether to record your 
+    Implementation of the design in the earlier diagram is presented in the tables that follow.
+    This implementation uses text-to-speech for the scripts. Phone System has a built-in text to speech engine so you have the option 
+    of listening to your final text to determine whether it conveys the impression you want. If not, it's up to you whether to record your 
     own prompts using recording software or have a professional voice-over artist use your scripts to record .wav files.
     
-    As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
-    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
-    for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
+    As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, 
+    paralegal, and billing Auto Attendants. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)
+    for more about Call Queues. If you choose to include Call Queues in your design, remember to create a valid Call Queue before you create an Auto Attendant menu that refers to the Call Queue.
 
     Your account must have Admin privileges. In the **Microsoft Teams admin center**, click **Voice** then select **Auto Attendants**, then click **+ New**. 
     The following tables show values to enter in the user interface screens. Each table represents a user interface screen.
     
     Create the following Auto Attendants in the following order and set their general information, then once the main and nested Auto Attendants are all created, edit them to set the 
-    Business hours call handling. A nested Auto Attendant needs to already exist when you link to it in another Auto Attendant's menu choices. 
+    Business hours call handling. A nested Auto Attendant must already exist when you link to it in another Auto Attendant's menu choices. 
 
 
     ### Main Auto Attendant
 
-    ![Screen shot of My Auto Attendant screen with callouts](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+    ![Screenshot of My Auto Attendant screen with callouts](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
     **Edit general info** for the main menu
 
     |   Option   | Setting      |
     |:---  |:---   |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) AA Name  |   VanArsdel, Ltd.   | 	
-    | ![Number 2 label, relative to the callout in the previous screen shot](media/sfbcallout2.png) Resource account	|   |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) Time Zone	| (UTC-04:00) Eastern Daylight Time (US & Canada) |
-    | ![Number 4 label, relative to the callout in the previous screen shot](media/sfbcallout4.png) Language	| English (United States)  |
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Voice inputs	| Enabled |
-    | ![Number 6 label, relative to the callout in the previous screen shot](media/sfbcallout6.png) Operator	| Person in your company: Julie Wolfe |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) AA Name  |   VanArsdel, Ltd.   | 	
+    | ![Number 2 label, relative to the callout in the previous screenshot](media/sfbcallout2.png)  Operator	| Person in your company: Julie Wolfe |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) Time Zone	| (UTC-04:00) Eastern Daylight Time (US & Canada) |
+    | ![Number 4 label, relative to the callout in the previous screenshot](media/sfbcallout4.png) Language	| English (United States)  |
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Enable Voice inputs	| Enabled |
     |  |  | 
      
     Only the main menu, named *VanArsdel, Ltd.* needs a resource account with an assigned Phone Number.  
@@ -345,42 +346,45 @@ items:
     Enabling **Voice inputs**  will enable voice commands for a given menu. 
     It will also enable callers to say "Operator" and get transferred directly to the Operator.
 
-    ![Screen shot of Business hours screen with callouts](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
-
-    **Select hours of operation** for the main menu
-
-    | Option   | Setting |
-    |:--- | :--- |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) 24/7-Custom| Custom  |
-    | ![Number 2 label, relative to the callout in the previous screen shot](media/sfbcallout2.png) Selection|  8:30am to 5:30pm, Monday-Friday  |
-    
-    The default for this screen is 24/7. 
-       
-    ![Screen shot of Business hours screen with callouts](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
-
     **Business hours call handling** for the main menu
 
     |   Option   | Setting      |
     |:---  |:---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| Create a custom greeting > Callers will hear: Copy/paste Script 1 above  |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>Callers will hear: Script 3 above |
-    | ![Number 4 label, relative to the callout in the previous screen shot](media/sfbcallout4.png) Dial By Name  | Enabled   |
-    | ![Number 5 label, relative to the callout in the previous screen shot](media/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| Create a custom greeting > Callers will hear: Copy/paste Script 1   |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>Callers will hear: Script 3  |
+    | ![Number 4 label, relative to the callout in the previous screenshot](media/sfbcallout4.png) Dial By Name  | Enabled   |
+    | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
     |  |   |
     
-    The Company Greeting usually only needs to be set on the main menu, with a nested Auto Attendant we want to flow straight through to the Custom Prompt.
+    The Company Greeting is usually only set on the main menu. A nested Auto Attendant usually flows straight through to the Custom Prompt.
+
+    ![Screenshot of Business hours screen with callouts](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+
+    **Select hours of operation** for the main menu
+
+    | Option   | Setting |
+    |:--- |:--- |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) 24/7-Custom| Custom  |
+    | ![Number 2 label, relative to the callout in the previous screenshot](media/sfbcallout2.png) Selection|  8:30am to 5:30pm, Monday-Friday  |
+    
+    The default for this screen is 9:00 AM to 5:00 PM, Monday to Friday. 
+       
+    ![Screenshot of Business hours screen with callouts](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+
+
 
 
     **After hours call handling** for the main menu
-    The After Hours call handling screen is very similar to the Business hours Call handling screen.
+
+    The After Hours call handling screen is similar to the Business hours Call handling screen.
     
     |   Option   | Setting|
-    |:---  | :---  |
-    | ![Number 1 label, relative to the callout in the previous screen shot](media/sfbcallout1.png) Company greeting	| Create a custom greeting, callers will hear: Copy/paste Script 2 above |
-    | ![Number 3 label, relative to the callout in the previous screen shot](media/sfbcallout3.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call will go to voicemail when not picked up.  |
+    |:---  |:---  |
+    | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| Create a custom greeting, callers will hear: Copy/paste Script 2  |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call goes to voicemail when not picked up.  |
     |  |   |
 
-    While setting up your after hours call handling for the Main Auto Attendant, you could choose to create the same menu options used in the business hours call handling screen. Doing this would allow the after 
+    While you set up your after hours call routes for the Main Auto Attendant, you could choose to create the same menu options used in the business hours call handling screen, which would allow the after 
     hours callers to navigate the same menus as business hours callers. It's a matter of preference which approach you choose.
 
     Set up **holidays** and the **dial scope** as you see fit, and save the Main Auto Attendant.
@@ -389,9 +393,9 @@ items:
 
     Nested Auto Attendants don't usually have phone numbers associated or a company greeting, and they only get accessed as directed in the main Auto Attendant.
 
-    Set up the General Information for the nested Auto Attendants using different names but the same Time Zone, Language, Speech Recognition and Operator settings. 
+    Set up the General Information for the nested Auto Attendants using different names but the same Time Zone, Language, Speech Recognition, and Operator settings. 
     
-    Set the business hours call handling as shown for each Auto Attendant. You can leave the business hours for a nested Auto Attendant set to the default, 24/7.
+    Set the business hours call route settings as shown for each Auto Attendant. You can leave the business hours for a nested Auto Attendant set to the default, 24/7.
     
     You can also choose to leave the holidays and dial scope settings at their defaults for nested Auto Attendants.
     
@@ -403,14 +407,14 @@ items:
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None |
-    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/> Callers will hear: Copy/paste Script 4 above |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/> Callers will hear: Copy/paste Script 4  |
     | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Jakob  <br/>Send to: Person in your company: Jakob Roth <br/>**2:** Enter the Name of the option: Laura<br/>Send to: Person in your company: **Laura Heinrich** |
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     | |  |
 
     **Nested Auto Attendant: Hours&Location (nested under main menu)**
 
-    Business hours call handling settings for this Auto Attendant:
+    Business hours call route settings for this Auto Attendant:
 
     You could put your hours and location message in the Company greeting, and then after the greeting repeat the main prompt and configure the same options as used in the main menu.
 
@@ -418,7 +422,7 @@ items:
     |:---  |:---  |
     | Name |  Hours&Location| 
     | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None |
-    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above 
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5  
     |  |   |
 
     **Nested Auto Attendant: MoreOptions (nested under Main Menu)**     
@@ -428,7 +432,7 @@ items:
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None  |
-    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Copy/paste Script 6 above  |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Copy/paste Script 6   |
     | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	|Select **1** for lawyers  <br/>Transfer to: Auto Attendant **Lawyers** <br/>Select **2** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
     |  |   |
 
@@ -439,7 +443,7 @@ items:
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None  |
-    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Copy/paste Script 7 above |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Copy/paste Script 7  |
     | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options |	Select **1** for *Olga* <br/>Transfer to: Person in your company: Olga Gerasimova <br/>Select**2** for *Manuela* <br/>Send to: Person in your company: Manuela Carstens <br/>Select **3** for *Andrey* <br/>Transfer to: Person in your company: Andrey Alexeeva  |
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
@@ -451,7 +455,7 @@ items:
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	| None |
-    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 8 above  | 
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 8   | 
     | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Lena* <br/> Transfer to: Person in your company: Lena Ehrle <br/> Select **2** for *Svetlana* <br/>Transfer to: Person in your company: Svetlana Uvarova <br/> Select **3** for *Sofia* <br/>Transfer to: Person in your company: Sofia Krause <br/> Select **4** for *Mariya*<br/>Transfer to: Person in your company: Mariya Artemyeva <br/> Select **5** for *Dariya*<br/>Transfer to: Person in your company: Dariya Polyakova <br/> Select **6** for *Milana*<br/>Transfer to: Person in your company: Milana Nikolaeva|
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
@@ -463,19 +467,19 @@ items:
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1 label, relative to the callout in the previous screenshot](media/sfbcallout1.png) Company greeting	|None  |
-    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9 above  |
+    | ![Number 3 label, relative to the callout in the previous screenshot](media/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9   |
     | ![Number 5 label, relative to the callout in the previous screenshot](media/sfbcallout5.png) Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
     See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) for more detail on the options available in these screens. 
 
 
-    ### Editing and testing Auto Attendants
+    ### Edit and test Auto Attendants
 
-    After you have saved your Auto Attendant, it will be listed on the **Auto Attendants** page of the Admin center. 
-    This will allow you to quickly see some of the options that you have set up.
+    After you have saved your Auto Attendant, it is listed on the **Auto Attendants** page of the Admin center. 
+    The page also shows some of the options that you set up.
     
-    The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto 
-    attendants you've just created. You can also quickly place a test call to your Auto Attendant by using the **Test button** in the Action pane. 
-    If you want to make changes to an Auto Attendant, select the Auto Attendant, and then in the Action pane click **Edit**.
+    The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate 
+    to each of the new auto attendants. You can also quickly place a test call to your Auto Attendant with the **Test button** in the Action pane. 
+    If you want to edit an Auto Attendant, select the Auto Attendant, and then in the Action pane click **Edit**.
     

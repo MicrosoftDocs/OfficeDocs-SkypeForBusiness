@@ -85,6 +85,7 @@
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md)
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN blocked users report](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [PSTN minute pools report](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams live event usage report](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
@@ -358,13 +359,19 @@
 ## Call routing
 ### [What are dial plans?](what-are-dial-plans.md)
 ### [Create and manage dial plans](create-and-manage-dial-plans.md)
+### [Add and update reporting labels](learn-more-about-site-upload.md)
 ## Emergency calling
-### [What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
-### [Add, change, or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Add, change, or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Assign or change an emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Assign or change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Emergency call labels](emergency-calling-labels.md)
+### [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
+### Manage emergency addresses
+#### [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
+#### [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
+#### [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
+#### [Assign or change a place for an emergency location for a user](assign-change-emergency-place-user.md)
+#### [Emergency call labels](emergency-calling-labels.md)
+### [Manage emergency calling policies](manage-emergency-calling-policies.md)
+### [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
+
 
 
 ## Reference
