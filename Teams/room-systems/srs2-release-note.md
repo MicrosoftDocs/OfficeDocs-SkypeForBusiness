@@ -21,6 +21,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
@@ -49,6 +50,13 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.2.4.0 (10/07/2019)
+
+Introduced in this update:
+
+- Windows 10 1903 support. Windows 10 1903 update is offered in a few days after app update
+- Fixes for On-screen keyboard not showing up realiably
 
 ### 4.1.22.0 (08/15/2019)
 
