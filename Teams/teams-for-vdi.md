@@ -303,17 +303,9 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 
 For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-#### Troubleshoot Teams on VDI 
+#### Troubleshoot Teams on VDI
 
 **TBD- Need content**
-
-**Users see a blank white screen in Teams**
-
-When users try to run Teams any time after the first time, they see a blank white screen. This occurs with the 64-bit version of Teams with XenApp 7.15 LTSR and XenDesktop 7.5 LTSR on Windows Server 2016.
-
-This issue is caused by Citrix hooks that prevent Teams working as expected. To resolve this issue, add the following registry entry on the VDA host to disable the Citrix hooks for Teams, and then restart Teams:
-
-    HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\teams.exe
 
 ## Related topics
 
