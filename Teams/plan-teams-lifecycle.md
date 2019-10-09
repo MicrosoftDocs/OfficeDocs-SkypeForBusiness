@@ -190,7 +190,7 @@ If a team starts to get into a rut, consider:
 
 When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like post-mortems and executive summaries.
 
-You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies.
+You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren’t active any longer or whose owners have left the organization.
 
