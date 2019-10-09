@@ -34,7 +34,7 @@ The Front End Servers in an Enterprise Edition pool are organized into *upgrade 
 
 When you upgrade servers, you must do so one Upgrade Domain at a time. Bring each Server in one Upgrade Domain down, upgrade it, and then restart it before you move on to another Upgrade Domain. Be sure to keep track of which Upgrade Domains and Servers that you have upgraded so far. Use the following flowchart diagram when upgrading each server.
 
-![Upgrade or Update Front End Servers](../../images/UpgradeUpdateFrontEndServerslync2013.png)
+:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Upgrade or Update Front End Servers":::
 
 <div>
 
