@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Teams client experience and comformance to coexistence modes
+description: Teams client experience and conformance to coexistence modes
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -71,7 +71,7 @@ Administrators need *not* explicitly set these policy settings when using co-exi
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superceded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. The following is an example of what the PowerShell warning looks like:
+When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superseded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. The following is an example of what the PowerShell warning looks like:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
