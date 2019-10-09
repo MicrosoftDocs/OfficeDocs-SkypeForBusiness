@@ -46,5 +46,4 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams PSTN usage report - Calling Plans](pstn-usage-report.md#calling-plans)|  Time stamp<br>User name<br>Phone number<br>Call type <br>Called to<br>To country or region <br>Called from <br>From country or region<br>Charge<br>Currency<br>Duration<br>Domestic/International<br>Call ID<br>Number type<br>Country or region<br>Conference ID<br>Capability (license)|
 |[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
 
-> [!NOTE]
-> The Teams reports show data for active users and active teams. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
+[!INCLUDE [teams-reporting-reference](teams-reporting-reference.md)]

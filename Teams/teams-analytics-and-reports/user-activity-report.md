@@ -40,6 +40,8 @@ The Teams user activity report gives you insight into the types of activities th
 |**6**   |Select **Edit columns** to add or remove columns in the table. |
 |**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screenshot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png) <br>When you view the report in Excel, you'll also see an **Id** column, which represents the team ID. A team ID is typically an alphanumeric string. If the **Id** column shows as **\n**, this means that a user requested their information to be deleted. ||
 
+[!INCLUDE [teams-reporting-reference](teams-reporting-reference.md)]
+
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
