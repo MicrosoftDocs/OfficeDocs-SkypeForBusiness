@@ -60,7 +60,7 @@ For the latest server and client requirements, see [this Citrix website](https:/
 
 #### Dedicated persistent setup
 
-With the diverse workloads and user needs in a virtualized environment, the following is the recommended minimum Vitual Machine (VM) configuration.
+With the diverse workloads and user needs in a virtualized environment, the following is the recommended minimum VM configuration.
 
 |Parameter  |Workstation operating system  |Server operation system  |
 |---------|---------|---------|
