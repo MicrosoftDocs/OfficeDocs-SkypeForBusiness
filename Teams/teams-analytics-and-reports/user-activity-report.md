@@ -44,4 +44,4 @@ The Teams user activity report gives you insight into the types of activities th
 
 ## Related topics
 
-- [Teams analytics and reporting](teams-reporting-reference.md)
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
