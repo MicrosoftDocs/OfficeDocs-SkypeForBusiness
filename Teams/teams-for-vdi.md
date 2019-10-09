@@ -65,7 +65,8 @@ With per-machine installation, automatic updates is disabled. This means that to
 
 #### Dedicated persistent setup
 
-Dedicated persistent setup retains the user local OS changes, and hence 'persists' after user log off.
+In a dedicated persistent setup, users' local operating system changes are retained after users log off.
+
 The following is the recommended minimum VM configuration.
 
 |Parameter  |Workstation operating system  |Server operation system  |
@@ -76,7 +77,8 @@ The following is the recommended minimum VM configuration.
 
 #### Non-persistent setup
 
-Non-persistent setups do not retain OS changes once the user logs off; hence it is non-persistent.  Such setups are commonly shared multi users sessions.  VM configuration varies based on number of users and available physical box resources.
+In a non-persistent setup, users' local operating system changes are not retained after users log off. Such setups are commonly shared multi-user sessions.  VM configuration varies based on the number of users and available physical box resources.
+
 For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section). This ensures an efficient launch of the Teams app during a user session. Using Teams with a non-persistent setup also requires a caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.  There are variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/en-us/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
 ##### Teams cached content exclusion list for non-persistent setup
