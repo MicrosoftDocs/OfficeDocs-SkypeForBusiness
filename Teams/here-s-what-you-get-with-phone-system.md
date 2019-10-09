@@ -30,7 +30,7 @@ A PBX is a phone system within a business. The Phone System in Office 365 add-on
   
 With the Phone System add-on, you can use Skype for Business to complete basic tasks such as making and receiving calls, transferring calls, and muting or unmuting calls, from nearly anywhere with Internet access. It's available worldwide! 
   
-For more information, see [Pricing for Phone System](https://products.office.com/skype-for-business/cloud-pbx#requirements).
+For more information, see [Pricing for Phone System](https://products.office.com/microsoft-teams/voice-calling#requirements).
   
 ## Phone System in Office 365 Features
 
