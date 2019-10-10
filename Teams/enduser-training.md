@@ -99,7 +99,7 @@ Watch this short video introducing you to Teams</h3>
         </a>
     </li>
  <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <a href="https://aka.ms/TeamsOnDemand">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -109,7 +109,7 @@ Watch this short video introducing you to Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Check out the Teams channel on YouTube</h3>
+                        <h3>Check out the Teams training channel on YouTube</h3>
                     </div>
                 </div>
             </div>
