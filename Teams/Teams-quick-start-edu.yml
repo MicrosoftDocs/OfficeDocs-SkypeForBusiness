@@ -153,7 +153,7 @@ items:
   durationInMinutes: 1
   content: |
 
-    Teams has clients available for web, desktop (Windows and Mac), and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
+    Teams has clients available for web, desktop (Windows, Mac, and Linux), and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
 
     The setup file for the Teams client is an executable file that can be downloaded by admins and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
 
@@ -161,9 +161,9 @@ items:
 
     ### Operating system requirements
 
-    |   	|Windows   	|MacOS   	|iOS   	|Android   	|
-    |---	|---	|---	|---	|---	|---	|
-    |   	|7 and later   	|10.10 and later   	|10 or later   	|4.4 and later   	|
+    |   	|Windows   	|MacOS   	|Linux  |iOS   	|Android   	|
+    |---	|---	|---	|---	|---  |--- 	|---	|
+    |   	|7 and later   	|10.10 and later   	|DEB, Snap, or RPM  |10 or later   	|4.4 and later   	|
 
     
     ### Internet browser support 
