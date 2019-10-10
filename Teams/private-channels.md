@@ -184,11 +184,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## Private channel SharePoint sites
 
-Each private channel has it's own lightweight SharePoint site collection where files shared in the channel are stored. These lightweight site collections can be upgraded to full feature site collections through the site management interface. Each site collection is created in the same geographic region as the parent team site where standard channel files are stored. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
+Each private channel has it's own SharePoint site collection optimized for file sharing and fast provisioning. The separate site collection is to ensure security and privacy of the private channel files to only the private channel members compared to the team site where the owner has access to all assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a fully featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04)). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
 
-The number of site collections per tenant has increased from 500,000 to 2,000,000.
+To accommodate a greater number of number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team. Deleting the team or private channel will delete its site collection. Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams and  any differences in membership are reconciled within 4 hours. Users can be added to the Visitors group of the site collection to support scenarios where users may need to access documents without needing to access messages exchanged in the private channel.
 
-A private channel site collection syncs data classification and inherits guest access permissions from the parent team site.
+Teams manages the life cycle of the private channel SharePoint site collection. If the site collection is deleted outside of teams, a background job restores the site within four hours as long as the private channel is still active. If the site is deleted and hard deleted, a new site collection is provisioned for the private channel.
+
+If a private channel or a team containing a private channel is restored, the site collections are restored with it. If a private channel site collection is restored and it's beyond the 30- day soft delete window for the private channel, the site collection operates as a standalone site collection.
 
 ### Troubleshooting
 
