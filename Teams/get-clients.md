@@ -23,7 +23,7 @@ appliesto:
 Get clients for Microsoft Teams 
 ===========================
 
-Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode.
 
 > [!NOTE]
 > Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. Instead, you can now download and install the Teams desktop client on devices running Windows 10 S mode. To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.
@@ -36,13 +36,13 @@ Desktop client
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
+The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (Debian package `.deb`, Snap Store `snap`, Red Hat Package Manager `.rpm`). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, the package managers will install all requirements when you install Teams.
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
+IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include System Center Configuration Manager (Windows) or Jamf Pro (macOS and Linux). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
@@ -95,6 +95,17 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 
 > [!NOTE]
 > If you experience issues installing the PKG, let us know. In the **Feedback** section at the end of this article, click **Product feedback**.
+
+### Linux
+
+Linux users can install Teams using a Debian `.deb` package, from the Snap Store as a `snap`, or as a RedHat package `.rpm`. 
+
+#### Install Teams using DEB package
+
+#### Install Teams using Snap Store
+
+#### Install Teams using RPM package
+
 
 Web client 
 ----------
