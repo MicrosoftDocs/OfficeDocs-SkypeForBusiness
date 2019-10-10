@@ -27,7 +27,7 @@ Also, refer to:
 > [!NOTE]
 > Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
 >
-> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
+> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Office 365 operated by 21Vianet, or in GCC, GCC-High, or DoD environments.
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
