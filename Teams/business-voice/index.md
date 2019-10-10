@@ -118,7 +118,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <h3>Resources for partners</h3>
                                                 <P><a href="/partner-center" target="_blank">Get Microsoft 365 Business from Partner center</a></p>
                                                 <P><a href="/microsoft-365/partners/smb#teamwork" target="_blank">Microsoft 365 Business for Partners</a></p>
-                                                <p><a href="partner-resources" target="_blank">Microsoft 365 Business Voice Partner Deployment & Support Resources</a>
+                                                <p><a href="partner-resources" target="_blank">Microsoft 365 Business Voice Partner support resources</a>
                                             </div>
                                         </div>
                                     </div>
