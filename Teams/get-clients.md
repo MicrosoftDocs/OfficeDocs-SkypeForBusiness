@@ -100,7 +100,16 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 
 Linux users can install Teams using a Debian `.deb` package, from the Snap Store as a `snap`, or as a RedHat package `.rpm`. 
 
+[!NOTE] The Teams on Linux client is available in limited preview. Submit bugs using `Report a Problem` from within the client. For known issues, see [Teams on Linux Known Issues](#).
+
 #### Install Teams using DEB package
+
+1. Download the package from 
+2. Install using one of the following:  
+    - Open the package using Ubuntu Software Tool and go through self-guided Linux app installation process  
+    - Or if you love Terminal, type: sudo apt install ./teams_  
+
+You can launch Teams via Activities or via Terminal by typing "Teams"  
 
 #### Install Teams using Snap Store
 
