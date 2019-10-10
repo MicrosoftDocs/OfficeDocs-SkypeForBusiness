@@ -36,6 +36,6 @@ To prevent accidental deletion, auto-renewal is automatically enabled for a team
 
 ## Known issues
 
-**Expiration date of team and underlying group don't match
+**Expiration date of team and underlying group don't match**
 
 Before a team is renewed, the group that backs the team is renewed first. As part of renewal, a new expiry date is set on the group for a future date. This new date may not be immediately visible in Teams. It can take up to 24 hours to sync. If you see a discrepancy between the expiry date for a team and its underlying group, wait 24 hours before seeking further support.
