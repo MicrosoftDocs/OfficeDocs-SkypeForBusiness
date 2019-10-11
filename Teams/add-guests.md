@@ -42,7 +42,7 @@ Guest users you have already added via Azure AD B2B, Office 365 Groups, or Share
 
 You can track guest additions in Azure AD or the Office 365 Security &amp; Compliance Center. Adding a guest in Microsoft Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see  [Auditing and reporting a B2B collaboration user](https://go.microsoft.com/fwlink/p/?linkid=858884) and [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
-## Guest access vs. external access (federation)
+## External access (federation) vs. guest access
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

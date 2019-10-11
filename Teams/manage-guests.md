@@ -35,7 +35,7 @@ You can use the Azure Active Directory (Azure AD) portal to manage guests and th
 > [!NOTE]
 > Microsoft Teams always honors Azure AD external settings to allow or prevent guest user additions to the tenant. For more details, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
   
-## Guest access vs. external access (federation)
+## External access (federation) vs. guest access
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

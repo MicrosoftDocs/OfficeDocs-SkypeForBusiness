@@ -24,6 +24,6 @@ To edit guest accounts (such as display name or profile photo), go to your Azure
 
 Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.
 
-## Guest access vs. external access (federation)
+## External access (federation) vs. guest access
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

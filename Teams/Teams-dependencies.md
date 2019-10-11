@@ -114,7 +114,7 @@ These settings apply at the tenant level and control the guest experience at Sha
 
 You can manage SharePoint Online external user settings for the Teams connected team site. For more details, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
 
-## Guest access vs. external access (federation)
+## External access (federation) vs. guest access
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

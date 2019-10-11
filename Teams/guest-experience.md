@@ -87,7 +87,7 @@ The following table shows the calling and meeting features available to guests.
 > [!NOTE]
 > Office 365 admins control the features available to guests. 
  
-## Guest access vs. external access (federation)
+## External access (federation) vs. guest access
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
