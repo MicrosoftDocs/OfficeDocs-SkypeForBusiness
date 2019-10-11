@@ -45,21 +45,25 @@
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
+## Communicate with external users
+### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
 
-## Guest access
-### [About guest access](guest-access.md)
-### [How a guest joins a team](guest-joins.md)
-### [What the guest experience is like](guest-experience.md)
-### [Authorize guest access in Teams](teams-dependencies.md)
-### [Turn on or turn off guest access in Teams](set-up-guests.md)
-### [Manage guest access in Teams](manage-guests.md)
-### [Add a guest to a team](add-guests.md)
-### [View guest users in a team](view-guests.md)
-### [Edit guest user information](edit-guests-information.md)
-### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
-### [Guest access checklist](guest-access-checklist.md)
+### [External access (federation)](manage-external-access.md)
 
-## [External access (federation)](manage-external-access.md)
+### Guest access
+#### [About guest access](guest-access.md)
+#### [How a guest joins a team](guest-joins.md)
+#### [What the guest experience is like](guest-experience.md)
+#### [Authorize guest access in Teams](teams-dependencies.md)
+#### [Turn on or turn off guest access in Teams](set-up-guests.md)
+#### [Manage guest access in Teams](manage-guests.md)
+#### [Add a guest to a team](add-guests.md)
+#### [View guest users in a team](view-guests.md)
+#### [Edit guest user information](edit-guests-information.md)
+#### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
+#### [Guest access checklist](guest-access-checklist.md)
+
+
 
 ## Manage Teams
 ### [Administrator roles](using-admin-roles.md)
