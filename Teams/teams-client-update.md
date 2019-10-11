@@ -46,24 +46,12 @@ Teams does not give admins the ability to deploy updates through any delivery me
 
 ## Servicing agreement
 
-As a modern online service, the Teams client auto-updates every two weeks. To ensure users have the latest capabilities, performance enhancements, and service reliability, Teams offers support to desktop clients up to two versions old.
+As a modern online service, the Teams client auto-updates every two weeks. Because Teams is governed by the [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy), it's expected that users remain on the most up to date version of the desktop client. This ensures that users have the latest capabilities, performance enhancements, security, and service reliability.
 
-Users on Teams desktop clients that are more than six versions old will encounter a blocking page and are asked to update to the latest version of Teams from [https://teams.microsoft.com/download](https://teams.microsoft.com/download).
+To assist in identifying when desktop clients fall out of date, a dismissible banner will be displayed if the user’s current version is between one and three months old, and if there's a new version available. This banner encourages users to update to the latest version of Teams or, if necessary, to reach out to their IT admin to do so. Users on Teams desktop clients that are more than three months old will encounter a blocking page that gives the options to update now, reach out to  their IT admin, or continue to Teams on the web.
 
-Unsupported desktop client versions upon the first install and/or first run of Teams have a 28-day grace period before the above-mentioned servicing information takes effect. This includes users using the Teams desktop client as part of the Office 365 ProPlus bundle
+Desktop client versions that are more than three months old upon first install and/or first run of Teams have a 28-day grace period before encountering the above-mentioned servicing information. During this period, the auto-update process will update the Teams client. If not updated, users will encounter a dismissible banner encouraging them to manually update to the latest version of Teams or, if necessary, to reach out to their IT admin to do so. This includes users using the Teams desktop client as part of the Office 365 ProPlus bundle.
 
 Teams desktop clients on Government Clouds currently have an exception to this servicing agreement until further notice.
 
-### What versions are currently supported?
-
-When Teams releases an update of the desktop client, the minimum supported version changes. Teams desktop clients that earlier than the following version numbers are not supported:
-
-- Windows: 1.2.00.1758
-- Mac: 1.2.00.1761
-
-Teams desktop clients that are earlier than the following version numbers are blocked:
-
-- Windows: 1.2.00.1758
-- Mac: 1.2.00.1761
-
-To avoid any disruption to your users' service, update to the latest version of the Teams desktop client.
+For information on new version releases, check [Message Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) or go to **Help** > **What’s new** in the client.
