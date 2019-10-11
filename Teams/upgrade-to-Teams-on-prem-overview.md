@@ -24,7 +24,7 @@ appliesto:
 
 When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. This article is primarily targeted to IT administrators in large, on-premises organizations, but it might also apply to some Skype for Business Online organizations.
 
-A user that has been migrated to Teams no longer uses a Skype for Business client except to join a meeting hosted in Skype for Business.  All incoming chats and calls land in the user’s Teams client, regardless of whether the sender is using Teams or Skype for Business. Any new meetings organized by the migrated user are scheduled as Teams meetings. If the user attempts to use the Skype for Business client, initiation of chats and calls is blocked<sup>1</sup.  However, the user can (and must) still use the Skype for Business client to join meetings they are invited to.
+A user that has been migrated to Teams no longer uses a Skype for Business client except to join a meeting hosted in Skype for Business.  All incoming chats and calls land in the user’s Teams client, regardless of whether the sender uses Teams or Skype for Business. Any new meetings organized by the migrated user will be scheduled as Teams meetings. If the user attempts to use the Skype for Business client, initiation of chats and calls is blocked<sup>1</sup.  However, the user can (and must) still use the Skype for Business client to join meetings they are invited to.
  
 Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), which is a property of TeamsUpgradePolicy. A user that is has been migrated to Teams as described above is in “TeamsOnly” mode.  For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
 
@@ -47,7 +47,7 @@ With the side-by-side method, users can use both Teams and Skype for Business cl
 - Communication initiated from another user’s Teams client will always land in A’s Teams client, *if the other user is in the same organization*. 
 - Communication initiated from another user’s Teams client will always land in A’s Skype for Business client, *if the other user is in a federated organization*.
 
-Islands mode is the default mode in TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign an Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>1</sup>  In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the side-by-side approach. It allows for rapid adoption within an organization.
+Islands mode is the default mode of TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign an Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>1</sup>  In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the side-by-side approach. It allows for rapid, end-user driven adoption within an organization.
 
 For this method to work effectively, it requires all users to run both clients simultaneously. Incoming chats and calls can land in either the Skype for Business or Teams client--and this is not under the control of the recipient. It depends simply on what client the sender uses to initiate the communication. 
 
@@ -66,7 +66,7 @@ However, non-upgraded recipients in Islands mode may continue to receive chats a
 
 The following table summarizes the Teams experience for both Islands mode and TeamsOnly mode:  
 
-| Teams experience | Islands mode | TeamsOnly mode |
+| Teams experience | In Islands mode | In TeamsOnly mode |
 |:------------------ | :------------------- | :------------------ |
 | Incoming chats and calls |  May land in either Teams or Skype for Business. | Always land in Teams. |
 | PSTN functionality | Incoming PSTN calls route to Skype for Business. 	| Incoming PSTN calls route to Teams.   |   
@@ -89,17 +89,17 @@ This is true even if the user is homed on-premises in Skype for Business Server.
 
 ## Managed transition method (using Skype for Business modes)
 
-Some organizations may prefer to provide their end users a simpler, more predictable experience as their organization transitions from Skype for Business to Teams. In this model, IT admins use TeamsUpgradePolicy to explicitly designate which users remain in Skype for Business prior to migrating to TeamsOnly mode. As they are ready to shift selected users to TeamsOnly mode, the administrator updates the mode for those users to TeamsOnly.  As the deployment progresses, more and more users are transitioned from Skype for Business to TeamsOnly mode.  During this transition:
+Some organizations may prefer to provide their end users a simpler, more predictable experience as their organization transitions from Skype for Business to Teams. In this model, IT administrators use one of the Skype for Business modes in TeamsUpgradePolicy to explicitly designate which users remain in Skype for Business prior to migrating to TeamsOnly mode. As they are ready to shift selected users to TeamsOnly mode, the administrator updates the mode for those users to TeamsOnly.  As the deployment progresses, more and more users are transitioned from Skype for Business to TeamsOnly mode.  During this transition:
 
 - Users still on Skype for Business receive all incoming chats and calls in their Skype for Business client, regardless of whether the communication originated from the other user’s Teams or Skype for Business client. In addition, for these Skype for Business users, calling and chat functionality in the Teams client are disabled to help prevent end user confusion and to ensure proper routing. 
 
 - Users in TeamsOnly mode receive all incoming chats and calls in their Teams client, regardless of where the communication originated from:  Teams, Skype for Business, or any kind of federated user. 
 
-Unlike the Islands method, in the managed transition method, Skype for Business users and TeamsOnly users can communicate with each other. Communication between a Skype for Business user and Teams user is known as interoperability or “Interop”. Interop communication is possible on a one-to-one basis for chats and calls between a user in Skype for Business and another user in Teams. In addition, invited users can always join either a Skype for Business or Teams meeting, however, they must use a client that corresponds to the type of meeting.
+Unlike the Islands method, in the managed transition method, Skype for Business users and TeamsOnly users can communicate with each other. Communication between a Skype for Business user and Teams user is known as interoperability or “Interop”. (See Interoperability later in this article.) Interop communication is possible on a one-to-one basis for chats and calls between a user in Skype for Business and another user in Teams. In addition, invited users can always join either a Skype for Business or Teams meeting, however, they must use a client that corresponds to the type of meeting.
 
 Since users in a managed transition are typically not in Islands mode, presence for a user is consistent regardless of which client is used by the other user. If the user is in one of the Skype for Business modes, all other users see presence based on that user’s activity in Skype for Business. Similarly, if a user is in TeamsOnly mode, all other users see presence based on that user’s activity in Teams. For details, see Presence later in this article.
 
-Microsoft offers different Skype for Business modes to help administrators customize their path to TeamsOnly based on organizational needs and circumstances.  For an organization that has not yet started using Teams, the administrator should change the tenant-wide mode from Islands to SfbWithTeamsCollab. (For organizations that already have some Teams usage, the administrator should do this only for users not yet active in Teams.)  
+For an organization that has not yet started using Teams, the administrator should change the tenant-wide mode from Islands to SfbWithTeamsCollab. (For organizations that already have some Teams usage, the administrator should “grandfather” users already active in Teams to ensure this change does not apply to them. For details, see A managed migration for an organization that is already using Teams in Islands later in this article.)  
 
 When mode changes from Islands to SfbWithTeamsCollab, a user that has never used Teams will see no difference in how they use Skype for Business. However, should that user start to use Teams, they would only be exposed to functionality such as Teams & Channel and Files. Chat, calling and meeting scheduling would not be available in Teams, since the administrator has (for now) designated Skype for Business as the desired client for those functions.  
 
@@ -116,7 +116,7 @@ The following table blow summarizes the pros and cons of using Skype for Busines
 | Pros     |       Cons |
 | :------------------ | :---------------- |
 | Predictable routing for the end user.  All calls and chats either land in Skype for Business or Teams, based on administrator selection.  | Interop conversations have lower fidelity than Skype for Business to Skype for Business or Teams to Teams.  This can be worked around with on-demand meetings but this is not as seamless.  |
-| Eliminate end user confusion because a given functionality is only available in one client.  | Users can’t try both clients side-by-side, for the same set of functionality.  |
+| Eliminate end user confusion because a given functionality is only available in one client.  | Users can’t try both clients side-by-side, for the same set of functionality. This may especially be a factor if the users perceive the shift from Skype for Business to Teams as a major paradigm shift. |
 | Allows for incremental introduction of Teams  |  | |
 | Administrator is in full control of the transition from Skype for Business to Teams. |  | | 
 | Allows an organization to use Teams for meetings, even if it is not yet ready to move entirely to TeamsOnly mode. |  | |
@@ -196,7 +196,7 @@ For additional information, see [Presence](coexistence-chat-calls-presence.md#pr
 
 ### Federation
 
-Federation from Teams to another user using Skype for Business requires the Teams user to be homed online in Skype for Business. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with Teams only users.
+Federation from Teams to another user using Skype for Business requires the Teams user to be homed online in Skype for Business. 
 
 TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, except in Islands mode. When recipients are in Islands mode:
 
@@ -211,8 +211,8 @@ For more details, see [Coexistence with Skype for Business](coexistence-chat-cal
 
 | Side-by-side (using Islands mode)     |      Managed (using Skype for Business modes) |
 | :------------------ | :---------------- |
-| Prior to being upgraded to TeamsOnly, users must run both clients simultaneously since incoming chats and calls may land in either client.   | Chats and calls only land in one client, based on the recipient’s mode. Non-upgraded users may run both clients, both there is no functional overlap; (calling and chat are not available in Teams).  Admin can also control whether users schedule meetings in Teams or Skype for Business.   |
-| Users can use Skype for Business and Teams side by side for same functionality.   | Allows admin to introduce net new functionality of Teams to end users (Teams and Channels), without providing same functionality that also exists in Skype for Business.   |
+| Prior to being upgraded to TeamsOnly, users must run both clients simultaneously since incoming chats and calls may land in either client.   | Chats and calls only land in one client, based on the recipient’s mode. Non-upgraded users may run both clients, both there is no functional overlap; (calling and chat are not available in Teams).  Administrators can also control whether users schedule meetings in Teams or Skype for Business.   |
+| Users can use Skype for Business and Teams side by side for same functionality.   | Allows administrators to introduce net new functionality of Teams to end users (Teams and Channels), without providing same functionality that also exists in Skype for Business.   |
 |Interop between Skype for Business and Teams does not exist while both users are in Islands mode. Once some users are upgraded to TeamsOnly, interop conversation may occur between those users and other users still in Islands mode. However, the Islands user could choose to use Teams and avoid the interop conversation. | Interop is required for communication between Skype for Business and Teams users.   |
 
 
@@ -368,8 +368,10 @@ The diagram below shows the conceptual phases of a managed transition in which t
 If PSTN Calling functionality is involved, there are three possible scenarios when moving to TeamsOnly mode:
 
 - *A user in Skype for Business Online, with a Microsoft Calling Plan*. Upon upgrade, this user will continue to have a Microsoft Calling plan.
-- *A user in Skype for Business Online, with on-premises voice functionality* via Skype for Business on-premises or Cloud Connector Edition.  Upon upgrade, this user will have PSTN functionality obtained via Direct Routing.
-- *A user in Skype for Business on-premises, who will be moving to*. Upon upgrade, this user will no longer be homed in Skype for Business on-premises, and will have PSTN functionality obtained via Direct Routing.
+
+- *A user in Skype for Business Online, with on-premises voice functionality* via Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.
+
+- *A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online*.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that with migration of the user to Direct Routing. 
 
 
 This article provides a high-level overview only.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
@@ -393,13 +395,17 @@ The basic steps are listed below.  Steps 1-4 are listed in the suggested sequenc
 TeamsOnly mode.
 
 
-4. Prepare select users for voice upgrade as follows: 
+4. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  The online configuration consists of: 
 
-   - If necessary, assign the Teams license.  Assuming the user is already functional with Skype for Business Online with on-premises voice, the user already has Skype for Business Plan 2 as well as Microsoft Phone System. Leave both those plans enabled, including the Skype for Business Online Plan 2 license.  
-   - Create an OnlineVoiceRoutingPolicy if you haven’t done so already. 
-   - Assign the desired OnlineVoiceRoutingPolicy.
+   - OnlineVoiceRoutingPolicy (based on on-premises VoiceRoutingPolicy) 
+   - OnlinePSTNUsage objects (based on on-premises PSTNUsage) 
+   - OnlineVoiceRoute objects (based on-premises VoiceRoute). 
 
-5. Upgrade the user: These steps should be coordinated. 
+5. Prepare select users for voice migration: 
+   - If necessary, assign the Teams license.  Assuming the user is already functional in Skype for Business Online on-premises voice, the user already has Skype for Business Plan 2 as well as Microsoft Phone System. Leave both those plans enabled, including the Skype for Business Online Plan 2 license.  
+   - Assign the desired OnlineVoiceRoutingPolicy. 
+
+6. Upgrade the user: These steps should be coordinated. 
 
    - In Office 365, upgrade the user to TeamsOnly mode (Grant-CsTeamsUpgradePolicy).
    - On the SBC, configure voice routing to enable incoming calls by sending calls to Direct Routing instead of to the on-premises Mediation Server.
@@ -412,11 +418,20 @@ In this scenario, the user is still homed in Skype for Business on-premises, and
 The basic steps are listed below.  Steps 1-6 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 7.
 
 1. If you will be setting the tenant-wide policy to one of the Skype for Business modes, be sure to grandfather existing Islands users by explicitly assigning them Islands mode, as previously described.
+
 2. If you haven’t already done so, [configure the organization for Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
+
 3. Pair your on-premises SBC with the Teams Direct Routing service. For details, see [Pair the SBC to the Direct Routing service of Phone System](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+
 4. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
-5. Create the OnlineVoiceRoutingPolicy and re-create in online the voice routes from the on-premises voice policy.
+
+5. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  The online configuration consists of: 
+   - OnlineVoiceRoutingPolicy (based on on-premises VoicePolicy) 
+   - OnlinePSTNUsage objects (based on on-premises PSTNUsage) 
+   - OnlineVoiceRoute objects  (based on-premises VoiceRoute). 
+
 6. Assign the Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business 
+
 7. Upgrade the user: These steps should be coordinated. 
    - Using the on-premises Skype for Business tools, run Move-CsUser with -MoveToTeams switch. 
    - On the SBC, configure voice routing to enable incoming calls by sending calls to Direct Routing instead of to the on-premises Mediation Server. 
