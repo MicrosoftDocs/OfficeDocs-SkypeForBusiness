@@ -674,7 +674,7 @@
 
 ## [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## [Upgrade guidance for large organizations](upgrade-to-teams-on-prem-overview)
+## [Upgrade guidance for large organizations](upgrade-to-teams-on-prem-overview.md)
 
 ## Learn more about coexistence
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
