@@ -21,11 +21,11 @@ Communicate with users from other organizations in Microsoft Teams
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams gives you two different ways to make that happen. The first – **external access** (federation) – lets  you find, call, and chat with users in other domains (for example, contoso.com). The second – **guest access** – lets you add individuals to your teams, as guests, using their email address.
 
-At a high level, here’s how to choose (or jump straight to the [Table: Comparison of external and guest access](#table-compare-external-and-guest-access) for a detailed comparison):
+At a high level, here’s how to choose (for a detailed comparison, jump straight to the [Table: Comparison of external and guest access](#table-compare-external-and-guest-access):
 
 ## External access
 
-Use **external access** (federation) when you need a solution that lets external users find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources - they can only participate in one-on-one chats or calls. Choose external access when you want to be able to communicate wtih external users on Skype for Business (online or on premises) or Skype (coming in early 2020). 
+Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with external users who are still on Skype for Business (online or on premises) or Skype (coming in early 2020). 
 
 External access is turned on by default in Teams, which means your org can communicate with all external domains. The Teams admin can turn it off or specify which domains to include (or exclude). To learn more, read [Manage external access](manage-external-access.md). 
 
@@ -34,7 +34,7 @@ If you want external users to have access to teams and channels, [guest access](
 
 ## Guest access
 
-Use **guest access** to add an individual user (regardless of domain) to a team, where they can chat, call, meet, and collaborate on organization files (stored in SharePoint or OneDrive for Business), using Office 365 apps such as Word, Excel, or PowerPoint. A guest user can be given nearly all the same capabilities as a native team member.
+Use **guest access** to add an individual user (regardless of domain) to a team, where they can chat, call, meet, and collaborate on organization files (stored in SharePoint or OneDrive for Business), using Office 365 apps such as Word, Excel, or PowerPoint. A guest user can be given nearly all the same Teams capabilities as a native team member.
 
 - Guests are added to your organization’s Active Directory.
 - To communicate with a guest, the guest has to be signed in to Teams using their guest account. This means that a guest may have to sign out of their own Teams account to sign in to your Teams account.
