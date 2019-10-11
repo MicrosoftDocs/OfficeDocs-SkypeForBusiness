@@ -182,9 +182,15 @@ Because interop communications do not support all the features of native Teams c
 - Lack of controls for rich text, file/screensharing, inability to add users.
 - A modification to the target user’s icon, showing an “S” for Skype for Business.
 
-These differences are shown in the following screenshot:
+These differences are shown in the following screenshots:
 
-**INSERT SCREENSHOT**
+A native Teams-to-Teams conversation with user G3 Test
+
+![Digram showing a native Teams-to-Teams conversation](media/teams-upgrade-native-thread.png)
+
+An interop conversation with the same user, G3 Test
+
+![Digram showing an interop Teams-to-Teams conversation](media/teams-upgrade-interop-thread.png)
 
 Once a conversation thread is created, it never changes. An interop thread in Teams will continue to route to the target user’s Skype for Business client. A native thread will continue to route to the target user’s Teams client.  For more details, see [Chats and calls from pre-existing threads](coexistence-chat-calls-presence.md#chats-and-calls-from-pre-existing-threads).
 
