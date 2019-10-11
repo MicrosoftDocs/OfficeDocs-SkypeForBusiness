@@ -40,6 +40,3 @@ Guests can leave the team at any time via Teams web and desktop clients. For det
 > [!NOTE]
 > Leaving the team doesn't remove the guest account from the organization/tenant. See [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization) for how to remove yourself from the organization. Alternatively, the organization's admin can remove guest users from the tenant.
 
-## Guest access vs. external access (federation)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
