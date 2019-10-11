@@ -19,12 +19,27 @@ appliesto:
 Teams files and folders to exclude from antivirus scanning
 =================================
 
-You can improve the overall performance of your Teams deployment by preventing your anitvirus programs from scanning certain Teams files and folders. Otherwise, you'll be using system resources to scan files and folders that don't need to be scanned. 
+You can improve the overall performance of your Teams deployment by preventing your antivirus programs from scanning certain Teams files and folders. This will avoid the expenditure of system resources on scanning files and folders that don't need to be scanned.
+
+> [!NOTE]
+> When your users download files or share files with each other, those files don't pass through the locations listed in the following section. The locations where your users do upload, download, or share files will still be regularly scanned by your antivirus program.
 
 ## Files and folders to add to your antivirus safe lists
 
+Use the procedures supported by your antivirus program to add the following files and folders to your safe lists. Doing so will conserve system resources by avoiding antivirus scans of these locations.
 
-Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams. 
+### Programs
 
-> [!Important] 
-> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service. 
+Add the following Teams programs to your antivirus safe list.
+
+**%localappdata%\Microsoft\Teams\current\Teams.exe
+%localappdata%\Microsoft\Teams\Update.exe**
+
+### Folders
+
+Add the following Teams folders to your antivirus safe list.
+
+|Category  |Location  |
+|---------|---------|
+|Program files  |%localappdata%\Microsoft\Teams|
+|Data files     |%appdata%\Microsoft\Teams\|
