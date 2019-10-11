@@ -665,6 +665,22 @@
 
 <!-- ============================================================ -->
 
+#       
+#        
+
+<!-- ============================================================ -->
+
+# Upgrade guidance for on-premises, large organizations
+
+## [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+## [Upgrade guidance for large organizations](upgrade-to-teams-on-prem-overview)
+
+## Learn more about coexistence
+### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
