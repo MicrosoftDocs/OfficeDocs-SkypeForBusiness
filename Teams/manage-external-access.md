@@ -32,7 +32,7 @@ Use external access when:
 
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both enable external access and allow each other's domains, this will work. If it doesn't work, the other user should make sure his or her configuration isn't blocking your domain.
 
-External access allows external users to find, call, and send you instant messages, as well as set up meetings with you. However, if you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [External access vs. guest access](#external-access-vs-guest-access)), below. To turn on guest access, see [turn on guest access](set-up-guests.md) so that users can communicate.
+External access allows external users to find, call, and send you instant messages, as well as set up meetings with you. However, if you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [External access vs. guest access](communicate-with-users-from-other-organizations.md#table-compare-external-and-guest-access), below. To turn on guest access, see [turn on guest access](set-up-guests.md) so that users can communicate.
 
 
 > [!IMPORTANT]
