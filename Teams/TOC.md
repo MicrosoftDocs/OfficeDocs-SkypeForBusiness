@@ -670,7 +670,7 @@
 
 <!-- ============================================================ -->
 
-# Upgrade guidance for on-premises, large organizations
+# Additional upgrade guidance for on-premises, large organizations
 
 ## [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
