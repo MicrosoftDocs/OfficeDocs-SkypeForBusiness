@@ -30,6 +30,8 @@ Guest access is one of the features customers asked for the most. Here’s how y
 - Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Share your experience in the Comments section below.
 
+To compare external access with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
+
 ## Guest access overview
 
 Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.

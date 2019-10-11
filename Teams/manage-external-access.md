@@ -34,56 +34,17 @@ Use external access when:
 
 External access allows external users to find, call, and send you instant messages, as well as set up meetings with you. However, if you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [External access vs. guest access](#external-access-vs-guest-access)), below. To turn on guest access, see [turn on guest access](set-up-guests.md) so that users can communicate.
 
-> [!IMPORTANT]
-> Currently, to federate within the Microsoft Teams app to an external user outside of your organization who's not currently a guest of your Azure Active Directory (Azure AD) or tenant, you must be correctly set up for hybrid and moved to Skype for Business Online. As of 2/25/2019, Teams doesn't support native federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for hybrid and then moving to Teams, see [Upgrade Skype for Business hybrid deployment to Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 > [!IMPORTANT]
-> Guest users follow Org-wide settings for coexistence mode. This cannot be changed.
+> Currently, to federate within the Microsoft Teams app to an external user outside of your organization who's not currently a guest of your Azure Active Directory (Azure AD) or tenant, you must be correctly set up for hybrid and moved to Skype for Business Online. As of February 25, 2019, Teams doesn't support native federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for hybrid and then moving to Teams, see [Upgrade Skype for Business hybrid deployment to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
-## External access vs. guest access
+> [!IMPORTANT]
+> Guest users follow Teams Org-wide settings for coexistence mode. This can't be changed.
 
-External access (federation) and guest access are different:
-
-- Guest access gives access permission to an individual. External access gives access permission to an entire domain.
-
-- Guest access, once granted by a team owner, allows a guest to [access resources](guest-experience.md), such as channel discussions and files, for a specific team, and chat with other users in the team they have been invited to. With external access (federated chat), the external chat participants have no access to the inviting organization’s teams or team resources. They can only participate in one-on-one federated chat. Tenant admins can choose between the two communication options depending on which level of collaboration is desirable with the external party. Admins can choose either approaches or both, depending on their organizational needs, but we recommend enabling guest access for a fuller, collaborative Teams experience. 
-
-See the following table for a comparison of external and guest access features.
-
-| Feature | External access users | Guest access users |
-|---------|-----------------------|--------------------|
-| User can chat with someone in another company | Yes |Yes |
-| User can call someone in another company | Yes | Yes |
-| User can see if someone from another company is available for call or chat | Yes | Yes<sup>1</sup> |
-| User can search for users across external tenants | Yes<sup>2</sup> | No |
-| User can share files | No | Yes |
-| User can access Teams resources | No | Yes |
-| User can be added to a group chat | No | Yes |
-| User can be added to a meeting | Yes | Yes |
-| Additional users can be added to a chat with an external user | No<sup>3</sup> | N/A |
-| User is identified as an external party | Yes | Yes |
-| Presence is displayed | Yes | Yes |
-| Out of office message is shown | No | Yes |
-| Individual user can be blocked | No | No |
-| @mentions are supported | No | Yes |
-| Make private calls | Yes | Yes |
-| Allow IP video | Yes | Yes |
-| Screen sharing mode | No | Yes |
-| Allow meet now | No | Yes |
-| Edit sent messages | No | Yes |
-| Can delete sent messages | No | Yes |
-| Use Giphy in conversation | No | Yes |
-| Use memes in conversation | No | Yes |
-| Use stickers in conversation | No | Yes |
-||||
-
-<sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
-<sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
-<sup>3</sup> External (federated) chat is 1:1 only.
-
-For more information on guest features and the guest experience, see [Turn on or off guest access to Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) and [What the guest experience is like](https://docs.microsoft.com/microsoftteams/guest-experience).
 
 For more information about the free version of Teams and how it works with features found in External Access, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c?ui=en-US&rs=en-US&ad=US).
+
+To compare external access with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
 
 ## Quick steps for scenarios
 
