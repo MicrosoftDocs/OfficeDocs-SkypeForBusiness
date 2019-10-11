@@ -95,7 +95,7 @@ Some organizations may prefer to provide their end users a simpler, more predict
 
 - Users in TeamsOnly mode receive all incoming chats and calls in their Teams client, regardless of where the communication originated from:  Teams, Skype for Business, or any kind of federated user. 
 
-Unlike the Islands method, in the managed transition method, Skype for Business users and TeamsOnly users can communicate with each other. Communication between a Skype for Business user and Teams user is known as interoperability or “Interop”. (See Interoperability later in this article.) Interop communication is possible on a one-to-one basis for chats and calls between a user in Skype for Business and another user in Teams. In addition, invited users can always join either a Skype for Business or Teams meeting, however, they must use a client that corresponds to the type of meeting.
+Unlike the Islands method, in the managed transition method, Skype for Business users and TeamsOnly users can communicate with each other. Communication between a Skype for Business user and Teams user is known as interoperability or “Interop”. (See [Interoperability](#Interoperability).) Interop communication is possible on a one-to-one basis for chats and calls between a user in Skype for Business and another user in Teams. In addition, invited users can always join either a Skype for Business or Teams meeting, however, they must use a client that corresponds to the type of meeting.
 
 Since users in a managed transition are typically not in Islands mode, presence for a user is consistent regardless of which client is used by the other user. If the user is in one of the Skype for Business modes, all other users see presence based on that user’s activity in Skype for Business. Similarly, if a user is in TeamsOnly mode, all other users see presence based on that user’s activity in Teams. For details, see Presence later in this article.
 
@@ -103,7 +103,7 @@ For an organization that has not yet started using Teams, the administrator shou
 
 When mode changes from Islands to SfbWithTeamsCollab, a user that has never used Teams will see no difference in how they use Skype for Business. However, should that user start to use Teams, they would only be exposed to functionality such as Teams & Channel and Files. Chat, calling and meeting scheduling would not be available in Teams, since the administrator has (for now) designated Skype for Business as the desired client for those functions.  
 
-Note: When User A changes from Islands to one of the Skype for Business modes, the Teams client of any other user that communicates with A needs to know that A’s mode changed. It can take up to 36 hours for these clients to be aware of the mode change from Islands to any Skype for Business mode.   In contrast, changes to TeamsOnly mode are discovered by other clients within 2 hours.
+Note: When User A changes from Islands to one of the Skype for Business modes, the Teams client of any other user that communicates with A needs to know that A’s mode changed. It can take up to 36 hours for these clients to be aware of the mode change from Islands to any Skype for Business mode.   In contrast, changes for an existing user to TeamsOnly mode are discovered by other clients within 2 hours.
 
 When administrators are ready, they can shift chat, calling and meeting scheduling for a given user to Teams all at once by updating the user’s mode to TeamsOnly.  
 
@@ -115,7 +115,7 @@ The following table blow summarizes the pros and cons of using Skype for Busines
 
 | Pros     |       Cons |
 | :------------------ | :---------------- |
-| Predictable routing for the end user.  All calls and chats either land in Skype for Business or Teams, based on administrator selection.  | Interop conversations have lower fidelity than Skype for Business to Skype for Business or Teams to Teams.  This can be worked around with on-demand meetings but this is not as seamless.  |
+| Predictable routing for the end user.  All calls and chats either land in Skype for Business or Teams, based on administrator selection.  | Interop conversations lack support for rich text, file sharing, and screen sharing.  This can be worked around with on-demand meetings but this is not as seamless.  |
 | Eliminate end user confusion because a given functionality is only available in one client.  | Users can’t try both clients side-by-side, for the same set of functionality. This may especially be a factor if the users perceive the shift from Skype for Business to Teams as a major paradigm shift. |
 | Allows for incremental introduction of Teams  |  | |
 | Administrator is in full control of the transition from Skype for Business to Teams. |  | | 
@@ -192,7 +192,7 @@ An interop conversation with the same user, G3 Test
 
 ![Digram showing an interop Teams-to-Teams conversation](media/teams-upgrade-interop-thread.png)
 
-Once a conversation thread is created, it never changes. An interop thread in Teams will continue to route to the target user’s Skype for Business client. A native thread will continue to route to the target user’s Teams client.  For more details, see [Chats and calls from pre-existing threads](coexistence-chat-calls-presence.md#chats-and-calls-from-pre-existing-threads).
+Once a conversation thread is created, its type never changes. An interop thread in Teams will continue to route to the target user’s Skype for Business client. A native thread will continue to route to the target user’s Teams client.  For more details, see [Chats and calls from pre-existing threads](coexistence-chat-calls-presence.md#chats-and-calls-from-pre-existing-threads).
 
 ### Presence
 
@@ -212,9 +212,7 @@ For additional information, see [Presence](coexistence-chat-calls-presence.md#pr
 
 ### Federation
 
-Federation from Teams to another user using Skype for Business requires the Teams user to be homed online in Skype for Business. 
-
-TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, except in Islands mode. When recipients are in Islands mode:
+Federation from Teams to another user using Skype for Business requires the Teams user to be homed online in Skype for Business. TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, except in Islands mode. When recipients are in Islands mode:
 
 - Chats and calls initiated from Teams land in SfB if the recipient is in a federated tenant.
 - Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
@@ -231,7 +229,7 @@ As previously noted, existing organizations are in Islands mode by default, whic
 
 Administrators can assign TeamsUpgradePolicy to users whether the user is homed in Skype for Business Online or on-premises, with the exception that TeamsOnly mode can only be assigned to a user that is already homed in Skype for Business Online.<sup>3</sup>  Users with Skype for Business accounts homed on-premises must be moved online (either to Skype for Business Online or direct to Teams) using Move-CsUser in the Skype for Business on-premises toolset. These users can be moved to TeamsOnly in either 1 or 2 steps:
 
--	1 step:  Specify the -MoveToTeams switch in Move-CsUser. This requires CU8 for Skype for Business Server 2015 or later.
+-	1 step:  Specify the -MoveToTeams switch in Move-CsUser. This requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8.
 -	2 steps: after running Move-CsUser, then grant TeamsMode to the user using TeamsUpgradePolicy.
 
 Unlike other policies, it is not possible to create new instances of TeamsUpgradePolicy in Office 365. All the existing instances are built into the service.  (Note that mode is a property within TeamsUpgradePolicy, rather than the name of a policy instance). To see a list of all instances, you can run the following command:
@@ -324,7 +322,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 Notes
  
 - Instead of setting the tenant-wide policy to SfbWithTeamsCollab, you could set it to SfbWithTeamsCollabAndMeetings. This causes all users to start scheduling meetings in Teams.
-- Move-CsUser is a cmdlet in the on-premises tools. The MoveToTeams switch requires Skype for Business Server 2015 CU8 or later. If you are using a prior version, you can first move the user to Skype for Business Online, and then grant TeamsOnly mode to that user.
+- Move-CsUser is a cmdlet in the on-premises tools. The MoveToTeams switch requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8. If you are using a prior version, you can first move the user to Skype for Business Online, and then grant TeamsOnly mode to that user.
 - By default, Skype for Business meetings are migrated to Teams when upgrading to TeamsOnly mode.  
 
 The diagram below shows the conceptual phases of managed upgrade for an organization with no prior usage of Teams. The height of the bars represents number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using Interop, and vice versa.
