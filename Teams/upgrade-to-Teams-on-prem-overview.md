@@ -122,6 +122,16 @@ The following table blow summarizes the pros and cons of using Skype for Busines
 | Allows an organization to use Teams for meetings, even if it is not yet ready to move entirely to TeamsOnly mode. |  | |
 | Presence of a given user as viewed by others is the same, regardless of which client they use.  |  | |
 
+## Summary of upgrade methods
+
+The following table summarizes the upgrade methods:
+
+| Side-by-side (using Islands mode)     |      Managed (using Skype for Business modes) |
+| :------------------ | :---------------- |
+| Prior to being upgraded to TeamsOnly, users must run both clients simultaneously since incoming chats and calls may land in either client.   | Chats and calls only land in one client, based on the recipient’s mode. Non-upgraded users may run both clients, both there is no functional overlap; (calling and chat are not available in Teams).  Administrators can also control whether users schedule meetings in Teams or Skype for Business.   |
+| Users can use Skype for Business and Teams side by side for same functionality.   | Allows administrators to introduce net new functionality of Teams to end users (Teams and Channels), without providing same functionality that also exists in Skype for Business.   |
+|Interop between Skype for Business and Teams does not exist while both users are in Islands mode. Once some users are upgraded to TeamsOnly, interop conversation may occur between those users and other users still in Islands mode. However, the Islands user could choose to use Teams and avoid the interop conversation. | Interop is required for communication between Skype for Business and Teams users.   |
+
 ## Coexistence of Teams with Skype for Business
 
 This section summarizes issues that may arise when running both Teams and Skype for Business clients in the same organization, regardless of what mode and what upgrade method is used:
@@ -205,16 +215,6 @@ TeamsUpgradePolicy governs routing for incoming federated chats and calls. Feder
 - Chats and calls initiated from SfB always land in Skype for Business.
 
 For more details, see [Coexistence with Skype for Business](coexistence-chat-calls-presence.md).
-
-
-## Summary of upgrade methods
-
-| Side-by-side (using Islands mode)     |      Managed (using Skype for Business modes) |
-| :------------------ | :---------------- |
-| Prior to being upgraded to TeamsOnly, users must run both clients simultaneously since incoming chats and calls may land in either client.   | Chats and calls only land in one client, based on the recipient’s mode. Non-upgraded users may run both clients, both there is no functional overlap; (calling and chat are not available in Teams).  Administrators can also control whether users schedule meetings in Teams or Skype for Business.   |
-| Users can use Skype for Business and Teams side by side for same functionality.   | Allows administrators to introduce net new functionality of Teams to end users (Teams and Channels), without providing same functionality that also exists in Skype for Business.   |
-|Interop between Skype for Business and Teams does not exist while both users are in Islands mode. Once some users are upgraded to TeamsOnly, interop conversation may occur between those users and other users still in Islands mode. However, the Islands user could choose to use Teams and avoid the interop conversation. | Interop is required for communication between Skype for Business and Teams users.   |
-
 
 ## Tools for managing the upgrade
 
@@ -363,7 +363,7 @@ The diagram below shows the conceptual phases of a managed transition in which t
 
    
 
-## Considerations for PSTN Calling
+## Considerations for PSTN calling
 
 If PSTN Calling functionality is involved, there are three possible scenarios when moving to TeamsOnly mode:
 
@@ -448,4 +448,3 @@ The basic steps are listed below.  Steps 1-6 are listed in the suggested sequenc
 
 [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
-TEST CHANGE
