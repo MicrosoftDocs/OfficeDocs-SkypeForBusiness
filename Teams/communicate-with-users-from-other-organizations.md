@@ -21,7 +21,7 @@ Communicate with users from other organizations in Microsoft Teams
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams gives you two different ways to make that happen. The first – **external access** (federation) – lets  you find, call, and chat with users in other domains (for example, contoso.com). The second – **guest access** – lets you add individuals to your teams, as guests, using their email address.
 
-At a high level, here’s how to choose (for a detailed comparison, jump down to [Comparison of external and guest access](#compare-external-and-guest-access)):
+At a high level, here’s how to choose (for a detailed comparison, jump down to [Compare external and guest access](#compare-external-and-guest-access)):
 
 ## External access
 
