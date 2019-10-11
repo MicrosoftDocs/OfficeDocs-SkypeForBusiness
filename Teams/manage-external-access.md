@@ -22,6 +22,10 @@ localization_priority: Normal
 Manage external access in Microsoft Teams
 ======================================================
 
+<span style="color:red">
+<I>Lola note: I still need to study this topic and decide whether it's best to follow Vincent's advice to create a separate "EA overview" topic. Or just massage this topic a bit to make it easier to find information. I'll work on this next.</I>
+</span>
+
 With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow other external users who are still using Skype for Business Online, Skype for Business on-prem, or even Skype to participate.
 
 Use external access when:
