@@ -661,9 +661,7 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-# Additional upgrade guidance for on-premises, large organizations
-
-## [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+# Additional upgrade guidance for large organizations
 
 ## [Upgrade guidance for large organizations](upgrade-to-teams-on-prem-overview.md)
 
