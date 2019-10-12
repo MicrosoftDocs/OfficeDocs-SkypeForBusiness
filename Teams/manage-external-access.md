@@ -47,15 +47,15 @@ To learn how the free version of Teams works with external access, see [Differen
 
 ## Plan for external access
 
-By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access:
+By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
 
-- **Open federation** - This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
+- **Open federation**: This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
     In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business AND are using open federation OR have added your domain to their allow list.
 
-- **Allow specific domains** - You can add a domain or domains to the **Allow** list. To do this, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Allowed**. Once you set up a list of allowed domains, all other domains will be blocked.
+- **Allow specific domains**: By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked. To allow specific domains, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Allowed**.
 
-- **Block specific domains** - You can add a domain or domains to the **Block** list. To do this, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Blocked**. Once you set up a list of blocked domains, all other domains will be allowed.
+- **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked. To block specific domains, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Blocked**. Once you set up a list of blocked domains, all other domains will be allowed.
 
 ## Allow or block domains
 
