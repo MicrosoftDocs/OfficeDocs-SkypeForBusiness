@@ -84,7 +84,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Will I turn on external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn on external access, see  [Let your Teams users chat and communicate with users in another Teams organization](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization).|
+|<ul><li>Will I turn on external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn on external access, see [Set up external access](manage-external-access.md#set-up-external-access).|
 |||
 
 ### Guest access
