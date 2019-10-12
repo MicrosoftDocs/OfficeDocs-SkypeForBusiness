@@ -69,7 +69,7 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
-3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.
+3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where $groupID is the group ID of the team.
 
     ```
     $sites = get-sposite -template "teamchannel#0"
