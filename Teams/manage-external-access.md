@@ -134,5 +134,4 @@ Have the admin in that organization do these steps:
 
 ## Related topics
 
-[Manage guest access in Teams](manage-guests.md)
-[Compare external access and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
+To learn about the difference between external access and guest access, read [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
