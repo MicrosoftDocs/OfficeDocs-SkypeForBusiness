@@ -90,7 +90,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 3. Ask your Teams contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).
 
-4. Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall. such as a coffee shop, and use Teams to send a request to your contact to chat. If the message goes through at the wifi location, but does not when you're at work, then you know the problem is your firewall.
+4. Another way to test whether the problem is your firewall is to go to a WiFi location not behind your firewall. such as a coffee shop, and use Teams to send a request to your contact to chat. If the message goes through at the WiFi location, but does not when you're at work, then you know the problem is your firewall.
 
 ## Communicate with users in a Skype for Business Online organization
 
