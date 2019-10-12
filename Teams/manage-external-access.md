@@ -21,17 +21,19 @@ localization_priority: Normal
 Manage external access in Microsoft Teams
 ======================================================
 
-With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow other external users who are still using Skype for Business Online, Skype for Business on-prem, or even Skype to participate.
+External access is how external users can find, call, chat, and set up meetings with you. External access is how you can communicate with external users who are still using Skype for Business (online and on premises) and Skype (coming in early 2020).
+
+If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Use external access when:
   
-- You have users in different domains in your business: for example, Rob@contoso.com and Ann@northwindtraders.com.
+- You have more than one domain for your business. For example, Rob@ContosoWest.com and Ann@ContosoEast.com.
 
 - You want the people in your organization to use Teams to contact people in specific businesses outside of your organization.
 
-- You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both enable external access and allow each other's domains, this will work. If it doesn't work, the other user should make sure his or her configuration isn't blocking your domain.
+- You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both turn on external access and allow one another's domains, this will work. If it doesn't work, the other user should make sure their configuration isn't blocking your domain.
 
-External access allows external users to find, call, and chat, as well as set up meetings with you. If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+
 
 
 > [!IMPORTANT]
@@ -39,13 +41,13 @@ External access allows external users to find, call, and chat, as well as set up
 
 
 
-For more information about the free version of Teams and how it works with external access, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c?ui=en-US&rs=en-US&ad=US).
+To learn how the free version of Teams works with external access, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c?ui=en-US&rs=en-US&ad=US).
 
 
 
 ## Plan for external access
 
-External access lets your Teams and Skype for Business users communicate with other users who are outside of your organization. By default, your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access:
+By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access:
 
 - **Open federation** - This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
