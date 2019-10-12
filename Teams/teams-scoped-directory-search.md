@@ -25,7 +25,7 @@ appliesto:
 
 Microsoft Teams scoped directory search allows organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. 
 
-Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Information Barrier policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/information-barriers) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover teams when scoped search is in effect. 
+Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Information Barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover teams when scoped search is in effect. 
 
 > [!NOTE]
 > In Exchange hybrid environments, this feature only works with Exchange Online mailboxes, and not with on-premises mailboxes.
