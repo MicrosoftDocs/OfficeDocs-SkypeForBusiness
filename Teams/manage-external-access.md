@@ -31,7 +31,7 @@ Use external access when:
 
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both enable external access and allow each other's domains, this will work. If it doesn't work, the other user should make sure his or her configuration isn't blocking your domain.
 
-External access allows external users to find, call, and send you instant messages, as well as set up meetings with you. However, if you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [External access vs. guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access), below. To turn on guest access, see [turn on guest access](set-up-guests.md) so that users can communicate.
+External access allows external users to find, call, and chat, as well as set up meetings with you. If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 
 > [!IMPORTANT]
@@ -39,12 +39,11 @@ External access allows external users to find, call, and send you instant messag
 
 
 
-For more information about the free version of Teams and how it works with features found in External Access, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c?ui=en-US&rs=en-US&ad=US).
-
-To compare external access with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
+For more information about the free version of Teams and how it works with external access, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c?ui=en-US&rs=en-US&ad=US).
 
 
-## Set up external access
+
+## Plan for external access
 
 External access lets your Teams and Skype for Business users communicate with other users who are outside of your organization. By default, your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access:
 
@@ -93,7 +92,9 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 ## Communicate with users in a Skype for Business Online organization
 
-If you are setting up external access to let your Teams users find and contact users who are in a Skype for Business organization that limits who can contact their users, follow the steps to set up external access from your domain to the other organization's domain. Then ask the admin in the other organization to follow the steps below to configure external access for Skype for Business Online. For guidance on common Skype for Business Online scenarios, see [Common external access scenarios](#common-external-access-scenarios) below.
+If you're setting up external access to let your Teams users find and contact users in a Skype for Business organization that limits who can contact their users, follow the steps to set up external access from your domain to the other organization's domain. Then ask the admin in the other organization to follow the steps below to configure external access for Skype for Business Online. 
+
+For specific guidance on common Skype for Business Online scenarios, see [Common external access scenarios](#common-external-access-scenarios) below.
 
 ![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
