@@ -79,7 +79,7 @@ See these articles to plan and set up the Phone System in your business:
 
 - [Set up Calling Plans](set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
-- [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
+- [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
@@ -100,8 +100,8 @@ See these articles to plan and set up the Phone System in your business:
 <a name="bkmk_setup"> </a>
 
 The following capabilites are not yet available in GCC High and DoD Clouds. 
-- [Call Settings for secondary ringer, voicemail and enhanced delegation](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
-- [Transfer to voicemail mid call](https://support.office.com/en-us/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- [Call Settings for secondary ringer, voicemail and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call Phone number from search bar
 - Music on hold
 - AAD Reverse number lookup
