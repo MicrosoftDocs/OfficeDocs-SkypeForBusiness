@@ -1445,6 +1445,26 @@
       "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/accessibility-solutions-in-france", 
       "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/2-envision-make-my-service-decisions-audio-conferencing.md",
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/2-envision-make-my-service-decisions-direct-routing.md",
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/2-envision-make-my-service-decisions-phone-system.md",
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/cloud-voice-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page",
+      "redirect_document_id": false
     }
   ] 
 }
