@@ -56,6 +56,22 @@ With guest access, organizations that use Teams can provide external access to t
 
 Teams is built on Office 365 Groups and provides a new way to access shared assets for an Office 365 group. Teams is the best solution for persistent chat among group/team members. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely. 
 
+## Understand the limitations for guests
+
+The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
+
+- OneDrive for Business
+- People search outside of Teams
+- Calendar, Scheduled Meetings, or Meeting Details
+- PSTN
+- Organization chart
+- Create or revise a team
+- Browse for a team
+- Upload files to a person-to-person chat
+- Guests can still search and find users (outside their team) if they know the user's full email ID. To prevent this, IT admins can use patterns like [scoped directory search](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) that have the ability to restrict Guests into their own virtual GAL.
+
+For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 Groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+
 ## How does guest access compare to external access (federation)?
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
