@@ -225,7 +225,6 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 > Please observe the following:
 >- Users you wish to make available for Dial By Extension need to have an extension specified as part of their phone number or mobile phone number assigned in the [Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  The required format to enter the extension in the user phone number field is is either `+<phonenumber>;ext=<extension>` or `x<extension>`.
 >- Assigning an extension in Teams Admin center is not currently supported. You must either use the [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell command or the Microsoft 365 admin center.
->- Do NOT edit an auto attendant configured for extension dialing in Teams admin center. It will over-write the settings.
 >- It can take up to 12 hours before changes to the AAD PhoneNumber and MobilePhone attributes are available.
 >- Please do NOT define an extension for the LineUri of a user. This is  not supported currently.
 >- An auto attendant can be configured for either dial by name or dial by extension, but not both.
