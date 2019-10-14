@@ -23,14 +23,6 @@ When you need to communicate and collaborate with people outside your organizati
 
 At a high level, here’s how to choose (for a detailed comparison, jump down to [Compare external and guest access](#compare-external-and-guest-access)):
 
-## External access
-
-Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with external users who are still on Skype for Business (online or on premises) or Skype (coming in early 2020). 
-
-External access is turned on by default in Teams, which means your org can communicate with all external domains. The Teams admin can turn it off or specify which domains to include (or exclude). To learn more, read [Manage external access](manage-external-access.md). 
-
-If you want external users to have access to teams and channels, [guest access](#guest-access) might be a better way to go. 
-
 
 ## Guest access
 
@@ -40,6 +32,14 @@ Use **guest access** to add an individual user (regardless of domain) to a team,
 - To communicate with a guest, the guest has to be signed in to Teams using their guest account. This means that a guest may have to sign out of their own Teams account to sign in to your Teams account.
 - Guest users have access to more resources in Teams - such as files, teams, and channels - than external-access (federated) users.
 - The Teams admin controls everything that a guest can (or can’t) do in the Teams admin center. To learn more, read [Manage guest access](manage-guests.md).
+
+## External access
+
+Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with external users who are still on Skype for Business (online or on premises) or Skype (coming in early 2020). 
+
+External access is turned on by default in Teams, which means your org can communicate with all external domains. The Teams admin can turn it off or specify which domains to include (or exclude). To learn more, read [Manage external access](manage-external-access.md). 
+
+If you want external users to have access to teams and channels, [guest access](#guest-access) might be a better way to go. 
 
 
 
