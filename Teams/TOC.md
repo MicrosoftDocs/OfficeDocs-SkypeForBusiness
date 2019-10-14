@@ -62,6 +62,7 @@
 #### [Edit guest user information](edit-guests-information.md)
 #### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 #### [Guest access checklist](guest-access-checklist.md)
+#### [Troubleshoot guest access](guest-access-troubleshooting.md)
 
 
 
