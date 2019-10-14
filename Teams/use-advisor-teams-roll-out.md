@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 f1keywords: 
-- WT.mc_id=TeamsAdminCenterCSH
+- ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom:
 description: "Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment."
 ---
