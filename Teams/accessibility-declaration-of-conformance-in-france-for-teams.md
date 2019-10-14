@@ -5,18 +5,17 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: reference
-audience: admin 
+audience: admin
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 search.appverid: MET150
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: None
 f1keywords: None
-ms.custom:
-- Legal
+ms.custom: 
+  - Legal
 hideEdit: true
 description: "Microsoft Teams est l’outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace. "
 ---
