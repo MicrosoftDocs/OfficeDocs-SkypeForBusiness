@@ -217,10 +217,21 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 **Dial by name** If you enable this option, callers can search for people in your organization using **Dial by name**. They say the user's name and voice recognition matches them to a user. You can set who is and is not included in these services in the optional Dial Scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
 
-**Dial by extension** If you enable this option, callers can connect with users in your organization by entering their phone extension **provided you have configured a Dial plan that uses extensions**. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**Dial by extension** If you enable this option (currently only available in some tenants), callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+
+> [!IMPORTANT]
+> Please observe the following:
+>- Users you wish to make available for Dial By Extension need to have an extension specified as part of their phone number or mobile phone number assigned in the [Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  The required format to enter the extension in the user phone number field is is either `+<phonenumber>;ext=<extension>` or `x<extension>`.
+>- Assigning an extension in Teams Admin center is not currently supported. You must either use the [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell command or the Microsoft 365 admin center.
+>- Do NOT edit an auto attendant configured for extension dialing in Teams admin center. It will over-write the settings.
+>- It can take up to 12 hours before changes to the AAD PhoneNumber and MobilePhone attributes are available.
+>- Please do NOT define an extension for the LineUri of a user. This is  not supported currently.
+>- An auto attendant can be configured for either dial by name or dial by extension, but not both.
 
 > [!NOTE]
-> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option 3 if they know the extension of the user, and set option 3 to transfer the call to an auto attendant enabled for Dial by extension. 
+> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension. 
 
 * * *
 
