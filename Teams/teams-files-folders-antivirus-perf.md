@@ -32,8 +32,9 @@ Use the procedures supported by your antivirus program to add the following file
 
 Add the following Teams programs to your antivirus safe list.
 
-**%localappdata%\Microsoft\Teams\current\Teams.exe
-%localappdata%\Microsoft\Teams\Update.exe**
+**%localappdata%\Microsoft\Teams\current\Teams.exe**
+
+**%localappdata%\Microsoft\Teams\Update.exe**
 
 ### Folders
 
