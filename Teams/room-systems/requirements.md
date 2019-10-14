@@ -27,13 +27,13 @@ Also, refer to:
 > [!NOTE]
 > Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
 >
-> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
+> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Office 365 operated by 21Vianet, or in GCC, GCC-High, or DoD environments.
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
 
-Microsoft Teams Rooms scales to different room sizes by using different  audio and video peripherals based on the size of the room. The hardware listed in this article supports both Skype and Teams meeting modes. Audio and video peripherals connect to Microsoft Teams Rooms via a USB or HDMI connection on the docking device. You also need:
+Microsoft Teams Rooms scales to different room sizes by using different audio and video peripherals based on the size of the room. The hardware listed in this article supports both Skype and Teams meeting modes. Audio and video peripherals connect to Microsoft Teams Rooms via a USB or HDMI connection on the docking device. You also need:
 
 - A 32 GB or larger USB disk you configure as bootable Windows installation media for Windows 10 Enterprise.
 - One of the following tablets or consoles:
@@ -106,7 +106,7 @@ These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices
 
 #### USB extenders
 
-- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender. That will limit you to USB 2.x speeds on the far end, which is not recommended for USB 3.0 peripherals.
+- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but doing this limits you to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
   - Wired GbE connection in the room. Ethernet cable of appropriate length.
