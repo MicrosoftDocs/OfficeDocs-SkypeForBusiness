@@ -26,7 +26,7 @@ When planning your organization’s move to Teams from Slack, it is important to
 
 The diagram below shows the Slack architecture at a high level.
 
-## Plan your migration
+## Plan your migration from Slack
 ### What you can and can’t migrate
 Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. The Enterprise Grid service plan gives you more migration options, but uses a different set of tools. 
 
@@ -174,11 +174,10 @@ The diagram below gives you a high-level outline of the things you’ll address 
 A Slack Workspace may represent a single team, multiple teams or an entire organization. It’s important to understand the scope of the Workspaces as you determine the structure. The closest relationship to a Teams team in Slack is the Workspace, which contains a collection of channels. The diagram below demonstrates 3 different Slack-to-Teams mappings, and guidance for picking the right one for each Workspace.
 
 
-| |  |
+|Slack-to-Teams mapping |  |
 |---------|---------|
-|1 Slack Workspace :arrow_right: 1 team   | For smaller Slack workspaces that need fewer than 200 channels<br>
-Include a buffer for growth and private channel planning  |
-|! Slack Workspace :arrow_right: multiple teams     | Use your Slack Workspace analytics data to create logical channel groupings, which become the basis of your teams        |
+|1 Slack Workspace :arrow_right: 1 team   | For smaller Slack workspaces that need fewer than 200 channels<br>Include a buffer for growth and private channel planning  |
+|1 Slack Workspace :arrow_right: multiple teams     | Use your Slack Workspace analytics data to create logical channel groupings, which become the basis of your teams        |
 |2+ Slack Workspaces :arrow_right: multiple teams     | Use your Slack Workspace analytics data to create logical team and channel groupings, which become the basis of your teams        |
 
 Third-party solutions have usage statistics to help you assess how active the channel is and how many posts there are. Typically, channels that are frequently used would be candidates to include in your team planning.
@@ -187,7 +186,7 @@ Third-party solutions have usage statistics to help you assess how active the ch
 > Retain only what is required in your approach to determine which channels to recreate in Teams. To learn more, read [Overview of teams and channels](teams-channels-overview.md). 
 
 #### Team Planning
-Using the Channel inventory you compiled in the Planning section above, work with your Slack owners and admins to figure out which channels should become teams and which ones should become channels in a team. Use either Excel or PowerBI - both can provide additional insights to help drive these discussions on which channels to retain.
+Using the Channel inventory you compiled in the Planning section above, work with your Slack owners and admins to figure out which channels should become teams and which ones should become channels in a team. Use either Excel or PowerBI to help with this analysis - both can provide additional insights to help drive these discussions on which channels to retain.
 
 > [!TIP]
 > Teams currently has a 200-channel limit per team. If your list of channels is getting close to that limit, you should figure out a way to split them into two separate teams.
@@ -352,7 +351,7 @@ Check out our rich library of [End-user Teams training](enduser-training.md).
 ## Move to Teams 
 Now that your transition plan is defined, you can begin creating your teams and channels in Teams. 
 
-Once you’ve created your teams & channels, begin copying files from Slack channels into Teams and configuring your apps. If you’re using a solution to retain history, that can be configured now as well. Then you’re ready to start licensing users (if they aren’t licensed already) and adding them to the appropriate teams. To reduce the need for additional exports and file copies, consider removing Slack access at an agreed upon date that coincides with each user’s addition to the team. This avoids needing to re-export and import delta changes on files and history.
+Once you’ve created your teams & channels, begin copying files from Slack channels into Teams and configuring your apps. If you’re using a solution to retain history, that can be configured now as well. Then you’re ready to start licensing users (if they aren’t licensed already) and adding them to the appropriate teams. To reduce the need for additional exports and file copies, consider removing Slack access at an agreed-upon date that coincides with each user’s addition to the team. This avoids needing to re-export and import delta changes on files and history.
 
 Follow the steps in the diagram below to roll out Teams in your organization. For more information, check out [How to roll out Teams](How-to-roll-out-teams.md).
 
