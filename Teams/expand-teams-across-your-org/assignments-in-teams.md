@@ -79,6 +79,4 @@ Copy the API key and paste it into the Microsoft Teams admin center.  This is th
 
 Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.
 
-[Learn more about the integration between Turnitin and Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Learn more about Turnitin](https://www.turnitin.com/)
+Ready to start using the Turnitin integration in Teams? Sign up for the [early access program](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
