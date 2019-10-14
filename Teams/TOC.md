@@ -51,16 +51,16 @@
 
 ### Guest access
 #### [About guest access](guest-access.md)
-#### [How a guest joins a team](guest-joins.md)
-#### [What the guest experience is like](guest-experience.md)
-#### [Authorize guest access in Teams](teams-dependencies.md)
-#### [Turn on or turn off guest access in Teams](set-up-guests.md)
-#### [Manage guest access in Teams](manage-guests.md)
-#### [Add a guest to a team](add-guests.md)
-#### [View guest users in a team](view-guests.md)
-#### [Edit guest user information](edit-guests-information.md)
-#### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 #### [Guest access checklist](guest-access-checklist.md)
+##### [How a guest joins a team](guest-joins.md)
+##### [What the guest experience is like](guest-experience.md)
+##### [Authorize guest access in Teams](teams-dependencies.md)
+##### [Turn on or turn off guest access in Teams](set-up-guests.md)
+##### [Manage guest access in Teams](manage-guests.md)
+##### [Add a guest to a team](add-guests.md)
+##### [View guest users in a team](view-guests.md)
+##### [Edit guest user information](edit-guests-information.md)
+#### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](guest-access-troubleshooting.md)
 
 
