@@ -121,7 +121,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
 - To test the effective settings of a dial plan, run:
     
   ```
-  Test-CsEffectiveTenantDialPlan -DialedNumber 14258828080 -Identity adelev@contoso.onmicrosoft.com
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
     For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
