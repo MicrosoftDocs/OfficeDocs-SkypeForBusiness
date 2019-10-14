@@ -54,11 +54,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|"Assignments" app remains visble when disabled  <br/> |When the "Assignments" app is disabled in the admin center, it remains visible within the Teams client for EDU-licensed users. Selecting it when disabled will return an error indicating, "Doh! Something went wrong..."  <br/> |No workaround.  <br/> |12/29/17  <br/> |
+|"Assignments" app remains visible when disabled  <br/> |When the "Assignments" app is disabled in the admin center, it remains visible within the Teams client for EDU-licensed users. Selecting it when disabled will return an error indicating, "Doh! Something went wrong..."  <br/> |No workaround.  <br/> |12/29/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to delete connectors as a team owner  <br/> |Attempting to delete a connector as an owner, that can otherwise add a conector, while "Allow members to create, update, and remove connectors" is disabled throws an error indicating the user does not have permission to do so. <br/> |Temporarily enabling "Allow members to create, update, and remove connectors" will allow the owner to delete the connector.  <br/> |7/27/18  <br/> |
+|Unable to delete connectors as a team owner  <br/> |Attempting to delete a connector as an owner, that can otherwise add a connector, while "Allow members to create, update, and remove connectors" is disabled throws an error indicating the user does not have permission to do so. <br/> |Temporarily enabling "Allow members to create, update, and remove connectors" will allow the owner to delete the connector.  <br/> |7/27/18  <br/> |
 
 ## Audio Conferencing
 
@@ -71,6 +71,8 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Dial out control is not showing up intermittently.  <br/> |Dial out control may not be visible from the Meeting Info panel.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
 |Static conference ID not supported for Microsoft Teams meetings.  <br/> |If the admin overrides the default setting from dynamic conference ID to static conference ID, this setting doesn't take effect for Microsoft Teams meetings. See [Using Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
 |PSTN meeting coordinates are not available for Skype for Business on-premises users  <br/> |If the user is a Skype for Business on-premises user, assigned with Skype for Business Online, Audio Conferencing, and Teams licenses, all meetings scheduled using Teams will not include PSTN meeting coordinates. <br/> |No workaround.  <br/> |2/1/2018  <br/> |
+
+|Cloud Video Interop information in Meet Now  <br/> |If you create a Meet Now instance of a meeting in Microsoft Teams with an existing CVI license, it will not populate the CVI information. <br/> |The recommendation is to schedule the meeting to populate this information.  <br/> |6/11/2019  <br/> |
 
 ## Authentication
 
@@ -187,7 +189,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|No audio while sharing content during a broadcast meeting  <br/> |When sharing content during a broadcast meeting, audio from the shared content (youtube link or a saved video file) cannot be hear by participants.  <br/> |None as this is by design.  Teams does not currently support audio from content sharing  <br/> |10/9/18  <br/> |
+|No audio while sharing content during a broadcast meeting  <br/> |When sharing content during a broadcast meeting, audio from the shared content (YouTube link or a saved video file) cannot be hear by participants.  <br/> |None as this is by design.  Teams does not currently support audio from content sharing  <br/> |10/9/18  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to start meeting as Organizer from Outlook as you may get stuck in the Virtual Lobby  <br/> |You may run into this issue if your Outlook client is logged into a different account than your Teams client. <br/> |When you join the meeting, make sure your Outlook client and Teams client are logged into the same account that the meeting was scheduled from.  <br/> |11/5/18  <br/> |
 
 ## Mobile
 
@@ -313,6 +319,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|Teams voicemail emails will arrive with spf fail if it is a sip call, if it is a pstn call to a user they will arrive with the from attribute with out the correct value, if the customer has a rule where he analyzes the spf voice mails will have the action where the etr decides. <br/> | <br/> | 29/08/2019 workaround will be adding a exception in the etr if the message is a voice mail.
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |Photo upload to Teams is not blocked on OWA/Outlook as policy requires   <br/> | Teams allows users to upload photos directly to Office 365, in spite of policy settings in place preventing photo upload for OWA.   <br/> |<br/>  |10/16/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -321,7 +331,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Team names that contain special characters can create errors for meeting creation  <br/> |User will receive **error has occured** message in red when trying to create a meeting for a Team that has special characters in the name.   <br/> |Rename or recreate team with a name that does not contain a "/".  <br/> |7/13/17  <br/> |
+|Team names that contain special characters can create errors for meeting creation  <br/> |User will receive **error has occurred** message in red when trying to create a meeting for a Team that has special characters in the name.   <br/> |Rename or recreate team with a name that does not contain a "/".  <br/> |7/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -341,7 +351,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|User not recieving welcome email when added administratively  <br/> |When adding a member to a team using PowerShell or the Teams admin center, they are not recieving a welcome email from Microsoft Teams  <br/> |Adding a member from the Teams UI directly will send an email. Currently, there is no workaround doing so administratively.  <br/> |2/12/19  <br/> |
+|User not receiving welcome email when added administratively  <br/> |When adding a member to a team using PowerShell or the Teams admin center, they are not receiving a welcome email from Microsoft Teams  <br/> |Adding a member from the Teams UI directly will send an email. Currently, there is no workaround doing so administratively.  <br/> |2/12/19  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|

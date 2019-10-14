@@ -22,10 +22,10 @@ The Teams usage report in the Microsoft Teams admin center gives you an overview
 
 ## View the report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports**, and then under **Report**, select **Teams usage**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams usage**.
 2. Under **Date range**, select a range, and then click **Run report**.
 
-    ![Screen shot of the Teams usage report in the Teams admin center with callouts](../media/teams-reports-teams-usage-with-callouts.png "Screen shot of the Teams usage report in the Teams admin center with callouts")
+    ![Screenshot of the Teams usage report in the Teams admin center with callouts](../media/teams-reports-teams-usage-with-callouts.png "Screenshot of the Teams usage report in the Teams admin center with callouts")
 
 ## Interpret the report
 
@@ -37,7 +37,9 @@ The Teams usage report in the Microsoft Teams admin center gives you an overview
 |**4**   |You can filter what you see on the chart by clicking an item in the legend. For example, click  **Total active users**, **Teams & Channels active users**,  **Active channels**, or **Messages** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
 |**5**   |The table gives you a breakdown of usage by team. <ul><li>**Team name** is the display name of the team. You can click the team name to go to the team's settings page in the Microsoft Teams admin center. </li> <li>**Privacy** refers to whether the team is a private team or public team.</li> <li>**Active users** is the number of active users in the team in the specified time period.</li><li>**Guests** is the number of guests in the team in the specified time period.</li> </li> </ul>Note that if a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
 |**6**   |Select **Edit columns** to add or remove columns in the table.|
-|**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screen shot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
+|**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screenshot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## Related topics
 

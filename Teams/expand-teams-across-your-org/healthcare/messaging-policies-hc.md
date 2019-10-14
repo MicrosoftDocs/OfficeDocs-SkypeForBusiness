@@ -23,11 +23,11 @@ You can use the default policy or create one or more custom messaging policies f
 
 Policies can be easily managed in the [Microsoft Teams admin center](http://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
 
- ![Screen shot of the Messaging policies page](../../media/messaging-policies-image1.png)
+ ![Screenshot of the Messaging policies page](../../media/messaging-policies-image1.png)
 
 To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
 
-![Screen shot of  messaging policy settings](../../media/hc-message-policy.png)
+![Screenshot of  messaging policy settings](../../media/hc-message-policy.png)
 
 The following settings are of special interest for Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 

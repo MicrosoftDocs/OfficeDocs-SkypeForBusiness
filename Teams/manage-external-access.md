@@ -24,7 +24,7 @@ Manage external access in Microsoft Teams
 
 With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow other external users who are still using Skype for Business Online, Skype for Business on-prem, or even Skype to participate.
 
-Use the steps in this article when:
+Use external access when:
   
 - You have users in different domains in your business: for example, Rob@contoso.com and Ann@northwindtraders.com.
 
@@ -64,7 +64,7 @@ See the following table for a comparison of external and guest access features.
 | User is identified as an external party | Yes | Yes |
 | Presence is displayed | Yes | Yes |
 | Out of office message is shown | No | Yes |
-| Individual user can be blocked | No | Yes |
+| Individual user can be blocked | No | No |
 | @mentions are supported | No | Yes |
 | Make private calls | Yes | Yes |
 | Allow IP video | Yes | Yes |

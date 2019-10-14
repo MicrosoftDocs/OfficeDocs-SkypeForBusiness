@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to install and connect to the Microsoft StaffHub PowerShell module.
+description: Learn how to install and connect to the prerelease version of the Microsoft StaffHub PowerShell module.
 localization_priority: Normal
 ms.collection: 
 - Teams_ITAdmin_Help
@@ -20,33 +20,27 @@ appliesto:
 # Install the Microsoft StaffHub PowerShell module
 
 > [!IMPORTANT]
-> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
+> Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
 
-Use the steps in this article to install and connect to the Microsoft StaffHub PowerShell module. You'll need this to manage StaffHub by using PowerShell and to move your StaffHub teams to Microsoft Teams.
+Use the steps in this article to install and connect to the prerelease version of the Microsoft StaffHub PowerShell module. You'll need this to [move your StaffHub teams to Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
-## Install the Microsoft StaffHub PowerShell module
+## Install the prerelease version of the Microsoft StaffHub PowerShell module
 
 1. Open Windows PowerShell 3.0 or later as an admin. To do this, click **Start**, type **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
     > [!NOTE]
     > To get the latest version of Windows PowerShell, see [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
-2. Run the following to install the current stable version of the StaffHub PowerShell module:
+2. Run the following to install the prerelease version of the StaffHub PowerShell module:
 
     ```
-    Install-Module -Name MicrosoftStaffHub
+    Install-Module -Name MicrosoftStaffHub -AllowPrerelease
     ```
-    
-    You can run this command only if you need to install the latest version, which may have more instabilities than the current stable version: `Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
-
-     > [!NOTE]
-     > If you receive an error during the installation of the latest version with more instabilities, you can run: `Install-Module PowershellGet -Force`
-
 3. You may see the warning message:
 
     ```
     Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
     ```
 
-Type `Y` and click `Enter`.
+    Type `Y`, and then click `Enter`.
  
 4. Exit Windows PowerShell.
 
