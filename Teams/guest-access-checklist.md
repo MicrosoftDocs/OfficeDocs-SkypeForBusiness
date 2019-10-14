@@ -48,7 +48,7 @@ Use this checklist to help you enable and configure the guest access feature in 
 
    - **Collaboration restrictions**: For more information about allowing or blocking invitations to specific domains, see [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
-> [!NOTES]
+> [!NOTE]
 > - For collaboration restrictions see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 > - Currently, Teams doesn't support the guest inviter role. At a minimum the "members can invite" toggle must be set to "Yes" for guest access to work in Teams. If you set "members can invite" to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
     
