@@ -8,18 +8,17 @@ ms.topic: reference
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Legal
+ms.custom: 
+  - Legal
 hideEdit: true
 description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
 ---

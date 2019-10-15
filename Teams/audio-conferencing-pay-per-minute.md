@@ -10,17 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help 
-- M365-collaboration
-- M365-voice
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Licensing
+ms.custom: 
+  - Licensing
 description: "In addition to the standard Audio Conferencing per-user license, organizations using Microsoft Volume Licensing can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
 ---
 
