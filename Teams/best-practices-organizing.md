@@ -11,10 +11,9 @@ description: Learn about best practices for organizing teams in Microsoft Teams 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Best practices for organizing teams in Microsoft Teams
