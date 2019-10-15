@@ -40,7 +40,9 @@ There are two methods for migrating an existing organization with Skype for Busi
 This article helps you choose the right method for your organization by describing both methods and presenting the pros and cons of each. 
 
 **Notes:**
-<sup>1</sup>Older Skype for Business clients that shipped before 2017 do not honor this. Make sure you are using the latest Skype for Business client.
+
+<sup>1</sup>Older Skype for Business clients that shipped before 2017 do not honor [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps). Make sure you are using the latest Skype for Business client.
+
 
 ## Side-by-side method (using Islands mode)
 
@@ -50,7 +52,7 @@ With the side-by-side method, users can use both Teams and Skype for Business cl
 - Communication initiated from another user’s Teams client will always land in A’s Teams client, *if the other user is in the same organization*. 
 - Communication initiated from another user’s Teams client will always land in A’s Skype for Business client, *if the other user is in a federated organization*.
 
-Islands mode is the default mode of TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign an Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>1</sup>  In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the side-by-side approach. It allows for rapid, end-user driven adoption within an organization.
+Islands mode is the default mode of TeamsUpgradePolicy for any existing organization that is not yet TeamsOnly. When you assign an Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>2</sup>  In fact, if you have not taken any steps to change the default configuration, you may already have significant usage of Teams in your organization.  This is one of the benefits of the side-by-side approach. It allows for rapid, end-user driven adoption within an organization.
 
 For this method to work effectively, it requires all users to run both clients simultaneously. Incoming chats and calls from within the organization to a user in Islands mode can land in either the Skype for Business or Teams client--and this is not under the control of the recipient. It depends on what client the sender uses to initiate the communication. If the sender and recipient are in different organizations, incoming calls and chats to a user in Islands mode always land in the Skype for Business client.  
 
@@ -63,11 +65,9 @@ When User A is in Islands mode, User A’s presence as seen by other users in Te
 
 This means other users may see different presence states for User A, depending on which client they use. For more details, see Presence later in this article.
 
-Once you are ready to upgrade users to TeamsOnly mode, you can upgrade users individually or you can upgrade the entire tenant at once using the tenant-wide policy. Once a user is upgraded to TeamsOnly mode, they receive all incoming chats and calls in Teams. 
+Once you are ready to upgrade users to TeamsOnly mode, you can upgrade users individually or you can upgrade the entire tenant at once using the tenant-wide policy<sup>3</sup>. Once a user is upgraded to TeamsOnly mode, they receive all incoming chats and calls in Teams. 
 
 However, non-upgraded recipients in Islands mode may continue to receive chats and calls from a TeamsOnly user in either their Skype for Business or Teams clients.  This is because the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication, even for the same user.  (See [Teams Conversations: Interop versus native threads](#teams-conversations:-interop-versus-native-threads).)  For example, assume Islands User A uses Teams to message TeamsOnly User B. When User B replies to that chat, the communication will land in User A’s Teams client. Now assume User A uses his Skype for Business client to message TeamsOnly User B. User B will receive the chat in Teams, but this will be a separate conversation in User B's Teams client compared to the other conversation. If User B replies to this conversation with User A, it will land in User A’s Skype for Business client. 
-
-Teams conversations: Interop versus native threads
 
 The following table summarizes the Teams experience for both Islands mode and TeamsOnly mode:  
 
@@ -88,8 +88,10 @@ The following table summarizes the pros and cons of using the side-by-side metho
 |  | When using Teams, users who have an on-premises account in Skype for Business Server do not have interop or federation support.  This can potentially create confusion if you have a mix of Islands users--some who are homed in Skype for Business Online and some in Skype for Business on-premises.   |
 
 **Notes:**
-<sup>2</sup>
-This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.
+<sup>2</sup>This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.
+
+<sup>3</sup>Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See Meeting Migration for details. 
+
 
 
 ## Managed transition method (using Skype for Business modes)
@@ -232,7 +234,7 @@ For either of the methods described above, administrators manage the transition 
 
 As previously noted, existing organizations are in Islands mode by default, which allows for the side-by-side upgrade experience.  Whether the administrator performs a managed transition using Skype for Business modes or simply upgrades to TeamsOnly mode from the default Islands configuration, TeamsUpgradePolicy is the primary tool.  Like any other policy in Teams, TeamsUpgradePolicy can be assigned directly to a user, and it can also be set as the tenant-wide default. Any assignment to a user takes precedence over the tenant default setting.  It can be managed both in the Teams Admin Console and in PowerShell.
 
-Administrators can assign TeamsUpgradePolicy to users whether the user is homed in Skype for Business Online or on-premises, except that TeamsOnly mode can only be assigned to a user that is already homed in Skype for Business Online.<sup>3</sup>  Users with Skype for Business accounts homed on-premises [must be moved online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (either to Skype for Business Online or direct to Teams) using Move-CsUser in the Skype for Business on-premises toolset. These users can be moved to TeamsOnly in either 1 or 2 steps:
+Administrators can assign TeamsUpgradePolicy to users whether the user is homed in Skype for Business Online or on-premises, except that TeamsOnly mode can only be assigned to a user that is already homed in Skype for Business Online.<sup>4</sup>  Users with Skype for Business accounts homed on-premises [must be moved online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (either to Skype for Business Online or direct to Teams) using Move-CsUser in the Skype for Business on-premises toolset. These users can be moved to TeamsOnly in either 1 or 2 steps:
 
 -	1 step:  Specify the -MoveToTeams switch in Move-CsUser. This requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8.
 -	2 steps: after running Move-CsUser, then grant TeamsMode to the user using TeamsUpgradePolicy.
@@ -263,7 +265,7 @@ When a user is migrated to TeamsOnly mode, by default their existing Skype for B
 
 
 **Notes:**
-<sup>3</sup>
+<sup>4</sup>
 This is because interop with Skype for Business users and federation are only possible if the user is homed in Skype for Business Online.
 
 
