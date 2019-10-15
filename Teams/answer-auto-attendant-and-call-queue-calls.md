@@ -12,10 +12,10 @@ description: Describes Cloud auto attendants and call queues, and explains how y
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Answer auto attendant and call queue calls directly from Teams
@@ -35,7 +35,7 @@ Users will be able to differentiate incoming calls from an auto attendant or cal
 
 The following illustration shows how an incoming call from an auto attendant or call queue will appear to a user.
 
-![Screen shot of an incoming call notification](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Screenshot of an incoming call notification](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user’s configuration.
 
