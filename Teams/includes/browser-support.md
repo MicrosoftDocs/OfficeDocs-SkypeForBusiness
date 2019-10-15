@@ -1,5 +1,17 @@
 Teams fully supports the following internet browsers, with noted exceptions.
 
+
+|Browser  |Teams, channels, chat, files  |Calling - audio and video  |Meetings - audio, video, and sharing  |
+|---------|---------|---------|---------|
+|IE11     | Fully supported        |Not supported         | Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)        |
+|Microsoft Edge, RS2 or later     | Fully supported        |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
+|Microsoft Edge (Chromium-based), the latest version plus two previous versions     | Fully supported        | Audio fully supported<br>Incoming and outgoing video not supported (coming soon)        |         |
+|Google Chrome, the latest version plus two previous versions       | Fully supported        |Audio fully supported<br>Incoming and outgoing video not supported (coming soon)         |         |
+|Firefox, the latest version plus two previous versions     | Fully supported        |Not supported         |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)         |
+|Safari 11.1+     | Fully supported        | Not supported        |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)         |
+
+
+
 |Browser  |Notes  |
 |---------|---------|
 |Internet Explorer 11     |   Calling and Meetings aren't supported. Users who try to join a meeting on Internet Explorer 11 will be directed to download the Teams desktop client.      |
