@@ -10,16 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Phone System
+ms.custom: 
+  - Phone System
 description: "Learn how to setup Skype for Businesses to use another language for your organization's default voicemail greeting. "
 ---
 

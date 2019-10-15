@@ -9,18 +9,17 @@ ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: None
 f1keywords: None
-ms.custom:
-- Legal
+ms.custom: 
+  - Legal
 description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online and Microsoft Teams PSTN Services Use Terms and Customer's volume licensing agreement."
 ---
 

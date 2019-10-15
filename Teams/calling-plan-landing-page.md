@@ -7,15 +7,13 @@ ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Calling Plan landing page
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Which Calling Plan is right for you? 
