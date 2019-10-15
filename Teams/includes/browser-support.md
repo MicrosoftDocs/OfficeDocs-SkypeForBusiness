@@ -1,14 +1,14 @@
-Teams fully supports the following internet browsers, with noted exceptions.
+Teams fully supports the following internet browsers, with noted exceptions for calling and meetings.
 
 
-|Browser  |Teams, channels, chat, files  |Calling - audio and video  |Meetings - audio, video, and sharing  |
-|---------|---------|---------|---------|
-|IE11     | Fully supported        |Not supported         | Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)        |
-|Microsoft Edge, RS2 or later     | Fully supported        |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
-|Microsoft Edge (Chromium-based), the latest version plus two previous versions     | Fully supported        | Audio fully supported<br>Incoming and outgoing video not supported (coming soon)        |         |
-|Google Chrome, the latest version plus two previous versions       | Fully supported        |Audio fully supported<br>Incoming and outgoing video not supported (coming soon)         |         |
-|Firefox, the latest version plus two previous versions     | Fully supported        |Not supported         |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)         |
-|Safari 11.1+     | Fully supported        | Not supported        |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)         |
+|Browser  |Calling - audio and video  |Meetings - audio, video, and sharing  |
+|---------|---------|---------|
+|IE11     |Not supported         | Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)        |
+|Microsoft Edge, RS2 or later     |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
+|Microsoft Edge (Chromium-based), the latest version plus two previous versions     | Audio fully supported<br>Incoming and outgoing video not supported (coming soon)        |         |
+|Google Chrome, the latest version plus two previous versions       |Audio fully supported<br>Incoming and outgoing video not supported (coming soon)         |         |
+|Firefox, the latest version plus two previous versions     |Not supported         |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)         |
+|Safari 11.1+     | Not supported        |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)         |
 
 
 
