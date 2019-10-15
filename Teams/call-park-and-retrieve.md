@@ -9,17 +9,16 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-- ms.teamsadmincenter.callparkpolicies.overview
-ms.custom:
-- Phone System
+  - ms.teamsadmincenter.callparkpolicies.overview
+ms.custom: 
+  - Phone System
 description: "Use call park and retrieve to place a call on hold in the Teams service in the cloud."
 ---
 
