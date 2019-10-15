@@ -3,12 +3,12 @@ Teams fully supports the following internet browsers, with noted exceptions for 
 
 |Browser  |Calling - audio and video  |Meetings - audio, video, and sharing  |
 |---------|---------|---------|
-|Internet Exlorer 11     |Not supported         | <ul>Audio: PSTN only (if meeting includes PSTN calling information)<ul>Video: Not supported<ul>Sharing: Incoming sharing only (no outgoing) <li>Users who try to join a meeting on Internet Explorer 11 will be encouraged to download the Teams desktop client.   </ul></li>     |
+|Internet Explorer 11     |Not supported         | <li>Audio: PSTN only (if meeting includes PSTN calling information)<li>Video: Not supported<li>Sharing: Incoming sharing only (no outgoing) <br><li>Users who try to join a meeting on Internet Explorer 11 will be encouraged to download the Teams desktop client.  </li>     |
 |Microsoft Edge, RS2 or later     |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
-|Microsoft Edge (Chromium-based), the latest version plus two previous versions     | Audio fully supported<br>Incoming and outgoing video not supported (coming soon)        |Fully supported         |
-|Google Chrome, the latest version plus two previous versions       |Audio fully supported<br>Incoming and outgoing video not supported (coming soon)   As of July 3, 2019, screen sharing is supported without any plug-ins or extensions<br>      |Fully supported         |
-|Firefox, the latest version plus two previous versions     |Not supported         |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)<br>Users who try to join a meeting on Firefox will be encouraged to download the Teams desktop client.         |
-|Safari 11.1+     | Not supported        |Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing)<br>Safari is enabled on versions higher than 11.1 in preview. While in preview, there are [known issues](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df) with Safari's Intelligent Tracking Prevention.         |
+|Microsoft Edge (Chromium-based), the latest version plus two previous versions     | <li>Audio fully supported<li>Incoming and outgoing video not supported (coming soon)   </li>     |Fully supported         |
+|Google Chrome, the latest version plus two previous versions       |<li>Audio fully supported<li>Incoming and outgoing video not supported (coming soon)  </li>   |Fully supported  <br> <br>As of July 3, 2019, screen sharing is supported without any plug-ins or extensions       |
+|Firefox, the latest version plus two previous versions     |Not supported         |<li>Audio: PSTN only (if meeting includes PSTN calling information)<li>Video: Not supported<li>Sharing: Incoming sharing only (no outgoing)<br><li>Users who try to join a meeting on Firefox will be encouraged to download the Teams desktop client.     </li>    |
+|Safari 11.1+     | Not supported        |<li>Audio: PSTN only (if meeting includes PSTN calling information)<li>Video: Not supported<li>Sharing: Incoming sharing only (no outgoing)<br><li>Safari is enabled on versions higher than 11.1 in preview. While in preview, there are [known issues](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df) with Safari's Intelligent Tracking Prevention.  </li>       |
 
 
 > [!NOTE]
