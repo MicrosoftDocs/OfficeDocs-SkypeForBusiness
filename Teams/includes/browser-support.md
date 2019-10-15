@@ -4,7 +4,8 @@ Teams fully supports the following internet browsers, with noted exceptions.
 |---------|---------|
 |Internet Explorer 11     |   Calling and Meetings aren't supported. Users who try to join a meeting on Internet Explorer 11 will be directed to download the Teams desktop client.      |
 |Microsoft Edge    |Calling and Meetings supported on Edge RS2 or later |
-|Chrome, the latest version plus two previous versions     | Meetings supported on Chrome 59 or later<br> As of July 3, 2019, screen sharing is supported without any plug-ins or extensions<br> Calling is now supported     |
+| Microsoft Edge Canary<br>Microsoft Edge Dev<br>Chromium-based, preview release of Microsoft Edge | same as Chrome |
+|Google Chrome, the latest version plus two previous versions     | As of July 3, 2019, screen sharing is supported without any plug-ins or extensions<br> Calling is now supported     |
 |Firefox, the latest version plus two previous versions     |   Calling and Meetings aren't supported. Users who try to join a meeting on Firefox will be directed to download the Teams desktop client.       |
 |Safari 11.1+     |   Safari is enabled on versions higher than 11.1 in preview. While in preview, there are [known issues](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df) with Safari's Intelligent Tracking Prevention.|
 
