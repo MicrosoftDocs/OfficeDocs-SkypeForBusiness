@@ -99,7 +99,7 @@ See these articles to plan and set up the Phone System in your business:
 ## Availability in GCC High and DoD clouds
 <a name="bkmk_setup"> </a>
 
-The following capabilites are not yet available in GCC High and DoD Clouds. 
+The following capabilities are not yet available in GCC High and DoD Clouds. 
 - [Call Settings for secondary ringer, voicemail and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call Phone number from search bar
