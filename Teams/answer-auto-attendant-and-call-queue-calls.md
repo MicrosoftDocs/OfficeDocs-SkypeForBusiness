@@ -12,10 +12,10 @@ description: Describes Cloud auto attendants and call queues, and explains how y
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Answer auto attendant and call queue calls directly from Teams

@@ -1,19 +1,18 @@
 ---
 title: Add bots for private chats and channels in Microsoft Teams
-author: LolaJacobsen 
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
-audience: admin 
+audience: admin
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
 description: Learn how to add bots in Microsoft Teams for personal chats, group chats, and channels, and upload your own bots for personal chats, groups chats, and channels.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Add bots for personal chats, group chats, and channels in Microsoft Teams

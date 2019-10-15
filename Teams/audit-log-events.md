@@ -8,13 +8,12 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn how to retrieve Microsoft Teams data from the Office 365 audit log.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Search the audit log for events in Microsoft Teams
