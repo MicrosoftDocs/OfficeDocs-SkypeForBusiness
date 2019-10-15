@@ -8,13 +8,10 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
 description: Learn to create a change management strategy for Microsoft Teams through the identification of key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Create a change management strategy for Microsoft Teams

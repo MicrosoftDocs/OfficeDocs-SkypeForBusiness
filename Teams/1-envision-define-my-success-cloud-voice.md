@@ -11,11 +11,11 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 localization_priority: Normal
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Define my success

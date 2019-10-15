@@ -12,10 +12,10 @@ ms.reviewer: rowille
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Operate my service

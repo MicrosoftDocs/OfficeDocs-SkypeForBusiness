@@ -5,17 +5,17 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: conceptual
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Create a plan to drive user adoption by defining your goals, understanding what acceptance looks like, and providing training and support.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Prepare my users
