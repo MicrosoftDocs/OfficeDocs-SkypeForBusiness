@@ -100,7 +100,7 @@ Teams through Office 365 ProPlus is installed per-user. To learn more, see the [
 
 #### Teams deployments through Office 365 ProPlus updates
 
-Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see XYZ and the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.
+Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.
 
 #### Using Teams with per-machine installation and Office 365 ProPlus
 
