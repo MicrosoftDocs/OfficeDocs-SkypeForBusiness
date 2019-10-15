@@ -3,7 +3,7 @@ Teams fully supports the following internet browsers, with noted exceptions for 
 
 |Browser  |Calling - audio and video  |Meetings - audio, video, and sharing  |
 |---------|---------|---------|
-|Internet Exlorer 11     |Not supported         | Audio: PSTN only (if meeting includes PSTN calling information)<br>Video: Not supported<br>Sharing: Incoming sharing only (no outgoing) <br>Users who try to join a meeting on Internet Explorer 11 will be encouraged to download the Teams desktop client.        |
+|Internet Exlorer 11     |Not supported         | <ul>Audio: PSTN only (if meeting includes PSTN calling information)<ul>Video: Not supported<ul>Sharing: Incoming sharing only (no outgoing) <li>Users who try to join a meeting on Internet Explorer 11 will be encouraged to download the Teams desktop client.   </ul></li>     |
 |Microsoft Edge, RS2 or later     |Fully supported, except no outgoing sharing         |Fully supported, except no outgoing sharing         |
 |Microsoft Edge (Chromium-based), the latest version plus two previous versions     | Audio fully supported<br>Incoming and outgoing video not supported (coming soon)        |Fully supported         |
 |Google Chrome, the latest version plus two previous versions       |Audio fully supported<br>Incoming and outgoing video not supported (coming soon)   As of July 3, 2019, screen sharing is supported without any plug-ins or extensions<br>      |Fully supported         |
