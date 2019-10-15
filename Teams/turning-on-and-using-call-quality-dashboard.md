@@ -305,9 +305,14 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 - A map of each wireless AP and its MAC address
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
   
+notes: Reporting Labels that you upload to CQD will be handled as "Support Data" under your agreement for Office 365, including any information that would otherwise be considered "Customer Data" or "Personal Data". Please do not include data you do not wish to provide to Microsoft as "Support Data" as this information will be visible to Microsoft Engineers for support purposes.
+
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
+
+
+
 2. After you select the file data type, click **Browse** to choose a data file.
 
    - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
