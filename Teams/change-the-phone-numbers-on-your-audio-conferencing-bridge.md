@@ -10,16 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone."
 ---
 

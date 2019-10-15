@@ -8,18 +8,17 @@ ms.topic: reference
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Legal
+ms.custom: 
+  - Legal
 hideEdit: true
 description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
 ---

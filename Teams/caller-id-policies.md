@@ -9,14 +9,13 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-voice
 f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage caller ID policies in Microsoft Teams to change or block the caller ID of Teams users in your organization. 
+description: Learn how to use and manage caller ID policies in Microsoft Teams to change or block the caller ID of Teams users in your organization.
 ---
 
 # Manage caller ID policies in Microsoft Teams
@@ -35,7 +34,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Caller ID policies**.
 2. Click **Add**.
-![Screen shot of new caller ID policy page in the admin center](media/caller-id-policies-add-policy.png)
+![Screenshot of new caller ID policy page in the admin center](media/caller-id-policies-add-policy.png)
 3. Enter a name and description for the policy.
 4. From here, choose the settings that you want:
 

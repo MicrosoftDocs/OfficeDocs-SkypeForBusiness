@@ -12,10 +12,9 @@ description: Learn the best practices for user feedback methods in Microsoft Tea
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Best practices for user feedback methods in Microsoft Teams
