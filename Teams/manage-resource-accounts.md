@@ -103,24 +103,34 @@ After you've bought a Phone System license, using Microsoft Teams admin center n
 
 ![Screenshot of the Resource accounts page](media/r-a-master.png)
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/teamscallout1.png)
 
-To create a new resource account click **+ New account**. In the pop-up, fill out the display name and user name for the resource account (the domain name should populate automatically) then click **Save**.
+To create a new resource account click **+ Add**. In the pop-up, fill out the **Display name**, **Username** (the domain name should populate automatically), and **Resource account type**  for the resource account. Resource accouint type can be either **Auto attendant** or **Call queue** depending on the app you intend to associate to the resource account. When you are ready,  click **Save**.
 
 ![Screenshot of the New resource account options](media/res-acct.png)
 
 Next, apply a license to the resource account in the O365 Admin center, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-### Edit resource account name
+### Edit resource account 
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option. Click **Save** when you are done.
+![Icon of the number 2, referencing a callout in the previous screenshot](media/teamscallout2.png) You can edit the resource account **Display name** and **Resource account** type using the **Edit** option. Click **Save** when you are done.
+
 ![Screenshot of the Edit resource account option](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### Assign/Unassign phone numbers and services
 
-![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
+![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If you haven't yet created the  call queue or auto attendant you will associate to the resource account,leave that field blank. You can link the resource account while you create it. Click **Save** when you are done.
+
+Options for the **Phone number type** are:
+
+- None
+- Online
+- Toll-free
+- On-premises
+
+![Screenshot of the Assign/unassign options](media/r-a-assign.png)
 
 To assign a direct routing or hybrid number to a resource account you will need to use PowerShell, see the following section.
 
@@ -130,7 +140,7 @@ To assign a direct routing or hybrid number to a resource account you will need 
 > [!IMPORTANT]
 > A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
 
-![Screenshot of the Assign/unassign options](media/r-a-assign.png)
+
 
 ## Change an existing resource account to use a Virtual User license
 
