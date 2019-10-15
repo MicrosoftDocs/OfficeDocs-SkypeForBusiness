@@ -19,7 +19,7 @@ ms.collection:
 <div id="main" class="v2">
     <div class="container">
         <h1>Instructor-led training for Microsoft Teams</h1>
-           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. For more training opportunities, including on-demand versions of live training, check out our <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end-user training</a>.<br><br>Click a session below to sign up.
+           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our <a href="https://aka.ms.teamsondemand/">on-demand end-user training</a>.<br><br>Click a session below to sign up.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -140,7 +140,7 @@ ms.collection:
                     <div class="cardText">
                         <h3>Teams for US government (GCC)</h3>
                         <p>Join us for an interactive overview of Teams in Office 365 GCC that showcases best practices for collaboration.</p>
-                    <p><i>Audience: IT professionals, end users</i></p>
+                    <p><i>Audience: All</i></p>
                     </div>
                 </div>
             </div>
@@ -161,6 +161,26 @@ ms.collection:
                         <h3>Teams for Education - Webinars</h3>
                         <p>Learn how to use Teams in higher education.</p>
                         <p><i>Audience: Staff, students, academics, research faculty, IT professionals</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn to use apps in Teams</h3>
+                        <p>Understand how to improve teamwork with apps.</p>
+                        <p><i>Audience: End users</i></p>
                     </div>
                 </div>
             </div>
