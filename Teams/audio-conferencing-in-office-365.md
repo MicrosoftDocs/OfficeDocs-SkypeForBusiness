@@ -8,19 +8,18 @@ ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
+  - M365-collaboration
 search.appverid: MET150
 audience: admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 ---
 
 # Audio Conferencing in Office 365

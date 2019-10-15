@@ -8,13 +8,13 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
-description: This article explains how you can plan and set up Cloud Video Interop for users in your organization. 
+description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Set up Cloud Video Interop for Microsoft Teams

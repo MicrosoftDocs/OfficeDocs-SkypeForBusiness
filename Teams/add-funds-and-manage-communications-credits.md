@@ -7,27 +7,26 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+  - M365-voice
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- O365E_SFBVoiceCredit
-- O365E_SFBVoiceCreditAether 
-- O365M_SFBVoiceCredit
-- O365M_SFBVoiceCreditAether
-- O365P_SFBVoiceCreditAether
-- O365E_SFBVoiceCreditAether 
-- O365P_SFBVoiceCredit
-- O365P_SFBVoiceCreditAether 
-ms.custom:
-- Licensing
+f1keywords: 
+  - O365E_SFBVoiceCredit
+  - O365E_SFBVoiceCreditAether
+  - O365M_SFBVoiceCredit
+  - O365M_SFBVoiceCreditAether
+  - O365P_SFBVoiceCreditAether
+  - O365E_SFBVoiceCreditAether
+  - O365P_SFBVoiceCredit
+  - O365P_SFBVoiceCreditAether
+ms.custom: 
+  - Licensing
 description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continuous phone system access. "
 ---
 
