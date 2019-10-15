@@ -9,12 +9,11 @@ ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 description: Troubleshoot connectivity issues with the Microsoft Teams client, primarily caused by the firewall or proxy connection, and learn how to fix it.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Troubleshoot connectivity issues with the Microsoft Teams client
