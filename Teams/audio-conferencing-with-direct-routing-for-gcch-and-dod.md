@@ -1,6 +1,6 @@
 ---
 title: "Audio Conferencing with Direct Routing for GCCH and DoD"
-author:  LanaChin
+author: LanaChin
 ms.author: v-lanac
 manager: serdars
 ms.reviewer: oscarr
@@ -8,13 +8,13 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-voice
+  - M365-collaboration
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 description: "Learn how you can use Audio Conferencing with Direct Routing in GCCH and DoD environments."
 ---
