@@ -7,17 +7,18 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 ms.tgt.pltfrm: cloud
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
-appliesto:
-- Skype for Business
-- Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: None
 f1keywords: None
-ms.custom:
-- Legal
+ms.custom: 
+  - Legal
 hideEdit: true
 description: "Fournir des expériences accessibles à tous est au cœur de la mission de Microsoft, qui consiste à  permettre à chaque personne et à chaque organisation de la planète d’accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s’inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion."
 ---
