@@ -79,7 +79,7 @@ See these articles to plan and set up the Phone System in your business:
 
 - [Set up Calling Plans](set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
-- [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
+- [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
@@ -95,7 +95,17 @@ See these articles to plan and set up the Phone System in your business:
 |:-----|:-----|:-----|
 |**Rich clients** <br/> |**Mobile clients** <br/> |**IP phones** <br/> |
 | Works with all supported PC and Mac clients in Office 365. <br/> [Install Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Set up Lync for Mac 2011 for Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | We have Skype for Business clients for: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Choose from a large number of desk phones that are compatible with Skype for Business. See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
-   
+
+## Availability in GCC High and DoD clouds
+<a name="bkmk_setup"> </a>
+
+The following capabilities are not yet available in GCC High and DoD Clouds. 
+- [Call Settings for secondary ringer, voicemail and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- Call Phone number from search bar
+- Music on hold
+- AAD Reverse number lookup
+
 ## Related topics
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
