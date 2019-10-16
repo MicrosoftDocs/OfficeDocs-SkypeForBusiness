@@ -22,7 +22,7 @@ appliesto:
 Teams conversations are persistent and retained forever by default. With the introduction of retention policies, admins can configure retention policies (both preservation and deletion) in the Security & Compliance Center for Teams chat and channel messages. This helps organizations either retain data for compliance (namely, preservation policy) for a specific period or get rid of data (namely, deletion policy) if it is considered a liability after a specific period. Teams retention policies ensure that when you delete data, it is removed from all permanent data storage locations on the Teams service.
 
 > [!NOTE]
-> Retention policies that are created for teams or users don't apply to private channel messages. The information in this article applies only to standard channels. Support for retention policies for private channels is coming soon.
+> We don’t yet support configuration for retention of private channel messages. Retention of files shared in private channels is supported.
 
 To manage Teams retention policies, use the settings and cmdlets in the Office 365 Security & Compliance Center under **Data Governance** > **Retention**.
 

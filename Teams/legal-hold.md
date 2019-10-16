@@ -25,7 +25,7 @@ To put a user or a team on Legal Hold, navigate to the [Security & Compliance Ce
 > Placing a user on hold does not automatically place a group on hold or vice-versa.
 
 > [!NOTE]
-> When you place a user or team on legal hold, the legal hold doesn't apply to private channel messages. The information in this article applies only to standard channels. Support for legal hold for private channel messages is coming soon.
+> We don’t yet support configuration for legal hold of private channel messages. Legal hold of files shared in private channels is supported.
 
 > [!IMPORTANT]
 > When a user or group is placed on hold, all message copies will be retained. Example: Clay posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.

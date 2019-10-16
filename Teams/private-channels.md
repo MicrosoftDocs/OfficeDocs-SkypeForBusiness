@@ -188,9 +188,20 @@ Each private channel has it's own SharePoint site collection optimized for file 
 
 To accommodate a greater number of number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams and  any differences in membership are reconciled within four hours. Users can be added to the Visitors group of the site collection to support scenarios where users may need to access documents without needing to access messages exchanged in the private channel.
 
-Teams manages the life cycle of the private channel SharePoint site collection. If the site collection is deleted outside of teams, a background job restores the site within four hours as long as the private channel is still active. If the site is deleted and hard deleted, a new site collection is provisioned for the private channel.
+Teams manages the life cycle of the private channel SharePoint site collection. If the site collection is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is deleted and hard-deleted, a new site collection is provisioned for the private channel.
 
-If a private channel or a team containing a private channel is restored, the site collections are restored with it. If a private channel site collection is restored and it's beyond the 30- day soft delete window for the private channel, the site collection operates as a standalone site collection.
+If a private channel or a team containing a private channel is restored, the site collections are restored with it. If a private channel site collection is restored and it's beyond the 30-day soft delete window for the private channel, the site collection operates as a standalone site collection.
+
+## Considerations around access in private channels
+
+When a new OneNote notebook is created in a private channel, additional users can still get access to the notebook because the behavior is the same as sharing access to any other item in a private channel SharePoint site with a user.
+
+If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel won't remove the user's access to the notebook.
+
+If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed. This means the following:
+
+- Not everyone in the private channel will have access to the notebook by default. This is because they may not have access to where the notebook is hosted, such as another team's SharePoint site.
+- Users who are not members of the private channel can view the notebook.  
 
 ## Related topics
 
