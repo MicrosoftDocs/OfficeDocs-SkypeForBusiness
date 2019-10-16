@@ -12,11 +12,10 @@ search.appverid: MET150
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- Teams_ITAdmin_Training
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Quick start guide: Configuring Calling Plans in Microsoft Teams
