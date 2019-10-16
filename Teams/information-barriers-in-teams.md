@@ -23,6 +23,7 @@ Information barriers are policies that an admin can configure to prevent individ
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
 > - Information barriers version 1 doesn't include support for SharePoint and OneDrive for Business. We are working on enabling the feature in SharePoint and will communicate once it's available.
+> - Private channels are compliant to information barrier policies that you configure.
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
