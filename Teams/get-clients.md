@@ -104,7 +104,7 @@ Linux users can install Teams using a Debian `.deb` package, from the Snap Store
 
 #### Install Teams using DEB package
 
-1. Download the package from **need link**.
+1. Download the package from https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams-insiders/teams-insiders_1.2.00.26154_amd64.deb.
 2. Install using one of the following:  
     - Open the package using Ubuntu Software Tool and go through self-guided Linux app installation process  
     - Or if you love Terminal, type: sudo apt install ./teams_  
