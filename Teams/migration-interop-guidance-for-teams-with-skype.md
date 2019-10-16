@@ -92,7 +92,7 @@ The modes are listed below.
 
 <sup>1</sup> The ability to join an existing meeting (whether scheduled in Teams or in Skype for Business) is not governed by mode. By default, users can always join any meeting they have been invited to.
 
-<sup>2</sup> By default, when assigning either TeamsOnly or SfbWithTeamsCollabAndMeetings to an individual user, any existing Skype for Business meetings scheduled by that user for the future are converted to Teams meetings. If desired, you can leave these meetings as Skype for Business meetings either by specifying  `-MigrateMeetingsToTeams $false` when granting TeamsUpgradePolicy, or by unselecting the checkbox in the Teams Admin portal.   Note that the ability to convert meetings from Skype for Business to Teams is not avaialble when granting TeamsUpgradePolicy on a tenant-wide basis. 
+<sup>2</sup> By default, when assigning either TeamsOnly or SfbWithTeamsCollabAndMeetings to an individual user, any existing Skype for Business meetings scheduled by that user for the future are converted to Teams meetings. If desired, you can leave these meetings as Skype for Business meetings either by specifying  `-MigrateMeetingsToTeams $false` when granting TeamsUpgradePolicy, or by unselecting the checkbox in the Teams Admin portal.   Note that the ability to convert meetings from Skype for Business to Teams is not available when granting TeamsUpgradePolicy on a tenant-wide basis. 
 
 <sup>3</sup> Currently, Teams does not have the ability to disable the Teams and Channels functionality so this remains enabled for now.
 
