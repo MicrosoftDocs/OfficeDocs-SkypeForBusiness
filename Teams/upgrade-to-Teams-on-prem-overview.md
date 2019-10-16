@@ -442,7 +442,7 @@ TeamsOnly mode.
 
 In this scenario, the user is still homed in Skype for Business on-premises, and their PSTN connectivity is also on-premises. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing and then moving the user to the cloud. 
  
-The basic steps are listed below.  Steps 1-6 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 7.
+The basic steps are listed below.  Steps 1-7 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 8.
 
 1. If you will be setting the tenant-wide policy to one of the Skype for Business modes, be sure to grandfather existing Islands users by explicitly assigning them Islands mode, as previously described.
 
