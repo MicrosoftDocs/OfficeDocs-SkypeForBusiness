@@ -56,8 +56,8 @@ This setting controls whether group owners can grant team-specific permissions. 
 2. Under **Enterprise applications**, set **Users can consent to apps accessing company data on their behalf** to one of the following:
 
     - **Off**: Only admins can grant team-specific permissions.
-    - **Selected**: Only users in groups that you specify can grant team-specific permissions for teams that they own.
-    - **On**: All team owners can grant team-specific permissions for teams that they own.S
+    - **Selected**: Only team owners in groups that you specify can grant team-specific permissions for teams that they own.
+    - **On**: All team owners can grant team-specific permissions for teams that they own.
 
 ### Microsoft Teams admin center
 
