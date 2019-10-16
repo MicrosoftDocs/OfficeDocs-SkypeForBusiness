@@ -90,7 +90,6 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
-- [Allow private Meet now (coming soon)](#allow-private-meet-now-coming-soon)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -100,10 +99,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad hoc meeting in the channel.
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
-
-### Allow private Meet now (coming soon)
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  
+ 
 
 ### Allow the Outlook add-in
 
@@ -135,7 +131,6 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (KBs)](#media-bit-rate-kbs)
-- [Enable live captions (preview)](#enable-live-captions-preview)
 
 ### Allow transcription
 
@@ -192,20 +187,6 @@ If there isn’t enough bandwidth for a meeting, participants see a message that
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
-### Enable live captions (preview)
-
-This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
-
-![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
-
-|Setting value |Behavior  |
-|---------|---------|
-|**Disabled and the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
-|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## Meeting policy settings - Content sharing
 
 - [Screen sharing mode](#screen-sharing-mode)
@@ -214,7 +195,6 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 - [Allow PowerPoint sharing](#allow-powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)
-- [Allow chat in meetings (coming soon)](#allow-chat-in-meetings-coming-soon)
 
 ### Screen sharing mode
 
@@ -308,19 +288,16 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
-### Allow chat in meetings (coming soon)
-
-This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## Meeting policy settings - Participants & guests
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
 - [Automatically admit people](#automatically-admit-people)
 - [Allow anonymous people to start a meeting](#allow-anonymous-people-to-start-a-meeting)
-- [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Allow private Meet now ](#allow-private-meet-now)
+- [Enable live captions ](#enable-live-captions)
+- [Allow chat in meetings ](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -367,7 +344,7 @@ Here's the join behavior of anonymous people when no authenticated users are pre
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-### Allow dial-in users to bypass the lobby (coming soon)
+### Allow dial-in users to bypass the lobby
 
 This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting.
 
@@ -382,6 +359,29 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
+### Allow private Meet now
+
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting. 
+
+### Enable live captions
+
+This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
+
+![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+
+|Setting value |Behavior  |
+|---------|---------|
+|**Disabled and the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### Allow chat in meetings
+
+This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. 
+
+<a name="bkparticipantsandguests"> </a>
 
 [Full article](meeting-policies-in-teams.md)
 
