@@ -37,7 +37,7 @@ To learn more, see **TBD**.
 
 This section describes the settings in the Azure AD portal and the Microsoft Teams admin center that you must set to control whether team owners can give consent to apps. Be sure to review all the following settings. It's important to know that changing any of these settings doesn't affect apps that were already granted consent.
 
-### Settings in the Azure AD portal for resource-specific consent
+### Settings in the Azure AD portal
 
 The following two settings in the Azure AD portal determine whether team owners can give consent to apps. 
 
@@ -59,7 +59,7 @@ This setting controls whether group owners can grant team-specific permissions. 
     - **Selected**: Only team owners in groups that you specify can grant team-specific permissions for teams that they own.
     - **On**: All team owners can grant team-specific permissions for teams that they own.
 
-### Settings in the Microsoft Teams admin center for resource-specific consent
+### Settings in the Microsoft Teams admin center
 
 In addition to settings in the Azure AD portal, [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in the Microsoft Teams admin center and the settings in the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.
 
