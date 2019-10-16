@@ -48,6 +48,7 @@
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
 
+### [External access (federation)](manage-external-access.md)
 
 ### Guest access
 #### [About guest access](guest-access.md)
@@ -64,7 +65,7 @@
 #### [Troubleshoot guest access](guest-access-troubleshooting.md)
 
 
-### [External access (federation)](manage-external-access.md)
+
 
 ## Manage Teams
 ### [Administrator roles](using-admin-roles.md)
