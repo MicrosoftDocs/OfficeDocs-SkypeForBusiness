@@ -85,6 +85,6 @@ Team owners can only give consent to apps that their app permission policy allow
 2. Double-click the display name of the team owner, and then click **Policies**.
 3. The policy assigned to the team owner is listed under **App permission policy**.
     - To assign a different policy, click **Edit**, and then select the policy that you want to assign.
-    - To edit the settings of the app permission policy that's assigned to the team owner, click the policy name, and then make the changes that you want.  
+    - To edit the settings of the policy that's assigned to the team owner, click the policy name, and then make the changes that you want.  
 
 ## Related topics
