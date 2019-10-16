@@ -19,23 +19,23 @@ appliesto:
 
 Resource-specific consent in Microsoft Teams lets team owners give consent to apps to access team data. Examples of such access include the ability to read channel messages, create and delete channels, and create and remove channel tabs. Previously, team owners could install apps in Teams, but apps had limited ability to read data from a team. With resource-specific content, team owners can give consent to apps to use their team's data.
 
-As an admin, you can control whether team owners can give consent through settings in the Azure AD portal and the Microsoft Teams admin center.  
+As an admin, you can control whether team owners in your organization can give consent through settings in the Azure AD portal and the Microsoft Teams admin center.  
 
 ## Developer requirements for resource-specific consent
 
 To take advantage of resource-specific consent in your organization, developers need to do the following:
 
-- **Get a Graph AppId**: Register [here](https://docs.microsoft.com/graph/auth-register-app-v2) to get a Graph AppId, if you don't already have one. Use the [Azure app registrations portal](https://ms.portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) to manage your Graph app registrations. If your app supports single sign-on (SSO), use the same AppId for as you use for SSO.
-- **Remove unnecessary permissions**: The Azure app registration portal can't be used to request permissions for resource-specific consent. When you register your app, remove unnecessary permissions listed in the **API permissions** section of the app registration page. For example, if your app only makes resource-specific consent calls, remove all permissions on the page. If your app makes resource-specific consent calls and non-resource specific consent calls, keep the non-resource specific consent calls that you need.
-- **Update your Teams app manifest**: Update your Teams app manifest to link to your Graph AppId.
-- **Get an access token**: Before you make a REST call to Graph, get an access token for application permissions. To learn more, see [Get access without a user](https://docs.microsoft.com/en-us/graph/auth-v2-service).
+- **Get a Graph AppId**: Register [here](https://docs.microsoft.com/graph/auth-register-app-v2) to get a Graph AppId, if developers don't already have one, and use the [Azure app registrations portal](https://ms.portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade) to manage app registrations. If your app supports single sign-on (SSO), developers should use the same AppId for they use for SSO.
+- **Remove unnecessary permissions**: The Azure app registration portal can't be used to request permissions for resource-specific consent. When developers register your app, they should remove unnecessary permissions listed in the **API permissions** section of the app registration page. For example, if your app only makes resource-specific consent calls, remove all permissions on the page. If your app makes resource-specific consent calls and non-resource specific consent calls, keep the non-resource specific consent calls that you need.
+- **Update your Teams app manifest**: Update the Teams app manifest to link to your Graph AppId.
+- **Get an access token**: Before making a REST call to Graph, get an access token for application permissions. To learn more, see [Get access without a user](https://docs.microsoft.com/en-us/graph/auth-v2-service).
 - **Make a Graph call**: This works exactly the same as non-resource specific consent Graph calls. To learn more, see [Use the Microsoft Graph API to work with Microsoft Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-beta).
 
 To learn more, see **TBD**.
 
 ## Set whether team owners can give consent to apps
 
-As an admin, you control whether team owners in your organization can give consent to apps through settings in the Azure AD portal and the Microsoft Teams admin center. Be sure to review all the following settings. It's important to know that changing any of these settings don't affect apps that were already granted consent.
+This section describes the settings in the Azure AD portal and the Microsoft Teams admin center that you can set to control whether team owners can give consent to apps. Be sure to review all the following settings. It's important to know that changing any of these settings doesn't affect apps that were already granted consent.
 
 ### Azure AD portal
 
