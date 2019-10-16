@@ -50,7 +50,7 @@ This setting controls whether users in your organization can consent to apps on 
 
 #### The "Allow group owners to allow apps to apps accessing their groups" setting
 
-This setting controls whether group owners can grant team-specific permissions. This setting must be enabled for team owners to give consent. To manage this setting, do the following:
+This setting controls whether group owners can grant team-specific permissions. This setting must be enabled for team owners for them to give consent. To manage this setting, do the following:
 
 1. In the Azure AD portal, go to **Azure Active Directory** > **Groups**, and then click **General**.
 2. Under **Office 365 Groups**, set **Allow group owners to allow apps to apps accessing their groups** to one of the following:
