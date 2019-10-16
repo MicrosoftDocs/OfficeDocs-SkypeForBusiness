@@ -218,7 +218,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Dial by extension** If you enable this option (currently only available in some tenants), callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+**Dial by extension** (This preview feature is not yet available to the general public) If you enable this option, callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
 
 > [!IMPORTANT]
 > Please observe the following:
@@ -229,7 +229,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 >- An auto attendant can be configured for either dial by name or dial by extension, but not both.
 
 > [!NOTE]
-> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension. 
+> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension.
 
 * * *
 
@@ -328,7 +328,7 @@ Click on **Next** to set Dial scope, **Back** to make changes to after hour call
 
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default in an earlier screen. If you have created Dial plans, all users with an extension will be available if **Dial by extension** was selected earlier.
+On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default in an earlier screen. All users with an extension will be available if **Dial by extension** was selected earlier.
 
 ![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) **Include** The options in this section are either **All online users** or **Custom user groups**
 
