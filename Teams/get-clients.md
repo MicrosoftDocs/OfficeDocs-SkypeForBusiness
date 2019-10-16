@@ -36,13 +36,13 @@ Desktop client
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (Debian package `.deb`, Snap Store `snap`, Red Hat Package Manager `.rpm`). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, the package managers will install all requirements when you install Teams.
+The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (Debian package `.deb`, Red Hat Package Manager `.rpm`). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, the package managers will install all requirements when you install Teams.
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include System Center Configuration Manager (Windows) or Jamf Pro (macOS and Linux). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
+IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include System Center Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
@@ -98,13 +98,13 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 
 ### Linux
 
-Linux users can install Teams using a Debian `.deb` package, from the Snap Store as a `snap`, or as a Red Hat package `.rpm`. 
+Linux users can install Teams using a Debian `.deb` package or as a Red Hat package `.rpm`. 
 
 [!NOTE] The Teams on Linux client is available in limited preview. Submit bugs using `Report a Problem` from within the client. For known issues, see [Teams on Linux Known Issues](Known-issues.md).
 
 #### Install Teams using DEB package
 
-1. Download the package from https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams-insiders/teams-insiders_1.2.00.26154_amd64.deb.
+1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:  
     - Open the package using Ubuntu Software Tool and go through self-guided Linux app installation process  
     - Or if you love Terminal, type: sudo apt install ./teams_  
@@ -113,7 +113,7 @@ You can launch Teams via Activities or via Terminal by typing "Teams"
 
 #### Install Teams using RPM package
 
-1. Download the package from **need link**.
+1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:  
     - Open the package using Red Hat Package Management Tool and go through self-guided Linux app installation process
     - Or if you love Terminal, type: sudo rpm -i ./teams_  
