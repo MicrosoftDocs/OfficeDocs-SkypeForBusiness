@@ -218,7 +218,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Dial by extension** If you enable this option (currently only available in some tenants), callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+**Dial by extension** (This preview feature is not yet available to the general public) If you enable this option, callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
 
 > [!IMPORTANT]
 > Please observe the following:
@@ -229,7 +229,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 >- An auto attendant can be configured for either dial by name or dial by extension, but not both.
 
 > [!NOTE]
-> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension. 
+> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension.
 
 * * *
 
