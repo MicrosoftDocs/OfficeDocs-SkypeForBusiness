@@ -10,17 +10,16 @@ ms.reviewer:
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-description: Learn how to upload a text file that contains a list of physical location and associated subnets to use as reporting labels for Call Analytics and Call Quality Dashboard reports. 
-ms.custom:
-- NewAdminCenter_Update
+  - M365-collaboration
+description: Learn how to upload a text file that contains a list of physical location and associated subnets to use as reporting labels for Call Analytics and Call Quality Dashboard reports.
+ms.custom: 
+  - NewAdminCenter_Update
 f1keywords: 
-- ms.teamsadmincenter.locations.reportinglabels.overview
-- ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
-- ms.teamsadmincenter.locations.overview
+  - ms.teamsadmincenter.locations.reportinglabels.overview
+  - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
+  - ms.teamsadmincenter.locations.overview
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Add and update reporting labels

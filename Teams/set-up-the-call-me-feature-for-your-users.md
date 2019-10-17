@@ -10,9 +10,10 @@ audience: admin
 search.appverid: MET150
 description: Learn how to set up the Call me feature in Teams so that users can join the audio portion by phone in scenarios where using their computer for audio might not be possible.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-voice
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Set up the Call me feature for your users

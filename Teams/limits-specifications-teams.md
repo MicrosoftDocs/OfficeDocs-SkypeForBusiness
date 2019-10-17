@@ -10,11 +10,10 @@ ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Limits and specifications for Microsoft Teams

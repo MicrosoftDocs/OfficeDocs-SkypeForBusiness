@@ -7,8 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150

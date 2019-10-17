@@ -8,13 +8,12 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-ms.reviewer: lucarras 
+  - M365-collaboration
+ms.reviewer: lucarras
 search.appverid: MET150
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Use Office 365 and custom connectors in Microsoft Teams

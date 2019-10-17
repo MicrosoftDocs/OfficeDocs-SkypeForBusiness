@@ -8,16 +8,17 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.PortOrderNoOrderHelp
-ms.custom:
-- Calling Plans
+f1keywords: 
+  - ms.lync.lac.PortOrderNoOrderHelp
+ms.custom: 
+  - Calling Plans
 description: "Learn how to get the status of your port orders and learn the different actions you can take on them. "
 ---
 

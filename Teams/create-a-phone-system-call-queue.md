@@ -10,17 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-- ms.teamsadmincenter.callqueues.overview"
-ms.custom:
-- Phone System
+  - ms.teamsadmincenter.callqueues.overview"
+ms.custom: 
+  - Phone System
 description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."
 ---
 

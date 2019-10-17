@@ -10,17 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.locations.emergencyaddresses.overview
-- ms.lync.lac.AddressAndLocation
-ms.custom:
-- Calling Plans
+f1keywords: 
+  - ms.teamsadmincenter.locations.emergencyaddresses.overview
+  - ms.lync.lac.AddressAndLocation
+ms.custom: 
+  - Calling Plans
 description: "Learn what emergency locations, places, and emergency call routing are, and how to plan and assign them to your users. "
 ---
 
