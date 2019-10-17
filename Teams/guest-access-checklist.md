@@ -31,10 +31,7 @@ Use this checklist to help you turn on and configure guest access in Microsoft T
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
 
-
-
 ## Step 1: Configure Azure AD business-to-business settings
-
 
 1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
 2. Select **Azure Active Directory** > **Users** > **User settings**.
@@ -129,6 +126,7 @@ To learn more about guest access, see [Guest access in Teams](guest-access.md).
 ## Troubleshooting
 
 If you have problems setting up guest access or adding guests in Teams, use these resources to help you:
+
 [Troubleshoot problems with guest access in Microsoft Teams](guest-access-troubleshooting.md)
 
 [Teams troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
