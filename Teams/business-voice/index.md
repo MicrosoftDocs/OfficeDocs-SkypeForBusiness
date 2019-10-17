@@ -98,6 +98,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Use</h3>
+                                                <P><a href="create-user.md" target="_blank">Create one or more users</a></p>
                                                 <P><a href="manage-devices.md" target="_blank">Manage your devices</a></p>
                                                 <P><a href="monitor-quality.md" target="_blank">Monitor call quality</a></p>
                                                 <P><a href="analytics-dashboard.md" target="_blank">Call Analytics quality dashboard</a></p>
