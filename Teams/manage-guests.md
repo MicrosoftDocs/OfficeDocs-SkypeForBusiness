@@ -3,7 +3,6 @@ title: Manage guest access in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -20,7 +19,7 @@ appliesto:
 Manage guest access in Microsoft Teams
 ======================================
 
-**Guest** is a user/license type in Microsoft Teams that is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Teams guest access is a tenant-level setting and is turned off by default. For details about how to enable guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
+**Guest** is a user/license type in Microsoft Teams that is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Teams guest access is a tenant-level setting and is turned off by default. For details about how to enable guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md), or use the [Guest access checklist ](guest-access-checklist.md) to walk you through the setup.
 
 After the **Guest** user/license type is turned on, you can configure settings for guests via the controls described in [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) and [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md).     
     
@@ -34,10 +33,7 @@ You can use the Azure Active Directory (Azure AD) portal to manage guests and th
 
 > [!NOTE]
 > Microsoft Teams always honors Azure AD external settings to allow or prevent guest user additions to the tenant. For more details, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
-  
-## External access (federation) vs. guest access
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## Review guest access periodically
 
@@ -53,7 +49,12 @@ Teams doesn't restrict the number of guests you can add. However, the total numb
 
 ## Guest access latencies
 
-The guest settings are set in Azure AD. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
+The guest settings are set in Azure AD. It takes 2-24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](guest-access-troubleshooting.md).
+
+  
+## External access (federation) vs. guest access
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## More information
 

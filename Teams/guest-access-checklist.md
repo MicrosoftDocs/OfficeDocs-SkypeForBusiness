@@ -24,6 +24,10 @@ Microsoft Teams guest access checklist
 
 Use this checklist to help you enable and configure the guest access feature in Teams according to the preferences of your organization.
 
+    
+> [!IMPORTANT]
+> You may have to wait for up to 24 hours for your changes to take effect. 
+
 
 
 ## □  Step 1: Configure settings in Azure AD business-to-business

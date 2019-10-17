@@ -34,14 +34,14 @@ If you want external users to have access to teams and channels, [guest access](
 
 ## Guest access
 
-Use **guest access** to add an individual user (regardless of domain) to a team, where they can chat, call, meet, and collaborate on organization files (stored in SharePoint or OneDrive for Business), using Office 365 apps such as Word, Excel, or PowerPoint. A guest user can be given nearly all the same Teams capabilities as a native team member.
+Use **guest access** to add an individual user (regardless of domain) to a team, where they can chat, call, meet, and collaborate on organization files (stored in SharePoint or OneDrive for Business), using Office 365 apps such as Word, Excel, or PowerPoint. A guest user can be given nearly all the same Teams capabilities as a native team member. To learn more, read [Guest access in Teams](guest-access.md).
 
 - Guests are added to your organization’s Active Directory.
 - To communicate with a guest, the guest has to be signed in to Teams using their guest account. This means that a guest may have to sign out of their own Teams account to sign in to your Teams account.
 - Guest users have access to more resources in Teams - such as files, teams, and channels - than external-access (federated) users.
 - The Teams admin controls everything that a guest can (or can’t) do in the Teams admin center. To learn more, read [Manage guest access](manage-guests.md).
 
-
+If you're ready to turn on guest access in your organization, start with the [Guest access checklist](guest-access-checklist.md).
 
 
 ## Compare external and guest access
@@ -83,3 +83,4 @@ Use **guest access** to add an individual user (regardless of domain) to a team,
 [External access in Teams](manage-external-access.md)
 
 [Guest access in Teams](guest-access.md)
+

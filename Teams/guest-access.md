@@ -22,18 +22,15 @@ localization_priority: Priority
 Guest access in Microsoft Teams
 ======================================
 
-Guest access is one of the features customers asked for the most. Here’s how you can keep up with our progress on guest access and tell us your thoughts:
+Guest access lets you add individual users from outside your organization to your teams and channels in Microsoft Teams. 
 
-- If you’re having trouble with guest access, check out [Known issues for Microsoft Teams](Known-issues.md).
-- Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
-- Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
-- Share your experience in the Comments section below.
+To compare external access (federation) with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
 
-To compare external access with guest access (and decide which one you should use), read [Communicate with users from other organizations in Teams](communicate-with-users-from-other-organizations.md).
+If you're ready to turn on guest access in your organization, start with the [Guest access checklist](guest-access-checklist.md).
 
 ## Guest access overview
 
-Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
+Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Teams. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
 
 Guest access is included with many Office 365 subscriptions with no additional licensing requirement. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 

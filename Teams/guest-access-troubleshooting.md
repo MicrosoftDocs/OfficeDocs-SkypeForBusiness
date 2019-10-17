@@ -19,11 +19,23 @@ localization_priority: Normal
 Troubleshoot problems with guest access in Microsoft Teams
 ======================================================
 
+I'm compiling stuff here - to sort out later.
 
-Link to Claudia's tshoot page, maybe scope to GA?
+> [!IMPORTANT]
+> You may have to wait for up to 24 hours for your changes to take effect. 
 
-Where does this belong?
+
+To check for current support issues with guest access in Teams, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
+
+Where does this belong? (Per Corbin, this is out of date. He'll figure out where we should link instead and let me know.)
 https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/m-p/119797?attachment-id=3063
+
+Removed from guest-access:
+
+- If you’re having trouble with guest access, check out [Known issues for Microsoft Teams](Known-issues.md).
+- Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
+- Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
+- Share your experience in the Comments section below.
 
 Removed from GA checklist:
 ## If your guests are seeing license errors
