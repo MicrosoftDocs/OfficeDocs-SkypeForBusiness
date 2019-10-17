@@ -46,7 +46,7 @@ Health Dashboard provides the following information related to overall health of
   
    Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter. If the number of calls is less than 100, the NER might be quite low, but still be normal. 
 
-   The formula used to calcuate NER is:
+   The formula used to calculate NER is:
 
    NER = Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures x 100
 
@@ -101,7 +101,7 @@ The detailed view shows the following additional parameters:
 
    - Packet Loss – Is a measure of packet that failed to arrive; it is computed between two endpoints.
 
-   - Latancy - (Also known as round trip time) is the length of time it takes for a signal to be sent plus the length of time it takes for the acknowledgement of that signal to be received. This time delay consists of the propagation times between the two points of a signal.
+   - Latency - (Also known as round trip time) is the length of time it takes for a signal to be sent plus the length of time it takes for the acknowledgment of that signal to be received. This time delay consists of the propagation times between the two points of a signal.
 
    You can slide the data by number of days and call direction (inbound/outbound/All streams).
 
