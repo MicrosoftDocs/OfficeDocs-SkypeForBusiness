@@ -5,21 +5,20 @@ author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd 
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Reporting
+ms.custom: 
+  - Reporting
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
 ---
 

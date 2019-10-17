@@ -9,15 +9,14 @@ ms.service: msteams
 audience: admin
 ms.reviewer: kelsawi
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 f1keywords: 
-- ms.teamsadmincenter.managedevices.overview
-- ms.teamsadmincenter.devicemanagement.overview
-description: Learn how to manage devices used with Teams in your organization. 
+  - ms.teamsadmincenter.managedevices.overview
+  - ms.teamsadmincenter.devicemanagement.overview
+description: Learn how to manage devices used with Teams in your organization.
 localization_priority: Normal
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Manage your devices in Microsoft Teams
