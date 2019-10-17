@@ -6,20 +6,19 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
-audience: admin 
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 f1keywords: 
-- ms.teamsadmincenter.meetingpolicies.overview
-- ms.teamsadmincenter.meetingpolicies.audioandvideo
-- ms.teamsadmincenter.meetingpolicies.contentsharing
-- ms.teamsadmincenter.meetingpolicies.general
-- ms.teamsadmincenter.meetingpolicies.participantandguests
+  - ms.teamsadmincenter.meetingpolicies.overview
+  - ms.teamsadmincenter.meetingpolicies.audioandvideo
+  - ms.teamsadmincenter.meetingpolicies.contentsharing
+  - ms.teamsadmincenter.meetingpolicies.general
+  - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Learn to manage meeting policy settings in Teams.
 ---
 # Manage meeting policies in Teams

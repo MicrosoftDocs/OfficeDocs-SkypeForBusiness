@@ -9,14 +9,13 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams. 
+description: Learn how to use and manage policy packages in Microsoft Teams.
 ---
 
 # Manage policy packages in Microsoft Teams

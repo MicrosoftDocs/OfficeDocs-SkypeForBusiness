@@ -24,9 +24,6 @@ See the following article for more details:
   
 - [Deploy SRS v1 Administrative Web Portal in Skype for Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## System Center Operations Manager
-
-Skype Room System can be monitored through the System Center Operations Manager (SCOM) by downloading the [Skype Room System Management Pack](https://www.microsoft.com/download/details.aspx?id=42320) and installing it on your SCOM server. You can use SCOM to set alerts, monitor the health of Skype Room System, generate uptime reports, and much more. Skype Room System comes with a pre-installed monitoring agent that can be configured to point to SCOM server. Refer to the installation guide provided by your Skype Room System manufacturer to know how to configure the monitoring agent on Skype Room System.
   
 ## Exchange Checklist
 

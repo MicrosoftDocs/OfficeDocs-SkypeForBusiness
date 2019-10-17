@@ -9,7 +9,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article discusses known issues for Microsoft Teams Rooms, by feature area."
 ---
 
@@ -62,6 +63,9 @@ If your Microsoft Teams Rooms device loses trust with the domain, you won't be a
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0. 
 ***
 Microsoft Teams Rooms is a multi-window application and requires a front of room display to be connected to the HDMI port of the device, for the app to function correctly. Make sure that you either have an HDMI display connected or use a dummy HDMI plug if you are testing and do not have a display purchased yet.
+***
+Windows 10 1903 is not yet offered on Microsoft Teams Rooms devices from Crestron due to issues with a graphics driver.
+
 ***
 <a name="See"> </a>  
 ## See also

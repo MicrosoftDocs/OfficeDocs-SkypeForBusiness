@@ -7,18 +7,17 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
-appliesto:
-- Microsoft Teams
+- M365-voice
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Learn how to assign, change, or remove a work phone number for your Teams users so outside businesses and clients can call in."
 ---
 
