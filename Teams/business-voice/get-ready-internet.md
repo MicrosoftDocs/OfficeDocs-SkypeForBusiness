@@ -88,7 +88,7 @@ To work correctly, computers and devices you want to use with Business Voice nee
 
 The easiest way to check whether your firewall allows communication on these network ports is to make a test call using Teams. To make a test call, do the following:
 
-1. Go to https://aka.ms/getteams on a computer on your network to install Teams. Make sure speakers and a microphone are connected to this computer/
+1. Go to https://aka.ms/getteams on a computer on your network to install Teams. Make sure speakers and a microphone are connected to this computer.
 2. Open Teams and sign in using a Microsoft 365 account
 3. In Teams, select your profile picture, then **Settings** > **Devices**
 4. Choose **Make a test call** under **Audio devices**
