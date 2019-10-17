@@ -11,12 +11,11 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-description: Learn how to manage settings for Teams live events that are held in your organization. 
+  - M365-collaboration
+description: Learn how to manage settings for Teams live events that are held in your organization.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Configure live event settings in Microsoft Teams
