@@ -54,9 +54,11 @@ appliesto:
 
 You can use Microsoft Teams on these mobile platforms:
 
-- Android - requires Android 4.4 or later
+- Android - requires Android 5.0 or later as of July 2019.
+  Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
 
-- iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch.
+- iOS - requires iOS 10.0 or later as of July 2019. Compatible with iPhone, iPad, and iPod touch. 
+  Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
 
 ## Hardware requirements for the Teams app in a Virtual Desktop Infrastructure (VDI) environment
 
