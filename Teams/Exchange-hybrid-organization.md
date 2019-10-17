@@ -12,10 +12,9 @@ description: Learn how to configure an Exchange hybrid organization for use with
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams
