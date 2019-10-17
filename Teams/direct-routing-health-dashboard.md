@@ -9,11 +9,10 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 description: "Learn how to use Health Dashboard to monitor the connection between your Session Border Controller and Direct Routing."
 ---
 
