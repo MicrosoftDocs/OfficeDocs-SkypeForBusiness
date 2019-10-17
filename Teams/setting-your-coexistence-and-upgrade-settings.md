@@ -7,15 +7,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: This article will help you pick the coexistence mode and set other coexistence settings.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Setting your coexistence and upgrade settings

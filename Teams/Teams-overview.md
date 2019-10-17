@@ -12,12 +12,11 @@ description: Find the right path to rolling out Microsoft Teams in your organiza
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.dashboard.allteamsdocuments
+  - M365-collaboration
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Welcome to Microsoft Teams
