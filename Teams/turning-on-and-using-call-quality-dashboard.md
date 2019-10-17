@@ -9,19 +9,18 @@ ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
-ms.custom:
-- Reporting
+  - ms.teamsadmincenter.directrouting.cqd
+  - ms.lync.lac.ToolsCallQualityDashboard
+ms.custom: 
+  - Reporting
 description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 
