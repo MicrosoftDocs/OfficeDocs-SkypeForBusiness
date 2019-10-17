@@ -9,11 +9,10 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 description: Learn to use the PowerShell controls for managing Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Teams PowerShell Overview

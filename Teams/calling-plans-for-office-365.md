@@ -9,21 +9,20 @@ ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- O365E_E5Voiceplandetails
-- O365M_E5Voiceplandetails
-- O365P_E5Voiceplandetails
-ms.custom:
-- Licensing
-- LIL_Placement
+f1keywords: 
+  - O365E_E5Voiceplandetails
+  - O365M_E5Voiceplandetails
+  - O365P_E5Voiceplandetails
+ms.custom: 
+  - Licensing
+  - LIL_Placement
 description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
 ---
 

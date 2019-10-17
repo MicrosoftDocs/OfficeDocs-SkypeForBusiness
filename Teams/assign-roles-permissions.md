@@ -4,17 +4,16 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
-audience: admin 
+audience: admin
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Assign team owners and members in Microsoft Teams

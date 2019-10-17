@@ -5,17 +5,17 @@ ms.author: rowille
 manager: serdars
 ms.date: 06/27/2019
 ms.topic: conceptual
-audience: admin 
+audience: admin
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
 description: Learn what data and permissions apps are requesting from your organization.
 localization_priority: Normal
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 
