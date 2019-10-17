@@ -11,7 +11,8 @@ ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "Read this topic to learn about deploying Microsoft Teams Rooms at large scale deployments."
 ---
 

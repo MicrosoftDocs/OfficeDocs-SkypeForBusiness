@@ -9,13 +9,12 @@ ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 description: Use this PowerShell script to clean up Microsoft Teams on targeted machines or for specific users.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
+  - Teams_ITAdmin_PracticalGuidance
+  - M365-collaboration
 ---
 
 PowerShell Script Sample - Microsoft Teams deployment clean up
