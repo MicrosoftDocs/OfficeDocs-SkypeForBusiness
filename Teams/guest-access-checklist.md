@@ -24,10 +24,6 @@ Microsoft Teams guest access checklist
 
 Use this checklist to help you turn on and configure guest access in Microsoft Teams.
 
-> [!TIP]
-> If you're using default settings for Azure Active Directory business-to-business and Office 365 Groups, you can skip steps 1 and 2 - go straight to [Step 3](#step-3-turn-on-guest-access-at-the-teams-org-wide-level).
-
-    
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
 
