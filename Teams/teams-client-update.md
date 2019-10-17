@@ -7,13 +7,12 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
 description: Learn how the Teams desktop client is updated.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Teams update process

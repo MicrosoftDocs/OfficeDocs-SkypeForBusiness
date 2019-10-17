@@ -8,10 +8,11 @@ ms.author: v-lanac
 manager: serdars
 audience: admin
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Expand Microsoft Teams across your organization

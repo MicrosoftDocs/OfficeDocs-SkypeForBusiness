@@ -12,11 +12,10 @@ ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Microsoft Teams Training
 
