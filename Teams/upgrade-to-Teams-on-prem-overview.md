@@ -117,13 +117,13 @@ When administrators are ready, they can shift chat, calling, and meeting schedul
 Alternatively, the administrator can first shift only meeting scheduling to Teams, while leaving chat and calling functions in Skype for Business using the SfBWithTeamsCollabAndMeetings mode. This mode allows organizations to transition to Teams for meetings--if users are not yet ready to move to TeamsOnly mode (typically because more time may be needed to migrate existing PSTN functionality). This transitional scenario is referred to as [Meetings First](meetings-first.md).
 
 
-The following table blow summarizes the pros and cons of using Skype for Business modes as a transitional step toward TeamsOnly mode.
+The following table summarizes the pros and cons of using Skype for Business modes as a transitional step toward TeamsOnly mode.
 
 
 | Pros     |       Cons |
 | :------------------ | :---------------- |
 | Predictable routing for the end user.  All calls and chats either land in Skype for Business or Teams (but not both), based on administrator selection.  | Interop conversations lack support for rich text, file sharing, and screen sharing.  This can be worked around with on-demand meetings but this is not as seamless.  |
-| Eliminate end user confusion because a given functionality is only available in one client.  | Users can’t try both clients side-by-side, for the same set of functionality. This may especially be a factor if the users perceive the shift from Skype for Business to Teams as a major paradigm shift. |
+| Eliminate end user confusion because a given functionality is only available in one client.  | Users can’t try both clients side-by-side for the same set of functionality. This may especially be a factor if the users perceive the shift from Skype for Business to Teams as a major paradigm shift. |
 | Allows for incremental introduction of Teams  |  | |
 | Administrator is in full control of the transition from Skype for Business to Teams. |  | | 
 | Allows an organization to use Teams for meetings, even if it is not yet ready to move entirely to TeamsOnly mode. |  | |
@@ -459,7 +459,7 @@ This is the simplest upgrade scenario involving voice.
 
 1. Make sure users have been assigned a Teams license. By default, when you assign an Office 365 license, Teams is enabled, so unless you previously disabled the Teams license, no action should be necessary.
 
-2.  If users already have a Microsoft Calling Plan with a phone number, the only required change is to assign the user TeamsOnly mode in TeamsUpgradePolicy.  Prior to assigning TeamsOnly mode, incoming PSTN calls will land in the user’s Skype for Business client. After the upgrade to TeamsOnly mode, incoming PSTN calls will land in the user’s Teams client.  Note that outbound calls are possible even before the user is upgraded to TeamsOnly mode.
+2.  If users already have a Microsoft Calling Plan with a phone number, the only required change is to assign the user TeamsOnly mode in TeamsUpgradePolicy.  Prior to assigning TeamsOnly mode, incoming PSTN calls will land in the user’s Skype for Business client. After the upgrade to TeamsOnly mode, incoming PSTN calls will land in the user’s Teams client.  
 
 ### From Skype for Business Online with on-premises voice
 
