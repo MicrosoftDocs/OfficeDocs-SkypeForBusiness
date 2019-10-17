@@ -116,7 +116,7 @@ You can launch Teams via Activities or via Terminal by typing "Teams"
 1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:
     - Open the package using Red Hat Package Management Tool and go through self-guided Linux app installation process
-    - Or if you love Terminal, type: sudo rpm -i **`teams download file`**
+    - Or if you love Terminal, type: sudo yum install **`teams download file`**
 
 You can launch Teams via Activities or via Terminal by typing "Teams"  
 
