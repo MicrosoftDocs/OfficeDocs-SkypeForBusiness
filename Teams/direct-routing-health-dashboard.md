@@ -47,7 +47,7 @@ Health Dashboard provides the following information related to overall health of
   
    Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter. If the number of calls is less than 100, the NER might be quite low, but still be normal. 
 
-   The formula used to calcuate NER is:
+   The formula used to calculate NER is:
 
    NER = Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures x 100
 
