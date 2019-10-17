@@ -9,7 +9,8 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article discusses how to manage Microsoft Teams Rooms devices in an integrated manner using Azure Monitor."
 ---
 

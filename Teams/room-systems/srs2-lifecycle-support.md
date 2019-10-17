@@ -8,7 +8,8 @@ ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "This article discusses lifecycle support for Microsoft Teams Rooms."
 ---
