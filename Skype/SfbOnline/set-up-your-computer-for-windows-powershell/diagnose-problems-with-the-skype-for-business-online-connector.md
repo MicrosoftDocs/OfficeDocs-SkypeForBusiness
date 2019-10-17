@@ -44,6 +44,13 @@ This topic provides information that will help you diagnose and resolve problems
 
 - [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
+
+> [!IMPORTANT]
+> Powershell sessions by default stand for sixty minutes, for reconnecting, you have to close and launch a new Powershell session to reconnect. Recently has been launched a new version of [Skype for Business Online, Windows PowerShell Module (2046.123 - Published 10/2/2019)](https://www.microsoft.com/en-us/download/details.aspx?id=39366) which brings a new Cmdlet called **Enable-CsOnlineSessionForReconnection** which mitigate the 60 minutes timeout issue.
+> The PS session reconnects and authenticates, allowing it to be re-used without having to launch a new instance to reconnect.
+
+
+
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
