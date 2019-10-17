@@ -8,7 +8,8 @@ ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "Read this topic to learn about management of Microsoft Teams Rooms, the next generation of Skype Room Systems."
 ---

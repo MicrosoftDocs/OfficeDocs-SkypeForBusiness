@@ -11,16 +11,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
-ms.custom:
-- Phone System
+ms.custom: 
+  - Phone System
 description: "Learn what Cloud  auto attendants are and how to use them."
 ---
 

@@ -9,11 +9,10 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 

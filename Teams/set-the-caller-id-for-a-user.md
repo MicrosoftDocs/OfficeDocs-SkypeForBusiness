@@ -10,16 +10,15 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization."
 ---
 # Set the Caller ID for a user
