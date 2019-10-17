@@ -8,13 +8,12 @@ audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
-localization_priority : Priority
+localization_priority: Priority
 description: "Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer

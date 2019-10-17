@@ -1,19 +1,18 @@
---- 
+---
 layout: HubPage
 ms.topic: hub-page
 title: Instructor-led training and videos for Microsoft Teams users
 ms.reviewer: dearbeen
 manager: serdars
 description: Sign up for instructor-led classes to learn all about Microsoft Teams.
-localization_priority : Priority
+localization_priority: Priority
 author: lolajacobsen
 audience: admin
 ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
-ms.collection:  
-- Teams_ITAdmin_Training
-- M365-collaboration
+ms.collection: 
+  - M365-collaboration
 ---
 
 <div id="main" class="v2">

@@ -12,10 +12,9 @@ description: Learn about how to retention policies and how to manage them in Tea
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Retention policies in Microsoft Teams

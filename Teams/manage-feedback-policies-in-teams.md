@@ -9,13 +9,12 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use feedback policies to control whether Teams users in your organization can submit feedback about Teams to Microsoft. 
+description: Learn how to use feedback policies to control whether Teams users in your organization can submit feedback about Teams to Microsoft.
 ---
 
 # Manage feedback policies in Microsoft Teams
