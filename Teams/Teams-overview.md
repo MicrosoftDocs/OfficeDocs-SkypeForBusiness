@@ -5,7 +5,6 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 06/18/2019
 audience: admin
 ms.reviewer: LolaJ
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Office 365.
@@ -24,16 +23,13 @@ If you're the admin for Microsoft Teams in your organization, you're in the righ
 
 If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
-
-
 If you're new to Teams and want to learn more, check out our short Welcome to Teams video (55 seconds).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
-
 ## Teams architecture
 
-Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). 
+Teams is built on Office 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). Teams keeps working even when you're offline or experiencing spotty network conditions.
 
 To see where Teams fits in the context of Microsoft 365, check out this architecture poster:  [Teams as part of Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -68,13 +64,13 @@ Teams is the primary client for intelligent communications in Office 365, and it
 If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](upgrade-start-here.md).
 
 ## Teamwork and Office 365
-Every team is different; there’s no one-size-fits-all approach to collaboration. Office 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications. 
+Every team is different; there’s no one-size-fits-all approach to collaboration. Office 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
 
 When deciding which Office 365 apps and services to use, think about the work your organization does and the types of conversations your teams need to have. 
 
 - **Teams**, as the hub for teamwork, is where people - including people outside your organization - can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables. 
 
-- **Outlook** for collaborating in the familiar environment of email and in a more formal, structured manner or when targeted and direct communication is required. 
+- **Outlook** for collaborating in the familiar environment of email and in a more formal, structured manner or when targeted and direct communication is required.
 
 - **SharePoint** for sites, portals, intelligent content services, business process automation, and enterprise search. SharePoint keeps content at the center of teamwork, making all types of content easily shareable and accessible across teams. Tight integration with Outlook, Yammer, and Teams enables seamless content collaboration across conversation experiences.
 
