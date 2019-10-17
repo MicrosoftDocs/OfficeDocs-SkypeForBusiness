@@ -9,6 +9,7 @@ audience: admin
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_Business_Voice
 search.appverid: MET150
 description: Overview of Microsoft 365 Business Voice and how it can help small and medium businesses communicate more effectively.
 appliesto: 

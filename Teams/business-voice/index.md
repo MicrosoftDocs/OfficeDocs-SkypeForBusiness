@@ -8,7 +8,9 @@ keywords: Microsoft 365 Business, Microsoft 365, business, SMB, small to midsize
 localization_priority: Normal
 audience: admin
 ms.service: msteams
-ms.collection: M365-subscription-management 
+ms.collection: 
+- M365-subscription-management 
+- Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
 ---

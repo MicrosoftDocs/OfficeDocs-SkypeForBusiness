@@ -9,6 +9,7 @@ audience: admin
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_Business_Voice
 search.appverid: MET150
 description: 
 appliesto: 
