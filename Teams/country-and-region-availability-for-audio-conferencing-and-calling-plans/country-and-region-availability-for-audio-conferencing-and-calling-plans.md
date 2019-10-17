@@ -11,19 +11,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-- LIL_Placement
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+  - LIL_Placement
 description: "You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not."
 ---
 # Country and region availability for Audio Conferencing and Calling Plans

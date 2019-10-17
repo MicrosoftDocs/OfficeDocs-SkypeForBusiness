@@ -9,17 +9,16 @@ ms.assetid: b86d31c6-1543-478f-b8c6-4b71e708403a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Microsoft Teams."
 ---
 
