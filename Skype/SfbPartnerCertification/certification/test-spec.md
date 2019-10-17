@@ -60,8 +60,8 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 |:---------|:---------|:---------|
 |v1.5 |[Skype Certification Video Analyzer](https://download.microsoft.com/download/8/3/F/83FE9F88-817B-4663-929F-B7F7F4A9257C/SkypeCertificationVideoAnalyzer.msi) |The SCVA provides a graphical user interface for running the video test cases described in the Skype Certification Video Test Specification.|
 |v1.0|[Lync and Skype Audio Offloading of Digital Signal Processing (DSP) Effects in Windows 8.1](https://download.microsoft.com/download/7/C/1/7C1C33EC-748A-477D-B250-6D90A0E0AA08/Lync%20and%20Skype%20Audio%20Offloading%20of%20Digital%20Signal%20Processing%20Effects%20in%20Windows%208-1.pdf) |This white paper outlines the steps to be followed by providers of APO, driver-level, or firmware-level effects who would like Skype and Lync to use their processing by opening the audio stream in default mode.|
+|v2.3 | [Video TMT for Skype](https://www.microsoft.com/download/details.aspx?id=43372) |The Video TMT 2.1 for Skype tool provides a graphical user interface for running the video test cases in the Skype and Lync Video Capture Specification. | 
 |      |         |         |
-<!-- |v2.1 | [Video TMT 2.1 for Skype](https://www.microsoft.com/download/details.aspx?id=43372) |The Video TMT 2.1 for Skype tool provides a graphical user interface for running the video test cases in the Skype and Lync Video Capture Specification. | -->
 
 ### Related resources
 
