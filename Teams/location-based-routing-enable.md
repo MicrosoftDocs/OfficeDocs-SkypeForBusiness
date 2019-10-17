@@ -11,12 +11,10 @@ audience: admin
 search.appverid: MET150
 description: Learn how to enable Location-Based Routing for Direct Routing.
 localization_priority: Normal
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Enable Location-Based Routing for Direct Routing

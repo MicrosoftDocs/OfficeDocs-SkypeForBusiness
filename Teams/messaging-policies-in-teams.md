@@ -7,14 +7,15 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
-- ms.teamsadmincenter.messagingpolicies.overview
+f1keywords: 
+  - ms.teamsadmincenter.messagingpolicies.overview
 description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
 

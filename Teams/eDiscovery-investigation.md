@@ -7,13 +7,12 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Conduct an eDiscovery investigation of content in Microsoft Teams

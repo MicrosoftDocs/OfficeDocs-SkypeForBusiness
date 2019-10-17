@@ -6,16 +6,14 @@ manager: serdars
 ms.date: 06/08/2018
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: sonua 
+ms.reviewer: sonua
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 description: Describes how Teams uses Office 365 flows in various topologies.
 ---
 

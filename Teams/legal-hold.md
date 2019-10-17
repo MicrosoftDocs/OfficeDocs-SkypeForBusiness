@@ -7,13 +7,12 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn to place a Microsoft Teams user or team on legal hold using the Security & Compliance Center and learn what needs a legal hold based on data requirements.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Place a Microsoft Teams user or team on legal hold

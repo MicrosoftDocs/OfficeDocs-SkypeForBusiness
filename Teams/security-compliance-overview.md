@@ -12,12 +12,11 @@ description: An overview of security and compliance features of Microsoft Teams,
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+  - M365-collaboration
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Overview of security and compliance in Microsoft Teams
