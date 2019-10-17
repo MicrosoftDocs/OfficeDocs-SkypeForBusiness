@@ -9,8 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection: 
-- Strat_SB_Admin
-- M365-voice
+  - M365-collaboration
 ms.custom: 
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: "This article describes how to set up the Microsoft Teams Rooms console and its peripherals."

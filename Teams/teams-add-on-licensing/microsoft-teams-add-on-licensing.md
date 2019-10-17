@@ -9,15 +9,14 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-ms.custom:
-- Licensing
-- LIL_Placement
+ms.custom: 
+  - Licensing
+  - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with each license, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans."
 ---
 

@@ -10,9 +10,11 @@ ms.service: msteams
 search.appverid: MET150
 description: 
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Microsoft StaffHub to be retired

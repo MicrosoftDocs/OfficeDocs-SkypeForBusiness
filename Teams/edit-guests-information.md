@@ -8,13 +8,13 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Learn how an admin can edit information about guest users in the Azure Active Directory portal.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Edit guest user information

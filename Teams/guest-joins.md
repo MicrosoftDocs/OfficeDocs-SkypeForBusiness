@@ -8,13 +8,13 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 How a guest joins a team

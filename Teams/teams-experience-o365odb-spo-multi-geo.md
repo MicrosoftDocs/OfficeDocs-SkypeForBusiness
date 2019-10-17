@@ -11,10 +11,9 @@ description: Learn about using Teams in an Office 365 OneDrive and SharePoint On
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Teams experience in an Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy

@@ -11,12 +11,11 @@ search.appverid: MET150
 description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+  - M365-collaboration
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams

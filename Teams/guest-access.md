@@ -12,10 +12,10 @@ description: Guest access in Microsoft Teams allows teams in your organization t
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Priority
 ---
 

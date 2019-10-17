@@ -12,13 +12,12 @@ description: Learn how to use the Network Planner to determine network requireme
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 f1keywords: 
-- ms.teamsadmincenter.networkplanner.overview
-- ms.teamsadmincenter.networkplanner.personas
-appliesto:
-- Microsoft Teams
+  - ms.teamsadmincenter.networkplanner.overview
+  - ms.teamsadmincenter.networkplanner.personas
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Use the Network Planner for Microsoft Teams

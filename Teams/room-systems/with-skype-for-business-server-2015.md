@@ -9,9 +9,8 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection: 
-- Strat_SB_Admin
-- M365-voice
-ms.custom:
+  - M365-collaboration
+ms.custom: 
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Skype for Business Server."
 ---

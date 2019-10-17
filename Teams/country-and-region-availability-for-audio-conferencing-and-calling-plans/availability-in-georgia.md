@@ -9,21 +9,20 @@ ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Georgia."
 ---
 

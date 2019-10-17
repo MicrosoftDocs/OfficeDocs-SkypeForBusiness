@@ -12,10 +12,10 @@ search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 What the guest experience is like

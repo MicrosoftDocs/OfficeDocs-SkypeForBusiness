@@ -7,15 +7,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.externalaccess.overview
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 ---
 Manage external access in Microsoft Teams
