@@ -31,7 +31,27 @@ Use this checklist to help you turn on and configure guest access in Microsoft T
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
 
-## Step 1: Configure Azure AD business-to-business settings
+
+
+## Step 1: Turn on guest access at the Teams org-wide level
+
+At a minimum, you must turn on guest access for Microsoft Teams under the **Microsoft Teams admin center**. 
+
+1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
+2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
+
+    ![Screenshot shows an example of a Teams settings toggle](media/guest-access-checklist-set-up-guests-image1.png)
+
+3. On this same page, configure any other guest settings that you require.
+4. Click **Save**.
+
+If you're using default settings in Azure Active Directory, SharePoint Online, and Office 365 Groups, you may be done configuring guest access. In this case, you can skip the rest of the steps. If you're not sure, or if you're using custom settings for AAD, SharePoint Online, or Office 365 Groups, continue with  the rest of the steps in this checklist
+
+
+
+
+
+## Step 2: Configure Azure AD business-to-business settings
 
 1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
 2. Select **Azure Active Directory** > **Users** > **User settings**.
@@ -56,7 +76,7 @@ Use this checklist to help you turn on and configure guest access in Microsoft T
 > - For collaboration restrictions see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 > - Currently, Teams doesn't support the guest inviter role. At a minimum the "members can invite" toggle must be set to "Yes" for guest access to work in Teams. If you set "members can invite" to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
     
-## Step 2: Configure Office 365 Groups
+## Step 3: Configure Office 365 Groups
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Services & Add-ins** > **Office 365 Groups**.
 2. Make sure **Let group members outside the organization access group content** is set to **On**. If this setting is turned off, guests won't be able to access any group content.
@@ -66,21 +86,6 @@ Use this checklist to help you turn on and configure guest access in Microsoft T
 
 For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
-
-## Step 3: Turn on guest access at the Teams org-wide level
-
-At a minimum, you must turn on guest access for Microsoft Teams under the **Microsoft Teams admin center**. 
-
-1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
-2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
-
-    ![Screenshot shows an example of a Teams settings toggle](media/guest-access-checklist-set-up-guests-image1.png)
-
-3. On this same page, configure any other guest settings that you require.
-4. Click **Save**.
-
-For detailed instructions, see [Turn on or turn off guest access to Microsoft Teams](set-up-guests.md).
-
 
 ## Step 4: Configure sharing in Office 365 
 
@@ -120,7 +125,7 @@ In the Teams application, at the individual team level, configure guest permissi
 
 ![Screenshot shows an example of a team/channel settings toggle](media/guest-access-checklist-TeamsSettings2.png)
 
-To learn more about guest access, see [Guest access in Teams](guest-access.md).
+To learn more about guest access, see [Guest access in Teams](guest-access.md) and [Turn on or turn off guest access to Microsoft Teams](set-up-guests.md).
 
 
 ## Troubleshooting
