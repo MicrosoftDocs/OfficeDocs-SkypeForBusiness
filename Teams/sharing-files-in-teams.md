@@ -12,10 +12,9 @@ search.appverid: MET150
 description: Microsoft Teams uses the settings from OneDrive and SharePoint to control sharing.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Sharing files in Microsoft Teams

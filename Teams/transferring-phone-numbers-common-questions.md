@@ -10,16 +10,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "The following are frequently asked questions about transferring phone numbers to Teams. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See Transfer phone numbers to Office 365 for instructions."
 ---
 

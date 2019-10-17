@@ -8,16 +8,15 @@ ms.service: msteams
 ms.date: 1/28/2019
 ms.reviewer: LolaJ
 audience: admin
-description: Find the right path to rolling out Microsoft Teams in your organization. 
+description: Find the right path to rolling out Microsoft Teams in your organization.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.dashboard.helparticle.rolloutteams
+  - M365-collaboration
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # How to roll out Microsoft Teams
