@@ -107,16 +107,16 @@ Linux users can install Teams using a Debian `.deb` package or as a Red Hat pack
 1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:  
     - Open the package using Ubuntu Software Tool and go through self-guided Linux app installation process  
-    - Or if you love Terminal, type: sudo apt install ./teams_  
+    - Or if you love Terminal, type: sudo apt install **`teams download file`** 
 
 You can launch Teams via Activities or via Terminal by typing "Teams"  
 
 #### Install Teams using RPM package
 
 1. Download the package from https://aka.ms/getteams.
-2. Install using one of the following:  
+2. Install using one of the following:
     - Open the package using Red Hat Package Management Tool and go through self-guided Linux app installation process
-    - Or if you love Terminal, type: sudo rpm -i ./teams_  
+    - Or if you love Terminal, type: sudo rpm -i **`teams download file`**
 
 You can launch Teams via Activities or via Terminal by typing "Teams"  
 
