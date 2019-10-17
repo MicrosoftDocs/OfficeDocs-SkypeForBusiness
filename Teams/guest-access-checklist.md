@@ -22,7 +22,7 @@ appliesto:
 Microsoft Teams guest access checklist
 ==========================================
 
-Use this checklist to help you enable and configure the guest access feature in Teams according to the preferences of your organization.
+Use this checklist to help you turn on and configure guest access in Teams according to the preferences of your organization.
 
     
 > [!IMPORTANT]

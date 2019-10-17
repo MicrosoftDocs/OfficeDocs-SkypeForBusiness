@@ -30,11 +30,12 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 
 ## Guest access overview
 
-Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Teams. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
+Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Teams. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files. As the Teams admin, you control which features guests can (and can't) use in Teams - check out [Manage guest access](manage-guests.md).
+
+Guest access is an org-wide setting in Teams and is turned off by default. Guest access is subject to Azure AD and Office 365 service limits.
 
 Guest access is included with many Office 365 subscriptions with no additional licensing requirement. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
-Guest access is a tenant-level setting in Microsoft Teams and is turned off by default. Guest access is subject to Azure AD and Office 365 service limits.
 
 > [!NOTE]
 > Users in your organization who have standalone Office 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Office 365 Business Premium, Office 365 Enterprise, or Office 365 Education subscription. 
@@ -49,7 +50,7 @@ A guest is someone who isn't an employee, student, or member of your organizatio
 
 ## Why use guest access?
 
-With guest access, organizations that use Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD.  
+With guest access, organizations that use Teams can provide access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD.  
 
 Teams is built on Office 365 Groups and provides a new way to access shared assets for an Office 365 group. Teams is the best solution for persistent chat among group/team members. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely. 
 

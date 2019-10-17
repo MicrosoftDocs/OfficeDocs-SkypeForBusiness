@@ -86,11 +86,7 @@ The following table shows the calling and meeting features available to guests.
 
 > [!NOTE]
 > Office 365 admins control the features available to guests. 
- 
-## External access (federation) vs. guest access
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 
 ## Frequently asked questions
 
 Q. How do I leave an organization that I've been invited to?<br>
@@ -119,3 +115,9 @@ A. Yes, a guest can attach files in these two ways:
 
 Q. Can a guest download a file in a private chat?<br>
 A. Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
+
+ 
+## External access (federation) vs. guest access
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
