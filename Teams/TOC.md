@@ -700,7 +700,7 @@
 ## [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
 ## What to know before buying
 ### [What to buy to get Business Voice](business-voice/what-to-buy.md)
-### [Internet connection requirements](business-voice/get-ready-internet.md)
+### [Check your Internet connection](business-voice/get-ready-internet.md)
 ### [Get your users ready](business-voice/prepare-users.md)
 ## [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
 

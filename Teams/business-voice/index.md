@@ -55,7 +55,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             <div class="cardText">
                                                 <h3>Set up</h3>
                                               <P><a href="what-to-buy.md" target="_blank">How to get Business Voice</a></p>
-                                                <P><a href="get-ready-internet.md" target="_blank">Internet connection requirements</a></p>
+                                                <P><a href="get-ready-internet.md" target="_blank">Check your Internet connection</a></p>
                                                 <P><a href="prepare-users.md" target="_blank">Get your users ready</a></p>
                                                 <P><a href="use-getting-started-wizard.md" target="_blank">Run the Getting Started wizard</a></p>
                                             <!--    <P><a href="things-to-try.md" target="_blank">Things to try after setup</a></p> -->
