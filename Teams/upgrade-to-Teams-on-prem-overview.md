@@ -234,7 +234,7 @@ A federated chat between a Teams user and a Skype for Business is an interop thr
 
 When Teams first introduced federation, a federated chat between two Teams users was also an interop thread, but in the future, native Teams federation will be introduced which provides full functionality for conversations between users who are in TeamsOnly mode. . 
 
-For more details, see [Federated routing for new chats or calls](coexistence-chat-calls-presence#federated-routing-for-new-chats-or-calls).
+For more details, see [Federated routing for new chats or calls](coexistence-chat-calls-presence.md#federated-routing-for-new-chats-or-calls).
 
 ### Contacts
 
@@ -477,7 +477,7 @@ The basic steps are listed below.  Steps 1-6 are listed in the suggested sequenc
 TeamsOnly mode.
 
 
-5. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  For more information, see [Configure Direct Routing](configure-direct-routing.md). The online configuration consists of: 
+5. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  For more information, see [Configure Direct Routing](direct-routing-configure.md). The online configuration consists of: 
 
    - OnlineVoiceRoutingPolicy (based on on-premises VoiceRoutingPolicy) 
    - OnlinePSTNUsage objects (based on on-premises PSTNUsage) 
@@ -509,7 +509,7 @@ The basic steps are listed below.  Steps 1-7 are listed in the suggested sequenc
 
 5. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
 
-6. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  For more information, see [Configure Direct Routing](configure-direct-routing.md).  The online configuration consists of: 
+6. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  For more information, see [Configure Direct Routing](direct-routing-configure.md).  The online configuration consists of: 
    - OnlineVoiceRoutingPolicy (based on on-premises VoicePolicy) 
    - OnlinePSTNUsage objects (based on on-premises PSTNUsage) 
    - OnlineVoiceRoute objects  (based on-premises VoiceRoute). 
