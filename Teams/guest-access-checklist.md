@@ -38,7 +38,7 @@ At a minimum, you must turn on guest access for Teams in the **Microsoft Teams a
 
     ![Screenshot shows an example of a Teams settings toggle](media/guest-access-checklist-set-up-guests-image1.png)
 
-3. On this same page, configure any other guest settings that you require.
+3. On this same page, turn on or turn off **Calling**, **Meeting**, and **Messaging** settings for guests.
 4. Click **Save**.
 
 > [!TIP]
@@ -118,7 +118,7 @@ This one's a bit of a brain teaser. Guest access in Teams doesn't work if the **
 
 ## Step 6: Configure channel permissions for guests
 
-In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels. Teams admins and team owners can configure these settings.
+In the Teams application, at the individual team level, configure guest permissions that control whether guests can create, update, or delete channels. Teams admins as well as team owners can configure these settings.
 
 ![Screenshot shows an example of a team/channel settings toggle](media/guest-access-checklist-TeamsSettings2.png)
 

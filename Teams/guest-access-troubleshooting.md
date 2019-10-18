@@ -48,10 +48,6 @@ A few things to remember:
 - Guest licenses are counted against the inviting organization. Consider this when you calculate the number of licenses you need.
 - Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.
 
-## Understand the limitations for guests
-
-The guest experience has limitations by design. Review [Understand the limitations for guests](guest-access.md#understand-the-limitations-for-guests) to be sure you're not trying to fix something that isn't a problem.
-
 ## Related topics
 
 [Guest access in Teams](guest-access.md)
