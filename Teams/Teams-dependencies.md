@@ -46,7 +46,7 @@ The previous two diagrams are also available in [Visio](https://github.com/Micro
 
 ## Control guest access in Azure Active Directory
 
-Use Azure AD to determine whether external collaborators can be invited into your tenant as guests, and in what ways. For more information about Azure B2B guest access, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b). For information about Azure AD roles, see [Grant permissions to users from partner organizations in your Azure Active Directory tenant](https://docs.microsoft.com/en-us/azure/active-directory/b2b/add-guest-to-role).
+Use Azure AD to determine whether external collaborators can be invited into your tenant as guests, and in what ways. For more information about Azure B2B guest access, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b). For information about Azure AD roles, see [Grant permissions to users from partner organizations in your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/b2b/add-guest-to-role).
 
 The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level. To configure these settings in the Azure portal, go to **Azure Active Directory** > **Users** > **User settings**, and under **External users**, select **Manage external collaboration settings**.
 
@@ -56,33 +56,33 @@ Azure AD includes the following settings to configure external users:
 - **Admins and users in the guest inviter role can invite**: **Yes** means that admins and users in the guest inviter role will be able to invite guests to the tenant. **No** means admins and users can't invite guests to the tenant.
 - **Members can invite**: **Yes** means that non-admin members of your directory can invite guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that only admins can invite guests to your directory.</br>
       
-    > [!NOTE]
-    > Currently, Teams doesn't support the guest inviter role. At a minimum the **Members can invite** toggle must be set to **Yes** for guest access to work in Teams.
+    > [!IMPORTANT]
+    > For guest access to work at all in Teams, you must set **Members can invite** to **Yes**.
 - **Guests can invite**: **Yes** means that guests in your directory can invite other guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that guests can't invite other guests to collaborate with your organization.
+    > [!IMPORTANT]
+    > Currently, Teams doesn't support the guest inviter role, so even if you set **Guests can invite** to **Yes**, guests can't invite other guests in Teams.
  
-For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations).
+For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
 > You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 Groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups).
 
 Adding the user guest account manually to Azure AD B2B is not required, as the account will be added to the directory automatically when you add the guest to Teams.
 
-Azure AD licensing allows you to add up to 5 guests per license. For more information about Azure AD licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Azure AD licensing allows you to add up to 5 guests per license. For more information about Azure AD licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 ## Control guest access in Teams
 
-In Teams, you can control whether the guest experience is enabled or disabled for your organization. The setting is disabled by default and applies at the tenant level for Teams only.
-
-You can manage Teams guest access settings from the Microsoft Teams admin center. For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
+Guest access is turned off by default in Teams. To turn on guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
 
 
 ## Control guest access in Office 365 Groups
 
-From Office 365 Groups, you can control adding guest users and guest access to all Office 365 Groups and Microsoft Teams in your organization.
+From Office 365 Groups, you can control adding guest users and guest access to all Office 365 Groups and Microsoft Teams teams in your organization.
 
 1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.
+2. On the left, choose **Settings** and then select **Services &amp; add-ins**.
 
 3. Select **Office 365 Groups**.
 
@@ -92,27 +92,27 @@ From Office 365 Groups, you can control adding guest users and guest access to a
  
    ![Screenshot of Office 365 Groups panel with the options turned on](media/authorize-guest-image3.png)
 
-These settings apply at the tenant level and control the guest experience in Office 365 Groups and Microsoft Teams.
+These settings apply at the tenant level and control the guest experience in Office 365 Groups and Teams.
 
-See [Guest access in Office 365 Groups](https://support.office.com/en-us/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) for more information about guest access in groups, including how guest access works, how to manage guest access, and answers to frequently asked questions.
+See [Guest access in Office 365 Groups](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) for more information about guest access in groups, including how guest access works, how to manage guest access, and answers to frequently asked questions.
 
 ## Control guest access to SharePoint Online and OneDrive for Business
 
 Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.  
 
-To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:
+For the full Teams guest access experience, Office 365 admins need to configure the following settings:
 
-- In SharePoint Online: **Existing guests**, **New and existing guests**, or **Anyone**
+- In SharePoint Online: Select **Existing guests**, **New and existing guests**, or **Anyone**.
 
     For more information, see [Turn external sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
 
-- In Office 365 Groups: **Let group owners add people outside the organization to groups**
+- In Office 365 Groups: Turn on **Let group owners add people outside the organization to groups**
 
     For more information, see [Control guest access in Office 365 Groups](#control-guest-access-in-office-365-groups), above.
   
-These settings apply at the tenant level and control the guest experience at SharePoint Online, OneDrive for Business, Office 365 Groups, and Teams.
+These settings apply at the tenant level and control the guest experience in SharePoint Online, OneDrive for Business, Office 365 Groups, and Teams.
 
-You can manage SharePoint Online external user settings for the Teams connected team site. For more details, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
+You can manage SharePoint Online external user settings for the team sites connected to Teams. To learn more, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
 
 ## External access (federation) vs. guest access
 

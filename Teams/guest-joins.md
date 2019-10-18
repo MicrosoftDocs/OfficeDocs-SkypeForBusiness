@@ -30,7 +30,7 @@ A team owner in Microsoft Teams can add and manage guests in their teams via the
 1. A team owner or an Office 365 admin [adds a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 1. The Office 365 admin or the team owner manages a guest's capabilities as necessary: for example, allowing a guest to add or delete channels or disabling access to files.
 1. The guest receives a welcome email from the team owner, with information about the team and what to expect now that they're a member. 
-1. The guest accepts the invitation
+1. The guest accepts the invitation.
   Guest users who have an email address that belongs to an Azure Active Directory or Office 365 work or school account can accept the invitation directly. 
   If the guest doesn’t yet have a Microsoft account associated with their email address, they'll be directed to create one for free. 
 1. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
@@ -40,5 +40,5 @@ In Teams, guests are clearly identified. A guest user's name includes the label 
 Guests can leave the team at any time from within Teams. For details, see  [How do I leave a team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
 > [!NOTE]
-> Leaving the team doesn't remove the guest account from the organization/tenant. See [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization) for how to remove yourself from the organization. Alternatively, the organization's admin can remove guest users from the tenant.
+> Leaving the team doesn't remove the guest account from the organization/tenant. See [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization) for how to remove yourself from the organization. <br><br>Alternatively, the organization's admin can remove guest users from the tenant.
 

@@ -19,6 +19,9 @@ appliesto:
 Manage guest access in Microsoft Teams
 ======================================
 
+> [!IMPORTANT]
+> You may have to wait up to 24 hours for your changes to take effect. 
+
 **Guest** is a user/license type in Microsoft Teams that is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Teams guest access is a tenant-level setting and is turned off by default. For details about how to enable guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md), or use the [Guest access checklist ](guest-access-checklist.md) to walk you through the setup.
 
 After the **Guest** user/license type is turned on, you can configure settings for guests via the controls described in [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) and [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md).     
@@ -35,7 +38,7 @@ You can use the Azure Active Directory (Azure AD) portal to manage guests and th
 > Microsoft Teams always honors Azure AD external settings to allow or prevent guest user additions to the tenant. For more details, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
 
 
-## Review guest access periodically
+## Guest access licensing limits
 
 In Teams, you can add 5 guests for each licensed user. Because of this limitation, or because you want to keep your tenant up to date, you should review guest access periodically to identify users who have access that they don't need anymore. You can use Azure AD to create an access review for group members or users assigned to an application. Creating recurring access reviews can save you time. If you need to routinely review users who have access to an application or are members of a group, you can define the frequency of those reviews. 
 
@@ -47,9 +50,9 @@ Access reviews are available with the Premium P2 edition of Azure AD, which is i
 
 Teams doesn't restrict the number of guests you can add. However, the total number of guests that can be added to your tenant is based on what your AAD licensing allows. For more information, see [Azure AD B2B collaboration licensing](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
-## Guest access latencies
+## Lag time for guest access settings to take effect
 
-The guest settings are set in Azure AD. It takes 2-24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](guest-access-troubleshooting.md).
+For the guest access settings in Azure Active Directory, it takes 2-24 hours for the changes to take effect across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been turned on or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](guest-access-troubleshooting.md).
 
   
 ## External access (federation) vs. guest access
