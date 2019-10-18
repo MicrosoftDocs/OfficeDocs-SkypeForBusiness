@@ -9,7 +9,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article discusses known issues for Microsoft Teams Rooms, by feature area."
 ---
 

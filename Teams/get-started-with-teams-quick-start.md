@@ -8,14 +8,13 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: Get started with Microsoft Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy widely across your organization.  
+description: Get started with Microsoft Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy widely across your organization.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Get started with Microsoft Teams

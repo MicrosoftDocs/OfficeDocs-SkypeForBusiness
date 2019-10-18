@@ -10,14 +10,13 @@ ms.reviewer: ritikag
 audience: admin
 description: Learn how to turn on Microsoft Teams for your Office 365 organization.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Enable Teams in your organization

@@ -7,16 +7,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: islubin, jastark 
+ms.reviewer: islubin, jastark
 description: "Learn how to view or update your teams in the Microsoft Teams admin center."
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration 
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage teams in the Microsoft Teams admin center

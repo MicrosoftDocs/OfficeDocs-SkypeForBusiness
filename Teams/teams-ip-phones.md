@@ -7,15 +7,16 @@ ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Skype for Business Certification
-- dn947482
+ms.custom: 
+  - Skype for Business Certification
+  - dn947482
 description: "IP desk and conference phones certified for Microsoft Teams"
 ---
 
