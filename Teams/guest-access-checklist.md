@@ -31,7 +31,7 @@ Use this checklist to help you turn on and configure guest access in Microsoft T
 
 ## Step 1: Turn on guest access at the Teams org-wide level
 
-At a minimum, you must turn on guest access for Teams in the **Microsoft Teams admin center**. 
+To turn on guest access, go to the **Microsoft Teams admin center**. 
 
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
@@ -43,9 +43,6 @@ At a minimum, you must turn on guest access for Teams in the **Microsoft Teams a
 
 > [!TIP]
 > If you're using default settings in Azure Active Directory, SharePoint Online, and Office 365 Groups, you may be done configuring guest access. In this case, you can skip the rest of the steps. If you're not sure, or if you're using custom settings for AAD, SharePoint Online, or Office 365 Groups, continue with the rest of the steps in this checklist.
-
-
-
 
 
 ## Step 2: Configure Azure AD business-to-business settings
@@ -63,16 +60,20 @@ At a minimum, you must turn on guest access for Teams in the **Microsoft Teams a
    
        > [!NOTE]
        > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
-   
+       > [!IMPORTANT]
+       > For guest access to work at all in Teams, you must set **Members can invite** to **Yes**.   
    - **Guests can invite**: To allow guests to invite other guests, set this policy to **Yes**.
+       > [!IMPORTANT]
+       > Currently, Teams doesn't support the guest inviter role, so even if you set **Guests can invite** to **Yes**, guests can't invite other guests in Teams.
    - **Enable email one-time passcode for guests (Preview)**: For more information about the one-time passcode feature, see [Email one-time passcode authentication (preview)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
-
    - **Collaboration restrictions**: For more information about allowing or blocking invitations to specific domains, see [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
+      > [!NOTE]
+      > For collaboration restrictions, see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+      
+ 
+For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
-> [!NOTE]
-> - For collaboration restrictions see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
-> - Currently, Teams doesn't support the guest inviter role. At a minimum the "members can invite" toggle must be set to "Yes" for guest access to work in Teams. If you set "members can invite" to "No" and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
-    
+
 ## Step 3: Configure Office 365 Groups
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Services & Add-ins** > **Office 365 Groups**.
