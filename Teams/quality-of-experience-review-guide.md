@@ -12,10 +12,9 @@ description: Guide for analyzing real-time media performance for Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Quality of Experience Review Guide

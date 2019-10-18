@@ -9,7 +9,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 ms.assetid: 
 description: "Manage Windows Updates for Microsoft Teams Rooms"
 ---

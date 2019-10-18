@@ -11,18 +11,14 @@ metadata:
   ms.date: 05/16/2019
   ms.reviewer: lolaj
   ms.service: 
-  - skype-for-business-online
   - msteams
   appliesto:
-  - Skype for Business 
   - Microsoft Teams
   ms.topic: tutorial
   localization_priority: Normal
   search.appverid: MET150
   ms.collection: 
   - M365-voice
-  - Adm_Skype4B_Online
-  - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
 items:
