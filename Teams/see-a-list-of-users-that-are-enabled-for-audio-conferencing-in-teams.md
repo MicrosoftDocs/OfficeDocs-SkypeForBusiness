@@ -9,16 +9,16 @@ ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
+ms.collection: 
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within Microsoft Teams. "
 ---
 

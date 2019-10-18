@@ -10,16 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Learn how to use the Microsoft Teams admin center to see a list of all the phone numbers in your organization and all the numbers that are assigned to users or unassigned."
 ---
 

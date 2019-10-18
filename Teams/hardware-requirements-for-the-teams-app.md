@@ -9,15 +9,14 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Hardware requirements for the Microsoft Teams app

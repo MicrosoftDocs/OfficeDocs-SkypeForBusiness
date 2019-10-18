@@ -8,16 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 f1keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to enable or disable user-level access on a per-user basis.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage user access to Microsoft Teams

@@ -12,8 +12,7 @@ ms.service: msteams
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Training
+  - M365-collaboration
 ms.topic: landing-page
 ms.author: v-lanac
 ---

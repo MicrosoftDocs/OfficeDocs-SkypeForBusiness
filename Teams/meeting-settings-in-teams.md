@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
 author: lanachin
-ms.author: v-lanac  
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -9,17 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: 
-- ms.teamsadmincenter.meetingsettings.invitationurls
-- ms.teamsadmincenter.meetingsettings.network.ports
-- ms.teamsadmincenter.meetingsettings.overview
+  - ms.teamsadmincenter.meetingsettings.invitationurls
+  - ms.teamsadmincenter.meetingsettings.network.ports
+  - ms.teamsadmincenter.meetingsettings.overview
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-description: Learn how to manage settings for Teams meetings that users schedule in your organization. 
+  - M365-collaboration
+description: Learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 
 # Manage meeting settings in Microsoft Teams

@@ -8,15 +8,14 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
 description: "Learn how to use Teams templates to create team structures designed for retailer needs."
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Get started with Teams templates in retail 
