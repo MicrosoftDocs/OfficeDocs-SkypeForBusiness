@@ -9,19 +9,18 @@ ms.assetid: 8f21a1b8-5441-4968-b4f3-170b9a75cbe7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 

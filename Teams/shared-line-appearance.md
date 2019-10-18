@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-- ms.teamsadmincenter.users.voice.calldelegation.tooltip
-ms.custom:
-- Phone System
+  - ms.teamsadmincenter.users.voice.calldelegation.tooltip
+ms.custom: 
+  - Phone System
 description: "Shared line appearance lets a user choose a delegate to answer or handle calls on their behalf."
 ---
 

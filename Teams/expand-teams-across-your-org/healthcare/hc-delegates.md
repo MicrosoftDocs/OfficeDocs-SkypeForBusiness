@@ -1,18 +1,20 @@
 ---
-title: Message delegation  
+title: Message delegation
 author: jambirk
-ms.author: jambirk 
+ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article 
-ms.service: msteams 
+ms.topic: article
+ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+appliesto: 
+  - Microsoft Teams
 ms.reviewer: acolonna
-description: A user can explicitly set another user as a delegate in their status message. 
+description: A user can explicitly set another user as a delegate in their status message.
 ---
 
 # Message delegation

@@ -11,13 +11,12 @@ ms.reviewer: sbhatta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 description: Learn how to use Microsoft Teams scoped directory search to provide customized views of the directory.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 

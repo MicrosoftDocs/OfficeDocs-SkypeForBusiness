@@ -9,17 +9,16 @@ ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Reporting
+ms.custom: 
+  - Reporting
 description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems."
 ---
 
