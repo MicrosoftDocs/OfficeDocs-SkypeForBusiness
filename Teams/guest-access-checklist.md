@@ -116,7 +116,7 @@ This one's a bit of a brain teaser. Guest access in Teams doesn't work if the **
      ![Screenshot shows an example of a SparePoint Online settings toggle.](media/guest-access-checklist-SPOSettings1.png)
 
 
-## Step 6: Configure channel permissions for guests
+## Step 6: Set up guest user permissions
 
 In the Teams application, at the individual team level, configure guest permissions that control whether guests can create, update, or delete channels. Teams admins as well as team owners can configure these settings.
 
