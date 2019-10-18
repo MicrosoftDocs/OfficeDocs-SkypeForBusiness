@@ -66,40 +66,7 @@ After you turn on guest access, it takes 2-24 hours for the changes to take effe
 5.	Click **Save**.
 
 ## Use PowerShell to turn guest access on or off
-
-1.	Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.	Connect a PowerShell session to the Skype for Business Online endpoint.
-
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.	Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-You can now have guest users in Teams for your organization.
+Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
 ## External access (federation) vs. guest access
 
