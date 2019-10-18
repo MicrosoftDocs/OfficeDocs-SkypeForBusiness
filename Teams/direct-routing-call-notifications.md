@@ -15,9 +15,10 @@ search.appverid: MET150
 description: Direct Routing call notification
 appliesto:
 - Microsoft Teams
+localization_priority: Normal 
 ---
 
-## Manage call notifications
+# Manage call notifications
 
 This article describes how to manage call notifications for your users. You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC).  This is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.   
 
