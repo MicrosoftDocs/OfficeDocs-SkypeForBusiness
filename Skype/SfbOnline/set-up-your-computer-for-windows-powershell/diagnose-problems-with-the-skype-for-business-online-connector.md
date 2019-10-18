@@ -47,7 +47,7 @@ This topic provides information that will help you diagnose and resolve problems
 
 > [!IMPORTANT]
 > By default, PowerShell sessions time out after sixty minutes. To reconnect, you have to close the session and launch a new PowerShell session. A new version of [Skype for Business Online, Windows PowerShell Module (2046.123 - Published 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), has been launched recently which includes a new cmdlet called **Enable-CsOnlineSessionForReconnection** that mitigates the 60 minutes time-out issue.
-> The PS session reconnects and authenticates, allowing it to be re-used without having to launch a new instance to reconnect.
+> The PowerShell session reconnects and authenticates, allowing it to be re-used without having to launch a new instance to reconnect.
 
 
 
