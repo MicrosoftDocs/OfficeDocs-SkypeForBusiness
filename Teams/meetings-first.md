@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Meetings First 
+title: Microsoft Teams | Meetings First
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,15 +7,14 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: francoid
-description: Learn about Meetings First, where users can create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. 
+description: Learn about Meetings First, where users can create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Meetings First

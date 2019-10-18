@@ -10,16 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams 
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- LIL_Placement
+ms.custom: 
+  - Audio Conferencing
+  - LIL_Placement
 description: "Learn how to set up dial-in or Audio Conferencing for the people in your business who need to use a phone to join conference calls. "
 ---
 

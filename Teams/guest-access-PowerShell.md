@@ -8,13 +8,13 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Use PowerShell to allow or block guest access to teams in Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Use PowerShell to control guest access to a team
