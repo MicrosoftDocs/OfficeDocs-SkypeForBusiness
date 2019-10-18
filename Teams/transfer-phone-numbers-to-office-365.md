@@ -10,18 +10,17 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.lync.lac.PortingNumbersOverview
-ms.custom:
-- Calling Plans
-- LIL_Placement
+f1keywords: 
+  - ms.lync.lac.PortingNumbersOverview
+ms.custom: 
+  - Calling Plans
+  - LIL_Placement
 description: "Learn what you need to know and do before porting phone numbers to Teams, and how to create a port order to transfer them."
 ---
 

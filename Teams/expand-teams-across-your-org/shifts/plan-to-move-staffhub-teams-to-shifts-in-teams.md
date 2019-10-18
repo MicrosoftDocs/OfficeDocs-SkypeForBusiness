@@ -11,10 +11,10 @@ search.appverid: MET150
 description: Get guidance on how to plan to move your StaffHub teams to Shifts in Microsoft Teams.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Plan to move your StaffHub teams to Shifts in Microsoft Teams

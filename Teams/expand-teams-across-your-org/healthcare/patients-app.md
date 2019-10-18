@@ -1,18 +1,20 @@
 ---
-title: Patients app integration       
-author: jambirk           
-ms.author: jambirk        
-manager: serdars                    
-audience: ITPro            
-ms.topic: article                   
-ms.service: msteams         
+title: Patients app overview
+author: jambirk
+ms.author: jambirk
+manager: serdars
+audience: ITPro
+ms.topic: article
+ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+appliesto: 
+  - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams Patients app EHR integration 
+description: Microsoft Teams Patients app EHR integration
 ---
 
 # Integrating Electronic Healthcare Records into Microsoft Teams

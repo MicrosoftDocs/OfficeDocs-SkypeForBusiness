@@ -12,10 +12,9 @@ description: Learn what to look for when checking your environment’s readiness
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Check your environment’s readiness for Microsoft Teams

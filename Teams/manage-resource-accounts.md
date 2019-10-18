@@ -9,14 +9,13 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
+f1keywords: 
+  - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: "Learn about managing resource accounts in Microsoft Teams"
 ---
 
