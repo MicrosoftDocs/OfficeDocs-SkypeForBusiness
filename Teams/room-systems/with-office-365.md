@@ -9,9 +9,8 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection: 
-- Strat_SB_Admin
-- M365-voice
-ms.custom:
+  - M365-collaboration
+ms.custom: 
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365."
 ---

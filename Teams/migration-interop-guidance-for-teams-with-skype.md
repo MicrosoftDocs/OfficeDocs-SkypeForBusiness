@@ -7,17 +7,16 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Guidance for managing the transition to Teams from Skype for Business 
+description: Guidance for managing the transition to Teams from Skype for Business
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: 
-- ms.teamsadmincenter.dashboard.helparticle.coexistence
-- ms.teamsadmincenter.teamsupgrade.overview
+  - ms.teamsadmincenter.dashboard.helparticle.coexistence
+  - ms.teamsadmincenter.teamsupgrade.overview
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 # Migration and interoperability guidance for organizations using Teams together with Skype for Business
 

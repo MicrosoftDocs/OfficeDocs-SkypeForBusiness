@@ -8,14 +8,13 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: prvijay
 audience: admin
-description: Frequently asked questions about retention policies in Microsoft Teams. 
+description: Frequently asked questions about retention policies in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Microsoft Teams retention policies FAQ

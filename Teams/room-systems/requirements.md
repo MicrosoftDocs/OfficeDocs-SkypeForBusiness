@@ -9,7 +9,8 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article summarizes the requirements for supporting Microsoft Teams Rooms."
 ---
 
