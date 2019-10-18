@@ -115,9 +115,3 @@ Yes, a guest can attach files in these two ways:
 
 ### Can a guest download a file in a private chat?
 Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
-
- 
-## External access (federation) vs. guest access
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 

@@ -61,7 +61,7 @@
 #### [Add a guest to a team](add-guests.md)
 #### [View guest users in a team](view-guests.md)
 #### [Edit guest user information](edit-guests-information.md)
-#### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
+#### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](guest-access-troubleshooting.md)
 
 
