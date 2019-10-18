@@ -11,10 +11,10 @@ search.appverid: MET150
 description: Use this email template to communicate to users across your organization about the transition from Microsoft StaffHub to Microsoft Teams.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # StaffHub to Teams sample email to users

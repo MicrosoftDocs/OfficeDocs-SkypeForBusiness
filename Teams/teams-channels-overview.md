@@ -10,17 +10,16 @@ audience: admin
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
-- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels 
-- ms.teamsadmincenter.teamschannel.overview
-- ms.teamsadmincenter.teamssettings.overview
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+  - ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
+  - ms.teamsadmincenter.teamschannel.overview
+  - ms.teamsadmincenter.teamssettings.overview
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.custom: okr_smb
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 > [!NOTE]
 > Review the following information to understand chat, teams, channels, & apps in Teams. Then, go to [Chat, teams, channels, & apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) to walk through a list of decisions important to your Teams rollout.

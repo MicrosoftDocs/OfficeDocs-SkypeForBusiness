@@ -9,17 +9,16 @@ ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
-ms.custom:
-- Calling Plans
-description: Learn about the different phone number types that Teams uses for Calling Plans. 
+ms.custom: 
+  - Calling Plans
+description: Learn about the different phone number types that Teams uses for Calling Plans.
 ---
 
 # Different kinds of phone numbers used for Calling Plans

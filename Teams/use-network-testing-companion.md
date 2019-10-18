@@ -8,16 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Learn how to download and use the Network Testing Companion tool.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
-- Skype for Business Online
+  - Microsoft Teams
+  - Skype for Business Online
 ---
 
 Use the Network Testing Companion

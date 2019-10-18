@@ -10,7 +10,6 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Learn about cross-team analytics and per-team analytics in Teams, which let users see usage data for teams that they are members of.
 appliesto: 

@@ -8,7 +8,8 @@ audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 ms.assetid: 
 description: "Read this topic to learn how to migrate Lync Room System devices to use the Microsoft Teams Rooms software."
 ---

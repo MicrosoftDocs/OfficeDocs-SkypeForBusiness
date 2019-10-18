@@ -10,17 +10,16 @@ ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Phone System
+ms.custom: 
+  - Phone System
 description: "Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. "
 ---
 
