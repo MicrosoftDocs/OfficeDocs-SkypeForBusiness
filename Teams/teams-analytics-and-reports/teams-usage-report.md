@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams usage report
-author: LanaChin    
+author: LanaChin
 ms.author: v-lanac
 manager: serdars
 audience: Admin
@@ -10,11 +10,10 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 description: Learn how to use the Teams usage report in the Microsoft Teams admin center to get an overview of Teams activity in your organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Microsoft Teams usage report
 

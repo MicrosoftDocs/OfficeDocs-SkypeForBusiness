@@ -12,10 +12,9 @@ description: Know where to go to find in-depth deployment and adoptions resource
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Choose a path to your organization-wide rollout of Microsoft Teams

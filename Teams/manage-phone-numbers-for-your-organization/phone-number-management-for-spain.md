@@ -5,21 +5,20 @@ ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: reference
-ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399 
+ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in Spain for Microsoft Teams."
 ---
 

@@ -9,18 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
-- M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Licensing
-- LIL_Placement
+ms.custom: 
+  - Licensing
+  - LIL_Placement
 description: "Learn about features available in Microsoft Teams Rooms. "
 ---
 

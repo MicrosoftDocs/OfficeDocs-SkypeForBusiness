@@ -10,8 +10,7 @@ audience: admin
 description: Use this PowerShell script sample to test Direct Routing Session Border Controller connections in Microsoft Teams.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto: 
 - Microsoft Teams
 ---

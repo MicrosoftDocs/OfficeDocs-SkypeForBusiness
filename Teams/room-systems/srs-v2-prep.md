@@ -10,7 +10,8 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article explains the infrastructure preparations for deploying Microsoft Teams Rooms."
 ---
  

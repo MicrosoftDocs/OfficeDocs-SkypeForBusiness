@@ -11,10 +11,10 @@ search.appverid: MET150
 description: Learn how to install and connect to the prerelease version of the Microsoft StaffHub PowerShell module.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Install the Microsoft StaffHub PowerShell module
