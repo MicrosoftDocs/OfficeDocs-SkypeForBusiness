@@ -465,29 +465,20 @@ This is the simplest upgrade scenario involving voice.
 
 In this scenario, the user is already in Skype for Business Online, but their PSTN connectivity is on-premises, either using Skype for Business Server in hybrid mode or Cloud Connector Edition. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing, in which PSTN trunks connect directly to the Direct Routing service in the cloud, via your on-premises Session Border Controller (SBC).
 
-The basic steps are listed below.  Steps 1-6 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 7.
+The basic steps are listed below.  Steps 1-4 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 5.
 
 1. If you are setting the tenant-wide policy to one of the Skype for Business modes, be sure to grandfather any existing Islands users by explicitly assigning them Islands mode, as previously described.
 
-2. Ensure that your SBC is supported with Direct Routing by reviewing [this list](direct-routing-border-controllers.md). You must also ensure that you have the correct version of firmware. 
+2. Configure your tenant for Direct Routing. See [Summary of per-tenant configuration of Direct Routing](#summary-of-per-tenant-configuration-of-Direct-Routing).
 
-3. Pair your on-premises SBC with the Direct Routing service. For details, see [Pair the SBC to the Direct Routing service of Phone System](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system).
-
-4. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to 
+3. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to 
 TeamsOnly mode.
 
-
-5. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  For more information, see [Configure Direct Routing](direct-routing-configure.md). The online configuration consists of: 
-
-   - OnlineVoiceRoutingPolicy (based on on-premises VoiceRoutingPolicy) 
-   - OnlinePSTNUsage objects (based on on-premises PSTNUsage) 
-   - OnlineVoiceRoute objects (based on-premises VoiceRoute). 
-
-6. Prepare select users for voice migration: 
+4. Prepare select users for voice migration: 
    - If necessary, assign the Teams license.  Assuming the user is already functional in Skype for Business Online on-premises voice, the user already has Skype for Business Plan 2 as well as Microsoft Phone System. Leave both those plans enabled, including the Skype for Business Online Plan 2 license.  
    - Assign the desired OnlineVoiceRoutingPolicy. 
 
-7. Upgrade the user: These steps should be coordinated. 
+5. Upgrade the user: These steps should be coordinated. 
 
    - In Office 365, upgrade the user to TeamsOnly mode (Grant-CsTeamsUpgradePolicy).
    - On the SBC, configure voice routing to enable incoming calls by sending calls to Direct Routing instead of to the on-premises Mediation Server.
@@ -497,26 +488,19 @@ TeamsOnly mode.
 
 In this scenario, the user is still homed in Skype for Business on-premises, and their PSTN connectivity is also on-premises. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing and then moving the user to the cloud. 
  
-The basic steps are listed below.  Steps 1-7 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 8.
+The basic steps are listed below.  Steps 1-5 are listed in the suggested sequence, but they can be done in any order. The key is that all of these should be completed before Step 6.
 
 1. If you will be setting the tenant-wide policy to one of the Skype for Business modes, be sure to grandfather existing Islands users by explicitly assigning them Islands mode, as previously described.
 
 2. If you haven’t already done so, [configure the organization for Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
-3. Ensure that your Session Border Controller (SBC) is supported with Direct Routing by reviewing [this list](direct-routing-border-controllers.md). You must also ensure that you have the correct version of firmware. 
+3. Configure your tenant for Direct Routing. See [Summary of per-tenant configuration of Direct Routing](#summary-of-per-tenant-configuration-of-Direct-Routing).
 
-4. Pair your on-premises SBC with the Teams Direct Routing service. For details, see [Pair the SBC to the Direct Routing service of Phone System](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+4. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
 
-5. If desired, configure various Teams policies for these users (e.g. TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
+5. Assign the Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
 
-6. Create online routing configuration for the tenant. This configuration is essentially a mirror of the on-premises configuration.  For more information, see [Configure Direct Routing](direct-routing-configure.md).  The online configuration consists of: 
-   - OnlineVoiceRoutingPolicy (based on on-premises VoicePolicy) 
-   - OnlinePSTNUsage objects (based on on-premises PSTNUsage) 
-   - OnlineVoiceRoute objects  (based on-premises VoiceRoute). 
-
-7. Assign the Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business 
-
-8. Upgrade the user: These steps should be coordinated. 
+6. Upgrade the user: These steps should be coordinated. 
 
    - Using the on-premises Skype for Business tools, run Move-CsUser with -MoveToTeams switch. If you are using a version of Skype for Business Server that does not support the -MoveToTeams switch, first run Move-CsUser and then assign TeamsOnly mode in tenant remote PowerShell or Teams Admin Console.
 
@@ -549,6 +533,31 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested seque
     - If you are porting numbers to Microsoft, you should coordinate the timing of this operation to occur when the port occurs. 
 
     - If you are using new numbers from Microsoft, you’ll need to change the LineUri for the user.  This should be done in the on-prem tools and then synchronized to the cloud via Azure AD Connect. You should time the Move-CsUser operation to be concurrent with when Azure AD Connect synchronizes the change. 
+
+### Summary of per-tenant configuration of Direct Routing 
+
+1. Ensure that your Session Border Controller (SBC) is supported with Direct Routing by reviewing [this list](direct-routing-border-controllers.md). You must also ensure that you have correct version of firmware.  
+
+2. Pair your on-premises SBC with the Teams Direct Routing service. For details, see [Pair the SBC to the Direct Routing service of Phone System](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+
+3. This configuration is essentially a mirror of the on-premises configuration. The online configuration consists of: 
+   - OnlineVoiceRoutingPolicy (based on the on-premises VoiceRoutingPolicy if migrating users from Skype for Business   Online, and based on VoicePolicy if migrating users from on-premises with Enterprise Voice).
+   - OnlinePSTNUsage objects (based on on-premises PSTN usage). 
+   - OnlineVoiceRoute objects (based on-premises VoiceRoute). 
+
+For more information, see [Configure Direct Routing](direct-routing-configure.md). 
+
+### Manage EnterpriseVoiceEnabled property during migration 
+
+Whether using Direct Routing or a Microsoft Calling plan, a user must have EnterpriseVoiceEnabled=true in Azure AD for the user to have PSTN functionality.  EnterpriseVoiceEnabled (“EV-enabled”) is a property (not a policy) that exists in both an on-premises directory and in the cloud. The value in the cloud is what matters for Teams.  The exact logic for how EV-enabled gets set to true depends on the following scenario: 
+
+- If the user is EV-enabled in on-premises Skype for Business Server and a Teams Phone System license is assigned to the user prior to moving the user to the cloud with Move-CsUser, the online user will be provisioned with EV-enabled=true. 
+
+- If an existing TeamsOnly or Skype for Business Online user is assigned a Phone System license, EV-enabled is not set to true by default.  This also is the case if an on-premises user is moved to the cloud prior to assigning the Phone System license. In either case, the admin must the following cmdlet: 
+
+  ```
+  Set-CsUser -EnterpriseVoiceEnabled $True 
+  ```
 
 
 ## Related links
