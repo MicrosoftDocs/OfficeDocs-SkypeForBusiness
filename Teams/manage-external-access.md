@@ -131,6 +131,6 @@ Have the admin in that organization do these steps:
 > You don't have to add any **"Skype domains"** as allowed domains to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are whitelisted, which means all of these domains are considered ALLOWED.
 
 
-## Related topics
+## How does external access compare with guest access?
 
 To learn about the difference between external access and guest access, read [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
