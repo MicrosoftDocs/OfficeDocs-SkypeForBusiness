@@ -10,7 +10,6 @@ ms.reviewer: abhisgu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Learn about team expiration and renewal and how to use Office 365 Group expiration policy to automatically clean up unused teams in Microsoft Teams.
 appliesto: 
