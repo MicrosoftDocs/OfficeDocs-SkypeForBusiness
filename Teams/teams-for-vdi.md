@@ -65,7 +65,7 @@ With per-machine installation, automatic updates is disabled. This means that to
 
 #### Dedicated persistent setup
 
-In a dedicated persistent setup, users' local operating system changes are retained after users log off.
+In a dedicated persistent setup, users' local operating system changes are retained after users log off.  For persistent setup, Teams support both per-user and per-machine installation.
 
 The following is the recommended minimum VM configuration.
 
