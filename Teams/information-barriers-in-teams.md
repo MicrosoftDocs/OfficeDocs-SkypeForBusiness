@@ -7,12 +7,13 @@ ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+  - M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
 description: Learn about information barriers and how they affect Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Information barriers in Microsoft Teams

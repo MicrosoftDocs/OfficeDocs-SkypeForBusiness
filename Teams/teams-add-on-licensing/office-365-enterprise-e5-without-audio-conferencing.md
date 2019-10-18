@@ -8,15 +8,14 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-ms.custom:
-- Licensing
-- LIL_Placement
+ms.custom: 
+  - Licensing
+  - LIL_Placement
 description: "Learn about add-on licenses, features, and how to buy for Office 365 Enterprise (without Audio Conferencing) plans. "
 ---
 
