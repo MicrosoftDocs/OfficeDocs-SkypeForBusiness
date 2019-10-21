@@ -46,7 +46,6 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 
 ## Compare external and guest access
 
-
 | Feature | External access users | Guest access users |
 |---------|-----------------------|--------------------|
 | User can chat with someone in another company | Yes |Yes |
@@ -56,27 +55,28 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 | User can share files | No | Yes |
 | User can access Teams resources | No | Yes |
 | User can be added to a group chat | No | Yes |
-| User can be added to a meeting | Yes | Yes |
+| User can be invited to a meeting | Yes | Yes |
 | Additional users can be added to a chat with an external user | No<sup>3</sup> | N/A |
 | User is identified as an external party | Yes | Yes |
 | Presence is displayed | Yes | Yes |
 | Out of office message is shown | No | Yes |
-| Individual user can be blocked | No | No |
-| @mentions are supported | No | Yes |
+| Individual user can be blocked | No | Yes |
+| @mentions are supported | Yes<sup>4</sup> | Yes |
 | Make private calls | Yes | Yes |
 | Allow IP video | Yes | Yes |
-| Screen sharing mode | No | Yes |
+| Screen sharing mode | Yes<sup>4</sup> | Yes |
 | Allow meet now | No | Yes |
-| Edit sent messages | No | Yes |
-| Can delete sent messages | No | Yes |
-| Use Giphy in conversation | No | Yes |
-| Use memes in conversation | No | Yes |
-| Use stickers in conversation | No | Yes |
+| Edit sent messages | Yes<sup>4</sup> | Yes |
+| Can delete sent messages | Yes<sup>4</sup> | Yes |
+| Use Giphy in conversation | Yes<sup>4</sup> | Yes |
+| Use memes in conversation | Yes<sup>4</sup> | Yes |
+| Use stickers in conversation | Yes<sup>4</sup> | Yes |
 ||||
 
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
-<sup>3</sup> External (federated) chat is 1:1 only.
+<sup>3</sup> External (federated) chat is 1:1 only.<br>
+<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations.
 
 ## Related topics
 
