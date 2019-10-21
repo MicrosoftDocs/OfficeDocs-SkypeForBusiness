@@ -219,4 +219,4 @@ Make sure to update your users' Skype for Business client to the latest C2R clie
 Clicking on "Set Up Voice Mail" from the client will continue to take Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA, and a banner will be displayed with a redirect link to take users to the CVM user settings portal. 
  
 **Change greeting mobile access:** 
-PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option is added to the voicemail IVR service from mobile clients. Users can call the service by pressing-and-hold on "1" in the mobile client dial-pad. 
+PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option is added to the voicemail IVR service for mobile clients. Users can call this service by pressing and holding the "1" key on the mobile client dial-pad. 
