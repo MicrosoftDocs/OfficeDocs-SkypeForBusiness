@@ -95,11 +95,11 @@ Consider the following when you deploy Teams with Office 365 ProPlus on VDI.
 
 Before you deploy Teams through Office 365 ProPlus, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.
 
-Teams through Office 365 ProPlus is installed per-user. To learn more, see the [need to point to a Office 365 ProPlus section].
+Teams through Office 365 ProPlus is installed per-user. To learn more, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 #### Teams deployments through Office 365 ProPlus updates
 
-Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see the [need to point to a Office 365 ProPlus section] section.
+Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 #### Using Teams with per-machine installation and Office 365 ProPlus
 
