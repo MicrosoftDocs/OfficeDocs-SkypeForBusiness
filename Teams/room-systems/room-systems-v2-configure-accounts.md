@@ -10,9 +10,8 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection: 
-- Strat_SB_Admin
-- M365-voice
-ms.custom:
+  - M365-collaboration
+ms.custom: 
 ms.assetid: 
 description: "Read this topic to learn about configuring accounts for Microsoft Teams Rooms in Exchange and Skype for Business."
 ---
