@@ -92,7 +92,15 @@ Switch this setting **On** to turn on scoped directory searches.
 You can use these settings to configure how your users will be upgraded from Skype for Business to Microsoft Teams. 
 
 #### Coexistence mode
-You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype for Business will coexist), or **Skype for Business only**. The coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+You can specify a coexistence mode: 
+
+- **Teams only**
+- **Islands** (Teams and Skype for Business will coexist)
+- **Skype for Business only**
+- **Skype for Business with Teams collaboration** (Users receive chats and calls and schedule meetings in Skype for Business but use  Teams for group collaboration)
+- **Skype for Business with Teams collaboration and meetings** (Users receive chats and calls in Skype for Business but use Teams for group collaboration and to schedule meetings)
+
+The coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### App preferences
 
