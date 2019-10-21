@@ -205,7 +205,7 @@ New Skype for Business users will be automatically provisioned for Cloud voicema
 
 To learn more about auto attendants, see [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
 
-#### Known Issues
+#### Known issues
 
 **Shared mailbox:**
 Shared mailbox that are configured using Exchange UM Online will continue to receive messages after being migrated to CVM, and will continue to be accessible by users through Outlook. However, access to change the greeting messages of these mailboxes will not be available once migrated to CVM. Customers with shared mailboxes that are used to capture auto attendant callers should leverage the Auto Attendants and Call Queues Shared Mailbox capability once released (ETA October 2019) 
