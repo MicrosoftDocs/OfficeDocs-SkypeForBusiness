@@ -61,16 +61,16 @@ The workload rollout plans include a tenant readiness assessment that you can us
 ### Chat, teams, channels, and apps
 
 
-|Assessment  |Description  |
+|Assessment  |What it tells you  |
 |---------|---------|
-|Teams licenses     |Checks for an active subscription with available Teams licenses |
-|Exchange Online licenses     |Checks for an active subscription with available exchange Online licenses. While Exchange is not required for basic Teams functionality, integration with Exchange provides an optimal Teams experience.         |
-|SharePoint Online licenses     | Checks for an active subscription with available SharePoint Online licenses. You need one SharePoint Online license per user for file storage and collaboration in chat (SHOULDN'T THIS BE "TEAMS AND CHANNELS?") 
-|Guest access enabled     |Lets you know if guest access is turned on in Teams. Azure Active Directory settings for guest access are not reviewed.   |
-|Vanity domain configured     |Lets you know if there's a non-@onmicrosoft.com domain configured for your tenant  |
-|Office 365 Group naming standard configured     | Lets you know if naming standards have been configured for Office 365 Groups        |
-|Office 365 Group expiration configured     |  Lets you know if a Group expiration policy has been defined for Office 365 Groups. If not, the value is set to never.        |
-|External access configured     |Lets you know if external access is turned on so you can communicate with external organizations in Teams.          |
+|Teams licenses     |Whether you have an active subscription with available Teams licenses |
+|Exchange Online licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience.         |
+|SharePoint Online licenses     | Whether you have an active subscription with available SharePoint Online licenses. You need one SharePoint Online license per user for file storage and collaboration in chat (**BRANDON:**SHOULDN'T THIS BE "TEAMS AND CHANNELS?") 
+|Guest access enabled     |If guest access is turned on in Teams. Azure Active Directory settings for guest access are not reviewed.   |
+|Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant  |
+|Office 365 Group naming standard configured     | Whether naming standards have been configured for Office 365 Groups        |
+|Office 365 Group expiration configured     |  Whether a Group expiration policy has been defined for Office 365 Groups. If not, the value is set to never.        |
+|External access configured     |If external access is turned on so you can communicate with external organizations in Teams.          |
 
 
 ### Advisor Bot
@@ -90,7 +90,7 @@ Once Advisor creates your Deployment team, it delivers the following message. Th
 ### What are the licensing requirements for Advisor for Teams?
 There are no additional licensing requirements other than being licensed for Teams.
 
-### Can I delete the Service Management team?
+### Can I delete the Service Management team?  **BRANDON - PLEASE TELL ME WE'RE NOT CALLING IT SERVICE MANAGEMENT TEAM!!!**
 After Advisor for Teams has created your Service Management team, the team can be managed just like any other team, including the ability to delete it completely. Be aware that, if you don't delete the team by using the Teams admin center, it will be reported that the team exists.
 
 ### Can I add or remove channels in the Service Management team?
