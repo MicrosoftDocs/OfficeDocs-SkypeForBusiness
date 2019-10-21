@@ -29,6 +29,42 @@ On the other hand, sensitivity labels and their policies are automatically enfor
 
 ## Create and publish sensitivity labels for Teams
 
+For how to create and publish sensitivity labels, see [Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels).
+
+## Using sensitivity labels in Teams
+
+Here are some example scenarios of how you can use sensitivity labels with Teams in your organization.
+
+### Privacy setting of teams
+
+You can create a sensitivity label that, when applied during team creation, allows users to create teams with a specific privacy (public or private) setting.
+
+For example, you create a label named “Confidential” in the Security & Compliance Center and you configure Teams so that any team that's created with this label must be a private team. When a user creates a new team and selects the **Confidential** label, the only privacy option that's available to the user is **Private**. Other privacy options such as Public and Org-wide are disabled for the user.
+
+![Screenshot of Confidential sensitivity label](media/sensitivity-labels-confidential-example.png)
+
+Similarly, if the user selects **General** when they create a new team, they can only create public or org-wide teams.
+
+![Screenshot of General sensitivity label](media/sensitivity-labels-general-example.png)
+
+When the team is created, the sensitivity label is visible in the upper-right corner of channels in the team.
+
+![Screenshot of sensitivity label in team channel](media/sensitivity-labels-channel.png)
+
+A team owner can change the sensitivity label and the privacy setting of the team at any time by going to the team, and then clicking **Edit team**.
+
+![Screenshot of sensitivity label in team channel](media/sensitivity-labels-edit-team.png)
+
+### Guest access to teams
+
+You can specify whether a team created with a specific label allows guest access. Teams created with a label that doesn't allow guest access are only available to users in your organization. People outside your organization can't be added to the team.
+
 ## Known issues
 
-## Related topics
+**Support for sensitivity labels in the Microsoft Teams admin center**
+
+Currently, sensitivity labels are not visible in the Microsoft Teams admin center. If you use sensitivity labels, you'll see that the **Classification** column on the Manage teams page of the Microsoft Teams admin center is no longer visible. Classification labels are also not visible in team properties.
+
+**Sensitivity labels to existing teams**
+
+Currently, we don't have support to programmatically add labels to existing teams. Teams owners can manually apply a label to a team by going to **Edit team**.
