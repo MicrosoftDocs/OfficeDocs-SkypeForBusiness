@@ -118,7 +118,7 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
 2. Install the MSI to the VDI VM by running one of the following commands:
 
-       - Per-machine installation (recommended)
+    - Per-machine installation (recommended)
 
         ```
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
