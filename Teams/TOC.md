@@ -28,7 +28,8 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
-## [Archive or delete a Team](archive-or-delete-a-team.md)
+## [Team expiration and renewal](team-expiration-renewal.md)
+## [Archive or delete a team](archive-or-delete-a-team.md)
 
 
 
@@ -353,6 +354,7 @@
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Media path country codes](direct-routing-country-codes.md)
 #### [PowerShell script to test Session Border Controller connections](sip-tester-powershell-script.md)
+#### [Manage call notifications](direct-routing-call-notifications.md)
 
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
