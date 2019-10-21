@@ -101,7 +101,7 @@ Here you can choose the app that users will use to join Skype for Business meeti
 
 #### Network Planner
 
-Network planner helps you to determine and organize network requirements for connecting people that use Teams across your organization in a few steps. By providing your networking details and Teams usage, you get calculations and the network requirements you need when deploying Teams and cloud voice across organizational physical locations.
+Network Planner helps you determine and organize network requirements for connecting Teams users across your organization.  Learn how to [Use the Network Planner for Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
 ## How can I tell which features are available?
 
