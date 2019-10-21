@@ -147,10 +147,10 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
     This approach removes Teams, yet prevents re-installation of Teams.  
     Run the following command:
   
-    ```
-    msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
-    ```
-    This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
+      ```
+      msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+      ```
+      This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
     
 
 ## Teams on VDI performance considerations
