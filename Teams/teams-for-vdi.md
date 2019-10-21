@@ -140,10 +140,10 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
     There are two ways to uninstall Teams.  
   
-  - PowerShell script (recommended)
+    - PowerShell script (recommended):
     You can use this [PowerShell script](scripts/powershell-script-teams-deployment-clean-up.md) to clean up Teams from target machines or users. It should be executed for every user on a targeted machine. 
     
-    - Command line
+    - Command line:
     This approach removes Teams, yet prevents re-installation of Teams.  
     Run the following command:
   
