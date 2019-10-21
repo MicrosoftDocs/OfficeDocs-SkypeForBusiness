@@ -78,7 +78,7 @@ The following is the recommended minimum VM configuration.
 
 In a non-persistent setup, users' local operating system changes are not retained after users log off. Such setups are commonly shared multi-user sessions. VM configuration varies based on the number of users and available physical box resources.
 
-For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. This ensures an efficient launch of the Teams app during a user session. Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.  There are variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/en-us/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
+For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section). This ensures an efficient launch of the Teams app during a user session. Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) are cached during the user session.  There are variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/en-us/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
 ##### Teams cached content exclusion list for non-persistent setup
 
@@ -95,11 +95,11 @@ Consider the following when you deploy Teams with Office 365 ProPlus on VDI.
 
 Before you deploy Teams through Office 365 ProPlus, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.
 
-Teams through Office 365 ProPlus is installed per-user. To learn more, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
+Teams through Office 365 ProPlus is installed per-user. To learn more, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.
 
 #### Teams deployments through Office 365 ProPlus updates
 
-Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
+Teams is also being added to existing installations of Office 365 ProPlus. Since Office 365 ProPlus installs Teams per-user only, see the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section.
 
 #### Using Teams with per-machine installation and Office 365 ProPlus
 
@@ -118,7 +118,15 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
 2. Install the MSI to the VDI VM by running one of the following commands:
 
-    - Per-machine installation (recommended)
+    - Per-user installation  (default)
+  
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        ```
+    
+        This is the default installation, which installs Teams to the %AppData% user folder. At this point, the golden image setup is complete. Teams will not work properly with per-user installation on a non-persistent setup.
+    
+    - Per-machine installation
 
         ```
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
@@ -127,21 +135,23 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
         This installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete. Installing Teams per-machine is required for non-persistent setups.
  
         The next interactive logon session starts Teams and asks for credentials.
-   
-   - Per-user installation  (default)
-  
-        ```
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
-        ```
-    
-        This is the default installation, which installs Teams to the %AppData% user folder. At this point, the golden image setup is complete. Teams will not work properly with per-user installation on a non-persistent setup.
-    
-3. Uninstall the MSI from the VDI VM by running the following command:
 
-    ```
-    msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
-    ```
-    This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
+3. Uninstall the MSI from the VDI VM 
+
+    There are two ways to uninstall Teams.  
+  
+    - PowerShell script (recommended):
+    You can use this [PowerShell script](scripts/powershell-script-teams-deployment-clean-up.md) to clean up Teams from target machines or users. It should be executed for every user on a targeted machine. 
+    
+    - Command line:
+    This approach removes Teams, yet prevents re-installation of Teams.  
+    Run the following command:
+  
+      ```
+      msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
+      ```
+      This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
+    
 
 ## Teams on VDI performance considerations
 
