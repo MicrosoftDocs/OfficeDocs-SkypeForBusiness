@@ -211,7 +211,7 @@ To learn more about auto attendants, see [Set up a Cloud auto attendant](/Micros
 A shared mailbox that is configured using Exchange UM Online will continue to receive messages after being migrated to CVM, and will continue to be accessible to users via Outlook. However, access to change the greeting messages of these mailboxes will not be available once migrated to CVM. Customers with shared mailboxes that are used to capture auto attendant callers should leverage the Auto Attendants and Call Queues Shared Mailbox capabilities once released (ETA October 2019).
   
 **Upgrade to Teams banner on SFB client:**
-CVM service is based on Microsoft Teams infrastructure, calls to it from Skype for Business client may cause an information banner to be displayed on the client that reads:
+The CVM service is based on Microsoft Teams infrastructure; calls to it from Skype for Business client may cause an information banner to be displayed on the client that reads:
 "Username is not using Skype for Business. For a richer experience, switch to Teams or start a Skype meeting."
 Make sure to update your users' Skype for Business client to the latest C2R client update to prevent this banner from appearing. 
   
