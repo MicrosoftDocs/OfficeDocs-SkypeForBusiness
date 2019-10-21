@@ -99,7 +99,7 @@ You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype
 
 Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype Meetings App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the coexistence mode setting.
 
-#### Network planner
+#### Network Planner
 
 Network planner helps you to determine and organize network requirements for connecting people that use Teams across your organization in a few steps. By providing your networking details and Teams usage, you get calculations and the network requirements you need when deploying Teams and cloud voice across organizational physical locations.
 
