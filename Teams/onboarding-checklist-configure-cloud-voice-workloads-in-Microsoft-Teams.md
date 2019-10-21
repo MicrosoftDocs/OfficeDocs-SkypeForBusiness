@@ -11,11 +11,8 @@ ms.reviewer: rowille
 description: Follow the core, to-do tasks and activities in this checklist when you configure cloud voice workloads in Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Configure cloud voice workloads in Microsoft Teams

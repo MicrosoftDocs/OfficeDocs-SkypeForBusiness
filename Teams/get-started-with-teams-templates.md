@@ -11,13 +11,12 @@ ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 description: Learn how to use Teams templates to create a team with predefined channels.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Get started with Teams templates 

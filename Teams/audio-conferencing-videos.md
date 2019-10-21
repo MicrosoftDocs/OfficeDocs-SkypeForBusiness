@@ -11,12 +11,11 @@ ms.reviewer: Rowille
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Videos: Audio Conferencing in Microsoft Teams

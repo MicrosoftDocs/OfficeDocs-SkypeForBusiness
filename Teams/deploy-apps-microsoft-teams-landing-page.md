@@ -10,12 +10,11 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Apps, bots, & connectors in Microsoft Teams
 

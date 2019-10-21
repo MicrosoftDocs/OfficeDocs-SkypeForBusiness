@@ -5,17 +5,17 @@ ms.author: Rowille
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.  
+description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Evaluate my environment

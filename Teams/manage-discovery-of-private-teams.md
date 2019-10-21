@@ -9,13 +9,12 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to control whether private teams can be discovered by Microsoft Teams users through suggestions in the team gallery and search results. 
+description: Learn how to control whether private teams can be discovered by Microsoft Teams users through suggestions in the team gallery and search results.
 ---
 
 # Manage discovery of private teams in Microsoft Teams

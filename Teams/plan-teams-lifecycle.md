@@ -11,10 +11,9 @@ audience: admin
 description: Learn about how to plan for implementing lifecycle management capabilities in Teams.
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Plan for lifecycle management in Teams

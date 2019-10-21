@@ -8,17 +8,16 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.teamsadmincenter.policies.naming.error
+f1keywords: 
+  - ms.teamsadmincenter.policies.naming.error
 description: "See what issues there are with special characters in the names of policies and what you can do to fix it."
 ---
 
