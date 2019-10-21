@@ -216,7 +216,7 @@ The CVM service is based on Microsoft Teams infrastructure; calls to it from Sky
 Make sure to update your users' Skype for Business client to the latest C2R client update to prevent this banner from appearing. 
   
 **Setup your voicemail will take you to OWA:**
-Skype for Business Server 2015/2013 customers: clicking on "Set Up Voice Mail" from the client will continue to take users to Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA, and a banner will display a redirect link to take users to the CVM user settings portal. 
+Clicking on "Set Up Voice Mail" from the client will continue to take Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA, and a banner will be displayed with a redirect link to take users to the CVM user settings portal. 
  
 **Change Greeting mobile access:** 
 PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option is added to the voicemail IVR service from mobile clients. Users can call the service by pressing-and-hold on "1" in the mobile client dial-pad. 
