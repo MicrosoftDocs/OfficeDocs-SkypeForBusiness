@@ -72,19 +72,22 @@ The workload rollout plans include a tenant readiness assessment that you can us
 |Office 365 Group expiration configured     |  Whether a Group expiration policy has been defined for Office 365 Groups. If not, the value is set to never.        |
 |External access configured     |If external access is turned on so you can communicate with external organizations in Teams.          |
 
+### Meetings and conferencing
 
-### Advisor Bot
-Once Advisor creates your Deployment team, it delivers the following message. The bot doesn't collect any data.
+**BRANDON, WE NEED THE LIST FOR M&C HERE**
 
-  <h3>Welcome to your Deployment team for Microsoft Teams!</h3>
+### Advisor bot
+Once Advisor creates your Deployment team, the Advisor bot delivers the following message. The bot doesn't collect any data.
+
+<h3>Welcome to your Deployment team for Microsoft Teams!</h3>
   
-  The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can you go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center. If you have any questions about the tasks, @mention me and I'll do my best to answer your question.
+The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can you go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center. If you have any questions about the tasks, @mention me and I'll do my best to answer your question.
   
-  **Call to action** 
-  - If you're new to Teams or Planner, check out our [Teams walkthrough](http://teamsdemo.office.com/) and watch the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
-  - Head over to your Deployment team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
+**Call to action** 
+- If you're new to Teams or Planner, check out our [Teams walkthrough](http://teamsdemo.office.com/) and watch the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
+- Head over to your Deployment team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
   
-  To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
+To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
