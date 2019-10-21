@@ -79,7 +79,7 @@ The workload rollout plans include a tenant readiness assessment that you can us
 ### Advisor bot
 Once Advisor creates your Deployment team, the Advisor bot delivers the following message. The bot doesn't collect any data.
 
-<h3>Welcome to your Deployment team for Microsoft Teams!</h3>
+**Welcome to your Deployment team for Microsoft Teams!**
   
 The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can you go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center. If you have any questions about the tasks, @mention me and I'll do my best to answer your question.
   
