@@ -31,7 +31,7 @@ On the other hand, sensitivity labels and their policies are automatically enfor
 
 For how to create and publish sensitivity labels, see [Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels).
 
-## Using sensitivity labels in Teams
+## Using sensitivity labels with Teams
 
 Here are some example scenarios of how you can use sensitivity labels with Teams in your organization.
 
@@ -65,6 +65,6 @@ You can specify whether a team created with a specific label allows guest access
 
 Currently, sensitivity labels are not visible in the Microsoft Teams admin center. If you use sensitivity labels, you'll see that the **Classification** column on the Manage teams page of the Microsoft Teams admin center is no longer visible. Classification labels are also not visible in team properties.
 
-**Sensitivity labels to existing teams**
+**Applying sensitivity labels to existing teams**
 
 Currently, we don't have support to programmatically add labels to existing teams. Teams owners can manually apply a label to a team by going to **Edit team**.
