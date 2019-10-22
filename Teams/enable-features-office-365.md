@@ -92,11 +92,22 @@ Switch this setting **On** to turn on scoped directory searches.
 You can use these settings to configure how your users will be upgraded from Skype for Business to Microsoft Teams. 
 
 #### Coexistence mode
-You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype for Business will coexist), or **Skype for Business only**. The coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+You can specify a coexistence mode: 
+
+- **Teams only**
+- **Islands** (Teams and Skype for Business will coexist)
+- **Skype for Business only**
+- **Skype for Business with Teams collaboration** (Users receive chats and calls and schedule meetings in Skype for Business but use  Teams for group collaboration)
+- **Skype for Business with Teams collaboration and meetings** (Users receive chats and calls in Skype for Business but use Teams for group collaboration and to schedule meetings)
+
+The coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### App preferences
 
 Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype Meetings App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the coexistence mode setting.
+
+You can also select the “Download the Teams app in the background for Skype for Business users” option as well.  By default this setting is set to On. With this setting enabled it will download the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is Teams Only, or if a pending upgrade notification is enabled in the Skype for Business app.
+
 
 ## How can I tell which features are available?
 
