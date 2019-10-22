@@ -41,7 +41,7 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
     ```
     Set-ExecutionPolicy RemoteSigned
     ```
-6. Run the following, where &lt;path&gt; is the path in the output from step 4. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
+6. Run the following, where &lt;path&gt; is the path in the output from step 3. For example, the path might look like C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     Be sure to run each command separately.
 
