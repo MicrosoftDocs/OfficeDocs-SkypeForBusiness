@@ -64,7 +64,7 @@ This org-wide app setting controls whether users in your organization can use th
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**, and then click **Org-wide settings**.
 2. Under **Third-party apps**, turn off or turn on **Allow third party or custom apps in Teams**.
 
-![Screenshot of the "Allow third party or custom apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
+    ![Screenshot of the "Allow third party or custom apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
 
 #### Blocked apps in org-wide app settings
 
@@ -72,6 +72,8 @@ When an app is blocked in org-wide app settings, it's blocked for all users in y
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**, and then click **Org-wide settings**.
 2. Under **Blocked apps**, vou can remove and add apps to the blocked app list.
+
+    ![Screenshot of the blocked apps in org-wide settings](media/resource-specific-consent-blocked-apps.png)
 
 #### App permission policy assigned to the team owner
 
