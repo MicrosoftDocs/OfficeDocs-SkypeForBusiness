@@ -97,29 +97,29 @@ Once Advisor creates your Deployment team, the Advisor bot delivers the followin
 ### What are the licensing requirements for Advisor for Teams?
 There are no additional licensing requirements other than being licensed for Teams.
 
-### Can I delete the Service Management team?  **BRANDON - PLEASE TELL ME WE'RE NOT CALLING IT SERVICE MANAGEMENT TEAM!!!**
-After Advisor for Teams has created your Service Management team, the team can be managed just like any other team, including the ability to delete it completely. Be aware that, if you don't delete the team by using the Teams admin center, it will be reported that the team exists.
+### Can I delete the Service Management team?
+After Advisor for Teams has created your Service Management team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, it will be reported that the team exists.
 
 ### Can I add or remove channels in the Service Management team?
-Yes, once the Service Management team has been created, it can be managed the same way as any other team, including the ability to add or remove channels.
+Yes, once the Service Management team has been created, you'll manage the channels the same way as any other team.
 
 ### Can I add or remove project team members in the Service Management team?
-Yes, once the Service Management team has been created, it can be managed the same way as any other team.
+Yes, once the Service Management team has been created, you'll manage it the same way as any other team.
 
 ### Can I modify the Planner plans?
-Yes, after Advisor for Teams has created your Service Management team, the Planner plan can be modified as desired. All components, buckets, tasks, task details, etc. can be modified just like any native Planner plan.
+Yes, after Advisor for Teams has created your Service Management team, you should update the Planner plan so it best supports your Teams rollout. You can modify anything - buckets, tasks, task details - just like any other Planner plan.
 
 ### Can I modify the PowerBI dashboard?
-Yes, after Advisor for Teams has created your Service Management team, the PowerBI dashboard can be modified by your organization as required.
+Yes, after Advisor for Teams has created your Service Management team, you can modify the PowerBI dashboard as needed.
 
 ### Can I modify the Forms Pro survey?
-Yes, after Advisor for Teams has created your Service Management team, the Forms Pro survey can be modified by your organization as required.
+Yes, after Advisor for Teams has created your Service Management team, you can modify the Forms Pro survey as needed.
 
 ### What information is Advisor for Teams collecting about my organization?
 Advisor for Teams requests your agreement to collecting non-EUII (end user identifying information). The information that is collected is in the form of telemetry that provides feedback to Microsoft on how well Advisor for Teams is driving successful outcomes and where it may need to be improved. This same data is used to identify opportunities for Microsoft to proactively engage with your organization in an effort to assist with your deployment.
 
 ### Can I use Advisor for Teams with FastTrack?
-Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Service Management team via Advisor for Teams (if required) and also provide as-needed support on specific topics while you drive your successful rollout of Teams.
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Service Management team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### Can I use Advisor for Teams with a partner?
 Yes, you can use Advisor for Teams while also using a deployment partner for your Teams deployment. If your partner is a CSP and manages your tenant on your behalf, they can use Advisor for Teams to create your Service Management team and assist you with executing the overall project. Additionally, you can work with any partner by adding those individuals as guests in your Service Management team, to allow them to participate as a member of the overall project team.
