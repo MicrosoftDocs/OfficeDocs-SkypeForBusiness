@@ -23,7 +23,7 @@ As an admin, you can control whether team owners in your organization can give c
 
 ## Set whether team owners can give consent to apps
 
-This section describes the settings in the Azure AD portal and the Microsoft Teams admin center that you must set to control whether team owners can give consent to apps. Be sure to review all the following settings.
+Here are the settings in the Azure AD portal and the Microsoft Teams admin center that you must set to control whether team owners can give consent to apps. Be sure to review all the following settings.
 
 ### Settings in the Azure AD portal
 
@@ -62,7 +62,7 @@ In addition to settings in the Azure AD portal, [org-wide app settings](teams-ap
 This org-wide app setting controls whether users in your organization can use third-party and custom apps. This setting must be on to enable team owners to give consent. To manage this setting, do the following:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**, and then click **Org-wide settings**.
-2. Under **Third-party apps**, turn off or turn on **Allow third party or custom apps in Teams**.
+2. Under **Third-party apps**, turn off or turn on **Allow third party or custom apps**.
 
     ![Screenshot of the "Allow third party or custom apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
 
