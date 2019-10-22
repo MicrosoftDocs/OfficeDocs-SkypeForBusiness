@@ -204,3 +204,19 @@ New Skype for Business users will be automatically provisioned for Cloud voicema
 #### Admin Auto Attendant management experience 
 
 To learn more about auto attendants, see [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+
+#### Known issues
+
+**Shared mailbox:**
+A shared mailbox that is configured using Exchange UM Online will continue to receive messages after being migrated to CVM, and will continue to be accessible to users via Outlook. However, access to change the greeting messages of these mailboxes will not be available once migrated to CVM. Customers with shared mailboxes that are used to capture auto attendant callers should leverage the Auto Attendants and Call Queues Shared Mailbox capabilities once released (ETA October 2019).
+  
+**Upgrade to Teams banner on SFB client:**
+The CVM service is based on Microsoft Teams infrastructure; calls to it from Skype for Business client may cause an information banner to be displayed on the client that reads:
+"Username is not using Skype for Business. For a richer experience, switch to Teams or start a Skype meeting."
+Make sure to update your users' Skype for Business client to the latest C2R client update to prevent this banner from appearing. 
+  
+**Setup your voicemail will take you to OWA:**
+Clicking on "Set Up Voice Mail" from the client will continue to take Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA, and a banner will be displayed with a redirect link to take users to the CVM user settings portal. 
+ 
+**Change greeting mobile access:** 
+PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option is added to the voicemail IVR service for mobile clients. Users can call this service by pressing and holding the "1" key on the mobile client dial-pad. 
