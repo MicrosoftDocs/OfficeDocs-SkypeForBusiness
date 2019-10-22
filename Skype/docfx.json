@@ -146,6 +146,10 @@
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "titleSuffix": {
+      "SfBServer2019/**/*.md": "SfBServer",
+      "SfbHybrid/**/*.md": "Skype for Business Hybrid"
+    }
   }
 }
