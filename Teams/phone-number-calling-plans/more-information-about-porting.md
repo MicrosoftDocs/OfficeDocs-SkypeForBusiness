@@ -130,9 +130,9 @@ To make submitting the port order easy and avoid errors, make sure you do the fo
 - Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and can delay your port order.
     
 > [!CAUTION]
-> **Don't disconnect your services with your service provider or carrier.**> **You must keep your previous service active in order to port your phone numbers to Skype for Business Online.**> **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**> 
+> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Skype for Business Online.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**
   
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ## Port order overview
 
