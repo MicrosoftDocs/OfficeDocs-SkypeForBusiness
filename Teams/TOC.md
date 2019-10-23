@@ -359,14 +359,11 @@
 ### [See a list of phone numbers in your organization](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Getting service phone numbers](getting-service-phone-numbers.md)
-### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 ### [Transferring phone numbers](what-s-a-port-order.md)
 #### [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 #### [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 #### [What's the status of your port orders?](phone-number-calling-plans/what-s-the-status-of-your-port-orders.md)
-#### [Set your port out PIN](phone-number-calling-plans/set-your-port-out-pin.md)
-
 
 ## Call routing
 ### [What are dial plans?](what-are-dial-plans.md)

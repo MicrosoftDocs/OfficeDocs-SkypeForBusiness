@@ -160,7 +160,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 
 To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your port out pin](phone-number-calling-plans/set-your-port-out-pin.md).
 
-If you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need to get more telephone numbers than this, contact the [PSTN service desk help](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## Related topics
 

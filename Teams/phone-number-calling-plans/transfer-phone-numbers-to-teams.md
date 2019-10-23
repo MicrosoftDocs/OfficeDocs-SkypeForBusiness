@@ -20,7 +20,5 @@ description:
 # Transfer phone numbers to Teams
 
 
-![Screen shot of the team gallery](media/private-team-discovery-team-gallery.png)
-
 ## Related topics
-- [Teams PowerShell Overview](teams-powershell-overview.md)
+

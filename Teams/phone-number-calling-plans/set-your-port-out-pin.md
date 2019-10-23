@@ -25,7 +25,7 @@ To transfer or *port out*  phone numbers from Microsoft Teams to another telepho
 > [!IMPORTANT]
 > A port out PIN is only used for organizations in the United States.
   
-See [Transfer phone numbers to Teams](../transfer-phone-numbers-to-teams) for more information about transferring and porting in/out phone numbers.
+See [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams) for more information about transferring and porting in/out phone numbers.
   
 Here's some specific information about this PIN you should know:
   
@@ -61,9 +61,9 @@ Here's some specific information about this PIN you should know:
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true
 
