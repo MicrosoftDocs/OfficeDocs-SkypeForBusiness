@@ -43,7 +43,7 @@ Before you start, we recommend that you review the information in [Transferring 
             - **Notification email**: Email address to receive order notifications
     - **Plan selection**
             - **Port plan Id**:
-    - **Port details**   
+    - **Port details**  
             - **Port type**
             - **Organization's name**
             - **First name**
