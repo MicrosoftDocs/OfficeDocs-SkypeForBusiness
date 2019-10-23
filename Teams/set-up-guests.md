@@ -68,12 +68,14 @@ After you turn on guest access, it takes 2-24 hours for the changes to take effe
 ## Use PowerShell to turn guest access on or off
 Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-## External access (federation) vs. guest access
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## Video: Adding guests in Teams
 
 |  |  |
 |---------|---------|
 | Adding Guests in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## External access (federation) vs. guest access
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

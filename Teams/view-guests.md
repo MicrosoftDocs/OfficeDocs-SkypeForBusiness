@@ -31,6 +31,3 @@ To identify guest users:
   
 You can also identify guest users from within a team that you own.  
 
-## External access (federation) vs. guest access
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

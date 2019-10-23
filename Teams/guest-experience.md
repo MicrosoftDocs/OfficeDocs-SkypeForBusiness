@@ -95,9 +95,6 @@ If you've been invited to an organization that you don't want to be a guest of, 
 ### Do guests have the same capabilities as team members?
 No. For more information about what a guest can and cannot do, go to [Comparison of team member and guest capabilities](#comparison-of-team-member-and-guest-capabilities) in this article.
 
-## How many guests can I invite?
-You can add up to 5 guests per licensed user.
-
 ### Do guests have access to OneDrive for Business?
 No.
 
