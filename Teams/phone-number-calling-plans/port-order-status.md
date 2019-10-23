@@ -5,7 +5,6 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
-ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -14,7 +13,6 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
-- ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
 description: "Learn how to get the status of your port orders, and what the different actions you can take on them. "
@@ -35,14 +33,14 @@ The following table lists port order statuses, as well as actions you can take i
 |**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there is an error. The port order needs to be re-created, or you need to [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |The losing carrier has rejected the order.  <br/> |
 |**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
 |**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin has canceled the order.  <br/> |
-   
+
 For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
 If you need help or to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## Related topics
 
-[Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md)
+[What's a port order?](port-order-overview.md)
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

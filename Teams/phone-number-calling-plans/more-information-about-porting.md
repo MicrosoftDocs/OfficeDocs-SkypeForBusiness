@@ -23,15 +23,9 @@ description: Get the guidance you need to port your phone numbers to Microsoft T
 
 Here you'll find more information about porting your phone numbers to Microsoft Teams.
 
-For complete step-by-step instructions, see [Transfer phone numbers to Teams](/microsoftteams/transfer-phone-numbers-to-office-365).
+For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
 If you need help or if you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
-
-## Port order overview
-
-If you currently have a phone service provider or carrier and already have phone numbers for your users, you'll need to create what is called a "*port order*" that transfers those phone number to Teams. When the numbers are ported over, you can assign those phone numbers to your users.
-  
-After you port your phone numbers over to Teams, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
 
 ## Authorized person on the account
 
@@ -154,25 +148,9 @@ When you're porting phone numbers, you must enter them in the correct format.
     
   - The "-" is used for only separating the two numbers. It isn't supported to include multiple "-" in the number range. For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.
 
-## What's the status of my port orders?
-
-To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
-
-The following table lists port order statuses, as well as actions you can take if needed.
-
-|**Status**|**Can you view the order?**|**Can you edit the order?**|**Can you cancel the order?**|**Can you delete the order?**|**Description**|
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Processing** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The admin has created the order, and it's been received by Microsoft.  <br/> |
-|**Contacting carrier** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been received and approved by Microsoft, and we are working with the losing carrier to get it approved.  <br/> |
-|**Transfer approved** <br/> |Yes  <br/> |Firm Order Commitment(FOC)  <br/> |Yes  <br/> |No  <br/> |The order has been accepted by the losing carrier, and the FOC date has been set.  <br/> |
-|**Transfer pending** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The transfer is less than 24 hours away, so the order can no longer be edited or cancelled.  <br/> |
-|**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there is an error. The port order needs to be re-created, or you need to [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |The losing carrier has rejected the order.  <br/> |
-|**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
-|**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin has canceled the order.  <br/> |
-
 ## Related topics
 
-[Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md)
+[What is a port order?](port-order-overview.md)
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

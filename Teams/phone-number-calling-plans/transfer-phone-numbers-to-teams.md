@@ -21,7 +21,7 @@ description:
 
 Use the porting wizard in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers.
 
-Before you start, we recommend that you review the information in [Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md). If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
+Before you start, we recommend that you review the information in [What's a port order?](port-order-overview.md). If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
 
   > [!NOTE]
   > We process port orders for transferring phone numbers only on U.S. business days and not on public holidays or weekends.

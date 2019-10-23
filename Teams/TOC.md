@@ -360,10 +360,9 @@
 ### [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Getting service phone numbers](getting-service-phone-numbers.md)
 ### Transferring phone numbers
-#### [What's a port order?](what-s-a-port-order.md)
-#### [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-#### [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
-#### [What's the status of your port orders?](phone-number-calling-plans/what-s-the-status-of-your-port-orders.md)
+#### [What's a port order?](port-order-overview.md)
+#### [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md)
+#### [What's the status of your port orders?](port-order-status.md)
 
 ## Call routing
 ### [What are dial plans?](what-are-dial-plans.md)
