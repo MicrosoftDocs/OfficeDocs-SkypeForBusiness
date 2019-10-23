@@ -4,7 +4,6 @@ ms.reviewer:
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
