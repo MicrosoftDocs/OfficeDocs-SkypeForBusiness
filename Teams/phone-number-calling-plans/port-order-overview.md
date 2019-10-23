@@ -168,18 +168,17 @@ Here are the most common mistakes we see customers make when they port numbers. 
 ## Can you transfer or port out numbers?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your port out pin](phone-number-calling-plans/set-your-port-out-pin.md).
-  
+To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
  For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-If you need to get more telephone numbers than this, contact the [PSTN service desk help](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 [What's the status of your port orders?](port-order-status.md)
   
 ## Related topics
 
-- [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans)
+- [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
