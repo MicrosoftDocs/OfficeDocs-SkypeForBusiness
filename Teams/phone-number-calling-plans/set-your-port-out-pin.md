@@ -1,5 +1,5 @@
 ---
-title: Set your port out pin
+title: Set your port out PIN
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,14 +18,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to set your port out PIN when you transfer phone numbers from Microsoft Teams to another telephone service provider or carrier.
 ---
 
-# Set your port out pin
+# Set your port out PIN
 
 To transfer or *port out*  phone numbers from Microsoft Teams to another telephone service provider or carrier, you'll need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > A port out PIN is only used for organizations in the United States.
   
-See [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams) for more information about transferring and porting in/out phone numbers.
+See [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md) for more information about transferring and porting in/out phone numbers.
   
 Here's some specific information about this PIN you should know:
   
