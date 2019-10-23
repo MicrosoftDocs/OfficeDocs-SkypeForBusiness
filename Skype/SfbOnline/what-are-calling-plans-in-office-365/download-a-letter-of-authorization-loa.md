@@ -22,6 +22,4 @@ ms.custom:
 - Calling Plans
 description: "The Letter of Authorization (LOA) gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute."
 robots: noindex
-redirect_url: https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
-redirect_document_id: TRUE
 ---
