@@ -27,12 +27,77 @@ For complete step-by-step instructions, see [Transfer phone numbers to Teams](/m
 
 If you need help or if you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
+## Port order overview
+
+If you currently have a phone service provider or carrier and already have phone numbers for your users, you'll need to create what is called a "*port order*" that transfers those phone number to Teams. When the numbers are ported over, you can assign those phone numbers to your users.
+  
+After you port your phone numbers over to Teams, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
+
 ## Authorized person on the account
 
 In the porting wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person will be accountable for the Letter of Authorization (LOA) for a port order.
   
 > [!NOTE]
 > Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.
+
+## Port order account information
+
+On the **Account information** page in the porting wizard to submit a port order, you'll need to enter almost all the same information that you would provide in the LOA, including:
+  
+- Account number for the service provider or carrier
+    
+- Billing Telephone Number (BTN)
+    
+- PIN - if needed by your current service provider or carrier
+    
+- Company name
+    
+    > [!NOTE]
+    > This will only accept 25 characters, including spaces. If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed. 
+  
+- Authorized user's name
+    
+    > [!NOTE]
+    > This will only accept 15 characters, including spaces. If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed. 
+  
+- Service address
+    
+- City, State, and Zip code of the billing address
+    
+    > [!NOTE]
+    > You won't need the authorizing person's signature.
+  
+To make submitting the port order easy and avoid errors, make sure you do the following:
+  
+- Remove any features (such as Hunt Groups) associated with your numbers. Make sure there are no advanced call control features, such as Call Hunt or Distinctive Ring, enabled on these telephone numbers.
+    
+- Ensure that you haven't placed any new service orders or disconnects with your current service provider.
+    
+- Make sure all numbers are from the same carrier and the same account.
+    
+- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and can delay your port order.
+    
+> [!CAUTION]
+> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**
+  
+## What is my billing telephone number?
+
+The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier. If you are transferring a phone number from an account that has only one phone number, you'll need to put this phone number in. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
+
+## What should I put in for the account number?
+
+Typically, you can find the account number on any bill or invoice you have from your service provider or carrier, or you can log on to your carrier's website. If you still don't know the account number, you can contact your service provider or carrier to get it.
+  
+> [!CAUTION]
+>  It's important that you make sure you don't use spaces, dashes, or hyphens when entering your service provider or carrier account number.
+
+## What should I put in for the company name?
+
+This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
+  
+## What should I put in for the service address?
+
+The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, you can contact your service provider or carrier to find out the service address listed on your account.
 
 ## How should I enter the phone numbers?
 
@@ -88,71 +153,6 @@ When you're porting phone numbers, you must enter them in the correct format.
   - All special characters (except for the dash "-") are treated the same as single numbers. For example, **(425)555 0&amp;\*(123-(1425)5557899nm** will be corrected to **+14255550123 -+13202040659**.
     
   - The "-" is used for only separating the two numbers. It isn't supported to include multiple "-" in the number range. For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.
-
-## Port order account information
-
-On the **Account information** page in the porting wizard to submit a port order, you'll need to enter almost all the same information that you would provide in the LOA, including:
-  
-- Account number for the service provider or carrier
-    
-- Billing Telephone Number (BTN)
-    
-- PIN - if needed by your current service provider or carrier
-    
-- Company name
-    
-    > [!NOTE]
-    > This will only accept 25 characters, including spaces. If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed. 
-  
-- Authorized user's name
-    
-    > [!NOTE]
-    > This will only accept 15 characters, including spaces. If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed. 
-  
-- Service address
-    
-- City, State, and Zip code of the billing address
-    
-    > [!NOTE]
-    > You won't need the authorizing person's signature.
-  
-To make submitting the port order easy and avoid errors, make sure you do the following:
-  
-- Remove any features (such as Hunt Groups) associated with your numbers. Make sure there are no advanced call control features, such as Call Hunt or Distinctive Ring, enabled on these telephone numbers.
-    
-- Ensure that you haven't placed any new service orders or disconnects with your current service provider.
-    
-- Make sure all numbers are from the same carrier and the same account.
-    
-- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and can delay your port order.
-    
-> [!CAUTION]
-> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**
-
-## Port order overview
-
-If you currently have a phone service provider or carrier and already have phone numbers for your users, you'll need to create what is called a "*port order*" that transfers those phone number to Teams. When the numbers are ported over, you can assign those phone numbers to your users.
-  
-After you port your phone numbers over to Teams, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
-  
-## What is my billing telephone number?
-
-The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier. If you are transferring a phone number from an account that has only one phone number, you'll need to put this phone number in. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
-
-## What should I put in for the account number?
-
-Typically, you can find the account number on any bill or invoice you have from your service provider or carrier, or you can log on to your carrier's website. If you still don't know the account number, you can contact your service provider or carrier to get it.
-  
-> [!CAUTION]
->  It's important that you make sure you don't use spaces, dashes, or hyphens when entering your service provider or carrier account number.
-
-## What should I put in for the company name?
-
-This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
-  
-## What should I put in for the service address?
-
-The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, you can contact your service provider or carrier to find out the service address listed on your account.
 
 ## What's the status of my port orders?
 
