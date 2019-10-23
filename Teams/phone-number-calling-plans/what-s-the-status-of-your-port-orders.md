@@ -1,5 +1,5 @@
 ---
-title: "What's the status of my port orders?"
+title: "What's the status of your port orders?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
-- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
@@ -22,9 +20,9 @@ ms.custom:
 description: "Learn how to get the status of your port orders, and what the different actions you can take on them. "
 ---
 
-# What's the status of my port orders?
+# What's the status of your port orders?
 
-You can see the status of your port order by going to the **Skype for Business admin center** > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column. If you need help, [contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column.
 
 The following table lists port order statuses, as well as actions you can take if needed.
 
@@ -38,19 +36,18 @@ The following table lists port order statuses, as well as actions you can take i
 |**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
 |**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin has canceled the order.  <br/> |
    
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
- 
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
+For complete step-by-step instructions, see [Transfer phone numbers to Teams](/microsoftteams/transfer-phone-numbers-to-office-365).
 
+If you need help or to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## Related topics
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization)
 
+[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions)
 
+[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

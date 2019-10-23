@@ -14,30 +14,32 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo 
-description: 
+description: Get the guidance you need to port your phone numbers to Microsoft Teams.
 ---
 
 # More information about porting
 
+Here you'll find more information about porting your phone numbers to Microsoft Teams.
+
+For complete step-by-step instructions, see [Transfer phone numbers to Teams](/microsoftteams/transfer-phone-numbers-to-office-365).
+
+If you need help or if you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+
 ## Authorized person on the account
 
-In the **New Local Number Port Order** wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person will be accountable for the Letter of Authorization (LOA) for a port order.
+In the porting wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person will be accountable for the Letter of Authorization (LOA) for a port order.
   
 > [!NOTE]
-> Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order. 
-  
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
-
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.
 
 ## How should I enter the phone numbers?
 
-When you are porting phone numbers, you must enter them in the correct format. 
+When you're porting phone numbers, you must enter them in the correct format.
   
 > [!NOTE]
-> Each phone number or range of phone number must be entered separately on each line. 
+> Each phone number or range of phone number must be entered separately on each line.
   
 - When you are entering single phone numbers:
     
@@ -86,15 +88,10 @@ When you are porting phone numbers, you must enter them in the correct format.
   - All special characters (except for the dash "-") are treated the same as single numbers. For example, **(425)555 0&amp;\*(123-(1425)5557899nm** will be corrected to **+14255550123 -+13202040659**.
     
   - The "-" is used for only separating the two numbers. It isn't supported to include multiple "-" in the number range. For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.
-    
-  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
-
-  > [!NOTE]
-  > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## Port order account information
 
-When you are using the **Account information** page in the **New Local Number Port Order** wizard to submit a port order, you will need almost all of the same information that you would provide in the LOA, including:
+On the **Account information** page in the porting wizard to submit a port order, you'll need to enter almost all the same information that you would provide in the LOA, including:
   
 - Account number for the service provider or carrier
     
@@ -117,7 +114,7 @@ When you are using the **Account information** page in the **New Local Number Po
 - City, State, and Zip code of the billing address
     
     > [!NOTE]
-    > You won't need the authorizing person's signature. 
+    > You won't need the authorizing person's signature.
   
 To make submitting the port order easy and avoid errors, make sure you do the following:
   
@@ -130,29 +127,17 @@ To make submitting the port order easy and avoid errors, make sure you do the fo
 - Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and can delay your port order.
     
 > [!CAUTION]
-> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Skype for Business Online.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**
-  
- For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**
 
 ## Port order overview
 
-If you currently have a phone service provider or carrier and already have phone numbers for your users, you will need to create what is called a "*port order*" that transfers those phone number to Skype for Business Online. Once the numbers are ported over, you can assign those phone numbers to your users.
+If you currently have a phone service provider or carrier and already have phone numbers for your users, you'll need to create what is called a "*port order*" that transfers those phone number to Teams. When the numbers are ported over, you can assign those phone numbers to your users.
   
-After you port your phone numbers over to Skype for Business Online in Office 365, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
+After you port your phone numbers over to Teams, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
   
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
-
- > [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-
 ## What is my billing telephone number?
 
-The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier. If you are transferring a phone number from an account that has only one phone number, you will need to put this phone number in. If you are transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
-  
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
-
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier. If you are transferring a phone number from an account that has only one phone number, you'll need to put this phone number in. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
 
 ## What should I put in for the account number?
 
@@ -160,33 +145,18 @@ Typically, you can find the account number on any bill or invoice you have from 
   
 > [!CAUTION]
 >  It's important that you make sure you don't use spaces, dashes, or hyphens when entering your service provider or carrier account number.
-  
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
-
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## What should I put in for the company name?
 
 This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
   
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
- 
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-  
 ## What should I put in for the service address?
 
 The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, you can contact your service provider or carrier to find out the service address listed on your account.
-  
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
-
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## What's the status of my port orders?
 
-You can see the status of your port order by going to the **Skype for Business admin center** > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column. If you need help, [contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
 
 The following table lists port order statuses, as well as actions you can take if needed.
 
@@ -199,20 +169,15 @@ The following table lists port order statuses, as well as actions you can take i
 |**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there is an error. The port order needs to be re-created, or you need to [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |The losing carrier has rejected the order.  <br/> |
 |**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
 |**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin has canceled the order.  <br/> |
-   
- **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
- 
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
 
 ## Related topics
 
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+[Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md)
 
-[Different kinds of phone numbers used for Calling Plans](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

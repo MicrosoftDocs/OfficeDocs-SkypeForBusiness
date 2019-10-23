@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-  - ms.lync.lac.PortingNumbersOverview
+  - ms.teamsadmincenter.voice.phonenumbers.porting.overview​
 ms.custom: 
   - Calling Plans
   - LIL_Placement
@@ -107,6 +107,3 @@ Your port order request will be checked and updated daily and you will be notifi
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 

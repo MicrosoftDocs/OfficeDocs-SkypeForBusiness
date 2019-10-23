@@ -13,24 +13,23 @@ ms.collection:
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom: 
   - Calling Plans
-description: "The following are frequently asked questions about transferring phone numbers to Teams. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See Transfer phone numbers to Office 365 for instructions."
+description: The following are frequently asked questions about transferring phone numbers to Teams. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. 
 ---
 
 # Transferring phone numbers common questions
 
-The following are frequently asked questions about transferring phone numbers to Microsoft Teams. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for instructions.
+The following are frequently asked questions about transferring phone numbers to Microsoft Teams. After you review the answers, you should be ready to create a port order and transfer your phone numbers. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) for instructions.
   
 ## What countries or regions support number porting?
 
 You can port or transfer phone numbers in all of the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries and regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
 
-When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Microsoft Teams admin center, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
 ## What numbers can be transferred?
 
@@ -124,7 +123,7 @@ Here's more information about submitting number porting requests for each of the
 
 After you've completed the port order request, it will take between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you will get an email from us telling you that you are good to go.
   
-You can check the status of your port order by going to the Skype for Business admin center > **Voice** > **Port orders**. The status will be listed in the window under the **Status** column.
+To check the status of your port, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
   
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
@@ -159,11 +158,9 @@ Here are the most common mistakes we see customers make when they port numbers. 
 ## Can you transfer or port out numbers?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring numbers to a new service provider](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your port out pin](phone-number-calling-plans/set-your-port-out-pin.md).
 
-> [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-
+If you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## Related topics
 
@@ -173,4 +170,3 @@ To transfer or  *port out*  phone numbers from Teams to another telephone servic
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
- 
