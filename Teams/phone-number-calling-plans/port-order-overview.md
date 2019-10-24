@@ -43,7 +43,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 - Mobile device phone numbers such as those used for cell phone and tablets, etc.
 
     > [!NOTE]
-    > Transferring mobile numbers is only available in the U.S. and Puerto Rico. 
+    > Transferring mobile numbers is only available in the United States and Puerto Rico.
   
 - Toll phone numbers.
 
@@ -69,12 +69,12 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - Phone numbers dedicated to faxing.
 
-    If you have existing dedicated phone numbers that are being used for faxing, you  *can*  transfer these numbers over to Teams but your fax services won't continue to work as expected. Faxing services aren't available to Teams customers, even if you have licenses for **Phone System**, **Domestic Calling Plan** or **International Calling Plan**.
+    If you have existing dedicated phone numbers that are being used for faxing, you  *can*  transfer these numbers over to Teams but your fax services won't continue to work as expected. Faxing services aren't available to Teams customers, even if you have licenses for Phone System, Domestic Calling Plan, or International Calling Plan.
 
     If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
 
     > [!NOTE]
-    > At this time in the United Kingdom (U.K.), we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872. 
+    > At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872. 
   
 ## What information do I need to provide?
 
@@ -122,7 +122,7 @@ Here's more information about how to submit number porting requests for each of 
 ## How long does it take to port numbers?
 <a name="bkmk_type_1"> </a>
 
-After you've completed the port order request, it takes between 7-14 days to be processes. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you that you're good to go.
+After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you that you're good to go.
   
 To check the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
   
@@ -161,7 +161,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 
 - Make sure all numbers are from the same carrier and the same account.
 
-- Make sure your service is active. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks depending on the carrier.
+- Make sure your service is active. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take one to three weeks depending on the carrier.
 
 ## Related topics
 
