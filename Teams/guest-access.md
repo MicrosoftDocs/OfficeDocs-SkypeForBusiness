@@ -34,15 +34,16 @@ Guest access allows teams in your organization to collaborate with people outsid
 
 Guest access is an org-wide setting in Teams and is turned off by default. Guest access is subject to Azure AD and Office 365 service limits.
 
+
+> [!IMPORTANT]
+> Guest users follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
+
+## Licensing for guest access
 Guest access is included with many Office 365 subscriptions with no additional licensing requirement. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]
 > Users in your organization who have standalone Office 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Office 365 Business Premium, Office 365 Enterprise, or Office 365 Education subscription. 
-
-
-> [!IMPORTANT]
-> Guest users follow Teams Org-wide settings for coexistence mode. This can't be changed.
 
 ## Who is a guest?
 
