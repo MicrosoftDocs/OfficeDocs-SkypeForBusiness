@@ -57,7 +57,7 @@ Before you start, we recommend that you review the information in [What's a port
 
 6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload your signed Letter of Authorization (LOA). 
 
-    If you haven't already downloaded the LOA, click **Download the template** to download it. Complete and sign the form, and then upload it.
+    If you haven't already downloaded and signed the LOA, click **Download the template** to download it. Complete and sign the form, and then upload it.
 
     Review your order details, and then click **Submit**.
 
