@@ -49,7 +49,10 @@
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
 
-### [External access (federation)](manage-external-access.md)
+## External access (federation)
+### [Manage external access](manage-external-access.md)
+### [Native Teams chat for federated users](native-federation.md)
+
 
 ### Guest access
 #### [About guest access](guest-access.md)
