@@ -42,7 +42,7 @@ When you're on the **Add account information** page of the porting wizard to sub
     > [!NOTE]
     > This will only accept 25 characters, including spaces. If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed. 
   
-- Authorized user's name
+- Name of person authorized to make changes to the account
     
     > [!NOTE]
     > This will only accept 15 characters, including spaces. If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed. 
