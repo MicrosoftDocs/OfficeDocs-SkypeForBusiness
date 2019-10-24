@@ -26,13 +26,13 @@ The following table lists port order statuses, as well as actions you can take i
 
 |**Status**|**Can you view the order?**|**Can you edit the order?**|**Can you cancel the order?**|**Can you delete the order?**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Processing** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The admin has created the order, and it's been received by Microsoft.  <br/> |
-|**Contacting carrier** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been received and approved by Microsoft, and we are working with the losing carrier to get it approved.  <br/> |
-|**Transfer approved** <br/> |Yes  <br/> |Firm Order Commitment(FOC)  <br/> |Yes  <br/> |No  <br/> |The order has been accepted by the losing carrier, and the FOC date has been set.  <br/> |
+|**Processing** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The admin created the order, and it's been received by Microsoft.  <br/> |
+|**Contacting carrier** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been received and approved by Microsoft, and we're working with the losing carrier to get it approved.  <br/> |
+|**Transfer approved** <br/> |Yes  <br/> |Firm Order Commitment (FOC)  <br/> |Yes  <br/> |No  <br/> |The order has been accepted by the losing carrier, and the FOC date has been set.  <br/> |
 |**Transfer pending** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The transfer is less than 24 hours away, so the order can no longer be edited or cancelled.  <br/> |
-|**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there is an error. The port order needs to be re-created, or you need to [Contact support for business products - Admin Help](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |The losing carrier has rejected the order.  <br/> |
+|**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there's an error. The port order needs to be re-created, or you need to contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |The losing carrier rejected the order.  <br/> |
 |**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
-|**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin has canceled the order.  <br/> |
+|**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin canceled the order.  <br/> |
 
 For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
