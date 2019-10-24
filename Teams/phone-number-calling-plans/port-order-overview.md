@@ -20,26 +20,19 @@ description: Get an overview of what port orders are and how to transfer phone n
 
 # What's a port order?
 
-If you currently have a phone service provider or carrier and already have phone numbers for your users, you will need to create what is called a "*port order*" that transfers those phone number to Skype for Business Online. Once the numbers are ported over, you can assign those phone numbers to your users.
+If you currently have a phone service provider or carrier and already have phone numbers for your users, you need to create what is called a "*port order*" that transfers those phone number to Microsoft Teams. When the numbers are ported over, you can assign those phone numbers to your users.
   
-After you port your phone numbers over to Skype for Business Online in Office 365, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
+After you port your phone numbers over to Teams, Microsoft becomes your service provider and you can disconnect your service with your old service provider or carrier.
 
-+++
-# Transferring phone numbers common questions
+## What you need to know about number porting
 
-If you currently have a phone service provider or carrier and already have phone numbers for your users, you'll need to create what is called a "*port order*" that transfers those phone number to Teams. When the numbers are ported over, you can assign those phone numbers to your users.
-  
-After you port your phone numbers over to Teams, Microsoft will become your service provider and you can disconnect your service with you old service provider or carrier.
-
-+++
-
-The following are frequently asked questions about transferring phone numbers to Microsoft Teams. After you review the answers, you should be ready to create a port order and transfer your phone numbers. See [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md) for instructions.
+Review the information here to get familiar with number porting. After that, you should be ready to create a port order and transfer your phone numbers. See [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md) for step-by-step instructions.
   
 ## What countries or regions support number porting?
 
-You can port or transfer phone numbers in all of the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries and regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
 
-When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Microsoft Teams admin center, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+When you're doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Microsoft Teams admin center, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
 ## What numbers can be transferred?
 
@@ -63,7 +56,7 @@ In general, you can transfer any phone number that is from a supported provider,
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
-- Fax phone numbers, but they can't be used for faxing. They will have to be assigned to a user.
+- Fax phone numbers, but they can't be used for faxing. They have to be assigned to a user.
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
@@ -85,13 +78,13 @@ In general, you can transfer any phone number that is from a supported provider,
     > [!NOTE]
     > At this time in the United Kingdom (U.K.), we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872. 
   
-## What information will I need to provide?
+## What information do I need to provide?
 
-You'll need to have all of the account information for your current carrier. The information you will need to put in the port order is mostly found on the most recent bill or invoice from your current service provider. You'll also need to know whose name is on the account and of course what numbers you want to port.
+You need to have all of the account information for your current carrier. The information you need to put in the port order is mostly found on the most recent bill or invoice from your current service provider. You also need to know whose name is on the account and of course what numbers you want to port.
   
 ## What are full-port and partial-port transfers?
 
-When you are porting phone numbers to Office 365, you have the option to transfer all of your numbers, or some of them.
+When you are porting phone numbers to Teams, you have the option to transfer all of your numbers, or some of them.
   
 - **Full-port** This is when you transfer all of your numbers from your current service provider to Teams. When you are asked for the phone numbers you want to transfer, you *must include* the billing telephone number along with all of the other phone numbers on your account.
 
@@ -108,7 +101,7 @@ A unique request is needed for each carrier and type of number being ported.
   
 For example, you need to submit a unique number porting request for each of the following types of numbers:
   
-- Local Toll numbers, also known as subscriber numbers or geographic numbers
+- Local toll numbers, also known as subscriber numbers or geographic numbers
 
 - Toll Free numbers with area codes such as: 800, 844, 855, 866, 877 and 888
 
@@ -120,7 +113,7 @@ Here's more information about submitting number porting requests for each of the
   
 - **Telephone numbers** provided by different carriers require a unique porting request for numbers with each carrier.
 
-- **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must [Manually submit a custom service request](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request); they cannot be submitted in the Skype for Business admin center. See [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Toll free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these toll free numbers, you must [Manually submit a custom service request](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request); they cannot be submitted in the Skype for Business admin center. See [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOA that you need [download the Letter of Authorization (LOA) that you need here](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -131,19 +124,19 @@ Here's more information about submitting number porting requests for each of the
 ## How long does it take to port numbers?
 <a name="bkmk_type_1"> </a>
 
-After you've completed the port order request, it will take between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you will get an email from us telling you that you are good to go.
+After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you that you're good to go.
   
 To check the status of your port, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
   
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this go see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>
 
-Number porting is easy to do. Your order can get messed up, however, when there is a problem with the phone service provider, the order is incomplete and missing information, or there are typos.
+Number porting is easy to do. Your order can get messed up, however, if there's a problem with the phone service provider, the order is incomplete and missing information, or there are typos.
   
 Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
   
@@ -168,13 +161,10 @@ Here are the most common mistakes we see customers make when they port numbers. 
 ## Can you transfer or port out numbers?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
-  
- For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
+To transfer or  *port out*  phone numbers from Teams to another telephone service provider or carrier, you need to set a PIN. After you set the PIN, include it when you request to port a phone number out.
 
 If you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-[What's the status of your port orders?](port-order-status.md)
   
 ## Related topics
 
@@ -182,6 +172,8 @@ If you need to get more telephone numbers than this, contact the [PSTN service d
 
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-- [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions)
+- [What's the status of your port orders?](port-order-status.md)
+
+- [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
 
 - [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
