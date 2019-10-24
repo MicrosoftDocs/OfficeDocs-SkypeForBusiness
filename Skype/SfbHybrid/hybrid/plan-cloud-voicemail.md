@@ -81,7 +81,7 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 - Exchange Server 2019 no longer provides Exchange UM functionality
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
-Version interoperability and supported topologies for Cloud Voicemail are listed in the following table, which compares the Skype for Business Server versions the user might be homed on with the possible version providing their Exchange Mailbox. Cloud Voicemail only works with Skype for Business Server and Exchange Server 2019 or Exchange Online.
+Version interoperability and supported topologies for Cloud Voicemail are listed in the following table, which compares the Skype for Business Server versions the user might be homed on with the possible version providing their Exchange Mailbox. Cloud Voicemail only works with Skype for Business Server 2019/2015/2013 and Exchange Server 2019 or Exchange Online.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
