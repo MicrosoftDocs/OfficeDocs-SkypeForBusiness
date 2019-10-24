@@ -52,7 +52,7 @@
 
 ### External access (federation)
 #### [Manage external access](manage-external-access.md)
-#### [Native Teams chat for federated users](native-federation.md)
+#### [Native Teams chat for external users](native-chat-for-external-users.md)
 
 
 ### Guest access
