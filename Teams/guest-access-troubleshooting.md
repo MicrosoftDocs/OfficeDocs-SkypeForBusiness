@@ -19,32 +19,23 @@ localization_priority: Normal
 Troubleshoot problems with guest access in Microsoft Teams
 ======================================================
 
-I'm compiling stuff here - to sort out later.
-
 > [!IMPORTANT]
 > You may have to wait for up to 24 hours for your changes to take effect. 
 
 
-To check for current support issues with guest access in Teams, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
+- To check for current support issues with guest access in Teams, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
+- To see whether we know about your problem, check out [Known issues for Microsoft Teams](Known-issues.md).
+- Guests are users outside your organization. If someone is inside your organization (including your employees, onsite contractors, or onsite agents), they can't be added as guests. The same applies to your affiliates.
+- Find out about upcoming new or updated guest access features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
+- Tell us what you want in [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
-Where does this belong? (Per Corbin, this is out of date. He'll figure out where we should link instead and let me know.)
-https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/m-p/119797?attachment-id=3063
-
-Removed from guest-access:
-
-- If you’re having trouble with guest access, check out [Known issues for Microsoft Teams](Known-issues.md).
-- Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
-- Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
-- Share your experience in the Comments section below.
-
-Removed from GA checklist:
 ## If your guests are seeing license errors
 
-Guest access in Microsoft Teams uses Azure Active Directory (Azure AD) Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the [B2B licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
+Guest access in Teams uses Azure Active Directory (Azure AD) Business to Business (B2B) and its licensing model. Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary.
 
-A few things to remember:
+If you’re seeing licensing errors, make sure to read the [Azure Active Directory B2B licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) to determine licensing requirements to meet your needs for guest access in your organization.
 
-- Guests are users outside your organization. Your employees, onsite contractors, onsite agents, and so on can't be added as guests. The same applies to your affiliates.
+
 - Guest licenses are counted against the inviting organization. Consider this when you calculate the number of licenses you need.
 - Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.
 
