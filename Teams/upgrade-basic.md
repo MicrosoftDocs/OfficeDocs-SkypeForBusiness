@@ -76,7 +76,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 **Resources:**
 
 - [Overview of Teams](Teams-overview.md)
-- Get started with Microsoft Teams (get-started-with-teams-quick-start.md)
+- [Get started with Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [Return to top](#about-upgrade-basic)
 
