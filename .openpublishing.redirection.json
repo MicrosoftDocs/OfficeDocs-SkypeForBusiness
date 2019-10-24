@@ -1465,6 +1465,31 @@
       "source_path": "Teams/cloud-voice-deployment.md",
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page",
       "redirect_document_id": false
-    }
+    },
+        {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization", 
+      "redirect_document_id": false
+      },
+        {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/compare-audio-conferencing-providers.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
+      "redirect_document_id": false
+      },
+   {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
+      "redirect_document_id": false
+      }
   ] 
 }
