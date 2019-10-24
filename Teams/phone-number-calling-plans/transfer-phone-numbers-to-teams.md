@@ -39,16 +39,16 @@ Before you start, we recommend that you review the information in [What's a port
 4. On the **Add account information** page, complete the following, and then click **Next**.
 
     - **Order details**: 
-            - **Order name**: Name of your order
-            - **Notification emails**: Email addresses to receive order notifications. If you enter multiple email addresses, separate each with a semicolon.
-            - **Transferred date**: Transfer date issued by your current service provider.
+        - **Order name**: Name of your order
+        - **Notification emails**: Email addresses to receive order notifications. If you enter multiple email addresses, separate each with a semicolon.
+        - **Transferred date**: Transfer date issued by your current service provider.
     - **Phone number details**
-            - **Port type**: Whether you're doing a full-port to transfer all your numbers or a partial-port to transfer some of your numbers.
+        - **Port type**: Whether you're doing a full-port to transfer all your numbers or a partial-port to transfer some of your numbers.
     - **Person requesting details**  
-            - Your organization name and contact details of the person requesting the transfer.
+        - Your organization name and contact details of the person requesting the transfer.
     - **Current provider's details**
-            - **Billing telephone number (BTN)**: Your BTN in E.164 format, which requires a + sign to prepend the number. For example, for a North America number, use +1XXXYYYZZZZ format.
-            - Other details including the name of your current service provider, your account number, and your service address.
+        - **Billing telephone number (BTN)**: Your BTN in E.164 format, which requires a + sign to prepend the number. For example, for a North America number, use +1XXXYYYZZZZ format.
+        - Other details including the name of your current service provider, your account number, and your service address.
             
 5. On the **Add numbers** page, click **Select a file**, browse to and select the CSV file that contains the phone numbers that you want to transfer, and then click **Next**.  
 
