@@ -412,7 +412,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested seque
 
 1. If you will be setting the tenant-wide policy to one of the Skype for Business modes, be sure to grandfather existing Islands users by explicitly assigning them Islands mode, as previously described. 
 
-2. If you haven’t already done so, [configure the organization for Skype for Business hybrid](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity). 
+2. If you haven’t already done so, [configure the organization for Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity). 
 
 3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, etc). This can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly. 
 
