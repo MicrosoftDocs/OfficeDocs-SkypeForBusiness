@@ -66,3 +66,9 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## Related topics
 
+- [What's a port order?](port-order-overview.md)
+- [What's the status of your port orders?](port-order-status.md)
+- [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
+- [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

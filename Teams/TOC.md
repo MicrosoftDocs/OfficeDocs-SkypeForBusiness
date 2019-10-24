@@ -363,6 +363,7 @@
 ### Transferring phone numbers
 #### [What's a port order?](phone-number-calling-plans/port-order-overview.md)
 #### [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [Manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md)
 #### [What's the status of your port orders?](phone-number-calling-plans/port-order-status.md)
 
 ## Call routing

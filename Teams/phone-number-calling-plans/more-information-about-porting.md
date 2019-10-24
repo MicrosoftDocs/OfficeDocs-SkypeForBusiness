@@ -25,18 +25,18 @@ Here you'll find more information about porting your phone numbers to Microsoft 
 
 For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-If you need help or if you need to get more telephone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need help or if you need to get more phone numbers, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## Authorized person on the account
 
-In the porting wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person will be accountable for the Letter of Authorization (LOA) for a port order.
+In the porting wizard, you must enter the name of the person who is  authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person is accountable for the Letter of Authorization (LOA) for a port order.
   
 > [!NOTE]
-> Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.
+> The box is limited to 15 characters (including spaces). Not having the complete name in the box won't delay or cancel the port order.
 
 ## Port order account information
 
-On the **Account information** page in the porting wizard to submit a port order, you'll need to enter almost all the same information that you would provide in the LOA, including:
+When you're on the **Account information** page of the porting wizard to submit a port order, you'll  enter almost all the same information that you would provide in the LOA, including:
   
 - Account number for the service provider or carrier
     
@@ -56,14 +56,14 @@ On the **Account information** page in the porting wizard to submit a port order
   
 - Service address
     
-- City, State, and Zip code of the billing address
+- City, state, and zip code of the billing address
     
     > [!NOTE]
     > You won't need the authorizing person's signature.
   
 To make submitting the port order easy and avoid errors, make sure you do the following:
   
-- Remove any features (such as Hunt Groups) associated with your numbers. Make sure there are no advanced call control features, such as Call Hunt or Distinctive Ring, enabled on these telephone numbers.
+- Remove any features (such as Hunt Groups) associated with your numbers. Make sure there are no advanced call control features, such as Call Hunt or Distinctive Ring, enabled on these phone numbers.
     
 - Ensure that you haven't placed any new service orders or disconnects with your current service provider.
     
@@ -72,11 +72,11 @@ To make submitting the port order easy and avoid errors, make sure you do the fo
 - Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and can delay your port order.
     
 > [!CAUTION]
-> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take 1-3 weeks, depending on the carrier.**
+> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take one to three weeks, depending on the carrier.**
   
 ## What is my billing telephone number?
 
-The billing telephone number (BTN) is the main phone number that is included on your bill and billed by your service provider or carrier. If you are transferring a phone number from an account that has only one phone number, you'll need to put this phone number in. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
+The billing telephone number (BTN) is the main phone number that's included on your bill and billed by your service provider or carrier. If you're transferring a phone number from an account that has only one phone number, you need to enter this phone number. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
 
 ## What should I put in for the account number?
 
@@ -87,7 +87,7 @@ Typically, you can find the account number on any bill or invoice you have from 
 
 ## What should I put in for the company name?
 
-This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request; it is used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
+This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request. It's used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
   
 ## What should I put in for the service address?
 
@@ -100,7 +100,7 @@ When you're porting phone numbers, you must enter them in the correct format.
 > [!NOTE]
 > Each phone number or range of phone number must be entered separately on each line.
   
-- When you are entering single phone numbers:
+- When you enter single phone numbers:
     
   - All special characters will be ignored (including dash "-"). For example:
     
@@ -140,7 +140,7 @@ When you're porting phone numbers, you must enter them in the correct format.
     
   - For a 7-digit number with special characters that is entered: **12345!@#$%^&amp;\*()--@#$%^&amp;\*()7** will be highlighted to be corrected. The special characters won't be ignored.
     
-- When you are entering a range of phone numbers.
+- When you enter a range of phone numbers.
     
   - Only two phone numbers are allowed. The smaller number must be the first number in the range.
     
@@ -148,14 +148,14 @@ When you're porting phone numbers, you must enter them in the correct format.
     
   - The "-" is used for only separating the two numbers. It isn't supported to include multiple "-" in the number range. For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.
 
+  ## How do I see the status of my port order?
+
+  See [What's the status of your port orders?](port-order-status.md)
+
 ## Related topics
 
-[What is a port order?](port-order-overview.md)
-
-[Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-
-[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
-
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [What's a port order?](port-order-overview.md)
+- [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
+- [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
