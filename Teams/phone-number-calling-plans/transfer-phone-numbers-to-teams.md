@@ -28,46 +28,48 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## Create a port order and transfer your phone numbers to Teams
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Click **Numbers**, and then click **Port numbers** to open the porting wizard.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Click **Numbers**, and then click **Port** to start the porting wizard.
 2. Review the information on the **Get started** page, and then when you're ready, click **Next**.
 3. On the **Select location and number type** page, specify the following, and then click **Next**:
 
     - **Country or region**: Country or region where you're getting numbers.
     - **Phone number type**: Type of number, such as geographic or toll-free numbers.
+    - **Numbers assigned to**: What the numbers are assigned to. For example, users, or conferencing or voice features.
 
-4. On the **Account information** page, enter the following, and then click **Next**:
-    
-    - **Initial data**: 
+4. On the **Add account information** page, complete the following, and then click **Next**.
+
+    - **Order details**: 
             - **Order name**: Name of your order
-            - **Requested Firm Order Commitment (FOC) date**: FOC date issued by your current service provider
-            - **Notification email**: Email address to receive order notifications
-    - **Plan selection**
-            - **Port plan Id**:
-    - **Port details**  
-            - **Port type**
-            - **Organization's name**
-            - **First name**
-            - **Last name**
-            - **Title**
-            - **Authorizing person phone number**
-            - **Authorizing person's email address**
-    - **Current provider's information**
-            - **Current provider's name**:
-            - **Account number**:
-            - **Account PIN**:
-            - **Current provider's service: state**:
-            - **Current provider's address: city**:
-            - **Service address: street name**:
-            - **Current provider's address: building number**:
-            - **Current provider's address: postal code**:
-            - **Current provider's address: address line 2**:
-            - **Billing telephone number (BTN):**
+            - **Notification emails**: Email addresses to receive order notifications. If you enter multiple email addresses, separate each with a semicolon.
+            - **Transferred date**: Transfer date issued by your current service provider.
+    - **Phone number details**
+            - **Port type**: Whether you're doing a full-port to transfer all your numbers or a partial-port to transfer some of your numbers.
+    - **Person requesting details**  
+            - Your organization name and contact details of the person requesting the transfer.
+    - **Current provider's details**
+            - **Billing telephone number (BTN)**: Your BTN in E.164 format, which requires a + sign to prepend the number. For example, for a North America number, use +1XXXYYYZZZZ format.
+            - Other details including the name of your current service provider, your account number, and your service address.
+            
+5. On the **Add numbers** page, click **Select a file**, browse to and select the CSV file that contains the phone numbers that you want to transfer, and then click **Next**.  
 
+    > [!NOTE]
+    > The CSV file must have only one column with a header named PhoneNumber. Each phone number must be on a separate row and can be digits only or in E.164 format.
+
+6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload your signed Letter of Authorization (LOA). 
+
+    If you haven't already downloaded the LOA, click **Download the template** to download it. Complete and sign the form, and then upload it.
+
+    Review your order details, and then click **Submit**.
+
+## What happens next?
+
+When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your request is rejected, you'll be asked to open a support ticket and in that support ticket we ask that you provide the port order ID. To find your port order ID, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. The port order ID is listed in TBD.
+
+To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md).
 
 ## Related topics
 
 - [What's a port order?](port-order-overview.md)
-- [What's the status of your port orders?](port-order-status.md)
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)

@@ -27,16 +27,9 @@ For complete step-by-step instructions, see [Transfer phone numbers to Teams](tr
 
 If you need help or if you need to get more phone numbers, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-## Authorized person on the account
-
-In the porting wizard, you must enter the name of the person who is  authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person is accountable for the Letter of Authorization (LOA) for a port order.
-  
-> [!NOTE]
-> The box is limited to 15 characters (including spaces). Not having the complete name in the box won't delay or cancel the port order.
-
 ## Port order account information
 
-When you're on the **Account information** page of the porting wizard to submit a port order, you'll  enter almost all the same information that you would provide in the LOA, including:
+When you're on the **Add account information** page of the porting wizard to submit a port order, you'll  enter almost all the same information that you would provide in the LOA, including:
   
 - Account number for the service provider or carrier
     
@@ -73,6 +66,13 @@ To make submitting the port order easy and avoid errors, make sure you do the fo
     
 > [!CAUTION]
 > **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take one to three weeks, depending on the carrier.**
+
+## Authorized person on the account
+
+In the porting wizard, you must enter the name of the person who is  authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person is accountable for the Letter of Authorization (LOA) for a port order.
+  
+> [!NOTE]
+> The box is limited to 15 characters (including spaces). Not having the complete name in the box won't delay or cancel the port order.
   
 ## What is my billing telephone number?
 

@@ -111,13 +111,13 @@ Here's more information about how to submit number porting requests for each of 
   
 - **Phone numbers** provided by different carriers require a unique porting request for numbers with each carrier.
 
-- **Toll-free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these toll-free numbers, you must [Manually submit a custom service request](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request). You can't port these numbers in the Microsoft Teams admin center. For more information, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Toll-free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 can't be included in a number porting request with other types of numbers. To port these toll-free numbers, you must [manually submit a port order](manually-submit-port-order.md). You can't port these numbers in the Microsoft Teams admin center. For more information, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     It's important to use the correct Letter of Authorization (LOA) for the country and type of phone numbers that you want to port. You can [download the LOA that you need here](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 - **Mobile numbers** require a PIN code to authorize the transfer. Therefore, they need separate number porting request.
 
-- **Service number** porting requests need to be submitted by themselves. They cannot be submitted with other types of numbers.
+- **Service number** porting requests need to be submitted by themselves. They can't be submitted with other types of numbers.
 
 ## How long does it take to port numbers?
 <a name="bkmk_type_1"> </a>
