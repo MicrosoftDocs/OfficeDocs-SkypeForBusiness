@@ -136,3 +136,7 @@ Have the admin in that organization do these steps:
 ## How does external access compare with guest access?
 
 To learn about the difference between external access and guest access, read [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md).
+
+## Related topics
+
+[Native chat experience for external (federated) users](native-chat-for-external-users.md)
