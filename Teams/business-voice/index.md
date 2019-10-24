@@ -140,7 +140,6 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Need help?</h3>
-                                                    <P>Find a partner</a></p>
                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Contact support for Office 365</a></p>
                                                     <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Small and medium business tech community</a></p>
                                                 </div>
