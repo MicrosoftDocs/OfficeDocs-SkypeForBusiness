@@ -8,6 +8,7 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "feedback_system": "None",
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
