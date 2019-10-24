@@ -28,7 +28,7 @@ To see a list of capabilities for external access users in Teams, see [Compare e
 
 If you can only exchange text in your chat with an external user, then you're in a standard external-access (federated) chat. If you've got all of the other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat with your external user. 
 
-When you chat with an external user for the first time, you'll be in a limited, text-only chat. Teams periodically checks the upgrade mode for external users and, when it finds an external user running Teams in the TeamsOnly upgrade mode, it'll ask if you want to switch to a native Teams chat.
+Teams periodically checks the upgrade mode for external users and, when it finds an external user running Teams in the TeamsOnly upgrade mode, it'll prompt you to switch to a native Teams chat and lock the original chat.
 
 When you switch to a native Teams chat, Teams doesn't merge the two conversations. Instead, you'll see both of the chats in your chat feed. The new, native-Teams chat is active, but the old, text-only chat is locked.
 
