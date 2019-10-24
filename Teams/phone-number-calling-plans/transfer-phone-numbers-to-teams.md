@@ -63,7 +63,7 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## What happens next?
 
-When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your request is rejected, you'll be asked to open a support ticket and in that support ticket we ask that you provide the port order ID. To find your port order ID, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. The port order ID is listed in TBD.
+When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your request is rejected, you'll be asked to open a support ticket.
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md).
 

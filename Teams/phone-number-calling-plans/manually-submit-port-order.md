@@ -21,11 +21,9 @@ description: Learn how to manually submit a port order request.
 
 # Manually submit a port order
 
-If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or if you have more than 999 user (subscriber) phone numbers that you want to transfer to Microsoft Teams, you need to [manage phone numbers for your organization](../manage-phone-numbers-for-your-organization).
+In some countries and regions, you may have to manually submit a service request to get phone numbers, transfer phone numbers, release phone numbers, or change addresses. To see what's required for each country and region or to learn more about number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization).
 
-In some countries and regions, you also have to manually submit a service request if you want to get phone numbers, release the numbers, or change addresses. To see what's required for each country and region or to learn more about number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization). 
-
-Use the steps in this article to manually create and submit a port order in scenarios where you can't do so by using the [porting wizard in the Microsoft Teams admin center](transfer-phone-numbers-to-teams.md). 
+Use the steps in this article to manually create and submit a port order if your country or region isn't listed in the [porting wizard in the Microsoft Teams admin center](transfer-phone-numbers-to-teams.md).
 
 ## Manually submit a port order request
 
@@ -43,7 +41,7 @@ You can manually submit a port order by creating a service request in the Micros
 
 ### Send your Letter of Authorization directly to the PSTN service desk
 
-Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers), complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
+Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) for your country or region, complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
 
 - In the U.S., [send your request](mailto:ptn@microsoft.com).
 - In Europe, [send your request](mailto:ptneu@microsoft.com).

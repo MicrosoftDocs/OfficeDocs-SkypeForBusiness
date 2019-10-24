@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: tonysmit
-author: tonysmit
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -28,9 +28,7 @@ Review the information in this article to get familiar with number porting. Afte
   
 ## What countries or regions support number porting?
 
-You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
-
-When you're doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Microsoft Teams admin center, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
 ## What numbers can be transferred?
 
@@ -129,14 +127,7 @@ To check the status of your port order, in the left navigation of the Microsoft 
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
-
-## Can I transfer or port out numbers?
-<a name="bkmk_type_1"> </a>
-
-To transfer or  *port out*  phone numbers from Teams to another phone service provider or carrier, you need to set a PIN. After you set the PIN, include it when you request to port a phone number out.
-
-If you need to get more phone numbers than this, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>
@@ -147,7 +138,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
   
 - Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
 
-  - Authorized name is correct.
+  - Name or person authorized to make changes to the account is correct.
 
   - Address is correct.
 
@@ -161,7 +152,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 
 - Make sure all numbers are from the same carrier and the same account.
 
-- Make sure your service is active. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take one to three weeks depending on the carrier.
+- Make sure your service is active. Freezing the account prevents the change of carriers on the account. The person authorized to make changes to the account must submit an order to the current carrier to remove the freeze. This process can take one to three weeks depending on the carrier.
 
 ## Related topics
 
