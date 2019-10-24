@@ -41,6 +41,7 @@
 ### [Add bots for personal chats, group chats, and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
+### [Manage your line-of-business apps](manage-your-lob-apps.md)
 ### [Publish apps in the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
