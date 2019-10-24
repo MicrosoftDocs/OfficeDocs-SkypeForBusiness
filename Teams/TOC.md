@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [Cloud Video Interop](cloud-video-interop.md)
 
 ## Live events
@@ -660,20 +654,16 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Learn more about coexistence
+## Technical library
+### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-# Additional upgrade guidance for large organizations
 
-## [Upgrade guidance for large organizations](upgrade-to-teams-on-prem-overview.md)
-
-## Learn more about coexistence
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
+<!-- ============================================================ -->
+#       
+#    
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
