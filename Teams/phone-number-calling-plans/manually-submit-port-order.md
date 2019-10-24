@@ -29,9 +29,9 @@ Use the steps in this article to manually create and submit a port order in scen
 
 ## Manually create and submit a port order
 
-### If your organization has 150 or less users
+You can manually submit a port order by creating a service request in the Microsoft 365 admin center or by emailing the PSTN service desk for your region directly.
 
-#### Submit a service request in the Microsoft 365 admin center
+### Submit a service request in the Microsoft 365 admin center
 
 1. In the left navigation of the Microsoft 365 admin center, go to **Support** > **New service request**.  If you don't see **Support** listed, add it by going to **Customize navigation** in the left navigation, and then select the **Support** check box.
 2. In the **Need help?** pane, select **Contact support**.
@@ -41,69 +41,13 @@ Use the steps in this article to manually create and submit a port order in scen
     2. Under **Attachments**, click **Add a file**, and then upload your completed [Letter of Authorization (LOA)](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers).
     3. Click **Contact me**.
 
-#### Send your Letter of Authorization directly to the PSTN service desk
+### Send your Letter of Authorization directly to the PSTN service desk
 
 Download the [Letter of Authorization (LOA)](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers), complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
 
     - In the U.S., [send your request](mailto:ptn@microsoft.com).
     - In Europe, [send your request](mailto:ptneu@microsoft.com).
     - In Asia, [send your request](mailto:ptnapac@microsoft.com).
-
-### If your organization has more than 150 users
-
-1. Sign in as an administrator to Office 365 with your work or school account.
-    
-2. In the admin center, in the left navigation, click **Support** > **New service request**.
-    
-3. Under **Service requests**, click **Add**.
-    
-4. On the **Create a service request** page, click **Online collaboration**.
-    
-5. On the **Identify the issue** page, select and enter in the following:
-    
-   - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
-    
-   - **Symptom:** Enter **Emergency Calling**.
-    
-   - **Issue summary:** Enter **Address validation**.
-    
-   - **Issue details:** Enter any details about the address(s) you want to validate such as the:
-    
-      - Street number
-    
-      - Street name
-    
-      - Town or city
-    
-      - Country or region
-    
-     > [!IMPORTANT]
-     > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
-  
-      - Postal or zip code
-    
-6. Click **Next** page, click **Yes, continue** to continue.
-    
-7. On the **Add details** page, select and enter the following:
-    
-   - **Is your service unavailable?** Select **No**.
-    
-   - **How many users are affected?** Select **Some users**.
-    
-   - **Enter an email address of someone affected by this issue** or leave blank.
-    
-   - **Select Domain(s) you want to list**
-    
-   - **Attach a file** if you have multiple addresses you need validated.
-    
-   - Click **Next**.
-    
-   - Enter your contact phone number.
-    
-8. Review the information, and then click **Submit request**.
-    
-> [!TIP]
-> The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.
   
 ## What else should you know about number porting?
 
