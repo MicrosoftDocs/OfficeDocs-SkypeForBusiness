@@ -11,15 +11,14 @@ ms.reviewer:
 search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Microsoft 365 admin center to the new Microsoft Teams admin center.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
-- Skype for Business Online
+  - Microsoft Teams
+  - Skype for Business Online
 ---
 
 Manage Teams during the transition to the new Microsoft Teams admin center

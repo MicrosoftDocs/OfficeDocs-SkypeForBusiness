@@ -12,10 +12,9 @@ description: Learn to enhance Office 365 groups with Microsoft Teams by inviting
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Enhance existing Office 365 groups with Microsoft Teams

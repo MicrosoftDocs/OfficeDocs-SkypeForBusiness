@@ -10,11 +10,10 @@ ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Limits and specifications for Microsoft Teams
@@ -94,6 +93,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
+|Max PowerPoint File Size | 2GB|
 
 ## Teams live events
 
