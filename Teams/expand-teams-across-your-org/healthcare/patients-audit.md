@@ -13,7 +13,7 @@ ms.reviewer: anach
 description: Patients app for Teams admins
 ---
 
-# Auditing logs for Patients app
+# Audit logs for Patients app
 
 An Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) or Patient Healthcare Information (PHI) and determine if changes or improvements in policy or procedure for PHI access in productivity tools are needed. The audit log events cover actions performed through the Patients app user interface.
 
