@@ -8,7 +8,9 @@ ms.topic: article
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Patients app for Teams admins
 ---
