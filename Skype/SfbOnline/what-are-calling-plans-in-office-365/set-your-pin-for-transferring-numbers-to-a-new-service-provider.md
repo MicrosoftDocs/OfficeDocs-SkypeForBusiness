@@ -17,6 +17,7 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
+ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: "To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out."
