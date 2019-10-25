@@ -54,7 +54,7 @@ Emergency locations and places are used during the process of routing emergency 
     > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it's legitimate and correctly formatted. It's possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation. The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency dispatch center. If so, it will be returned as validated and then can be assigned to a phone number.
   
-3. **Get phone numbers**. The next step is to get phone numbers for your users. You can do this by getting new phone numbers from Office 365 or by "porting" or transferring your existing phone numbers over to Office 365. To see the complete steps, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+3. **Get phone numbers**. The next step is to get phone numbers for your users. You can do this by getting new phone numbers from Office 365 or by "porting" or transferring your existing phone numbers over to Office 365. To see the complete steps, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
     
 4. **Assign phone numbers**. The last step is to enable users to make and receive phone calls. To do this, you must assign a phone number to each user. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) to assign a phone number.
 

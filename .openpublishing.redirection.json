@@ -7,6 +7,11 @@
       "redirect_document_id": true
       },
     {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization", 
+      "redirect_document_id": false
+      },
+    {
       "source_path": "Teams/transfer-phone-numbers-to-office-365.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams", 
       "redirect_document_id": true

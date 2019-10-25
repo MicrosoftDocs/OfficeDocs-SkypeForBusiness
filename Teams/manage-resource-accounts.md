@@ -68,7 +68,7 @@ A top-level auto attendant or call queue will require a phone number be linked t
 
 1. Port or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
 
-   Before you assign a phone number to a resource account, you need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type**  will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+   Before you assign a phone number to a resource account, you need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type**  will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
    If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 

@@ -107,7 +107,7 @@ Microsoft has two types of telephone numbers available: *subscriber* (user) numb
 | :------------|:-------|
 | Which user locations need new phone numbers from Microsoft? | For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md). 
 | Which type of telephone number (subscriber or service) do I need? | To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-How do I port existing phone numbers to Office 365?|For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+How do I port existing phone numbers to Teams?|For more information, see [Transfer phone numbers to Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 |||
 
 ### Dial plans
