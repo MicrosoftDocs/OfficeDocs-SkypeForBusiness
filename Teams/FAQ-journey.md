@@ -71,7 +71,7 @@ Teams is available in Office 365 suites. Capabilities that are premium workloads
 
 Currently, we have no plans to schedule upgrades for enterprise customers. Customers can choose to move to Teams as it makes sense for their organizations before the July 31, 2021 retirement date for Skype for Business Online. We’ll empower administrators and users with tools and guidance to help with the transition to Teams.
 
-In effort to support smaller customers that may not have dedicated IT resources, Microsoft is assisting with automated upgrades from Skype for Business Online to Teams. Eligible customers are notified of the upgrade through emails and Message Center notifications. More details are provided in the communications.
+In effort to support smaller customers that may not have dedicated IT resources, Microsoft is assisting with automated upgrades from Skype for Business Online to Teams. Eligible customers are notified of the upgrade through emails and Message Center notifications. More details are provided in the communications. For more information, see [Automated Upgrades from Skype for Business Online to Microsoft Teams](upgrade-automated.md).
 
 ### How does the Skype for Business Online retirement announcement affect organizations with hybrid configurations (Skype for Business Online and Skype for Business Server)?
 
