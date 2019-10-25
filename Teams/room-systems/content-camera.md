@@ -8,7 +8,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
 ---
 

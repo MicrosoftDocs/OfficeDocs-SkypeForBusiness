@@ -1,6 +1,6 @@
 ---
 title: Teams for Retail
-description: Use these resources to manage Teams for your retail organization. 
+description: Use these resources to manage Teams for your retail organization.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -9,10 +9,11 @@ audience: admin
 manager: serdars
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Teams for Retail
