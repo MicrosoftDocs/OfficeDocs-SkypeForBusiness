@@ -28,6 +28,9 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## Create a port order and transfer your phone numbers to Teams
 
+> [!NOTE]
+> If your country or region isn't listed in the porting wizard in the Microsoft Teams admin center, you can [manually submit a port order](manually-submit-port-order.md).
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Click **Numbers**, and then click **Port** to start the porting wizard.
 2. Review the information on the **Get started** page, and then when you're ready, click **Next**.
 3. On the **Select location and number type** page, specify the following, and then click **Next**:

@@ -71,7 +71,7 @@ In the porting wizard, you must enter the name of the person who is authorized t
   
 ## What's my billing telephone number?
 
-The billing telephone number (BTN) is the main phone number that's included on your bill and billed by your service provider or carrier. If you're transferring a phone number from an account that has only one phone number, you need to enter this phone number. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
+The billing telephone number (BTN) is the main phone number that's included on your bill and billed by your service provider or carrier. If you're transferring a phone number from an account that has only one phone number, you need to enter this phone number. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the BTN is for your account.
 
 ## What should I put in for the account number?
 
@@ -82,7 +82,7 @@ Typically, you can find the account number on any bill or invoice you have from 
 
 ## What should I put in for the organization name?
 
-This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request. It's used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
+This is the name of your organization. The organization name is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request. It's used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
   
 ## What should I put in for the service address?
 

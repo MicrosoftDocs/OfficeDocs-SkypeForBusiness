@@ -1,7 +1,7 @@
 ---
 title: Manually submit a port order
-ms.author: tonysmit
-author: tonysmit
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -43,7 +43,7 @@ You can manually submit a port order by creating a service request in the Micros
 
 Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) for your country or region, complete the form, and then send it to the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) for your region:
 
-- In the U.S., [send your request](mailto:ptn@microsoft.com).
+- In the United States, [send your request](mailto:ptn@microsoft.com).
 - In Europe, [send your request](mailto:ptneu@microsoft.com).
 - In Asia, [send your request](mailto:ptnapac@microsoft.com).
   
@@ -51,7 +51,7 @@ Download the [LOA](../manage-phone-numbers-for-your-organization/manage-phone-nu
 
 - To use Calling Plans you must purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-- You must assign the new phone numbers you have to each of your users. See[Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
+- You must assign the new phone numbers you have to each of your users. See [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Related topics
 

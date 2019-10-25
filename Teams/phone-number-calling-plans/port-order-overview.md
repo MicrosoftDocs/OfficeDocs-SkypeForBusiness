@@ -38,7 +38,7 @@ In general, you can transfer any phone number that's from a supported provider, 
   
 - Land line phone numbers.
 
-- Mobile device phone numbers such as those used for cell phone and tablets, etc.
+- Mobile device phone numbers such as those used for cell phone and tablets.
 
     > [!NOTE]
     > Transferring mobile numbers is only available in the United States and Puerto Rico.
@@ -72,7 +72,7 @@ In general, you can transfer any phone number that's from a supported provider, 
     If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
 
     > [!NOTE]
-    > At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872. 
+    > At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## What information do I need to provide?
 
