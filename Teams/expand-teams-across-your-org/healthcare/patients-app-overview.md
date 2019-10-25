@@ -33,7 +33,7 @@ During rounding sessions on every shift in medical wards, clinicians gather at t
 
 For information on how to prepare your environment to use the EMR mode Patients app, see [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md). You will also need to see [Manage app setup policies in Microsoft Teams](../../teams-app-setup-policies.md) to enable Patients app for your organization.
 
-For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user doucmentation for the Patients App]()
+<!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
