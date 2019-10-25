@@ -190,7 +190,7 @@ This is because interop with Skype for Business users and federation are only po
 
 Administrators have the option to provide end user notifications in the Skype for Business client to inform users that they will soon be upgraded to Teams, as shown in the following diagram. For example, a week before the administrator plans to upgrade a group of users to TeamsOnly mode, the administrator might want to turn on these notifications for that group of users. These notifications are enabled using an instance of TeamsUpgradePolicy with NotifySfbUsers=true.  For all modes other than TeamsOnly, there are actually two instances per mode, corresponding to the two values of NotifySfbUsers.  For all modes other than TeamsOnly, there are actually two instances per mode, corresponding to the two values of NotifySfbUsers. 
 
-![Digram showing notifications](media/teams-upgrade-sfb-with-notifications.png)
+![Diagram showing notifications](media/teams-upgrade-sfb-with-notifications.png)
 
 If your users are homed in Skype for Business Online, simply assign the policy instance that has the same mode as the user, but with NotifySfbUsers=true. 
 
@@ -330,7 +330,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 The diagram below shows the conceptual phases of a managed transition in which there are active Islands users at the start. The height of the bars represents the number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using interop, and vice versa.
 
 
-![Digram showing managed upgrade with active users in Islands mode](media/teams-upgrade-2.png)
+![Diagram showing managed upgrade with active users in Islands mode](media/teams-upgrade-2.png)
 
    
 
@@ -511,16 +511,16 @@ These differences are shown in the following screenshots:
 
 A native Teams-to-Teams conversation with User G3 Test
 
-![Digram showing a native Teams-to-Teams conversation](media/teams-upgrade-native-thread.png)
+![Diagram showing a native Teams-to-Teams conversation](media/teams-upgrade-native-thread.png)
 
 An interop conversation with the same User G3 Test
 
-![Digram showing an interop Teams-to-Teams conversation](media/teams-upgrade-interop-thread.png)
+![Diagram showing an interop Teams-to-Teams conversation](media/teams-upgrade-interop-thread.png)
 
 Once a conversation thread is created, its type never changes. Once created, an interop thread in Teams will always route to the target user’s Skype for Business client. A native thread will always route to the target user’s Teams client.  If a recipient user’s mode changes, existing Teams threads to that user will no longer function and a note will be displayed on that chat with a link to start a new native conversation as shown in the following screenshot. For more details, see [Chats and calls from pre-existing threads](coexistence-chat-calls-presence.md#chats-and-calls-from-pre-existing-threads).
 
 
-![Digram showing a chat with upgraded Skype for Business user](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![Diagram showing a chat with upgraded Skype for Business user](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### Presence
 
