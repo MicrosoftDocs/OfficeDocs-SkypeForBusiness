@@ -32,8 +32,6 @@ Teams periodically checks the upgrade mode for external users and, when it finds
 
 When you switch to a native Teams chat, Teams doesn't merge the two conversations. Instead, you'll see both of the chats in your chat feed. The new, native-Teams chat is active, but the old, text-only chat is locked.
 
-**LOLA: Add a screen cap of this message**
-
 
 
 ## What happens if a user isn't in Teams Only mode anymore?
@@ -41,8 +39,6 @@ When you switch to a native Teams chat, Teams doesn't merge the two conversation
 If you were having a native Teams chat with an external user and then one of you gets switched out of the TeamsOnly upgrade mode, Teams locks the native Teams chat and gives you a link for a limited, text-only chat. You won't be able to continue in the native Teams chat. You can still read the native Teams chat, but you can't continue the conversation there.
 
 If Teams finds an old text-only chat with this external user, it'll revive that chat. Otherwise, Teams creates a new text-only chat.
-
-**LOLA: Add a screen cap of this message**
 
 
 ## Related topics
