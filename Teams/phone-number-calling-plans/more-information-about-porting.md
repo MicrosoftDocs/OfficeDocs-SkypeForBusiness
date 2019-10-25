@@ -37,10 +37,10 @@ When you're on the **Add account information** page of the porting wizard to sub
     
 - PIN - if needed by your current service provider or carrier
     
-- Company name
+- Organization name
     
     > [!NOTE]
-    > This will only accept 25 characters, including spaces. If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed. 
+    > This will only accept 25 characters, including spaces. If the organization name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed.
   
 - Name of person authorized to make changes to the account
     
@@ -48,11 +48,6 @@ When you're on the **Add account information** page of the porting wizard to sub
     > This will only accept 15 characters, including spaces. If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed. 
   
 - Service address
-    
-- City, state, and zip code of the billing address
-    
-    > [!NOTE]
-    > You won't need the authorizing person's signature.
   
 To make submitting the port order easy and avoid errors, make sure you do the following:
   
@@ -65,16 +60,16 @@ To make submitting the port order easy and avoid errors, make sure you do the fo
 - Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and can delay your port order.
     
 > [!CAUTION]
-> **Don't disconnect your services with your service provider or carrier.** **You must keep your previous service active in order to port your phone numbers to Teams.** **Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take one to three weeks, depending on the carrier.**
+> Don't disconnect your services with your service provider or carrier. You must keep your previous service active in order to port your phone numbers to Teams. Don't freeze your account with your service provider or carrier. Freezing the account prevents the change of carriers on the account. The authorized user will need to submit an order to the current carrier to remove the freeze. This process can take one to three weeks, depending on the carrier.
 
 ## Authorized person on the account
 
-In the porting wizard, you must enter the name of the person who is  authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person is accountable for the Letter of Authorization (LOA) for a port order.
+In the porting wizard, you must enter the name of the person who is authorized to make changes to the account with the service provider or carrier. The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported. This person is accountable for the Letter of Authorization (LOA) for a port order.
   
 > [!NOTE]
 > The box is limited to 15 characters (including spaces). Not having the complete name in the box won't delay or cancel the port order.
   
-## What is my billing telephone number?
+## What's my billing telephone number?
 
 The billing telephone number (BTN) is the main phone number that's included on your bill and billed by your service provider or carrier. If you're transferring a phone number from an account that has only one phone number, you need to enter this phone number. If you're transferring phone numbers from an account that has more than one, you can look at your bill or contact your service provider or carrier to determine what the billing telephone number is for your account.
 
@@ -85,13 +80,13 @@ Typically, you can find the account number on any bill or invoice you have from 
 > [!CAUTION]
 >  It's important that you make sure you don't use spaces, dashes, or hyphens when entering your service provider or carrier account number.
 
-## What should I put in for the company name?
+## What should I put in for the organization name?
 
 This is the name of your company or organization. The name of the company is limited to 25 characters, which includes spaces. The name of the company isn't used to process the port order request. It's used in the case of a dispute or if something is incorrect when the phone numbers are being ported over. If you can't fit the entire name of the company in the box, it won't delay or cancel the port order.
   
 ## What should I put in for the service address?
 
-The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, you can contact your service provider or carrier to find out the service address listed on your account.
+The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, contact your service provider or carrier to find out the service address listed on your account.
 
 ## How should I enter the phone numbers?
 
