@@ -55,7 +55,7 @@ Before you start, we recommend that you review the information in [What's a port
     > [!NOTE]
     > The CSV file must have only one column with a header named PhoneNumber. Each phone number must be on a separate row and can be digits only or in E.164 format.
 
-6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload your signed Letter of Authorization (LOA). 
+6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload your signed Letter of Authorization (LOA).
 
     If you haven't already downloaded and signed the LOA, click **Download the template** to download it. Complete and sign the form, and then upload it.
 
