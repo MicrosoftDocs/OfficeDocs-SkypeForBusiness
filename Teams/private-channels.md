@@ -121,6 +121,8 @@ The private channel owner can click **Manage channel**, and then use the **Membe
 
 ![Screenshot of private channel settings](media/private-channels-in-teams-channel-settings.png)
 
+## Private channels life cycle management
+
 ### Set whether team members can create private channels
 
 Team owners can turn off or turn on the ability for members to create private channels in team settings. To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.
@@ -182,11 +184,95 @@ GET /teams/{id}/channels/{id}/messages​
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
+### Find SharePoint URLs for all private channels in a team
+
+Whether you looking to perform eDiscovery or legal hold on files in a private channel or looking to build a line-of-business app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.
+
+As an admin, you can use the following series of PowerShell or Graph APIs commands to query these URLs.
+
+#### Using PowerShell
+
+1. Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.
+2. Run the following, where **$groupID** is the group Id of the team. (You can easily find the group Id in the link to the team.)
+
+    ```
+    $sites = get-sposite -template "teamchannel#0"
+    $groupID = “<Group_Id of team>"
+    foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
+    ```
+
+#### Using Graph API
+
+You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
+
+1. Use the following to get the list of private channel IDs for a given team, where <group_id> is the group Id of the team. You'll need this in subsequent calls. (You can easily find the group Id in the link to the team).
+
+    **Request**
+
+    ```
+    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    ```
+
+    **Response**
+
+  ```
+  HTTP/1.1 200 OK
+  Content-type: application/json
+  Content-length:
+
+  {
+    "value": [
+      {
+        "description": "description-value",
+        "displayName": "display-name-value",
+        "id": "channel_id",
+        "membershipType": "membership-type-value",
+        "isFavoriteByDefault": false,
+        "webUrl": "webUrl-value",
+        "email": "email-value"
+        }
+      ]
+    }
+  ```
+
+2. For each private channel which you want to get the SharePoint URL, make the following request, where **<channel_id>** is the channel Id.
+
+    **Request**
+
+    ```
+    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    ```
+
+    **Response**
+
+```
+
+HTTP/1.1 200 OK
+Content-type: application/json
+Content-length:
+
+{
+  "value": [
+    {
+      "description": "description-value",
+      "displayName": "display-name-value",
+      "id": "channel_id",
+      "membershipType": "membership-type-value",
+      "isFavoriteByDefault": false,
+      "webUrl": "webUrl-value",
+      "email": "email-value"
+    	}
+     ]
+   }
+```
+
+### List and update roles of owners and members in a private channel
+
 ## Private channel SharePoint sites
 
 Each private channel has it's own SharePoint site collection optimized for file sharing and fast provisioning. The separate site collection is to ensure security and privacy of the private channel files to only the private channel members compared to the team site where the owner has access to all assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a full-featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
 
-To accommodate a greater number of number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams and  any differences in membership are reconciled within four hours. Users can be added to the Visitors group of the site collection to support scenarios where users may need to access documents without needing to access messages exchanged in the private channel.
+To accommodate a greater number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams and  any differences in membership are reconciled within four hours. Users can be added to the Visitors group of the site collection to support scenarios where users may need to access documents without needing to access messages exchanged in the private channel.
 
 Teams manages the life cycle of the private channel SharePoint site collection. If the site collection is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is deleted and hard-deleted, a new site collection is provisioned for the private channel.
 
