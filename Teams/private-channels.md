@@ -215,25 +215,25 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Response**
 
-  ```
-  HTTP/1.1 200 OK
-  Content-type: application/json
-  Content-length:
+```
+HTTP/1.1 200 OK
+Content-type: application/json
+Content-length:
 
-  {
-    "value": [
-      {
-        "description": "description-value",
-        "displayName": "display-name-value",
-        "id": "channel_id",
-        "membershipType": "membership-type-value",
-        "isFavoriteByDefault": false,
-        "webUrl": "webUrl-value",
-        "email": "email-value"
-        }
-      ]
+{
+  "value": [
+    {
+      "description": "description-value",
+      "displayName": "display-name-value",
+      "id": "channel_id",
+      "membershipType": "membership-type-value",
+      "isFavoriteByDefault": false,
+      "webUrl": "webUrl-value",
+      "email": "email-value"
     }
-  ```
+  ]
+}
+```
 
 2. For each private channel which you want to get the SharePoint URL, make the following request, where **<channel_id>** is the channel Id.
 
@@ -243,7 +243,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
-    **Response**
+    **Response**`
 
 ```
 
@@ -261,9 +261,9 @@ Content-length:
       "isFavoriteByDefault": false,
       "webUrl": "webUrl-value",
       "email": "email-value"
-    	}
-     ]
-   }
+    }
+  ]
+}
 ```
 
 ### List and update roles of owners and members in a private channel
