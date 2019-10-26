@@ -73,6 +73,6 @@ Logged activities for Microsoft Teams in general are described in [Microsoft Tea
 
 ## Related topics
 
-[Search the Office 365 Audit log](https://docs.microsoft.com/en-us/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+[Search the Office 365 Audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md)
