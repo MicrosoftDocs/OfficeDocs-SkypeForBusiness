@@ -94,7 +94,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 In Exchange PowerShell in your on-premises Exchange organization, run the PowerShell script that you just created. For example: .\ExportAuthCert.ps1
 
-### Step 6: Upload the on-premises authorization certificate to Azure Active Directory ACS
+### Step 5: Upload the on-premises authorization certificate to Azure Active Directory ACS
 
 Next, use Windows PowerShell to upload the on-premises authorization certificate that you exported in the previous step to Azure Active Directory Access Control Services (ACS). To do this, the Azure Active Directory Module for Windows PowerShell cmdlets must already be installed. If it's not installed, go to [https://aka.ms/aadposh](https://aka.ms/aadposh) to install the Azure Active Directory Module for Windows PowerShell. Complete the following steps after the Azure Active Directory Module for Windows PowerShell is installed.
 
@@ -121,7 +121,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Azure AD organization. After running the script, leave the Windows PowerShell for Azure AD session open. You will use this to run a PowerShell script in the next step.
 
-### Step 7: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
+### Step 6: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
 1. In the PowerShell opened and authenticated to Azure Active Directory, run the following
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
