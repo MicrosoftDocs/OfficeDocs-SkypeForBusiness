@@ -73,20 +73,8 @@ If there is an existing chat or other communication between users, and a new pol
 
 ## What will users experience if another user is blocked?
 
-Currently, users experience the following if an information barrier policy blocks another user:
-
-- **People tab** - A user may see some blocked users on the **People** tab. The user can select the blocked users.
-- **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
-- **Org charts** - If a user accesses an org chart on which a blocked user appears, the user will see the blocked user on the chart and can click actions on the chart, but the actions (such as calling) will not go through.
-- **People card** - If a user participates in a conversation and is subsequently blocked, other users can still see the people card for the blocked user. All actions listed on the card (such as calling and chat) will be available, but the actions will not go through.
-- **Suggested contacts** - On the suggested contacts list (the initial contact list that appears for new users), users can see all suggested contacts (including blocked users). However, if a user clicks the name of a blocked user to open the Chats pane, the message will be blocked.
-- **Chat contacts** - A user can see blocked users on the chat contact list.
-- **Calls contacts** - A user can see blocked users on the calls contact list and actions such as calling and messaging will appear, but when the user tries to call or send a message to the blocked user, the call or message will not go through.
-- **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
-
-Coming soon: users will experience the following if an information barrier policy blocks another user:
-
 - **People tab** - A user cannot see blocked users on the **People** tab.
+- **People Picker** - Blocked users will not be visible in the people picker.
 - **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
 - **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user will not appear on the org chart and an error message will appear instead.
 - **People card** - If a user participates in a conversation and the user is subsequently blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
@@ -97,14 +85,7 @@ Coming soon: users will experience the following if an information barrier polic
 
 ## Required licenses and permissions
 
-Information barriers are rolling out now, and are included in subscriptions, such as:
-
-- Microsoft 365 E5
-- Office 365 E5
-- Office 365 Advanced Compliance
-- Microsoft 365 E5 Compliance
-
-For more details, including plans and pricing, see [Compliance Solutions](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## More information
 
