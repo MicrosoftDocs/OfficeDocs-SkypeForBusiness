@@ -89,7 +89,7 @@ This is the name of your organization. The organization name is limited to 25 ch
 The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, contact your service provider or carrier to find out the service address listed on your account.
 
 ## How should I enter the phone numbers?
-<a name="bkadding"> </a>
+<a name="bkadding"> </a>
 
 When you submit a port order, you must use a properly formatted CSV file to submit your phone numbers. Here are the requirements for the CSV file:
 
@@ -101,7 +101,7 @@ When you submit a port order, you must use a properly formatted CSV file to subm
 
 ## How do I see the status of my port order?
 
-  See [What's the status of your port orders?](port-order-status.md)
+See [What's the status of your port orders?](port-order-status.md)
 
 ## Related topics
 
