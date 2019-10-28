@@ -16,8 +16,7 @@ description: Lists the combinations of operating system, model, and drivers that
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 
-  - MicrOperating systemoft Teams
----
+- Microsoft Teams
 
 # Hardware decoder and encoder driver recommendations
 
