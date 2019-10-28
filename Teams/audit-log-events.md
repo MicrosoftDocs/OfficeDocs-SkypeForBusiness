@@ -45,7 +45,7 @@ Before you can look at audit data, you have to first turn on auditing in the **S
 
 ## Retrieve Teams data from the audit log
 
-1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search & Investigation**, select **Audit log search**.
+1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search**, select **Audit log search**.
 
 2.  Use **Search** to filter by the activities, dates, and users you want to audit.
 
