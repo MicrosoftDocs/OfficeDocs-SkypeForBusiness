@@ -130,7 +130,7 @@ To learn more about guest access, see [Guest access in Teams](guest-access.md) a
 
 If you have problems setting up guest access or adding guests in Teams, use these resources to help you:
 
-[Troubleshoot problems with guest access in Microsoft Teams](guest-access-troubleshooting.md)
+[Troubleshoot problems with guest access in Microsoft Teams](troubleshoot-guest-access.md)
 
 [Teams troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
 

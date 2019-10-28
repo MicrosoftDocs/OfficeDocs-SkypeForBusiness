@@ -56,7 +56,7 @@ Access reviews are available with the Premium P2 edition of Azure AD, which is i
 
 ## Lag time for guest access settings to take effect
 
-For the guest access settings in Azure Active Directory, it takes 2-24 hours for the changes to take effect across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been turned on or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](guest-access-troubleshooting.md).
+For the guest access settings in Azure Active Directory, it takes 2-24 hours for the changes to take effect across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been turned on or the settings aren't effective yet. For help with problems setting up guest access, read [Troubleshoot guest access in Teams](troubleshoot-guest-access.md).
 
   
 ## External access (federation) vs. guest access
