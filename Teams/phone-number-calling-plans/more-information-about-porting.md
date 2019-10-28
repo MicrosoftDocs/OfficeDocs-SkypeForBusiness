@@ -93,11 +93,11 @@ The service address is different from the billing or emergency address that you 
 
 When you submit a port order, you must use a properly formatted CSV file to submit your phone numbers. Here are the requirements for the CSV file:
 
- - Give the file any name that you want.
+ - You can give the file any name that you want.
  - The file must only have one column with a header named PhoneNumber.
  - Each phone number must be on a separate row.
  - Phone numbers can be digits only or in E.164 format.
- - The phone number format must match the country or region you selected. For example, if you choose the United Kingdom in the porting wizard, use 44, which is the country or region code,  followed by the phone number with the correct number of digits. For example, 4420812341234.
+ - The phone number format must match the country or region you selected. For example, if you choose the United Kingdom in the porting wizard, use 44, which is the country code, followed by the phone number with the correct number of digits. For example, 4420812341234.
 
 ## How do I see the status of my port order?
 
