@@ -348,34 +348,34 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 	            ]
 	      }
         ```    
-2. 	Use the following to promote the member to an owner, where <group_id>, <channel_id>, and <id> are returned from the previous call. Note that <id> and <userId> returned from the previous call aren't the same and aren't interchangeable. Make sure you use <id>.
+2. 	Use the following to promote the member to an owner, where <group_id>, <channel_id>, and &lt;id&gt; are returned from the previous call. Note that <id> and <userId> returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
 
     **Request**
 
-            ```
-            PATCH https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+          ```
+          PATCH https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
             
-            {
-            "@odata.type": "#microsoft.graph.aadUserConversationMember",
-            "roles": ["owner"]
-            }
-            ```
+          {
+          "@odata.type": "#microsoft.graph.aadUserConversationMember",
+          "roles": ["owner"]
+          }
+          ```
 
     **Response**
 
-            ```
-            HTTP/1.1 200 OK
-            Content-type: application/json
+          ```
+          HTTP/1.1 200 OK
+           Content-type: application/json
 
-            {
-                "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
-                "@odata.type": "#microsoft.graph.aadUserConversationMember",
-                "id": "id-value",
-                "roles": ["owner"],
-                "displayName": "display-name-value",
-                "userId": "userId-value",
-                "email": "email-value"
-            }
+          {
+              "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+              "@odata.type": "#microsoft.graph.aadUserConversationMember",
+              "id": "id-value",
+              "roles": ["owner"],
+              "displayName": "display-name-value",
+              "userId": "userId-value",
+              "email": "email-value"
+          }
             ```    
 
 ## Private channel SharePoint sites
