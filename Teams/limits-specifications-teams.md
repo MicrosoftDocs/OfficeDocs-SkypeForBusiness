@@ -37,7 +37,7 @@ This article describes some of the limits, specifications, and other requirement
 
 &sup2;This limit includes archived teams.
 
-&sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+&sup3;Deleted channels can be restored within 21 days. During these 21 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 21 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
 ## Messaging
 
