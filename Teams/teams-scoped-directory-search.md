@@ -11,13 +11,12 @@ ms.reviewer: sbhatta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 description: Learn how to use Microsoft Teams scoped directory search to provide customized views of the directory.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 
@@ -25,7 +24,7 @@ appliesto:
 
 Microsoft Teams scoped directory search allows organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. 
 
-Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Exchange address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover teams when scoped search is in effect. 
+Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Information Barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover teams when scoped search is in effect. 
 
 > [!NOTE]
 > In Exchange hybrid environments, this feature only works with Exchange Online mailboxes, and not with on-premises mailboxes.
@@ -37,14 +36,14 @@ Scenarios that benefit from scoped directory searches are similar to address boo
 - Your organization has multiple companies within its tenant that you want to keep separate. 
 - Your school wants to limit chats between faculty and students. 
  
-To learn how to use address book policies, read [Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+To learn how to use address book policies, read [Information Barrier policies in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
 
 > [!IMPORTANT]
 > Address book policies provide only a virtual separation of users from directory perspective. Users can still initiate communications with others by providing complete email addresses. It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.
 
 ## Turn on scoped directory search
 
-1. Use address book policies to configure your organization into virtual subgroups. For more information, see [Procedures for address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+1. Use Information Barrier policies to configure your organization into virtual subgroups. For more information, see [Define Information Barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
 2. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.
 
@@ -53,4 +52,5 @@ To learn how to use address book policies, read [Address book policies in Exchan
     ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> This change can take up to 24 hours to replicate.

@@ -9,15 +9,14 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Hardware requirements for the Microsoft Teams app
@@ -68,11 +67,17 @@ appliesto:
 
 ## Hardware requirements for the Teams app on mobile devices
 
-You can use Microsoft Teams on these mobile platforms:
+You can use Teams on these mobile platforms:
 
-- Android - requires Android 4.4 or later
+- Android - requires Android 5.0 or later. Compatible with Android phones and tablets.
 
-- iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch.
+  Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
+
+- iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch. 
+
+  Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
+
+For the best experience with Teams, use the latest version of iOS and Android.
 
 ## Hardware requirements for the Teams app in a Virtual Desktop Infrastructure (VDI) environment
 

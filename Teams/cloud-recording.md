@@ -7,16 +7,16 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - Teams_ITAdmin_PracticalGuidance
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Teams cloud meeting recording

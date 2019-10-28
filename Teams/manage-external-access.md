@@ -8,15 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
 f1keywords: 
-- ms.teamsadmincenter.externalaccess.overview
-description: Your IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
+  - ms.teamsadmincenter.externalaccess.overview
+description: Your IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 ---
 Manage external access in Microsoft Teams
@@ -24,7 +24,7 @@ Manage external access in Microsoft Teams
 
 With Microsoft Teams external access, Teams users from other domains can participate in your chats and calls. You can also allow other external users who are still using Skype for Business Online, Skype for Business on-prem, or even Skype to participate.
 
-Use the steps in this article when:
+Use external access when:
   
 - You have users in different domains in your business: for example, Rob@contoso.com and Ann@northwindtraders.com.
 

@@ -28,7 +28,8 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
-## [Archive or delete a Team](archive-or-delete-a-team.md)
+## [Team expiration and renewal](team-expiration-renewal.md)
+## [Archive or delete a team](archive-or-delete-a-team.md)
 
 
 
@@ -40,6 +41,7 @@
 ### [Add bots for personal chats, group chats, and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
+### [Manage your line-of-business apps](manage-your-lob-apps.md)
 ### [Publish apps in the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -264,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [Cloud Video Interop](cloud-video-interop.md)
 
 ## Live events
@@ -346,6 +342,8 @@
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Media path country codes](direct-routing-country-codes.md)
+#### [PowerShell script to test Session Border Controller connections](sip-tester-powershell-script.md)
+#### [Manage call notifications](direct-routing-call-notifications.md)
 
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -656,15 +654,16 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Learn more about coexistence
+## Technical library
+### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
@@ -720,9 +719,11 @@
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [Auditing logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
@@ -808,6 +809,7 @@
 ### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Turn on Teams in your organization](Office-365-set-up.md)
+### [Teams files and folders to exclude from antivirus scanning](teams-files-folders-antivirus-perf.md)
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)

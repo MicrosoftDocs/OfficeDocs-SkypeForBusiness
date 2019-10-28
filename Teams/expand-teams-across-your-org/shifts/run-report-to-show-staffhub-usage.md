@@ -11,10 +11,10 @@ search.appverid: MET150
 description: Learn how to run a report to get a list of active StaffHub users in your organization.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Run a report to show active StaffHub usage

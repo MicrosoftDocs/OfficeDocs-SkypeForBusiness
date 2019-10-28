@@ -9,11 +9,12 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Teams for Education

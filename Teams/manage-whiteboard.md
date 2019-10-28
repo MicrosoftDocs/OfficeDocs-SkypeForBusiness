@@ -11,13 +11,12 @@ ms.reviewer: esmather
 search.appverid: MET150
 description: Learn about using the Whiteboard web app in Microsoft Teams
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage the Whiteboard in Microsoft Teams

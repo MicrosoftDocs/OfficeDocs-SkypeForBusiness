@@ -8,16 +8,15 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Get clients for Microsoft Teams 

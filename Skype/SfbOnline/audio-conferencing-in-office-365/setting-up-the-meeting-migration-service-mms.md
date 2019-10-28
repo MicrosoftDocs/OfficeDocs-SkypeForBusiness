@@ -169,7 +169,7 @@ If you see any migrations that have failed, take action to resolve these issues 
 1. Determine which users are affected. Run the following command to get the list of affected users, and the specific error that was reported:
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. For each affected user, run the Meeting Migration Tool to manually migrate their meetings.
 
