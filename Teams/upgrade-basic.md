@@ -22,9 +22,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-<a name="about-upgrade-basic"></a>
-
 # Upgrade Basic
+
+<a name="about-upgrade-basic"></a>
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
@@ -76,7 +76,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 **Resources:**
 
 - [Overview of Teams](Teams-overview.md)
-- Get started with Microsoft Teams (get-started-with-teams-quick-start.md)
+- [Get started with Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [Return to top](#about-upgrade-basic)
 
