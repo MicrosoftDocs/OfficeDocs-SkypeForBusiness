@@ -39,6 +39,26 @@ For information on how to prepare your environment to use the EMR mode Patients 
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
+##Frequently Asked Questions (FAQ)
+
+Where is the Patients app data stored? 
+All of the data entered by end users into the Patients App including the column/field schema, the actual data entered into the list and list items (i.e. patients) is stored in the secure and compliant exchange online infrastructure. The Patients app today operates in a team scope and only instance of the app can be installed per team. All of the data is stored in the group mailbox that backs the team in the exchange online service. This architecture enables the Patients App to easily fulfil data residecy, government cloud support (coming in the future) and other compliance/information protection features like eDiscovery support. 
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+Where can I acquire the Patients App from? 
+If the Patients app is appropriately enabled using admin controls, then any end user from a given tenant can go to the Teams app store and add the Patients app to a team they are a member of. 
+
+Can I have multiple instances of the Patients app in a team because that's how my ward/unit operates?
+Currently, the Patients app can be installed only once in a given team, and specifically only in the general channel. However, within the app, multiple lists can be created to address multi-channel or isolation/separation scenarios. By default all members of the team will have access to the Patients tab in the general channel of a team they are member of. 
+
+Can I export all of the data of the Patients app? 
+Not right now, but this feature is coming soon. 
+
+Since this app accomodates PHI, is there auditing to prevent bad access or compliance with regulations?
+Yes, there is. Every single UI action performed by a Microsoft Teams user on the Patients app is audited and available in the security and compliance center. The details are explained in the article [here](https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/healthcare/patients-audit)
+
+
 ## Related topics
 
 [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md)
