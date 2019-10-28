@@ -50,7 +50,7 @@ Office 365 plans support Multi-Factor Authentication (MFA) that increases the se
 
 Multi Factor authentication is supported with any Office 365 plan that includes Microsoft Teams. The Office 365 subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
 
-Once the users are enrolled for MFA, the next time a user signs in, they see a message that asks them to set up their second authentication factor. Supported authentication methods are:
+Once the users are enrolled for MFA, the next time a user signs in, they will see a message that asks them to set up their second authentication factor. Supported authentication methods are:
 
 
 |Tenant Type  |Available MFA Second Factor options  |Notes  |
