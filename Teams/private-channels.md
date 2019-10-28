@@ -348,7 +348,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 	            ]
 	      }
         ```    
-2. 	Use the following to promote the member to an owner, where <group_id>, <channel_id>, and &lt;id&gt; are returned from the previous call. Note that <id> and <userId> returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
+2. 	Use the following to promote the member to an owner, where <group_id>, <channel_id>, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
 
     **Request**
 
