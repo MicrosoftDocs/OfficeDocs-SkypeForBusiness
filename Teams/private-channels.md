@@ -235,7 +235,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
         }
         ```
 
-2. For each private channel which you want to get the SharePoint URL, make the following request, where **<channel_id>** is the channel Id.
+2. For each private channel which you want to get the SharePoint URL, make the following request, where <channel_id> is the channel Id.
 
     **Request**
 
@@ -245,25 +245,25 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Response**`
 
-        ```
-        HTTP/1.1 200 OK
-        Content-type: application/json
-        Content-length:
-        
-        {
-          "value": [
-            {
-              "description": "description-value",
-              "displayName": "display-name-value",
-              "id": "channel_id",
-              "membershipType": "membership-type-value",
-              "isFavoriteByDefault": false,
-              "webUrl": "webUrl-value",
-              "email": "email-value"
-            }
-          ]
-        }
-        ```
+          ```
+          HTTP/1.1 200 OK
+          Content-type: application/json
+          Content-length:
+            
+          {
+            "value": [
+              {
+                "description": "description-value",
+                "displayName": "display-name-value",
+                "id": "channel_id",
+                "membershipType": "membership-type-value",
+                "isFavoriteByDefault": false,
+                "webUrl": "webUrl-value",
+                "email": "email-value"
+              }
+            ]
+          }
+          ```
 
 ### List and update roles of owners and members in a private channel
 
@@ -274,7 +274,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 #### Using PowerShell
 
 1. Install and connect to the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) with your admin account.
-2. Run the following, where <group_id> is the group Id of the team and **<channel_id>** is the channel Id.
+2. Run the following, where <group_id> is the group Id of the team and <channel_id> is the channel Id.
 
     **Request**
 
