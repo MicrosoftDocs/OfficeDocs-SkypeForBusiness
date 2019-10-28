@@ -88,7 +88,8 @@ This is the name of your organization. The organization name is limited to 25 ch
 
 The service address is different from the billing or emergency address that you have registered with your phone service provider or carrier. If you don't know this, contact your service provider or carrier to find out the service address listed on your account.
 
-## How should I enter the phone numbers?<a name="#bkadding"> </a>
+## How should I enter the phone numbers?
+<a name="#bkadding"> </a>
 
 When you submit a port order, you must use a properly formatted CSV file to submit your phone numbers. Here are the requirements for the CSV file:
 
@@ -98,7 +99,7 @@ When you submit a port order, you must use a properly formatted CSV file to subm
  - Phone numbers can be digits only or in E.164 format.
  - The phone number format must match the country or region you selected. For example, if you choose the United Kingdom in the porting wizard, use 44, which is the country or region code,  followed by the phone number with the correct number of digits. For example, 4420812341234.
 
-  ## How do I see the status of my port order?
+## How do I see the status of my port order?
 
   See [What's the status of your port orders?](port-order-status.md)
 
