@@ -39,7 +39,7 @@ Teams currently includes the following policy packages.
 |Education_SecondaryStudent package    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education_HigherEducationStudent package    |Creates a set of policies and policy settings that apply to higher education students.|
 |Healthcare_ClinicalWorker package    |Creates a set of policies and policy settings that grants  clinical workers full access to chat, calling, shift management, and meetings. Use for clinical workers such as registered nurses, charge nurses, physicians, and social workers in your healthcare organization.
-|Healthcare_InformationWorker package    |Creates a set of policies and policy settings that grants information workers full access to chat, calling, and meetings. Use for information workers such as IT and Informatics staff, compliance officers, finance personnel in your healthcare organization.|
+|Healthcare_InformationWorker package    |Creates a set of policies and policy settings that grants information workers full access to chat, calling, and meetings. Use for information workers such as IT and Informatics staff, compliance officers, and finance personnel in your healthcare organization.|
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
