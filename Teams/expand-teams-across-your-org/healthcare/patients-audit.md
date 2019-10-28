@@ -56,7 +56,7 @@ The Patients app has its own logged activities, listed in the following table:
 | Created patient schema | PatientSchemaCreate | A set of columns used in the patient record was created. |
 | User initiated an export | ExportInitiation | Patient data was exported from the Patients app into an Excel file. The file will be saved in the Team sharepoint site. |
 | Created patient list | PatientListCreate | A user created a list of patients.|
-| Set default patient list| PatientListDefaultSet| A user set a particlular list as the default list.|
+| Set default patient list| PatientListDefaultSet| A user set a particular list as the default list.|
 | Removed patient from list| PatientListRemovePatient | A patient was removed from a list of patients. |
 | Searched patient | PatientSearch | Searched a patient record in the EHR service. |
 | Updated patient schema | PatientSchemaUpdate  | Updated an existing set of columns used in the patient record. |<!-- | Moved patient to a different list| PatientMoved | The patient record was moved from one list to another. |-->
