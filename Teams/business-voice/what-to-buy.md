@@ -44,7 +44,6 @@ The Domestic Calling Plan lets users call phone numbers in their country or regi
 |-----------------------------------|-------------------------------------|
 |Canada                             | 3000                                |
 |United Kingdom                     | 1200                                |
-|United States                      | 3000                                |
 
 Calls between the United States and Canada are domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
 
