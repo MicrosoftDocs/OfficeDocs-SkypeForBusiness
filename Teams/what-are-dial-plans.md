@@ -1,11 +1,10 @@
 ---
 title: "What are dial plans?"
-author: CarolynRowe
-ms.author: crowe
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
-ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,7 +18,7 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom: 
   - Calling Plans
-description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your organization.  "
+description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Teams and how to choose one for your organization.  "
 ---
 
 # What are dial plans?
@@ -72,22 +71,24 @@ When you create a new dial plan, you must put in the information that is require
 
 ### Name and simple name
 
-For user dial plans, you should specify a descriptive name that identifies to the users the dial plan will be assigned. The dial plan Simple Name is prepopulated with a string that is derived from the dial plan name. The Simple Name field is editable, which enables you to create a more descriptive naming convention for your dial plans. The Simple Name value cannot be empty and must be unique. A best practice is to develop a naming convention for your entire organization and then use this convention consistently across all sites and users.
+For user dial plans, you should specify a descriptive name that identifies to the users the dial plan will be assigned. The dial plan Simple Name is pre-populated with a string that is derived from the dial plan name. The Simple Name field is editable, which enables you to create a more descriptive naming convention for your dial plans. The Simple Name value cannot be empty and must be unique. A best practice is to develop a naming convention for your entire organization and then use this convention consistently across all sites and users.
 
 ### Description
 
 We recommend that you type the common, recognizable name of the geographic location or group of users to which the corresponding dial plan applies.
 
-### External access prefix<a name="#bkexternalprefix"> </a>
+### External access prefix
+<a name="bkexternalprefix"> </a>
 
 You can specify an external access prefix of up to four characters (#, *, and 0-9) if users need to dial one or more additional leading digits (for example, 9) to get an external line.
 
 > [!NOTE]
-> If you specify an external access prefix, you don't need to create an additional normalization rule to accommodate the prefix. 
+> If you specify an external access prefix, you don't need to create an additional normalization rule to accommodate the prefix.
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
-## Normalization rules<a name="#bknormalizationrule"> </a>
+## Normalization rules
+<a name="bknormalizationrule"> </a>
 
 Normalization rules define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
@@ -97,7 +98,9 @@ One or more normalization rules must be assigned to the dial plan. Normalization
 
 Because any tenant dial plan is effectively merged with a given user's service country dial plan it, it is likely that the service country dial plan's normalization rules need to be evaluated in order to determine which tenant dial plan normalization rules are needed. The **Get-CsEffectiveTenantDialPlan** cmdlet can be used for this purpose. The cmdlet takes the user's identity as the input parameter and will return all normalization rules that are applicable to the user.
 
-### Creating normalization rules<a name="#createarule"> </a>
+### Creating normalization rules
+<a name="createarule"> </a>
+<a name="regularexpression"> </a>
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format for the purpose of performing reverse number lookup. Normalization rules can be created by specifying the regular expression for the match and the translation to be done when a match is found. When you finish, you can enter a test number to verify that the normalization rule works as expected.
 
@@ -141,8 +144,6 @@ The following table shows sample normalization rules that are written as .NET Fr
 ## Related topics
 
 [Create and manage dial plans](create-and-manage-dial-plans.md)
-
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
