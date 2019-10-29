@@ -67,5 +67,5 @@ Use the steps in this article to install and connect to the Microsoft StaffHub P
 
 ## Related topics
 
-- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
+- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
 - [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
