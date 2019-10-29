@@ -331,7 +331,9 @@ Run the following to get more information about "Failure" errors that occur when
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 
