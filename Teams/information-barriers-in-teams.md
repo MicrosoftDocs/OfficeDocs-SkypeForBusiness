@@ -3,7 +3,6 @@ title: Information barriers in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -61,6 +60,7 @@ Information barrier policies are checked when the following Teams events take pl
 - **A user is invited to join a meeting** - When a user is invited to join a meeting, the user's policy is evaluated against the policies of other team members, and if there’s a violation, the user will not be allowed to join the meeting.
 - **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn’t violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won’t be allowed.
 - **A user places a phone call (VOIP) in Teams** - Any time a voice call is initiated by a user to another user or group of users, the call is evaluated to make sure that it doesn’t violate the information barrier policies of other team members. If there is any violation, the voice call is blocked.
+- **Guest Users in Teams** - Information barrier policies apply to guest users in Teams too. If guest users need to be discoverable in your organization's global address list, see [Manage guest access in Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Once guest users are discoverable, you can [define information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## What happens to existing chat threads when a policy is changed?
 
@@ -113,4 +113,4 @@ For more details, including plans and pricing, see [Compliance Solutions](https:
 
 - To set up information barrier policies, see [Define policies for information barriers](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
-- To edit or remove information barrier policies, see [Edit (or remove) information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)
+- To edit or remove information barrier policies, see [Edit (or remove) information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
