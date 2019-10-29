@@ -50,8 +50,6 @@ While Advisor for Teams is in preview, we're providing three plans:
     - Tenant assessment
     - Planner plan, including adoption tasks
     - Forms user survey
-1. Teams adoption
-    - Planner plan: In-depth Teams adoption guidance
 
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor and click **Add channel** to start the next workload. 
 
@@ -64,7 +62,7 @@ The workload rollout plans include a tenant readiness assessment that you can us
 |Assessment  |What it tells you  |
 |---------|---------|
 |Teams licenses     |Whether you have an active subscription with available Teams licenses |
-|Exchange Online licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience.         |
+|Exchange licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience.         |
 |SharePoint Online licenses     | Whether you have an active subscription with available SharePoint Online licenses. You need one SharePoint Online license per user for file storage, channel collaboration, and chat. 
 |Guest access enabled     |If guest access is turned on in Teams. Azure Active Directory settings for guest access are not reviewed.   |
 |Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant  |
@@ -98,8 +96,7 @@ Once Advisor creates your Deployment team, the Advisor bot delivers the followin
 >- Head over to your Deployment team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
 > 
 >To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
-
-
+>
 > [!IMPORTANT]
 > Advisor for Teams Bot doesn't collect any data.
 
