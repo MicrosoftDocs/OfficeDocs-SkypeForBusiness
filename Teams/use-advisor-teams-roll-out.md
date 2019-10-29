@@ -98,7 +98,7 @@ Once Advisor creates your Deployment team, the Advisor bot delivers the followin
 >To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 >
 > [!IMPORTANT]
-> Advisor for Teams Bot doesn't collect any data.
+> The Advisor for Teams Bot doesn't collect any data.
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
