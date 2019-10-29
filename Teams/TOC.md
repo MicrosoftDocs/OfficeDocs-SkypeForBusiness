@@ -47,21 +47,30 @@
 ### [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
+## Communicate with external users
+### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
 
-## Guest access
-### [About guest access](guest-access.md)
-### [How a guest joins a team](guest-joins.md)
-### [What the guest experience is like](guest-experience.md)
-### [Authorize guest access in Teams](teams-dependencies.md)
-### [Turn on or turn off guest access in Teams](set-up-guests.md)
-### [Manage guest access in Teams](manage-guests.md)
-### [Add a guest to a team](add-guests.md)
-### [View guest users in a team](view-guests.md)
-### [Edit guest user information](edit-guests-information.md)
-### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
-### [Guest access checklist](guest-access-checklist.md)
+### External access (federation)
+#### [Manage external access](manage-external-access.md)
+#### [Native Teams chat for external users](native-chat-for-external-users.md)
 
-## [External access (federation)](manage-external-access.md)
+
+### Guest access
+#### [About guest access](guest-access.md)
+#### [Guest access checklist](guest-access-checklist.md)
+#### [How a guest joins a team](guest-joins.md)
+#### [What the guest experience is like](guest-experience.md)
+#### [Authorize guest access in Teams](teams-dependencies.md)
+#### [Turn on or turn off guest access in Teams](set-up-guests.md)
+#### [Manage guest access in Teams](manage-guests.md)
+#### [Add a guest to a team](add-guests.md)
+#### [View guest users in a team](view-guests.md)
+#### [Edit guest user information](edit-guests-information.md)
+#### [Use PowerShell to control guest access](guest-access-PowerShell.md)
+#### [Troubleshoot guest access](troubleshoot-guest-access.md)
+
+
+
 
 ## Manage Teams
 ### [Administrator roles](using-admin-roles.md)
@@ -260,12 +269,6 @@
 
 
 <!-- ============================================================ -->
-
-
-
-
-
-
 
 
 
@@ -657,15 +660,16 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Learn more about coexistence
+## Technical library
+### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
@@ -754,9 +758,11 @@
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [Audit logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
