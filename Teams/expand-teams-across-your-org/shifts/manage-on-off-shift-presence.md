@@ -24,12 +24,11 @@ appliesto:
 
 As an admin, you can configure different experiences for Firstline Workers in your organization based on whether they are on shift or off shift.  You can set up Teams to show 
 
-## Scenarios for on-shift and off-shift presence
+## Example scenario
 
-Here are examples scenarios of how you can use on-shift and off-shift presence in Teams
+Here's an example of how you can use on-shift and off-shift presence in Teams
 
-You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You can configure Teams to display a custom message to Firstline Workers when they access Teams when off shift. If they acknowledge the message and choose to use Teams, their time on Teams isn't counted towards payable hours. You may also have information workers in your organization who are salaried and who don't work shifts. You can configure your information workers to keep their presence while giving your Firstline Workers shift-based presence.
-
+You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You can configure Teams to display a custom message to Firstline Workers when they access Teams when off shift. If they acknowledge the message and choose to use Teams, their time on Teams isn't counted towards payable hours. You also have information workers in your organization who are salaried and who don't work shifts. You can configure your information workers to use the default presence states in Teams while giving your Firstline Workers shift-based presence.
 
 ## Related topics
 
