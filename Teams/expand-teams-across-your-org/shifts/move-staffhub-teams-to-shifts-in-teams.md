@@ -2,7 +2,7 @@
 title: Move your StaffHub teams to Shifts in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -104,33 +104,15 @@ These users have inactive accounts and show a user state of Unknown, Invited, or
 
 #### Get a list of all inactive accounts on StaffHub teams
 
-Run the following series of commands to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file. Each numbered command should be run separately.
-
-```
-(1) $InvitedUsersObject = @()
-(2) $StaffHubTeams = Get-StaffHubTeamsForTenant
-(3) $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-(4) foreach($team in $StaffHubTeams[0])
-{ 
-    write-host $team.name 
-    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-    foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{
-          "TeamID"="$($team.Id)"
-          "TeamName"="$($team.name)"
-          "MemberID"="$($StaffHubUser.Id)"
-            }
-    }
-}
-(5) $InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -No
-```
-
 Run the following series of commands to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file. Each command should be run separately.
 
 ```
 $InvitedUsersObject = @()
+
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
 foreach($team in $StaffHubTeams[0])
 { 
     write-host $team.name 
@@ -143,6 +125,7 @@ foreach($team in $StaffHubTeams[0])
             }
     }
 }
+
 $InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
@@ -279,6 +262,7 @@ Run the following to get a list of all StaffHub teams in your organization.
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -319,6 +303,7 @@ After you create the CSV file, run the following to move the teams you specified
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
