@@ -732,7 +732,7 @@
 #### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
-#### [Auditing logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
+#### [Audit logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
