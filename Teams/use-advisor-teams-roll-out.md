@@ -24,7 +24,7 @@ description: "Use Advisor for Teams (preview) to help you plan and complete your
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies anything that you need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
+Advisor for Teams (preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies anything that you need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Service management team (in Teams), with channels for each workload you want to roll out. Each workload in the Service management team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
 Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). To use Advisor for Teams the first time, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Org-wide settings** > **Advisor**.
 
@@ -85,15 +85,15 @@ The workload rollout plans include a tenant readiness assessment that you can us
 
 
 ### Advisor bot
-Once Advisor creates your Deployment team, the Advisor bot delivers the following message.
+Once Advisor creates your Service management team, the Advisor bot delivers the following message.
 
->**Welcome to your Deployment team for Microsoft Teams!**
+>**Welcome to your Service management team for Microsoft Teams!**
 >  
 >The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can you go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center. If you have any questions about the tasks, @mention me and I'll do my best to answer your question.
 > 
 >**Call to action** 
 >- If you're new to Teams or Planner, check out our [Teams walkthrough](http://teamsdemo.office.com/) and watch the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
->- Head over to your Deployment team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
+>- Head over to your Service management team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
 > 
 >To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 >
