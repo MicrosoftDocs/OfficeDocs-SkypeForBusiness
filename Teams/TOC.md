@@ -17,7 +17,7 @@
 # Chat, teams, channels, and apps
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
-## [Private channels](private-channels.md)
+## [Overview of private channels](private-channels.md)
 ## [Manage the life cycle of private channels](private-channels-life-cycle-management.md)
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
