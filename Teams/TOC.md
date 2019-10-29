@@ -728,7 +728,6 @@
 ### [Manage devices](business-voice/manage-devices.md)
 ### [Monitor call quality](business-voice/monitor-quality.md)
 ### [Call Analytics Quality Dashboard](business-voice/analytics-dashboard.md)
-### [Shared line](business-voice/shared-line.md)
 
 ## [Partner resources](business-voice/partner-resources.md)
 
