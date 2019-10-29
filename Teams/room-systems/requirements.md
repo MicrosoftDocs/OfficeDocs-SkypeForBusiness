@@ -81,7 +81,7 @@ These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices
 |Microsoft Teams Rooms peripheral|Certified firmware version | Camera supports content camera use|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
-|[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
+|[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240（Logitech NOT Support firmware versions V240，only support V2.2.50，logitech support URL：https://support.logi.com/hc/en-us/articles/360024703494）| &#x2714; |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Video — 1.0.156  |
