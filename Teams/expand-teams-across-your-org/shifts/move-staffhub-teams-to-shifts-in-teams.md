@@ -115,7 +115,7 @@ $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHu
 
 foreach($team in $StaffHubTeams[0])
 { 
-    write-host $team.name 
+    Write-host $team.name
     $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
     foreach($StaffHubUser in $StaffHubUsers) {
         $InvitedUsersObject  += New-Object PsObject -Property @{
@@ -126,7 +126,7 @@ foreach($team in $StaffHubTeams[0])
     }
 }
 
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### Link the account
