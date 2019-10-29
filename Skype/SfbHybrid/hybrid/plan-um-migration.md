@@ -38,7 +38,7 @@ Cloud Voicemail doesn't provide voice messaging functionality to Private Branch 
 
 With Skype for Business Server 2019, we're moving from Exchange Online UM to Cloud Voicemail. When a user is moved to a Skype for Business 2019 server, they'll automatically start using Cloud Voicemail when configured for hosted voicemail. If you're currently using Exchange Online UM, you don't need to do anything other than move a user to Skype for Business Server 2019 to start using Cloud Voicemail. However, there are some changes to functionality you need to be aware of:
 
-- Organizational Auto Attendant (the replacement for auto attendant in Exchange Online UM) isn't available at GA but will be available later in 2018.
+- Cloud Auto Attendant (the replacement for auto attendant in Exchange Online UM). For more information, see [What are Cloud auto attendants?](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants).
 - User voicemail settings in Outlook on the Web don't apply to Cloud Voicemail.
 
 ## On-premises UM migration scenarios
