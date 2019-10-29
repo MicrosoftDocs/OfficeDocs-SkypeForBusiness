@@ -97,7 +97,9 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
     ```
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “<group_id>"
-    foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
+    foreach ($site in $sites) {$x= Get-SpoSite -Identity
+    $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
+    {$x.RelatedGroupId;$x.url}}
     ```
 
 ### Using Graph API
@@ -252,7 +254,8 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     **Request**
 
           ```
-          PATCH https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+          PATCH 
+          https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
             
           {
           "@odata.type": "#microsoft.graph.aadUserConversationMember",
