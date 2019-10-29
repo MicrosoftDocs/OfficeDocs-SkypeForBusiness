@@ -1,5 +1,5 @@
 ---
-title: Call Analytics Quality Dashboard
+title: Call Quality Dashboard
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -16,4 +16,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Call Analytics Quality Dashboard
+[!INCLUDE [turning-on-and-using-call-quality-dashboard](../turning-on-and-using-call-quality-dashboard.md)]

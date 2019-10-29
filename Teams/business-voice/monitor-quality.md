@@ -16,4 +16,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Monitor call quality
+[!INCLUDE [difference-between-call-analytics-and-call-quality-dashboard](../difference-between-call-analytics-and-call-quality-dashboard.md)]

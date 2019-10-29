@@ -727,7 +727,7 @@
 ### [Create one or more users](business-voice/create-users.md)
 ### [Manage devices](business-voice/manage-devices.md)
 ### [Monitor call quality](business-voice/monitor-quality.md)
-### [Call Analytics Quality Dashboard](business-voice/analytics-dashboard.md)
+### [Call Quality Dashboard](business-voice/analytics-dashboard.md)
 
 ## [Partner resources](business-voice/partner-resources.md)
 

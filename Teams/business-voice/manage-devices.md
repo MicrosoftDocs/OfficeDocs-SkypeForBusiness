@@ -16,4 +16,4 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage devices
+[!INCLUDE [device-management](../device-management.md)]
