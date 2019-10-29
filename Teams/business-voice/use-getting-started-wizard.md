@@ -23,6 +23,8 @@ The Getting Started wizard for Microsoft 365 Business Voice gives you an easy an
 It's a good idea to read this article before you start the wizard. When you're ready, you can open the wizard from the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage). Make sure you sign in either with the account you used to create your subscription or another account that's a Global Administrator.
 
 > [!IMPORTANT]
+> Business Voice is currently available in Canada and the United Kingdom. More countries and regions will become available in 2020.
+>
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  We don't support mailboxes located on on-premises Exchange server.
 
 <!-- After you've finished the wizard, here are a couple articles you can check out to see what you can do with Business Voice and learn how to customize it. If you don't want to customize anything, you're done! You can start using Business Voice right away.
