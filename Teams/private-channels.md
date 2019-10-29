@@ -123,7 +123,7 @@ The private channel owner can click **Manage channel**, and then use the **Membe
 
 ## Manage the life cycle of private channels
 
-See [Manage the life cycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the life cycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, and other management tasks.  
+See [Manage the life cycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the life cycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
 
 ## Private channel SharePoint sites
 
