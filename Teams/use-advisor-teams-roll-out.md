@@ -74,15 +74,20 @@ The workload rollout plans include a tenant readiness assessment that you can us
 
 ### Meetings and conferencing
 
-**BRANDON, WE NEED THE LIST FOR M&C HERE**
 
 |Assessment  |What it tells you  |
 |---------|---------|
-|Item1     |Description1 |
-|Item2     |Description2 |
+|Teams licenses     |Whether you have an active subscription with available Teams licenses |
+|Exchange licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience. |
+|Audio conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses |
+|Stream licenses     |Whether you have an active subscription with Stream licenses, which can used should Meeting Recording be desired. |
+|Guest access     |If guest access is turned on in Teams. Azure Active Directory settings for guest access are not reviewed.|
+|Vanity domain     |Whether there's a non-@onmicrosoft.com domain configured for your tenant.  |
+|External access     |If external access is turned on so you can communicate with external organizations in Teams. |
+
 
 ### Advisor bot
-Once Advisor creates your Deployment team, the Advisor bot delivers the following message. The bot doesn't collect any data.
+Once Advisor creates your Deployment team, the Advisor bot delivers the following message.
 
 >**Welcome to your Deployment team for Microsoft Teams!**
 >  
@@ -93,6 +98,10 @@ Once Advisor creates your Deployment team, the Advisor bot delivers the followin
 >- Head over to your Deployment team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
 > 
 >To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
+
+
+> [!IMPORTANT]
+> Advisor for Teams Bot doesn't collect any data.
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
