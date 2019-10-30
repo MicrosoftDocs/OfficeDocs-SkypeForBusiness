@@ -52,4 +52,5 @@ To learn how to use address book policies, read [Information Barrier policies in
     ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> This change can take up to 24 hours to replicate.
