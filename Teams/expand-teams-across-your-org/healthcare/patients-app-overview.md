@@ -43,7 +43,7 @@ For information on how to prepare your environment to use the EMR mode Patients 
 
 **Where is the Patients app data stored?**
 
-All of the data entered by end users into the Patients App, including the column/field schema, the actual data entered into the list and list items (i.e. patients), is stored in the secure and compliant Exchange Online infrastructure. All of the data is stored in the group mailbox that's associated with the team. This architecture enables the Patients App to easily fulfil data residecy, government cloud support (coming in the future) and other compliance/information protection features like eDiscovery support. The Patients app operates in a team scope. You will need to install an instance of the app per team.
+All of the data entered by end users into the Patients App, including the column/field schema, the actual data entered into the list and list items (i.e. patients), is stored in the secure and compliant Exchange Online infrastructure. All of the data is stored in the group mailbox that's associated with the team. This architecture enables the Patients App to easily fulfill data residency, government cloud support (coming in the future) and other compliance/information protection features like eDiscovery support. The Patients app operates in a team scope. You will need to install an instance of the app per team.
 
 <!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
 
@@ -58,7 +58,7 @@ Currently, you can only install one instance of the Patients app for a given tea
 **Can I export all of the data from the Patients app?**
 Not right now, but this feature is coming soon. 
 
-**Since this app accomodates PHI, is there auditing to prevent unauthorized access or compliance with regulations?**
+**Since this app accommodates PHI, is there auditing to prevent unauthorized access or compliance with regulations?**
 
 Yes, there is. Every single UI action performed by a Microsoft Teams user on the Patients app is audited and available in the security and compliance center. The details are explained in the article [here](patients-audit.md)
 
