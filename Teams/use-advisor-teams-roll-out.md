@@ -24,9 +24,9 @@ description: "Use Advisor for Teams (preview) to help you plan and complete your
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies anything that you need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Service management team (in Teams), with channels for each workload you want to roll out. Each workload in the Service management team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
+Advisor for Teams (preview) walks you through your Microsoft Teams rollout. It assesses your Office 365 tenant environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Service management team (in Teams), with channels for each workload you want to roll out. Each workload in the Service management team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams and Office 365 admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
-Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). To use Advisor for Teams the first time, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Org-wide settings** > **Advisor**.
+Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). To use Advisor for Teams the first time, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Advisor**.
 
 > [!IMPORTANT]
 > Advisor for Teams isn't available for Microsoft 365 Government - GCC High or DoD deployments.
@@ -116,11 +116,9 @@ Yes, once the Service Management team has been created, you'll manage it the sam
 ### Can I modify the Planner plans?
 Yes, after Advisor for Teams has created your Service Management team, you should update the Planner plan so it best supports your Teams rollout. You can modify anything - buckets, tasks, task details - just like any other Planner plan.
 
-### Can I modify the PowerBI dashboard?
-Yes, after Advisor for Teams has created your Service Management team, you can modify the PowerBI dashboard as needed.
 
-### Can I modify the Forms Pro survey?
-Yes, after Advisor for Teams has created your Service Management team, you can modify the Forms Pro survey as needed.
+### Can I modify the Forms survey?
+Yes, after Advisor for Teams has created your Service Management team, you can modify the Forms survey as needed.
 
 ### What information is Advisor for Teams collecting about my organization?
 Advisor for Teams requests your agreement to collecting non-EUII (end user identifying information). The information that is collected is in the form of telemetry that provides feedback to Microsoft on how well Advisor for Teams is driving successful outcomes and where it may need to be improved. This same data is used to identify opportunities for Microsoft to proactively engage with your organization in an effort to assist with your deployment.
