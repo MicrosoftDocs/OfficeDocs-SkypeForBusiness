@@ -40,7 +40,7 @@ The first time you use Advisor for Teams, it'll create a Service Management team
 
 ## Available Advisor for Teams plans
 
-While Advisor for Teams is in preview, we're providing three plans:
+While Advisor for Teams is in preview, we're providing these two plans:
 
 1. Chat, teams, channels, and apps
     - Tenant assessment
@@ -54,7 +54,7 @@ While Advisor for Teams is in preview, we're providing three plans:
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor and click **Add channel** to start the next workload. 
 
 ## Tenant assessment
-The workload rollout plans include a tenant readiness assessment that you can use to remediate any deficiencies in your environment before you roll out Teams. Here's what each assessment checks:
+Each plan includes a tenant readiness assessment that you can use to identify and remediate any deficiencies in your environment before you roll out Teams. Here's what each assessment checks:
 
 ### Chat, teams, channels, and apps
 
