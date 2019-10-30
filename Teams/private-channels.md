@@ -29,13 +29,13 @@ For example, a private channel is useful in these scenarios:
 - A group of people in a team want a focused space to collaborate without having to create a separate team.
 - A subset of people in a team want a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
 
-A lock icon indicates a private channel. Team owners can see all private channels in a team. Team members can only see those private channels that they are added to.
+A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 ![Screenshot of private channels in a team](media/private-channels-in-teams.png)
 
 ## What you need to know about private channels
 
-Currently, private channels support connectors and tabs (except Wiki, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
+Currently, private channels support connectors and tabs (except Stream, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
 
 Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
 
@@ -127,9 +127,9 @@ See [Manage the life cycle of private channels in Teams](private-channels-life-c
 
 ## Private channel SharePoint sites
 
-Each private channel has it's own SharePoint site collection optimized for file sharing and fast provisioning. The separate site collection is to ensure security and privacy of the private channel files to only the private channel members compared to the team site where the owner has access to all assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a full-featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
+Each private channel has it's own SharePoint site collection optimized for file sharing and fast provisioning. The separate site collection is to ensure access to private channel files is restricted to only members of the private channel compared to the team site where team owners have access to all the assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a full-featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
 
-To accommodate a greater number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams and  any differences in membership are reconciled within four hours. Users can be added to the Visitors group of the site collection to support scenarios where users may need to access documents without needing to access messages exchanged in the private channel.
+To accommodate a greater number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams. Any changes to the membership of owner or member groups in SharePoint Online will be reverted to private channel membership within four hours automatically. Users can be added to the Visitors group of the site collection to support scenarios where users may need to access documents without needing to access messages exchanged in the private channel.
 
 Teams manages the life cycle of the private channel SharePoint site collection. If the site collection is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is deleted and hard-deleted, a new site collection is provisioned for the private channel.
 
