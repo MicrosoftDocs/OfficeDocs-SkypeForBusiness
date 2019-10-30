@@ -31,7 +31,6 @@ For these features to be supported in an on-premises Exchange UM deployment, you
 - Microsoft Exchange Server 2010 or latest service pack (Skype for Business Server 2015 only)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019  (Skype for Business Server 2019 only)
 
 > [!NOTE]
 > Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) for more information.
@@ -89,7 +88,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 
 - Work with Exchange administrators to confirm which tasks each of you will perform to assure a smooth and successful integration.
 
-- Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM. For details about installing Exchange server roles, see the Microsoft Exchange Server 2013 documentation.
+- Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM. For details about installing Exchange server roles, see the Microsoft Exchange Server documentation.
 
     > [!IMPORTANT]
     > When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate. The self-signed certificate does not enable Skype for Business Server and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust.
