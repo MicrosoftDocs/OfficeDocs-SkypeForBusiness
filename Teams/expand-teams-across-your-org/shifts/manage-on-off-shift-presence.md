@@ -22,13 +22,20 @@ appliesto:
 > [!IMPORTANT]
 > Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
 
-Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. You can configure Teams to show shift-based presence states for the Firstline Workers in your organization. These shift-based presence states&mdash;**Off shift**, **On shift**, and **Busy**&mdash;are different than the [default presence states](../../presence-admins.md) in Teams and are designed to meet the unique needs of Firstline Workers. With this feature, you can also set up a custom message that's displayed to Firstline Workers when they access Teams when they are off shift.
+Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based presence, you can also set up a custom message that's displayed to Firstline Workers when they access Teams when off shift.
 
-|||
-|---------|---------|
-|![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) On shift  ||
-|![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) Off shift   ||
-|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy    |         |
+The shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdash;are different than the [default presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can customize the experience for people in your organization based on their role.
+
+## Shift-based presence 
+
+|App configured |User configured  |More information  |
+|---------|---------|---------|
+|![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) On shift     |         |Automatically set at the start of a shift         |
+|![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) Off shift     |         |Automatically set at the end of a shift         |
+|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Can be automatically or manually set        |
+|![Solid red circle, indicates Busy in a meeting](../../media/flw-presence-busy.png) In a meeting| ||
+|![Solid red circle, indicates Busy in a call](../../media/flw-presence-busy.png) In a call| ||
+|![Red circle with white line, indicates Presenting](../../media/Presence_DND.png) Presenting|||
 
 ## Example scenario
 
@@ -42,23 +49,15 @@ You also have information workers in your organization who are salaried and who 
 
 As an admin, you use PowerShell to manage shift-based presence.
 
-### Set whether shift-based presence for your Firstline Workers in your organization
+### Turn on or turn off shift-based presence in your organization
 
 You use PowerShell to control whether Firstline Workers in your organization use shift-based presence.
 
-### Turn on shift-based presence for your Firstline Workers in your organization
+### Turn on shift-based presence for your Firstline Workers
 
 You use PowerShell to control whether Firstline Workers in your organization use shift-based presence.
 
-### Turn on shift-based presence
-
-
-### 
-
-
-
-
-
+### Set up a custom message to display when a Firstline Worker accesses Teams when off shift
 
 
 ## Related topics
