@@ -38,7 +38,7 @@ There are two types of Calling Plans:
 
 ### Domestic Calling Plan
 
-The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's given a Business Voice license that includes an allotment of minutes they can use to make calls. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
+The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user that's assigned a Business Voice license that includes an allotment of minutes they can use to make calls. The allotment given to each user depends on the country or region they're located in. Here's a table that shows the number of minutes for each country or region where Business Voice is supported:
 
 |Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
@@ -49,9 +49,18 @@ Calls between the United States and Canada are domestic calls. You don't need to
 
 ### International Calling Plan
 
-The International Calling Plan lets users call phone numbers outside their country or region. Business Voice doesn't include the International Calling Plan for every user but it can be purchased as an add on. 
+The International Calling Plan lets users call phone numbers outside their country or region. Business Voice doesn't include the International Calling Plan for every user but it can be purchased as an add on.
 
 When you think about whether to buy a user an International Calling Plan, check to see how often they make international calls and how much time they spend on them. This is important because, when you purchase an International Calling Plan, you're paying for a certain number of minutes up front. If a user doesn't use up all of the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes provided by an International Calling Plan, don't buy one and instead use Communications Credits (coming up in the next section).
+
+## Minute pools
+
+When a user is assigned a Business Voice license, they're given an allotment of minutes depending on the country or region in which they're located (see the Calling Plans section above for more details). The minutes alloted to each user are combined to create a pool of minutes that can be shared by all Business Voice users in that country or region. As minutes are used, the total available minutes in the pool are reduced. By pooling minutes together, you avoid a situation where one user may run out of minutes while another still has a large allotment remaining.
+
+Both Domestic and International Calling Plans allow minutes to be pooled. However, minute pools can't be shared between Domestic and International Calling Plans. 
+
+> [!IMPORTANT]
+> The number of minutes in a pool depends on the number of Business Voice licenses assigned to users, not the number of Business Voice licenses purchased. For example, if you've purchased 10 Business Voice licenses in Canada but are only using three licenses, you'll have a total of 9,000 minutes in your pool (3 licenses multiplied by 3,000 minutes per user).
 
 ## Communications credits
 
