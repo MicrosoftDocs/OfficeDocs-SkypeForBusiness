@@ -22,9 +22,7 @@ appliesto:
 > [!IMPORTANT]
 > Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
 
-Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. You can configure Teams to show shift-based presence states for the Firstline Workers in your organization. These shift-based presence states&mdash;**Off shift**, **On shift**, and **Busy**&mdash;are different than the [default presence states](../../presence-admins.md) in Teams and lets you customize the experience for people in your organization based on their role.
-
-You can also set up a custom message that's displayed to Firstline Workers when they access Teams when they are off shift.
+Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. You can configure Teams to show shift-based presence states for the Firstline Workers in your organization. These shift-based presence states&mdash;**Off shift**, **On shift**, and **Busy**&mdash;are different than the [default presence states](../../presence-admins.md) in Teams and are designed to meet the unique needs of Firstline Workers. With this feature, you can also set up a custom message that's displayed to Firstline Workers when they access Teams when they are off shift.
 
 |||
 |---------|---------|
