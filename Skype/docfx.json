@@ -139,9 +139,7 @@
         "daswifty",
         "MikePlumleyMSFT"
       ],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://www.skypefeedback.com/"
+      "feedback_system": "None"
     },
     "fileMetadata": {},
     "template": [],
