@@ -26,21 +26,7 @@ Microsoft Whiteboard is a free-form, digital canvas where people, content, and i
 
 Users can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in all the Whiteboard applications on Windows 10, iOS, and the web app.
 
-## Turn on or turn off the Whiteboard app
-
-To turn on or turn off the Whiteboard web app, do the following steps:
-
-1. Go to the Microsoft 365 admin center.
-
-2. Go to **Settings** > **Services & add-ins**.
-
-3. On the **Service & add-ins** page, scroll down, and then choose **Whiteboard**.
-
-4. To turn on the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard on or off for your entire organization** to **On**.
-
-    To turn off the Whiteboard app, on the **Whiteboard** pane, switch **Turn Whiteboard on or off for your entire organization** to **Off**.
-
-5. Click **Save**.
+To the Whiteboard app on or off, see [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee). Keep in mind that this setting will enable or disable Whiteboard for your entire organization, and not just for Teams.
 
 ## Whiteboard on Surface Hub
 
