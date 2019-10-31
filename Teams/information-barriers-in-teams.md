@@ -93,4 +93,4 @@ For more details, including plans and pricing, see [Licensing Guidance](https://
 
 - To set up information barrier policies, see [Define policies for information barriers](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
-- To edit or remove information barrier policies, see [Edit (or remove) information barrier policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)
+- To edit or remove information barrier policies, see [Edit (or remove) information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md).
