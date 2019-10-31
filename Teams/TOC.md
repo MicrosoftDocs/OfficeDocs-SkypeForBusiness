@@ -288,21 +288,26 @@
 
 
 # Cloud voice 
+
 ## [Plan your deployment](cloud-voice-landing-page.md)
+
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
 ### [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 ### [Set up Phone System](setting-up-your-phone-system.md)
 ### [Set up common area phones](set-up-common-area-phones.md)
+
 ### Voicemail
 #### [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
 #### [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
+
 ### Caller ID
 #### [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
 #### [Manage Caller ID policies](caller-id-policies.md)
 #### [Set the Caller ID for a user](set-the-caller-id-for-a-user.md)
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
+
 ### Auto attendants and call queues 
 #### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
 #### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
@@ -311,6 +316,7 @@
 #### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
 #### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
@@ -353,6 +359,10 @@
 #### [Media path country codes](direct-routing-country-codes.md)
 #### [PowerShell script to test Session Border Controller connections](sip-tester-powershell-script.md)
 #### [Manage call notifications](direct-routing-call-notifications.md)
+#### Protocols
+##### [RFC standards](direct-routing-protocols.md)
+##### [SIP protocol](direct-routing-protocols-SIP.md)
+##### [Media protocols](direct-routing-protocols-media.md)
 
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
