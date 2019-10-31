@@ -70,7 +70,7 @@ In the left navigation, go to **Voice** > **Phone numbers** to view the numbers 
     
 - After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- You can use the **Phone numbers** page in the Microsoft Teamd admin center to see the list of available phone numbers in the **Phone number** column, see whether the phone number has been assigned in the **Status** column, and see the location for the phone number in the **Location** column. 
+- You can use the **Phone numbers** page in the Microsoft Teams admin center to see the list of available phone numbers in the **Phone number** column, see whether the phone number has been assigned in the **Status** column, and see the location for the phone number in the **Location** column. 
 
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
