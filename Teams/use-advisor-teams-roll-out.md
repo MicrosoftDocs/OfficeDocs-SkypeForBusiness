@@ -98,7 +98,11 @@ Once Advisor creates your Service management team, the Advisor bot delivers the 
 >To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 >
 > [!IMPORTANT]
-> The Advisor for Teams Bot doesn't collect any data.
+> The Advisor for Teams Bot is only used to send a welcome message to your service management team. No additional data is collected.
+
+> [!IMPORTANT]
+> The Advisor for Teams bot is enabled by default. Do not disable it if you use or plan on using Advisor for Teams.
+
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
