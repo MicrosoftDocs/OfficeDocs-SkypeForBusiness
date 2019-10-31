@@ -116,25 +116,25 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Response**
 
-        ```
-        HTTP/1.1 200 OK
-        Content-type: application/json
-        Content-length:
-        
+    ```
+    HTTP/1.1 200 OK
+    Content-type: application/json
+    Content-length:
+    
+    {
+      "value": [
         {
-          "value": [
-            {
-              "description": "description-value",
-              "displayName": "display-name-value",
-              "id": "channel_id",
-              "membershipType": "membership-type-value",
-              "isFavoriteByDefault": false,
-              "webUrl": "webUrl-value",
-              "email": "email-value"
-            }
-          ]
+          "description": "description-value",
+          "displayName": "display-name-value",
+          "id": "channel_id",
+          "membershipType": "membership-type-value",
+          "isFavoriteByDefault": false,
+          "webUrl": "webUrl-value",
+          "email": "email-value"
         }
-        ```
+      ]
+    }
+    ```
 
 2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel Id.
 
@@ -144,27 +144,27 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
-    **Response**`
+    **Response**
 
-          ```
-          HTTP/1.1 200 OK
-          Content-type: application/json
-          Content-length:
-            
-          {
-            "value": [
-              {
-                "description": "description-value",
-                "displayName": "display-name-value",
-                "id": "channel_id",
-                "membershipType": "membership-type-value",
-                "isFavoriteByDefault": false,
-                "webUrl": "webUrl-value",
-                "email": "email-value"
-              }
-            ]
-          }
-          ```
+    ```
+    HTTP/1.1 200 OK
+    Content-type: application/json
+    Content-length:
+      
+    {
+      "value": [
+        {
+          "description": "description-value",
+          "displayName": "display-name-value",
+          "id": "channel_id",
+          "membershipType": "membership-type-value",
+          "isFavoriteByDefault": false,
+          "webUrl": "webUrl-value",
+          "email": "email-value"
+        }
+      ]
+    }
+    ```
 
 ## List and update roles of owners and members in a private channel
 
@@ -223,62 +223,62 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     
     **Response**
 
-        ```
-	      HTTP/1.1 200 OK Content-type: application/json
-	      Content-length: 
-	      {
-	            "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
-	            "@odata.count": 2,
-	            "value": [
-	                {
-	                    "@odata.type": "#microsoft.graph.aadUserConversationMember",
-	                    "id": "id-value",
-	                    "roles": [],
-	                    "displayName": "display-name-value",
-	                    "userId": "userId-value",
-	                    "email": "email-value"
-	                },
-	                {
-	                    "@odata.type": "#microsoft.graph.aadUserConversationMember",
-	                "id": "id-value",
-	                "roles": ["owner"],
-	                "displayName": "display-name-value",
-	                "userId": "userId-value",
-	                "email": "email-value"
-	                }
-	            ]
-	      }
-        ```    
-2. 	Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
-
-    **Request**
-
-          ```
-          PATCH 
-          https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
-            
-          {
-          "@odata.type": "#microsoft.graph.aadUserConversationMember",
-          "roles": ["owner"]
-          }
-          ```
-
-    **Response**
-
-          ```
-          HTTP/1.1 200 OK
-           Content-type: application/json
-
-          {
-              "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
-              "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    ```
+    HTTP/1.1 200 OK Content-type: application/json
+    Content-length: 
+    {
+          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.count": 2,
+          "value": [
+              {
+                  "@odata.type": "#microsoft.graph.aadUserConversationMember",
+                  "id": "id-value",
+                  "roles": [],
+                  "displayName": "display-name-value",
+                  "userId": "userId-value",
+                  "email": "email-value"
+              },
+              {
+                  "@odata.type": "#microsoft.graph.aadUserConversationMember",
               "id": "id-value",
               "roles": ["owner"],
               "displayName": "display-name-value",
               "userId": "userId-value",
               "email": "email-value"
-          }
-            ```    
+              }
+          ]
+    }
+    ```    
+2. 	Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
+
+    **Request**
+
+    ```
+    PATCH 
+    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+      
+    {
+    "@odata.type": "#microsoft.graph.aadUserConversationMember",
+    "roles": ["owner"]
+    }
+    ```
+
+    **Response**
+
+    ```
+    HTTP/1.1 200 OK
+    Content-type: application/json
+
+    {
+      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.type": "#microsoft.graph.aadUserConversationMember",
+      "id": "id-value",
+      "roles": ["owner"],
+      "displayName": "display-name-value",
+      "userId": "userId-value",
+      "email": "email-value"
+     }
+    ```
 
 ## Related topics
 
