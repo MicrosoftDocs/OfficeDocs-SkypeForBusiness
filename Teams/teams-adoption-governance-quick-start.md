@@ -28,6 +28,7 @@ The following activities will happen simultaneously, and they may involve all or
 - Has this individual (or group of individuals) suggested use cases that would be good candidates for this phase?  
 - Do they have enough interest from employees in their organization to be early adopters and give you meaningful and regular feedback? 
 
+
 ## ![An icon representing a decision point](media/teams-adoption-decision-icon.png)Decisions
 
 Make the following decisions (at this point, these decisions apply only to Phase 2):
