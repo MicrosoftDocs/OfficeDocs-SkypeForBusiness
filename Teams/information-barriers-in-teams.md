@@ -22,7 +22,7 @@ Information barriers are policies that an admin can configure to prevent individ
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
-> - Information barriers version 1 doesn't include support for SharePoint and OneDrive for Business. We are working on enabling the feature in SharePoint and will communicate once it's available.
+> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Please click here(https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3Dv4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u&data=04%7C01%7Cvikramju%40microsoft.com%7C99f4435b8a1b41f417ee08d75d784291%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637080643416820781%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C-1&sdata=EWC%2BAEVqZXcnJ909UA9EYoOt%2FXux%2B3vPBsBKWt3t1O0%3D&reserved=0) to participate in the private preview. .
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
@@ -75,36 +75,26 @@ If there is an existing chat or other communication between users, and a new pol
 
 Currently, users experience the following if an information barrier policy blocks another user:
 
-- **People tab** - A user may see some blocked users on the **People** tab. The user can select the blocked users.
-- **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
-- **Org charts** - If a user accesses an org chart on which a blocked user appears, the user will see the blocked user on the chart and can click actions on the chart, but the actions (such as calling) will not go through.
-- **People card** - If a user participates in a conversation and is subsequently blocked, other users can still see the people card for the blocked user. All actions listed on the card (such as calling and chat) will be available, but the actions will not go through.
-- **Suggested contacts** - On the suggested contacts list (the initial contact list that appears for new users), users can see all suggested contacts (including blocked users). However, if a user clicks the name of a blocked user to open the Chats pane, the message will be blocked.
-- **Chat contacts** - A user can see blocked users on the chat contact list.
-- **Calls contacts** - A user can see blocked users on the calls contact list and actions such as calling and messaging will appear, but when the user tries to call or send a message to the blocked user, the call or message will not go through.
-- **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
-
-Coming soon: users will experience the following if an information barrier policy blocks another user:
-
 - **People tab** - A user cannot see blocked users on the **People** tab.
+- **People Picker** - Blocked users will not be visible in the people picker.
 - **Activity tab** - If a user visits the **Activity** tab of a blocked user, no posts will appear. (The **Activity** tab displays channel posts only, and there would be no common channels between the two users.)
 - **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user will not appear on the org chart and an error message will appear instead.
 - **People card** - If a user participates in a conversation and the user is subsequently blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
 - **Suggested contacts** - Blocked users do not appear on the suggested contacts list (the initial contact list that appears for new users).
-- **Chat contacts** - A user cannot see blocked users on the chat contact list.
+- **Chat contacts** - A user can see blocked users on the chats contact list, but the blocked users will be identified and the only action the user can perform is to delete them. The user can also click on them to view their past conversation.
 - **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified and the only action the user can perform is to delete them.
 - **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
 
+## What will users experience if another user is blocked?
+
+When a Team is created, a SharePoint site is provisioned and associated with the Team for the files experience. Access to this SharePoint site and files honors the organization’s IB policy i.e. only the users whose IB segment matches per IB policy are allowed access. Even at the time of file sharing, the IB policy is honored.
+
+For example: In Contoso Bank corporation, user ‘Sesha@contosobank.onmicrosoft.com’ belongs to Investment Banking segment and user ‘Nikita@contosobank.onmicrosoft.com’ belongs to segment Advisory. The organization’s IB policy blocks communication and collaboration between these two segments. 
+When user Sesha creates a Team for Investment Banking segment, the Team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can’t access that site even if she has the site link.
+
 ## Required licenses and permissions
 
-Information barriers are rolling out now, and are included in subscriptions, such as:
-
-- Microsoft 365 E5
-- Office 365 E5
-- Office 365 Advanced Compliance
-- Microsoft 365 E5 Compliance
-
-For more details, including plans and pricing, see [Compliance Solutions](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## More information
 
