@@ -28,6 +28,7 @@ The following activities will happen simultaneously, and they may involve all or
 - Has this individual (or group of individuals) suggested use cases that would be good candidates for this phase?  
 - Do they have enough interest from employees in their organization to be early adopters and give you meaningful and regular feedback? 
 
+To learn more, read [Plan for governance in Teams](plan-teams-governance.md) and [Plan for lifecycle management in Teams](plan-teams-lifecycle.md).
 
 ## ![An icon representing a decision point](media/teams-adoption-decision-icon.png)Decisions
 
