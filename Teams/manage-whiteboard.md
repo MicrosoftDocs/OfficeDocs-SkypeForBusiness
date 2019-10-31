@@ -26,7 +26,7 @@ Microsoft Whiteboard is a free-form, digital canvas where people, content, and i
 
 Users can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in all the Whiteboard applications on Windows 10, iOS, and the web app.
 
-To the Whiteboard app on or off, see [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee). Keep in mind that this setting will enable or disable Whiteboard for your entire organization, and not just for Teams.
+To turn the Whiteboard app on or off, see [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee). Keep in mind that this setting will enable or disable Whiteboard for your entire organization, and not just for Teams.
 
 ## Whiteboard on Surface Hub
 
