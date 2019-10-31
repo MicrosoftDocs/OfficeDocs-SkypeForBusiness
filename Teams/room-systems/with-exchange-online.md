@@ -127,7 +127,7 @@ Import-PSSession $Session -DisableNameChecking
     If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### Assign a Skype for Business Server license to your Microsoft Teams Rooms account
