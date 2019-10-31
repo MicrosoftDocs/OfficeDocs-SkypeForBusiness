@@ -43,7 +43,7 @@ With shift-based presence, you can also manage access to Teams when Firstline Wo
 
 Here's an example of how your organization can use shift-based presence in Teams.
 
-You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You configure Teams to display a message to Firstline Workers when they try to access Teams when off shift. If they acknowledge the message and choose to use Teams, their time on Teams isn't counted towards payable hours.
+You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a message that says "This time won't count toward payable hours", which is displayed to Firstline Workers when they try to access Teams when off shift. They can click **I accept** to use Teams or click **Exit Teams**.
 
 You also have information workers in your organization who are salaried and who don't work shifts. You configure your information workers to use the default presence states in Teams while giving your Firstline Workers shift-based presence.
 
