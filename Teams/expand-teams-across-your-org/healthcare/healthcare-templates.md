@@ -47,6 +47,17 @@ The hospital template is meant for communication and collaboration between multi
 
 \* Auto-favorited 
 
+## Care Coordination template
+
+The care coordination template is meant to facilitate communication within a patient care team, with some examples including interdisciplinary and multidisciplinary teams. Our proprietary Patients application is preloaded in this template and sits in the General channel. With the Patients application, you can curate lists of patients and their associated values and vitals, making it useful for rounding and patient management scenarios. 
+
+|Base Template Type |baseTemplateId |Baseline Template channels|
+|:--- |:---|:---|
+|Healthcare - Care Coordination | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Post-Treatment Review\* <br> Scheduling\* <br> Training\* |
+| | |  |
+
+\* Auto-favorited 
+
 ## How to use first party templates
 
 To use these templates, simply change the ‘template@odata.bind’ property in the request body from ‘standard’ to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
