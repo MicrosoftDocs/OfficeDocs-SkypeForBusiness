@@ -56,6 +56,9 @@
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "titleSuffix": {
+      "Teams/*.md": "Microsoft Teams"
+    }
   }
 }
