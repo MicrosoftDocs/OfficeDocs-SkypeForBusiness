@@ -139,13 +139,18 @@
         "daswifty",
         "MikePlumleyMSFT"
       ],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://www.skypefeedback.com/"
+      "feedback_system": "None",
+      "hideEdit": true
     },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "titleSuffix": {
+      "SfBServer2019/*.md": "Skype for Business Server 2019",
+      "SfbHybrid/*.md": "Skype for Business Hybrid",
+      "SfbOnline/*.md": "Skype for Business Online",
+      "SfbServer/*.md": "Skype for Business Server 2015"
+    }
   }
 }
