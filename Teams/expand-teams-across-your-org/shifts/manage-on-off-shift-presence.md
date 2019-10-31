@@ -26,7 +26,7 @@ Presence in Microsoft Teams indicates a user's current availability and status t
 
 These shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can customize the experience for users based on their role.
 
-With shift-based presence, you can also manage access to Teams when Firstline Workers are off shift. You can set up a custom message that Firstline Workers must acknowledge before they can access Teams.  
+With shift-based presence, you can also manage access to Teams when Firstline Workers are off shift. You can set up a custom message that Firstline Workers must acknowledge before they can use Teams.  
 
 ## Shift-based presence
 
@@ -59,8 +59,7 @@ You use PowerShell to control whether Firstline Workers in your organization use
 
 You use PowerShell to control whether Firstline Workers in your organization use shift-based presence.
 
-### Set up a custom message to display when a Firstline Worker accesses Teams when off shift
-
+### Set up a custom message to display to Firstline Workers when they access Teams when off shift
 
 ## Related topics
 
