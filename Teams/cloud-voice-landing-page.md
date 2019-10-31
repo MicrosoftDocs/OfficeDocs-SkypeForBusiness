@@ -146,6 +146,6 @@ For more information about supported devices, see the following:
 - [Manage your devices in Microsoft Teams](device-management.md)
 - [IP Phones](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Intelligent communications for devices](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [Intelligent communications for devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 
