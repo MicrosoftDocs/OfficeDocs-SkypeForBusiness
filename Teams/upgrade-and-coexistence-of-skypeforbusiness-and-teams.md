@@ -151,7 +151,7 @@ The following table summarizes the pros and cons of using Skype for Business mod
 | :------------------ | :---------------- |
 | Predictable routing for the end user. All calls and chats either land in Skype for Business or Teams (but not both), based on administrator selection.|Interop conversations lack support for rich text, file sharing, and screen sharing. This can be worked around leveraging Meet Now functionality to initiate a meeting. |
 |May reduce end user confusion because a given functionality is only available in one client. | Users are do not have access to Teams for common activities performed in Skype for Business such as chat and calling ahead of upgrading to TeamsOnly.|
-|Administrator has increased control over the set of capabilities available to users while transitioning from Skype for Business to Teams. | Enables customers to take advantage of Teams meetings prior to being ready to fully upgrade (generally due to Enterprise Voice on-premises).|
+|Administrator has increased control over the set of capabilities available to users while transitioning from Skype for Business to Teams. | |
 | Allows an organization to use Teams for meetings, even if it is not yet ready to move entirely to TeamsOnly mode.||
 |Presence of a given user as viewed by others is the same, regardless of which client they use.||
 
