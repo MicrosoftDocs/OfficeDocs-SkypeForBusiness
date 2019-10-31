@@ -41,6 +41,9 @@ Before you start, we recommend that you review the information in [What's a port
 
 4. On the **Add account information** page, complete the following, and then click **Next**.
 
+    > [!IMPORTANT]
+    > The information displayed on this page is determined by the country or region and number type. Each country and region have different regulations on the information that's required to port numbers. What you see this page may be different from what's described here.
+
     - **Order details**: 
         - **Order name**: Name of your order
         - **Notification emails**: Email addresses to receive order notifications. If you enter multiple email addresses, separate each with a semicolon.
@@ -58,11 +61,20 @@ Before you start, we recommend that you review the information in [What's a port
     > [!NOTE]
     > The CSV file must have only one column with a header named PhoneNumber. Each phone number must be on a separate row and can be digits only or in E.164 format.
 
-6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload your signed Letter of Authorization (LOA).
+6. On the **Complete your order** page, click **Upload a signed Letter of Authorization** to upload a scanned copy of the signed Letter of Authorization (LOA).
 
-    If you haven't already downloaded and signed the LOA, click **Download the template** to download it. Complete and sign the form, and then upload it.
+    If you haven't already downloaded and signed the LOA, do the following:
+    
+    1. Click **Download the template** to download the LOA for your country or region. 
+    2. Print the LOA.
+    3. Have the LOA signed by the person who is authorized to make changes to the account.
+    4. Scan the signed LOA, and then click **Upload a signed Letter of Authorization** to upload it.
 
-    Review your order details, and then click **Submit**.
+    > [!NOTE]
+    > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.
+
+7. Review your order details, and then click **Submit**.
+
 
 ## What happens next?
 
