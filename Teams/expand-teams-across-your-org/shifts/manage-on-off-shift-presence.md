@@ -22,11 +22,13 @@ appliesto:
 > [!IMPORTANT]
 > Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
 
-Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based presence, you can also set up a custom message that's displayed to Firstline Workers when they access Teams when off shift.
+Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift.
 
-The shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdash;are different than the [default presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can customize the experience for people in your organization based on their role.
+These shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can customize the experience for users based on their role.
 
-## Shift-based presence 
+With shift-based presence, you can also manage access to Teams when Firstline Workers are off shift. You can set up a custom message to say they won't be compensated for time spent on Teams. Firstline Workers must acknowledge this message before they can access Teams.  
+
+## Shift-based presence
 
 |App configured |User configured  |More information  |
 |---------|---------|---------|
@@ -41,9 +43,9 @@ The shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdas
 
 Here's an example of how your organization can use shift-based presence in Teams.
 
-You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You can configure Teams to display a custom message to Firstline Workers when they try to access Teams when off shift. If they acknowledge the message and choose to use Teams, their time on Teams isn't counted towards payable hours.
+You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You configure Teams to display a message to Firstline Workers when they try to access Teams when off shift. If they acknowledge the message and choose to use Teams, their time on Teams isn't counted towards payable hours.
 
-You also have information workers in your organization who are salaried and who don't work shifts. You can configure your information workers to use the default presence states in Teams while giving your Firstline Workers shift-based presence.
+You also have information workers in your organization who are salaried and who don't work shifts. You configure your information workers to use the default presence states in Teams while giving your Firstline Workers shift-based presence.
 
 ## Manage shift-based presence
 
