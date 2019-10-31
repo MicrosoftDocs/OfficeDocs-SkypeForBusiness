@@ -42,7 +42,7 @@ Before you start, we recommend that you review the information in [What's a port
 4. On the **Add account information** page, complete the following, and then click **Next**.
 
     > [!IMPORTANT]
-    > The information displayed on this page is determined by the country or region and number type. Each country and region have different regulations on the information that's required to port numbers. What you see this page may be different from what's described here.
+    > The information displayed on this page is determined by the country or region and number type. Each country and region have different regulations on the information that's required to port numbers. What you see on this page may be different from what's described here.
 
     - **Order details**: 
         - **Order name**: Name of your order
