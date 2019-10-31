@@ -16,6 +16,7 @@
 
 # Chat, teams, channels, and apps
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
