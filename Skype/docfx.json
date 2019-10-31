@@ -139,7 +139,8 @@
         "daswifty",
         "MikePlumleyMSFT"
       ],
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "hideEdit": true
     },
     "fileMetadata": {},
     "template": [],
