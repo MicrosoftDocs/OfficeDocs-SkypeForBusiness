@@ -20,7 +20,7 @@ description: Get an overview of what port orders are and how to transfer phone n
 
 # What's a port order?
 
-If you currently have a phone service provider or carrier and already have phone numbers for your users, you need to create a "*port order*" to transfer those phone numbers to Microsoft Teams. When the numbers are ported over, you can assign those phone numbers to your users.
+If you currently have a phone service provider or carrier and already have phone numbers for your users or services, you need to create a "*port order*" to transfer those phone numbers to Microsoft Teams. When the numbers are ported over, you can assign those phone numbers to your users and services such as audio conferencing (for conference bridges), auto attendants, and call queues.
   
 After you port your phone numbers over to Teams, Microsoft becomes your service provider and you can disconnect your service with your old service provider or carrier.
 
