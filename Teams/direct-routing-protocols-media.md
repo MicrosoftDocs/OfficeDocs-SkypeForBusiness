@@ -58,13 +58,13 @@ Note: If there is a requirement for the SBC candidate to be IPV6 we can need dis
 
 The ICE Lite implementation MUST responds to any connectivity checks received. The ICE Lite endpoint MUST not send any connectivity check requests. (If connectivity checks are sent in violation the full implementation will respond, this can result in unexpected peer derived candidates being discovered and potentially result in call failures)
 
-###3 Nominations
+#### Nominations
 
 The ICE full implementation endpoint will always be the Controlling endpoint and will follow “Regular” nominations for the selecting the final candidates to be used for media flow. The ICE Lite endpoint can use the nominations to conclude on the path to be used for media and complete call establishment.
 
 Note: In the case of forking with peer endpoints sending 183 provisional answers, the SBC MUST be ready to respond to checks from multiple endpoints and also nominations from multiple endpoints if the nominations happen before 200OK. Depending on the convergence of ICE state machine on the final path and timing of the user answering the nominations can happen before or after 200OK. The SBC MUST be able to handle both cases.
 
-###3 Converging for forking
+#### Converging for forking
 
 If the offer from the SBC forks to multiple Teams endpoints, the Teams endpoints MAY respond with a provisional answer and start connectivity checks. The SBC MUST be prepared to receive connectivity checks and respond to connectivity checks potentially from multiple peer endpoints. For example, the Teams user could be signed on to his desktop and cell phone. Both devices will be notified of the inbound call and will attempt connectivity checks with the SBC.
 
@@ -155,3 +155,4 @@ a=rtcp:52884
 a=rtcp-mux
 ```
 
+### 

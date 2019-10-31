@@ -29,7 +29,7 @@ The customer SBC interfaces with the following components in the Microsoft Teams
 
 For more information about Direct Routing, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
-For details about how Direct Routing implements the Session Initiation Protocol, see [Direct Routing - SIP protocl](direct-routing-protocols-sip.md)
+For details about how Direct Routing implements the Session Initiation Protocol, see [Direct Routing - SIP protocol](direct-routing-protocols-sip.md)
 
 ## RFC standards
 
@@ -66,7 +66,7 @@ In addition to all standards listed as applicable to non-bypass mode, the follow
 
 ### Deviations from the RFC's
 
-Below is the list of deviations where Microsoft implemented the SIP or Media stack in A different manner than described in the RFC (s):
+Below is the list of deviations where Microsoft implemented the SIP or Media stack in a different manner than described in the RFC(s):
 
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
