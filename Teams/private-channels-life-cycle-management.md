@@ -185,23 +185,23 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
     
     **Response**
 
-        ```
-        HTTP/1.1 200 OK Content-type: application/json
-        Content-length:
-        {
-          "value": [
-          {
-              "description": "description-value",
-              "displayName": "display-name-value",
-              "id": "channel_id",
-              "membershipType": "membership-type-value",
-              "isFavoriteByDefault": false,
-              "webUrl": "webUrl-value",
-              "email": "email-value"
-              }
-            ]
-        }
-        ```
+    ```
+    HTTP/1.1 200 OK Content-type: application/json
+    Content-length:
+    {
+      "value": [
+      {
+          "description": "description-value",
+          "displayName": "display-name-value",
+          "id": "channel_id",
+          "membershipType": "membership-type-value",
+          "isFavoriteByDefault": false,
+          "webUrl": "webUrl-value",
+          "email": "email-value"
+          }
+        ]
+    }
+    ```
 
 3. Promote a member to an owner.
 
