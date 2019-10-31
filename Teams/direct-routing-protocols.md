@@ -19,7 +19,7 @@ appliesto:
 
 # Direct Routing protocols
 
-This article describes how Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises SBC and the SIP proxy service.
+This article describes how Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the SIP proxy service.
 
 The customer SBC interfaces with the following components in the Microsoft Teams backend:  **IS MICROSOFT BACKEND THE RIGHT TERM HERE?  OR DO WE REALLY MEAN THE DIRECT ROUTING SERVICE?**)
 
