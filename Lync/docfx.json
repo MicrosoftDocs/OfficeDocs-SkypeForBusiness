@@ -84,6 +84,7 @@
         "dstrome"
       ],
       "feedback_system": "None",
+      "hideEdit": true,
       "ms.topic": "conceptual",
       "ms.prod": "lync-server-2013",
       "audience": "ITPro",
