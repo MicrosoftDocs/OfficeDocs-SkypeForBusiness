@@ -39,7 +39,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <h3>Explore</h3>
                                                 <P><a href="whats-business-voice" target="_blank">What's Business Voice</a></p>
                                                 <P><a href="https://www.microsoft.com/microsoft-365/business-voice" target="_blank">Microsoft 365 Business Voice</a></p>
-                                                <P><a href="https://review.docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-business-voice-service-description?branch=dstrome-smb-voice-sd" target="_blank">Service description</a></p>
+                                                <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description" target="_blank">Service description</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/success-blue.svg" alt="Success logo" />
+                                                    <img src="https://docs.microsoft.com/office/media/icons/success-blue.svg" alt="Success logo" />
                                                 </div>
                                             </div>
                                             <div class="cardText">

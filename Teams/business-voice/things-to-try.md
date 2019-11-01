@@ -14,6 +14,9 @@ search.appverid: MET150
 description: 
 appliesto: 
 - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Things to try after setting up Business Voice
+
+<!-- This topic will be populated in the future. Intentionally left out of the TOC>
