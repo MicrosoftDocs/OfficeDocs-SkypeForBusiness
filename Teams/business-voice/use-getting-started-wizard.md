@@ -44,7 +44,7 @@ It's a good idea to read this article before you start the wizard. When you're r
     </tr>
 </table>
 
-If you want to know more, see [What are emergency locations, addresses, and call routing](../../what-are-emergency-locations-addresses-and-call-routing.md)?
+If you want to know more, see [What are emergency locations, addresses, and call routing](../what-are-emergency-locations-addresses-and-call-routing.md)?
 
 ## Company phone number
 

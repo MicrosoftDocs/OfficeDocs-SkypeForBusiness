@@ -37,7 +37,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Explore</h3>
-                                                <P><a href="whats-business-voice" target="_blank">What's Business Voice</a></p>
+                                                <P><a href="whats-business-voice.md" target="_blank">What's Business Voice</a></p>
                                                 <P><a href="https://www.microsoft.com/microsoft-365/business-voice" target="_blank">Microsoft 365 Business Voice</a></p>
                                                 <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description" target="_blank">Service description</a></p>
                                             </div>
@@ -97,7 +97,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Use</h3>
-                                                <P><a href="create-user.md" target="_blank">Create more users</a></p>
+                                                <P><a href="create-users.md" target="_blank">Create more users</a></p>
                                                 <P><a href="manage-devices.md" target="_blank">Manage your devices</a></p>
                                                 <P><a href="monitor-quality.md" target="_blank">Monitor call quality</a></p>
                                                 <P><a href="analytics-dashboard.md" target="_blank">Call Analytics quality dashboard</a></p>
@@ -119,7 +119,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                                 <h3>Resources for partners</h3>
                                                 <P><a href="/partner-center" target="_blank">Get Microsoft 365 Business from Partner center</a></p>
                                                 <P><a href="https://www.microsoft.com/microsoft-365/partners/businessvoice" target="_blank">Microsoft 365 Business Voice for Partners</a></p>
-                                                <p><a href="partner-resources" target="_blank">Microsoft 365 Business Voice Partner support resources</a>
+                                                <p><a href="partner-resources.md" target="_blank">Microsoft 365 Business Voice Partner support resources</a>
                                             </div>
                                         </div>
                                     </div>

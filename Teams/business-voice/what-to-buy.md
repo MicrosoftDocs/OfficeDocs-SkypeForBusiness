@@ -75,7 +75,7 @@ We strongly recommend that you always keep a minimum Communication Credits balan
 > [!IMPORTANT]
 > Remember that you need Communications Credits if you run out of minutes in your Calling Plans or if you receive toll-free calls. If your Communications Credits balance is empty, you won't be able to receive phone calls on toll-free phone numbers and users won't be able to make calls if their Calling Plan balances are empty.
 
-To learn more about Communication Credits, take a look at [What are Communications Credits](../../what-are-communications-credits.md)?
+To learn more about Communication Credits, take a look at [What are Communications Credits](../what-are-communications-credits.md)?
 
 To see rates for toll-free and international calling, scroll down to **Add time with Communication Credits** in [Cloud Based Phone System](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates).
 
