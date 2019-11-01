@@ -39,7 +39,7 @@ The following articles provide more information about deploying and using cloud 
 - [Phone System with Calling Plans](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Cloud voice deployment](cloud-voice-deployment.md)
-- [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Watch the following session to learn more about Phone System: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
@@ -107,7 +107,7 @@ Microsoft has two types of telephone numbers available: *subscriber* (user) numb
 | :------------|:-------|
 | Which user locations need new phone numbers from Microsoft? | For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md). 
 | Which type of telephone number (subscriber or service) do I need? | To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-How do I port existing phone numbers to Office 365?|For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+How do I port existing phone numbers to Teams?|For more information, see [Transfer phone numbers to Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 |||
 
 ### Dial plans
@@ -129,7 +129,7 @@ Cloud call queues include greetings that are used when someone calls in to a pho
 
 |Ask yourself|Action |
 |:------------|:-------|
-| Does my organization need call queues? | For more information, see [Create a Cloud call queue](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) and [Setting up your Phone System](setting-up-your-phone-system.md). |
+| Does my organization need call queues? | For more information, see [Create a Cloud call queue](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) and [Setting up your Phone System](setting-up-your-phone-system.md). |
 
 ### Auto attendants
 
@@ -144,8 +144,8 @@ Cloud auto attendants can be used to create a menu system for your organization 
 For more information about supported devices, see the following:
 
 - [Manage your devices in Microsoft Teams](device-management.md)
-- [IP Phones](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB audio and video devices](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Intelligent communications for devices](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [IP Phones](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Intelligent communications for devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 
