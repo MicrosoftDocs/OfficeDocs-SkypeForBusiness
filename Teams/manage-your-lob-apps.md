@@ -19,7 +19,7 @@ description: Learn how to take your custom Teams apps from development to deploy
 
 # Manage your line-of-business apps in Microsoft Teams
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for IT pros. For more information on developing Teams apps, see [here](https://docs.microsoft.com/microsoftteams/platform).
+This article provides end-to-end guidance for how to take your Teams app from development to deployment. This guidance focuses on the Teams aspects of the app and is intended for IT pros. For more information on developing Teams apps, see <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a>.
 
 ![Overview of your app from development to deployment](media/manage-your-lob-apps.png)
 
