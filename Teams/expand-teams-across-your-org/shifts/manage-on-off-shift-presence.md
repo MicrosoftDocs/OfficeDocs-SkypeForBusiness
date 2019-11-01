@@ -24,19 +24,21 @@ appliesto:
 
 Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift.
 
-These shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can customize the experience for users based on their role.
+These shift-based presence states&mdash;**Off shift**, **On shift**, **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can configure different experiences for people in your organization based on their role.
 
-With shift-based presence, you can also manage access to Teams when Firstline Workers are off shift. You can set up a custom message that Firstline Workers must acknowledge before they can use Teams.  
+With shift-based presence, you can manage access to Teams when Firstline Workers are off shift. You can set up a custom message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
 
 ## Scenario
 
-Here's an example of how your organization can use shift-based presence in Teams.
+Here's an example of how your organization can use shift-based presence.
 
-You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a message that says "This time won't count toward payable hours", which is displayed to Firstline Workers when they try to access Teams when off shift. They can click **I accept** to use Teams or click **Exit Teams**.
+You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a message that says "This time won't count toward payable hours", which is displayed when Firstline Workers try to access Teams when off shift. If they choose to use Teams, they click **I accept** with the understanding that they won't be paid for this time. Or, they can click **Exit Teams** to exit Teams.
 
 You also have information workers in your organization who are salaried and who don't work shifts. You configure your information workers to use the default presence states in Teams while giving your Firstline Workers shift-based presence.
 
-## Shift-based presence
+## Shift-based presence states
+
+Here are the shift-based presence states. 
 
 |App configured |User configured  |More information  |
 |---------|---------|---------|
@@ -47,20 +49,20 @@ You also have information workers in your organization who are salaried and who 
 |![Solid red circle, indicates Busy in a call](../../media/flw-presence-busy.png) In a call| ||
 |![Red circle with white line, indicates Presenting](../../media/Presence_DND.png) Presenting|||
 
+Most states are automatically set based on activity, although Firstline Workers can manually set their presence to **Busy** in certain scenarios (for example, when on shift).
+
 ## Manage shift-based presence
 
 As an admin, you use PowerShell to set policies to manage shift-based presence.
 
 ### Turn on or turn off shift-based presence in your organization
 
-You use PowerShell to control whether Firstline Workers in your organization use shift-based presence.
-
-### Turn on shift-based presence for your Firstline Workers
-
-You use PowerShell to control whether Firstline Workers in your organization use shift-based presence.
+### Turn on or turn off shift-based presence for Firstline Workers
 
 ### Set up a custom message to display to Firstline Workers when they access Teams when off shift
 
+#### Set the frequency of the message
+ 
 ## Related topics
 
 - [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
