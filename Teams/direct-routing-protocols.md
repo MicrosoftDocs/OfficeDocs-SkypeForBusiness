@@ -17,11 +17,11 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Direct Routing protocols
+# Direct Routing - RFC protocols
 
-This article describes how Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the SIP proxy service.
+This article describes how Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 
-The customer SBC interfaces with the following components in the Microsoft Teams backend:  **IS MICROSOFT BACKEND THE RIGHT TERM HERE?  OR DO WE REALLY MEAN THE DIRECT ROUTING SERVICE?**)
+The customer SBC interfaces with the following components in the Microsoft Teams backend:  **IS MICROSOFT BACKEND THE RIGHT TERM HERE?  OR DO WE REALLY MEAN THE DIRECT ROUTING SERVICE?**
 
 - The SIP proxy for signaling 
 
@@ -29,13 +29,15 @@ The customer SBC interfaces with the following components in the Microsoft Teams
 
 For more information about Direct Routing, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
-For details about how Direct Routing implements the Session Initiation Protocol, see [Direct Routing - SIP protocol](direct-routing-protocols-sip.md)
+For more information about how Direct Routing implements the SIP protocol, see [Direct Routing - SIP protocol](direct-routing-protocols-sip.md).
 
 ## RFC standards
 
 Direct Routing complies with RFC standards.  The SBC connected to Direct Routing must also comply with the following RFCs (or their successors). 
 
-### Standards applicable to devices that support non-media bypass mode only
+### Standards applicable to devices that support non-media bypass mode 
+
+The following standards are applicable to devices that support only non-media bypass mode:
 
 - [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261): Session Initiation Protocol
 - [RFC 3325](https://www.ietf.org/rfc/rfc3325). Private Extension to the Session Initiation Protocol for asserted identity within Trusted Networks. 
@@ -50,7 +52,7 @@ Direct Routing complies with RFC standards.  The SBC connected to Direct Routing
 
 ### Standards applicable to devices that support media bypass mode
 
-In addition to all standards listed as applicable to non-bypass mode, the following stardards are used for media bypass mode:
+In addition to the standards listed as applicable to non-bypass mode, the following stardards are used for media bypass mode:
 
 - [RFC 5245 Interactive Connectivity Establishment (ICE) for Media Bypass](https://tools.ietf.org/html/rfc5245).  The SBC MUST support the following:
   - ICE Lite, the Teams clients are full ICE clients
@@ -66,7 +68,7 @@ In addition to all standards listed as applicable to non-bypass mode, the follow
 
 ### Deviations from the RFC's
 
-Below is the list of deviations where Microsoft implemented the SIP or Media stack in a different manner than described in the RFC(s):
+The following table lists the sections of the RFC(s) in which Microsoft's implementation of the SIP or media stack deviates from the standard:
 
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
@@ -75,10 +77,10 @@ Below is the list of deviations where Microsoft implemented the SIP or Media sta
 
 ## Operational modes
 
-There are two operational modes:
+There are two operational modes for Direct Routing:
 
-- **Without Media Bypass**. In this case all RTP traffic flows between the Teams client, the media processors, and the SBC.  T(eams Client <-> Media Processors <-> SBC). 
+- **Without Media Bypass** in which all RTP traffic flows between the Teams client, the media processors, and the SBC.  
 
-- **With Media Bypass**. In this case RTP media flows between the Teams endpoints and the SBC (Teams <-> SBC). 
+- **With Media Bypass** in which all RTP media flows between the Teams endpoints and the SBC. 
 
-SIP traffic always flows via the SIP proxy.   **TRUE?**
+Note that SIP traffic always flows via the SIP proxy.   
