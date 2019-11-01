@@ -2,6 +2,76 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/what-s-the-status-of-my-port-orders-in-teams.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/port-order-status", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Teams/transfer-phone-numbers-to-office-365.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/transferring-phone-numbers-common-questions.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/port-order-overview", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/authorized-person-on-the-account.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-should-i-enter-the-phone-numbers.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/port-order-account-information.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/port-order-overview.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-is-my-billing-telephone-number.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-account-number.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      }, 
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-company-name.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-should-i-put-in-for-the-service-address.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/more-information-about-porting", 
+      "redirect_document_id": false
+      },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-s-the-status-of-my-port-orders.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/port-order-status", 
+      "redirect_document_id": false
+      },
+    {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-place-organization", 
       "redirect_document_id": true
