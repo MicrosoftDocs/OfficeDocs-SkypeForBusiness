@@ -361,7 +361,7 @@
 #### [PowerShell script to test Session Border Controller connections](sip-tester-powershell-script.md)
 #### [Manage call notifications](direct-routing-call-notifications.md)
 #### Protocols
-##### [RFC standards](direct-routing-protocols.md)
+##### [Definitions and RFC standards](direct-routing-protocols.md)
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
 
