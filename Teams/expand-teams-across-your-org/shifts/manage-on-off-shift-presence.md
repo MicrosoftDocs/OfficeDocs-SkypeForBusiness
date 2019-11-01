@@ -32,24 +32,25 @@ With shift-based presence, you can manage access to Teams when Firstline Workers
 
 Here's an example of how your organization can use shift-based presence.
 
-You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a message that says "This time won't count toward payable hours", which is displayed when Firstline Workers try to access Teams when off shift. If they choose to use Teams, they click **I accept** with the understanding that they won't be paid for this time. Or, they can click **Exit Teams** to exit Teams.
+You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a custom message that says "This time won't count toward payable hours", which is displayed when Firstline Workers try to access Teams when off shift. If they choose to use Teams, they click **I accept** with the understanding that they won't be paid for this time.
 
 You also have information workers in your organization who are salaried and who don't work shifts. You configure your information workers to use the default presence states in Teams while giving your Firstline Workers shift-based presence.
 
 ## Shift-based presence states
 
-Here are the shift-based presence states. 
+Here are the shift-based presence states.
 
 |App configured |User configured  |More information  |
 |---------|---------|---------|
 |![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) On shift     |         |Automatically set at the start of a shift         |
 |![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) Off shift     |         |Automatically set at the end of a shift         |
-|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Can be automatically or manually set        |
+|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the Firstline Workder is off shift.|
 |![Solid red circle, indicates Busy in a meeting](../../media/flw-presence-busy.png) In a meeting| ||
 |![Solid red circle, indicates Busy in a call](../../media/flw-presence-busy.png) In a call| ||
 |![Red circle with white line, indicates Presenting](../../media/Presence_DND.png) Presenting|||
 
-Most states are automatically set based on activity, although Firstline Workers can manually set their presence to **Busy** when on shift.
+## Off shift access to Teams
+
 
 ## Manage shift-based presence
 
