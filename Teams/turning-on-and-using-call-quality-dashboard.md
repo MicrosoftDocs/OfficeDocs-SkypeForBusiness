@@ -34,7 +34,7 @@ Currently, CQD version 3 and CQD version 2 are both available for use. CQD v3 is
 
 ## Latest changes and updates
 
-CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII), giving admins the ability to zoom in to the user level. There is also report interactivity to support new scenarios such as:
+The updated CQD delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24hrs).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
 
 - Call Quality by Region:
   - date-by-region
