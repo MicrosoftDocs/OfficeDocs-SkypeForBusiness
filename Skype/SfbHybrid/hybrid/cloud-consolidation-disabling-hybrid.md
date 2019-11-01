@@ -63,7 +63,7 @@ The command below needs to be done from an on-premises PowerShell window.  If yo
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
-### Managing phone numbers for users who were migrated from on-premises
+### Manage phone numbers for users who were migrated from on-premises
 
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. There are two different possibilities:
 
