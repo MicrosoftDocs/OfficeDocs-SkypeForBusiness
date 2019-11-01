@@ -92,7 +92,7 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
 
 For more stuff, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
 
-If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### Step 4 - Setting up your phone
 
