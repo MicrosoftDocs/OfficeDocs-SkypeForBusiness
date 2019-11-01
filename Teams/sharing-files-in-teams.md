@@ -19,7 +19,8 @@ appliesto:
 # Sharing files in Microsoft Teams
 
 The file sharing features in Teams let users share content with other Teams users in their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well.
-![Diagram indicating how file sharing works between Teams and OneDrive for Business and SharePoint](media/sharing-files-in-teams-image1.png)
+
+![Diagram showing how Teams, SharePoint, and OneDrive work together](media/teams-share-and-work.png)
 
 Teams sharing lets users do the following:
 
