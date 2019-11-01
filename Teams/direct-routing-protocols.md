@@ -19,13 +19,14 @@ appliesto:
 
 # Direct Routing - RFC protocols
 
-This article describes how Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
+This article describes how Microsoft Phone System Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 
-The customer SBC interfaces with the following components in the Microsoft Teams backend:  **IS MICROSOFT BACKEND THE RIGHT TERM HERE?  C CAN WE SAY DIRECT ROUTING SERVICE INSTEAD?**
+The customer SBC interfaces with the following components in the Microsoft Teams backend: 
 
-- The SIP proxy for signaling 
+- **The SIP proxy** for signaling. This is the Internet-facing component of Direct Routing that handles SIP (TLS) connections between the SBCs and Direct Routing.
 
-- The media processors for media
+- **The media processors** for media. This is the Internet-facing component of Direct Routing that handles media traffic. This component uses SRTP and SRTCP protocols.
+
 
 For more information about Direct Routing, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
@@ -54,9 +55,9 @@ The following standards are applicable to devices that support only non-media by
 
 In addition to the standards listed as applicable to non-bypass mode, the following standards are used for media bypass mode:
 
-- [RFC 5245 Interactive Connectivity Establishment (ICE) for Media Bypass](https://tools.ietf.org/html/rfc5245).  The SBC must support the following:
+- [RFC 5245 Interactive Connectivity Establishment (ICE) for media bypass](https://tools.ietf.org/html/rfc5245).  The SBC must support the following:
   - ICE Lite - the Teams clients are full ICE clients
-  - [ICE Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). See more on ICE restarts use case and examples in ICE Restart:  Media Bypass call transferred to an endpoint which does not support Media Bypass   **ADD BOOKMARK HERE**
+  - [ICE Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). See more on ICE restarts use case and examples in ICE Restart:  Media bypass call transferred to an endpoint which does not support media bypass   
 - [RFC RFC 5589 Session Initiation Protocol (SIP) Call Control – Transfer](https://tools.ietf.org/html/rfc5589). 
 - [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP)](https://tools.ietf.org/html/rfc3960), see sections 3.1, Forking, and 3.2, Ringing Tone Generation 
 - [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)
@@ -72,15 +73,15 @@ The following table lists the sections of the RFC(s) in which Microsoft's implem
 
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
-| [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place call on hold |The SIP Proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”
-| [RFC 6337, section 5.4 “Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP Proxy does not support this option |
+| [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place call on hold |The SIP proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”
+| [RFC 6337, section 5.4 “Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option |
 
 ## Operational modes
 
 There are two operational modes for Direct Routing:
 
-- **Without Media Bypass** in which all RTP traffic flows between the Teams client, the media processors, and the SBC.  
+- **Without media bypass** in which all RTP traffic flows between the Teams client, the media processors, and the SBC.  
 
-- **With Media Bypass** in which all RTP media flows between the Teams endpoints and the SBC. 
+- **With media bypass** in which all RTP media flows between the Teams endpoints and the SBC. 
 
 Note that SIP traffic always flows via the SIP proxy.   
