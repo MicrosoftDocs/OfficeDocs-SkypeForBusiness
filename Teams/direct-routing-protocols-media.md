@@ -95,7 +95,7 @@ Note: If the SBC sends a provisional answer (183), the SBC must be ready to rece
 
 To support early media, the SBC may start streaming the media to the peer ICE candidate, with the highest priority based on received connectivity checks, even before nominations are completed by Teams endpoint. The SBC should expect media from Teams on any candidate until nominations are completed. Once a candidate is nominated, the SBC must reset to the right context to send and receive media packets.
 
-## SRTP requirements
+## SRTP support requirements
 
 The SBC must support SRTP encryption cipher AES_CM_128_HMAC_SHA1_80 for offer and answer in the following format:
 
