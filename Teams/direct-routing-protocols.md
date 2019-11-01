@@ -21,7 +21,7 @@ appliesto:
 
 This article describes how Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 
-The customer SBC interfaces with the following components in the Microsoft Teams backend:  **IS MICROSOFT BACKEND THE RIGHT TERM HERE?  OR DO WE REALLY MEAN THE DIRECT ROUTING SERVICE?**
+The customer SBC interfaces with the following components in the Microsoft Teams backend:  **IS MICROSOFT BACKEND THE RIGHT TERM HERE?  C CAN WE SAY DIRECT ROUTING SERVICE INSTEAD?**
 
 - The SIP proxy for signaling 
 
@@ -52,17 +52,17 @@ The following standards are applicable to devices that support only non-media by
 
 ### Standards applicable to devices that support media bypass mode
 
-In addition to the standards listed as applicable to non-bypass mode, the following stardards are used for media bypass mode:
+In addition to the standards listed as applicable to non-bypass mode, the following standards are used for media bypass mode:
 
-- [RFC 5245 Interactive Connectivity Establishment (ICE) for Media Bypass](https://tools.ietf.org/html/rfc5245).  The SBC MUST support the following:
-  - ICE Lite, the Teams clients are full ICE clients
+- [RFC 5245 Interactive Connectivity Establishment (ICE) for Media Bypass](https://tools.ietf.org/html/rfc5245).  The SBC must support the following:
+  - ICE Lite - the Teams clients are full ICE clients
   - [ICE Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). See more on ICE restarts use case and examples in ICE Restart:  Media Bypass call transferred to an endpoint which does not support Media Bypass   **ADD BOOKMARK HERE**
 - [RFC RFC 5589 Session Initiation Protocol (SIP) Call Control – Transfer](https://tools.ietf.org/html/rfc5589). 
-- [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP)](https://tools.ietf.org/html/rfc3960), specifically section 3.1, Forking and 3.2 Ringing Tone Generation 
+- [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP)](https://tools.ietf.org/html/rfc3960), see sections 3.1, Forking, and 3.2, Ringing Tone Generation 
 - [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)
 - [RFC 5766 Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5766)
 
-### Standards applicable to support conveying location information to Teams to E911 providers:
+### Standards applicable to support conveying location information to E911 providers:
 
 - [RFC 6442, Location Conveyance for the Session Initiation Protocol](https://tools.ietf.org/html/rfc6442)
 

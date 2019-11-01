@@ -23,9 +23,9 @@ This article describes how Direct Routing implements the Session Initiation Prot
 
 ## Processing the incoming request: finding the tenant and user
 
-On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. It is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Office 365 tenants.  **IS THE LAST SENTENCE CORRECT?**
+On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Office 365 tenants.  **IS THE LAST SENTENCE CORRECT?**
 
-The section below describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
+This section describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
 
 The following is an example of the SIP Invite message on an incoming call:
 
@@ -63,7 +63,7 @@ On receiving the invite, the SIP proxy performs the following steps:
 
    The requirements for the two lookups (steps 2 and 3) needed for the scenario where one SBC is interconnected to many tenants (carrier scenario) are covered later in this article.
 
-### 3.2.1   Detailed requirements for Contact Header and Request-URI
+### Detailed requirements for Contact Header and Request-URI
 
 #### Contact header
 
@@ -89,7 +89,7 @@ Currently The phone number must contain a plus sign (+) as shown in the followin
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
-## 3.3  Contact and Record-Route headers considerations
+## Contact and Record-Route headers considerations
 
 The SIP hub needs to calculate the next hop FQDN for new in-dialog client transactions (for example Bye or Re-Invite), and when replying to SIP Options. Either Contact or Record-Route are used. 
 
@@ -177,11 +177,11 @@ INSERT GRAPHIC HERE
 
 The SBC must support Invite with Replaces.
 
-## Size fo SDP considerations
+## Size of SDP considerations
 
 The Direct Routing interface might send a SIP message exceeding 1,500 bytes.  The size of SDP primarily causes this. However, if there is a UDP trunk behind the SBC, it might reject the message if it is forwarded from the Microsoft SIP Hub to the trunk unmodified. Microsoft recommends stripping some values in SDP on the SBC when sending the message to the UDP trunks. For example, the ICE candidates or unused codecs can be removed.
 
-## 3.7  Call transfer
+## Call transfer
 
 Direct Routing supports two methods for call transfer:
 
@@ -219,7 +219,7 @@ section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt).
 
 INSERT GRAPHIC HERE
 
-## SIP proxy send the Refer to the SBC and acts as a Transferor
+### SIP proxy send the Refer to the SBC and acts as a Transferor
 
 This is the preferred method for call transfers, and it is mandatory for devices seeking Media Bypass certification. Call Transfer without the SBC being able to handle Refer is not supported in Media Bypass mode. 
 
@@ -269,7 +269,7 @@ The SIP Proxy analyses the Request-URI and if the parameter user=phone is presen
 
 Microsof recommends always applying the user=phone parameter to simplify the call setup process.
 
-### History-Info header
+## History-Info header
 
 The History-Info header is used for retargeting SIP requests and “provide(s) a standard mechanism for capturing the request history information to enable a wide variety of services for networks and end-users”. For more information, see [RFC 4244 – Section 1.1](http://www.ietf.org/rfc/rfc4244.txt). For Microsoft Phone System, this header is used in Simulring and Call Forwarding scenarios.  
 
