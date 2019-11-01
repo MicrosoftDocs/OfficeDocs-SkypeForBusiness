@@ -26,6 +26,8 @@ When planning your organization’s move to Teams from Slack, it is important to
 
 The diagram below shows the Slack architecture at a high level.
 
+![Image that slows Slack architecture at a high level](media/migrate-slack-to-teams-image1.png)
+
 ## Plan your migration from Slack
 ### What you can and can’t migrate
 Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. The Enterprise Grid service plan gives you more migration options, but uses a different set of tools. 
