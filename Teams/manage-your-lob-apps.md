@@ -59,7 +59,7 @@ To allow users to upload custom apps, follow these steps:
 
 ### Create your app
 
-Developers should now have what they need to create your app. See <a href="https://docs.microsoft.commicrosoftteams/platform" target="_blank">here</a> for guidance on that.
+Developers should now have what they need to create your app. See <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">here</a> for guidance on that.
 
 ## Step 2: Validate in production
 
@@ -71,7 +71,7 @@ Microsoft uses <a href="https://docs.microsoft.com/microsoftteams/platform/publi
 
 ### Allow trusted users to upload custom apps in the production tenant
 
-To validate that the app is working correctly in your production tenant, you need to allow yourself and/or trusted users in your organization to upload custom apps.  Much like in the earlier [Allow custom apps in the test tenant](#allow-custom-apps-in-the-test-tenant) step, you use app setup policies to do this.
+To validate that the app is working correctly in your production tenant, you need to allow yourself and/or trusted users in your organization to upload custom apps.  Much like in the earlier <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">step</a>, you use app setup policies to do this.
 
 > [!NOTE]
 > If you’re uncomfortable with uploading the app to your production tenant for validation, even for yourself or trusted users, you can skip this step and follow steps 3 and 4 to upload the unvalidated app to your tenant apps store. Then, restrict access to that app to only yourself and users you trust. These users can then get the app from the tenant apps store to perform validation. After the app is validated, use the same permission policies to open access and roll the app out for production use.
