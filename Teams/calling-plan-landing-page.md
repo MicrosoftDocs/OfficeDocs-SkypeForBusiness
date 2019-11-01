@@ -51,7 +51,7 @@ Do my users each have a direct inward dial (DID) phone number? | To get phone nu
 
 ### Transfer phone numbers to Office 365
 
-It's easy to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+It's easy to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### Phone numbers and emergency locations
