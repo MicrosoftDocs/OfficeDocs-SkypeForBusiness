@@ -22,7 +22,7 @@ Information barriers are policies that an admin can configure to prevent individ
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
-> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Please click here(https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3Dv4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u&data=04%7C01%7Cvikramju%40microsoft.com%7C99f4435b8a1b41f417ee08d75d784291%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637080643416820781%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C-1&sdata=EWC%2BAEVqZXcnJ909UA9EYoOt%2FXux%2B3vPBsBKWt3t1O0%3D&reserved=0) to participate in the private preview. .
+> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Please click [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) to participate in the private preview. .
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
@@ -71,6 +71,7 @@ If there is an existing chat or other communication between users, and a new pol
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations. 
 - **Team** - Any users who have been removed from the group are removed from the team and will not be able to see or participate in existing or new conversations.
 
+
 ## What will users experience if another user is blocked?
 
 Currently, users experience the following if an information barrier policy blocks another user:
@@ -85,21 +86,23 @@ Currently, users experience the following if an information barrier policy block
 - **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified and the only action the user can perform is to delete them.
 - **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
 
-## What will users experience if another user is blocked?
+
+
+## Required licenses and permissions
 
 When a Team is created, a SharePoint site is provisioned and associated with the Team for the files experience. Access to this SharePoint site and files honors the organization’s IB policy i.e. only the users whose IB segment matches per IB policy are allowed access. Even at the time of file sharing, the IB policy is honored.
 
 For example: In Contoso Bank corporation, user ‘Sesha@contosobank.onmicrosoft.com’ belongs to Investment Banking segment and user ‘Nikita@contosobank.onmicrosoft.com’ belongs to segment Advisory. The organization’s IB policy blocks communication and collaboration between these two segments. 
 When user Sesha creates a Team for Investment Banking segment, the Team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can’t access that site even if she has the site link.
 
-## Required licenses and permissions
+For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
-For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## More information
 
 - To learn more about information barriers, see [Information barriers](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- To set up information barrier policies, see [Define policies for information barriers](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- To set up information barrier policies, see [Define policies for information barriers](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 - To edit or remove information barrier policies, see [Edit (or remove) information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+
