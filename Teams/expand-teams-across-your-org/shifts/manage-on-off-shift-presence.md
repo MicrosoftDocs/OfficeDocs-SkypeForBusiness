@@ -49,7 +49,7 @@ Here are the shift-based presence states.
 |![Solid red circle, indicates Busy in a call](../../media/flw-presence-busy.png) In a call| ||
 |![Red circle with white line, indicates Presenting](../../media/Presence_DND.png) Presenting|||
 
-Most states are automatically set based on activity, although Firstline Workers can manually set their presence to **Busy** in certain scenarios (for example, when on shift).
+Most states are automatically set based on activity, although Firstline Workers can manually set their presence to **Busy** when on shift.
 
 ## Manage shift-based presence
 
