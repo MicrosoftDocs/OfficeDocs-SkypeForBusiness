@@ -726,6 +726,7 @@
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Sample email communication to users](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Manage on-shift and off-shift presence for Firstline Workers](expand-teams-across-your-org/shifts/manage-on-off-shift-presence.md)
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
