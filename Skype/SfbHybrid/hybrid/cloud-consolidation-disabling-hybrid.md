@@ -67,15 +67,15 @@ The command below needs to be done from an on-premises PowerShell window.  If yo
 
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. There are two different possibilities:
 
--  The user had a lineURI on-premises before the move (presumably because the user was enabled for Enterprise Voice). 
-
-   If you want to change the lineURI, you must do this in the on-premises Active Directory and let the value flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, this attribute, msRTCSIP-Line, can be edited directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in, or by using PowerShell. If you are using the MMC snap-in, open to the properties page of the user, click Attribute Editor tab, and find msRTCSIP-Line.
-
-   ![Active Directory users and computers tool](../media/disable-hybrid-1.png)
-
-- The user did not have a value for lineURI on-prem before the move. 
+- The user did not have a value for lineURI on-premises before the move. 
 
   In this case, you can modify the LineURI using the -onpremLineUri parameters in the [Set-Csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) in the Skype for Business Online Powershell module.
+
+- The user had a lineURI on-premises before the move (presumably because the user was enabled for Enterprise Voice). 
+
+  If you want to change the lineURI, you must do this in the on-premises Active Directory and let the value flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, this attribute, msRTCSIP-Line, can be edited directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in, or by using PowerShell. If you are using the MMC snap-in, open to the properties page of the user, click Attribute Editor tab, and find msRTCSIP-Line.
+
+  ![Active Directory users and computers tool](../media/disable-hybrid-1.png)
 
 ## See also
 
