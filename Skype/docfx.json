@@ -152,6 +152,6 @@
     },
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness",
-    "markdownEngineName": "markdig",
+    "markdownEngineName": "markdig"
   }
 }
