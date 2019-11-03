@@ -34,7 +34,9 @@ Currently, Advanced CQD and CQD are both available for use. Advanced CQD is avai
 
 ## Latest changes and updates
 
-Advanced CQD delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII), giving admins the ability to zoom in to the user level. There is also report interactivity to support new scenarios such as:
+
+The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
+
 
 - Call Quality by Region:
   - date-by-region
