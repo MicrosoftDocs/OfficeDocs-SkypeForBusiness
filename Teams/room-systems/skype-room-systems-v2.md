@@ -26,7 +26,7 @@ description: "Learn about features available in Microsoft Teams Rooms. "
 
 ## Licensing Solutions for Shared Communication Devices
 
-Microsoft has and dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms and Microsoft Surface Hub).
+Microsoft has a dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms and Microsoft Surface Hub).
 
 ||Microsoft Room SKU |  
 |:--- |:---: |
