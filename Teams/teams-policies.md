@@ -38,7 +38,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
 2. Click **Add**.
 3. Enter a name and description for the policy.
 
-    ![Screen shot of teams policy settings](media/teams-policies.png)
+    ![Screenshot of teams policy settings](media/teams-policies.png)
 4. Choose the settings that you want:
 
 - **Discover private teams**:<a name="discoverteams"> </a> Turn on this setting to allow users to discover private teams in search results and in the team gallery.
