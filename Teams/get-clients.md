@@ -106,7 +106,7 @@ Users will be able to install native Linux packages in `.deb` and `.rpm` formats
 
 1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
 2. Install using one of the following:  
-    - Open the relevant package management tool and go through self-guided Linux app installation process.
+    - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo apt install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`. 
@@ -115,7 +115,7 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
 
 1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
 2. Install using one of the following:
-    - Open the relevant package management tool and go through self-guided Linux app installation process.
+    - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo yum install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`.
