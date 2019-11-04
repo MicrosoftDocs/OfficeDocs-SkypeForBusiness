@@ -30,7 +30,7 @@ After you have moved all users from on-premises to the cloud, you can decommissi
 3. Disable ability in on-prem to communicate with Office 365.
 
 
-These steps should be done together as a unit. Details are provided below.
+These steps should be done together as a unit. Details are provided below. In addition, guidelines for managing phone numbers for migrated users, once the on-premises deployment is disconnected.
 
 > [!Note] 
 > In rare cases, changing DNS from pointing on premises to Office 365 for your organization may cause federation with some other organizations to stop working until that other organization updates their federation configuration:<ul><li>
@@ -57,6 +57,13 @@ The command below needs to be done from a Skype for Business Online PowerShell w
 The command below needs to be done from an on-premises PowerShell window.  If you have previously imported a Skype for Business Online session, start a new Skype for Business PowerShell session.
 
     `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+
+### Managing phone numbers for users who were migrated from on-premises
+
+Admins can manage users that were previously moved from on-premise Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. There are 2 different possibilities:
+1.	If the user had a lineURI on-premise before the move (presumably because the user was enabled for Enterprise Voice), if you want to change the lineURI, you must do this in on-premise AD and let the value flow up to AAD. This does NOT require on-premises Skype for Business Server. Rather, this attribute, msRTCSIP-Line can be edited directly in the on-premises Active Directory, using either Active Directory Users and Computers MMC snap-in, or via PowerShell. If using the MMC snap-in, open to properties page of the user, and click Attribute Editor tab and find msRTCSIP-Line.
+
+2.	If the user did not have a value for lineURI on-prem before the move, you can modify the LineURI using the -onpremLineUri parameters in the set-csuser cmdlet in the Skype for Business Online Powershell module.
 
 ## See also
 
