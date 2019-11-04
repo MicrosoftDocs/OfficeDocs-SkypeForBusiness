@@ -55,7 +55,7 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in an eDiscovery search
 
-Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
