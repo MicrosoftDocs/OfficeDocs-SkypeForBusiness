@@ -23,7 +23,7 @@ description: Get the guidance you need to port your phone numbers to Microsoft T
 
 Here you'll find more information about porting your phone numbers to Microsoft Teams.
 
-For complete step-by-step instructions, see Transfer phone numbers to Teams.
+For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
 If you need help or if you need to get more phone numbers, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
@@ -101,11 +101,11 @@ When you submit a port order, you must use a properly formatted CSV file to subm
 
 ## How do I see the status of my port order?
 
-See What's the status of your port orders?
+See [What's the status of your port orders?](port-order-status.md)
 
 ## Related topics
 
-- What's a port order?
+- [What's a port order?](port-order-overview.md)
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)

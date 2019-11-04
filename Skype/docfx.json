@@ -139,17 +139,19 @@
         "daswifty",
         "MikePlumleyMSFT"
       ],
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "hideEdit": true
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "titleSuffix": {
+        "SfBServer2019/*.md": "Skype for Business Server 2019",
+        "SfbHybrid/*.md": "Skype for Business Hybrid",
+        "SfbOnline/*.md": "Skype for Business Online",
+        "SfbServer/*.md": "Skype for Business Server 2015"
+      }
+    },
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness",
-    "markdownEngineName": "markdig",
-    "titleSuffix": {
-      "SfBServer2019/*.md": "Skype for Business Server 2019",
-      "SfbHybrid/*.md": "Skype for Business Hybrid",
-      "SfbOnline/*.md": "Skype for Business Online",
-      "SfbServer/*.md": "Skype for Business Server 2015"
-    }
+    "markdownEngineName": "markdig"
   }
 }
