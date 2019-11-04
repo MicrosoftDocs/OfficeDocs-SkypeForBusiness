@@ -18,6 +18,8 @@
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
+## [Overview of private channels](private-channels.md)
+## [Manage the life cycle of private channels](private-channels-life-cycle-management.md)
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
