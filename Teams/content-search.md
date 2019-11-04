@@ -21,7 +21,7 @@ Use Content Search in Microsoft Teams
 > [!NOTE]
 > Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels. To learn more, see [Content search of private channels](#content-search-of-private-channels).
 
-Content Search provides an ad-hoc way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
+Content Search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
 
 To learn more, read [Content Search in Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
