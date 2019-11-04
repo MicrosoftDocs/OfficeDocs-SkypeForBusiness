@@ -22,7 +22,8 @@ Information barriers are policies that an admin can configure to prevent individ
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported in version 1.
-> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Please click [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) to participate in the private preview. .
+> - Private channels are compliant to information barrier policies that you configure.
+> - New: Information barrier support for SharePoint site connected to Teams is now in Private Preview. Click [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) to participate in the private preview.
 
 Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
