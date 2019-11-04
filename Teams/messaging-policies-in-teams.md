@@ -29,7 +29,7 @@ By default, a policy named Global (org-wide default) is created. All users in yo
 
 ## Change or create a messaging policy
 
-You can easily manage messaging policies in the Microsoft Teams admin center (http://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
+You can easily manage messaging policies in the Microsoft Teams admin center (https://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
 
 For example, say you want to make sure that sent messages aren't deleted or altered. You would create a new custom policy named "Retain sent messages" and turn off the following settings:
 
