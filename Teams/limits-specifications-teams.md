@@ -105,6 +105,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
+## Presence in Outlook
+
+Teams presence in Outlook is supported in Outlook 2013 and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
+
 ## Storage
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
