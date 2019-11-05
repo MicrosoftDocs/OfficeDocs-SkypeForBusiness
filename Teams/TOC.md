@@ -678,31 +678,31 @@
 #    
 # Hybrid connectivity 
 
-## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Configure hybrid connectivity
-### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### [Configure Azure AD Connect for hybrid environments](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### [Configure Skype for Business hybrid](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Configure Azure AD Connect for hybrid environments](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Configure Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## Move users between on-premises and cloud
-### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### [Move users from on-premises to Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### [Move users from the cloud to on premises](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Move users from on-premises to Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Move users from the cloud to on premises](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Manage meeting migration](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Manage meeting migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## [Deploy a resource forest topology](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [Deploy a resource forest topology](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Cloud consolidation for Teams and Skype for Business Online
-### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation)
-### [Update the edge certificate](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Update the edge certificate](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## [Integration with Exchange and SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Integration with Exchange and SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
 #     
 #     

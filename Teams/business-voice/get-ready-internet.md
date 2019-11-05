@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+localization_priority: Priority
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
