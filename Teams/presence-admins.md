@@ -57,7 +57,6 @@ Users receive all chat messages sent to them in Teams regardless of their presen
 
 Users can specify who can break through (meaning contact them despite a Do Not Disturb state). These settings are available in the Teams client.
 
-
 ## Admin settings in Teams compared to Skype for Business
 
 The following admin settings Skype for Business are different in Teams:
