@@ -39,6 +39,8 @@ Using Teams in a virtualized environment requires the following components.
 - **Thin client**: The endpoint that the user physically interfaces with
 - **Teams desktop app**: This is the Teams desktop client app
 
+![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
+
 ## Teams on VDI requirements
 
 ### Virtualization provider requirements
