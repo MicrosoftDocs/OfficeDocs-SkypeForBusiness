@@ -178,7 +178,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
     5. Install the update.
 5. Update ODBC Driver 11 for SQL Server. 
     1. Reference: [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server).
-    2. Download from [https://www.microsoft.com/en-us/download/confirmation.aspx?id=36434](https://www.microsoft.com/en-us/download/confirmation.aspx?id=36434)
+    2. Download from [https://www.microsoft.com/download/confirmation.aspx?id=36434](https://www.microsoft.com/download/confirmation.aspx?id=36434)
     3. Ensure that Skype for Business Server 2015 services are stopped on the Front End server 
         - Ex (Standard Edition): ```Stop-CsWindowsService```
         - Ex (Enterprise Edition): ```Invoke-CsComputerFailover```
