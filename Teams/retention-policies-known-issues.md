@@ -19,6 +19,9 @@ appliesto:
 
 # Known issues for retention policies in Microsoft Teams
 
+> [!NOTE]
+> We don’t yet support configuration for retention of private channel messages. Retention of files shared in private channels is supported.
+
 The following are known issues for retention policies in Teams that are being tracked and investigated.
 
 - Under Choose Teams in the Teams Channel messages location row, you may see Office 365 Groups that are not also Teams. This will be addressed in the future.
