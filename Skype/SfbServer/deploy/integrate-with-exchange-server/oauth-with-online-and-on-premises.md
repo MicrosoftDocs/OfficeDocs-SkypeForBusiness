@@ -36,7 +36,7 @@ This topic applies to integration with Exchange Server 2013 through 2019.
 
 Perform the steps in the following article:
 
-[Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### Step 2: Create a new Mail User account for the Skype for Business Online Partner Application
 
@@ -147,4 +147,4 @@ Here's an [example of setting one up](https://blogs.msdn.microsoft.com/kaevans/2
 
 ## Related topics
 
-[Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
