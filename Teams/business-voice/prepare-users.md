@@ -27,7 +27,7 @@ If you haven't already, you need to install Teams on any computer and phone that
 
 For PCs and Macs, you can download Teams at https://teams.microsoft.com/downloads. If a user is running Windows 10 in S mode, they can install Teams from the Windows Store.
 For Android and iPhone phones, you can install the app by searching for Microsoft Teams in Google Play and the Apple App Store. Keep in mind that phones need to be running Android 4.4 or later, or iOS 10.0 or later.
-To use Teams on the web, you need to use a supported browser. For a list of supported browser, take a look at the [Web client section in Get clients for Microsoft Teams](../get-clients#web-client).
+To use Teams on the web, you need to use a supported browser. For a list of supported browser, take a look at the [Web client section in Get clients for Microsoft Teams](../get-clients.md#web-client).
 
 ## Devices for Microsoft Teams
 
