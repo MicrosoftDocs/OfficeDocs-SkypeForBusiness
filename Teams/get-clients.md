@@ -19,8 +19,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Get clients for Microsoft Teams 
-===========================
+# Get clients for Microsoft Teams 
+
 
 Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode.
 
@@ -29,8 +29,7 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 >
 > For more information about Windows 10 S mode, see [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode). 
 
-Desktop client
---------------
+## Desktop client
 
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
@@ -120,8 +119,7 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
 
 You can launch Teams via Activities or via Terminal by typing `Teams`.
 
-Web client 
-----------
+## Web client 
 
 The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies. 
 
@@ -129,8 +127,7 @@ The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
 
-Mobile clients
---------------
+## Mobile clients
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work. 
 
@@ -151,25 +148,21 @@ Mobile apps are distributed and updated through the respective mobile platformâ€
 |![An icon depicting a decision point](media/Get_clients_for_Microsoft_Teams_image4.png)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
 |![An icon depicting the next steps](media/Get_clients_for_Microsoft_Teams_image5.png)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
 
-Client update management
-------------------------
+## Client update management
 
 Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required. If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will begin.
 
-Client-side configurations
----------------------------
+## Client-side configurations
 
 Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.
 
-Notification settings
-----------------------------
+## Notification settings
 
 There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.
 
 ![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-Sample PowerShell Script
-----------------------------
+## Sample PowerShell Script
 
 This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
 
