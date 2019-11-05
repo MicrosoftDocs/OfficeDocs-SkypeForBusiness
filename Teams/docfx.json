@@ -45,7 +45,6 @@
       "extendBreadcrumb": "true",
       "ms.suite": "office",
       "contributors_to_exclude": [
-        "dstrome",
         "daswifty",
         "MikePlumleyMSFT"
       ],
