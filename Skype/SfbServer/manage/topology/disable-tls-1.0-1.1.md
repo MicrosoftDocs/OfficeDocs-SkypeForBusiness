@@ -145,7 +145,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
 
 1. Install the Skype for Business Server CU9 update to all servers. 
     1. Install the update to components using the updater.
-    2. Update databases according to documented procedures. For Skype for Business Server 2015, see KB [3061064](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
+    2. Update databases according to documented procedures. For Skype for Business Server 2015, see KB [3061064](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
     3. Validate product functionality in the deployment prior to moving forward with any other changes.
 2. Download .NET 4.7 Offline Installer. 
     1. Reference: [https://www.microsoft.com/en-us/download/details.aspx?id=55167](https://www.microsoft.com/en-us/download/details.aspx?id=55167)
