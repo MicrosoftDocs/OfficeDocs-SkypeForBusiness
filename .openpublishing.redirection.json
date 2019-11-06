@@ -2,6 +2,11 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/sharing-files-in-teams.md", 
+      "redirect_url": "https://aka.ms/SharePoint/Blog/FilesInTeams", 
+      "redirect_document_id": true
+      },
+    {
       "source_path": "Teams/what-s-the-status-of-my-port-orders-in-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/port-order-status", 
       "redirect_document_id": true
