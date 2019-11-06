@@ -107,7 +107,7 @@ For more information about live events and a comparison of Teams live events to 
 
 ## Presence in Outlook
 
-Teams presence in Outlook is supported in Outlook 2013 and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## Storage
 
