@@ -166,7 +166,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
     5. Open an Admin Command Prompt, and upgrade all installed components and instances 
         - Example: C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe /qs /IAcceptSQLServerLicenseTerms /Action=Patch /AllInstances
 4. Update SQL Native Client. 
-    1. Reference: [https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server).
+    1. Reference: [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server).
     2. Download from [https://www.microsoft.com/download/details.aspx?id=50402](https://www.microsoft.com/en-us/download/details.aspx?id=50402)
     3. Ensure Skype for Business Server 2015 services are stopped on the Front End server. 
         - Ex (Standard Edition): ```Stop-CsWindowsServices```
