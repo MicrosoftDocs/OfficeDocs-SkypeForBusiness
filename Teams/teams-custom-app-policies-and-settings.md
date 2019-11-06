@@ -99,7 +99,7 @@ The org-wide custom app setting, **Allow interaction with custom apps**, applies
 
 #### Configure the org-wide custom app setting
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click **Org-wide app settings**.
 3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
 
