@@ -56,9 +56,8 @@ The command below needs to be done from a Skype for Business Online PowerShell w
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.	*Disable ability in on-prem to communicate with Office 365.*  
-The command below needs to be done from an on-premises PowerShell window.  If you have previously imported a Skype for Business Online session, start a new Skype for Business PowerShell session as follows:
-
+3.	*Disable ability in on-premises to communicate with Office 365.*  
+The command below needs to be done from an on-premises PowerShell window:
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -67,13 +66,13 @@ The command below needs to be done from an on-premises PowerShell window.  If yo
 
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. There are two different possibilities:
 
-- The user did not have a value for lineURI on-premises before the move. 
+- The user did not have a value for LineURI on-premises before the move. 
 
-  In this case, you can modify the LineURI using the -onpremLineUri parameters in the [Set-Csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) in the Skype for Business Online Powershell module.
+  In this case, you can modify the LineURI using the -onpremLineUri parameters in the [Set-CsUser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) in the Skype for Business Online PowerShell module.
 
-- The user had a lineURI on-premises before the move (presumably because the user was enabled for Enterprise Voice). 
+- The user had a LineURI on-premises before the move (presumably because the user was enabled for Enterprise Voice). 
 
-  If you want to change the lineURI, you must do this in the on-premises Active Directory and let the value flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, this attribute, msRTCSIP-Line, can be edited directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in, or by using PowerShell. If you are using the MMC snap-in, open to the properties page of the user, click Attribute Editor tab, and find msRTCSIP-Line.
+  If you want to change the LineURI, you must do this in the on-premises Active Directory and let the value flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, this attribute, msRTCSIP-Line, can be edited directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in, or by using PowerShell. If you are using the MMC snap-in, open to the properties page of the user, click Attribute Editor tab, and find msRTCSIP-Line.
 
   ![Active Directory users and computers tool](../media/disable-hybrid-1.png)
 
