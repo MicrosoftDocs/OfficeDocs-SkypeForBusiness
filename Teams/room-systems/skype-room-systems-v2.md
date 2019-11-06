@@ -32,7 +32,7 @@ Microsoft has and dedicated SKU for licensing meetings and calling on a per-devi
 |:--- |:---: |
 |Skype for Business |&#x2714;|
 |Microsoft Teams|  &#x2714;|
-|Phone Systems|  &#x2714;|
+|Phone System|  &#x2714;|
 |Audio Conferencing|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|  
 |Worldwide Availability | &#x2714; &sup2;|
