@@ -19,6 +19,9 @@ appliesto:
 
 # Microsoft Teams retention policies FAQ
 
+> [!NOTE]
+> We don’t yet support configuration for retention of private channel messages. Retention of files shared in private channels is supported.
+
 ### What types of policies can I set up in retention policies and how do they work?
 
 In the Security & Compliance Center, when you set up a retention policy, for Teams or for any other workload, you can set up two main types of policies: 
@@ -35,7 +38,7 @@ Yes, they are. If you create a retention policy to delete data older than 60 day
 
 ### What is the default retention policy? 
 
-By default, Teams chat, channel, and files data are retained forever. A user can delete something, but in the absence of retention policies, Teams data is always archived into Exchange online mailboxes (user and group) and stays there for eDiscovery. 
+By default, Teams chat, channel, and files data are retained forever.
 
 ### Can I target sets of users or teams in a policy? 
 
