@@ -59,7 +59,7 @@ appliesto:
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Minimum of 128 MB graphics memory
-|Operating system  | Linux distribution capable of installing DEB, Snap, or RPM. |
+|Operating system  | Linux distribution capable of installing DEB or RPM. |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    | 
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
