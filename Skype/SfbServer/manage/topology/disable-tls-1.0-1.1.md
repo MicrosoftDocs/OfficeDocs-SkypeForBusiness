@@ -480,7 +480,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 **Option 3:** You may also manually replace binaries in a local installation media directory as follows:
 
 1. [Install prerequisites for Skype for Business Server](../../deploy/install/install-prerequisites.md)  
-2. 2. Install .NET 4.7: 
+2. Install .NET 4.7: 
       - **Note:** We first introduced support for .NET 4.7 in Skype for Business Server 2015 CU5 (6.0.9319.281). Therefore, in later steps below we will be updating Core Components prior to the main install.
       - Download: https://www.microsoft.com/download/details.aspx?id=55167.
       - Reference: [Software that should be installed before a Skype for Business Server 2015 deployment](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
