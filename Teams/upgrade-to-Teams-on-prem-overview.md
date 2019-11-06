@@ -479,7 +479,7 @@ An interop chat or call between two users is created when each of the following 
 
 - The Teams user does NOT also have a Skype for Business account homed on-premises. 
 
-Within the interop communication, chat is plain-text only. In addition, file sharing and screensharing are not possible *in the interop chat itself*. However, users in an interop conversation can easily achieve file and/or screensharing by creating an on-demand meeting, from within the interop chat, as described below:
+Within the interop communication, chat is plain-text only. In addition, file sharing and screen sharing are not possible *in the interop chat itself*. However, users in an interop conversation can easily achieve file and/or screen sharing by creating an on-demand meeting, from within the interop chat, as described below:
 
 - If the Teams user attempts to share their screen, an on-demand Teams meeting is automatically created and an invite link to that meeting is sent to the Skype for Business user’s client. Upon clicking the link, the Skype for Business user will open Teams and join the meeting. Both users are now in a Teams meeting and can share as needed.
 
