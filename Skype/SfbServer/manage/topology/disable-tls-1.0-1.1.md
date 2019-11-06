@@ -156,7 +156,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
     6. Run the installer package.
     7. Reboot the server.
 3. Update SQL Express 2014 on all servers. 
-    1. Reference: [https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1-2-support-for-microsoft-sql-server)
+    1. Reference: [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
     2. Download SQL 2014 SP2 
         - Reference: [https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/en-us/download/details.aspx?id=53168)
     3. Copy the installation media to a folder on the server (Ex: C:\01_2014SqlSp2)
