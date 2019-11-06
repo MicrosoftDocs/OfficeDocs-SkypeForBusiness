@@ -34,7 +34,7 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (Debian package `.deb`, Red Hat Package Manager `.rpm`). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as apt and yum will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
+The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (in `.deb` and `.rpm` formats.). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as apt and yum will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
@@ -96,7 +96,7 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 
 ### Linux
 
-Linux users can install Teams using a Debian `.deb` package or as a Red Hat package `.rpm`. 
+Users will be able to install native Linux packages in `.deb` and `.rpm` formats.
 
 > [!NOTE] 
 > The Teams on Linux client is available in limited preview. Submit bugs using `Report a Problem` from within the client. For known issues, see [Known Issues](Known-issues.md).
@@ -105,7 +105,7 @@ Linux users can install Teams using a Debian `.deb` package or as a Red Hat pack
 
 1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
 2. Install using one of the following:  
-    - Open the package using Ubuntu Software Tool and go through self-guided Linux app installation process.
+    - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo apt install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`. 
@@ -114,7 +114,7 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
 
 1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
 2. Install using one of the following:
-    - Open the package using Red Hat Package Management Tool and go through self-guided Linux app installation process.
+    - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo yum install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`.
