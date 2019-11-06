@@ -51,9 +51,9 @@ The user presence states available in Teams are:
 || ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office|
 |||
  
-Users can manually set their current presence state to some options, and their state gets reflected to all other users. More user presence details are also automatically updated. The changes are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list. There's a 15-minute inactivity timeout, after which a current presence state is reset to Away.
+Users can manually set their current presence state to some options, and their state gets reflected to all other users. More user presence details are also automatically updated. The changes are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list. 
 
-Users receive all chat messages sent to them in Teams regardless of their presence state. If the user is offline when someone sends them a message, the chat message appears in Teams the next time the user is online. If a user is in a Do Not Disturb state, the user will still get chat messages but a banner notification won't be displayed.
+There's a 15-minute inactivity timeout, after which a current presence state is reset to Away.
 
 Users can specify who can break through (meaning contact them despite a Do Not Disturb state). These settings are available in the Teams client.
 
