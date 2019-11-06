@@ -30,11 +30,13 @@ Learn how to configure your Office 365 organization to use the Call Quality Dash
   
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
-Currently, CQD version 3 and CQD version 2 are both available for use. CQD v3 is available at <span>https://cqd.teams.microsoft.com</span>. Log in with your Microsoft Teams administrator credentials.
+Currently, Advanced CQD and CQD are both available for use. Advanced CQD is available at <span>https://cqd.teams.microsoft.com</span>. New URL but the same log in with your administrator credentials.
 
 ## Latest changes and updates
 
-CQD version 3 delivers a near real-time CQD dashboard (latency close to 30 minutes), and uses End User Identifiable Information (EUII), giving admins the ability to zoom in to the user level. There is also report interactivity to support new scenarios such as:
+
+The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
+
 
 - Call Quality by Region:
   - date-by-region
