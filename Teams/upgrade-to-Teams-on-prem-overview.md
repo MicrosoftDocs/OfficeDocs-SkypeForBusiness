@@ -489,7 +489,7 @@ Within the interop communication, chat is plain-text only. In addition, file sha
 
 Because interop communications do not support all the features of native Teams conversation, the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication. These conversations are rendered differently in the user interface: Interop threads can be differentiated from a regular native Teams thread by:
 
-- Lack of controls for rich text, file/screensharing, inability to add users.
+- Lack of controls for rich text, file/screen sharing, inability to add users.
 - A modification to the target user’s icon, showing an “S” for Skype for Business.
 
 These differences are shown in the following screenshots:
