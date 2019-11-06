@@ -150,7 +150,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
 2. Download .NET 4.7 Offline Installer. 
     1. Reference: [https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
     2. Ensure that Skype for Business Server 2015 services are stopped on the Front End server.
-    3. Reference: [https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    3. Reference: [https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
     4. Ex (Standard Edition): ```Stop-CsWindowsService```
     5. Ex (Enterprise Edition): ```Invoke-CsComputerFailover```
     6. Run the installer package.
