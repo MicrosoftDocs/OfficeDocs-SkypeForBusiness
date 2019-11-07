@@ -55,10 +55,10 @@ The following table lists the features that are available in Microsoft Teams Roo
 |  | You have Microsoft Teams or Skype for Business Online <br/> Here's what you need to buy:   |You have Skype for Business Server 2015/2019 (on-premises or hybrid). <br/> Here's what you need to buy:|
 |:-----|:-----|:-----|
 |Join a scheduled meeting  | Meeting Room SKU  |Skype for Business Server Standard CAL  |
-|Initiate an ad-hoc meeting | Meeting Room SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Initiate an ad-hoc meeting and dial out from a meeting to phone numbers |  Meeting Room SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Initiate an ad hoc meeting | Meeting Room SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Initiate an ad hoc meeting and dial out from a meeting to phone numbers |  Meeting Room SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Give the room a phone number and make or receive a calls from the room or join an audio conference using a phone number  | Meeting Room SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Mange your room device with Microsoft Intune |Meeting Room SKU  |Microsoft Intune subscription with [on premise MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|Manage your room device with Microsoft Intune |Meeting Room SKU  |Microsoft Intune subscription with [on premise MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
 > [!NOTE]
