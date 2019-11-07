@@ -23,7 +23,7 @@ Manage teams in the Microsoft Teams admin center
 
 ## Overview
 
-This article provides an overview of the management tools for teams in the Microsoft Teams admin center. Start by watching this short video (3 minutes):
+This article provides an overview of the management tools for Teams in the Microsoft Teams admin center. Start by watching this short video (3 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
