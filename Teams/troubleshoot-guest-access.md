@@ -39,6 +39,9 @@ If you’re seeing licensing errors, make sure to read the [Azure Active Directo
 - Guest licenses are counted against the inviting organization. Consider this when you calculate the number of licenses you need.
 - Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.
 
+## Support for B2B User types
+Currently Teams only has support for State 1 and State 2 types of Guest users [as defined by Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/user-properties).
+
 ## Related topics
 
 [Guest access in Teams](guest-access.md)
