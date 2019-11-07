@@ -38,7 +38,7 @@ You can prevent the “Missed Call” notification by configuring the SBC to sen
 
 REASON: SIP; cause=200;text”Call completed elsewhere” 
 
-Note that the call will not be registered in the call detail records of Microsoft Phone System as a successful call. The call will be registered as an “Attempt” with Final SIP Code “487”, Final Microsoft subcode “540200”, and Final SIP Code Phrase “Call completed elsewhere”.   (To view the call detail records, go the Teams Admin portal, Analytics and Reports, Usage Reports, and select PSNT Usage.)
+Note that the call will not be registered in the call detail records of Microsoft Phone System as a successful call. The call will be registered as an “Attempt” with Final SIP Code “487”, Final Microsoft subcode “540200”, and Final SIP Code Phrase “Call completed elsewhere”.   (To view the call detail records, go the Teams Admin portal, Analytics and Reports, Usage Reports, and select PSTN Usage.)
 
 
 The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message. 
