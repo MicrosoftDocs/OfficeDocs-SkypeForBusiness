@@ -21,7 +21,7 @@ appliesto:
 
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. This article walks you through the rollout of meetings and audio conferencing. Start by watching our Teams meetings, conferencing, and devices video (3:28 minutes):
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE46ZdQ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
 *New in November 2019*: You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout, including meetings and conferencing. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out meetings and conferencing in Teams.
 

@@ -24,7 +24,7 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 To get started, watch our short Teams chat, teams, and channels video (4:30 minutes): 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE476Yj]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *New in November 2019*: You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 

@@ -25,9 +25,9 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 If you're new to Teams and want to learn more, check out our short [Welcome to Teams](https://www.youtube.com/embed/s3aQV3T0D6c) video (55 seconds).
 
-Don't miss our intro to Teams for the Teams admin (just over 3 minutes):
+Don't miss our intro to Teams for the Teams admin video (just over 3 minutes):
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 ## Teams architecture
 
