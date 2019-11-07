@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, block or allow apps org-wide, upload new custom apps to your tenant app catalog, and manage org-wide app settings.
+As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps org-wide, and manage org-wide app settings.
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -44,7 +44,7 @@ To see the information that you want in the table, click **Edit Column** in the 
 
 ## Upload a new app
 
-To upload a new custom app, click **Upload new app** to upload your app manifest file in .zip format. If the .zip file isn't a valid Teams app manifest, the upload will fail.
+To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app manifest file in .zip format. If the .zip file isn't a valid Teams app manifest, the upload will fail.
 
 > ??? **DO WE NEED TO ADD STEPS HERE?**
 
@@ -52,7 +52,7 @@ You can still [upload apps by using the Teams client](https://support.office.com
 
 ## Allow and block apps
 
-The **Manage apps** page is where you allow or block individual apps at the org-wide level. Previously, you did this by adding apps to the blocked list on the app permission policy page. Now, the **Manage apps** page shows every available app and its current org-wide app status.
+The **Manage apps** page is where you allow or block individual apps at the org-wide level. Previously, you did this by adding apps to the blocked list on the app permission policy page. With the **Manage apps** page, you see every available app and its current org-wide app status.
 
 To allow or block an app, select it, and then click **Allow** or **Block**. When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
 
