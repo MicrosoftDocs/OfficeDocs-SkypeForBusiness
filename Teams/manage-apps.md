@@ -21,49 +21,38 @@ localization_priority: Normal
 Manage apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can view the status and properties of apps, block or allow apps org-wide, upload custom apps to your tenant app catalog, and manage org-wide app settings.
+As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, block or allow apps org-wide, upload new custom apps to your tenant app catalog, and manage org-wide app settings.
 
-> [!NOTE]
-> You must be a global admin or teams service admin to view the **Manage apps** page.
+The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
-## View apps in your organization's app catalog
+In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or teams service admin to access the page.
 
-You can see every app available in your tenant app catalog on the **Teams apps** > **Manage apps** page. This app catalog gives you the information you need to decide which apps to allow or block for users in your organization.
+## View apps in your tenant app catalog
 
-- Name: App name
-- Certification:
-- Categories:
-- Publisher:
-- App status:
-- Custom app: Whether the app is a custom app.
-- Version:
+The **Manage apps** page lists every app in your tenant app catalog and includes the following information about each app:
 
+- **Name**: The app name. Click the app name to see more information about the app.    
+- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/teams-app-certification/all-apps).  
+- **Categories**: The categories that apply to the app.
+- **App status**: The status of the app at the organizational level, which can be one of the following:
+    - **Allowed**: The app is available for users in your organization.
+    - **Blocked**: The app is blocked and not available for users in your organization.
+    - **Allowed but org-wide disabled**: The app is allowed but disabled in org-wide app settings.
+- **Version**: The app version.
 
-### View app certification information
-
-If an application has gone through certification, the **Certification** column will contain one of two indicators:
-
-- Microsoft 365 certified
-- Publisher attestation
-
-Click these links to see the certification details for each app.
-
-If you see "--" in the **Certification** column, we don't have certification information for that app. 
-
-To learn more about certified apps in Teams, read [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/teams-app-certification/all-apps).
+To see the information that you want in the table, click **Edit Column** in the upper-right corner to add or remove columns to the table.
 
 ## Upload a new app
 
-You can also upload new custom apps on the Manage apps page. Click **Upload new app** to upload your app manifest zip file. If the zip file isn't a valid Teams app manifest zip, the upload will fail.
+To upload a new custom app, click **Upload new app** to upload your app manifest file in .zip format. If the .zip file isn't a valid Teams app manifest, the upload will fail.
 
-You can still [upload apps in the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
-
+You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> Use this URL instead? [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams). 
 
 ## Allow and block apps
 
-The **Manage apps** page is where you allow or block individual apps at the org-wide level. Previously, you did this by adding individual apps to the blocked list on the app permission policy page. Now, the **Manage apps** page shows every available app and its current org-wide app status.
+The **Manage apps** page is where you allow or block individual apps at the org-wide level. Previously, you did this by adding apps to the blocked list on the app permission policy page. Now, the **Manage apps** page shows every available app and its current org-wide app status.
 
-To allow or block an app, select it, and then click **Allow** or **Block**.
+To allow or block an app, select it, and then click **Allow** or **Block**. When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
 
 ## Manage org-wide app settings
 
@@ -79,3 +68,8 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 4. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps.
 5. Click **Save** for org-wide app settings to take effect.
+
+## Related topics
+
+- [Admin settings for apps in Teams](admin-settings.md)
+- [Manage your line-of-business apps in Teams](manage-your-lob-apps.md)
