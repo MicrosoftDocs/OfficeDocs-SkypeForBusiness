@@ -40,6 +40,8 @@ Use the Manage apps page to view and manage all Teams apps in your organization'
 - Disable an app that poses a permission or data loss risk to your organization.
 - ???
 
+To learn more, see [Manage apps in Teams](manage-apps.md).
+
 ## App permission policies
 
 With app permission policies, you can control what apps are available to specific users in your organization.

@@ -21,21 +21,25 @@ localization_priority: Normal
 Manage apps in the Microsoft Teams admin center
 ======================================================
 
-The **Manage apps** page in the Teams admin center is where you (currently limited to Global Administrators or Teams Service Administrators) can view and manage all Teams apps in your organization's app catalog.
+As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can view the status and properties of apps, block or allow apps org-wide, upload custom apps to your tenant app catalog, and manage org-wide app settings.
+
+> [!NOTE]
+> You must be a global admin or teams service admin to view the **Manage apps** page.
 
 ## View apps in your organization's app catalog
 
-As an admin, you'll see every app available in your tenant app catalog on the **Teams apps** > **Manage apps** page. This app catalog gives you the information you need to decide which apps to allow or block for users in your organization.
+You can see every app available in your tenant app catalog on the **Teams apps** > **Manage apps** page. This app catalog gives you the information you need to decide which apps to allow or block for users in your organization.
 
-{Screen Shot}
+- Name: App name
+- Certification:
+- Categories:
+- Publisher:
+- App status:
+- Custom app: Whether the app is a custom app.
+- Version:
 
-## Upload a new app
 
-You can also upload new custom apps on the Manage apps page. Click **Upload new app** to upload your app manifest zip file. If the zip file isn't a valid Teams app manifest zip, the upload will fail.
-
-You can still [upload apps in the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
-
-## View app certification information
+### View app certification information
 
 If an application has gone through certification, the **Certification** column will contain one of two indicators:
 
@@ -48,17 +52,18 @@ If you see "--" in the **Certification** column, we don't have certification inf
 
 To learn more about certified apps in Teams, read [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/teams-app-certification/all-apps).
 
+## Upload a new app
+
+You can also upload new custom apps on the Manage apps page. Click **Upload new app** to upload your app manifest zip file. If the zip file isn't a valid Teams app manifest zip, the upload will fail.
+
+You can still [upload apps in the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+
 ## Allow and block apps
 
-The **Manage apps** page is where you allow or block individual apps at the org-wide level. Previously, you did this by adding individual apps to the blocked list under **Org-wide settings**. Now, the **Manage apps** page shows every available app and its current org-wide app status.
+The **Manage apps** page is where you allow or block individual apps at the org-wide level. Previously, you did this by adding individual apps to the blocked list on the app permission policy page. Now, the **Manage apps** page shows every available app and its current org-wide app status.
 
-To change the status of an app, select it and then click **Allow** or **Block**.
-
-## Org-wide status override
-
-You can still override ALL third-party apps in Teams in **Teams apps** > **Permission policies** > **Org-wide app settings**. If you turn off **Allow third party or custom apps**, your users won't be able to install or use any third-party apps. For apps that you've allowed on the **Manage apps** page, the status will be **Allowed but disabled org-wide**.
-
-{Screen Shot}
+To allow or block an app, select it, and then click **Allow** or **Block**.
 
 ## Manage org-wide app settings
 
@@ -69,7 +74,7 @@ Use org-wide app settings to control whether users can install third-party apps 
     ![Screenshot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
-    - **Allow third-party apps in Teams**: This controls whether users can use third-party apps.
+    - **Allow third-party apps in Teams**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 4. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps.
