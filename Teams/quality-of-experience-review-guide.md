@@ -57,15 +57,17 @@ This guide is also intended to be used by the designated quality champion(s). Fo
 
 Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
 
--   **Office 365 Global Administrator role** 
+-   **Office 365 Global Administrator** 
 
--   **Skype for Business Administrator role** 
+-   **Skype for Business Administrator** 
 
--   **Teams Service Administrator role** 
+-   **Teams Service Administrator** 
 
--   **Teams Communications Support Engineer role** 
+-   **Teams Communications Administrator** 
 
--   **Teams Communications Support Specialist role** 
+-   **Teams Communications Support Engineer** 
+
+-   **Teams Communications Support Specialist** 
 
 Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
 
@@ -260,9 +262,6 @@ For more in-depth training and resources, see the [Appendix](#other-resources).
 
 You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
 
-> [!Note]
-> CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
-
 This guide will help in understanding the core concepts of CQD to help maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online. Additional CQD resources can be found in the [Appendix](#other-resources).
 
 ### Expectations using CQD
@@ -272,18 +271,15 @@ CQD, although useful for analyzing trends and subnets, doesn’t always provide 
 -   CQD won’t provide the root cause for every scenario.
 -   CQD won’t contain Phone System or Audio Conferencing streams.
 -   CQD will call out areas for further investigation based on trends.
--   CQD doesn’t contain any PII.
 
 ### Report editions
 
-There are two report editions in CQD Online: Summary and Detailed. Use the drop-down menu located in the blue bar at the top of the screen to open a report edition. The name of the selected report edition is displayed at the top of the screen.
+There are two report editions in CQD Online: Summary and Detailed. Use the drop-down menu located in the bar at the top of the screen to open a report edition. The name of the selected report edition is displayed at the top of the screen.
 
 -   Summary reports are static and can’t be edited, downloaded, or exported. 
 -   Detailed reports are fully customizable and can be downloaded to a CSV file, exported, or cloned.
 
 For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
-
-![Screen shot of drop-down menu with Summary Reports selected](media/qerguide-image-reportcategories.png)
 
 _Figure 4 - CQD report categories_
 
@@ -796,36 +792,6 @@ The Network Planner determines and organizes your network requirements for your 
 
 Although the Network Planner doesn’t automate the building mapping process entirely, after network information is entered into the Network Planner it can then be exported to a building file ready for upload.
 
-## Diagnostic alerts
-
-Microsoft proactively monitors CQD telemetry to create diagnostic alerts for known issues that negatively affect the user experience. These alerts are then automatically delivered to the service administrator via the message center. The following table outlines the diagnostic alerts that are shown in the message center, along with links to more information.
-
-_Table 6 - Diagnostic alerts_
-
-| Alert                                                                | More information             |
-|----------------------------------------------------------------------|------------------------------|
-| Known poorly performing client versions are in use                   | [Client versions](#client-versions)              |
-| Audio drivers are causing call drops                                 | [Devices](#devices)                      |
-| Restrictions in the firewall are causing call setup failures         | [Setup failure investigations](#setup-failure-investigations) |
-| Deep packet inspection is causing call setup failures                | [Setup failure investigations](#setup-failure-investigations) |
-| Meeting room devices on Wi-Fi networks are causing poor call quality | [Quality investigations](#quality-investigations)       |
-| UDP traffic is being limited, which causes poor call quality         | [TCP](#tcp)                          |
-| VPN usage is affecting call quality                                  | [Quality investigations](#quality-investigations)       |
-
-
-### Message center
-
-The message center alerts you about new updates, features, or issues. The message center is available within the Microsoft 365 admin center to service administrators. Each post provides a high-level overview of how the update, feature, or issue affects your users, and gives links to more detailed information.
-
-To open the message center, in the Microsoft 365 admin center, go to **Health** > **Message center**, or select the message center card on the **Home** dashboard. The dashboard displays the last three messages that were posted and links to the full message center page.
- 
-
-![Message center screen shot showing the last three messages posted](media/qerguide-image-messagecentercard.png)
-
-_Figure 18 - Message center card_
-
-You can also use the [Office 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view the message center, which is a great way to stay current with push notifications. For more information, see [this article](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
-
 ## Reliability investigations
 
 The first step to improving quality is to assess the state of reliability across the organization. Because reliability is vital to a positive user experience, we start with the two components that measure reliability:
@@ -879,10 +845,6 @@ This summary report is used to discover and isolate any buildings or networks th
 ![Screen shot showing setup failures](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figure 20 - Audio Setup Failures by Subnet_
-
-##### Diagnostic alert
-
-If you received a diagnostic alert “Restrictions in the firewall are causing call setup failures” or “Deep packet inspection is causing call setup failures,” focus your remediation efforts on those identified subnets first. The alert has identified subnets that are negatively affecting call reliability. You can use the Setup Failures reports found in the Reliability section to assist with the remediation.
 
 ##### Remediation 
 
@@ -951,7 +913,7 @@ Common causes of call drops:
 -   Older client versions
 -   User behavior
 
-After you discover your problem areas, you can use [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) to further review users in that building for specific issues. Call Analytics contains PII data and can be useful for further isolating potential reasons for the drop failures.
+After you discover your problem areas, you can use [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) to further review users in that building for specific issues. Call Analytics contains additional PII data and can be useful for further isolating potential reasons for the drop failures.
 
 Regardless of your next step, it’s a good practice to notify the helpdesk that an issue has been discovered with specific buildings or subnets. This way, they can quickly respond to incoming calls and triage users more efficiently. Flagged users can then be reported back to the engineering team for further investigation.
 
@@ -1020,12 +982,6 @@ Although the dimensions used might differ slightly between report, each report w
 ![Screen shot showing the poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
 
 _Figure 24 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
-
-##### Diagnostic alert
-
-If you received a diagnostic alert “Meeting room devices on Wi-Fi networks are causing poor call quality,” include and prioritize those devices in your remediation efforts. The alert has identified meeting rooms on Wi-Fi that are actively contributing to poor call quality.
-
-If you receive a diagnostic alert “VPN usage is affecting call quality,” investigate a split-tunneling solution to bypass the VPN appliance and allow media to directly connect to the service. The alert has identified that VPN is negatively affecting call quality.
 
 ##### Remediation
 
@@ -1110,10 +1066,6 @@ In the provided CQD templates, navigate to the TCP Streams by Building and Subne
 ![Screen shot of TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
 
 _Figure 27 – TCP Streams by Building and Subnet - Conferencing_
-
-##### Diagnostic alert
-
-If you received a diagnostic alert “UDP traffic is being limited, which causes poor call quality,” focus your TCP remediation efforts on those subnets first. The alert has identified subnets where the use of TCP is negatively affecting call quality.
 
 ##### Remediation
 
@@ -1205,10 +1157,6 @@ The reports in this space focus on identifying Skype for Business client version
 
 _Figure 30 - Client version report_
 
-#### Diagnostic alert
-
-If you received a diagnostic alert ”Known poorly performing client versions are in use,” focus on updating those clients first. The alert has identified that these clients are negatively affecting your call quality. You can use the Client & Devices report (shown above) to help ensure that the clients that have known issues are no longer being updated.
-
 #### Remediation
 
 A critical part of driving high-quality user experiences is ensuring that managed clients are running up-to-date versions of Skype for Business, in addition to ensuring the supporting audio, video, network, and USB drivers are up to date. This provides several benefits, among them: 
@@ -1260,10 +1208,6 @@ The device reports are used to assess device usage by volume and MOS score (audi
 ![Screen shot of the Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
 _Figure 31 - Devices (Microphone) Report_
-
-##### Diagnostic alert
-
-If you received a diagnostic alert “Audio drivers are causing call drops,” focus on remediating those drivers first. The alert has identified that known bad drivers are causing calls to drop and are negatively affecting call reliability. You can use the Microphone-Drivers report (shown above), which is found in the Client & Devices section, to help with the process.
 
 ##### Remediation
 
