@@ -26,8 +26,7 @@ You can use the Microsoft Teams tenant apps catalog to test and distribute line-
 
 The Teams tenant apps catalog lets you distribute line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions.
 
-To publish apps for your organization, sign in to the Teams client using an account with the global admin or teams service admin roles and then follow the steps below.
-
+To publish apps for your organization, sign in to the Teams client using an account with the global admin or teams service admin roles and then follow the steps below.  ???**This sentence is duplicated in the note below. OK to remove one? Which?**
 
 ## Publish an app in the tenant apps catalog from the Teams client
 
@@ -35,7 +34,7 @@ To publish apps for your organization, sign in to the Teams client using an acco
 > You need to be signed in to Teams an account that has either the global admin or teams service admin role enabled to publish apps for your organization. Learn more about [using administrator roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
 
 > [!NOTE]
-> These steps describe how to publish an app by using the Teams client. You can also publish an app on the Manage apps page in the Microsoft Teams admin center. To learn more, see TBD.
+> These steps describe how to publish an app by using the Teams client. You can also publish an app by using the **Manage apps** page in the Microsoft Teams admin center. To learn more, see [Manage apps in Teams](manage-apps.md).
 
 ### Get a Teams app package
 

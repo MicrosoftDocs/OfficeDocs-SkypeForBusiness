@@ -46,7 +46,9 @@ To see the information that you want in the table, click **Edit Column** in the 
 
 To upload a new custom app, click **Upload new app** to upload your app manifest file in .zip format. If the .zip file isn't a valid Teams app manifest, the upload will fail.
 
-You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> Use this URL instead? [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams). 
+> ??? **DO WE NEED TO ADD STEPS HERE?**
+
+You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> Use this URL instead? [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
 
 ## Allow and block apps
 
@@ -66,7 +68,7 @@ Use org-wide app settings to control whether users can install third-party apps 
     - **Allow third-party apps in Teams**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-4. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps.
+4. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps. ??? **Is this accurate?**
 5. Click **Save** for org-wide app settings to take effect.
 
 ## Related topics
