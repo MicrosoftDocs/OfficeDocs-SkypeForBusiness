@@ -2,7 +2,7 @@
 title: Private channels in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
-manager: serdars
+manager: serdarsAssuming the private channel
 ms.reviewer: suchakr
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -107,11 +107,11 @@ The following table outlines what actions owners, members, and guests can do in 
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs and apps|No|N/A|N/A|Yes<sup>4</sup>|Yes<sup>5</sup>|No|
 
-<sup>1</sup>Assuming the policy that you, the admin, configured allows the user to create private channels.<br>
-<sup>2</sup>Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
-<sup>3</sup>Assuming the private channel owner isn't the last owner of the channel. <br>
-<sup>4</sup>Requires the team to have an app installed for a private channel to use it.<br>
-<sup>5</sup>Private channel owners can configure this.
+<sup>1</sup> Assuming the policy that you, the admin, configured allows the user to create private channels.<br>
+<sup>2</sup> Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
+<sup>3</sup> Assuming the private channel owner isn't the last owner of the channel. <br>
+<sup>4</sup> Requires the team to have an app installed for a private channel to use it.<br>
+<sup>5</sup> Private channel owners can configure this.
 
 ### Manage private channel membership and settings
 
