@@ -62,7 +62,7 @@ To allow or block an app, select it, and then click **Allow** or **Block**. When
 
 Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom (sideloaded) apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
-1. On the **Manage apps** page, celect **Org-wide settings**. You can then configure the settings you want in the panel.
+1. On the **Manage apps** page, select **Org-wide settings**. You can then configure the settings you want in the panel.
     ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
