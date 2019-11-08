@@ -39,7 +39,7 @@ Microsoft has a dedicated SKU for licensing meetings and calling on a per-device
 |Channel Availability | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
+&sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
 
 &sup2; Not available in sovereign clouds  
 
