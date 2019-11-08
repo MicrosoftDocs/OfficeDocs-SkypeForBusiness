@@ -34,7 +34,7 @@ You can view every app in your tenant app catalog including the following inform
 ![Screenshot of the Managed apps page](media/manage-apps.png).
 
 - **Name**: The app name. Click the app name to see more information about the app.
-- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/teams-app-certification/all-apps).  
+- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Click the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](https://docs.microsoft.com/teams-app-certification/all-apps).  
 - **Categories**: Categories that apply to the app.
 - **App status**: Status of the app at the org level, which can be one of the following:
     - **Allowed**: The app is available for users in your organization.
@@ -50,7 +50,7 @@ To upload a new custom app to your tenant app catalog, click **Upload new app** 
 
 > ??? **DO WE NEED TO ADD STEPS HERE?**
 
-You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> **Use this URL instead?** [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
+You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> **USE THIS URL INSTEAD?** [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
 
 ## Allow and block apps
 
@@ -69,7 +69,7 @@ Use org-wide app settings to control whether users can install third-party apps 
     - **Allow third-party apps in Teams**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps. ??? **Is this accurate?**
+3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps. ??? **IS THIS ACCURATE?**
 4. Click **Save** for org-wide app settings to take effect.
 
 ## Related topics
