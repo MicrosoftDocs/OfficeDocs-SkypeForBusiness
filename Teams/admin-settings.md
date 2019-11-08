@@ -35,7 +35,7 @@ We're continually improving the app experience in Teams and adding features and 
 
 ## Manage apps
 
-Use the **Manage apps page** to view and manage all Teams apps in your organization's app catalog. You can view the org-level status and properties of apps, block or allow apps at the org level, upload new custom apps to your tenant catalog, and manage org-wide app settings.
+Use the **Manage apps** page to view and manage all Teams apps in your organization's app catalog. You can see the org-level status and properties of apps, block or allow apps at the org level, upload new custom apps to your tenant catalog, and manage org-wide app settings.
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](#app-permission-policies), [app setup policies](#app-setup-policies), and [custom app policies and settings](#custom-app-policies-and-settings) to configure the app experience for specific users in your organization.
 
