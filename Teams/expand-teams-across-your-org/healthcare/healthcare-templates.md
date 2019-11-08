@@ -1,7 +1,7 @@
 ---
 title: "Get started with Teams templates for Healthcare organizations"
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
