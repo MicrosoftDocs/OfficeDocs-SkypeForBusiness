@@ -283,14 +283,14 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
      }
     ```
 
-## Troubleshooting
+## Teams Powershell module
 
 ### Install the latest Teams PowerShell module from the PowerShell Test Gallery
 
-The latest publicly available version of the Microsoft Teams PowerShell module (currently 1.0.2) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.
+The latest publicly available version of the Teams PowerShell module (currently 1.0.2) doesn't support managing private channels. Use these steps to install the latest version of the Teams PowerShell module with private channel support (currently 1.0.18) from the PowerShell Test Gallery.
 
 > [!NOTE]
-> Don't install the Microsoft Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
+> Don't install the Teams PowerShell module from the PowerShell Test Gallery side-by-side with a version of the module from the public PowerShell Gallery. Follow these steps to first uninstall the Teams PowerShell module from the public PowerShell Gallery, and then install the latest version of the module from the PowerShell Test Gallery.
 
 1. Close all existing PowerShell sessions.
 2. Start a new instance of the Windows PowerShell module.
@@ -313,7 +313,7 @@ The latest publicly available version of the Microsoft Teams PowerShell module (
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
-7. Run the following to verify that the latest version of the Microsoft Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
+7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
     ```
     Get-Module -Name MicrosoftTeams
@@ -331,7 +331,7 @@ If you already installed the Teams PowerShell module from the PowerShell Test Ga
     Update-Module -Name MicrosoftTeams -Force
     ```
 
-4. Run the following to verify that the latest version of the Microsoft Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
+4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
     ```
     Get-Module -Name MicrosoftTeams
