@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
+As an admin, the **Manage apps** page in the Microsoft Teams admin center is where you view and manage all Teams apps in your organization's app catalog. Here, you can see the org-level status and properties of apps, upload new custom apps to your tenant app catalog, block or allow apps at the org level, and manage org-wide app settings.
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -29,7 +29,7 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 
 ## View apps in your tenant app catalog
 
-You can view every app in your tenant app catalog including the following information about each app. 
+You can view every app in your tenant app catalog including the following information about each app.
 
 ![Screenshot of the Managed apps page](media/manage-apps.png).
 
@@ -50,7 +50,7 @@ To upload a new custom app to your tenant app catalog, click **Upload new app** 
 
 > ??? **DO WE NEED TO ADD STEPS HERE?**
 
-You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> Use this URL instead? [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
+You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> **Use this URL instead?** [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
 
 ## Allow and block apps
 
