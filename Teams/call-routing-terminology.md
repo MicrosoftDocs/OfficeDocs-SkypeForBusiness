@@ -20,7 +20,11 @@ appliesto:
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-Here are some terms and concepts that are used throughout our cloud voice documentation for Location-Based Routing for Direct Routing and enhanced emergency services. It's a good idea to be familiar with these terms and concepts before you get deeper into the documentation.
+Learn about network regions, network sites, network subnets, and trusted IP addresses. These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](../Lync/LyncServer/administering-servers-after-migration.md) and enhanced emergency services. If you're deploying any of these cloud voice features in your organization, you must configure network settings for use with these features in Microsoft Teams.
+
+These cloud voice features have common configuration requirements to create network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site to use any of these features with Microsoft Teams.
+
+This article gives you an overview of the configuration requirements that are common to Location-Based Routing for Direct Routing and enhanced emergency services.
 
 |Term  |Description  |
 |---------|---------|
