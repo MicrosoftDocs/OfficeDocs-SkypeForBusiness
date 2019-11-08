@@ -481,7 +481,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 1. [Install prerequisites for Skype for Business Server](../../deploy/install/install-prerequisites.md)  
 2. Install .NET 4.7: 
       - **Note:** We first introduced support for .NET 4.7 in Skype for Business Server 2015 CU5 (6.0.9319.281). Therefore, in later steps below we will be updating Core Components prior to the main install.
-      - Download: https://www.microsoft.com/download/details.aspx?id=55167.
+      - Download: https://www.microsoft.com/download/details.aspx?id=55167. 
       - Reference: [Software that should be installed before a Skype for Business Server 2015 deployment](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. Copy ISO Files/Folders: 
     - With the Skype for Business Server 2015 ISO attached, open the root directory of the drive it is attached as (Ex: D:\) in File Explorer.
