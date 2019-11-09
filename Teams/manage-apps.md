@@ -46,11 +46,9 @@ To see the information that you want in the table, click **Edit Column** in the 
 
 ## Upload a new app
 
-To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app manifest file in .zip format. If the .zip file isn't a valid Teams app manifest, the upload will fail.
+To upload a new custom app to your tenant app catalog, click **Upload new app** to upload your app manifest file in .zip format. The .zip file must be a valid Teams app manifest, otherwise the upload will fail. The app isn't highlighted after it's uploaded so you'll need to search your tenant catalog to find it.
 
-> ??? **DO WE NEED TO ADD STEPS HERE?**
-
-You can still [upload apps by using the Teams client](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77). --> **USE THIS URL INSTEAD?** [Publish apps in the Microsoft Teams Tenant Apps Catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
+You can also upload apps by using the Teams client. To learn more, see [Publish apps in the Teams tenant app catalog](https://docs.microsoft.com/en-us/MicrosoftTeams/tenant-apps-catalog-teams).
 
 ## Allow and block apps
 
@@ -60,7 +58,7 @@ To allow or block an app, select it, and then click **Allow** or **Block**. When
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom (sideloaded) apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
+Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom  apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 1. On the **Manage apps** page, select **Org-wide settings**. You can then configure the settings you want in the panel.
     ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
@@ -69,10 +67,9 @@ Use org-wide app settings to control whether users can install third-party apps 
     - **Allow third-party apps in Teams**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps. ??? **IS THIS ACCURATE?**
+3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 4. Click **Save** for org-wide app settings to take effect.
 
 ## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
-- [Manage your line-of-business apps in Teams](manage-your-lob-apps.md)

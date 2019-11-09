@@ -33,7 +33,7 @@ You manage app permission policies in the Microsoft Teams admin center. You can 
 > [!NOTE]
 > Users in your organization will automatically get the global policy unless you create and assign a custom policy. Org-wide app settings override the global policy and any custom policies that you create and assign to users.
 
-If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft 365 admin center are reflected in org-wide app settings. If you're new to Teams and just getting started, by default, all apps are allowed in the global policy. This includes apps published by Microsoft, third-parties, and your organization.
+If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft 365 admin center are reflected in org-wide app settings on the [**Manage apps** page](manage-apps.md). If you're new to Teams and just getting started, by default, all apps are allowed in the global policy. This includes apps published by Microsoft, third-parties, and your organization.
 
 Say, for example, you want to block all third-party apps and allow specific apps from Microsoft for the HR team in your organization. You would create a custom policy named HR App Permission Policy, set it to block and allow the apps that you want, and then assign it to users on the HR team.
 
@@ -126,7 +126,7 @@ You can use app setup policies together with app permission policies. Pre-pinned
 
 #### Can I use app permission policies to restrict uploading custom apps (also known as sideloading)?
 
-Use org-wide settings on the Manage apps page to restrict uploading custom apps for your organization.  
+Use org-wide settings on the **Manage apps** page to restrict uploading custom apps for your organization.  
 
 To restrict specific users from uploading custom apps, use custom app policies. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 
@@ -149,7 +149,7 @@ For example, when an app is blocked, users can't do any of the following:
 - Set up connectors to receive notifications
 - Use the app’s messaging extension
 
-The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. Blocking an app on the Manage apps page works exactly the same way.
+The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. Blocking an app on the **Manage apps** page works exactly the same way.
 
 For app permission policies assigned to specific users, if an app with bot or connector capability was allowed and then blocked, and if the app is then allowed only for some users in a shared context, members of a group chat or channel that don't have permission to that app can see the message history and messages that were posted by the bot or connector, but can't interact with it.
 
