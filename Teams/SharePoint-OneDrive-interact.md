@@ -12,6 +12,7 @@ description: Learn how SharePoint Online and OneDrive for Business interact with
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+  - SPO_Content
 appliesto: 
   - Microsoft Teams
 ---
