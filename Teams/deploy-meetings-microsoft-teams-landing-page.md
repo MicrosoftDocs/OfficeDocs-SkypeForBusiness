@@ -51,7 +51,7 @@ You can use the [Network Testing Companion](https://www.powershellgallery.com/pa
 
 | Ask yourself | Action |
 |--------------|--------|
-|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)</li><li>[Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## Core deployment decisions
