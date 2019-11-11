@@ -44,6 +44,7 @@
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ms.suite": "office",
+      "titleSuffix": "Microsoft Teams",
       "contributors_to_exclude": [
         "daswifty",
         "MikePlumleyMSFT"
@@ -55,9 +56,6 @@
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams",
-    "markdownEngineName": "markdig",
-    "titleSuffix": {
-      "Teams/*.md": "Microsoft Teams"
-    }
+    "markdownEngineName": "markdig"
   }
 }
