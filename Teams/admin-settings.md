@@ -39,11 +39,6 @@ Use the **Manage apps** page to view and manage all Teams apps in your organizat
 
 The **Manage apps** page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](#app-permission-policies), [app setup policies](#app-setup-policies), and [custom app policies and settings](#custom-app-policies-and-settings) to configure the app experience for specific users in your organization.
 
-For example, on the **Manage apps** page, you can:
-
-- Disable an app that poses a permission or data loss risk to your organization.
-- ???
-
 To learn more, see [Manage apps in Teams](manage-apps.md).
 
 ## App permission policies
