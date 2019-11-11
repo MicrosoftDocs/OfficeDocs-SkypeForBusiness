@@ -12,6 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - SPO_Content
 appliesto: 
   - Microsoft Teams
 ---
