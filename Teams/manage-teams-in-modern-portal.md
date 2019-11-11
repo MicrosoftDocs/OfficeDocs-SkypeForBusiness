@@ -68,7 +68,7 @@ To edit group and team-specific settings, select the team by clicking to the lef
 
 ### Archive
 
-You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
+You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and un-archive teams on behalf of your organization in the admin center. 
 
 ### Delete
 
