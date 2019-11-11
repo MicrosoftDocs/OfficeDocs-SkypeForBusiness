@@ -44,19 +44,17 @@ Shifts data is currently stored in Azure in data centers in North America, Weste
 
 ### Enable or disable Shifts in your organization
 
-Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app org-wide by using org-wide settings in app permission policies in the Microsoft Teams admin center.
+Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app org-wide on the [**Manage apps** page](../../manage-apps.md) in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies** .
-2. Click **Org-wide settings**.
-3. In the **Org-wide settings** panel, under **Blocked apps**, do one of the following:
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+2. In the list of apps, do one of the following:
 
-    - To turn off Shifts for your organization, search for the Shifts app, and click **Add** to add it to the blocked apps list.
-    - To turn on Shifts for your organization, remove the Shifts app from the blocked apps list.
-4. Click **Save**. 
+    - To turn off Shifts for your organization, search for the Shifts app, select it, and then click **Block**.
+    - To turn on Shifts for your organization, search for the Shifts app, select it, and then click **Allow**.
 
 ### Enable or disable Shifts for specific users in your organization
 
-To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization in org-wide settings, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the **Manage apps** page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
 ### Use the FirstlineWorker app setup policy to pin Shifts to Teams
 

@@ -39,7 +39,7 @@ Say, for example, you want to block all third-party apps and allow specific apps
 
 ## Create a custom app permission policy
 
-If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide settings.
+If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
@@ -126,7 +126,7 @@ You can use app setup policies together with app permission policies. Pre-pinned
 
 #### Can I use app permission policies to restrict uploading custom apps (also known as sideloading)?
 
-Use org-wide settings on the **Manage apps** page to restrict uploading custom apps for your organization.  
+Use org-wide app settings on the **Manage apps** page to restrict uploading custom apps for your organization.  
 
 To restrict specific users from uploading custom apps, use custom app policies. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 
