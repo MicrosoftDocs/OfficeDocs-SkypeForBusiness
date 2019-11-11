@@ -11,6 +11,7 @@ description: Learn about the limits, specifications, and other requirements that
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
+  - SPO_Content
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
