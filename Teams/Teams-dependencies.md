@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+  - SPO_Content
 ms.reviewer: sbhatta
 localization_priority: Priority
 search.appverid: MET150
