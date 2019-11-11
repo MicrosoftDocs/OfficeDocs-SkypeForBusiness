@@ -55,7 +55,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -97,7 +97,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 |\<ContentCameraEnhancement>  | Boolean &#x2777; | |When set to true (the default), the content camera image is digitally enhanced: the whiteboard edge is detected and an appropriate zoom is selected, ink lines are enhanced, and the person writing on the whiteboard is made transparent.  <br><br> Set to false if you intend to send a raw video feed to meeting participants for spaces where a whiteboard is not drawn on with a pen and instead the camera is used to show sticky notes, posters, or other media.  |
 | \<Theming\>  |Container |First &#x2776;  |One of the features that can be applied with an XML file is a Custom Theme for your organization. You are able to specify a theme name, background image, and color. |
 |\<ThemeName\> |String  &#x2778;  || Used to identify the theme on the client. The Theme Name options are Default, one of the provided preset themes, or Custom. <br/>  Custom theme names always use the name *Custom*. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  To disable the current theme, use "No Theme" for the ThemeName.  |
-|\<CustomThemeImageUrl\> |String  &#x2778;  ||Required for a custom theme, otherwise optional.   |For more information on the custom theme image, see the [Custom Theme Images](xml-config-file.md#Themes) section.
+|\<CustomThemeImageUrl\> |String  &#x2778;  ||Required for a custom theme, otherwise optional. Input the file name only.   |For more information on the custom theme image, see the [Custom Theme Images](xml-config-file.md#Themes) section.
 |\<CustomThemeColor\> |Container ||Container for the \<RedComponent\>, \<GreenComponent\>, and \<BlueComponent\> values. These values are required for a custom theme. |
 |\<RedComponent\> |Byte (0-255) ||Represents the red color component. |
 |\<GreenComponent\> |Byte (0-255) ||Represents the green color component. |
