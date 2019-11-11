@@ -40,7 +40,7 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-![Screen shot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
+![Screenshot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
 
 The grid displays the following properties:
 
@@ -86,7 +86,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
-![Screen shot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Screenshot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## Making changes to teams
 
@@ -115,7 +115,7 @@ Some of your teams are missing from the list of teams in the Teams overview grid
 
 Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
-1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer).
+1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
 2. Sign in to Graph Explorer on the left menu.
 
