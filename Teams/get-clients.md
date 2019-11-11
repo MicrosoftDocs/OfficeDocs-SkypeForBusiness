@@ -19,8 +19,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Get clients for Microsoft Teams 
-===========================
+# Get clients for Microsoft Teams 
+
 
 Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode.
 
@@ -29,13 +29,12 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 >
 > For more information about Windows 10 S mode, see [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode). 
 
-Desktop client
---------------
+## Desktop client
 
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (Debian package `.deb`, Red Hat Package Manager `.rpm`). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as apt and yum will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
+The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (in `.deb` and `.rpm` formats.). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as apt and yum will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
@@ -97,7 +96,7 @@ IT admins can use managed deployment of Teams to distribute the installation fil
 
 ### Linux
 
-Linux users can install Teams using a Debian `.deb` package or as a Red Hat package `.rpm`. 
+Users will be able to install native Linux packages in `.deb` and `.rpm` formats.
 
 > [!NOTE] 
 > The Teams on Linux client is available in limited preview. Submit bugs using `Report a Problem` from within the client. For known issues, see [Known Issues](Known-issues.md).
@@ -106,7 +105,7 @@ Linux users can install Teams using a Debian `.deb` package or as a Red Hat pack
 
 1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
 2. Install using one of the following:  
-    - Open the package using Ubuntu Software Tool and go through self-guided Linux app installation process.
+    - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo apt install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`. 
@@ -115,13 +114,12 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
 
 1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
 2. Install using one of the following:
-    - Open the package using Red Hat Package Management Tool and go through self-guided Linux app installation process.
+    - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo yum install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`.
 
-Web client 
-----------
+## Web client 
 
 The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies. 
 
@@ -129,8 +127,7 @@ The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
 
-Mobile clients
---------------
+## Mobile clients
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work. 
 
@@ -151,25 +148,21 @@ Mobile apps are distributed and updated through the respective mobile platformâ€
 |![An icon depicting a decision point](media/Get_clients_for_Microsoft_Teams_image4.png)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
 |![An icon depicting the next steps](media/Get_clients_for_Microsoft_Teams_image5.png)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
 
-Client update management
-------------------------
+## Client update management
 
 Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required. If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will begin.
 
-Client-side configurations
----------------------------
+## Client-side configurations
 
 Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.
 
-Notification settings
-----------------------------
+## Notification settings
 
 There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.
 
 ![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-Sample PowerShell Script
-----------------------------
+## Sample PowerShell Script
 
 This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
 
