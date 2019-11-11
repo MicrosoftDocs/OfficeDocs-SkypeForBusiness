@@ -8,6 +8,7 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn about Content Search in Microsoft Teams and how to search against channel conversations from Exchange, file uploads and modifications from SharePoint, and OneNote changes.
