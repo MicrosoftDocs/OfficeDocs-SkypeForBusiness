@@ -114,8 +114,8 @@ After a resource room mailbox account has been created and enabled as shown prev
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-> [!NOTE] 
-> Multi-Factor Authentication (MFA) isn't supported for Skype Room System accounts. 
+>[!NOTE] 
+>Multi-Factor Authentication (MFA) isn't supported for Skype Room System accounts. 
 
 ## Password expiration
 
