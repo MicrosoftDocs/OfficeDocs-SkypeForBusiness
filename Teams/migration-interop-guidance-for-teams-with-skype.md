@@ -64,6 +64,9 @@ From a technical perspective, a user’s mode governs several  aspects of the us
 - *Meeting scheduling*: Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook? Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
 - *Client experience*: What functionality is available in Teams and/or Skype for Business client? Can users initiate calls and chats in Teams, Skype for Business or both? Is Teams & Channels experience available?  
 
+> [!NOTE]
+> In Teams Only mode, if the Outlook add-in for Skype for Business disappears, you can enable it again.
+
 For more details on routing and presence behavior based on mode, see [Coexistence with Skype for Business](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
 
 However, from an experience perspective, mode can more simply be described as defining the experience for:
