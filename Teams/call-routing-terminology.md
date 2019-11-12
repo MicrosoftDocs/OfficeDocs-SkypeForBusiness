@@ -28,7 +28,7 @@ This article gives you an overview of the configuration requirements that are co
 
 ## Network region
 
-A network region contains a collection of network sites. For example, if your organization has many sites located in India, you may choose to designate “India” as a network region.
+A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate “India” as a network region.
 
 ## Network site
 
