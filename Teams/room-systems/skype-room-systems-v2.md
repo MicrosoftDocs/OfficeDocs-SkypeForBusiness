@@ -32,20 +32,23 @@ Microsoft has a dedicated SKU for licensing meetings and calling on a per-device
 |:--- |:---: |
 |Skype for Business |&#x2714;|
 |Microsoft Teams|  &#x2714;|
-|Phone Systems|  &#x2714;|
+|Phone System|  &#x2714;|
 |Audio Conferencing|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|  
 |Worldwide Availability | &#x2714; &sup2;|
 |Channel Availability | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
+&sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
 
 &sup2; Not available in sovereign clouds  
 
 
 > [!NOTE]
-> If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Standalone Plan 1 or Skype for Business Plan 2 or Skype for Business Plan 2 with Audio conferencing or with Office365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.  
+> If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Standalone Plan 1 or Skype for Business Plan 2 or Skype for Business Plan 2 with Audio conferencing or with Office365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire. 
+
+> [!IMPORTANT]
+> If you are using Skype for Business Plan 2, you can only use the Microsoft Teams Rooms in Skype for Business Only mode, meaning all of your meetings will be Skype for Business meetings. In order to enable your meeting room for Microsoft Teams meetings, we recommend you purchase the Microsoft Room license. 
 
 The following table lists the features that are available in Microsoft Teams Rooms and what licenses you need to buy to get them.
   
