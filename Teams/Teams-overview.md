@@ -23,9 +23,11 @@ If you're the admin for Microsoft Teams in your organization, you're in the righ
 
 If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
-If you're new to Teams and want to learn more, check out our short Welcome to Teams video (55 seconds).
+If you're new to Teams and want to learn more, check out our short [Welcome to Teams](https://www.youtube.com/embed/s3aQV3T0D6c) video (55 seconds).
 
-> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 ## Teams architecture
 
