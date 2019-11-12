@@ -114,7 +114,9 @@ After a resource room mailbox account has been created and enabled as shown prev
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-  
+>[!NOTE] 
+>Multi-Factor Authentication (MFA) isn't supported for Skype Room System accounts. 
+
 ## Password expiration
 
 In Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
