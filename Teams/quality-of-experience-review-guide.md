@@ -354,7 +354,7 @@ CQD can report on both Teams and Skype for Business telemetry. However, there mi
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Screen shot of drop-down menu showing the filter options](media/qerguide-image-productfilter.png)
+![Screenshot of drop-down menu showing the filter options](media/qerguide-image-productfilter.png)
 
 _Figure 5 - Select a Product Filter_
 
@@ -374,7 +374,7 @@ For more information about URL filters, see [Filtering reports](#filtering-repor
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
 
-![Screen shot of the Add filter page](media/qerguide-image-addteamsfilter.png)
+![Screenshot of the Add filter page](media/qerguide-image-addteamsfilter.png)
 
 _Figure 6 - Adding a Microsoft Teams filter to a report_
 
@@ -842,7 +842,7 @@ This summary report is used to discover and isolate any buildings or networks th
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
 
-![Screen shot showing setup failures](media/qerguide-image-setupfailuresbysubnet.png)
+![Screenshot showing setup failures](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figure 20 - Audio Setup Failures by Subnet_
 
@@ -979,7 +979,7 @@ Although the dimensions used might differ slightly between report, each report w
 > Common subnets are difficult to triage due to their widespread use. A separate report that displays the client’s public IP (Second Reflexive Local IP) has been added to the All Networks template to assist with remediating offices that use common networks.
 
 
-![Screen shot showing the poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
+![Screenshot showing the poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
 
 _Figure 24 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
@@ -1063,7 +1063,7 @@ In the provided CQD templates, navigate to the TCP Streams by Building and Subne
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![Screen shot of TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
+![Screenshot of TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
 
 _Figure 27 – TCP Streams by Building and Subnet - Conferencing_
 
@@ -1096,7 +1096,7 @@ We always recommend that you configure the client to directly connect to Teams a
 
 The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
 
-![Screen shot of report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
+![Screenshot of report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
 _Figure 28 – Audio Streams with HTTP Proxy Usage_
 
@@ -1153,7 +1153,7 @@ The reports in this space focus on identifying Skype for Business client version
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Screen shot of the Client and Devices report](media/qerguide-image-clientversionreport.png)
+![Screenshot of the Client and Devices report](media/qerguide-image-clientversionreport.png)
 
 _Figure 30 - Client version report_
 
@@ -1205,7 +1205,7 @@ The device reports are used to assess device usage by volume and MOS score (audi
 > [!Note]
 > You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
 
-![Screen shot of the Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
+![Screenshot of the Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
 _Figure 31 - Devices (Microphone) Report_
 
