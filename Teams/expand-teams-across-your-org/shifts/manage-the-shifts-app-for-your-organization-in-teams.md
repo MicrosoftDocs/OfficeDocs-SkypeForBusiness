@@ -44,7 +44,7 @@ Shifts data is currently stored in Azure in data centers in North America, Weste
 
 ### Enable or disable Shifts in your organization
 
-Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app org-wide on the [**Manage apps** page](../../manage-apps.md) in the Microsoft Teams admin center.
+Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app org-wide on the [Manage apps page](../../manage-apps.md) page in the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
 2. In the list of apps, do one of the following:
