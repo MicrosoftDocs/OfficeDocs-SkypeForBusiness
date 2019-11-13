@@ -149,7 +149,7 @@ For example, when an app is blocked, users can't do any of the following:
 - Set up connectors to receive notifications
 - Use the app’s messaging extension
 
-The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. The org-wide app setting on the **Manage apps** page works exactly the same way.
+The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. Blocking an app on the **Manage apps** page works exactly the same way.
 
 For app permission policies assigned to specific users, if an app with bot or connector capability was allowed and then blocked, and if the app is then allowed only for some users in a shared context, members of a group chat or channel that don't have permission to that app can see the message history and messages that were posted by the bot or connector, but can't interact with it.
 
