@@ -128,13 +128,6 @@ Package Name|KB Number|Release Date|
 | [Lync 2010 Attendee - Admin Level Install](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013   |
 | [Lync 2010 Attendee - User Level Install](https://www.microsoft.com/download/en/details.aspx?id=15755)  | June 2014    |
 
-### Trial software
-
-| **Package Name/Link**                                                                       | Release Date  |
-|:--------------------------------------------------------------------------------------------|:--------------|
-| [Lync 2010 Trial (32-bit)](https://www.microsoft.com/download/details.aspx?id=5484)  | November 2010 |
-| [Lync 2010 Trial (64-bit)](https://www.microsoft.com/download/details.aspx?id=10400) | November 2010 |
-
 ## Related topics
 
 - [Skype for Business Server updates](sfb-server-updates.md)
