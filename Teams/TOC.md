@@ -387,6 +387,8 @@
 
 
 ## Reference
+### [Network settings for cloud voicebfeatures][Network settings for cloud voice features](cloud-voice-network-settings.md)
+### [Manage your network topology][Manage your network topology](manage-your-network-topology.md)
 ### Country and region availability for Calling Plan
 
 #### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
