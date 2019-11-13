@@ -167,5 +167,6 @@ See also [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/mo
 
 ## Related topics
 
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
 - [Plan and configure dynamic emergency calling for Calling Plans](configure-dynamic-emergency-calling.md)
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)

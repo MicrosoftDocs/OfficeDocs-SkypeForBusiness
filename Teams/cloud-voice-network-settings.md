@@ -22,7 +22,7 @@ Learn about network regions, network sites, network subnets, and trusted IP addr
 
 These cloud voice features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site.
 
-This article gives you an overview of the configuration requirements that are common to Location-Based Routing for Direct Routing and enhanced emergency services. For steps on how to configure each of these settings, see [Manage your network topology in Teams](manage-your-network-topology.md).
+This article gives you an overview of the configuration requirements that are common to Location-Based Routing for Direct Routing and enhanced emergency services. For steps on how to configure each of these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
 ## Network region
 
