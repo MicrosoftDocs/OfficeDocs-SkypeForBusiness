@@ -18,8 +18,6 @@ appliesto:
 
 # Network settings for cloud voice features in Microsoft Teams
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
-
 Learn about network regions, network sites, network subnets, and trusted IP addresses. These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and enhanced emergency services [LINK TO WHICH ARTICLE?]. If you're deploying any of these cloud voice features in your organization, you must configure network settings for use with these features in Microsoft Teams.
 
 These cloud voice features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site.
