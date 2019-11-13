@@ -21,9 +21,11 @@ description: Learn how to configure network settings for cloud voice features in
 
 # Manage your network topology in Microsoft Teams
 
-If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or enhanced emergency services, you must configure network settings for use with these cloud voice features in Microsoft Teams. These features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site. To learn more about these terms, see [Network settings for cloud voice features](call-routing-terminology.md).
+If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or enhanced emergency services, you must configure network settings for use with these cloud voice features in Microsoft Teams. These features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
+
+Each network site must be associated with a network region, which is a collection of network sites. And, each subnet in your topology must be associated with a specific network site. Subnet information is used to determine the network site on which an endpoint is located while a new session is initiated. When the location of the each party in a session is known, cloud voice features can apply that information to determine how to handle call setup or routing.
 
 ## Configure network settings in the Microsoft Teams admin center
 
@@ -45,7 +47,7 @@ You define network regions, network sites, and subnets on the **Network sites** 
     - If your organization uses Calling Plans or deployed Phone System Direct Routing, under **Emergency calling policy**, select the policy that you want.
     - If your organization deployed Phone System Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
-6. To associate a subnet to the site, under **Subnets**, click **Add subnets**. Specify the IP version, IP address, network range, add a description, and then click **Apply**.
+6. To associate a subnet to the site, under **Subnets**, click **Add subnets**. Specify the IP version, IP address, network range, add a description, and then click **Apply**. Each subnet must be associated with a specific site.
 7. Click **Save**.
 
 #### Modify a network site
@@ -54,9 +56,9 @@ You define network regions, network sites, and subnets on the **Network sites** 
 2. Select the site by clicking to the left of the site name, and then click **Edit**.
 3. Make the changes that you want, and then click **Save.**
 
-### Manage trusted IP addresses
+### Manage external trusted IP addresses
 
-You manage trusted IP addresses on the **Trusted IPs** tab on the **Network topology** page of the Microsoft Teams admin center.
+You manage external trusted IP addresses on the **Trusted IPs** tab on the **Network topology** page of the Microsoft Teams admin center. You can add an unlimited number of external trusted IP addresses.
 
 #### Add a trusted IP address
 
@@ -114,7 +116,7 @@ See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/modul
 
 ### Define network subnets
 
-Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each internal subnet can only be associated with one site.
+Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -150,7 +152,7 @@ Identity, Mask, SiteID
 
 See also [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet).
 
-### Define external subnets
+### Define external subnets (external trusted IP addresses)
 
 Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
 ```
