@@ -1,5 +1,5 @@
 ---
-title: Manage your network topology in Microsoft Teams
+title: Manage your network topology for cloud voice features in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to configure network settings for cloud voice features in Microsoft Teams. 
 ---
 
-# Manage your network topology in Microsoft Teams
+# Manage your network topology for cloud features in Microsoft Teams
 
 If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or enhanced emergency services [LINK TO WHICH ARTICLE?], you must configure network settings for use with these cloud voice features in Microsoft Teams. These features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
