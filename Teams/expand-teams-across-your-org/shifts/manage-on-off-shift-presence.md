@@ -26,7 +26,7 @@ Presence in Microsoft Teams indicates a user's current availability and status t
 
 These shift-based presence states&mdash;![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) **On shift**, ![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) **Off shift**, ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can configure different experiences for people in your organization based on their role.
 
-With shift-based presence, you can manage access to Teams when Firstline Workers are off shift. You can set up a custom message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
+With shift-based presence, you can manage access to Teams when Firstline Workers are off shift. For example, you can set up a custom message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
 
 ## Scenario
 
@@ -44,13 +44,18 @@ Here are the shift-based presence states.
 |---------|---------|---------|
 |![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) On shift     |         |Automatically set at the start of a shift         |
 |![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) Off shift     |         |Automatically set at the end of a shift         |
-|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the Firstline Workder is off shift.|
+|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the Firstline Worker is off shift.|
 |![Solid red circle, indicates Busy in a meeting](../../media/flw-presence-busy.png) In a meeting| ||
 |![Solid red circle, indicates Busy in a call](../../media/flw-presence-busy.png) In a call| ||
 |![Red circle with white line, indicates Presenting](../../media/Presence_DND.png) Presenting|||
 
 ## Off shift access to Teams
 
+You can manage access to Teams when Firstline Workers are off shift. You can set Teams to display a message to Firstline Workers when they access Teams when off shift. Firstline Workers must click **I accept** to acknowledge the message before they can use Teams.
+
+You can customize the message to display any text that you want. Here's the default message:
+
+|![Screenshot of default message](../../media/shifts-presence-message.png) |||
 
 ## Manage shift-based presence
 
