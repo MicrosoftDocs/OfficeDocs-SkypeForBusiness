@@ -38,14 +38,14 @@ Here's some examples of how tags can be used in Teams:
 
 As an admin, you can control who can apply tags and how tags are used across your organization in the Microsoft Teams admin center.
 
-![Tags settings ](media/people-targeting-settings.png)
+![Tagging settings in the Microsoft Teams admin center](media/manage-tags-settings.png)
 
 ### Set who can apply tags
 
 By default, team owners can apply tags. You can change this setting to allow team owners and team members to apply tags or you can turn off tags for your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
-2. Under **Targeting**, next to **Targeting is enabled for**, select one of the following options:
+2. Under **Tagging**, next to **Tagging is enabled for**, select one of the following options:
 
     - **Team owners and members**: Allow team owners and members to apply tags.
     - **Team owners**: Allow team owners to apply tags.
@@ -56,7 +56,7 @@ By default, team owners can apply tags. You can change this setting to allow tea
 You can configure the following tags settings to control how tags are used across your organization.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
-2. Under **Targeting**, set the following, depending on the needs of your organization.
+2. Under **Tagging**, set the following, depending on the needs of your organization.
 
 - **Team owner can override who can apply tags**: When this is turned on, team owners can allow or disallow members to apply tags in team settings.
 - **Members can add additional tags**:
@@ -66,10 +66,9 @@ You can configure the following tags settings to control how tags are used acros
 
 Team owners can set whether members can apply tags. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the setting that you want.
 
-![Team tags settings](media/people-targeting-team-settings.png)
+![Team tags settings](media/manage-tags-team-settings.png)
 
 ## Apply tags
 
 In Teams, the **Members** tab of the Manage team page for a team includes a **Tag** column. Team owners and members (if the feature is enabled for them) can click **Manage Tags** next to a member to see the list of suggested tags for that member and add tags to the list.
 
-## Related topics
