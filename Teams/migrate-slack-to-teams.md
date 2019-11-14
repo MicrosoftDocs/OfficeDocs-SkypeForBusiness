@@ -30,7 +30,7 @@ The diagram below shows the Slack architecture at a high level.
 
 ## Plan your migration from Slack
 ### What you can and can’t migrate
-Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. The Enterprise Grid service plan gives you more migration options, but uses a different set of tools. 
+Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. 
 
 To determine your Slack Workspace service level, log into Slack and note your plan type on the **About this Workspace** page.
 
