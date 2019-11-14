@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -31,9 +30,11 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 ![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - User permissions to execute the Regsvr32.exe file is a minimum requirement for the Teams Meeting add-in to be installed on the computer.
 > - If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
 > - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows for the Teams Meeting add-in to work.
-> - If you are using an Office Outlook installation from the Microsoft Store, the Teams meetings add-in isn't supported. Users who require this add-in are advised to install Click-to-Run version of Office, as outlined in [Office on Windows 10 in S mode](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) article. 
+> - If you are using an Office Outlook installation from the Microsoft Store, the Teams Meeting add-in isn't supported. Users who require this add-in are advised to install Click-to-Run version of Office, as outlined in [Office on Windows 10 in S mode](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) article.
+
 
 ## Teams Meeting add-in in Outlook for Mac
 
