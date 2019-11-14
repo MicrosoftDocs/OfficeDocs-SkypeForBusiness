@@ -345,7 +345,7 @@ Below are examples of Slack solutions where an Office 365 Connector was used in 
 
 
 ### User readiness and adoption plan
-The cornerstone of any successful software deployment hinges on how prepared users are for the change. Users in your organization using Slack will easily understand Teams concepts, but training is still needed to help them make a smooth transition. For a comprehensive set of Teams adoption resources, go to the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
+The cornerstone of any successful software deployment hinges on how prepared users are for the change. Users in your organization using Slack will easily understand Teams concepts, but training is still needed to help them make a smooth transition. For a comprehensive set of Teams adoption resources, go to the [Teams adoption hub](adopt-microsoft-teams-landing-page.md).
 
 For example, both products feature channels, but they’re used differently in each product. For example, often a Channel in Slack is used like a chat in Teams for short-term, transactional conversations. Other notable differences are around threaded/non-threaded conversations and tuning notification settings.
 
