@@ -63,7 +63,7 @@ Once you have the hardware in place, you'll need to install operating systems (O
   
 |||
 |:-----|:-----|
-|Windows Server 2019 (You need Skype for Business Cumulative Update 9 or later). <br/> |Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
+|Windows Server 2019 (You need Skype for Business Cumulative Update 9 or later). <br/> |Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
 |Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
    
@@ -74,11 +74,11 @@ If it's not on this list, it won't work properly, please don't try it for new in
   
 In addition to the latest service pack, you'll want to ensure the following updates are installed where relevant to you:
   
-- For Windows Server 2012, KB article 2858668 should be installed before an upgrade. [Get it here](https://support.microsoft.com/en-us/kb/2858668/).
+- For Windows Server 2012, KB article 2858668 should be installed before an upgrade. [Get it here](https://support.microsoft.com/kb/2858668/).
     
-- If you have Windows Server 2012 R2, please install KB article 2982006 before upgrading. [It's found here](https://support.microsoft.com/en-us/kb/2982006/).
+- If you have Windows Server 2012 R2, please install KB article 2982006 before upgrading. [It's found here](https://support.microsoft.com/kb/2982006/).
     
-- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you'll want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/en-us/kb/2533623/).
+- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you'll want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/kb/2533623/).
     
 ## Back end databases that will work with Skype for Business Server 2015
 <a name="DBs"> </a>
@@ -90,8 +90,8 @@ Skype for Business Server 2015 Enterprise Edition is a little more complicated, 
   
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2016 Enterprise (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
-|Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2016 Standard (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |
+|Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2016 Enterprise (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
+|Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2016 Standard (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
@@ -154,9 +154,9 @@ Sixteen-node:
 - Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.
 
 > [!IMPORTANT]
-> For upgrading, we do want you to ensure that on your Front End Servers you have at least SQL Server 2012 SP1 installed prior to upgrade. [Here's a link](https://www.microsoft.com/en-us/download/details.aspx?id=35575) to SP1 if you want to download it right away.
+> For upgrading, we do want you to ensure that on your Front End Servers you have at least SQL Server 2012 SP1 installed prior to upgrade. [Here's a link](https://www.microsoft.com/download/details.aspx?id=35575) to SP1 if you want to download it right away.
   
-If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx), and [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
+If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](https://technet.microsoft.com/library/hh231721.aspx), [2012](https://technet.microsoft.com/library/hh231721%28v=sql.110%29.aspx), and [2008](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
 > New to the 2015 release is support of SQL Always On. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
@@ -176,7 +176,7 @@ There are some things you're going to need to install or configure for any serve
   
 |**Software/Role**|**Details**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.  <br/> |
+|Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.  <br/> |
 |Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, click OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it. <br/> |
 |Media Foundation  <br/> |For Windows Server 2016, Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.  <br/> |
 |Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2015.  <br/> • For Windows Server 2012 and Windows Server 2012 R2, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's checked, you're good. Otherwise select it and click Next to reach the **Install** button. <br/> |
@@ -205,7 +205,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 > If you are online, the command accesses Windows Update. 
 > However, if you are offline, you need to make sure the source files are available to the command. 
 > For more information about using PowerShell to install roles and features, 
-> see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx) 
+> see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/library/hh831809.aspx) 
 > Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
 
  **Directors also need:**
@@ -264,7 +264,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **Persistent Chat Servers also need:**
   
-Message Queuing, which is also called MSMQ. It's a Windows Server component, and you can install it under the Features section in Server Manager. If you want to read more about this, check out [Installing and Managing Message Queuing](https://technet.microsoft.com/en-us/library/cc771474.aspx).
+Message Queuing, which is also called MSMQ. It's a Windows Server component, and you can install it under the Features section in Server Manager. If you want to read more about this, check out [Installing and Managing Message Queuing](https://technet.microsoft.com/library/cc771474.aspx).
   
  **Last thoughts:**
   
