@@ -113,6 +113,7 @@
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Teams meetings on unsupported browsers](teams-on-unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
