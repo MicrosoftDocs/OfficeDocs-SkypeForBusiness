@@ -29,7 +29,7 @@ By default, a policy named Global (org-wide default) is created. All users in yo
 
 ## Change or create a messaging policy
 
-You can easily manage messaging policies in the Microsoft Teams admin center (http://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
+You can easily manage messaging policies in the Microsoft Teams admin center (https://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
 
 For example, say you want to make sure that sent messages aren't deleted or altered. You would create a new custom policy named "Retain sent messages" and turn off the following settings:
 
@@ -92,6 +92,9 @@ Use the following settings to change the global messaging policy or create a new
     - **Disabled** This means that users cannot create voice messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them. 
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
+
+> [!NOTE]
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
