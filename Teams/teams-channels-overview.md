@@ -111,9 +111,9 @@ If your organization has no more than 5,000 users, you can create an org-wide te
 # How to hide a channel
 In case that you want to hide a channel inside a teams, right click and select "hide" as shown in the next picture:
 
-> ![How to leave a Team](media/HideAChannel.png)
+  > ![How to leave a Team](media/HideAChannel.png)
 
 # How to leave a Teams
 In case that you are willing to get out of a teams, you can right click the channel and then select "Leave the Team" as shown in the next picture:
  
- > ![How to leave a Team](media/LeaveATeam.png)
+  > ![How to leave a Team](media/LeaveATeam.png)
