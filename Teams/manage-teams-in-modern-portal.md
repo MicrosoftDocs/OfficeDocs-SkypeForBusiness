@@ -23,9 +23,7 @@ Manage teams in the Microsoft Teams admin center
 
 ## Overview
 
-This article provides an overview of the management tools for Teams in the Microsoft Teams admin center. Start by watching this short video (3 minutes):
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+This article provides an overview of the management tools for Teams in the Microsoft Teams admin center.
 
 As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
