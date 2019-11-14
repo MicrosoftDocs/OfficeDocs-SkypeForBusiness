@@ -64,7 +64,7 @@ appliesto:
 |Devices    |   Standard laptop camera, microphone, and speakers    | 
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
 |Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support, supported on most late 2013 Mac devices and later. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.
-|Supported Linux distributions: Ubuntu 16.04 LTS*, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8.
+|Supported Linux distributions: Ubuntu 16.04 LTS*, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, and CentOS 8.
 
 *Pre-requisite steps to install on Ubuntu 16.04 LTS which adds repository with newer versions of libc++ (and compiler etc) and updates libc++:
 ```
