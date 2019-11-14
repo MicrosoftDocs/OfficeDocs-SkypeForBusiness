@@ -108,7 +108,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    For other examples and parameters, see [New-CsTenantDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/new-cstenantdialplan).
+    For other examples and parameters, see [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
     
 - To edit the settings of an existing dial plan, run:
     
@@ -125,7 +125,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 tp
-    For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cstenantdialplan).
+    For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
     
 - To view the settings on a dial plan, run:
     
