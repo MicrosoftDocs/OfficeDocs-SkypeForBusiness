@@ -87,7 +87,7 @@ Import-PSSession $Session -DisableNameChecking
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
    > [!IMPORTANT]
-   > In case that your tenant has ADFS Implemented and a federated user, please proceed to convert the user to managed while you do this set up and then return it back to federated.
+   > If your tenant is a federated user and has ADFS Implemented, the user should be converted to a managed user while you are doing this setup, and then be return to federated on completion of the setup.
   
 ``` PowerShell
  Connect-MsolService -Credential $cred
