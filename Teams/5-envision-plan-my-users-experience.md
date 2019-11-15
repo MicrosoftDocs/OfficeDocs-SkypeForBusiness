@@ -160,7 +160,7 @@ device strategy is optimal.
 > [!NOTE]
 > At this time, we recommend using audio devices that were certified
 through the Skype for Business Certification program. To find devices certified
-under this program, see the [Teams certified devices](https://products.office.com/microsoft-teams/across-devices/devices) and [USB Skype For Business Devices](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+under this program, see the [Microsoft Teams devices](https://products.office.com/en-us/microsoft-teams/across-devices/devices) and [USB audio and video devices](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
 
 
 
