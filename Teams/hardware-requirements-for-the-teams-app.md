@@ -21,6 +21,8 @@ appliesto:
 
 # Hardware requirements for the Microsoft Teams app
 
+All of the requirements in the following sections apply to both the Teams desktop app and the Teams Web app.
+
 ## Hardware requirements for the Teams desktop app on a Windows PC
 
 |**Component**|**Requirement**  |
