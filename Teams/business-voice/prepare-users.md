@@ -46,7 +46,7 @@ To see all the devices that are supported with Teams, take a look in the [Teams 
 
 ## Set up voicemail greetings and other Business Voice features
 
-Just like regular phones, you can set up voicemail greetings, call forwarding, choose ringtones, and more. Everything that can be set up by users can be found in the Teams app under **Settings**. They can get help with setting up these features by taking a look at [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Just like regular phones, you can set up voicemail greetings, call forwarding, choose ringtones, and more. Everything that can be set up by users can be found in the Teams app by clicking on their profile picture in the top-right corner of Teams and then selecting **Settings** > **Calls**. They can get help with setting up these features by taking a look at [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 ## Learn what Microsoft Teams and Business Voice can do
 
