@@ -77,7 +77,7 @@ See these articles to plan and set up the Phone System in your business:
 
 - [Set up Calling Plans](set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
-- [Microsoft Teams solutions](https://www.microsoft.com/microsoft-365/partners/teams-custom-solutions): This  article lays out on information about planning an entire cloud-only solution. 
+- [Microsoft Teams solutions](https://www.microsoft.com/microsoft-365/partners/teams-custom-solutions): This  article lays out all information about planning an entire cloud-only solution. 
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
