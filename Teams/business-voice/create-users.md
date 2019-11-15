@@ -21,8 +21,6 @@ appliesto:
 
 To use :::no-loc text="Microsoft 365 Business Voice":::, a user needs an :::no-loc text="Microsoft 365"::: account with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license. After an account has been created with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign a phone number to it.
 
-:::no-loc text="hi 365":::
-
 ## Create and license users
 
 1. Follow the steps in [Add users individually or in bulk to :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) to add one or more users.
