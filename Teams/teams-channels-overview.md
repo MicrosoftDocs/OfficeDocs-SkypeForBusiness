@@ -109,7 +109,7 @@ If your organization has no more than 5,000 users, you can create an org-wide te
 
 
 # How to hide a channel
-In case that you want to hide a channel inside a teams, right click and select "hide" as shown in the next picture:
+If you want to hide a channel inside a team, right click and select **Hide** as shown in the following illustration.
 
   > ![How to hide a channel](media/HideAChannel.png)
 
