@@ -59,10 +59,10 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 * * *
 
-If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## Additional resources
 
 Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
-[Explore Microsoft Teams phones and certified devices.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
