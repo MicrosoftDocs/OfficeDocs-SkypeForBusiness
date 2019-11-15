@@ -35,6 +35,8 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 |**Cloud Voicemail** <br/> |For E1 and E4 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
 |**Calling Plans** <br/> |1. **Phone System** add-on <br/> 2. [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on. <br/> |
    
+ > [!IMPORTANT]
+ > Office 365 E4 licenses has been officially retired, please view: https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147
   
 ## E1 and E3 customers: How to see prices and buy
 <a name="bkmk_buypremium"> </a>
