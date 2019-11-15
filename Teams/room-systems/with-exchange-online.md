@@ -86,7 +86,10 @@ Import-PSSession $Session -DisableNameChecking
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
-  ``` PowerShell
+   > [!IMPORTANT]
+   > In case that your tenant has ADFS Implemented and a federated user, please proceed to convert the user to managed while you do this set up and then return it back to federated.
+  
+``` PowerShell
  Connect-MsolService -Credential $cred
   ```
 <!--   ``` Powershell
@@ -97,8 +100,8 @@ Import-PSSession $Session -DisableNameChecking
 3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Office 365 tenant.
 4. Once you list out the SKUs, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK). 
 
-  ```
-    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  ```Powershell
+   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
   ```
