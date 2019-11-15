@@ -26,7 +26,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 **To make and receive calls from people external to your business, you have these options**:
 
-- **Option 1**. Use the [Teams app within your plan](https://products.office.com/microsoft-teams/free). If you have a very small business (for example, 1-2 people), using the Teams app is the better way to go. It's free and you are able to communicate 1:1 over chat, also group audio and video calls and share your desktop for presentations. [Compare the features, rates, and payment options](https://products.office.com/microsoft-teams/free).
+- **Option 1**. Use the [Teams app within your plan](https://products.office.com/microsoft-teams/free). If you have a very small business (for example, 1-2 people), using the Teams app is the better way to go. It's free and you are able to communicate 1:1 over chat, make group audio and video calls, and share your desktop for presentations. [Compare the features, rates, and payment options](https://products.office.com/microsoft-teams/free).
 
 - **Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.
 
