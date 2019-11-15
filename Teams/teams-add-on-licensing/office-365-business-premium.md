@@ -38,7 +38,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 
  >[!IMPORTANT]
- > If you already have an O365 Business Premium license, when you download O365 from the portal, it already brings Teams that you can use to talk with collegues and external people, like old skype for business. You can't receive or make calls from phones at least you get two add-ins licenses:
+ > If you already have an O365 Business Premium license, when you download O365 from the portal it already includes Microsoft Teams so that you can use to talk to colleagues and external people, similar to the old Skype for Business. However, you can't receive or make calls from phones until you get at least two add-on licenses:
  >- **Phone System**
  >- **A Domestic calling plan** or **Domestic and International Calling Plan**.
 
