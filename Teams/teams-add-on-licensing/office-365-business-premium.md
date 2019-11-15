@@ -37,7 +37,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
     3. Buy a [Calling Plan for Office 365](../calling-plans-for-office-365.md): you can only buy this after you buy the Phone System add-on.
 
 
- >[!IMPORTANT]
+ > [!IMPORTANT]
  > If you already have an O365 Business Premium license, when you download O365 from the portal it already includes Microsoft Teams so that you can use to talk to colleagues and external people, similar to the old Skype for Business. However, you can't receive or make calls from phones until you get at least two add-on licenses:
  >- **Phone System**
  >- **A Domestic calling plan** or **Domestic and International Calling Plan**.
