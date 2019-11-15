@@ -21,7 +21,7 @@ appliesto:
 
 The Getting Started wizard for Microsoft 365 Business Voice gives you an easy and quick way to start receiving and making phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a Business Voice pilot so you can try it out with a few users before you set it up for everyone. Either way, you can start using Business Voice as soon as the wizard is finished!
 
-It's a good idea to read this article before you start the wizard. When you're ready, you can open the wizard from the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage). Make sure you sign in either with the account you used to create your subscription or another account that's a Global Administrator.
+It's a good idea to read this article before you start the wizard. When you're ready, you can open the wizard by selecting **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Make sure you sign in either with the account you used to create your subscription or another account that's a Global Administrator.
 
 > [!IMPORTANT]
 > Business Voice is currently available in Canada and the United Kingdom. More countries and regions will become available in 2020.
@@ -51,7 +51,7 @@ If you want to know more, see [What are emergency locations, addresses, and call
 
 <table>
     <tr>
-        <td>In addition to setting up a new phone local phone number, you can choose to purchase a toll-free number or port an existing number to Microsoft 365. If you choose to set up a toll-free number, you'll need to purchase a calling plan. If you want to port a number to Microsoft 365, you'll have an option to do so in the [Teams admin center](https://admin.teams.microsoft.com) after the wizard completes.
+        <td>In addition to setting up a new phone local phone number, you can choose to purchase a toll-free number or port an existing number to Microsoft 365. If you choose to set up a toll-free number, you'll need to purchase a calling plan. If you want to port one or more numbers to Microsoft 365, you'll have an option to do so in the [Teams admin center](https://admin.teams.microsoft.com) after the wizard completes.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -59,7 +59,7 @@ If you want to know more, see [What are emergency locations, addresses, and call
 </table>
 
 > [!IMPORTANT]
-> If you choose to port an existing phone number to Microsoft 365, you'll still see a temporary phone number in the wizard. This is ok. After you complete the wizard, and you complete the porting process, the temporary phone number will be replaced with your phone number.
+> If you choose to port one or more existing phone numbers to Microsoft 365, you'll still see a temporary phone number in the wizard. This is ok. After you complete the wizard, and you complete the porting process, the temporary phone number will be replaced with your phone number.
 
 ## Assigning licenses to users
 
@@ -97,6 +97,9 @@ If you want to know more, see [What are emergency locations, addresses, and call
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> The Getting Started wizard helps you set up a simple call menu to get you up and running quickly. If you have multiple phone numbers you want to set up call menus on, or if you want to set up more complex call menus (also called auto attendants), you can do so by following the steps in [Set up a Cloud auto attendant](set-up-auto-attendants.md) after you finish the wizard.
 
 <table>
     <tr>
