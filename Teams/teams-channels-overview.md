@@ -113,7 +113,7 @@ If you want to hide a channel inside a team, right click and select **Hide** as 
 
   > ![How to hide a channel](media/HideAChannel.png)
 
-# How to leave a Teams
+# How to leave a team
 If you want to leave a team, right click the channel and then select **Leave the Team** as shown in the following illustration.
  
   > ![How to leave a team](media/LeaveATeam.png)
