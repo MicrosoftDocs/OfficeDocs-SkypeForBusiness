@@ -20,13 +20,13 @@ f1keywords:
 
 # Assign policies to your users in Microsoft Teams
 
-As an admin, you use policies to control how users in your organization use Microsoft Teams to communicate and collaborate. For example, you can set teams policies to control what users can do in teams and channels, app policies to control what apps are available to Teams users, meeting policies to define the meeting experience, and messaging policies to control what chat and channel features are available to users.
+As an admin, you use policies to control how users in your organization use Microsoft Teams to communicate and collaborate. For example, you can set app policies to control what apps are available to Teams users, meeting policies to define the meeting experience, and messaging policies to control what chat and channel features are available to users.
 
-You can use the Microsoft Teams admin center to assign a policy to individual users or the [Teams PowerShell module](teams-powershell-overview.md) to assign a policy to multiple users or to users in a group, such as a security group.
-
-You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
+You can use the built-in global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
+
+You can use the Microsoft Teams admin center to assign a policy to users or [Teams PowerShell module](teams-powershell-overview.md) cmdlets to assign a policy to multiple users at a time or to users in a group, such as a security group.
 
 ## Using the Microsoft Teams admin center
 
@@ -46,9 +46,20 @@ Or, you can also do the following:
 
 ## Using PowerShell
 
-### Assign a custom policy to multiple users
+### Assign a custom policy to a batch of users
+ 
+Use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign a policy to multiple users at a time. With batch policy assignment, you don't have to write a script. You submit a batch of users and the policy that you want to assign to them. The assignments are processed as a background operation and an operation Id is generated for each batch, which allows you to track the progress and status of the assignments. 
 
-Batch policy assignment lets you 
+You can specify users by their object Id, UPN, SIP, or email address. A batch can contain up to 20,000 users. 
+
+In this example, we assign an app setup policy named HR App Setup Policy to a batch of users who are listed in a Users_ids.text file.
+
+```
+$user_ids = Get-Content .\users_ids.txt
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+```
+
+See also Get-CsBatchPolicyAssignmentOperation and Set-CsBatchPolicyAssignmentOperation. 
 
 ### Assign a custom app setup policy to users in a group
 
