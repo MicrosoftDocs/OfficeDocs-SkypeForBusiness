@@ -111,7 +111,7 @@ This one's a bit of a brain teaser. Guest access in Teams doesn't work if the **
 
 1. Sign in to the Microsoft 365 admin center.
 2. Click **Show All** and under **Admin Centers**, select  **SharePoint**.
-3. On the new Sharepoint Admin Center,  under **Sites** > select **Active Sites**.
+3. In the new SharePoint Admin Center,  under **Sites**, select **Active Sites**.
 
     ![New SPO admin site, Active Sites.](media/guest-access-checklist-SPOSettings0.png)
 
