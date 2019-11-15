@@ -4,7 +4,6 @@ ms.reviewer:
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -31,6 +30,3 @@ To identify guest users:
   
 You can also identify guest users from within a team that you own.  
 
-## Guest access vs. external access (federation)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

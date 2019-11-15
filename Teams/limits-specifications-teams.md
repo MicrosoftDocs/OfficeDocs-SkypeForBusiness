@@ -11,6 +11,7 @@ description: Learn about the limits, specifications, and other requirements that
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
+  - SPO_Content
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -93,6 +94,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
+|Max PowerPoint File Size | 2GB|
 
 ## Teams live events
 
@@ -103,6 +105,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Concurrent live events in an Office 365 tenant | 15 |
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+## Presence in Outlook
+
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## Storage
 
