@@ -1,7 +1,7 @@
 ---
 title: "Phones for Microsoft Teams"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference

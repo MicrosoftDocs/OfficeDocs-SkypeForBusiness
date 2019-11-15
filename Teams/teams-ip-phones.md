@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Teams"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article

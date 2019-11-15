@@ -1,7 +1,7 @@
 ---
 title: "Management overview for Microsoft Teams Rooms"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
