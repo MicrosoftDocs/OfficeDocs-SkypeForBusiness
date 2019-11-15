@@ -19,16 +19,18 @@ appliesto:
 
 # Create and license users and assign phone numbers to them
 
-To use Microsoft 365 Business Voice, a user needs an Microsoft 365 account with a Microsoft 365 Business Voice with SMS license. After an account has been created with a Microsoft 365 Business Voice with SMS license, you can assign a phone number to it.
+To use :::no-loc text="Microsoft 365 Business Voice":::, a user needs an :::no-loc text="Microsoft 365"::: account with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license. After an account has been created with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign a phone number to it.
+
+:::no-loc text="hi 365":::
 
 ## Create and license users
 
-1. Follow the steps in [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users) to add one or more users.
-2. In the **Assign product licenses** pane, be sure to select **Microsoft 365 Business Voice with SMS**.
+1. Follow the steps in [Add users individually or in bulk to :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) to add one or more users.
+2. In the **Assign product licenses** pane, be sure to select **:::no-loc text="Microsoft 365 Business Voice with SMS":::**.
 
 ## Assign phone numbers to users
 
-After users have been created and assigned a Microsoft 365 Business Voice with SMS license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs one. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
+After users have been created and assigned a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs one. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
 
 1. Go to https://admin.teams.microsoft.com
 2. Enter a name and description for the phone number request
