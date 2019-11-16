@@ -76,7 +76,6 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-
 ### Certified firmware versions for USB audio and video peripherals
 
 These devices are available at the [Room System Accessories product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) and [https://office.com/teamsdevices](https://office.com/teamsdevices).

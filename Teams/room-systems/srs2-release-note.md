@@ -220,7 +220,7 @@ Introduced in this update:
 Introduced in this update:
 
 - Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
-- Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- Support for the [Logitech Brio](https://www.logitech.com/product/brio)
 - Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room
 
 ### 3.0.12.0 (9/1/2017)
@@ -292,7 +292,7 @@ Introduced in this update:
 <a name="See"> </a> 
 ## See also
 
-[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Prepare your environment](srs-v2-prep.md)
 
