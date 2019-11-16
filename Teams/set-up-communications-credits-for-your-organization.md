@@ -50,7 +50,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
   
 ## Step 2: Set up Communications Credits for your organization
 
-1. Sign in to the new Office 365 porta with your work or school account.
+1. Sign in to the new Office 365 portal with your work or school account.
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
 
