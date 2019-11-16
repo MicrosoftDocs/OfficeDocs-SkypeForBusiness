@@ -58,7 +58,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   ||||||
 
-> [!NOTES]
+> [!NOTE]
 > - Core M3 processors are not supported.
 > - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
 
