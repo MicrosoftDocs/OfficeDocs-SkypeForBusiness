@@ -16,7 +16,9 @@ description: "This article summarizes the requirements for supporting Microsoft 
 
 # Microsoft Teams Rooms requirements
 
-This article summarizes the requirements for supporting Microsoft Teams Rooms.
+Microsoft Teams Rooms scale to different room sizes by using a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from very small huddle spaces up through very large conference spaces and boardrooms.  The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
+
+This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
@@ -26,34 +28,18 @@ Also, refer to:
 - [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
+> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online, and may join meetings hosted by any of these services.
 >
-> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Office 365 operated by 21Vianet, or in GCC, GCC-High, or DoD environments.
+> Earlier platforms like Lync Server 2013 are not supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Office 365 operated by 21Vianet, or in GCC-High, or DoD environments.
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
+A hardware deployment includes a selection of a Microsoft Teams Room system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
 
-Microsoft Teams Rooms scales to different room sizes by using different audio and video peripherals based on the size of the room. The hardware listed in this article supports both Skype and Teams meeting modes. Audio and video peripherals connect to Microsoft Teams Rooms via a USB or HDMI connection on the docking device. You also need:
+**Supported Microsoft Teams Room systems**
 
-- A 32 GB or larger USB disk you configure as bootable Windows installation media for Windows 10 Enterprise.
-- One of the following tablets or consoles:
-
-  **Supported tablets**
-
-  |Tablet|Processor|RAM|Disk|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| Core i5 |16 GB or 8 GB |128 GB or more |
-  |Surface Pro </br>(fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
-  |Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
-
-- One of the following docking station options to secure a tablet to the meeting room table.
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **Other Supported Microsoft Teams Rooms consoles**
+All current Microsoft Teams Room devices and bundles are available in the [Room Systems product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |Console|Processor|RAM|Disk|
   |:-----|:-----|:-----|:-----|
@@ -72,13 +58,27 @@ Microsoft Teams Rooms scales to different room sizes by using different audio an
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   ||||||
 
-
 > [!NOTE]
-> Core M3 processors are not supported.
+> - Core M3 processors are not supported.
+> - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
+
+**Supported Surface Pro tablets for dock-style systems**
+
+  |Tablet|Processor|RAM|Disk|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Core i5 |16 GB or 8 GB |128 GB or more |
+  |Surface Pro </br>(fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
+  |Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
+
+- One of the following docking station options to secure a tablet to the meeting room table.
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### Certified firmware versions for USB audio and video peripherals
 
-These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+These devices are available at the [Room System Accessories product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) and [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
 |Microsoft Teams Rooms peripheral|Certified firmware version | Camera supports content camera use|
 |:--- |:--- | :--- |
