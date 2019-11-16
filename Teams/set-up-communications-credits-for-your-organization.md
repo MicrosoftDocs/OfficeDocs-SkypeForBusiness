@@ -42,7 +42,7 @@ To do so, **you need to assign an Audio Conferencing or Phone System license** t
 - Assign **Phone System** and a **domestic or domestic and international** Calling Plan license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
     
     > [!NOTE]
-    > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or an **Domestic and International Calling Plan** license.
+    > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or a **Domestic and International Calling Plan** license.
   
     After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](set-up-calling-plans.md).
     
