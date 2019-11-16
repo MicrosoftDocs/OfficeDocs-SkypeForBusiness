@@ -63,7 +63,7 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
     ```
 
  > [!NOTE]
- > Once the services have been installed, proceed to apply the CU again.
+ > Once the services have been installed, apply the CU again.
 
     Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
     
