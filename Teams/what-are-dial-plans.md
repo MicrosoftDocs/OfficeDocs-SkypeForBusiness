@@ -1,7 +1,7 @@
 ---
 title: "What are dial plans?"
-author: LanaChin
-ms.author: v-lanac
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
