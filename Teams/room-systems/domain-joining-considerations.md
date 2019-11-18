@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System domain joining considerations"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
