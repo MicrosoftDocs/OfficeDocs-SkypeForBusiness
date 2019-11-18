@@ -19,7 +19,7 @@ You can now use a content camera with a Microsoft Teams Room system. A content c
 
 See the following video for examples of content camera functionality.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
 
 ## Set up a content camera
 
