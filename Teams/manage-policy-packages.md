@@ -97,3 +97,7 @@ You can edit the settings of a policy through the **Policy packages** page or by
 **You receive an error when you assign a policy package**
 
 This may occur if one or more policies in the package weren't created or applied successfully. Reassign the policy package to your users. Retrying the operation typically fixes this issue.
+
+## Related topics
+
+[Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
