@@ -55,6 +55,8 @@ Users can manually set their current presence state to some options, and their s
 
 Users receive all chat messages sent to them in Teams regardless of their presence state. If the user is offline when someone sends them a message, the chat message appears in Teams the next time the user is online. If a user is in a Do Not Disturb state, the user will still get chat messages but a banner notification won't be displayed.
 
+Users receive calls in all presence states except for Do Not Disturb states, in which incoming calls are delivered to their voicemail.
+
 Users can specify who can break through (meaning contact them despite a Do Not Disturb state). These settings are available in the Teams client.
 
 ## Admin settings in Teams compared to Skype for Business
