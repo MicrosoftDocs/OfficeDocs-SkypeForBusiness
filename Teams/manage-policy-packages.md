@@ -3,7 +3,7 @@ title: Manage policy packages in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -36,6 +36,7 @@ Teams currently includes the following policy packages.
 |Education_PrimaryStudent package    |Creates a set of policies and policy settings that apply to primary students.|
 |Education_SecondaryStudent package    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education_HigherEducationStudent package    |Creates a set of policies and policy settings that apply to higher education students.|
+|SmallMediumBusiness_BusinessVoice package    |Creates an app setup policy that includes the apps for a business voice experience.|
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
@@ -96,3 +97,7 @@ You can edit the settings of a policy through the **Policy packages** page or by
 **You receive an error when you assign a policy package**
 
 This may occur if one or more policies in the package weren't created or applied successfully. Reassign the policy package to your users. Retrying the operation typically fixes this issue.
+
+## Related topics
+
+[Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)

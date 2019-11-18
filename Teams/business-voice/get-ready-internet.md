@@ -52,17 +52,17 @@ Before you start, you need to know the following information:
 Here's what you need to do:
 
 1. Open a browser and go to https://admin.teams.microsoft.com and sign in with an account that has Global Administrator permissions. The account you used to sign up for Office 365 has these permissions.
-1. Open **Org-wide settings** and then select **Network planner**.
+1. Open **Planning** and then select **Network planner**.
 1. Under **Network plans**, select **Add**. Give your plan a name, and then select **Apply**. Your network plan should look like this:
 
     ![Network planner main screen](../media/network-planner-main.png)
 1. Click on your network plan's name (**Main office** in the picture above).
 1. On the next page, select **Add a network site** under the **Network sites** tab.
-1. Fill out the following information and then select **Save**.
+1. Fill in only the fields indicated in the screenshot below and then select **Save**. Leave the other fields on this screen blank, and don't select either the **ExpressRoute** or **Connected to WAN** options.
 
     ![Network planner site information](../media/network-planner-site-info.png)
 1. Under the **Report** tab, select **Start a report**.
-1. Fill out the following information and then select **Generate report**
+1. Fill out the following information and then select **Generate report** to create a report showing the bandwidth requirements for Teams. We'll show you how to read the report in the next section.
 
     ![Network planner report information](../media/network-planner-report-info.png)
 
