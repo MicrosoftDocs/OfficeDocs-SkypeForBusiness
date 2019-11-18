@@ -23,6 +23,8 @@ description: Learn how to create and manage calling dial plans (PSTN Calling dia
 
 # Create and manage dial plans
 
+[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
+
 After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. You can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
 
 ## Using the Microsoft Teams admin center
@@ -93,8 +95,6 @@ To learn more, see [Connect to all Office 365 services in a single Windows Power
 >     $session = New-CsOnlineSession -Credential $credential
 >     Import-PSSession $session
 >   ```
-
-For more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
   
 ### Create and manage your dial plans
 
