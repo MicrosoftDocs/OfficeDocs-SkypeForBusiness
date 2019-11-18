@@ -87,17 +87,16 @@ Currently, users experience the following if an information barrier policy block
 - **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified and the only action the user can perform is to delete them.
 - **Skype to Teams migration** - During a Skype for Business to Teams migration, all users, even those blocked by information barrier policies, will be migrated to Teams and then will be handled as described above.
 
-
-
-## Required licenses and permissions
-
+## Will files and SharePoint site experiences connected to Teams honor IB policy?
+ 
 When a Team is created, a SharePoint site is provisioned and associated with the Team for the files experience. Access to this SharePoint site and files honors the organization’s IB policy i.e. only the users whose IB segment matches per IB policy are allowed access. Even at the time of file sharing, the IB policy is honored.
 
 For example: In Contoso Bank corporation, user ‘Sesha@contosobank.onmicrosoft.com’ belongs to Investment Banking segment and user ‘Nikita@contosobank.onmicrosoft.com’ belongs to segment Advisory. The organization’s IB policy blocks communication and collaboration between these two segments. 
 When user Sesha creates a Team for Investment Banking segment, the Team and the SharePoint site that backs it will be accessible only to Investment Banking segment users. User Nikita can’t access that site even if she has the site link.
 
-For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+## Required licenses and permissions
 
+For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## More information
 
