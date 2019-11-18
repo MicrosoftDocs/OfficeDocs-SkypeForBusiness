@@ -16,15 +16,18 @@
 
 # Chat, teams, channels, and apps
 ## [Plan your deployment](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
+## [Overview of private channels](private-channels.md)
+## [Manage the life cycle of private channels](private-channels-life-cycle-management.md)
 ## [Assign team owners and members in Teams](assign-roles-permissions.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage teams and channel policies](teams-policies.md)
+## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
-## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [User presence in Teams](presence-admins.md)
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
@@ -100,9 +103,6 @@
 #### [PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Teams live event usage report](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
-
-
-
 
 <!-- ============================================================ -->
 
@@ -363,8 +363,11 @@
 ### [See a list of phone numbers in your organization](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Getting service phone numbers](getting-service-phone-numbers.md)
-### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
-### [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+### Transferring phone numbers
+#### [What's a port order?](phone-number-calling-plans/port-order-overview.md)
+#### [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [Manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md)
+#### [What's the status of your port orders?](phone-number-calling-plans/port-order-status.md)
 
 ## Call routing
 ### [What are dial plans?](what-are-dial-plans.md)
@@ -675,34 +678,66 @@
 #    
 # Hybrid connectivity 
 
-## [Plan hybrid connectivity](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Configure hybrid connectivity
-### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### [Configure Azure AD Connect for hybrid environments](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### [Configure Skype for Business hybrid](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Configure Azure AD Connect for hybrid environments](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Configure Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## Move users between on-premises and cloud
-### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### [Move users from on-premises to Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### [Move users from the cloud to on premises](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Move users from on-premises to Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Move users from the cloud to on premises](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Manage meeting migration](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Manage meeting migration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [Disable hybrid to complete migration to the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## [Deploy a resource forest topology](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [Deploy a resource forest topology](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Cloud consolidation for Teams and Skype for Business Online
-### [Overview](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation)
-### [Update the edge certificate](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Update the edge certificate](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## [Integration with Exchange and SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Integration with Exchange and SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
+#     
+#     
 
-#       
+<!-- ============================================================ -->
+
+# Microsoft 365 Business Voice
+## [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## What to know before buying
+### [What to buy to get Business Voice](business-voice/what-to-buy.md)
+### [Check your Internet connection](business-voice/get-ready-internet.md)
+### [Get your users ready](business-voice/prepare-users.md)
+## [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
+
+<!--
+## [Things to try](business-voice/things-to-try.md)
+-->
+## Customize your setup
+### [Customization options](business-voice/customize-business-voice.md)
+### [Port phone numbers](business-voice/port-phone-numbers.md)
+### [Set up auto attendants](business-voice/set-up-auto-attendants.md)
+### [Set up calling policies](business-voice/set-up-policies.md)
+### [Manage policy packages](business-voice/policy-packages.md)
+### [Create additional users](business-voice/create-users.md)
+### [Set up call queues](business-voice/set-up-call-queues.md)
+
+## Manage your setup
+### [Create one or more users](business-voice/create-users.md)
+### [Manage devices](business-voice/manage-devices.md)
+### [Monitor call quality](business-voice/monitor-quality.md)
+### [Call Quality Dashboard](business-voice/analytics-dashboard.md)
+
+## [Partner resources](business-voice/partner-resources.md)
+
+#        
 #        
 
 <!-- ============================================================ -->
@@ -738,6 +773,7 @@
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 ### [Install Moodle integration](install-moodle-integration.md)
 

@@ -152,7 +152,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | AA | Service Features | Multi-language support | Language details here: https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | Service Features | Transfer to operator, CQ, or a user |  | Y | Y    |
 | AA | Service Features | Transfer to PSTN number internally (DID RNL)  |  | Y | Y    |
-| AA | Service Features | Transfer to PSTN number externally  |  | Q3CY19 | Y    |
+| AA | Service Features | Transfer to PSTN number externally  |  | Check out Known Issues section below | Y    |
 | AA | Service Features | Business hours |  | Y | Y    |
 | AA | Service Features | Menu options | IVR menu options  | Y | Y    |
 | AA | Service Features | Assigning a cloud PSTN number to AA |  | Y | N    |
@@ -206,6 +206,16 @@ New Skype for Business users will be automatically provisioned for Cloud voicema
 To learn more about auto attendants, see [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
 
 #### Known issues
+
+**Auto Attendant Call Transfer to PSTN**
+Customers are encouraged to configure a temporarily workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number, or to an RGS instance. 
+ 
+An issue was identified during quality assurance with the Transfer out to PSTN number feature, which is not going to be fixed in-time for customers to start migrating off Exchange UMO service before its scheduled retirement date of Feb 1st, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premise virtual user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. 
+ 
+Expected Experience
+- Administrators do not need to license the virtual user, since this is a workaround solution 
+- Administrators can manipulate the caller ID that the PSTN receiver will see by assigning the desired number to the virtual user, or using the SBC digit manipulation capabilities 
+- PSTN Callers will not experience any delay during the call transfer, and they will continue to see the caller ID of the auto attendant after the transfer is successful  
 
 **Shared mailbox:**
 A shared mailbox that is configured using Exchange UM Online will continue to receive messages after being migrated to CVM, and will continue to be accessible to users via Outlook. However, access to change the greeting messages of these mailboxes will not be available once migrated to CVM. Customers with shared mailboxes that are used to capture auto attendant callers should leverage the Auto Attendants and Call Queues Shared Mailbox capabilities once released (ETA October 2019).
