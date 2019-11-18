@@ -28,7 +28,7 @@ You can use the Microsoft Teams admin center to assign a policy to users or [Tea
 
 ## Assign a policy to individual users
 
-Here are steps for how to assign a policy to users in the Microsoft Teams admin center. Use these steps if you're assigning a policy to individual users or up to 20 users at a time.
+Here are steps for how to assign a policy to users in the Microsoft Teams admin center. Use these steps if you're assigning a policy to individual users or a small number of users at a time.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -66,6 +66,12 @@ When you're prompted, sign in using your admin credentials.
 
 You may also want to install the Azure AD PowerShell for Graph module (if it's not already installed) and connect to Azure AD so that you can retrieve a list of users in your organization. To learn more, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
 
+Run the following to connect to Azure AD.
+
+```
+Connect-AzureAD
+```
+
 ## Assign a policy to a batch of users
  
 With batch policy assignment, you can assign a policy to multiple users at a time without having to use a script. You use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign to them. The assignments are processed as a background operation and an operation Id is generated for each batch, which lets you track the progress and status of the assignments.
@@ -90,6 +96,14 @@ In this example, we assign a meeting policy named Vendor Meetings to a batch of 
 $users_ids = @("psmith@contoso.com","tsanchez@contoso.com","bharvest@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName "Vendor Meetings" -Identity $users_ids -OperationName "Example 1 batch"
 ```
+
+In this example, we assign an app setup policy named HR App Setup Policy to a batch of users who are listed in the Users_ids.text file.
+
+```
+$user_ids = Get-Content .\users_ids.txt
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+```
+
 
 See also Get-CsBatchPolicyAssignmentOperation and Set-CsBatchPolicyAssignmentOperation. 
 
