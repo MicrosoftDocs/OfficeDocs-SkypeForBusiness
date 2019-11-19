@@ -88,13 +88,13 @@ To learn more, see [Connect to all Office 365 services in a single Windows Power
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
   
-> 
->   ```
->     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
->     $credential = Get-Credential
->     $session = New-CsOnlineSession -Credential $credential
->     Import-PSSession $session
->   ```
+
+    ```
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+    ```
   
 ### Create and manage your dial plans
 
@@ -124,7 +124,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   ```
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
-tp
+
     For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
     
 - To view the settings on a dial plan, run:
