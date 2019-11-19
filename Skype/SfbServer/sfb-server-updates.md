@@ -74,7 +74,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 ## Lync Server 2013 update history
 
-[KB 2809243](http://support.microsoft.com/kb/2809243) contains all Cumulative Updates that have been released.
+[KB 2809243](https://support.microsoft.com/kb/2809243) contains all Cumulative Updates that have been released.
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
@@ -159,7 +159,7 @@ Package Name/Link|Release Date|
 
 ## Lync Server 2010 update history
 
-[KB 2493736](http://support.microsoft.com/kb/2493736) contains all Cumulative Updates that have been released.
+[KB 2493736](https://support.microsoft.com/kb/2493736) contains all Cumulative Updates that have been released.
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
@@ -167,7 +167,7 @@ Package Name/Link|Release Date|
 |Lync Server 2010 Cumulative Update 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |April 2016 |
 |Lync Server 2010 Cumulative Update 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |May 2015 |
 |Lync Server 2010 Cumulative Update 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |February 2015|
-|Lync Server 2010 Cumulative Update 13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|September 2014|
+|Lync Server 2010 Cumulative Update 13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|September 2014|
 |Lync Server 2010 Cumulative Update 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |April 2014 |
 |Lync Server 2010 Cumulative Update 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |January 2014|
 |Lync Server 2010 Cumulative Update 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |October 2013|
