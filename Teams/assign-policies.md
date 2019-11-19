@@ -126,6 +126,9 @@ Here's an example of the output that you see
 
 ## Group policy assignment
 
+> [!NOTE]
+> Currently, group policy assignment isn't available for all Teams policy types. See [New-GroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
+
 ### What you need to know about group policy assignment
 
 #### Effective policy rules of precedence
