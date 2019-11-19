@@ -333,15 +333,15 @@ In many cases, apps primarily receive event-driven data from an external service
 
 Below are examples of Slack solutions where an Office 365 Connector was used in Teams for integration.
 - Ansible
-  - Alerts can be sent to Teams via Ansible webhook
+  - Alerts can be sent to Teams via [Ansible webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook)
 - New Relic
-  - Not official, but this can be used to send New Relic alerts to Teams
+  - Check out this user solution for [sending New Relic alerts to Teams](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)
 - Nagios
   - Alerts can be integrated today via Connectors. https://github.com/isaac-galvan/nagios-teams-notify
 - ZenDesk
   - App exists in Teams Store
 - Jenkins
-  - Alerts can be sent to Teams using Jenkins’s Office 365 Connector
+  - Alerts can be sent to Teams using [Jenkins’s Office 365 Connector](https://plugins.jenkins.io/Office-365-Connector)
 
 
 ### User readiness and adoption plan
