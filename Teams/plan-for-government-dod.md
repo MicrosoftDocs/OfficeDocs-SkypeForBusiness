@@ -7,15 +7,14 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
 audience: admin
-description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government DoD regulation.  
+description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government DoD regulation.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Plan for Microsoft 365 Government - DoD deployments
@@ -103,7 +102,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | VoIP call | Available |
 | | Skype for Business - Teams calling | Available |
 | | Calling Plans | Not Available |
-| | Audio conferencing (by allowing meeting participants to join via PSTN) | On the Government backlog |
+| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
 | | Microsoft Phone System direct routing | On the Government backlog |
 | | Lobby for PSTN callers | On the Government backlog |
 | | Call queue | On the Government backlog |

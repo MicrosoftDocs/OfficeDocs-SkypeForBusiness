@@ -9,17 +9,16 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Training
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
 ms.topic: landing-page
 f1keywords: 
-- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
-- ms.teamsadmincenter.dashboard.trainingvideos.enduser
+  - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+  - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # End user training for Microsoft Teams
 
@@ -99,7 +98,7 @@ Watch this short video introducing you to Teams</h3>
         </a>
     </li>
  <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <a href="https://aka.ms/TeamsOnDemand">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -109,7 +108,7 @@ Watch this short video introducing you to Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Check out the Teams channel on YouTube</h3>
+                        <h3>Check out the Teams training channel on YouTube</h3>
                     </div>
                 </div>
             </div>

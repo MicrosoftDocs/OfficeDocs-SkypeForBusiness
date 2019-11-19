@@ -4,16 +4,15 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
-audience: admin 
+audience: admin
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
 description: Learn how to enable the Teams desktop client application with AppLocker application control policies.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # AppLocker application control policies in Microsoft Teams
@@ -34,11 +33,12 @@ Since Teams desktop executable files are digitally signed, the publisher conditi
 
 ### Example of publisher condition rules
 
-For the Teams client app (all files, all versions):
+For the Teams client app (all files, all versions) add the following to the Executable Rules & DLL Rules:
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
+Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## Related topics

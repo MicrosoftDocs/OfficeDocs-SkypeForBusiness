@@ -8,15 +8,14 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-ms.custom:
-- Licensing
-- LIL_Placement
+ms.custom: 
+  - Licensing
+  - LIL_Placement
 description: "Learn about free Virtual User licenses."
 ---
 
@@ -47,7 +46,7 @@ Contoso should consider redesigning the auto attendant and call queue system. If
 ## How to acquire Phone System–Virtual User licenses 
 
 > [!NOTE] 
-> When following these instructions, use Preview Mode to purchase a Phone System-Virtual User license.
+> When following these instructions, turn off Preview Mode to purchase a Phone System-Virtual User license.
 
 1. Sign in to the Microsoft 365 admin center.
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**

@@ -8,41 +8,60 @@ ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "This article discusses lifecycle support for Microsoft Teams Rooms."
 ---
 
 # Microsoft Teams Rooms app version support
  
-Microsoft plans to release updates for Microsoft Teams Rooms a few times per year with each update supported for twelve (12) months from its general availability (GA) release date. Technical support is provided for the entire twelve (12) months. However, the support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest version.
+The Microsoft Teams Rooms app gets updates a few times per year. Each update supported for twelve (12) months from its general availability (GA) release date. Technical support is provided for the entire twelve (12) months. However, the support structure is dynamic, with two distinct phases that depend on the availability of the latest version:
 
-**Servicing and Critical Updates servicing phase** \- When running the latest version of Microsoft Teams Rooms, you receive regular updates, that contain Security and Servicing updates.
+- **Servicing and Critical Updates phase** \- When you run the latest version of the Microsoft Teams Rooms app, you receive regular updates that contain *Security and Servicing* updates.
 
-**Security Updates (Only) servicing phase** \- After a new version is released, support for older branches reduces to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
+- **Security Updates Only phase** \- When a new version of the Microsoft Teams Rooms app releases, older versions of the app have a reduced support level with *Security updates only* for the rest of the twelve (12) month lifecycle.
 
 > [!NOTE]
-> The latest version is always in the Servicing and Critical Updates servicing phase. This means that in the event that you encounter a code defect that warrants a critical update, you must have the latest version installed in order to receive a fix. All other supported versions will only be eligible to receive security updates.
+> The latest version is always in the Servicing and Critical Updates phase. When you encounter a code defect that warrants a critical update, you must also have the latest version installed to receive a fix. All other supported versions will only be eligible to receive security updates.
 
 All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version.
 
 All releases are listed in the [Microsoft Teams Rooms release notes](srs2-release-note.md).
 
-# OS Version support
+## Windows 10 release support
 
-Windows 10 feature updates for devices running Microsoft Teams Rooms are not offered for six months from the time when Windows makes a release update. This is accomplished by putting a special block for Microsoft Teams Rooms devices on Windows Update for Business channel (that is, Semi-Annual Channel) and through the app settings. During this blocked period Microsoft performs various tests both in-house and through our device OEM partners to make sure that new Windows 10 feature release is working in harmony with the Microsoft Teams Rooms app and peripherals connected to it. This is important to both ensure device security, consistent user experience and to make sure quality of experiences offered through Microsoft Teams Rooms app. 
+Microsoft Teams Rooms requires the  Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. These other Windows 10 editions aren't supported:
 
-From the time block is lifted (that is, Window 10 feature update is offered to download on these devices), Microsoft Teams Rooms supports the specific Windows 10 feature release for 12-month period in line with App support policy. Since Windows 10 feature updates are offered about every six months, this also means that Microsoft Teams has two more releases to test by the time support for current version is ended. This also means that a Windows 10 version is unblocked every six months to all Microsoft Teams Rooms customers. The app is continuously changing and developed against the last unblocked Windows release. To ensure that you get the app fix for an issue you encounter on your Microsoft Teams Rooms device, we urge all customers to upgrade these devices to the latest Windows 10 feature update offered to stay within supported windows version guidance.
+- Windows 10 Enterprise Long-term Servicing Branch (LTSB) / Long Term Servicing Channel (LTSC) editions
+- Windows 10 Internet of Things (IoT) Enterprise LTSB / LTSC editions
+- any other edition of Windows such as Windows 10 Pro or Home edition
 
-As such, Microsoft Teams Rooms devices require Windows 10 version 1709 as the minimum supported version starting May 2019. No new app releases are offered to systems on Windows 10 Versions 1703 or below.
+A Windows 10 feature update isn't offered or updated on Microsoft Teams Rooms devices immediately. An intentional delay of up to six months after the general availability date published on the [Windows 10 release information](https://docs.microsoft.com/windows/release-information/) page. The delay time is used to validate the Windows 10 release compatibility for the Microsoft Teams Rooms application, device hardware, and certified audio video peripherals. Validation begins and continues during active development of each major release of Windows 10. Extra time is needed to validate that all device manufacturers have built updated images for their devices, and for Microsoft Teams to certify and test those images. During the validation period, the Microsoft Teams Room app  uses  [Windows Update for Business group policies](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) to delay Windows 10 feature updates. After any compatibility issues are found and resolved, the block is lifted via updating group policies through a new app release in Windows store. Devices that run the Microsoft Teams Rooms app automatically update to an appropriate Windows 10 release during the nightly maintenance reboot. An MSI version is made available for customers that wish to manually manage updates.  
 
-> [!NOTE]
-> When a Microsoft Teams Rooms device is compatible with the next version of Windows 10 OS, the device automatically updates to the next version through Windows Update. Microsoft Teams Rooms devices should not be upgraded to the next release of Windows 10 manually or via enabling Windows Update for Business (WUFB) group policies using the “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" options through a GPO. Enabling these group policies is known to lead to issues between Windows 10 OS update and the Microsoft Teams Rooms app.
- 
-<a name="See"> </a> 
+> [!IMPORTANT]
+> During the validation period, Microsoft Teams Rooms devices should **not** be updated to the next release of Windows 10 by any means. This includes overriding the group policies in place, or using System Center or other third-party device management services. Any of these may cause issues for the Microsoft Teams Room application or may leave devices unusable.  
+
+The following table shows recommended and supported versions of Windows 10 that are verified to support Microsoft Teams Rooms. All dates are listed in ISO 8601 format: YYYY-MM-DD.
+
+|Version  |Availability date   |Microsoft Teams Rooms support status   |Microsoft Teams Rooms Minimum application version | Recommended OS build  |
+|:---  |:---       |:---                                  |:---     |:---     |
+| 1903 |2019-05-21 |Supported &#x2780;, <br/>Recommended  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |Skipped, <br/>Not recommended &#x2781;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |Supported                             |4.1.22.0 |17134.191|
+| 1709 |2018-01-18 |Not supported                         |&#x2014; |&#x2014; |
+| 1703 |2017-07-11 |Not Supported                         |&#x2014; |&#x2014; |
+||||||
+
+&#x2780; Windows 10 1903 is not available for Crestron Flex devices due to an issue with an Intel graphics device driver. Windows 10 1903 will not offered to these devices. Users should not upgrade these devices to 1903 and keep them on Windows 10 1803 until a graphic driver update is made available by Crestron. 
+
+&#x2781; The Windows 10 1809 version is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after nightly reboot. This issue was addressed in the Windows 10 1903 version.  
+
+When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
+
 ## See also
 
-[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams Rooms release notes](srs2-release-note.md)
 

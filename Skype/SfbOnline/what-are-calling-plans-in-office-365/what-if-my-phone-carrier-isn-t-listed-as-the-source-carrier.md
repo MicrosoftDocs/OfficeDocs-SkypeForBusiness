@@ -31,7 +31,7 @@ An example:
   
 - If you are porting number from Skype for Business as your carrier, you might see Level3 listed.
     
-  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **For complete step-by-step instructions, see [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
 
     > [!NOTE]
     > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

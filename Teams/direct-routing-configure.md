@@ -9,11 +9,10 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
@@ -527,6 +526,11 @@ The result is that the voice policy applied to John Woods’ calls is unrestrict
 
 Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information interoperability between Skype and Teams: [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
+
+## Configuring sending calls directly to voicemail
+
+Direct Routing allows you to end the call to a user and send it directly to the users' voicemail. If you want to send the call directly to voicemail, please attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail".
+In this case the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
 ## See also
 

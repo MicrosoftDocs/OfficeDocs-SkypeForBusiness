@@ -4,19 +4,18 @@ ms.reviewer:
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviwer: sbhatta
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
 description: Learn how an admin can view information about guest users in Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 View guest users in a team
@@ -31,6 +30,3 @@ To identify guest users:
   
 You can also identify guest users from within a team that you own.  
 
-## Guest access vs. external access (federation)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

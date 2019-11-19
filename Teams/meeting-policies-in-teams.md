@@ -3,24 +3,22 @@ title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
-audience: admin 
+ms.reviewer: sonua, shalenc
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 f1keywords: 
-- ms.teamsadmincenter.meetingpolicies.overview
-- ms.teamsadmincenter.meetingpolicies.audioandvideo
-- ms.teamsadmincenter.meetingpolicies.contentsharing
-- ms.teamsadmincenter.meetingpolicies.general
-- ms.teamsadmincenter.meetingpolicies.participantandguests
+  - ms.teamsadmincenter.meetingpolicies.overview
+  - ms.teamsadmincenter.meetingpolicies.audioandvideo
+  - ms.teamsadmincenter.meetingpolicies.contentsharing
+  - ms.teamsadmincenter.meetingpolicies.general
+  - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Learn to manage meeting policy settings in Teams.
 ---
 # Manage meeting policies in Teams
@@ -28,7 +26,7 @@ description: Learn to manage meeting policy settings in Teams.
 ::: zone target="docs"
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign users to the policy. You manage meeting policies in the Microsoft Teams admin center or by [using PowerShell](teams-powershell-overview.md).
 
-You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting. 
+You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
 
 |Implementation type  |Description  |
 |---------|---------|
@@ -136,7 +134,7 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 - [Allow cloud recording](#allow-cloud-recording)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (KBs)](#media-bit-rate-kbs)
-- [Enable live captions (coming soon)](#enable-live-captions-coming-soon)
+- [Enable live captions (preview)](#enable-live-captions-preview)
 
 ### Allow transcription
 
@@ -193,9 +191,17 @@ If there isn’t enough bandwidth for a meeting, participants see a message that
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
-### Enable live captions (coming soon)
+### Enable live captions (preview)
 
-This is a per-user policy and applies during a meeting. If this setting is on, the user sees an option to display captions during a meeting.
+This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
+
+![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+
+|Setting value |Behavior  |
+|---------|---------|
+|**Disabled and the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
+
 
 <a name="bkcontentsharing"> </a>
 

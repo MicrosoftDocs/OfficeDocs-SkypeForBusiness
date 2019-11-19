@@ -7,15 +7,15 @@ ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Known issues for Microsoft Teams
@@ -190,6 +190,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |No audio while sharing content during a broadcast meeting  <br/> |When sharing content during a broadcast meeting, audio from the shared content (YouTube link or a saved video file) cannot be hear by participants.  <br/> |None as this is by design.  Teams does not currently support audio from content sharing  <br/> |10/9/18  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to start meeting as Organizer from Outlook as you may get stuck in the Virtual Lobby  <br/> |You may run into this issue if your Outlook client is logged into a different account than your Teams client. <br/> |When you join the meeting, make sure your Outlook client and Teams client are logged into the same account that the meeting was scheduled from.  <br/> |11/5/18  <br/> |
 
 ## Mobile
 

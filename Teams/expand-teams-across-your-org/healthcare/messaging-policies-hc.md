@@ -1,16 +1,18 @@
 ---
 title: "Get started with Secure Messaging for Healthcare organizations"
 author: jambirk
-ms.author: jambirk 
+ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article 
-ms.service: msteams 
+ms.topic: article
+ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+appliesto: 
+  - Microsoft Teams
 ms.reviewer: 
 description: Get started with Secure Messaging for Healthcare organizations
 ---
@@ -42,6 +44,8 @@ The following settings are of special interest for Healthcare applications, and 
     *Usage example with read receipts:* Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia starts a group chat with a set of doctors and other nurses who will be working with the patient to coordinate care and starts an emergency triage.  The nurses and doctors communicate and collaborate over the patient's care plan throughout the care coordination process.  Important and urgent messages are sent through 1:1 and group chat conversations. Sofia uses the read receipts functionality to determine if messages sent requesting support are delivered and read by the targeted physicians or nurses. Jakob's patient outcomes are near-optimal and he goes home sooner because his care team communicates smoothly.
 
 ## Priority notifications
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 

@@ -7,22 +7,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: islubin, jastark 
-description: "Learn how to view or update your teams in the Microsoft Teams admin center."
+ms.reviewer: islubin, jastark
+description: Learn how to view or update your teams in the Microsoft Teams admin center.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration 
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage teams in the Microsoft Teams admin center
 ==========================================
 
 ## Overview
+
+This article provides an overview of the management tools for Teams in the Microsoft Teams admin center.
 
 As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
@@ -31,13 +32,13 @@ As an admin, you may need to view or update the teams that your organization set
 
 You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
-This article provides an overview of the management tools for teams in the Microsoft Teams admin center.
+
 
 ## Teams overview grid
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-![Screen shot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
+![Screenshot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
 
 The grid displays the following properties:
 
@@ -65,7 +66,7 @@ To edit group and team-specific settings, select the team by clicking to the lef
 
 ### Archive
 
-You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
+You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and un-archive teams on behalf of your organization in the admin center. 
 
 ### Delete
 
@@ -83,7 +84,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
-![Screen shot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Screenshot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## Making changes to teams
 
@@ -112,7 +113,7 @@ Some of your teams are missing from the list of teams in the Teams overview grid
 
 Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
-1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer).
+1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
 2. Sign in to Graph Explorer on the left menu.
 

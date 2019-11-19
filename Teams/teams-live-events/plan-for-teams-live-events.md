@@ -10,12 +10,11 @@ audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
-description: Learn about the factors to consider before you set up live events in Microsoft Teams. 
+description: Learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Plan for live events in Microsoft Teams

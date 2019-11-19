@@ -9,21 +9,20 @@ ms.service: msteams
 audience: admin
 ms.reviewer: kelsawi
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 f1keywords: 
-- ms.teamsadmincenter.managedevices.overview
-- ms.teamsadmincenter.devicemanagement.overview
-description: Learn how to manage devices used with Teams in your organization. 
+  - ms.teamsadmincenter.managedevices.overview
+  - ms.teamsadmincenter.devicemanagement.overview
+description: Learn how to manage devices used with Teams in your organization.
 localization_priority: Normal
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Manage your devices in Microsoft Teams
 
 ::: zone target="docs"
-As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams & Skype for Business admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
+As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
 
 ## What devices can you manage?
 Devices must be certified for Teams and enrolled in Teams. A device is automatically enrolled the first time a user signs in to Teams on the device. For a list of certified devices that can be managed, see [Conference phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) and [Desk phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).

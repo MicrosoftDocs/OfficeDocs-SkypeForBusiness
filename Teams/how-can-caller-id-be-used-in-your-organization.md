@@ -10,16 +10,15 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.voice.callerid.overview
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity."
 ---
 
@@ -72,6 +71,8 @@ Your end users can set their caller ID to **Anonymous** by using the **Settings*
 |Mac  <br/> |Skype for Business  <br/> |No  <br/> |
    
 ## Inbound Caller ID
+
+Phone System will show called ID for an external phone number if the number is associated with a user in Azure AD. If the phone number is not in Azure AD, the telco-provided display name will be shown if it is available.
 
 The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   

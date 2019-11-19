@@ -2,7 +2,7 @@
 title: Move your StaffHub teams to Shifts in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -10,15 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
+  - SPO_Content
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
+> Effective December 31, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub will stop working for all users on December 31, 2019. Anyone who tries to open StaffHub will be shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).
 
 The Shifts app in Teams provides a simple approach to managing schedules and the constant flow of shift swaps and cancellations that occur on a daily basis. Team members can access their schedule and shift information directly in the app and across their devices to set their preferences, manage their schedules, and request time off.
 
@@ -39,13 +42,13 @@ You must be a global admin to perform the steps in this article. If you haven't 
 
 ### When to move to Teams
 
-Effective October 1, 2019, StaffHub will be retired. We encourage you to start using Teams today and begin to transition your organization's teams and users from StaffHub. With schedule management being the most commonly-used feature in StaffHub, we recommend you use the Shifts app in Teams moving forward.
+Effective December 31, 2019, StaffHub will be retired. We encourage you to start using Teams today and begin to transition your organization's teams and users from StaffHub. With schedule management being the most commonly-used feature in StaffHub, we recommend you use the Shifts app in Teams moving forward.
 
 ### What is moved to Teams
 
 When you move a StaffHub team, team membership, user details, team schedules, and chat data are moved to Teams. Files aren't moved when you move a StaffHub team. If a StaffHub team contains files that you also want to move to teams, you move the files in a separate step.
 
-Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team doesn't have an Office 365 Group associated with it, one is automatically created for you to support the transition. Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams.
+Every StaffHub team needs a corresponding Office 365 Group. If a StaffHub team is associated with an Office 365 Group, the privacy setting of the group is retained when you move the team. If a StaffHub team doesn't have an Office 365 Group associated with it, a group with a privacy setting of Private is automatically created for you to support the transition.  Given the difference in team and group naming between Teams and StaffHub, you may see a different team name in Teams. 
 
 As you transition teams from StaffHub to Teams, users will no longer have access to their schedules in StaffHub and are redirected to Shifts in Teams. We recommend you communicate this change across your organization to minimize disruption and to encourage users to adopt and explore Teams. If you have Azure AD Premium, you can [run a report](run-report-to-show-staffhub-usage.md) to get a list of StaffHub users in your organization who need to know about this change.  
 
@@ -69,8 +72,10 @@ Before you move a StaffHub team to Teams, make sure that:
 - Teams is enabled for all users in the tenant.
 - Office 365 Groups creation is enabled in the tenant.
 - The StaffHub teamId is valid.
+- The StaffHub team has at least one team owner.
 - The StaffHub team contains members.
 - All StaffHub team members are linked to an Azure AD account.
+- All StaffHub team members are assigned a Teams license.  
 
 If these prerequisites aren't met, the move request will fail.
 
@@ -85,7 +90,7 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 ### Install the prerelease version of the StaffHub PowerShell module
 
-If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md). 
+If you haven't already, [install the prerelease version of the StaffHub PowerShell module](install-the-staffhub-powershell-module.md).
 
 You must have the prerelease version of the module installed to move your StaffHub teams to Teams.
 
@@ -96,15 +101,33 @@ Each StaffHub team member must be linked to an Azure Active Directory (Azure AD)
 - A team owner added a user who doesn't have an Azure AD account.
 - A team owner invited a user to a StaffHub team and that user didn't accept the invitation.
 
-You can link an Azure AD account for these users.  Here's how.
+These users have inactive accounts and show a user state of Unknown, Invited, or InviteRejected. You can link an Azure AD account for these users.  Here's how.
 
-#### Get a list of all users on StaffHub teams that have team members that aren't linked to an Azure AD account
+#### Get a list of all inactive accounts on StaffHub teams
 
-Run the following:
+Run the following series of commands to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file. Each command should be run separately.
+
 ```
+$InvitedUsersObject = @()
+
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
+}
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### Link the account
@@ -119,7 +142,7 @@ Do one of the following:
     1. Run the [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubMember?view=staffhub-ps) cmdlet to remove the non-provisioned account from the StaffHub team.
     2. Run the [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) cmdlet to add the account back to the StaffHub team by using the UPN.
 
-- Remove the unlinked user account. Use this option the user account is no longer needed.
+- Remove the inactive account. Use this option if the user account is no longer needed.
 
 ### Assign the FirstlineWorker app setup policy to users
 
@@ -174,9 +197,9 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 Here's an example of the response you get when you submit a request to move a StaffHub team to Teams.
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ---------------------------------------    ----------------------------------------    ---------------------------          
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
+ jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+---------------------------------------    ----------------------------------------    ---------------------------          
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 To check the status of a move request, run the following.
@@ -193,9 +216,9 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 Here's an example of the response you get when a move is in progress.
 
 ```
-    jobId                                     status       teamId                                     isO365GroupCreated  Error
-    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
+jobId                                     status       teamId                                     isO365GroupCreated  Error
+----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ### Move files from a StaffHub team to Teams
@@ -240,6 +263,7 @@ Run the following to get a list of all StaffHub teams in your organization.
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -254,10 +278,10 @@ Here's an example of the response.
 For any team that was already moved to Teams or already exists in Teams, the jobId will be "null" as a job doesn't need to be submitted to move that team.
 
 ```
-    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
-    ----------------------------------------   -----------------------------------------   --------------------------         
-    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
-    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
+jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+----------------------------------------   -----------------------------------------   --------------------------         
+null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### Move specific StaffHub teams
@@ -280,6 +304,7 @@ After you create the CSV file, run the following to move the teams you specified
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -300,6 +325,34 @@ If the StaffHub teams that you moved contain files that you also want to move to
 Usage reports can help you better understand usage patterns and give you insights on where to prioritize training and communication efforts across your organization. You can run reports that show you overall Teams usage, the types of activities that users perform in Teams, how users connect to Teams, and more. For more information, see [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
 ## Troubleshooting
+
+**How to get more information about failure errors**
+
+Run the following to get more information about "Failure" errors that occur when you try to move a team:
+
+```
+Move-StaffHubTeam -TeamId <TeamId>
+
+$res = Get-TeamMigrationJobStatus -JobId <JobId>
+
+$res.Status
+```
+
+You'll see one of the following statuses returned: Success, Failure, InProgress, Queued.
+
+If "Failure" is returned, run the following to get more information about the error:
+
+```
+$res.Result.Error.Innererror
+```
+
+**When you try to move a StaffHub team, the status shows as "Failure" and you receive a "Failed to retrieve applicable SKU categories for the user" error message**
+
+This can occur if one or more team members don't have a Teams license. Go to portal.office.com, find the group, and then confirm that group members are assigned a Teams license.
+
+**When you try to move a StaffHub team, the status shows as "Failure" and you receive a "Team owner not found" error message**
+
+This can occur if the group that's associated with the StaffHub team doesn't have a team owner. Go to portal.office.com, find the group, and then add one or more owners to the group.
 
 **When you try to move files from StaffHub to Teams, you get a "Permission denied" error message.**
 

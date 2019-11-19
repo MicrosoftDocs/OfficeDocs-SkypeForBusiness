@@ -12,10 +12,9 @@ description: Information for Admins about Presence in Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration 
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # User presence in Teams
@@ -24,6 +23,8 @@ Presence is part of a user’s profile in Microsoft Teams (and throughout Office
 
 > [!IMPORTANT]
 > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams. Workaround: To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.
+
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
 
 ## Presence states in Teams
 
@@ -50,9 +51,9 @@ The user presence states available in Teams are:
 || ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office|
 |||
  
-Users can manually set their current presence state to some options, and their state gets reflected to all other users. More user presence details are also automatically updated. The changes are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
+Users can manually set their current presence state to some options, and their state gets reflected to all other users. More user presence details are also automatically updated. The changes are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list. 
 
-There is a 15-minute inactivity timeout, after which a current presence state is reset to Away.
+There's a 15-minute inactivity timeout, after which a current presence state is reset to Away.
 
 Users can specify who can break through (meaning contact them despite a Do Not Disturb state). These settings are available in the Teams client.
 

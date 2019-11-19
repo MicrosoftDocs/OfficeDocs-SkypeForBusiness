@@ -5,17 +5,17 @@ ms.author: Rowille
 manager: serdars
 ms.date: 06/11/2019
 ms.topic: conceptual
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.  
+description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Evaluate my environment
@@ -48,7 +48,7 @@ hardware requirements to software requirements.
 
 Environmental discovery can also uncover whether you need to [transfer phone
 numbers to
-Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 Knowing this will help your organization adjust its project plan accordingly and
 prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](environmental-discovery-for-microsoft-teams-rollout.md)
 to perform environmental discovery.

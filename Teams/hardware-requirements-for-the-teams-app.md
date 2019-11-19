@@ -9,18 +9,19 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Hardware requirements for the Microsoft Teams app
+
+All of the requirements in the following sections apply to both the Teams desktop app and the Teams Web app.
 
 ## Hardware requirements for the Teams desktop app on a Windows PC
 
@@ -31,7 +32,7 @@ appliesto:
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Minimum of 128 MB graphics memory
-|Operating system  |    Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 in 32-bit and 64-bit. For the best experience, use the latest version of any operating system.|
+|Operating system  |    Windows 10, Windows 8.1, or Windows 7 Service Pack 1 in 32-bit and 64-bit. For the best experience, use the latest version of any operating system.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    | 
@@ -51,13 +52,42 @@ appliesto:
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
 |Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support, supported on most late 2013 Mac devices and later. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.|
 
+## Hardware requirements for the Teams desktop app on a Linux
+
+|**Component**|**Requirement**  |
+|---------|---------|
+|Computer and processor    | Minimum 1.6 GHz (or higher) (32-bit or 64-bit).        |
+|Memory     |    2.0 GB RAM     |
+|Hard disk    | 3.0 GB of available disk space        |
+|Display    |   1024 x 768 screen resolution |
+|Graphics hardware |  Minimum of 128 MB graphics memory
+|Operating system  | Linux distribution capable of installing DEB or RPM. |
+|Video    |  USB 2.0 video camera       |
+|Devices    |   Standard laptop camera, microphone, and speakers    | 
+|Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
+|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support, supported on most late 2013 Mac devices and later. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.
+|Supported Linux distributions | Ubuntu 16.04 LTS*, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
+
+*Prerequisite steps to install on Ubuntu 16.04 LTS which adds a repository with newer versions of libc++ (and compiler, etc.) and updates libc++:
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+```
+
 ## Hardware requirements for the Teams app on mobile devices
 
-You can use Microsoft Teams on these mobile platforms:
+You can use Teams on these mobile platforms:
 
-- Android - requires Android 4.4 or later
+- Android - requires Android 5.0 or later. Compatible with Android phones and tablets.
 
-- iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch.
+  Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
+
+- iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch. 
+
+  Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
+
+For the best experience with Teams, use the latest version of iOS and Android.
 
 ## Hardware requirements for the Teams app in a Virtual Desktop Infrastructure (VDI) environment
 

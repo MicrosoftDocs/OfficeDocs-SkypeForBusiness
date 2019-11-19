@@ -10,16 +10,16 @@ audience: admin
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
-- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels 
-- ms.teamsadmincenter.teamschannel.overview
-- ms.teamsadmincenter.teamssettings.overview
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+  - ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
+  - ms.teamsadmincenter.teamschannel.overview
+  - ms.teamsadmincenter.teamssettings.overview
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+ms.custom: okr_smb
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 > [!NOTE]
 > Review the following information to understand chat, teams, channels, & apps in Teams. Then, go to [Chat, teams, channels, & apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) to walk through a list of decisions important to your Teams rollout.
@@ -32,15 +32,13 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 - **Teams** are a collection of people, content, and tools surrounding different projects and outcomes within an organization.
 
     - Teams can be created to be private to only invited users.
-
     - Teams can also be created to be public and open and anyone within the organization can join (up to 5000 members).
     
     A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
 - **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team! Files that you share in a channel (on the Files tab) are stored in SharePoint. To learn more, read [How SharePoint Online and OneDrive for Business  interact with Teams](SharePoint-OneDrive-interact.md).
 
-    - Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat (and files that you share in a chat are stored in OneDrive for Business). 
-
+    - Channels are places where conversations happen and where the work actually gets done. Channels can be open to all team members or, if you need a more select audience, they can be private. Standard channels are for conversations that everyone in a team can participate in and [private channels](private-channels.md) limit communication to a subset of people in a team.
     - Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, & connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 View this short video to learn more about best practices for creating teams and channels.
@@ -67,9 +65,9 @@ In addition, if moderation is set up, team owners and members can have moderator
 
 **Team settings** 
 
-Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
+Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard and [private channels](private-channels.md), adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
-Take three minutes to check out this go-to-guide video for team owners: 
+Take three minutes to check out this go-to-guide video for team owners:
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 

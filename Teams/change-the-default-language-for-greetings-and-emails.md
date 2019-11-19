@@ -10,17 +10,17 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Phone System
-description: "Learn how to setup Skype for Busineses to use another language for your organization's default voicemail greeting. "
+ms.custom: 
+  - Phone System
+description: "Learn how to setup Skype for Businesses to use another language for your organization's default voicemail greeting. "
 ---
 
 # Change the default language for greetings and emails
@@ -36,9 +36,9 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     > [!NOTE]
     > Users can change their own greeting language through their settings after they sign in. 
   
-- **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). For Microsoft Teams - Users can change their voicemail settings from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Do you want to change the voicemail prompt language?** Go to [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**.
+- **Do you want to change the voicemail prompt language?** For Skype for Business -  [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**. For Microsoft Teams - Users can change their voicemail settings from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## Change the system language for everyone in your organization
 
@@ -46,11 +46,11 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 2. In the Microsoft 365 admin center, choose **Settings** > **Organization profile**. 
     
-     ![Screen shot showing choosing Settings and then Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Screenshot showing choosing Settings and then Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Choose **Edit**.
     
-    ![Screen shot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Screenshot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Select a language from the **Preferred language** list for everyone in your organization.
     

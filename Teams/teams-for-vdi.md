@@ -12,10 +12,9 @@ description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastru
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Teams for Virtualized Desktop Infrastructure
@@ -160,6 +159,9 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 The Teams app has been validated on leading virtualization solution providers. With multiple market providers, consult your virtualization solution provider to ensure minimum requirements are met.
 
 ### Virtual Machine requirements
+
+> [!NOTE]
+> The following requirements apply to both the Teams desktop app and the Teams Web app.
 
 With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.
 

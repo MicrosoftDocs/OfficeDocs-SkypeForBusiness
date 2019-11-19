@@ -9,18 +9,17 @@ ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: None
 f1keywords: None
-ms.custom:
-- Legal
+ms.custom: 
+  - Legal
 description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online and Microsoft Teams PSTN Services Use Terms and Customer's volume licensing agreement."
 ---
 
@@ -33,6 +32,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### End of complimentary dial out period
 
 Beginning December 1, 2019, the complimentary dial-out capability will end. See [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md) for additional details. 
+
+This change will not take place for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
 
 ### Complimentary dial out period details
 
