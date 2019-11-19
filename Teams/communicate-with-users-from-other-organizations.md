@@ -49,7 +49,7 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 | Feature | External access users | Guest access users |
 |---------|-----------------------|--------------------|
 | User can chat with someone in another company | Yes |Yes |
-| User can call someone in another company | Yes | Yes |
+| User can call someone in another company | Yes | Yes<sup>1</sup> |
 | User can see if someone from another company is available for call or chat | Yes | Yes<sup>1</sup> |
 | User can search for users across external tenants | Yes<sup>2</sup> | No |
 | User can share files | No | Yes |
