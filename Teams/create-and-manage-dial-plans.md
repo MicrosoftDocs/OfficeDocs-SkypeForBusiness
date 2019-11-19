@@ -27,8 +27,6 @@ After you plan the dial plans for your organization and figured out all the norm
 
 ## Using the Microsoft Teams admin center
 
->[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
-
 ### Create a dial plan
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.
