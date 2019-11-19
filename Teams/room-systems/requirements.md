@@ -16,7 +16,9 @@ description: "This article summarizes the requirements for supporting Microsoft 
 
 # Microsoft Teams Rooms requirements
 
-This article summarizes the requirements for supporting Microsoft Teams Rooms.
+Microsoft Teams Rooms scale to different room sizes by using a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from very small huddle spaces up through very large conference spaces and boardrooms.  The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
+
+This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
@@ -26,20 +28,41 @@ Also, refer to:
 - [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online.
+> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online, and may join meetings hosted by any of these services.
 >
-> Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Office 365 operated by 21Vianet, or in GCC, GCC-High, or DoD environments.
+> Earlier platforms like Lync Server 2013 are not supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Office 365 operated by 21Vianet, or in GCC-High, or DoD environments.
 >
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
+A hardware deployment includes a selection of a Microsoft Teams Room system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
 
-Microsoft Teams Rooms scales to different room sizes by using different audio and video peripherals based on the size of the room. The hardware listed in this article supports both Skype and Teams meeting modes. Audio and video peripherals connect to Microsoft Teams Rooms via a USB or HDMI connection on the docking device. You also need:
+**Supported Microsoft Teams Room systems**
 
-- A 32 GB or larger USB disk you configure as bootable Windows installation media for Windows 10 Enterprise.
-- One of the following tablets or consoles:
+All current Microsoft Teams Room devices and bundles are available in the [Room Systems product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
-  **Supported tablets**
+  |Console|Processor|RAM|Disk|
+  |:-----|:-----|:-----|:-----|
+  |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
+  [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
+  |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
+  |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
+  |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
+  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
+  |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
+  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  ||||||
+
+> [!NOTE]
+> - Core M3 processors are not supported.
+> - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
+
+**Supported Surface Pro tablets for dock-style systems**
 
   |Tablet|Processor|RAM|Disk|
   |:-----|:-----|:-----|:-----|
@@ -53,45 +76,25 @@ Microsoft Teams Rooms scales to different room sizes by using different audio an
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-- **Other Supported Microsoft Teams Rooms consoles**
-
-  |Console|Processor|RAM|Disk|
-  |:-----|:-----|:-----|:-----|
-  |[Crestron Flex UC-M130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC- B130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC-B140-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
-  [Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
-  |[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-  |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
-  |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
-  |[Logitech Tap](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
-  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
-  |||||
-
-  > [!NOTE]
-  > Core M3 processors are not supported.
-
 ### Certified firmware versions for USB audio and video peripherals
 
-These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+These devices are available at the [Room System Accessories product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) and [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
 |Microsoft Teams Rooms peripheral|Certified firmware version | Camera supports content camera use|
 |:--- |:--- | :--- |
-|[Crestron Huddly IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
-|[Logitech Brio](https://www.logitech.com/en-us/product/brio)   |V2.2.50| &#x2714; |
-|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
-|[Logitech Rally](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Video — 1.0.156  |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   |
-|[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro)   | 1.1.219   |
-|[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2)   |
+|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
+|[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
+|[Logitech 930e](http://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech MeetUp](http://www.logitech.com/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Video — 1.0.156  |
+|[Logitech ConferenceCam Connect](http://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Logitech Group](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
+|[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
@@ -100,8 +103,9 @@ These devices are available at [aka.ms/teamsdevices](https://aka.ms/teamsdevices
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
+|[Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29|  
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
-||||
+||||||
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
 
@@ -152,7 +156,7 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 
 ## See also
 
-[Browse All Bundles](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Browse All Bundles](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
 
@@ -162,4 +166,4 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 
 [Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
 
-[Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
+[Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

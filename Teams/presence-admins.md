@@ -3,7 +3,6 @@ title: User presence in Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -23,6 +22,8 @@ Presence is part of a user’s profile in Microsoft Teams (and throughout Office
 
 > [!IMPORTANT]
 > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence stops working in Outlook and other Office apps. Presence works fine in Teams. Workaround: To see presence in Outlook (and other Office apps), Skype for Business must be installed, even if you're running Teams in **Teams Only** mode. Microsoft is aware of this problem and is working on a fix.
+
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
 
 ## Presence states in Teams
 
@@ -49,11 +50,13 @@ The user presence states available in Teams are:
 || ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office|
 |||
  
-Users can manually set their current presence state to some options, and their state gets reflected to all other users. More user presence details are also automatically updated. The changes are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
+Users can manually set their current presence state to some options, and their state gets reflected to all other users. More user presence details are also automatically updated. The changes are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list. There's a 15-minute inactivity timeout, after which a current presence state is reset to Away.
 
-There is a 15-minute inactivity timeout, after which a current presence state is reset to Away.
+Users receive all chat messages sent to them in Teams regardless of their presence state. If a user is offline when someone sends them a message, the chat message appears in Teams the next time the user is online. If a user is in a Do Not Disturb state, the user will still get chat messages but a banner notification won't be displayed.
 
-Users can specify who can break through (meaning contact them despite a Do Not Disturb state). These settings are available in the Teams client.
+Users receive calls in all presence states except for Do Not Disturb states, in which incoming calls are delivered to their voicemail. If the recipient blocked the caller, the call won't be delivered and the caller sees the recipient's presence as Offline.
+
+Users can add people to their priority access list by going to **Settings** > **Privacy** in Teams. People who have priority access can contact the user even when the user is in a Do Not Disturb state.
 
 ## Admin settings in Teams compared to Skype for Business
 
