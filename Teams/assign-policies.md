@@ -26,6 +26,8 @@ You can use the built-in global (Org-wide default) policy or create custom polic
 
 You can use the Microsoft Teams admin center to assign a policy to users or [Teams PowerShell module](teams-powershell-overview.md) cmdlets to assign a policy to multiple users at a time or to users in a group, such as a security group.
 
++++++++++++++++++++++++++++++++++++++
+
 ## Assign a policy to individual users
 
 Here are steps for how to assign a policy to users in the Microsoft Teams admin center. Use these steps if you're assigning a policy to individual users or a small number of users at a time.
@@ -43,6 +45,8 @@ Or, you can also do the following:
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, select **Save**.
+
+++++++++++++++++++++++++++++++++++++
 
 ## Before you start
 
@@ -64,7 +68,7 @@ When you're prompted, sign in using your admin credentials.
 
 ### Install and connect to the Azure AD PowerShell for Graph module (optional)
 
-You may also want to install the Azure AD PowerShell for Graph module (if it's not already installed) and connect to Azure AD so that you can retrieve a list of users in your organization. To learn more, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+You may also want to [download and install the Azure AD PowerShell for Graph module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2)(if it's not already installed) and connect to Azure AD so that you can retrieve a list of users in your organization.
 
 Run the following to connect to Azure AD.
 
@@ -79,7 +83,7 @@ With batch policy assignment, you can assign a policy to multiple users at a tim
 You can specify users by their object Id, UPN, SIP, or email address. A batch can contain up to 20,000 users.
 
 > [!NOTE]
-> Currently, batch policy assignment isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the policy types that you can assign to batch of users.
+> Currently, batch policy assignment isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) for a list of supported policy types.
 
 ### Assign a policy to a batch of users
 
