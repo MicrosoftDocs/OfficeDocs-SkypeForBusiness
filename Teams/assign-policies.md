@@ -64,6 +64,7 @@ Run the following to connect to Teams and start a session.
 ```
 Connect-MicrosoftTeams
 ```
+
 When you're prompted, sign in using your admin credentials.
 
 ### Install and connect to the Azure AD PowerShell for Graph module (optional)
@@ -76,18 +77,22 @@ Run the following to connect to Azure AD.
 Connect-AzureAD
 ```
 
-## Assign a policy to a batch of users
- 
-With batch policy assignment, you can assign a policy to multiple users at a time without having to use a script. You use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign to them. The assignments are processed as a background operation and an operation Id is generated for each batch, which lets you track the progress and status of the assignments.
+When you're prompted, sign in using the same admin credentials that you used to connect to Teams.
 
-You can specify users by their object Id, UPN, SIP, or email address. A batch can contain up to 20,000 users.
+## Batch policy assignment
+ 
+With batch policy assignment, you can assign a policy to multiple users at a time without having to use a script. You use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation Id is generated for each batch.
+
+You can then use the [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
+
+You can specify users by their object Id, user principal name (UPN), Session Initiation Protocol (SIP) address, or email address. A batch can contain up to 20,000 users.
 
 > [!NOTE]
-> Currently, batch policy assignment isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) for a list of supported policy types.
+> Currently, batch policy assignment isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the list of supported policy types.
 
 ### Assign a policy to a batch of users
 
-In this example, we assign an app setup policy named HR App Setup Policy to a batch of users who are listed in the Users_ids.text file.
+In this example, we assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
 
 ```
 $user_ids = Get-Content .\users_ids.txt
@@ -101,39 +106,45 @@ $users_ids = @("psmith@contoso.com","tsanchez@contoso.com","bharvest@contoso.com
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName "Vendor Meetings" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
-In this example, we assign an app setup policy named HR App Setup Policy to a batch of users who are listed in the Users_ids.text file.
+In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named Kiosk to a batch of users specified by using their UPNs.
 
 ```
-$user_ids = Get-Content .\users_ids.txt
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+Connect-AzureAD
+$users = Get-AzureADUser
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName Kiosk -Identity $users.UserPrincipalName -OperationName "Example 1 batch"
 ```
 
+### Get the status of a batch assignment
 
-See also Get-CsBatchPolicyAssignmentOperation and Set-CsBatchPolicyAssignmentOperation. 
+Run the following to get the status of a batch assignment, where OperationId is the operation Id that's returned by the New-CsBatchPolicyAssignmentOperation cmdlet for a given batch.
 
-### Assign a custom app setup policy to users in a group
-
-You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
-
-In this example, we assign a custom app setup policy called HR App Setup Policy to all users in the Contoso Pharmaceuticals HR Project group.  
-
-> [!NOTE]
-> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Get the GroupObjectId of the particular group.
 ```
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl 
 ```
-Get the members of the specified group.
-```
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
-```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
-``` 
-Depending on the number of members in the group, this command may take several minutes to execute.
+
+Here's an example of the output that you see
+
+## Group policy assignment
+
+### What you need to know about group policy assignment
+
+#### Effective policy rules of precedence
+
+#### Group assignment priority
+
+### Assign a policy to a group
+
+### Get policy assignments for a group
+
+### Remove a policy from a group
+
+### Update a policy assignment for a group
+
+### Get the policies for a user
+
+### Get the status of initial policy propagation
 
 ## Related topics
 
 - [Manage policy packages in Teams](manage-policy-packages.md)
+- [Teams PowerShell Overview](teams-powershell-overview.md)
