@@ -25,6 +25,7 @@
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage teams and channel policies](teams-policies.md)
+## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
@@ -772,6 +773,7 @@
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 ### [Install Moodle integration](install-moodle-integration.md)
 
