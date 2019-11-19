@@ -39,8 +39,6 @@ Using Teams in a virtualized environment requires the following components.
 - **Thin client**: The endpoint that the user physically interfaces with
 - **Teams desktop app**: This is the Teams desktop client app
 
-![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
-
 ## Teams on VDI requirements
 
 ### Virtualization provider requirements
@@ -63,6 +61,8 @@ You can deploy the Teams desktop app for VDI using a per-machine installation or
 For a dedicated persistent setup, either approach would work.  However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
 
 With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
+
+For Teams media optimization in VDI environments to work properly, the thin client endpoint must have access to the internet.  If internet access isn't available at the thin client endpoint, the optimization startup won't be successful, which means the user is in a non-optimized media state.
 
 #### Dedicated persistent setup
 
@@ -169,6 +169,8 @@ There are variety of virtualized setup configurations, each with a different foc
 
 In addition to chat and collaboration, Teams on VDI with calling and meeting support is available with Citrix-based platforms. Supported features are based on the WebRTC media stack and Citrix-specific implementation. The following diagram provides an overview of the architecture.
 
+![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
+
 These calling and meeting features are not supported:
 
 - Enhanced emergency services
@@ -178,6 +180,8 @@ These calling and meeting features are not supported:
 - Location-Based Routing (LBR)
 - Call park
 - Call queue
+
+If you currently run Teams non-optimized in VDI and you use any currently optimized VDI features that aren't supported (such and give and take control when app sharing), you'll have to turn off redirection in the Citrix software.  This also means that Teams media sessions won't be optimized.
 
 We're working on adding calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
 
