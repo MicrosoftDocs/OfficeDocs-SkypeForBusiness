@@ -123,7 +123,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | VM | User Features | Forward a voicemail  | Forward a received voicemail to other users | Y | Y    |
 | VM | User Features | Sending a voice message to a group of users  |Voicemail broadcast   | N | Y   |
 | VM | User Features | Voicemail notification using SMS    | Users can receive an SMS when they have a new voicemail    | N | Y    |
-| VM | User Features | Supported greeting languages | Details here: https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| VM | User Features | Supported greeting languages | Details here: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | VM | User Features | Call answering rules |  | Y | Y    |
 | VM | User Features | Play on phone (PSTN)- to play message | Call me on my cell to listen to the voice message  | N | Y    |
 | VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | Y | Y    |
@@ -149,7 +149,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | AA | Service Features | Support Microsoft Teams|  | Y | N    |
 | AA | Service Features | Dial by name, DTMF input    |  | Y | Y    |
 | AA | Service Features | Dial by name, speech input  |  | Y | Y    |
-| AA | Service Features | Multi-language support | Language details here: https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| AA | Service Features | Multi-language support | Language details here: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | AA | Service Features | Transfer to operator, CQ, or a user |  | Y | Y    |
 | AA | Service Features | Transfer to PSTN number internally (DID RNL)  |  | Y | Y    |
 | AA | Service Features | Transfer to PSTN number externally  |  | Check out Known Issues section below | Y    |
