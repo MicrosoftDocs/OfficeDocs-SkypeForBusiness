@@ -28,7 +28,7 @@ description: "Learn about features available in Microsoft Teams Rooms. "
 
 Microsoft has a dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms and Microsoft Surface Hub).
 
-||Microsoft Room SKU |  
+||Meeting Room SKU |  
 |:--- |:---: |
 |Skype for Business |&#x2714;|
 |Microsoft Teams|  &#x2714;|
@@ -45,10 +45,10 @@ Microsoft has a dedicated SKU for licensing meetings and calling on a per-device
 
 
 > [!NOTE]
-> If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Office 365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.  
+> If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Office 365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.
 
 > [!IMPORTANT]
-> If you are using Skype for Business Plan 2, you can only use the Microsoft Teams Rooms in Skype for Business Only mode, meaning all of your meetings will be Skype for Business meetings. In order to enable your meeting room for Microsoft Teams meetings, we recommend you purchase the Microsoft Room license. 
+> If you are using Skype for Business Plan 2, you can only use the Microsoft Teams Rooms in Skype for Business Only mode, meaning all of your meetings will be Skype for Business meetings. In order to enable your meeting room for Microsoft Teams meetings, we recommend you purchase the Meeting Room license. 
 
 The following table lists the features that are available in Microsoft Teams Rooms and what licenses you need to buy to get them.
   
