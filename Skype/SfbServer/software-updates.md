@@ -19,7 +19,7 @@ The _Skype for Business downloads and updates_ web page that was once on Technet
 
 - [Updates for Skype for Business clients](sfb-client-updates.md) which contains the sections:
     - [Skype for Business 2016 client updates](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Skype for Business 2015 client updates](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Skype for Business 2015 client updates](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Skype for Business on Mac client updates](sfb-client-updates.md)
     - [Lync 2013 client updates](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
         - [Lync Phone Edition updates](sfb-client-updates.md#lync-phone-edition-updates)
