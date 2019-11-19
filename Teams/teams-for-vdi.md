@@ -62,7 +62,7 @@ For a dedicated persistent setup, either approach would work.  However, for a no
 
 With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
 
-For Teams media optimization in VDI environments to work properly, the thin client endpoint must have access to the internet.  If internet access isn't available at the thin client endpoint, the optimization startup won't be successful, which means the user is in a non-optimized media state.
+For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet. If internet access isn't available at the thin client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
 
 #### Dedicated persistent setup
 
@@ -181,7 +181,7 @@ These calling and meeting features are not supported:
 - Call park
 - Call queue
 
-If you currently run Teams non-optimized in VDI and you use any currently optimized VDI features that aren't supported (such and give and take control when app sharing), you'll have to turn off redirection in the Citrix software.  This also means that Teams media sessions won't be optimized.
+If you currently run Teams without AV optimization in VDI and you use AV-optimized VDI features that are not supported (such as Give and take control when app sharing), you have to turn off redirection in the Citrix software. This means that Teams media sessions won’t be optimized.
 
 We're working on adding calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
 
