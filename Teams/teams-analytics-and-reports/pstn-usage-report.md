@@ -71,7 +71,7 @@ These fields can come form the customer SBC(s). There are three formats that the
 **About Shared Correlation ID**
 
 The Shared Correlation ID only exists in downloadable Excel and indicates that two or more calls are related. 
-Below is the table that explains different scenarios and when Shared Correlation ID is present
+The following table explains the different scenarios, and when Shared Correlation ID is present.
 
 
 1.	PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID	57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID
