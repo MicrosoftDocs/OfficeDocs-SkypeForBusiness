@@ -59,7 +59,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 **Caller/Callee fields conciderations**
 
-Depends on the call direction the Caller or Calleee names can containg non-E164 numbers.
+Depending on the call direction, the Caller or Callee names can contain non-E164 numbers.
 
 These fields can come form the custoemer SBC(s). There are three formats we see the SBC can send to Direct Routing: E.164, non-E.164 numbers and strings.
 
