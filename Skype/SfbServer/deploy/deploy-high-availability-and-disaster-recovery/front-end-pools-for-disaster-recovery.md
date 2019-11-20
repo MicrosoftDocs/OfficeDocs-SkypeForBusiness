@@ -46,7 +46,7 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
 
     This configures other services required for backup pairing to work correctly.
     
-9. Once Bootstrapper finishes installing required components for backup pairing on every Front end Server in both pools, please be sure to re-apply any existing Cumulative Update that was previously applied on these Front End Servers in both pools and then continue with next step.
+9. Once Bootstrapper finishes installing the required components for backup pairing on every Front end Server in both pools, please be sure to re-apply any existing Cumulative Update that was previously applied on these Front End Servers in both pools and then continue with the next step.
 
 10. From a Skype for Business Server Management Shell command prompt, run the following: 
     
