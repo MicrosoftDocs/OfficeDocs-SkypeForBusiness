@@ -9,16 +9,15 @@ ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
+ms.collection: 
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes in Microsoft Teams. "
 ---
 

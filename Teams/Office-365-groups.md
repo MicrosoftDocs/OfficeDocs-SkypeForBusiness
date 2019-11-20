@@ -12,10 +12,9 @@ description: Learn about how Office 365 groups and group memberships work with M
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Office 365 Groups and Microsoft Teams

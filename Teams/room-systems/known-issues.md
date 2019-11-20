@@ -9,7 +9,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article discusses known issues for Microsoft Teams Rooms, by feature area."
 ---
 
@@ -31,14 +32,14 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            | --- |
-|Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs after the Windows 10 Creators Update (version 1703) is installed on the Surface Pro 4 on which Microsoft Teams Rooms is running. | To work around this issue, manually open the virtual keyboard. To do this, follow these steps:<br><br> **1.** Tap and hold the task bar, and then tap **Show touch keyboard** button. A keyboard icon should appear on the right side of the task bar. <br><br> **2.** Tap the keyboard icon to open the virtual keyboard. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Virtual keyboard missing   | The virtual keyboard doesn't appear when you need to enter information in Microsoft Teams Rooms. This issue occurs after the Windows 10 Creators Update (version 1703) is installed on the Surface Pro 4 on which Microsoft Teams Rooms is running. | To work around this issue, manually open the virtual keyboard. To do this, follow these steps:<br><br> **1.** Tap and hold the task bar, and then tap **Show touch keyboard** button. A keyboard icon should appear on the right side of the task bar. <br><br> **2.** Tap the keyboard icon to open the virtual keyboard. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## Hardware
 
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            |   --- |
-| Monitors not detected | When you run Microsoft Teams Rooms on a Surface Pro (Model 2017) device, monitors are not detected. |  Hold down the Surface Pro power button for 20 or more seconds. When you do this, the device restarts and clears the graphics cache. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| Monitors not detected | When you run Microsoft Teams Rooms on a Surface Pro (Model 2017) device, monitors are not detected. |  Hold down the Surface Pro power button for 20 or more seconds. When you do this, the device restarts and clears the graphics cache. |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## Limitations and expected behaviors
@@ -69,6 +70,6 @@ Windows 10 1903 is not yet offered on Microsoft Teams Rooms devices from Crestro
 <a name="See"> </a>  
 ## See also
 
-[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Manage Microsoft Teams Rooms](skype-room-systems-v2.md)

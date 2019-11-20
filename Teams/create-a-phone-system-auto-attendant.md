@@ -1,7 +1,7 @@
 ---
 title: "Set up a Cloud auto attendant"
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -98,7 +98,7 @@ You have several ways to set the Operator:
 
 <a name="timezone"> </a>
 
-![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png) **Time zone** You are required to set the time zone for your auto attendant. The setting can be the same as the time zone of the main address listed for your organization, or a different time zone. Each auto attendant can have a different time zone. The business hours set for the auto attendant also use this time zone.
+![Icon of the number 3,  a callout in the previous screenshot](media/teamscallout3.png) **Time zone** You are required to set the time zone for your auto attendant. The setting can be the same as the time zone of the main address listed for your organization, or a different time zone. Each auto attendant can have a different time zone. The business hours set for the auto attendant also use this time zone. Make sure to set the right timezone to avoid business-hours discrepancies since not all regions have Daylight Saving. 
 
 * * *
 
@@ -218,7 +218,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Dial by extension** If you enable this option (currently only available in some tenants), callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+**Dial by extension** (This preview feature is not yet available to the general public) If you enable this option, callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
 
 > [!IMPORTANT]
 > Please observe the following:
@@ -229,7 +229,7 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 >- An auto attendant can be configured for either dial by name or dial by extension, but not both.
 
 > [!NOTE]
-> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension. 
+> If you want to use both the **Dial by name** and **Dial by extension** features, you can create  main auto attendant (enabled for **Dial by name**) that prompts callers to choose a menu option if they know the extension of the user, and set that option to transfer the call to an auto attendant enabled for Dial by extension.
 
 * * *
 
@@ -328,7 +328,7 @@ Click on **Next** to set Dial scope, **Back** to make changes to after hour call
 
 ![Screenshot showing the Dial scope page](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default in an earlier screen. If you have created Dial plans, all users with an extension will be available if **Dial by extension** was selected earlier.
+On this page, you can set who is listed in your directory and available for Dial by Name when a person calls your organization. Dial by name is set to **Off** by default in an earlier screen. All users with an extension will be available if **Dial by extension** was selected earlier.
 
 ![Icon of the number 1,  a callout in the previous screenshot](media/teamscallout1.png) **Include** The options in this section are either **All online users** or **Custom user groups**
 
@@ -416,11 +416,11 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
   - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Why you need to use Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Why you need to use Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as making setting changes for many users at once. Learn about these advantages in the following topics:
 
-  - [Manage Office 365 with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Manage Office 365 with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -432,7 +432,7 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
 

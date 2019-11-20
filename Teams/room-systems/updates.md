@@ -1,7 +1,7 @@
 ---
 title: "Manage Windows Updates for Microsoft Teams Rooms"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -9,7 +9,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 ms.assetid: 
 description: "Manage Windows Updates for Microsoft Teams Rooms"
 ---

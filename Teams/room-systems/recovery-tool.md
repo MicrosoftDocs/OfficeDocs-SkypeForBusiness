@@ -8,7 +8,8 @@ ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state."
 ---
@@ -59,6 +60,6 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 <a name="See"> </a>  
 ## See also
  
-[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Manage Microsoft Teams Rooms](skype-room-systems-v2.md)

@@ -1,14 +1,15 @@
 ---
 title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
-ms.author: jambirk
-author: jambirk
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 description: "This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme."
 ---
 
@@ -18,7 +19,7 @@ You can now use a content camera with a Microsoft Teams Room system. A content c
 
 See the following video for examples of content camera functionality.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
 
 ## Set up a content camera
 

@@ -11,10 +11,9 @@ description: Learn what functionality exists between Microsoft Teams and the var
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # How Exchange and Microsoft Teams interact
