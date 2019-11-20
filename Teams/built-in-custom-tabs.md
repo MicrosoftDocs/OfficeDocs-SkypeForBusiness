@@ -50,7 +50,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 In addition to the built-in tabs, you can design and develop your own tabs to integrate to Teams or share with the rest of the community. You can [control access to your custom tab](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) by configuring the appropriate Office 365 Groups.
 
-The Microsoft Developer Network provides [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft that you can download, and [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) for designing and building your own tabs.
+The Microsoft Developer Network provides [sample tabs](https://docs.microsoft.com/microsoftteams/platform/samples/code-samples) developed by Microsoft that you can download, and [detailed instructions](https://docs.microsoft.com/microsoftteams/platform/tabs/design/tabs) for designing and building your own tabs.
 
 ![Screenshot of an example custom tab in Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 
