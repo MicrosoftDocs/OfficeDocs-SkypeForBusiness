@@ -65,7 +65,7 @@ These fields can come form the customer SBC(s). There are three formats that the
 
 1. E.164 phone number from a user who has an E.164 number to a user who also has an E.164 number. 
 2. Call from a non-E.164 number. A user from a third-party PBX interconnected with DR makes a call to a Teams user. In this case the caller number might be any non-E.164 number, for example +1001. 
-3. A spammer calls and doesn’t present the number, only the name. For example “Internal Revenue Service”. This string will be shown in the reports
+3. A spammer calls and doesn’t present a number, only a name, for example “Internal Revenue Service”. This string will be shown in the reports.
 
 
 **About Shared Correlation ID**
