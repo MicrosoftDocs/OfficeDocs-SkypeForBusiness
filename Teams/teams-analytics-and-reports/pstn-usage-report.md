@@ -61,7 +61,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 Depending on the call direction, the Caller or Callee names can contain non-E164 numbers.
 
-These fields can come form the custoemer SBC(s). There are three formats we see the SBC can send to Direct Routing: E.164, non-E.164 numbers and strings.
+These fields can come form the customer SBC(s). There are three formats that the SBC can send to Direct Routing: E.164 numbers, non-E.164 numbers, and strings.
 
 1. E.164 proper phone number from a user who has E.164 number to the user who also has it. 
 2. Call from a non-E.164 number. A user from a third-party PBX interconnected with DR makes a call to  Teams user. In this case the caller number might be any non-E.164 number. For example,  +1001 . 
