@@ -70,7 +70,7 @@ These fields can come form the customer SBC(s). There are three formats that the
 
 **About Shared Correlation ID**
 
-The Shared Correlated ID only exists in downloadable Excel and indicates that two or more calls are related. 
+The Shared Correlation ID only exists in downloadable Excel and indicates that two or more calls are related. 
 Below is the table that explains different scenarios and when Shared Correlation ID is present
 
 
