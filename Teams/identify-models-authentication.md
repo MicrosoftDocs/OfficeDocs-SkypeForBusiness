@@ -50,10 +50,10 @@ Office 365 plans support Multi-Factor Authentication (MFA) that increases the se
 
 Multi Factor authentication is supported with any Office 365 plan that includes Microsoft Teams. The Office 365 subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
 
-Once the users are enrolled for MFA, the next time a user signs in, they see a message that asks them to set up their second authentication factor. Supported authentication methods are:
+Once the users are enrolled for MFA, the next time a user signs in, they will see a message that asks them to set up their second authentication factor. Supported authentication methods are:
 
 
 |Tenant Type  |Available MFA Second Factor options  |Notes  |
 |---------|---------|---------|
 |**Cloud Only**     |MFA for Office 365 <ul><li>Phone Call</li><li>Text Message</li><li>Mobile App Notification</li><li>Mobile App Verification Code</li></ul>        |[Plan for multi-factor authentication for Office 365 Deployments](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Identity providers that are compatible with Azure AD federation](https://go.microsoft.com/fwlink/p/?LinkId=510953)         |
+|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Azure AD Identity Provider Compatibility Docs](https://www.microsoft.com/en-us/download/details.aspx?id=56843)         |

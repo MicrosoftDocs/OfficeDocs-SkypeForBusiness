@@ -27,14 +27,15 @@ As an admin, you use Teams meetings settings to control whether anonymous users 
 
 ## Allow anonymous users to join meetings
 
-With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation.
+With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Participants**, turn on **Anonymous users can join a meeting**.
 
-    ![Screenshot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screen shot of participants settings for Teams meetings in the Microsoft Teams admin center")
+    ![Screenshot of participants settings for meetings in the admin center](media/meeting-settings-participants.png "Screenshot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
 If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
 
@@ -57,7 +58,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Email invitation**, do the following:
 
-    ![Screenshot of the meeting invitation settings you can customize](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings")
+    ![Screenshot of the meeting invitation settings you can customize](media/meeting-settings-invitation.png "Screenshot of the meeting invitation settings that you can customize for Teams meetings")
 
     - **Logo URL** Enter the URL where your logo is stored.
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
@@ -79,7 +80,7 @@ If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize networ
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Network**, do the following:
 
-    ![Screenshot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams admin center")
+    ![Screenshot of the network settings for meetings in the admin center](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
     > [!NOTE] 

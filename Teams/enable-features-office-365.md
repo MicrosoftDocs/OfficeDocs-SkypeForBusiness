@@ -106,6 +106,11 @@ The coexistence mode you choose determines the routing of incoming calls and cha
 
 Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype Meetings App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the coexistence mode setting.
 
+
+#### Network Planner
+
+Network Planner helps you determine and organize network requirements for connecting Teams users across your organization.  Learn how to [Use the Network Planner for Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
+=======
 You can also select the “Download the Teams app in the background for Skype for Business users” option as well.  By default this setting is set to On. With this setting enabled it will download the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is Teams Only, or if a pending upgrade notification is enabled in the Skype for Business app.
 
 

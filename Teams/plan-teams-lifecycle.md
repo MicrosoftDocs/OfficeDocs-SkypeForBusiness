@@ -200,3 +200,6 @@ For information about setting up expiration and retention policies, see [Overvie
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 
+## Related topics
+
+[Governance quick start for Teams](teams-adoption-governance-quick-start.md)
