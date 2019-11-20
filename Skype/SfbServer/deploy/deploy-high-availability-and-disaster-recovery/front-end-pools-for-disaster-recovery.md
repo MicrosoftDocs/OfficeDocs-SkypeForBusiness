@@ -54,7 +54,7 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:
+11. Force the user and conference data of both pools to be synchronized with each other with the following cmdlets:
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
