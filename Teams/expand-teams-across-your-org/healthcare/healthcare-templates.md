@@ -1,18 +1,18 @@
 ---
 title: "Get started with Teams templates for Healthcare organizations"
-author: jambirk
-ms.author: jambirk 
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: conceptual 
-ms.service: msteams 
+ms.topic: conceptual
+ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration 
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+appliesto: 
+  - Microsoft Teams
 ms.reviewer: 
 description: Get started with Teams templates for Healthcare organizations
 ---

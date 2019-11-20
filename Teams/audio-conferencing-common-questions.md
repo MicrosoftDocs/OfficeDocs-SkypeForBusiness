@@ -7,20 +7,19 @@ ms.reviewer: oscarr
 ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
 ---
 

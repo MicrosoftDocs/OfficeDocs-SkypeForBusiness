@@ -5,17 +5,17 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices. 
+description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Plan my users’ experience

@@ -12,10 +12,9 @@ description: Learn about how to plan for implementing governance capabilities in
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Plan for governance in Teams
@@ -126,6 +125,10 @@ Teams is built on the advanced security and compliance capabilities of Office 36
 
 > [!Important]
 > If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
+
+## Related topics
+
+[Governance quick start for Teams](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management

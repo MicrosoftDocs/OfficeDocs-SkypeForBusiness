@@ -1,5 +1,5 @@
 ---
-title: Location-Based Routing terminology 
+title: Location-Based Routing terminology
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -11,12 +11,10 @@ audience: admin
 search.appverid: MET150
 description: Learn terminology and concepts associated with Location-Based Routing for Direct Routing.
 localization_priority: Normal
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Location-Based Routing terminology

@@ -11,10 +11,9 @@ description: Learn about best practices for organizing teams in Microsoft Teams 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Best practices for organizing teams in Microsoft Teams
@@ -41,7 +40,11 @@ Once you've created your team, it’s a good idea to start to think about the di
 
 Learn more about [working in teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users. 
 
-Our best practice guidance is to create teams with a larger set of members and more channels. To maintain a high quality user experience it is helpful to minimize the number of teams that require a person's participation. Channels within a team should be thought of as topics or workstreams to aid the team in organizing their work to deliver on their join objectives. There is no specific number of channels that should be created. Each team should craft channels based on their work, priorities, and style. Larger organizations may want to create teams as "templates" to standardize the information they capture about specific types of work. This is useful for strategic customer management, classroom management, health care scenarios, claims management, incident management, and other scenarios appropriate to a specific industry.
+Our best practice guidance is to create teams with a larger set of members and more channels.  To maintain a high quality user experience it is helpful to minimize the number of teams that require a person's participation. Channels within a team should be thought of as topics or workstreams to aid the team in organizing their work to deliver on their join objectives. There is no specific number of channels that should be created. Each team should craft channels based on their work, priorities and style. 
+
+Use standard channels for conversations that everyone on the team can contribute to and private channels when a more focused collaboration space is needed for a subset of people on the team. To learn more about private channels and when to create them, see [Private channels in Teams](private-channels.md).
+
+Larger organizations may want to create teams as "templates" to standardize the information they capture about specific types of work.  This is useful for strategic customer management, classroom management, health care scenarios, claim management, incident management and other scenarios appropriate to a specific industry.
 
 ## Use the General channel
 
