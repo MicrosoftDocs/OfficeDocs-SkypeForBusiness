@@ -22,11 +22,20 @@ f1keywords:
 
 As an admin, you use policies to control how users in your organization use Microsoft Teams to communicate and collaborate. For example, you can set app policies to control what apps are available to Teams users, meeting policies to define the meeting experience, and messaging policies to control what chat and channel features are available to users.
 
-To make it easier to manage policies, Teams offers several ways to assign policies to users in your organization. The method that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to.
+Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create an assign a custom policy. Most organizations have many different user types with unique needs. To customize Teams for the different sets of users in your organization, create and assign one or more custom policies.
+
+To make it easier to manage policies, Teams offers several ways to assign policies to users. The method that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to.
+
+- Assign a policy to individual users
+- Assign a policy package
+- Assign a policy to a batch of users
+- Assign a policy to a group
 
 ## Assign a policy to individual users
 
-Use these steps if you're assigning a policy to individual users or a small number of users at a time.
+Use this method to assign a policy to individual users or to a small number of users at a time.
+
+### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -42,7 +51,15 @@ Or, you can also do the following:
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 5. When you're finished adding users, select **Save**.
 
-## 
+### Using PowerShell
+
+Use the ```Grant-Cs``` cmdlet for the policy type that you want to assign. You can find these cmdlets in the [Skype for Business cmdlet reference](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps).
+
+The cmdlets for managing policies are in the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366). To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+
+## Assign a policy package
+
+To learn more, see [Manage policy packages in Teams](manage-policy-packages.md).
 
 ## Assign a policy to a batch of users
  
@@ -121,13 +138,31 @@ $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f36
 
 ## Assign a policy to a group of users
 
-Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. When the membership of a group that's assigned the policy changes, 
+Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to precedence rules.
 
 ### What you need to know about group policy assignment
 
 #### Effective policy rules of precedence
 
+Every user has one effective policy for each policy type. For a given policy type, a user's effective policy is determined according to the following:
+
+1. Direct policy assignment: A policy that's directly assigned to a user takes precedence over any
+policy of the same type that would be inherited through membership in a group. This lets you
+override group-assigned policies for specific users, as needed.
+2. Group policy inheritance: If a user doesn't have a policy directly assigned to them and is a
+member of one or more groups that have a policy of the given type assigned, the user inherits
+the effective policy from one of the groups based on the group assignment priority that was
+ set when the policy was assigned to the group.
+3. Global policy: If a user doesn't have a policy directly assigned to them and hasn't
+inherited a policy from a group, their effective policy is the global policy for that policy type, if defined.
+4. System default policy: If the global policy isn't defined, a user’s effective 
+is the system default policy for that policy type.
+
 #### Group assignment priority
+ 
+When a policy of a given type is assigned to a group, you must specify a priority. This priority is used to indicate which group membership is more important or more relevant than other group memberships with regards to policy inheritance.
+ 
+For example, an organization may have two groups, “Store Employees” and “Store Managers”, both of which are assigned a Teams calling policy, such as “Store Employees Calling Policy” and “Store Managers Calling Policy”. For a store manager who is in both groups, their identification as a manager is more relevant than their identification as an employee, so the calling policy assigned to the managers group should take precedence.
 
 ### Assign a policy to a group
 
