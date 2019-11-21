@@ -22,7 +22,7 @@ description: "Complete guidance for migrating from Slack to Microsoft Teams."
 
 This article walks you through the journey of moving to Microsoft Teams from Slack.
 
-When planning your organization’s move to Teams from Slack, it is important to decide what you need to keep (if anything). We'll start off by describing what types of data can be migrated and then walk you through how to assess your needs, plan your move, and then make the move.
+When planning your organization’s move to Teams from Slack, it's important to decide what you need to keep (if anything). We'll start off by describing what types of data can be migrated and then walk you through how to assess your needs, plan your move, and then make the move.
 
 The diagram below shows the Slack architecture at a high level.
 
