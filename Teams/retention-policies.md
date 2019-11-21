@@ -34,7 +34,6 @@ Teams retention policies do support:
 Teams retention policies do not yet support:
 
 - Advanced retention policies don't apply to Teams chat and Teams channel message locations
-- Duration of fewer than 30 days
 
 Admins can set up separate retention policies for Teams private chats (1:1 or 1:Many chats) and Teams channel messages. In many cases, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. Set up these policies in the Security & Compliance Center, **Data governance** > **Retention**. Turn on **Teams channel messages** and **Teams chats** and then define retention policies for these locations (also shown in the diagram below). 
 
