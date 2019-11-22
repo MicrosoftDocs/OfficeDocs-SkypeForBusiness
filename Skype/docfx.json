@@ -148,7 +148,19 @@
         "SfbHybrid/**/*.md": "Skype for Business Hybrid",
         "SfbOnline/**/*.md": "Skype for Business Online",
         "SfbServer/**/*.md": "Skype for Business Server 2015"
-      }
+      },
+      "feedback_product_url": { 
+        "SfbHybrid/hybrid/*.md": "https://www.skypefeedback.com/" 
+      },
+      "feedback_system": 
+        "SfbHybrid/hybrid/*.md": "GitHub" 
+      },
+      "feedback_github_repo": 
+        "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness" 
+      },
+        "hideEdit": 
+        "SfbHybrid/hybrid/*.md": "false" 
+      } 
     },
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness",
