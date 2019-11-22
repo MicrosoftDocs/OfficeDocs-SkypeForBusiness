@@ -40,13 +40,13 @@ A Teams app package is created by using [Teams App Studio](https://docs.microsof
 
 ### Go to the Tenant Apps Catalog
 
-Start the Microsoft Teams client and sign in using your global or teams service admin credentials. From the Microsoft Teams Store, select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
+Start the Microsoft Teams client and sign in using your global or teams service admin credentials. Select **Apps** on the left side of the app, and then select the new section named for your specific organization (in this example, Contoso). Users in your organization can view apps in the catalog and install them for teams of which they are a member.
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image01.png)
 
 ### Add an app to the Tenant Apps Catalog
 
-1. From the store, select **Upload a custom app** > **Upload for Contoso**.
+1. On the **Apps** page, select **Upload a custom app** > **Upload for Contoso**.
 
     ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image02.png)
 
@@ -70,7 +70,7 @@ The app will be revised to version 2.0. You can also delete the app for your ent
 
 ## Use the Office 365 admin portal to manage the Tenant Apps Catalog
 
-If you have apps that need bug fixes, you can temporarily disable apps through the Office 365 admin portal. Select **Settings** > **Services & add-ins** > **Microsoft Teams**. In addition to previous settings, there is now a section dedicated to your company's apps. You can choose which apps you want to enable or disable.
+If you have apps that need bug fixes, you can temporarily disable apps through the Microsoft 365 admin center > **Teams admin center** > **Teams apps** > **Permission Policies** > <policy name, e.g. "Global (Org-wide default)"> **Tenant apps** > Block specific apps and allow all others and add your app to the list.
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image05.png)
 
