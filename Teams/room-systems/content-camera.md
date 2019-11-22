@@ -1,7 +1,7 @@
 ---
 title: "Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file"
-ms.author: serdars
-author: serdarsoysal
+ms.author: kenwith
+author: kenwith
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -19,7 +19,7 @@ You can now use a content camera with a Microsoft Teams Room system. A content c
 
 See the following video for examples of content camera functionality.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
 
 ## Set up a content camera
 
@@ -39,7 +39,7 @@ Ideal placement of a content camera is centered vertically and horizontally on t
 
 You can install the camera up to 6 in. (152 mm) higher than the top of the whiteboard, and centered on the white board as shown. Make sure that the camera image includes at least a 6 in. (152 mm) border on both sides horizontally. You can use the camera preview in the Microsoft Teams Rooms app to determine final placement of the camera.
 
-![Content camera placement diagram](../media/Magic-whiteboard.png)
+![Content camera placement diagram](../media/magic-whiteboard.jpg)
 
 ### Camera distances
 
@@ -96,4 +96,4 @@ You can also adjust these settings remotely using an [XML configuration file](xm
 
 > [!NOTE]
 > Certain Microsoft Teams Room devices that have Microsoft Surface Pro based consoles (such as, Logitech Smartdock and Crestron SR) do not yet support content camera. Support for these devices will added later in CY2019. 
->
+
