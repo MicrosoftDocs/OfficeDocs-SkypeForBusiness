@@ -152,13 +152,13 @@
       "feedback_product_url": { 
         "SfbHybrid/hybrid/*.md": "https://www.skypefeedback.com/" 
       },
-      "feedback_system": 
+      "feedback_system": {
         "SfbHybrid/hybrid/*.md": "GitHub" 
       },
-      "feedback_github_repo": 
+      "feedback_github_repo": {
         "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness" 
       },
-        "hideEdit": 
+        "hideEdit": {
         "SfbHybrid/hybrid/*.md": "false" 
       } 
     },
