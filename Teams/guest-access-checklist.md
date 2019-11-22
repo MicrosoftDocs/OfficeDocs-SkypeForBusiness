@@ -77,10 +77,10 @@ For more information about controlling who can invite guests, see [Delegate invi
 ## Step 3: Configure Office 365 Groups
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Services & add-ins**, and then select **Office 365 Groups**.
-2. Make sure that the **Let group members outside the organization access group content** check box is selected. If this setting is not selected, guests won't be able to access any group content.
-3. Make sure that the **Let group owners add people outside the organization to groups** check box is selected. If this setting is not selected, team owners won't be able to add new guests. At a minimum, this setting must be on to support guest access.
 
      ![Screenshot shows the Office 365 Groups toggles](media/guest-access-checklist-office365.png)
+2. Make sure that the **Let group members outside the organization access group content** check box is selected. If this setting is not selected, guests won't be able to access any group content.
+3. Make sure that the **Let group owners add people outside the organization to groups** check box is selected. If this setting is not selected, team owners won't be able to add new guests. At a minimum, this setting must be on to support guest access.
 
 For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
@@ -89,7 +89,7 @@ For detailed instructions about configuring these settings, see [Manage guest ac
 
 Make sure that users can add guests. Here's how:
 
-1. In the new Microsoft 365 admin center, go to **Show All** > **Settings** > **Security & privacy**.
+1. In the Microsoft 365 admin center, go to **Settings** > **Security & privacy**.
 
      ![Screenshot shows an example of services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
@@ -110,12 +110,12 @@ Make sure that users can add guests. Here's how:
 This one's a bit of a brain teaser. Guest access in Teams doesn't work if the **Don't allow sharing outside your organization** setting is selected in the SharePoint admin center.
 
 1. Sign in to the Microsoft 365 admin center.
-2. Click **Show All** and under **Admin Centers**, select  **SharePoint**.
-3. In the new SharePoint Admin Center,  under **Sites**, select **Active Sites**.
+2. Under **Admin centers**, select  **SharePoint**.
+3. In the SharePoint admin center,  under **Sites**, select **Active sites**.
 
-    ![New SPO admin site, Active Sites.](media/guest-access-checklist-SPOSettings0.png)
+    ![Active sites page in the new SharePoint admin center](media/guest-access-checklist-SPOSettings0.png)
 
-3. Select the site and then click **Sharing**.
+3. Select the site, and then click **Sharing**.
 
     ![New SPO admin site, Sharing location.](media/guest-access-checklist-SPOSettings01.png)
 
