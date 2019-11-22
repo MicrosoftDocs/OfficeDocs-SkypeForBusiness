@@ -217,6 +217,7 @@ To access the opt-out option, agents can do the following:
 
     > [!NOTE]
     > Agents using apps or endpoints other than Skype for Business Desktop can access the opt-out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
+    > <br>If the agents are in Microsoft Teams desktop clients, then they can opt-out using the Call Settings. 
 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 **Agent Alert setting**
