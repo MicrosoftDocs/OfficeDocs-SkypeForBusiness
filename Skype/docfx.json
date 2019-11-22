@@ -159,7 +159,7 @@
         "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness" 
       },
         "hideEdit": {
-        "SfbHybrid/hybrid/*.md": "false" 
+        "SfbHybrid/hybrid/**/*.md": "false" 
       } 
     },
     "template": [],
