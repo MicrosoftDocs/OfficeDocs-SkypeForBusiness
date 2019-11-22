@@ -40,6 +40,10 @@ Yes, they are. If you create a retention policy to delete data older than 60 day
 
 By default, Teams chat, channel, and files data are retained forever.
 
+### What licensing is required for retention policies?
+
+The minimum licensing requirement for retention policies is Office 365 E3. For more information on licensing, read [Office 365 licensing for Teams](office-365-licensing.md).
+
 ### Can I target sets of users or teams in a policy? 
 
 Yes, you do. In the policy creation wizard, in the Locations step, you can include or exclude teams (**Teams channel messages**) or users (**Teams chat**) and create targeted policies for your organization. 
