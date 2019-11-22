@@ -22,14 +22,18 @@ f1keywords:
 
 As an admin, you use policies to control how users in your organization use Microsoft Teams to communicate and collaborate. For example, you can set app policies to control what apps are available to Teams users, meeting policies to define the meeting experience, and messaging policies to control what chat and channel features are available to users.
 
-Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create an assign a custom policy. Most organizations have many different user types with unique needs. To customize Teams for the different sets of users in your organization, create and assign one or more custom policies.
+Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create and assign a custom policy. Most organizations have different user types with unique needs and creating and assigning custom policies let you tailor policy settings to different sets of users based on those needs.
 
-To make it easier to manage policies, Teams offers several ways to assign policies to users. The method that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to.
+To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. The option that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to.
 
-- Assign a policy to individual users
-- Assign a policy package
-- Assign a policy to a batch of users
-- Assign a policy to a group
+## Overview
+
+Here's an overview:
+
+- [Assign a policy to individual users](#assign-a-policy-to-individual-users)
+- [Assign a policy package](#assign-a-policy-package)
+- [Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)
+- [Assign a policy to a group](#assign-a-policy-to-a-group)
 
 ## Assign a policy to individual users
 
@@ -53,7 +57,7 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Use the ```Grant-Cs``` cmdlet for the policy type that you want to assign. You can find these cmdlets in the [Skype for Business cmdlet reference](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps).
+Use the ```Grant-Cs``` cmdlet for the policy type that you want to assign. You can find these cmdlets in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 The cmdlets for managing policies are in the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366). To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
 
@@ -136,7 +140,7 @@ $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f36
 > [!NOTE]
 > Currently, group policy assignment isn't available for all Teams policy types. See [New-GroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
 
-## Assign a policy to a group of users
+## Assign a policy to a group
 
 Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to precedence rules.
 
