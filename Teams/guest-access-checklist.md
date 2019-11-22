@@ -76,9 +76,9 @@ For more information about controlling who can invite guests, see [Delegate invi
 
 ## Step 3: Configure Office 365 Groups
 
-1. In the new Microsoft 365 admin center, go to **Show All** > **Settings** > **Services & Add-ins** > **Office 365 Groups**.
-2. Make sure that the checkbox **Let group members outside the organization access group content** is **Checked**. If this setting is **Unchecked**, guests won't be able to access any group content.
-3. Make sure that the checkbox **Let group owners add people outside the organization to groups** is **Checked**. If this setting is **Unchecked**, Team owners won't be able to add new guests. At a minimum, this setting must be **On** to support guest access.
+1. In the Microsoft 365 admin center, go to **Settings** > **Services & add-ins**, and then select **Office 365 Groups**.
+2. Make sure that the **Let group members outside the organization access group content** check box is selected. If this setting is not selected, guests won't be able to access any group content.
+3. Make sure that the **Let group owners add people outside the organization to groups** check box is selected. If this setting is not selected, team owners won't be able to add new guests. At a minimum, this setting must be on to support guest access.
 
      ![Screenshot shows the Office 365 Groups toggles](media/guest-access-checklist-office365.png)
 
