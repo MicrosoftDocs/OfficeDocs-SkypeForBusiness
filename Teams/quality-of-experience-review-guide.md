@@ -532,7 +532,7 @@ Excluding federated data from CQD reports is useful when you’re remediating ma
 To implement a URL filter, in the browser address bar, append the following to the end of the URL:
 
 ```
-/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+/filter/[AllStreams].[Second Tenant Id]|[YOUR TENANT ID HERE]
 ```
 
 Example:  

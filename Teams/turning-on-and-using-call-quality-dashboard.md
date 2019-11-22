@@ -109,9 +109,9 @@ The URL Date parameter can now accept a Day field. Rolling-day reports use dates
 
 |URL| End date of Rolling Day Trend|
 |:---|:---|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02/</span>   |Current Day of Feb 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02-15/</span>|Feb 15, 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/00/</span>        |Current Day|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/2019-02/</span>   |Current Day of Feb 2019|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/2019-02-15/</span>|Feb 15, 2019|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/00/</span>        |Current Day|
 |||
 
 By default the current day of the month is used as the last day of the Rolling Day Trend.
