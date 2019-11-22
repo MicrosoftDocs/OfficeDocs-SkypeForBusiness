@@ -18,11 +18,11 @@ appliesto:
 
 # Network settings for cloud voice features in Microsoft Teams
 
-Learn about network regions, network sites, network subnets, and trusted IP addresses. These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and [enhanced emergency services](configure-dynamic-emergency-calling.md). If you're deploying any of these cloud voice features in your organization, you must configure network settings for use with these features in Microsoft Teams.
+Learn about network regions, network sites, network subnets, and trusted IP addresses. These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and [enhanced emergency services](configure-dynamic-emergency-calling.md). If you're deploying Location-Based Routing or enhanced emergency services with a dynamic configuration in your organization, you must configure network settings for use with these features in Microsoft Teams.
 
-These cloud voice features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site.
+These cloud voice features have common configuration requirements for which you define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site.
 
-This article gives you an overview of the configuration requirements that are common to Location-Based Routing for Direct Routing and enhanced emergency services. For steps on how to configure each of these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
+This article gives you an overview of the configuration requirements that are common to Location-Based Routing for Direct Routing and enhanced emergency services with a dynamic configuration. For steps on how to configure each of these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
 > [!NOTE]
 > Any feature-specific requirements for network settings are documented in the configuration topics for that feature.
