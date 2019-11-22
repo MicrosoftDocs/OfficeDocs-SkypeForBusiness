@@ -3,7 +3,6 @@ title: Configure network settings for Location-Based Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -112,6 +111,7 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 ## Next steps
 Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).
 
-### Related topics
+## Related topics
+
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-- [Location-Based Routing terminology](location-based-routing-terminology.md)
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)

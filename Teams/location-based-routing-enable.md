@@ -3,7 +3,6 @@ title: Enable Location-Based Routing for Direct Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
@@ -156,7 +155,8 @@ In this example, we prevent PSTN toll bypass to User1's calling policies.
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### Related topics
+## Related topics
+
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 - [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-- [Location-Based Routing terminology](location-based-routing-terminology.md)
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
