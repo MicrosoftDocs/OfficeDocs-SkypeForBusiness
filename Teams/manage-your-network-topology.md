@@ -20,7 +20,7 @@ description: Learn how to configure network settings for cloud voice features in
 
 # Manage your network topology for cloud features in Microsoft Teams
 
-If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or [enhanced emergency services with a dynamic configuration](configure-dynamic-emergency-calling.md), you must configure network settings for use with these cloud voice features in Microsoft Teams. These features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
+If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or [enhanced emergency services](configure-dynamic-emergency-calling.md) with a dynamic configuration, you must configure network settings for use with these cloud voice features in Microsoft Teams. These features have common configuration requirements for which you must define network regions, network sites, and subnets. For example, you must associate each network site in your topology with a network region and associate each subnet with a network site. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
