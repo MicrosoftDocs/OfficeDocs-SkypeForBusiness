@@ -46,6 +46,7 @@ The following table shows recommended and supported versions of Windows 10 that 
 
 |Version  |Availability date   |Microsoft Teams Rooms support status   |Microsoft Teams Rooms Minimum application version | Recommended OS build  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |Currently validating, <br/>Not Recommended|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |Supported &#x2780;, <br/>Recommended  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |Skipped, <br/>Not recommended &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Supported                             |4.1.22.0 |17134.191|
