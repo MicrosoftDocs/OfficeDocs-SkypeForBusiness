@@ -44,4 +44,8 @@ For each network site, work with your network admin to determine which IP subnet
 
 ## Trusted IP address
 
-External trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user’s endpoint is inside the corporate network before checking for a specific site match. If the user’s external IP address matches an IP address that's defined in the trusted list, the cloud voice feature [**ROY - is it OK to use "cloud voice feature" here as a generic term? It previously said "Location-Based Routing"**] checks to determine the internal subnet where the user’s endpoint is located. If the user’s external IP address doesn’t match any IP address that's defined in the trusted list, the endpoint is classified as being at an unknown location.
+Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user’s endpoint is inside the corporate network before checking for a specific site match.
+
+If the user’s external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature (Location-Based Routing or enhanced emergency services) checks to determine the internal subnet where the user’s endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
+
+If the user’s external IP address doesn’t match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
