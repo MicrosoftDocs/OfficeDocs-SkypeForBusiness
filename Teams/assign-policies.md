@@ -28,7 +28,7 @@ To make it easier to manage policies in your organization, Teams offers several 
 
 ## Overview
 
-Here's an overview:
+Here's an overview.
 
 - [Assign a policy to individual users](#assign-a-policy-to-individual-users)
 - [Assign a policy package](#assign-a-policy-package)
@@ -57,9 +57,25 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Use the ```Grant-Cs``` cmdlet for the policy type that you want to assign.  [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Use the **Grant-** cmdlet for the policy type that you want to assign. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. The cmdlets for managing individual policies are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
-The cmdlets for managing policies are in the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366). To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if it's not already installed), and then run the following to connect to Skype for Business Online.
+
+```
+Import-Module SkypeOnlineConnector
+$Cred = Get-Credential
+$CSSession = New-CsOnlineSession -Credential $Cred
+Import-PSSession -Session $CSSession
+```
+
+In this example, we assign a policy named New Hire Feedback Policy to a user name user1. 
+
+```
+Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
+```
+
+
+To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
 
 ## Assign a policy package
 
