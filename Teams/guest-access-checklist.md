@@ -112,13 +112,7 @@ This one's a bit of a brain teaser. Guest access in Teams doesn't work if the **
 1. Sign in to the Microsoft 365 admin center.
 2. Under **Admin centers**, select  **SharePoint**.
 3. In the SharePoint admin center,  under **Sites**, select **Active sites**.
-
-    ![Active sites page in the new SharePoint admin center](media/guest-access-checklist-SPOSettings0.png)
-
 3. Select the site, and then click **Sharing**.
-
-    ![New SPO admin site, Sharing location.](media/guest-access-checklist-SPOSettings01.png)
-
 4. Make sure the option is set to **Anyone** or **New and existing guests**.
  
      ![Screenshot shows an example of a SharePoint Online settings toggle.](media/guest-access-checklist-SPOSettings1.png)
