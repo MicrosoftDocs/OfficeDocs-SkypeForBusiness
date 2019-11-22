@@ -374,6 +374,9 @@
 ### [What are dial plans?](what-are-dial-plans.md)
 ### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### [Add and update reporting labels](learn-more-about-site-upload.md)
+## Network settings and topology
+### [Network settings for cloud voice features](cloud-voice-network-settings.md)
+### [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 ## Emergency calling
 ### [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
 ### Manage emergency addresses
@@ -389,8 +392,6 @@
 
 
 ## Reference
-### [Network settings for cloud voice features](cloud-voice-network-settings.md)
-### [Manage your network topology](manage-your-network-topology.md)
 ### Country and region availability for Calling Plan
 
 #### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
