@@ -30,10 +30,10 @@ To make it easier to manage policies in your organization, Teams offers several 
 
 Here's an overview.
 
-- [Assign a policy to individual users](#assign-a-policy-to-individual-users)
-- [Assign a policy package](#assign-a-policy-package)
-- [Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)
-- [Assign a policy to a group](#assign-a-policy-to-a-group)
+- [Assign a policy to individual users](#assign-a-policy-to-individual-users): Do this if you're new to Teams and just getting started or if you only need to create and assign a few policies to a small number of users.
+- [Assign a policy package](#assign-a-policy-package): Do this if you need to create and assign multiple policies to specific sets of users in your organization who have a similar roles.  
+- [Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users): Do this if you need to manage policies for large sets of users.
+- [Assign a policy to a group](#assign-a-policy-to-a-group): Do this if you need to manage policies based on a user's group membership. 
 
 ## Assign a policy to individual users
 
@@ -59,9 +59,9 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Each policy type has it's own set of cmdlets that you use to manage the policy. Use the **Grant-** cmdlet for the policy type that you want to assign. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. The cmdlets for managing policies are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Each policy type has it's own set of cmdlets for managing it. Use the **Grant-** cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
-Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online.
+Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
 
 ```
 Import-Module SkypeOnlineConnector
@@ -70,7 +70,7 @@ $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession
 ```
 
-In this example, we assign a policy named New Hire Feedback Policy to a user named user1. 
+In this example, we assign a policy named New Hire Feedback Policy to a user named user1.
 
 ```
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
@@ -79,6 +79,8 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
 
 ## Assign a policy package
+
+A policy package is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. When you assign a policy package to users, the policies in the package are created and you can then customize the settings of each policy in the package to meet your users' needs.
 
 To learn more, see [Manage policy packages in Teams](manage-policy-packages.md).
 
@@ -95,14 +97,7 @@ You can specify users by their object Id, user principal name (UPN), Session Ini
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
-If you haven't already, download and install the [Microsoft Teams Powershell module](https://www.powershellgallery.com/packages/MicrosoftTeams), and then connect to Teams.
-
-Run the following to install the Teams Powershell module.
-
-```
-Install-Module -Name MicrosoftTeams
-```
-Run the following to connect to Teams and start a session.
+If you haven't already, download and install the [Microsoft Teams Powershell module](https://www.powershellgallery.com/packages/MicrosoftTeams), and then run the following to connect to Teams and start a session.
 
 ```
 Connect-MicrosoftTeams
@@ -112,7 +107,7 @@ When you're prompted, sign in using your admin credentials.
 
 ### Install and connect to the Azure AD PowerShell for Graph module (optional)
 
-You may also want to [download and install the Azure AD PowerShell for Graph module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (if it's not already installed) and connect to Azure AD so that you can retrieve a list of users in your organization.
+You may also want to [download and install the Azure AD PowerShell for Graph module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (if you haven't already) and connect to Azure AD so that you can retrieve a list of users in your organization.
 
 Run the following to connect to Azure AD.
 
@@ -159,7 +154,7 @@ $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f36
 
 ## Assign a policy to a group
 
-Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to precedence rules.
+Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules.  When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to precedence rules.
 
 ### What you need to know about group policy assignment
 
@@ -172,8 +167,7 @@ policy of the same type that would be inherited through membership in a group. T
 override group-assigned policies for specific users, as needed.
 2. Group policy inheritance: If a user doesn't have a policy directly assigned to them and is a
 member of one or more groups that have a policy of the given type assigned, the user inherits
-the effective policy from one of the groups based on the group assignment priority that was
- set when the policy was assigned to the group.
+the effective policy from one of the groups based on the group assignment priority.
 3. Global policy: If a user doesn't have a policy directly assigned to them and hasn't
 inherited a policy from a group, their effective policy is the global policy for that policy type, if defined.
 4. System default policy: If the global policy isn't defined, a user’s effective 
@@ -181,9 +175,11 @@ is the system default policy for that policy type.
 
 #### Group assignment priority
  
-When a policy of a given type is assigned to a group, you must specify a priority. This priority is used to indicate which group membership is more important or more relevant than other group memberships with regards to policy inheritance.
+When you assign a policy to a group, set a priority. The priority indicates which group membership is more important or more relevant than other group memberships with regards to policy inheritance.
  
-For example, an organization may have two groups, “Store Employees” and “Store Managers”, both of which are assigned a Teams calling policy, such as “Store Employees Calling Policy” and “Store Managers Calling Policy”. For a store manager who is in both groups, their identification as a manager is more relevant than their identification as an employee, so the calling policy assigned to the managers group should take precedence.
+Say, for example, an organization has two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should take precedence.
+
+If you don't set a priority, the policy assignment is given the lowest priority. 
 
 ### Assign a policy to a group
 
