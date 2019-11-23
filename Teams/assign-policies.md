@@ -24,7 +24,7 @@ As an admin, you use policies to control how users in your organization use Micr
 
 Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create and assign a custom policy. Most organizations have different user types with unique needs and custom policies let you tailor policy settings to different sets of users based on those needs.
 
-To make it easier to manage policies in your organization, Teams offers several options for assigning policies to users. The option that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to.
+To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. The option that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to. This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
 
 ## Overview
 
@@ -40,6 +40,8 @@ Here's an overview.
 Follow these steps to assign a policy to individual users or to a small number of users at a time.
 
 ### Using the Microsoft Teams admin center
+
+To assign a policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
@@ -57,9 +59,9 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Use the **Grant-** cmdlet for the policy type that you want to assign. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. The cmdlets for managing individual policies are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Each policy type has it's own set of cmdlets that you use to manage the policy. Use the **Grant-** cmdlet for the policy type that you want to assign. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. The cmdlets for managing policies are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
-Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if it's not already installed), and then run the following to connect to Skype for Business Online.
+Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online.
 
 ```
 Import-Module SkypeOnlineConnector
@@ -68,12 +70,11 @@ $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession
 ```
 
-In this example, we assign a policy named New Hire Feedback Policy to a user name user1. 
+In this example, we assign a policy named New Hire Feedback Policy to a user named user1. 
 
 ```
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-
 
 To learn more, see [Managing policies via PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
 
