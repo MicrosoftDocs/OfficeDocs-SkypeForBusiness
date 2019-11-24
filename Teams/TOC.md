@@ -25,6 +25,7 @@
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage teams and channel policies](teams-policies.md)
+## [Sensitivity labels for Teams](sensitivity-labels.md)
 ## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
@@ -32,6 +33,7 @@
 ## [View cross-team and per-team analytics in Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
+## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 
 
 
@@ -772,6 +774,7 @@
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 ### [Install Moodle integration](install-moodle-integration.md)
 
@@ -818,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
@@ -833,6 +836,7 @@
 ## Get ready to roll out Teams
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
+### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ### [Use Network Planner for Teams](network-planner.md)
 ### [Network Planner walkthrough](tutorial-network-planner-example.yml)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)

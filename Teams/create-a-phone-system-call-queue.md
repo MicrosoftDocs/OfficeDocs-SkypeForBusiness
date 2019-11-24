@@ -100,7 +100,7 @@ To get started using call queues, it's important to remember a few things:
 
 ## Step 2 — Getting or transferring toll or toll-free service phone numbers
 
-Before you can create and set up your call queues, you need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Legacy Portal** > **Voice** > **Phone numbers**, and the **Number type** will be listed as **Service — Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Before you can create and set up your call queues, you need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers** > **ADD** >, and the **Number type** will be listed as **Service — Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
@@ -217,6 +217,10 @@ To access the opt-out option, agents can do the following:
 
     > [!NOTE]
     > Agents using apps or endpoints other than Skype for Business Desktop can access the opt-out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
+    >
+    > If the agents are in Microsoft Teams desktop clients, then they can opt-out by using the Call Settings. 
+
+![screenshot of the opt-out call settings](media/create-a-phone-system-call-queue-image1.png)
 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 **Agent Alert setting**

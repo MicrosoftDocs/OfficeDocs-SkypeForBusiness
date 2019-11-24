@@ -31,7 +31,7 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 
 ## Desktop client
 
-> [!Tip]
+> [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
 The Microsoft Teams desktop client is a standalone application and is also [available in Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for Windows (7+), both 32-bit and 64-bit versions, macOS (10.10+), and Linux (in `.deb` and `.rpm` formats.). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as apt and yum will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
@@ -133,7 +133,7 @@ The Microsoft Teams mobile apps are available for Android and iOS, and are geare
 
 Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
--   **Android**: 4.4 or later
+-   **Android**: 5.0 or later
 
 -   **iOS**: 10.0 or later
 
@@ -166,10 +166,9 @@ There are currently no options available for IT administrators to configure clie
 
 This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
 
-```
-
+```powershell
 <#
-.Synopsis
+.SYNOPSIS
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
@@ -181,22 +180,17 @@ This sample script, which needs to run on client computers in the context of an 
 #Requires -Version 3
 
 $users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
-if ($users.Length -gt 0)
-{
-    foreach ($user in $users)
-    {
+if ($null -ne $users) {
+    foreach ($user in $users) {
         $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
-        if (Test-Path $progPath)
-	    {
-	        if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue))
-		    {
+        if (Test-Path $progPath) {
+            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue)) {
                 $ruleName = "Teams.exe for user $($user.Name)"
                 "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
                 Clear-Variable ruleName
-		    }
-	    }
+            }
+        }
         Clear-Variable progPath
     }
 }
-
 ```

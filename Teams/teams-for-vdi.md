@@ -160,6 +160,9 @@ The Teams app has been validated on leading virtualization solution providers. W
 
 ### Virtual Machine requirements
 
+> [!NOTE]
+> The following requirements apply to both the Teams desktop app and the Teams Web app.
+
 With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.
 
 |Parameter  |Measure  |
