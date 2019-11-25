@@ -268,7 +268,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 ### Office 365 and Office 365 GCC environments
 
-- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+- 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254).
 
 ### Office 365 GCC DoD environment
 
@@ -283,9 +283,8 @@ The port range of the Media Processors is shown in the following table:
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Media Processor|SBC|49 152 – 53 247|Defined on the SBC|
-|UDP/SRTP|SBC|Media Processor|Defined on the SBC|49 152 – 53 247|
-|
+|UDP/SRTP|Media Processor|SBC|49152 – 53247|Defined on the SBC|
+|UDP/SRTP|SBC|Media Processor|Defined on the SBC|49152 – 53247|
 
   > [!NOTE]
   > Microsoft  recommends at least two ports per concurrent call on the SBC.
