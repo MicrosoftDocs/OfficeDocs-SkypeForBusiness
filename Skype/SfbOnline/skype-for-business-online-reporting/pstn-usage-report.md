@@ -99,10 +99,8 @@ This is what the report looks like.
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
-![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into a TAB delimited Excel file, by clicking or tapping the **Export to Excel** button. You can export data up to one year from the current date.<br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into a COMMA delimited Excel file, by clicking or tapping the **Export to Excel** button. You can export data up to one year from the current date unless country specific regulation prohibit retention of the data for 12 months.<br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. 
+    
 ## Want to see other Skype for Business reports?
 
 - [Skype for Business activity report](activity-report.md) You can see how much your users are using peer-to-peer, organized, and participated in conferencing sessions.
