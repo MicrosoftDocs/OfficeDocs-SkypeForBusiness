@@ -3,13 +3,12 @@ title: Teams meetings on unsupported browsers
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/23/2019
 ms.topic: conceptual
 ms.service: msteams
 MS.collection: 
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: nakulm
+localization_priority: Normal
 search.appverid: MET150
 description: Learn how Teams supports audio and video in unsupported browsers.
 appliesto: 
@@ -38,8 +37,6 @@ People who are using the Teams web app on unsupported browsers will experience t
 
 ## Related topics
 
-- [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907).
-
+- [Join a Teams meeting on an unsupported browser](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
 - [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams#browsers)
 
----
