@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
-f1keywords: 
+f1keywords: ms.teamsadmincenter.networktopology.overview
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
