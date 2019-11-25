@@ -1,5 +1,5 @@
 ---
-title: "Deploy :::no-loc text="Microsoft Teams Rooms"::: management with :::no-loc text="Azure Monitor":::"
+title: "Deploy Microsoft Teams Rooms management with Azure Monitor"
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 ms.custom: 
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: "This article discusses how to deploy management of :::no-loc text="Microsoft Teams Rooms"::: devices in an integrated, end-to-end manner using :::no-loc text="Azure Monitor":::."
+description: "This article discusses how to deploy management of Microsoft Teams Rooms devices in an integrated, end-to-end manner using Azure Monitor."
 ---
 
 # Deploy :::no-loc text="Microsoft Teams Rooms"::: management with :::no-loc text="Azure Monitor":::
@@ -63,7 +63,7 @@ To configure :::no-loc text="Log Analytics"::: to collect the :::no-loc text="Mi
 > [!IMPORTANT]
 > Configure :::no-loc text="Windows"::: Event Log settings and enter **:::no-loc text="Skype Room System":::** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.
 
-## Configure test devices for :::no-loc text="Azure Monitoring":::
+## Configure test devices for Azure Monitoring
 <a name="configure_test_devices"> </a>
 
 You need to prepare :::no-loc text="Log Analytics"::: to be able to monitor :::no-loc text="Microsoft Teams Rooms":::–related events. To start with, you need to deploy :::no-loc text="Microsoft Monitoring"::: agents to just one or two :::no-loc text="Microsoft Teams Rooms"::: devices that you have physical access to, and get those test devices generate some data and push it to the :::no-loc text="Log Analytics"::: workspace.
@@ -159,7 +159,7 @@ After data is collected and custom fields are mapped, you can use View Designer 
 > [!NOTE]
 > Previous steps in this guide should have been completed for the dashboard tiles to work properly.
 
-### Create a :::no-loc text="Microsoft Teams Rooms"::: dashboard by using the import method
+### Create a Microsoft Teams Rooms dashboard by using the import method
 
 You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
 
@@ -169,7 +169,7 @@ You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start 
 4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
 5.  Select **Save**.
 
-### Create a :::no-loc text="Microsoft Teams Rooms"::: dashboard manually
+### Create a Microsoft Teams Room dashboard manually
 
 Alternatively, you can create your own dashboard and add only the tiles that you wish to monitor.
 
