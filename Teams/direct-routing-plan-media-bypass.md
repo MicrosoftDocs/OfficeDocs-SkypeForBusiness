@@ -140,15 +140,15 @@ The IP range is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
 
 - Transport Relays are not B2BUA, which means the codec is never changed between the client and the SBC--even if traffic flows via relays.
 
-### Use of Teams Transport Relays in escalation scenarios if trunk is configured for media bypass
+### Use of Teams Media Processors if trunk is configured for media bypass
 
-Teams Transport Relays are always in the media path in the following scenarios:
+Teams Media Processors are always inserted in the media path in the following scenarios:
 
 - Call is escalated from 1:1 to a group call
 - Call is going to a federated Teams user
 - Call is forwarded or transferred to a Skype for Business user
 
-Ensure your SBC has access to the Transport Relays as described below.    
+Ensure your SBC has access to the Media Proccessors and Transport Relays ranges as described below.    
 
 
 ## SIP Signaling: FQDNs
