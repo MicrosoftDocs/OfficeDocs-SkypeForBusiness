@@ -57,28 +57,25 @@ The **Calling Plans** tab shows information including the number of minutes that
 |**6**   |Select **Full screen** to view the report in full screen mode. |
 |**7**   |Select **Export to Excel** to download the data in a comma separated file (CSV) for offline analysis or to use it as input for your billing system. |
 
-**Caller/Callee fields conciderations**
+**Caller/Callee fields considerations**
 
 Depending on the call direction, the Caller or Callee names can contain non-E164 numbers.
 
-These fields can come form the customer SBC(s). There are three formats that the SBC can send to Direct Routing: E.164 numbers, non-E.164 numbers, and strings.
+These fields can come from the customer SBC(s). There are three formats that the SBC can send to Direct Routing: E.164 numbers, non-E.164 numbers, and strings.
 
-1. E.164 phone number from a user who has an E.164 number to a user who also has an E.164 number. 
-2. Call from a non-E.164 number. A user from a third-party PBX interconnected with DR makes a call to a Teams user. In this case the caller number might be any non-E.164 number, for example +1001. 
-3. A spammer calls and doesn’t present a number, only a name, for example “Internal Revenue Service”. This string will be shown in the reports.
-
+- E.164 phone number from a user who has an E.164 number to a user who also has an E.164 number. 
+- Call from a non-E.164 number. A user from a third-party PBX interconnected with Direct Routing makes a call to a Teams user. In this case, the caller number might be any non-E.164 number, for example +1001. 
+- A spammer calls and doesn’t present a number, only a name, for example “Internal Revenue Service”. This string will be shown in the reports.
 
 **About Shared Correlation ID**
 
-The Shared Correlation ID only exists in downloadable Excel and indicates that two or more calls are related. 
-The following table explains the different scenarios, and when Shared Correlation ID is present.
+The Shared Correlation ID only exists in the exported Excel file that you download and indicates that two or more calls are related. 
+The following explains the different scenarios, and when Shared Correlation ID is present.
 
-
-1.	PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID	57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID
-2.	Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type	Dr_Out	2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID
-3.	PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type	Dr_In	f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9
-4.	Existing call 3 with correlation ID “f45e9a25-9f94-46e7-a457-84f5940efde9”. PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type	Dr_Out_User_Transfer	45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID	f45e9a25-9f94-46e7-a457-84f5940efde9
-
+1.	PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID	57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID.
+2.	Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type	Dr_Out	2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID.
+3.	PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type	Dr_In	f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.	Existing call 3 with correlation ID “f45e9a25-9f94-46e7-a457-84f5940efde9”. PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type	Dr_Out_User_Transfer	45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID	f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## Related topics
 
