@@ -78,7 +78,7 @@ When deciding which Office 365 apps and services to use, think about the work yo
 
 - **OneDrive for Business** for storing files and sharing them with people that a user invites. Content that a user saves to OneDrive for Business is private until the user shares it with others, making it the best option for storing personal and draft documents that are not intended to be shared or not ready to be shared.
 
-- **Yammer** to connect people across the organization. Drive company-wide initiatives, share best practices, and build communities around common topics of interest or areas or practice. Crowdsource ideas to foster open discussions with people across the company.
+- **Yammer** to connect people across the organization. Drive company-wide initiatives, share best practices, and build communities around common topics of interest or areas of practice. Crowdsource ideas to foster open discussions with people across the company.
 
 - **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote. 
 
