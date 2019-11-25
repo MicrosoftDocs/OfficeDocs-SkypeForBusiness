@@ -148,7 +148,7 @@ Teams Media Processors are always inserted in the media path in the following sc
 - Call is going to a federated Teams user
 - Call is forwarded or transferred to a Skype for Business user
 
-Ensure your SBC has access to the Media Proccessors and Transport Relays ranges as described below.    
+Ensure your SBC has access to the Media Processors and Transport Relays ranges as described below.    
 
 
 ## SIP Signaling: FQDNs
@@ -239,7 +239,7 @@ Media traffic flows between the SBC and Teams client if direct connectivity is a
 
 The client must have access to the specified ports (see table) on the public IP address of the SBC. 
 
-Note: If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hairpinning on your NAT device so traffic never leaves the enterprise network equipment.
+Note: If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hair pinning on your NAT device so traffic never leaves the enterprise network equipment.
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
