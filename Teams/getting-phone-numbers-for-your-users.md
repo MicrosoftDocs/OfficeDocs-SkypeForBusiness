@@ -40,7 +40,7 @@ There are three ways to get user numbers:
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
-1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Get new numbers**.
+1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
 2. Enter a name for the order and if you want, add a description.
 3. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
