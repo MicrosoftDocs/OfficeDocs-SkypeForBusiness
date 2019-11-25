@@ -43,7 +43,7 @@ Configure the Front of Room display to Extended mode. Doing so will ensure that 
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
 
-If Microsoft Teams Rooms isn't running well, performing a factory reset might help. This can be done in the Settings app on the **Recovery** tab. Beneath **Reset this PC**, select **Get started**, and then **Remove everything**. Follow the remaining prompts to reset the device.
+If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Room recovery tool](https://docs.microsoft.com/en-us/microsoftteams/room-systems/recovery-tool) and follow the factory restore instructions
   
 > [!NOTE]
 > There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do _not_ use this option.
