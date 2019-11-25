@@ -169,7 +169,7 @@ You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start 
 4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
 5.  Select **Save**.
 
-### Create a Microsoft Teams Room dashboard manually
+### Create a Microsoft Teams Rooms dashboard manually
 
 Alternatively, you can create your own dashboard and add only the tiles that you wish to monitor.
 
