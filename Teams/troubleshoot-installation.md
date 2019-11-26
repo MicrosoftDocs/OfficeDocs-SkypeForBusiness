@@ -63,7 +63,7 @@ This section describes how to collect and analyze application and system logs to
 
 ### Collect logs
 
-1. Download [Sysinternals tools](https://download.sysinternals.com/files/SysinternalsSuite.zip).
+1. Download the [Sysinternals tools](https://download.sysinternals.com/files/SysinternalsSuite.zip).
 2. Extract the zip file to the %TEMP% folder on your local drive.
 3. Open an elevated command prompt, and then do the following:
 
