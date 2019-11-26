@@ -15,6 +15,7 @@ search.appverid: MET150
 description: 
 appliesto: 
 - Microsoft Teams
+no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]
 ---
 
 # What do I need to purchase to use Microsoft 365 Business Voice?
@@ -82,5 +83,5 @@ To see rates for toll-free and international calling, scroll down to **Add time 
 
 ## Maximum number of supported users
 
-The Business Voice add-on that's available with small and medium-sized Microsoft 365 subscriptions supports up to a maximum of 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase a Office 365 365 E3 or E5 subscription.
+The Business Voice add-on that's available with small and medium-sized Microsoft 365 subscriptions supports up to a maximum of 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase a Office 365 E3 or E5 subscription.
 
