@@ -65,13 +65,13 @@ Follow these steps to collect and analyze application and system logs to diagnos
 
 1. Download [SysInternals tools](https://download.sysinternals.com/files/SysinternalsSuite.zip).
 2. Extract the zip file to the %TEMP% folder on your local drive.
-3.	Open an elevated command prompt, and then do the following:
+3. Open an elevated command prompt, and then do the following:
+
     1. Run the following to go to your TEMP folder:
     
     ```
     cd /d %TEMP%
     ```
-
     2. Copy the setup and application logs. Note that depending on the point of failure, some of these logs may not be present.
     
     ```
@@ -104,9 +104,19 @@ Follow these steps to collect and analyze application and system logs to diagnos
 
 ### Analyze logs (for advanced users)
 
-A failed update can result in unpredictable app behavior, ranging from being stuck to a stale version of Teams to an inability to start Teams. If a problem occurred during update, start by looking at the SquirrelTemp.log. Failures can be categorized into the buckets below.
+A failed update can result in unpredictable app behavior. For example, users may be unable to exit Teams, have a stale version of Teams, or can't start Teams. If you experience an issue during an update, the first place to look to find the cause is SquirrelTemp.log. Here are causes of update issues, listed from most common to least common, and how to troubleshoot them.
 
 #### Unable to exit Teams
+
+As Teams determines that it needs to update itself to a newer version, it downloads and stages the new app, and then waits for an opportunity to restart itself the next time the machine is idle. A common issue during this process is when another process or a file system driver locks up the Teams.exe process, preventing Teams.exe from exiting. As a result, the Teams app can't be replaced by the newly-downloaded and staged app.
+
+Troubleshooting tips: 
+
+- To confirm that is the issue that you're experiencing, quit Teams (right-click Teams on the task bar, and then click **Quit**). Then, open Task Manager in Windows to see whether an instance of Teams is still running.  
+- If you’re not on the computer that's having this issue, review the SquirrelTemp.log from the computer that's experiencing this issue and look for a "Program: Unable to terminate the process in the log" entry.
+- To determine what's preventing Teams.exe from exiting, look at the Dlls.txt and Handles.txt logs. These tell you the processes that prevented Teams from exiting.
+- Another common culprit that prevents Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, Procdump.exe, to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also review the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
+- Restart the computer.
 
 #### File permission
 
