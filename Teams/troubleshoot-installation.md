@@ -29,7 +29,8 @@ Follow these steps to check whether a Teams update is successfully installed.
 3. Wait for the banner at the top of the app to indicate that a “refresh” of Teams is needed. The link should be shown about a minute later as this process downloads the new version of Teams. The banner also lets you know if you’re already running the latest version in which case, no update is necessary.
 4. Click the refresh link in the banner.
 5. Wait until Teams restarts, and then repeat step 1 to see whether the app is updated.
-6. If you see a failure message or if the version number is the same as step 4, the update process failed.
+
+If you see a failure message or if the version number is the same as in step 4, the update process failed.
 
 ## Troubleshoot installation and update issues
 
