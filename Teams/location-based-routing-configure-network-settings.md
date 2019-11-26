@@ -52,4 +52,4 @@ Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-
 
 ## Related topics
 
-- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)

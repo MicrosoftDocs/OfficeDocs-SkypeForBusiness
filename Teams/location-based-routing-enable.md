@@ -157,6 +157,4 @@ Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id
 
 ## Related topics
 
-- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
