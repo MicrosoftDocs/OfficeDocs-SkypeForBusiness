@@ -376,6 +376,8 @@
 ### [Add and update reporting labels](learn-more-about-site-upload.md)
 
 ## Network settings and topology
+### [Network settings for cloud voice features](cloud-voice-network-settings.md)
+### [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 
 ## Emergency calling
 ### [Overview](what-are-emergency-locations-addresses-and-call-routing.md)
