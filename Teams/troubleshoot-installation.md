@@ -128,7 +128,7 @@ Teams creates a number of subfolders and files in the user's profile throughout 
 |%LocalAppData%\Microsoft\Teams  | Teams updater (Update.exe) to extract and stage the app package during update process        |
 |%AppData%\Microsoft\Teams   |  Teams app (Teams.exe) to save settings, app states, and the (pre-staged) downloaded update package       |
 
-If Teams is denied access because it can't write write a file, another software application may be interfering or a security descriptor entry may be limiting write access to a folder.
+If Teams is denied access because it can't write to a file, another software application may be interfering or a security descriptor entry may be limiting write access to a folder.
 
 Troubleshooting tips:
 
@@ -140,7 +140,7 @@ Troubleshooting tips:
 In some cases, encryption software can change files in the %LocalAppData%\Microsoft\Teams folder, which can prevent Teams from starting. This can happen at any time, even when the app isn't being updated. Unfortunately, when a file is corrupted, the only way to recover from this state is to uninstall and re-install Teams.
 
 > [!NOTE]
-> If you can't determine the underlying cause of the issue by using any of these steps, you may want to try a [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) session. Process Monitor is a SysInternals tool that records access to the registry and file system.
+> If you can't determine the underlying cause of the issue by using any of these steps, you may want to try a [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) session. Process Monitor is a Sysinternals tool that records access to the registry and file system.
 
 ## Related topics
 
