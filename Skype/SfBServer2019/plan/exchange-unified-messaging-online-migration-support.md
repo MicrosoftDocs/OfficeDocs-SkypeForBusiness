@@ -45,7 +45,7 @@ Microsoft has identified various customer deployments that are consuming feature
 |Customers with prerequisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto Attendant<li>Call Queue</ul> |  May — December 2019 |Examples: <br><ul><li>Hybrid configuration is not  complete<li>Hybrid PSTN numbers are not set up</ul>|
 |Customers who require admin involvement & customer investment<br><br>Features to migrate:<ul><li>voicemail<li>Auto Attendant<li>Call Queues<li>Fax integration</ul>| By February 2020  | Examples: <br><ul><li>ExchUMO service is consumed by third party PBX<li>Customers with PSTN Subscriber Access requirements<li>Customers on SFB 2010 (not-supported)<li>Fax integration</ul> |
 
-## Migration steps
+## Voicemail migration steps
 
 1.	**Get informed**
  
@@ -92,7 +92,15 @@ Microsoft has identified various customer deployments that are consuming feature
  
     - Tenant ID: 32 characters number in this format 0046728c-688a-4472-a38f-098fec60ac6x. You can find your tenant ID in the Microsoft 365 admin portal under Azure AD, or using the following PowerShell cmdlet: `Get-CsTenant | Select ObjectId`
  
-    You receive an email confirmation once your tenant is successfully migrated. 
+    You receive an email confirmation once your tenant is successfully migrated.
+
+## Auto Attendant migration guidelines
+
+Office 365 tenant administrators are required to re-create their Exchange UM Online Auto Attendants in the Microsoft Cloud Auto Attendant service and switch their on premises phone numbers to them before February 1, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud Auto Attendants. Customers who have a large number of auto attendants can use the Exchange UM Auto Attendant to Cloud Auto Attendant Migration script to simplify the bulk migration of auto attendants.
+
+### Setup
+
+### Cutover
 
 ## Appendix
 
@@ -160,7 +168,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | AA | Service Features | Custom user selection  | Enabling callers to reach customized list of organization users| Y | Y    |
 | AA | Service Features | After-hours and holidays treatment  |  | Y | Y    |
 | AA | Service Features | Custom greeting using text to speech  |  | Y | Y    |
-| AA | Service Features | Extension dialing   | Reaching a user by dialing their extension  | CY19   | Y    |
+| AA | Service Features | Extension dialing   | Reaching a user by dialing their extension  | Rolling out   | Y    |
 | AA | Service Features | Mailbox for AA callers to leave a message    |  | CY19   | Y    |
 | AA | Service Features | Multiple PSTN number assignments to an AA|  | Y | Y    |
 | AA | Tenant-Admin Features | Web portal administration   |  | Y | N    |
