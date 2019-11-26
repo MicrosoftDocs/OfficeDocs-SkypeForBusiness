@@ -68,12 +68,12 @@ Follow these steps to collect and analyze application and system logs to diagnos
 3. Open an elevated command prompt, and then do the following:
 
     1. Run the following to go to your TEMP folder:
-    
-    ```
-    cd /d %TEMP%
-    ```
+
+        ```
+        cd /d %TEMP%
+        ```
     2. Copy the setup and application logs. Note that depending on the point of failure, some of these logs may not be present.
-    
+
     ```
     copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
     copy %AppData%\Microsoft\Teams\logs.txt logs.txt
