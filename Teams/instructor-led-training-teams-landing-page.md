@@ -18,7 +18,7 @@ ms.collection:
 <div id="main" class="v2">
     <div class="container">
         <h1>Instructor-led training for Microsoft Teams</h1>
-           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams.  Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that’s right for you. Not sure where to begin? Take our [Teams knowledge check](https://aka.ms/TeamsKnowledgeCheck). Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our <a href="https://aka.ms/TeamsOnDemand">on-demand end-user training</a>.<br><br>Click a session below to sign up.
+           Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams.  Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that’s right for you. Not sure where to begin? Take our <a href="https://aka.ms/TeamsKnowledgeCheck">Teams knowledge check</a>. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our <a href="https://aka.ms/TeamsOnDemand">on-demand end-user training</a>.<br><br>Click a session below to sign up.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
