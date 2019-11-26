@@ -339,7 +339,6 @@
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 ### Location-Based Routing
-#### [Location-Based Routing terminology](location-based-routing-terminology.md)
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
