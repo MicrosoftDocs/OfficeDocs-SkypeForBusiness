@@ -24,6 +24,9 @@ f1keywords:
 
 # Manage app permission policies in Microsoft Teams
 
+> [!NOTE]
+> If you deployed Teams in a Microsoft 365 Government - GCC environment, see [App permission policies for Microsoft 365 Government - GCC](#app-permission-policies-for-microsoft-365-government---gcc) for considerations that are unique to GCC.
+
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users are unable to install it from the Teams app store.
 
 You manage app permission policies in the Microsoft Teams admin center. You can apply settings org-wide, use the global (Org-wide default) policy, and create and assign custom policies to individual users or users in a group.  
@@ -128,6 +131,20 @@ Assign all users in the group to a particular app permission policy. In this exa
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
+
+## App permission policies for Microsoft 365 Government - GCC
+
+In GCC deployments, all third-party apps are blocked by default.
+
+![Screenshot of app permission policy in GCC](media/app-permission-policies-gcc.png)
+
+To enable a third-party app, do the following:
+
+1. 
+
+
+
+
 
 ## FAQ
 
