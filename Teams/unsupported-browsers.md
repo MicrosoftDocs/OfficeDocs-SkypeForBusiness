@@ -1,5 +1,5 @@
 ---
-title: Teams meetings on unsupported browsers
+title: Microsoft Teams meetings on unsupported browsers
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,9 +16,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Teams meetings on unsupported browsers
+# Microsoft Teams meetings on unsupported browsers
 
-Some browsers, such as Internet Explorer 11, Safari, and Firefox, support the Teams web app but don't support some of the Teams calling and meeting features. To work around this limitation, the Teams web app lets users receive audio through a PSTN connection and lets them view presented content (screen share) at a reduced display rate.
+Some browsers, such as Internet Explorer 11, Safari, and Firefox, support the Microsoft Teams web app but don't support some of the Teams calling and meeting features. To work around this limitation, the Teams web app lets users receive audio through a PSTN connection and lets them view presented content (screen share) at a reduced display rate.
 
 When Teams detects an unsupported browser, it automatically displays a message explaining the issue and the session limitations. The message provides further instructions for accessing the meeting audio, such as advising the user to leave a call back number so that Teams can call the user, or instructing the user to call the conference number included in the meeting invitation. The message also encourages the user to download and use the [Teams desktop client](https://teams.microsoft.com/downloads) for the full Teams experience.
 
