@@ -110,15 +110,17 @@ A failed update can result in unpredictable app behavior. For example, users may
 
 As Teams determines that it needs to update itself to a newer version, it downloads and stages the new app, and then waits for an opportunity to restart itself the next time the machine is idle. A common issue during this process is when another process or a file system driver locks up the Teams.exe process, preventing Teams.exe from exiting. As a result, the Teams app can't be replaced by the newly-downloaded and staged app.
 
-Troubleshooting tips: 
+To troubleshoot this issue, try the following.
 
 - To confirm that is the issue that you're experiencing, quit Teams (right-click Teams on the task bar, and then click **Quit**). Then, open Task Manager in Windows to see whether an instance of Teams is still running.  
 - If you’re not on the computer that's having this issue, review the SquirrelTemp.log from the computer that's experiencing this issue and look for a "Program: Unable to terminate the process in the log" entry.
 - To determine what's preventing Teams.exe from exiting, look at the Dlls.txt and Handles.txt logs. These tell you the processes that prevented Teams from exiting.
-- Another common culprit that prevents Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, Procdump.exe, to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also review the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
-- Restart the computer.
+- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, Procdump.exe, to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also review the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
+- To recover from this state, restart the computer.
 
 #### File permission
+
+Teams creates a number of subfolders and files in the user profile throughout the installation and update process. Since the app and the updater is running as a normal and non-elevated user, both read and write permissions on the following folders need to be granted:
 
 #### File corrupted
 
