@@ -1,5 +1,5 @@
 ---
-title: Use the Network Planner for Microsoft Teams
+title: Use the Network planner for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: Learn how to use the Network Planner to determine network requirements for Microsoft Teams.
+description: Learn how to use the Network planner to determine network requirements for Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -20,13 +20,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use the Network Planner for Microsoft Teams
+# Use the Network planner for Microsoft Teams
 
-Network Planner is a new tool that is available in the Teams admin center. It can be found by going to **Planner** > **Network planner**. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+Network planner is a new tool that is available in the Teams admin center. It can be found by going to **Planner** > **Network planner**. In just a few steps, the Network planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
-![Screenshot of Network Planner](media/network-planner.png)
+![Screenshot of Network planner](media/network-planner.png)
 
-Network Planner allows you to:
+Network planner allows you to:
 
 - Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system).
 
@@ -35,13 +35,13 @@ Network Planner allows you to:
 
 - Generate reports and calculate bandwidth requirements for Teams usage.
 
-To use Network Planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.
+To use Network planner, you must be a Global Administrator, Teams Service Administrator, or Teams Communications Administrator.
 
 ## Create a custom persona
 
 Follow these steps to create a custom persona:
 
-1. Go to the Network Planner in the Microsoft Teams admin center.
+1. Go to the Network planner in the Microsoft Teams admin center.
 
 2. On the **Personas** tab, click **+ Custom persona**. 
 
@@ -55,7 +55,7 @@ Follow these steps to create a custom persona:
 
 Follow these steps to begin building your network plan:
 
-1. Go to the Network Planner in the Microsoft Teams admin center.
+1. Go to the Network planner in the Microsoft Teams admin center.
 
 2. On the **Network Plan** tab, click **Add a network plan**.
 
@@ -98,4 +98,4 @@ After you add all sites, you can create a report, as follows.
 
 ## Example scenario
 
-For an example of how to use the Network Planner to set up a network plan and generate a report using these steps, download the [Network Planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (English only).
+For an example of how to use the Network planner to set up a network plan and generate a report using these steps, download the [Network planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (English only).
