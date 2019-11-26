@@ -59,11 +59,11 @@ If SquirrelTemp.log or Logs.txt don't contain sufficient information to determin
 
 ## Collect and analyze application and system logs
 
-Follow these steps to collect and analyze application and system logs to get more comprehensive information to troubleshoot the issue.
+This section describes how to collect and analyze application and system logs to get more comprehensive information to troubleshoot the issue. You'll use Sysinternals tools to complete these steps. To learn more, see [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
 
 ### Collect logs
 
-1. Download [SysInternals tools](https://download.sysinternals.com/files/SysinternalsSuite.zip).
+1. Download [Sysinternals tools](https://download.sysinternals.com/files/SysinternalsSuite.zip).
 2. Extract the zip file to the %TEMP% folder on your local drive.
 3. Open an elevated command prompt, and then do the following:
 
@@ -115,7 +115,7 @@ Troubleshooting tips:
 - To confirm that is the issue that you're experiencing, quit Teams (right-click Teams on the task bar, and then click **Quit**). Then, open Task Manager in Windows to see whether an instance of Teams is still running.  
 - If you’re not on the computer that's having this issue, inspect the SquirrelTemp.log collected from the computer that's experiencing this issue and look for a "Program: Unable to terminate the process in the log" entry.
 - To determine what's preventing Teams.exe from exiting, look at the Dlls.txt and Handles.txt logs. These tell you the processes that prevented Teams from exiting.
-- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, Procdump.exe, to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also inspect the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
+- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump), to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also inspect the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
 - To recover from this state, restart the computer.
 
 #### File permissions
@@ -140,7 +140,7 @@ Troubleshooting tips:
 In some cases, encryption software can change files in the %LocalAppData%\Microsoft\Teams folder, which can prevent Teams from starting. This can happen at any time, even when the app isn't being updated. Unfortunately, when a file is corrupted, the only way to recover from this state is to uninstall and re-install Teams.
 
 > [!NOTE]
-> If you can't determine the underlying cause of the issue by using any of these steps, you may want to try a Process Monitor session. Process Monitor is a SysInternals tool that records access to the registry and file system.
+> If you can't determine the underlying cause of the issue by using any of these steps, you may want to try a [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) session. Process Monitor is a SysInternals tool that records access to the registry and file system.
 
 ## Related topics
 
