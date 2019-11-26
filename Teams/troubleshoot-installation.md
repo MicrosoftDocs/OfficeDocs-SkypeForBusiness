@@ -37,7 +37,7 @@ Follow these steps to check whether a Teams update is successfully installed.
 
 During the installation phase, the Teams installer logs the sequence of events to %LocalAppData%\SquirrelTemp\SquirrelSetup.log. The first thing to look at is an error message or a call stack near the end of the log. Note that call stacks at the beginning of the log may not mean that an installation issue exists. It can be easier to compare your log against the log from a successful installation (even on another machine) to see what's expected.
 
-If SquirrelSetup.log doesn't indicate the issue or if you need more information about the issue, see [Collect logs](#collect-logs) to get more comprehensive system logs.
+If SquirrelSetup.log doesn't indicate the cause or if you need more information to troubleshoot the issue, see [Collect and analyze application and system logs](#collect-and-analyze-application-and-system-logs).
 
 ### Troubleshoot update issues
 
@@ -55,9 +55,9 @@ Teams can automatically start the update process (depending on the policy) or us
 3. **Stage the update**. The downloaded content is verified and unpacked into an intermediate folder, %LocalAppData%\Microsoft\Teams\stage), which is done by Update.exe. Failures at this step are logged in SquirrelTemp.log.
 4. **Install the update**. There are multiple ways to start Teams. The system automatically starts Teams when a user logs in or you can start Teams through a shortcut. In this step, Update.exe checks for the presence of the staging folder, verifies the content again, and performs file operations to un-stage the app. The old application folder in %LocalAppData%\Microsoft\Teams\current is backed up to %LocalAppData%\Microsoft\Teams\previous and the stage folder is renamed to "current". Failures at this step are logged in SquirrelTemp.log.
 
-If SquirrelTemp.log or Logs.txt don't contain sufficient information to troubleshoot the issue, go to [Collect logs](#collect-logs) to get more comprehensive system logs.
+If SquirrelTemp.log or Logs.txt don't contain sufficient information to troubleshoot the issue, go to [Collect and analyze application and system logs](#collect-and-analyze-application-and-system-logs).
 
-## Work with logs
+## Collect and analyze application and system logs
 
 Follow these steps to collect and analyze application and system logs to diagnose installation and update issues.
 
@@ -102,7 +102,15 @@ Follow these steps to collect and analyze application and system logs to diagnos
     icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
     ```
 
-### Analyze logs
+### Analyze logs (for advanced users)
+
+A failed update can result in unpredictable app behavior, ranging from being stuck to a stale version of Teams to an inability to start Teams. If a problem occurred during update, start by looking at the SquirrelTemp.log. Failures can be categorized into the buckets below.
+
+#### Unable to exit Teams
+
+#### File permission
+
+#### File corrupted
 
 ## Related topics
 
