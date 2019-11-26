@@ -53,4 +53,3 @@ Go to [Enable Location-Based Routing for Direct Routing](location-based-routing-
 ## Related topics
 
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-

@@ -66,7 +66,7 @@ Network sites must be enabled for Location-Based Routing to help determine which
 
 ### Apply Location-Based Routing at the PSTN gateway 
 
-Gateways are associated to sites to determine where a user who is enabled for Location-Based Routing can be located when they make or receive a PSTN call. Gateways must be enabled for Location-Based Routing to ensure that it's under toll bypass restrictions and can’t be used by users who aren't enabled for Location-Based Routing. The same gateway may be associated to multiple sites and it can be configured to be enabled for Location-Based Routing or not enabled for Location-Based Routing, depending on the site. 
+Gateways are associated to sites to determine where a user who is enabled for Location-Based Routing can be located when they make or receive a PSTN call. Gateways must be enabled for Location-Based Routing to ensure that it's under toll bypass restrictions and can’t be used by users who aren't enabled for Location-Based Routing. The same gateway may be associated to multiple sites and it can be configured to be enabled for Location-Based Routing or not enabled for Location-Based Routing, depending on the site.
 
 ## Scenarios for Location-Based Routing
 
@@ -252,4 +252,4 @@ Go to [Configure network settings for Location-Based Routing](location-based-rou
 ## Related topics
 
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
-- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
