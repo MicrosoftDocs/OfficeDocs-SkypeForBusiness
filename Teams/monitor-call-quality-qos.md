@@ -1,5 +1,5 @@
 ---
-title: Improve and monitor call quality Microsoft Teams
+title: Improve and monitor call quality for Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars

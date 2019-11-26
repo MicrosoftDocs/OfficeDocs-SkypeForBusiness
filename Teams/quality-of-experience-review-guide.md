@@ -1,12 +1,12 @@
 ---
 title: Quality of Experience Review Guide for Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
 description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
 localization_priority: Normal
