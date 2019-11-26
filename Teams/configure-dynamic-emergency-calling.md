@@ -20,7 +20,7 @@ appliesto:
 
 Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
-Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS).  If there is a match, the LIS returns a location to the client. This location data is trasmitted back to the client.  
+Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS).  If there is a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
@@ -38,7 +38,7 @@ For dynamic emergency calling, the following must occur:
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
-   For Direct Routing, the administrator msut configure the SBC to send emergency calls to the ERS provider or configure the SBC ELIN application.
+   For Direct Routing, the administrator must configure the SBC to send emergency calls to the ERS provider or configure the SBC ELIN application.
 
 This article contains the following sections.
 
@@ -126,7 +126,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and Wireless Access Points (WAPs) are supported. (Support for Ethernet switch/port is pending.)
 
-For a client to obtain a location, you must populate the Location Information Service (LIS) with network identifers and emergency locations by using the following cmdlets:  
+For a client to obtain a location, you must populate the Location Information Service (LIS) with network identifiers and emergency locations by using the following cmdlets:  
 
 
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps), [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort

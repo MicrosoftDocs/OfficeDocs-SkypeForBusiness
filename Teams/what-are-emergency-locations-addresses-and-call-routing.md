@@ -114,7 +114,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
   **In France, Germany, and Spain**, emergency calls are routed directly to the PSAP serving the emergency address associated with the number regardless of the location of the caller.
 
-  **In the Netherands**, emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.
+  **In the Netherlands**, emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.
 
   **In Australia**, emergency addresses are configured and routed by the carrier partner.
 
@@ -210,4 +210,4 @@ During an emergency call, a security desk is conferenced into the call and the e
 - [Manage emergency call routing policies ](manage-emergency-call-routing-policies.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 - [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
-- [Plan and onfigure dynamic emergency calling](configure-dynamic-emergency-calling.md)
+- [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
