@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 MS.collection: 
 - M365-collaboration
 ms.reviewer: nakulm
