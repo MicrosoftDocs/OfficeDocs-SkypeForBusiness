@@ -24,10 +24,10 @@ f1keywords:
 
 # Manage app permission policies in Microsoft Teams
 
-> [!NOTE]
-> If you deployed Teams in a Microsoft 365 Government - GCC environment, see [App permission policies for Microsoft 365 Government - GCC](#app-permission-policies-for-microsoft-365-government---gcc) for considerations that are unique to GCC.
-
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users are unable to install it from the Teams app store.
+
+> [!NOTE]
+> If you deployed Teams in a Microsoft 365 Government - GCC environment, see [App permission policies for GCC](#app-permission-policies-for-gcc) to learn more about third-party app settings that are unique to GCC.
 
 You manage app permission policies in the Microsoft Teams admin center. You can apply settings org-wide, use the global (Org-wide default) policy, and create and assign custom policies to individual users or users in a group.  
 
@@ -49,7 +49,7 @@ Use org-wide app settings to control which apps are available across your organi
     ![Screenshot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
-    - **Allow third-party or custom apps in Teams**: This controls whether users can use third-party or custom apps.
+    - **Allow third-party in Teams**: This controls whether users can use third-party apps.
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 4. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* custom apps.
@@ -132,19 +132,27 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
-## App permission policies for Microsoft 365 Government - GCC
+## App permission policies for GCC
 
-In GCC deployments, all third-party apps are blocked by default.
+When you manage app permission policies in a Microsoft 365 Government - GCC deployment of Teams, it's important to know the following about third-party app settings, which are unique to GCC.
+
+In GCC, all third-party apps are blocked by default. Additionally, you'll see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
 ![Screenshot of app permission policy in GCC](media/app-permission-policies-gcc.png)
 
-To enable a third-party app, do the following:
+To enable a third-party app for a user or a set of users in your organization, do the following:
 
-1. 
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Confirm that the third-party app that you want to allow for a set of users is blocked at the org level. To do this, click **Org-wide settings**, and then under **Blocked apps**, check to make sure the app is listed.
+3. Edit the global policy to block the third-party app. To do this:
+    1. On the App permission policies page, click **Global (Org-wide default)**, and then click **Edit**.
+    2. Under **Third-party apps**, select **Block specific apps and allow all others**, add the app, and then click **Save**.
 
+    > [!NOTE]
+    > It's important to do this before you go to the next step to allow the app at the org level. This is because if the third-party app isn't blocked in the global policy, all users that the global policy applies will be able to access the third-party app when you allow it at the org level.
 
-
-
+4. Allow the third-party app at the org level. To do this, click **Org-wide settings**, under **Blocked apps**, remove the app from the list, and then click **Save**.
+5. [Create a custom app permission policy](#create-a-custom-app-permission-policy), and then [assign the policy](#assign-a-custom-app-permission-policy-to-users) to the users you want.
 
 ## FAQ
 
@@ -161,7 +169,7 @@ You can use app setup policies together with app permission policies. Pre-pinned
 
 Use org-wide settings in app permission policies to restrict uploading custom apps for your organization.  
 
-To restrict specific users from uploading custom apps, use custom app policies (coming soon). To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
+To restrict specific users from uploading custom apps, use custom app policies. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 
 #### Does blocking an app apply to Teams mobile clients?
 
