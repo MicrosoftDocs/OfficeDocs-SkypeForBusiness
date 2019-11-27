@@ -1,5 +1,5 @@
 ---
-title: "Set up Call Analytics"
+title: "Set up per-user call analytics for Microsoft Teams"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,40 +19,33 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: 
   - Reporting
-description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
+description: "Set up per-user call analytics for to identify and troubleshoot Microsoft Teams and Skype for Business call quality problems."
 ---
 
-# Set up Call Analytics
+# Set up per-user call analytics for Microsoft Teams
 
-As a Teams or Skype for Business Online admin, you can use Call Analytics to troubleshoot Skype for Business and Microsoft Teams call quality and connection problems. You may find it useful to set up the following capabilities in Call Analytics:
+As a Microsoft Teams or Skype for Business Online admin, you can use per-user call analytics to troubleshoot Teams and Skype for Business Online call quality and connection problems. To take full advantage of call analytics, set up the following:
   
-- Set permissions that let other personnel, such as helpdesk agents, use Call Analytics, but prevent them from accessing the rest of the Microsoft Teams admin center. 
+- Assign specialized roles to people, such as helpdesk agents, to let them view call analytics for users but prevent them from accessing the rest of the Teams admin center. 
     
-- Add building, site, and tenant information to Call Analytics by uploading a .tsv or .csv data file.
+- Add building, site, and tenant information to per-user call analytics by uploading a .tsv or .csv data file.
     
-**Call Analytics is now available in the Microsoft Teams admin center**. To see all the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by doing one of the following:
-
-- Search for the user from the dashboard.
+When you're ready to start using per-user call analytics, read [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
-   ![Screenshot of User Search on dashboard](media/set-up-call-analytics-image-1.png)
-
--  Select **Users** in the left navigation.
-
-   ![Screenshot of the left navigation](media/set-up-call-analytics-image-2.png)
-  
-## Set Call Analytics permissions
+## Give permission to support and helpdesk staff
 <a name="BKMK_SetCAPerms"></a>
 
-As the admin, you have full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams admin center.
+As the Teams admin, you have full access to call analytics information for all users. We've created some specialized Azure Active Directory roles that you can assign to support staff so they can also access per-user call analytics (without having access to the rest of the Teams admin center). Assign the **Teams communications support specialist** role to users who should have a limited view of per-user call analytics (Tier 1 support). Assign the **Teams communications support engineer** role to users who need full access to per-user call analytics (Tier 2 support). Neither role has access to the rest of the Teams admin center.
 
-> [!NOTE]
-> The communications support specialist role is equivalent to tier 1 support and the communications support engineer role is equivalent to tier 2 support.
-
-For more information about Teams admin roles, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md). 
+For more information about Teams admin roles, see [Use Teams admin roles to manage Teams](using-admin-roles.md). To learn how to assign admin roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
   
-Communications support specialists handle basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a communications support engineer. Communications support engineers see information in detailed call logs that's hidden from communications support specialists. The following table gives an overview of information available to communications support specialists and communications support engineers when they use Call Analytics.
+## What does each Teams Support role do?
 
-|**Activity**|**Information in Call Analytics**|**What the communications support specialist sees**|**What the communications support engineer sees**|
+The **Teams communications support specialist** handles basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a communications support engineer. 
+
+The **Teams communications support engineer** sees information in detailed call logs that are hidden from the Teams communications support specialist. The table below lists the information available to each Teams communication support role.
+
+|**Activity**|**Information**|What the communications support **specialist** sees|What the communications support **engineer** sees|
 |:-----|:-----|:-----|:-----|
 |**Calls** <br/> |Caller name  <br/> |Only the name of the user for whom the agent searched.  <br/> |User name.  <br/> |
 ||Recipient name  <br/> |Shows as Internal User or External User.  <br/> |Recipient name.  <br/> |
@@ -64,18 +57,13 @@ Communications support specialists handle basic call-quality problems. They don'
 ||Participant count  <br/> |Number of participants.  <br/> |Number of participants.  <br/> |
 ||Session details  <br/> |Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last three digits of telephone number obfuscated with asterisk symbols.  <br/> |Session details shown. User names and session details shown. Last three digits of telephone number obfuscated with asterisk symbols.  <br/> |
 ||||
-   
- ### Set up permissions by assigning admin roles
-<a name="BKMK_SetUpTier"> </a>
-
-To learn how to assign administrative roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## Upload a .tsv or .csv file to add building, site, and tenant information
 <a name="BKMK_UploadFiles"> </a>
 
-You can add building, site, and tenant information to Call Analytics by uploading a .csv or .tsv file. With all this information, Call Analytics can map IP addresses to physical locations. You or helpdesk agents might find this information useful to help spot trends in call problems. For example, why are many users in the same building having similar call quality issues? 
+You can add building, site, and tenant information to per-user call analytics by uploading a .csv or .tsv file. With all this information, per-user call analytics can map IP addresses to physical locations. Admins and helpdesk agents can use this information to help spot trends in call problems. For example, why are users in the same building having similar call quality problems? 
 
-If you're a Teams and Skype for Business admin, you can use an existing data file from the Teams & Skype for Business Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to Call Analytics. 
+If you're a Teams or Skype for Business admin, you can use an existing data file from the Teams or Skype for Business Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to per-user call analytics. 
 
 - To download an existing data file, go to **Microsoft Teams admin center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
 
@@ -86,9 +74,8 @@ If you're creating the .tsv or .csv file from scratch, see [Tenant data file for
 ## Related topics
 <a name="BKMK_UploadFiles"> </a>
 
-[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
