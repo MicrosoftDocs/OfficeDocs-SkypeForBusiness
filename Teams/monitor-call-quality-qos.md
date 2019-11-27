@@ -18,8 +18,6 @@ appliesto:
 
 # Improve and monitor call quality Microsoft Teams
 
-
-
 This article tells you how to use Quality of Service (QoS) to improve call quality in Microsoft Teams. It also introduces the ways you can monitor and troubleshoot call quality in Teams, by using the Call Quality Dashboard (CQD) and per-user call analytics, both found in the Teams admin center. 
 
 ## Prioritize important network traffic using QoS
