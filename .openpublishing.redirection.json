@@ -2,6 +2,11 @@
   "redirections": [ 
     
     {
+      "source_path": "Teams/location-based-routing-terminology.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-network-settings", 
+      "redirect_document_id": true
+      },
+    {
       "source_path": "Teams/sharing-files-in-teams.md", 
       "redirect_url": "https://aka.ms/SharePoint/Blog/FilesInTeams", 
       "redirect_document_id": true
