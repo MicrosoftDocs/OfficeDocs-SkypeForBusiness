@@ -41,9 +41,9 @@ For more information about Teams admin roles, see [Use Teams admin roles to mana
   
 ## What does each Teams Support role do?
 
-The **Teams communications support specialist** handles basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a communications support engineer. 
+The **Teams communications support specialist** (Tier 1 support) handles basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a communications support engineer. 
 
-The **Teams communications support engineer** sees information in detailed call logs that are hidden from the Teams communications support specialist. The table below lists the information available to each Teams communication support role.
+The **Teams communications support engineer** (Tier 2 support) sees information in detailed call logs that are hidden from the Teams communications support specialist. The table below lists the information available to each Teams communication support role.
 
 |**Activity**|**Information**|What the communications support **specialist** sees|What the communications support **engineer** sees|
 |:-----|:-----|:-----|:-----|
