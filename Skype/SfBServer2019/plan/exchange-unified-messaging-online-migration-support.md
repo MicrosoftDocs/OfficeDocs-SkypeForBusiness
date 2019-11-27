@@ -102,9 +102,18 @@ Office 365 tenant administrators are required to re-create their Exchange UM Onl
 
 We strongly advise that you start the setup of your new auto attendants early to avoid last minute issues and to get familiar with the functionality and experience of the Cloud Auto Attendant service. For auto attendants that require one or more gap features, you can create and test the auto attendants when the gap features are available to prepare for deployment. For more information about gap features, see the [Appendix](#appendix).
 
-Auto attendants that require one or more of the gap features can be created and tested in preparation for deployment once the gap features are available. Details on the gap features can be found in the feature list in the document Appendix.   
+1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps).  
+2. Use the [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt?view=exchange-ps) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
+3. Follow the instructions in [Plan Cloud auto sttendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](Set up a Cloud auto attendant](../../../Teams/create-a-phone-system-auto-attendant.md)) to create auto attendants by using the Microsoft Teams admin center or Powershell.
+4. Review your greetings if the menu options changed.
+5. Configure transfers to your response groups by using the "Auto Attendant Call Transfer to PSTN" workaround in the [Known issues](#known-issues) section of this article.  
+6. Test the new auto attendants. To test, call them internally or assign a test phone number.  
 
 ### Cutover
+
+1. Switch your phone numbers from Exchange UMO auto attendants to the new auto attendants.
+2. Move the SIP URI from the contact object to the resource account.
+3. Test and validate your auto attendants by using the newly-assigned phone numbers. 
 
 ## Appendix
 
