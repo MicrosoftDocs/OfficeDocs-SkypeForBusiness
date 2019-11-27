@@ -3,7 +3,6 @@ title: Plan Location-Based Routing for Direct Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -44,7 +43,7 @@ When a Teams user is enabled for Location-Based Routing, the following applies:
 
 Location-Based Routing uses the same network region, site, and subnet definitions that Skype for Business Server uses. When toll bypass is restricted for a location, an admin associates each IP subnet and each PSTN gateway for that location to a network site. A user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to at the time of a PSTN call. A user may have multiple Teams clients located at different sites, in which case Location-Based Routing enforces each client’s routing separately depending on the location of its endpoint. 
 
-To get familiar with some of the network terminology used in this article, see [Location-Based Routing terminology](location-based-routing-terminology.md).
+To get familiar with some of the network terminology used in this article, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
 
 ## Apply Location-Based Routing
 
@@ -67,7 +66,7 @@ Network sites must be enabled for Location-Based Routing to help determine which
 
 ### Apply Location-Based Routing at the PSTN gateway 
 
-Gateways are associated to sites to determine where a user who is enabled for Location-Based Routing can be located when they make or receive a PSTN call. Gateways must be enabled for Location-Based Routing to ensure that it's under toll bypass restrictions and can’t be used by users who aren't enabled for Location-Based Routing. The same gateway may be associated to multiple sites and it can be configured to be enabled for Location-Based Routing or not enabled for Location-Based Routing, depending on the site. 
+Gateways are associated to sites to determine where a user who is enabled for Location-Based Routing can be located when they make or receive a PSTN call. Gateways must be enabled for Location-Based Routing to ensure that it's under toll bypass restrictions and can’t be used by users who aren't enabled for Location-Based Routing. The same gateway may be associated to multiple sites and it can be configured to be enabled for Location-Based Routing or not enabled for Location-Based Routing, depending on the site.
 
 ## Scenarios for Location-Based Routing
 
@@ -247,8 +246,10 @@ A Location-Based Routing enabled user on a PSTN call isn't allowed to start a co
 If the user has a conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.  
 
 ## Next steps
+
 Go to [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
-### Related topics
+## Related topics
+
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
-- [Location-Based Routing terminology](location-based-routing-terminology.md)
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
