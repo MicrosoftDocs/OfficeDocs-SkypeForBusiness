@@ -115,6 +115,7 @@
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
@@ -345,7 +346,6 @@
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 ### Location-Based Routing
-#### [Location-Based Routing terminology](location-based-routing-terminology.md)
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
@@ -384,10 +384,15 @@
 ### [What are dial plans?](what-are-dial-plans.md)
 ### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### [Add and update reporting labels](learn-more-about-site-upload.md)
+
+## Network settings and topology
+### [Network settings for cloud voice features](cloud-voice-network-settings.md)
+### [Manage your network topology for cloud voice features](manage-your-network-topology.md)
+
 ## Emergency calling
-### [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
+### [Overview](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
 ### Manage emergency addresses
-#### [What are emergency locations, places, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 #### [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 #### [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)

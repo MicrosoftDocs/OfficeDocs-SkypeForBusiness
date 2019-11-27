@@ -34,25 +34,27 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
     
 6. Use Topology Builder to publish the topology.
     
-7. If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.
+7. If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final steps in this procedure.
     
-    However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.
+    However, if the pools were already deployed before you defined the paired relationship, you must complete the following final steps.
     
 8. On every Front End Server in both pools, run the following:
     
    ```
-   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
     This configures other services required for backup pairing to work correctly.
     
-9. From a Skype for Business Server Management Shell command prompt, run the following: 
+9. Once Bootstrapper finishes installing the required components for backup pairing on every Front end Server in both pools, please be sure to re-apply any existing Cumulative Update that was previously applied on these Front End Servers in both pools and then continue with the next step.
+
+10. From a Skype for Business Server Management Shell command prompt, run the following: 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-10. Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:
+11. Force the user and conference data of both pools to be synchronized with each other with the following cmdlets:
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
