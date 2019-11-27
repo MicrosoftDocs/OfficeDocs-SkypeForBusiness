@@ -218,13 +218,13 @@ The following is an overview of end-user voicemail migration experience.
 |Outlook rules for VM messages | No change<br>Previously created rules will apply to CVM messages after migration.
  |
 
-#### User management and provisioning in CVM 
+#### User management and provisioning in CVM
 
 New Skype for Business users will be automatically provisioned for Cloud voicemail when created. No additional admin work or license is required to provision new voicemail users. See [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail) to learn about policy management for existing and new users.
 
-#### Admin Auto Attendant management experience 
+#### Admin Auto Attendant management experience
 
-To learn more about auto attendants, see [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+To learn more about auto attendants, see [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant.md).
 
 #### Known issues
 
@@ -235,7 +235,7 @@ An issue was identified during quality assurance with the Transfer out to PSTN n
  
 Expected Experience
 - Administrators do not need to license the virtual user, since this is a workaround solution 
-- Administrators can manipulate the caller ID that the PSTN receiver will see by assigning the desired number to the virtual user, or using the SBC digit manipulation capabilities 
+- Administrators can manipulate the caller ID that the PSTN receiver will see by assigning the desired number to the virtual user, or using the SBC digit manipulation capabilities
 - PSTN Callers will not experience any delay during the call transfer, and they will continue to see the caller ID of the auto attendant after the transfer is successful  
 
 **Shared mailbox:**
@@ -244,10 +244,10 @@ A shared mailbox that is configured using Exchange UM Online will continue to re
 **Upgrade to Teams banner on SFB client:**
 The CVM service is based on Microsoft Teams infrastructure; calls to it from Skype for Business client may cause an information banner to be displayed on the client that reads:
 "Username is not using Skype for Business. For a richer experience, switch to Teams or start a Skype meeting."
-Make sure to update your users' Skype for Business client to the latest C2R client update to prevent this banner from appearing. 
+Make sure to update your users' Skype for Business client to the latest C2R client update to prevent this banner from appearing.
   
 **Setup your voicemail will take you to OWA:**
-Clicking on "Set Up Voice Mail" from the client will continue to take Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA, and a banner will be displayed with a redirect link to take users to the CVM user settings portal. 
+Clicking on "Set Up Voice Mail" from the client will continue to take Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA, and a banner will be displayed with a redirect link to take users to the CVM user settings portal.
  
-**Change greeting mobile access:** 
-PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option is added to the voicemail IVR service for mobile clients. Users can call this service by pressing and holding the "1" key on the mobile client dial-pad. 
+**Change greeting mobile access:**
+PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option is added to the voicemail IVR service for mobile clients. Users can call this service by pressing and holding the "1" key on the mobile client dial-pad.
