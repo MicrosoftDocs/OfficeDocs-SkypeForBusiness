@@ -17,9 +17,9 @@ description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchU
 
 In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
  
-ExchUMO is deployed by customers for voicemail, Auto Attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams.
+ExchUMO is deployed by customers for voicemail, auto attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams.
 
-Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto attendant is an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Cloud Auto Attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced in [this blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the cloud-based services; customers will need to migrate to a third-party solution.
+Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto attendant is an admin-driven migration; you will need to re-create the existing ExchUMO auto attendant trees in the Cloud Auto Attendant cloud service. Customers who consume any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced in [this blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the cloud-based services; customers will need to migrate to a third-party solution.
 
 ### Who is affected?
 
@@ -42,8 +42,8 @@ Microsoft has identified various customer deployments that are consuming feature
 |Customer group |Timeline  |Details  |
 |---------|---------|---------|
 |Customers who are ready to migrate<br><br>Features to migrate:<br><ul><li>Voicemail</ul>   |   March — May 2019  |Examples:<ul><li>	Customers with simple voicemail deployment and usage<li>Customers that have all requirements established for Microsoft to execute the migration<ul>|
-|Customers with prerequisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto Attendant<li>Call Queue</ul> |  May — December 2019 |Examples: <br><ul><li>Hybrid configuration is not  complete<li>Hybrid PSTN numbers are not set up</ul>|
-|Customers who require admin involvement & customer investment<br><br>Features to migrate:<ul><li>voicemail<li>Auto Attendant<li>Call Queues<li>Fax integration</ul>| By February 2020  | Examples: <br><ul><li>ExchUMO service is consumed by third party PBX<li>Customers with PSTN Subscriber Access requirements<li>Customers on SFB 2010 (not-supported)<li>Fax integration</ul> |
+|Customers with prerequisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto attendant<li>Call Queue</ul> |  May — December 2019 |Examples: <br><ul><li>Hybrid configuration is not  complete<li>Hybrid PSTN numbers are not set up</ul>|
+|Customers who require admin involvement & customer investment<br><br>Features to migrate:<ul><li>voicemail<li>Auto attendant<li>Call Queues<li>Fax integration</ul>| By February 2020  | Examples: <br><ul><li>ExchUMO service is consumed by third party PBX<li>Customers with PSTN Subscriber Access requirements<li>Customers on SFB 2010 (not-supported)<li>Fax integration</ul> |
 
 ## Voicemail migration steps
 
@@ -104,7 +104,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 
 1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps).  
 2. Use the [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt?view=exchange-ps) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
-3. Follow the instructions in [Plan Cloud auto sttendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](Set up a Cloud auto attendant](../../../Teams/create-a-phone-system-auto-attendant.md)) to create auto attendants by using the Microsoft Teams admin center or Powershell.
+3. Follow the instructions in [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](Set up a Cloud auto attendant](../../../Teams/create-a-phone-system-auto-attendant.md)) to create auto attendants by using the Microsoft Teams admin center or Powershell.
 4. Review your greetings if the menu options changed.
 5. Configure transfers to your response groups by using the "Auto Attendant Call Transfer to PSTN" workaround in the [Known issues](#known-issues) section of this article.  
 6. Test the new auto attendants. To test, call them internally or assign a test phone number.  
