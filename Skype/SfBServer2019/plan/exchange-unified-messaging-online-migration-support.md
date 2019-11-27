@@ -15,11 +15,11 @@ description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchU
 
 # Exchange Unified Messaging Online migration support
 
-In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity. 
+In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
  
-ExchUMO is deployed by customers for voicemail, Auto Attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams. 
+ExchUMO is deployed by customers for voicemail, Auto Attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams.
 
-Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto Attendant is an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Cloud Auto Attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced in [this blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the cloud-based services; customers will need to migrate to a third-party solution.
+Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto attendant is an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Cloud Auto Attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced in [this blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the cloud-based services; customers will need to migrate to a third-party solution.
 
 ### Who is affected?
 
@@ -58,9 +58,9 @@ Microsoft has identified various customer deployments that are consuming feature
     > [!Note]
     > You do not need to migrate your users to online for the voicemail service migration. However, for on-premises users to leverage Phone System voicemail service, a hybrid topology is must be established.
 
-3. **Plan your Auto Attendant migration**
+3. **Plan your auto attendant migration**
     
-    Admins can start migrating their Auto Attendants from ExchUMO to the Cloud Auto Attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details. Microsoft continues to deliver additional Auto Attendant capabilities that customers may consider required for their migration, admins should evaluate the feature set and migrate their Auto Attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins can start migrating their auto attendants from ExchUMO to the Cloud auto attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details. Microsoft continues to deliver additional auto attendant capabilities that customers may consider required for their migration, admins should evaluate the feature set and migrate their auto attendant instances accordingly. For feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Plan for your voicemail post-migration validation and testing**
 
@@ -94,11 +94,15 @@ Microsoft has identified various customer deployments that are consuming feature
  
     You receive an email confirmation once your tenant is successfully migrated.
 
-## Auto Attendant migration guidelines
+## Auto attendant migration guidelines
 
-Office 365 tenant administrators are required to re-create their Exchange UM Online Auto Attendants in the Microsoft Cloud Auto Attendant service and switch their on premises phone numbers to them before February 1, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud Auto Attendants. Customers who have a large number of auto attendants can use the Exchange UM Auto Attendant to Cloud Auto Attendant Migration script to simplify the bulk migration of auto attendants.
+Office 365 tenant administrators are required to re-create their Exchange UM Online auto attendants in the Microsoft Cloud Auto Attendant service and switch their on-premises phone numbers to them before February 1, 2020, which is when Exchange UMO service will be retired. This is the recommended guideline to successfully migrate and test new Cloud auto attendants. If you have a large number of auto attendants, you can use the Exchange UM Auto Attendant to Cloud Auto Attendant Migration scripts to simplify the bulk migration of auto attendants.
 
 ### Setup
+
+We strongly advise that you start the setup of your new auto attendants early to avoid last minute issues and to get familiar with the functionality and experience of the Cloud Auto Attendant service. For auto attendants that require one or more gap features, you can create and test the auto attendants when the gap features are available to prepare for deployment. For more information about gap features, see the [Appendix](#appendix).
+
+Auto attendants that require one or more of the gap features can be created and tested in preparation for deployment once the gap features are available. Details on the gap features can be found in the feature list in the document Appendix.   
 
 ### Cutover
 
