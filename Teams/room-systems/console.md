@@ -42,7 +42,7 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 > The process below is for creating installation media to image new Microsoft Teams Rooms devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
 
 > [!IMPORTANT]
-> Windows 10 machine used to create the Microsoft Teams Room installation media must be on the same or higher version of Windows as the target installation media.
+> The Windows 10 machine used to create the Microsoft Teams Rooms installation media must be on the same or later version of Windows as the target installation media.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
