@@ -181,7 +181,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | AA | Service Features | Custom user selection  | Enabling callers to reach customized list of organization users| Y | Y    |
 | AA | Service Features | After-hours and holidays treatment  |  | Y | Y    |
 | AA | Service Features | Custom greeting using text to speech  |  | Y | Y    |
-| AA | Service Features | Extension dialing   | Reaching a user by dialing their extension  | Rolling out   | Y    |
+| AA | Service Features | Extension dialing   | Reaching a user by dialing their extension  | Y   | Y    |
 | AA | Service Features | Mailbox for AA callers to leave a message    |  | CY19   | Y    |
 | AA | Service Features | Multiple PSTN number assignments to an AA|  | Y | Y    |
 | AA | Tenant-Admin Features | Web portal administration   |  | Y | N    |
