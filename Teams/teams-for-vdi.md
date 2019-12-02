@@ -110,7 +110,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 | AllowExternalParticipantGiveRequestControl | Determines whether external participants can request or give control of screen sharing. | Set to False to prohibit an external user from giving, requesting control in a meeting. |
 | AllowPowerPointSharing |Determines whether PowerPoint sharing is allowed in a user’s meetings. |Set to False to prohibit a user from sharing PowerPoint files in a meeting. |
 | AllowWhiteboard | Determines whether whiteboard is allowed in a user’s meetings. | Set to False to prohibit whiteboard in a meeting. |
-| AllowTranscription |Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings. | Set to False to prohibit transcription  and captions in a meeting. |
+| AllowTranscription |Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings. | Set to False to prohibit transcription and captions in a meeting. |
 | AllowSharedNotes | Determines whether users are allowed to take shared notes. | Set to False to prohibit users from taking shared notes. |
 | MediaBitRateKB |Determines the media bit rate for audio/video/app sharing transmissions in meetings. | Suggested value is 5000 (5 MB). You can change it based on your organization’s needs. |
 
