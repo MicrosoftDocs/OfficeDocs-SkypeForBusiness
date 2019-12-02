@@ -22,7 +22,7 @@ appliesto:
 Microsoft Teams guest access checklist
 ==========================================
 
-Use this checklist to help you turn on and configure guest access in Microsoft Teams.
+Use this checklist to help you turn on and configure guest access in Microsoft Teams. You need to be a Global Administrator or a Teams Administrator to make these changes.
 
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
