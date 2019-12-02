@@ -26,7 +26,7 @@ description: "Set up per-user call analytics for to identify and troubleshoot Mi
 
 As a Microsoft Teams or Skype for Business Online admin, you can use per-user call analytics to troubleshoot Teams and Skype for Business Online call quality and connection problems. To take full advantage of call analytics, set up the following:
   
-- Assign specialized roles to people, such as helpdesk agents, to let them view call analytics for users but prevent them from accessing the rest of the Teams admin center. 
+- Assign specialized support roles to people, such as helpdesk agents, to let them view call analytics for users. These support roles can't access the rest of the Teams admin center. 
     
 - Add building, site, and tenant information to per-user call analytics by uploading a .tsv or .csv data file.
     
