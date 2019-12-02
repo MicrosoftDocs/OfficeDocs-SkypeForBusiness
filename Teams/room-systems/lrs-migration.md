@@ -20,7 +20,7 @@ Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) softwar
 
 Microsoft Teams Rooms software works with Microsoft Teams in addition to Skype for Business Server and Online services for meetings and calling on all Microsoft Teams Rooms supported devices.
 
-Your existing devices **may** continue to work after the end of Skype Room System v1 software support. However, if this software hits a software bug that needs Microsoft to release a fix, it will not be supported. SRS v1 uses TLS 1.0/ 1.1 which will be deprecated by Microsoft in the future. You can learn more about [Preparing for TLS 1.0/1.1 Deprecation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
+Your existing devices **may** continue to work after the end of Skype Room System v1 software support. However, if this software hits a software bug that needs Microsoft to release a fix, it will not be supported. SRS v1 uses TLS 1.0/ 1.1 which will be deprecated by Microsoft in the future. You can learn more about [preparing for TLS 1.0/1.1 deprecation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
 
 ## Which devices are affected?
 
