@@ -54,22 +54,22 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
 
-        ```powershell
-        # Set Office 365 User Name and Password
-        $username = "admin email address"
-        password = ConvertTo-SecureString "password" -AsPlainText -Force
-        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-        # Connect to Skype Online
-        Import-Module SkypeOnlineConnector
-        $sfboSession = New-CsOnlineSession -Credential $LiveCred
-        Import-PSSession $sfboSession
-        ```
+      ```powershell
+      # Set Office 365 User Name and Password
+      $username = "admin email address"
+      password = ConvertTo-SecureString "password" -AsPlainText -Force
+      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+      # Connect to Skype Online
+      Import-Module SkypeOnlineConnector
+      $sfboSession = New-CsOnlineSession -Credential $LiveCred
+      Import-PSSession $sfboSession
+      ```
 
 3. View a list of calling policy options.
 
-        ```powershell
-        Get-CsTeamsCallingPolicy
-        ```
+      ```powershell
+      Get-CsTeamsCallingPolicy
+      ```
 
 4. Look for the built-in policy option where all calling policies are disabled. It looks like this.
 
@@ -86,9 +86,9 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 
 5. Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.
 
-        ```powershell
-        Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
-        ```
+      ```powershell
+      Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
+      ```
 
 For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
@@ -119,22 +119,22 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 1. Start a Windows PowerShell session as an administrator.
 1. Connect to the Skype Online Connector.
 
-        ```powershell
-        # Set Office 365 User Name and Password
-        $username = "admin email address"
-        password = ConvertTo-SecureString "password" -AsPlainText -Force
-        $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-        # Connect to Skype Online
-        Import-Module SkypeOnlineConnector
-        $sfboSession = New-CsOnlineSession -Credential $LiveCred
-        Import-PSSession $sfboSession
-        ```
+      ```powershell
+      # Set Office 365 User Name and Password
+      $username = "admin email address"
+      password = ConvertTo-SecureString "password" -AsPlainText -Force
+      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+      # Connect to Skype Online
+      Import-Module SkypeOnlineConnector
+      $sfboSession = New-CsOnlineSession -Credential $LiveCred
+      Import-PSSession $sfboSession
+      ```
 
 1. View a list of meeting policy options.
 
-        ```powershell
-        Get-CsTeamsMeetingPolicy
-        ```
+      ```powershell
+      Get-CsTeamsMeetingPolicy
+      ```
 
 1. Look for the built-in policy option where all meeting policies are disabled. It looks like this.
 
@@ -160,9 +160,9 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 
 1. Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.
 
-        ```powershell
-        Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
-        ```
+      ```powershell
+      Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
+      ```
 
  For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
