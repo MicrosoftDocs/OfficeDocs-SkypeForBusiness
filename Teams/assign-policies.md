@@ -22,18 +22,25 @@ f1keywords:
 
 As an admin, you use policies to control how users in your organization use Microsoft Teams to communicate and collaborate. For example, you can set app policies to control what apps are available to Teams users, meeting policies to define the meeting experience, and messaging policies to control what chat and channel features are available to users.
 
-Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create and assign a custom policy. Most organizations have different user types with unique needs and custom policies let you tailor policy settings to different sets of users based on those needs.
+Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create and assign a custom policy. Most organizations have different types of users with unique needs and policies that you create and assign let you tailor policy settings to different sets of users based on those needs.
 
 To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. The option that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to. This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
 
 ## Overview
 
-Here's an overview.
+Here's an overview of the ways that you can assign policies to users and the recommended scenarios for each. Click the links to learn more.
+
+|Do this  |If...  |
+|---------|---------|
+|[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to create and assign a few policies to a small number of users.        |
+| [Assign a policy package](#assign-a-policy-package)    | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education_Teacher policy package to all teachers in your school.   |
+|[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)    | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users at a time.   |
+|[Assign a policy to a group](#assign-a-policy-to-a-group)    |You need to assign policies based on a user's group membership. For example, you want to assign a policy to a security group or organizational unit.       |
 
 - [Assign a policy to individual users](#assign-a-policy-to-individual-users): Do this if you're new to Teams and just getting started or if you only need to create and assign a few policies to a small number of users.
-- [Assign a policy package](#assign-a-policy-package): Do this if you need to create and assign multiple policies to specific sets of users in your organization who have a similar roles.  
-- [Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users): Do this if you need to manage policies for large sets of users.
-- [Assign a policy to a group](#assign-a-policy-to-a-group): Do this if you need to manage policies based on a user's group membership. 
+- [Assign a policy package](#assign-a-policy-package): Do this if you need to create and assign multiple policies to specific sets of users in your organization who have a similar roles. For example, assign the Education_Teacher policy package to all teachers in your school.
+- [Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users): Do this if you need to manage policies for large sets of users. For example, you want to assign a policy to hundreds or thousands of users at a time. 
+- [Assign a policy to a group](#assign-a-policy-to-a-group): Do this if you need to manage policies based on a user's group membership. For example, you want to assign a policy to a security group or organizational unit.
 
 ## Assign a policy to individual users
 
@@ -61,7 +68,7 @@ Or, you can also do the following:
 
 Each policy type has it's own set of cmdlets for managing it. Use the **Grant-** cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
-Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
+ Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
 
 ```
 Import-Module SkypeOnlineConnector
@@ -80,9 +87,11 @@ To learn more, see [Managing policies via PowerShell](teams-powershell-overview.
 
 ## Assign a policy package
 
-A policy package is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. When you assign a policy package to users, the policies in the package are created and you can then customize the settings of each policy in the package to meet your users' needs.
+A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. 
 
-To learn more, see [Manage policy packages in Teams](manage-policy-packages.md).
+When you assign a policy package to users, the policies in the package are created and you can then customize the settings of each policy in the package to meet your users' needs.
+
+To learn more including step-by-step guidance on how to assign and manage policy packages, see [Manage policy packages in Teams](manage-policy-packages.md).
 
 ## Assign a policy to a batch of users
  
