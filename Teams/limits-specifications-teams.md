@@ -33,6 +33,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
+|Number of Private channels per team    |30|
 
 &sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
