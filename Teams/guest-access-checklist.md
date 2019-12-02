@@ -122,9 +122,9 @@ Make sure that users can add guests. Here's how:
 1. Sign in to the Office 365 admin center.
 2. Click **Admin center**, and then select **SharePoint**.
 3. In the SharePoint admin center, select **Sharing**.
-4. Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.
+4. Make sure the option for **Only People in your Organization** is *not* selected.
  
-     ![Screenshot shows an example of a SparePoint Online settings toggle.](media/guest-access-checklist-SPOSettings1.png)
+     ![Screenshot shows an example of a SparePoint Online settings toggle.](media/guest-access-sposettings2.PNG)
 
 
 ## □ Step 6: Enable specific settings for channels 
