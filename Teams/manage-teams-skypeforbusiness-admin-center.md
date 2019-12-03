@@ -3,7 +3,6 @@ title: Manage Teams during the transition to the new Microsoft Teams admin cente
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -52,7 +51,7 @@ The following table identifies the sections of the Teams experience that have be
 |Teams and channels     |         |Redirects to AAD Group Management (same as current experience).             |User          |
 |Apps|Enable new external apps by default|Org-wide app settings|Tenant|
 |Apps|Allow external apps|Org-wide app settings|Tenant|
-|Apps|Allow sideloading of external apps<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|User|
+|Apps|Allow sideloading of external apps<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|User|
 |Apps|Default apps<sup>3</sup>|TeamsAppPermissionPolicy|User|
 |Apps|External apps<sup>3</sup>|TeamsAppPermissionPolicy|User|
 |Calls and Meetings     |Allow scheduling for private meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
@@ -61,7 +60,7 @@ The following table identifies the sections of the Teams experience that have be
 |Calls and Meetings     |Allow videos in meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
 |Calls and Meetings     |Allow screen sharing in meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
 |Calls and Meetings     |Allow private calling         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |User          |
-|Messaging     |Enable Giphy so users can add gifs to conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
+|Messaging     |Enable Giphy so users can add GIFs to conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Content rating         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Enable memes that users can edit and add to conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Enable stickers that users can edit and add to conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
@@ -74,7 +73,7 @@ The following table identifies the sections of the Teams experience that have be
 <br><br>
 <sup>2</sup> Sideloading is split as follows:
 
-- Allow a user to sideload apps which can be managed at a user level in [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Allow a user to sideload apps which can be managed at a user level in [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Allow users in a tenant to interact with custom apps which can be managed at a tenant level in org-wide app settings.
  
 <sup>3</sup> Default apps and external apps can be enabled and disabled at the user level in TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings. 
@@ -108,32 +107,3 @@ The following table shows where you can manage features during the migration.
 ## Manage settings after the migration
 
 When the migration of these settings is complete, we’ll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
-
-
-## EDU migration June-July 2019
-
-During June and July 2019, the remaining EDU tenants will be migrated from the old admin experience (in the Microsoft 365 admin center) to the Teams admin center. Check the Message Center (in the Microsoft 365 admin center) to learn when you'll be migrated. Here's what you'll see after you're migrated:
-
-|Section of Teams in Microsoft 365 admin center  |Setting name (Tenant level)  |Microsoft Teams admin center policy   |Level: Tenant or User   |
-|---------|---------|---------|---------|  
-| Messaging  |Owners can delete sent messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-| Messaging | Users can delete sent messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-| Messaging  | Users can edit sent messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |User|
-| Messaging | Allow users to chat |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-| Messaging | Use Giphys in conversations | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-| Messaging | Giphy content rating | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-| Messaging | Use memes in conversations  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-| Messaging | Use stickers in conversations |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-
-Additionally, here are the settings that are only available in the Microsoft Teams admin center:
-
-|Setting name | Microsoft Teams admin center policy | Level: Tenant or User
-|-------------|-------------------------------------|---------|
-|Allow URL previews | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-|Allow a user to remove users from a group chat |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-|Allow immersive reader for viewing messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| User |
-|Allow users to translate messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| User |
-|Read receipts | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-|Users can send priority notifications | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | User |
-|Voice message creation |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| User |
-|On mobile devices, display favorite channels above recent chats |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| User |

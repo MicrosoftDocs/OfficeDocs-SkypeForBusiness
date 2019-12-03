@@ -35,11 +35,11 @@ This article describes some of the limits, specifications, and other requirement
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30|
 
-&sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+&sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2;This limit includes archived teams.
+&sup2; This limit includes archived teams.
 
-&sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+&sup3; Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
 ## Messaging
 
@@ -54,9 +54,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Number of people in a private chat<sup>1</sup>  | 100    |
 |Number of file attachments<sup>2</sup>  |10     |
 
-<sup>1</sup>If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
 
-<sup>2</sup>If the number of attachments exceeds this limit, you'll see an error message.
+<sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
 ### Emailing a channel
 
@@ -69,9 +69,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Size of each file attachment | Less than 10 MB |
 |Number of inline images<sup>2</sup> |50   |
 
-<sup>1</sup>If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
+<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
-<sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
+<sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
