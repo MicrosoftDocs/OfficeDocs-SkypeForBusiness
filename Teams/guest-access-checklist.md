@@ -27,6 +27,10 @@ Use this checklist to help you turn on and configure guest access in Microsoft T
 > [!IMPORTANT]
 > You may have to wait up to 24 hours for your changes to take effect. 
 
+Watch this short video (5:31 minutes) to see how to turn on guest access throughout Microsoft 365, including Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
+
 
 
 ## Step 1: Turn on guest access at the Teams org-wide level
