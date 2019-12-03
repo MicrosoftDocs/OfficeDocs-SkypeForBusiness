@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
