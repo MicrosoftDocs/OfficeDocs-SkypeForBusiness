@@ -87,11 +87,11 @@ To learn more, see [Managing policies via PowerShell](teams-powershell-overview.
 
 ## Assign a policy package
 
-A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. 
+A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role.
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of each policy in the package to meet your users' needs.
 
-To learn more including step-by-step guidance on how to assign and manage policy packages, see [Manage policy packages in Teams](manage-policy-packages.md).
+To learn more about policy packages, including step-by-step guidance on how to assign and manage them, see [Manage policy packages in Teams](manage-policy-packages.md).
 
 ## Assign a policy to a batch of users
  
