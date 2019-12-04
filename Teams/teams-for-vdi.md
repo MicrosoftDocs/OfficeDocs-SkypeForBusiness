@@ -181,7 +181,8 @@ These calling and meeting features are not supported:
 - Call park
 - Call queue
 
-If you currently run Teams without AV optimization in VDI and you use AV-optimized VDI features that are not supported (such as Give and take control when app sharing), you have to turn off redirection in the Citrix software. This means that Teams media sessions won’t be optimized.
+> [!IMPORTANT]
+> If you currently run Teams without AV optimization in VDI and you use AV-optimized VDI features that are not supported (such as Give and take control when app sharing), you have to set Citrix policies turn off Teams redirection. This means that Teams media sessions won’t be optimized. For steps on how to set policies to turn off Teams redirection, see this [Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
 
 We're working on adding calling and meeting features that are currently only available in non-VDI environments. These may include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
 
@@ -320,6 +321,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - MacOs and Linux-based clients are not supported by Citrix at this time.
+- Citrix doesn't support the use of explicit proxies defined on an endpoint. 
 
 ### Calling and meetings
 
