@@ -915,16 +915,21 @@
 ### [Verify service health for Teams](service-health.md)
 ### [Special character restrictions in Teams policies](special-character-restrictions-in-policy-names.md)
 
-### [Monitor call quality](monitor-call-quality-qos.md)
+### Monitor and troubleshoot call quality
+#### [Monitor call quality](monitor-call-quality-qos.md)
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-#### [Set up QoS in Teams](QoS-in-Teams.md)
+#### Set up QoS in Teams
+##### [Set up QoS in Teams](QoS-in-Teams.md)
 ##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
-#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Set up Call Analytics](set-up-call-analytics.md)
-#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+#### Call Quality Dashboard (CQD)
+##### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+##### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+##### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+#### Per-user call analytics
+##### [Set up per-user call analytics](set-up-call-analytics.md)
+##### [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
