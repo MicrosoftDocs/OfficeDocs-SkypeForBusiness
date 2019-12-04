@@ -3,7 +3,7 @@ title: "Set up per-user call analytics for Microsoft Teams"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, vkorlep
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
