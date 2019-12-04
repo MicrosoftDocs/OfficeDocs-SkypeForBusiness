@@ -341,7 +341,7 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 
 ## Troubleshooting
 
-#### Troublehoot Citrix components
+#### Troubleshoot Citrix components
 
 For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
