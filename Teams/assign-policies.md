@@ -150,12 +150,22 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 Run the following to get the status of a batch assignment, where OperationId is the operation Id that's returned by the New-CsBatchPolicyAssignmentOperation cmdlet for a given batch.
 
 ```
-$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl 
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+If the output shows that an error occurred, run the following to get more information about errors, which are in the ```UserState``` property.
+
+```
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
 ## Assign a policy to a group
 
-Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules.  When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to precedence rules.
+Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules.  When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to the inheritance rules.
+
+You use the [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address.
+
+You can then use the [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment) cmdlet to track the status of the assignment to group members according to the rules of inheritance.
 
 > [!NOTE]
 > Currently, group policy assignment isn't available for all Teams policy types. See [New-GroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
@@ -181,9 +191,36 @@ is the system default policy for that policy type.
  
 When you assign a policy to a group, set a priority. The priority indicates which group membership is more important or more relevant than other group memberships with regards to policy inheritance.
  
-Say, for example, an organization has two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should take precedence.
+Say, for example, an organization has two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should take precedence.
 
-If you don't set a priority, the policy assignment is given the lowest priority. 
+
+|Group |Teams calling policy name  |Priority|
+|---------|---------|---|
+|Store Managers   |Store Managers Calling Policy         |1|
+|Store Employees    |Store Employees Calling Policy      |2|
+
+
+If you don't set a priority, the policy assignment is given the lowest priority.
+
+### Install and connect to the Microsoft Teams PowerShell module
+
+If you haven't already, download and install the [Microsoft Teams Powershell module](https://www.powershellgallery.com/packages/MicrosoftTeams), and then run the following to connect to Teams and start a session.
+
+```
+Connect-MicrosoftTeams
+```
+
+When you're prompted, sign in using your admin credentials.
+
+### Install and connect to the Azure AD PowerShell for Graph module (optional)
+
+You may also want to [download and install the Azure AD PowerShell for Graph module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (if you haven't already) and connect to Azure AD so that you can retrieve a list of users in your organization.
+
+Run the following to connect to Azure AD.
+
+```
+Connect-AzureAD
+```
 
 ### Assign a policy to a group
 
