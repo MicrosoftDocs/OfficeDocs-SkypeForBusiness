@@ -332,11 +332,9 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown it instead of the video of the dominant speaker.
 - Outgoing screen sharing:
     - Application sharing is not supported.
-    - Potential privacy issue with multiple screen.
 - Give control and take control:  
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.  
-- In some cases, zooming windows that contain video content may create situations where user interface elements are partially visible.  
 - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren’t related to VDI, see [Known issues for Teams](Known-issues.md).
