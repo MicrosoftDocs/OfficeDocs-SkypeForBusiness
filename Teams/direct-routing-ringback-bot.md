@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Learn how to configure the Ringback bot for Direct Routing to prevent prolonged silences that may occur when a call is being established.
+description: Learn how to configure and use the Ringback bot for Direct Routing to prevent prolonged silences that may occur when a call is being established.
 localization_priority: Normal
 ms.collection: 
 - M365-voice
@@ -21,16 +21,16 @@ appliesto:
 - Direct Routing now supports a Ringback bot
 - Administrators can configure this bot with a new parameter GenerateRingingWhileLocatingUser in the Set-CsOnlineGateway and New-CsOnlinePSTNGateway cmdlets
 
+During inbound PSTN call (calls from PSTN to Teams client) call establishing might take long time due to various reasons. During this period caller might not hear anything, recipient device (Teams client) does not ring and some such calls might be even canceled by some telco providers. 
+The Ringback Bot helps to avoid unexpected silence when call setup is delayed. In case of inbound PSTN call to Teams in Direct Routing non-bypass mode distinctive audio signal is played to the caller during prolonged call setup procedure. This signal indicates that Teams is in the process of establishing the call. 
 
-SIP Tester client is a sample PowerShell script that you can use to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams. This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Direct Routing.
+## Configure the Ringback bot
 
-The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format. You can use this script to test the following scenarios:
+You use the [Set-CsOnlineGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) and [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlets together with the GenerateRingingWhileLocatingUser parameter to configure the Ringback bot. 
 
-- Outbound and inbound calls
-- Simultaneous ring
-- Media escalation
-- Consultative transfer
+To learn more, see 
 
-## Download the script and documentation
 
-Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).
+## Related topics
+
+- [Teams PowerShell overview](teams-powershell-overview.md)
