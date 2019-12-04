@@ -24,38 +24,11 @@ description: "Learn about Call Analytics and Call Quality Dashboard and when to 
 
 # Call Analytics and Call Quality Dashboard
 
-Microsoft Teams and Skype for Business give you two ways to monitor and troubleshoot call-quality problems: Call Analytics and Call Quality Dashboard (CQD). This article describes both and tells you when to use each one.
-
-Call Analytics and CQD run in parallel and can be used independently or together. For example, say that a communications support specialist determines that they need more help troubleshooting a call problem. The communications support specialist passes the call to a communications support engineer, who has access to more information in Call Analytics than the communications support specialist. In turn, the communications support engineer can alert a network engineer to an issue. The network engineer can check CQD to see if an overall site-related issue could be a contributing cause of call problems.
+go to monitor-call-quality.md instead. This article will be deleted.
 
 ## What's Call Analytics, and when should I use it?
 
-**Call Analytics is now available in the [Microsoft Teams admin center](https://admin.teams.microsoft.com).** To see all call information and data for a user, use the **Call History** tab on a user's profile page. To see the tab, either search for the user from the dashboard or find the user from the **Users** tab in the left navigation bar.
-
-Call Analytics shows detailed information about the devices, networks, and connectivity related to the calls and meetings for each user in a Microsoft Teams or Skype for Business tenant account. Why did this user have a poor call this afternoon? With Call Analytics, an Office 365 admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to a call to troubleshoot call quality and connection problems in Microsoft Teams and Skype for Business.
-
-To see this information for a user in the Microsoft Teams admin center, click the **Call History** tab for that user in the user detail page to see all calls and meetings for that user in the last 30 days.
-
-![Screenshot of all analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
-
-To get additional information about a given session including detailed media and networking statistics, click a session to see the details.
-
-![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
-
-If you want non-admins (such as helpdesk agents from an external vendor) to use Call Analytics, you can assign permissions so that they can use Call Analytics, but they can't access the rest of the Microsoft Teams admin center:
-  
-- **Helpdesk agents with communications support specialist permissions**: Agents see a limited set of data and personally identifiable information (PII) in Call Analytics. They can troubleshoot calls, but they escalate problems with meetings to a communications support engineer.
-- **Helpdesk agents with communications support engineer permissions**: Agents see all available data in Call Analytics and troubleshoot both calls and meetings. They have full access to call logs and customer information.
-
-> [!NOTE]
-> The communications support specialist role is equivalent to tier 1 support role from the preview portal and the communications support engineer role is equivalent to tier 2 support role from the preview portal.
-
-For more information about the communications support specialist and communications support engineer roles, see [Use Microsoft Teams admin roles to manage teams](using-admin-roles.md).
-
-> [!IMPORTANT]
-> Helpdesk agent permissions and network topology upload are available in the Microsoft Teams admin center. Communications Support Specialists and Communications Support Engineers can use this portal to access Call Analytics and the Call Quality Dashboard.
-
-For details about Call Analytics, see [Set up Skype for Business Call Analytics](set-up-call-analytics.md). For more information about how Helpdesk agents can work with Call Analytics, see [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+Moved to use-call-analytics-to-troubleshoot-poor-call-quality.md
   
 ## What's the Call Quality Dashboard, and when should I use it?
   
