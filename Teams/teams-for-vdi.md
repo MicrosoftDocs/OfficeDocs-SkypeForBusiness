@@ -320,7 +320,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - MacOs and Linux-based clients are not supported by Citrix at this time.
-- Citrix doesn't support the use of explicit proxies defined on an endpoint. 
+- Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint. 
 
 ### Calling and meetings
 
