@@ -1566,7 +1566,12 @@
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false
       },
-   {
+    {
+        "source_path": "Teams/difference-between-call-analytics-and-call-quality-dashboard.md", 
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/monitor-call-quality-qos", 
+        "redirect_document_id": false
+      },
+    {
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false

@@ -918,13 +918,13 @@
 ### Monitor and troubleshoot call quality
 #### [Monitor call quality](monitor-call-quality-qos.md)
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-#### Set up QoS in Teams
+#### Quality of Service (QoS)
 ##### [Set up QoS in Teams](QoS-in-Teams.md)
 ##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 #### Call Quality Dashboard (CQD)
-##### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-##### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-##### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+##### [Turning on and using CQD](turning-on-and-using-call-quality-dashboard.md)
+##### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+##### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 #### Per-user call analytics
 ##### [Set up per-user call analytics](set-up-call-analytics.md)
 ##### [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
