@@ -347,8 +347,6 @@ For Teams known issues that aren’t related to VDI, see [Known issues for Teams
 
 For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-#### Troubleshoot Teams on VDI
-
 ## Related topics
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
