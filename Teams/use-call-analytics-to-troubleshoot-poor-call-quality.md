@@ -35,7 +35,7 @@ To see all call information and data for a user, go to the [Teams admin center](
 
 ![Screenshot of all analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
-To get additional information about a given session including detailed media and networking statistics, click a session to see the details.
+To get additional information about a given session, including detailed media and networking statistics, click a session to see the details.
 
 ![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
   
