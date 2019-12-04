@@ -8,8 +8,6 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: 
-
 description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
@@ -49,7 +47,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 1.	**Get informed**
  
-    Familiarize yourself with the [blog announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) and this article to plan a smooth migration for your users. See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) for details on the Phone System Voicemail capabilities.  
+    Familiarize yourself with the [blog announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) and this article to plan a smooth migration for your users. See [Check Skype for Business voicemail and options](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) for details on the Phone System Voicemail capabilities.  
  
 2.	**Establish a Skype for Business hybrid topology**
 
