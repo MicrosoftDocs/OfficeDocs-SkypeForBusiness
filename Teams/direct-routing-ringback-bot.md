@@ -27,7 +27,7 @@ During inbound PSTN call (calls from PSTN to Teams client) call establishing mig
 
 This article describes the Ringback bot, which is available for Direct Routing in non-media bypass mode.
 
-For inbound calls from the public switched telephone network (PSTN)
+Sometimes, inbound calls from the public switched telephone network (PSTN) to Teams clients may take a longer time than expected to be established. This can occur for various reasons.
 
 The Ringback bot helps to avoid unexpected silences that can occur when it takes a longer time for a call to be set up. For inbound calls from the PSTN to Teams with Direct Routing in non-media bypass mode, a distinctive audio signal is played to the caller to indicate that Teams is in the process of establishing the call.
 
