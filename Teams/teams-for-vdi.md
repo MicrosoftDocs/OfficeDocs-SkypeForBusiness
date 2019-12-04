@@ -153,7 +153,6 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
       This uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
-    
 
 ## Teams on VDI performance considerations
 
@@ -219,9 +218,9 @@ If your organization wants to only use chat and collaboration features in Teams,
 
 You can set policies by using the Microsoft Teams admin center or PowerShell. It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
 
-[**Calling polices**](teams-calling-policy.md): Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment. 
+[**Calling polices**](teams-calling-policy.md): Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment.
 
-[**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment. 
+[**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment.
 
 #### Assign policies using the Microsoft Teams admin center
 
