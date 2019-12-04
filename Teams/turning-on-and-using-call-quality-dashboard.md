@@ -1,5 +1,5 @@
 ---
-title: "Turn on and use Call Quality Dashboard"
+title: "Turn on and use Call Quality Dashboard (CQD)"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,13 +24,46 @@ ms.custom:
 description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 
-# Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online
+# Turn on and use Call Quality Dashboard (CQD)
 
-Learn how to configure your Office 365 organization to use the Call Quality Dashboard to monitor call quality.
+Learn how to configure your Office 365 organization to use the Call Quality Dashboard (CQD) to monitor call quality.
   
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
 Currently, Advanced CQD and CQD are both available for use. Advanced CQD is available at <span>https://cqd.teams.microsoft.com</span>. New URL but the same log in with your administrator credentials.
+
+## What's the Call Quality Dashboard, and when should I use it?
+  
+Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with *specific calls*. Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. If you need to look at call and meeting information for a *specific user*, you'll use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
+  
+Suppose a user's poor call quality is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With  CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+  
+![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+
+CQD's Location-Enhanced Reports aggregate call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
+
+![Screenshot of Call Quality Dashboard's Location-Enhanced Reports.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+
+> [!NOTE]
+> To enable building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on CQD's Tenant Data Upload page.
+
+If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD and per-user call analytics:
+
+- Global Administrator
+- Global Reader
+- Skype for Business Administrator
+- Teams Service Administrator
+- Teams Communications Administrator
+- Teams Communications Support Engineer
+- Teams Communications Support Specialist
+- Reports Reader
+
+> [!NOTE]
+> The Teams Communications Support Engineer, Teams Communications Support Specialist, and Reports Reader roles cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
+
+For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
+
+For more information about CQD, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ## Latest changes and updates
 
