@@ -100,8 +100,8 @@ Office 365 tenant administrators are required to re-create their Exchange UM Onl
 
 We strongly advise that you start the setup of your new auto attendants early to avoid last minute issues and to get familiar with the functionality and experience of the Cloud Auto Attendant service. For auto attendants that require one or more gap features, you can create and test the auto attendants when the gap features are available to prepare for deployment. For more information about gap features, see the [Appendix](#appendix).
 
-1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps).  
-2. Use the [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt?view=exchange-ps) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
+1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+2. Use the [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
 3. Follow the instructions in [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](../../../Teams/create-a-phone-system-auto-attendant.md) to create auto attendants by using the Microsoft Teams admin center or Powershell.
 4. Review your greetings if the menu options changed.
 5. Configure transfers to your response groups by using the "Auto Attendant Call Transfer to PSTN" workaround in the [Known issues](#known-issues) section of this article.  
