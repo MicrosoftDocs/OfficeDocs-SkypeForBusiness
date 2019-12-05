@@ -19,7 +19,7 @@ appliesto:
 Manage the Microsoft Teams Exploratory license
 =======================================================
 
-The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (AAD) and are not licensed for Teams to initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now called The Teams Exploratory experience.
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (AAD) and are not licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now called The Teams Exploratory experience.
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)] This experience will be available starting in mid January, 2020.
 
@@ -48,7 +48,7 @@ The service plans included in the Teams Exploratory experience are:
 
 ## Who's eligible?
 
-Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the offer](#manage-the-offer), later in this article. 
+Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-Teams-Exploratory-experience), later in this article. 
 
 Users who don't have an Office 365 license that includes Teams can initiate the Teams Exploratory experience. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
 
@@ -143,7 +143,7 @@ As of mid January, 2020, eligible users can begin using the latest Microsoft Tea
 
 ### Remove a Teams Exploratory license
 
-- If you would like to remove this license via PowerShell, see:
+- If you would like to remove this license by using PowerShell, see:
 [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
