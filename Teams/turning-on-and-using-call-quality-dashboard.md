@@ -30,11 +30,11 @@ Learn how to configure your Office 365 organization to use the Call Quality Dash
   
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
-Currently, Advanced CQD and CQD are both available for use. Advanced CQD is available at <span>https://cqd.teams.microsoft.com</span>. New URL but the same log in with your administrator credentials.
+Open CQD at <span>https://cqd.teams.microsoft.com</span> (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**.
 
 ## What's the Call Quality Dashboard, and when should I use it?
   
-Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with *specific calls*. Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. If you need to look at call and meeting information for a *specific user*, you'll use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
+Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
   
 Suppose a user's poor call quality is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With  CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
@@ -63,54 +63,13 @@ If you want non-admin users (such as helpdesk agents) to use Call Quality Dashbo
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
-For more information about CQD, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Read this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
-## Latest changes and updates
+To learn about CQD classifier definitions, read [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
-
-The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
-
-
-- Call Quality by Region:
-  - date-by-region
-  - aggregated down to hour-by-region
-  - specific locations
-  - specific subnet
-  - impacted user or users
-
-- Call Reliability/Failure by Region:
-  - date-by-region
-  - aggregated down to hour-by-region
-  - specific locations
-  - specific subnet
-  - impacted user or users
-
-- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
-- Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
-- Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
-- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
-
-Advanced CQD (V3) also provides RBAC support, in case EUII access is not available.  
-
-An admin can manage Skype for Business Server 2019 (not just Skype for Business Online and Microsoft Teams) through CQD version 3. This requires a hybrid implementation and the use of Call Data Connector. See [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) for more information.
-
-CQD version 2 added:
-
-- Data for Microsoft Teams and Skype for Business Online
-- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data
-- Updated Video and VBSS stream quality classification logic. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the classifier definitions.
-
-Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays on the dashboard.
-
-CQD version 1 provided Skype for Business Server 2015 admins the following features:
-
-- Access to cached report data for fast access
-- Deep links to report pages for sharing and publishing information
-- Streamlined report editing and creation, and editable metadata for report descriptions
-- Web APIs that give programmatic access to the cube data for use in custom dashboards
+> To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays in CQD.
 
 ## CQD Near-Real-Time (NRT) Data
 
@@ -131,7 +90,7 @@ PII or EUII data only comes from the v3 pipeline. Due to compliance reasons, PII
 
 ### Date controls
 
-CQD v3 adds the following new Rolling Trend types:
+CQD supports the following Rolling Trend types:
 
 - 5-day
 - 7-day
@@ -139,7 +98,7 @@ CQD v3 adds the following new Rolling Trend types:
 - 60-day
 - 90-day
 
-The URL Date parameter can now accept a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter “00”  indicates “today”.
+The URL Date parameter accepts a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter “00”  indicates “today”.
 
 |URL| End date of Rolling Day Trend|
 |:---|:---|
@@ -148,11 +107,11 @@ The URL Date parameter can now accept a Day field. Rolling-day reports use dates
 |<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/00/</span>        |Current Day|
 |||
 
-By default the current day of the month is used as the last day of the Rolling Day Trend.
+By default, the current day of the month is used as the last day of the Rolling Day Trend.
 
 ### Drill Thru Functionality
 
-CQD v3 supports the use of drill through or drill-down fields in SPD reports. If these dimension fields are selected,  the report automatically opens a different report tab and filters on the selected value. Fields with an assigned drill through filter are distinguished by a different cursor icon (the pointer) when you hover over them.
+CQD supports the use of drill through or drill-down fields in SPD reports. If these dimension fields are selected, the report automatically opens a different report tab and filters on the selected value. Fields with an assigned drill through filter are distinguished by a different cursor icon (the pointer) when you hover over them.
 
 When a drill through field is selected, the Dashboard automatically navigates to the new, specified tab and applies a filter with the selected value. If that tab has its own drill through fields and one is selected, the previous drill through filters and the new one all propagate forward. This allows you to build a report that progressively narrows the resulting data set.
 
@@ -187,8 +146,8 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 ![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
 
 1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
-3. In the Microsoft Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
+2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
+3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
 
      ![Screenshot: select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 

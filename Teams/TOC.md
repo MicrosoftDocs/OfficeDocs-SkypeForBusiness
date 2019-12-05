@@ -926,8 +926,8 @@
 ##### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ##### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 #### Per-user call analytics
-##### [Set up per-user call analytics](set-up-call-analytics.md)
-##### [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+##### [Set up call analytics](set-up-call-analytics.md)
+##### [Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 
 
