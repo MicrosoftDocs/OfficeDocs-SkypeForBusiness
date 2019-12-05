@@ -30,7 +30,7 @@ Learn how to configure your Office 365 organization to use the Call Quality Dash
   
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
-Open CQD at <span>https://cqd.teams.microsoft.com</span> (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**.
+Open CQD at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**.
 
 ## What's the Call Quality Dashboard, and when should I use it?
   
@@ -47,7 +47,9 @@ CQD's Location-Enhanced Reports aggregate call quality and reliability within a 
 > [!NOTE]
 > To enable building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on CQD's Tenant Data Upload page.
 
-If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD and per-user call analytics:
+## Assign admin roles for access to CQD
+
+If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **(SIUNIE, which roles also give access to per-user call analytics?)**
 
 - Global Administrator
 - Global Reader
@@ -69,7 +71,7 @@ To learn about CQD classifier definitions, read [Stream Classification in CQD](s
 
   
 > [!NOTE]
-> To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays in CQD.
+> To see information about updates and changes to the dashboard, click the **Good news!** banner when it displays in CQD.
 
 ## CQD Near-Real-Time (NRT) Data
 
