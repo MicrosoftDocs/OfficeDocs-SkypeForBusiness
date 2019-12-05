@@ -180,39 +180,39 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Cursor missing when screen sharing. <br/> |While sharing screen, other party does not see cursor of person sharing the screen. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Issue running in parallel with VMWare workstation. <br/> |The Teams application experiences issues when running in parallel with VMWare workstation. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|KDE notifications create new taskbar.<br/> |Notification on KDE creates new window in taskbar. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Package managers not showing changelist. <br/> |Package manager does not show changelist. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Cannot launch Teams client in offline mode. <br/> |Unable to launch Teams Offline in Linux client. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Device settings while in meeting. <br/> |When in a meeting, and changing device settings, the Microphone indicator isn't registering anything being picked up. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Submenus not showing. <br/> |Submenus not shown in Tray menu on Linux. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Cannot close Teams application. <br/> |Can't close using the default `$mod + shift + q` or by clicking the close button in the app. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|<br/> | <br/> | <br/> |12/05/19  <br/>|
+|Notifications are too big. <br/> |Notifications are really big in i3. <br/> | <br/> |12/05/19  <br/>|
 
 ## Meetings
 
