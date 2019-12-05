@@ -32,10 +32,10 @@ Here's an overview of the ways that you can assign policies to users and the rec
 
 |Do this  |If...  | Using...
 |---------|---------|----|
-|[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. | Microsoft Teams admin center or PowerShell
-| [Assign a policy package](#assign-a-policy-package)    | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education_Teacher policy package to teachers in your school to give them full access to chats, calling, and meetings and assign the Education_SecondaryStudent policy package to limit capabilities like meetings creation, chat management, and private calling for secondary students.  |Microsoft Teams admin center|
-|[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)    | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |PowerShell|
-|[Assign a policy to a group](#assign-a-policy-to-a-group)    |You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or organizational unit.|PowerShell|
+|[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. |The Microsoft Teams admin center or PowerShell cmdlets in the Skype for Business Online PowerShell module
+| [Assign a policy package](#assign-a-policy-package)    | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education_Teacher policy package to teachers in your school to give them full access to chats, calling, and meetings and assign the Education_SecondaryStudent policy package to limit capabilities like meetings creation, chat management, and private calling for secondary students.  |The Microsoft Teams admin center|
+|[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)    | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |PowerShell cmdlets in the Teams PowerShell module|
+|[Assign a policy to a group](#assign-a-policy-to-a-group)    |You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or organizational unit.|PowerShell cmdlets in the Teams PowerShell module|
 
 ## Assign a policy to individual users
 
@@ -61,7 +61,7 @@ Or, you can also do the following:
 
 ### Using PowerShell
 
-Each policy type has it's own set of cmdlets for managing it. Use the **Grant-** cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Each policy type has it's own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
  Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
 
@@ -82,7 +82,7 @@ To learn more, see [Managing policies via PowerShell](teams-powershell-overview.
 
 ## Assign a policy package
 
-A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. Some examples of policy packages are the Education_Teacher package and the SmallMediumBusiness_BusinessVoice package.
+A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. Some examples of policy packages are the Education_Teacher package and SmallMediumBusiness_BusinessVoice package.
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of each policy in the package to meet users' needs.
 
@@ -147,7 +147,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 ### Get the status of a batch assignment
 
-Run the following to get the status of a batch assignment, where OperationId is the operation Id that's returned by the New-CsBatchPolicyAssignmentOperation cmdlet for a given batch.
+Run the following to get the status of a batch assignment, where OperationId is the operation Id that's returned by the ```New-CsBatchPolicyAssignmentOperation``` cmdlet for a given batch.
 
 ```
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
@@ -224,9 +224,25 @@ Connect-AzureAD
 
 ### Assign a policy to a group
 
+In this example, we 
+
 ### Get policy assignments for a group
 
+Run the following to return all policies assigned to a group. Groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
+
+```
+Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
+```
+
+Run the following to return all groups that are assigned a specific policy type. In this example, we return all groups that are assigned a Teams meeting policy. 
+
+```
+Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
+```
+
 ### Remove a policy from a group
+
+Run the following to remove a policy from a group.
 
 ### Update a policy assignment for a group
 
