@@ -176,7 +176,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|White screen with resume and network switching. <br/> |Sometimes the combination of resuming PC and network switching (especially VPN) can lead to a white screen. <br/> |Restarting Teams client will help.  <br/> |12/05/19  <br/>|
+|White screen when resuming from sleep/suspend. <br/> |When your computer resumes / wakes from sleep or suspend mode there can be a network change (especially when the computer is connected to VPN before put to sleep/suspended) and that takes some time for the computer to reobtain the connection. The combination of these things can lead to a Teams white screen. <br/> |Restarting Teams client will help.  <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
