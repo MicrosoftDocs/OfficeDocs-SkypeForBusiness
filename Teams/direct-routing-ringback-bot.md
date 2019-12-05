@@ -23,6 +23,9 @@ Sometimes inbound calls from the public switched telephone network (PSTN) to Tea
 
 The Ringback bot helps to avoid unexpected silences that can occur in this scenario. For inbound calls from the PSTN to Teams clients, the Ringback bot plays a distinctive audio signal to the caller to indicate that Teams is in the process of establishing the call.
 
+> [!NOTE]
+> The Ringback bot generates early media from the Teams backend. In some countries and regions, you might be charged for the call when the media starts flowing.
+
 ## Configure the Ringback bot
 
 Use the [Set-CsOnlineGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) and [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlets together with the **GenerateRingingWhileLocatingUser** parameter to configure the Ringback bot.
