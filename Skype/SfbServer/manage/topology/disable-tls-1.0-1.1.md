@@ -139,7 +139,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
      - SQL Server Native Client for SQL Server 2012 ([link](https://www.microsoft.com/download/details.aspx?id=50402))
      - [Microsoft ODBC Driver 11 for SQL Server](https://www.microsoft.com/download/details.aspx?id=36434), or higher
      - [Shared Management Objects for SQL Server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=53164)
-     - SQLSysClrTypes for SQL server 2014 SP2 ([link](https://www.microsoft.com/download/details.aspx?id=42295))
+     - [SQLSysClrTypes for SQL server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### Basic steps to install pre-requisites, in recommended order of operations
 
