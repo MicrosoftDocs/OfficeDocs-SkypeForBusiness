@@ -168,6 +168,52 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> |9/20/17  <br/>|
 
+## Linux
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|AutoStart on Linux is not working. <br/> |AutoStart on Linux does not start the Teams application. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|White screen with resume and network switching. <br/> |Sometimes the combination of resuming PC and network switching (especially VPN) can lead to a white screen. <br/> |Restarting Teams client will help.  <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|<br/> | <br/> | <br/> |12/05/19  <br/>|
+
 ## Meetings
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
