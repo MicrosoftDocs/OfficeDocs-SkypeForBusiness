@@ -48,7 +48,7 @@ The service plans included in the Teams Exploratory experience are:
 
 ## Who's eligible?
 
-Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-Teams-Exploratory-experience), later in this article. 
+Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article. 
 
 Users who don't have an Office 365 license that includes Teams can initiate the Teams Exploratory experience. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
 
