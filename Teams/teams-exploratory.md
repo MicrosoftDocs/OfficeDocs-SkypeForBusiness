@@ -1,5 +1,5 @@
 ---
-title: Manage the Microsoft Teams Exploratory license
+title: Manage the Microsoft Teams Exploratory experience
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ appliesto:
 Manage the Microsoft Teams Exploratory license
 =======================================================
 
-Microsoft Teams Exploratory lets existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. This is an enhancement to the earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md).
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (AAD) and are not licensed for Teams to initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now called The Teams Exploratory experience.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)] This offer will be available starting in mid January, 2020.
+[!INCLUDE [preview-feature](includes/preview-feature.md)] This experience will be available starting in mid January, 2020.
 
-## What's in Teams Exploratory?
+## What's in the Teams Exploratory experience?
 
-The service plans included in Teams Exploratory are:
+The service plans included in the Teams Exploratory experience are:
  - Exchange Online (Plan 1)
  - Flow for Office 365
  - Insights by MyAnalytics
@@ -50,29 +50,29 @@ The service plans included in Teams Exploratory are:
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the offer](#manage-the-offer), later in this article. 
 
-Users who don't have an Office 365 license that includes Teams can initiate Teams Exploratory. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for Teams Exploratory.
+Users who don't have an Office 365 license that includes Teams can initiate the Teams Exploratory experience. For example, if a user has Office 365 Business (which doesn't include Teams), they're eligible for the Teams Exploratory experience.
 
 ## Who isn't eligible
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
 
 
-## How users sign up for Teams Exploratory
+## How users sign up for the Teams Exploratory experience
 
-Eligible users can sign up for Teams Exploratory by directly signing in to Teams ([teams.microsoft.com](https://teams.microsoft.com)). They will be assigned this license automatically and the tenant admin will receive an email notification the first time someone in your org starts Teams Exploratory.
+Eligible users can sign up for the Teams Exploratory experience by signing in to Teams ([teams.microsoft.com](https://teams.microsoft.com)). They will be assigned this license automatically and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
 
-## Manage Teams Exploratory
+## Manage the Teams Exploratory experience
 
-Teams Exploratory is meant to be initiated by individual end users, and you may not initiate this offer on behalf of end-user employees.
+The Teams Exploratory experience is meant to be initiated by individual end users, and you may not initiate this offer on behalf of end-user employees.
 
-Teams Exploratory comes with an Exchange Online license but it won't be assigned to the user until the admin assigns it. If the user doesn't have an Exchange license already and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and may be missing other Teams functionality.
+The Teams Exploratory experience comes with an Exchange Online license but it won't be assigned to the user until the admin assigns it. If the user doesn't have an Exchange license already and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and may be missing other Teams functionality.
 
-Admins can disable the ability for end users to run Teams Exploratory within their organization by using the **Trial apps and services** switch.
+Admins can disable the ability for end users to run the Teams Exploratory experience within their organization by using the **Trial apps and services** switch.
 
 
 ### Prevent users from installing trial apps and services
 
-You can turn off a user’s ability to install trial apps and services, would prevent the user from running Teams Exploratory.
+You can turn off a user’s ability to install trial apps and services, would prevent the user from running the Teams Exploratory experience.
 
 1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
 
@@ -82,11 +82,11 @@ You can turn off a user’s ability to install trial apps and services, would pr
 
     ![Screenshot of the User owned Apps & Services page in admin center](media/iw-trial-enable-2.png)
 > [!NOTE]
-> If your organization is ineligible for Teams Exploratory, you won't see the **Let users install trial apps and services** switch.
+> If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** switch.
 
 ### Manage availability for a user with a license that includes Teams
 
-A user who is assigned a license that includes Teams isn't eligible for Teams Exploratory. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and Teams Exploratory isn't available.
+A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available.
 
 To turn off access to Teams:
 
@@ -100,11 +100,11 @@ To turn off access to Teams:
 
     ![Screenshot of the Product licenses page in the admin center.](media/iw-trial-enable-3.png)
 
-### Manage Teams availability for users who are already using Teams Exploratory
+### Manage Teams availability for users who are already using the Teams Exploratory experience
 
-If a user is running Teams Exploratory, you can turn it off by removing the license or service plan.
+If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan.
 
-To turn off the Teams Exploratory license:
+To turn off the the Teams Exploratory experience license:
 
 1. In the Microsoft 365 admin center, select **Users** > **Active users**.
 
@@ -116,15 +116,15 @@ To turn off the Teams Exploratory license:
 
     
 >[!Note]
->The Teams Exploratory toggle switch will appear after the first user in the organization launches Teams Exploratory.
+>The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.
 
-### Manage Teams for users who have the exploratory license
+### Manage Teams for users who have the Teams Exploratory license
 
-You can manage users who have the exploratory license just like you manage users who have a regular paid license. For more information, see [Manage Microsoft Teams settings for your organization](enable-features-office-365.md).
+You can manage users who have the Teams Exploratory license just like you manage users who have a regular paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
-### Upgrade users from the exploratory license
+### Upgrade users from the Teams Exploratory license
 
-To upgrade users from the exploratory license, do the following:
+To upgrade users from the Teams Exploratory license, do the following:
 
 1. Purchase a subscription that includes Teams.
 
@@ -139,7 +139,7 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 
 ## What happens to legacy Microsoft Teams Commercial Cloud Trial licenses?
 
-As of mid January, 2020, eligible users can begin claiming the latest Microsoft Teams Exploratory Experience license. All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.
+As of mid January, 2020, eligible users can begin using the latest Microsoft Teams Exploratory experience. All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.
 
 ### Remove a Teams Exploratory license
 
