@@ -204,10 +204,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Submenus not showing. <br/> |Submenus not shown in Tray menu on Linux. <br/> | <br/> |12/05/19  <br/>|
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
 |Can't close Teams application using keyboard. <br/> |Can't close using the default `$mod + shift + q` or by clicking the close button in the app. <br/> | <br/> |12/05/19  <br/>|
 
 ## Meetings
