@@ -1,5 +1,5 @@
 ---
-title: Set up the Ringback bot
+title: Set up the Ringback bot for Direct Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Learn how to set up and use the Ringback bot for Direct Routing to prevent unexpected silences that can occur when a call is being established.
+description: Learn how to use the Ringback bot for Direct Routing to prevent unexpected silences that can occur when a call is being established.
 localization_priority: Normal
 ms.collection: 
 - M365-voice
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up the Ringback bot
+# Set up the Ringback bot for Direct Routing
 
 This article describes the Ringback bot, which you can use to help avoid unexpected silences that can occur when it takes a longer time for calls to be established. The Ringback bot is available for Direct Routing in non-media bypass mode.
 
@@ -27,7 +27,7 @@ The Ringback bot helps to avoid unexpected silences that can occur in this scena
 
 Use the [Set-CsOnlineGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) and [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlets together with the **GenerateRingingWhileLocatingUser** parameter to configure the Ringback bot.
 
-To turn on the Ringback bot, set the **GenerateRingingWhileLocatingUser** parameter to **$True**. By default, the Ringback bot is on.
+To turn on the Ringback bot, set the **GenerateRingingWhileLocatingUser** parameter to **$True**. This is the default value. 
 
 To turn off the Ringback bot, set the **GenerateRingingWhileLocatingUser** parameter to **$False**. 
 
