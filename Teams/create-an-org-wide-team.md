@@ -79,4 +79,4 @@ Global admins can convert an existing team to an org-wide team by editing it in 
 
 ## See also
 
-Watch a video about about [creating an company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Watch a video about about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
