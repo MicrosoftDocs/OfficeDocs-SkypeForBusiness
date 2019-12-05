@@ -130,7 +130,7 @@ You can add multiple dates from the location tab, such as adding 2019-09-22 to D
 
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
-Before you can start using CQD, activate it for your Office 365 organization as follows:
+The first time you sign in as an admin and open CQD, the summary reports get activated. To open CQD:
 
 ![An icon that shows the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
@@ -141,7 +141,7 @@ Before you can start using CQD, activate it for your Office 365 organization as 
 
     ![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-After you sign in, once activated, the CQD will begin collecting and processing data.  
+After the first time you sign in, CQD will begin collecting and processing data.  
 > [!NOTE]
 > It may take one or more hours to process enough data to display meaningful results in the reports.
 
@@ -155,7 +155,7 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
 
-After you sign in, once activated, the Call Quality Dashboard will begin collecting and processing data.
+After the first time you sign in, CQD will begin collecting and processing data.  
 
 ## Features of the Call Quality Dashboard for Teams and Skype for Business Online
 
