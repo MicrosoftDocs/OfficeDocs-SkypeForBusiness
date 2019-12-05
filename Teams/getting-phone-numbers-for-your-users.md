@@ -10,15 +10,14 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users. "
 ---
 
@@ -30,7 +29,7 @@ There are three ways to get user numbers:
 
 - **Use the Microsoft Teams admin center.** For some countries/regions, you can get numbers for your users using the Microsoft Teams admin center. See [Get new phone numbers for your users](#get-new-phone-numbers-for-your-users).
     
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
 - **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
@@ -41,7 +40,7 @@ There are three ways to get user numbers:
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
-1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Get new numbers**.
+1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
 2. Enter a name for the order and if you want, add a description.
 3. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
@@ -57,7 +56,7 @@ There are three ways to get user numbers:
   
    **Port or transfer phone numbers from your service provider or phone carrier**
   
-- If you need 999 or fewer phone numbers for your users, you can use the legacy portal in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers to Teams.
+- If you need 999 or fewer phone numbers for your users, you can use the legacy portal in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) to transfer your phone numbers to Teams.
     
 - If you need to port more than 999 phone numbers, see [Manage service requests in Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) to submit a port order service request or order to get all of these phone numbers ported over to Office 365.
     
@@ -71,7 +70,7 @@ In the left navigation, go to **Voice** > **Phone numbers** to view the numbers 
     
 - After you get your phone numbers, you'll need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- You can use the **Phone numbers** page in the Microsoft Teamd admin center to see the list of available phone numbers in the **Phone number** column, see whether the phone number has been assigned in the **Status** column, and see the location for the phone number in the **Location** column. 
+- You can use the **Phone numbers** page in the Microsoft Teams admin center to see the list of available phone numbers in the **Phone number** column, see whether the phone number has been assigned in the **Status** column, and see the location for the phone number in the **Location** column. 
 
 > [!NOTE]
 > If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

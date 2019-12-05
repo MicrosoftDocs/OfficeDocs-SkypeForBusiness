@@ -9,15 +9,14 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about app setup policies in Microsoft Teams and how to use them to pin apps to customize Teams for users in your organization. 
+description: Learn about app setup policies in Microsoft Teams and how to use them to pin apps to customize Teams for users in your organization.
 f1keywords: 
-- ms.teamsadmincenter.appsetuppolicies.overview
+  - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
 # Manage app setup policies in Microsoft Teams

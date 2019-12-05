@@ -33,6 +33,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 
 Beginning December 1, 2019, the complimentary dial-out capability will end. See [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md) for additional details. 
 
+This change will not take place for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
+
 ### Complimentary dial out period details
 
 For customers adopting our Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing subscription license through November 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 "Zone A" countries and regions listed below. This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.

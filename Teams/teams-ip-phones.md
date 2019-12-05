@@ -1,21 +1,22 @@
 ---
 title: "Phones and Devices for Teams"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Skype for Business Certification
-- dn947482
+ms.custom: 
+  - Skype for Business Certification
+  - dn947482
 description: "IP desk and conference phones certified for Microsoft Teams"
 ---
 
@@ -38,6 +39,7 @@ The following phones are Certified for Microsoft Teams:
 |Phone Model|Firmware Version|Release Date |
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0.225 | March 2019|
+|Audiocodes C448HD (CAP mode only) | C450HD_TEAMS_0.225 | March 2019|
 |Crestron M100|2.3875.00068|December 2018|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
 |Poly Trio 8500/8800 (shared mode only)| 5.9.0.10869|June 2019|
@@ -45,7 +47,7 @@ The following phones are Certified for Microsoft Teams:
 |Yealink T55 | 58.15.0.36 |May 2019|
 |Yealink CP 960 |73.15.0.20|December 2018|
 |Yealink T58 & T56 series |58.15.0.20|December 2018|
-||||
+
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
@@ -57,10 +59,10 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 * * *
 
-If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## Additional resources
 
 Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
-[Explore Microsoft Teams phones and certified devices.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)

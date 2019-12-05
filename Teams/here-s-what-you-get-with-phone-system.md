@@ -10,17 +10,16 @@ ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Phone System
+ms.custom: 
+  - Phone System
 description: "Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. "
 ---
 
@@ -60,7 +59,7 @@ By using Phone System, your Skype for Business users will get the following feat
 |[Set Call Forwarding options in Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Sends your calls to your team either immediately or after a set time period.  <br/> |
 |[Make and receive a video call using Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | You can see the speaker's name and video stream in a small floating window, so you're always ready to respond to any questions. <br/> |
 |[Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Here's how Cloud Voicemail works: When a user receives a voicemail, it is delivered to their mailbox as an email with the voicemail message as an attachment. They can also listen to their messages over their Skype certified desktop phone, all Skype for Business applications, or Lync for Mac 2011.  <br/> Cloud Voicemail includes personalized greeting, message waiting indicator, and reply with call. You can have all of your voicemail deposited in mailboxes and made available through Skype for Business on your PC, mobile device, and IP phone.  <br/> |
-|Music on hold | Available in September 2019, Phone System will play default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold.  This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. (All other platforms give a visual cue when a user is put on hold, but the PSTN caller has had no way of knowing.)  On first release, this feature is not configurable by the administrator.| 
+|Music on hold | Available in September 2019, Phone System will play default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold.  This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. (All other platforms give a visual cue when a user is put on hold, but the PSTN caller has had no way of knowing.)  On first release, this feature is not configurable by the administrator. Hold music is also not supported in consultative transfer of a PSTN call.| 
 |Reverse Number Lookup | Available in September, 2019, Phone System will show called ID for an external phone number if the number is associated with a user in AAD. If the phone number is not in AAD, the telco provided display name will be shown if it is available.  |
 
    

@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels. 
+description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels.
 f1keywords: 
-- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
-- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
-- ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
-- ms.teamsadmincenter.teamsandchannelpolicies.overview
-- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
-- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
+  - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
+  - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
+  - ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
+  - ms.teamsadmincenter.teamsandchannelpolicies.overview
+  - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
+  - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 ---
 
 # Manage teams policies in Microsoft Teams
@@ -39,11 +38,11 @@ You can edit the global policy or create and assign a custom policy. If a user i
 2. Click **Add**.
 3. Enter a name and description for the policy.
 
-    ![Screen shot of teams policy settings](media/teams-policies.png)
+    ![Screenshot of teams policy settings](media/teams-policies.png)
 4. Choose the settings that you want:
 
-- [**Discover private teams**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): Turn on this setting to allow users to discover private teams in search results and in the team gallery.
-- [**Create private channels**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): Turn on this setting to allow users to create private channels.
+- **Discover private teams**:<a name="discoverteams"> </a> Turn on this setting to allow users to discover private teams in search results and in the team gallery.
+- **Create private channels**: <a name="createchannels"> </a>Turn on this setting to allow users to create private channels.
 
 5. Click **Save**.
 
@@ -101,3 +100,4 @@ Depending on the number of members in the group, this command may take several m
 ## Related topics
 
 - [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
+- [Private channels in Teams](private-channels.md)

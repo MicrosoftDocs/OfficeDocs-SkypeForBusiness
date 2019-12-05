@@ -9,15 +9,14 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: Lists the combinations of operating system, model, and drivers that are not enabled for hardware acceleration due to driver issues.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- MicrOperating systemoft Teams
+- Microsoft Teams
 ---
 
 # Hardware decoder and encoder driver recommendations
