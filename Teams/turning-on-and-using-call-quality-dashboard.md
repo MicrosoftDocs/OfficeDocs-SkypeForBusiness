@@ -155,10 +155,9 @@ After you sign in, once activated, the CQD will begin collecting and processing 
 
 After you sign in, once activated, the Call Quality Dashboard will begin collecting and processing data.
 
-## Features of the Call Quality Dashboard for Microsoft Teams and Skype for Business Online
+## Features of the Call Quality Dashboard for Teams and Skype for Business Online
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
-
 
 CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the editions are summarized here:
   
@@ -181,7 +180,7 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 
 ### Out-of-the-box reports
 
-All editions of CQD provide an experience that gives you call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
+CQD provides a robust set of call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
   
 ### Overview reports
 
@@ -200,7 +199,7 @@ The four tabs include:
 - **Voice Quality SLA** — provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
 
 > [!NOTE]
-> CQD Version 3 works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+> CQD works with Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
 
 - Call Quality by Region:
 
@@ -445,3 +444,109 @@ When you compare data for these two services:
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+
+======
+## Latest changes and updates
+
+LOLA - make sure all of this functionality is listed somewhere. Just DON'T make it a version-specific list.
+
+The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
+
+
+- Call Quality by Region:
+  - date-by-region
+  - aggregated down to hour-by-region
+  - specific locations
+  - specific subnet
+  - impacted user or users
+
+- Call Reliability/Failure by Region:
+  - date-by-region
+  - aggregated down to hour-by-region
+  - specific locations
+  - specific subnet
+  - impacted user or users
+
+- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
+- Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
+- Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
+- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
+
+Advanced CQD (V3) also provides RBAC support, in case EUII access is not available.  
+
+An admin can manage Skype for Business Server 2019 (not just Skype for Business Online and Microsoft Teams) through CQD version 3. This requires a hybrid implementation and the use of Call Data Connector. See [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) for more information.
+
+CQD version 2 added:
+
+- Data for Microsoft Teams and Skype for Business Online
+- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data
+- Updated Video and VBSS stream quality classification logic. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the classifier definitions.
+
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+  
+> [!NOTE]
+> To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays on the dashboard.
+
+CQD version 1 provided Skype for Business Server 2015 admins the following features:
+
+- Access to cached report data for fast access
+- Deep links to report pages for sharing and publishing information
+- Streamlined report editing and creation, and editable metadata for report descriptions
+- Web APIs that give programmatic access to the cube data for use in custom dashboards
+
+## CQD Near-Real-Time (NRT) Data
+
+Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+
+### PII/EUII Data
+
+PII or EUII data only comes from the v3 pipeline. Due to compliance reasons, PII/EUII data is only kept for 30 days. As NRT data crosses the 30-day mark, the PII/EUII fields are cleared out, resulting in PII-free NRT data. The PII/EUII fields are:
+
+- Full IP address
+- Media Access Control (MAC) Address
+- Basic Service Set identifier (BSSID)
+- Session Initiation Protocol (SIP) URI (Skype for Business only)
+- User Principal Name (UPN)
+- Machine Endpoint Name
+- User Verbatim Feedback
+- Object ID (the Active Directory object ID of the endpoint's user)
+
+### Date controls
+
+CQD v3 adds the following new Rolling Trend types:
+
+- 5-day
+- 7-day
+- 30-day
+- 60-day
+- 90-day
+
+The URL Date parameter can now accept a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter “00”  indicates “today”.
+
+|URL| End date of Rolling Day Trend|
+|:---|:---|
+|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02/</span>   |Current Day of Feb 2019|
+|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02-15/</span>|Feb 15, 2019|
+|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/00/</span>        |Current Day|
+|||
+
+By default the current day of the month is used as the last day of the Rolling Day Trend.
+
+### Drill Thru Functionality
+
+CQD v3 supports the use of drill through or drill-down fields in SPD reports. If these dimension fields are selected,  the report automatically opens a different report tab and filters on the selected value. Fields with an assigned drill through filter are distinguished by a different cursor icon (the pointer) when you hover over them.
+
+When a drill through field is selected, the Dashboard automatically navigates to the new, specified tab and applies a filter with the selected value. If that tab has its own drill through fields and one is selected, the previous drill through filters and the new one all propagate forward. This allows you to build a report that progressively narrows the resulting data set.
+
+For example, in a Call quality drill-through report, a user can click the date they would like to 'drill-through', which leads to the Location tab.
+
+![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+
+You can add multiple dates from the location tab, such as adding 2019-09-22 to Date: 2019-09-24: 
+
+![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+
+> [!NOTE]
+> Don't jump directly to the last tab. Without filters selected from a previous drill-through the results would be too large to show on a table.
+
