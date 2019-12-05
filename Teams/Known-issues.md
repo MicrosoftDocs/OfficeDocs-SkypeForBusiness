@@ -208,11 +208,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Cannot close Teams application. <br/> |Can't close using the default `$mod + shift + q` or by clicking the close button in the app. <br/> | <br/> |12/05/19  <br/>|
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Notifications are too big. <br/> |Notifications are really big in i3. <br/> | <br/> |12/05/19  <br/>|
+|Cannot close Teams application using keyboard. <br/> |Can't close using the default `$mod + shift + q` or by clicking the close button in the app. <br/> | <br/> |12/05/19  <br/>|
 
 ## Meetings
 
