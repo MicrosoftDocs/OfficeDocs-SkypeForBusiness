@@ -99,6 +99,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
 |[Sennheiser SP30](https://en-us.sennheiser.com/sp-30)   |2.1.52  |
+|[Sennheiser SP30T](https://en-us.sennheiser.com/sp-30)  |3.2.63  |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
