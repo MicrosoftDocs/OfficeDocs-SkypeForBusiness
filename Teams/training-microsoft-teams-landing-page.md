@@ -28,7 +28,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -47,7 +47,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -66,7 +66,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user.svg" alt="A person icon representing a user" />
+                            <img src="https://docs.microsoft.com/office/media/icons/user.svg" alt="A person icon representing a user" />
                         </div>
                     </div>
                     <div class="cardText">
