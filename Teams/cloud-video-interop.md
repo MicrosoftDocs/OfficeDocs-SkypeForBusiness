@@ -46,7 +46,7 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![The logo representing Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
 |![The logo representing Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
 |![The logo representing BlueJeans Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
-|![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/global-partners/microsoft/microsoft-teams.html" target="_blank">Citrix</a> |
+|![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 
 ### Cloud Video Interop overview
 
