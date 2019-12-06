@@ -92,9 +92,7 @@ To learn more about policy packages, including step-by-step guidance on how to a
 
 ## Assign a policy to a batch of users
  
-With batch policy assignment, you can assign a policy to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyAssignmentOperationd``` cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation Id is generated for each batch.
-
-You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch.
+With batch policy assignment, you can assign a policy to large sets of users at a time without having to use a script. You use the ```New-CsBatchPolicyAssignmentOperationd``` cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation Id is generated for each batch. You can then use the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to track the progress and status of the assignments in a batch.
 
 A batch can contain up to 20,000 users. You can specify users by their object Id, user principal name (UPN), Session Initiation Protocol (SIP) address, or email address.
 
@@ -162,7 +160,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules.  When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to the inheritance rules.
 
-You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address. You can then use the ```Get-CsGroupPolicyAssignment``` cmdlet to track the status of the assignment to group members according to inheritance rules.
+You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address. The cmdlet returns an operation Id that you can use together with the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to check the status of the propagation of the policy to members of the group.
 
 > [!NOTE]
 > Currently, group policy assignment isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
@@ -189,7 +187,6 @@ is the system default policy for that policy type.
 When you assign a policy to a group, set a priority. The priority indicates which group membership is more important or more relevant than other group memberships with regards to policy inheritance.
  
 Say, for example, an organization has two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should take precedence.
-
 
 |Group |Teams calling policy name  |Priority|
 |---------|---------|---|
@@ -222,6 +219,10 @@ Connect-AzureAD
 
 In this example, we 
 
+```
+Connect-AzureAD
+```
+
 To learn more, see [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment).
 
 ### Get policy assignments for a group
@@ -242,7 +243,7 @@ To learn more, see [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powe
 
 ### Remove a policy from a group
 
-Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to priority 2 and priority 3. The following two tables illustrate this example.
+Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to reflect their new priority. The following two tables illustrate this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
@@ -261,7 +262,7 @@ If we remove the West Region policy from the West Region group, the policy assig
 |Division    |Division policy         |2         |
 |Subsidiary   |Subsidiary policy        |3        |
 
-In this example, we remove the Teams meeting policy from a group. 
+In this example, we remove the Teams meeting policy from a group.
 
 ```
 Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy  -GroupId f985e013-0826-40bb-8c94-e5f367076044 5d2c995d-282d-45ba-940b-a2d4052019a0
@@ -271,21 +272,19 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 ### Change a policy assignment for a group
 
-After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd```cmdlet to make the following changes to that group's policy assignment:
+After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd```cmdlet to make the following updates to that group's policy assignment:
 
 - Change the priority
 - Change the policy of a given policy type
 - Change the policy of a given policy type and the priority
 
-In this example, we 
+In this example, we change a group's Teams meeting policy to a policy named SalesMeeting Policy and the priority to 3.
 
-
+```
+Set-CsGroupPolicyAssignment -GroupId f985e013-0826-40bb-8c94-e5f367076044 -PolicyType TeamsMeetingPolicy -PolicyName SalesMeetingPolicy -Priority 3 d3b65ad6-a9d4-48f6-bb6f-5191ea7c0ff4
+```
 
 To learn more, see [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
-
-### Get the policies for a user
-
-### Get the status of initial policy propagation
 
 ## Related topics
 
