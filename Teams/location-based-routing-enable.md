@@ -3,7 +3,6 @@ title: Enable Location-Based Routing for Direct Routing
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
@@ -11,12 +10,10 @@ audience: admin
 search.appverid: MET150
 description: Learn how to enable Location-Based Routing for Direct Routing.
 localization_priority: Normal
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Enable Location-Based Routing for Direct Routing
@@ -44,7 +41,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Use the [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to create a voice routing policy to associate the user with the appropriate PSTN usages.
+2. Use the [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to create a voice routing policy to associate the user with the appropriate PSTN usages.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -158,7 +155,6 @@ In this example, we prevent PSTN toll bypass to User1's calling policies.
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### Related topics
-- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-- [Location-Based Routing terminology](location-based-routing-terminology.md)
+## Related topics
+
+- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)

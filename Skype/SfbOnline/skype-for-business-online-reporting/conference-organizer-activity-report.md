@@ -36,12 +36,7 @@ This report, along with the other Skype for Business reports, gives you details 
 
 1. Go to the admin center > **Reports** > **Usage**.
     
-2. On the **Usage** page, click **Skype for Business conference organizer activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business conference organizer activity** on the **Skype for Business activity** list.
-    
-     ![Menu for Skype reports with Business conference organizer activity highlighted](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > Depending on the Office 365 subscription you have, you might not see all the products and activity reports shown here. 
+2. On the **Usage** page, select **Skype for Business** >**Conference organizer activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business conference organizer activity** on the **Skype for Business activity** list.
   
 ## Interpret the Skype for Business conferences organizer report
 

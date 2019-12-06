@@ -3,7 +3,6 @@ title: What the guest experience is like
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -12,26 +11,26 @@ search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 What the guest experience is like
 =================================
 
-When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
+When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation by selecting **Open Microsoft Teams** in the email message before they can access the team and its channels.
     
 ![Screen shot showing an example of a welcome email message](media/guest-experience-image1.png)
     
-All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "(Guest)" label appears next to each guest's name.
+All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a **(Guest)** label appears next to each guest's name.
     
 ![Screenshot showing banner notification guest users](media/guest-experience-image2.png "Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating that the team has guests and users who are guests are identified with the word GUEST next to their name.")
 
 ## Comparison of team member and guest capabilities
 
-The following table compares the Microsoft Teams functionality available for an organization's team members to the functionality available for a guest user on the team.
+The following table compares the Teams functionality available for an organization's team members and its guests.
 
 |**Capability in Teams**|**Teams user in the organization**|**Guest user**|
 |:-----|:-----|:-----|
@@ -51,9 +50,9 @@ The following table compares the Microsoft Teams functionality available for an 
 |View organization chart  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Use inline translation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-The following table shows the calling and meeting features available to guests.
+The following table shows the calling and meeting features available to guests, compared to other types of users.
 
-| Calling feature | Guest | E1 and E3 user | E5 and EV user |
+| Calling feature | Guest | E1 and E3 user | E5 and Enterprise Voice user |
 | --------------- | ----- | -------------- | -------------- |
 | VOIP calling | Yes | Yes | Yes |
 | Group calling | Yes | Yes | Yes |
@@ -86,36 +85,29 @@ The following table shows the calling and meeting features available to guests.
 
 > [!NOTE]
 > Office 365 admins control the features available to guests. 
- 
-## Guest access vs. external access (federation)
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
- 
 ## Frequently asked questions
 
-Q. How do I leave an organization that I've been invited to?<br>
-A. If you've been invited to an organization that you don't want to be a guest of, you can choose to leave the organization. For more information, go to [Leave an organization as a guest user](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Alternatively, you can ask the admin of the organization to remove you from their tenant. Note that in either case you'll need to be re-invited to the tenant if you want to access the organization in the future.
+### How do I leave an organization that I've been invited to?
+If you've been invited to an organization that you don't want to be a guest of, you can choose to leave the organization. For more information, go to [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Alternatively, you can ask the admin of the organization to remove you from their tenant. Note that in either case you'll need to be re-invited to the tenant if you want to access the organization in the future.
 
-Q. Do guests have the same capabilities as team members?<br>
-A. No. For more information about what a guest can and cannot do, go to [Comparison of team member and guest capabilities](#comparison-of-team-member-and-guest-capabilities) in this article.
+### Do guests have the same capabilities as team members?
+No. For more information about what a guest can and cannot do, go to [Comparison of team member and guest capabilities](#comparison-of-team-member-and-guest-capabilities) in this article.
 
-Q. How many guests can I invite?<br>
-A. You can add up to 5 guests per licensed user.
+### Do guests have access to OneDrive for Business?
+No.
 
-Q. Do guests have access to OneDrive for Business?<br>
-A. No.
+### Do guests have access to SharePoint files?
+Yes.
 
-Q. Do guests have access to SharePoint files?<br>
-A. Yes.
+### Can guests search within files?
+No.
 
-Q. Can guests search within files?<br>
-A. No.
+### Can guests attach files?
+Yes, a guest can attach files in these two ways:
 
-Q. Can guests attach files?<br>
-A. Yes, a guest can attach files in these two ways:
-
-   - Select Files in the left pane, and then browse to the file location.
+   - Select **Files** in the left pane, and then browse to the file location.
    - Upload files from their computer.
 
-Q. Can a guest download a file in a private chat?<br>
-A. Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
+### Can a guest download a file in a private chat?
+Yes, they can receive a file from a member in a private chat, and then download it to their desktop.

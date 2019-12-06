@@ -7,7 +7,8 @@ ms.reviewer: sohailta
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state."
 ---

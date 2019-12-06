@@ -9,8 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection: 
-- Strat_SB_Admin
-- M365-voice
+  - M365-collaboration
 ms.custom: 
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: "This article describes how to set up the Microsoft Teams Rooms console and its peripherals."
@@ -41,6 +40,9 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 
 > [!NOTE]
 > The process below is for creating installation media to image new Microsoft Teams Rooms devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
+
+> [!IMPORTANT]
+> The Windows 10 machine used to create the Microsoft Teams Rooms installation media must be on the same or later version of Windows as the target installation media.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
@@ -158,7 +160,7 @@ After Windows is installed, the Microsoft Teams Rooms console app will go into i
     
 6. Click **Finish**.
     
-The Microsoft Teams Rooms console app should immediately start signing in to Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the console app, refer to the [Microsoft Teams Rooms help](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+The Microsoft Teams Rooms console app should immediately start signing in to Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the console app, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Microsoft Teams Rooms relies on the presence of certified console hardware. Even a correctly created image containing the Microsoft Teams Rooms console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check.

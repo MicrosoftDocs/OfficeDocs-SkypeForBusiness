@@ -8,7 +8,8 @@ ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "This article discusses lifecycle support for Microsoft Teams Rooms."
 ---
@@ -45,6 +46,7 @@ The following table shows recommended and supported versions of Windows 10 that 
 
 |Version  |Availability date   |Microsoft Teams Rooms support status   |Microsoft Teams Rooms Minimum application version | Recommended OS build  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |Currently validating, <br/>Not Recommended|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |Supported &#x2780;, <br/>Recommended  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |Skipped, <br/>Not recommended &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Supported                             |4.1.22.0 |17134.191|
@@ -60,7 +62,7 @@ When you use a supported version of Windows 10, you will always get the latest a
 
 ## See also
 
-[Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams Rooms release notes](srs2-release-note.md)
 

@@ -6,17 +6,16 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.  
+description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.
 f1keywords: 
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
+  - ms.teamsadmincenter.dashboard.helparticle.liveevents
+  - ms.teamsadmincenter.liveevents.policies
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # What are Microsoft Teams live events?
@@ -69,7 +68,7 @@ The live event streaming platform is made up of the following pieces:
 ### Enterprise Content Delivery Network (eCDN)
 The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting network performance. You can use one of the following certified eCDN partners to optimize your network for live events held within your organization:
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](http://www.kollective.com)
+- [Kollective](https://kollective.com/microsoft-pilot/)
 - [Ramp](http://www.ramp.com)
 
 ### Attendee experience 

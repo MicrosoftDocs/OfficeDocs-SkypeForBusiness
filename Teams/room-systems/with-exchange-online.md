@@ -9,9 +9,8 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection: 
-- Strat_SB_Admin
-- M365-voice
-ms.custom:
+  - M365-collaboration
+ms.custom: 
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online."
 ---
@@ -82,10 +81,10 @@ Import-PSSession $Session -DisableNameChecking
 
 ### Assign an Office 365 license
 
-1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred
@@ -128,7 +127,7 @@ Import-PSSession $Session -DisableNameChecking
     If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### Assign a Skype for Business Server license to your Microsoft Teams Rooms account

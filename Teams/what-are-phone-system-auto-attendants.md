@@ -11,16 +11,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
-ms.custom:
-- Phone System
+ms.custom: 
+  - Phone System
 description: "Learn what Cloud  auto attendants are and how to use them."
 ---
 
@@ -226,7 +225,7 @@ To set up an auto attendant and the menu options, go [Set up a Cloud auto attend
 
 You can assign a Microsoft service number, a direct routing number, or a hybrid number to your auto attendant's linked resource account (or to several resource accounts if more than one phone number is desired). See [Plan Direct Routing](direct-routing-plan.md) for additional details.
 
-To assign a service number, you will need to get or port your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they show up in **Skype for Business admin center** > **Voice** > **Phone numbers**. **Number type** is listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+To assign a service number, you will need to get or port your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they show up in **Skype for Business admin center** > **Voice** > **Phone numbers**. **Number type** is listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.
