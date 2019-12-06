@@ -24,7 +24,7 @@ As an admin, you use policies to control how users in your organization use Micr
 
 Each policy type in Teams includes a built-in global (Org-wide default) policy that users automatically get unless you create and assign a custom policy. Organizations have different types of users with unique needs and policies that you create and assign let you tailor policy settings to different sets of users based on those needs.
 
-To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. The option that you choose depends on the number of policies that you're assigning and the number of users that you're assigning to. This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
+To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. You can assign a policy to individual users, to a batch of users, or to a group. You can also use policy packages to assign a preset collection of policies to users who have similar roles. The option that you choose depends on the number of policies that you're managing and the number of users that you're assigning to. This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
 
 ## Overview
 
@@ -240,9 +240,9 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 ### Remove a policy from a group
 
-When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to reflect their new position in the ordered list.
+When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to priority 2 and priority 3. The following two tables that illustrate this example.
 
-The following table lists the policy assignments and priorities for a Teams meeting policy.
+Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
 |Group name  |Policy name  |Priority|
 |---------|---------|---------|
@@ -267,7 +267,11 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy  -GroupId f985e013
 
 ### Update a policy assignment for a group
 
-You use the [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment) cmdlet to update a group policy assignment
+Use the [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment) cmdlet to do the following:
+
+- Change the priority
+- Change the policy of a given policy type
+- Change the policy of a given policy type and the priority
 
 ### Get the policies for a user
 
