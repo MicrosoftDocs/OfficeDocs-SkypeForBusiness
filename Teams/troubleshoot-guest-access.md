@@ -20,7 +20,7 @@ Troubleshoot problems with guest access in Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
-> You may have to wait for up to 24 hours for your changes to take effect. 
+> You may have to wait up to 24 hours for your changes to take effect. 
 
 
 - To check for current support issues with guest access in Teams, go to [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
