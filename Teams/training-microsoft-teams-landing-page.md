@@ -8,15 +8,13 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Microsoft Teams Training
 
@@ -30,7 +28,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="A map icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +47,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +66,7 @@ appliesto:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user.svg" alt="A person icon representing a user" />
+                            <img src="https://docs.microsoft.com/office/media/icons/user.svg" alt="A person icon representing a user" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -88,6 +86,17 @@ appliesto:
 Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.
 <ul class="panelContent cardsW">
     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams Essentials for IT</h3>
+                         <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft Mechanics "Teams for IT" video series shows you - the admin - how to roll out, configure, and manage Teams.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

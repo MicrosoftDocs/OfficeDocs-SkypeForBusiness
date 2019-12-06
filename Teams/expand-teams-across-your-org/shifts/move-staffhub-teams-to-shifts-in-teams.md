@@ -2,7 +2,7 @@
 title: Move your StaffHub teams to Shifts in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -10,9 +10,12 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to move your Microsoft StaffHub teams and schedule data to Shifts in Microsoft Teams.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
+  - SPO_Content
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams
@@ -102,17 +105,29 @@ These users have inactive accounts and show a user state of Unknown, Invited, or
 
 #### Get a list of all inactive accounts on StaffHub teams
 
-Run the following to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file.
+Run the following series of commands to get a list of all inactive accounts on StaffHub teams and export the list to a CSV file. Each command should be run separately.
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### Link the account
@@ -248,6 +263,7 @@ Run the following to get a list of all StaffHub teams in your organization.
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -288,6 +304,7 @@ After you create the CSV file, run the following to move the teams you specified
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -315,7 +332,9 @@ Run the following to get more information about "Failure" errors that occur when
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 

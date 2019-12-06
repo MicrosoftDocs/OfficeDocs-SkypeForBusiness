@@ -8,7 +8,8 @@ ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection: 
+  - M365-collaboration
 localization_priority: Normal
 description: "Read this topic to learn about management of Microsoft Teams Rooms, the next generation of Skype Room Systems."
 ---
@@ -38,15 +39,15 @@ The logs will be output as a ZIP file in c:\rigel.
 Configure the Front of Room display to Extended mode. Doing so will ensure that the console UI is not duplicated on that display when you cycle power on the display.
   
 > [!NOTE]
-> If you desire a front of room display to automatically switch to an active video source (such as an MTR console) when the source wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior. 
+> If you desire a front of room display to automatically switch to an active video source (such as an MTR console) when the source wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior. 
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
 
-If Microsoft Teams Rooms isn't running well, performing a factory reset might help. This can be done in the Settings app on the **Recovery** tab. Beneath **Reset this PC**, select **Get started**, and then **Remove everything**. Follow the remaining prompts to reset the device.
-  
+If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Room recovery tool](recovery-tool.md) and follow the factory restore instructions.
+
 > [!NOTE]
-> There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do _not_ use this option.
+> There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
   
 ## Supported Remote Options
 <a name="RemoteOptions"> </a>

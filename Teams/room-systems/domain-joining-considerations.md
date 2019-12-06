@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System domain joining considerations"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,6 +9,8 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
+ms.collection:
+  - M365-collaboration
 description: "Read this topic to learn how to join a Skype Room System appliance PC to your domain."
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->

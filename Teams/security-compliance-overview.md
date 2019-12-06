@@ -12,12 +12,11 @@ description: An overview of security and compliance features of Microsoft Teams,
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+  - M365-collaboration
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Overview of security and compliance in Microsoft Teams
@@ -33,7 +32,10 @@ Teams also enforces team-wide and organization-wide two-factor authentication, s
 
 We also added support for audit log search, eDiscovery and legal hold for channels, chats and files as well as mobile application management with Microsoft Intune. Go to the Office 365 Security & Compliance Center to manage these settings. 
 
-To learn more about Office 365 security & compliance, read [Configure your Office 365 tenant for increased security](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+To learn more about Office 365 security and compliance, read [Configure your Office 365 tenant for increased security](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+
+> [!NOTE]
+> Currently, [private channels](private-channels.md) supports limited security and compliance features. Support for the full set of security and compliance features in private channels is coming soon.
 
 ## Auditing and Reporting
 
@@ -43,7 +45,7 @@ Audit log search plugs right into the Office 365 Security & Compliance Center an
 
 Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security & Compliance Center. 
 
-Tip: The kind Microsoft Teams can be used to filter through to Microsoft Teams only content i.e. Chat and Channel Messages, Meetings and Calls. 
+Tip: The kind Microsoft Teams can be used to filter through to Microsoft Teams only content i.e. Chat and Channel Messages, Meetings and Calls.
 
 ## eDiscovery
 

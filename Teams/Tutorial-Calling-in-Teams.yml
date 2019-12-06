@@ -13,9 +13,7 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection: 
-  - Teams_ITAdmin_PracticalGuidance
-  - Teams_ITAdmin_Training
-  - M365-collaboration
+  - M365-voice
   appliesto:
   - Microsoft Teams
 
@@ -374,8 +372,7 @@ items:
     to learn more about obtaining user numbers for Calling Plans implementation.
 
     -   To learn more about transferring (porting) phone numbers to Microsoft, see
-    [Transfer phone numbers to Office
-    365](https://docs.microsoft.com/MicrosoftTeams/transfer-phone-numbers-to-office-365).
+    [Transfer phone numbers to Teams](https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
     -   To learn more about emergency address and locations, review [What are
     emergency locations, addresses and call

@@ -9,15 +9,15 @@ ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
+ms.collection: 
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID in Microsoft Teams, and get links to meeting update and migration tools. "
 ---
 

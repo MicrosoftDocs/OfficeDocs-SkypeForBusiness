@@ -9,18 +9,17 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams. 
-f1keywords:
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- ms.teamsadmincenter.appsetuppolicies.allowsideloading
-- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams.
+f1keywords: 
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - ms.teamsadmincenter.appsetuppolicies.allowsideloading
+  - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 ---
 
 # Manage custom app policies and settings in Microsoft Teams
@@ -29,7 +28,7 @@ f1keywords:
 > To use App Studio see [Get started on the Microsoft Teams platform with C#/.NET and App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)
 The last step is not working yet, so you will need to download the zip and install it the old way at [Upload an app package to Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  
+As an admin, you can use custom app policies and settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them.  After you edit the Custom App policy, it can take up to 24 hours for changes to take effect.
 
 ## Overview of custom apps
 
@@ -100,7 +99,7 @@ The org-wide custom app setting, **Allow interaction with custom apps**, applies
 
 #### Configure the org-wide custom app setting
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams apps** > **Permission policies**.
 2. Click **Org-wide app settings**.
 3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
 

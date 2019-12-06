@@ -9,9 +9,10 @@ ms.topic: reference
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
 description: "Read this article to locate media path country codes for Direct Routing."
 ---
 
@@ -40,7 +41,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | American Samoa  | AS |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguilla        | AL |
+| Anguilla        | AI |
 | Antarctica      | AQ | 
 | Antigua and Barbuda | AG |
 | Argentina       | AR |

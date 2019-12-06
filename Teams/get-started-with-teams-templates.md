@@ -11,16 +11,18 @@ ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 description: Learn how to use Teams templates to create a team with predefined channels.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
-# Get started with Teams templates 
+# Get started with Teams templates
+
+> [!NOTE]
+> Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions. 
 
 Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
 
@@ -29,7 +31,7 @@ In this article, we'll explain the properties that can be defined in templates, 
 This article is for you if you're:
 
 - Responsible for planning, deploying, and managing multiple teams across your organization<br>
-- A developer wanting to programmatically create a team with predefined channels and apps 
+- A developer wanting to programmatically create a team with predefined channels and apps
 
 ## Teams template capabilities
 
@@ -44,7 +46,7 @@ Most properties in a team are included and supported by templates. But there are
 | Team settings (for example, member, guest, @ mentions) | Files and content |
 | Auto-favorite channel | |
 | Installed app | |
-| Pinned tabs | | 
+| Pinned tabs | |
 
 > [!NOTE]
 > We'll be adding more template capabilities in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
@@ -53,7 +55,7 @@ Most properties in a team are included and supported by templates. But there are
 
 Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
 
-Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. 
+Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden.
 
 By default the base template is set to **Standard** which doesn't contain any additional proprietary apps or special properties. Below is the current list of base template types available.
 
@@ -71,7 +73,6 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 > [!NOTE]
 > We'll be adding more base template types in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
-
 
 ## Related topics
 

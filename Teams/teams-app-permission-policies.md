@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manage app permission policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
@@ -9,18 +9,17 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization. 
-f1keywords:
-- ms.teamsadmincenter.apppermspolicies.overview
-- ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions  
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- ms.teamsadmincenter.appsetuppolicies.overview
+description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization.
+f1keywords: 
+  - ms.teamsadmincenter.apppermspolicies.overview
+  - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
 # Manage app permission policies in Microsoft Teams
@@ -44,7 +43,7 @@ Use org-wide app settings to control which apps are available across your organi
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
-    ![Screenshot of new app permission policy](media/app-permission-policies-org-wide-settings.png)
+    ![Screenshot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party or custom apps in Teams**: This controls whether users can use third-party or custom apps.

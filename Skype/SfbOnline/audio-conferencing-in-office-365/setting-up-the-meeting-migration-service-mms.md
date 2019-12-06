@@ -89,11 +89,11 @@ In either case, if the user has been assigned an Audio Conferencing license befo
 In the following cases, MMS will update existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
 
 - When you assign or remove a Microsoft Audio Conferencing service license to a user, and that user is not enabled for a third-party audio conferencing provider.
-- When you change the audio conferencing provider of a user from any other provider to Microsoft, provided the user is assigned a Microsoft Audio Conferencing license. For more information, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Also note that support for third party audio conferencing providers [ACP] is scheduled for end of life on April 1, 2019, as [previously announced](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
+- When you change the audio conferencing provider of a user from any other provider to Microsoft, provided the user is assigned a Microsoft Audio Conferencing license. For more information, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Also note that support for third party audio conferencing providers [ACP] is scheduled for end of life on April 1, 2019, as [previously announced](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - When you enable or disable audio conferencing for a user.
 - When you change or reset the conference ID for a user configured to use public meetings.
 - When you move the user to a new audio conferencing bridge.
-- When a phone number from a audio conferencing bridge is unassigned. This is a complex scenario that requires additional steps. For more information, see [Change the phone numbers on your audio conferencing bridge](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+- When a phone number from a audio conferencing bridge is unassigned. This is a complex scenario that requires additional steps. For more information, see [Change the phone numbers on your audio conferencing bridge](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
 Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:
 
@@ -123,7 +123,7 @@ In addition to automatic meeting migrations, admins can manually trigger meeting
 **SourceMeetingType:**
 - Using `SourceMeetingType SfB` indicates that only Skype for Business meetings (whether on-premises or online) should be updated.
 - Using `SourceMeetingType Teams` indicates that only Teams meetings should be updated.
-- Using `SourceMeetingType All` indicates that both Skyep for Business meetings and Teams meetings should be updated. This is the default value for SourceMeetingType.
+- Using `SourceMeetingType All` indicates that both Skype for Business meetings and Teams meetings should be updated. This is the default value for SourceMeetingType.
     
 
 The example below shows how to initiate meeting migration for user ashaw@contoso.com so that all meetings are migrated to Teams:
@@ -169,7 +169,7 @@ If you see any migrations that have failed, take action to resolve these issues 
 1. Determine which users are affected. Run the following command to get the list of affected users, and the specific error that was reported:
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. For each affected user, run the Meeting Migration Tool to manually migrate their meetings.
 

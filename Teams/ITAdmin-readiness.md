@@ -5,19 +5,17 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Training
-- M365-collaboration
+ms.collection: 
+  - M365-collaboration
 search.appverid: MET150
-f1keywords:
-- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+f1keywords: 
+  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Admin training for Microsoft Teams
 
@@ -86,6 +84,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 | Module | Video | PowerPoint deck |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft Mechanics - Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT) | [Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  ||
 | Foundations - Core Components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows Desktop Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Governance, management and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |

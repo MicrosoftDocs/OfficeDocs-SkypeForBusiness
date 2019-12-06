@@ -9,14 +9,13 @@ manager: serdars
 audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+ms.collection: 
+  - M365-voice
+  - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Audio Conferencing in Microsoft Teams
 
@@ -67,7 +66,7 @@ See [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md) to l
 |------------|-------|
 |Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).|
 |Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
-|Do I need to port numbers to use with audio conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).|
+|Do I need to port numbers to use with audio conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 |||
 
 

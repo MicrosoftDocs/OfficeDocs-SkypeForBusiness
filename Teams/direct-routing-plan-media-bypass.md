@@ -9,9 +9,10 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
 description: "Read this topic to learn how to plan for media bypass with Phone System Direct Routing."
 ---
 
@@ -139,15 +140,15 @@ The IP range is 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
 
 - Transport Relays are not B2BUA, which means the codec is never changed between the client and the SBC--even if traffic flows via relays.
 
-### Use of Teams Transport Relays in escalation scenarios if trunk is configured for media bypass
+### Use of Teams Media Processors if trunk is configured for media bypass
 
-Teams Transport Relays are always in the media path in the following scenarios:
+Teams Media Processors are always inserted in the media path in the following scenarios:
 
 - Call is escalated from 1:1 to a group call
 - Call is going to a federated Teams user
 - Call is forwarded or transferred to a Skype for Business user
 
-Ensure your SBC has access to the Transport Relays as described below.    
+Ensure your SBC has access to the Media Processors and Transport Relays ranges as described below.    
 
 
 ## SIP Signaling: FQDNs
@@ -238,7 +239,7 @@ Media traffic flows between the SBC and Teams client if direct connectivity is a
 
 The client must have access to the specified ports (see table) on the public IP address of the SBC. 
 
-Note: If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hairpinning on your NAT device so traffic never leaves the enterprise network equipment.
+Note: If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hair pinning on your NAT device so traffic never leaves the enterprise network equipment.
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|

@@ -9,11 +9,10 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
 description: "Learn what is needed to migrate to Direct Routing from a Skype for Business Online and Teams configuration perspective."
 ---
 
@@ -85,6 +84,8 @@ It is recommended that you remove previously configured voice routing informatio
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
+
 ## Migrating from Office 365 Phone System with on-premises PSTN connectivity via Cloud Connector Edition 
 
 For more information about migrating from Phone System with on-premises PSTN connectivity via Cloud Connector, see the following:
