@@ -38,11 +38,7 @@ All Teams 1:1 or group chats are journaled through to the respective users’ ma
 
 ## eDiscovery of guest-to-guest chats
 
-Without a mailbox, guest-to-guest chats (1xN chats in which there are no home tenant users) would not be indexed, and as a result, would not be included in eDiscovery. To facilitate eDiscovery for guest-to-guest chats, a cloud-based mailbox (or phantom mailbox) is created to store the 1xN data. After the Teams chat data is stored in the cloud-based mailbox, it is indexed for eDiscovery and compliance content search.
-
-The following illustration shows how eDiscovery works for guest-to-guest chats in which there isn’t a mailbox.
-
-![guest-to-guest-chats-with-no-mailbox](media/conduct-an-ediscovery-investigation-of-content-in-microsoft-teams-image2.png)
+Today, for a sceanrio where only guests are participating in 1:1 or 1:N chat, we dont support eDiscvoery of those chat messages. 
 
 ## eDiscovery of private channels
 
