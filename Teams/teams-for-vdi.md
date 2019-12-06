@@ -115,8 +115,8 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links.
 
-    - [32-bit version](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64-bit version](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
     The minimum version of the Teams desktop app that's required is version 1.2.00.31357.
 
