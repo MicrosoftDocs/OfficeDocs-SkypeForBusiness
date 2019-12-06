@@ -22,6 +22,8 @@ Apps let you find content from your favorite services and share it right in Team
 
 We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
 
+You also have the option of creating your own custom apps. See our [developer documentation](/microsoftteams/platform/overview) for more information.
+
 ## Apps deployment decisions
 
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
