@@ -47,6 +47,14 @@ The Teams desktop app was validated with leading virtualization solution provide
   
 Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
+### Partners certified for Teams
+
+The following partners have virtual desktop infrastructure solutions for Teams.
+
+|Partner|Partner solution|
+|----|---|
+|![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+
 ### Citrix Virtual Apps and Desktops requirements
 
 Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
