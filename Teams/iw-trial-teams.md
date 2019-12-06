@@ -22,7 +22,7 @@ Manage the Microsoft Teams Commercial Cloud Trial offer
 The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization. 
 
 > [!IMPORTANT]
-> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality and is now owned and controlled by your organization's billing admin. This makes the trial easier to manage and makes it consistent with all other Microsoft 365 offers. 
+> The Microsoft Teams Commercial Cloud Trial will be replaced by Microsoft Teams Exploratory beginning in January 2020. To learn about this new offer, read [Manage Teams Exploratory license](teams-exploratory.md).
 
 ## What's in the offer
 
