@@ -174,15 +174,15 @@ Before you get started, it's important to understand group policy inheritance ru
 A user has one effective policy for each policy type. For a given policy type, a user's effective policy is determined according to the following:
 
 - A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. This means that if a user is directly assigned a policy of a given type, they won't inherit a policy of the same type from a group.
-- If a user is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy based on the group assignment that has the highest priority.
+- If a user is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest priority.
 
-When a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed, the user's effective policy is updated according to these inheritance rules.
+A user's effective policy is updated according to these inheritance rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
 
 #### Group assignment priority
  
-When you assign a policy to a group, you set a priority for the group assignment. The group assignment priority is used to determine which policy a user should inherit as their effective policy when the user is a member of two or more groups and each group is assigned a policy of the same type.
+When you assign a policy to a group, you set a priority for the group assignment. This is used to determine which policy a user should inherit as their effective policy when the user is a member of two or more groups and each group is assigned a policy of the same type.
 
-The group assignment priority is relative to other group policy assignments of the same type. If you're assigning a policy to two groups, set the priority of one assignment to 1 and the other to 2, with 1 being the highest priority. The group assignment priority indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
+The group assignment priority is relative to other group policy assignments of the same type. For example, if you're assigning a calling policy to two groups, set the priority of one assignment to 1 and the other to 2, with 1 being the highest priority. The group assignment priority indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
  
 Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher priority.
 
