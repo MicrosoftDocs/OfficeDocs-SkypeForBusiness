@@ -158,7 +158,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 ## Assign a policy to a group
 
-Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules. When the membership of a group that's assigned the policy changes or when a policy is removed from a group, the users' policies are updated according to the inheritance rules.
+Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules. 
 
 You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address. The cmdlet returns an operation Id that you can use together with the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to check the status of the propagation of the policy to members of the group.
 
@@ -167,15 +167,24 @@ You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a gro
 
 ### What you need to know about group policy assignment
 
-Before you get started, it's important to understand the concepts of inheritance rules and group policy assignment priority. 
+Before you get started, it's important to understand group policy inheritance rules and group policy assignment priority.
 
 #### Inheritance rules
 
+A user has one effective policy for each policy type. For a given policy type, a user's effective policy is determined according to the following:
+
+- A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. This means that if a user is directly assigned a policy of a given type, they won't inherit a policy of the same type from a group.
+- If a user is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy based on the group assignment that has the highest priority.
+
+When a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed, the user's effective policy is updated according to these inheritance rules.
+
 #### Group assignment priority
  
-When you assign a policy to a group, set a priority for the group assignment. The priority is relative to other group policy assignments of the same policy type and indicates which group membership is more important or more relevant than other group memberships with regards to policy inheritance.
+When you assign a policy to a group, you set a priority for the group assignment. The group assignment priority is used to determine which policy a user should inherit as their effective policy when the user is a member of two or more groups and each group is assigned a policy of the same type.
+
+The group assignment priority is relative to other group policy assignments of the same type. If you're assigning a policy to two groups, set the priority of one assignment to 1 and the other to 2, with 1 being the highest priority. The group assignment priority indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
  
-Say, for example, an organization has two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should take precedence.
+Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher priority.
 
 |Group |Teams calling policy name  |Priority|
 |---------|---------|---|
@@ -206,10 +215,10 @@ Connect-AzureAD
 
 ### Assign a policy to a group
 
-In this example, we assign a Teams meeting policy named AllOn to a group and set the assignment priority to 1.
+In this example, we assign a Teams meeting policy named AllOn to a group with an assignment priority of 1.
 
 ```
-New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName AllOn -Priority 1 dc4beaf9-5ca7-4148-a942-1652d5d0f7a6 
+New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName AllOn -Priority 1 dc4beaf9-5ca7-4148-a942-1652d5d0f7a6
 ```
 
 To learn more, see [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment).
