@@ -484,7 +484,7 @@ For example:
 1. Teams User within customer network resolves URL domain name (DNS) via flow2
 1. Teams User within customer network allocates a media Relay port on Teams Transport Relay via flow 1
 1. Teams User within customer network sends "invite" with ICE candidates via flow 1 to Office 365
-1. OFFICE 365 sends notification to external Teams user via flow 3
+1. Office 365 sends notification to external Teams user via flow 3
 1. Teams external user allocates a media Relay port on Teams Transport Relay via flow 3
 1. Teams external user sends "answer" with ICE candidates via flow 3, which is forwarded back to Teams user A via Flow 1
 1. Teams User A and Teams User B invoke ICE connectivity tests and selects flows 1 and 3, which are relayed by Teams Transport Relay in Office 365
