@@ -153,7 +153,7 @@
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans",
       "redirect_document_id": false 
     },
     {
@@ -433,7 +433,7 @@
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-are-dial-plans.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-dial-plans",
       "redirect_document_id": true 
     },
     {
@@ -1570,6 +1570,15 @@
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider", 
       "redirect_document_id": false
+      },
+   {
+        "source_path": "Teams/upgrade-pro.md", 
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here", 
+        "redirect_document_id": false
+     },      {
+        "source_path": "Teams/add-bots.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots",
+        "redirect_document_id": false
       }
   ] 
 }
