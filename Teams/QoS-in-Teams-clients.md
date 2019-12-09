@@ -56,7 +56,7 @@ To create a QoS audio policy for domain-joined Windows 10 computers, first log o
 
 1. Repeat steps 5-10 to create policies for Video and Application/Desktop Sharing, substituting the appropriate values in steps 6 and 10.
 
-The new policies you’ve created won’t won't ’ ' ' ’ take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by following these steps:
+The new policies you’ve created won’t take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by following these steps:
 
 1. On each computer for which you want to refresh Group Policy, open a Command Prompt as administrator (*Run as administrator*).
 
