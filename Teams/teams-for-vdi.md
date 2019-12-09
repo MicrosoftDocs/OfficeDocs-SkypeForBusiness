@@ -47,6 +47,14 @@ The Teams desktop app was validated with leading virtualization solution provide
   
 Currently, Teams on VDI with audio/video (AV) optimization is certified with Citrix. Review the information in this section to ensure both Citrix and Teams requirements are met for proper functionality.
 
+### Partners certified for Teams
+
+The following partners have virtual desktop infrastructure solutions for Teams.
+
+|Partner|Partner solution|
+|----|---|
+|![The logo representing Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+
 ### Citrix Virtual Apps and Desktops requirements
 
 Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
@@ -115,8 +123,8 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links.
 
-    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [32-bit version](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64-bit version](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
     The minimum version of the Teams desktop app that's required is version 1.2.00.31357.
 
