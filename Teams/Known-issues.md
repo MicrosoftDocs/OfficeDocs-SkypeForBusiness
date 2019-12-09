@@ -168,6 +168,44 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> |9/20/17  <br/>|
 
+## Linux
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|AutoStart on Linux is not working. <br/> |AutoStart on Linux does not start the Teams application. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|White screen when resuming from sleep/suspend. <br/> |When your computer resumes / wakes from sleep or suspend mode there can be a network change (especially when the computer is connected to VPN before put to sleep/suspended) and that takes some time for the computer to reobtain the connection. The combination of these things can lead to a Teams white screen. <br/> |Restarting Teams client will help.  <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Cursor missing when screen sharing. <br/> |While sharing screen, the other party does not see the cursor of the person sharing the screen. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Issue running in parallel with VMWare workstation. <br/> |The Teams application experiences issues when running in parallel with VMWare workstation. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|KDE notifications create new taskbar.<br/> |Notification on KDE creates new window in taskbar. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Package managers not showing changelist. <br/> |Package manager does not show changelist. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Cannot launch Teams client in offline mode. <br/> |Unable to launch Teams Offline in Linux client. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Device settings while in meeting. <br/> |When in a meeting and changing device settings, the Microphone indicator isn't registering anything being picked up. <br/> | <br/> |12/05/19  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Can't close Teams application using keyboard. <br/> |Can't close the Teams application using the default `$mod + shift + q` or by clicking the close button in the app. <br/> | <br/> |12/05/19  <br/>|
+
 ## Meetings
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
