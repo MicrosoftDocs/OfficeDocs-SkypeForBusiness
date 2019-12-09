@@ -465,7 +465,7 @@ Note that:
 
 *Figure 25 - Teams with Express Route optimization*
 
-In the case that Express Route is justified and deployed, then Teams flows could be re-routed from flow 4 to flow 1 and from flow 4' to flow 1'. However, Teams Application has a hard dependency on other Office 365 flows over the internet via flows 4 and 4'; hence these flows must not be blocked.
+In the case that Express Route is justified and deployed, then Teams flows could be re-routed from flow 4 to flow 1 and from flow 4' to flow 1'. However, the Teams application has a hard dependency on other Office 365 flows over the Internet via flows 4 and 4'; hence these flows must not be blocked.
 
 Note that Skype for Business hybrid Edge traffic is routed to the Internet and not to Express Route to communicate with external users and federate with other tenants.
 
