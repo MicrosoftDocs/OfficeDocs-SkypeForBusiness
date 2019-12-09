@@ -333,7 +333,7 @@ This topology includes Teams with Phone System Direct Routing.
 
 Direct Routing enables you to use a third-party Public Switched Telephone Network (PSTN) service provider by pairing a supported on-premises customer-owned Session Border Controller (SBC) hardware device to Office 365, and then connecting the telephony trunk to that device.
 
-To support this scenario, the customer must deploy a certified SBC for Direct Routing from one of Microsoft's certified partners. The SBC must be configured as recommended by the vendor, and be routable from Office 365 for direct UDP traffic. The media may flow directly from Teams and/or the Skype for Business client to the SBC (bypassing the Teams gateway) or traverse through the Teams gateway. The connectivity with the SBC, when the trunk is configured to bypass the Teams gateway, is based on ICE, where SBC supports ICE-Lite, while the Teams/Skype for Business media endpoint supports ICE Full.
+To support this scenario, the customer must deploy a certified SBC for Direct Routing from one of Microsoft's certified partners. The SBC must be configured as recommended by the vendor, and be routable from Office 365 for direct UDP traffic. The media may flow directly from Teams and/or the Skype for Business client to the SBC (bypassing the Teams gateway) or traverse through the Teams gateway. The connectivity with the SBC, when the trunk is configured to bypass the Teams gateway, is based on ICE, where SBC supports ICE-Lite, while the Teams/Skype for Business media endpoint supports ICE Full Form.
 
 [![Microsoft Teams Online Call Flows Figure 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
