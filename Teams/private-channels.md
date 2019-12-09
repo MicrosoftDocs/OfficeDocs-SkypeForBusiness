@@ -135,6 +135,10 @@ Teams manages the life cycle of the private channel SharePoint site collection. 
 
 If a private channel or a team containing a private channel is restored, the site collections are restored with it. If a private channel site collection is restored and it's beyond the 30-day soft delete window for the private channel, the site collection operates as a standalone site collection.
 
+## Private channel messages
+
+Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
+
 ## Considerations around access in private channels
 
 When a new OneNote notebook is created in a private channel, additional users can still get access to the notebook because the behavior is the same as sharing access to any other item in a private channel SharePoint site with a user.
