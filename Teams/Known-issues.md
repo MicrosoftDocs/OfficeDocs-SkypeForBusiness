@@ -180,7 +180,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Cursor missing when screen sharing. <br/> |While sharing screen, other party does not see cursor of person sharing the screen. <br/> | <br/> |12/05/19  <br/>|
+|Cursor missing when screen sharing. <br/> |While sharing screen, the other party does not see the cursor of the person sharing the screen. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
