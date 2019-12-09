@@ -27,7 +27,7 @@ Tags in Microsoft Teams let users communicate with a subset of people on a team.
 
 ## How tags work
 
-A tag can be applied to a person on a specific team. After a tag is applied, it can be used in @mentions in any channel of the team.
+A tag can be applied to a person on a specific team. After a tag is applied, it can be used in @mentions in any standard channel of the team.
 
 Here's some examples of how tags can be used in Teams:
 
@@ -41,7 +41,7 @@ Here's some examples of how tags can be used in Teams:
 
 As an admin, you can control who can apply tags and how tags are used across your organization in the Microsoft Teams admin center.
 
-![Tagging settings in the Microsoft Teams admin center](media/manage-tags-settings.png)
+![Tagging settings in the Microsoft Teams admin center](media/manage-tags-admin-settings.png)
 
 ### Set who can apply tags
 
