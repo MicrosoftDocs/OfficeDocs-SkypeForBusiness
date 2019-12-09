@@ -200,7 +200,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Device settings while in meeting. <br/> |When in a meeting, and changing device settings, the Microphone indicator isn't registering anything being picked up. <br/> | <br/> |12/05/19  <br/>|
+|Device settings while in meeting. <br/> |When in a meeting and changing device settings, the Microphone indicator isn't registering anything being picked up. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
