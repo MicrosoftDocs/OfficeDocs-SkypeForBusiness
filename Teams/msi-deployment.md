@@ -27,7 +27,7 @@ We recommend that you deploy the package to the computer, so all new users of th
 These are the links to the MSI files:
 
 
-|Entity  |32 bitness  |64 bitness  |
+|Entity  |32 bit      |64 bit      |
 |---------|---------|---------|
 |Commercial     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
 |Federal Government - GCC     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
