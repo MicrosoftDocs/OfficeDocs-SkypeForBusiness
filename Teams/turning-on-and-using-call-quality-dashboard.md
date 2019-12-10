@@ -344,22 +344,27 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 
 NEW TABLE - does this work?
 
-|Feature|Summary Reports|Detailed Reports|
+
+|||
+|Column field name|Data type|Example value|
 |:--- |:--- |:--- |
-|Application sharing metric | No | Yes |
-|Customer building information support | Yes | Yes |
-|Customer endpoint information support | Only in <span>cqd.teams.microsoft.com<span/> | Only in <span>cqd.teams.microsoft.com<span/> |
-|Drill down analysis support   | No   | Yes   |
-|Media reliability metrics   | No   | Yes   |
-|Out-of-the-box reports   | Yes   | Yes   |
-|Overview reports   | Yes   | Yes   |
-|Per-user report set   | No   | Yes   |
-|Report set customization (add, delete, modify reports)   | No   | Yes   |
-|Video-based screen sharing metrics   | No   | Yes   |
-|Video metrics   | No   | Yes   |
-|Amount of data available   | Last 6 months   | Last 6 months   |
-|Microsoft Teams data   | Yes   | Yes   |
-| | | |
+|NetworkIP | String | 192.168.1.0 |
+|NetworkName    | String|USA/Seattle/SEATTLE-SEA-1|                 
+|NetworkRange|Number|26|
+|BuildingName|String|SEATTLE-SEA-1|
+|OwnershipType|String|Contoso|
+|BuildingType|String|IT Termination|
+|BuildingOfficeType|String|Engineering|
+|City   |String| Seattle|
+|ZipCode|String|98001|
+|Country|String|US|
+|State |String|WA|
+|Region|String|MSUS|
+|InsideCorp&dagger;|Boolean|0|
+|ExpressRoute&Dagger;|Boolean|0|
+|VPN (optional)|Boolean|0|
+||||
+
 
 ORIGINAL TABLE
 
