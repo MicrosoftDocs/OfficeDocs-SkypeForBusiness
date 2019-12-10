@@ -26,7 +26,7 @@ description: "See how to turn on and use the Call Quality Dashboard and get summ
 
 # Turn on and use Call Quality Dashboard (CQD)
 
-Learn how to configure your Office 365 organization to use the Call Quality Dashboard (CQD) to monitor call quality.
+Learn how to configure your Office 365 organization to use the Microsoft Call Quality Dashboard (CQD) to monitor call quality.
   
 Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
 
@@ -34,18 +34,17 @@ Open CQD at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (
 
 ## What's the Call Quality Dashboard, and when should I use it?
   
-Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
+Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD looks at aggregate information for an entire Teams or Skype for Business organization. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
   
 Suppose a user's poor call quality is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With  CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
 ![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-CQD's Location-Enhanced Reports aggregate call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
+Location-Enhanced Reports aggregate call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
 
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
-> [!NOTE]
-> To enable building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on CQD's Tenant Data Upload page.
+
 
 ## Assign admin roles for access to CQD
 
@@ -73,11 +72,11 @@ To learn about CQD classifier definitions, read [Stream Classification in CQD](s
 > [!NOTE]
 > To see information about updates and changes to the dashboard, click the **Good news!** banner when it displays in CQD.
 
-## CQD Near-Real-Time (NRT) Data
+## Near-real-time (NRT) data feed
 
-Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+New in November 2019, CQD uses a near-real-time (NRT) data feed. Call Records are available in CQD within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
 
-### PII/EUII Data
+### PII/EUII data
 
 PII or EUII data only comes from the v3 pipeline. Due to compliance reasons, PII/EUII data is only kept for 30 days. As NRT data crosses the 30-day mark, the PII/EUII fields are cleared out, resulting in PII-free NRT data. The PII/EUII fields are:
 
@@ -387,7 +386,7 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 If you find you want to create a specific report that focuses on a dimension of the data in a way the provided detailed reports do not, create a custom report.
 
-From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New** d Click "Edit" in the action menu of a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
+From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click "Edit" in the action menu of a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
 
 ![Edit new reports](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -451,7 +450,7 @@ When you compare data for these two services:
 ======
 ## Latest changes and updates
 
-LOLA - make sure all of this functionality is listed somewhere. Just DON'T make it a version-specific list.
+**LOLA - make sure all of this functionality is listed somewhere. Just DON'T make it a version-specific list.**
 
 The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
 
