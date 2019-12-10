@@ -866,6 +866,7 @@
 ### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ### [Teams client updates](teams-client-update.md)
+### [Troubleshoot installation and update issues](troubleshoot-installation.md)
 
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
