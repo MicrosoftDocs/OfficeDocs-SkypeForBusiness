@@ -59,7 +59,7 @@ The Shifts app in Teams is a schedule management tool that keeps Firstline Worke
 
 #### Which plans is Shifts available in?
 
-Shifts is available in all Enterprise SKUs where Office 365 is available.
+Shifts is available in all Enterprise SKUs where Teams is available.
 
 #### How do I get Shifts? 
 
