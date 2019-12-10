@@ -32,7 +32,7 @@ It's important to know that Shifts currently doesn't support guest users. This m
 
 ## Availability of Shifts
 
-Shifts is available in all Enterprise SKUs where Office 365 is available.
+Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
