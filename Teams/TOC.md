@@ -353,6 +353,7 @@
 #### [Media path country codes](direct-routing-country-codes.md)
 #### [PowerShell script to test Session Border Controller connections](sip-tester-powershell-script.md)
 #### [Manage call notifications](direct-routing-call-notifications.md)
+#### [Set up the Ringback bot](direct-routing-ringback-bot.md)
 
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -865,6 +866,7 @@
 ### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ### [Teams client updates](teams-client-update.md)
+### [Troubleshoot installation and update issues](troubleshoot-installation.md)
 
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
