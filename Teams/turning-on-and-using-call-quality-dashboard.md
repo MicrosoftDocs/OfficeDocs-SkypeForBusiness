@@ -345,7 +345,6 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 NEW TABLE - does this work?
 
 
-
 |Column field name|Data type|Example value|
 |:--- |:--- |:--- |
 |NetworkIP | String | 192.168.1.0 |
