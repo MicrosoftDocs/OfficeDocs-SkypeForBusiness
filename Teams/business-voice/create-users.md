@@ -19,35 +19,36 @@ appliesto:
 
 # Create and license users and assign phone numbers to them
 
-To use :::no-loc text="Microsoft 365 Business Voice":::, a user needs an :::no-loc text="Microsoft 365"::: account with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license. After an account has been created with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign a phone number to it.
+To use :::no-loc text="Microsoft 365 Business Voice":::, you need a :::no-loc text="Microsoft 365"::: account that has a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license. When you have an account with a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign a phone number to it.
 
 ## Create and license users
 
-1. Follow the steps in [Add users individually or in bulk to :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) to add one or more users.
-2. In the **Assign product licenses** pane, be sure to select **:::no-loc text="Microsoft 365 Business Voice with SMS":::**.
+To add users, follow the steps in [Add users individually or in bulk to :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users).
+
+> [!NOTE]
+> In the **Assign product licenses** pane, select **:::no-loc text="Microsoft 365 Business Voice with SMS":::**.
 
 ## Assign phone numbers to users
 
-After users have been created and assigned a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs one. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
+After users are created and assigned a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
 
-1. Go to https://admin.teams.microsoft.com
-2. Enter a name and description for the phone number request
-3. Select **Voice** > **Phone numbers**
-4. Select a phone number you want to assign to a user and select **Edit**
-5. In the **Edit** panel, enter the name of the user you want to assign the number to in **Assigned to** and select **Assign**
-6. In **Emergency location**, enter the location where the user is located, and then select **Apply**
+1. Go to https://admin.teams.microsoft.com.
+2. Enter a name and description for the phone number request.
+3. Select **Voice** > **Phone numbers**.
+4. Select a phone number that you want to assign to a user, and then select **Edit**.
+5. In the **Edit** panel, enter the name of the user you want to assign the number to in **Assigned to**, and then select **Assign**.
+6. For **Emergency location**, enter the location where the user is located, and then select **Apply**
 
 
 ## Get more phone numbers
 
-If you don't have enough phone numbers to assign to new users, you can get more. After you've placed your order, it might take up to 24 hours for the numbers to become available.
+If you don't have enough phone numbers to assign to new users, you can get more. Note that it might take up to 24 hours for numbers that you order to become available.
 
-1. Go to https://admin.teams.microsoft.com
-2. Enter a name and description for the phone number request
-3. Select **Voice** > **Phone numbers**, and then **Add**
-4. Choose the country or region where the phone number should be created
-5. In **Number type**, select **User (subscriber)**
-6. In **Location**, search for the location of the user and select it. If you need to add a new location, select **Add a location**
-7. Choose an area code, enter the number of phone numbers to get, and then click **Next**
-8. Wait for the phone numbers to be reserved, review the numbers chosen and then, if everything looks ok, select **Place order** and then **Finish**.
-
+1. Go to https://admin.teams.microsoft.com.
+2. Enter a name and description for the phone number request.
+3. Select **Voice** > **Phone numbers** > **Add**.
+4. Choose the country or region for the phone number.
+5. For **Number type**, select **User (subscriber)**.
+6. For **Location**, search for the location of the user and select it. To add a new location, select **Add a location**.
+7. Choose an area code, enter the number of phone numbers that you need, and then select **Next**.
+8. Wait for the phone numbers to be reserved, and then view the numbers you get. If everything looks ok, select **Place order** and then **Finish**.
