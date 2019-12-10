@@ -343,6 +343,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
 NEW TABLE - does this work?
+
 |Feature|Summary Reports|Detailed Reports|
 |:--- |:--- |:--- |
 |Application sharing metric | No | Yes |
@@ -361,6 +362,7 @@ NEW TABLE - does this work?
 | | | |
 
 ORIGINAL TABLE
+
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
 |**Column field name**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|City   |ZipCode|Country|State |Region|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (optional)|
