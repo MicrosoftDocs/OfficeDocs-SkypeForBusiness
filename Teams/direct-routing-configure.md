@@ -534,7 +534,7 @@ In this case the Teams user will not receive the calling notification, the call 
 
 ## Translate inbound or outbound phone numbers to an alternate format
 
-Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound numbers based on the patterns they created to ensure interoperability with SBCs. You can use the ```New-TeamsTranslationRule``` cmdlet to set a Number Translation Rules policy to translate the callee or caller number to an alternate format. You can apply the policy to the following:
+Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound numbers based on the patterns they created to ensure interoperability with SBCs. You can use the ```New-TeamsTranslationRule``` cmdlet to set a Number Translation Rules policy to translate the callee or caller number to an alternate format. You can use the policy to translate numbers for the following:
 
 - Inbound calls: Calls from a PSTN endpoint (caller) to a Teams client (callee).
 - Outbound calls: Calls from a Teams client (caller) to a PSTN endpoint (callee).
