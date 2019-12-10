@@ -342,6 +342,25 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 - There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
 
+NEW TABLE - does this work?
+|Feature|Summary Reports|Detailed Reports|
+|:--- |:--- |:--- |
+|Application sharing metric | No | Yes |
+|Customer building information support | Yes | Yes |
+|Customer endpoint information support | Only in <span>cqd.teams.microsoft.com<span/> | Only in <span>cqd.teams.microsoft.com<span/> |
+|Drill down analysis support   | No   | Yes   |
+|Media reliability metrics   | No   | Yes   |
+|Out-of-the-box reports   | Yes   | Yes   |
+|Overview reports   | Yes   | Yes   |
+|Per-user report set   | No   | Yes   |
+|Report set customization (add, delete, modify reports)   | No   | Yes   |
+|Video-based screen sharing metrics   | No   | Yes   |
+|Video metrics   | No   | Yes   |
+|Amount of data available   | Last 6 months   | Last 6 months   |
+|Microsoft Teams data   | Yes   | Yes   |
+| | | |
+
+ORIGINAL TABLE
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
 |**Column field name**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|City   |ZipCode|Country|State |Region|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (optional)|
