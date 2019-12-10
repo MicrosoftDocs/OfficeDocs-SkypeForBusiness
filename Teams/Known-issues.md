@@ -46,7 +46,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|[Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) may not work when using the "Website" tab in the desktop app<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser or IP address restrictions) then that website may not render as a tab inside of Teams in the desktop app <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
+|[Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) may not work when using the "Website" tab in the desktop app<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser or IP address restrictions) then that website may not render as a tab inside of Teams in the desktop app <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
