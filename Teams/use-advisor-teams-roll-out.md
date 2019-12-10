@@ -31,6 +31,8 @@ Advisor for Teams is part of the [Teams admin center](https://admin.teams.micros
 > [!IMPORTANT]
 > Advisor for Teams isn't available for Microsoft 365 Government - GCC High or DoD deployments.
 
+Check out Advisor for Teams in this [Deploy & Configure Teams Intro](https://youtu.be/o2mlsUubIO4?t=44) video (Advisor for Teams is at 0:50-3:15 minutes).
+
 ## Using Advisor for Teams (preview)
 
 You don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments.
