@@ -532,9 +532,9 @@ Direct Routing requires that users be in Teams Only mode to ensure incoming call
 Direct Routing allows you to end the call to a user and send it directly to the users' voicemail. If you want to send the call directly to voicemail, please attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail".
 In this case the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
-## Translate inbound or outbound phone numbers to an alternate format
+## Translate caller and callee numbers for outbound and inbound calls to an alternate format
 
-Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound numbers based on the patterns they created to ensure interoperability with SBCs. You can use the ```New-TeamsTranslationRule``` cmdlet to set a Number Translation Rules policy to translate the callee or caller number to an alternate format. You can use the policy to translate numbers for the following:
+Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound calls based on the patterns they created to ensure interoperability with SBCs. You can use the ```New-TeamsTranslationRule``` cmdlet to set a Number Translation Rules policy to translate the callee or caller number to an alternate format. You can use the policy to translate numbers for the following:
 
 - Inbound calls: Calls from a PSTN endpoint (caller) to a Teams client (callee).
 - Outbound calls: Calls from a Teams client (caller) to a PSTN endpoint (callee).
