@@ -532,17 +532,19 @@ Direct Routing requires that users be in Teams Only mode to ensure incoming call
 Direct Routing allows you to end the call to a user and send it directly to the users' voicemail. If you want to send the call directly to voicemail, please attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail".
 In this case the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
-## Translate inbound or outbound call numbers to an alternate format
+## Translate inbound or outbound phone numbers to an alternate format
 
-Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound numbers based on the patterns they created to ensure interoperability with SBCs. You can set a number translation rules policy to translate the callee or caller number to an alternate format. You can apply the policy to the following:
+Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound numbers based on the patterns they created to ensure interoperability with SBCs. You can use the ```New-TeamsTranslationRule``` cmdlet to set a Number Translation Rules policy to translate the callee or caller number to an alternate format. You can apply the policy to the following:
 
 - Inbound calls: Calls from a PSTN endpoint (caller) to a Teams client (callee).
 - Outbound calls: Calls from a Teams client (caller) to a PSTN endpoint (callee).
 
-You apply the policy at the SBC level. You can assign multiple rules to a SBC. The rules are applied in the order that they appera in Powershell. You can change the order of the rules in the policy.
+The policy is applied at the SBC level. You can assign multiple translation rules to a SBC, which are applied in the order that they appear when you list them by running the ```Get-TeamsTranslationRule``` cmdlet. You can also change the order of the rules in the policy.
+
+To learn more, see New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule, and Remove-TeamsTranslationRule.
 
 > [!NOTE]
-> If you need to manipulate numbers at the user level, create [dial plans](what-are-dial-plans.md). Note that dial plans are only for outbound numbers.
+> If you need to translate phone numbers at the user level, create [dial plans](what-are-dial-plans.md). Note that dial plans are only for outbound numbers.
 
 ## See also
 
