@@ -23,7 +23,7 @@ description: "Learn about what Phone System can do for you. "
 
 # What is Phone System in Office 365?
 
-**Phone System** is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 cloud with Skype for Business Online and Microsoft Teams. Phone System allows you to replace your existing PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
+**Phone System** is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 cloud with Skype for Business Online and Microsoft Teams. Phone System allows you to replace your existing PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more info about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
   
 With Phone System, users can use Skype for Business Online and Microsoft Teams to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and Skype for Business or Microsoft Teams calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business and Microsoft Teams. Phone System admins can manage calling options and settings from the same console used for messaging, collaboration, and so on.
   
