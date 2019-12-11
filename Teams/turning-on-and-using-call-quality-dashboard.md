@@ -28,18 +28,12 @@ description: "Learn how to use the Call Quality Dashboard to monitor call and me
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
-![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
-
-CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams and Skype for Business Online services. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
-
-> [!TIP]
-> To see information about updates and changes to CQD, click the **Good news!** banner when it displays in CQD.
-
-[Open CQD for Skype for Business](#open-cqd-for-skype-for-business)
+CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
 
 > [!IMPORTANT]
 > To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
 
+[Open CQD for Skype for Business](#open-cqd-for-skype-for-business)
 
 ## What's the Call Quality Dashboard, and when should I use it?
   
@@ -133,10 +127,10 @@ You can add multiple dates from the **Location** tab, such as adding 2019-09-22 
 > [!TIP]
 > Don't jump directly to the last tab without first applying filters. Otherwise, the result list might be too large.
 
-## Summary and detailed reports
+## Data available in CQD reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-CQD provides a robust set of call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
+The default summary and detailed CQD reports may be all you need to manage call quality for your org. If you need to, you can [create custom reports](#create-custom-detailed-reports).
 
 |Feature|Summary Reports|Detailed Reports|
 |:--- |:--- |:--- |
@@ -228,7 +222,7 @@ As the names indicate, the classification criteria is based on the type of clien
 
 ## Overview reports
 
-|Name  |Column2  |
+|Name  |  |
 |---------|---------|
 |Location-Enhanced Reports     |This report appears only if you've [uploaded your tenant data](#BKMKTenantDataInformationUpload).        |
 |Reliability Reports     |Includes audio, video, VBSS, AppSharing reports         |
@@ -243,23 +237,23 @@ As the names indicate, the classification criteria is based on the type of clien
 ## Upload Tenant Data information
 <a name="BKMKTenantDataInformationUpload"></a>
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
+The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload tenant, building, and location information, including:
 
 - A map of IP address and geographical information
 - A map of each wireless AP and its MAC address
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
   
 > [!NOTE]
-> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, this information will be visible to Microsoft Engineers for support purposes.
+> Reporting Labels that you upload to CQD will be handled as *Support Data* under your agreement for Office 365, including any information that would otherwise be considered *Customer Data* or *Personal Data*. Please do not include data you do not wish to provide to Microsoft as *Support Data*, as this information will be visible to Microsoft Engineers for support purposes.
 
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
+1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). CQD supports “Building” and “Endpoint” data types.
 2. After you select the file data type, click **Browse** to choose a data file.
 
-   - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
+   - A data file must be a .tsv (tab-separated values) file or a .csv (comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
    - The data file must be no larger than 50 MB.
-   - Files uploaded to cqd.teams.microsoft.com have an expanded row limit of 1,000,000 to keep query performance fast. This limit also applies to CQD v2  on cqd<span></span>.lync<span></span>.com.
+   - Data files have an expanded row limit of 1,000,000 to keep query performance fast. 
    - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
 3. Next, specify a **Start date** and, optionally, **Specify an end date**.
 4. Finally, select **Upload** to upload the file to the CQD server.
@@ -346,7 +340,7 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 If you find you want to create a specific report that focuses on a dimension of the data in a way the provided detailed reports do not, create a custom report.
 
-From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click "Edit" in the action menu of a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
+From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
 
 ![Edit new reports](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -356,6 +350,8 @@ From the pull-down list of reports at the top of the screen displayed at login \
 4. A detailed report name and description can be created with the edit box at the bottom.
 
 ## Frequently Asked Questions
+
+**<font color="red">(SIUNIE, I want to get rid of this entire section. Let's talk about what information we need to weave into the main body of the article. I'm assuming that we no longer need to document older versions of CQD. It seems like we should create a section about "Interpreting CQD reports" instead - that would be quite useful information for an admin, don't you think?)**</font>
 
 ### Why does my CQD v2 report data look different than the CQD v3 report data? 
 
