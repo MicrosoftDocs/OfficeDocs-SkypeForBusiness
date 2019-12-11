@@ -4,7 +4,6 @@ author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
-ms.date: 5/10/2018
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams

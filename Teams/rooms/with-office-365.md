@@ -33,7 +33,7 @@ To enable Skype for Business, you must have the following:
 
 - Your tenant users must have Exchange mailboxes.
 
-- Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Microsoft Teams Rooms licenses](skype-room-systems-v2.md) for details.
+- Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Microsoft Teams Rooms licenses](rooms-licensingmd) for details.
 
 For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
@@ -248,14 +248,14 @@ For validation, you should be able to use any Skype for Business client to sign 
 
 ## See also
 
-[Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md)
+[Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
 
-[Deploy Microsoft Teams Rooms](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](rooms-deploy.md)
 
 [Configure a Microsoft Teams Rooms console](console.md)
 
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

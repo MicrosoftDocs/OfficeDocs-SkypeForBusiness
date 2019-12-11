@@ -63,7 +63,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/rooms-deploy">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

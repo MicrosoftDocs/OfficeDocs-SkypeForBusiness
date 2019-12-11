@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -116,8 +115,8 @@ At startup, if a Microsoft Teams Rooms console finds an XML file named SkypeSett
   
 Depending on how many Microsoft Teams Rooms devices your enterprise has and how you choose to manage to configure them, there are several ways to place the XML configuration file. Once the file is pushed to the console, restart it to process the configuration changes. The XML configuration file is deleted after it is successfully processed. The management methods suggested for Microsoft Teams Rooms devices are discussed in:
   
-- [Configuring Group Policy for Microsoft Teams Rooms](room-systems-v2-operations.md#GroupPolicy)
-- [Remote Management using PowerShell](room-systems-v2-operations.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [Configuring Group Policy for Microsoft Teams Rooms](rooms-operations.md#GroupPolicy)
+- [Remote Management using PowerShell](rooms-operations.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
 You are free to use any method you like so long as you can use it to transfer files and trigger a restart on the console device. The file must be readable, writable, and delete-able by the device's local user account. Preferably it is owned by and has full privileges granted to that user. If the file permissions are not set correctly, the software can fail to apply the settings, can fail to delete the file upon successful processing, and can even potentially crash.
   
@@ -147,6 +146,6 @@ To locate the instance path:
 
 [Content cameras](content-camera.md)
 
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

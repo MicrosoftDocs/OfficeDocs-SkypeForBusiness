@@ -18,7 +18,7 @@ description: "Read this topic to learn how to manage Skype Room System accounts.
 Read this topic to learn how to manage Skype Room System accounts. 
 
 > [!NOTE]
-> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [management overview](../../manage/skype-room-systems-v2/skype-room-systems-v3.md).
   
 ## Move the Skype Room System account between pools
 

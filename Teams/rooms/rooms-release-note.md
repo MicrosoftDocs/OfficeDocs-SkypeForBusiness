@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -294,12 +293,12 @@ Introduced in this update:
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Prepare your environment](srs-v2-prep.md)
+[Prepare your environment](rooms-prep.md)
 
-[Support for Microsoft Teams Rooms Current Branch versions](srs2-lifecycle-support.md)
+[Support for Microsoft Teams Rooms Current Branch versions](rooms-lifecycle-support.md)
 
 [Known issues for Microsoft Teams Rooms](known-issues.md)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
 
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)

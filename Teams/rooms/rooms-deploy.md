@@ -20,8 +20,8 @@ description: "Read this article to learn about deploying Microsoft Teams Rooms."
 Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 
 - Confirming that your deployment locations (rooms) meet the deployment dependencies
-- Creating Microsoft Teams or Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md))
-- Reimaging Microsoft Surface tablets to work as Microsoft Teams Rooms consoles (see [Configure a Microsoft Teams Rooms console](console.md) or [Deploy Microsoft Teams Rooms mass deployment guide](room-systems-scale.md))
+- Creating Microsoft Teams or Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md))
+- Reimaging Microsoft Surface tablets to work as Microsoft Teams Rooms consoles (see [Configure a Microsoft Teams Rooms console](console.md) or [Deploy Microsoft Teams Rooms mass deployment guide](rooms-scale.md))
 - (Optional) Setting up Microsoft Operations Management Suite for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
 - Setting up consoles in meeting rooms and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
@@ -34,9 +34,9 @@ While the ordered devices are being delivered to your organization, work with yo
 
 You can find out more about these dependencies in the planning guidance links below:
 
--   [Check network availability](srs-v2-prep.md#check-network-availability) 
--   [Certificates](srs-v2-prep.md#certificates)
--   [Proxy](srs-v2-prep.md#proxy)
+-   [Check network availability](rooms-prep.md#check-network-availability)
+-   [Certificates](rooms-prep.md#certificates)
+-   [Proxy](rooms-prep.md#proxy)
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Microsoft Teams or Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic.
 
@@ -62,7 +62,7 @@ Depending on the collaboration scenarios that you’ve decided to enable with yo
 | Dial-in conferencing            | Enable meetings started *directly* from the Microsoft Teams Rooms console with dial-in conferencing coordinates | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the Microsoft Teams Rooms console to make and receive PSTN calls                                         | Enabled for Phone System                                                |
 
-For more information about Microsoft Teams Rooms accounts, see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md).
+For more information about Microsoft Teams Rooms accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md).
 
 
 |    |     |
@@ -90,11 +90,11 @@ Define one organizational unit in your on-premises Active Directory or Azure AD 
 
 Create a Group Policy object assigned to the organization unit that contains your Microsoft Teams Rooms computer accounts. Use this to: 
 
--   [Set power and local account settings](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
+-   [Set power and local account settings](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Enable Windows Update.
 -   Enable PowerShell remoting. You can configure a start-up script to run a  simple script: Enable-PSRemoting -Force
 
-You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](room-systems-v2-operations.md#remote-management-using-powershell). 
+You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](rooms-operations.md#remote-management-using-powershell). 
 
 
 ## Configuration and deployment 
@@ -110,7 +110,7 @@ Planning for configuration and deployment covers the following key areas:
 
 ### Account provisioning 
 
-Each Microsoft Teams Rooms device requires a dedicated and unique resource account that must be enabled for both Microsoft Teams or Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Teams or Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md). 
+Each Microsoft Teams Rooms device requires a dedicated and unique resource account that must be enabled for both Microsoft Teams or Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Teams or Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md). 
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Microsoft Teams Rooms systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
@@ -128,7 +128,7 @@ When planning to deploy Microsoft Teams Rooms, you have a number of options to c
 |-------------------------|-----------------------|   
 |Deploying a small number of Microsoft Teams Rooms devices (<10). | If using Surface Pro–based Microsoft Teams Rooms, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
 | Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](console.md), and capture a distribution image to be used with your cloning distribution technology.    |
-| Deploying more than 50 Microsoft Teams Rooms devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as [System Center Configuration Manager](room-systems-scale.md).  |
+| Deploying more than 50 Microsoft Teams Rooms devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as [System Center Configuration Manager](rooms-scale.md).  |
 
 **Pro Tip** - Each Microsoft Teams Rooms must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it’s important to develop a naming convention for Microsoft Teams Rooms deployments that allows support personnel to easily locate the Microsoft Teams Rooms that has been flagged as requiring an action. An example might be using a pattern of MTR-*Site*-*Room Name* (MTR-LON-CURIE). 
 
@@ -169,7 +169,7 @@ You can manually configure each Microsoft Teams Rooms system. Alternatively, you
 
 For more information about how to use the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). 
 
-You can use [remote PowerShell](room-systems-v2-operations.md#remote-management-using-powershell) to pull the Microsoft Teams Rooms configuration for reporting needs. 
+You can use [remote PowerShell](rooms-operations.md#remote-management-using-powershell) to pull the Microsoft Teams Rooms configuration for reporting needs. 
 
 |    |     |
 |-----------|------------|

@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -19,7 +18,7 @@ description: "This article explains the infrastructure preparations for deployin
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
   
-1. Prepare a device account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](room-systems-v2.md) for details.
+1. Prepare a device account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
     
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
@@ -39,7 +38,7 @@ This section contains an overview of the steps required to prepare your environm
     
 ### Create and test a device account
 
-A  *device account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Microsoft Teams Rooms](room-systems-v2.md) for details.
+A  *device account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
   
 ### Check network availability
 
@@ -154,14 +153,14 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
   
 ## See also
 
-[Plan Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan Microsoft Teams Rooms](rooms-plan.md)
 
 [Microsoft Teams Rooms requirements](requirements.md)
   
-[Deploy Microsoft Teams Rooms](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](rooms-deploy.md)
   
 [Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
