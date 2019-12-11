@@ -541,10 +541,28 @@ Sometimes tenant administrators may want to change the callee or caller number f
 
 The policy is applied at the SBC level. You can assign multiple translation rules to a SBC, which are applied in the order that they appear when you list them by running the ```Get-TeamsTranslationRule``` cmdlet. You can also change the order of the rules in the policy.
 
-To learn more, see New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule, and Remove-TeamsTranslationRule.
+To learn more, see New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule, and Remove-TeamsTranslationRule. You use these cmdlets to create, modify, view, and delete number manipulation rules.
 
+And, see [New-CSOnlinePSTNGateway](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinepstngateway)
 > [!NOTE]
 > If you need to translate phone numbers at the user level, create [dial plans](what-are-dial-plans.md). Note that dial plans are only for outbound numbers.
+
+### Examples
+
+In this example, we use the ```New-CsOnlinePSTNGateway``` cmdlet to create a new SBC configuration.
+
+```
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranlationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’ 
+```
+The following table summarizes the translation rules.
+
+|Name  |Pattern |Translation  |
+|---------|---------|---------|
+|AddPlus1     |^(\d{10})$          |+1$1          |
+|AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
+|AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
+|StripPlus1    |^+1(\d{10})$          | $1         |
+
 
 ## See also
 
