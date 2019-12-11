@@ -480,9 +480,9 @@ The steps to create PSTN Usage "International", voice route "International," Voi
    </pre>
 3. Next, create a Voice Routing Policy "No Restrictions". The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
 
-```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+   ```
+   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+   ```
 
     Take note of the order of PSTN Usages:
 
