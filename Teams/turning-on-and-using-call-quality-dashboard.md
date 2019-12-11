@@ -1,5 +1,5 @@
 ---
-title: "Turn on and use Call Quality Dashboard (CQD)"
+title: "Use Call Quality Dashboard (CQD)"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,34 +21,42 @@ f1keywords:
   - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom: 
   - Reporting
-description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
+description: "Learn how to use the Call Quality Dashboard to monitor call and meeting quality in Microsoft Teams and Skype for Business. "
 ---
 
-# Turn on and use Call Quality Dashboard (CQD)
+# Open Call Quality Dashboard (CQD)
 
-Learn how to configure your Office 365 organization to use the Microsoft Call Quality Dashboard (CQD) to monitor call quality.
-  
-Call Quality Dashboard (CQD) provides insight into the quality of calls made using Microsoft Teams and Skype for Business Online services. This topic describes the steps to start collecting data you can use to troubleshoot call quality issues.
+Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
-Open CQD at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**.
+![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+
+CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams and Skype for Business Online services. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
+
+> [!TIP]
+> To see information about updates and changes to CQD, click the **Good news!** banner when it displays in CQD.
+
+[Open CQD for Skype for Business](#open-cqd-for-skype-for-business)
+
+> [!IMPORTANT]
+> To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+
 
 ## What's the Call Quality Dashboard, and when should I use it?
   
-Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD looks at aggregate information for an entire Teams or Skype for Business organization. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
+Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers monitor call and meeting quality at an org-wide level. You'll use CQD to help you *optimize your network*. If you need to look at call and meeting information for a *specific user*, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) instead.
   
-Suppose a user's poor call quality is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With  CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+For example, using CQD, you can determine that a user's poor call quality (which you observed using per-user call analytics) is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Teams or Skype for Business is captured. With CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
 ![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Location-Enhanced Reports aggregate call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
+In CQD, you can upload building and endpoint information, which lets you use Location-Enhanced Reports to analyze call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
 
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 
-
 ## Assign admin roles for access to CQD
 
-If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **(SIUNIE, which roles also give access to per-user call analytics?)**
+If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **<font color="red">(SIUNIE, which roles also give access to per-user call analytics?)**</font>
 
 - Global Administrator
 - Global Reader
@@ -60,25 +68,21 @@ If you want non-admin users (such as helpdesk agents) to use Call Quality Dashbo
 - Reports Reader
 
 > [!NOTE]
-> The Teams Communications Support Engineer, Teams Communications Support Specialist, and Reports Reader roles cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
+> The Teams Communications Support Engineer, Teams Communications Support Specialist, and Reports Reader roles cannot modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
-Read this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
-
-To learn about CQD classifier definitions, read [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md).
-
-  
-> [!NOTE]
-> To see information about updates and changes to the dashboard, click the **Good news!** banner when it displays in CQD.
-
 ## Near-real-time (NRT) data feed
 
-New in November 2019, CQD uses a near-real-time (NRT) data feed. Call Records are available in CQD within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+**<font color="red">(SIUNIE, we can get rid of all the v2 & v3 notes, right?)**</font>
 
-### PII/EUII data
+New in November 2019, CQD uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set. 
 
-PII or EUII data only comes from the v3 pipeline. Due to compliance reasons, PII/EUII data is only kept for 30 days. As NRT data crosses the 30-day mark, the PII/EUII fields are cleared out, resulting in PII-free NRT data. The PII/EUII fields are:
+**(REMOVE???)**  CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
+
+### PII and EUII data
+
+Due to compliance reasons, personally-identifiable information (PII) or end-user identifiable information (EUII) data is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain PII or EUII are cleared, resulting in PII-free NRT data. Fields that contain PII or EUII data are:
 
 - Full IP address
 - Media Access Control (MAC) Address
@@ -88,6 +92,10 @@ PII or EUII data only comes from the v3 pipeline. Due to compliance reasons, PII
 - Machine Endpoint Name
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
+
+> [!NOTE]
+> CQD also provides [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) support, in case EUII access is unavailable.  
+**<font color="red">(SIUNIE, is this note true?)**</font>
 
 ### Date controls
 
@@ -99,7 +107,7 @@ CQD supports the following Rolling Trend types:
 - 60-day
 - 90-day
 
-The URL Date parameter accepts a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter “00”  indicates “today”.
+The URL Date parameter accepts a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend. The URL Date parameter “00”  indicates “today”.
 
 |URL| End date of Rolling Day Trend|
 |:---|:---|
@@ -110,58 +118,26 @@ The URL Date parameter accepts a Day field. Rolling-day reports use dates specif
 
 By default, the current day of the month is used as the last day of the Rolling Day Trend.
 
-### Drill Thru Functionality
+### Drill-down functionality
 
-CQD supports the use of drill through or drill-down fields in SPD reports. If these dimension fields are selected, the report automatically opens a different report tab and filters on the selected value. Fields with an assigned drill through filter are distinguished by a different cursor icon (the pointer) when you hover over them.
+CQD provides drill-down fields in several reports. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
 
-When a drill through field is selected, the Dashboard automatically navigates to the new, specified tab and applies a filter with the selected value. If that tab has its own drill through fields and one is selected, the previous drill through filters and the new one all propagate forward. This allows you to build a report that progressively narrows the resulting data set.
-
-For example, in a Call quality drill-through report, a user can click the date they would like to 'drill-through', which leads to the Location tab.
+For example, in Quality Drill Down Reports, click a date to drill into it on the **Locations** tab.
 
 ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
 
-You can add multiple dates from the location tab, such as adding 2019-09-22 to Date: 2019-09-24: 
+You can add multiple dates from the **Location** tab, such as adding 2019-09-22 to Date: 2019-09-24: 
 
 ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
 
-> [!NOTE]
-> Don't jump directly to the last tab. Without filters selected from a previous drill-through the results would be too large to show on a table.
+> [!TIP]
+> Don't jump directly to the last tab without first applying filters. Otherwise, the result list might be too large.
 
-## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
-
-The first time you sign in as an admin and open CQD, the summary reports get activated. To open CQD:
-
-![An icon that shows the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-
-1. Sign in to your Office 365 organization using Microsoft Teams service admin account, and then select the **Admin** tile to open the Admin center.
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Microsoft Teams admin center.
-3. In the Microsoft Teams admin center, select **Call quality dashboard** in the left pane.
-4. On the page that opens \(https://<span>cqd.teams.microsoft.com<span/>\), click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
-
-    ![Screenshot: shows the credentials prompt](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
-  
-After the first time you sign in, CQD will begin collecting and processing data.  
-> [!NOTE]
-> It may take one or more hours to process enough data to display meaningful results in the reports.
-
-![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
-
-1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
-3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
-
-     ![Screenshot: select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-
-4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
-
-After the first time you sign in, CQD will begin collecting and processing data.  
-
-## Features of the Call Quality Dashboard for Teams and Skype for Business Online
-
+## Summary and detailed reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the editions are summarized here:
-  
+CQD provides a robust set of call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
+
 |Feature|Summary Reports|Detailed Reports|
 |:--- |:--- |:--- |
 |Application sharing metric | No | Yes |
@@ -178,49 +154,24 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |Amount of data available   | Last 6 months   | Last 6 months   |
 |Microsoft Teams data   | Yes   | Yes   |
 | | | |
-
-### Out-of-the-box reports
-
-CQD provides a robust set of call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
   
-### Overview reports
+### Select product data to see in reports
+<a name="BKMKProductFilter"></a>
 
-All editions of the CQD provide a high-level entry point to the overall call quality information, but the way information is presented in Summary Reports is different from Detailed Reports.  
+In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
-Summary Reports provide a simplified tabbed page report view so you can quickly browse and understand the overall call quality status and trends.
-
-The four tabs include:
+![Screenshot: shows the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-- **Overall Call Quality** — provides information about all streams, which is an aggregation that shows monthly and daily trends for:
-  - Server-Client streams
-  - Client-Client streams
-  - Separate Server-Client and Client-Client streams
-- **Server—Client** — provides details for the streams between Server and Client endpoints.
-- **Client—Client** — provides details for the streams between two Client endpoints.
-- **Voice Quality SLA** — provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
+In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
 
-> [!NOTE]
-> CQD works with Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+## Summary Reports
 
-- Call Quality by Region:
-
-  - date-by-region
-  - aggregated down to hour-by-region
-  - specific locations
-  - specific subnet
-  - impacted user or users
-
-- Call Reliability/Failure by Region:
-  - date-by-region
-  - aggregated down to hour-by-region
-  - specific locations
-  - specific subnet
-  - impacted user or users
-
-- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
-- Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
-- Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
-- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
+|Tab  |  |
+|---------|---------|
+|Overall Call Quality     | Aggregate of the other 3 tabs        |
+|Server—Client     |Details of the streams between server and client endpoints         |
+|Client—Client     |Details of the streams between two client endpoints         |
+|Voice Quality SLA     |Info about calls included in the Skype for Business voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)         |
 
 ### Overall Call Quality tab
 
@@ -249,7 +200,7 @@ The overall stream volume helps determine how relevant the calculated Poor perce
   
 ### Server-Client tab and Client-Client tabs
 
-These two tabs provide details for the streams that took place in their endpoint-to-endpoint scenarios. The Server-Client tab has four collapsible sections  that represent four scenarios under which media streams would flow.
+These two tabs provide details for the streams that took place in their endpoint-to-endpoint scenarios. The Server-Client tab has four collapsible sections that represent four scenarios under which media streams would flow.
   
 - Wired Inside
 - Wired Outside
@@ -264,32 +215,32 @@ Similarly, the Client-Client tab has five collapsible sections:
 - Wired Inside — Wifi Inside
 - Wired Inside — Wifi Outside
 
-#### Inside Test
+#### Inside versus Outside
 
-During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test  always classifies the streams as *Outside*.  
+CQD classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test always classifies the streams as *Outside*. 
 
-> [!NOTE]
-> The Inside Test for a Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
+The Inside Test for a Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
   
-#### Wired vs. wifi
+#### Wired versus wifi
 
-As the names indicate, the classification criteria is based on the type of client connections. Again, server is always wired and it isn't included in the calculation.
+As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a Wifi network, then CQD classifies it as Wifi.
   
-> [!NOTE]
-> Given a stream, if one of the two endpoints is connected to a Wifi network, then it is classified as Wifi in CQD.
-  
-## Selecting product data to see in reports
 
-<a name="BKMKProductFilter"></a>
+## Overview reports
 
-In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
-  
-![Screenshot: shows the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
-  
-In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
-  
+|Name  |Column2  |
+|---------|---------|
+|Location-Enhanced Reports     |This report appears only if you've [uploaded your tenant data](#BKMKTenantDataInformationUpload).        |
+|Reliability Reports     |Includes audio, video, VBSS, AppSharing reports         |
+|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms         |
+|Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users         |
+|Failure Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users        |
+|Rate My Call Reports     |Analyze user call ratings by region, location, or by user. Includes verbatim feedback.         |
+|Help Desk Reports     |Help Desk Reports look at call and meeting data for a specific user or for everyone. These reports help identify possible system issues based on network location, devices, or firmware.         |
+|Client Version Reports     |Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.         |
+|Endpoint Reports     |Shows call quality by machine endpoints (computer make and model). These reports include building data, if you've uploaded it.         |
+
 ## Upload Tenant Data information
-
 <a name="BKMKTenantDataInformationUpload"></a>
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
@@ -304,9 +255,6 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 ![Screenshot: shows the Call Quality Dashboard tenant data](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. On the **Tenant Data Upload** page, use the drop-down menu to choose a data file type to upload. The file data type denotes the content of the file (for example, "Building" refers to mapping of IP address and building and other geographical information, “Endpoint” refers to mapping of Endpoint Name to Endpoint Make/Model/Type information). Currently CQD supports “Building” and “Endpoint” data types for cqd.teams.microsoft.com (in preview stage and not officially available yet), cqd.lync.com only supports the "Building" data type.
-
-
-
 2. After you select the file data type, click **Browse** to choose a data file.
 
    - A data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. With a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY,  enter  "NY,NY" in the .csv file.
@@ -327,7 +275,6 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 6. If you choose to use multiple building data files or multiple endpoint data files, some reports generate more slowly.
 
 ### Tenant data file format and structure
-
 <a name="BKMKTenantDataFile"> </a>
 
 ### Building data file
@@ -340,15 +287,13 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 - The data file doesn't include a table header row. The first line of the data file is expected to be real data, not header labels like "Network".
 - Data types in the file can only be String, Integer, or Boolean. For the  Integer data type, the value must be a numeric value. Boolean values must be either 0 or 1.
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
-- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table:
-
-NEW TABLE - does this work?
+- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma delimited):
 
 
 |Column field name|Data type|Example value|
 |:--- |:--- |:--- |
 |NetworkIP | String | 192.168.1.0 |
-|NetworkName    | String|USA/Seattle/SEATTLE-SEA-1|                 
+|NetworkName    | String|USA/Seattle/SEATTLE-SEA-1|
 |NetworkRange|Number|26|
 |BuildingName|String|SEATTLE-SEA-1|
 |OwnershipType|String|Contoso|
@@ -363,16 +308,6 @@ NEW TABLE - does this work?
 |ExpressRoute&Dagger;|Boolean|0|
 |VPN (optional)|Boolean|0|
 ||||
-
-
-ORIGINAL TABLE
-
-||||||||||||||||
-|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
-|**Column field name**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|City   |ZipCode|Country|State |Region|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (optional)|
-|**Data type**        | String    | String                  |Number      | String       | String      | String        |String            |String |String |String |String|String|Boolean   |Boolean     |Boolean|
-|**Example value**    |192.168.1.0|USA/Seattle/SEATTLE-SEA-1| 26         | SEATTLE-SEA-1| Contoso     | IT Termination|Engineering       |Seattle|98001  |US     |WA    |MSUS  | 1        |0           | 0|
-|||||||||||||||||
 
 &dagger; This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes if you decide to.
 
@@ -393,11 +328,11 @@ CQD uses an Endpoint data file. The column values are used in the call record’
 
 - The file must be either a .tsv file (columns are separated by a TAB) or a .csv file (columns are separated by a comma).
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
-- All seven columns use the String data type only. The maximum allowed length is 64 characters.
+- All six columns use the String data type only. The maximum allowed length is 64 characters.
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 - EndpointName must be unique, otherwise the upload fails. If there is a duplicate row or two rows that use the same EndpointName the conflict will  cause incorrect joining.
 - EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678”.
-- There must be seven columns for each row and the columns must be in the following order:
+- There must be six columns for each row and the columns must be in the following order:
 
   **Field order:**
 
@@ -458,121 +393,23 @@ When you compare data for these two services:
   - Corporate network : home network
   
 
+## Open CQD for Skype for Business
+
+![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
+
+1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
+2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
+3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
+
+     ![Screenshot: select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+
+4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
+
+After the first time you sign in, CQD will begin collecting and processing data.  
+
 
 ## Related topics
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-
-[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
-
-[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
-[Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-
-
-======
-## Latest changes and updates
-
-**LOLA - make sure all of this functionality is listed somewhere. Just DON'T make it a version-specific list.**
-
-The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
-
-
-- Call Quality by Region:
-  - date-by-region
-  - aggregated down to hour-by-region
-  - specific locations
-  - specific subnet
-  - impacted user or users
-
-- Call Reliability/Failure by Region:
-  - date-by-region
-  - aggregated down to hour-by-region
-  - specific locations
-  - specific subnet
-  - impacted user or users
-
-- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
-- Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
-- Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
-- Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
-
-Advanced CQD (V3) also provides RBAC support, in case EUII access is not available.  
-
-An admin can manage Skype for Business Server 2019 (not just Skype for Business Online and Microsoft Teams) through CQD version 3. This requires a hybrid implementation and the use of Call Data Connector. See [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) for more information.
-
-CQD version 2 added:
-
-- Data for Microsoft Teams and Skype for Business Online
-- Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data
-- Updated Video and VBSS stream quality classification logic. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the classifier definitions.
-
-Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
-  
-> [!NOTE]
-> To see information about updates and changes to the dashboard,  click the link in the **Good news!** banner when it displays on the dashboard.
-
-CQD version 1 provided Skype for Business Server 2015 admins the following features:
-
-- Access to cached report data for fast access
-- Deep links to report pages for sharing and publishing information
-- Streamlined report editing and creation, and editable metadata for report descriptions
-- Web APIs that give programmatic access to the cube data for use in custom dashboards
-
-## CQD Near-Real-Time (NRT) Data
-
-Advanced CQD (V3, released November 2019) uses a near-real-time data feed. Call Records are available at the CQD portal within 30 minutes of the end of the call. Call Records from the NRT pipeline are only available for a few months before they are removed from the data set. CQD v3 merges data from the current v2 pipeline with NRT data from the v3 pipeline. Queries on the v2 and v3 portals for the data from the Archival period produce the same results. V2 and v3 data queries for the NRT Data and NRT Data + PII periods will be different.
-
-### PII/EUII Data
-
-PII or EUII data only comes from the v3 pipeline. Due to compliance reasons, PII/EUII data is only kept for 30 days. As NRT data crosses the 30-day mark, the PII/EUII fields are cleared out, resulting in PII-free NRT data. The PII/EUII fields are:
-
-- Full IP address
-- Media Access Control (MAC) Address
-- Basic Service Set identifier (BSSID)
-- Session Initiation Protocol (SIP) URI (Skype for Business only)
-- User Principal Name (UPN)
-- Machine Endpoint Name
-- User Verbatim Feedback
-- Object ID (the Active Directory object ID of the endpoint's user)
-
-### Date controls
-
-CQD v3 adds the following new Rolling Trend types:
-
-- 5-day
-- 7-day
-- 30-day
-- 60-day
-- 90-day
-
-The URL Date parameter can now accept a Day field. Rolling-day reports use dates specified in the YYYY-MM-DD format as the last day of the trend.  The URL Date parameter “00”  indicates “today”.
-
-|URL| End date of Rolling Day Trend|
-|:---|:---|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02/</span>   |Current Day of Feb 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02-15/</span>|Feb 15, 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/00/</span>        |Current Day|
-|||
-
-By default the current day of the month is used as the last day of the Rolling Day Trend.
-
-### Drill Thru Functionality
-
-CQD v3 supports the use of drill through or drill-down fields in SPD reports. If these dimension fields are selected,  the report automatically opens a different report tab and filters on the selected value. Fields with an assigned drill through filter are distinguished by a different cursor icon (the pointer) when you hover over them.
-
-When a drill through field is selected, the Dashboard automatically navigates to the new, specified tab and applies a filter with the selected value. If that tab has its own drill through fields and one is selected, the previous drill through filters and the new one all propagate forward. This allows you to build a report that progressively narrows the resulting data set.
-
-For example, in a Call quality drill-through report, a user can click the date they would like to 'drill-through', which leads to the Location tab.
-
-![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
-
-You can add multiple dates from the location tab, such as adding 2019-09-22 to Date: 2019-09-24: 
-
-![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
-
-> [!NOTE]
-> Don't jump directly to the last tab. Without filters selected from a previous drill-through the results would be too large to show on a table.
-
+[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md).
