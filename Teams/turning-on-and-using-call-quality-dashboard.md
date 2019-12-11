@@ -24,7 +24,7 @@ ms.custom:
 description: "Learn how to use the Call Quality Dashboard to monitor call and meeting quality in Microsoft Teams and Skype for Business. "
 ---
 
-# Open Call Quality Dashboard (CQD)
+# Use Call Quality Dashboard (CQD)
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
