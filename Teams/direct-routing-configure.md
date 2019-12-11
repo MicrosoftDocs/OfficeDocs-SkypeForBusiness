@@ -342,14 +342,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 In some cases there is a need to route all calls to the same SBC; please use -NumberPattern ".*"
 
-- Route all calls to same SBC
+Route all calls to same SBC
 
-    ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
-     -OnlinePstnGatewayList sbc1.contoso.biz
-    ```
+```
+Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
+```
 
-Validate that you’ve correctly configured the route by running the `Get-CSOnlineVoiceRoute` PowerShell command using options as shown: 
+Validate that you’ve correctly configured the route by running the `Get-CSOnlineVoiceRoute` PowerShell command using options as shown:
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -401,15 +400,18 @@ RouteType    	    : BYOT
 
 **Step 4:** Grant to user Spencer Low a voice routing policy by using PowerShell.
 
-- In a PowerShell session in Skype for Business Online, type:
+In a PowerShell session in Skype for Business Online, type:
 
-    ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
+```
 
-- Validate the policy assignment by entering this command:
+Validate the policy assignment by entering this command:
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
+
 Which returns:
 <pre>
     OnlineVoiceRoutingPolicy
@@ -456,63 +458,71 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 The steps to create PSTN Usage "International", voice route "International," Voice Routing Policy "No Restrictions," and then assigning it to the user "John Woods" are as follows.
 
 
-1. First, create the PSTN Usage "International." In a remote PowerShell session in Skype for Business Online, enter:
+**Step 1**: Create the PSTN Usage "International." 
 
-   ```
-   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
-   ```
+In a remote PowerShell session in Skype for Business Online, enter:
 
-2. Next, create the new voice route "International."
+```
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+```
 
-   ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-   ```
-   Which returns:
+**Step 2**:  Create the new voice route "International."
 
-   <pre>
-   Identity                  : International 
-   Priority                      : 5
-   Description                   : 
-   NumberPattern                 : .*
-   OnlinePstnUsages          : {International} 
-   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-   Name                            : International
-   </pre>
-3. Next, create a Voice Routing Policy "No Restrictions". The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
+```
+New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+```
+Which returns:
+
+<pre>
+Identity                  : International 
+Priority                      : 5
+Description                   : 
+NumberPattern                 : .*
+OnlinePstnUsages          : {International} 
+OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                            : International
+</pre>
+
+**Step 3**: Create a Voice Routing Policy "No Restrictions". 
+
+The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
-    Take note of the order of PSTN Usages:
+Take note of the order of PSTN Usages:
 
-    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
+If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
 
-    b.	If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+```
 
-   Which returns
+Which returns
 
-  <pre>
-   Identity		: International 
-   OnlinePstnUsages 	: {US and Canada, International}	 
-   Description		:  
-   RouteType	 	: BYOT
-  </pre>
+<pre>
+    Identity		      : International 
+    OnlinePstnUsages : {US and Canada, International}	 
+    Description		 :  
+    RouteType	 	      : BYOT
+</pre>
 
-4. Assign the voice routing policy to the user "John Woods" using the following command.
+**Step 4**: Assign the voice routing policy to the user "John Woods" using the following command.
 
-   ```
-   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-   ```
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
 
-   Then verify the assignment using the command: 
+Then verify the assignment using the command: 
 
-   ```
-   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
-   ```
-   Which returns:
+```
+Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
+```
+
+Which returns:
 
 <pre>
     OnlineVoiceRoutingPolicy
@@ -525,7 +535,6 @@ The result is that the voice policy applied to John Woods’ calls is unrestrict
 ## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
 Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information interoperability between Skype and Teams: [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
-
 
 ## Configuring sending calls directly to voicemail
 
