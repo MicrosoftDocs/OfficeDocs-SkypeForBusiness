@@ -195,7 +195,7 @@ In addition to the ability for users to identify nearby Microsoft Teams Rooms wi
 
 ### Will Skype Room Systems v1 be updated to support Teams meetings?
 
-Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) software has reached end of support on October 9, 2018. This means Skype Room Systems v1 software will no longer get any product updates or fixes anymore. Customers with Lync Room System devices using Skype Room System v1 software are advised to upgrade their devices to Microsoft Teams Rooms. [Learn more](room-systems/lrs-migration.md).
+Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) software has reached end of support on October 9, 2018. This means Skype Room Systems v1 software will no longer get any product updates or fixes anymore. Customers with Lync Room System devices using Skype Room System v1 software are advised to upgrade their devices to Microsoft Teams Rooms. [Learn more](rooms/lrs-migration.md).
 
 ## Management capabilities
 
