@@ -271,7 +271,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 ### Tenant data file format and structure
 <a name="BKMKTenantDataFile"> </a>
 
-### Building data file
+#### Building data file
 
 CQD uses a Building data file, which helps provide useful call details. The Subnet column is derived by expanding the Network+NetworkRange column, then joining the Subnet column to the call record’s First Subnet or Second Subnet column to show Building, City, Country, or Region information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
@@ -316,7 +316,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 >
 > The VPN column is optional and will default to 0.  If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
-### Endpoint data file
+#### Endpoint data file
 
 CQD uses an Endpoint data file. The column values are used in the call record’s First Client Endpoint Name or Second Client Endpoint Name column to show Endpoint Make, Model, or Type information. The format of the data file you upload must meet the following criteria to pass the validation check before upload:
 
