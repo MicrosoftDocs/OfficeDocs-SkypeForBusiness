@@ -338,7 +338,7 @@ EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  Endp
 
 ## Create custom detailed reports
 
-If you find you want to create a specific report that focuses on a dimension of the data in a way the provided detailed reports do not, create a custom report.
+If the default CQD reports don't meet your needs, use these instructions to create a custom report.
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
 
