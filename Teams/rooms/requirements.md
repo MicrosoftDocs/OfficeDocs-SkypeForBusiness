@@ -20,7 +20,7 @@ Microsoft Teams Rooms scale to different room sizes by using a wide variety of c
 
 This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
-Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
+Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
 Also, refer to:
 
