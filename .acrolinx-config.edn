@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["master"]
- :allowed-filename-matches ["Skype/SfBHybrid/" "Teams/"]
+ :allowed-filename-matches ["Skype/SfBHybrid" "Teams"]
  :acrolinx-check-settings
  {
   "languageId" "en"
