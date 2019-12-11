@@ -19,14 +19,14 @@ appliesto:
 
 # Use the Getting Started wizard to set up Business Voice
 
-The Getting Started wizard for Microsoft 365 Business Voice gives you an easy and quick way to start receiving and making phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a Business Voice pilot so you can try it out with a few users before you set it up for everyone. Either way, you can start using Business Voice as soon as the wizard is finished!
+The Getting Started wizard for Microsoft 365 Business Voice gives you an easy and quick way to start receiving and making phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a Business Voice pilot so that you can try it out with a few users before you set it up for everyone.
 
-It's a good idea to read this article before you start the wizard. When you're ready, you can open the wizard by selecting **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Make sure you sign in either with the account you used to create your subscription or another account that's a Global Administrator.
+It's a good idea to read this article before you start the wizard. When you're ready to open the the wizard, select **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Make sure you sign in either with the account you used to create your subscription or another account that's a Global Administrator.
 
 > [!IMPORTANT]
 > Business Voice is currently available in Canada and the United Kingdom. More countries and regions will become available in 2020.
 >
-> Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  We don't support mailboxes located on on-premises Exchange server.
+> Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  We don't support mailboxes located on on-premises Exchange Server.
 
 <!-- After you've finished the wizard, here are a couple articles you can check out to see what you can do with Business Voice and learn how to customize it. If you don't want to customize anything, you're done! You can start using Business Voice right away.
 
@@ -38,14 +38,15 @@ It's a good idea to read this article before you start the wizard. When you're r
 
 <table>
     <tr>
-        <td>If you'd like to change the emergency address, click <b>Edit</b> and enter a new address. The address you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. If it's valid, the address is assigned to all of the users you assign a number to in the next step. If you have employees in more than one location, the Customize Business Voice topic will show you how to add and assign more emergency addresses after you finish the Getting Started wizard.
+        <td>If you'd like to change the emergency address, click <b>Edit</b> and enter a new address. The address you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. If it's valid, the address is assigned to all of users you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Customize Business Voice</a> to add and assign more emergency addresses after you finish the Getting Started wizard.
+
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
     </tr>
 </table>
 
-If you want to know more, see [What are emergency locations, addresses, and call routing](../what-are-emergency-locations-addresses-and-call-routing.md)?
+For more information, see [What are emergency locations, addresses, and call routing](../what-are-emergency-locations-addresses-and-call-routing.md)?
 
 ## Company phone number
 

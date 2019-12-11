@@ -18,7 +18,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Business Voice resources</h1>
-        <P>Learn how to plan, set up, and use Microsoft 365 Business Voice in your organization. Business Voice makes it easy for small and medium organizations to set up a powerful and flexible telephone system without the expense and complexity of in-house solutions. </p>
+        <P>Learn how to plan, set up, and use Microsoft 365 Business Voice in your organization. Business Voice makes it easy for small and medium organizations to set up a powerful and flexible telephone system without the expense and complexity of in-house solutions.</p>
         <P></p>
         <ul class="pivots">
             <li>
