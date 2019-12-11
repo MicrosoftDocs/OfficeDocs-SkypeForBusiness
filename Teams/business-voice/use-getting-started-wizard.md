@@ -52,7 +52,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>In addition to setting up a new phone local phone number, you can choose to purchase a toll-free number or port an existing number to Microsoft 365. If you choose to set up a toll-free number, you'll need to purchase a calling plan. If you want to port one or more numbers to Microsoft 365, you'll have an option to do so in the [Teams admin center](https://admin.teams.microsoft.com) after the wizard completes.
+        <td>In addition to a new local phone number, you can choose to purchase a toll-free number or port an existing number to Microsoft 365. To set up a toll-free number, you'll need to purchase a calling plan. To port one or more numbers to Microsoft 365, use the option to do so in the <a href="https://admin.teams.microsoft.com">Teams admin center</a> after the wizard finishes.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -60,13 +60,13 @@ For more information, see [What are emergency locations, addresses, and call rou
 </table>
 
 > [!IMPORTANT]
-> If you choose to port one or more existing phone numbers to Microsoft 365, you'll still see a temporary phone number in the wizard. This is ok. After you complete the wizard, and you complete the porting process, the temporary phone number will be replaced with your phone number.
+> If you port an existing phone number to Microsoft 365, you'll still see a temporary phone number in the wizard. This is OK. After you complete the wizard and the porting process, the temporary phone number will be replaced by the pre-existing number.
 
-## Assigning licenses to users
+## User licenses 
 
 <table>
     <tr>
-        <td>Select the people in your organization that want to make or receive phone calls outside of Teams (such as calling a supplier). You can select up to the number of available Business Voice licenses you have available. If you need more, you can buy additional licenses when the wizard is finished.
+        <td>To assign user licenses, select the people in your organization who want to make or receive phone calls outside of Teams (such as calling a supplier). You can assign only as many Business Voice licenses you have available. If you need more, you can buy additional licenses when the wizard is finished.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
         </td>
@@ -74,13 +74,13 @@ For more information, see [What are emergency locations, addresses, and call rou
 </table>
 
 > [!IMPORTANT]
-> If you want to port existing phone numbers to Microsoft 365 for individual users, you can do so after the wizard is complete. After you complete the porting process, the ported phone numbers will replace the temporary phone numbers selected by the wizard.
+> You can port existing phone numbers to Microsoft 365 after the wizard is finished. After you complete the porting process, the ported phone numbers will replace the temporary phone numbers that the wizard provided.
 
 ## Incoming call greeting
 
 <table>
     <tr>
-        <td>You can upload a sound file (MP3 or WAV) that's up to 5 Megabytes (MB) to use as a greeting, or you can type out your greeting and Microsoft 365 will use text-to-speech to read it to a caller. The greeting will be the first time callers hear when they call your company phone number. You might need to mis-spell the words or use phonetic spellings to get the pronunciations correct.
+        <td>You can upload a sound file (MP3 or WAV) of up to 5 Megabytes (MB) to use as a call greeting. Or you can type your greeting, and Microsoft 365 will use text-to-speech to read it to the caller. For text-to-spreech, you might need to misspell words or use phonetic spellings to get the pronunciations correct.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
         </td>
