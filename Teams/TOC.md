@@ -924,7 +924,7 @@
 ##### [Set up QoS in Teams](QoS-in-Teams.md)
 ##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 #### Call Quality Dashboard (CQD)
-##### [Turning on and using CQD](turning-on-and-using-call-quality-dashboard.md)
+##### [Use Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
 ##### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ##### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 #### Per-user call analytics

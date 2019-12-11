@@ -408,4 +408,6 @@ After the first time you sign in, CQD will begin collecting and processing data.
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md).
+[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
