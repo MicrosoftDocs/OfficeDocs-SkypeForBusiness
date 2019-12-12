@@ -61,7 +61,7 @@ Introduced in this update:
 - Device Admin Settings UI refresh with addition of device configuration under About tab
 - Room control back to main screen
 - Meeting Room SKU available in GCC
-- Content camera support for surface pro based system 
+- Content camera support for Surface Pro-based system 
 
 ### 4.2.4.0 (10/07/2019)
 
