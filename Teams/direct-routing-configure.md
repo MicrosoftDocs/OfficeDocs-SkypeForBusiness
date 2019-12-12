@@ -100,7 +100,7 @@ Enabled               : True
 </pre>
 There are additional options that can be set during the pairing process. In the previous example, however, only the minimum required parameters are shown. 
  
-The following table lists the additional parameters that you can use in setting parameters for `New-CsOnlinePstnGateway`
+The following table lists the additional parameters that you can use in setting parameters for ```New-CsOnlinePstnGateway```.
 
 |Required?|Name|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -125,7 +125,7 @@ Verify the connection:
 
 After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
 
-The paired gateway should appear in the list as shown in the example below, and verify that the parameter *Enabled* displays the value **True**. Enter:
+The paired gateway should appear in the list as shown in the example below, and verify that the **Enabled** parameter  displays a value of **True**. Enter:
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -288,10 +288,11 @@ Get-CSOnlinePSTNUsage
 ``` 
 Which returns a list of names that may be truncated:
 ```
-  Identity	: Global
-  Usage    	: {testusage, US and Canada, International, karlUsage. . .}
+Identity	: Global
+Usage    	: {testusage, US and Canada, International, karlUsage. . .}
 ```
-In the example below, you can see the result of the running the PowerShell command `(Get-CSOnlinePSTNUsage).usage` to display full names (not truncated). 
+In the example below, you can see the result of the running the PowerShell command `(Get-CSOnlinePSTNUsage).usage` to display full names (not truncated).
+
 <pre>
  testusage
  US and Canada
@@ -308,20 +309,20 @@ In the example below, you can see the result of the running the PowerShell comma
 
 To create the "Redmond 1" route, enter:
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
-  (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-  ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
 
 Which returns:
 <pre>
-Identity                : Redmond 1
-Priority       		: 1
-Description	     	:
-NumberPattern 		: ^\+1(425|206) (\d{7})$
-OnlinePstnUsages 	: {US and Canada}
+Identity              : Redmond 1
+Priority       		    : 1
+Description	     	    :
+NumberPattern 		    : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages 	    : {US and Canada}
 OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
-Name		 	: Redmond 1
+Name		              : Redmond 1
 </pre>
 To create the Redmond 2 route, enter:
 
@@ -414,9 +415,9 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 
 Which returns:
 <pre>
-    OnlineVoiceRoutingPolicy
-    ---------------------
-    US Only
+OnlineVoiceRoutingPolicy
+---------------------
+US Only
 </pre>
 
 #### Creating a Voice Routing Policy with several PSTN Usages
@@ -543,27 +544,28 @@ In this case the Teams user will not receive the calling notification, the call 
 
 ## Translate caller and callee numbers for outbound and inbound calls to an alternate format
 
-Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound calls based on the patterns they created to ensure interoperability with SBCs. You can use the ```New-TeamsTranslationRule``` cmdlet to set a Number Translation Rules policy to translate callee or caller numbers to an alternate format. You can use the policy to translate numbers for the following:
+Sometimes tenant administrators may want to change the callee or caller number for outbound and/or inbound calls based on the patterns they created to ensure interoperability with SBCs. You can set a Number Translation Rules policy to translate callee or caller numbers to an alternate format. You can use the policy to translate numbers for the following:
 
 - Inbound calls: Calls from a PSTN endpoint (caller) to a Teams client (callee).
 - Outbound calls: Calls from a Teams client (caller) to a PSTN endpoint (callee).
 
-The policy is applied at the SBC level. You can assign multiple translation rules to a SBC, which are applied in the order that they appear when you list them by running the ```Get-TeamsTranslationRule``` cmdlet. You can also change the order of the rules in the policy.
+The policy is applied at the SBC level. You can assign multiple translation rules to a SBC, which are applied in the order that they appear when you list them in PowerShell. You can also change the order of the rules in the policy.
 
-To learn more, see New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule, and Remove-TeamsTranslationRule. You use these cmdlets to create, modify, view, and delete number manipulation rules.
+To create, modify, view, and delete number manipulation rules, use the New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule, and Remove-TeamsTranslationRule cmdlets.
 
-And, see [New-CSOnlinePSTNGateway](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinepstngateway)
-> [!NOTE]
-> If you need to translate phone numbers at the user level, create [dial plans](what-are-dial-plans.md). Note that dial plans are only for outbound numbers.
+To assign and configure number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  **-InboundTeamsNumberTranslationRules**, **-InboundPSTNNumberTranslationRules**, **-OutboundTeamsNumberTranslationRules**, and **-OutboundPSTNNumberTranslationRules** parameters.
 
 ### Examples
 
-In this example, we use the ```New-CsOnlinePSTNGateway``` cmdlet to create a new SBC configuration.
+#### Example SBC configuration
+
+We run the ```New-CSOnlinePSTNGateway``` cmdlet to create an SBC configuration that we'll use for these example scenarios.
 
 ```
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranlationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’ 
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranlationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
-The following table summarizes the translation rules.
+
+The translation rules are summarized in the following table.
 
 |Name  |Pattern |Translation  |
 |---------|---------|---------|
@@ -572,6 +574,53 @@ The following table summarizes the translation rules.
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
 |StripPlus1    |^+1(\d{10})$          | $1         |
 
+Alice is a Teams user and her number is  +1 206 555 0100. Bob is a PSTN user ahd his number is +1 425 555 0100.
+
+#### Example 1: Inbound call to a ten-digit number
+
+Bob calls Alice using a non-E.164 ten-digit number. Bob dials 2065550100 to reach Alice.
+SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From header.
+
+|Header  |Original |Translated header |Parameter ane rule applied  |
+|---------|---------|---------|---------|
+|RequestURI  |INVITE sip:2065550100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranslationRulesList ‘AddPlus1’          |
+|TO    |TO: &lt;sip:2065550100@sbc.contoso.comname&gt;          |TO: &lt;sip:+12065550100@sbc.contoso.comname&gt;          |InboundTeamsNumberTranlationRulesList ‘AddPlus1’          |
+|FROM   |FROM: &lt;sip:4255550100@sbc.contoso.comname&gt;          |FROM: &lt;sip:+14255550100@sbc.contoso.comname&gt;          |InboundPSTNNumberTranslationRulesList ‘AddPlus1’          |
+
+#### Example 2: Inbound call to a four-digit number
+
+Bob calls Alice using a four-digit number. Bob dials 0100 to reach Alice.
+SBC uses 0100 in the RequestURI and To headers and 4255550100 in the From header.
+
+|Header  |Original |Translated header |Parameter ane rule applied  |
+|---------|---------|---------|---------|
+|RequestURI  |INVITE sip:0100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList ‘AddE164SeattleAreaCode’        |
+|TO    |TO: &lt;sip:0100@sbc.contoso.com>          |TO: &lt;sip:+12065550100@sbc.contoso.com>          |InboundTeamsNumberTranlationRulesList ‘AddE164SeattleAreaCode’         |
+|FROM   |FROM: &lt;sip:4255550100@sbc.contoso.com>          |FROM: &lt;sip:+14255550100@sbc.contoso.com>          |InboundPSTNNumberTranlationRulesList ‘AddPlus1’        |
+
+#### Example 3: Outbound call using a ten-digit non-E.164 number
+
+Alice calls Bob using a ten-digit number. Alice dials 425 555 0100 to reach Alice.
+SBC is configured to use non-E.164 ten-digit numbers for both Teams and PSTN users.
+
+In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan. A country dial plan can't be modified so removing the "+1" may be a requirement in some cases.
+
+|Header  |Original |Translated header |Parameter ane rule applied  |
+|---------|---------|---------|---------|
+|RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList ‘StripPlus1’         |
+|TO    |TO: &lt;sip:+14255550100@sbc.contoso.com &gt;          |TO: &lt;sip:4255555555@sbc.contoso.com &gt;        |OutboundPSTNNumberTranlationRulesList ‘StripPlus1’       |
+|FROM   |FROM: &lt;sip:+12065550100@sbc.contoso.com &gt;          |FROM: &lt;sip:2065550100@sbc.contoso.com &gt;         |OutboundTeamsNumberTranlationRulesList ‘StripPlus1’         |
+
+#### Example 4: Outbound call using a four-digit non-E.164 number
+
+Alice calls Bob using a four-digit number. Alice calls 0100 to reach Bob from Calls or by using a contact.
+SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-digit numbers for PSTN users. The dial plan isn't applied in this scenario.
+
+|Header  |Original |Translated header |Parameter ane rule applied  |
+|---------|---------|---------|---------|
+|RequestURI  |INVITE sip:0100@sbc.contoso.com           |INVITE sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList ‘AddSeattleAreaCode’         |
+|TO    |TO: &lt;sip:0100@sbc.contoso.com &gt;          |TO: &lt;sip:4255555555@sbc.contoso.com>       |InboundTeamsNumberTranlationRulesList ‘AddSeattleAreaCode’       |
+|FROM   |FROM: &lt;sip:+12065550100@sbc.contoso.com &gt;           |FROM: &lt;sip:2065550100@sbc.contoso.com &gt;        | InboundPSTNNumberTranlationRulesList ‘StripPlus1’ |
 
 ## See also
 
