@@ -29,7 +29,7 @@ Sensitivity labels are different from classification labels that require you to 
 
 On the other hand, sensitivity labels and their policies are automatically enforced end-to-end through a combination of the Groups platform, Security & Compliance Center, and Teams services. Sensitivity labels provide powerful infrastructure support for securing your organization's sensitive data.  
 
-## Create and publish sensitivity labels for Teams
+## Create, manage, and publish sensitivity labels for Teams
 
 For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Office 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
