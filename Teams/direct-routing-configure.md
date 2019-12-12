@@ -584,7 +584,7 @@ SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:2065550100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranslationRulesList ‘AddPlus1’          |
-|TO    |TO: &lt;sip:2065550100@sbc.contoso.com&gt;          |TO: &lt;sip:+12065550100@sbc.contoso.com&gt;          |InboundTeamsNumberTranlationRulesList ‘AddPlus1’          |
+|TO    |TO: &lt;sip:2065550100@sbc.contoso.com&gt;         |TO: &lt;sip:+12065550100@sbc.contoso.com&gt;          |InboundTeamsNumberTranlationRulesList ‘AddPlus1’          |
 |FROM   |FROM: &lt;sip:4255550100@sbc.contoso.com&gt;          |FROM: &lt;sip:+14255550100@sbc.contoso.com&gt;          |InboundPSTNNumberTranslationRulesList ‘AddPlus1’          |
 
 #### Example 2: Inbound call to a four-digit number
