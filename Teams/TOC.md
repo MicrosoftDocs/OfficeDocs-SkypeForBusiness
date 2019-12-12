@@ -358,11 +358,13 @@
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Media path country codes](direct-routing-country-codes.md)
 #### [PowerShell script to test Session Border Controller connections](sip-tester-powershell-script.md)
-#### [Manage call notifications](direct-routing-call-notifications.md)
+#### [Manage call notifications](direct-routing-call-notifications.md)<<<<<<< HEAD
 #### Protocols
 ##### [Definitions and RFC standards](direct-routing-protocols.md)
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
+#### [Set up the Ringback bot](direct-routing-ringback-bot.md)
+
 
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
