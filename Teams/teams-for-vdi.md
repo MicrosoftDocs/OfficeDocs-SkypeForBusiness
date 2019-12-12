@@ -63,12 +63,14 @@ You can download the latest version of Citrix Virtual Apps and Desktops [here](h
 
 For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## Install the Teams desktop app on VDI
+## Install or update the Teams desktop app on VDI
 
 You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI package. Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.
 For a dedicated persistent setup, either approach would work.  However, for a non-persistent setup, per-machine installation is required for Teams to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
 
 With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
+
+To update to the latest Teams version, start with uninstall procedure followed by latest Teams version deployment.
 
 For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet. If internet access isn't available at the thin client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
 
@@ -329,6 +331,7 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 ### Client deployment, installation, and setup
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install the Teams desktop app on VDI](#install-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
+- Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported.  To migrate from either per machine or per user to one of these modes, follow uninstall procedure and redeploy to either mode.
 - MacOs and Linux-based clients are not supported by Citrix at this time.
 - Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint. 
 
