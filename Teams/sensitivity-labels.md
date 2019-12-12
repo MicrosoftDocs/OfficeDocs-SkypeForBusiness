@@ -68,7 +68,7 @@ any user in the tenant.
 
 If team creation begins to fail at any point during the public preview, you have two options:
  - Ensure that sensitivity labels are not mandatory for any user during team creation.
- - Turn off sensitivity labels using the scripts in [Enable this preview](https://docs.microsoft.com/microsoft-365/>compliance/sensitivity-labels-teams-groups-sites#enable-this-preview).
+ - Turn off sensitivity labels using the scripts in [Enable this preview](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview).
 
 Note that the EnableMIPLabels setting must be set to false as follows:
 
