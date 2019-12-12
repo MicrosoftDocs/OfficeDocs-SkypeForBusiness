@@ -393,10 +393,10 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 The result is shown in this example:
 
 <pre>
-Identity	    : Tag:US only
+Identity            : Tag:US only
 OnlinePstnUsages    : {US and Canada}
-Description    	    :
-RouteType    	    : BYOT
+Description         :
+RouteType           : BYOT
 </pre>
 
 **Step 4:** Grant to user Spencer Low a voice routing policy by using PowerShell.
