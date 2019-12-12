@@ -574,7 +574,7 @@ The translation rules assigned to the SBC are summarized in the following table.
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
 |StripPlus1    |^+1(\d{10})$          | $1         |
 
-Alice is a Teams user and her number is  +1 206 555 0100. Bob is a PSTN user ahd his number is +1 425 555 0100.
+In these example scenarios, we have two users, Alice and Bob. Alice is a Teams user and her number is +1 206 555 0100. Bob is a PSTN user and his number is +1 425 555 0100.
 
 #### Example 1: Inbound call to a ten-digit number
 
