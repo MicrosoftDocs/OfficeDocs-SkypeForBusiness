@@ -49,9 +49,6 @@ Teams can also be included with a deployment of Office 365 ProPlus. For more inf
 
 ### PC installation
 
-> [!Note]
-> See [VDI installation](#vdi-installation) for guidance on how to deploy Teams to a Virtual DesktopInfrastructure (VDI) environment.
-
 The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams app will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
 
 Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
@@ -67,26 +64,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 
 ### VDI installation
 
-Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
-
-1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
-
-    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
-
-2. Run the following command to install the MSI to the VDI VM (or complete updating it).
-
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-
-    This installs Teams to Program Files. At this point, the golden image setup is complete.
-
-    The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.
-
-3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
-
-        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
-
-    This uninstalls Teams from Program Files.
+For complete guidance on how to deploy the Teams desktop app on Virtual Desktop Infrastructure (VDI), see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
 
 ## Clean up and redeployment procedure
 
