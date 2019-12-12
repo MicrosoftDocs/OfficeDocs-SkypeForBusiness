@@ -33,7 +33,7 @@ Per-team analytics gives users a more granular view of usage data for a specific
     |Item |Description  |
     |--------|-------------|
     |**Name**   |Name of the team. |
-    |**Active users**   |Number of active users on the team and trend line of team activity during the specified time period.
+    |**Active users**   |Number of active users on the team and trend line of team activity during the specified time period. We define 
     |**People**   |Total number of people on the team in the specified time period. This includes team owners, team members, and guests.|
     |**Guests**   |Number of guests on the team during the specified time period. |
     |**Messages**   |Number of unique messages posted in team chat during the specified time period. |
@@ -53,6 +53,9 @@ Per-team analytics gives users a more granular view of usage data for a specific
     |**Role**   |Numbers of users on the team by role, including team owners, team members, and guests.|
     |**Active users** chart  |Number of active users on the team by date. Hover over the dot on a given date to see the number of active users on that date.|
     |**Messages** chart  |Number of unique messages posted in team chat by date. Hover over the dot on a given date to see the number of unique messages posted on that date.|
+    
+> [!NOTE]
+> We define Active Users as users performing an intentional action in the desktop client, mobile client and web client. Examples of an intentional action includes starting a chat, placing a call, sharing a file, editing a document within teams, participating in a meeting, etc. We strip out passive actions like auto boot, minimizing a screen, or closing the app. We also de-dupe all actions across a single user ID.
 
 ## Related topics
 
