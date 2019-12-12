@@ -105,7 +105,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
