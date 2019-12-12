@@ -316,13 +316,13 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 
 Which returns:
 <pre>
-Identity              : Redmond 1
-Priority       		    : 1
-Description	     	    :
-NumberPattern 		    : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages 	    : {US and Canada}
-OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
-Name		              : Redmond 1
+Identity                : Redmond 1
+Priority                : 1
+Description             :
+NumberPattern           : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages        : {US and Canada}
+OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
+Name                    : Redmond 1
 </pre>
 To create the Redmond 2 route, enter:
 
@@ -475,13 +475,13 @@ New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstn
 Which returns:
 
 <pre>
-Identity                  : International 
-Priority                      : 5
-Description                   : 
-NumberPattern                 : .*
-OnlinePstnUsages          : {International} 
-OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-Name                            : International
+Identity                  : International
+Priority                  : 5
+Description               :
+NumberPattern             : .*
+OnlinePstnUsages          : {International}
+OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                      : International
 </pre>
 
 **Step 3**: Create a Voice Routing Policy "No Restrictions". 
@@ -559,13 +559,13 @@ To assign and configure number manipulation rules on SBCs, use the [New-CSOnline
 
 #### Example SBC configuration
 
-We run the ```New-CSOnlinePSTNGateway``` cmdlet to create an SBC configuration that we'll use for these example scenarios.
+For the example scenarios, we run the ```New-CsOnlinePSTNGateway``` cmdlet to create the following SBC configuration.
 
 ```
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 
-The translation rules are summarized in the following table.
+The translation rules assigned to the SBC are summarized in the following table.
 
 |Name  |Pattern |Translation  |
 |---------|---------|---------|
