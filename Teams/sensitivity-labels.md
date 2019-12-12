@@ -33,6 +33,47 @@ On the other hand, sensitivity labels and their policies are automatically enfor
 
 For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Office 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
+>[!WARNING]
+>Creating, updating and deleting sensitivity labels require careful sequencing with publishing
+>labels to users. Any deviation in the sequence can result in persistent team creation errors
+>for all users. Therefore please note below:
+
+>**Creating and publishing labels**
+
+>Once a label is created and published in Security and Compliance center, it can take up to 24 hours
+>for the label to become visible in the teams creation interface. Please observe the below steps to 
+>publish the label for all users in the tenant:
+>1. Create the label and publish it for a few select user accounts in the tenant.
+>2. Once the label is published, please wait for 24 hours.
+>3. After 24 hours, try to create a team with the label using one of the user accounts that have access
+>to the label.
+>4. If the team creation is successful in step 3, then go ahead and publish the label for remaining 
+>users in the tenant.
+
+>**Modifying and deleting published labels**
+
+>Deleting or modifying the label while it is associated with sensitivity policies can result in team
+>creation failures across the tenant. Therefore prior to deleting or modifying a label, one must
+>first disassociate the label from its associated policies. Please observe the below steps in order 
+>to delete or modify a label:
+>1. Remove the label from all policies that are utilizing the label. Alternatively, you may also delete
+>the policies themselves.
+>2. Once the label is removed from the policies or the policies themselves are deleted, please wait for 
+>48 hours before proceeding further.
+>3. After 48 hours, launch the team creation interface and ensure that the label is no longer visible for
+>any user in the tenant.
+>4. Now you may safely delete or modify the label.
+
+>**Managing team creation errors**
+
+>If team creation begins to fail at any point during the public preview then you have two options:
+>1. Ensure that sensitivity labels are not mandatory for any user during team creation.
+>2. You may turn off sensitivity labels using the scripts provided in the following link: [Enable this preview](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)
+
+>Note that the EnableMIPLabels setting must be set to false as follows:
+```
+$setting["EnableMIPLabels"] = "False"
+```
 ## Using sensitivity labels with Teams
 
 Here are some example scenarios of how you can use sensitivity labels with Teams in your organization.
