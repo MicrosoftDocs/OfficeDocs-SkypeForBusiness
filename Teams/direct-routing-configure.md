@@ -581,7 +581,7 @@ In these example scenarios, we have two users, Alice and Bob. Alice is a Teams u
 Bob calls Alice using a non-E.164 ten-digit number. Bob dials 2065550100 to reach Alice.
 SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From header.
 
-|Header  |Original |Translated header |Parameter ane rule applied  |
+|Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:2065550100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranslationRulesList ‘AddPlus1’          |
 |TO    |TO: &lt;sip:2065550100@sbc.contoso.comname&gt;          |TO: &lt;sip:+12065550100@sbc.contoso.comname&gt;          |InboundTeamsNumberTranlationRulesList ‘AddPlus1’          |
@@ -592,7 +592,7 @@ SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From 
 Bob calls Alice using a four-digit number. Bob dials 0100 to reach Alice.
 SBC uses 0100 in the RequestURI and To headers and 4255550100 in the From header.
 
-|Header  |Original |Translated header |Parameter ane rule applied  |
+|Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:0100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList ‘AddE164SeattleAreaCode’        |
 |TO    |TO: &lt;sip:0100@sbc.contoso.com>          |TO: &lt;sip:+12065550100@sbc.contoso.com>          |InboundTeamsNumberTranlationRulesList ‘AddE164SeattleAreaCode’         |
@@ -600,12 +600,12 @@ SBC uses 0100 in the RequestURI and To headers and 4255550100 in the From header
 
 #### Example 3: Outbound call using a ten-digit non-E.164 number
 
-Alice calls Bob using a ten-digit number. Alice dials 425 555 0100 to reach Alice.
+Alice calls Bob using a ten-digit number. Alice dials 425 555 0100 to reach Bob.
 SBC is configured to use non-E.164 ten-digit numbers for both Teams and PSTN users.
 
 In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan.
 
-|Header  |Original |Translated header |Parameter ane rule applied  |
+|Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList ‘StripPlus1’         |
 |TO    |TO: &lt;sip:+14255550100@sbc.contoso.com &gt;          |TO: &lt;sip:4255555555@sbc.contoso.com &gt;        |OutboundPSTNNumberTranlationRulesList ‘StripPlus1’       |
@@ -613,10 +613,10 @@ In this scenario, a dial plan translates the number before sending it to the Dir
 
 #### Example 4: Outbound call using a four-digit non-E.164 number
 
-Alice calls Bob using a four-digit number. Alice calls 0100 to reach Bob from Calls or by using a contact.
+Alice calls Bob using a four-digit number. Alice uses 0100 to reach Bob from Calls or by using a contact.
 SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-digit numbers for PSTN users. The dial plan isn't applied in this scenario.
 
-|Header  |Original |Translated header |Parameter ane rule applied  |
+|Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:0100@sbc.contoso.com           |INVITE sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList ‘AddSeattleAreaCode’         |
 |TO    |TO: &lt;sip:0100@sbc.contoso.com &gt;          |TO: &lt;sip:4255555555@sbc.contoso.com>       |InboundTeamsNumberTranlationRulesList ‘AddSeattleAreaCode’       |
