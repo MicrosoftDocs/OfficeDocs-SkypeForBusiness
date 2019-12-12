@@ -603,7 +603,7 @@ SBC uses 0100 in the RequestURI and To headers and 4255550100 in the From header
 Alice calls Bob using a ten-digit number. Alice dials 425 555 0100 to reach Alice.
 SBC is configured to use non-E.164 ten-digit numbers for both Teams and PSTN users.
 
-In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan. A country dial plan can't be modified so removing the "+1" may be a requirement in some cases.
+In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan.
 
 |Header  |Original |Translated header |Parameter ane rule applied  |
 |---------|---------|---------|---------|
