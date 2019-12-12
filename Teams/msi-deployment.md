@@ -99,6 +99,10 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 > [!TIP]
 > You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.
 
+## Prevent Teams from starting automatically after installation
+
+If you want Teams 
+
 ## Disable auto launch for the MSI installer
 
 Default behavior of the MSI is to install the Teams client as soon as a user signs in and then automatically start Teams. You can modify this behavior with the parameters below as follows:
