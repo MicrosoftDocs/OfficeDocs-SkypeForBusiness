@@ -34,7 +34,7 @@ For PCs and Macs, you can download Teams at https://teams.microsoft.com/download
 For Android and iPhone phones, search for Microsoft Teams in Google Play or the Apple App Store. Phones must be running Android 4.4 or later or iOS 10.0 or later.
 To use Teams on the web, you need to use a [supported browser](../get-clients.md#web-client).
 
-## Devices for Microsoft Teams
+## Choose devices for Teams and Business Voice
 
 Business Voice users need a microphone and speakers to make and receive phone calls. There are lots of options, depending on the needs and environment of the user. Consider the following ideas:
 
