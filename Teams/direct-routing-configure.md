@@ -343,7 +343,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 In some cases there is a need to route all calls to the same SBC; please use -NumberPattern ".*"
 
-Route all calls to same SBC
+Route all calls to same SBC.
 
 ```
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
@@ -494,9 +494,9 @@ The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy
 
 Take note of the order of PSTN Usages:
 
-If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
+a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
 
-If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+b. If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
 ```
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -505,10 +505,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 Which returns
 
 <pre>
-    Identity		      : International 
-    OnlinePstnUsages : {US and Canada, International}	 
-    Description		 :  
-    RouteType	 	      : BYOT
+Identity		      : International 
+OnlinePstnUsages : {US and Canada, International}	 
+Description		 :  
+RouteType	 	      : BYOT
 </pre>
 
 **Step 4**: Assign the voice routing policy to the user "John Woods" using the following command.
@@ -526,9 +526,9 @@ Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 Which returns:
 
 <pre>
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    No Restrictions
+OnlineVoiceRoutingPolicy
+------------------------
+No Restrictions
 </pre>
 
 The result is that the voice policy applied to John Woods’ calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
