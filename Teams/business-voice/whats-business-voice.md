@@ -44,7 +44,7 @@ When you buy Business Voice, you get the following features and more:
 
 <table>
     <tr>
-        <td><b><a href="/microsoftteams/what-is-phone-system-in-office-365">Phone System</a></b>
+        <td><b><a href="/microsoftteams/what-is-phone-system-in-office-365">Phone system</a></b>
         </td>
         <td>Standard phone features include voice mail, caller ID, call menus, shared phone lines, and emergency calling.
         </td>
@@ -60,7 +60,7 @@ When you buy Business Voice, you get the following features and more:
         </td>
     </tr>
     <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audio Conferencing</a></b>
+        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audio conferencing</a></b>
         </td>
         <td>Lets you host conference calls with people who don't have Teams or don't have an Internet connection.
         </td>

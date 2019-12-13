@@ -31,7 +31,7 @@ It's a good idea to read this article before you start the wizard. When you're r
 After you've finished the wizard, you may want to check out the following articles:
 
 * [Things to try with Business Voice](things-to-try.md)
-* [Business Voice Design customization](customize-business-voice.md)
+* [Business Voice design customization](customize-business-voice.md)
 
 If you don't want to customize anything, you're done! You can start using Business Voice right away.
 
