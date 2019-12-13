@@ -20,7 +20,7 @@ no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Mic
 
 # What do I need to buy to use Microsoft 365 Business Voice?
 
-## Microsoft 365 Business Voice license
+## Microsoft 365 Business Voice licenses
 
 To make or receive phone calls to or from external phone numbers in Microsoft Teams, the user needs a Microsoft 365 Business Voice license. The license gives them access to all the features that they need to make or receive phone calls, host audio conferences, and more.
 
@@ -51,8 +51,8 @@ There are two types of calling plans:
 
 |Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
-|Canada                             | 3000                                |
-|United Kingdom                     | 1200                                |
+|Canada                             | 3,000                                |
+|United Kingdom                     | 1,200                                |
 
 Calls between the United States and Canada are considered domestic calls. You don't need to add the international calling plan to place calls between these two countries.
 
