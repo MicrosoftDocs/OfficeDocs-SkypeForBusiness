@@ -22,7 +22,7 @@ These features make it easier to share information between email and chat.
 
 ## Share to Teams
 
-Share to Teams is an Outlook add-in that lets users share an email from Outlook, including attachments, to a chat or channel in Teams. The message in Teams displays a preview of the email and people in the chat or channel can open any attachments.
+Share to Teams is an Outlook add-in that lets users share an email from Outlook, including attachments, along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open any attachments.
 
 ## Share to Outlook
 
@@ -30,7 +30,7 @@ Share to Outlook lets users share a copy of a Teams conversation to an email in 
 
 ## Actionable activity emails
 
-Users will also get actionable missed activity emails which make it easy to stay on top of a missed conversation in Teams. The missed activity emails show the latest replies from a conversation including messages sent after the missed message and lets users respond directly from within Outlook.
+Users get actionable missed activity emails which make it easy to stay on top of a missed conversation in Teams. The missed activity emails show the latest replies from a conversation including messages sent after the missed message and lets users respond directly from within Outlook.
 
 ## Related topics
 
