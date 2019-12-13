@@ -35,12 +35,12 @@ For a guided overview of the Advisor for Teams experience, check out the [Deploy
 
 ## Using Advisor for Teams (preview)
 
-You don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments as a standard user does not have access to many of the required Microsoft Graph APIs needed to successfully run.
+You don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
 
-The first time you use Advisor for Teams, it'll create a Deployment team for you in Teams. It adds a channel for each workload you want select to roll out.
+The first time you use Advisor for Teams, it'll create a Deployment team for you in Teams. It adds a channel for each workload you select.
 
 > [!IMPORTANT]
-> If a Deployment Team has already been created and a different standard user was to try and create a Deployment Advisor team, a message is provided asking them to contact your support team. This was done to prevent unintentional disclosure of information about the Team and users within it.
+> If a Deployment team has already been created and a different user tries to create it, they'll get an error telling them to contact the support team. This prevents Teams from unintentionally disclosing information about the existing team and its members. Ask the owner of the Deployment team to add you, or contact your support person for help.
 
 ## Available Advisor for Teams plans
 
@@ -60,10 +60,10 @@ While Advisor for Teams is in preview, we're providing the following two plans:
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and click **Add channel** to start the next workload.
 
 ## Tenant assessment
-Each plan includes a tenant readiness assessment that you can use to quickly identify areas that may need remediate in your environment before you roll out Teams. The assessments themselves are composed of both pre-requisites and best practices. Each assessment test will either have a green check mark or an orange warning triangle. 
+Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments themselves are composed of both pre-requisites and best practices. Each assessment test will have a green check mark or an orange warning triangle. 
 
-- A green check mark means your tenant passed the specific test. 
-- A orange warning triangle means follow-up is suggested to determine if action is needed (e.g. a Office 365 Group expiration policy is recommended, however not required).
+- <img src="media/use-advisor-teams-roll-out-media2.png" alt="Green check mark"/></img>A green check mark means your tenant passed the specific test. 
+- <img src="media/use-advisor-teams-roll-out-media1.png" alt="Green check mark"/></img>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, an Office 365 Group expiration policy is recommended but not required).
 
 > [!IMPORTANT]
 > Once a user with an Administrative role starts the Advisor for Teams experience, all assessments tests are run in the background. Should there be an assessment test that is remediated shortly after, its status may not be reflected for up to 24hrs. This will be changed as part once Advisor for Teams reached General Availability.
