@@ -13,3 +13,6 @@ Teams fully supports the following internet browsers, with noted exceptions for 
 
 > [!NOTE]
 > As long as an operating system can run the supported browser, Teams is supported. For example, running Firefox on the Linux operating system is an option for using Teams.
+
+> [!NOTE]
+> URL links on Teams email notifications are not supported in Firefox. You will get a "For the best meeting experience, use the Teams app or join in Microsoft Edge" message.
