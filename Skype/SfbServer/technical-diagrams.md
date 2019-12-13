@@ -34,6 +34,8 @@ You might need additional software to view these files. See the following table 
 
 These posters detail a specific technical area, and are intended to be used with corresponding articles or content available on the download center.
 
+For more information about using Microsoft Teams, see [Microsoft Teams IT architecture and telephony solutions posters](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters).
+
 |Title|Description|
 |:---|:---|
 |**Skype for Business Server Protocol Workloads** <br/>![SfB Protocol Workloads poster](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF version](https://go.microsoft.com/fwlink/p/?LinkId=550989) (best for mobile devices or tablet computers) <br/> [Visio version](https://go.microsoft.com/fwlink/p/?LinkId=550991) (best for users with Visio) |Download this poster to better understand requirements of Skype for Business servers and clients under different levels of service complexity.<br/> <br/> Size: 11-by-17 inch (multiple sheets, conveniently sized to print on most office printers) <br/> <br/> This poster was created using Visio 2015. No modification should be needed for a specific environment. |
