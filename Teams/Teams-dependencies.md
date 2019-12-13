@@ -71,7 +71,7 @@ For more information about controlling who can invite guests, see [Delegate invi
 Adding the user guest account manually to Azure AD B2B is not required, as the account will be added to the directory automatically when you add the guest to Teams.
 
 ### Licensing for guest access
-Guest access licensing is part of Azure AD licensing. Guest access is included with all OFfice 365 Business Premium and Office 365 Enterprise subscriptions. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Guest access licensing is part of Azure AD licensing. Guest access is included with all Office 365 Business Premium and Office 365 Enterprise subscriptions. For more information about licensing, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]
