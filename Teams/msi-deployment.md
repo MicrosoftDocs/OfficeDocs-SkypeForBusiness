@@ -91,7 +91,7 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 
 ### Disable auto launch for the MSI installer
 
-You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter, as follows.  
+You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter as follows.  
 
 For the 32-bit version
 ```
