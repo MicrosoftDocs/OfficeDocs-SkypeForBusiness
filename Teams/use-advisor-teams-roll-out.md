@@ -60,19 +60,19 @@ While Advisor for Teams is in preview, we're providing the following two plans:
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and click **Add channel** to start the next workload.
 
 ## Tenant assessment
-Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments themselves are composed of both pre-requisites and best practices. Each assessment test will have a green check mark or an orange warning triangle. 
+Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments include prerequisites and best practices. Each assessment test will have a green check mark or an orange warning triangle. 
 
 - <img src="media/use-advisor-teams-roll-out-media2.png" alt="Green check mark"/></img>A green check mark means your tenant passed the specific test. 
 - <img src="media/use-advisor-teams-roll-out-media1.png" alt="Green check mark"/></img>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, an Office 365 Group expiration policy is recommended but not required).
 
 > [!IMPORTANT]
-> Once a user with an Administrative role starts the Advisor for Teams experience, all assessments tests are run in the background. Should there be an assessment test that is remediated shortly after, its status may not be reflected for up to 24hrs. This will be changed as part once Advisor for Teams reached General Availability.
+> Once a user with an Administrative role starts Advisor for Teams, all assessments run in the background. If you update or remediate something, it may not be reflected in your assessments for up to 24 hours. This is temporary - as soon as Advisor for Teams is fully released, the assessments will update in near real time.
 
-The sections below will describe key assessment details such as differentiation between pre-requisites and best practices, what each assessment checks is doing and why. Finally, provide guidance for remediation as needed.
+The sections below describe each assessment, including whether something is a prerequisite or best practices, what each assessment checks is doing and why, and guidance for remediation as needed.
 
-### Assessment test applied to all plans
+### Assessment tests for all workloads
 
-|Assessment Test  |What it tells you  |
+|Assessment test  |What it tells you  |
 |---------|---------|
 |Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant. While a @onmicrosoft.com domain is perfectly fine to primarily use, customers have requested that you'd like us to check Microsoft 365 fundamentals. For more information on adding a domain to Office 365, please reference this [article](https://docs.microsoft.com/office365/admin/setup/add-domain).    |
 |Teams licenses     |This is a pre-requisite test. Through querying the Microsoft Graph this test will analyze the subscriptions associated within your tenant and validate if the subscriptions contains an eligible [service plan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference) for Teams and the availability to assign is greater than zero. For more information on licensing for Teams, please reference this [article](https://docs.microsoft.com/microsoftteams/office-365-licensing).    |
