@@ -27,13 +27,13 @@ Users in your organization can send feedback about Teams to Microsoft let us kno
 
 Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
-![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Screenshot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Surveys**
 
 Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
 
-![Screen shot of the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
+![Screenshot of the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## Set whether users can send feedback about Teams to Microsoft
 
@@ -83,7 +83,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular feedback policy. In this example, it's New Hire Feedback Policy.
 ```
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
