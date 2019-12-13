@@ -18,7 +18,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Business Voice resources</h1>
-        <P>Learn how to plan, set up, and use Microsoft 365 Business Voice in your organization. Business Voice makes it easy for small and medium organizations to set up a powerful and flexible telephone system without the expense and complexity of in-house solutions.</p>
+        <P>Learn how to plan, set up, and use Microsoft 365 Business Voice in your organization. Business Voice provides a powerful, flexible telephone system for small and medium organizations without the expense and complexity of in-house solutions.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -118,7 +118,7 @@ description: Learn how to plan, deploy, and use Microsoft 365 Business Voice.
                                             </div>
                                             <div class="cardText">
                                                 <h3>Resources for partners</h3>
-                                                <P><a href="/partner-center" target="_blank">Get Microsoft 365 Business from Partner center</a></p>
+                                                <P><a href="/partner-center" target="_blank">Get Microsoft 365 Business from Partner Center</a></p>
                                                 <P><a href="https://www.microsoft.com/microsoft-365/partners/businessvoice" target="_blank">Microsoft 365 Business Voice for Partners</a></p>
                                                 <p><a href="partner-resources.md" target="_blank">Microsoft 365 Business Voice Partner support resources</a>
                                             </div>

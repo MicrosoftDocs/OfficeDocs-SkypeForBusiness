@@ -19,7 +19,7 @@ appliesto:
 
 # Move (port) phone numbers to Business Voice
 
-When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you want to keep using your pre-existing phone numbers, you can use *phone number porting* to bring them over to Business voice. After "port" your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
+When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you want to keep using your pre-existing phone numbers, you do *phone number porting* to bring them over to Business Voice. After you port your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
 
 Before you move numbers to Business Voice, take a look at [Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md). This article provides fundamental information like what countries and regions are supported, what numbers can and can't be transferred, and what information you'll need.
 
@@ -33,6 +33,6 @@ If you need help porting your numbers to Business Voice, send us a request. Be s
 - The authorizing person on your account
 - A description of the issue or question that you have
 
-For help with phone numbers in Canada and the United States, contact [ptn@microsoft.com](mailto:ptn@microsoft.com).
+For help with phone numbers in Canada and the United States, send your request to [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
-For help with phone numbers in Europe, contact [ptneu@microsoft.com](mailto:ptneu@microsoft.com).
+For help with phone numbers in Europe, send your request to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).

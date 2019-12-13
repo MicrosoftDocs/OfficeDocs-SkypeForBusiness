@@ -19,7 +19,7 @@ appliesto:
 
 # Use the Getting Started wizard to set up Business Voice
 
-The Getting Started wizard for Microsoft 365 Business Voice gets you set up quickly to start receiving and making phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a Business Voice pilot so that you can try it out with a few users before you set it up for everyone.
+The Getting Started wizard for Microsoft 365 Business Voice gets you set up quickly to make and receive phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a pilot so a few users can try Business Voice before you roll it out for everyone.
 
 It's a good idea to read this article before you start the wizard. When you're ready to run the wizard, select **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Sign in by using the account you used to create your subscription or another account that's a Global Administrator.
 
@@ -33,18 +33,17 @@ After you've finished the wizard, you may want to check out the following articl
 * [Things to try with Business Voice](things-to-try.md)
 * [Business Voice design customization](customize-business-voice.md)
 
-If you don't want to customize anything, you're done! You can start using Business Voice right away.
+If you don't want to customize anything immediately, you're done! You can start using Business Voice right away.
 
 ## Emergency services location
 
 <table>
     <tr>
-        <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. If it's valid, the address is assigned to all the users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.
+        <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. This address is then assigned to all users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.</td>
 
-        </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
-        </td>
-    </tr>
+        
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+            
 </table>
 
 For more information, see [What are emergency locations, addresses, and call routing](../what-are-emergency-locations-addresses-and-call-routing.md)?
@@ -53,7 +52,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>In addition to a new local phone number, you can choose to purchase a toll-free number or port an existing number to Microsoft 365. To set up a toll-free number, you need to purchase a calling plan. To port one or more numbers to Microsoft 365, use the option in the <a href="https://admin.teams.microsoft.com">Teams admin center</a> after the wizard finishes.
+        <td>In addition to a new local phone number, you can purchase a toll-free number or port an existing number to Microsoft 365. To set up a toll-free number, you need to purchase a calling plan. To port one or more numbers to Microsoft 365, go to the <a href="https://admin.teams.microsoft.com">Teams admin center</a> after the wizard finishes.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -67,7 +66,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>To assign user licenses, select the people in your organization who want to make or receive phone calls outside of Teams (such as calling a supplier). You can only assign as many Business Voices licenses you have available. If you need more, you can buy additional licenses after the wizard is finished.
+        <td>To assign user licenses, select the people in your organization who need to make or receive phone calls outside of Teams (such as calling a supplier). You can only assign as many Business Voices licenses as you have available. If you need more, you can buy additional licenses after the wizard is finished.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
         </td>
@@ -106,7 +105,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 <table>
     <tr>
         <td> <p>The Getting Started wizard takes the information that you enter and sets up Business Voice. On the <b>Overview</b> page, you can see what phone numbers are assigned to your users, look at your call menu, listen to your greeting, and more.</p>
-             <p>Setup takes several minutes. Select <b>Done</b>, and we'll continue to set up Business Voice in the background. Or just wait until setup is finished. After it's finished, go to <b>Voice</b> in the <a href="https://admin.teams.microsoft.com" target="_blank">Teams admin center</a> to set up more Business Voice features.</p>
+             <p>Setup takes several minutes. If you select <b>Done</b>, we'll continue to set up Business Voice in the background. Or just wait until setup is finished. After it's finished, go to <b>Voice</b> in the <a href="https://admin.teams.microsoft.com" target="_blank">Teams admin center</a> to set up more Business Voice features.</p>
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
         </td>

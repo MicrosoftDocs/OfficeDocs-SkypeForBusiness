@@ -19,7 +19,9 @@ appliesto:
 
 # Check your Internet connection for Business Voice
 
-Business Voice is located in the cloud with Microsoft 365. Every device that uses Microsoft Teams and Business Voice needs a connection to the Internet. To get the best Business Voice experience, you need a broadband Internet connection that can support the maximum number of phone calls that your organization might make at any one time. You also need to make sure that the computers on your network can reach Microsoft 365 servers.
+Business Voice is located in the cloud with Microsoft 365. Every device that uses Microsoft Teams and Business Voice needs a connection to the Internet
+
+To get the best Business Voice experience, you need a broadband Internet connection that can support the maximum number of phone calls that your organization might make at any one time. You also need to make sure that the computers on your network can reach Microsoft 365 servers.
 
 To follow these steps, you need to have a tenant with one of the following subscriptions:
 
@@ -62,7 +64,7 @@ Follow these steps:
 
     ![Network planner site information](../media/network-planner-site-info.png)
 1. On the **Report** tab, select **Start a report**.
-1. Enter the following information, and then select **Generate report** to create a report that shows the bandwidth requirements for Teams. We'll show you how to read the report in the next section.
+1. Enter the following information, and then select **Generate report** to create a report that shows the bandwidth requirements for Teams. We show you how to read the report in the next section.
 
     ![Network planner report information](../media/network-planner-report-info.png)
 
@@ -74,7 +76,7 @@ When you select **Generate report**, Office 365 creates a report that looks like
 
 The highlighted number shows how much of your Internet connection Teams and Business Voice will use. We recommend that this number is no more than 30 percent of your total Internet connection speed. For example, if your Internet connection is 60 Mbps, Teams and Business Voice should use no more than 18 Mbps.
 
-Use this equation to determine your minimum Internet connection speed: *\<highlighted number> / 0.3*. WIth the number that's highlighted number in the preceding picture, the calculation is *4.6875 / 0.3 = 15.6*. In this case, the Internet connection speed should be at least 15.6 Mbps.
+Use this equation to determine your minimum Internet connection speed: *\<highlighted number> / 0.3*. With the number that's highlighted in the preceding image, the calculation is *4.6875 / 0.3 = 15.6*. In this case, the Internet connection speed should be at least 15.6 Mbps.
 
 If Teams and Business Voice will use more than 30 percent of your total Internet connection speed, the highlighted number will appear red. In that case, you may need to upgrade your Internet connection.
 
@@ -82,7 +84,7 @@ If Teams and Business Voice will use more than 30 percent of your total Internet
 
 ## Make sure your networked devices can reach Microsoft 365
 
-Devices that use Business Voice must use specific network ports to communicate with Microsoft 365 servers. These ports are essentially doors through which devices talk to each other over a network or the Internet. Your firewall needs to allow devices on your network to reach Microsoft 365 through the following *outbound* network ports:
+Devices that use Business Voice must use specific network ports to communicate with Microsoft 365 servers. These ports are essentially doors through which devices talk to each other over a network or the Internet. Your firewall must allow devices on your network to reach Microsoft 365 through the following *outbound* network ports:
 
 * **TCP ports** 80 and 443
 * **UDP ports** 3478, 3479, 3480, and 3481
