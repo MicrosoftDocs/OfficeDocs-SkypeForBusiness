@@ -83,7 +83,7 @@ The default behavior of the MSI is to install the Teams app as soon as a user si
 
 #### Use Group Policy (recommended)
 
-Use Group Policy and enable the **Prevent Microsoft Teams from starting automatically after installation** policy setting. You can find this policy setting under User Configuration\Policies\Administrative Templates\Microsoft Teams. This is the recommended method because you can easily turn off and turn on the policy setting according to your organization's needs.
+Use Group Policy and enable the **Prevent Microsoft Teams from starting automatically after installation** policy setting. You can find this policy setting under User Configuration\Policies\Administrative Templates\Microsoft Teams. This is the recommended method because you can turn off or turn on the policy setting according to your organization's needs.
 
 When you enable this policy setting before Teams is installed, Teams won't start automatically when the user logs in to Windows. When a user signs in to Teams for the first time, Teams is configured to start automatically the next time the user logs in.
 
@@ -104,7 +104,7 @@ For the 64-bit version
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
-When a user logs in into Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the users manually starts Teams, Teams automatically starts whenever the user logs in to Windows.
+When a user logs in into Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the users manually starts Teams, Teams automatically starts whenever the user logs in.
 
 > [!Note]
 > If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer won't be able to configure the option to disable auto start.
