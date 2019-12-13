@@ -19,7 +19,7 @@ appliesto:
 
 # Microsoft 365 Business Voice design customization
 
-The Getting Started wizard quickly sets up Business Voice with basic options so you can use it right away. Those basics may be sufficient for a small business just starting out or you're running a pilot in a larger organization. You get the basics with new phone numbers and a call menu. 
+The Getting Started wizard sets up Business Voice with basic options so you can use it right away. Those options might be enough if you're a small business just starting out or if you're running a pilot in your larger organization. You get the basics with new phone numbers and a call menu. 
 
 But you'll likely want to customize Business Voice to better meet your business needs. For example, you'll probably want to move your existing phone numbers (called number porting) to Business Voice.
 

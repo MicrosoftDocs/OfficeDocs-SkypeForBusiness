@@ -19,9 +19,13 @@ appliesto:
 
 # Check your Internet connection for Business Voice
 
+<<<<<<< HEAD
 Business Voice is located in the cloud with Microsoft 365. Every device that uses Microsoft Teams and Business Voice needs a connection to the Internet
 
 To get the best Business Voice experience, you need a broadband Internet connection that can support the maximum number of phone calls that your organization might make at any one time. You also need to make sure that the computers on your network can reach Microsoft 365 servers.
+=======
+Business Voice is located in the cloud with Microsoft 365. Every device that uses Microsoft Teams and Business Voice needs a connection to the Internet. To get the best Business Voice experience, you need a broadband Internet connection that can support the maximum number of phone calls that your organization might make at any one time. You also need to make sure that the computers on your network can reach Microsoft 365 servers.
+>>>>>>> 3142523631742b025cbb00e83999cac1d0f0f166
 
 To follow these steps, you need to have a tenant with one of the following subscriptions:
 
