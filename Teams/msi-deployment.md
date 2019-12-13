@@ -79,17 +79,15 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 
 ## Prevent Teams from starting automatically after installation
 
-The default behavior of the MSI is to install the Teams app as soon as a user signs in and then automatically start Teams. If you don't want Teams to start automatically for users after it's installed, you can do so by using either Group Policy or by disabling auto launch for the MSI installer.
+The default behavior of the MSI is to install the Teams app as soon as a user signs in and then automatically start Teams. If you don't want Teams to start automatically for users after it's installed, you can use Group Policy to set a policy setting or disable auto launch for the MSI installer.
 
 #### Use Group Policy (recommended)
 
-Use Group Policy and enable the **Prevent Microsoft Teams from starting automatically after installation** policy setting. You can find this policy setting under User Configuration\Policies\Administrative Templates\Microsoft Teams. This is the recommended method because you can turn off or turn on the policy setting according to your organization's needs.
+Enable the **Prevent Microsoft Teams from starting automatically after installation** Group Policy setting. You can find this policy setting in User Configuration\Policies\Administrative Templates\Microsoft Teams. This is the recommended method because you can turn off or turn on the policy setting according to your organization's needs.
 
-When you enable this policy setting before Teams is installed, Teams won't start automatically when the user logs in to Windows. When a user signs in to Teams for the first time, Teams is configured to start automatically the next time the user logs in.
+When you enable this policy setting before Teams is installed, Teams doesn't start automatically when users log in to Windows. After a user signs in to Teams for the first time, Teams starts automatically the next time the user logs in.
 
-Note that a shortcut to start Teams is added to the user's desktop when you enable this policy setting.
-
-If you have Office 365 Business or can't use Group Policy for some other reason, you can add the PreventFirstLaunchAfterInstall REG_DWORD value to the HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams key in the registry. Set the value to 1 if you don't want Teams to automatically start after installation.
+To learn more, see [Use Group Policy to prevent Teams from starting automatically after installation](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
 
 ### Disable auto launch for the MSI installer
 
@@ -104,7 +102,7 @@ For the 64-bit version
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
-When a user logs in into Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the users manually starts Teams, Teams automatically starts whenever the user logs in.
+When a user logs in to Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the user manually starts Teams, Teams automatically starts whenever the user logs in.
 
 > [!Note]
 > If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer won't be able to configure the option to disable auto start.
