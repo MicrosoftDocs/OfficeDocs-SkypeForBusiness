@@ -553,7 +553,7 @@ The policy is applied at the SBC level. You can assign multiple translation rule
 
 To create, modify, view, and delete number manipulation rules, use the New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule, and Remove-TeamsTranslationRule cmdlets.
 
-To assign and configure number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  **-InboundTeamsNumberTranslationRules**, **-InboundPSTNNumberTranslationRules**, **-OutboundTeamsNumberTranslationRules**, and **-OutboundPSTNNumberTranslationRules** parameters.
+To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  **-InboundTeamsNumberTranslationRules**, **-InboundPSTNNumberTranslationRules**, **-OutboundTeamsNumberTranslationRules**, **-OutboundPSTNNumberTranslationRules**, **InboundTeamsNumberTranslationRulesList**,**InboundPSTNNumberTranslationRulesList**, **OutboundTeamsNumberTranslationRulesList**, and **OutboundPSTNNumberTranslationRulesList** parameters.
 
 ### Examples
 
