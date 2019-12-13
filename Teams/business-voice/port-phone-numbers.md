@@ -19,11 +19,7 @@ appliesto:
 
 # Move (port) phone numbers to Business Voice
 
-<<<<<<< HEAD
 When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you want to keep using your pre-existing phone numbers, you do *phone number porting* to bring them over to Business Voice. After you port your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
-=======
-When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you want to keep using your pre-existing phone numbers, you can use *phone number porting* to bring them over to Business voice. After "port" your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
->>>>>>> 3142523631742b025cbb00e83999cac1d0f0f166
 
 Before you move numbers to Business Voice, take a look at [Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md). This article provides fundamental information like what countries and regions are supported, what numbers can and can't be transferred, and what information you'll need.
 
