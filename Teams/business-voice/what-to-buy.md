@@ -30,7 +30,7 @@ For example, you might have 10 factory employees and 5 office employees. The fac
 
 Business Voice includes a domestic calling plan, which gives you a certain number of minutes per month to make calls within your country or region. You can purchase an international calling plan for if you want to make calls to other countries or regions. You pay for an international calling plan, for extra minutes per month for the domestic calling plan, and for toll-free numbers by using *communications credits*. You'll learn more about calling plans and communications credits later in this article.
 
-To learn about Business Voice features, see [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+To learn about Business Voice features, see [Microsoft 365 Business Voice service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 To buy Microsoft 365 Business Voice licenses, sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage) and then go to **Billing** > **Purchase services**.
 
