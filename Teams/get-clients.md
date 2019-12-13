@@ -105,7 +105,7 @@ The signing key to enable auto-updating using the system's package manager is in
 
 > [!NOTE] 
 > If you find a bug, submit it using `Report a Problem` from within the client. For known issues, see [Known Issues](Known-issues.md).
-> For Teams for Linux support you can use the (Linux forum support channel on Microsoft Q&A)[https://docs.microsoft.com/answers/topics/teams.html]. Be sure to use the `teams-linux` tag when posting questions. 
+> For Teams for Linux support you can use the [Linux forum support channel on Microsoft Q&A](https://docs.microsoft.com/answers/topics/teams.html). Be sure to use the `teams-linux` tag when posting questions. 
 
 #### Install Teams using DEB package
 

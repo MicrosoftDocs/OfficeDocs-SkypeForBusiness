@@ -87,7 +87,7 @@ Or, you can also do the following:
 2. Select the policy by clicking to the left of the policy name.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, select **Save**.
+5. After you finish adding users, select **Save**.
 
 ### Assign a custom app setup policy to users in a group
 
@@ -108,7 +108,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
@@ -119,7 +119,7 @@ Depending on the number of members in the group, this command may take several m
 #### What built-in app setup policies are included in the Microsoft Teams admin center?
 
 - **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users.
-- **FirstLineWorker**: This policy is for firstline workers. You can assign it to firstline workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
+- **FirstLineWorker**: This policy is for first-line workers. You can assign it to first-line workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
 
 #### Why can't I find an app in the Add pinned apps pane?
 
