@@ -45,7 +45,7 @@ Business Voice users need a microphone and speakers to make and receive phone ca
 If you're using a USB or wireless device, plug the device into a computer that's running Teams. You might need to go into device settings in Teams: Select your profile picture at the top of Teams, and then select **Settings** > **Devices**. Choose your device from **Audio devices**. For other devices, follow the setup instructions in Teams.
 
 > [!NOTE]
-> To test that Teams, your speakers, and your microphone all work correctly, follow the steps in [Make sure computers and devices on your network can reach Microsoft 365](get-ready-internet.md#make-sure-computers-and-devices-on-your-network-can-reach-microsoft-365).
+> To test that Teams, your speakers, and your microphone all work correctly, follow the steps in [Make sure computers and devices on your network can reach Microsoft 365](get-ready-internet.md#make-sure-devices-on-your-network-can-reach-microsoft-365).
 
 To see all the devices that Teams supports, visit the [Teams Devices store](https://products.office.com/microsoft-teams/across-devices/devices). To purchases devices, contact your local reseller. Most major online stores also carry most Teams devices.
 
