@@ -1,9 +1,9 @@
 ---
-title: "Availability in Algeria"
+title: "Availability in Saint Kitts and Nevis"
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,20 +22,20 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Algeria."
+description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Saint Kitts and Nevis."
 ---
 
-# Availability in Algeria
+# Availability in Saint Kitts and Nevis
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Algeria.
+Here are the Office 365 services for Skype for Business and Microsoft Teams available for Saint Kitts and Nevis.
   
 ## Audio Conferencing
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, pay-per-minute only  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | No |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
    
@@ -60,9 +60,9 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?   | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/> |
-|Are toll numbers available?  <br/> |Non-geographic ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Are toll free numbers available?  <br/> |No  <br/> |
+|What capitals or major cities can you get toll numbers for?   | Not applicable <br/> |
+|Are toll numbers available?  <br/> |No ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Are toll free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -70,7 +70,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |No  <br/> |
+|Are Communications Credits available?  <br/> |Yes  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   

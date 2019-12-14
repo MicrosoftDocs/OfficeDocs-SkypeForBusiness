@@ -3,7 +3,7 @@ title: "Availability in the Dominican Republic"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
@@ -36,8 +36,8 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Santiago. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, pay-per-minute only <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
 ## Phone System
@@ -61,9 +61,9 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |Santiago  <br/> |
-|Are toll numbers available?  <br/> |Yes  <br/> |
-|Are toll-free numbers available?  <br/> |No  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |Not applicable  <br/> |
+|Are toll numbers available?  <br/> |No  <br/> |
+|Are toll-free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
