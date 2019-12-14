@@ -62,8 +62,8 @@ We recommend that you start with the Chat, teams, channels, and apps plan. When 
 ## Tenant assessment
 Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments include prerequisites and best practices. Each assessment test will have a green check mark or an orange warning triangle. 
 
-- <img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img>A green check mark means your tenant passed the specific test. 
-- <img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, an Office 365 Group expiration policy is recommended but not required).
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>A green check mark means your tenant passed the specific test. 
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, an Office 365 Group expiration policy is recommended but not required).
 
 > [!IMPORTANT]
 > Once a user with an Administrative role starts Advisor for Teams, all assessments run in the background. If you update or remediate something, it may not be reflected in your assessments for up to 24 hours. This is temporary - as soon as Advisor for Teams is leaves preview and is generally available, the assessments will update in near real time.
