@@ -3,7 +3,7 @@ title:  Phone System Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/16/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -41,13 +41,12 @@ Direct Routing complies with RFC standards.  The SBC connected to Direct Routing
 The following standards are applicable to devices that support only non-media bypass mode:
 
 - [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261): Session Initiation Protocol
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Private Extension to the Session Initiation Protocol for asserted identity within Trusted Networks. 
-  Sections about handling P-Asserted-Identity header. Direct Routing sends P-Asserted-Identity with Privacy ID headers. 
-- [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) An extension to Session Initiation Protocol (SIP) for requires History Information. See also: Routing SIP Protocol description for more information
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325). Private Extension to the Session Initiation Protocol for asserted identity within Trusted Networks--Sections about handling P-Asserted-Identity header. Direct Routing sends P-Asserted-Identity with Privacy ID headers. 
+- [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) An extension to Session Initiation Protocol (SIP) for required History Information. See also: Routing SIP Protocol description for more information.
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) The Session Initiation Protocol Referred-By mechanism
 - [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) The Session Initiation Protocol (SIP) "Replaces" Header 
 - [RFC 6337](https://tools.ietf.org/html/rfc6337) Session Initiation Protocol (SIP) Usage of the Offer/Answer Model.
-  See the “Deviations from RFC” section .
+  See the “Deviations from RFC” section.
 - [RFC 3711](https://tools.ietf.org/html/rfc3711) and [RFC 4771](https://tools.ietf.org/html/rfc4771). Protect RTP traffic using SRTP. The SBC must be able to establish keys using SDES. 
 - [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Session Description Protocol (SDP) Offer/Answer Clarifications for RTP/RTCP Multiplexing
 
@@ -73,8 +72,8 @@ The following table lists the sections of the RFC(s) in which Microsoft's implem
 
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
-| [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place call on hold |The SIP proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”
-| [RFC 6337, section 5.4 “Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option |
+| [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place a call on hold. |The SIP proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”.
+| [RFC 6337, section 5.4 “Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option. |
 
 ## Operational modes
 

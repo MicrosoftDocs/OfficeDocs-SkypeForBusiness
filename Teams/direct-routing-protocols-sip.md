@@ -130,7 +130,7 @@ The following table below summarizes the call flow differences and similarities 
 
 ###  Non-media bypass flow
 
-A Teams user might have multiple endpoints at the same time. For example, Teams for Windows client, Teams for iPhone client, and Teams Phone (Teams Android client). Each endpoint might signal an HTTP rest:
+A Teams user might have multiple endpoints at the same time. For example, Teams for Windows client, Teams for iPhone client, and Teams Phone (Teams Android client). Each endpoint might signal an HTTP rest as follows:
 
 -   Call progress – converted by the SIP proxy to the SIP message 180. On receiving message 180, the SBC must generate local ringing.
 
@@ -213,8 +213,7 @@ ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 
 If the SBC indicated that the Refer method is not supported, the SIP proxy acts as a Referee. 
 
-The Refer request that comes from the client will be terminated on the SIP proxy. (The Refer request from the client is shown as “Call transfer to Dave” in the following diagram.  For more information, see  
-section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
+The Refer request that comes from the client will be terminated on the SIP proxy. (The Refer request from the client is shown as “Call transfer to Dave” in the following diagram.  For more information, see section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 ![Diagram showing multiple endpoints ringing with provisional answer](media/direct-routing-protocols-4.png)
 
@@ -239,11 +238,11 @@ If the call is transferred from one Teams user to another via the SBC, the SBC i
 
 To populate the To/Transferor fields for the transaction of the request internally, the SIP proxy needs to convey this information  inside the REFER-TO/REFERRED-BY headers. 
 
-The SIP proxy will form the REFER-TO as a SIP URI comprised of a SIP proxy FQDN in the hostname and either 
+The SIP proxy will form the REFER-TO as a SIP URI comprised of a SIP proxy FQDN in the hostname and either one of the following:
 
 - An E.164 phone number in the username part of the URI in case the transfer target is a phone number, or
 
--  x-m and x-t parameters encoding the full transfer target MRI and tenant ID respectively 
+- x-m and x-t parameters encoding the full transfer target MRI and tenant ID respectively 
 
 The REFERRED-BY header is a SIP URI with transferor MRI encoded in it as well as transferor tenant ID and other transfer context parameters as shown in the following table:
 
@@ -270,17 +269,17 @@ Microsof recommends always applying the user=phone parameter to simplify the cal
 
 ## History-Info header
 
-The History-Info header is used for retargeting SIP requests and “provide(s) a standard mechanism for capturing the request history information to enable a wide variety of services for networks and end-users”. For more information, see [RFC 4244 – Section 1.1](http://www.ietf.org/rfc/rfc4244.txt). For Microsoft Phone System, this header is used in Simulring and Call Forwarding scenarios.  
+The History-Info header is used for retargeting SIP requests and “provide(s) a standard mechanism for capturing the request history information to enable a wide variety of services for networks and end-users.” For more information, see [RFC 4244 – Section 1.1](http://www.ietf.org/rfc/rfc4244.txt). For Microsoft Phone System, this header is used in Simulring and Call Forwarding scenarios.  
 
 If sending, the History-Info is enabled as follows:
 
 - The SIP proxy will insert a parameter containing the associated phone number in individual History-Info entries that comprise the History-Info header sent to the PSTN Controller.  Using only entries that have the phone number parameter, the PSTN Controller will rebuild a new History-Info header, and pass it on to the SIP trunk provider via SIP proxy.
 
-- History-Info header will be added for simultaneous ring and call forwarding cases
+- History-Info header will be added for simultaneous ring and call forwarding cases.
 
-- History-Info header will not be added for call transfer cases
+- History-Info header will not be added for call transfer cases.
 
-- An individual history entry in the reconstructed History-Info header will have the phone number parameter provided combined with the Direct Routing FQDN (sip.pstnhub.microsoft.com) set as the host part of the URI; a parameter of ‘user=phone’ will be added as part of the SIP URI.  Any other parameters associated with the original History-Info header, except for phone context parameters, will be passed thru in the re-constructed History-Info header.  Note that entries that are private (as determined via the mechanisms defined in Section 3.3 of RFC 4244) will be forwarded as-is since the SIP trunk provider is a trusted peer.
+- An individual history entry in the reconstructed History-Info header will have the phone number parameter provided combined with the Direct Routing FQDN (sip.pstnhub.microsoft.com) set as the host part of the URI; a parameter of ‘user=phone’ will be added as part of the SIP URI.  Any other parameters associated with the original History-Info header, except for phone context parameters, will be passed through in the re-constructed History-Info header.  Note that entries that are private (as determined by the mechanisms defined in Section 3.3 of RFC 4244) will be forwarded as is because  the SIP trunk provider is a trusted peer.
 
 - Inbound History-Info is ignored.
 

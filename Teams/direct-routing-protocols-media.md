@@ -72,7 +72,7 @@ Eventually only one of the endpoints will answer the call (200OK). On receiving 
 
 ###  Inbound call from SBC
 
-For this scenario there are several possible peer endpoints that SBC MUST handle:
+For this scenario, there are several possible peer endpoints that the SBC must handle:
 
 - Server endpoints will typically respond directly with 200OK. These are full ICE endpoints that are typically involved in Voicemail, Call queue, and Auto attendant scenarios.
 
