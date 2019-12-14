@@ -81,23 +81,27 @@ The sections below describe each assessment, including whether something is a pr
 |Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. Use the [Teams guest access checklist](guest-access-checklist.md) to walk through turning on guest access in Teams; the checklist includes the required Azure AD configurations. |
 |External access configured     |Whether [external access](manage-external-access.md) is turned on. By default, it's turned on, with open federation. |
 
-### Chat, teams, channels, and apps
+### Assessments for chat, teams, channels, and apps
 
-|Assessment Test  |What it tells you  |
+In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), the following additional assessments are run for the chat, teams, channels, and apps workload:
+
+|Assessment test  |What it tells you  |
 |---------|---------|
-|Office 365 Group naming policy configured     |Whether naming standards have been configured for Office 365 Groups. Office 365 Groups Naming Policy enables your organization to apply a consistent naming strategy to user created teams and also applies to other groups workloads (like Outlook, SharePoint, Planner, Yammer, etc.). This test queries Azure AD via Microsoft Graph to check for the existence of naming policies that apply to Office 365 Groups. For more information and how to enable Office 365 Group Naming Policies, please reference this [article](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Office 365 Group Expiration Policy configured     |Whether a Group expiration policy has been defined for Office 365 Groups. This enables your organization to automatically remove inactive Teams. It is off by default. This test queries Azure AD via Microsoft Graph to validate if the value has been modified from the default. For more information and how to configure OFfice 365 Group Expiration Policies, please reference this [article](https://docs.microsoft.com/en-us/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide).    |
+|Office 365 Group naming policy configured     |Whether naming standards have been configured for Office 365 Groups. Office 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (like Outlook, SharePoint, Planner, Yammer, etc.). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Office 365 Groups. For more information, read [Office 365 Group naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Office 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Office 365 Groups. This enables your organization to automatically remove inactive Teams. It is off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Office 365 Group Expiration Policy](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
-### Meetings and conferencing
+### Assessments for meetings and conferencing
 
-|Assessment Test  |What it tells you  |
+In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), the following additional assessments are run for the meetings and conferencing workload:
+
+|Assessment test  |What it tells you  |
 |---------|---------|
-|Audio conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses. This is a pre-requisite should Audio conferencing bridges be needed. Through querying the Microsoft Graph this test will analyze the subscriptions associated within your tenant and validate if the subscriptions contains an eligible [service plan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference) for Audio Conferencing and the license availability is greater than zero. For more information on licensing for Audio Conferencing, please reference this [article](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
-|Stream licenses     |Whether you have an active subscription with Stream licenses. This is a pre-requisite should Meeting Recording be desired. Through querying the Microsoft Graph this test will analyze the subscriptions associated within your tenant and validate if the subscriptions contains an eligible [service plan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference) for Stream and the license availability is greater than zero. For more information on Stream and how to enable for cloud meeting recording, please reference this [article](https://docs.microsoft.com/microsoftteams/cloud-recording).
+|Audio Conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses. This is a prerequisite if you're deploying Audio conferencing bridges. Queries the Microsoft Graph to analyze the subscriptions associated with your tenant to validate if the subscriptions contains an eligible [service plan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference) for Audio Conferencing (with at least one license available to assign). For more information, read [Teams add-on licensing](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Stream licenses     |Whether you have an active subscription with Microsoft Stream licenses. This is a prerequisite if you want to turn on Meeting Recording. Queries the Microsoft Graph to analyze the subscriptions associated with your tenant to validate if the subscriptions contains an eligible [service plan](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference) for Stream (with at least one license available to assign). For more information on Stream and how to turn it on, read [Teams cloud meeting recording](cloud-recording.md).
 
 ### Advisor for Teams bot
 
-Once Advisor for Teams creates your Deployment team, the Advisor bot delivers the following message in the General Channel.
+Once Advisor for Teams creates your Deployment team, the Advisor bot delivers the following message in the General channel:
 
 >**Welcome to your Deployment team for Microsoft Teams!**
 >  
@@ -118,10 +122,10 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 ## Frequently asked questions
 ### What are the licensing requirements for Advisor for Teams?
-Office 365 Business Essentials is required to leverage content Advisor for Teams provides via Teams integration with Forms and Planner. 
+At a minimum, you'll need Office 365 Business Essentials so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
 ### Can I delete the Deployment team?
-After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, it will appear that the team stills exists only in the Teams admin center. This will be addressed as Advisor for Teams reached General Availability.
+After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists. This is temporary - it'll be fixed when Advisor for Teams leaves the preview period and becomes generally available.
 
 ### Can I add or remove channels in the Deployment team?
 Yes, once the Deployment team has been created, you'll manage the channels the same way as any other team.
