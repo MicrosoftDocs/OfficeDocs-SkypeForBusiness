@@ -182,6 +182,7 @@
 
 #### Country and region availability for Audio Conferencing and Calling Plans
 ##### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+##### [[Availability in Algeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)]
 ##### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
