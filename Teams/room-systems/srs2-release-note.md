@@ -22,7 +22,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|4.3.21.0 |12/09/2019 |
+|4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -53,7 +53,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.3.21.0 (12/09/2019)
+### 4.3.23.0 (12/13/2019)
 
 Introduced in this update:
 
@@ -61,7 +61,7 @@ Introduced in this update:
 - Device Admin Settings UI refresh with addition of device configuration under About tab
 - Room control back to main screen
 - Meeting Room SKU available in GCC
-- Content camera support for Surface Pro-based system 
+- Content camera support for Surface Pro-based system (Minimum required app build: 4.2.4.0)
 
 ### 4.2.4.0 (10/07/2019)
 
