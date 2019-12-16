@@ -55,7 +55,7 @@ Per-team analytics gives users a more granular view of usage data for a specific
     |**Messages** chart  |Number of unique messages posted in team chat by date. Hover over the dot on a given date to see the number of unique messages posted on that date.|
     
 > [!NOTE]
-> We define Active Users as users performing an intentional action in the desktop client, mobile client and web client. Examples of an intentional action includes starting a chat, placing a call, sharing a file, editing a document within teams, participating in a meeting, etc. We strip out passive actions like auto boot, minimizing a screen, or closing the app. We also de-dupe all actions across a single user ID.
+> We define Active Users as users performing an intentional action in the desktop client, mobile client, and web client. Examples of an intentional action includes starting a chat, placing a call, sharing a file, editing a document within teams, participating in a meeting, etc. We strip out passive actions like auto boot, minimizing a screen, or closing the app. We also de-dupe all actions across a single user ID.
 
 ## Related topics
 
