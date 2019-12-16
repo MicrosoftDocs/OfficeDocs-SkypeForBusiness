@@ -40,6 +40,8 @@ You can get a better understanding of the types of modes that are available to y
     - Set the **Coexistence** mode.
         - **Islands** - Use this setting if you want users to be able to use both Skype for Business and Teams simultaneously.
         - **Skype for Business only** - Use this setting if you want your users to only use Skype for Business.
+        - **Skype for Business with Teams collaboration** - Use this setting if you want your users to use Skype for Business in addition to using Teams for group collaboration (channels).
+        - **Skype for Business with Teams collaboration and meetings** - Use this setting if you want your users to use Skype for Business in addition to using Teams for group collaboration (channels) and Teams meetings.
         - **Teams only** (in preview for some organizations) - Use this setting if you want your users to use only Teams. Note that even with this setting, users can still join meetings hosted in Skype for Business.
     - Set **Notify Skype for Business users that Teams is available for upgrade**. If you turn this on, it will tell the Skype for Business users that they will soon be upgraded to the Teams app.
     - Set the **Preferred app for users to join Skype for Business meetings**. This setting determines which app is used for joining Skype for Business meetings and is honored regardless of the value of coexistence mode.
@@ -57,7 +59,9 @@ You can get a better understanding of the types of modes that are available to y
 3. You can set the **Coexistence mode**. Choose from the following options:
      - **Use Org-wide settings** - Use this setting if you want the user to use the settings in the **Org-wide** settings. 
      - **Islands** - Use this setting if you want the user to be able to use both Skype for Business and Teams. 
-     - **Skype for Business only** - Use this setting if you want the user to use Skype for Business. 
+     - **Skype for Business only** - Use this setting if you want the user to use Skype for Business.
+     - **Skype for Business with Teams collaboration** - Use this setting if you want the user to use Skype for Business in addition to using Teams for group collaboration (channels).
+      - **Skype for Business with Teams collaboration and meetings** - Use this setting if you want the user to use Skype for Business in addition to using Teams for group collaboration (channels) and Teams meetings.
      - **Teams only** - Use this setting if you want the user to use only Teams. The user will still be able to join Skype for Business meetings.
 4. If you select any **Coexistence mode** other than **Use Org-wide settings**, you have the option to enable notifications in the user's Skype for Business app that upgrade to Teams is coming soon. You can enable this notification for the user by turning on the **Notify the Skype for Business user** option.
 5. Click **Save** after you make your changes.
