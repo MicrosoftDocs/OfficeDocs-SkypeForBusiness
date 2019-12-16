@@ -82,7 +82,7 @@ If Teams and Business Voice will use more than 30 percent of your total Internet
 
 ![Connection speed warning](../media/network-planner-report-speed-warning.png)
 
-## Make sure computers and devices on your network can reach Microsoft 365
+## Make sure the computers and devices on your network can reach Microsoft 365
 
 Computers and devices that use Business Voice must use specific network ports to communicate with Microsoft 365 servers. These ports are essentially doors through which devices talk to each other over a network or the Internet. Your firewall needs to allow devices on your network to reach Microsoft 365 through the following *outbound* network ports:
 
