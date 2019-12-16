@@ -123,12 +123,12 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
 ### Deploy the Teams desktop app to the VM
 
-1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links.
+1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
 
     - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
     - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    The minimum version of the Teams desktop app that's required is version 1.2.00.31357. (PSTN hold is not supported in earlier versions)
+    The minimum version of the Teams desktop app that's required is version 1.2.00.31357. (PSTN hold is not supported in earlier versions.)
 
 2. Install the MSI to the VDI VM by running one of the following commands:
 
@@ -150,16 +150,15 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
  
         The next interactive logon session starts Teams and asks for credentials.
 
-3. Uninstall the MSI from the VDI VM 
+3. Uninstall the MSI from the VDI VM. 
 
-    There are two ways to uninstall Teams.  
+    There are two ways to uninstall Teams:  
   
     - PowerShell script (recommended):
     You can use this [PowerShell script](scripts/powershell-script-teams-deployment-clean-up.md) to clean up Teams from target machines or users. It should be executed for every user on a targeted machine. 
     
     - Command line:
-    This approach removes Teams, yet prevents re-installation of Teams.  
-    Run the following command:
+    This approach removes Teams, yet prevents re-installation of Teams. Run the following command:
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -215,7 +214,7 @@ If you're migrating from Skype for Business on VDI to Teams on VDI, besides the 
 
 ### Teams on Chrome browser versus Teams desktop app for VDI
 
-Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that may not meet user expectations on the Chrome browser.
+Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that may not meet user expectations on the Chrome browser:
 
 - The audio and video streaming experience may not be optimal. Users may experiences delays or reduced quality.
 - Device settings aren't available in browser settings.
