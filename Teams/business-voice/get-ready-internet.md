@@ -19,7 +19,7 @@ appliesto:
 
 # Check your Internet connection for Business Voice
 
-Business Voice is located in the cloud with Microsoft 365. Every device that uses Microsoft Teams and Business Voice needs a connection to the Internet
+Business Voice is located in the cloud with Microsoft 365. Every device that uses Microsoft Teams and Business Voice needs a connection to the Internet.
 
 To get the best Business Voice experience, you need a broadband Internet connection that can support the maximum number of phone calls that your organization might make at any one time. You also need to make sure that the computers on your network can reach Microsoft 365 servers.
 
@@ -82,9 +82,9 @@ If Teams and Business Voice will use more than 30 percent of your total Internet
 
 ![Connection speed warning](../media/network-planner-report-speed-warning.png)
 
-## Make sure your networked devices can reach Microsoft 365
+## Make sure computers and devices on your network can reach Microsoft 365
 
-Devices that use Business Voice must use specific network ports to communicate with Microsoft 365 servers. These ports are essentially doors through which devices talk to each other over a network or the Internet. Your firewall must allow devices on your network to reach Microsoft 365 through the following *outbound* network ports:
+Computers and devices that use Business Voice must use specific network ports to communicate with Microsoft 365 servers. These ports are essentially doors through which devices talk to each other over a network or the Internet. Your firewall needs to allow devices on your network to reach Microsoft 365 through the following *outbound* network ports:
 
 * **TCP ports** 80 and 443
 * **UDP ports** 3478, 3479, 3480, and 3481
@@ -101,5 +101,5 @@ The easiest way to check whether your firewall allows communication on these net
    * If the call connects, but you can't hear the instructions or your message, make sure that your speakers and microphone are set up correctly, and then try again.
    * If the call doesn't connect or it connects but you can't hear your message, you might need to update your firewall to allow access to the required network ports. Check your firewall's documentation, or contact an IT specialist for help.
 
-For information about how to prepare larger or more complex networks to support Business Voice, see [Evaluate my environment](../3-envision-evaluate-my-environment.md). This article provides information about bandwidth, proxy and firewall requirements, and how to use the [Network Assessment Tool](../3-envision-evaluate-my-environment.md#test-the-network) to test your network.
+ If you're an IT professional and want more information about how to prepare larger or more complex networks to support Business Voice, see [Evaluate my environment](../3-envision-evaluate-my-environment.md). This article provides information about bandwidth, proxy and firewall requirements, and how to use the [Network Assessment Tool](../3-envision-evaluate-my-environment.md#test-the-network) to test your network.
 

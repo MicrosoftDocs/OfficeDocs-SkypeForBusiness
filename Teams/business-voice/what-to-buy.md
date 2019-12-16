@@ -26,7 +26,7 @@ To make or receive phone calls to or from *external* phone numbers in Microsoft 
 
 Users who don't need to make or receive phone calls to or from external phone numbers just need Teams. They don't need a Microsoft 365 Business Voice license.
 
-For example, you might have 10 factory employees and 5 office employees. The factory employees may only need to call other employees within your company. The office employees also need to call other employees. But they also need to make and receive calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Microsoft 365 Business Voice license.
+For example, you might have 10 factory employees and 5 office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers also need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the 5 office workers would need a Microsoft 365 Business Voice license.
 
 Business Voice includes a domestic calling plan, which gives you a certain number of minutes per month to make calls within your country or region. You can purchase an international calling plan if you want to make calls to other countries or regions. You use *communications credits* to pay for an international calling plan, extra minutes per month for a domestic calling plan, and toll-free numbers. You'll learn more about calling plans and communications credits later in this article.
 
@@ -83,4 +83,4 @@ To see rates for toll-free and international calling, see "Add time with Communi
 
 ## Maximum number of supported users
 
-The Business Voice add-on that's available with small and medium-sized Microsoft 365 subscriptions supports up to 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase an Office 365 E3 or E5 subscription.
+The Business Voice license that's available with small and medium-sized Microsoft 365 subscriptions supports up to 300 licensed users. If you want to license more than 300 users for Business Voice, you need to purchase an Office 365 E3 or E5 subscription.

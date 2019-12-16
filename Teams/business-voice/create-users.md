@@ -50,4 +50,4 @@ If you don't have enough phone numbers to assign to new users, you can get more.
 5. For **Number type**, select **User (subscriber)**.
 6. For **Location**, search for the location of the user and select it. You can also choose to **Add a location**.
 7. Choose an area code, enter the number of phone numbers that you need, and then select **Next**.
-8. Wait for the phone numbers to be reserved, and then view the numbers that you get. If everything looks ok, select **Place order** > **prepare**.
+8. Wait for the phone numbers to be reserved, and then view the numbers that you get. If everything looks ok, select **Place order** > **Finish**.

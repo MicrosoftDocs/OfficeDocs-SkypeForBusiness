@@ -19,7 +19,7 @@ appliesto:
 
 # Use the Getting Started wizard to set up Business Voice
 
-The Getting Started wizard for Microsoft 365 Business Voice gets you set up quickly to make and receive phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a pilot so a few users can try Business Voice before you roll it out for everyone.
+The Getting Started wizard for Microsoft 365 Business Voice gets you set up quickly to make and receive phone calls in Microsoft Teams. If you're a small business just starting out, the wizard can get you up and running in a few minutes with phone numbers, call menus, greetings, and more. If you're a larger business with an established telephony solution, the wizard can help you set up a pilot so a few users can try Business Voice before you roll it out for everyone. Either way, you can start using Business Voice as soon as the wizard is finished!
 
 It's a good idea to read this article before you start the wizard. When you're ready to run the wizard, select **Get started** on the [Get started with Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice) page. Sign in by using the account you used to create your subscription or another account that's a Global Administrator.
 
@@ -28,10 +28,10 @@ It's a good idea to read this article before you start the wizard. When you're r
 >
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes on on-premises Exchange Server.
 
-After you've finished the wizard, you may want to check out the following articles:
+<!-- After you've finished the wizard, you may want to check out the following articles:
 
 * [Things to try with Business Voice](things-to-try.md)
-* [Business Voice design customization](customize-business-voice.md)
+* [Business Voice design customization](customize-business-voice.md)-->
 
 If you don't want to customize anything immediately, you're done! You can start using Business Voice right away.
 
@@ -80,7 +80,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>You can upload a sound file (MP3 or WAV) of up to 5 Megabytes (MB) to use as a call greeting. Or you can type your greeting, and Microsoft 365 will use text-to-speech to read it to the caller. For text-to-speech, you might need to use phonetic spellings to get the pronunciations correct.
+        <td>You can upload a sound file (MP3 or WAV) of up to 5 Megabytes (MB) to use as a call greeting. Or you can type your greeting, and Microsoft 365 will use text-to-speech to read it to the caller. The greeting will be the first thing callers hear when they call your company phone number For text-to-speech, you might need to use phonetic spellings to get the pronunciations correct.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
         </td>
@@ -100,7 +100,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 </table>
 
 > [!IMPORTANT]
-> The Getting Started wizard helps you set up a simple call menu to get you up and running quickly. If you have multiple phone numbers that you want to set up call menus for or you want to set up more complex call menus, see [Set up a Cloud auto attendant](set-up-auto-attendants.md) after you finish the wizard.
+> The Getting Started wizard helps you set up a simple call menu to get you up and running quickly. If you have multiple phone numbers that you want to set up call menus for or you want to set up more complex call menus (also called auto attendants), see [Set up a Cloud auto attendant](set-up-auto-attendants.md) after you finish the wizard.
 
 <table>
     <tr>
