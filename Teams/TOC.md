@@ -19,7 +19,7 @@
 
 <!-- ============================================================ -->
 
-# Get started
+# Get your rollout started
 ## [Overview](get-started-with-teams-quick-start.md)
 ## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Step 2: Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
@@ -664,7 +664,7 @@
 ### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Meetings First](meetings-first.md)
 
-## Prepare your environment for Teams
+## Prepare your environment for upgrading to Teams
 ### [Technical readiness overview](upgrade-prepare-environment.md)
 ### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
 ### [Prerequisites](upgrade-plan-journey-prerequisites.md)
@@ -672,7 +672,7 @@
 ### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
 ### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
 
-## Prepare your organization for Teams
+## Prepare your organization for upgrading to Teams
 ### [Organizational readiness overview](upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
