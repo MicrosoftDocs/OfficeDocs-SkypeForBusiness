@@ -7,12 +7,21 @@
 
 # Network planning
 ## [Quick start](get-started-with-teams-quick-start.md)
-## Plan your rollout
-### [Check your environment’s readiness for Teams](environment-readiness.md)
-### [Prepare your organization's network for Teams](prepare-network.md)
-### [Use Network Planner for Teams](network-planner.md)
-#### [Network Planner walkthrough](tutorial-network-planner-example.yml)
-### [Optimize your network](optimize-your-network)
+## Prepare your rollout
+### Prepare your environment for Teams
+#### [Technical readiness overview](prepare-environment.md)
+#### [Prepare IT staff for Teams](prepare-IT-pros.md)
+#### [Prerequisites](rollout-prerequisites.md)
+#### [Evaluate your environment](plan-journey-evaluate-environment.md)
+#### [Prepare your network](prepare-environment-prepare-network.md)
+#### [Prepare your service](prepare-environment-prepare-service.md)
+#### [Optimize your network](optimize-your-network)
+
+## Network settings and topology
+### [Network settings for cloud voice features in Microsoft Teams](cloud-voice-network-settings)
+### [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology)
+### [Network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+
 
 <!-- ============================================================ -->
 
@@ -852,10 +861,6 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
-
-
-
-# Reference
 
 
 ## Install Teams
