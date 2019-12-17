@@ -39,7 +39,7 @@ To enable the **Calls** tab in Teams users need to have 1:1 calling enabled in T
 
 ## Prerequisites for enabling the **Dial Pad** in Teams
 To enable the **Dial Pad** tab in Teams and allow your users to make and receive PSTN calls you will need to provision users for Phone System and Calling Plans. To learn how to set up Calling Plans, read [Set up Calling Plans](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
-
+For Teams only users, in addition, you must ensure that "Allow Private Calling" is enabled at in Teams Calling Policy. [Policies documentation](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 > [!NOTE]
 > You can also use Direct Routing to allow your users to make and receive PSTN calls. To learn how to set up Direct Routing, read [Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
