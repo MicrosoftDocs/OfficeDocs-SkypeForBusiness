@@ -61,6 +61,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Cyprus](availability-in-cyprus.md)
 > - [Czech Republic](availability-in-the-czech-republic.md)
 > - [Denmark](availability-in-denmark.md)
+> - [Dominica](availability-in-dominica.md)
 > - [Dominican Republic](availability-in-the-dominican-republic.md)
 > - [Ecuador](availability-in-ecuador.md)
 > - [Egypt](availability-in-egypt.md)
