@@ -21,16 +21,17 @@ appliesto:
 <!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
 This guide shows you how to develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams. 
 
-## Introduction
+## Key categories to monitor and maintain
 
-Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
+Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
 
+This article focuses on using the Call Quality Dashboard (CQD) as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
 ![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
-_Figure 1 - Key operational areas covered throughout this guide_
+_Figure 1 - Key operational areas_
 
-By continually assessing and remediating the areas described in this guide, you can reduce their potential to negatively affect the quality of your users’ experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+Most problems with Teams performance fall into the following categories:
 
 -   Incomplete firewall or proxy configuration
 -   Poor Wi-Fi coverage
@@ -40,11 +41,9 @@ By continually assessing and remediating the areas described in this guide, you 
 -   Unoptimized or built-in audio devices
 -   Problematic subnets or network devices
 
-Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
+If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network, check out us[Advisor for Teams](use-advisor-teams-roll-out.md) in the Teams admin center. And read [Prepare your network for Teams](prepare-network.md).
 
-This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
-
-To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
+We've also created [two curated CQD templates](https://aka.ms/qertemplates) to help with your assessment. One is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) below.
 
 ### Intended audience
 
