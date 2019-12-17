@@ -45,18 +45,18 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Phone System available for purchase?  <br/> |  <br/> |
-| Auto attendants <br/> |  <br/> |
-|Call queues  <br/> |  <br/> |
-|Voicemail  <br/> |  <br/> |
+|Is Phone System available for purchase?  <br/> | Yes <br/> |
+|Auto attendants <br/> | Available  <br/> |
+|Call queues  <br/> | Available <br/> |
+|Voicemail  <br/> | Available <br/> |
    
 ## Calling Plans
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |  <br/> |
-|Minutes available for Calling Plans  <br/> |  <br/> |
-|Can make outbound calls to?  <br/> |  <br/> |
+|Calling Plans are available to purchase?  <br/> | No <br/> |
+|Minutes available for Calling Plans  <br/> | Not applicable<br/> |
+|Can make outbound calls to?  <br/> |Not applicable  <br/> |
    
 ## Toll and toll-free numbers for services
 
