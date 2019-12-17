@@ -95,7 +95,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Meeting notes | Available |
 | | Live Events | Available |
 | | Federated meetings | Available |
-| | Surface Hub support | Not available |
+| | Surface Hub support | Available |
 | Calls | Contacts | Available |
 | | History | Available |
 | | Voicemail | Available |
