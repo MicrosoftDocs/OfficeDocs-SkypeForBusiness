@@ -1,5 +1,5 @@
 ---
-title: Quality of Experience Review Guide for Microsoft Teams
+title: Manage call and meeting quality in Microsoft Teams 
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
+description: Learn how to analyze and manage real-time media performance in Microsoft Teams by using the Call Quality Dashboard (CQD).
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -16,15 +16,14 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Quality of Experience Review Guide
+#  Manage call and meeting quality in Microsoft Teams 
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 <!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
-This guide walks you through a plan for ongoing monitoring & maintenance of call and meeting quality for your organization in Teams. 
+This guide shows you how to develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams. 
 
 ## Introduction
 
-To have the greatest impact on improving the user experience, organizations need to operationalize the key areas that are shown in the following figure. Additional areas include identifying operational tasks, establishing targets for quality metrics, ascertaining the metrics to use to gauge organizational success, and narrowing areas of investigation as needed.
+Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
 
 
 ![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")

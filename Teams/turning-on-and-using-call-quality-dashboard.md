@@ -353,6 +353,8 @@ From the pull-down list of reports at the top of the screen displayed at login \
 
 If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD for Teams (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because CQD in Teams reports on many additional calling scenarios. If you're still using reports from the older CQD from the Skype for Business legacy portal, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
+To learn more about the differences between the older CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
+
 ## Open CQD from the Skype for Business legacy portal
 
 ![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
