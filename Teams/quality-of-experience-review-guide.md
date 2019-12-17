@@ -49,7 +49,7 @@ We've also created [two curated CQD templates](https://aka.ms/qertemplates) to h
 
 This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
 
-This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
+This guide is also intended to be used by your quality champions. For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
 ## Prerequisites
 
