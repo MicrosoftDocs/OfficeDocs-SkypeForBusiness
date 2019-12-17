@@ -7,7 +7,7 @@
 
 # Network planning
 ## [Quick start](get-started.md)
-## [Prepare your environment](prepare-environment-prepare-service.md)
+## [Prepare your environment](prepare-environment-prepare-network.md)
 ## [Prepare your network](prepare-network.md)
 ## [Optimize your network](optimize-your-network.md)
 ## [Prepare your service](prepare-environment-prepare-service.md)
