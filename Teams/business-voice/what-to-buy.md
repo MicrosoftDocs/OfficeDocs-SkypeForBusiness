@@ -60,7 +60,7 @@ Calls between the United States and Canada are considered domestic calls. You do
 
 ### International Calling Plan
 
-The International Calling Plan let users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on.
+The International Calling Plan lets users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on.
 
 When you consider whether to buy the International Calling Plan for a user, determine how often they make international calls and how long the calls are. This is important because when you purchase an International Calling Plan, you pay for a certain number of minutes up front. If a user doesn't use up all of the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes in the International Calling Plan, don't buy one. Instead use Communications Credits (see the following section).
 
