@@ -1,23 +1,21 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [How to roll out Teams](How-to-roll-out-teams.md)
-# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)  
+# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md) 
 
 <!-- ============================================================ -->
 
 # Network planning
-## [Quick start](get-started-NP.md)
-## [Prepare your environment(prepare-environment.md)
-### [Evaluate your environment](plan-journey-evaluate-environment.md)
+## [Quick start](get-started.md)
+## [Prepare your environment](plan-journey-evaluate-environment.md)
 ## [Prepare your network](prepare-environment-prepare-network.md)
 ## [Prepare your service](prepare-environment-prepare-service.md)
-## [Optimize your network](optimize-your-network)
+## [Optimize your network](optimize-your-network.md)
 
 ## Network settings and topology
-### [Network settings for cloud voice features in Microsoft Teams](cloud-voice-network-settings)
+### [Network settings for cloud voice features in Microsoft Teams](cloud-voice-network-settings.md)
 ### [Network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-### [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology)
-
+### [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology.md)
 
 <!-- ============================================================ -->
 

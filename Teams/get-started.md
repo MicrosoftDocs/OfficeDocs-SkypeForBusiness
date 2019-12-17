@@ -36,6 +36,7 @@ If you want help assessing your network, including bandwidth calculations and ne
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
 ## Next steps
+
 Go to [Optimize your network](optimize-your-network.md).
 
 Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).

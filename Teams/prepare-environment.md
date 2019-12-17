@@ -1,5 +1,5 @@
 ---
-title: Prepare an environment for Teams
+title: Prepare your environment for Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -26,8 +26,6 @@ This article is part of the Technical Readiness stage of your rollout journey. B
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
 - [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# Prepare your environment for Teams
 
 To drive a successful Teams rollout in your organization, it’s important that you validate your network readiness. Preparing your current environment will help ensure a high-quality user experience now, in addition to improving the quality of the user experience in Teams. Taking time to plan individual steps can help accelerate your deployment and ensure that you haven’t skipped any important action items.
 

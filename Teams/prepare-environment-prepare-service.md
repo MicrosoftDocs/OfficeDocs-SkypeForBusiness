@@ -1,5 +1,5 @@
 ---
-title: Prepare for Microsoft Teams Rollount|  Onboarding Rollout Checklist
+title: Prepare for Microsoft Teams Rollout|  Onboarding Rollout Checklist
 author: lanachin
 ms.author: v-lanac
 manager: serdars
