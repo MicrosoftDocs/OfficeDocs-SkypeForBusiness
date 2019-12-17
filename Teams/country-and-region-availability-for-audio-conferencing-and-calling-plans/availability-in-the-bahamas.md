@@ -35,7 +35,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |Yes, pay-per-minute only  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, [pay-per-minute only](audio-conferencing-pay-per-minute.md)  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | No |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
    
