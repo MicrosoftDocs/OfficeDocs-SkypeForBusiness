@@ -18,7 +18,7 @@ appliesto:
 
 # Location of data in Microsoft Teams
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, United Kingdom, South Korea, South Africa, Americas, APAC, and EMEA regions.
+Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, France, India, Japan, South Africa, South Korea, United Kingdom, Americas, APAC, and EMEA regions.
 
 > [!IMPORTANT]
 > Teams currently offers data residency in Australia, Canada, France, India, Japan, United Kingdom, South Korea, and South Africa for new tenants only.
@@ -29,20 +29,6 @@ Data in Teams resides in the geographic region associated with your Office 365 t
 To see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
 ![Screenshot of data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
-
-The Teams services described in this section store data at rest in the following locations:
-
-- South Africa: datacenters in Johannesburg and Cape Town
-- France: datacenters in Marseille and Paris
-- Australia: datacenters in New South Wales and Victoria
-- Japan: datacenters in Tokyo(Saitama) and Osaka
-- Asia Pacific (APAC): datacenters in Singapore and Hong Kong
-- Europe, Middle East, and Asia (EMEA): datacenters in Dublin and Amsterdam
-- Americas – North, and South (AMER): datacenters in Bay, CA and Boydton, VA
-- United Kingdom: datacenters in Cardiff and London
-- India: datacenters in Chennai and Pune
-- Canada: datacenters in Quebec City and Toronto
-- South Korea: datacenters in Seoul and Busan
 
 Your Teams data is stored differently depending on the content type. For an in-depth discussion, check out the [Ignite breakout session on Microsoft Teams architecture](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071).
 
@@ -69,6 +55,24 @@ Media used in chats (except for Giphy GIFs which aren't stored but are a referen
 #### Files
 
 Files (including OneNote and Wiki) that somebody shares in a channel are stored in the team’s SharePoint site. Files shared in a private chat or a chat during a meeting or call are uploaded and stored in the OneDrive for the Business account of the user who shares the file. Exchange, SharePoint and OneDrive already provide data residency in each of the worldwide datacenter geos. So, for existing customers, all files, OneNote notebooks, Teams wiki content, and mailboxes that are part of the Teams experience are already stored in the location based on your tenant affinity. Files are stored in-country for Australia, Canada, France, South Africa, India, Japan, UK, and South Korea. For all other countries, files are stored in the US, Europe, or Asia Pacific location based on tenant affinity.
+
+### Datacenter locations
+
+The Teams services described in this section store data at rest in the following locations:
+
+|Country or region  |Datacenter location |
+|---------|---------|
+|Australia   |New South Wales and Victoria         |
+|Canada    |Quebec City and Toronto         |
+|France    |Marseille and Paris         |
+|India   |Chennai and Pune        |
+|Japan    |Tokyo (Saitama) and Osaka         |
+|South Africa     |Johannesburg and Cape Town         |
+|South Korea     |Seoul and Busan         |
+|United Kingdom     | Cardiff and London        |
+|Americas – North, and South (AMER) |Bay, CA and Boydton, VA       |
+|Asia Pacific (APAC)  |Singapore and Hong Kong        |
+|Europe, Middle East, and Asia (EMEA)   |Dublin and Amsterdam        |
 
 ### Files stored with a third-party storage provider
 
