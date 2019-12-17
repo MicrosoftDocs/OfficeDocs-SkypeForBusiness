@@ -39,9 +39,9 @@ For Skype for Business Online and Calling Plans users, Cloud Voicemail is automa
     
 3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
-## Phone System with on-premises environments
+## Phone System with on-premises PSTN connectivity
 
-The following information is about configuring Cloud Voicemail to work with on-premises Calling Plan environments.
+The following information is about configuring Cloud Voicemail to work with on-premises PSTN connectivity environments.
   
 1. If the Phone System feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. You also need to purchase an Exchange Online license. See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
