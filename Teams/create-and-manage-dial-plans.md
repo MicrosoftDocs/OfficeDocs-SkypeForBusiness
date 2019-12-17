@@ -159,7 +159,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
     
 #### Using a PowerShell script
 
-Run this to delete a normalization rule that is associated with a tenant dial plan without needing to deleting the tenant dial plan first:
+Run this to delete a normalization rule that is associated with a tenant dial plan without needing to delete the tenant dial plan first:
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -175,7 +175,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
-Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
@@ -194,17 +194,17 @@ Translation         : +14255551$1
 Name                : NR12
 IsInternalExtension : False
 
-$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
+$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Run this to find all users who have been granted the RedmondDialPlan tenant dial plan.
   
 ```
-Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
+Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Run this to delete policyname for all users who have HostingProvider sipfed.online.lync.com.
+Run this to remove any assigned TenantDialPlan from all users who have a HostingProvider of sipfed.online.lync.com.
 ```
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -223,13 +223,13 @@ Run this to create the new tenant dial plan.
   
 ```
 $DPFileName = "dialplan.xml"
-$DP = Import-Clixml $DPFileName
+$dp = Import-Clixml $DPFileName
 $NormRules = @()
 ForEach($nr in $dp.NormalizationRules)
 {
- $id1 = "Global/" +$nr.Name
-$nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation  -IsInternalExtension $nr.IsInternalExtension -InMemory
-$NormRules += $nr2
+ $id1 = "Global/" + $nr.Name
+ $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation -IsInternalExtension $nr.IsInternalExtension -InMemory
+ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
