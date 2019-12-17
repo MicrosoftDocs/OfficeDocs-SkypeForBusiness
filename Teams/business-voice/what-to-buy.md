@@ -49,7 +49,7 @@ There are two types of Calling Plans:
 
 ### Domestic Calling Plan
 
-The **Domestic Calling Plan** let users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user who's assigned a Business Voice license. The number of minutes that are available for each user each month depends on country or region the user is located. This table that shows the number of minutes for each country or region where Business Voice is supported:
+The Domestic Calling Plan let users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user who's assigned a Business Voice license. The number of minutes that are available for each user each month depends on country or region the user is located. This table that shows the number of minutes for each country or region where Business Voice is supported:
 
 |Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
@@ -58,7 +58,9 @@ The **Domestic Calling Plan** let users call phone numbers in their country or r
 
 Calls between the United States and Canada are considered domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
 
-**International Calling Plan** let users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on.
+### International Calling Plan
+
+The International Calling Plan let users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on.
 
 When you consider whether to buy the International Calling Plan for a user, determine how often they make international calls and how long the calls are. This is important because when you purchase an International Calling Plan, you pay for a certain number of minutes up front. If a user doesn't use up all of the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes in the International Calling Plan, don't buy one. Instead use Communications Credits (see the following section).
 

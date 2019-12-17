@@ -80,7 +80,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>You can upload a sound file (MP3 or WAV) of up to 5 Megabytes (MB) to use as a call greeting. Or you can type your greeting, and Microsoft 365 will use text-to-speech to read it to the caller. The greeting will be the first thing callers hear when they call your company phone number For text-to-speech, you might need to use phonetic spellings to get the pronunciations correct.
+        <td>You can upload a sound file (MP3 or WAV) of up to 5 Megabytes (MB) to use as a call greeting, or you can type your greeting, and Microsoft 365 will use text-to-speech to read it to the caller. The greeting will be the first thing callers hear when they call your company phone number. For text-to-speech, you might need to use phonetic spellings to get the pronunciations correct.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
         </td>
@@ -91,8 +91,8 @@ For more information, see [What are emergency locations, addresses, and call rou
 
 <table>
     <tr>
-        <td>You can forward all calls to a specific user. Or you can set up a menu that the caller can choose options from. For a call menu, you specify options that the caller can select by voice or by pressing a number on a phone's keypad. Each menu option can forward calls to a specific user.<br><br>
-        You can upload a sound file (MP3 or WAV) of up to 5 MB that gives instructions to the caller. Or you can type the instructions, and Microsoft 365 will read them to the caller. You might need to spell words phonetically to get the pronunciations right.
+        <td>You can forward all calls to a specific user, or you can set up a menu that the caller can choose options from. If you create a call menu, you specify options that the caller can select by voice or by pressing a number on a phone's keypad. Each menu option can forward calls to a specific user.<br><br>
+        You can upload a sound file (MP3 or WAV) of up to 5 MB that gives instructions to the caller, or you can type the instructions. Microsoft 365 will use text-to-speech to read them to the caller. You might need to spell words phonetically to get the pronunciations right.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>

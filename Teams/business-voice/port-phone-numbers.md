@@ -19,9 +19,9 @@ appliesto:
 
 # Move (port) phone numbers to Business Voice
 
-When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you already have phone numbers that you want to keep when you move to Business Voice, you can bring them with you by using a process called phone number to bring them over to Business Voice. After you port your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
+When the Getting Started wizard helps you set up Business Voice, it assigns phone numbers for the main company line and for any users that you've assigned a Business Voice license to. If you already have phone numbers that you want to keep when you move to Business Voice, you can bring them with you by using a process called phone number porting to bring them over to Business Voice. After you port your phone numbers to Business Voice, you assign them to users and services. The old numbers replace the temporary numbers that the Getting Started wizard assigned.
 
-Before you move numbers to Business Voice, take a look at [Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md). This article includes answers to questions what including countries and regions are supported, what numbers can and can't be transferred, and what information you'll need.
+Before you move numbers to Business Voice, take a look at [Transferring phone numbers common questions](../transferring-phone-numbers-common-questions.md). This article includes answers to questions what including what countries and regions are supported, what numbers can and can't be transferred, and what information you'll need.
 
 When you're ready to move your phone numbers to Business Voice, follow the steps in [Transfer phone numbers to Office 365](../transfer-phone-numbers-to-office-365.md) to create a port order. The order includes the information that's needed to move your numbers from your current phone service carrier to Business Voice.
 
