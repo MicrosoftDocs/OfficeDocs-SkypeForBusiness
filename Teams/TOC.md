@@ -673,6 +673,87 @@
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
 ### [Use the Network Testing Companion](use-network-testing-companion.md)
+
+## Install Teams
+### [Get clients for Teams](get-clients.md)
+### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
+### [Install Teams using MSI](msi-deployment.md)
+### [Turn on Teams in your organization](Office-365-set-up.md)
+### [Teams files and folders to exclude from antivirus scanning](teams-files-folders-antivirus-perf.md)
+### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+### [Teams client updates](teams-client-update.md)
+### [Troubleshoot installation and update issues](troubleshoot-installation.md)
+
+## Licensing
+### [Manage user access to Teams](user-access.md)
+### [Office 365 licensing for Teams](office-365-licensing.md)
+### [Assign Teams licenses](assign-teams-licenses.md)
+### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### License options based on your plan
+##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+### [Manage the Teams Exploratory experience](teams-exploratory.md)
+### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
+### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
+### [Virtual User license](teams-add-on-licensing/virtual-user.md)
+
+
+## Interoperability with Office 365
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 groups and Teams](office-365-groups.md)
+### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+### [How Exchange and Teams interact](exchange-teams-interact.md)
+#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
+
+## Supported devices
+### [Manage your devices in Teams](device-management.md)
+### [Phones for Teams](phones-for-teams.md)
+### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
+### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+
+## Troubleshoot & support
+### [Known issues for Teams](Known-issues.md)
+### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+### [Use log files in troubleshooting Teams](log-files.md)
+### [Verify service health for Teams](service-health.md)
+### [Special character restrictions in Teams policies](special-character-restrictions-in-policy-names.md)
+
+### [Monitor call quality](monitor-call-quality-qos.md)
+#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+#### [Set up QoS in Teams](QoS-in-Teams.md)
+##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
+#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Set up Call Analytics](set-up-call-analytics.md)
+#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
+## Teams PowerShell
+### [Overview](teams-powershell-overview.md)
+### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+
+## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+## [Get help in Teams](get-help-in-microsoft-teams.md)
+## [Teams content updates](teams-updates.md)
+
+
 ## Country and region availability for Audio Conferencing and Calling Plans
 ### [Overview](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ### [Algeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
@@ -775,87 +856,3 @@
 ### [Uruguay](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [Venezuela](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
-
-
-
-
-## Install Teams
-### [Get clients for Teams](get-clients.md)
-### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
-### [Install Teams using MSI](msi-deployment.md)
-### [Turn on Teams in your organization](Office-365-set-up.md)
-### [Teams files and folders to exclude from antivirus scanning](teams-files-folders-antivirus-perf.md)
-### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
-### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-### [Teams client updates](teams-client-update.md)
-### [Troubleshoot installation and update issues](troubleshoot-installation.md)
-
-## Licensing
-### [Manage user access to Teams](user-access.md)
-### [Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Teams licenses](assign-teams-licenses.md)
-### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### License options based on your plan
-##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-### [Manage the Teams Exploratory experience](teams-exploratory.md)
-### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
-### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
-### [Virtual User license](teams-add-on-licensing/virtual-user.md)
-
-
-## Interoperability with Office 365
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-### [How Exchange and Teams interact](exchange-teams-interact.md)
-#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-
-
-
-## Supported devices
-### [Manage your devices in Teams](device-management.md)
-### [Phones for Teams](phones-for-teams.md)
-### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
-### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
-
-## Troubleshoot & support
-### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
-### [Use log files in troubleshooting Teams](log-files.md)
-### [Verify service health for Teams](service-health.md)
-### [Special character restrictions in Teams policies](special-character-restrictions-in-policy-names.md)
-
-### [Monitor call quality](monitor-call-quality-qos.md)
-#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-#### [Set up QoS in Teams](QoS-in-Teams.md)
-##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
-#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Set up Call Analytics](set-up-call-analytics.md)
-#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-
-## Teams PowerShell
-### [Overview](teams-powershell-overview.md)
-### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
-## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
-## [Get help in Teams](get-help-in-microsoft-teams.md)
-## [Teams content updates](teams-updates.md)
