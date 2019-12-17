@@ -1,5 +1,5 @@
 ---
-title: Quick Start
+title: Quick start
 author: JuliaDegnan
 ms.author: judegn
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: Quick start.
+description: Get started with planning your network. 
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
@@ -35,4 +35,7 @@ If you want help assessing your network, including bandwidth calculations and ne
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
-**Next Step**: [Get started](get-started-with-teams-quick-start.md)
+## Next steps
+Go to [Optimize your network](optimize-your-network.md).
+
+Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).
