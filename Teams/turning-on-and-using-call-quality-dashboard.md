@@ -52,17 +52,15 @@ In CQD, you can upload building and endpoint information, which lets you use Loc
 
 If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **<font color="red">(SIUNIE, which roles also give access to per-user call analytics?)**</font>
 
-- Global Administrator
-- Global Reader
-- Skype for Business Administrator
+- Office 365 Global Administrator
+- Office 365 Global Reader
 - Teams Service Administrator
 - Teams Communications Administrator
-- Teams Communications Support Engineer
-- Teams Communications Support Specialist
-- Reports Reader
+- Teams Communications Support Engineer (can't modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant)
+- Teams Communications Support Specialist (can't modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant)
+- Skype for Business Administrator
+- Reports Reader: Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Microsoft 365 admin center, any reports from the [Microsoft 365 usage analytics](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports (can't modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant).
 
-> [!NOTE]
-> The Teams Communications Support Engineer, Teams Communications Support Specialist, and Reports Reader roles cannot modify files on the CQD **Tenant Data Upload** page nor activate CQD for a tenant.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
@@ -76,7 +74,7 @@ New in November 2019, CQD uses a near-real-time (NRT) data feed. Call records ar
 
 ### PII and EUII data
 
-Due to compliance reasons, personally-identifiable information (PII) or end-user identifiable information (EUII) data is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain PII or EUII are cleared, resulting in PII-free NRT data. Fields that contain PII or EUII data are:
+For compliance reasons, personally-identifiable information (PII) or end-user identifiable information (EUII) data is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain PII or EUII are cleared, resulting in PII-free NRT data. Fields that contain PII or EUII data are:
 
 - Full IP address
 - Media Access Control (MAC) Address

@@ -45,32 +45,9 @@ If you take the time before you roll out Teams to assess these areas and remedia
 
 We've also created [two curated CQD templates](https://aka.ms/qertemplates) to help with your assessment. One is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) below.
 
-### Intended audience
+## Assign admin roles for access to CQD
 
-This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
-
-This guide is also intended to be used by your quality champions. For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
-
-## Prerequisites
-
-Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
-
--   **Office 365 Global Administrator** 
-
--   **Skype for Business Administrator** 
-
--   **Teams Service Administrator** 
-
--   **Teams Communications Administrator** 
-
--   **Teams Communications Support Engineer** 
-
--   **Teams Communications Support Specialist** 
-
-Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
-
--   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) In the admin center, any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
-
+Assign the appropriate admin roles to anybody that needs to access CQD. To see the list of admin roles and learn how to assign them, read [Assign admin roles for access to CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 ## What is quality?
 
 When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
