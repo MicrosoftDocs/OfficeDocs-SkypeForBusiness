@@ -7,7 +7,7 @@
 
 # Network planning
 ## [Quick start](get-started-NP.md)
-## Prepare your environment(prepare-environment.md)
+## [Prepare your environment(prepare-environment.md)
 ### [Evaluate your environment](plan-journey-evaluate-environment.md)
 ## [Prepare your network](prepare-environment-prepare-network.md)
 ## [Prepare your service](prepare-environment-prepare-service.md)
