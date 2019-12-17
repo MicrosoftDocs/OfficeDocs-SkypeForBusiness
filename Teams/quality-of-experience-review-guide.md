@@ -3,7 +3,6 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
@@ -20,7 +19,8 @@ appliesto:
 # Quality of Experience Review Guide
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
+<!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
+This guide walks you through a plan for ongoing monitoring & maintenance of call and meeting quality for your organization in Teams. 
 
 ## Introduction
 
