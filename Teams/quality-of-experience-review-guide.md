@@ -50,7 +50,7 @@ We've also created [two curated CQD templates](https://aka.ms/qertemplates) to h
 Assign the appropriate admin roles to anybody that needs to access CQD. To see the list of admin roles and learn how to assign them, read [Assign admin roles for access to CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 ## What is quality?
 
-When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
+In this context, quality is a combination of service metrics and user experience.
 
 <!-- Note: need to update graphic-->
 ![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
