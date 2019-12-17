@@ -5,6 +5,18 @@
 
 <!-- ============================================================ -->
 
+## Network planning
+## [Quick start](get-started-NP.md)
+## Plan your rollout
+### [Check your environment’s readiness for Teams](environment-readiness.md)
+### [Prepare your organization's network for Teams](prepare-network.md)
+### [Use Network Planner for Teams](network-planner.md)
+#### [Network Planner walkthrough](tutorial-network-planner-example.yml)
+### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
+### [Limits and specifications for Teams](limits-specifications-teams.md)
+
+<!-- ============================================================ -->
+
 # Get started
 ## [Overview](get-started-with-teams-quick-start.md)
 ## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -847,23 +859,6 @@
 
 
 # Reference
-
-
-## Get ready to roll out Teams
-### [Check your environment’s readiness for Teams](environment-readiness.md)
-### [Prepare your organization's network for Teams](prepare-network.md)
-### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
-### [Use Network Planner for Teams](network-planner.md)
-### [Network Planner walkthrough](tutorial-network-planner-example.yml)
-### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-### [Limits and specifications for Teams](limits-specifications-teams.md)
-### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-### [Plan for governance in Teams](plan-teams-governance.md)
-### [Use the Network Testing Companion](use-network-testing-companion.md)
-
-
-
 
 
 ## Install Teams
