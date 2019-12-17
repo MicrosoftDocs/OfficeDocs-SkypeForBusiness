@@ -5,7 +5,7 @@
 
 <!-- ============================================================ -->
 
-## Network planning
+# Network planning
 ## [Quick start](get-started-NP.md)
 ## Plan your rollout
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
@@ -83,8 +83,6 @@
 #### [Edit guest user information](edit-guests-information.md)
 #### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](troubleshoot-guest-access.md)
-
-
 
 
 ## Manage Teams

@@ -35,3 +35,4 @@ If you want help assessing your network, including bandwidth calculations and ne
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
+**Next Step**: [Get started](get-started-with-teams-quick-start.md)
