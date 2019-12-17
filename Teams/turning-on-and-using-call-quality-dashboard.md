@@ -21,7 +21,7 @@ f1keywords:
   - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom: 
   - Reporting
-description: "Learn how to use the Call Quality Dashboard to monitor call and meeting quality in Microsoft Teams and Skype for Business. "
+description: "Learn how to use the Call Quality Dashboard to monitor call and meeting quality in Microsoft Teams and Skype for Business."
 ---
 
 # Use Call Quality Dashboard (CQD)
@@ -33,7 +33,7 @@ CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, S
 > [!IMPORTANT]
 > To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
 
-[Open CQD for Skype for Business](#open-cqd-for-skype-for-business)
+[Open CQD from the Skype for Business legacy portal](#open-cqd-from-the-skype-for-business-legacy-portal)
 
 ## What's the Call Quality Dashboard, and when should I use it?
   
@@ -349,47 +349,11 @@ From the pull-down list of reports at the top of the screen displayed at login \
 3. A preview of the report is available in the Query Editor.
 4. A detailed report name and description can be created with the edit box at the bottom.
 
-## Frequently Asked Questions
+## Why does CQD data from Skype for Business look different than CQD data from Teams? 
 
-**<font color="red">(SIUNIE, I want to get rid of this entire section. Let's talk about what information we need to weave into the main body of the article. I'm assuming that we no longer need to document older versions of CQD. It seems like we should create a section about "Interpreting CQD reports" instead - that would be quite useful information for an admin, don't you think?)**</font>
+If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD for Teams (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because CQD in Teams reports on many additional calling scenarios. If you're still using reports from the older CQD from the Skype for Business legacy portal, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
-### Why does my CQD v2 report data look different than the CQD v3 report data? 
-
-If you see data differences between CQD v2 and v3, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT ‘Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
-
-CQD v2 and CQD v3 have different total counts since CQD v3 has new scenarios not present in CQD v2. Summary Total or Aggregated all-up numbers with no filters are expected to be different.  
-
-If the usage scenario includes Skype for Business Server 2019 calls, CQD v3 data includes Skype Bot calls (auto attendant, CVI, Virtual Desktop Interface), Live Events, and PSTN calls. CQD v2 does not use this data. (CQD v3 requires Skype for Business Server 2019 with cloud data connector configured.)
-
-For instance, if you see 200,000 audio streams with 5000 failures in a CQD v2 Summary Report it would not be unusual to see 300,000 audio streams with 5500 failures (the difference can be due to Skype for Business Server 2019 calls, CVI calls, PSTN calls, and so on) in a CQD v3 Summary report.
-
-To disambiguate unexpected differences, look at more than one breakdown of the overall data. Filter the data by one or more of the following parameters:
-
-- User Agent Category Pair
-- First Product
-- Second Product
-
-### Other expected differences between CQD v2 and CQD v3
-
-There are several Quality and Reliability improvements in Teams but not Skype for Business Online:
-
-- Auto-reconnect
-- Fast roaming
-- Improved BW management
-
-When you compare data for these two services:
-
-- Pick a scenario with a tight focus, such as corporate wired connections, Windows Desktops, or a single region or building.
-- Check the Teams MR, TR, or MP IP ranges. The Teams ranges are newer than Skype for Business Online, and that can cause connectivity issues involving firewalls
-- Don't compare summary or top-level numbers. These comparisons will lead you to compare a large call volume of Skype for Business Online calls on a corporate wired connection to a small volume of Teams calls on an LTE or private network.
-- Beware of location bias and population differences: There are many comparisons that are too dissimilar to be useful:
-  - NOAM : APAC
-  - NY : Goa
-  - Wired : wifi
-  - Corporate network : home network
-  
-
-## Open CQD for Skype for Business
+## Open CQD from the Skype for Business legacy portal
 
 ![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
 
@@ -401,7 +365,7 @@ When you compare data for these two services:
 
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
 
-After the first time you sign in, CQD will begin collecting and processing data.  
+After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned.
 
 
 ## Related topics
