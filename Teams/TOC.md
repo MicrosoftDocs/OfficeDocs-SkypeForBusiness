@@ -796,7 +796,7 @@
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
-## [Limits and specifications for Microsoft Teams](Limits and specifications for Microsoft Teams.md)
+## [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
@@ -829,7 +829,6 @@
 ### [Messaging policies licensing](teams-add-on-licensing/pri-message.md)
 ### [Virtual User license](teams-add-on-licensing/virtual-user.md)
 
-
 ## Interoperability with Office 365
 ### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ### [Office 365 groups and Teams](office-365-groups.md)
@@ -840,7 +839,6 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
 ### [Phones for Teams](phones-for-teams.md)
@@ -848,7 +846,6 @@
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)

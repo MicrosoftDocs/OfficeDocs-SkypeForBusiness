@@ -14,7 +14,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
-appliesto:
+applies to:
 - Microsoft Teams
 ---
 
