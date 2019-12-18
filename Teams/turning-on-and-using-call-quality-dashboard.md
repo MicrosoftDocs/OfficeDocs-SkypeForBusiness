@@ -47,6 +47,7 @@ In CQD, you can upload building and endpoint information, which lets you use Loc
 
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
+Don't miss our [Manage call and meeting quality in Teams](quality-of-experience-review-guide.md) article, which offers in-depth scenarios for the Teams admin or Support engineer responsible for managing service quality in Teams.
 
 ## Assign admin roles for access to CQD
 
@@ -215,7 +216,7 @@ By default, the current day of the month is used as the last day of the Rolling 
 
 ### Drill-down functionality
 
-CQD provides drill-down fields in several reports. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
+CQD provides drill-down fields in several reports. This is a powerful tool that will help you zero in on problems in your org. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
 
 For example, in Quality Drill Down Reports, click a date to drill into it on the **Locations** tab.
 
@@ -224,6 +225,8 @@ For example, in Quality Drill Down Reports, click a date to drill into it on the
 You can add multiple dates from the **Location** tab, such as adding 2019-09-22 to Date: 2019-09-24: 
 
 ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+
+For in-depth guidance on using drill-down filters, read [Drill-down filters - narrow the focus of investigations](quality-of-experience-review-guide.md#drill-down-filters---narrow-the-focus-of-investigations).
 
 > [!TIP]
 > Don't jump directly to the last tab without first applying filters. Otherwise, the result list might be too large.

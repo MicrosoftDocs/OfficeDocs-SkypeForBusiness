@@ -18,8 +18,7 @@ appliesto:
 
 #  Manage call and meeting quality in Microsoft Teams 
 
-<!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
-This article will help you - the Teams admin or support and helpdesk engineer - develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio quality because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
+This article will help you - the Teams admin or support and helpdesk engineer - develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio-quality scenarios because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 
 Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
 
@@ -58,7 +57,7 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 
 In this context, quality is a combination of service metrics and user experience.
 
-<!-- Note: need to update graphic-->
+<!-- Note: need to update graphic. LOLA - PROBABLY NUKE THIS GRAPHIC - IT'S ALL TEXT ANYWAY! -->
 ![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
 _Figure 2 - What is quality?_
@@ -405,6 +404,79 @@ Common subnets are specific private subnets that are used by hotels, home networ
 -   192.168.43.0/24
 
 When investigating a managed network that uses a common subnet, you’ll need to use the Second Reflexive Local IP dimension to group subnets. This dimension contains the endpoint’s public IP address.
+
+## Drill-down filters - narrow the focus of investigations
+
+CQD reports features several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations:
+**<font color="red">I THOUGHT WE HAD A LIST OF THESE SOMEWHERE - was I imagining it?</font>**
+
+To review the basics of using drill-down filters, read [Drill-down functionality](turning-on-and-using-call-quality-dashboard.md#drill-down-functionality).
+
+### Adding and editing drill-down fields
+
+When editing a report, you have the option to specify drill thru fields of your own using the Query Editor.
+
+Start by clicking on the “…” button of the report you wish to edit and select “Edit”.
+
+![Screenshot of editing a drill down field](media/qerguide-image-addeditdrilldownfields.png)
+
+Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill thru to. Note: Drill thru functionality only works by navigating to different tabs at present. Support for drilling thru to a specific expander will be added later.
+Finally, click “Close” to save your changes to the Dimension, and click “Save” to save and close the Query Editor.
+
+![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
+
+Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill thru to. Note: Drill thru functionality only works by navigating to different tabs at present. Support for drilling thru to a specific expander will be added later.
+Finally, click “Close” to save your changes to the Dimension, and click “Save” to save and close the Query Editor.
+
+![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
+
+### Multi-select filters
+
+In addition to drill-down functionality, CQD also supports specifying Filters with multiple values (OR filters).
+
+In order to select multiple filter values, begin by adding a new filter to the report. Click the “+” button beside the Filters label, enter the name of the Dimension you wish to use, and click “Add”.
+
+![Screenshot of adding a multi-select filter](media/qerguide-image-addmultiselectfilter.png)
+
+Once you have done so, click the magnifying glass icon by the new filter. You will be shown a text field, and a number of options, such as “Select All” and “Invert”. Enter a value into the text field and click the magnifying glass icon by that field to search for all values that contain that string. Alternately, you may leave the text field empty and just hit the magnifying glass icon to view up to the first 100 options.
+
+Check the values you wish to filter on, then click “Add” to close the apply the filter and re-run the query.
+
+![Screenshot of adding a query filter](media/qerguide-image-addfilter.png)
+
+### Dashboard level filters
+Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
+
+![Screenshot of a dashboard filter](media/qerguide-image-dashboardfilters.png)
+
+### URL-defined filter values
+
+```
+In addition to defining parameters in the URL such as Trending Month, tenant ID, language, etc., CQD also supports defining filter values for the Product or Dashboard level filters in the URL. This allows users to easily save time by bookmarking URLs with certain filter values pre-selected.
+
+To apply a URL filter value to the Dashboard, the filter must first be present as either a Product or Dashboard level filter. Afterwards, add the following text to the URL after the Trending Month and before the URL parameters:
+
+```filter/DATA_MODEL_NAME|VALUE```
+
+For example, if you wished to specify a Product filter value of Microsoft Teams, you would add the following:
+
+```filter/[AllStreams].[Is%20Teams]|[True]```
+
+Your entire URL should take the form of something like the following:
+
+```https://cqd.lync.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+
+Additionally, the URL-defined filter also supports specifying multi-select values by adding more filter values each separated by a pipe character. For example:
+
+```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+
+In the event that a non-valid data model name is provided, the URL filter will not be applied.
+
+
+
+
+
+
 
 ## Import the CQD templates
 
