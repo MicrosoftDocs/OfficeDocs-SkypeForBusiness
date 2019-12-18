@@ -1,14 +1,14 @@
 ---
-title: Quick start
-author: JuliaDegnan
-ms.author: judegn
+title: Get started Quickly
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: Get started with planning your network quickly. 
+description: Get started quickly rolling out your first teams and channels so you can build your experience with Teams before you deploy widely across your organization.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
@@ -16,7 +16,11 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# Plan your network quickly
+
+# Quick start
+
+## Plan your network
+
 We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to plan your network for Teams. 
 
 To quickly get up and running using Teams, complete the following tasks:
