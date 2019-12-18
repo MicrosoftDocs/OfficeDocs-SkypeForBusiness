@@ -814,9 +814,7 @@
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
-## [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
-
-<!-- ============================================================ -->
+## [Limits and specifications for Microsoft Teams](Limits and specifications for Microsoft Teams.md)
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
