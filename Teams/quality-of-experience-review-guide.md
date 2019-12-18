@@ -1113,9 +1113,7 @@ For more information, see [this article about media quality and network performa
 
 -   <https://aka.ms/sof-cqd>
 
--   [Getting started with CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) guide and workshop
 
--   [Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
 
 ### Call Analytics training
 
@@ -1150,4 +1148,6 @@ For more information, see [this article about media quality and network performa
 
 [Use Advisor for Teams](use-advisor-teams-roll-out.md)
 
-[Prepare your network for Teams](prepare-network.md).
+[Prepare your network for Teams](prepare-network.md)
+
+[Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
