@@ -19,13 +19,13 @@ appliesto:
 #  Manage call and meeting quality in Microsoft Teams 
 
 <!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
-This guide shows you how to develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams. 
+This article will help you develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio quality because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 
 ## Key categories to monitor and maintain
 
 Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
 
-This article focuses on using the Call Quality Dashboard (CQD) as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+
 
 ![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
@@ -41,19 +41,18 @@ Most problems with Teams performance fall into the following categories:
 -   Unoptimized or built-in audio devices
 -   Problematic subnets or network devices
 
-If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network, check out [Use Advisor for Teams](use-advisor-teams-roll-out.md) in the Teams admin center. And read [Prepare your network for Teams](prepare-network.md).
-
+If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network, check out [Advisor for Teams](use-advisor-teams-roll-out.md) in the Teams admin center. And read [Prepare your network for Teams](prepare-network.md).
 
 
 ## Set up CQD, assign admin roles
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
-Assign the appropriate admin roles to anybody that needs to access CQD. To see the list of admin roles and learn how to assign them, read [Assign admin roles for access to CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to:
+- [Assign admin roles](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to anybody that needs to access CQD
+- [Upload tenant data](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information). (including custom building, network and location information). Don't miss the [sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+- Set up and learn how to use reports
 
-We've also created [two curated CQD templates](https://aka.ms/qertemplates) to help with your assessment. One is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading your tenant data - including custom building, network, and location information - adds important dimensions to CQD reports. For more information, see [Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information).
-
-To learn about CQD, read [Use Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
 
 ## What is quality?
 
@@ -1287,3 +1286,10 @@ For more information, see [this article about media quality and network performa
 -   [Skype for Business Online reporting](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft Teams reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+
+
+## Related topics
+
+[Use Advisor for Teams](use-advisor-teams-roll-out.md)
+
+[Prepare your network for Teams](prepare-network.md).
