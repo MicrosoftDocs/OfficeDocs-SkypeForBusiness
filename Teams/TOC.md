@@ -671,10 +671,9 @@
 ## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-#
-#
-
 <!-- ============================================================ -->
+#       
+#    
 # Reference
 
 ## Get ready to roll out Teams
