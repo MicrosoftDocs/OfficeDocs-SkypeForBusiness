@@ -1,10 +1,21 @@
 <!-- ============================================================ -->
+
 # [Welcome to Teams](teams-overview.md)
+
+# [Architecture & telephony solutions posters](teams-architecture-solutions-posters.md)  
+
+# Training 
+## [Overview](training-microsoft-teams-landing-page.md)
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
+## [Admin training for Teams](itadmin-readiness.md)
+## [End user training for Teams](enduser-training.md)
+<!-- ============================================================ -->
+#       
+#    
+
 # [How to roll out Teams](How-to-roll-out-teams.md)
-# [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
-
 # Get started
 ## [Overview](get-started-with-teams-quick-start.md)
 ## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -505,8 +516,6 @@
 
 
 <!-- ============================================================ -->
-#       
-#    
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
@@ -572,8 +581,6 @@
 #        
 
 <!-- ============================================================ -->
-
-
 
 
 # Industries and government guidance
@@ -664,8 +671,11 @@
 ## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-# Reference
+#
+#
 
+<!-- ============================================================ -->
+# Reference
 
 ## Get ready to roll out Teams
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
@@ -731,14 +741,6 @@
 ### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
-
-
-
-
-<!-- ============================================================ -->
-#       
-#          
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
