@@ -152,12 +152,12 @@ To learn more about Teams and Office 365 ProPlus, see [How to exclude Teams from
 
 3. Uninstall the MSI from the VDI VM. 
 
-    There are two ways to uninstall Teams:  
+    There are two ways to uninstall Teams, depending if the deployment is per-machine or per-user:
   
-    - PowerShell script (recommended):
+    - For Per-User Deployment only -- PowerShell script:
     You can use this [PowerShell script](scripts/powershell-script-teams-deployment-clean-up.md) to clean up Teams from target machines or users. It should be executed for every user on a targeted machine. 
     
-    - Command line:
+    - For Per-Machine or Per-User -- Command line:
     This approach removes Teams, yet prevents re-installation of Teams. Run the following command:
   
       ```
