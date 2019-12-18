@@ -5,12 +5,15 @@
 <!-- ============================================================ -->
 
 # Network planning
-## [Quick start](get-started.md)
-### [Using Network Planner](network-planner.md)
-#### [Example scenario](tutorial-network-planner-example.md)
-## [Prepare your environment](environment-readiness.md)
-## [Prepare your network](prepare-network.md)
-## [Optimize your network](optimize-your-network.md)
+
+# [Quick start](get-started.md)
+
+# [Using Network Planner](network-planner.md)
+
+## [Example scenario](tutorial-network-planner-example.md)
+# [Prepare your environment](environment-readiness.md)
+# [Prepare your network](prepare-network.md)
+# [Optimize your network](optimize-your-network.md)
 ## [Prepare your service](prepare-environment-prepare-service.md)
 
 ## Network settings and topology for Cloud Voice
