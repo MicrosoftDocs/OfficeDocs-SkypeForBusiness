@@ -19,7 +19,7 @@ appliesto:
 #  Manage call and meeting quality in Microsoft Teams 
 
 <!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
-This article will help you develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio quality because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
+This article will help you - the Teams admin or support and helpdesk engineer - develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio quality because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 
 Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
 
@@ -41,7 +41,7 @@ Most problems with Teams performance fall into the following categories:
 -   Unoptimized or built-in audio devices
 -   Problematic subnets or network devices
 
-If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network, check out [Advisor for Teams](use-advisor-teams-roll-out.md) in the Teams admin center. And read [Prepare your network for Teams](prepare-network.md).
+If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network in preparation for your Teams rollout, read [Advisor for Teams](use-advisor-teams-roll-out.md) and [Prepare your network for Teams](prepare-network.md).
 
 
 ## Set up CQD, assign admin roles
@@ -76,11 +76,7 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 The poor stream rate (PSR) represents the organization’s overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
-The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the stream classification process, see [this article](stream-classification-in-call-quality-dashboard.md).
-
-> [!Note]
-> CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor.
-
+The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
 _Table 1 - Audio poor quality metrics_
 
@@ -96,7 +92,7 @@ _Table 1 - Audio poor quality metrics_
 
 The setup failure rate, otherwise known as the _Total Call Setup Failure Percentage_ measurement in CQD, is the number of streams where the media path couldn’t be established between the endpoints at the start of the call.
 
-This represents any media stream that couldn’t be established. Given the severity of the impact on the user experience measured here, the goal is to reduce this value to as close to zero as possible. A high value for this metric is more common in new deployments with incomplete firewall rules than a mature deployment, but it’s still important to watch on a regular basis.
+This represents any media stream that couldn’t be established. Given the severity of the impact of this problem on the user experience, the goal is to reduce this value to as close to zero as possible. A high value for this metric is more common in new deployments with incomplete firewall rules than a mature deployment, but it’s still important to watch on a regular basis.
 
 This metric is calculated by taking the total number of streams that failed to set up divided by the total number of streams that submitted a successful call detail record (CDR):
 
@@ -106,7 +102,7 @@ This metric is calculated by taking the total number of streams that failed to s
 
 The drop failure rate, otherwise known as the _Total Call Dropped Failure Percentage_ measurement in CQD, is the percentage of successfully established streams where the media path didn’t terminate normally.
 
-This represents any media stream that terminated unexpectedly. Although the impact of this isn’t as severe as a stream that failed to set up, it will negatively affect the user experience. Sudden and frequent media drops not only can have a severe impact on the user experience, they result in the need for users to reconnect, resulting in a loss in productivity.
+This represents any media stream that terminated unexpectedly. Although the impact of this isn’t as severe as a stream that failed to set up, it still negatively affects the user experience. Sudden and frequent media drops not only can have a severe impact on the user experience, they result in the need for users to reconnect, resulting in lost productivity (not to mention frustration).
 
 The metric is calculated by taking the total number of dropped streams divided by the total count of streams that set up successfully:
 
@@ -114,7 +110,7 @@ The metric is calculated by taking the total number of dropped streams divided b
 
 ### Define your target metrics
 
-This section discusses some of the core service metrics that we use to assess how services experience health. By continually assessing and driving efforts to keep these metrics below their defined targets, you’ll help ensure that your users experience consistent, reliable call quality. To get you started, the following targets are provided.
+This section discusses some of the core service metrics that we use to assess the health of the services. By continually assessing and driving efforts to keep these metrics below their defined targets, you’ll help ensure that your users experience consistent, reliable call quality. As a starting point, use the suggested targets in the table below. Adjust the targets as needed to meet your business objectives.
 
 _Table 2 - Core target health assessment metrics_
 <table>
@@ -134,12 +130,9 @@ _Table 2 - Core target health assessment metrics_
 <tr><td>Overall</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
 </table>
 
-
-It's important to discuss and define your organization’s targets to meet your business objectives.
-
 ### User experience
 
-Analyzing the user experience is more art than science, because the metrics gathered here don’t always mean that there’s a problem with the network or service but rather, they simply indicate that the user perceives a problem. Microsoft offers a built-in survey mechanism—known as Rate My Call (RMC)—to help gauge overall user experience. RMC will help you answer the following questions from your users’ perspective:
+Analyzing the user experience is more art than science, because the metrics gathered here don’t always mean that there’s a problem with the network or service but rather, they simply indicate that the user perceives a problem. CQD includes a built-in survey mechanism — Rate My Call (RMC) — to help gauge overall user experience. RMC will give you insight into the following questions from the perspective of your users:
 
 -   Do I know how to use the solution?
 -   Is the solution easy to use and intuitive, and does it support my day-to-day communication needs?
@@ -150,10 +143,10 @@ Analyzing the user experience is more art than science, because the metrics gath
 
 #### Rate My Call 
 
-Rate My Call (RMC) is built into Teams and Skype for Business and is automatically configured to be displayed to the participant after one in every 10 calls, or 10 percent. This brief survey asks the user to rate the call and provide a little context for why the call quality might have been poor. A one or two rating is considered poor, three to four is good, and five is excellent. Although it’s somewhat of a lagging indicator, this is a useful metric for uncovering issues that service metrics can miss.
+Rate My Call (RMC) is built into Teams and Skype for Business. It automatically pops up after one in every 10 calls, or 10 percent. This brief survey asks the user to rate the call and provide a little context for why the call quality might have been poor. A one or two rating is considered poor, three to four is good, and five is excellent. Although it’s somewhat of a lagging indicator, this is a useful metric for uncovering issues that service metrics can miss.
 
 > [!Note]
-> Until users are educated to respond to RMC surveys by giving good feedback in addition to bad, responses typically come back as overwhelmingly negative. Most users only respond when call quality is poor. Because of this, your RMC reports might be skewed to the poor side even while service metrics are good.
+> The human factor: Users often ignore the survey when call quality is good, and they fill it out when call quality is bad. As a result, your RMC reports might be skewed to the poor side even while service metrics are good.
 
 You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
