@@ -253,7 +253,7 @@ _Figure 4 - CQD report categories_
 
 The summary reports are divided into four categories:
 
--   **Summary Reports** focus on analyzing quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. This is the default landing page when you first sign in to CQD Online.
+-   **Summary Reports** focus on analyzing quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. This is the default landing page when you first sign in to CQD.
 -   **Location-Enhanced Reports** focus on analyzing quality trends based on location information. To use these reports, you must have uploaded a building file.
 -   **Reliability Reports** focus on analyzing reliability trends for audio, video, video-based screen sharing (VBSS), and app sharing.
 -   **Quality of Experience Reports** are a “slimmed-down” version of the detailed QER templates, focusing on key areas for analyzing audio quality and reliability.
@@ -413,140 +413,11 @@ Common subnets are specific private subnets that are used by hotels, home networ
 
 When investigating a managed network that uses a common subnet, you’ll need to use the Second Reflexive Local IP dimension to group subnets. This dimension contains the endpoint’s public IP address.
 
-## CQD Online
-
-This section describes the fundamentals of accessing CQD. Guidance is given for the following topics:
-
--   Accessing CQD online
--   Getting started with CQD
--   Editing reports in CQD
--   Filtering reports in CQD
--   Importing reports in CQD
-
-For more in-depth training and resources, see the [Appendix](#other-resources).
-
-### Access CQD Online
-
-You can access CQD one of three ways:
-
--   Go to <https://cqd.lync.com>.
-
--   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
-
-![Screen shot of Call quality dashboard selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
-
-_Figure 7 – Accessing CQD through the Microsoft Teams admin center_
-
--   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
-
-![Screen shot of CQD selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
-
-_Figure 8 - Accessing CQD through the Skype for Business admin center_
-
-
-### Getting started
-
-When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
-
-![Screen shot showing types of reports available in CQD](media/qerguide-image-choosereports.png)
-
-_Figure 9 - Navigating to Detailed Reports_
-
-The Detailed Reports page in CQD looks like the following illustration.
-
-![screen shot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
-
-|             |           |
-| ------------|-----------|
-| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
-| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
-| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
-| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
-
-_Figure 10 - Detailed Reports page_
-
-Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
-
-### Editing reports
-
-When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
-
-![Screen shot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
-
-|             |           |
-| ------------|-----------|
-| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.<ul><li>By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.</li><li>Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.</li><li>Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.</li></ul> |
-| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | The top pane shows options for chart customization. |
-| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
-| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
-
-_Figure 11 - Query Editor_
-
-### Filtering reports
-
-The templates provided include several built-in queries and report filters. The following sections describe the most common filters used throughout the templates.
-
-#### URL filter
-
-You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online. We recommend that when using filters, you bookmark them for easy reference. 
-
-Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
-
-To implement a URL filter, in the browser address bar, append the following to the end of the URL:
-
-```
-/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
-```
-
-Example:  
-
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
-
-To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
-
-```
-/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
-```
-
-Example:
-
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
-
-
-> [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
-
-
-#### Query filters
-
-Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report’s overall size and query times. This is especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
-
-_Table 3 - Query filters_
-
-| Filter         | Description          | CQD query filter example      |
-|----------------|----------------------|-------------------------------|
-| No blank values   | Some filters don’t have the option to filter for blank values. To filter blank values manually, use the blank expression and set the filter to Equals or Not Equals, depending on your needs.      | Second Building Name \<\> \^\\s\*\$                       |
-| Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT’s control and can be quickly excluded from a report. Common subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
-| View inside only  | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.       | Second Inside Corp = Inside        |
-
-#### Report filters
-
-Report filters are implemented by adding a filter to the rendered report either in the Query Editor or directly to the report. The following report filters are used throughout the template.
-
-_Table 4 - Report filters_
-
-| Filter     | Description                            | CQD report filter example         |
-|------------|----------------------------------------|-----------------------------------|
-| Month      | Start with the year first, then month. | 2017-10                           |
-| Alphabetic | Filters for any alphabetic characters. | [a-z]                             |
-| Numeric    | Filters for any numeric characters.    | [0-9]                             |
-| Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
-
 ## Import the CQD templates
 
 This guide includes [two curated CQD templates](https://aka.ms/qertemplates). These templates accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
 
-**To import the templates (.CQDX) into CQD Online**
+**To import the templates (.CQDX) into CQD**
 
 1. Go to <https://cqd.lync.com>.
 
@@ -571,9 +442,9 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 ## Building mapping
 
-In a Teams or Skype for Business Online deployment, all clients are external. That has the implication that by default, all clients are reported as outside in CQD Online, regardless of whether the client was connected on an internal corporate network.
+In a Teams or Skype for Business Online deployment, all clients are external. That has the implication that by default, all clients are reported as outside in CQD, regardless of whether the client was connected on an internal corporate network.
 
-When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can’t manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD Online, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
+When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can’t manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
 
 ### Building data file structure
 
@@ -668,7 +539,7 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-1. Go to CQD Online by browsing to <https://cqd.lync.com>.
+1. Go to CQD by browsing to <https://cqd.lync.com>.
 
 2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
@@ -727,7 +598,7 @@ If a building file is already uploaded but you need to add missing subnets, do t
 
 After you upload building information for managed networks, every managed network should have a building association. However, this won’t always be the case; typically, a few subnets are missed. This section covers how to validate those missing networks.
 
-Browse to the **Detailed Reports** page in CQD Online and navigate to the **Missing Subnet Report** included in the CQD templates. This presents all the subnets with 10 or more audio streams that aren’t defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list. If subnets are missing, update the original building data file and re-upload it to CQD.
+Browse to the **Detailed Reports** page in CQD and navigate to the **Missing Subnet Report** included in the CQD templates. This presents all the subnets with 10 or more audio streams that aren’t defined in the building data file and are being marked as outside. Ensure that there are no managed networks in this list. If subnets are missing, update the original building data file and re-upload it to CQD.
 
 > [!IMPORTANT]
 > You’ll need to add your tenant ID as a query filter for **Second Tenant ID** to this report to filter the report to view only your organization’s tenant data. Otherwise, the report will show federated subnets.

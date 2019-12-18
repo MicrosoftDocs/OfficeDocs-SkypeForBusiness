@@ -342,12 +342,94 @@ If the default CQD reports don't meet your needs, use these instructions to crea
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report. When you open the Query Editor for a new report, you see something similar to this screenshot:
 
-![Edit new reports](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
-1. Dimensions, measures, and filters are chosen in the left pane. Click the "plus" button next to a heading to open the dialog where you can add a  dimension, measure, or filter and check the corresponding box. If you edit an existing report, you can uncheck existing values to remove them. For details, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
-2. Options for chart customization are displayed at the top.
-3. A preview of the report is available in the Query Editor.
-4. A detailed report name and description can be created with the edit box at the bottom.
+![screen shot illustrating elements that make up a detailed report](media/qerguide-image-detailedreportspage.png)
+
+|             |           |
+| ------------|-----------|
+| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
+| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
+| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
+| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
+
+_Figure 10 - Detailed Reports page_
+
+Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
+
+### Editing reports
+
+When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
+
+![Screen shot illustrating elements that make up a report being edited.](media/qerguide-image-queryeditor.png)
+
+|             |           |
+| ------------|-----------|
+| ![Icon of the number 1, referencing a callout in the previous screenshot](media/qerguide-image-callout1.png "one") | You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.<ul><li>By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.</li><li>Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.</li><li>Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.</li></ul> |
+| ![Icon of the number 2, referencing a callout in the previous screenshot](media/qerguide-image-callout2.png "two") | The top pane shows options for chart customization. |
+| ![Icon of the number 3, referencing a callout in the previous screenshot](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
+| ![Icon of the number 4, referencing a callout in the previous screenshot](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
+
+_Figure 11 - Query Editor_
+
+### Filtering reports
+
+The templates provided include several built-in queries and report filters. The following sections describe the most common filters used throughout the templates.
+
+#### URL filter
+
+You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online. We recommend that when using filters, you bookmark them for easy reference. 
+
+Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
+
+To implement a URL filter, in the browser address bar, append the following to the end of the URL:
+
+```
+/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+```
+
+Example:  
+
+```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+
+To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
+
+```
+/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
+```
+
+Example:
+
+```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+
+
+> [!NOTE]
+> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
+
+
+#### Query filters
+
+Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report’s overall size and query times. This is especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
+
+_Table 3 - Query filters_
+
+| Filter         | Description          | CQD query filter example      |
+|----------------|----------------------|-------------------------------|
+| No blank values   | Some filters don’t have the option to filter for blank values. To filter blank values manually, use the blank expression and set the filter to Equals or Not Equals, depending on your needs.      | Second Building Name \<\> \^\\s\*\$                       |
+| Exclude common subnets | Without a valid building file to separate managed from unmanaged networks, home networks will be included in the reports. These home subnets are outside the scope of IT’s control and can be quickly excluded from a report. Common subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
+| View inside only  | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.       | Second Inside Corp = Inside        |
+
+#### Report filters
+
+Report filters are implemented by adding a filter to the rendered report either in the Query Editor or directly to the report. The following report filters are used throughout the template.
+
+_Table 4 - Report filters_
+
+| Filter     | Description                            | CQD report filter example         |
+|------------|----------------------------------------|-----------------------------------|
+| Month      | Start with the year first, then month. | 2017-10                           |
+| Alphabetic | Filters for any alphabetic characters. | [a-z]                             |
+| Numeric    | Filters for any numeric characters.    | [0-9]                             |
+| Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
 
 ## Why is CQD data from Skype for Business different than CQD data from Teams? 
 
