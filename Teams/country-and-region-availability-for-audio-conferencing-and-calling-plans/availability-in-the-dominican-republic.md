@@ -3,7 +3,7 @@ title: "Availability in the Dominican Republic"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: mikedav, jastark, oscarr
 ms.topic: reference
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
@@ -37,9 +37,8 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Santiago. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br> |
-|Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
-   
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Santiago. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> | 
    
 ## Phone System
 
