@@ -51,8 +51,6 @@
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 
-
-
 ## Apps, bots, and connectors
 
 ### [Overview](deploy-apps-microsoft-teams-landing-page.md)
@@ -73,7 +71,6 @@
 #### [Manage external access](manage-external-access.md)
 #### [Native Teams chat for external users](native-chat-for-external-users.md)
 
-
 ### Guest access
 #### [About guest access](guest-access.md)
 #### [Guest access checklist](guest-access-checklist.md)
@@ -87,7 +84,6 @@
 #### [Edit guest user information](edit-guests-information.md)
 #### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](troubleshoot-guest-access.md)
-
 
 ## Manage Teams
 ### [Administrator roles](using-admin-roles.md)
@@ -137,7 +133,6 @@
 ## [Microsoft Teams Rooms](room-systems/index.md)
 ## [Manage the Whiteboard in Teams](manage-whiteboard.md)
 
-
 ## Audio conferencing
 ### [Plan your deployment](deploy-audio-conferencing-teams-landing-page.md)
 
@@ -157,7 +152,6 @@
 #### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-
 
 ### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
@@ -186,8 +180,6 @@
 #### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 #### [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md)
 #### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
-
-
 
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
@@ -284,11 +276,7 @@
 ##### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
-
-
 <!-- ============================================================ -->
-
-
 
 ## [Cloud Video Interop](cloud-video-interop.md)
 
@@ -300,7 +288,6 @@
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
 
 <!-- ============================================================ -->
-
 
 # Cloud voice 
 
@@ -338,7 +325,6 @@
 ### [Shared line appearance](shared-line-appearance.md)
 ### [Understand how users can block PSTN calls on Teams clients](block-pstn-calls-on-Teams-clients.md)
 
-
 ## Calling Plans
 ### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
@@ -367,7 +353,6 @@
 #### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
-
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Media path country codes](direct-routing-country-codes.md)
@@ -378,7 +363,6 @@
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
 #### [Set up the Ringback bot](direct-routing-ringback-bot.md)
-
 
 ## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -400,9 +384,6 @@
 ### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### [Add and update reporting labels](learn-more-about-site-upload.md)
 
-## Network settings and topology
-### [Network settings for cloud voice features](cloud-voice-network-settings.md)
-
 ## Emergency calling
 ### [Overview](what-are-emergency-locations-addresses-and-call-routing.md)
 ### [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
@@ -414,8 +395,6 @@
 #### [Emergency call labels](emergency-calling-labels.md)
 ### [Manage emergency calling policies](manage-emergency-calling-policies.md)
 ### [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
-
-
 
 ## Reference
 ### Country and region availability for Calling Plan
@@ -529,7 +508,6 @@
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
-
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -617,13 +595,10 @@
 #### [Deploy my service](3-onboard-deploy-my-service.md)
 #### [Operate my service](1-drive-value-operate-my-service.md)
 #### [Enhance my service](2-drive-value-enhance-my-service.md)
-<!-- ============================================================ -->
-
-
 
 <!-- ============================================================ -->
+
 # Adopt
-
 ## [Overview](adopt-microsoft-teams-landing-page.md) 
 ## [Get started](teams-adoption-get-started.md)
 
@@ -647,17 +622,13 @@
 ### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
 ### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Upgrade to Teams
-
 ## [Get started](upgrade-start-here.md)
 ## [About the upgrade framework](upgrade-framework.md)
-
 ## Plan your upgrade journey
-
 ### [Upgrade planning overview](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
@@ -678,14 +649,11 @@
 ### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
-
 ## Implement your upgrade
 ### [Overview](upgrade-to-Teams.md)
 ### [Conduct a user pilot](pilot-essentials.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## Operate, adopt, and optimize
 ### [Operational plan overview](continue-journey.md)
@@ -702,10 +670,8 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-
 <!-- ============================================================ -->
-#       
-#    
+
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
@@ -733,9 +699,6 @@
 ### [Update AAD Connect to include more than one forest](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
 ## [Integration with Exchange and SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
-
-#     
-#     
 
 <!-- ============================================================ -->
 
@@ -767,13 +730,7 @@
 
 ## [Partner resources](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
-
-
 
 # Industries and government guidance
 ## [Overview](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
@@ -820,8 +777,6 @@
 
 # Small and medium business guidance
 ## [Teams templates for small and medium businesses](smb-templates.md)
-#    
-#    
 
 <!-- ============================================================ -->
 
@@ -848,8 +803,7 @@
 ## [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
-#       
-#          
+
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
