@@ -89,7 +89,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
-- [Allow private Meet now (coming soon)](#allow-private-meet-now-coming-soon)
+- [Allow private Meet now](#allow-private-meet-now)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -213,7 +213,7 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 - [Allow PowerPoint sharing](#allow-powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)
-- [Allow chat in meetings](#allow-chat-in-meetings)
+- [Allow chat in meetings (coming soon)](#allow-chat-in-meetings-coming-soon)
 
 ### Screen sharing mode
 
