@@ -795,8 +795,8 @@
 ## [Location of data in Teams](location-of-data-in-teams.md)
 ## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ## [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
-##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+## [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Data collection practices](data-collection-practices.md)
 ## [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
@@ -810,11 +810,11 @@
 <!-- ============================================================ -->
 
 # Reference
-### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
-### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-### [Plan for governance in Teams](plan-teams-governance.md)
-### [Limits and specifications for Microsoft Teams](Limits and specifications for Microsoft Teams.md)
+## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
+## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+## [Plan for governance in Teams](plan-teams-governance.md)
+## [Limits and specifications for Microsoft Teams](Limits and specifications for Microsoft Teams.md)
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
