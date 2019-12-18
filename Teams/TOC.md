@@ -930,12 +930,12 @@
 
 ### Monitor and troubleshoot call quality
 #### [Monitor call quality](monitor-call-quality-qos.md)
-#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 #### Quality of Service (QoS)
 ##### [Set up QoS in Teams](QoS-in-Teams.md)
 ##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 #### Call Quality Dashboard (CQD)
-##### [Use Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+##### [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+##### [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 ##### [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ##### [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 #### Per-user call analytics

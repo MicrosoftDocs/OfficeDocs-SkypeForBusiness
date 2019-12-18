@@ -41,13 +41,20 @@ Most problems with Teams performance fall into the following categories:
 -   Unoptimized or built-in audio devices
 -   Problematic subnets or network devices
 
-If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network, check out us[Advisor for Teams](use-advisor-teams-roll-out.md) in the Teams admin center. And read [Prepare your network for Teams](prepare-network.md).
+If you take the time before you roll out Teams to assess these areas and remediate any deficiencies, you'll reduce the amount of effort needed to maintain a high-quality Teams experience for all your users. For help assessing your network, check out [Use Advisor for Teams](use-advisor-teams-roll-out.md) in the Teams admin center. And read [Prepare your network for Teams](prepare-network.md).
 
-We've also created [two curated CQD templates](https://aka.ms/qertemplates) to help with your assessment. One is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) below.
 
-## Assign admin roles for access to CQD
 
-Assign the appropriate admin roles to anybody that needs to access CQD. To see the list of admin roles and learn how to assign them, read [Assign admin roles for access to CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+## Set up CQD, assign admin roles
+
+Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
+
+Assign the appropriate admin roles to anybody that needs to access CQD. To see the list of admin roles and learn how to assign them, read [Assign admin roles for access to CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+
+We've also created [two curated CQD templates](https://aka.ms/qertemplates) to help with your assessment. One is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading your tenant data - including custom building, network, and location information - adds important dimensions to CQD reports. For more information, see [Upload Tenant Data information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information).
+
+To learn about CQD, read [Use Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
+
 ## What is quality?
 
 In this context, quality is a combination of service metrics and user experience.
@@ -59,7 +66,7 @@ _Figure 2 - What is quality?_
 
 ### Service metrics
 
-Service metrics consist of specific client-based metrics. During each call, the client collects telemetry information about the call and submits a report at the end of each call that can be later accessed through CQD or [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). These metrics include:
+Service metrics consist of specific client-based metrics. During each call, the client collects telemetry for the call and submits a report at the end of each call that can later be accessed in CQD or in [per-user call analytics](set-up-call-analytics.md). These metrics include:
 
 -   Poor Stream Rate
 -   Setup Failure Rate
@@ -217,7 +224,7 @@ The other important area is monitoring which devices are prevalent in your deplo
 > [!IMPORTANT]
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
 
-## CQD basics
+## Use CQD to manage call quality
 
 This section describes the fundamentals of working with CQD. Guidance is given for the following topics:
 
@@ -323,7 +330,7 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 ### Teams vs. Skype for Business
 
-CQD can report on both Teams and Skype for Business telemetry. However, there might be times when you want to develop a report to look at Teams telemetry separate from Skype for Business.
+CQD can report on both Teams and Skype for Business. However, there might be times when you want to develop a report to look at Teams telemetry separate from Skype for Business.
 
 #### Summary reports
 
@@ -354,7 +361,7 @@ To filter an individual detailed report, add the filter ``Is Teams`` to the repo
 _Figure 6 - Adding a Microsoft Teams filter to a report_
 
 
-### Managed vs. unmanaged networks
+### Managed versus unmanaged networks
 
 By default, all endpoints in CQD are classified as external. As soon as a building file is introduced, we can begin to look at managed endpoint data. As previously discussed, networks in CQD are defined as:
 

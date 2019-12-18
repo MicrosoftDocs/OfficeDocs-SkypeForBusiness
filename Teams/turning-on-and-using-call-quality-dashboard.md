@@ -1,5 +1,5 @@
 ---
-title: "Use Call Quality Dashboard (CQD)"
+title: Set up Call Quality Dashboard (CQD)
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 description: "Learn how to use the Call Quality Dashboard to monitor call and meeting quality in Microsoft Teams and Skype for Business."
 ---
 
-# Use Call Quality Dashboard (CQD)
+# Set up Call Quality Dashboard (CQD)
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information.
 
@@ -349,11 +349,11 @@ From the pull-down list of reports at the top of the screen displayed at login \
 3. A preview of the report is available in the Query Editor.
 4. A detailed report name and description can be created with the edit box at the bottom.
 
-## Why does CQD data from Skype for Business look different than CQD data from Teams? 
+## Why is CQD data from Skype for Business different than CQD data from Teams? 
 
 If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD for Teams (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because CQD in Teams reports on many additional calling scenarios. If you're still using reports from the older CQD from the Skype for Business legacy portal, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
-To learn more about the differences between the older CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
+To learn more about the differences between the older and latest CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
 
 ## Open CQD from the Skype for Business legacy portal
 
