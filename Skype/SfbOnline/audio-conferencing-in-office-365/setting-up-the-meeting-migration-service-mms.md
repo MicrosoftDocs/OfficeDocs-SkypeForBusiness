@@ -123,7 +123,7 @@ In addition to automatic meeting migrations, admins can manually trigger meeting
 **SourceMeetingType:**
 - Using `SourceMeetingType SfB` indicates that only Skype for Business meetings (whether on-premises or online) should be updated.
 - Using `SourceMeetingType Teams` indicates that only Teams meetings should be updated.
-- Using `SourceMeetingType All` indicates that both Skyep for Business meetings and Teams meetings should be updated. This is the default value for SourceMeetingType.
+- Using `SourceMeetingType All` indicates that both Skype for Business meetings and Teams meetings should be updated. This is the default value for SourceMeetingType.
     
 
 The example below shows how to initiate meeting migration for user ashaw@contoso.com so that all meetings are migrated to Teams:

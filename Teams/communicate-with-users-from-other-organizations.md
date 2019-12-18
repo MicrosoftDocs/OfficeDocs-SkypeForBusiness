@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
@@ -20,6 +20,8 @@ Communicate with users from other organizations in Microsoft Teams
 ======================================================
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams gives you two different ways to make that happen. The first – **external access** (federation) – lets  you find, call, and chat with users in other domains (for example, contoso.com). The second – **guest access** – lets you add individuals to your teams, as guests, using their email address. You can collaborate with guests as you would with any other users in your organization.
+
+You can use both external access and guest access if you want - one doesn't preclude the other.
 
 At a high level, here’s how to choose (for a detailed comparison, jump down to [Compare external and guest access](#compare-external-and-guest-access)):
 
@@ -76,7 +78,7 @@ If you're ready to turn on guest access in your organization, start with the [Gu
 <sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.<br>
-<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. *This is a preview or early release feature.*
+<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. 
 
 ## Related topics
 

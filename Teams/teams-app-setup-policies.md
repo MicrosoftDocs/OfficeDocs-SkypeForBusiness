@@ -30,13 +30,13 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![Screen shot showing Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Screen shot showing Teams mobile client](media/app-setup-policies-mobile-app-bar.png)      |
+|![Screenshot showing Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Screenshot showing Teams mobile client](media/app-setup-policies-mobile-app-bar.png)      |
 
 You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
 
-![Screen shot showing the App setup policies page](media/app-setup-policies.png)
+![Screenshot showing the App setup policies page](media/app-setup-policies.png)
 
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
@@ -51,11 +51,11 @@ You can use the Microsoft Teams admin center to create a custom policy.
 4. Turn on or turn off **Allow uploading custom apps**, depending on whether you want to let users upload custom apps to Teams. You won't be able to change this setting if **Allow third-party or custom apps** is turned off in [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in app permission policies.
 5. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
 
-     ![Screen shot showing the Add pinned apps pane](media/app-setup-policies-add-apps.png)
+     ![Screenshot showing the Add pinned apps pane](media/app-setup-policies-add-apps.png)
 
 6. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
 
-    ![Screen shot showing the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
+    ![Screenshot showing the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
 
 ## Edit an app setup policy
 
@@ -84,7 +84,7 @@ Or, you can also do the following:
 2. Select the policy by clicking to the left of the policy name.
 3. Select **Manage users**.
 4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
-5. When you're finished adding users, select **Save**.
+5. After you finish adding users, select **Save**.
 
 ### Assign a custom app setup policy to users in a group
 
@@ -105,7 +105,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
@@ -116,7 +116,7 @@ Depending on the number of members in the group, this command may take several m
 #### What built-in app setup policies are included in the Microsoft Teams admin center?
 
 - **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users.
-- **FirstLineWorker**: This policy is for firstline workers. You can assign it to firstline workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
+- **FirstLineWorker**: This policy is for first-line workers. You can assign it to first-line workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
 
 #### Why can't I find an app in the Add pinned apps pane?
 
@@ -147,7 +147,7 @@ To view all apps that are pinned for a user, users may have to do the following 
 |Teams desktop client |Teams mobile client |
 |---------|---------|
 |In the app bar on the side of Teams, click **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
-|![Screen shot showing More apps in the Teams desktop client](media/app-setup-policies-desktop-more-apps.png)<br>   |![Screen shot showing more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
+|![Screenshot showing More apps in the Teams desktop client](media/app-setup-policies-desktop-more-apps.png)<br>   |![Screenshot showing more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### What do I need to know about the Teams mobile experience?
 

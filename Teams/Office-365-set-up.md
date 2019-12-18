@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Enable Teams in your organization
+# Turn on Teams in your organization
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Get started with Teams templates for Healthcare organizations"
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -43,17 +43,6 @@ The hospital template is meant for communication and collaboration between multi
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
 |Healthcare - Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Announcements\* <br> Compliance\* <br> Custodial <br> Human Resources <br> Pharmacy |
-| | |  |
-
-\* Auto-favorited 
-
-## Care Coordination template
-
-The care coordination template is meant to facilitate communication within a patient care team, with some examples including interdisciplinary and multidisciplinary teams. Our proprietary Patients application is preloaded in this template and sits in the General channel. With the Patients application, you can curate lists of patients and their associated values and vitals, making it useful for rounding and patient management scenarios. 
-
-|Base Template Type |baseTemplateId |Baseline Template channels|
-|:--- |:---|:---|
-|Healthcare - Care Coordination | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Post-Treatment Review\* <br> Scheduling\* <br> Training\* |
 | | |  |
 
 \* Auto-favorited 

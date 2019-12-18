@@ -14,6 +14,7 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: 
   - M365-collaboration
 description: "Read this topic to learn about deploying Microsoft Teams Rooms at large scale deployments."
+no-loc: [Microsoft, Microsoft Corporation, Microsoft Teams Rooms, Microsoft Teams Room, System Center, Configuration Manager, Windows, Surface, Surface Pro, Windows PE, Windows 10, Windows 10 Enterprise, Azure, Azure Monitor, Log Analytics, Operations Management Suite]
 ---
 
 # Deploy Microsoft Teams Rooms by using System Center Configuration Manager

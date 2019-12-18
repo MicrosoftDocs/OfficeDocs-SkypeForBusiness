@@ -39,10 +39,10 @@ To do so, **you need to assign an Audio Conferencing or Phone System license** t
     
     After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Assign **Phone System** and a domestic or domestic and international Calling Plan license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
     
     > [!NOTE]
-    > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or an **Domestic and International Calling Plan** license.
+    > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or a **Domestic and International Calling Plan** license.
   
     After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](set-up-calling-plans.md).
     
@@ -50,7 +50,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
   
 ## Step 2: Set up Communications Credits for your organization
 
-1. Sign in to Office 365 with your work or school account.
+1. Sign in to the new Office 365 portal with your work or school account.
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
 

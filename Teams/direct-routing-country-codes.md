@@ -41,7 +41,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | American Samoa  | AS |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguilla        | AL |
+| Anguilla        | AI |
 | Antarctica      | AQ | 
 | Antigua and Barbuda | AG |
 | Argentina       | AR |
