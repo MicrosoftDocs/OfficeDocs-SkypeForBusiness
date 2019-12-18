@@ -16,7 +16,6 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-
 # Plan your network
 We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to plan your network for Teams. 
 

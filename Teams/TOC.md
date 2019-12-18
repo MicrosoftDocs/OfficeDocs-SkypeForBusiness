@@ -5,7 +5,9 @@
 <!-- ============================================================ -->
 
 # Network planning
+
 ## [Quick start](get-started.md)
+
 ### [Using Network Planner](network-planner.md)
 #### [Example scenario](tutorial-network-planner-example.md)
 ## [Prepare your environment](environment-readiness.md)
