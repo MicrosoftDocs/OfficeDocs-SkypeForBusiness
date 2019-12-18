@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
-description: Get started with planning your network. 
+description: Get started with planning your network quickly. 
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 

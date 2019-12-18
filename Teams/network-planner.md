@@ -20,8 +20,6 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use the Network Planner for Microsoft Teams
-
 Network Planner is a new tool that is available in the Teams admin center. It can be found by going to **Planner** > **Network planner**. In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Microsoft Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 ![Screenshot of Network Planner](media/network-planner.png)
