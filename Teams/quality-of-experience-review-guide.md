@@ -1105,9 +1105,6 @@ For more information, see [this article about media quality and network performa
 
 ### Other resources
 
-#### Building data file
-
--   [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md)
 
 #### CQD training
 
@@ -1151,3 +1148,5 @@ For more information, see [this article about media quality and network performa
 [Prepare your network for Teams](prepare-network.md)
 
 [Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
+
+[Set up Call Quality Dashboard (CQD))](turning-on-and-using-call-quality-dashboard.md)
