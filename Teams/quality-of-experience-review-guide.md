@@ -21,11 +21,11 @@ appliesto:
 <!-- LOLA: Move CQD info to turning-on-and-using-call-quality-dashboard.md. Maybe this topic turns into an "Ongoing management of call quality in your org. KILL the Word version of this guide.-->
 This article will help you develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio quality because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 
-## Key categories to monitor and maintain
+Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtemplates) - we recommend that you download them before you go through the guidance in this article.
+
+## Categories to monitor and maintain
 
 Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
-
-
 
 ![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
@@ -225,42 +225,29 @@ The other important area is monitoring which devices are prevalent in your deplo
 
 ## Use CQD to manage call quality
 
-This section describes the fundamentals of working with CQD. Guidance is given for the following topics:
-
--   What is CQD?
--   Expectations using CQD
--   Finding your tenant ID
--   Reporting on Microsoft Teams versus Skype for Business
--   First versus second classifications
--   Dimensions, measures, and filters
--   Streams versus calls
--   Good, poor, and unclassified calls
--   Common subnets
+Once you've [set up CQD](turning-on-and-using-call-quality-dashboard.md), you're ready to start using it to manage call and meeting quality for your organization.
 
 For more in-depth training and resources, see the [Appendix](#other-resources).
 
 ### What is CQD?
 
-You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
-
-This guide will help in understanding the core concepts of CQD to help maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online. Additional CQD resources can be found in the [Appendix](#other-resources).
+You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization, where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation. CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
 
 ### Expectations using CQD
 
 CQD, although useful for analyzing trends and subnets, doesn’t always provide a specific cause for a given scenario. It’s important to understand this and set the correct expectation when using CQD:
 
--   CQD won’t provide the root cause for every scenario.
--   CQD won’t contain Phone System or Audio Conferencing streams.
--   CQD will call out areas for further investigation based on trends.
+-   CQD won’t provide the root cause for every scenario
+-   CQD won’t contain Phone System or Audio Conferencing streams
+-   CQD will call out areas for further investigation based on trends
 
 ### Report editions
 
-There are two report editions in CQD Online: Summary and Detailed. Use the drop-down menu located in the bar at the top of the screen to open a report edition. The name of the selected report edition is displayed at the top of the screen.
+There are two report editions in CQD: Summary and Detailed. Use the drop-down menu located in the bar at the top of the screen to open a report edition. The name of the selected report edition is displayed at the top of the screen.
 
--   Summary reports are static and can’t be edited, downloaded, or exported. 
--   Detailed reports are fully customizable and can be downloaded to a CSV file, exported, or cloned.
+-   [Summary reports](turning-on-and-using-call-quality-dashboard.md#summary-reports) are static and can’t be edited, downloaded, or exported
+-   [Detailed reports](turning-on-and-using-call-quality-dashboard.md#create-custom-detailed-reports) are fully customizable and can be downloaded to a CSV file, exported, or cloned
 
-For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
 
 _Figure 4 - CQD report categories_
 
