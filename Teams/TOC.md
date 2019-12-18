@@ -8,15 +8,15 @@
 ## [Quick start](get-started.md)
 ### [Using Network Planner](network-planner.md)
 #### [Example scenario](tutorial-network-planner-example.md)
-## [Prepare your environment](prepare-environment-prepare-network.md)
+## [Prepare your environment](environment-readiness.md)
 ## [Prepare your network](prepare-network.md)
 ## [Optimize your network](optimize-your-network.md)
 ## [Prepare your service](prepare-environment-prepare-service.md)
 
-## Network settings and topology
-### [Network settings for cloud voice features in Microsoft Teams](cloud-voice-network-settings.md)
+## Network settings and topology for Cloud Voice
+### [Network settings for Cloud Voice features in Microsoft Teams](cloud-voice-network-settings.md)
 ### [Network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-### [Manage your network topology for cloud voice features](manage-your-network-topology.md)
+### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
 
 <!-- ============================================================ -->
 
