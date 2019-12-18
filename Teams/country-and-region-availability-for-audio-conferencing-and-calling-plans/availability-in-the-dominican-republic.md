@@ -38,7 +38,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Santiago. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> | 
+|Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
 ## Phone System
 
