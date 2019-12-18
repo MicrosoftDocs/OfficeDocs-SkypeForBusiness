@@ -34,6 +34,7 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
+## [Teams templates for small and medium businesses](smb-templates.md)
 
 
 
@@ -500,6 +501,7 @@
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 
 <!-- ============================================================ -->
@@ -615,10 +617,6 @@
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 ### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
-<!-- ============================================================ -->
-
-# Small and medium business guidance
-## [Teams templates for small and medium businesses](smb-templates.md)
 #    
 #    
 
@@ -648,15 +646,23 @@
 
 
 <!-- ============================================================ -->
-#       
-#          
-# [Training](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
-## [Admin training for Teams](itadmin-readiness.md)
-## [End user training for Teams](enduser-training.md)
-<!-- ============================================================ -->
-
-
+# Monitor, maintain, and troubleshoot
+## [Monitor and manage call quality](monitor-call-quality-qos.md)
+### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+### [Set up QoS in Teams](QoS-in-Teams.md)
+#### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Set up Call Analytics](set-up-call-analytics.md)
+### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+## [Troubleshoot installation and update issues](troubleshoot-installation.md)
+## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+## [Use log files in troubleshooting Teams](log-files.md)
+## [Verify service health for Teams](service-health.md)
+## [Known issues for Teams](Known-issues.md)
+## [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 # Reference
 
@@ -707,7 +713,7 @@
 
 
 ## Interoperability with Office 365
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+
 ### [Office 365 groups and Teams](office-365-groups.md)
 ### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
 ### [How Exchange and Teams interact](exchange-teams-interact.md)
@@ -726,24 +732,13 @@
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
-## Troubleshoot & support
-### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
-### [Use log files in troubleshooting Teams](log-files.md)
-### [Verify service health for Teams](service-health.md)
-### [Special character restrictions in Teams policies](special-character-restrictions-in-policy-names.md)
 
-### [Monitor call quality](monitor-call-quality-qos.md)
-#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-#### [Set up QoS in Teams](QoS-in-Teams.md)
-##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
-#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Set up Call Analytics](set-up-call-analytics.md)
-#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
+
+
+<!-- ============================================================ -->
+#       
+#          
 
 ## Teams PowerShell
 ### [Overview](teams-powershell-overview.md)
