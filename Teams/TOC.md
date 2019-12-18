@@ -859,7 +859,6 @@
 ### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
 
-
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
 ### [Phones for Teams](phones-for-teams.md)
@@ -867,7 +866,6 @@
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [IP phones certified for Microsoft Teams](teams-ip-phones.md)
 ### [Phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 
 ## Troubleshoot & support
