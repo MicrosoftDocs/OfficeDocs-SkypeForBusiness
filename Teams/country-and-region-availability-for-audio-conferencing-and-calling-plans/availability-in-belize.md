@@ -3,7 +3,7 @@ title: "Availability in Belize"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
@@ -36,7 +36,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, [pay-per-minute only](../audio-conferencing-pay-per-minute.md) <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
@@ -45,7 +45,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
+|Auto attendants <br/> |Available  <br/> |
 |Call queues  <br/> |Available  <br/> |
 |Voicemail  <br/> |Available  <br/> |
    
@@ -71,7 +71,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |No  <br/> |
+|Are Communications Credits available?  <br/> |Yes  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
