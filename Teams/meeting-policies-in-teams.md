@@ -89,6 +89,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
+- [Allow private Meet now](#allow-private-meet-now)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
