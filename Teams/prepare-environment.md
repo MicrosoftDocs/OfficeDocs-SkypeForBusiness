@@ -22,8 +22,8 @@ appliesto:
 
 This article is part of the Technical Readiness stage of your rollout journey. Before proceeding, confirm that you’ve completed the following tasks:
 
-- [Enlisted your project stakeholders](enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](upgrade-define-project-scope.md)
 - [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 

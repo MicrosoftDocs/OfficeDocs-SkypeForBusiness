@@ -23,7 +23,7 @@ appliesto:
 This article is part of the Technical Readiness stage of your rollout journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
 
 - [Enlisted your project stakeholders](enlist-stakeholders.md)
-- [Defined your project scope](define-project-scope)
+- [Defined your project scope](define-project-scope.md)
 - [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 
 # Prepare your service for rollout to Teams
