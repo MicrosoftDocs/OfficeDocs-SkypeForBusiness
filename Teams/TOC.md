@@ -11,20 +11,19 @@
 ## [Prepare your service](prepare-environment-prepare-service.md)
 ## [Optimize your network](optimize-your-network.md)
 
-## Network settings and topology for Cloud Voice
-### [Network settings for Cloud Voice features in Microsoft Teams](cloud-voice-network-settings.md)
-### [Network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+## Network topology and settingsS for Cloud Voice
 ### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
+### [Network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 <!-- ============================================================ -->
 
 # Get your rollout started
-## [How to roll out Microsoft Teams](how-to-roll-out-teams.md)
+## [How to roll out Microsoft Teams](How-to-roll-out-teams.md)
 ## [Overview](get-started-with-teams-quick-start.md)
-## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
-## [Step 2: Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
-## [Step 3: Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
-## [Step 4: Plan your org-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
+## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Plan your org-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
 <!-- ============================================================ -->
 
@@ -648,7 +647,7 @@
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
 
 ## Implement your upgrade
-### [Overview](upgrade-to-Teams.md)
+### [Overview](upgrade-to-teams-execute-skypeforbusinessonline.md)
 ### [Conduct a user pilot](pilot-essentials.md)
 ### [Upgrade Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
