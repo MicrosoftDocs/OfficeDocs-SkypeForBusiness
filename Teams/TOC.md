@@ -5,12 +5,11 @@
 <!-- ============================================================ -->
 
 # Network planning
-
-# [Quick start](get-started.md)
-# [Prepare your environment](environment-readiness.md)
-# [Prepare your network](prepare-network.md)
-# [Optimize your network](optimize-your-network.md)
+## [Quick start](get-started.md)
+## [Prepare your environment](environment-readiness.md)
+## [Prepare your network](prepare-network.md)
 ## [Prepare your service](prepare-environment-prepare-service.md)
+## [Optimize your network](optimize-your-network.md)
 
 ## Network settings and topology for Cloud Voice
 ### [Network settings for Cloud Voice features in Microsoft Teams](cloud-voice-network-settings.md)
@@ -813,6 +812,7 @@
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
+## [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
 <!-- ============================================================ -->
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
