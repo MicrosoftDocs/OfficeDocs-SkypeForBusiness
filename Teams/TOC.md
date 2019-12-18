@@ -624,9 +624,6 @@
 ### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 ### [Audio Conferencing with Direct Routing for GCC High and DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
-#    
-#    
-
 <!-- ============================================================ -->
 
 # Security and compliance
