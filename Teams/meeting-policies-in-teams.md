@@ -100,7 +100,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
-### Allow private Meet now (coming soon)
+### Allow private Meet now
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  
 
@@ -213,7 +213,7 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 - [Allow PowerPoint sharing](#allow-powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)
-- [Allow chat in meetings (coming soon)](#allow-chat-in-meetings-coming-soon)
+- [Allow chat in meetings](#allow-chat-in-meetings)
 
 ### Screen sharing mode
 
@@ -381,8 +381,6 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-
-[Full article](meeting-policies-in-teams.md)
 
 ## Related topics
 [Messaging policies in Teams](messaging-policies-in-teams.md)
