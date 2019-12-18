@@ -30,12 +30,11 @@ If your organization is deploying [Location-Based Routing for Direct Routing](lo
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
-## Configure network settings in the Microsoft Teams admin center
+## Configure network settings in the Microsoft Teams Admin Center
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
-
 
 #### Add a network site
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
@@ -89,7 +88,7 @@ In this example, we create a network region named India.
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion).
+*See also*, [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion).
 
 ### Define network sites
 A *network site* represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
@@ -112,12 +111,8 @@ The following table shows the network sites defined in this example.
 |Site ID    |    Site 1 (Delhi)     |  Site 2 (Hyderabad)       |
 |Region ID  |     Region 1 (India)    |   Region 1 (India)      |
 
-See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite).
+*See also*, [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite).
 ### Define network subnetsEach subnet must be associated with a specific network site. A client's location is determined based on the network subnet and the associated network site. You can associate multiple subnets with the same network site, but you cannot associate multiple sites with the same subnet.
-
-*Subnet* information is used to determine the network site on which an endpoint is located when a new session is initiated. When the location of each party in a session is known, the cloud voice feature can apply that information to determine how to handle call setup or routing.
-
-For each network site, work with your network admin to determine which IP subnets are assigned to each network site. For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges that are allocated for New York, for example, 172.29.80.103.
 
 Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
 
@@ -153,7 +148,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-See also [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet).
+*See also*, [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet).
 
 ### Define external subnets (external trusted IP addresses)
 Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
@@ -164,7 +159,7 @@ For example:
 ```
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
-See also [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
+*See also*, [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
 
 ## Related topics
 

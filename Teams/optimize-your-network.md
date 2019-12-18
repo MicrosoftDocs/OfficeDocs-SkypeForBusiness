@@ -47,7 +47,8 @@ Review Office 365 URLs and IPs to identify and test the firewall ports that are 
 
 Configure your environment so that proxy servers are bypassed, and you can connect users directly to Office 365 by using UDP, for the best audio and video quality. When real-time media is forced to traverse a proxy server, the media stack in Teams is forced to fail back to TCP, which negatively affects quality.
 
-**NOTE**: When it comes to Teams traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams more secure because the traffic is already encrypted. 
+> [!NOTE]
+> When it comes to Teams traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams more secure because the traffic is already encrypted. 
 
 Using a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams scenarios as audio and video, where real-time streams are essential. If you need to use a proxy server, Microsoft strongly recommends:
 - using external DNS resolution
@@ -56,6 +57,7 @@ Using a proxy can cause issues. Performance-related problems can be introduced t
 - following the other recommendations in our networking guidelines: [Media Quality and Network Connectivity Performance in Skype for Business](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
 
 *See also*:
+
 [Proxy servers for Teams](proxy-servers-for-skype-for-business-online)
 [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
 

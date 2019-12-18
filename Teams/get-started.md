@@ -21,7 +21,7 @@ appliesto:
 
 ## Plan your network
 
-We assume you already know your way around the Teams admin center, and you are familiar with what you need to do to plan your network for Teams. 
+We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
 
 To quickly get up and running using Teams, complete the following tasks:
 
