@@ -38,7 +38,7 @@ By storing the files in the SharePoint Online document library and OneDrive for 
 
 The following is the example of relationships between team, standard channel, and document library.
 
-For every team, a SharePoint site is created, and the **Shared Documents** folder is the default folder created for the team. Each standard channel, including the **General** channel (the default channel for each team) has a folder in **Shared Documents**.
+For every team, a SharePoint site collection is created, and the **Shared Documents** folder is the default folder created for the team. Each standard channel, including the **General** channel (the default channel for each team) has a folder in **Shared Documents**.
 
 ![Diagram of Shared Documents folders In SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
