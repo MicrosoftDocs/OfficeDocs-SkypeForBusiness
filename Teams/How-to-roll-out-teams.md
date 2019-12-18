@@ -26,7 +26,6 @@ Whether you're a small business or a multi-national enterprise, the place to sta
 
 ## Recommended path to Teams
 
-
 We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don’t have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
 
 - [Get started](get-started-with-teams-quick-start.md)
@@ -37,7 +36,6 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 [Adoption hub](adopt-microsoft-teams-landing-page.md): Throughout your Teams rollout, be sure to take advantage of these resources to help drive Teams adoption.
 
 ![Diagram illustrating Teams deployment pathways](media/how-to-roll-out-teams-image1.png)
-
 
 ## If you're starting from Skype for Business, on-premises, or hybrid deployments
 

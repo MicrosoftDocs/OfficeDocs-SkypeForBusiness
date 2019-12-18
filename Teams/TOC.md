@@ -806,14 +806,18 @@
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
+
 <!-- ============================================================ -->
+
 # Reference
 ## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
+
 <!-- ============================================================ -->
+
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
