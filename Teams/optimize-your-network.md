@@ -55,7 +55,9 @@ Using a proxy can cause issues. Performance-related problems can be introduced t
 - allowing UDP traffic
 - following the other recommendations in our networking guidelines: [Media Quality and Network Connectivity Performance in Skype for Business](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
 
-*See also*, [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
+*See also*:
+[Proxy servers for Teams](proxy-servers-for-skype-for-business-online)
+[Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
 
 ## Configure split-tunnel VPN
 We recommend that you provide an alternate path for Teams traffic that bypasses the VPN, commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but goes directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network. 
@@ -70,15 +72,19 @@ Several factors come into play when you optimize your Wi-Fi network:
 - Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized.
 - Planning and optimizing Wi-Fi bands and access point placement. The 2.4 GHz range might provide adequate performance, depending on access point placement.
 
-Consult your Wi-Fi vendor for specific guidance. *See also*, [Wi-Fi recommendations for endpoints](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints).
+Consult your Wi-Fi vendor for specific guidance. 
+
+*See also*, [Wi-Fi recommendations for endpoints](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints).
 
 ## Validate network connectivity by using the Network Assessment Tool
-Use the Network Assessment Tool for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used. *See also*, [Teams Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). 
+Use the Network Assessment Tool for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used. 
+
+*See also*, [Teams Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). 
 
 ## Monitor your network using CQD/CA
 You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. 
 
-See also, [CQD Online](https://docs.microsoft.com/en-us/microsoftteams/quality-of-experience-review-guide#cqd-online).
+*See also*, [CQD Online](https://docs.microsoft.com/en-us/microsoftteams/quality-of-experience-review-guide#cqd-online).
 
 ## Next steps
 Go to [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
