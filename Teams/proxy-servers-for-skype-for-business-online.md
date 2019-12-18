@@ -1,5 +1,5 @@
 ---
-title: "Proxy servers for Teams or Skype for Business Online"
+title: "Proxy servers for Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,28 +13,27 @@ ms.collection:
   - M365-collaboration
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom: 
   - Optimization
-description: "This article provides information about using a proxy server with Teams or Skype for Business."
+description: "This article provides information about using a proxy server with Teams."
 ---
 
-# Proxy servers for Teams or Skype for Business Online
+# Proxy servers for Teams
 
-This article provides guidance about using a proxy server with Teams or Skype for Business.
+This article provides guidance about using a proxy server with Teams.
   
 ## Not using a proxy server is recommended
 
-When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because the traffic is already encrypted.
+When it comes to Teams traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams more secure because the traffic is already encrypted.
   
-And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
+Having a proxy can also cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams scenarios as audio and video, where real-time streams are essential.
   
 ## If you need to use a proxy server
 
-Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
+Some organizations have no option to bypass a proxy for Teams traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
   
 Microsoft also strongly recommends:
   

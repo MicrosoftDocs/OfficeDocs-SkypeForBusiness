@@ -1,12 +1,13 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
-# [How to roll out Teams](How-to-roll-out-teams.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md) 
 
 <!-- ============================================================ -->
 
 # Network planning
 ## [Quick start](get-started.md)
+### [Using Network Planner](network-planner.md)
+#### [Example scenario](tutorial-network-planner-example.md)
 ## [Prepare your environment](prepare-environment-prepare-network.md)
 ## [Prepare your network](prepare-network.md)
 ## [Optimize your network](optimize-your-network.md)
@@ -15,11 +16,12 @@
 ## Network settings and topology
 ### [Network settings for cloud voice features in Microsoft Teams](cloud-voice-network-settings.md)
 ### [Network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-### [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology.md)
+### [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 
 <!-- ============================================================ -->
 
 # Get your rollout started
+## [How to roll out Microsoft Teams](how-to-roll-out-teams.md)
 ## [Overview](get-started-with-teams-quick-start.md)
 ## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Step 2: Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
@@ -400,7 +402,6 @@
 
 ## Network settings and topology
 ### [Network settings for cloud voice features](cloud-voice-network-settings.md)
-### [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 
 ## Emergency calling
 ### [Overview](what-are-emergency-locations-addresses-and-call-routing.md)
@@ -664,7 +665,7 @@
 ### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Meetings First](meetings-first.md)
 
-## Prepare your environment for upgrading to Teams
+## Prepare your environment for Teams
 ### [Technical readiness overview](upgrade-prepare-environment.md)
 ### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
 ### [Prerequisites](upgrade-plan-journey-prerequisites.md)
@@ -672,7 +673,7 @@
 ### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
 ### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
 
-## Prepare your organization for upgrading to Teams
+## Prepare your organization for Teams
 ### [Organizational readiness overview](upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
@@ -846,7 +847,6 @@
 ## [Data collection practices](data-collection-practices.md)
 ## [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-
 <!-- ============================================================ -->
 #       
 #          
@@ -855,8 +855,12 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
-
-
+# Reference
+### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
+### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+### [Plan for governance in Teams](plan-teams-governance.md)
+<!-- ============================================================ -->
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
