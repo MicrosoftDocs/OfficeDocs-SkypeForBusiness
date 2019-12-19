@@ -49,7 +49,7 @@ Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.
 
 Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to:
 - [Assign admin roles](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to anybody that needs to access CQD
-- [Upload tenant data](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information). (including custom building, network and location information). Don't miss the [sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+- [Upload tenant data](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) (including custom building, network and location information). Don't miss the [sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 - Set up and learn how to use reports
 
 
@@ -57,7 +57,8 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 
 In this context, quality is a combination of service metrics and user experience.
 
-<!-- Note: need to update graphic. LOLA - PROBABLY NUKE THIS GRAPHIC - IT'S ALL TEXT ANYWAY! -->
+**<font: color="red">SIUNIE and VAMSI: I want to nuke this graphic - it's all text anyway. Let's review what's in it, make sure it's an accurate/complete list. Then I'll create a nice-looking table instead.</font>**
+
 ![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
 _Figure 2 - What is quality?_
@@ -73,9 +74,9 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 #### Poor Stream Rate
 
-The poor stream rate (PSR) represents the organization’s overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
+The poor stream rate (PSR) indicates the organization’s overall percentage of streams that have poor quality. Reducing PSR will improve the user experience. This is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs by organization. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
-The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
+The actual measurement in CQD varies by workload, but for the purposes of this guide, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
 _Table 1 - Audio poor quality metrics_
 
@@ -451,7 +452,6 @@ Certain CQD reports have dashboard-level filters added to them, making it easy t
 
 ### URL-defined filter values
 
-```
 In addition to defining parameters in the URL such as Trending Month, tenant ID, language, etc., CQD also supports defining filter values for the Product or Dashboard level filters in the URL. This allows users to easily save time by bookmarking URLs with certain filter values pre-selected.
 
 To apply a URL filter value to the Dashboard, the filter must first be present as either a Product or Dashboard level filter. Afterwards, add the following text to the URL after the Trending Month and before the URL parameters:
@@ -471,11 +471,6 @@ Additionally, the URL-defined filter also supports specifying multi-select value
 ```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
 
 In the event that a non-valid data model name is provided, the URL filter will not be applied.
-
-
-
-
-
 
 
 ## Import the CQD templates
@@ -689,6 +684,8 @@ These tools are based on PowerShell and can leverage Active Directory (AD) Sites
 4.  Find unmapped subnets in CQD.
 
 For more information about this tool, see [this blog post](https://aka.ms/cqdtools).
+
+**<font: color="red">SIUNIE and VAMSI: This is a blog from June 2018 (Martin Rinas). If info in this blog post is important, let's weave it into the documentation. Otherwise, let's stop linking to it.</font>**
 
 #### Network Planner
 
