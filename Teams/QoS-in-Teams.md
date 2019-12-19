@@ -133,6 +133,7 @@ The DSCP value tells a correspondingly configured network what priority to give 
 The relative size of the port ranges for different real-time streaming workloads sets the proportion of the total available bandwidth dedicated to that workload. To return to our earlier postal analogy: a letter with an "Air Mail" stamp might get taken within an hour to the nearest airport, while a small package marked "Bulk Mail" mark can wait for a day before traveling over land on a series of trucks.
 
 The following table shows the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute. These ranges might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+
 **<font: color="red">SIUNIE and VAMSI: ExpressRoute is NOT required for Teams. Need to update this section.</font>**
 
 _Recommended initial port ranges_
@@ -177,6 +178,7 @@ Preferably, you capture traffic at the network egress point. You can use port mi
 ### Use Network Monitor to verify DSCP values
 
 Network Monitor is a tool you can [download from Microsoft](https://www.microsoft.com/download/4865) to analyze network traffic.
+
 **<font: color="red">VAMSI and SIUNIE: This is an "archived tool." We shouldn't be recommending it anymore. What should we recommend instead?</font>**
 
 1. On the PC running Network Monitor, connect to the port that has been configured for port mirroring and start capturing packets.
@@ -210,4 +212,5 @@ Repeat the verification for each workload that has been marked by the GPO.
 [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 
 [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+
 **<font: color="red">VAMSI and SIUNIE: ExpressRoute is NOT required for Teams. I recommend nuking this link.</font>**
