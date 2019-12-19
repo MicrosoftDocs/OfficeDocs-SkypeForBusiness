@@ -38,6 +38,8 @@ If you want help assessing your network, including bandwidth calculations and ne
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
+
+
 ## Next steps
 
 Go to [Plan and prepare your network](plan-and-prepare-your-network.md).

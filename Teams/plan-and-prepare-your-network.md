@@ -43,9 +43,6 @@ Connectivity problems are a leading cause of user perception issues for cloud se
 
 If the results of bandwidth planning, port testing, or network requirements testing show that your current network needs remediation before you deploy Teams, you can accomplish this in several ways:
 
-- For insufficient bandwidth, upgrade connections so that traffic to Office 365 can flow unhindered.
 - For blocked ports, change firewall rules and retest the ports.
 - For network impairments, always perform a root-cause analysis.
 
-### [Quality of service (QoS)]
-This can be used to battle impairments by prioritizing and separating traffic. Some organizations choose to deploy QoS to overcome bandwidth issues or restrict the amount of traffic flowing. This won’t improve quality and will lead to new problems. A root-cause analysis should always be performed when network impairments exceed requirements. QoS can be a solution. For more information, see [Quality of Service in Microsoft Teams](qos-in-teams.md).

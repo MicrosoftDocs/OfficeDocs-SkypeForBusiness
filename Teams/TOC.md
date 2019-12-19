@@ -1,22 +1,21 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md) 
-
+# [Get Teams up and running quickly](get-started.md)
 <!-- ============================================================ -->
 
 # Network planning
-## [Quick start](get-started.md)
 ## [Plan and prepare your network](plan-and-prepare-your-network.md)
-## [Network planning for Cloud Voice](cloud-voice-landing-page.md)
-### [Network topology and settings for Cloud Voice](https://docs.microsoft.com/en-us/microsoftteams/cloud-voice-network-settings)
-### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
-### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+### [Network planning for Cloud Voice](cloud-voice-landing-page.md)
+#### [Network topology and settings for Cloud Voice](https://docs.microsoft.com/en-us/microsoftteams/cloud-voice-network-settings)
+#### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
+#### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 <!-- ============================================================ -->
 
 # Get your rollout started
-## [How to roll out Microsoft Teams](How-to-roll-out-teams.md)
 ## [Overview](get-started-with-teams-quick-start.md)
+## [How to roll out Microsoft Teams](How-to-roll-out-teams.md)
 ## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 ## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -650,7 +649,6 @@
 # Hybrid connectivity 
 
 ## [Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
-
 ## Configure hybrid connectivity
 ### [Overview](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 ### [Configure Azure AD Connect for hybrid environments](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)

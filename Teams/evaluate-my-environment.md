@@ -1,5 +1,5 @@
 ---
-title: Evaluate your environment for Microsoft Teams cloud voice workloads
+title: Evaluate your environment for Microsoft Teams
 author: rmw2890
 ms.author: judegn
 manager: serdars
@@ -40,7 +40,7 @@ Three major risk areas can affect how users perceive network quality:
 
 - Firewall and proxy blockers
 
-Network impairments such as jitter and packet loss
+- Network impairments such as jitter and packet loss
 
 The steps described below will help you determine whether your deployment might
 be affected by any of these factors and will help you move toward a resolution.
@@ -79,7 +79,7 @@ detail, see the blog post [Getting the best connectivity and performance in
 Office
 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-### [VPN](evaluate-my-environment#vpn.md)
+### VPN
 
 VPNs provide a valuable service to many organizations. Unfortunately, they’re
 typically not designed or configured to support real-time media. Some VPNs might
@@ -97,10 +97,9 @@ is an important consideration for a high-quality deployment.
 
 There are several factors that come into play for optimizing a Wi-Fi network:
 
--   Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is
-    getting prioritized accordingly over the Wi-Fi networks.
+- Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
 
--   Planning and optimizing the Wi-Fi bands and access point placement. The 2.4
+- Planning and optimizing the Wi-Fi bands and access point placement. The 2.4
     GHz range may provide an adequate experience depending on access point
     placement, but access points are often affected by other consumer devices
     that operate in that range. The 5 GHz range is better suited to real-time
@@ -108,11 +107,11 @@ There are several factors that come into play for optimizing a Wi-Fi network:
     sufficient coverage. Endpoints also need to support that range and be
     configured to leverage those bands accordingly.
 
--   If dual-band Wi-Fi networks are deployed, consider implementing band
+- If dual-band Wi-Fi networks are deployed, consider implementing band
     steering. Band steering is a technique implemented by Wi-Fi vendors to
     influence dual-band clients to use the 5 GHz range.
 
--   When access points of the same channel are too close together they can cause
+- When access points of the same channel are too close together they can cause
     signal overlap and unintentionally compete, resulting in a bad experience
     for the user. Ensure that access points that are next to each other are on
     channels that don’t overlap.
