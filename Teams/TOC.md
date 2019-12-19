@@ -6,15 +6,10 @@
 
 # Network planning
 ## [Quick start](get-started.md)
-## [Prepare your environment](environment-readiness.md)
-## [Prepare your network](prepare-network.md)
-## [Prepare your service](prepare-environment-prepare-service.md)
-## [Optimize your network](optimize-your-network.md)
-
+## [Plan and prepare your network](plan-and-prepare-your-network.md)
 ## [Network planning for Cloud Voice](cloud-voice-landing-page.md)
 ### [Network topology and settings for Cloud Voice](https://docs.microsoft.com/en-us/microsoftteams/cloud-voice-network-settings)
 ### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
-### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 ### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 <!-- ============================================================ -->

@@ -32,7 +32,7 @@ To quickly get up and running using Teams, complete the following tasks:
 
 1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).
 
-## Using Network Planner
+### Using Network Planner
 
 If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](https://docs.microsoft.com/en-us/microsoftteams/network-planner) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 

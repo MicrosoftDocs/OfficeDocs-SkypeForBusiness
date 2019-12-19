@@ -1,29 +1,29 @@
 ---
-title: Project Scope Skype for Business to Microsoft Teams Adoption | Upgrade 
-author: lanachin
+title: Define your project scope  
+author: judegn
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Scope your project by defining your vision and goals. 
+description: Scope your network planning project by refining your vision and goals. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-guidance
 ms.collection: 
-- Teams_ITAdmin_JourneyFromSfB
+- Teams_ITAdmin
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
 
 
-![Rollout journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the rollout journey, with emphasis on the Project Definition stage")
+![Upgrade journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the network planning and preparation journey, with emphasis on the Project Definition stage")
 
-This article is part of the Project Definition stage of your rollout journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the Project Definition stage of your planning and preparation journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
 
-- [Enlist project stakeholders](enlist-stakeholders.md)
+- [Enlisted project stakeholders](enlist-stakeholders.md)
 
 # Define your project scope
 
@@ -56,7 +56,7 @@ Consider the following discussion points to help refine your vision:
 
 ## Project scope
 
-Your vision might only be realized over time, through various phases. The project scope defines the focus of your project _at this time_ and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan over time. As part of the project scope, you should assess:
+Your vision might only be realized over time, through various phases. The project scope defines the focus of your project _at this time_ and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan for your upgrade over time. As part of the project scope, you should assess:
 
 - [The various coexistence modes](https://aka.ms/SkypeToTeams-Coexist), and which would be optimal for your organization.
 - The best way for Skype for Business and Teams to coexist before you move to Teams.
@@ -74,7 +74,7 @@ Your goals define the outcome you want and enable you to measure the success of 
   - Realistic: state what results can realistically be achieved, given available resources
   - Time-related: specify when the results can be achieved
 
-The following table shows examples of OKRs and KSIs for the initial phases of a Teams  project.
+The following table shows examples of OKRs and KSIs for the initial phases of a Skype for Business to Teams upgrade project.
 
 | Objective | Key result | To do |
 |---|---|---|
@@ -105,15 +105,16 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 ## Timeline
 
-As you scope your rollout journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
+As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
 
 - **Product readiness for compliance and user scenario requirements**: Refer to the [product roadmap](https://aka.ms/O365Roadmap) to gauge when Teams will be ready for your organization.
-- **Groups**: Determine whether you’ll be enabling Teams users by groups, which could affect the timeline of your overall rollout journey.
-- **Organizational factors such as change freeze, fiscal year end, deployment lifecycles**: Discuss and account for any internal processes that might influence your rollout timeline.
+- **Upgrade groups**: Determine whether you’ll be enabling Teams or upgrading users by upgrade groups, which could affect the timeline of your overall upgrade journey.
+- **Organizational factors such as change freeze, fiscal year end, deployment lifecycles**: Discuss and account for any internal processes that might influence your upgrade timeline.
 - **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
 - **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you’ve brought together has enough bandwidth to complete all necessary tasks.
 
+As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](https://aka.ms/UpgradePro), which we encourage you to adjust as needed to align with the specific needs of your organization.
+
 After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](https://aka.ms/SkypeToTeams-TechnicalReadiness) and [organizational readiness](https://aka.ms/SkypeToTeams-UserReadiness) planning activities.
 
-> [!IMPORTANT]
-> Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your rollout, we encourage you to begin your journey to Microsoft Teams today.
+Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.

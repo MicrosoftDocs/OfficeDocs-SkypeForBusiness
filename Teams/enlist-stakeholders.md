@@ -1,5 +1,5 @@
 ---
-title: Enlist stakeholders | Skype for Business to Teams planning
+title: Enlist stakeholders 
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Enlist stakeholders to serve on the project team for your rollout. 
+description: Enlist stakeholders to serve on the project team. 
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-guidance
+ms.custom: Teams-upgrade-guidance
 ms.collection: 
-- Teams_ITAdmin_JourneyFromSfB
+- Teams_ITAdmin
 - M365-collaboration
-appliesto:
+applies to:
 - Microsoft Teams
 ---
 
-![Illustration showing the stakeholder state of the rollout journey](media/upgrade-banner-stakeholders.png "Stages of the rollout journey, with emphasis on gathering your team of project stakeholders")
-
-This article is part of the Project Stakeholders stage of your rollout journey, the first and most essential activity you complete for your project’s success.
-
-
 # Enlist your project stakeholders
+![Illustration showing the stakeholder state of the upgrade journey](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders")
+
+This article is part of the Project Stakeholders stage of your planning and preparation, the first and most essential activity you complete for your project’s success.
 
 From implementing project deliverables to driving accountability, your stakeholders hold the key to the success of your project. There are two groups of stakeholders you’ll want to assign: (1) a _sponsorship coalition_ that includes executive and project sponsors who have a vested interest in and influence on the project’s success, and (2) the _project team_, consisting of the people responsible for ensuring technical and user readiness, who will complete the various tasks in the project plan. The common thread between these two groups is the _project manager_, who works to ensure that project tasks get completed on schedule and reports project status back to the coalition.
 
 > [!Tip]
 > Take time to identify the ideal executive sponsor, someone who can help set the tone of your project, leads by example, and holds others accountable. This should be a senior manager or executive who has authority over the project scope and vision. They should also be the final decision-maker in removing blockers and resolving conflict to help keep the project on time and on budget.
 
-Optionally, you can create a steering committee. Sometimes large or more complex projects end up with “too many cooks in the kitchen,” resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [Steering Committee Guide](https://aka.ms/SteeringCommittee).
+Optionally, you can create a steering committee. Sometimes large or more complex projects end up with “too many cooks in the kitchen,” resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [steering committee guide](https://aka.ms/SteeringCommittee).
 
 | | |
 |---|---|
@@ -61,4 +59,4 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 | Marketing Lead | Designs and implements communications campaigns |
 | Training Lead | Designs and implements training plans |
 
-After you’ve gathered your stakeholders, proceed to the next step: [Define your project scope](define-project-scope).
+After you’ve gathered your stakeholders, proceed to the next step: [Define your project scope](https://aka.ms/SkypetoTeams-Scope).
