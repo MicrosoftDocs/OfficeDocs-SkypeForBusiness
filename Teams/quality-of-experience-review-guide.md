@@ -417,18 +417,18 @@ To review the basics of using drill-down filters, read [Drill-down functionality
 
 ### Adding and editing drill-down fields
 
-When editing a report, you have the option to specify drill thru fields of your own using the Query Editor.
+When editing a report, you have the option to specify drill-down fields of your own using the Query Editor.
 
 Start by clicking on the “…” button of the report you wish to edit and select “Edit”.
 
-![Screenshot of editing a drill down field](media/qerguide-image-addeditdrilldownfields.png)
+![Screenshot of editing a drill-down field](media/qerguide-image-addeditdrilldownfields.png)
 
-Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill thru to. Note: Drill thru functionality only works by navigating to different tabs at present. Support for drilling thru to a specific expander will be added later.
+Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill through to. Note: Drill-down functionality only works by navigating to different tabs at present. Support for drilling through to a specific expander will be added later.
 Finally, click “Close” to save your changes to the Dimension, and click “Save” to save and close the Query Editor.
 
 ![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
 
-Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill thru to. Note: Drill thru functionality only works by navigating to different tabs at present. Support for drilling thru to a specific expander will be added later.
+Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the “Navigate To” label and select the tab and expander group that you wish for that Dimension to drill through to. Note: Drill-down functionality only works by navigating to different tabs at present. Support for drilling through to a specific expander will be added later.
 Finally, click “Close” to save your changes to the Dimension, and click “Save” to save and close the Query Editor.
 
 ![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
