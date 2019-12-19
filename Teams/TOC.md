@@ -6,9 +6,7 @@
 
 # [Plan and prepare your network](planning-and-preparing-your-network.md)
 ## [Optimize your network](optimize-your-network.md)
-## Network planning for Cloud Voice
-### [Network topology and settings for Cloud Voice](cloud-voice-network-settings.md)
-### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
+## [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
 
 <!-- ============================================================ -->
 
