@@ -97,6 +97,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a meeting  | 250    |
 |Max PowerPoint File Size | 2GB|
 
+### Meeting expiration
 
 |Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
 |---------|---------|---------|
