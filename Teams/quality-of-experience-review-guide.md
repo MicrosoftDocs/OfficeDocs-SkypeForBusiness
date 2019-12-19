@@ -26,6 +26,8 @@ Key to this guidance are the two [curated CQD templates](https://aka.ms/QERtempl
 
 Once you've rolled out meetings and voice in Teams, you'll need a plan for ongoing monitoring and maintenance. Doing so will ensure that Teams is always running optimally. This plan should include the key areas that are shown in the following figure. You should also establish targets for quality metrics and a plan for troubleshooting and isolating problems when they happen.
 
+**<font color="red">SIUNIE and VAMSI, please review this graphic. Since it's all text, I think we can kill it, replace it with a table. </font>**
+
 ![Key areas for the quality of user experience](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
 _Figure 1 - Key operational areas_
@@ -57,7 +59,7 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 
 In this context, quality is a combination of service metrics and user experience.
 
-**<font color="red">SIUNIE and VAMSI: I want to nuke this graphic - it's all text anyway. Let's review what's in it, make sure it's an accurate/complete list. Then I'll create a nice-looking table instead.</font>**
+**<font color="red">SIUNIE and VAMSI: I want to nuke this graphic - it's all text anyway. I'll replace it with a nice-looking table instead. QUESTION: Is this section now incomplete because it doesn't contain all the newer reports & functionality from V3? It looks like this section is V2 only. Can you confirm?</font>**
 
 ![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
@@ -236,80 +238,24 @@ CQD, although useful for analyzing trends and subnets, doesn’t always provide 
 -   CQD won’t contain Phone System or Audio Conferencing streams
 -   CQD will call out areas for further investigation based on trends
 
-### Report editions
+### CQD reports overview
 
-There are two types of reports in CQD: Summary and Detailed. Use the drop-down menu at the top of the screen to open a report. 
+Use the drop-down menu at the top of the screen to open a report. 
 
--   [Summary reports](turning-on-and-using-call-quality-dashboard.md#summary-reports) are static and can’t be edited, downloaded, or exported
--   [Detailed reports](turning-on-and-using-call-quality-dashboard.md#create-custom-detailed-reports) are fully customizable and can be downloaded to a CSV file, exported, or cloned
+-   [Summary reports](turning-on-and-using-call-quality-dashboard.md#summary-reports) are static and can’t be edited, downloaded, or exported. These are aggregate reports.
+-   [Default reports](turning-on-and-using-call-quality-dashboard.md#reports-provided-with-cqd) are pre-made reports covering the most common scenarios you'll need. You can't edit these reports, but you can use rich filters to drill down into the data you need to analyze call and meeting quality in your org.
+-   [Detailed reports](turning-on-and-using-call-quality-dashboard.md#create-custom-detailed-reports) are fully customizable and can be downloaded to a CSV file, exported, or cloned. Download the CQD templates for a mix of customizable chart and table reports.
 
 For a list of the data provided in each report, see [Data available in CQD reports](turning-on-and-using-call-quality-dashboard.md#data-available-in-cqd-reports).
 
 
-_Figure 4 - CQD report categories_
-
-The summary reports are divided into four categories:
-
--   **Summary Reports** focus on analyzing quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. This is the default landing page when you first sign in to CQD.
--   **Location-Enhanced Reports** focus on analyzing quality trends based on location information. To use these reports, you must have uploaded a building file.
--   **Reliability Reports** focus on analyzing reliability trends for audio, video, video-based screen sharing (VBSS), and app sharing.
--   **Quality of Experience Reports** are a “slimmed-down” version of the detailed QER templates, focusing on key areas for analyzing audio quality and reliability.
-
 ### Report types
 
-You can choose from two types of reports in CQD, depending on how you want to view your data. Although this guide doesn’t cover the specifics of creating one type of report over another, the QER CQD templates provide a mix of customizable chart and table reports for you to use:
+You can choose from two types of reports in CQD, depending on how you want to view your data. Although this guide doesn’t cover the specifics of creating one type of report over another, :
 
 -   Chart reports create graphical bar charts to represent data in a visual format. Chart reports are best used to visualize data over a given time period.
 -   Table reports are useful for looking at individual measurements and dimensions when you export the reports to CSV files for manipulation in Microsoft Excel.
 
-### Tenant ID
-
-Some CQD reports require that you include a filter for your tenant ID. Due to the way CQD aggregates data, federated participant telemetry is included. Although this can prove valuable when analyzing trends, client and device reports require that you filter data to a specific tenant to exclude federated participant telemetry. If you don’t know your tenant ID, you can use one of the following methods to find it.
-
-> [!Note]
-> These methods require the following permissions:<ul><li>Global Administrator Role</li><li>Skype for Business Administrator Role</li></ul>
-
-#### Azure portal
-
-1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
-
-2.  Select **Azure Active Directory**.
-
-3.  Under **Manage**, select **Properties**. The tenant ID is shown in the **Directory ID** box.
-
-#### Azure PowerShell
-
-1. [Install the Microsoft Azure PowerShell Service Management module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
-
-2. Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
-
-   ```
-   Login-AzureRmAccount
-   ```
-
-3. The tenant ID is listed in the output.
-
-#### Skype for Business Online Admin Center
-
-1.  Go to <https://portal.office.com>.
-
-2.  Sign in with your tenant administrator organizational account.
-
-3.  Select **Skype for Business** under **Admin Centers**.
-
-4.  The tenant ID is listed as **Organization ID** on the Welcome page.
-
-#### Skype for Business Online using PowerShell
-
-1. [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
-
-2. Run the following command:
-
-   ```
-   (Get-cstenant).tenantid
-   ```
-
-3. The tenant ID is displayed as a GUID.
 
 ### Teams vs. Skype for Business
 

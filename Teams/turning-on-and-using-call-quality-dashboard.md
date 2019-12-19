@@ -264,6 +264,8 @@ In Detailed reports, you can use the **Is Teams** dimension to filter the data t
 
 ## Summary Reports
 
+These are the reports that you'll see on the CQD Dashboard when you first sign in to CQD. They give you an at-a-glance look at quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. 
+
 |Tab  |  |
 |---------|---------|
 |Overall Call Quality     | Aggregate of the other 3 tabs        |
@@ -324,13 +326,13 @@ The Inside Test for a Server-Client scenario only considers the client endpoint.
 As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a Wifi network, then CQD classifies it as Wifi.
   
 
-## Overview reports
+## Reports provided with CQD
 
 |Name  |  |
 |---------|---------|
-|Location-Enhanced Reports     |This report appears only if you've [uploaded your tenant data](#BKMKTenantDataInformationUpload).        |
-|Reliability Reports     |Includes audio, video, VBSS, AppSharing reports         |
-|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms         |
+|Location-Enhanced Reports     |Shows quality trends based on location information. This report appears only if you've [uploaded your tenant data](#BKMKTenantDataInformationUpload).        |
+|Reliability Reports     |Includes audio, video, video-based screen sharing (VBSS), and app sharing reports         |
+|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable CQD templates](https://aka.ms/QERtemplates), focusing on key areas for analyzing audio quality and reliability.         |
 |Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users         |
 |Failure Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users        |
 |Rate My Call Reports     |Analyze user call ratings by region, location, or by user. Includes verbatim feedback.         |
@@ -392,7 +394,7 @@ To implement a URL filter, in the browser address bar, append the following to t
 
 Example:  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
 
@@ -402,11 +404,21 @@ To filter the reports for Teams or Skype for Business, append the following to t
 
 Example:
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
+> The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
+
+##### How to find your tenant ID
+
+The tenant ID in CQD corresponds to the Directory ID in Azure. If you don’t know your Directory ID, you can find it in the Azure portal:
+
+1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
+
+2.  Select **Azure Active Directory**.
+
+3.  Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
 
 
 #### Query filters
@@ -439,6 +451,8 @@ _Table 4 - Report filters_
 If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD for Teams (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because CQD in Teams reports on many additional calling scenarios. If you're still using reports from the older CQD from the Skype for Business legacy portal, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 To learn more about the differences between the older and latest CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
+
+
 
 ## Open CQD from the Skype for Business legacy portal
 
