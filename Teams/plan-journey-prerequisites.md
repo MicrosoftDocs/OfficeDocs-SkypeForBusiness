@@ -1,16 +1,16 @@
 ---
 title: Microsoft Teams Prerequisites  
-author: lanachin
-ms.author: v-lanac
+author: v-judegn
+ms.author: v-judegn
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: lola
 audience: admin
 description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization 
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
+ms.custom: Teams-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
@@ -38,4 +38,4 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - Learn how [Office 365 groups and Microsoft Teams interact](Office-365-groups.md).
 
-After you’ve verified that your environment meets all applicable prerequisites, [evaluate your current environment for Teams](upgrade-plan-journey-evaluate-environment.md).
+After you’ve verified that your environment meets all applicable prerequisites, [evaluate your current environment for Teams](plan-journey-evaluate-environment.md).

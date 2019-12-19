@@ -1,12 +1,12 @@
 ---
-title: Prepare your network for Microsoft Teams|  Port Firewall Requirements
-author: lanachin
+title: Prepare your network for Microsoft Teams
+author: judegna
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: lola
 description: Use this guidance to prepare your network for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150

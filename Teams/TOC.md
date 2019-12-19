@@ -1,14 +1,44 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md) 
-
-
 <!-- ============================================================ -->
 # Network Planning
-## [Get Teams up and running quickly](get-started.md)
-## [Plan and prepare your network](planning-and-preparing-your-network.md)
-## [Optimize your network](optimize-your-network.md)
-## [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
+
+## Get Teams up and running quickly](get-started.md)
+### [Using Network Planner](get-started.md#network-planner)
+
+## Perform network and environment planning](perform-network-and-environment-planning.md)
+### [Why should I plan my network and environment?](perform-network-and-environment-planning.md#why-should-I-plan-my-network-and environment)
+
+### [Where do I begin?](perform-network-and-environment-planning.md#p#where-do-I-begin?)
+
+#### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#where-do-I-begin?#check-your-environment's-readiness-for Microsoft-Teams)
+
+#### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#where-do-I-begin?#prepare-your-network-for-Microsoft-Teams)
+
+#### [Step 3: Optimize your network](optimize-your-network.md)
+
+##### [Implement the most efficient routing to MS datacenters](optimize-your-network.md#implement-the-most-efficient-routing-to-MS-datacenters)
+#### [Configure split-tunnel VPN](optimize-your-network.md#Configure-split-tunnel-VPN)
+#### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#optimize-Wi-Fi-networks-for-quality-and-performance)
+#### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#implement QoS or Wi-Fi Multimedia (WMM)
+##### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
+
+## [Manage your network topology for cloud voice features](manage-your-network-topology.md)
+
+### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md#aconfigure-network-settings-in-the-Microsoft-Teams-Admin-Center)
+
+#### [Add a network site and region](manage-your-network-topology.md#configure-network-settings-in-the-Microsoft-Teams-Admin-Center#add-a-network-site-and-region)
+
+#### [Associate a subset to a network](manage-your-network-topology.md#configure-network-settings-in-the-Microsoft-Teams-Admin-Center#associate a subset to a network)
+
+### [Configure network settings using PowerShell](manage-your-network-topology.md#configure-network-settings-in-PowerShell)
+
+#### [Add a network site and region](manage-your-network-topology.md#configure-network-settings-in-PowerShell#add-a-network-site-and-region)
+
+#### [Associate a subset to a network](manage-your-network-topology.md#configure-network-settings-in-PowerShell#associate-a-subset-to-a-network)
+
+#### [Associate an external trusted IP address](manage-your-network-topology.md#configure-network-settings-in-PowerShell#associate-an-external-trusted-IP-address)
 
 <!-- ============================================================ -->
 

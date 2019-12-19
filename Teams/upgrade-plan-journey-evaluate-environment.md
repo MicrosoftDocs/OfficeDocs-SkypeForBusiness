@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams Upgrade | Environment Evaluation, Discovery Questions
-author: lanachin
+title: Microsoft Teams Environment Evaluation, Discovery Questions
+author: judegn
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
@@ -84,7 +84,7 @@ Use the following table to capture information about your existing collaboration
 
 ## Collaboration platform deployment details
 
-### Microsoft Teams (if applicable)
+### Microsoft Teams
 
 If applicable, capture the details of your Teams deployment by using the sample table below. If you haven’t deployed Teams, skip this section.
 
