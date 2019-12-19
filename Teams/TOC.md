@@ -4,10 +4,10 @@
 # [Get Teams up and running quickly](get-started.md)
 <!-- ============================================================ -->
 
-# Network planning
-## [Plan and prepare your network](plan-and-prepare-your-network.md)
-### [Network planning for Cloud Voice](cloud-voice-landing-page.md)
-#### [Network topology and settings for Cloud Voice](https://docs.microsoft.com/en-us/microsoftteams/cloud-voice-network-settings)
+# [Plan and prepare your network](planning-and-preparing-your-network.md)
+## [Optimize your network](optimize-your-network.md)
+## [Network planning for Cloud Voice](cloud-voice-landing-page.md)
+#### [Network topology and settings for Cloud Voice](cloud-voice-network-settings.md)
 #### [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 

@@ -43,17 +43,11 @@ Microsoft also strongly recommends:
     
 - Allowing UDP traffic
     
-- Following the other recommendations in our networking guidelines:
+Following the other recommendations in our networking guidelines:
     
-  - [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
+- [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     
-  - [Optimizing your network for Skype for Business Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+- [Optimizing your network](optimize-your-network)
     
 Following this guidance should minimize potential problems.
   
-## Related topics
-
-[Optimizing your network for Skype for Business Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
-
-  
- 
