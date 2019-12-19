@@ -97,6 +97,17 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a meeting  | 250    |
 |Max PowerPoint File Size | 2GB|
 
+
+|Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
+|---------|---------|---------|
+|Meet now     |Start time + 8 hours         |N/A         |
+|Regular with no end time     |Start time + 60 days         | 60 days        |
+|Regular with end time     |End time + 60 days         |60 days         |
+|Recurring with no end time     |Start time + 60 days         |60 days         |
+|Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
+
+
+
 ## Teams live events
 
 |Feature     | Maximum limit |
