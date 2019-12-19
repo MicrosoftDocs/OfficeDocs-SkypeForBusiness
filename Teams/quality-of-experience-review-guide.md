@@ -150,6 +150,8 @@ Rate My Call (RMC) is built into Teams and Skype for Business. It automatically 
 
 You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
+**<font: color="red">SIUNIE and VAMSI: This blog post goes back to SfB 2015. We need a more up-to-date reference here. If this blog's information is still relevant, let's move it into an article.</font>**
+
 #### Client and device readiness
 
 You need a solid client and device strategy to help ensure that your users have a consistent and positive user experience. A few key principles drive each readiness strategy.
@@ -814,9 +816,9 @@ Common causes of call drops:
 -   Older client versions
 -   User behavior
 
-After you discover your problem areas, you can use [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) to further review users in that building for specific issues. Call Analytics contains additional PII data and can be useful for further isolating potential reasons for the drop failures.
+After you discover your problem areas, you can use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) to further review users in that building for specific issues. Call analytics contains additional EUII/PII data and can be useful for further isolating potential reasons for the drop failures.
 
-Regardless of your next step, it’s a good practice to notify the helpdesk that an issue has been discovered with specific buildings or subnets. This way, they can quickly respond to incoming calls and triage users more efficiently. Flagged users can then be reported back to the engineering team for further investigation.
+Regardless of your next step, it’s a good practice to notify your helpdesk that an issue has been discovered with specific buildings or subnets. This way, they can quickly respond to incoming calls and triage users more efficiently. Flagged users can then be reported back to the engineering team for further investigation.
 
 The following table lists some common methods to manage and remediate drop failures.
 
@@ -892,9 +894,9 @@ Focus your remediation efforts on buildings or subnets that have the largest vol
 -   **Packet loss**: Media packets are being dropped, which creates the effect of missing words or syllables.
 -   **RTT**: Media packets are taking a long time to get to their destination, which creates a walkie-talkie effect.
 
-To assist your investigation into quality issues, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). With Call Analytics, you can look at a specific conference or users’ detailed call report. This report will contain PII data and is useful when you’re looking for the cause of a failure. After you know which building is affected, it should be straightforward to track down users in that building. 
+To assist your investigation into quality issues, use [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md). With Call Analytics, you can look at a specific conference or user's call report. This report will contain EUII/PII data and is useful when you’re looking for the cause of a failure. After you know which building is affected, it should be straightforward to track down users in that building. 
 
-Don’t forget to let the helpdesk know that these networks are experiencing quality issues, so they can quickly triage and respond to incoming calls.
+Don’t forget to let your helpdesk know that these networks are experiencing quality issues, so they can quickly triage and respond to incoming calls.
 
 _Table 10 - Common contributors to high PSR_
 
@@ -1115,7 +1117,7 @@ _Figure 31 - Devices (Microphone) Report_
 Typically, you’ll need to discover and phase out non-certified devices and replace them with certified devices. Some considerations when reviewing the device reports include:
 
 -   Are the devices in use certified for Teams and Skype for Business? 
--   You can identify users of a specific device through [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). Check to make sure they have the latest device drivers and that their device isn’t connected through a USB hub or docking station. 
+-   You can identify users of a specific device by using [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md). Check to make sure they have the latest device drivers and that their device isn’t connected through a USB hub or docking station. 
 -   How many different versions of various drivers are in use? Are they being patched regularly? Ensuring that audio, video, and Wi-Fi drivers are being patched regularly will help eliminate these as a source of quality issues and make the user experience more predictable and consistent.
 
 ##### Audio
@@ -1148,6 +1150,8 @@ Microsoft’s approach to drive quality and agility into the wireless networks c
 
 For more background on the Teams and Skype for Business networking concepts and rationale behind their importance to quality, the [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/) is still applicable.
 
+**<font: color="red">SIUNIE and VAMSI: We need to reference a more up-to-date resource. If anything in this blog is still relevant, let's move it into documentation.</font>**
+
 ### Network performance requirements
 
 The quality of real-time media (audio, video, and application sharing) over IP is greatly affected by the quality of end-to-end network connectivity. For optimal Teams or Skype for Business media quality, your network must meet the following network performance metrics.
@@ -1168,39 +1172,29 @@ For more information, see [this article about media quality and network performa
 ### Other resources
 
 
-#### CQD training
+#### CQD 
 
--   <https://aka.ms/sof-cqd>
+- [Set up Call Quality Dashboard (CPD)](turning-on-and-using-call-quality-dashboard.md)
+
+- [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+- [Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
 
 
+### Call Analytics 
 
-### Call Analytics training
-
--   [Introducing Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
-
--   [Set up Call Analytics](set-up-call-analytics.md)
-
--   [What's the difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
+-   [Set up per-user call analytics](set-up-call-analytics.md)
 
 -   [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-### Call Analytics support
-
--   Community: [Skype for Business Preview Program](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
 ### Devices
 
--   [Skype for Business Solutions Catalog Personal Peripherals & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+[Manage your devices in Teams](device-management.md)
 
 ### Tenant reporting
 
--   [Office 365 Adoption Content Pack](https://www.microsoft.com/microsoft-365/blog/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
-
--   [Microsoft 365 usage analytics](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
-
--   [Skype for Business Online reporting](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
-
--   [Microsoft Teams reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+[Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
 
 
 ## Related topics
@@ -1209,6 +1203,5 @@ For more information, see [this article about media quality and network performa
 
 [Prepare your network for Teams](prepare-network.md)
 
-[Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
 
-[Set up Call Quality Dashboard (CQD))](turning-on-and-using-call-quality-dashboard.md)
+
