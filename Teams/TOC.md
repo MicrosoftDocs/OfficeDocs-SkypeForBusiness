@@ -4,29 +4,29 @@
 <!-- ============================================================ -->
 # Network Planning
 
-## [Get Teams up and running quickly](get-started.md)
+## Get Teams up and running quickly (get-started.md)
 ### [Using Network Planner](get-started.md#network-planner)
 
-## [Perform network and environment planning](perform-network-and-environment-planning.md)
-### [Why should I plan my network and environment?](perform-network-and-environment-planning.md#why-should-I-plan-my-network-and environment)
+## Perform network and environment planning
+### [Why should I plan my network and environment?](perform-network-and-environment-planning.md)
 
-## [Where do I begin?](perform-network-and-environment-planning.md#p#where-do-I-begin?)
+### [Where do I begin?](perform-network-and-environment-planning.md#where-do-I-begin?)
 
-### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#check-your-environment's-readiness-for Microsoft-Teams)
+### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#check-your-environment's-readiness-for-Microsoft-Teams)
 
 ### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#prepare-your-network-for-Microsoft-Teams)
 
-## [Optimize your network](optimize-your-network.md)
+## Optimize your network
 
-### [Implement the most efficient routing to MS datacenters](optimize-your-network.md#implement-the-most-efficient-routing-to-MS-datacenters)
+### [Implement the most efficient routing to MS datacenters]((optimize-your-network.md)
 ### [Configure split-tunnel VPN](optimize-your-network.md#Configure-split-tunnel-VPN)
 ### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#optimize-Wi-Fi-networks-for-quality-and-performance)
 ### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#implement QoS or Wi-Fi Multimedia (WMM)
 #### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
 
-## [Manage your network topology for cloud voice features](manage-your-network-topology.md)
+## Manage your network topology for cloud voice features
 
-### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md#aonfigure-network-settings-in-the-Microsoft-Teams-Admin-Center)
+### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md)
 
 #### [Add a network site and region](manage-your-network-topology.md#add-a-network-site-and-region)
 
