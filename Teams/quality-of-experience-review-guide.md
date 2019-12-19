@@ -57,7 +57,7 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 
 In this context, quality is a combination of service metrics and user experience.
 
-**<font: color="red">SIUNIE and VAMSI: I want to nuke this graphic - it's all text anyway. Let's review what's in it, make sure it's an accurate/complete list. Then I'll create a nice-looking table instead.</font>**
+**<font color="red">SIUNIE and VAMSI: I want to nuke this graphic - it's all text anyway. Let's review what's in it, make sure it's an accurate/complete list. Then I'll create a nice-looking table instead.</font>**
 
 ![Illustration of service metrics and the user experience](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
@@ -150,7 +150,7 @@ Rate My Call (RMC) is built into Teams and Skype for Business. It automatically 
 
 You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
-**<font: color="red">SIUNIE and VAMSI: This blog post goes back to SfB 2015. We need a more up-to-date reference here. If this blog's information is still relevant, let's move it into an article.</font>**
+**<font color="red">SIUNIE and VAMSI: This blog post goes back to SfB 2015. We need a more up-to-date reference here. If this blog's information is still relevant, let's move it into an article.</font>**
 
 #### Client and device readiness
 
@@ -687,7 +687,7 @@ These tools are based on PowerShell and can leverage Active Directory (AD) Sites
 
 For more information about this tool, see [this blog post](https://aka.ms/cqdtools).
 
-**<font: color="red">SIUNIE and VAMSI: This is a blog from June 2018 (Martin Rinas). If info in this blog post is important, let's weave it into the documentation. Otherwise, let's stop linking to it.</font>**
+**<font color="red">SIUNIE and VAMSI: This is a blog from June 2018 (Martin Rinas). If info in this blog post is important, let's weave it into the documentation. Otherwise, let's stop linking to it.</font>**
 
 #### Network Planner
 
@@ -1150,7 +1150,7 @@ Microsoft’s approach to drive quality and agility into the wireless networks c
 
 For more background on the Teams and Skype for Business networking concepts and rationale behind their importance to quality, the [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/) is still applicable.
 
-**<font: color="red">SIUNIE and VAMSI: We need to reference a more up-to-date resource. If anything in this blog is still relevant, let's move it into documentation.</font>**
+**<font color="red">SIUNIE and VAMSI: We need to reference a more up-to-date resource. If anything in this blog is still relevant, let's move it into documentation.</font>**
 
 ### Network performance requirements
 
