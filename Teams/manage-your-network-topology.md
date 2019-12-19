@@ -21,47 +21,25 @@ description: Learn how to configure network settings for cloud voice features in
 # Manage your network topology for cloud voice features in Microsoft Teams
 Learn about network regions, network sites, network subnets, and trusted IP addresses. These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and [dynamic emergency calling](configure-dynamic-emergency-calling.md). If you're deploying these cloud features in your organization, you must configure network settings for use with these features in Microsoft Teams.
 
-## Network settings for cloud voice features in Microsoft Teams
-
 > [!NOTE]
 > Any feature-specific requirements for network settings are documented in the configuration topics for that feature.
-
-### Network site
-
-A network site represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
-
-You can also use network sites to enable and configure emergency calling.
-
-### Network region
-
-A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate “India” as a network region. Each network site must be associated with a network region.
-
-The same network regions are shared by Location-Based Routing for Direct Routing and enhanced emergency services. If you already created network regions for one feature, you don't have to create new network regions for the other feature.
-
-### Network subnet
-
-Each subnet must be associated with a specific network site. A client's location is determined based on the network subnet and the associated network site. You can associate multiple subnets with the same network site but you can't associate multiple sites with the same subnet.
-
-Subnet information is used to determine the network site on which an endpoint is located when a new session is initiated. When the location of each party in a session is known, the cloud voice feature can apply that information to determine how to handle call setup or routing.
-
-For each network site, work with your network admin to determine which IP subnets are assigned to each network site. For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges that are allocated for New York, for example, 172.29.80.103.
-
-### Trusted IP address
-
-Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user’s endpoint is inside the corporate network before checking for a specific site match.
-
-If the user’s external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user’s endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
-
-If the user’s external IP address doesn’t match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
 
 ## Configure network settings in the Microsoft Teams Admin Center
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
+You define network sites, network regions, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
 
-#### Add a network site
+#### Add a network site and region
+A *network site* represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
+
+A *network* region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate “India” as a network region. Each network site must be associated with a network region.
+
+The same network regions are shared by Location-Based Routing for Direct Routing and enhanced emergency services. If you already created network regions for one feature, you don't have to create new network regions for the other feature.
+
+You can also use network sites to enable and configure emergency calling.
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
 2. Click **New**, and then enter a name and description for the site.
 
@@ -75,6 +53,12 @@ You define network regions, network sites, and subnets on the **Network sites** 
     - If your organization deployed Phone System Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
 #### Associate a subset to a network 
+Each subnet must be associated with a specific network site. A client's location is determined based on the network subnet and the associated network site. You can associate multiple subnets with the same network site but you can't associate multiple sites with the same subnet.
+
+Subnet information is used to determine the network site on which an endpoint is located when a new session is initiated. When the location of each party in a session is known, the cloud voice feature can apply that information to determine how to handle call setup or routing.
+
+For each network site, work with your network admin to determine which IP subnets are assigned to each network site. For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges that are allocated for New York, for example, 172.29.80.103.
+
 1. Under **Subnets**, click **Add subnets**. 
 2. Specify the IP version, IP address, network range, add a description, and then click **Apply**. Each subnet must be associated with a specific site.
 3. Click **Save**.
@@ -85,11 +69,18 @@ You define network regions, network sites, and subnets on the **Network sites** 
 3. Make the changes that you want, and then click **Save.**
 
 #### Add a trusted IP address
+Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user’s endpoint is inside the corporate network before checking for a specific site match.
+
+If the user’s external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user’s endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
+
+If the user’s external IP address doesn’t match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Trusted IPs** tab.
 2. Click **New**.
 3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then click **Apply**.
 
     ![Screenshot of the Add trusted IP address pane](media/manage-network-topology-add-trusted-ip.png)
+
 #### Edit a trusted IP address
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Trusted IPs** tab.
 2. Select the IP address by clicking to the left of it, and then click **Edit**.

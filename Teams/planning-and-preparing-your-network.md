@@ -34,9 +34,12 @@ The steps described below will help you determine whether your deployment might 
 Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
 # Where do I begin?
-Plan for your Teams rollout by reviewing the following network planning tasks.
+
+Plan for your network by reviewing the following network planning tasks.
 
 [Step 1: Check your environment's readiness for Teams](network.readiness.md)
+
 [Step 2: Prepare your organization's network for Teams](prepare-environment-prepare-network.md)
+
 [Step 3: Verify you've got Teams licenses for all users](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 

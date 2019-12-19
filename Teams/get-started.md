@@ -1,5 +1,5 @@
 ---
-title: Get started Quickly
+title: Get Teams up and running quickly
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,13 +17,10 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Quick start
 
+## Get Teams up and running
 We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
-
-## Get up and running
-
-To quickly get up and running using Teams, complete the following tasks:
+To quickly get Teams up and running, complete the following tasks:
 
 1. Verify all locations have internet access so they can connect to Office 365. At a minimum, verify that the following common ports are open to the internet from all locations:
 
