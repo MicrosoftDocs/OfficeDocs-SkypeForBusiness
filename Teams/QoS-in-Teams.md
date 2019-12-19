@@ -22,29 +22,31 @@ appliesto:
 
 # Implement Quality of Service (QoS) in Microsoft Teams
 
-This article will help you prepare your organization's network for Quality of Service (QoS) in Microsoft Teams. If you are supporting a large group of users and they are experiencing any of the problems mentioned below, you probably need to implement QoS. A small business with few users may not need QoS, but even there it should be helpful.
+Quality of Service (QoS) in Microsoft Teams is a way to allow real-time network traffic that is sensitive to network delays (for example, voice or video streams) to "cut in line" in front of traffic that is less sensitive (like downloading a new app, where an extra second to download isn't a big deal). QoS identifies and marks all packets in real-time streams (using Windows Group Policy Objects and a routing feature called Port-based Access Control Lists, more about those is below) which then helps your network to give voice, video, and screen share streams a dedicated portion of network bandwidth.
 
-QoS is a way to allow real-time network traffic (like voice or video streams) that is sensitive to network delays to "cut in line" in front of traffic that is less sensitive (like downloading a new app, where an extra second to download isn't a big deal). QoS identifies and marks all packets in real-time streams (using Windows Group Policy Objects and a routing feature called Port-based Access Control Lists, more about those is below) which then helps your network to give voice, video, and screen share streams a dedicated portion of network bandwidth.
+If you're supporting a large group of users and they're experiencing any of the problems described below, you probably need to implement QoS. A small business with few users may not need QoS, but even there it should be helpful.
 
 Without some form of QoS, you might see the following quality issues in voice and video:
 
-- Jitter – media packets arriving at different rates, which can result in missing words or syllables in calls.
-- Packet loss – packets dropped, which can also result in lower voice quality and hard to understand speech.
-- Delayed round trip time (RTT) – media packets taking a long time to reach their destinations, which results in noticeable delays between two parties in a conversation, causing people to talk over each other.
+- Jitter – media packets arriving at different rates, which can result in missing words or syllables in calls
+- Packet loss – packets dropped, which can also result in lower voice quality and hard to understand speech
+- Delayed round trip time (RTT) – media packets taking a long time to reach their destinations, which results in noticeable delays between two parties in a conversation, causing people to talk over each other
 
-The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet. Since that is often cost-prohibitive, QoS provides a way to more effectively manage the resources you have instead of adding new resources. To fully address quality issues you would use QoS across the implementation, then add connectivity only where absolutely necessary.
+The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet. Since that is often cost-prohibitive, QoS provides a way to more effectively manage the resources you have instead of adding bandwidth. To address quality issues, we recommend that you first use QoS, then add bandwidth only where necessary.
 
-For QoS to be effective, you will have have consistent QoS settings applied end to end in your organization, because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams online service.
+For QoS to be effective, you'll apply consistent QoS settings throughout your organization, because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
 
 _Figure 1. The relationship between an organization's networks and Office 365 services_
 
 ![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
 
-In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network for both inbound and outbound traffic. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network, where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network for both inbound and outbound traffic. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints.
+
+**<font: color="red">SIUNIE and VAMSI: Teams doesn't require ExpressRoute. Should we delete this reference?</font>**
 
 ## QoS implementation checklist
 
-At a very high level, implementing QoS requires these steps:
+At a high level, implementing QoS requires these steps:
 
 1. [Verify your network is ready](#verify-your-network-is-ready)
 2. [Select a QoS implementation method](#select-a-qos-implementation-method)
@@ -56,16 +58,16 @@ At a very high level, implementing QoS requires these steps:
       > [!IMPORTANT]
       > We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
 
-   3. On [Teams Admin Center](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
-5. [Validate the QoS implementation](#validate-the-qos-implementation) by analyzing Teams traffic on the network.
+   3. In the [Teams admin center](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+5. [Validate your QoS implementation](#validate-the-qos-implementation) by analyzing Teams traffic on the network.
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
-- The shortest path to Office 365 is best.
-- Closing ports will only lead to quality degradation.
-- Any obstacles in-between, such as proxies, are not recommended.
+- The shortest path to Office 365 is best
+- Closing ports will only lead to quality degradation
+- Any obstacles in-between, such as proxies, are not recommended
 - Limit the number of hops:
-  - Client to network edge – 3 to 5 hops.
+  - Client to network edge – 3 to 5 hops
   - ISP to Microsoft network edge – 3 hops
   - Microsoft network edge to final destination – irrelevant
 
@@ -74,9 +76,9 @@ For information about configuring firewall ports, go to [Office 365 URLs and IP 
 
 ## Verify your network is ready
 
-If you are considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). 
+If you're considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). 
   
-  Traffic congestion across a network will greatly impact media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use reporting, [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md), and [Call Quality Dashboard (CQD)](quality-of-experience-review-guide.md) to identify problems and then make adjustments using QoS and selective bandwidth additions.
+Traffic congestion across a network will greatly impact media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use reporting, [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md), and [Call Quality Dashboard (CQD)](quality-of-experience-review-guide.md) to identify problems and then make adjustments using QoS and selective bandwidth additions.
 
 ### VPN considerations
 
@@ -90,7 +92,7 @@ To provide QoS, network devices must have a way to classify traffic and must be 
 
 When network traffic enters a router, the traffic is placed into a queue. If a QoS policy isn't configured, there is only one queue, and all data is treated as first-in, first-out with the same priority. That means voice traffic (which is very sensitive to delays) might get stuck behind traffic where a delay of a few extra milliseconds wouldn't be a problem.
 
-When you implement QoS, you define multiple queues using one of several congestion management features (such as Cisco’s priority queuing and Class-Based Weighted Fair Queueing [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) and congestion avoidance features (such as weighted random early detection [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
+When you implement QoS, you define multiple queues using one of several congestion management features (such as Cisco’s priority queuing and [Class-Based Weighted Fair Queueing (CBWFQ)](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) and congestion avoidance features (such as [weighted random early detection WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
 
 _Figure 2. Examples of QoS queues_
 

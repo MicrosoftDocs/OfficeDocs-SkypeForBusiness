@@ -46,7 +46,7 @@ You'll use per-user call analytics and Call Quality Dashboard to find and troubl
 
 ## Related Topics
 
-
+**<font: color="red">SIUNIE and VAMSI: Is this video still relevant? It's from November 2018 - before CQD v3. Consider deleting this link.</font>**
 
 [Video: Call Quality Overview](https://aka.ms/teams-quality)
 
