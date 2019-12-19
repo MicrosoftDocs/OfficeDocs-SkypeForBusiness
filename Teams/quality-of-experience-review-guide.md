@@ -238,10 +238,12 @@ CQD, although useful for analyzing trends and subnets, doesn’t always provide 
 
 ### Report editions
 
-There are two report editions in CQD: Summary and Detailed. Use the drop-down menu located in the bar at the top of the screen to open a report edition. The name of the selected report edition is displayed at the top of the screen.
+There are two types of reports in CQD: Summary and Detailed. Use the drop-down menu at the top of the screen to open a report. 
 
 -   [Summary reports](turning-on-and-using-call-quality-dashboard.md#summary-reports) are static and can’t be edited, downloaded, or exported
 -   [Detailed reports](turning-on-and-using-call-quality-dashboard.md#create-custom-detailed-reports) are fully customizable and can be downloaded to a CSV file, exported, or cloned
+
+For a list of the data provided in each report, see [Data available in CQD reports](turning-on-and-using-call-quality-dashboard.md#data-available-in-cqd-reports).
 
 
 _Figure 4 - CQD report categories_
