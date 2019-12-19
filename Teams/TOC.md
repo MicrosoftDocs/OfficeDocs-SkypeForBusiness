@@ -5,16 +5,12 @@
 # Network Planning
 
 ## Get Teams up and running quickly
-### [Using Network Planner](get-started.md#network-planner)
+### [Using Network Planner](get-started.md)
 
 ## Perform network and environment planning
 ### [Why should I plan my network and environment?](perform-network-and-environment-planning.md)
 
 ### Where do I begin?
-
-#### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#(perform-network-and-environment-planning.md#where-do-I-begin?)
-
-#### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#prepare-your-network-for-Microsoft-Teams)
 
 ## Optimize your network
 
@@ -36,17 +32,7 @@
 
 ### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md)
 
-#### [Add a network site and region](manage-your-network-topology.md#add-a-network-site-and-region)
-
-#### [Associate a subset to a network](manage-your-network-topology.md#associate a subset to a network)
-
 ### [Configure network settings using PowerShell](manage-your-network-topology.md#configure-network-settings-in-PowerShell)
-
-#### [Add a network site and region](manage-your-network-topology.md#add-a-network-site-and-region)
-
-#### [Associate a subset to a network](manage-your-network-topology.md#associate-a-subset-to-a-network)
-
-#### [Associate an external trusted IP address](manage-your-network-topology.md#associate-an-external-trusted-IP-address)
 
 <!-- ============================================================ -->
 
