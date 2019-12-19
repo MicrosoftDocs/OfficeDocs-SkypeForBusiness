@@ -1,12 +1,11 @@
 ---
-title: Implement Quality of Service in Microsoft Teams clients
-author: jambirk
-ms.author: jambirk
+title: Implement Quality of Service (QoS) in Microsoft Teams clients
+author: lolajacobsen
+ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
 description: Implement Quality of Service (QoS) for  Microsoft Teams clients.
 localization_priority: Normal
@@ -17,9 +16,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Set QoS on Windows clients
+# Implement Quality of Service (QoS) in Microsoft Teams clients
 
-You can use policy-based QoS within Group Policy to set the source port range for the predefined DSCP value in the Teams client. The port ranges specified in the following table are a starting point to create a policy for each workload.
+You can use policy-based Quality of Service (QoS) within Group Policy to set the source port range for the predefined DSCP value in the Teams client. The port ranges specified in the following table are a starting point to create a policy for each workload.
 
 *Table 1. Recommended initial port ranges*
 
