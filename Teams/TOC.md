@@ -4,41 +4,41 @@
 <!-- ============================================================ -->
 # Network Planning
 
-## Get Teams up and running quickly](get-started.md)
+## [Get Teams up and running quickly](get-started.md)
 ### [Using Network Planner](get-started.md#network-planner)
 
-## Perform network and environment planning](perform-network-and-environment-planning.md)
+## [Perform network and environment planning](perform-network-and-environment-planning.md)
 ### [Why should I plan my network and environment?](perform-network-and-environment-planning.md#why-should-I-plan-my-network-and environment)
 
-### [Where do I begin?](perform-network-and-environment-planning.md#p#where-do-I-begin?)
+## [Where do I begin?](perform-network-and-environment-planning.md#p#where-do-I-begin?)
 
-#### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#where-do-I-begin?#check-your-environment's-readiness-for Microsoft-Teams)
+### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#check-your-environment's-readiness-for Microsoft-Teams)
 
-#### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#where-do-I-begin?#prepare-your-network-for-Microsoft-Teams)
+### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#prepare-your-network-for-Microsoft-Teams)
 
-#### [Step 3: Optimize your network](optimize-your-network.md)
+## [Optimize your network](optimize-your-network.md)
 
-##### [Implement the most efficient routing to MS datacenters](optimize-your-network.md#implement-the-most-efficient-routing-to-MS-datacenters)
-#### [Configure split-tunnel VPN](optimize-your-network.md#Configure-split-tunnel-VPN)
-#### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#optimize-Wi-Fi-networks-for-quality-and-performance)
-#### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#implement QoS or Wi-Fi Multimedia (WMM)
-##### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
+### [Implement the most efficient routing to MS datacenters](optimize-your-network.md#implement-the-most-efficient-routing-to-MS-datacenters)
+### [Configure split-tunnel VPN](optimize-your-network.md#Configure-split-tunnel-VPN)
+### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#optimize-Wi-Fi-networks-for-quality-and-performance)
+### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#implement QoS or Wi-Fi Multimedia (WMM)
+#### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
 
 ## [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 
-### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md#aconfigure-network-settings-in-the-Microsoft-Teams-Admin-Center)
+### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md#aonfigure-network-settings-in-the-Microsoft-Teams-Admin-Center)
 
-#### [Add a network site and region](manage-your-network-topology.md#configure-network-settings-in-the-Microsoft-Teams-Admin-Center#add-a-network-site-and-region)
+#### [Add a network site and region](manage-your-network-topology.md#add-a-network-site-and-region)
 
-#### [Associate a subset to a network](manage-your-network-topology.md#configure-network-settings-in-the-Microsoft-Teams-Admin-Center#associate a subset to a network)
+#### [Associate a subset to a network](manage-your-network-topology.md#associate a subset to a network)
 
 ### [Configure network settings using PowerShell](manage-your-network-topology.md#configure-network-settings-in-PowerShell)
 
-#### [Add a network site and region](manage-your-network-topology.md#configure-network-settings-in-PowerShell#add-a-network-site-and-region)
+#### [Add a network site and region](manage-your-network-topology.md#add-a-network-site-and-region)
 
-#### [Associate a subset to a network](manage-your-network-topology.md#configure-network-settings-in-PowerShell#associate-a-subset-to-a-network)
+#### [Associate a subset to a network](manage-your-network-topology.md#associate-a-subset-to-a-network)
 
-#### [Associate an external trusted IP address](manage-your-network-topology.md#configure-network-settings-in-PowerShell#associate-an-external-trusted-IP-address)
+#### [Associate an external trusted IP address](manage-your-network-topology.md#associate-an-external-trusted-IP-address)
 
 <!-- ============================================================ -->
 
@@ -813,12 +813,10 @@
 <!-- ============================================================ -->
 
 # Reference
-
-## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
+## [Use Advisor for Teams](use-advisor-teams-roll-out.md)
 ## [Plan for Office 365 Groups when crating teams](plan-office-365-groups.md)
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
-
 ## [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
 
 # Install Teams
