@@ -1,12 +1,11 @@
 ---
 title: Implement Quality of Service in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: LolaJacobsen
+ms.author: lolaj
 manager: Serdars
-ms.date: 12/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
