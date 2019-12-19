@@ -19,15 +19,15 @@ appliesto:
 
 Resource-specific consent in Microsoft Teams lets team owners give consent to apps to access team data. Examples of such access include the ability to read channel messages, create and delete channels, and create and remove channel tabs.
 
-As an admin, you can control whether team owners in your organization can give consent through settings in the Azure portal and the Microsoft Teams admin center.  
+As an admin, you control whether team owners in your organization can give consent through settings that you configure by using the Azure AD PowerShell module or the Azure portal and the Microsoft Teams admin center.  
 
 ## Set whether team owners can give consent to apps
 
-Here are the settings in the Azure portal and the Microsoft Teams admin center that you must set to control whether team owners can give consent to apps. Be sure to review all the following settings.
+Here are the settings that you must set to control whether team owners can give consent to apps. Be sure to review all the following settings.
 
-### Settings in the Azure portal
+### Settings in Azure AD
 
-The following two settings in the Azure portal determine whether team owners can give consent to apps.
+The following two settings determine whether team owners can give consent to apps.
 
 > [!IMPORTANT]
 > Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you configure these settings to prevent team owners from giving consent, these changes don't remove data access that's already been granted.
@@ -39,28 +39,27 @@ This setting controls whether users in your organization can consent to apps on 
 1. In the Azure portal, go to **Enterprise applications** > **User settings**.
 2. Under **Enterprise applications**, set **Users can consent to apps accessing company data on their behalf** to **No** or **Yes**.
 
-#### The "Users can consent to apps accessing company data for groups they own" setting
+You can also configure this setting using PowerShell. To learn more, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
-This setting controls whether users in your organization can consent to apps on their behalf. To enable team owners to give consent, this setting must be set to **Yes**. To manage this setting, do the following:
+#### The "EnableGroupSpecificConsent" setting
 
-1. In the Azure portal, go to **Enterprise applications** > **User settings**.
-2. Under **Enterprise applications**, set **Users can consent to apps accessing company data for groups they own** to **No** or **Yes**.
+This setting controls whether users in your organization can consent to apps accessing company data for groups that they own. This setting must be enabled for team owners to give consent. You use PowerShell to manage this setting. For steps on how to enable this setting, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 
 ### Settings in the Microsoft Teams admin center
 
 In addition to settings in the Azure portal, [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in the Microsoft Teams admin center and the settings in the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.
 
 > [!IMPORTANT]
-> Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you disable third-party and custom apps org-wide or if you block specific apps to prevent team owners from giving consent, these changes don't remove data access that's already been granted.  
+> Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you disable third-party apps org-wide or if you block specific apps to prevent team owners from giving consent, these changes don't remove data access that's already been granted.  
 
-#### The "Allow third party or custom apps" setting in org-wide app settings
+#### The "Allow third party apps" setting in org-wide app settings
 
-This org-wide app setting controls whether users in your organization can use third-party and custom apps. This setting must be on to enable team owners to give consent. To manage this setting, do the following:
+This org-wide app setting controls whether users in your organization can use third-party apps. This setting must be on to enable team owners to give consent. To manage this setting, do the following:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**, and then click **Org-wide settings**.
 2. Under **Third-party apps**, turn off or turn on **Allow third party apps**.
 
-    ![Screenshot of the "Allow third party or custom apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
+    ![Screenshot of the "Allow third party apps in Teams" setting](media/resource-specific-consent-org-wide-setting.png)
 
 #### Blocked apps in org-wide app settings
 
