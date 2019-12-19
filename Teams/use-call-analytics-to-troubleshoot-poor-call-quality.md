@@ -85,9 +85,9 @@ The following table tells you what per-user information is available for each co
     
     ![Screenshot of the Advanced tab of a user's Call history ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
-In rare cases, quality of experience data isn't received for audio sessions. Often this is caused by the call dropping and connection with the client terminating. When this occurs, the session rating is **unavailable**.
+In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by the call dropping and connection with the client terminating. When this occurs, the session rating is **unavailable**.
   
-For audio sessions that do have quality of experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
+For audio sessions that do have Quality of Experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
   
 |**Issue**|**Area**|**Description**|
 |:-----|:-----|:-----|
