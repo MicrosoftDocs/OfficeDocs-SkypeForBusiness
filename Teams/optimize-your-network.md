@@ -18,20 +18,7 @@ appliesto:
 ---
 
 # Optimize your network
-
-## Checklist for optimizing your network
-
-- Validate the Network Assessment Tool (NAT) pool size required for user connectivity
-- Implement the most efficient routing to MS datacenters
-- Configure firewall ports requested for connectivity to Teams
-- Configure proxy servers
-- Configure split-tunnel VPN
-- Configure packet prioritization by using QoS
-- Optimize Wi-Fi networks for quality and performance
-- Validate network connectivity by using the Network Assessment Tool
-- Monitor your network using CQC/DA
-- Validate the Network Assessment Tool (NAT) pool size required for user connectivity
-- Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. 
+The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features.
 
 ## [Step 1: Validate the Network Assessment Tool (NAT) pool size required for user connectivity](https://docs.microsoft.com/en-us/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
 Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
@@ -40,7 +27,7 @@ Ensure that adequate public IP addresses are assigned to the NAT pools to preven
 Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. S
 
 ## [Step 3: Configure firewall ports requested for connectivity to Teams](prepare-environment-prepare-network.md)
-Review Office 365 URLs and IPs to identify and test the firewall ports that are required for connectivity between on-premises clients and servers and Office 365 services. You must open all ports on your firewalls. Failing to open some ports or ranges will negatively affect user experience. See also, Firewall and proxy requirements.
+Review Office 365 URLs and IPs to identify and test the firewall ports that are required for connectivity between on-premises clients and servers and Office 365 services. You must open all ports on your firewalls. Failing to open some ports or ranges will negatively affect user experience. 
 
 ## [Step 4: Configure proxy servers](proxy-servers-for-Teams.md)
 Configure your environment so that proxy servers are bypassed, and you can connect users directly to Office 365 by using UDP, for the best audio and video quality. When real-time media is forced to traverse a proxy server, the media stack in Teams is forced to fail back to TCP, which negatively affects quality.
