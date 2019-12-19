@@ -34,7 +34,7 @@ Your Teams data is stored differently depending on the content type. For an in-d
 
 ### Core Teams customer data
 
-If you provision your tenant in Australia, Canada, the European Union, France, India, Japan, South Africa, South Korea, the United Kingdom, or the United States, Microsoft stores the following customer data at rest only within that location:
+If your tenant is provisioned in Australia, Canada, the European Union, France, India, Japan, South Africa, South Korea, the United Kingdom, or the United States, Microsoft stores the following customer data at rest only within that location:
 
 - Teams chats, team and channel conversations, images, voicemail messages, and contacts
 - SharePoint Online site content and the files stored within that site
@@ -74,7 +74,7 @@ The Teams services described in this section store data at rest in the following
 |Asia Pacific (APAC)  |Singapore and Hong Kong        |
 |Europe, Middle East, and Asia (EMEA)   |Dublin and Amsterdam        |
 
-### Files stored with a third-party storage provider
+### Data stored with a third-party storage provider
 
 Organizations who allow users to store files with a third-party storage provider are dependent on the storage location of those services and should, therefore, review the location of data at rest for those services separately.
 
