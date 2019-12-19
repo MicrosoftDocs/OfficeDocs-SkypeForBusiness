@@ -18,7 +18,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Why should you plan and prepare your network and environment?
+# Plan and prepare your network and environment
+## Why should you plan and prepare your network and environment?
 
 Failing to prepare your network and environment will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
 
@@ -33,7 +34,8 @@ Before we look at the steps to be taken, it’s important to understand what can
 The steps described below will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution.
 Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
-# Where do I begin?
+
+## Where do I begin?
 
 Plan for your network by reviewing the following network planning tasks.
 

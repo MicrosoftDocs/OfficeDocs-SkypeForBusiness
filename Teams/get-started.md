@@ -17,8 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-
-## Get Teams up and running
+# Get Teams up and running
 We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
 To quickly get Teams up and running, complete the following tasks:
 
@@ -34,7 +33,7 @@ To quickly get Teams up and running, complete the following tasks:
     - If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
 
-### Using Network Planner
+## Using Network Planner
 
 If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 

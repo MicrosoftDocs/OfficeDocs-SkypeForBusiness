@@ -1,19 +1,18 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md) 
-# [Get Teams up and running quickly](get-started.md)
+
 
 <!-- ============================================================ -->
-
-# [Plan and prepare your network](planning-and-preparing-your-network.md)
-## [Configure your network](configure-networking.md))
+# Network Planning
+## [Get Teams up and running quickly](get-started.md)
+## [Plan and prepare your network](planning-and-preparing-your-network.md)
 ## [Optimize your network](optimize-your-network.md)
 ## [Manage your network topology for Cloud Voice features](manage-your-network-topology.md)
 
 <!-- ============================================================ -->
 
-# Get your rollout started
-## [Overview](get-started-with-teams-quick-start.md)
+# [Get your rollout started](get-started-with-teams-quick-start.md)
 ## [How to roll out Microsoft Teams](How-to-roll-out-teams.md)
 ## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)

@@ -18,8 +18,6 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Rollout journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the rollout journey, with emphasis on the Technical Readiness stage")
-
 This article is part of the Technical Readiness stage of your rollout journey. Before proceeding, confirm that you’ve completed the following activities:
 
 - [Enlisted your project stakeholders](enlist-stakeholders.md)
@@ -35,17 +33,6 @@ If you’re deploying audio, video, or meetings, you can take some additional st
 
 ![Diagram describing the three components of quality](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
-## Why should you prepare your network?
-
-Before we look at the steps to be taken, it’s important to understand what can affect the performance of Teams and thereby user happiness and satisfaction. Three major risk areas can affect how users perceive network quality:
-
-- Insufficient bandwidth available
-
-- Firewall and proxy blockers
-
-- Network impairments such as jitter and packet loss
-
-The steps described below will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution. Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
 <!--ENDOFSECTION-->
 
@@ -63,7 +50,7 @@ Back-hauling traffic across the WAN increases latency and has a negative impact 
 
 Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. For more detail, see the blog post [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance](media-quality-and-network-connectivity-performance.md).
 
 The two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge) must meet the following requirements:
 
