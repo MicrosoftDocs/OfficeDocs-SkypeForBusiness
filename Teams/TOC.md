@@ -783,34 +783,36 @@
 <!-- ============================================================ -->
 
 # Reference
-## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-## [Plan for governance in Teams](plan-teams-governance.md)
+
+## [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
+## [Plan for Office 365 Groups when crating teams](plan-office-365-groups.md)
+## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+## [Plan for governance in Teams](plan-teams-governance.md)
+
 ## [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
 
-## Install Teams
-### [Get clients for Teams](get-clients.md)
-### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
-### [Install Teams using MSI](msi-deployment.md)
-### [Turn on Teams in your organization](Office-365-set-up.md)
-### [Teams files and folders to exclude from antivirus scanning](teams-files-folders-antivirus-perf.md)
-### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-### [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
-### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-### [Teams client updates](teams-client-update.md)
-### [Troubleshoot installation and update issues](troubleshoot-installation.md)
+# Install Teams
+## [Get clients for Teams](get-clients.md)
+## [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+## [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md)
+## [Install Teams using MSI](msi-deployment.md)
+## [Turn on Teams in your organization](Office-365-set-up.md)
+## [Teams files and folders to exclude from antivirus scanning](teams-files-folders-antivirus-perf.md)
+## [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+## [Teams for Virtualized Desktop Infrastructure (VDI)](teams-for-vdi.md)
+## [Deploy Teams for Surface Hub](teams-surface-hub.md)
+## [Teams client updates](teams-client-update.md)
+## [Troubleshoot installation and update issues](troubleshoot-installation.md)
 
-## Licensing
-### [Manage user access to Teams](user-access.md)
-### [Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Teams licenses](assign-teams-licenses.md)
-### [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### License options based on your plan
-##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+# Licensing
+## [Manage user access to Teams](user-access.md)
+## [Office 365 licensing for Teams](office-365-licensing.md)
+## [Assign Teams licenses](assign-teams-licenses.md)
+## [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### License options based on your plan
+#### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+#### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+#### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
