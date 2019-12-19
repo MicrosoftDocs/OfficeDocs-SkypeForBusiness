@@ -43,15 +43,15 @@ For example, using CQD, you can determine that a user's poor call quality (which
   
 ![Screenshot of Call Quality Dashboard.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-In CQD, you can upload building and endpoint information, which lets you use Location-Enhanced Reports to analyze call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
+In CQD, we encourage you to upload building and endpoint information, which lets you use Location-Enhanced Reports to analyze call quality and reliability within a user's building. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users. To turn on building or endpoint-specific views in CQD, an admin must [upload building or endpoint information](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) on the CQD **Tenant Data Upload** page.
 
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
-Don't miss our [Manage call and meeting quality in Teams](quality-of-experience-review-guide.md) article, which offers in-depth scenarios for the Teams admin or Support engineer responsible for managing service quality in Teams.
+Don't miss our [Manage call and meeting quality in Teams](quality-of-experience-review-guide.md) article, which offers in-depth guidance for the Teams admin or support engineer responsible for managing service quality in Teams.
 
 ## Assign admin roles for access to CQD
 
-If you want non-admin users (such as helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **<font color="red">(SIUNIE, which roles also give access to per-user call analytics?)**</font>
+If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD **<font color="red">(SIUNIE, which roles also give access to per-user call analytics?)**</font>
 
 - Office 365 Global Administrator
 - Office 365 Global Reader
