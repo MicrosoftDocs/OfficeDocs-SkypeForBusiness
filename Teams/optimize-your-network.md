@@ -18,13 +18,13 @@ appliesto:
 ---
 
 # Optimize your network
-The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features.
+The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features in any order.
 
 ## [Step 1: Validate the Network Assessment Tool (NAT) pool size required for user connectivity](https://docs.microsoft.com/en-us/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
 Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
 ## [Step 2: Implement the most efficient routing to MS datacenters](https://docs.microsoft.com/en-us/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
-Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. S
+Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
 
 ## [Step 3: Configure firewall ports requested for connectivity to Teams](prepare-environment-prepare-network.md)
 Review Office 365 URLs and IPs to identify and test the firewall ports that are required for connectivity between on-premises clients and servers and Office 365 services. You must open all ports on your firewalls. Failing to open some ports or ranges will negatively affect user experience. 

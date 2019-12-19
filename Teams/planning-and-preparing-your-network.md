@@ -18,9 +18,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan and prepare your network
-## Why should you plan and prepare your network?
-Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
+# Why should you plan and prepare your network and environment?
+
+Failing to prepare your network and environment will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
 
 Before we look at the steps to be taken, it’s important to understand what can affect the performance of Teams and thereby user happiness and satisfaction. Three major risk areas can affect how users perceive network quality:
 
@@ -30,15 +30,13 @@ Before we look at the steps to be taken, it’s important to understand what can
 
 - Network impairments such as jitter and packet loss
 
-The steps described below will help you determine whether your deployment might
-be affected by any of these factors and will help you move toward a resolution.
-Failing to prepare your network will likely lead to dissatisfied users and
-costly, ad-hoc fixes. By preparing your network—and your organization—for Teams,
-you can dramatically increase your chance of success.
+The steps described below will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution.
+Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
-## Where do I begin?
-Before you get started, you'll want to plan for your Teams rollout by reviewing the following:
+# Where do I begin?
+Plan for your Teams rollout by reviewing the following network planning tasks.
 
 [Step 1: Check your environment's readiness for Teams](network.readiness.md)
 [Step 2: Prepare your organization's network for Teams](prepare-environment-prepare-network.md)
 [Step 3: Verify you've got Teams licenses for all users](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+

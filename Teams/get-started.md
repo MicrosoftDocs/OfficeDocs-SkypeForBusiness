@@ -27,17 +27,21 @@ To quickly get up and running using Teams, complete the following tasks:
 
 1. Verify all locations have internet access so they can connect to Office 365. At a minimum, verify that the following common ports are open to the internet from all locations:
 
-    - Open TCP ports **80** and **443** for outgoing traffic from clients that will use Teams    
-    - Open UDP ports **3478** through **3481** for outgoing traffic from clients that will use Teams
+    - Open TCP ports **80** and **443** for outgoing traffic from clients that will use Teams.    
+    - Open UDP ports **3478** through **3481** for outgoing traffic from clients that will use Teams.
 
-1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).
+1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).If your organization does not have Exchange Online, see Understand how Exchange and Microsoft Teams interact.
+
+    - If your organization does not have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).        
+
+    - If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
+
 
 ### Using Network Planner
 
 If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
-
 
 
 ## Next steps
