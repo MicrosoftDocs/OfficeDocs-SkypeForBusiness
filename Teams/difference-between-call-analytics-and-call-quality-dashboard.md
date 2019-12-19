@@ -24,7 +24,7 @@ description: "Learn about Call Analytics and Call Quality Dashboard and when to 
 
 # Call Analytics and Call Quality Dashboard
 
-go to monitor-call-quality.md instead. This article will be deleted.
+**go to monitor-call-quality.md instead. This article will be deleted.**
 
 ## What's Call Analytics, and when should I use it?
 

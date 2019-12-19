@@ -1,5 +1,5 @@
 ---
-title: Manage call and meeting quality in Microsoft Teams 
+title: Use CQD to manage call and meeting quality in Microsoft Teams 
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-#  Manage call and meeting quality in Microsoft Teams 
+#  Use CQD to manage call and meeting quality in Microsoft Teams 
 
 This article will help you - the Teams admin or support and helpdesk engineer - develop a process for monitoring and maintaining call and meeting quality for your organization in Microsoft Teams using Call Quality Dashboard (CQD). Our guidance emphasizes audio-quality scenarios because any network improvements you make to improve the audio experience will translate to improvements in video and sharing.
 

@@ -18,14 +18,18 @@ appliesto:
 
 # Improve and monitor call quality for Microsoft Teams
 
-This article tells you how to use **Quality of Service (QoS)** to improve call quality in Microsoft Teams. It also introduces the ways you can monitor and troubleshoot call quality in Teams, by using the **Call Quality Dashboard (CQD)** and **per-user call analytics**, both found in the Teams admin center. 
+This article introduces three key tools you can use to monitor, troubleshoot, manage, and improve call quality in Microsoft Teams. 
+
+- Quality of Service (QoS)
+- Call Quality Dashboard (CQD)
+- Per-user call analytics
 
 ## Prioritize important network traffic using QoS
-As your users start using Teams for making calls and holding meetings, they may experience a caller's voice breaking up or cutting in and out of a call or meeting. Shared video may freeze or pixelate, or fail altogether. This is due to the IP packets that represent voice and video traffic encountering network congestion and arriving out of sequence or not at all. If this happens (or to prevent it from happening in the first place), use **Quality of Service (QoS)**. 
+As your users start using Teams for calls and meetings, they may experience a caller's voice breaking up or cutting in and out of a call or meeting. Shared video may freeze or pixelate, or fail altogether. This is due to the IP packets that represent voice and video traffic encountering network congestion and arriving out of sequence or not at all. If this happens (or to prevent it from happening in the first place), use **Quality of Service (QoS)**. 
 
 With QoS, you prioritize delay-sensitive network traffic (for example, voice or video streams), allowing it to "cut in line" in front of traffic that is less sensitive (like downloading a new app, where an extra second to download isn't a big deal). QoS identifies and marks all packets in real-time streams using Windows Group Policy Objects and a routing feature called Port-based Access Control Lists, which instructs your network to give voice, video, and screen sharing their own dedicated network bandwidth.
 
-Ideally, you'll implement QoS on your internal network while getting ready to roll out Teams, but if you're small enough, it can be optional. 
+Ideally, you'll implement QoS on your internal network while getting ready to roll out Teams, but you can do it anytime. If you're small enough, you might not need QoS.
 
 When you're ready, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md).
 
@@ -33,9 +37,9 @@ To use QoS to manage meeting traffic, read [Set how you want to handle real-time
 
 
 ## Monitor and troubleshoot call quality
-You'll use per-user call analytics and Call Quality Dashboard to find and troubleshoot call-quality problems that come up during ongoing operation.  
+You'll use per-user call analytics and Call Quality Dashboard to find and troubleshoot call-quality problems that come up during ongoing operation. Both of these tools are in the Teams admin center.
 
- - **Per-user call analytics** shows detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in Teams. The Teams admin and helpdesk agents will use this information to troubleshoot call quality and connection problems in a specific call. To learn more, read [Set up per-user call analytics](set-up-call-analytics.md) and [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+ - **Per-user call analytics** shows detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in Teams. Teams admin and helpdesk agents will use this information to troubleshoot call quality and connection problems in a specific call. To learn more, read [Set up per-user call analytics](set-up-call-analytics.md) and [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
  - **Call Quality Dashboard (CQD)** gives you a ***network-wide view*** of call quality across your organization. Use CQD information to help you identify and fix problems. First, [Set up CQD](turning-on-and-using-call-quality-dashboard.md). Then read [Manage call and meeting quality in Teams](quality-of-experience-review-guide.md).
 
  Per-user call analytics and CQD run in parallel and can be used independently or together. For example, say that a communications support specialist determines that they need more help troubleshooting a call problem. The communications support specialist passes the call to a communications support engineer, who has access to more information than the communications support specialist. In turn, the communications support engineer can alert a network engineer to an issue. The network engineer can check CQD to see if an overall site-related issue could be a contributing cause of call problems.
