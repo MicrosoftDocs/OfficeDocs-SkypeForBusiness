@@ -19,9 +19,9 @@ appliesto:
 
 # Quick start
 
-## Plan your network
-
 We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
+
+## Get up and running
 
 To quickly get up and running using Teams, complete the following tasks:
 
@@ -34,12 +34,10 @@ To quickly get up and running using Teams, complete the following tasks:
 
 ### Using Network Planner
 
-If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](https://docs.microsoft.com/en-us/microsoftteams/network-planner) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
 ## Next steps
 
-Go to [Optimize your network](optimize-your-network.md).
-
-Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).
+Go to [Plan and prepare your network](plan-and-prepare-your-network.md).
