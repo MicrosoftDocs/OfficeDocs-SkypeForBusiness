@@ -1,6 +1,5 @@
 ---
 title: "Country and region availability for Audio Conferencing and Calling Plans"
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
