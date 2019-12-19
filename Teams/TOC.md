@@ -4,25 +4,33 @@
 <!-- ============================================================ -->
 # Network Planning
 
-## Get Teams up and running quickly (get-started.md)
+## Get Teams up and running quickly
 ### [Using Network Planner](get-started.md#network-planner)
 
 ## Perform network and environment planning
 ### [Why should I plan my network and environment?](perform-network-and-environment-planning.md)
 
-### [Where do I begin?](perform-network-and-environment-planning.md#where-do-I-begin?)
+### Where do I begin?
 
-### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#check-your-environment's-readiness-for-Microsoft-Teams)
+#### [Step 1: Check your environment’s readiness for Microsoft Teams](perform-network-and-environment-planning.md#(perform-network-and-environment-planning.md#where-do-I-begin?)
 
-### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#prepare-your-network-for-Microsoft-Teams)
+#### [Step 2: Prepare your network for Microsoft Teams](perform-network-and-environment-planning.md#prepare-your-network-for-Microsoft-Teams)
 
 ## Optimize your network
 
-### [Implement the most efficient routing to MS datacenters]((optimize-your-network.md)
+### [Implement the most efficient routing to MS datacenters](optimize-your-network.md#implement-the-most-efficient-routing-to-MS-datacenters)
+
 ### [Configure split-tunnel VPN](optimize-your-network.md#Configure-split-tunnel-VPN)
+
+### [Configure packet prioritization by using QoS](optimize-your-network.md#configure-packet-prioritization-by-using-QoS)
+
 ### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#optimize-Wi-Fi-networks-for-quality-and-performance)
-### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#implement QoS or Wi-Fi Multimedia (WMM)
-#### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
+
+### [Implement QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](optimize-your-network.md#implement-QoS-or-Wi-Fi-Multimedia-(WMM)-to-ensure-that-media-traffic-over-the-Wi-Fi-networks-is-prioritized)
+
+### [Validate network connectivity by using the Network Assessment Tool](optimize-your-network.md#validate-network-connectivity-by-using-the-Network-Assessment-Tool)
+
+### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
 
 ## Manage your network topology for cloud voice features
 
