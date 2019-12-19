@@ -32,23 +32,19 @@ The following two settings in the Azure portal determine whether team owners can
 > [!IMPORTANT]
 > Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you configure these settings to prevent team owners from giving consent, these changes don't remove data access that's already been granted.
 
+#### The "Users can consent to apps accessing company data on their behalf" setting
+
+This setting controls whether users in your organization can consent to apps on their behalf. To enable team owners to give consent, this setting must be set to **Yes**. To manage this setting, do the following:
+
+1. In the Azure portal, go to **Enterprise applications** > **User settings**.
+2. Under **Enterprise applications**, set **Users can consent to apps accessing company data on their behalf** to **No** or **Yes**.
+
 #### The "Users can consent to apps accessing company data for groups they own" setting
 
 This setting controls whether users in your organization can consent to apps on their behalf. To enable team owners to give consent, this setting must be set to **Yes**. To manage this setting, do the following:
 
 1. In the Azure portal, go to **Enterprise applications** > **User settings**.
 2. Under **Enterprise applications**, set **Users can consent to apps accessing company data for groups they own** to **No** or **Yes**.
-
-#### The "Allow group owners to allow apps to apps accessing their groups" setting
-
-This setting controls whether group owners can grant team-specific permissions. This setting must be enabled for team owners for them to give consent. To manage this setting, do the following:
-
-1. In the Azure portal, go to **Azure Active Directory** > **Groups**, and then click **General**.
-2. Under **Office 365 Groups**, set **Allow group owners to allow apps to apps accessing their groups** to one of the following:
-
-    - **Off**: Only admins can grant team-specific permissions.
-    - **Selected**: Only team owners in groups that you specify can grant team-specific permissions for teams that they own.
-    - **On**: All team owners can grant team-specific permissions for teams that they own.
 
 ### Settings in the Microsoft Teams admin center
 
