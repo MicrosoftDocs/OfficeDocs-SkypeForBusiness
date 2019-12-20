@@ -189,9 +189,19 @@ For compliance reasons, personally-identifiable information (PII) or end-user id
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
 
-> [!NOTE]
-> CQD also provides [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) support, in case EUII access is unavailable.  
-**<font color="red">(SIUNIE, is this note true?)**</font>
+#### Admin roles with and without EUII access
+
+These [RBAC](https://docs.microsoft.com/azure/role-based-access-control/overview) roles have EUII access:
+- Global Admin
+- Teams Service Admin
+- Teams Communications Admin
+- Teams Communications Support Engineer
+- Global Reader
+- Skype for Business Admin
+
+These RBAC roles don't have EUII access:
+- Reports Reader
+- Teams Communications Support Specialist
 
 ### Date controls
 
@@ -332,11 +342,11 @@ As the names indicate, the classification criteria is based on the type of clien
 |---------|---------|
 |Location-Enhanced Reports     |Shows quality trends based on location information. This report appears only if you've [uploaded your tenant data](#BKMKTenantDataInformationUpload).        |
 |Reliability Reports     |Includes audio, video, video-based screen sharing (VBSS), and app sharing reports         |
-|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable CQD templates](https://aka.ms/QERtemplates), focusing on key areas for analyzing audio quality and reliability.         |
+|Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable [CQD templates](https://aka.ms/QERtemplates), focusing on key areas for analyzing audio quality and reliability.         |
 |Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users         |
 |Failure Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users        |
 |Rate My Call Reports     |Analyze user call ratings by region, location, or by user. Includes verbatim feedback.         |
-|Help Desk Reports     |Help Desk Reports look at call and meeting data for a specific user or for everyone. These reports help identify possible system issues based on network location, devices, or firmware.         |
+|Help Desk Reports     |Help Desk Reports look at call and meeting data for individual users, groups of users, or everyone. Incorporating building and EUII data, these reports help identify possible system issues based on network location, conference details, devices, or firmware.         |
 |Client Version Reports     |Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.         |
 |Endpoint Reports     |Shows call quality by machine endpoints (computer make and model). These reports include building data, if you've uploaded it.         |
 
@@ -456,7 +466,25 @@ If you're trying to compare data between the older CQD from the Skype for Busine
 
 To learn more about the differences between the older and latest CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
 
+**<font color="red">SIUNIE, I took the next few paragraphs directly from your CQD-V3-Onboarding-Sept2019.docx. If we decide to include it here, I'll edit it a bit.</font>**
 
+If you see data differences between CQD V2 and V3 make sure that data comparison/validation is done on an 'apples-to-apples' level, not at the aggregated level. For example, when comparing the MSIT ‘Building 30' WiFi Teams Desktop client, the Percentage of Poor Quality should be the same between V2 and V3.
+
+CQDv2 and CQDv3 will always have different total counts since CQDv3 will have new scenarios that CQDv2 will not have. That’s why comparing Summary Total or Aggregated all-up numbers with no filters will have these expected differences.  
+
+Depending on Customers’ scenario, CQDv3 will include SFB 2019 on-premises calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events and PSTN calls. Scenarios/Features which are available for the customers, but their data are not in CQD V2.
+
+For instance, it is expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report; versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls etc) in CQD V3.
+
+In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
+
+## Comparing Teams and Skype for Business CQD data
+
+Even within the latest CQD for Teams (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
+- Differences in the mechanisms for ensuring performance and reliability
+  - Teams has auto-reconnect and fast roaming. Skype for Business doesn't.
+  - Teams has dynamic bandwidth management. Skype for Business doesn't.
+- Differences in [IP address ranges](Office-365-URLs-IP-address-ranges.md) between Teams and Skype for Business. The Teams IP ranges are newer, which could cause connectivity problems at the firewall.
 
 ## Open CQD from the Skype for Business legacy portal
 
