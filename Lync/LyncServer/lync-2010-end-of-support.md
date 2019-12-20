@@ -16,6 +16,7 @@ description: "Lync Server 2010 is nearing end of support. Use this planning road
 # Lync Server 2010 end of support roadmap
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 On **October 13, 2020**, Lync Server 2010 will reach end of support. If you haven't already begun your migration from Lync Server 2010 to Microsoft Teams or to Lync Server 2015, now's the time to start your planning.
 
 ## What does end of support mean?
