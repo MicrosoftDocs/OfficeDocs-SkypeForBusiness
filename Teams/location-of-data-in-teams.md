@@ -32,9 +32,11 @@ To see which region houses data for your tenant, go to the [Microsoft 365 admin 
 
 ## Location of Teams data at rest
 
-Your Teams data is stored differently depending on the content type. For an in-depth discussion, check out the [Ignite breakout session on Microsoft Teams architecture](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071).
+Your Teams data is stored differently depending on the content type. 
 
 ![Diagram showing Teams content types and where they are stored at rest](media/location-of-data-storage-at-rest.png)
+
+Check out the [Ignite breakout session on Microsoft Teams architecture](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071) for an in-depth discussion.
 
 ### Core Teams customer data
 
