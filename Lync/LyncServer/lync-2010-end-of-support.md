@@ -38,8 +38,13 @@ For more information about Office 2010 servers nearing the end of support, see [
 
 With Lync Server 2010 reaching its end of support, this is a great time to explore your options and prepare a migration plan. You can:
 
-- Migrate fully to Office 365. Migrate mailboxes using cutover, minimal hybrid, or full hybrid migration, then remove on-premises Lync servers and Active Directory.
-- Migrate your Lync Server 2010 servers to Lync Server 2015 on your on-premises servers.
+- Migrate to Microsoft Teams (this is the Microsoft preferred method)
+    - Upgrade to Skype 2015 CU8 and the switch over to Microsoft Teams
+    - Move to Skype for Business Online and then switch over to Microsoft Teams if you don't have on-premises voice.
+
+- Upgrade your Lync Server 2010 servers to Skype for Business 2015 on your on-premises servers
+- Migrate mailboxes using cutover, minimal hybrid, or full hybrid migration, then remove on-premises Lync servers and Active Directory.
+
 
 > [!IMPORTANT]
 > If your organization chooses to migrate mailboxes to Office 365 but intends to keep DirSync or Azure AD Connect in place to continue managing user accounts from on-premises Active Directory, you need to keep at least one Lync server on-premises. If the last Lync server is removed, you won’t be able to make changes to Lync recipients in Lync Online. This is because the source of authority remains in your on-premises Active Directory and changes need to be made there. In this scenario, you have the following options:
