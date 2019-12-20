@@ -43,7 +43,7 @@ You can also manage this setting using PowerShell. To learn more, see [Configure
 
 #### The "EnableGroupSpecificConsent" setting
 
-This setting controls whether users in your organization can consent to apps accessing company data for the groups that they own. This setting must be enabled for team owners to give consent. For steps on how to use PowerShell to manage this setting, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
+This setting controls whether users in your organization can consent to apps accessing company data for the groups that they own. This setting must be enabled for team owners to give consent. For steps on how to use PowerShell to manage this setting, see [Configure group owner consent to apps accessing group data](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 
 ### Settings in the Microsoft Teams admin center
 
