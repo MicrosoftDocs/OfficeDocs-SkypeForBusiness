@@ -382,7 +382,7 @@ The templates provided include several built-in queries and report filters. The 
 
 #### URL filter
 
-You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online. We recommend that when using filters, you bookmark them for easy reference. 
+You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on Teams or Skype for Business Online.
 
 Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated endpoints might influence your reports.
 
@@ -420,6 +420,10 @@ The tenant ID in CQD corresponds to the Directory ID in Azure. If you don’t kn
 
 3.  Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
 
+You can also find your tenant ID by using PowerShell: 
+  ```
+  Login-AzureRmAccount
+  ```
 
 #### Query filters
 
