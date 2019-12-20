@@ -39,11 +39,11 @@ This setting controls whether users in your organization can consent to apps on 
 1. In the Azure portal, go to **Enterprise applications** > **User settings**.
 2. Under **Enterprise applications**, set **Users can consent to apps accessing company data on their behalf** to **No** or **Yes**.
 
-You can also configure this setting using PowerShell. To learn more, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
+You can also manage this setting using PowerShell. To learn more, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
 #### The "EnableGroupSpecificConsent" setting
 
-This setting controls whether users in your organization can consent to apps accessing company data for groups that they own. This setting must be enabled for team owners to give consent. You use PowerShell to manage this setting. For steps on how to enable this setting, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
+This setting controls whether users in your organization can consent to apps accessing company data for groups that they own. This setting must be enabled for team owners to give consent. For steps on how to use PowerShell to manage this setting, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 
 ### Settings in the Microsoft Teams admin center
 
