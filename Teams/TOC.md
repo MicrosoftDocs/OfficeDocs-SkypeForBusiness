@@ -4,35 +4,21 @@
 <!-- ============================================================ -->
 # Network Planning
 
-## Get Teams up and running quickly
-### [Using Network Planner](get-started.md)
+## [Get Teams up and running quickly](get-started.md)
+### [Using Network Planner](get-started.md#using-network-planner)
 
 ## Perform network and environment planning
-### [Why should I plan my network and environment?](perform-network-and-environment-planning.md)
+### [Why should I plan my network and environment?](get-started.md)
 
-### Where do I begin?
+### [Where do I begin?](get-started.md)
 
-## Optimize your network
+## [Optimize your network](optimize-your-network.md)
 
-### [Implement the most efficient routing to MS datacenters](optimize-your-network.md#implement-the-most-efficient-routing-to-MS-datacenters)
-
-### [Configure split-tunnel VPN](optimize-your-network.md#Configure-split-tunnel-VPN)
-
-### [Configure packet prioritization by using QoS](optimize-your-network.md#configure-packet-prioritization-by-using-QoS)
-
-### [Optimize Wi-Fi networks for quality and performance](optimize-your-network.md#optimize-Wi-Fi-networks-for-quality-and-performance)
-
-### [Implement QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](optimize-your-network.md#implement-QoS-or-Wi-Fi-Multimedia-(WMM)-to-ensure-that-media-traffic-over-the-Wi-Fi-networks-is-prioritized)
-
-### [Validate network connectivity by using the Network Assessment Tool](optimize-your-network.md#validate-network-connectivity-by-using-the-Network-Assessment-Tool)
-
-### [Monitor your network using CQD/CA](optimize-your-network.md#monitor-your-network-using-CQD/CA)
-
-## Manage your network topology for cloud voice features
+### Manage your network topology for cloud voice features
 
 ### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md)
 
-### [Configure network settings using PowerShell](manage-your-network-topology.md#configure-network-settings-in-PowerShell)
+### [Configure network settings using PowerShell](manage-your-network-topology.md#configure-network-settings-using-powershell)
 
 <!-- ============================================================ -->
 
