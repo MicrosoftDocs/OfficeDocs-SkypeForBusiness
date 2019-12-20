@@ -279,7 +279,7 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 **Example:**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 For more information about URL filters, see [Filtering reports](#filtering-reports) later in this section.
 
@@ -414,7 +414,7 @@ For example, if you wished to specify a Product filter value of Microsoft Teams,
 
 Your entire URL should take the form of something like the following:
 
-```https://cqd.lync.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
 
 Additionally, the URL-defined filter also supports specifying multi-select values by adding more filter values each separated by a pipe character. For example:
 
@@ -429,25 +429,16 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 **To import the templates (.CQDX) into CQD**
 
-1. Go to <https://cqd.lync.com>.
+1. In CQD, select **Detailed Reports** from the menu at the top of the page.
 
-2. Authenticate by using your Office 365 Administrative credentials.
+2. In the left panel, select **Import**. Browse to the first CQDX template and select **Open**.
 
-   > [!NOTE]
-   > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
+3. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK**.
 
-3. Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
-
-4. On the summary pane, select **Import**. Go to the CQDX saved location, select the CQDX template, and then select **Open**.
-
-5. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
-
-   ![Screen shot of successful import notification](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
-
-6. Repeat steps 4 and 5 for the second CQD template.
+4. Repeat steps 2 and 3 for the second CQD template.
 
 > [!NOTE]
-> The CQD templates are imported per user. If additional users need to use the report, they must sign in and import the templates into their CQD instance. 
+> Each user must import the CQD templates into their CQD instance. 
 
 
 ## Building mapping
@@ -549,31 +540,29 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-1. Go to CQD by browsing to <https://cqd.lync.com>.
-
-2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
+1. In CQD, select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
    ![Screen shot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
    _Figure 14 - Tenant Data Upload menu_
 
-3. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
+2. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
    ![Screen shot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
    _Figure 15 - Building data upload banner_
 
-4. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
+3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
-5. After selecting a data file, specify **Start date** and, optionally, specify an end date.
+4. After selecting a data file, specify **Start date** and, optionally, specify an end date.
 
-6. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
+5. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
    ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
  
    _Figure 16 - Building data upload error_
 
-7. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
 > [!NOTE]
 > It can take up to four hours to finish processing the building file. <br><br> If you’ve already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
@@ -635,13 +624,13 @@ These tools are based on PowerShell and can leverage Active Directory (AD) Sites
 
 For more information about this tool, see [this blog post](https://aka.ms/cqdtools).
 
-**<font color="red">SIUNIE and VAMSI: This is a blog from June 2018 (Martin Rinas). If info in this blog post is important, let's weave it into the documentation. Otherwise, let's stop linking to it.</font>**
+**<font color="red">SIUNIE and VAMSI: This is a blog from June 2018 (Martin Rinas). Are these tools still relevant for Teams/ If info in this blog post is important, let's weave it into the documentation. Otherwise, let's stop linking to it.</font>**
 
 #### Network Planner
 
-The Network Planner determines and organizes your network requirements for your Cloud Voice deployment in just a few simple steps. By providing your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
+[Network Planner](network-planner.md), in the Teams admin center, determines and organizes your network requirements for your Cloud Voice deployment in a few steps. By providing your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
 
-Although the Network Planner doesn’t automate the building mapping process entirely, after network information is entered into the Network Planner it can then be exported to a building file ready for upload.
+Although the Network Planner doesn’t automate the building mapping process entirely, after network information is entered into the Network Planner it can then be exported to a building file ready for upload to CQD.
 
 ## Reliability investigations
 
@@ -654,7 +643,7 @@ The first step to improving quality is to assess the state of reliability across
 Throughout this section, we’ll cover methods to investigate both areas.
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide.  However, the methods of investigation explained below still apply. Please refer to the individual report description for more information.
+> Not all reports included in the templates are covered in this guide. However, the methods of investigation explained below still apply. Please refer to the individual report description for more information.
 
 
 ### Setup failures
@@ -683,7 +672,7 @@ By using this report, you can answer the following questions and determine your 
 
 -   Is the failure trend increasing, steady, or decreasing?
 
-Irrespective of the previous answers, take the time to investigate further by using the companion sub-reports to look for any individual buildings or subnets that might need remediation. Although the overall failure rate might be below the target metric, the failure rates for one or more buildings or networks might be above the target metric and need investigation.
+Irrespective of your answers to these questions, take the time to investigate further by using the companion sub-reports to look for any individual buildings or subnets that might need remediation. Although the overall failure rate might be below the target metric, the failure rates for one or more buildings or networks might be above the target metric and need investigation.
 
 #### Setup failure investigations 
 
