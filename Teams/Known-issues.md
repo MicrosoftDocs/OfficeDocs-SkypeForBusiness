@@ -355,10 +355,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|A team name with an &amp; symbol in it breaks connector functionality  <br/> |When a team name is created with the &amp; symbol, connectors within the Team/Group cannot be established.  <br/> |Don't use special characters in team names.  <br/> |6/21/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
 |Team member maximum of 5000  <br/> |Each Microsoft Team can have a maximum of 5000 members per team.  <br/> |No workaround.  <br/> |2/6/2019  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
