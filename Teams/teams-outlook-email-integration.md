@@ -22,7 +22,7 @@ These features make it easier to share information between email and chat.
 
 ## Share to Teams
 
-Share to Teams is an Outlook add-in that lets users share an email from Outlook, including attachments, along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open any attachments.
+Share to Teams is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open any attachments.
 
 To enable and disable this feature, you can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) PowerShell cmdlet. Note that the Share to Teams add-in must be installed before you can use the Disable-App cmdlet to enable or disable it. 
 
