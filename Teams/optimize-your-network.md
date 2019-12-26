@@ -18,6 +18,7 @@ appliesto:
 ---
 
 # Optimize your network
+
 The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features in any order.
 
 [Step 1: Validate the Network Assessment Tool (NAT) pool size required for user connectivity](https://docs.microsoft.com/en-us/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)

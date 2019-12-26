@@ -17,7 +17,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get Teams up and running
+# Get Teams up and running quickly
+
 We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
 To quickly get Teams up and running, complete the following tasks:
 

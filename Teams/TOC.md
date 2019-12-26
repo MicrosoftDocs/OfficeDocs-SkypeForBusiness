@@ -7,13 +7,13 @@
 ## [Get Teams up and running quickly](get-started.md)
 ### [Using Network Planner](get-started.md#using-network-planner)
 
-## Perform network and environment planning
-### [Why should I plan my network and environment?](perform-network-and-environment-plannning.md)
-### [Where do I begin?](perform-network-and-environment-plannning.md#where-do-I-begin?)
+## [Perform network and environment planning](perform-network-and-environment-plannning.md)
+### [Why should I plan my network and environment?](perform-network-and-environment-plannning.md#why-should-i-plan-my-network-and-environment)
+### [Where do I begin?](perform-network-and-environment-plannning.md#where-do-i-begin)
 
 ## [Optimize your network](optimize-your-network.md)
-### Manage your network topology for cloud voice features
-### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md)
+## [Manage your network topology for cloud voice features](manage-your-network-topology.md)
+### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md#configure-network-settings-in-the-microsoft-teams-admin-center)
 ### [Configure network settings using PowerShell](manage-your-network-topology.md#configure-network-settings-using-powershell)
 
 <!-- ============================================================ -->
