@@ -45,8 +45,8 @@ The following sections explore each option in more detail.
 ## Option 1: Migrate to Microsoft Teams 
 Two possible paths for migrating to Microsoft Teams are:
 
-1. Move to Skype for Business Online, and then switch to Teams.
- 
+1. Move to Skype for Business Online, and then switch to Teams. 
+
     > [!NOTE]
     > You can only choose this option if you **do not** have on premisis voice.
 
