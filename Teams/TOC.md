@@ -3,11 +3,14 @@
 # [Posters: Teams architecture & telephony solutions](teams-architecture-solutions-posters.md) 
 <!-- ============================================================ -->
 # Network Planning
+
 ## [Get Teams up and running quickly](get-started.md)
 ### [Using Network Planner](get-started.md#using-network-planner)
+
 ## Perform network and environment planning
 ### [Why should I plan my network and environment?](perform-network-and-environment-plannning.md)
 ### [Where do I begin?](perform-network-and-environment-plannning.md#where-do-I-begin?)
+
 ## [Optimize your network](optimize-your-network.md)
 ### Manage your network topology for cloud voice features
 ### [Configure network settings in the Microsoft Teams Admin Center](manage-your-network-topology.md)

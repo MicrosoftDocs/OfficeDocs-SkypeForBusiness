@@ -20,11 +20,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Why should I plan my network and environment?
+# Perform network and environment planning
+
+## Why should I plan my network and environment?
 Network planning is the process of deciding the topology and capacity of a network. It is important to take the time to review and plan your network before you build and configure it. During network planning, remember to keep future needs in mind as well as present requirements, so that the topology and capacity of the networks can be changed, if required.
 Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
 
-# Where do I begin?
+## Where do I begin?
 1. **Check your environment’s readiness for Microsoft Teams**.
 The current state of your environment may have an impact on how Teams will function. You must ensure that your current environment is ready for Teams.
 Educational institutions are strongly encouraged to deploy School Data Sync before deploying Microsoft Teams. School Data Sync uses your school’s SIS roster data to automatically create classes and groups for Microsoft Teams and other applications.
@@ -40,7 +42,7 @@ Educational institutions are strongly encouraged to deploy School Data Sync befo
     for Business](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).
 2. **Prepare your network**. To ensure optimal and consistent performance, prepare your network for Teams.
     ![Diagram describing the three components of quality](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
-    - Evaluate and adjust network bandwidth for internal links     and Internet connections to account for traffic.
+    a. Evaluate and adjust network bandwidth for internal links     and Internet connections to account for traffic.
 
         When planning the implementation of Microsoft Teams within your network, you must ensure you have the required bandwidth, you have access to all required IP addresses, the correct ports opened, and you are meeting the performance requirements for real-time media.
 
@@ -57,7 +59,7 @@ Educational institutions are strongly encouraged to deploy School Data Sync befo
         |500kbps/1Mbps |Group Video calling |
         |1Mbps/2Mbps |HD Group video calling (540p videos on 1080p screen) |
 
-1. **Configure firewall ports and proxy servers**.
+    a. Configure firewall ports and proxy servers.
 
     Microsoft Teams connects to Microsoft Online Services and needs internet connectivity for this. For Teams to function correctly, you must complete the following steps:
       - Review Office 365 URLs and IPs to identify and test the firewall ports that are required for connectivity between on-premises clients and servers and Office 365 services. You must open all ports on your firewalls. Failing to open some ports or ranges will negatively affect user experience.
