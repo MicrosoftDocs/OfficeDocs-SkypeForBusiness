@@ -26,7 +26,9 @@ Microsoft Teams includes features that make it easy for users in your organizati
 
 The Share to Teams add-in is available for Outlook for Windows, Mac, web, and mobile. It's automatically installed for users who have Teams and Office 2016???
 
-You can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) PowerShell cmdlet to enable and disable the add-in for users in your organization. Note that the add-in must be already installed before you can use the cmdlet to enable or disable it.
+![Screenshot showing the Share to Teams add-in in Outlook](media/share-to-teams.png)
+
+You can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) cmdlet to turn off the add-in for users in your organization. The add-in must be already installed before you can use the cmdlet to turn it off.
 
 ## Share to Outlook
 
