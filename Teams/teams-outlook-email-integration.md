@@ -18,13 +18,15 @@ appliesto:
 
 # Teams and Outlook email integration
 
-These features make it easier to share information between email and chat.
+Microsoft Teams includes features that make it easy for users in your organization to share information between email in Outlook and chat and to stay on top of missed conversations in Teams. This article gives you an overview of these features and any admin controls that apply.
 
 ## Share to Teams
 
-Share to Teams is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open any attachments.
+Share to Teams is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open the email and  attachments. To learn more about this feature, see \<link to end user article>.
 
-To enable and disable this feature, you can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) PowerShell cmdlet. Note that the Share to Teams add-in must be installed before you can use the Disable-App cmdlet to enable or disable it. 
+The Share to Teams add-in is available for Outlook for Windows, Mac, web, and mobile. It's automatically installed for users who have Teams and Office 2016???
+
+You can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) PowerShell cmdlet to enable and disable the add-in for users in your organization. Note that the add-in must be installed before you can use the cmdlet to enable or disable it.
 
 ## Share to Outlook
 
@@ -34,7 +36,7 @@ To use this feature, Outlook on the web must be enabled for the user. If Outlook
 
 ## Actionable activity emails
 
-Users get actionable missed activity emails which make it easy to stay on top of a missed conversation in Teams. The missed activity emails show the latest replies from a conversation including messages sent after the missed message and lets users respond directly from within Outlook.
+Users get actionable missed activity emails which help them stay on top of missed conversations in Teams. The missed activity emails show the latest replies from a conversation including messages sent after the missed message and lets users respond directly from within Outlook.
 
 ## Related topics
 
