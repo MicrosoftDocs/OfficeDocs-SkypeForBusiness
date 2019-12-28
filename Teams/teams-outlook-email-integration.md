@@ -24,7 +24,7 @@ Microsoft Teams includes features that make it easy for users in your organizati
 
 **Share to Teams** is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open the email and attachments. To learn more, see \<link to end user article>.
 
-The Share to Teams add-in is available for Outlook for Windows, web, and mobile. It's automatically installed for users who have Teams and Office 2016 and ???   << IS THIS ACCURATE? WHAT OTHER VERSIONS OF OFFICE ARE SUPPORTED?
+The Share to Teams add-in is available for Outlook for Windows and Outlook on the web. It's automatically installed for users who have Teams and Office 2016 and ???   << **Is Mac and mobile supported?  What other versions of Office?**
 
 ![Screenshot showing the Share to Teams add-in in Outlook](media/share-to-teams.png)
 
