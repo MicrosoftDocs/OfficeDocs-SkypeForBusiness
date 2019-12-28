@@ -19,7 +19,7 @@ appliesto:
 
 Resource-specific consent in Microsoft Teams lets team owners give consent to apps to access team data. Examples of such access include the ability to read channel messages, create and delete channels, and create and remove channel tabs.
 
-As an admin, you control whether team owners in your organization can give consent through settings that you configure by using the Azure AD PowerShell module or the Azure portal and the Microsoft Teams admin center.  
+As an admin, you control whether team owners in your organization can give consent through settings that you configure by using the Azure Active Directory (Azure AD) PowerShell module or the Azure portal and the Microsoft Teams admin center.  
 
 ## Set whether team owners can give consent to apps
 
