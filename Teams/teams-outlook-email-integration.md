@@ -22,23 +22,27 @@ Microsoft Teams includes features that make it easy for users in your organizati
 
 ## Share to Teams
 
-**Share to Teams** is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open the email and  attachments. To learn more, see \<link to end user article>.
+**Share to Teams** is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open the email and attachments. To learn more, see \<link to end user article>.
 
-The Share to Teams add-in is available for Outlook for Windows, Mac, web, and mobile. It's automatically installed for users who have Teams and Office 2016???
+The Share to Teams add-in is available for Outlook for Windows, web, and mobile. It's automatically installed for users who have Teams and Office 2016 and ???   << IS THIS ACCURATE? WHAT OTHER VERSIONS OF OFFICE ARE SUPPORTED?
 
 ![Screenshot showing the Share to Teams add-in in Outlook](media/share-to-teams.png)
 
-You can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) cmdlet to turn off the add-in for users in your organization. The add-in must be already installed before you can use the cmdlet to turn it off.
+If you want to limit the availability of the add-in to certain users, you can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) cmdlet to turn off the add-in for specific users. When the add-in is turned off, it isn't displayed in Outlook for the user. Note that the add-in must be already installed before you can use the cmdlet to turn it off.
 
 ## Share to Outlook
 
-**Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams. To learn more, see \<link to end user article>.
+**Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams. Go to the top of the conversation in Teams, select **˙˙˙ More options**, and then select **Share to Outlook**.  To learn more, see \<link to end user article>.
 
-To use this feature, Outlook on the web must be enabled for the user. If Outlook on the web isn't enabled for a user mailbox, the **Share to Outlook** option isn't displayed in Teams for the user.  To learn more about how to enable or disable Outlook on the web, see [Enable or disable Outlook on the web for a mailbox](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
+![Screenshot showing the Share to Outlook feature in Teams](media/share-to-outlook.png)
+
+To use this feature, Outlook on the web must be turned on for the user. If Outlook on the web is turned off, the **Share to Outlook** option isn't displayed in Teams for the user. For steps on how to turn on and turn off Outlook on the web, see [Enable or disable Outlook on the web for a mailbox](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
 
 ## Actionable activity emails
 
-Users get actionable missed activity emails which help them stay on top of missed conversations in Teams. The missed activity emails show the latest replies from a conversation including messages sent after the missed message and lets users respond directly from within Outlook.
+Users get actionable missed activity emails which help them catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can respond directly from within Outlook.
+
+![Screenshot showing actionable missed activity email](media/missed-activity-email.png)
 
 ## Related topics
 
