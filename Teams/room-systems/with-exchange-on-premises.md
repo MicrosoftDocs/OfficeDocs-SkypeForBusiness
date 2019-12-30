@@ -139,9 +139,9 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 
 2. Obtain SIP address of the account:
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. To enable your Microsoft Teams Rooms account, run this command:
 
