@@ -258,4 +258,4 @@ For validation, you should be able to use any Skype for Business client to sign 
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
-[Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft Teams Rooms Licensing](rooms-licensing.md)
