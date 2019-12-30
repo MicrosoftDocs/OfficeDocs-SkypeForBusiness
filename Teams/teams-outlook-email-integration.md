@@ -43,7 +43,3 @@ To use this feature, Outlook on the web must be turned on for the user. If Outlo
 Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can respond directly from within Outlook.
 
 ![Screenshot showing actionable missed activity email](media/missed-activity-email.png)
-
-## Related topics
-
-- [Teams Meeting add-in in Outlook for Windows](Teams-add-in-for-Outlook.md)
