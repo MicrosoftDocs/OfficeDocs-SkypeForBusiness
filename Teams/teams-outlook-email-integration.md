@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: kblevens
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how users can share information between email in Outlook and chat in Teams.  
+description: Learn about Teams and Outlook email integration features, including features that let users share information between email in Outlook and chat or channel conversations in Teams.  
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -28,7 +28,7 @@ The Share to Teams add-in is available for Outlook for Windows and Outlook on th
 
 ![Screenshot showing the Share to Teams add-in in Outlook](media/share-to-teams.png)
 
-If you want to limit the availability of the add-in to certain users, you can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) cmdlet to turn off the add-in for specific users. When the add-in is turned off, it isn't displayed in Outlook for the user. Note that the add-in must be already installed before you can use the cmdlet to turn it off.
+If you want to limit the availability of the add-in to certain users in your organization, you can use the [Disable-App](https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-app?view=exchange-ps) cmdlet to turn off the add-in for specific users. When the add-in is turned off, it isn't displayed in Outlook for the user. Note that the add-in must be already installed before you can use the cmdlet to turn it off.
 
 ## Share to Outlook
 
