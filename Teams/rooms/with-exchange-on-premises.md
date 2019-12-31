@@ -39,11 +39,11 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
   - You'll need to have Skype for Business Online (Plan 2) or higher in your Office 365 plan. The plan needs to support conferencing capability.
   
-  - - If you need Enterprise Voice (PSTN telephony) using telephony service providers for Microsoft Teams Rooms you need Skype for Business Online (Plan 3).
+  - If you need Enterprise Voice (PSTN telephony) using telephony service providers for Microsoft Teams Rooms you need Skype for Business Online (Plan 3).
   
-  - - Your tenant users must have Exchange mailboxes.
+  - Your tenant users must have Exchange mailboxes.
   
-  - - Your Microsoft Teams Rooms account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.
+  - Your Microsoft Teams Rooms account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.
 
 - Assign a Skype for Business Server license to your Microsoft Teams Rooms account.
 
@@ -139,9 +139,9 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 
 2. Obtain SIP address of the account:
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. To enable your Microsoft Teams Rooms account, run this command:
 
