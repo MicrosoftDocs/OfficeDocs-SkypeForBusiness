@@ -45,7 +45,7 @@ For help using teams and channels, check out [Teams and channels](https://suppor
 
 View this short video to learn more about best practices for creating teams and channels.
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 Membership, roles, and settings
 ------------------------------
