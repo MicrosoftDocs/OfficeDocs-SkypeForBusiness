@@ -57,9 +57,6 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>7</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
-
-Additional information:
-
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Office 365 services to provide users with a rich experience. To support this experience, you need to enable certain features or services and assign licenses.
