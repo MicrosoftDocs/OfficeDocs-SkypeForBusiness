@@ -18,7 +18,7 @@ appliesto:
 
 # Teams and Outlook email integration
 
-Microsoft Teams includes features that make it easy for users in your organization to share information between email in Outlook and chat or channel conversations in Teams and to stay on top of missed conversations. This article gives you an overview of these features and admin controls that apply.
+Microsoft Teams includes features that make it easy for users in your organization to share information between email in Outlook and chat or channel conversations in Teams and to stay on top of missed conversations. This article gives you an overview of these features and the admin controls that apply.
 
 ## Share to Teams
 
