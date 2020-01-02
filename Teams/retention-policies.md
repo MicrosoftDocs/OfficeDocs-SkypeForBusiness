@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prvijay
-description: Learn about how to retention policies and how to manage them in Teams.
+description: Learn about retention policies and how to manage them in Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -34,7 +34,7 @@ When you set up a retention policy for Teams or any other workload, you can set 
 - Preservation: These policies ensure that your data is preserved for a given period of time, no matter what happens in the end user tools. They ensure that data is preserved for compliance reasons and available in eDiscovery until this time expires. After the time expires, your policy can indicate whether to do nothing or delete the data. In Teams, if you create a preservation policy for 7 years, even if end users delete their Teams messages, these messages are still preserved for eDiscovery for 7 years.
 - Deletion: These policies ensure that data is not a liability for your organization. After the specified duration, data is deleted from all relevant storage in Teams.
 
-Teams retention policies support the following:
+Retention policies support the following:
     
 - Retain Teams data for a specified duration and then do nothing
 - Retain Teams data for a specified duration and then delete
@@ -53,9 +53,11 @@ You can set up separate retention policies for private chats (1:1 or 1:many chat
 
 If you set up multiple retention policies, each with a different action (retain, delete, or both). the following principles of retention apply.
 
-## Create and manage retention policies
+## Create and manage retention policies for Teams chats and channel messages
 
-To create a Teams retention policy for chats and channel messages, do the following:
+### Create a retention policy
+
+To create a retention policy for Teams chats and channel messages, do the following:
 
 1. In the left navigation of the Security & Compliance Center, go to **Information governance** > **Retention**.
 2. Select **Create**.
@@ -63,7 +65,7 @@ To create a Teams retention policy for chats and channel messages, do the follow
 4. On the **Settings** page, specify whether you want to retain data, delete it, or both, and the retention period, and then click **Next**.
 5. On the **Choose locations** page, do the following, and then click **Next**:
 
-    ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies.png)
+    ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies-create.png)
     - To apply the policy to channel messages, turn on **Teams channel messages**.  If you want to apply the policy to specific teams in your organization, select **Choose teams**, and then select the teams that you want.
     - To apply the policy to chats, turn on **Teams chats**. If you want to apply the policy to specific users in your organization, select **Choose users**, and then select the users that you want.
 6. Review your settings, and then when you're ready, select **Create this policy**.
@@ -74,6 +76,16 @@ To create a Teams retention policy for chats and channel messages, do the follow
 > To manage retention policies for Teams files, which are stored in OneDrive for Business and SharePoint, use their retention policies.
 
 By design, deletion policies for Teams files are configured through SharePoint Online and OneDrive for Business locations. As a result, it's possible that a policy could delete a file referenced in a Teams chat or channel message before those messages get deleted. In this case, the file will still show up in the Teams message, but if you click the file, you'll get a "File not found" error (this could also happen in the absence of a policy, if someone manually deletes a file from SharePoint Online or OneDrive for Business).
+
+### Edit a retention policy
+
+To edit an existing retention policy for Teams chats and channel messages, do the following:
+
+1. In the left navigation of the Security & Compliance Center, go to **Information governance** > **Retention**.
+2. In the list of retention policies, select the check box next to the retention policy you want to edit.
+3. Select **Edit** next to what you want to edit, make your changes, click **Save**, and then click **Close**.
+
+    ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies-create.png)
 
 ++++++++++++
 
