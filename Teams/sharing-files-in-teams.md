@@ -1,7 +1,7 @@
 ---
 title: Sharing files in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -34,7 +34,7 @@ Teams sharing lets users do the following:
 
 - Stay within Teams when they click a file name to open a file.
 
-Teams shortens long SharePoint URLS and browser URLS that point to a file. Teams uses just the file name to link to a file. Additionally, the **Get link** option has been changed to **Copy link** to eliminate any confusion that users might have about giving others access to a file.
+Teams shortens long SharePoint URLs and browser URLs that point to a file. Teams uses just the file name to link to a file. Additionally, the **Get link** option has been changed to **Copy link** to eliminate any confusion that users might have about giving others access to a file.
 
 ## Configure sharing in OneDrive and SharePoint
 
@@ -52,9 +52,8 @@ For more information about sharing files in OneDrive and SharePoint, including h
 
 - [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md)
 
-- [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+- [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 
 - [Share OneDrive files and folders](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 
 - [Share SharePoint files or folders](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
-
