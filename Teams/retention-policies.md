@@ -85,7 +85,7 @@ To edit an existing retention policy for Teams chats and channel messages, do th
 2. In the list of retention policies, select the check box next to the retention policy you want to edit.
 3. Select **Edit** next to what you want to edit, make your changes, click **Save**, and then click **Close**.
 
-    ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies-create.png)
+    ![Screenshot of the Teams channel messages and Teams chats options on the Choose locations page](media/retention-policies-edit.png)
 
 ++++++++++++
 
