@@ -30,7 +30,7 @@ Teams sharing lets users do the following:
 
 - Share files across Teams.
 
-- Share files from their list of recently accessed files (typically, these are the files users are most interested in sharing).
+- Share files from their list of recently accessed files. (Typically, these are the files users are most interested in sharing.)
 
 - Stay within Teams when they click a file name to open a file.
 
