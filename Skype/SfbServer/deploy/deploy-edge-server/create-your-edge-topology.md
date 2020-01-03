@@ -273,7 +273,7 @@ To deploy successfully, the Skype for Business Server Deployment Wizard needs ac
     
 2. In the **Skype for Business Server Management Shell**, run the following:
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 
