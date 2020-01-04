@@ -401,4 +401,4 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Dell Encryption can prevent Teams from launching <br/> |Dell Encryption (formerly Dell Data Protection Encryption) can corrupt Teams installation during the update process, leading to a permanent failure to launch the application. <br/> |Exclude Teams folder at %LocalAppData%\Microsoft\Teams from the encryption policy. <br/> |11/21/19  <br/> |
+|Dell Encryption can prevent Teams from launching <br/> |Dell Encryption (formerly Dell Data Protection Encryption) can corrupt Teams installation during the update process, leading to a permanent failure to launch the application. <br/> |Exclude the Teams folder at %LocalAppData%\Microsoft\Teams from the encryption policy. <br/> |11/21/19  <br/> |
