@@ -95,7 +95,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
     To change the default toll-free number for a user, run:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
@@ -104,25 +104,25 @@ By default, when you change a user's conferencing settings, an email is sent to 
     > [!NOTE]
     > To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge** cmdlet.
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
   - To set the default toll-free number for all users without one to +18005551234, run:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
   - To change the default toll-free number of all users that have +18005551234 as their default toll-free number to +18005551239, run:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - To set the default toll-free number of all users located in the U.S. to +18005551234, run:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## Want to learn more about Windows PowerShell?
