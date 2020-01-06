@@ -174,7 +174,8 @@ If your Skype for Business Online deployment co-exists with Skype for Business 2
 Required licenses: 
 
 - Office 365 Enterprise E3 (including SfB Plan2, Exchange Plan2, and Teams) + Phone System
-- Office 365 Enterprise E5 (including SfB Plan2, Exchange Plan2, Teams, and Phone System) 
+- Office 365 Enterprise E5 (including SfB Plan2, Exchange Plan2, Teams, and Phone System)
+- Office 365 Enterprise E1 + Phone System
 
 Optional licenses: 
 
