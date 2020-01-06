@@ -91,7 +91,7 @@ Note that you can run this script even if you do not have both Exchange 2013 and
   
 When you run this script you might receive an error message similar to the following:
   
-```
+```PowerShell
 New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Exception setting "MetadataUrl": "The metadata document could not be downloaded from the URL in the MetadataUrl parameter or downloaded data is not a valid metadata document."
 ```
 
