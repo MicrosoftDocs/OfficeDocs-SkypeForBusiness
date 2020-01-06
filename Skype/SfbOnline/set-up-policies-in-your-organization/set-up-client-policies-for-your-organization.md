@@ -54,7 +54,7 @@ Client policy settings can be configured at the time a policy is created, or you
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -68,7 +68,7 @@ Client policy settings can be configured at the time a policy is created, or you
 - To create a new policy for these settings, run:
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
@@ -77,7 +77,7 @@ Client policy settings can be configured at the time a policy is created, or you
 - To grant the new policy you created to all of the users in your organization, run:
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
@@ -90,7 +90,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 - To create a new policy for these settings, run:
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
@@ -99,7 +99,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 - To grant the new policy you created to all of the users in your organization, run:
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
@@ -111,7 +111,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 
 - To create a new policy for these settings, run:
   > 
-  > ```
+  > ```PowerShell
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
@@ -119,7 +119,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
     
 - To grant the new policy you created to Amos Marble, run:
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
