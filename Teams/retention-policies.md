@@ -24,6 +24,8 @@ Use retention policies to retain data for compliance for a specific period of ti
 
 You create and manage retention policies in the [Office 365 Security & Compliance Center](https://protection.office.com/) or by using the Security & Compliance Center PowerShell cmdlets.
 
+The minimum licensing requirement for retention policies is Office 365 E3. To learn more about licensing, see [Office 365 licensing for Teams](Office-365-licensing.md).
+
 > [!NOTE]
 > We don’t yet support configuration for retention of private channel messages. Retention of files shared in private channels is supported.
 
@@ -52,8 +54,6 @@ When you apply a retention policy to Teams chats and channel messages, here's wh
 - If a chat or channel message isn't deleted by a user during the retention period, the message is moved to the SubstrateHolds folder within one day (between zero and 24 hours) after the retention expires. If the retention policy is configured to delete data when the retention period expires, the message is permanently deleted one day after it's moved to the folder.
 
 Retention policies are retroactive. In other words, if you create a retention policy to delete data older than 90 days, Teams data created more than 90 days ago is deleted.
-
-The minimum licensing requirement for retention policies is Office 365 E3. To learn more about licensing, see [Office 365 licensing for Teams](Office-365-licensing.md).
 
 ### Limitations
 
