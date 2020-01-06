@@ -23,7 +23,7 @@ Messaging policies are used to control which chat and channel messaging features
 
 You can use the default policy or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization. For example, you may choose to only allow certain job roles to use these features (perhaps doctors and nurses only) and other workers (like the janitorial or kitchen staff) to get a more limited set of features. Decide for yourself what needs your organization has, the guidance here is at most a suggestion.
 
-Policies can be easily managed in the [Microsoft Teams admin center](http://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
+Policies can be easily managed in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
 
  ![Screenshot of the Messaging policies page](../../media/messaging-policies-image1.png)
 
