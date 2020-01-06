@@ -813,7 +813,6 @@
 ### [Malta](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 ### [Mexico](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
 ### [Moldova](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-### [Morocco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)]
 ### [Monaco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
 ### [Morocco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
 ### [Netherlands](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
