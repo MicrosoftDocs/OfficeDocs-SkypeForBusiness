@@ -44,7 +44,7 @@ You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPoli
 
 - This command removes the PIN policy with the Identity RedmondPinPolicy:
     
-  ```
+  ```PowerShell
   Remove-CsPinPolicy -Identity "RedmondPinPolicy"
   ```
 
@@ -52,7 +52,7 @@ You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPoli
 
 - This command removes all the PIN policies configured at the site scope:
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
@@ -60,7 +60,7 @@ You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPoli
 
 - And this one removes all the PIN policies that allow the use of common patterns:G
     
-  ```
+  ```PowerShell
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
