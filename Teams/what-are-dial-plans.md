@@ -25,7 +25,7 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
 
 A dial plan is a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and call routing.
 
-A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently.
+A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently. There can be a maximum of 1,000 tenant dial plans.
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage tenant dial plans.
 
