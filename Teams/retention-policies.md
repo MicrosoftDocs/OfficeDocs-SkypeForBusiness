@@ -18,7 +18,7 @@ appliesto:
 
 # Retention policies in Microsoft Teams
 
-By default, Teams chat, channel, and files data are retained forever. Teams conversations are persistent and retained forever by default. As an admin, you can set up retention policies for Teams chat and channel messages and decide proactively whether to retain the data, delete it, or retain and then delete it. You can apply Teams retention policies to your entire organization or to specific users and teams.
+By default, Teams chat, channel, and files data are retained forever. Teams conversations are persistent and retained forever by default. As an admin, you can set up retention policies for Teams chat and channel messages and decide proactively whether to retain the data, delete it, or retain and then delete it. You can apply a Teams retention policy to your entire organization or to specific users and teams.
 
 Use retention policies to retain data for compliance for a specific period of time or delete data if it's considered a liability after a specific period of time. Teams retention policies ensure that when you delete data, it's permanently removed from all storage locations on the Teams service.
 
