@@ -77,7 +77,7 @@ You can manage the transcription settings for your users using voicemail policie
 
 Because the default setting for transcription is on for your organization, you may want to disable it by using [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). To do this, run:
 
-```
+```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 ```
 
@@ -85,7 +85,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 Transcription profanity masking is disabled by default for your organization. If there is a business requirement to enable it, you can enable transcription profanity masking by using [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). To do this, run:
 
-```
+```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
@@ -95,7 +95,7 @@ User policies are evaluated before the organizational default settings. For exam
 
 To disable transcription for a single user, run:
 
-```
+```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
@@ -105,7 +105,7 @@ To enable transcription profanity masking for a specific user, you can assign a 
 
 To enable transcription profanity masking for a single user, run:
 
-```
+```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
 ```
 

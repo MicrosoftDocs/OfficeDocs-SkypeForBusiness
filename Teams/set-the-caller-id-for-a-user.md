@@ -76,7 +76,7 @@ To learn more about these settings and how you can use them, go [How can caller 
    > [!NOTE]
    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
    > 
-   ```
+   ```PowerShell
     Import-Module -Name SkypeOnlineConnector
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -89,7 +89,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
 
 - To view all of the caller ID policy settings in your organization, run:
 
-  ```
+  ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
   See more examples and details for [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
@@ -99,7 +99,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
 
 - To create a new caller ID policy that sets the caller ID to anonymous, run:
     
-  ```
+  ```PowerShell
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
@@ -109,7 +109,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
     
 - To apply the new policy you created to Amos Marble, run:
     
-  ```
+  ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   See more on the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet.
@@ -120,14 +120,14 @@ If you have already created a policy, you can use the [Set-CsCallingLineIdentity
 
 - To block the incoming caller ID, run:
     
-  ```
+  ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
   See more examples and details for [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
 - To apply the policy setting you created to a user in your organization, run:
     
-  ```
+  ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
     See more on the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) cmdlet.
@@ -136,12 +136,12 @@ If you have already created a policy, you can use the [Set-CsCallingLineIdentity
 
 To remove a policy from your organization, run:
   
-```
+```PowerShell
 Remove-CsCallingLineIdentity -Identity "My Caller ID Policy"
 ```
 To remove a policy from a user, run:
   
-```
+```PowerShell
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
 ```
 ## Want to know more about Windows PowerShell?
