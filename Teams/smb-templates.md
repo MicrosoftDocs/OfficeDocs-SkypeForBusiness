@@ -97,7 +97,7 @@ Content-Type: application/json
 
 ### Example: Finance Team template extension script
 
-``` Powershell
+```powershell
 {
   "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
   "displayName": "Finance",
