@@ -20,7 +20,7 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be applied to team members or groups to easily connect with the right subset of people. Team owners and members (if the feature if enabled for them) can assign one or more tags to a person or group. The tags can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
+Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be applied to team members or groups to easily connect with the right subset of people. Team owners and members (if the feature is enabled for them) can assign one or more tags to a person or group. The tags can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
 
 > [!NOTE]
 > Tags are not yet supported in private channels.
@@ -31,17 +31,17 @@ A tag can be applied to a person on a specific team. After a tag is applied, it 
 
 Here's some examples of how tags can be used in Teams:
 
- - A store manager wants to notify a group cashiers in a store to ask a question.
- - A charge nurse wants to message all on-call nurses in a ward.  
- - A Human Resources specialist wants to announce benefit changes to employees in a particular location.
- - A regional marketing manager wants to assign a task to all chefs located in the same Southwest region.
- - A hospital administrator wants to start a conversation with all radiologists in a hospital.
+- A store manager wants to notify a group cashiers in a store to ask a question.
+- A charge nurse wants to message all on-call nurses in a ward.  
+- A Human Resources specialist wants to announce benefit changes to employees in a particular location.
+- A regional marketing manager wants to assign a task to all chefs located in the same Southwest region.
+- A hospital administrator wants to start a conversation with all radiologists in a hospital.
 
 ## Manage tags for your organization
 
 As an admin, you can control who can apply tags and how tags are used across your organization in the Microsoft Teams admin center.
 
-![Tagging settings in the Microsoft Teams admin center](media/manage-tags-admin-settings.png)
+![Screenshot of tagging settings in the Microsoft Teams admin center](media/manage-tags-admin-settings.png)
 
 ### Set who can apply tags
 
@@ -52,7 +52,7 @@ By default, team owners can apply tags. You can change this setting to allow tea
 
     - **Team owners and members**: Allow team owners and members to apply tags.
     - **Team owners**: Allow team owners to apply tags.
-    - **Disabled**: Turn off targeting.
+    - **Disabled**: Turn off tags.
 
 ### Configure tags settings
 
@@ -67,10 +67,12 @@ You can configure the following tags settings to control how tags are used acros
 
 ## Manage tags settings for a team
 
-Team owners can set whether members can apply tags. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose the setting that you want.
+If you turned on the **Team owner can override who can apply tags** setting in the Microsoft Teams admin center, team owners can set whether members can apply tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
 
-![Team tags settings](media/manage-tags-team-settings.png)
+![Screenshot of the tags setting at the team level](media/manage-tags-team-settings.png)
 
-## Apply tags
+## Apply tags in Teams
 
-In Teams, the **Members** tab of the Manage team page for a team includes a **Tag** column. Team owners and members (if the feature is enabled for them) can click **Manage Tags** next to a member to see the list of suggested tags for that member and add tags to the list.
+In Teams, the **Members** tab of the Manage team page for a team includes a **Tags** column. Team owners and members (if the feature is enabled for them) can click **Manage tags** next to a member to see the list of suggested tags for that member and add tags to the list.
+
+![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
