@@ -107,8 +107,6 @@ Make sure that users can add guests. Here's how:
 
 ## Step 5: Verify sharing setting in SharePoint
 
-This one's a bit of a brain teaser. Guest access in Teams doesn't work if the **Don't allow sharing outside your organization** setting is selected in the SharePoint admin center.
-
 1. Sign in to the Microsoft 365 admin center.
 2. Under **Admin centers**, select  **SharePoint**.
 3. In the new SharePoint admin center,  under **Sites**, select **Active sites**.
