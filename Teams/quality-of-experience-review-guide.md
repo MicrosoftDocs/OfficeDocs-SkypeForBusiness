@@ -318,7 +318,7 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 2. Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -340,7 +340,7 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 2. Run the following command:
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -362,7 +362,7 @@ _Figure 5 - Select a Product Filter_
 
 To filter all detailed reports, in the browser bar, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -526,7 +526,7 @@ Excluding federated data from CQD reports is useful when you’re remediating ma
 
 To implement a URL filter, in the browser address bar, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -536,7 +536,7 @@ Example:
 
 To filter the reports for Teams or Skype for Business, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 

@@ -75,7 +75,7 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
   
 - Run the following to disable sending emails: 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
