@@ -3,7 +3,6 @@ title: Microsoft Teams guest access checklist
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -116,7 +115,7 @@ Make sure that users can add guests. Here's how:
 3. Select the site, and then click **Sharing**.
 4. Make sure that the option is set to **Anyone** or **New and existing guests**.
  
-     ![Screenshot shows an example of a SharePoint Online settings toggle.](media/guest-access-checklist-SPOSettings1.png)
+     ![Screenshot shows an example of a SharePoint Online settings toggle](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## Step 6: Set up guest user permissions
