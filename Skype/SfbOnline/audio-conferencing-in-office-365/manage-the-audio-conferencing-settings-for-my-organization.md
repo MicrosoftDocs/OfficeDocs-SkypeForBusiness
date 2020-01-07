@@ -74,7 +74,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
 - You can also use the Windows PowerShell and run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
@@ -92,7 +92,7 @@ You can make changes to the email that is automatically sent to your users, incl
 
 You can make changes to the email sent to users, such as the email address that the email is sent from or the display name for the email by running:
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -269,42 +269,42 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 Here are the organization-level settings:
 
 - **Setting entry/exit notifications** The default is _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
   ```
 
 - **Setting name recording** The default is _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
 - **Setting the PIN length** The default is 5.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
 - **Setting only dial-in meetings from a phone** The default _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
 - **Setting whether to send email to users** The default is _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
 - **Setting whether to send email from a different account** The default is  _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
 - **Setting the From address on email that is sent to users** The default is _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
 - **Setting the display name for the email that is sent to users** The default is  _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
