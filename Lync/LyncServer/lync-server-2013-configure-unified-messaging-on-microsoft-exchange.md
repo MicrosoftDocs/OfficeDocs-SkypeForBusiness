@@ -58,9 +58,9 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     </div>
     
     If you use the Exchange Management Shell, type:
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     For details, see:
     
       - For Office Communications Server 2007, see "How to Create a Unified Messaging SIP URI Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) and "New-UMDialplan: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666).
@@ -80,7 +80,7 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
 
 2.  Run the following cmdlet to obtain the fully qualified domain name (FQDN) for each UM dial plan:
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
@@ -114,12 +114,12 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
         For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).
     
       - If you use the Exchange Management Shell, run the following for each of your Exchange UM servers:
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -130,13 +130,13 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     </div>
 
 5.  Navigate to \<Exchange installation directory\>\\Scripts, and then if Exchange is deployed in a single forest, type:
-    
-        exchucutil.ps1
-    
+    ```console
+    exchucutil.ps1
+    ```
     Or, if Exchange is deployed in multiple forests, type:
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     where forest FQDN specifies the forest in which Lync Server is deployed.
     
     If you have one or more UM dial plans that are associated with multiple IP gateways, continue to step 6. If your dial plans are each associated with only a single IP gateway, skip step 6.
@@ -171,9 +171,9 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     </div>
     
       - If you use the Exchange Management Shell, disable each IP gateway by running the following command:
-        
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
         For Exchange 2007, see "Set-UMIPGateway: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687).
         
         For Exchange 2010, see "Set-UMIPGateway: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688).
@@ -200,8 +200,9 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     For details, see:
     
       - For Exchange 2007, see "New-UMAutoAttendant: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689).
@@ -221,8 +222,9 @@ This topic describes how to configure Exchange Unified Messaging (UM) on a Micro
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     For details, see:
     
       - For Exchange 2007, see "Enable-UMMailbox: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691).
