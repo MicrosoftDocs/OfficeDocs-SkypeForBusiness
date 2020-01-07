@@ -89,7 +89,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
-- [Allow private Meet now (coming soon)](#allow-private-meet-now-coming-soon)
+- [Allow private Meet now](#allow-private-meet-now)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -100,7 +100,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
-### Allow private Meet now (coming soon)
+### Allow private Meet now
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  
 
@@ -381,8 +381,6 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-
-[Full article](meeting-policies-in-teams.md)
 
 ## Related topics
 [Messaging policies in Teams](messaging-policies-in-teams.md)
