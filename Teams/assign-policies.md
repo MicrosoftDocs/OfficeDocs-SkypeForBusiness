@@ -272,7 +272,7 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 ### Change a policy assignment for a group
 
-After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd```cmdlet to make the following updates to that group's policy assignment:
+After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd```cmdlet to do the following to that group's policy assignment:
 
 - Change the priority
 - Change the policy of a given policy type
