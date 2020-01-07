@@ -143,25 +143,25 @@ Users with Skype for Business accounts homed on-premises [must be moved online](
 
 Unlike other policies, it is not possible to create new instances of TeamsUpgradePolicy in Office 365. All the existing instances are built into the service.  (Note that mode is a property within TeamsUpgradePolicy, rather than the name of a policy instance.) In some--but not all--cases, the name of the policy instance is the same as mode. In particular, to assign TeamsOnly mode to a user, you will grant the “UpgradeToTeams” instance of TeamsUpgradePolicy to that user. To see a list of all instances, you can run the following command:
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 To upgrade an online user to TeamsOnly mode, assign the “UpgradeToTeams” instance: 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 To upgrade an on-premise Skype for Business user to TeamsOnly mode, use Move-CsUser in the on-premises toolset:
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 To change the mode for all users in the tenant, except those who have an explicit per-user grant (which takes precedence), run the following command:
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -180,13 +180,13 @@ If your users are homed in Skype for Business Online, simply assign the policy i
 
 If your users are homed in Skype for Business Server on-premises, you’ll need to use the on-premises toolset and you’ll need Skype for Business Server 2019 or CU8 for Skype for Business Server 2015. In the on-premises PowerShell window, create a new instance of TeamsUpgradePolicy with NotifySfbUsers=true:
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 Then, using the same on-premises PowerShell window, assign that new policy to the desired users:
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -245,7 +245,7 @@ Following are the key commands:
 
 1. Set the tenant-wide default to mode SfbWithTeamsCollab as follows:
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -253,13 +253,13 @@ Following are the key commands:
 
    - If the user is already online:
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - If the user is on-premises:
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -286,7 +286,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 
 2. For each active Teams user found in step 1, assign them Islands mode in remote PowerShell. This allows you to go to the next step, and ensures you don’t change the user experience.  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -294,7 +294,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 
 3. Set the tenant-wide policy to SfbWithTeamsCollab:
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -302,13 +302,13 @@ If some users in your organization are actively using Teams in Islands mode, you
 
    For users homed in Skype for Business Online:  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    For users homed in Skype for Business Server on-premises:  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -435,7 +435,7 @@ Whether using Direct Routing or a Microsoft Calling plan, a user must have Enter
 
 - If an existing TeamsOnly or Skype for Business Online user is assigned a Phone System license, EV-enabled is not set to true by default.  This also is the case if an on-premises user is moved to the cloud prior to assigning the Phone System license. In either case, the admin must specify the following cmdlet: 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 
