@@ -68,7 +68,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -83,7 +83,7 @@ By default, _EnableP2PFileTransfer_ is enabled on the organization's global poli
   
 To allow P2P transfers for inside your organization but block external file transfers to another organization, you just need to change it at a global level. To do that, run:
     
-  ```
+  ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
@@ -91,11 +91,11 @@ To allow P2P transfers for inside your organization but block external file tran
 
 You can apply this to a user by creating a new policy and granting it to that user. To do that, run: 
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
 >   ```
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
 >   ```
 
