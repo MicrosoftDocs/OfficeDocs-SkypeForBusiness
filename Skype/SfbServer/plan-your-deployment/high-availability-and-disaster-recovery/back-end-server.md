@@ -37,6 +37,8 @@ If you use Back End Server high availability on a Front End pool that is paired 
 
 Skype for Business Server supports mirroring with the following database software:
   
+- SQL Server 2019, both Enterprise Edition and Standard Edition
+
 - SQL Server 2017, both Enterprise Edition and Standard Edition
 
 - SQL Server 2016, both Enterprise Edition and Standard Edition
@@ -103,6 +105,10 @@ To use AlwaysOn Availability Groups or AlwaysOn Failover Cluster Instances, you 
 
 Skype for Business Server supports AlwaysOn with the following database software:
 
+- SQL Server 2019 Enterprise Edition
+
+- SQL Server 2019 Standard Edition with limitations, see note below
+
 - SQL Server 2017 Enterprise Edition
 
 - SQL Server 2017 Standard Edition with limitations, see note below
@@ -116,10 +122,10 @@ Skype for Business Server supports AlwaysOn with the following database software
 - SQL Server 2012 SP2 and CU2 Enterprise Edition
 
 > [!NOTE]
-> SQL Server 2017 and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
+> SQL Server 2019, 2017, and 2016 are the only versions supported by Skype for Business Server 2019.
 
 > [!NOTE]
-> Always On Availability Groups is **not** supported in SQL 2016 and 2017 Standard Editions but you can use Always On Failover Cluster Instances. See [Editions and supported features of SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) to learn more.
+> Always On Availability Groups is **not** supported in SQL 2016, 2017, and 2019 Standard Editions but you can use Always On Failover Cluster Instances. See [Editions and supported features of SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) to learn more.
   
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
@@ -130,6 +136,8 @@ For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Av
 
 Skype for Business Server supports SQL Server failover clustering with the following database software:
   
+- SQL Server 2019, both Enterprise Edition and Standard Edition
+
 - SQL Server 2017, both Enterprise Edition and Standard Edition
 
 - SQL Server 2016, both Enterprise Edition and Standard Edition
@@ -141,10 +149,9 @@ Skype for Business Server supports SQL Server failover clustering with the follo
 To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2012, see [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx).
 
 > [!NOTE]
-> SQL Server 2017 and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
+> SQL Server 2019, 2017, and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
     
 To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2014 and 2016, see [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). For failover clustering in SQL Server 2008, see [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 When you install SQL Server, you should install SQL Server Management Studio to manage the locations for database and log file locations. SQL Server Management Studio is installed as an optional component when you install SQL Server.
   
-
