@@ -44,7 +44,7 @@ Here are the shift-based presence states.
 |---------|---------|---------|
 |![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) On shift     |         |Automatically set at the start of a shift         |
 |![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) Off shift     |         |Automatically set at the end of a shift         |
-|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the Firstline Worker is off shift.|
+|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the Firstline Worker is on shift.|
 |![Solid red circle, indicates Busy in a meeting](../../media/flw-presence-busy.png) In a meeting| ||
 |![Solid red circle, indicates Busy in a call](../../media/flw-presence-busy.png) In a call| ||
 |![Red circle with white line, indicates Presenting](../../media/Presence_DND.png) Presenting|||
@@ -72,4 +72,4 @@ As an admin, you use PowerShell to set policies to manage shift-based presence.
 ## Related topics
 
 - [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [Teams PowerShell Overview](../../teams-powershell-overview.md).
+- [Teams PowerShell Overview](../../teams-powershell-overview.md)
