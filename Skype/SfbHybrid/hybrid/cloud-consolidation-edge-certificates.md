@@ -33,7 +33,7 @@ The subject alternate name (SAN) of the certificate on all edge servers in the o
 2.	Install the certificate locally on each edge server and assign it to the Skype Edge service on each of the edge service.  For detailed steps, see the section “External Edge interface certificates” in [Deploy Edge Service in Skype for Business Server 2015](https://technet.microsoft.com/en-us/library/dn951368.aspx).
 3.	Restart the Edge service on each of the edge servers. You can do this for a single box with the following PowerShell commands:
 
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     Start-CsWindowsService
     ```
