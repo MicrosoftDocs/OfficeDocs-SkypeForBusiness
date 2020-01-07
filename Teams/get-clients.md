@@ -127,7 +127,7 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
 
 #### Install manually from the command line
 
-Install manually on Debian and Ubuntu distributions
+Install manually on Debian and Ubuntu distributions:
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
@@ -137,7 +137,7 @@ sudo apt update
 sudo apt install teams
 ```
 
-Install manually on RHEL, Fedora and CentOS based distributions
+Install manually on RHEL, Fedora and CentOS based distributions:
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -153,7 +153,7 @@ yum check-update
 sudo yum install teams
 ```
 
-Install manually on openSUSE based distributions
+Install manually on openSUSE based distributions:
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
