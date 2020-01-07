@@ -95,11 +95,11 @@ When you configure policies for support of extensible messaging and presence pro
 
 17. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. You do this by typing in the Lync Server Management console:
     
-       ```
+       ```console
         Stop-CsWindowsService
        ```
     
-       ```
+       ```console
         Start-CsWindowsService
        ```
 
