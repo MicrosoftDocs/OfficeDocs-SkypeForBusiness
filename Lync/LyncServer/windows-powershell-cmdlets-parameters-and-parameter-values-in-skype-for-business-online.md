@@ -123,7 +123,7 @@ This command consists of three parts:
     
     This is useful to know, not only because parameters must be prefaced with a dash, but also because this differs from the command window, where arguments are prefaced using a forward slash (/):
     
-    ``` 
+    ```PowerShell 
     /b
     ```
 
