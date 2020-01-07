@@ -3,7 +3,7 @@ title: "Availability in Georgia"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
@@ -36,8 +36,8 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Tbilisi</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, [pay-per-minute](../audio-conferencing-pay-per-minute.md) only  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
 ## Phone System
@@ -71,7 +71,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |No  <br/> |
+|Are Communications Credits available?  <br/> |Yes  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   

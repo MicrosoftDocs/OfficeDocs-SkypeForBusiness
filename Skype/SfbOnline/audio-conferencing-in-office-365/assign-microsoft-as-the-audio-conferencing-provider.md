@@ -71,27 +71,27 @@ You can save the following script as a PowerShell script file and then run it us
 
 **Example 1:** You can run this script by providing a list of users that you want updated.
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
 **Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   Here is the script:
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 
