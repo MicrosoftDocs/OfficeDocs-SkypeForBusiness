@@ -36,7 +36,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, [pay-per-minute](../audio-conferencing-pay-per-minute.md) only  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
@@ -61,9 +61,9 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | Riyadh ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|Are toll-free numbers available?  <br/> |Yes  <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> | Riyadh  <br/> |
+|Are toll numbers available?  <br/> |Yes  <br/> |
+|Are toll-free numbers available?  <br/> |No  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -71,7 +71,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |No  <br/> |
+|Are Communications Credits available?  <br/> |Yes  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
@@ -80,6 +80,3 @@ If you want to set them up, see [Set up Communications Credits for your organiza
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-  
- 

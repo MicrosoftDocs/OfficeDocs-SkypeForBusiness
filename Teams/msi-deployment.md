@@ -87,11 +87,11 @@ Default behavior of the MSI is to install the Teams client as soon as a user sig
 - Once manually started, Teams will auto-start whenever the user logs in
 
 For the 32-bit version
-```
+```PowerShell
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
 For the 64-bit version
-```
+```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
