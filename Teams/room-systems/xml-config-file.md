@@ -25,7 +25,7 @@ It is possible for you to change default settings of remotely managed devices by
 
 Any text editor can be used to create a settings file. The **XML Elements** table explains the elements shown in this sample SkypeSettings.xml (required file name) configuration file.
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>

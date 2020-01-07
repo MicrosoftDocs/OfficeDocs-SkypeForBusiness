@@ -139,9 +139,9 @@ The Microsoft Teams mobile apps are available for Android and iOS, and are geare
 
 Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
--   **Android**: 5.0 or later
+-   **Android**: Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
 
--   **iOS**: 10.0 or later
+-   **iOS**: Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
 
 > [!NOTE]
 > The mobile version must be available to the public in order for Teams to work as expected.

@@ -445,7 +445,7 @@ If you already deployed your :::no-loc text="Microsoft Teams Rooms"::: devices b
 
 7.  :::no-loc text="Microsoft Teams Rooms"::: devices should install and configure the :::no-loc text="Microsoft Monitoring"::: agent with the second reboot.
 
-```
+```PowerShell
 # Install-MMAgent.ps1
 <#
 Date:        04/20/2018
