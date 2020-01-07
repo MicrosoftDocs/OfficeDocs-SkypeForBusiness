@@ -38,7 +38,7 @@ The Windows PowerShell module for Skype for Business Online enables you to creat
 > [!IMPORTANT]
 > The  _Global_ policy setting for switching the user interface won't be applied to a user that already has a custom policy applied. To be able to change the user interface, you will need to run the following for each user that has a custom policy applied:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -47,7 +47,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 To enable all of the users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
@@ -57,7 +57,7 @@ If you set the policy right, you will see:
   
 To enable all of the users in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following: 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -67,7 +67,7 @@ If you set the policy right, you will see:
   
 To allow a single user in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -77,7 +77,7 @@ If you set the policy right, you will see:
   
 To allow a single user in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -88,7 +88,7 @@ If you set the policy right, you will see:
 To allow multiple users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -96,7 +96,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 To allow multiple users in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -104,13 +104,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 To allow a group of users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 To allow a group of users in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -209,7 +209,7 @@ If you do not want your users to be able to access the tutorial, you can turn of
   
 In the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** key, create a new **DWORD (32-bit) Value**. The **Value name** must be **TutorialFeatureEnabled**, and the **Value data** must be set to **0**.
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
