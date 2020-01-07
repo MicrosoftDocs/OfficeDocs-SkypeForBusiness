@@ -95,7 +95,7 @@ Here is an example of the email that is sent:
     
     To send an email to the user with their audio conferencing information, run the following:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
