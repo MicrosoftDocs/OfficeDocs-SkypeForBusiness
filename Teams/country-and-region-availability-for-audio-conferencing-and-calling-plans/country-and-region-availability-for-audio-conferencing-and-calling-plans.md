@@ -1,6 +1,5 @@
 ---
 title: "Country and region availability for Audio Conferencing and Calling Plans"
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -33,21 +32,26 @@ You can select a country or region to see what cloud voice features are availabl
 ## Select your country or region to see what's available for your organization
 
 > [!div class="op_single_selector"]
-> - [Algeria](availability-in-algeria.md)    
+> - [Algeria](availability-in-algeria.md)
+> - [Antigua and Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentina](availability-in-argentina.md)
 > - [Australia](availability-in-australia.md)
 > - [Austria](availability-in-austria.md)
+> - [Bahamas](availability-in-the-bahamas.md)
 > - [Bahrain](availability-in-bahrain.md)
+> - [Barbados](availability-in-barbados.md)
 > - [Belarus](availability-in-belarus.md)
 > - [Belgium](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Benin](availability-in-benin.md)
+> - [Bermuda](availability-in-bermuda.md)
 > - [Bosnia and Herzegovina](availability-in-bosniaherzegovina.md)
 > - [Brazil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgaria](availability-in-bulgaria.md)
 > - [Cambodia](availability-in-cambodia.md)
 > - [Canada](availability-in-canada.md)
+> - [Cayman Islands](availability-in-the-cayman-islands.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
 > - [Colombia](availability-in-colombia.md)
@@ -56,6 +60,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Cyprus](availability-in-cyprus.md)
 > - [Czech Republic](availability-in-the-czech-republic.md)
 > - [Denmark](availability-in-denmark.md)
+> - [Dominica](availability-in-dominica.md)
 > - [Dominican Republic](availability-in-the-dominican-republic.md)
 > - [Ecuador](availability-in-ecuador.md)
 > - [Egypt](availability-in-egypt.md)
@@ -67,6 +72,8 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Germany](availability-in-germany.md)
 > - [Ghana](availability-in-ghana.md)
 > - [Greece](availability-in-greece.md)
+> - [Grenada](availability-in-grenada.md)
+> - [Guam](availability-in-guam.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong Kong](availability-in-hong-kong.md)
 > - [Hungary](availability-in-hungary.md)
@@ -75,6 +82,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Ireland](availability-in-ireland.md)
 > - [Israel](availability-in-israel.md)
 > - [Italy](availability-in-italy.md)
+> - [Jamaica](availability-in-jamaica.md)
 > - [Japan](availability-in-japan.md)
 > - [Jordan](availability-in-jordan.md)
 > - [Kazakhstan](availability-in-kazakhstan.md)
@@ -106,6 +114,8 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Qatar](availability-in-qatar.md)
 > - [Romania](availability-in-romania.md)
 > - [Russia](availability-in-russia.md)
+> - [Saint Kitts and Nevis](availability-in-saint-kitts-and-nevis.md)
+> - [Saint Lucia](availability-in-saint-lucia.md)
 > - [Saudi Arabia](availability-in-saudi-arabia.md)
 > - [Serbia](availability-in-serbia.md)
 > - [Singapore](availability-in-singapore.md)
@@ -130,7 +140,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**.
 
 ***
 
