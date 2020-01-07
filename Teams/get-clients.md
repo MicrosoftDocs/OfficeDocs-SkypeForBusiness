@@ -147,7 +147,7 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-Aternatively, you can also install using:
+Aternatively, to use yum instead of dnf:
 ```
 yum check-update
 sudo yum install teams
