@@ -53,13 +53,13 @@ There are two methods for logging in to Skype for Business Online PowerShell:
 
 1. If enabling the connector for the first time, run the following command:
 
-   ```
+   ```PowerShell
    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
 2. If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
-   ```
+   ```PowerShell
    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
@@ -68,13 +68,13 @@ There are two methods for logging in to Skype for Business Online PowerShell:
 
 1.  If enabling the connector for the first time, run the following command: 
 
-    ``` 
+    ```PowerShell 
     New-CsCloudCallDataConnection 
     ```
 
 2.  If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
-    ```
+    ```PowerShell
     Get-CsCloudCallDataConnection  
     ```
 
@@ -82,7 +82,7 @@ The output of the above commands contains a token value, which you will need whe
 
 From within the Skype for Business Server management shell, specify the following command:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
 ```
 
@@ -90,17 +90,17 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 You can enable Call Data Connector for a particular site or for your entire Skype for Business Server deployment by using the Set-CsCloudCallDataConnectorConfiguration cmdlet from within the Skype for Business Server management shell. For example, the following command enables Call Data Connector at the global scope:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 In addition to the global settings, Call Data Connector configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring. For example, an administrator can enable Call Data Connector forwarding for the Redmond site but disable Call Data Connector forwarding for the Dublin site, as shown in the following example:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
@@ -119,13 +119,13 @@ Disabling Call Data Connector does not disassociate the monitoring store from th
 
 You disable Call Data Connector by using the Set-CsCloudCallDataConnectorConfiguration cmdlet from within the Skype for Business Server management shell. For example, the following command disables Call Data Connector at the global scope by setting the EnableCallDataConnector property to $False:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
 
 If you want to resume uploading call data to the cloud, set the EnableCallDataConnector property back to $True, as shown in the following example:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
