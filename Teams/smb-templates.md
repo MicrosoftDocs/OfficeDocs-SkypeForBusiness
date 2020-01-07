@@ -93,11 +93,11 @@ Content-Type: application/json
     "description": "All posts, announcements and daily collaboration and communication within the Finance team members (and exec team members as appropriate).",
     "visibility": "Private"
 }
-``
+```
 
 ### Example: Finance Team template extension script
 
-``` Powershell
+```powershell
 {
   "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
   "displayName": "Finance",
