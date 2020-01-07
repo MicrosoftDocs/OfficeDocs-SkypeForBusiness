@@ -76,7 +76,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - You can set the PIN for Amos Marble by running:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
