@@ -66,7 +66,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 2. In Exchange PowerShell, crate a mailbox for the account (mailbox-enable the account)by running the following command:
 
-   ``` Powershell
+   ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
@@ -90,7 +90,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
    This example configures these settings on the room mailbox named Project-Rigel-01.
 
-   ``` PowerShell
+   ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
