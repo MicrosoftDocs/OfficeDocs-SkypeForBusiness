@@ -31,7 +31,7 @@ Team owners can turn off or turn on the ability for members to create private ch
 
 As an admin, you can use Graph API to control whether members can create private channels in specific teams. Here's an example.
 
-```
+```Graph API
 PATCH /teams/<team_id>​
 {"memberSettings": ​
   {​
@@ -60,13 +60,13 @@ As an admin, you can use PowerShell or Graph API to create a private channel on 
 
 ### Using PowerShell
 
-```
+```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
 ### Using Graph API
 
-```
+```Graph API
 POST /teams/{id}/channels​
 { "membershipType": "Private",​
   "displayName": "<Channel_Name>",​
@@ -81,7 +81,7 @@ POST /teams/{id}/channels​
 
 You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.  Here's how to use Graph API to do this.
 
-```
+```Graph API
 GET /teams/{id}/channels/{id}/messages​
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
@@ -97,7 +97,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 1. Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.
 2. Run the following, where &lt;group_id&gt; is the group Id of the team. (You can easily find the group Id in the link to the team.)
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
@@ -113,13 +113,13 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Request**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Response**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -143,13 +143,13 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Request**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Response**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -182,13 +182,13 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
     **Request**
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
     ```
     
     **Response**
 
-    ```
+    ```PowerShell
     HTTP/1.1 200 OK Content-type: application/json
     Content-length:
     {
@@ -208,7 +208,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 3. Promote a member to an owner.
 
-    ```
+    ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
@@ -220,13 +220,13 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Request**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
     **Response**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
@@ -256,7 +256,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Request**
 
-    ```
+    ```Graph API
     PATCH 
     https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
       
@@ -268,7 +268,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
     **Response**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
 
@@ -296,26 +296,26 @@ The latest publicly available version of the Teams PowerShell module (currently 
 2. Start a new instance of the Windows PowerShell module.
 3. Run the following to uninstall the Teams PowerShell module from the public PowerShell Gallery:
 
-    ```
+    ```PowerShell
     Uninstall-Module -Name MicrosoftTeams
     ```
 
 4. Close all existing PowerShell sessions.
 5. Start the Windows PowerShell module again, and then run the following to register the PowerShell Test Gallery as a trusted source:
 
-    ```
+    ```PowerShell
     Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
     ```
 
 6. Run the following to install the latest Teams PowerShell module from the PowerShell Test Gallery:
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
 7. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
@@ -327,13 +327,13 @@ If you already installed the Teams PowerShell module from the PowerShell Test Ga
 2. Start a new instance of the Windows PowerShell module.
 3. Run the following to update the currently installed version of the Teams PowerShell module from the PowerShell Test Gallery:
 
-    ```
+    ```PowerShell
     Update-Module -Name MicrosoftTeams -Force
     ```
 
 4. Run the following to verify that the latest version of the Teams PowerShell module from the PowerShell Test Gallery is successfully installed:
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
