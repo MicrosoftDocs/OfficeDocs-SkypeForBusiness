@@ -61,7 +61,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Dial out control is not showing up intermittently.  <br/> |Dial out control may not be visible from the Meeting Info panel.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
 |Static conference ID not supported for Microsoft Teams meetings.  <br/> |If the admin overrides the default setting from dynamic conference ID to static conference ID, this setting doesn't take effect for Microsoft Teams meetings. See [Using Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
 |PSTN meeting coordinates are not available for Skype for Business on-premises users  <br/> |If the user is a Skype for Business on-premises user, assigned with Skype for Business Online, Audio Conferencing, and Teams licenses, all meetings scheduled using Teams will not include PSTN meeting coordinates. <br/> |No workaround.  <br/> |2/1/2018  <br/> |
-
 |Cloud Video Interop information in Meet Now  <br/> |If you create a Meet Now instance of a meeting in Microsoft Teams with an existing CVI license, it will not populate the CVI information. <br/> |The recommendation is to schedule the meeting to populate this information.  <br/> |6/11/2019  <br/> |
 
 ## Authentication
@@ -265,10 +264,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Phone number blocked|Phone number blocked: Deleting the resource account before removing the phone number will block the phone number.|Contact Microsoft support to release the telephone number.|5/18/2019|
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Unable to configure unanswered calls to go to voicemail in the desktop app|When a user is in Teams-only mode, their Exchange mailbox is on premises and if they access **Settings** > **Calls** in the Teams desktop app, they cannot select the option to forward calls to voicemail (unanswered calls or all calls). If either option was already configured, opening the Calls tab in Settings will disable forwarding to voicemail.|Configure forwarding to voicemail using the Teams mobile app.|5/27/2019|
-
 ## Presence
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -335,6 +330,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Teams voicemail emails will arrive with spf fail if it is a sip call, if it is a pstn call to a user they will arrive with the from attribute with out the correct value, if the customer has a rule where he analyzes the spf voice mails will have the action where the etr decides. <br/> | <br/> | 29/08/2019 workaround will be adding a exception in the etr if the message is a voice mail.
 
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Photo upload to Teams is not blocked on OWA/Outlook as policy requires   <br/> | Teams allows users to upload photos directly to Office 365, in spite of policy settings in place preventing photo upload for OWA.   <br/> |<br/>  |10/16/17  <br/> |
@@ -366,3 +362,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Interoperability issue between Symantec DLP and Teams <br/> |Symantec DLP Endpoint agents can interfere with Teams process, which can then lead to a launch or exit failure.  <br/> |Exclude (whitelist) Teams.exe from the Symantec DLP's Endpoint agents as described in this <a href="https://support.symantec.com/us/en/article.TECH220322.html">Symantec support article</a>. <br/> |07/15/19  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Dell Encryption can prevent Teams from launching <br/> |Dell Encryption (formerly Dell Data Protection Encryption) can corrupt Teams installation during the update process, leading to a permanent failure to launch the application. <br/> |Exclude the Teams folder at %LocalAppData%\Microsoft\Teams from the encryption policy. <br/> |11/21/19  <br/> |

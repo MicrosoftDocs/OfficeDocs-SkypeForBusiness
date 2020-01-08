@@ -28,7 +28,7 @@ When you archive a team, all activity for that team ceases. Archiving a team als
 When you delete a team, team activity in standard and private channels (and associated site collections), files, and chats is also deleted.
 
 > [!IMPORTANT]
-> Archived teams can be reactivated, but you can’t directly undelete a team that has been deleted. Consider archiving the team first, and postpone the deletion until you're sure that you no longer need the team.
+> Archived teams can be reactivated, but you can’t directly restore a team that has been deleted. Consider archiving the team first, and postpone the deletion until you're sure that you no longer need the team.
 
 ## Archive a team
 
