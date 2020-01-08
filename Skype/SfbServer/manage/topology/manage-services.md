@@ -56,7 +56,7 @@ To view service status on a computer, type a command similar to the following in
 
 This command returns information similar to the following:
 
-```output
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running
