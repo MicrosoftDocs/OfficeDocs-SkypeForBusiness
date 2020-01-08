@@ -175,7 +175,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Package managers not showing changelist. <br/> |Package manager does not show changelist. <br/> | <br/> |12/05/19  <br/>|
+|Package managers not showing change list. <br/> |Package manager does not show change list. <br/> | <br/> |12/05/19  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
