@@ -26,7 +26,7 @@ The Monitoring Dashboard provides administrators with a quick overview of their 
     
 Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 

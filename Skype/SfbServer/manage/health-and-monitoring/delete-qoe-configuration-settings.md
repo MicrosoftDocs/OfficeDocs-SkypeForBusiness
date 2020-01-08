@@ -44,7 +44,7 @@ You can delete QoE configuration settings by using Windows PowerShell and the **
 
  This command removes the QoE configuration settings applied to the Redmond site:
     
-  ```
+  ```PowerShell
   Remove-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -52,7 +52,7 @@ You can delete QoE configuration settings by using Windows PowerShell and the **
 
  This command removes all the QoE configuration settings applied to the site scope:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration -Filter "site:*" | Remove-CsQoEConfiguration
   ```
 
@@ -60,7 +60,7 @@ You can delete QoE configuration settings by using Windows PowerShell and the **
 
  This command removes all the QoE configuration settings where QoE monitoring has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 

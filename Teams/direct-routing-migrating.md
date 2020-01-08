@@ -81,7 +81,7 @@ For more information about migrating from Phone System with on-premises PSTN con
 
 It is recommended that you remove previously configured voice routing information as follows:
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
@@ -96,7 +96,7 @@ For more information about migrating from Phone System with on-premises PSTN con
 
 It is recommended that you remove previously configured voice routing information as follows:
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

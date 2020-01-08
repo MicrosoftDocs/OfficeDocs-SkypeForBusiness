@@ -46,7 +46,7 @@ Notice that there is a total of five logons; however, there are only two unique 
   
 In addition to knowing the number of unique logons, you need to know the total number of users who have been enabled for Skype for Business Server. That value can be retrieved by opening the Skype for Business Server Management Shell and running the following Windows PowerShell command:
   
-```
+```PowerShell
 (Get-CsUser).Count
 ```
 

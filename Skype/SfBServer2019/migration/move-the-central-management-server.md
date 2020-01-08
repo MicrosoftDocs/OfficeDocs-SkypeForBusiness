@@ -31,7 +31,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 3. To create the new Central Management store in the Skype for Business Server 2019 SQL Server database, in the Skype for Business Server Management Shell, type:
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
@@ -52,7 +52,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 5. To create the new Central Management store on the Skype for Business Server 2019 Standard Edition Front End Server, in the Skype for Business Server Management Shell, type: 
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
@@ -66,7 +66,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 3. In the Skype for Business Server Management Shell, type: 
     
-   ```
+   ```PowerShell
    Enable-CsTopology
    ```
 
@@ -75,7 +75,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 4. On the Skype for Business Server 2019 Front End Server or Front End pool, in the Skype for Business Server Management Shell, type: 
     
-   ```
+   ```PowerShell
    Move-CsManagementServer
    ```
 
@@ -95,7 +95,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 12. To confirm that replication with the new Central Management store is occurring, in the Skype for Business Server Management Shell, type: 
     
-    ```
+    ```PowerShell
     Get-CsManagementStoreReplicationStatus
     ```
 
@@ -113,13 +113,13 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 3. To remove the Central Management store database files from the legacy install Central Management Server, type:
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
     For example:
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 
