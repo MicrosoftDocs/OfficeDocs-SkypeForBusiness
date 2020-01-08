@@ -65,7 +65,7 @@ If this is a user policy, you must also apply the policy to users that you want 
 
 3.  Type the following in the Skype for Business Server Management Shell:
     
-    ```
+    ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
     ```
        
@@ -82,13 +82,13 @@ If this is a user policy, you must also apply the policy to users that you want 
 
 3.  Type the following in the Skype for Business Server Management Shell:
     
-    ```
+    ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     ```
     
     An example of creating a new site policy:
     
-    ```
+    ```PowerShell
     New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
 
