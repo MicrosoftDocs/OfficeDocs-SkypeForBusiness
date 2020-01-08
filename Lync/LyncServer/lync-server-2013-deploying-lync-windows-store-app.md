@@ -64,24 +64,24 @@ Cumulative Updates for Lync Server 2013: June 2013 adds support for multi-factor
 2.  Create certificates for AD FS. For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
 
 3.  From the Windows PowerShell command-line interface, run the following command:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Establish a partnership by running the following command:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 5.  Set the following relying party rules:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 
@@ -96,9 +96,9 @@ Cumulative Updates for Lync Server 2013: June 2013 adds support for multi-factor
 ## The time and date are not set accurately on the device running Lync Windows Store app
 
 The time setting on the device must be synchronized with the time setting on the server. This is particularly important for devices such as Microsoft Surface, and other devices running Windows RT that are not joined to a domain. To set the time on these devices automatically from a time server, run the following command from an elevated command prompt on the device:
-
-    w32tm /resync
-
+```console
+w32tm /resync
+```
 </div>
 
 <div>
@@ -122,9 +122,9 @@ If your topology consists of Lync Server 2010 with Office Communications Server 
     1.  Open Lync Server Management Shell.
     
     2.  Run the following command:
-        
-            Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
-
+        ```powershell
+        Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
+        ```
 </div>
 
 <div>

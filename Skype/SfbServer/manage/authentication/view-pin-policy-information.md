@@ -39,7 +39,7 @@ You can also view PIN policies by using Windows PowerShell and the Get-CsPinPoli
 
 To view information about all your PIN policies, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy
   ```
 
