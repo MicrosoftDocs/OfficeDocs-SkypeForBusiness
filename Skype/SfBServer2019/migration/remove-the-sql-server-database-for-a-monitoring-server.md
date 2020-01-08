@@ -31,7 +31,7 @@ After you remove a Monitoring Server, you can remove the SQL Server databases th
     
 3. At the command line, type the following:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

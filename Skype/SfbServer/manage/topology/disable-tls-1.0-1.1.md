@@ -188,7 +188,7 @@ Extensive dependency updating is required before you begin to disable TLS 1.0 an
 
 Copy/paste the following test into Notepad and rename TLSPreReq.reg or a name of your choice, then import:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -240,7 +240,7 @@ Before you proceed with the next steps, *make sure you have completed all prereq
 
 Copy the following text into a Notepad file and rename it **TLSDisable.reg**:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]
