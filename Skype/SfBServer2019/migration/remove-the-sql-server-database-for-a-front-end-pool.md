@@ -31,7 +31,7 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 3. To remove the database for the pool user store, type:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
@@ -39,7 +39,7 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 4. To remove the database for the pool application store, type:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

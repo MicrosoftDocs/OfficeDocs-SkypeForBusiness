@@ -36,7 +36,7 @@ The Call Park application settings include the pickup timeout threshold, enablin
     > [!NOTE]
     > If your Skype for Business Server 2019 Call Park application settings are identical to the legacy settings, you can skip this step. If Call Park application settings are different for the Skype for Business Server 2019 and legacy environments, use the cmdlet below as a template to update those changes. 
 
-   ```
+   ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
@@ -60,7 +60,7 @@ To reassign all Call Park orbit ranges from the legacy pool to the Skype for Bus
 
 2. At the command line, type the following:
 
-   ```
+   ```PowerShell
    Get-CsCallParkOrbit
    ```
 
@@ -68,7 +68,7 @@ To reassign all Call Park orbit ranges from the legacy pool to the Skype for Bus
 
     To reassign the legacy Call Park orbit ranges to the Skype for Business Server 2019 pool, at the command line, type the following:
 
-   ```
+   ```PowerShell
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 

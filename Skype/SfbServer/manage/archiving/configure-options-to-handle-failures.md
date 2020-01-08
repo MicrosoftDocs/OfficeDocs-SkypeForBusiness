@@ -40,13 +40,13 @@ You can also specify whether communication sessions should be allowed in case of
   
 For example, the following command disables communications in the case of an archiving failure:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 The next command enables communications in the case of an archiving failure:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

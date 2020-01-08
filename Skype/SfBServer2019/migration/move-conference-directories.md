@@ -21,13 +21,13 @@ Before decommissioning a pool, you must perform the following procedure for each
     
 2. To obtain the identity of the conference directories in your organization, run the following command:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory
    ```
 
     The preceding command returns all the conference directories in your organization. Because of that, you might want to limit the results to the pool being decommissioned. For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
@@ -35,19 +35,19 @@ Before decommissioning a pool, you must perform the following procedure for each
     
 3. To move conference directories, run the following command for each conference directory in the pool:
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
     For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
     If you want to move all the conference directories on a pool, use a command similar to the following:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
