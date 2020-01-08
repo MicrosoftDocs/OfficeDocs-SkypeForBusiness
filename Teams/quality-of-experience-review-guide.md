@@ -273,7 +273,7 @@ _Figure 5 - Select a Product Filter_
 
 To filter all detailed reports, in the browser bar, append the following to the end of the URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -391,7 +391,11 @@ In order to select multiple filter values, begin by adding a new filter to the r
 
 Once you have done so, click the magnifying glass icon by the new filter. You will be shown a text field, and a number of options, such as “Select All” and “Invert”. Enter a value into the text field and click the magnifying glass icon by that field to search for all values that contain that string. Alternately, you may leave the text field empty and just hit the magnifying glass icon to view up to the first 100 options.
 
-Check the values you wish to filter on, then click “Add” to close the apply the filter and re-run the query.
+```PowerShell
+/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+```
+
+Example:  
 
 ![Screenshot of adding a query filter](media/qerguide-image-addfilter.png)
 
@@ -399,6 +403,9 @@ Check the values you wish to filter on, then click “Add” to close the apply 
 Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
 
 ![Screenshot of a dashboard filter](media/qerguide-image-dashboardfilters.png)
+```PowerShell
+/filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
+```
 
 ### URL-defined filter values
 

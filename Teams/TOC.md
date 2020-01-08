@@ -793,6 +793,7 @@
 ### [Georgia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
 ### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Germany](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Greece](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [Grenada](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [Guam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
@@ -817,8 +818,8 @@
 ### [Malta](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md)
 ### [Mexico](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
 ### [Moldova](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
-### [Morocco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)]
 ### [Monaco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+### [Morocco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
 ### [Netherlands](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [New Zealand](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [Nigeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)

@@ -189,7 +189,7 @@ Next, after retrieving the image file, Lync 2010 client compares the attribute v
 Additionally, the client checks with the server every 24 hours from the time at which the cached version of the image file was created to compare the value of the **PhotoHash** attribute on the server with the value on the client. If the values are different, the client knows that the image file has changed. To obtain the updated image file, the client again queries the ABWQ service to update the image file in the client cache with the image file on the server, which also resets the **TimeStamp** on the file in the client cache.
 
 The following is an example response to a query to the ABWQ service:
-
+```xml
     <Attribute>
               <Name>PhotoRelPath</Name>
               <Value>efa6096aed2746cb9ab2037f7dbdde9d.f2eeeb5946db54a7aa607ecd3ae09d
@@ -207,6 +207,7 @@ The following is an example response to a query to the ABWQ service:
          <Valuesxmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
     i:nil="true" />
     </Attribute>
+```
 
 </div>
 
@@ -244,19 +245,19 @@ The **Show picture from a website** option becomes available in Lync 2013 after 
 
 You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy in the Lync Server Management Shell. The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:
 
-   ```
+   ```powershell
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
    ```
 
-   ```
+   ```powershell
     $po=Get-CsClientPolicy -Identity Global
    ```
 
-   ```
+   ```powershell
     $po.PolicyEntry.Add($pe)
    ```
 
-   ```
+   ```powershell
     Set-CsClientPolicy -Instance $po
    ```
 

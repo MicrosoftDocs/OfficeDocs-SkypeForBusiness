@@ -34,7 +34,7 @@ You can view CDR configuration settings by using Windows PowerShell and the Get-
 
 - To view information about all your CDR configuration settings, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration
   ```
 
