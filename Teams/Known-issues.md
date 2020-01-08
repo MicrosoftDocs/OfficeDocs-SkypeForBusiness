@@ -24,12 +24,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Administration
 
-
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |
-
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |EAF policy in the Enhanced Mitigation Experience Toolkit (EMET) can incorrectly identify Chromium sandbox optimizations as threats. <br/> |There is an issue with Chromium sandbox in which the Export Address Table Access Filtering (EAF) policy in the Enhanced Mitigation Experience Toolkit (EMET) and in Windows Defender Advanced Threat Protection (ATP) can incorrectly identify Chromium sandbox optimizations as threats. This causes Teams to not work properly.  <br/> | To work around this issue turn off EAF for Teams. You can read more about the issue [EMET mitigations guidelines](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) For more information about Windows Defender ATP and EAF policy, see [Enable exploit protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |10/11/18 <br/> |
@@ -55,10 +49,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |"Assignments" app remains visible when disabled  <br/> |When the "Assignments" app is disabled in the admin center, it remains visible within the Teams client for EDU-licensed users. Selecting it when disabled will return an error indicating, "Doh! Something went wrong..."  <br/> |No workaround.  <br/> |12/29/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Unable to delete connectors as a team owner  <br/> |Attempting to delete a connector as an owner, that can otherwise add a connector, while "Allow members to create, update, and remove connectors" is disabled throws an error indicating the user does not have permission to do so. <br/> |Temporarily enabling "Allow members to create, update, and remove connectors" will allow the owner to delete the connector.  <br/> |7/27/18  <br/> |
 
 ## Audio Conferencing
 
@@ -133,8 +123,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Client
 
-
-
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Can't start Teams for Surface Hub from Microsoft Store |Microsoft Teams for Surface Hub won't start when you click **Launch** in the Microsoft Store. | Launching the Teams for Surface Hub app from the Microsoft Store listing isn't supported by Windows on Surface Hub. <br> <br/> Please restart your Surface Hub after installing Teams. | 2/27/18 |
@@ -162,10 +150,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |EU and APAC customers receive an error when they add a guest user from another tenant    <br/> | Customers in EU and APAC experience a replication delay between Microsoft Teams and Azure Active Directory. When a user from an EU or APAC tenant tries to add a guest user from any other tenant, they receive an error message asking them to try again.   <br/> |Click the retry button again to execute the addition of the guest user.  <br/> |11/8/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> |9/20/17  <br/>|
 
 ## Linux
 
@@ -241,10 +225,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users might not be able to switch accounts on Intune-managed mobile devices  <br/> |Users might not be able to switch accounts on Intune-managed mobile devices.  <br/> |No workaround.  <br/> |9/20/17  <br/>|
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -348,11 +328,8 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |
+|Teams voicemail emails will arrive with spf fail if it is a sip call, if it is a pstn call to a user they will arrive with the from attribute with out the correct value, if the customer has a rule where he analyzes the spf voice mails will have the action where the etr decides. <br/> | <br/> | 29/08/2019 workaround will be adding a exception in the etr if the message is a voice mail.
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Teams voicemail emails will arrive with spf fail if it is a sip call, if it is a pstn call to a user they will arrive with the from attribute without the correct value, if the customer has a rule where he analyzes the spf voice mails will have the action where the etr decides. <br/> | <br/> | 29/08/2019 workaround will be adding a exception in the etr if the message is a voice mail.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -365,10 +342,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Team names that contain special characters can create errors for meeting creation  <br/> |User will receive **error has occurred** message in red when trying to create a meeting for a Team that has special characters in the name.   <br/> |Rename or recreate team with a name that does not contain a "/".  <br/> |7/13/17  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|A team name with an &amp; symbol in it breaks connector functionality  <br/> |When a team name is created with the &amp; symbol, connectors within the Team/Group cannot be established.  <br/> |Don't use special characters in team names.  <br/> |6/21/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -385,10 +358,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |User not receiving welcome email when added administratively  <br/> |When adding a member to a team using PowerShell or the Teams admin center, they are not receiving a welcome email from Microsoft Teams  <br/> |Adding a member from the Teams UI directly will send an email. Currently, there is no workaround doing so administratively.  <br/> |2/12/19  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Unable to move, delete or rename files after editing  <br/> |After a file is edited in Teams it cannot be moved or renamed or deleted immediately <br/> |This is currently a known issue and the workaround is to wait for some time before making administrative changes.  <br/> |03/12/19  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
