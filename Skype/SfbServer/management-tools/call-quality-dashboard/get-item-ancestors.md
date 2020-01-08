@@ -42,7 +42,7 @@ Get Item Ancestors returns a specific items ancestors from the repository.
   
  **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 [{
 "item1": 1653,
 "item2": 0,

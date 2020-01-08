@@ -45,7 +45,7 @@ Get Sub-Items returns a specific Item's sub-items.
 > [!NOTE]
 > An array of Item object is returned. 
   
-```
+```json
 [{
 "itemId": 1653,
 "userId": 0,
