@@ -47,7 +47,7 @@ You can create QoE retention settings by using Windows PowerShell and the **Set-
 
 - This command enables purging of QoE data for the Redmond site, and configures the site to maintain QoE data for 20 days.
 
-  ```
+  ```PowerShell
   Set-CsQoeConfiguration -Identity "site:Redmond" -EnablePurging -KeepQoEDataForDays 20
   ```
 
@@ -55,7 +55,7 @@ You can create QoE retention settings by using Windows PowerShell and the **Set-
 
 - This command configures QoE retention for all the QoE configuration settings in use in an organization.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 

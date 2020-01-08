@@ -28,13 +28,13 @@ You can find information about your Skype for Business Online tenant by using th
 
 To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
 To return just the tenant name and ID, use this command.
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
