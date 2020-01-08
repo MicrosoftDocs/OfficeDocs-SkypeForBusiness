@@ -44,7 +44,7 @@ Get User Settings returns a list of settings for a specified user.
   
   **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 [{
 "userId": 6,
 "key": "ShowDescriptions",

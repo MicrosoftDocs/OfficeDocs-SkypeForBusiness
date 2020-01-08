@@ -34,13 +34,13 @@ To delete conferencing policies, use the **Remove-CsConferencingPolicy** cmdlet.
   
 The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:
   
-```
+```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
 The next command deletes any conferencing policies that allow external users to record the conference:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
