@@ -33,7 +33,7 @@ To learn more about retention policies for Office 365, see [Overview of retentio
 
 Managing content involves retaining data so that it can't be permanently deleted before the end of the retention period, and deleting data permanently at the end of the retention period.
 
-- **Retain data**: Use a retention policy to ensure that your data is retained for a specified period of time, regardless of what happens in the Teams clients. Data is retained for compliance reasons and is available for eDiscovery until the retention period expires. For example, if you create a Teams retention policy to retain channel messages for 7 years, the messages are retained for eDiscovery for 7 years, even if users delete their messages in Teams. You choose whether to permanently delete the data when the retention period expires.
+- **Retain data**: Use a retention policy to ensure that your data is retained for a specified period of time, regardless of what happens in the Teams clients. Data is retained for compliance reasons and is available for eDiscovery until the retention period expires. You choose whether to permanently delete the data when the retention period expires. For example, if you create a Teams retention policy to retain channel messages for 7 years, the messages are retained for eDiscovery for 7 years, even if users delete their messages in Teams. 
 - **Delete data**: Use a retention policy to delete data to ensure that it's not a liability for your organization. With a Teams retention policy, when you delete data, it's permanently deleted from all storage locations on the Teams service.
 
 With retention policies for Teams, you can:
@@ -49,7 +49,7 @@ When data is subject to a retention policy, users can continue to work with it b
 
 The minimum licensing requirement for retention policies is Office 365 E3. To learn more about licensing, see [Office 365 licensing for Teams](Office-365-licensing.md).
 
-### How Teams retention policies work
+## How Teams retention policies work
 
 Teams chats are stored in a hidden SubstrateHolds folder in the mailbox of each user in the chat, and Teams channel messages are stored in a SubstratesHolds hidden folder in the group mailbox for a team. Teams uses an Azure-powered chat service that also stores this data, and by default this service stores the data forever. With a Teams retention policy, when you delete data, the data is permanently deleted from both the Exchange mailboxes and the underlying chat service.
 
@@ -65,13 +65,6 @@ Retention policies in Teams are based on the date the chat or channel messages w
 
 It's possible that a retention policy that applies to SharePoint Online or OneDrive for Business could delete a file that's referenced in a Teams chat or channel message before those messages get deleted. In this scenario, the file will still show up in the Teams message, but when users click the file, they'll get a "File not found" error. This can also happen in the absence of a policy, if someone manually deletes a file from SharePoint Online or OneDrive for Business.
 
-If you set up multiple Teams retention policies with varying durations, the [principles of retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence) apply. Here's an overview of what takes precedence:
-
-- Preservation always wins over deletion
-- Longest preservation period always wins
-- Explicit inclusion wins over implicit inclusion in terms of locations
-- Shortest deletion period wins
-
 ### Considerations and limitations
 
 Here's some considerations and limitations to be aware of when working with Teams retention policies:
@@ -83,6 +76,15 @@ Here's some considerations and limitations to be aware of when working with Team
 - Teams doesn't support advanced retention settings, such as the ability to apply a policy to content that contains keywords or sensitive information. Currently, retention policies in Teams apply to all chat and/or channel message content.
 
 - Teams may take up to three days to clean up expired messages. A Teams retention policy will delete chat and channel messages when the retention period expires. However, it may take up to three days to clean up these messages and permanently delete them. Also, chat and channel messages will be searchable with eDiscovery tools between the time after the retention period expires and when messages are permanently deleted.
+
+### Multiple retention policies and the principles of retention
+
+If you set up multiple Teams retention policies with varying durations, the [principles of retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence) apply. Here's an overview of what takes precedence:
+
+- Preservation always wins over deletion
+- Longest preservation period always wins
+- Explicit inclusion wins over implicit inclusion in terms of locations
+- Shortest deletion period wins
 
 ## When to use retention policies for Teams
 
