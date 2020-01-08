@@ -71,7 +71,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Dial out control is not showing up intermittently.  <br/> |Dial out control may not be visible from the Meeting Info panel.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
 |Static conference ID not supported for Microsoft Teams meetings.  <br/> |If the admin overrides the default setting from dynamic conference ID to static conference ID, this setting doesn't take effect for Microsoft Teams meetings. See [Using Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
 |PSTN meeting coordinates are not available for Skype for Business on-premises users  <br/> |If the user is a Skype for Business on-premises user, assigned with Skype for Business Online, Audio Conferencing, and Teams licenses, all meetings scheduled using Teams will not include PSTN meeting coordinates. <br/> |No workaround.  <br/> |2/1/2018  <br/> |
-
 |Cloud Video Interop information in Meet Now  <br/> |If you create a Meet Now instance of a meeting in Microsoft Teams with an existing CVI license, it will not populate the CVI information. <br/> |The recommendation is to schedule the meeting to populate this information.  <br/> |6/11/2019  <br/> |
 
 ## Authentication
@@ -357,7 +356,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams voicemail emails will arrive with spf fail if it is a sip call, if it is a pstn call to a user they will arrive with the from attribute with out the correct value, if the customer has a rule where he analyzes the spf voice mails will have the action where the etr decides. <br/> | <br/> | 29/08/2019 workaround will be adding a exception in the etr if the message is a voice mail.
+|Teams voicemail emails will arrive with spf fail if it is a sip call, if it is a pstn call to a user they will arrive with the from attribute without the correct value, if the customer has a rule where he analyzes the spf voice mails will have the action where the etr decides. <br/> | <br/> | 29/08/2019 workaround will be adding a exception in the etr if the message is a voice mail.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
