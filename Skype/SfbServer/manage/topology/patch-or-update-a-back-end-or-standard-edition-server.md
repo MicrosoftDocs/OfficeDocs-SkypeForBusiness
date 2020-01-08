@@ -30,13 +30,13 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
 4. Stop Skype for Business Server services. At the command line, type:
     
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     ```
 
 5. Stop the World Wide Web service. At the command line, type:
     
-    ```
+    ```PowerShell
     net stop w3svc
    ```
 
@@ -48,13 +48,13 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
 9. Stop Skype for Business Server services again to catch Global Assembly Cache (GAC) -d assemblies. At the command line, type:
     
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     ```
 
 10. Restart the World Wide Web service. At the command line, type:
     
-    ```
+    ```PowerShell
     net start w3svc
     ```
 
@@ -62,19 +62,19 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
     - If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
     - If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
     - If this is an Standard Edition server, type the following at a command line:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -LocalDatabases
 
     ```

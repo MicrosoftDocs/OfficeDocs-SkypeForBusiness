@@ -24,7 +24,7 @@ Windows PowerShell allows you to manage Microsoft applications from the command 
   
 Skype for Business Server ships with more than 700 cmdlets that enable administrators to manage Skype for Business Server using the Skype for Business Server Management Shell. You can retrieve help for a cmdlet directly from the command line by typing a command similar to the following:
   
-```
+```PowerShell
 Get-Help New-CsVoicePolicy -Full
 ```
 
@@ -32,7 +32,7 @@ The preceding command retrieves the complete help available for the **New-CsVoic
   
 To retrieve a full list of cmdlets available for managing Skype for Business Server, type the following at the shell command prompt: 
   
-```
+```PowerShell
 Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 ```
 
@@ -51,13 +51,13 @@ Things to know about Windows PowerShell in Skype for Business Server:
     
     By default, the **Update-Help** cmdlet will update all the modules installed on your Skype for Business Server. If you want to update only certain modules, you can use the _Module_ parameter to limit the scope of the cmdlet. The following example updates only the Skype for Business module.
     
-  ```
+  ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
     If you need to update the Help on servers that are not connected to the internet, you can use the [Save-Help](https://technet.microsoft.com/en-us/library/hh849724.aspx) cmdlet to get the latest version of the help and save it to a location you specify. You can then use the **Update-Help** cmdlet with the _-SourcePath_ parameter on servers not connected to the internet to get the updated help from the location you selected. The following example shows how to save the help files to a network file share, and then update the help for the Skype for Business module from the file share.
     
-  ```
+  ```PowerShell
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
   // Run Update-Help against the local help files

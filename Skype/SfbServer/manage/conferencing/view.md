@@ -38,7 +38,7 @@ You can view conferencing policies by using Skype for Business Server Control Pa
 
 To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:
   
-```
+```PowerShell
 Get-CsConferencingPolicy
 ```
 
