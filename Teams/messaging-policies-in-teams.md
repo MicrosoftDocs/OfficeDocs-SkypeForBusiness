@@ -1,7 +1,7 @@
 ---
 title: Manage messaging policies in Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -86,10 +86,10 @@ Use the following settings to change the global messaging policy or create a new
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
 - **Users can send <a name="urgent-message">priority</a> notifications** If you turn this on, users can send a message that uses priority notifications. Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Voice message creation** 
-    - **Allowed in chats and channels** This means that users can leave voice messages in both chats and channels.
-    - **Allowed in chats only** This means that users can leave voice messages in chats, but not in channels.
-    - **Disabled** This means that users cannot create voice messages in chats or channels.  
+- **Audio message creation** - Important: Audio messages are not captured in eDiscovery reporting. 
+    - **Allowed in chats and channels** This means that users can leave audio messages in both chats and channels.
+    - **Allowed in chats only** This means that users can leave audio messages in chats, but not in channels.
+    - **Disabled** This means that users cannot create audio messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them. 
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 
