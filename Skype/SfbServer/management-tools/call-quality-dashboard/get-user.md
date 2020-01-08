@@ -41,7 +41,7 @@ Get User returns a user record from the repository.
   
  **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 {
 "userId": 0,
 "loginName": "system",

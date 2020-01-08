@@ -42,7 +42,7 @@ To view information about dial-in access numbers, use the **Get-CsDialInConferen
   
 The following command returns a collection of all the dial-in conferencing access numbers configured for use in the organization: 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -129,13 +129,13 @@ To modify dial-in access numbers, use the **Set-CsDialInConferencingAccessNumber
   
 The following command modifies the DisplayName property for the dial-in conferencing access number with the Identity sip:RedmondDialIn@litwareinc.com. In this example, the display name is set to "Redmond Dial-In Access Number":
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 In the next example, the dial-in conferencing access number with the Identity sip:RedmondDialIn@litwareinc.com is modified to include two regions: Redmond and Seattle. To do this, the Regions parameter is called, followed by the two regions (two string values separated by commas). Note that this command will fail unless both the Redmond and Seattle regions have already been defined in dial plans.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -163,19 +163,19 @@ To delete a dial-in conferencing access number, use the **Remove-CsDialInConfere
   
 The following command deletes the dial-in conferencing access number with Identity sip:RedmondDialInAccess@litwareinc.com:
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 The next command deletes all the dial-in conferencing access numbers associated with the Northwest region:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 The next command deletes all the dial-in conferencing access numbers where Italian is the primary language:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
