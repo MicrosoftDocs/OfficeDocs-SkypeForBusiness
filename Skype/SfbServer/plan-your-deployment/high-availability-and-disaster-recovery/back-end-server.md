@@ -151,7 +151,7 @@ To use SQL failover clustering, you should first set up and configure the SQL Se
 > [!NOTE]
 > SQL Server 2019, 2017, and SQL Server 2016 are the only versions supported by Skype for Business Server 2019.
     
-To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2014 and 2016, see [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). For failover clustering in SQL Server 2008, see [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx).
+To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2014 and 2016, see [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx). For failover clustering in SQL Server 2008, see [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx).
   
 When you install SQL Server, you should install SQL Server Management Studio to manage the locations for database and log file locations. SQL Server Management Studio is installed as an optional component when you install SQL Server.
   
