@@ -104,11 +104,11 @@ To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server 
 
 22. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. You do this by typing in the Lync Server Management console:
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
@@ -125,35 +125,35 @@ To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server 
 
 24. Configure a new External Access Policy to enable all users by opening the Lync Server Management Shell on the Front End and typing:
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
     Enable XMPP Access for External Users by typing:
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
 25. On the Edge Server where the XMPP Proxy is deployed, open a Command Prompt or a Windows PowerShell™ command-line interface and type the following:
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     

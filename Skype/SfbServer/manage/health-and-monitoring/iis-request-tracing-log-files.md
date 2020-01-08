@@ -27,7 +27,7 @@ By default, IIS stores the log files at %SystemDrive%\inetpub\logs\LogFiles.
   
 To turn off IIS request tracing for an entire server, at the command line, type the following:
   
-```
+```console
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
