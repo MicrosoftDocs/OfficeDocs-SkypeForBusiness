@@ -58,7 +58,7 @@ These options include the following types of external access:
     
     This command returns information similar to the following:
     
-    ```PowerShell
+    ```console
     Identity                          : Global
     Description                       :
     EnableFederationAccess            : False
