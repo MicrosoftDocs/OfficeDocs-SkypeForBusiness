@@ -40,7 +40,7 @@ If you want to block guests in Teams and still want to allow them to access Shar
  
 2.	Connect a PowerShell session to the Skype for Business Online endpoint.
 
-    ```
+    ```PowerShell
     Import-Module SkypeOnlineConnector
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
@@ -48,7 +48,7 @@ If you want to block guests in Teams and still want to allow them to access Shar
     ```
 3.	Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.
 
-    ```
+    ```PowerShell
     Get-CsTeamsClientConfiguration
 
     Identity                         : Global
