@@ -42,7 +42,7 @@ Get User Setting returns a single user setting.
   
  **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 {
 "userId": 6,
 "key": "ShowDescriptions",

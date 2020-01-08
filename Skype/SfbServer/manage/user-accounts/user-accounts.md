@@ -114,7 +114,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 - To temporarily disable a user account, set the value of the Enabled property to False ($False). For example:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -122,7 +122,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 - To re-enable a disabled user account, set the value of the Enabled property to True ($True). For example:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -184,7 +184,7 @@ You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can
 ### To remove a user account
 To remove a user account, use the Disable-CsUser cmdlet. For example:
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

@@ -40,19 +40,19 @@ Before you start moving Lync Online users to your on-premises environment, check
     
     After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:
     
-       ```
+       ```PowerShell
         Import-Module LyncOnlineConnector
        ```  
     
-       ```
+       ```PowerShell
         $cred = Get-Credential
        ``` 
     
-       ```
+       ```PowerShell
         $CSSession = New-CsOnlineSession -Credential $cred
        ```
     
-       ```
+       ```PowerShell
         Import-PSSession $CSSession -AllowClobber
        ```
     

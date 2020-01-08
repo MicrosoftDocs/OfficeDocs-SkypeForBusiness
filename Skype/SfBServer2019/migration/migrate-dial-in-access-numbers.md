@@ -45,7 +45,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
 
 2. To move each dial-in access number to a pool hosted on Skype for Business Server 2019, from the command line run: 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
@@ -78,7 +78,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
 
 2. To return all the dial-in conferencing access numbers migrated, from the command line run:
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 
