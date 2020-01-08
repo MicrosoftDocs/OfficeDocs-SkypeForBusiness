@@ -39,13 +39,13 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
     
 2. At the command line, type the following: 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. Next, at the command line, type the following: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 

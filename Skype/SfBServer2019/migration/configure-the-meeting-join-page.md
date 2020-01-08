@@ -30,7 +30,7 @@ You can modify the behavior of the meeting join page if you want to allow users 
     
 2. Run the following cmdlet: 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
@@ -38,7 +38,7 @@ You can modify the behavior of the meeting join page if you want to allow users 
     
 3. Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the [Skype for Business Server Management Shell](../../SfbServer/manage/management-shell.md) documentation):
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 
