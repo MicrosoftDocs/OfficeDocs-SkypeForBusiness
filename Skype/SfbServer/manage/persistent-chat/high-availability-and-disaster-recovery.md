@@ -50,7 +50,7 @@ To fail over Persistent Chat Server:
     
    - Use the following command to drop log shipping:
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -165,7 +165,7 @@ These steps are designed to recover configuration as it existed prior to the dis
   
 To restore the pool to its normal state run the following Windows PowerShell command:
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

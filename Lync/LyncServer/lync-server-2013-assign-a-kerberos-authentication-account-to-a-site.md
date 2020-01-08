@@ -44,23 +44,23 @@ After creating the Kerberos account, you must assign it to a site. This is a Lyn
 
 3.  From the command line, run the following two commands:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
        ```          
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
     For example:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
        ```
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
@@ -75,8 +75,9 @@ After creating the Kerberos account, you must assign it to a site. This is a Lyn
 
 4.  **OPTIONAL**: You may have configured an override FQDN (fully qualified domain name) for your WebServices, as per [Change the Web Services URL in Lync Server 2013](lync-server-2013-change-the-web-services-url.md). If that's the case, you'll need to add a SPN for this FQDN as well. For example, if the FQDN was webservices.contoso.local, you would run:
     
-        setspn -S http/webservices.contoso.local kerbauth
-
+    ```console
+    setspn -S http/webservices.contoso.local kerbauth
+    ```
 5.     
     <div class="">
     

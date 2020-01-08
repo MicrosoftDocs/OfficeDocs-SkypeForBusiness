@@ -80,7 +80,7 @@ You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmd
 
 The following command assigns a PIN number to the user Ken Myer. Because the Pin parameter is not included, Skype for Business Server will automatically generate and assign the PIN number.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
@@ -88,7 +88,7 @@ The following command assigns a PIN number to the user Ken Myer. Because the Pin
 
 This command uses the Pin parameter to assign the PIN number 121989 to the user Ken Myer.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 

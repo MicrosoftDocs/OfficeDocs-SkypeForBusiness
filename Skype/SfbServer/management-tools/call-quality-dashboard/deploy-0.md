@@ -154,7 +154,7 @@ Next, administrators should add new Allow Rules and give specific users the perm
   
 The configuration details are stored in the web.config located at the Portal's physical directory.
   
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -277,7 +277,7 @@ Examples
     
   **Sample SQL Syntax**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingType]
 ([BuildingTypeId],
@@ -308,7 +308,7 @@ Examples
     
   **Sample SQL Syntax**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
@@ -338,7 +338,7 @@ Examples
     
   **Sample SQL Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
 ( [NetworkName]
 ,[NetworkType]
@@ -360,7 +360,7 @@ Before you Import a new building you should already have a predefined BuildingKe
   
  **Sample SQL Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBuilding] 
 ( [BuildingKey]
 ,[BuildingName]
@@ -385,7 +385,7 @@ Import Subnets and map them to the Buildings imported in the last step. If you d
   
  **Sample SQL Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
 ,[NetworkNameID]
@@ -405,7 +405,7 @@ Populating BSSID information gives you additional WiFi stream correlation by con
   
  **Sample SQL Syntax**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBssid]
 ([Ap],
 [Bss],

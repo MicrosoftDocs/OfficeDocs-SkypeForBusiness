@@ -279,11 +279,11 @@ The following are the required IIS role services (in hierarchical order):
   
 To install these requirements using PowerShell, run the following:
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 

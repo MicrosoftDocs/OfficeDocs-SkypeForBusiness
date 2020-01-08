@@ -104,7 +104,7 @@ Additionally, if a Front End pool fails but the Edge pool at that site is still 
     
       - First, run the following command:
         
-        ``` 
+        ```PowerShell 
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
