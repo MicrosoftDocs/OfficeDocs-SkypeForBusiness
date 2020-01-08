@@ -90,7 +90,7 @@ The Centralized Logging Service is configured to define what the logging service
     
 2. Type the following at a command-line prompt:
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 

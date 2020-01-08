@@ -62,7 +62,7 @@ a question like this one: "Which individual workflow received the most calls?", 
 
 For example, if you have saved the data to a file named C:\Data\Response_Group_Call_List_Report.csv, you can then use the following command to return the total number of received calls for each workflow listed in the report:
 
-```
+```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```

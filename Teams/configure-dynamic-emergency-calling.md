@@ -159,25 +159,25 @@ The TeamsEmergencyCallRouting policy applies to Direct Routing only. (Although i
 
 For example, to enable a specific user for security desk notification, use the following command:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 To assign a policy called "Contoso Emergency Calling Policy 1" to Site 1, use the following command:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 To enable a specific Direct Routing user for emergency calling, use the following command:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 To assign a policy called "Contoso New York Emergency Call Routing" to Site 1, use the following command:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 

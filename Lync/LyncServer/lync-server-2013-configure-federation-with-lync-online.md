@@ -40,11 +40,11 @@ Follow the steps in this section to configure interoperability between your on-p
 
 Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlets:
 
-   ```
+   ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
    ```
 
-   ```
+   ```powershell
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
    ```
 
@@ -61,26 +61,26 @@ A Session Initiation Protocol (SIP) address is a unique identifier for each user
 Move-CsUser : HostedMigration fault: Error=(510), Description=(This user’s tenant is not enabled for shared sip address space.)
 
 To configure a shared SIP address space, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:
-
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
-
+```powershell
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
 To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
 
 After you install the module, you can establish a remote session with the following cmdlets:
 
-   ```
+   ```powershell
     Import-Module LyncOnlineConnector
    ```
 
-   ```
+   ```powershell
     $cred = Get-Credential
    ``` 
 
-   ```
+   ```powershell
     $CSSession = New-CsOnlineSession -Credential $cred
    ```
 
-   ```
+   ```powershell
     Import-PSSession $CSSession -AllowClobber
    ```
 

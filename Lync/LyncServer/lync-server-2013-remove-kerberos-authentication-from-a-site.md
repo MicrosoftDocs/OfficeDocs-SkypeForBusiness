@@ -54,21 +54,21 @@ If you need to remove Kerberos authentication from a site or retire a site, you 
 
 3.  From the command line, run the following two commands:
     
-       ```
+       ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
        ```
     
-       ```
+       ```PowerShell
         Enable-CsTopology
        ```
     
     For example:
     
-       ```
+       ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
        ```
     
-       ```
+       ```PowerShell
         Enable-CsTopology
        ```
     

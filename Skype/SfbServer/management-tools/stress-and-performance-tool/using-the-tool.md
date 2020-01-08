@@ -360,19 +360,19 @@ The Load Configuration tool (UserProfileGenerator.exe) creates a batch file that
     
 2. Navigate to the client folder and run the **RunClient** batch script. You can double-click the batch file in Windows Explorer and it will run all of the configuration files for that client. You can also run the script from a client folder by using the following syntax:
     
-   ```
+   ```PowerShell
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
 To run the Stress and Performance tool directly, open a command prompt and type the following command at the command line (and when doing this for the first time, be sure to register the performance counters  `regsvr32 /i /n /s LyncPerfToolPerf.dll`, as shown in the note later in this topic):
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
 To have the tool display the values in the configuration file, include the  `/displayfile` parameter on the preceding command, so that it looks like this:
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 
