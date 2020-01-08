@@ -38,7 +38,7 @@ To modify conferencing policies, use the **Set-CsConferencingPolicy** cmdlet.
   
 The following example modifies a property value of the conferencing policy SalesConferencingPolicy. The command sets the value of the AllowConferenceRecording property to False:
   
-```
+```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
