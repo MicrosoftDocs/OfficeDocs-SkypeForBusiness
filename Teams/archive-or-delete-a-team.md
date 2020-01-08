@@ -71,37 +71,37 @@ By default, a deleted Office 365 group is retained for 30 days. This 30-day peri
 1. Open Windows PowerShell as an admin.
 2. If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:
 
-    ``` 
+    ```PowerShell 
     Uninstall-Module AzureADPreview
     ```
 
-    ```
+    ```PowerShell
     Uninstall-Module AzureAD
     ```
 3. Install the latest version of the AzureADPreview module by running the following:
 
-    ```
+    ```PowerShell
     Install-Module AzureADPreview
     ```    
 
 ### Restore the deleted Office 365 group
 
 1. Connect to Azure AD by running the following:
-    ```
+    ```PowerShell
     Connect-AzureAD
     ```
     When you're prompted, sign in using your admin account and password.  
 2. Run the following to display a list of all soft-deleted Office 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have a lot of groups.
-    ```
+    ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
 3. Find the group that you want to restore, and then make a note of the Id.
 4. Run the following to restore the group, where [Id] is the group Id.
-    ```
+    ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 5.  Run the following to verify the group was successfully restored, where [Id] is the group Id.
-    ```
+    ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 

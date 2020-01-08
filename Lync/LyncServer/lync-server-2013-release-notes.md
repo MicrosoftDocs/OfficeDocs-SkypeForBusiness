@@ -118,11 +118,11 @@ When the IP Address configuration is changed for a Lync Server 2013 deployment, 
 
 To work around this issue, restart Lync Server services after changing the IP Address configuration for the deployment. To do so, run the following cmdlets in the Lync Server Management Shell:
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -444,11 +444,11 @@ To work around this issue, update the system registry before installing Lync Ser
 
 1.  Start Windows PowerShell and run the following cmdlets:
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 

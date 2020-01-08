@@ -41,7 +41,7 @@ Get Item returns a specific item in the repository.
   
  **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 {
 "itemId": 1652,
 "userId": 0,

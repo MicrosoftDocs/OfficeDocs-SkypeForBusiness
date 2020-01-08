@@ -21,13 +21,13 @@ Skype for Business Server provides support for analog devices. Specifically, the
 
 2. At the command line, type:
 
-   ```
+   ```PowerShell
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
    ```
 
 3. Verify that all contact objects have been moved to the Skype for Business Server 2019 pool. At the command line, type:
 
-   ```
+   ```PowerShell
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 

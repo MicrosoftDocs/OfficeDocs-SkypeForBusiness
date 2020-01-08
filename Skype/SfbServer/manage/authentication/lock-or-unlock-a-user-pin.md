@@ -89,7 +89,7 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
 
 - To lock a user's PIN, use the Lock-CsClientPin cmdlet. For example:
     
-  ```
+  ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
   ```
 
@@ -97,7 +97,7 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
 
 - To unlock a user's PIN, use the Unlock-CsClientPin cmdlet. For example:
     
-  ```
+  ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
