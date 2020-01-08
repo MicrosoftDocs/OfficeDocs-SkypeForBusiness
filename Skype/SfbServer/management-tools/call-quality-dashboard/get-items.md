@@ -44,7 +44,7 @@ Get Items returns all Items in the repository.
 > [!NOTE]
 > An array of Item objects is returned. For details about Item object, see Get Item. 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,
