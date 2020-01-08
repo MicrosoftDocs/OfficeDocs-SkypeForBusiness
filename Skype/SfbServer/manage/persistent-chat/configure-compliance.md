@@ -72,13 +72,13 @@ The interface is defined in the Compliance.dll assembly in the namespace  `Micro
 
 The Persistent Chat Compliance server will call the following method when the adapter first loads. The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:
 
-```PowerShell
+```cpp
 void SetConfig(AdapterConfig config)
 ```
 
 The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate. This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:
 
-```PowerShell
+```cpp
 void Translate(ConversationCollection conversations)
 ```
 
