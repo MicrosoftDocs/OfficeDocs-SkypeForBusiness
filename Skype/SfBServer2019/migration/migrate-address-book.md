@@ -62,13 +62,13 @@ If you set the value for **UseNormalizationRules** to False so that users can us
 
    - If your deployment includes only Skype for Business Server 2019, run the following cmdlet at the global level to change the values for **UseNormalizationRules** and **IgnoreGenericRules** to True: 
 
-   ```
+   ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
    - If your deployment includes a combination of Skype for Business Server 2019 and a legacy install, run the following cmdlet and assign it to each Skype for Business Server 2019 pool in the topology:
 
-   ```
+   ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
@@ -80,7 +80,7 @@ If you set the value for **UseNormalizationRules** to False so that users can us
 
 6. Run the following cmdlet on each Skype for Business Server 2019 pool in your deployment:
 
-   ```
+   ```PowerShell
    Update-CsAddressBook
    ```
 

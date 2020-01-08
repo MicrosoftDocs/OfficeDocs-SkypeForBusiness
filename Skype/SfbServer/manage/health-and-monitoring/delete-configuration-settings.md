@@ -42,7 +42,7 @@ You can delete call detail recording configuration settings by using Windows Pow
 
  This command removes the CDR configuration settings applied to the Redmond site:
     
-  ```
+  ```PowerShell
   Remove-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -50,15 +50,15 @@ You can delete call detail recording configuration settings by using Windows Pow
 
  This command removes all the CDR configuration settings applied to the site scope:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
-  ```
+  ```PowerShell
 
 ### To remove all the CDR configuration settings that disable call detail recording
 
  This command removes all the CDR configuration settings where Call Detail recording has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
