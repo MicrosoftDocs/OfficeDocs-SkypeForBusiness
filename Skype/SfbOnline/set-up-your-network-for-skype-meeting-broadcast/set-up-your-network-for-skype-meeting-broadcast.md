@@ -56,27 +56,27 @@ Use **one** of the following methods to set up allowed domains:
 
 - From the **Start Menu**, right-click **Windows PowerShell** and click **Run as administrator**. In the **Windows PowerShell** window, type each line and press Enter.
 
-  ```
+  ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $s = New-CsEdgeDomainPattern -Domain "emeameetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $t = New-CsEdgeDomainPattern -Domain "apacmeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $n = New-CsEdgeDomainPattern -Domain "resources.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $newAllowList = New-CsEdgeAllowList -AllowedDomain $r,$s,$t,$n
   ```
 
-  ```
+  ```PowerShell
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 

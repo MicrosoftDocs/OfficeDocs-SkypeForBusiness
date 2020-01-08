@@ -30,7 +30,7 @@ In Skype for Business Online, you have ability to control Point-to-Point (P2P) f
     
 - Create a global external user communication policy set to block external P2P file transfers (_EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
     
-You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+You can find out more about those settings [here](https://technet.microsoft.com/library/mt228132.aspx).
   
 If a federated user outside your organization tries to send a file to a user where the policy has been applied, they will receive a **Transfer Failed** error. And if a user tries to send a file, they will receive a **File transfer is turned off** error.
   
@@ -57,7 +57,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     
 4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
     
-    If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Start a Windows PowerShell session**
     
@@ -75,7 +75,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     Import-PSSession $session
    ```
 
-   If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## Disable P2P file transfers for your organization
 

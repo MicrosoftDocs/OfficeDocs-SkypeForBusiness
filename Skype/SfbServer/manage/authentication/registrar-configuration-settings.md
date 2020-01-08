@@ -103,7 +103,7 @@ You can delete the Registrar configuration settings by using Windows PowerShell 
 
 - The following command removes the Registrar security settings applied to the edge Server atl-edge-011.litwareinc.com:
     
-  ```
+  ```PowerShell
   Remove-CsProxyConfiguration -Identity service:EdgeServer:atl-edge-011.litwareinc.com
   ```
 
@@ -111,7 +111,7 @@ You can delete the Registrar configuration settings by using Windows PowerShell 
 
 - The following command removes all the Registrar security settings applied to the Registrar service:
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Filter "service:Registrar:*" | Remove-CsProxyConfiguration
   ```
 
@@ -119,7 +119,7 @@ You can delete the Registrar configuration settings by using Windows PowerShell 
 
 - The following command deletes all the Registrar security settings that allow the use of NTLM for client authentication:
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 

@@ -36,13 +36,13 @@ To delete meeting settings, use the **Remove-CsMeetingConfiguration** cmdlet.
   
 The following command removes the meeting configuration settings applied to the Redmond site:
   
-```
+```PowerShell
 Remove-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
 The next command removes all the meeting configuration settings applied to the site scope:
   
-```
+```PowerShell
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 
