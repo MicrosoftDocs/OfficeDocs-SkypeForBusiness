@@ -39,7 +39,7 @@ To view information about all your SIP trunk configuration settings, type the fo
 
 That will return information similar to this:
 
-```output
+```console
 Identity                                  : Global
 OutboundTranslationRulesList              : {}
 SipResponseCodeTranslationRulesList       : {}
