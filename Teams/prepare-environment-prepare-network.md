@@ -1,12 +1,12 @@
 ---
 title: Prepare your network for Microsoft Teams
-author: judegna
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lola
+ms.reviewer: jastark, kojika
 description: Use this guidance to prepare your network for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150

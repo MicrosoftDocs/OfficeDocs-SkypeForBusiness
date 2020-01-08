@@ -1,7 +1,7 @@
 ---
 title: "Proxy servers for Teams"
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference
@@ -23,7 +23,7 @@ description: "This article provides information about using a proxy server with 
 
 # Proxy servers for Teams
 
-This article provides guidance about using a proxy server with Teams.
+This article provides guidance about using a proxy server with Microsoft Teams.
   
 ## Not using a proxy server is recommended
 
@@ -33,21 +33,16 @@ Having a proxy can also cause issues. Performance-related problems can be introd
   
 ## If you need to use a proxy server
 
-Some organizations have no option to bypass a proxy for Teams traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
+Some organizations don't have the option of bypassing a proxy for Teams traffic. If that's the case for you, Microsoft strongly recommends that you do the following:
   
-Microsoft also strongly recommends:
-  
-- Using external DNS resolution
+- Use external DNS resolution
     
-- Using direct UDP based routing
+- Use direct UDP based routing
     
-- Allowing UDP traffic
+- Allow UDP traffic
     
-Following the other recommendations in our networking guidelines:
+- Follow the recommendations in our networking guidelines:
+    - [Media Quality and Network Connectivity Performance in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?redirectSourcePath=%252fen-us%252farticle%252fMedia-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
+    - [Optimize your network](optimize-your-network)
     
-- [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
-    
-- [Optimizing your network](optimize-your-network)
-    
-Following this guidance should minimize potential problems.
   

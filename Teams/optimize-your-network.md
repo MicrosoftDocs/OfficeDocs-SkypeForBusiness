@@ -1,14 +1,13 @@
 ---
-title: Optimize your network
-author: JuDegn
-ms.author: JuDegn
+title: Optimize your network for Microsoft Teams
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
-description: Optimize your network
+ms.reviewer: kojika, jastark
+description: Optimize your network before you begin your Microsoft Teams rollout
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
@@ -17,7 +16,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Optimize your network
+# Optimize your network for Microsoft Teams
 
 The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features in any order.
 
