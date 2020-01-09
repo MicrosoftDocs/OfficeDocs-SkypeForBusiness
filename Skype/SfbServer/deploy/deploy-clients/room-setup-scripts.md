@@ -20,7 +20,7 @@ This section illustrates sample scripts that can be used to provision Skype Room
   
 ## Example Setup Script: Skype for Business and Exchange Server (On Premises)
 
-```
+```powershell
 # On Exchange 
 Set-Mailbox -Identity confroom@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a 
 Lync Meeting to take advantage of enhanced meeting experience from LRS"
@@ -44,7 +44,7 @@ Make sure you've reviewed the following prerequisites before running the script:
     
 - Reboot if needed
     
-```
+```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
 $rm="LyncRoom"
 $org='YourTenantName.onmicrosoft.com'
