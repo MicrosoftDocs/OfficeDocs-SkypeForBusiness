@@ -73,36 +73,25 @@ For an in-depth discussion of network optimization for Teams, read [Media Qualit
 [Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
 When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
-[Implement the most efficient routing to MS datacenters](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
-Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
+[Implement the most efficient routing to Microsoft data centers](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b): Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
 
 **Intrusion Detection and Prevention Guidance**: If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
 
 **External Name Resolution**: Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
-[Configure split-tunnel VPN](upgrade-prepare-environment-prepare-network.md#vpn)
-We recommend that you provide an alternate path for Teams traffic that bypasses the VPN, commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but goes directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
+[Configure split-tunnel VPN](upgrade-prepare-environment-prepare-network.md#vpn): We recommend that you provide an alternate path for Teams traffic that bypasses the VPN, commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but goes directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor. 
 
-> [!NOTE]
-> To implement a split-tunnel VPN, consult with your VPN vendor for configuration details. 
+[Configure packet prioritization by using QoS](qos-in-teams.md): Use Quality of Service (QoS) to improve call quality in Teams and to monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
 
-[Configure packet prioritization by using QoS](qos-in-teams.md)
-Use Quality of Service (QoS) to improve call quality in Teams and to monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
+[Optimize Wi-Fi networks for quality and performance](upgrade-prepare-environment-prepare-network.md#wi-fi): Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
 
-[Optimize Wi-Fi networks for quality and performance](upgrade-prepare-environment-prepare-network.md#wi-fi)
-Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
-
-[Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](upgrade-plan-for-quality.md).
-Planning and optimizing Wi-Fi bands and access point placement. The 2.4 GHz range might provide adequate performance, depending on access point placement.
-Consult your Wi-Fi vendor for specific guidance.
+[Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](upgrade-plan-for-quality.md): Planning and optimizing Wi-Fi bands and access point placement. The 2.4 GHz range might provide adequate performance, depending on access point placement. Consult your Wi-Fi vendor for specific guidance.
 
 *See also*, [Wi-Fi recommendations for endpoints](envision-planning-for-service-management-and-quality-complete-guide.md#wi-fi).  **LOLA: THIS IS NOT IN THE TOC AND IS GOING AWAY. FIGURE OUT WHAT TO DO WITH THIS INFORMATION. DO NOT LINK TO IT HERE.**
 
-[Validate network connectivity by using the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)
-Use the Network Assessment Tool for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
+[Validate network connectivity by using the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885): Use the Network Assessment Tool for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
 
-[Monitor your network using CQD and call analytics](turning-on-and-using-call-quality-dashboard.md)
-You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](set-up-call-analytics.md).
+[Monitor your network using CQD and call analytics](turning-on-and-using-call-quality-dashboard.md): You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](set-up-call-analytics.md).
 
 ## How network traffic flows in Teams
 
