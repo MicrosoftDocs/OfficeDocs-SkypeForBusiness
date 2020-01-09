@@ -280,7 +280,7 @@ After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssign
 - Change the policy of a given policy type
 - Change the policy of a given policy type and the priority
 
-In this example, we change a group's Teams call park policy to a policy named SupportCallPark Policy and the assignment priority to 3.
+In this example, we change a group's Teams call park policy to a policy named SupportCallPark and the assignment priority to 3.
 
 ```
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Priority 3 d3b65ad6-a9d4-48f6-bb6f-5191ea7c0ff4
