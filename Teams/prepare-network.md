@@ -18,21 +18,28 @@ appliesto:
 
 # Prepare your organization's network for Microsoft Teams
 
-**LOLA: Where to link to environment-readiness? Does that info belong natively here?**
+Before you begin your Microsoft Teams rollout, check the following:
 
-Before you begin your Microsoft Teams rollout, make sure your network meets the following prerequisites:
-
-1. Verify all locations have internet access so they can connect to Office 365. At a minimum, verify that the following common ports are open to the internet from all locations:
+1. Do all your locations have internet access (so they can connect to Office 365)? At a minimum, verify that the following common ports are open to the internet from all locations:
 
     - Open TCP ports **80** and **443** for outgoing traffic from clients that will use Teams.    
     - Open UDP ports **3478** through **3481** for outgoing traffic from clients that will use Teams.
 
-1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).If your organization does not have Exchange Online, see [how Exchange and Microsoft Teams interact](Exchange-Teams-interact.md).
+1. Do you have a verified domain for Office 365 (for example, contoso.com)?
+    -   If your organization hasn't rolled out Office 365, see [Getting Started with Office 365 for business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
+    -   If your organization hasn't added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+
+1. Has your organization deployed Exchange Online and SharePoint Online?
     - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
 
     - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
+### For educational institutions
+If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
+
+### Running on-premises Skype for Business Server
+If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
 
 ## Why should you plan and prepare your network and environment?
 
@@ -111,6 +118,8 @@ You use the Call Quality Dashboard (CQD) to gain insight into the quality of cal
 ## Related Topics
 
 [Video: Network Planning](https://aka.ms/teams-networking)
+
+[Identity models and authentication in Teams](identify-models-authentication)
 
 
 
