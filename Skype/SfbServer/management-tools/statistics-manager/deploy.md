@@ -93,7 +93,7 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
     
      You can find the Certificate thumbprint by using Certificate Manager or by using the following PowerShell command:
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -180,7 +180,7 @@ To import the Skype for Business Server topology, follow these steps:
     
     a. Run the following command: 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. Copy the "mypoolinfo.xml" file to the server that runs the Listener.
@@ -191,25 +191,25 @@ To import the Skype for Business Server topology, follow these steps:
     
    b. Navigate to the directory on which the Listener is installed. The default is: 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. To confirm which servers are being added and updated, run the following command:
     
-   ```
+   ```PowerShell
   	.\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 The following command enables you to view all options:
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 To see your currently imported server information, run the following script: 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -269,7 +269,7 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
   
 1. From a PowerShell console while logged on as Administrator, type the following:
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

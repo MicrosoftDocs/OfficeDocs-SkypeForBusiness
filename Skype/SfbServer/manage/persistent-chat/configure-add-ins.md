@@ -66,7 +66,7 @@ You can create a new Add-in by using the **New-CsPersistentChatAddin** cmdlet.
   
 For example, the following command creates a new add-in (with the name ITPersistentChatAddin) for the pool atl-cs-001.contoso.com. The URL parameter and the parameter value http://atl-cs-001.contoso.com/itchat specify the location of the add-in's webpage:
   
-```
+```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
 ```
 
@@ -74,7 +74,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 You can configure settings for an existing add-in by using the **Set-CsPersistentChatAddIn** cmdlet. For example, the following command modifies the URL assigned to the Persistent Chat add-in ITPersistentChatAddin. In this case, the URL is changed to http://atl-cs-001.contoso.com/itchat2:
   
-```
+```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
 ```
 
@@ -82,7 +82,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 You can get information about add-ins by using the **Get-CsPersistentChatAddin** cmdlet. For example, the following command returns information about all the Persistent Chat add-ins configured for use in the organization:
   
-```
+```PowerShell
 Get-CsPersistentChatAddin
 ```
 
@@ -90,7 +90,7 @@ Get-CsPersistentChatAddin
 
 You can remove an Add-in by using the **Remove-CsPersistentChatAddIn** cmdlet. For example, the following command removes the Persistent Chat add-in ITChatAddin found on the pool atl-cs-001.contoso.com:
   
-```
+```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"
 ```
 
