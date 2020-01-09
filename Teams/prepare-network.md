@@ -37,16 +37,13 @@ If you've already optimized your network for Office 365, you're probably ready f
 
     - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
+Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
+
 ### For educational institutions
 If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
 
 ### Running on-premises Skype for Business Server
 If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
-
-Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
-
-## Use Advisor for Teams
-For a guided journey through your Teams rollout, use [Advisor for Teams](use-advisor-teams-roll-out.md). In addition to creating a Deployment team that helps you manage your rollout, Advisor for Teams assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com) (click the **Start** button in the **Deployment Teams workload** widget on the Dashboard).
 
 ## Use Network Planner
 
@@ -54,7 +51,10 @@ For help assessing your network, including bandwidth calculations and network re
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
-**========> From Julia's optimize-network topic. This MAY include everything we need from prepare-environment-prepare-network and original prepare-network.**
+
+## Use Advisor for Teams
+[Advisor for Teams](use-advisor-teams-roll-out.md) assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com).
+
 ## Network optimization
 
 The following steps are optional and aren't required for Teams to be up and running. Use this guidance to optimize your network if you want to improve Teams performance.
@@ -152,3 +152,5 @@ Microsoft Teams gives you the best audio, video and content sharing experience r
 [Video: Network Planning](https://aka.ms/teams-networking)
 
 [Identity models and authentication in Teams](identify-models-authentication)
+
+[How to roll out Teams](How-to-roll-out-teams.md)
