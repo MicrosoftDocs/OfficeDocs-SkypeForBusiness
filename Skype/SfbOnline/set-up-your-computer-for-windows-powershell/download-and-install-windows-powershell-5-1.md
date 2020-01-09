@@ -31,7 +31,7 @@ To determine which version of Microsoft PowerShelll you are using, do the follow
     
 2. In the PowerShell console, type the following command and then press ENTER:
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -60,7 +60,7 @@ If you are running Windows 8, complete this procedure instead:
 3. If the **User Account Control** dialog box appears, click **Yes** to verify that you want to run PowerShell under administrator credentials.
     
 After PowerShell is running, you must change the execution policy to allow the running of remote scripts. In the PowerShell console, type the following command and then press ENTER:
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
@@ -70,7 +70,7 @@ Set-ExecutionPolicy RemoteSigned -Force
  
 To verify that the execution policy has been configured correctly, type the following at the PowerShell prompt and then press ENTER:
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -98,7 +98,7 @@ After the computer has rebooted, verify that Windows PowerShell can start and th
     
 When the PowerShell console appears, you should then verify that the WinRM service is running and has been configured correctly. To verify that the service is running, type the following command at the PowerShell prompt and then press ENTER:
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -112,13 +112,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 If the service Status does not equal "Running", start the WinRM service by typing the following command and then pressing ENTER:
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 After the service has started, run the following command to make sure that WinRM is using Basic authentication:
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

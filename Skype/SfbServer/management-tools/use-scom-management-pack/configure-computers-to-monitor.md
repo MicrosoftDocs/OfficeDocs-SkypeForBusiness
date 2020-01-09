@@ -52,7 +52,7 @@ If you deploy an agent in one of these locations, you will also need to request 
 11. Click **Exit**.
 
 For System Center 2012, you can verify that the agent has been created by clicking **Start**, clicking **All Programs**, clicking **System Center Operations Manager 2012**, and then clicking **Operations 2012 Manager Shell**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+```PowerShell
 Get-SCOMAgent
 ```
 
