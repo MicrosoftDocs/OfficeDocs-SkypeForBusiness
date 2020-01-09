@@ -32,7 +32,7 @@ To integrate on-premises Skype for Business Server with Exchange Online, you mus
 
 Using the Skype for Business Server Management Shell, configure the Edge Server for federation by running the **Set-CSAccessEdgeConfiguration** cmdlet, using the parameters displayed in the following example:
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -44,7 +44,7 @@ For details about using the Skype for Business Server Management Shell, see [Sky
 
 Using the Skype for Business Server Management Shell, configure a hosting provider on the Edge Server by running the **New-CsHostingProvider** cmdlet, using the parameters in the following example:
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -71,14 +71,14 @@ The changes you made by using the cmdlets in the preceding sections are automati
 
 To verify replication updates, on a server internal in your Skype for Business Server deployment, run the following cmdlet:
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 Check if UpToDate value is showing TRUE for all Replicas.
 
 To confirm that the changes were applied, on the Edge Server, run the following cmdlet:
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 Double check if the information shown matches the changes committed in the previous steps.

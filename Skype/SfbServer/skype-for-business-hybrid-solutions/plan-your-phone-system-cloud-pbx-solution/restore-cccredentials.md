@@ -19,7 +19,7 @@ The Restore Cc-Credentials cmdlet restores all credentials of the current Skype 
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 2.1.
   
-```
+```powershell
 Restore-CcCredentials 
 ```
 
@@ -43,7 +43,7 @@ None.
 
 The following example restores all credentials of the current Cloud Connector deployment:
   
-```
+```powershell
     PS C:\>Restore-CcCredentials
 ```
 

@@ -17,7 +17,7 @@ description: "The Uninstall-CcAppliance cmdlet uninstalls the running Skype for 
  
 The Uninstall-CcAppliance cmdlet uninstalls the running Skype for Business Cloud Connector Edition appliance from the host server. 
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -28,7 +28,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 The following example drains and uninstalls the Cloud Connector appliance from the host server:
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
@@ -36,7 +36,7 @@ Uninstall-CcAppliance
 
 The next example drains and forcibly uninstalls the running Cloud Connector appliance on the host server even if the drain process failed:
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
@@ -44,7 +44,7 @@ Uninstall-CcAppliance -Force
 
 The next example uninstalls a Cloud Connector backup version without the user's confirmation:
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 
