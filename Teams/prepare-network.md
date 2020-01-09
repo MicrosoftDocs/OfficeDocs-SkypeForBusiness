@@ -18,7 +18,7 @@ appliesto:
 
 # Prepare your organization's network for Microsoft Teams
 
-Before you begin your Microsoft Teams rollout, make sure your network is ready. Check the following:
+If you've already optimized your network for Office 365, you're probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
 
 1. Do all your locations have internet access (so they can connect to Office 365)? At a minimum, verify that the following common ports are open to the internet from all locations:
 
@@ -66,13 +66,24 @@ Reasons why you might want to do additional network optimization:
 
 - Network impairments such as jitter and packet loss
 
+For an in-depth discussion of network optimization for Teams, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
+
+SCRATCH
+#### External Name Resolution
+
+Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365, and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+
+#### **Intrusion Detection and Prevention Guidance**
+
+If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
+/SCRATCH
+
 **HEIDI: Can you de-geek the following sections at all? If it's possible to explain these things in plainer English, please do!**
 
 [Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
-Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
+When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
-
-[Implement the most efficient routing to MS datacenters](https://docs.microsoft.com/en-us/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
+[Implement the most efficient routing to MS datacenters](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
 Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
 
 [Configure split-tunnel VPN](prepare-environment-prepare-network.md#vpn)
@@ -111,8 +122,7 @@ You use the Call Quality Dashboard (CQD) to gain insight into the quality of cal
 =============OLD ARTICLE BELOW HERE=================
 **LOLA - weave necessary info into main article. End of article can be a "conceptual reference" section.**
 
--# Prepare your organization's network for Microsoft Teams
-
+## How network traffic flows in Teams
 
 Teams combines three forms of traffic:
 
@@ -124,11 +134,7 @@ Teams combines three forms of traffic:
 
 This impacts the network on two levels: traffic will flow between the Microsoft Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Microsoft Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-
-To get an optimal experience with real time media within Microsoft Teams, your network must meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
-
 For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
-
 
 |Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
 |:--- |:--- |:--- |
@@ -145,17 +151,12 @@ Your company site connection to the Microsoft network edge includes first hop ne
 
 The network performance targets assume proper bandwidth and/or [QoS planning](QoS-in-Teams.md). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
 
-For more help with preparing your network for Teams, check out [Network Planner](https://docs.microsoft.com/microsoftteams/network-planner).
-
-
 ## Bandwidth requirements
 Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
-
-<!--
-The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
+**HEIDI: The following information was commented out of the article. It's in more depth than the bandwidth-requirements article included above. We should verify this table with PM and either add it to bandwidth-requirements or kill it.**
 
 > [!IMPORTANT]
 >If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
@@ -170,24 +171,7 @@ The content you will find below can be used as supplemental background informati
 |**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
 |**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
 |**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
--->
 
-Additional network considerations
----------------
-
-#### External Name Resolution
-
-Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365, and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
-
-#### NAT Pool Size
-
-When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number.
-
-To mitigate this risk, ensure adequate Public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
-
-#### **Intrusion Detection and Prevention Guidance**
-
-If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
 
 
 ## Related Topics
