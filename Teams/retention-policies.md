@@ -43,7 +43,7 @@ With retention policies for Teams, you can:
 - Delete Teams chats and/or channel messages after a specified duration.
 
 > [!NOTE]
-> Remember that in Teams, files that users share in private chats are stored in the OneDrive for Business account of the user who shared the file. Files that team members upload to a channel conversation are stored in the team's SharePoint site. Therefore, to retain or delete files in Teams, create retention policies that apply to OneDrive for Business and SharePoint Online.
+> Remember that in Teams, files that users share in private chats are stored in the OneDrive for Business account of the user who shared the file. And, files that team members upload to a channel conversation are stored in the team's SharePoint site. Therefore, to retain or delete files in Teams, create retention policies that apply to OneDrive for Business and SharePoint Online.
 
 When data is subject to a retention policy, users can continue to work with it because the data is retained in place, in its original location. If a user edits or deletes data that's subject to the policy, a copy is saved to a secure location where it's retained while the policy is in effect.
 
