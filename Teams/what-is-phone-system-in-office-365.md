@@ -25,15 +25,17 @@ description: "Learn about what Phone System can do for you. "
 
 A Private Branch Exchange (PBX) is a phone system within a business. Phone System in Office 365 gives you PBX capabilities, but without the complicated and expensive equipment. 
 
+Phone System allows you to replace your existing on-premises PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
+
 ## Phone System technology
 
-**Phone System** is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 cloud with Microsoft Teams and Skype for Business Online. Phone System allows you to replace your existing on-premises PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
+**Phone System** enables call control and PBX capabilities in the Office 365 cloud with Microsoft Teams and Skype for Business Online. 
   
 With Phone System, users can use Teams or Skype for Business Online to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams or Skype for Business Online calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams and Skype for Business Online. Phone System administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
   
 Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls.
 
-For calls outside your organization, Microsoft provides multiple options for connecting to the Public Switched Telephone Network (PSTN).
+For calls outside your organization, Microsoft provides multiple options for connecting Phone System to the Public Switched Telephone Network (PSTN).
 
 ## Connect to the Public Switched Telephone Network (PSTN)
   
