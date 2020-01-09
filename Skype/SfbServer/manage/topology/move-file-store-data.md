@@ -63,7 +63,7 @@ If you need to remove the file server that is currently acting as the file store
 
 11. At the command line, type the following:
 
-     ```
+     ```console
      Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
 
      ```

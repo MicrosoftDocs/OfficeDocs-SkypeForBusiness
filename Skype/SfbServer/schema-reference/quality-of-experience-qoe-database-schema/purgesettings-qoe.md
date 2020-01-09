@@ -17,7 +17,7 @@ description: "The PurgeSettings table contains information that specifies if (an
  
 The PurgeSettings table contains information that specifies if (and when) outdated Quality of Experience records will automatically be deleted from the QoE database. Note that purging-related information can also be obtained from within the Skype for Business Server Management Shell by running the following command:
   
-```
+```PowerShell
 Get-CsQoEConfiguration
 ```
 
