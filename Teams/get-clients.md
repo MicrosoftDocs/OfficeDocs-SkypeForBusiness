@@ -109,7 +109,7 @@ The signing key to enable auto-updating using the system's package manager is in
 
 #### Install Teams using DEB package
 
-1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
+1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:  
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo apt install **teams download file**`
@@ -118,12 +118,50 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
 
 #### Install Teams using RPM package
 
-1. Download the package from https://aka.ms/getteams. (The Linux client is in limited preview and will launch soon. If you don't see the Linux client on the downloads page then it has not launched yet.)
+1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo yum install **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `Teams`.
+
+#### Install manually from the command line
+
+Install manually on Debian and Ubuntu distributions:
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+ 
+sudo apt update
+sudo apt install teams
+```
+
+Install manually on RHEL, Fedora and CentOS based distributions:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
+ 
+sudo dnf check-update
+sudo dnf install teams
+```
+
+Aternatively, to use yum instead of dnf:
+```
+yum check-update
+sudo yum install teams
+```
+
+Install manually on openSUSE based distributions:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
+ 
+sudo zypper refresh
+sudo zypper install teams
+```
 
 ## Web client 
 
