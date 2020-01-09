@@ -41,7 +41,7 @@ If your organization is an educational institution and you use a Student Informa
 ### Running on-premises Skype for Business Server
 If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
 
-Once you're sure your network is ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
+Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
 
 ## Why should you plan and prepare your network and environment?
 
@@ -61,16 +61,17 @@ The steps described below will help you determine whether your deployment might 
 Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
 
+## Use Advisor for Teams
 
 
-## Using Network Planner
+## Use Network Planner
 
 If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
 
 **========> From Julia's optimize-network topic. This MAY include everything we need from prepare-environment-prepare-network and original prepare-network.**
-# Optimize your network for Microsoft Teams
+## Network optimization
 
 The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features in any order.
 
