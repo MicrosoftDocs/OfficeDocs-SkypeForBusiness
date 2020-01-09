@@ -108,8 +108,9 @@ You use the Call Quality Dashboard (CQD) to gain insight into the quality of cal
 [Identity models and authentication in Teams](identify-models-authentication)
 
 
-
 =============OLD ARTICLE BELOW HERE=================
+**LOLA - weave necessary info into main article. End of article can be a "conceptual reference" section.**
+
 -# Prepare your organization's network for Microsoft Teams
 
 
@@ -188,20 +189,6 @@ To mitigate this risk, ensure adequate Public IP addresses are assigned to the N
 
 If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
 
-Network health determination
------------------
-
-When planning on the implementation of Microsoft Teams within your network, you must ensure you have the required bandwidth, you have access to all required IP addresses, the correct ports opened, and you are meeting the performance requirements for real-time media.
-
-If you know you will not meet these criteria, your end users will not get an optimal experience from Teams due to bad quality during calls and meetings.
-
-Should you not meet these criteria, this is the time to consider pausing the project to ensure you meet the criteria before continuing.
-
-
-|  |  |  |
-|---------|---------|---------|
-|![An icon representing a decision point](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Decision Point         |Have you evaluated your network capabilities for supporting real time media?<br></br>If your network has not been properly assessed, or you know it will not support real time media, will you disable video and screen sharing capabilities to reduce network impact and poor Teams experiences?         |
-|![An icon representing the next steps](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps         |Network Quality Unknown: Perform a Network Readiness Assessment to determine if your network is ready for Real Time Media.<br></br>Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.<br></br>Network Satisfactory: Ensure all IP addresses and ports are properly accessible.           |
 
 ## Related Topics
 
