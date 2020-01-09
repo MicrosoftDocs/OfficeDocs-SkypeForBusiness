@@ -18,7 +18,7 @@ appliesto:
 
 # Prepare your organization's network for Microsoft Teams
 
-Before you begin your Microsoft Teams rollout, check the following:
+Before you begin your Microsoft Teams rollout, make sure your network is ready. Check the following:
 
 1. Do all your locations have internet access (so they can connect to Office 365)? At a minimum, verify that the following common ports are open to the internet from all locations:
 
