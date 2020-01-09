@@ -17,7 +17,7 @@ description: "The Set-CcApplianceDirectory cmdlet sets the working directory on 
  
 The Set-CcApplianceDirectory cmdlet sets the working directory on the Skype for Business Cloud Connector Edition host server. All deployment files are stored in this directory.
   
-```
+```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
 ```
 
@@ -28,7 +28,7 @@ Set-CcApplianceDirectory[[-Path] <string>]
 
 The following example sets the working directory on the host server to c:\cloudconnector\applianceroot:
   
-```
+```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ```
 

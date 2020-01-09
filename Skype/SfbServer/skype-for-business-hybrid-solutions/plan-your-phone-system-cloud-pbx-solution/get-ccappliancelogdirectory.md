@@ -19,7 +19,7 @@ The Get-CcApplianceLogDirectory cmdlet shows the current directory where logs fo
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 
@@ -34,7 +34,7 @@ None
 
 The following example shows the current folder where logs for the current appliance of Cloud Connector are stored:
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 

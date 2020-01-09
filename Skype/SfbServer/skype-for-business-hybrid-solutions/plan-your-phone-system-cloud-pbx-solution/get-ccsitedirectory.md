@@ -19,7 +19,7 @@ The Get-CcSiteDirectory cmdlet shows the current directory where site level conf
   
 This cmdlet applies to Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -34,7 +34,7 @@ None
 
 The following example shows the current folder where the configuration and virtual machines files of Cloud Connector components are stored:
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
