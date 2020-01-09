@@ -41,6 +41,8 @@ If your organization is an educational institution and you use a Student Informa
 ### Running on-premises Skype for Business Server
 If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
 
+Once you're sure your network is ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
+
 ## Why should you plan and prepare your network and environment?
 
 **LOLA: This is WAYYYYY too negative. Figure out a way to weave this message into the article in a positive manner.**
@@ -59,17 +61,6 @@ The steps described below will help you determine whether your deployment might 
 Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
 
-## Where do I begin?
-
-Plan for your network by reviewing the following network planning tasks.
-**LOLA - see what she did with these. Any rewriting? If so, compare & evaluate. If NOT... Sigh...**
-
-[Step 1: Check your environment's readiness for Teams](network.readiness.md)
-
-[Step 2: Prepare your organization's network for Teams](prepare-environment-prepare-network.md)
-
-
-[Step 3: Verify you've got Teams licenses for all users](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 
 ## Using Network Planner
