@@ -55,7 +55,7 @@ For an example scenario, see [Using Network Planner - example scenario](tutorial
 
 ## Network optimization
 
-The following steps are optional and aren't required for Teams to be up and running. Use this guidance to optimize your network if you want to improve Teams performance.
+The following tasks are optional and aren't required for rolling out Teams. Use this guidance to optimize your network if you want to improve Teams performance.
 
 Reasons why you might want to do additional network optimization:
 
