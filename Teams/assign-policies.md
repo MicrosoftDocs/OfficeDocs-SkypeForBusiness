@@ -35,7 +35,7 @@ Here's an overview of the ways that you can assign policies to users and the rec
 |Do this  |If...  | Using...
 |---------|---------|----|
 |[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. |The Microsoft Teams admin center or PowerShell cmdlets in the Skype for Business Online PowerShell module
-| [Assign a policy package](#assign-a-policy-package)    | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education_Teacher policy package to teachers in your school to give them full access to chats, calling, and meetings and assign the Education_SecondaryStudent policy package to secondary students to limit certain capabilities like private calling.  |The Microsoft Teams admin center|
+| [Assign a policy package](#assign-a-policy-package)    | You need to assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education_Teacher policy package to teachers in your school to give them full access to chats, calling, and meetings and the Education_SecondaryStudent policy package to secondary students to limit certain capabilities like private calling.  |The Microsoft Teams admin center|
 |[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)    | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |The [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet in the Teams PowerShell module|
 |[Assign a policy to a group](#assign-a-policy-to-a-group)    |You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or organizational unit.|The [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) cmdlet in the Teams PowerShell module|
 
@@ -158,7 +158,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 ## Assign a policy to a group
 
-Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules. 
+Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules.
 
 You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address. The cmdlet returns an operation Id that you can use together with the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to check the status of the propagation of the policy to members of the group.
 
@@ -274,7 +274,7 @@ To learn more, see [Remove-CsGroupPolicyAssignment](https://docs.microsoft.com/p
 
 ### Change a policy assignment for a group
 
-After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd```cmdlet to do the following to that group's policy assignment:
+After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssignmentd``` cmdlet to change that group's policy assignment as follows:
 
 - Change the priority
 - Change the policy of a given policy type
@@ -290,5 +290,4 @@ To learn more, see [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powe
 
 ## Related topics
 
-- [Manage policy packages in Teams](manage-policy-packages.md)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
