@@ -18,6 +18,8 @@ appliesto:
 
 # Prepare your organization's network for Microsoft Teams
 
+## Network requirements
+
 If you've already optimized your network for Office 365, you're probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
 
 1. Do all your locations have internet access (so they can connect to Office 365)? At a minimum, verify that the following common ports are open to the internet from all locations:
@@ -44,7 +46,7 @@ If your organization is running on-premises Skype for Business Server (or Lync S
 Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
 
 ## Use Advisor for Teams
-For a guided journey through your Teams rollout, use [Advisor for Teams](use-advisor-teams-roll-out.md). In addition to creating a Deployment team that helps you manage your rollout, Advisor for Teams assesses your Office 365 environment and identifies the most ocmmon configurations that you may need to update or modify before you can successfully roll out Teams. Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com) (click the **Start** button in the **Deployment Teams workload** widget on the Dashboard).
+For a guided journey through your Teams rollout, use [Advisor for Teams](use-advisor-teams-roll-out.md). In addition to creating a Deployment team that helps you manage your rollout, Advisor for Teams assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com) (click the **Start** button in the **Deployment Teams workload** widget on the Dashboard).
 
 ## Use Network Planner
 
@@ -69,15 +71,15 @@ For an in-depth discussion of network optimization for Teams, read [Media Qualit
 
 **HEIDI: Can you de-geek the following sections at all? If it's possible to explain these things in plainer English, please do!**
 **HEIDI: I'm finding that a lot of the in-depth info from upgrade-prepare-environment-prepare-network is NOT included here. Trying to decide how to handle this. Keep the Upgrade topic & link to it (bookmarks)? Or pull everything into THIS topic?**
+**HEIDI: I need to fuss around with a better layout for this long laundry list. Suggestions?**
 
-[Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
-When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
+[Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9): When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
 [Implement the most efficient routing to Microsoft data centers](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b): Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
 
-**Intrusion Detection and Prevention Guidance**: If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
+Intrusion Detection and Prevention Guidance: If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
 
-**External Name Resolution**: Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+External Name Resolution: Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
 [Configure split-tunnel VPN](upgrade-prepare-environment-prepare-network.md#vpn): We recommend that you provide an alternate path for Teams traffic that bypasses the VPN, commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but goes directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor. 
 
