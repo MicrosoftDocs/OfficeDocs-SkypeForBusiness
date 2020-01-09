@@ -55,15 +55,14 @@ For an example scenario, see [Using Network Planner - example scenario](tutorial
 **========> From Julia's optimize-network topic. This MAY include everything we need from prepare-environment-prepare-network and original prepare-network.**
 ## Network optimization
 
-The following steps are optional aren't required for Teams to be up and running. Use this guidance to optimize your network if you want to improve Teams performance.
+The following steps are optional and aren't required for Teams to be up and running. Use this guidance to optimize your network if you want to improve Teams performance.
 
 Reasons why you might want to do additional network optimization:
-**LOLA: I want to list SYMPTOMS instead of root causes here. What are teh SYMPTOMS of each of these items?**
+
+**LOLA: I want to list SYMPTOMS instead of root causes here. What are the SYMPTOMS of each of these items?**
 
 - Insufficient bandwidth available
-
 - Firewall and proxy blockers
-
 - Network impairments such as jitter and packet loss
 
 For an in-depth discussion of network optimization for Teams, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
