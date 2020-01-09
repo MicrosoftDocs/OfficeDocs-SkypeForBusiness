@@ -38,7 +38,7 @@ For a guided overview of the Advisor for Teams experience, check out the [Deploy
 **A Teams, Forms and Planner license are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
 
 > [!IMPORTANT]
-> Should the **Teams Advisor** option be missing under **Planning** on the menu navigation, it is due to the user not being enabled for Teams. This behavior will change in the future.
+> If **Teams Advisor** is missing under **Planning** in the Teams admin center, it means the user isn't licensed for Teams. This behavior will change in the future.
 
 The first time you use Advisor for Teams, it'll create a Deployment team for you in Teams. It adds a channel for each workload you select.
 
