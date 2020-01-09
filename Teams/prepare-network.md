@@ -85,7 +85,7 @@ When multiple users and devices access Office 365 using Network Address Translat
 
 [Optimize Wi-Fi networks for quality and performance](upgrade-prepare-environment-prepare-network.md#wi-fi): Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
 
-[Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](upgrade-plan-for-quality.md): Planning and optimizing Wi-Fi bands and access point placement. The 2.4 GHz range might provide adequate performance, depending on access point placement. Consult your Wi-Fi vendor for specific guidance.
+[Implement QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](upgrade-plan-for-quality.md): Planning and optimizing Wi-Fi bands and access point placement. The 2.4 GHz range might provide adequate performance, depending on access point placement. Consult your Wi-Fi vendor for specific guidance.
 
 *See also*, [Wi-Fi recommendations for endpoints](envision-planning-for-service-management-and-quality-complete-guide.md#wi-fi).  **LOLA: THIS IS NOT IN THE TOC AND IS GOING AWAY. FIGURE OUT WHAT TO DO WITH THIS INFORMATION. DO NOT LINK TO IT HERE.**
 
