@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Before you roll out Microsoft Teams, evaluate and prepare your network to be sure it's ready for Teams. Information includes network requirements, bandwidth requirements, and additional considerations.
+description: Before you roll out Microsoft Teams, evaluate and prepare your network to be sure it's ready for Teams. Information includes network requirements, bandwidth requirements, and network optimization guidance.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -20,8 +20,23 @@ appliesto:
 
 **LOLA: Where to link to environment-readiness? Does that info belong natively here?**
 
-# Plan and prepare your network and environment
+Before you begin your Microsoft Teams rollout, make sure your network meets the following prerequisites:
+
+1. Verify all locations have internet access so they can connect to Office 365. At a minimum, verify that the following common ports are open to the internet from all locations:
+
+    - Open TCP ports **80** and **443** for outgoing traffic from clients that will use Teams.    
+    - Open UDP ports **3478** through **3481** for outgoing traffic from clients that will use Teams.
+
+1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).If your organization does not have Exchange Online, see [how Exchange and Microsoft Teams interact](Exchange-Teams-interact.md).
+
+    - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
+
+    - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
+
+
 ## Why should you plan and prepare your network and environment?
+
+**LOLA: This is WAYYYYY too negative. Figure out a way to weave this message into the article in a positive manner.**
 
 Failing to prepare your network and environment will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
 
@@ -48,23 +63,6 @@ Plan for your network by reviewing the following network planning tasks.
 
 
 [Step 3: Verify you've got Teams licenses for all users](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-
-=====> From Julia's get-started article:
-# Get Teams up and running quickly (RENAME to something like "you MUST do this stuff")
-
-We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
-To quickly get Teams up and running, complete the following tasks:
-
-1. Verify all locations have internet access so they can connect to Office 365. At a minimum, verify that the following common ports are open to the internet from all locations:
-
-    - Open TCP ports **80** and **443** for outgoing traffic from clients that will use Teams.    
-    - Open UDP ports **3478** through **3481** for outgoing traffic from clients that will use Teams.
-
-1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).If your organization does not have Exchange Online, see Understand how Exchange and Microsoft Teams interact.
-
-    - If your organization does not have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).        
-
-    - If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
 
 ## Using Network Planner
