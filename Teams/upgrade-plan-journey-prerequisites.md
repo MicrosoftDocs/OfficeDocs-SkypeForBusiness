@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Prerequisites  
+title: Microsoft Teams Prerequisites | Dependencies Adoption Upgrade 
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,6 +18,15 @@ appliesto:
 - Microsoft Teams
 ---
 
+![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+
+This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
+
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+
 # Prerequisites and environmental dependencies for Teams
 
 Teams combines multiple Office 365 services, and is therefore dependent on the correct implementation and operation of these services. These services include—but aren’t limited to—SharePoint Online, Exchange Online, and OneDrive for Business.
@@ -32,10 +41,12 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - If your organization hasn’t synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
 
-- If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](Exchange-Teams-interact.md).
+- If your organization doesn¹t have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](Exchange-Teams-interact.md).
 
 - If your organization doesn’t have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
 
 - Learn how [Office 365 groups and Microsoft Teams interact](Office-365-groups.md).
+
+- If your organization is an educational institution and you use a Student Information System, [deploy School Data Sync](https://docs.microsoft.com/schooldatasync) before deploying Microsoft Teams.
 
 After you’ve verified that your environment meets all applicable prerequisites, [evaluate your current environment for Teams](upgrade-plan-journey-evaluate-environment.md).

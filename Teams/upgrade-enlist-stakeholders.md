@@ -14,14 +14,16 @@ ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
-applies to:
+appliesto:
 - Microsoft Teams
 ---
 
-# Enlist your project stakeholders
 ![Illustration showing the stakeholder state of the upgrade journey](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders")
 
 This article is part of the Project Stakeholders stage of your upgrade journey, the first and most essential activity you complete for your project’s success.
+
+
+# Enlist your project stakeholders
 
 From implementing project deliverables to driving accountability, your stakeholders hold the key to the success of your project. There are two groups of stakeholders you’ll want to assign: (1) a _sponsorship coalition_ that includes executive and project sponsors who have a vested interest in and influence on the project’s success, and (2) the _project team_, consisting of the people responsible for ensuring technical and user readiness, who will complete the various tasks in the project plan. The common thread between these two groups is the _project manager_, who works to ensure that project tasks get completed on schedule and reports project status back to the coalition.
 

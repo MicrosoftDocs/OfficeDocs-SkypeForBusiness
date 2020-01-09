@@ -25,17 +25,17 @@ This article gives you an overview of the network settings that are common to Lo
 > [!NOTE]
 > Any feature-specific requirements for network settings are documented in the configuration topics for that feature.
 
-## Network site
-
-A network site represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
-
-You can also use network sites to enable and configure emergency calling.
-
 ## Network region
 
 A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate “India” as a network region. Each network site must be associated with a network region.
 
 The same network regions are shared by Location-Based Routing for Direct Routing and enhanced emergency services. If you already created network regions for one feature, you don't have to create new network regions for the other feature.
+
+## Network site
+
+A network site represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
+
+You can also use network sites to enable and configure emergency calling.
 
 ## Network subnet
 

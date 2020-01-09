@@ -63,3 +63,12 @@ Start your journey by familiarizing yourself with our upgrade success framework 
 
 [Learn about the Upgrade Framework](upgrade-framework.md) and join us for a [live upgrade planning overview](https://aka.ms/SkypeToTeamsPlanning) session.
 
+> [!IMPORTANT]
+> Remember that a successful upgrade ensures both technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
+
+> [!Tip]
+> Watch the following sessions to learn about the Upgrade from Skype for Business to Microsoft Teams:
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin)

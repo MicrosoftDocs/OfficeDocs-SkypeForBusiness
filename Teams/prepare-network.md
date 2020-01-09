@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: jastark, kojika
+ms.reviewer: arachman
 audience: admin
 description: Learn how to prepare and manage your Microsoft Teams network. Information includes network requirements, bandwidth requirements, and additional considerations.
 localization_priority: Normal
@@ -19,94 +19,97 @@ appliesto:
 
 # Prepare your organization's network for Microsoft Teams
 
-# Plan and prepare your network and environment
-## Why should you plan and prepare your network and environment?
 
-Failing to prepare your network and environment will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
+Teams combines three forms of traffic:
 
-Before we look at the steps to be taken, it’s important to understand what can affect the performance of Teams and thereby user happiness and satisfaction. Three major risk areas can affect how users perceive network quality:
+-   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
 
-- Insufficient bandwidth available
+-   Peer-to-peer real-time communications traffic (audio, video, desktop sharing).
 
-- Firewall and proxy blockers
+-   Conferencing real-time communications traffic (audio, video, desktop sharing).
 
-- Network impairments such as jitter and packet loss
-
-The steps described below will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution.
-Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
+This impacts the network on two levels: traffic will flow between the Microsoft Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Microsoft Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
 
-## Where do I begin?
+To get an optimal experience with real time media within Microsoft Teams, your network must meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Plan for your network by reviewing the following network planning tasks.
-**LOLA - see what she did with these. Any rewriting? If so, compare & evaluate. If NOT... Sigh...**
-
-[Step 1: Check your environment's readiness for Teams](network.readiness.md)
-
-[Step 2: Prepare your organization's network for Teams](prepare-environment-prepare-network.md)
-
-[Step 3: Verify you've got Teams licenses for all users](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-
-=====> From Julia's get-started article:
-# Get Teams up and running quickly (RENAME to something like "you MUST do this stuff")
-
-We assume you already know your way around the Microsoft Teams Admin Center, and you are familiar with what you need to do to plan your network for Teams. 
-To quickly get Teams up and running, complete the following tasks:
-
-1. Verify all locations have internet access so they can connect to Office 365. At a minimum, verify that the following common ports are open to the internet from all locations:
-
-    - Open TCP ports **80** and **443** for outgoing traffic from clients that will use Teams.    
-    - Open UDP ports **3478** through **3481** for outgoing traffic from clients that will use Teams.
-
-1. Verify your organization has deployed Exchange Online and SharePoint Online, and a verified domain for Office 365 (for example, contoso.com).If your organization does not have Exchange Online, see Understand how Exchange and Microsoft Teams interact.
-
-    - If your organization does not have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).        
-
-    - If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
+For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
 
 
-## Using Network Planner
+|Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
+|:--- |:--- |:--- |
+|**Latency (one way)** \*  |< 50ms          |< 30ms         |
+|**Latency (RTT or Round-trip Time)** \* |< 100ms   |< 60ms |
+|**Burst packet loss**    |<10% during any 200ms interval         |<1% during any 200ms interval         |
+|**Packet loss**     |<1% during any 15s interval          |<0.1% during any 15s interval         |
+|**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
+|**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
 
-If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+\* The latency metric targets assume your company site or sites and the Microsoft edges are on the same continent.
 
-For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
+Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
 
-========> From Julia's optimize-network topic. This MAY include everything we need from prepare-environment-prepare-network (and one other? I don't remember.)
-# Optimize your network for Microsoft Teams
+The network performance targets assume proper bandwidth and/or [QoS planning](QoS-in-Teams.md). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
 
-The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features in any order.
+For more help with preparing your network for Teams, check out [Network Planner](https://docs.microsoft.com/microsoftteams/network-planner).
 
-[Step 1: Validate the Network Assessment Tool (NAT) pool size required for user connectivity](https://docs.microsoft.com/en-us/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
-Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
-[Step 2: Implement the most efficient routing to MS datacenters](https://docs.microsoft.com/en-us/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
-Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
+## Bandwidth requirements
+Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.
 
-[Step 3: Configure split-tunnel VPN](prepare-environment-prepare-network.md#vpn)
-We recommend that you provide an alternate path for Teams traffic that bypasses the VPN, commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but goes directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
-> [!NOTE]
-> To implement a split-tunnel VPN, consult with your VPN vendor for configuration details. 
 
-[Step 4: Configure packet prioritization by using QoS](qos-in-teams.md)
-Use Quality of Service (QoS) to improve call quality in Microsoft Teams and to monitor and troubleshoot call quality in Teams. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. When QoS is implemented, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
+<!--
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
-[Step 5: Optimize Wi-Fi networks for quality and performance](prepare-environment-prepare-network.md)
-Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
+> [!IMPORTANT]
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
-[Step 6: Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic over the Wi-Fi networks is prioritized](plan-for-quality).
-Planning and optimizing Wi-Fi bands and access point placement. The 2.4 GHz range might provide adequate performance, depending on access point placement.
-Consult your Wi-Fi vendor for specific guidance.
 
-*See also*, [Wi-Fi recommendations for endpoints](envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints).
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
+|---------|---------|---------|---------|
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+-->
 
-[Step 7: Validate network connectivity by using the Network Assessment Tool](3-envision-evaluate-my-environment.md)
-Use the Network Assessment Tool (NAT) for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
+Additional network considerations
+---------------
 
-[Step 8: Monitor your network using CQD/CA](turning-on-and-using-call-quality-dashboard.md)
-You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
+#### External Name Resolution
+
+Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365, and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+
+#### NAT Pool Size
+
+When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number.
+
+To mitigate this risk, ensure adequate Public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+
+#### **Intrusion Detection and Prevention Guidance**
+
+If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
+
+Network health determination
+-----------------
+
+When planning on the implementation of Microsoft Teams within your network, you must ensure you have the required bandwidth, you have access to all required IP addresses, the correct ports opened, and you are meeting the performance requirements for real-time media.
+
+If you know you will not meet these criteria, your end users will not get an optimal experience from Teams due to bad quality during calls and meetings.
+
+Should you not meet these criteria, this is the time to consider pausing the project to ensure you meet the criteria before continuing.
+
+
+|  |  |  |
+|---------|---------|---------|
+|![An icon representing a decision point](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Decision Point         |Have you evaluated your network capabilities for supporting real time media?<br></br>If your network has not been properly assessed, or you know it will not support real time media, will you disable video and screen sharing capabilities to reduce network impact and poor Teams experiences?         |
+|![An icon representing the next steps](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps         |Network Quality Unknown: Perform a Network Readiness Assessment to determine if your network is ready for Real Time Media.<br></br>Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.<br></br>Network Satisfactory: Ensure all IP addresses and ports are properly accessible.           |
 
 ## Related Topics
 
 [Video: Network Planning](https://aka.ms/teams-networking)
-
