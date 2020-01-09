@@ -74,7 +74,7 @@ $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession
 ```
 
-In this example, we assign a policy named New Hire Feedback Policy to a user named user1.
+In this example, we assign a Teams feedback policy named New Hire Feedback Policy to a user named user1.
 
 ```
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
@@ -165,6 +165,8 @@ You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a gro
 > [!NOTE]
 > Currently, group policy assignment isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
 
+The policy is immediately assigned to the group. The propagation of the policy assignment to members of the group is performed as a background operation and may take some time, depending on the size of the group.
+
 ### What you need to know about group policy assignment
 
 Before you get started, it's important to understand group policy inheritance rules and group policy assignment priority.
@@ -173,14 +175,14 @@ Before you get started, it's important to understand group policy inheritance ru
 
 A user has one effective policy for each policy type. For a given policy type, a user's effective policy is determined according to the following:
 
-- A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. This means that if a user is directly assigned a policy of a given type, they won't inherit a policy of the same type from a group.
+- A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user is directly assigned a policy of a given type, that user won't inherit a policy of the same type from a group.
 - If a user is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest priority.
 
 A user's effective policy is updated according to these inheritance rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
 
 #### Group assignment priority
  
-When you assign a policy to a group, you set a priority for the group assignment. This is used to determine which policy a user should inherit as their effective policy when the user is a member of two or more groups and each group is assigned a policy of the same type.
+When you assign a policy to a group, you set a priority for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
 The group assignment priority is relative to other group policy assignments of the same type. For example, if you're assigning a calling policy to two groups, set the priority of one assignment to 1 and the other to 2, with 1 being the highest priority. The group assignment priority indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
  
@@ -243,7 +245,7 @@ To learn more, see [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powe
 
 ### Remove a policy from a group
 
-Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to reflect their new priority. The following two tables illustrate this example.
+Use the ```Remove-CsGroupPolicyAssignment``` cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group and that have a lower priority are updated. For example, if you remove a policy that's assigned with priority 2, policies that are assigned with priority 3 and priority 4 are updated to reflect their new priority. The following two tables show this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
@@ -278,7 +280,7 @@ After you assign a policy to a group, you can use the ```Set-CsGroupPolicyAssign
 - Change the policy of a given policy type
 - Change the policy of a given policy type and the priority
 
-In this example, we change a group's Teams call park policy to a policy named SupportCallPark Policy and the priority of the assignment to 3.
+In this example, we change a group's Teams call park policy to a policy named SupportCallPark Policy and the assignment priority to 3.
 
 ```
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Priority 3 d3b65ad6-a9d4-48f6-bb6f-5191ea7c0ff4
