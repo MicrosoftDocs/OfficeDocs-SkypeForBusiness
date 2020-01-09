@@ -29,12 +29,10 @@ If you've already optimized your network for Office 365, you're probably ready f
 
 1. Do you have a verified domain for Office 365 (for example, contoso.com)?
     -   If your organization hasn't rolled out Office 365, see [Getting Started with Office 365 for business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
-
     -   If your organization hasn't added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
 1. Has your organization deployed Exchange Online and SharePoint Online?
     - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
-
     - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
 Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
