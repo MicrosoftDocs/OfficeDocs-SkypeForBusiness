@@ -45,9 +45,9 @@ If your organization is running on-premises Skype for Business Server (or Lync S
 
 ## Use Network Planner
 
-For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool, in the [Teams admin center](https://admin.teams.microsoft.com) (**Planner** > **Network planner**). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool, in the [Teams admin center](https://admin.teams.microsoft.com). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
-For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
+For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example.md).
 
 
 ## Use Advisor for Teams
@@ -68,8 +68,8 @@ Reasons why you might want to do additional network optimization:
 For an in-depth discussion of network optimization for Teams, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
 
 **HEIDI: Can you de-geek the following sections at all? If it's possible to explain these things in plainer English, please do!**
-**HEIDI: I'm finding that a lot of the in-depth info from upgrade-prepare-environment-prepare-network is NOT included here. Trying to decide how to handle this. Keep the Upgrade topic & link to it (bookmarks)? Or pull everything into THIS topic?**
-**HEIDI: I need to fuss around with a better layout for this long laundry list. Suggestions?**
+**HEIDI: I'm finding that a lot of the in-depth info from upgrade-prepare-environment-prepare-network is NOT included here. Trying to decide how to handle this. Keep the Upgrade topic & link to it (bookmarks)? Or pull everything into THIS topic? My first inclination: Pull stuff into this topic (or create new topics, for this TOC section). I'd love to have all of this info in 1 place, well integrated and consistently voiced.**
+**HEIDI: I need to figure out a better layout for this long laundry list. Suggestions?**
 
 [Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9): When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
