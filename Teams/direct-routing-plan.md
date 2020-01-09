@@ -112,6 +112,14 @@ For more information about Phone System licensing, see [Get the most from Office
 
 For more information about Phone System licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
+## Supported end points 
+
+You can use as end point:
+- Any Teams cleintg. 
+- Common Area Phones, plese see [Set up the Common Area Phone license for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones). Note you do not need Calling Plan license when setting the Common Area Phone with Direct Routing.
+- Skype for Business 3PIP phones. Please read [Skype for Business phones (3PIP) support with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
+
 ## SBC domain names
 
 The SBC domain name must be from one of the names registered in “Domains” of the tenant. You cannot use the *.onmicrosoft.com tenant for the FQDN name of the SBC.
