@@ -71,7 +71,7 @@ For an in-depth discussion of network optimization for Teams, read [Media Qualit
 SCRATCH
 #### External Name Resolution
 
-Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365, and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
 #### **Intrusion Detection and Prevention Guidance**
 
@@ -93,7 +93,7 @@ We recommend that you provide an alternate path for Teams traffic that bypasses 
 > To implement a split-tunnel VPN, consult with your VPN vendor for configuration details. 
 
 [Configure packet prioritization by using QoS](qos-in-teams.md)
-Use Quality of Service (QoS) to improve call quality in Microsoft Teams and to monitor and troubleshoot call quality in Teams. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. When QoS is implemented, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
+Use Quality of Service (QoS) to improve call quality in Teams and to monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
 
 [Optimize Wi-Fi networks for quality and performance](prepare-environment-prepare-network.md)
 Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
@@ -105,7 +105,7 @@ Consult your Wi-Fi vendor for specific guidance.
 *See also*, [Wi-Fi recommendations for endpoints](envision-planning-for-service-management-and-quality-complete-guide#wi-fi-recommendations-for-endpoints).  **LOLA: THIS IS NOT IN THE TOC AND IS GOING AWAY. FIGURE OUT WHAT TO DO WITH THIS INFORMATION. DO NOT LINK TO IT HERE.**
 
 [Validate network connectivity by using the Network Assessment Tool](3-envision-evaluate-my-environment.md)
-Use the Network Assessment Tool (NAT) for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
+Use the Network Assessment Tool for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
 
 **LOLA: SIUNIE IS UPDATING THIS TOOL FOR TEAMS IN 2020. MAKE SURE WE LINK TO THE CORRECT LOCATION FOR IT HERE.**
 
