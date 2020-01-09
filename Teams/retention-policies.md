@@ -31,9 +31,9 @@ To learn more about retention policies for Office 365, see [Overview of retentio
 
 ## What are retention policies for Teams?
 
-Managing content involves retaining data so that it can't be permanently deleted before the end of the retention period, and deleting data permanently at the end of the retention period.
+When you set up a retention policy, for Teams or any other workload, you can set them up to do the following:
 
-- **Retain data**: Use a retention policy to ensure that your data is retained for a specified period of time, regardless of what happens in the Teams clients. Data is retained for compliance reasons and is available for eDiscovery until the retention period expires. You choose whether to permanently delete the data when the retention period expires. For example, if you create a Teams retention policy to retain channel messages for 7 years, the messages are retained for eDiscovery for 7 years, even if users delete their messages in Teams. 
+- **Retain data**: Use a retention policy to ensure that your data is retained for a specified period of time, regardless of what happens in the user app. Data is retained for compliance reasons and is available for eDiscovery until the retention period expires, after which your policy indicates whether to do nothing or delete the data. For example, if you create a Teams retention policy to retain channel messages for 7 years, the messages are retained for eDiscovery for 7 years, even if users delete their messages in Teams. 
 - **Delete data**: Use a retention policy to delete data to ensure that it's not a liability for your organization. With a Teams retention policy, when you delete data, it's permanently deleted from all storage locations on the Teams service.
 
 With retention policies for Teams, you can:
