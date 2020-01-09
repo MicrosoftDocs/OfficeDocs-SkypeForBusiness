@@ -43,13 +43,22 @@ If your organization is running on-premises Skype for Business Server (or Lync S
 
 Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
 
-## Why should you plan and prepare your network and environment?
+## Use Advisor for Teams
+For a guided journey through your Teams rollout, use [Advisor for Teams](use-advisor-teams-roll-out.md). In addition to creating a Deployment team that helps you manage your rollout, Advisor for Teams assesses your Office 365 environment and identifies the most ocmmon configurations that you may need to update or modify before you can successfully roll out Teams. Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com) (click the **Start** button in the **Deployment Teams workload** widget on the Dashboard).
 
-**LOLA: This is WAYYYYY too negative. Figure out a way to weave this message into the article in a positive manner.**
+## Use Network Planner
 
-Failing to prepare your network and environment will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of optimal and consistent performance.
+For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool, in the [Teams admin center](https://admin.teams.microsoft.com) (**Planner** > **Network planner**). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
-Before we look at the steps to be taken, it’s important to understand what can affect the performance of Teams and thereby user happiness and satisfaction. Three major risk areas can affect how users perceive network quality:
+For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
+
+**========> From Julia's optimize-network topic. This MAY include everything we need from prepare-environment-prepare-network and original prepare-network.**
+## Network optimization
+
+The following steps are optional aren't required for Teams to be up and running. Use this guidance to optimize your network if you want to improve Teams performance.
+
+Reasons why you might want to do additional network optimization:
+**LOLA: I want to list SYMPTOMS instead of root causes here. What are teh SYMPTOMS of each of these items?**
 
 - Insufficient bandwidth available
 
@@ -57,26 +66,11 @@ Before we look at the steps to be taken, it’s important to understand what can
 
 - Network impairments such as jitter and packet loss
 
-The steps described below will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution.
-Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
+**HEIDI: Can you de-geek the following sections at all? If it's possible to explain these things in plainer English, please do!**
 
-
-## Use Advisor for Teams
-
-
-## Use Network Planner
-
-If you want help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool located in the Teams Admin Center. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
-
-For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example).
-
-**========> From Julia's optimize-network topic. This MAY include everything we need from prepare-environment-prepare-network and original prepare-network.**
-## Network optimization
-
-The following steps are optional and not required for Teams to be up and running. You can complete the following tasks to optimize your network for added performance and features in any order.
-
-[Step 1: Validate the Network Assessment Tool (NAT) pool size required for user connectivity](https://docs.microsoft.com/en-us/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
+[Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9)
 Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
+
 
 [Step 2: Implement the most efficient routing to MS datacenters](https://docs.microsoft.com/en-us/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
 Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
