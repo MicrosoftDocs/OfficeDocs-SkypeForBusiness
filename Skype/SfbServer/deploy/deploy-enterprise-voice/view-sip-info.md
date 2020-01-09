@@ -28,7 +28,7 @@ In Skype for Business Server, however, multiple trunks can now be assigned to a 
 
 - The following command returns information about all the SIP trunks in use in your organization:
     
-  ```
+  ```powershell
   Get-CsTrunk
   ```
 
@@ -36,7 +36,7 @@ In Skype for Business Server, however, multiple trunks can now be assigned to a 
 
 - This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:
     
-  ```
+  ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
@@ -44,6 +44,6 @@ In Skype for Business Server, however, multiple trunks can now be assigned to a 
 
 - In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:
     
-  ```
+  ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```

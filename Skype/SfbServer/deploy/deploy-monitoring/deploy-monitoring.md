@@ -62,7 +62,7 @@ For step-by-step instructions on associating Front End servers or Front End pool
 
 In order to begin data collection you will need to enable CDR and/or QoE monitoring. (Note that you do not have to enable both CDR and QoE monitoring; if you prefer, you can enable one type of monitoring while leaving the other type disabled.) To enable CDR monitoring at the global scope run the following command from within the Skype for Business Server Management Shell:
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -76,7 +76,7 @@ Alternatively, you can enable CDR monitoring from within the Skype for Business 
 
 To enable QoE monitoring at the global scope, run this command from within the Skype for Business Server Management Shell:
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

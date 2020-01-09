@@ -28,13 +28,13 @@ After you have configured your network settings for call admission control deplo
     
 2. Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
     If you want to disable CAC in your network, run the following:
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
