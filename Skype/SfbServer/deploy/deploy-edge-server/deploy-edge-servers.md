@@ -114,13 +114,13 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Open up **Start**, and **Run** (or **Search** and **Run** ), and then type the following:
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example:
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
