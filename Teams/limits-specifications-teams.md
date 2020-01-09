@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karuanag
+ms.reviewer: 
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
