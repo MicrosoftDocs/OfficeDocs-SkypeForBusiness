@@ -34,7 +34,7 @@ You can get a better understanding of the types of modes that are available to y
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. Within the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), in the left navigation, go to **Org-wide settings** > **Teams upgrade**. 
+1. In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), in the left navigation, go to **Org-wide settings** > **Teams upgrade**. 
 
 2. At the top of the **Teams upgrade** page, make the following changes if they will work for you.
     - Set the **Coexistence** mode.
