@@ -40,6 +40,7 @@ A Cloud auto attendant has the following features:
 - It supports multiple languages for prompts, text-to-speech, and speech recognition.
 - It supports specifying holidays and business hours.
 - It supports transferring call to  an operator, other users, call queues, and auto attendants.
+- It supports shared voicemail for callers to leave a message for an organization.
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.

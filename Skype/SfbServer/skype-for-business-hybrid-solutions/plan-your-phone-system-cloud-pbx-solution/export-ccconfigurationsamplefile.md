@@ -19,7 +19,7 @@ The Export-CcConfigurationSampleFile cmdlet exports a Skype for Business Cloud C
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -34,7 +34,7 @@ None
 
 The following example downloads a sample configuration file from the Microsoft site and writes it to the appliance directory of the Cloud Connector appliance:
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 

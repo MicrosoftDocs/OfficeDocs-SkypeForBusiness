@@ -17,7 +17,7 @@ description: "Exports the Skype for Business Cloud Connector Edition configurati
  
 Exports the Skype for Business Cloud Connector Edition configuration to a local file on the Skype for Business Cloud Connector Edition host server.
   
-```
+```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 ```
 
@@ -28,7 +28,7 @@ Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 
 The following example sets the Path parameter as a full file path and exports configurations to that file.
   
-```
+```powershell
 Export-CcConfiguration -Path "C:\test\CloudConnector.ini" 
 ```
 
