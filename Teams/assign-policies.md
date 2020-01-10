@@ -222,14 +222,14 @@ If you don't set a priority, the policy assignment is given the lowest priority.
 If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
 
 ```
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted 
+Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
 ```
 
 If you have the Generally Available version of the Teams PowerShell module installed, run the following to uninstall it.
 
 ```
 Uninstall-Module MicrosoftTeams -AllVersions
-``
+```
 
 Run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
 
