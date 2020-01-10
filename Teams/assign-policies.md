@@ -101,7 +101,7 @@ Currently, batch policy assignment isn't available for all Teams policy types. S
 ### Install and connect to the Microsoft Teams PowerShell module
 
 > [!NOTE]
-> The cmdlets are in the pre-release version of the Teams PowerShell module from the PowerShell Test Gallery. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+> The cmdlets are in the pre-release version of the Teams PowerShell module. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
 
 If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
 
@@ -217,7 +217,7 @@ If you don't set a priority, the policy assignment is given the lowest priority.
 ### Install and connect to the Microsoft Teams PowerShell module
 
 > [!NOTE]
-> The cmdlets are in the pre-release version of the Teams PowerShell module from the PowerShell Test Gallery. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+> The cmdlets are in the pre-release version of the Teams PowerShell module. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
 
 If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
 
