@@ -100,14 +100,26 @@ Currently, batch policy assignment isn't available for all Teams policy types. S
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
+> [!NOTE]
+> The cmdlets are in the pre-release version of the Teams PowerShell module from the PowerShell Test Gallery. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+
+If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
+
+```
+Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
+```
+
+If you have the Generally Available version of the Teams PowerShell module installed, run the following to uninstall it.
+
+```
+Uninstall-Module MicrosoftTeams -AllVersions
+```
+
 Run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
 
 ```
 Install-Module MicrosoftTeams -Repository PSTestGallery
 ```
-
-> [!NOTE]
-> If you have the Generally Available version of the Teams PowerShell module installed, run ```Uninstall-Module MicrosoftTeams -AllVersions``` to uninstall it, and then install the Teams PowerShell module from the PowerShell Test Gallery.
 
 Run the following to connect to Teams and start a session.
 
@@ -204,14 +216,26 @@ If you don't set a priority, the policy assignment is given the lowest priority.
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
-If you haven't already, run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
+> [!NOTE]
+> The cmdlets are in the pre-release version of the Teams PowerShell module from the PowerShell Test Gallery. Follow these steps to first uninstall the Generally Available version of the Teams PowerShell module (if it's installed), and then install the latest pre-release version of the module from the PowerShell Test Gallery.
+
+If you haven't already, run the following to register the PowerShell Test Gallery as a trusted source.
+
+```
+Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted 
+```
+
+If you have the Generally Available version of the Teams PowerShell module installed, run the following to uninstall it.
+
+```
+Uninstall-Module MicrosoftTeams -AllVersions
+``
+
+Run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
 
 ```
 Install-Module MicrosoftTeams -Repository PSTestGallery
 ```
-
-> [!NOTE]
-> If you have the Generally Available version of the Teams PowerShell module installed, run ```Uninstall-Module MicrosoftTeams -AllVersions``` to uninstall it, and then install the Teams PowerShell module from the PowerShell Test Gallery.
 
 Run the following to connect to Teams and start a session.
 
