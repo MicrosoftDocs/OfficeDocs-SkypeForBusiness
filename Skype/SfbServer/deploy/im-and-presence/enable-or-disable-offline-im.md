@@ -29,7 +29,7 @@ Offline IM is a client side feature built into Skype for Business client (2016 C
     
 2. Run the following command to enable Offline IM.
     
-   ```
+   ```powershell
    Set-CsImConfiguration -EnableOfflineIM $True
    ```
 
@@ -38,7 +38,7 @@ Offline IM is a client side feature built into Skype for Business client (2016 C
   
 3. Run the following command to confirm the ability to store Offline IM's is set.
     
-   ```
+   ```powershell
    Get-CsImConfiguration
    ```
 
