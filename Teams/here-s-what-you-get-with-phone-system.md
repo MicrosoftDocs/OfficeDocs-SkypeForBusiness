@@ -37,8 +37,8 @@ Phone System provides the following features. Unless otherwise noted, features a
 |||
 |:-----|:-----|
 |**Phone System in Office 365 feature** <br/> |**Description** <br/> |
-|[Cloud auto attendants](what-are-phone-system-auto-attendants.md) <br/> |Create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> |
-|[Cloud call queues](create-a-phone-system-call-queue.md) <br/> |Set up greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold.  <br/> |
+|[Cloud auto attendants](what-are-phone-system-auto-attendants.md) <br/> |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> |
+|[Cloud call queues](create-a-phone-system-call-queue.md) <br/> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> |
 |Music on hold | Plays default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. On first release, this feature is not configurable by the administrator. Hold music is also not supported in consultative transfer of a PSTN call.|
 |Call answer/initiate (by name and number)  <br/> |Lets users answer inbound calls with a touch, and place outbound calls either by dialing the full phone number or clicking a name in the client.  <br/> |
 |[Call forwarding options and simultaneous ring](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Lets users set up forwarding rules so calls can go with them anywhere, or they can be forwarded to colleagues or to voicemail.  <br/> |
@@ -52,12 +52,13 @@ Phone System provides the following features. Unless otherwise noted, features a
 |[Integrated dial pad](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Lets users dial by name or by number anywhere in the search bar and in the dial pad, speeding up the process of making outbound calls. <br/> |
 |Federated calling  <br/> |Lets users search for anyone in the client directory, then securely connect, communicate, and collaborate with them.  <br/> |
 |[Make and receive a video call](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Lets users see the speaker's name and video stream in a small floating window.<br/> |
-|[Cloud voicemail](set-up-phone-system-voicemail.md) <br/> | When a user receives a voicemail, it is delivered to their Exchange mailbox as an email with the voicemail message as an attachment. They can also listen to their messages over their certified desktop phone,and all Teams or Skype for Business applications.   <br/> |
-|Reverse number lookup | Shows called ID for an external phone number if the number is associated with a user in Azure AD. If the phone number is not in Azure AD, the telco provided display name will be shown if it is available.  |
+|[Cloud voicemail](set-up-phone-system-voicemail.md) <br/> | When a user receives a voicemail, it is delivered to their Exchange mailbox as an email with the voicemail message as an attachment. Users can listen to their messages on their certified desktop phone, and on all Teams or Skype for Business applications.   <br/> |
+|Reverse number lookup | Shows the called ID for an external phone number if the number is associated with a user in Azure AD. If the phone number is not in Azure AD, the telco provided display name will be shown if it is available.  |
+|[Cloud voicemail user settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Lets users configure options such as voicemail greeting, call answer rules, out of office greeting, languages, and so on.  |
 |[Secondary ringer](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Lets users with multiple certified devices set one as the secondary ringer, which means the device will ring when a call comes in. |
-|[Distinctive ring alerts](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)<br/> |Lets a user play different ringtones for the different types of calls they get every day.  <br/> |
+|[Distinctive ring alerts](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)<br/> |Lets users play different ringtones for the different types of calls they get every day.  <br/> |
 |[Shared Line Appearance](shared-line-appeareance.md) <br/> | Lets a user choose a delegate to answer or handle calls on their behalf.|
-|[Busy on Busy](teams-calling-policy.md) (Teams Only?) <br/> | Calling policy that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. |
+|[Busy on Busy](teams-calling-policy.md) (Teams Only?) <br/> | A calling policy that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. |
 |[Call Blocking](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Lets users block unwanted PSTN calls.|
 |[Common Area Phones](set-up-common-area-phones.md) <br/> | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network.|
 |[Media bypass support](direct-routing-plan-media-bypass) (for Teams Direct Routing only) <br/> | For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. |
@@ -84,8 +85,10 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Set up Phone System](setting-up-your-phone-system.md)
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
+- [Monitor and manage call quality](monitor-call-quality-qos.md)
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Pricing for Phone System](https://products.office.com/microsoft-teams/voice-calling#requirements).
+- [Pricing for Phone System](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Teams for Virtualized Desktop Infrastructure with callings and meetings](teams-for-vdi#teams-on-vdi-with-calling-and-meetings)
 
   
  
