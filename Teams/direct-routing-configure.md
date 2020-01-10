@@ -188,9 +188,9 @@ Direct Routing requires the user to be homed in Skype for Business Online. You c
 1. Connect to remote PowerShell.
 2. Issue the command: 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### Configure the phone number and enable enterprise voice and voicemail 
 
@@ -201,9 +201,9 @@ To add the phone number and enable for voicemail:
 1. Connect to a remote PowerShell session. 
 2. Enter the command: 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 For example, to add a phone number for user "Spencer Low," you would enter the following: 
 
@@ -551,7 +551,7 @@ Sometimes tenant administrators may want to change the callee or caller number f
 
 The policy is applied at the SBC level. You can assign multiple translation rules to a SBC, which are applied in the order that they appear when you list them in PowerShell. You can also change the order of the rules in the policy.
 
-To create, modify, view, and delete number manipulation rules, use the New-CsTeamsTranslationRule, Set-CsTeamsTranslationRule, Get-CsTeamsTranslationRule, and Remove-CsTeamsTranslationRule cmdlets.
+To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) cmdlets.
 
 To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  ```InboundTeamsNumberTranslationRules```, ```InboundPSTNNumberTranslationRules```, ```OutboundTeamsNumberTranslationRules```, ```OutboundPSTNNumberTranslationRules```, ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList```, ```OutboundTeamsNumberTranslationRulesList```, and ```OutboundPSTNNumberTranslationRulesList``` parameters.
 
