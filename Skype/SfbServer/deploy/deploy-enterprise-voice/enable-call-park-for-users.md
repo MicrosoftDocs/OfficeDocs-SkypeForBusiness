@@ -48,13 +48,13 @@ You can enable Call Park at the global scope, or at the site scope or user scope
     
 3. Run:
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
     For example, to enable Call Park for the default global voice policy:
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 

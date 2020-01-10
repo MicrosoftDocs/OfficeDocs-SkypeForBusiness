@@ -17,7 +17,7 @@ description: "The Switch-CcVersion cmdlet disconnects the running appliance and 
  
 The Switch-CcVersion cmdlet disconnects the running appliance and switches to a newly deployed or backup appliance. 
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -28,7 +28,7 @@ Switch-CcVersion [-Force]
 
 The following example drains the services of the current running appliance, and then switches to a newly deployed or backup appliance:
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -36,7 +36,7 @@ Switch-CcVersion
 
 The next example drains the services of the current running appliance, and stops services forcibly if draining the services fails. The command then switches to a newly deployed or backup appliance:
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 
