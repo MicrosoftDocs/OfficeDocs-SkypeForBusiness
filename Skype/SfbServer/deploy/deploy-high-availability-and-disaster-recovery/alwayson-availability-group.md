@@ -133,7 +133,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - Open Skype for Business Server Management Shell and type the following cmdlet to create the SQL logins on this replica:
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -147,13 +147,13 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
   
 1. Fail over all data from the mirror to the principal node by opening Skype for Business Server Management Shell and typing the following cmdlet.
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     Repeat this cmdlet for each database type in the pool. You can use the following cmdlet to find all the database types stored in this pool.
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -291,7 +291,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
     - Open Skype for Business Server Management Shell and type the following cmdlet to create the SQL logins on this replica:
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -423,7 +423,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
     - Open Skype for Business Server Management Shell and type the following cmdlet to create the SQL logins on this replica:
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 
