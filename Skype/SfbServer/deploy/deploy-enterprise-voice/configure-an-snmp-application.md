@@ -33,7 +33,7 @@ If an SNMP application is installed and the Location Information service fails t
     
 2. Run the following cmdlet to configure the URL for the SNMP application. 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 

@@ -52,7 +52,7 @@ The Config.xml elements most commonly used for Skype for Business installation a
 
 The following example shows a Config.xml file for a typical silent installation of the Skype for Business client. 
 
-```
+```xml
 <Configuration Product="Lync"> 
   <OptionState Id="LOBiMain" State="Absent" Children="Force" /> 
   <Display Level="None" CompletionNotice="No" AcceptEula="Yes" /> 
