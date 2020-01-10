@@ -101,7 +101,16 @@ A batch can contain up to 20,000 users. You can specify users by their object Id
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
-If you haven't already, download and install the [Microsoft Teams Powershell module](https://www.powershellgallery.com/packages/MicrosoftTeams), and then run the following to connect to Teams and start a session.
+Run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
+
+```
+Install-Module MicrosoftTeams -Repository PSTestGallery
+```
+
+> [!NOTE]
+> If you have the Generally Available version of the Teams PowerShell module installed, run ```Uninstall-Module MicrosoftTeams -AllVersions``` to uninstall it, and then install the Teams PowerShell module from the PowerShell Test Gallery.
+
+Run the following to connect to Teams and start a session.
 
 ```
 Connect-MicrosoftTeams
@@ -197,7 +206,16 @@ If you don't set a priority, the policy assignment is given the lowest priority.
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
-If you haven't already, download and install the [Microsoft Teams Powershell module](https://www.powershellgallery.com/packages/MicrosoftTeams), and then run the following to connect to Teams and start a session.
+If you haven't already, run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
+
+```
+Install-Module MicrosoftTeams -Repository PSTestGallery
+```
+
+> [!NOTE]
+> If you have the Generally Available version of the Teams PowerShell module installed, run ```Uninstall-Module MicrosoftTeams -AllVersions``` to uninstall it, and then install the Teams PowerShell module from the PowerShell Test Gallery.
+
+Run the following to connect to Teams and start a session.
 
 ```
 Connect-MicrosoftTeams
