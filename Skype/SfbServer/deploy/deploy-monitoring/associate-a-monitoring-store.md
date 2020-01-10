@@ -49,7 +49,7 @@ After associating the monitoring store with a Front End pool you must publish th
     
 After the topology has been published you can then install the monitoring database on the computer that will host the monitoring store. The monitoring database can be installed by using the Skype for Business Server Management Shell and Windows PowerShell. To install the database locally (that is, to install the database on the same computer where you are running the Skype for Business Server Management Shell), start the Management Shell on the appropriate computer, then type in the following command and press ENTER:
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -59,7 +59,7 @@ To install the database on a remote computer (that is, a computer other than the
   
 For example, this command installs the monitoring database on the computer atl-sql-001.litwareinc.com:
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 

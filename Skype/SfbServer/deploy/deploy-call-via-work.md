@@ -53,13 +53,13 @@ After the prerequisites are in place, do the following:
 
 - Type the following cmdlet
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     For example, the following cmdlet sets the global phone number to 1-555-123-4567.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -67,13 +67,13 @@ After the prerequisites are in place, do the following:
 
 - Type the following cmdlet
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     For example, the following cmdlet creates a Call Via Work policy called ContosoUser1CvWP, requires the user to use an admin callback number, and sets that callback number to 1-555-789-1234.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -81,13 +81,13 @@ After the prerequisites are in place, do the following:
 
 - Type the following cmdlet
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
     For example, the following cmdlet assigns the Call Via Work policy "ContosoUser1CvWP" to the user named **ContosoUser1**.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

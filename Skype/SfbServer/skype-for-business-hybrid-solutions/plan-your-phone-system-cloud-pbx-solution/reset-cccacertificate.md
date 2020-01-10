@@ -17,7 +17,7 @@ description: "The Reset-CcCACertificate cmdlet reinstalls the Certification Auth
  
 The Reset-CcCACertificate cmdlet reinstalls the Certification Authority Service AD Server to create a new root CA certificate.
   
-```
+```powershell
 Reset-CcCACertificate
 ```
 
@@ -32,7 +32,7 @@ None
 
 The following example reinstalls the Certification Authority Service AD Server to create a new root CA certificate:
   
-```
+```powershell
 Reset-CcCACertificate
 ```
 
