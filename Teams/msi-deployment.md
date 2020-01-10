@@ -60,6 +60,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 
 - .NET framework 4.5 or later
 - Windows 7 or later
+- Windows Server 2012 R2 or later
 - 3 GB of disk space for each user profile (recommended)
 
 ### VDI installation
