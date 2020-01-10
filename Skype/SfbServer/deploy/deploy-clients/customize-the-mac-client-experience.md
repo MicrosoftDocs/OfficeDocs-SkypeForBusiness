@@ -56,7 +56,7 @@ defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.
 
 For reference, here is a sample settings file using default settings only: 
   
-```
+```console
 {
     BITApplicationDidEnterBackgroundTime = "1496164840.505589";
     BITApplicationWasLaunched = 1;
