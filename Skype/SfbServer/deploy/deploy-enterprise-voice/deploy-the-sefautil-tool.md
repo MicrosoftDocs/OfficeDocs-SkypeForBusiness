@@ -40,7 +40,7 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
     
 3. The SEFAUtil tool can be run only on a computer that is part of a trusted application pool. If needed, define a trusted application pool for the Front End pool where you plan to run SEFAUtil. At the command line, run:
     
-   ```
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
@@ -50,7 +50,7 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
 
 4. Define the SEFAUtil tool as a trusted application. At the command line, run:
     
-   ```
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
@@ -59,7 +59,7 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
   
 5. Enable the topology with your changes. At the command line, run:
     
-   ```
+   ```powershell
    Enable-CsTopology
    ```
 
@@ -71,7 +71,7 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
     
     b. Display the call forwarding settings of a user. At the command line, run:
     
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
    ```
 

@@ -37,7 +37,7 @@ A Public Switched Telephone Network (PSTN) usage record specifies a class of cal
 
 - To view information about all of your PSTN usages, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
 
-  ```
+  ```powershell
   Get-CsPstnUsage
   ```
 
