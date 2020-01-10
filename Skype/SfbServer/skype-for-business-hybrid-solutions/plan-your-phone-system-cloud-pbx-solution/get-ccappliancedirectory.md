@@ -19,7 +19,7 @@ The Get-CcApplianceDirectory cmdlet retrieves the working directory on the Skype
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -34,7 +34,7 @@ None
 
 The following example shows the current folder where configuration and virtual machine files of Cloud Connector components are stored:
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 

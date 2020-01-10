@@ -66,7 +66,7 @@ Skype Room System prompts users for authentication when they use the meeting joi
   
 The following command enables administrators to require authentication for all meetings, including unrestricted meetings: 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

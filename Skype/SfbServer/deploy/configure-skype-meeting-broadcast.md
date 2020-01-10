@@ -50,7 +50,7 @@ To enable federation with Skype for Business Online resources, you need to confi
    
 You can also enable federation with Skype for Business Online resources by running the following cmdlet in the Skype for Business Server Management Shell:
   
-```
+```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
@@ -74,7 +74,7 @@ Next, you need to add SIP Federated domains to the allowed domain list. Repeat t
     
 You can also configure the external access for SIP federated domains by running the following cmdlets in the Skype for Business Server Management Shell:
   
-```
+```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"
