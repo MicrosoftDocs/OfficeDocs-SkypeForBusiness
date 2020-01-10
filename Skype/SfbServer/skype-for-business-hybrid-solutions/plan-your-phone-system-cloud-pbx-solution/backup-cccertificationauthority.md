@@ -17,7 +17,7 @@ description: "The Backup-CcCertificationAuthority cmdlet backs up the Skype for 
  
 The Backup-CcCertificationAuthority cmdlet backs up the Skype for Business Cloud Connector Edition certification authority service to a file and saves it to the CA folder under the site share directory.
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 
@@ -32,7 +32,7 @@ None
 
 The following example backs up the certification authority service to a file and saves it to the CA folder under the site share directory:
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 

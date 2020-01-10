@@ -17,7 +17,7 @@ description: "The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Co
 
 The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode. The appliance immediately stops all services, ending any ongoing calls and rejecting any new calls.
   
-```
+```powershell
 Enter-CcUpdate
 ```
 
@@ -32,7 +32,7 @@ None
 
 The following example prepares the appliance for the update process by entering maintenance mode:
   
-```
+```powershell
 Enter-CcUpdate 
 ```
 
