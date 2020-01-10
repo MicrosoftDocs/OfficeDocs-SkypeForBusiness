@@ -22,7 +22,7 @@ Skype Room System relies on the Join Skype for Business Meeting link in the cale
   
 The reason for this limitation is that Outlook and Microsoft Exchange do not use a special method to package information for sending messages across the Internet. This method, referred to as Transport Neutral Encapsulation Format (TNEF), is disabled by default for messages sent externally from an Exchange organization. For a meeting join link to appear on a remote Skype Room System, the sending organization must enable TNEF by using the following command:
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
