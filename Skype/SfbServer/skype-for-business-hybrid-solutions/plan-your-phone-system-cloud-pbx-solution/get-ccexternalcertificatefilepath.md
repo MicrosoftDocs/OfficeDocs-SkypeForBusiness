@@ -19,7 +19,7 @@ The Get-CcExternalCertificateFilePath cmdlet returns the external certificate fi
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
 ```
 
@@ -30,7 +30,7 @@ Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationSer
 
 The following example shows the path of the certificate for the Edge Server:
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
 ```
 
@@ -38,7 +38,7 @@ Get-CcExternalCertificateFilePath -Target EdgeServer
 
 The following example shows the certificate set for the Mediation Server:
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
 ```
 

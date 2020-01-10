@@ -37,13 +37,13 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 3. Type the following and press Enter:
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. Type the following and press Enter:
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -53,13 +53,13 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 6. In the PowerShell window, type the following and press Enter:
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. Import the session by typing the following cmdlet:
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -67,13 +67,13 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     For example:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -109,7 +109,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 - Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -117,7 +117,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 - The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -128,7 +128,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 - Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer. After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway. A service scope dial plan takes precedence over the global dial plan:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -145,7 +145,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 - Use the [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -153,7 +153,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 - The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -164,7 +164,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 - Use the Grant-CsVoiceRoutingPolicy to unassign any per-user voice routing policy previously assigned to Ken Myer. After the per-user voice routing policy is unassigned, Ken Myer will automatically be managed by using the global voice routing policy.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

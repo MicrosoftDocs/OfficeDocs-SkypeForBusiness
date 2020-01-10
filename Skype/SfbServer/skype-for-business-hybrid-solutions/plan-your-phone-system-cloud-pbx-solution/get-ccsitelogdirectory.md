@@ -19,7 +19,7 @@ The Get-CcSiteLogDirectory cmdlet shows the current directory where the site lev
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 
@@ -34,7 +34,7 @@ None
 
 The following example shows the current folder where the log files for the Cloud Connector site are stored:
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 
