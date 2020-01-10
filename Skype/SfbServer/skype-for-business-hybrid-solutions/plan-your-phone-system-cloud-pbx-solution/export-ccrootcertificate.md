@@ -17,7 +17,7 @@ description: "The Export-CcRootCertificate cmdlet exports the root CA certificat
  
 The Export-CcRootCertificate cmdlet exports the root CA certificate to a local file on the Skype for Business Cloud Connector Edition host server. 
   
-```
+```powershell
 Export-CcRootCertificate [[-Path] <string>]
 ```
 
@@ -28,7 +28,7 @@ Export-CcRootCertificate [[-Path] <string>]
 
 The following example sets the Path parameter as a directory path—not a file path. It generates the file c:\test\CCERootCertificates.p7b.
   
-```
+```powershell
 Export-CcRootCertificate -Path "C:\test" 
 ```
 

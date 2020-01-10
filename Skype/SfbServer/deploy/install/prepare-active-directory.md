@@ -126,7 +126,7 @@ Watch the video steps for **Prepare Active Directory**:
     
     b. Use the command Get-CsAdDomain to verify replication within the domain.
     
-   ```
+   ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
@@ -135,7 +135,7 @@ Watch the video steps for **Prepare Active Directory**:
   
     Example of running the command for the contoso.local domain:
     
-   ```
+   ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 

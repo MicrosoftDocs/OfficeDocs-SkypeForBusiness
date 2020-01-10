@@ -17,7 +17,7 @@ description: "The Update-CcServerCertificate cmdlet renews the certificates for 
  
 The Update-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. 
   
-```
+```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -28,7 +28,7 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 The following example renews the certificates for the Central Management Store, Mediation Server, and Edge Server when the certificates are near expiration or already expired:
   
-```
+```powershell
 Update-CcServerCertificate
 ```
 
@@ -36,7 +36,7 @@ Update-CcServerCertificate
 
 The next example renews the certificates for Mediation Server and Edge Server when they are near expiration or already expired:
   
-```
+```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
 ```
 
