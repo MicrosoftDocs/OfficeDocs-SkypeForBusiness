@@ -49,7 +49,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
 1. Open a PowerShell console as administrator and confirm that the Skype for Business Cloud Connector Edition cmdlets are available using the following cmdlet:
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -59,7 +59,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
     You can find the location of the **Site Directory** with the following cmdlet:
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -73,7 +73,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
      To set the **Site Directory** to a location other than the default, run the following cmdlet:
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -85,13 +85,13 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
     To find the location of the **Appliance Directory**, run the following cmdlet:
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     To set the **Appliance Directory** to a location other than the default, run the following cmdlet:
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -104,7 +104,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
 - Run the following cmdlet to set the path, including the file name, to the external Edge certificate. For example: C:\certs\cce\ap.contoso.com.pfx. The certificate must contain private keys.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -120,7 +120,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
 
 If you are using TLS between the Mediation Server and the PSTN gateway/SBC, run the following cmdlet to set the path, including the file name, to the gateway certificate. For example: C:\certs\cce\sbc.contoso.com.cer. The certificate must contain the root CA and the intermediate chain for the certificate assigned to the gateway:
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -149,7 +149,7 @@ Prepare the CloudConnector.ini file using the information you gathered in [Deter
 
 To update the file, first run the following cmdlet to get the sample template (CloudConnector.Sample.ini):
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -222,7 +222,7 @@ When updating the .ini file, consider the following:
 
 Run the following cmdlet to download the bits and version information files to the **Site Directory**:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -250,7 +250,7 @@ Before proceeding with this step, make sure that the corpnet switch is created. 
 
 Start a PowerShell console as administrator and run the following cmdlet to convert the ISO image to a virtual hard disk (VHD):
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -273,13 +273,13 @@ If you are deploying a multi-site deployment, you do not need to convert the ISO
 
 The PowerShell scripts provided require that the execution policy be set to RemoteSigned. To see the current setting, open a PowerShell console as administrator and then run the following cmdlet:
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 If it is not set to "RemoteSigned," run the following cmdlet to change it:
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 

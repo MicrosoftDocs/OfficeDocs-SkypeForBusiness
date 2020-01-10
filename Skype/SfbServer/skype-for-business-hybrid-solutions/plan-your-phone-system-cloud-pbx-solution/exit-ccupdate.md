@@ -19,7 +19,7 @@ The Exit-CcUpdate cmdlet exits update maintenance mode on the Skype for Business
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2. 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -34,7 +34,7 @@ None
 
 The following command puts the appliance on which it runs back into production mode: 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 

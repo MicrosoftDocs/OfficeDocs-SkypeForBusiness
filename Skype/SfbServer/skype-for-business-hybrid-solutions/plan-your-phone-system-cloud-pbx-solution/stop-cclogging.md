@@ -17,7 +17,7 @@ description: "The Stop-CcLogging cmdlet stops generating the incoming and outgoi
  
 The Stop-CcLogging cmdlet stops generating the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance.
   
-```
+```powershell
 Stop-CcLogging [-RemoveCache]
 ```
 
@@ -28,7 +28,7 @@ Stop-CcLogging [-RemoveCache]
 
 The following example stops generating the incoming and outgoing call log: 
   
-```
+```powershell
 Stop-CcLogging
 ```
 
@@ -36,7 +36,7 @@ Stop-CcLogging
 
 The next example stops generating the incoming and outgoing call log and cleans up the cache files:
   
-```
+```powershell
 Stop-CcLogging -RemoveCache
 ```
 

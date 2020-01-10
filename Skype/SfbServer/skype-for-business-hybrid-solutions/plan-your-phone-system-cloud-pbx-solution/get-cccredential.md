@@ -19,7 +19,7 @@ The Get-CcCredential cmdlet returns the credential of the current Skype for Busi
   
 With Version 2.0 and later, you can also use the -DisplayPassword parameter to show the passwords for TenantAdmin, DomainAdmin, and VMAdmin.
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
@@ -30,7 +30,7 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 The following example returns the credential of the domain administrator of the Cloud Connector virtual machine domain:
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
@@ -43,7 +43,7 @@ The Get-CcCredential cmdlet returns an instance of the System.Management.Automat
   
 If you want to get the clear text of the domain administrator password, be sure the password is input by your current logon account on the host server, and then open a PowerShell console as administrator and run the below script:
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
