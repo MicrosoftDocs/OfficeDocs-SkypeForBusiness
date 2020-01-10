@@ -188,9 +188,9 @@ Direct Routing requires the user to be homed in Skype for Business Online. You c
 1. Connect to remote PowerShell.
 2. Issue the command: 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### Configure the phone number and enable enterprise voice and voicemail 
 
@@ -201,9 +201,9 @@ To add the phone number and enable for voicemail:
 1. Connect to a remote PowerShell session. 
 2. Enter the command: 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 For example, to add a phone number for user "Spencer Low," you would enter the following: 
 
