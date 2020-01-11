@@ -23,7 +23,7 @@ Deploying one or more per-user archiving policies is optional. You can also depl
 
 After creating at least one per-user archiving policy, use the procedures in this topic to assign the policy that appropriately specifies whether a particular user’s internal communications, external communications, or both, will be archived by the server.
 
-For details about creating per-user archiving policies, see [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+For details about creating per-user archiving policies, see [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-create-archiving-policy-sites-users.md).
 
 ## To assign a per-user archiving policy
 
@@ -110,7 +110,7 @@ For more information, see the help topic for the [Grant-CsArchivingPolicy](https
 ## See Also
 
 
-[Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of internal or external communications for specific sites or users](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
