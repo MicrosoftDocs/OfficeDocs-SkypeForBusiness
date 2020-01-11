@@ -66,7 +66,7 @@ You initially set up Archiving configurations when you deploy Archiving, but you
 
   - [Enabling or disabling the purging of archived data in Lync Server 2013](lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md)
 
-  - [Enabling or disabling critical mode in Lync Server 2013 to block or allow IM and web conferencing sessions if Archiving fails](lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md)
+  - [Enabling or disabling critical mode in Lync Server 2013 to block or allow IM and web conferencing sessions if Archiving fails](lync-server-2013-enable-disable-critical-mode.md)
 
   - [Enable or disable sending an Archiving disclaimer to federated partners in Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
