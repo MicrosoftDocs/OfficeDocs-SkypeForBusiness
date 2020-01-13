@@ -1,12 +1,12 @@
 ---
 title: Prepare your network for Microsoft Teams|  Port Firewall Requirements
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: jastark, kojika
 description: Use this guidance to prepare your network for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150
@@ -172,8 +172,6 @@ You should test both segments by using the Network Assessment Tool. To test the 
 
 Note that both segments must meet the requirements for a high-quality deployment. We recommend that you run the tool multiple times for one hour straight to get a good indication of your network’s performance.
 
-<!--ENDOFSECTION-->
-
 ## Network remediation
 
 If the results of bandwidth planning, port testing, or network requirements testing show that your current network needs remediation before you deploy Teams, you can accomplish this in several ways:
@@ -188,13 +186,6 @@ Quality of service (QoS) can be used to battle impairments by prioritizing and s
 
 >[!NOTE]
 >Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
-
-<table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. </li><li>Perform network remediation based on the results of the network readiness assessment for every network segment.</li></ul></td></tr>
-</table>
-
-<!--ENDOFSECTION-->
 
 ## Key takeaways
 
