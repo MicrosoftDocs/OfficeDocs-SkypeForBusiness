@@ -68,6 +68,8 @@ Standard Edition and Enterprise Edition server can use any of the following:
 
 Install the operating system software on the Standard Edition Server or Enterprise Edition Front End Server. Apply all updates in order to bring the operating system up to the latest update and required update level consistent with your organization’s standards. For more details about the operating requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.
 
+> [!NOTE] In-place upgrade of the operating system is not supported with Lync Server 2013.  You must deploy a separate pool and migrate users to the new pool with a different operating system.
+
 <div>
 
 
