@@ -50,7 +50,7 @@ These determine who can join the team:
 Team user types determine how much control a team member has:
 
 -   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
+-   _Team owner_ manages membership and settings for the team. There can be as many as 100 team owners per team.
 -   _Team member_ is a member of your organization who participates in a team.
 -   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
