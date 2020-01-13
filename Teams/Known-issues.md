@@ -36,6 +36,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See this support article: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |6/21/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Removing a user from a team doesn't remove them from backend SharePoint site.  <br/> |When you remove a user from a team using either the UI or PowerShell, they are not removed from the backend SharePoint site.   <br/> |TBD <br/> |1/13/19  <br/> |
+
 ## Apps
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
