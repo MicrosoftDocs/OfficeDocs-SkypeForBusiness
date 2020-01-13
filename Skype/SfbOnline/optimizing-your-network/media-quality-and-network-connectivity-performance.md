@@ -165,6 +165,9 @@ The following are the network performance targets or thresholds that are require
 <a name="bkNetworkPerf"> </a>
 
 To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites. 
+
+>[!NOTE]
+> Measuring network performance through ping (ICMP) is not effective. For that reason, the anycast IP expose below will stop answering to ICMP requests starting in Jan, 2020. To measure network performace effectively, Microsoft recommends the [Network Assesment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885).
   
 For testing Internet connections to the Microsoft network, it is recommended that you test against the following VIPs of the Skype for Business media relays. The *Anycast VIP*  will resolve to an IP address of a Media Relay in a Microsoft network Edge site that is closest to the testing location.
   
