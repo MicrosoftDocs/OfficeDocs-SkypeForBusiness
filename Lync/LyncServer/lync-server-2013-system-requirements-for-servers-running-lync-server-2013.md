@@ -76,7 +76,7 @@ Install the operating system software on the Standard Edition Server or Enterpri
 
 
 > [!NOTE]  
-> For Lync Server 2013 to work on Windows Server 2012 R2, you may need to change the value of a registry key in Windows Server. This change may be necessary for certificates to work correctly, and for clients to register with Survivable Branch Appliances. For more information, see <A class=uri href="https://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>.
+> For Lync Server 2013 to work on Windows Server 2012 R2, you may need to change the value of a registry key in Windows Server. This change may be necessary for certificates to work correctly, and for clients to register with Survivable Branch Appliances. For more information, see <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>.
 
 
 
