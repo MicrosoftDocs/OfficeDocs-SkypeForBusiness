@@ -114,7 +114,7 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ### Allow channel meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add a channel** option won't be available to the user when they schedule a meeting from Teams.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add a channel** option is disabled for users in Teams.
 
 ![Screenshot showing the Schedule a meeting option in Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -124,7 +124,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
 
-Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Schedule a meeting** option won't be available and users will be unable to schedule meetings in Teams.
+Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams.
 
 <a name="bkaudioandvideo"> </a>
 
