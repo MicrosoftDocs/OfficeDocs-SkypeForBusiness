@@ -20,7 +20,7 @@ appliesto:
 
 ## Network requirements
 
-If you've already optimized your network for Office 365, you're probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
+If you've already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
 
 1. Do all your locations have internet access (so they can connect to Office 365)? At a minimum, verify that the following common ports are open to the internet from all locations:
 
@@ -35,7 +35,7 @@ If you've already optimized your network for Office 365, you're probably ready f
     - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
     - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
-Once you've got your network ready for Teams, go to [How to roll out Teams](How-to-roll-out-teams.md) to get started.
+Once you've verified that you meet these network requirements, you may be ready to [Roll out Teams](How-to-roll-out-teams.md). If you're a large multinational enterprise, or if you know you've got some network limitations, read on to learn how to assess and optimize your network for Teams.
 
 ### For educational institutions
 If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
@@ -43,26 +43,21 @@ If your organization is an educational institution and you use a Student Informa
 ### Running on-premises Skype for Business Server
 If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
 
-
-
 ## Network optimization
 
 The following tasks are optional and aren't required for rolling out Teams. Use this guidance to optimize your network if you want to improve Teams performance.
 
 Reasons why you might want to do additional network optimization:
 
-**LOLA: I want to list SYMPTOMS instead of root causes here. What are the SYMPTOMS of each of these items?**
-
-- Insufficient bandwidth available
-- Firewall and proxy blockers
-- Network impairments such as jitter and packet loss
+- Teams runs slowly (maybe you have insufficient bandwidth)
+- Calls keep dropping (might be due to firewall or proxy blockers)
+- Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
 
 For an in-depth discussion of network optimization for Teams, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
 
 [Network Planner](network-planner.md): For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the Network Planner tool, in the [Teams admin center](https://admin.teams.microsoft.com). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example.md).
-
 
 [Advisor for Teams](use-advisor-teams-roll-out.md): Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. 
 
@@ -86,10 +81,6 @@ Other reasons why we recommend bypassing the VPN: VPNs are typically not designe
 
 Optimize your Wi-Fi networks: Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
 
-*See also*, [Wi-Fi recommendations for endpoints](envision-planning-for-service-management-and-quality-complete-guide.md#wi-fi).  **LOLA: THIS IS NOT IN THE TOC AND IS GOING AWAY. FIGURE OUT WHAT TO DO WITH THIS INFORMATION. DO NOT LINK TO IT HERE.**
-
-Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
-
 There are several factors that come into play for optimizing a Wi-Fi network:
 
 - Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
@@ -101,7 +92,6 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 - When access points of the same channel are too close together they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don’t overlap.
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your vendor for specific guidance.
-
 
 [Monitor your network using CQD and call analytics](turning-on-and-using-call-quality-dashboard.md): You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](set-up-call-analytics.md).
 
@@ -137,7 +127,7 @@ Microsoft Teams gives you the best audio, video and content sharing experience r
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
-**REVIEWERS: The following information was commented out of the article. It's in more depth than the bandwidth-requirements article included above. Keep or kill?**
+**<font color="red">REVIEWERS: The following information was commented out of the article. It's in more depth than the bandwidth-requirements article included above. Keep or kill?</font>**
 
 > [!IMPORTANT]
 >If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
@@ -155,13 +145,11 @@ Microsoft Teams gives you the best audio, video and content sharing experience r
 
 ## Firewall and proxy requirements
 
-Microsoft Teams connects to Microsoft Online Services and needs internet connectivity for this. For Teams to function correctly, you must open TCP ports 80 and 443 from the clients to the internet, and UDP ports 3478 through 3481 from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint Online, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
+TCP ports 80 and 443 are used to connect to web-based content such as SharePoint Online, Exchange Online, and Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports (3478 through 3481) are used for media such as audio and video, to ensure they flow correctly.
 
-Opening these ports is essential for a reliable Teams deployment. Blocking these ports is unsupported and will affect media quality.
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
 
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. You can subscribe to [this RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when changes occur. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. You can find out more about the functionality of this tool in the next section.
-
-In the event of a proxy server being deployed, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s very likely that quality will be reduced due to media’s being forced to use TCP instead of UDP. For more information about proxy servers and bypassing, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+If you use one, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s likely that quality will be reduced due to media using TCP instead of UDP. For more information about proxy servers and bypassing them, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
 
 
 ## Related Topics
