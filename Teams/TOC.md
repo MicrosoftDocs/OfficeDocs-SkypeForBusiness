@@ -684,6 +684,7 @@
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
 ### [Use the Network Testing Companion](use-network-testing-companion.md)
+### [Optimize network and media performance](optimize-network-media-performance.md)
 
 ## Install Teams
 ### [Get clients for Teams](get-clients.md)
