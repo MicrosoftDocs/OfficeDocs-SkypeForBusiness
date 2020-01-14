@@ -53,33 +53,51 @@ Reasons why you might want to do additional network optimization:
 - Calls keep dropping (might be due to firewall or proxy blockers)
 - Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
 
-For an in-depth discussion of network optimization for Teams, including guidance for identifying and fixing network impairments, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
+For an in-depth discussion of network optimization for Teams, including guidance for identifying and fixing network impairments, read [Optimize network and media performance for Teams](optimize-network-media-performance.md).
 
-[Network Planner](network-planner.md): For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the Network Planner tool, in the [Teams admin center](https://admin.teams.microsoft.com). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
+### Network planner
+
+For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the [Network Planner](network-planner.md) tool, in the [Teams admin center](https://admin.teams.microsoft.com). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
 For an example scenario, see [Using Network Planner - example scenario](tutorial-network-planner-example.md).
 
-[Advisor for Teams](use-advisor-teams-roll-out.md): Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. 
+### Advisor for Teams 
 
+[Advisor for Teams](use-advisor-teams-roll-out.md) is part of the [Teams admin center](https://admin.teams.microsoft.com). It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. 
 
-[Validate network connectivity by using the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885): Use the Network Assessment Tool for Teams to test connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
+### Network Assessment Tool
 
+Use the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test network connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
 
-[Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9): When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
+### Validate (NAT) pool size
 
-[Implement the most efficient routing to Microsoft data centers](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b): Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
+Validate the network address translation (NAT) pool size required for user connectivity. When multiple users and devices access Office 365 using [Network Address Translation (NAT) or Port Address Translation (PAT)](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
-Intrusion Detection and Prevention Guidance: If your environment has an [Intrusion Detection](https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools) or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Office 365 URLs.
+### Routing to Microsoft data centers
 
-External Name Resolution: Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+[Implement the most efficient routing to Microsoft data centers](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b).  Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
 
-Configure split-tunnel VPN: We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 doesn't go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor. 
+### Intrusion Detection and Prevention Guidance
+
+If your environment has an [Intrusion Detection](https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools) or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Office 365 URLs.
+
+### External Name Resolution
+
+Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+
+### Configure split-tunnel VPN
+
+We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 doesn't go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor. 
 
 Other reasons why we recommend bypassing the VPN: VPNs are typically not designed or configured to support real-time media. Some VPNs might also not support UDP (which is required for Teams). VPNs also introduce an extra layer of encryption on top of media traffic that’s already encrypted. Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device. 
 
-[Configure packet prioritization by using QoS](qos-in-teams.md): Use Quality of Service (QoS) to improve call quality in Teams and to monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
+### Implement QoS
 
-Optimize your Wi-Fi networks: Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
+[Use Quality of Service (QoS)](qos-in-teams.md) to configure packet prioritization. This will improve call quality in Teams and help you monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
+
+### Optimize Wi-Fi
+
+Similar to  VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
 
 There are several factors that come into play for optimizing a Wi-Fi network:
 
@@ -93,10 +111,14 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your vendor for specific guidance.
 
-[Monitor your network using CQD and call analytics](turning-on-and-using-call-quality-dashboard.md): You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](set-up-call-analytics.md).
+### Monitor your network using CQD and call analytics
+
+Use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](set-up-call-analytics.md).
 
 
 ## Related Topics
+
+[Optimize network and media performance in Teams](optimize-network-media-performance.md)
 
 [Video: Network Planning](https://aka.ms/teams-networking)
 
