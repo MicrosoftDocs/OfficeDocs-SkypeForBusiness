@@ -65,7 +65,7 @@ The following clients are currently supported.  Check back often to see updates 
 
 - Teams desktop client for Windows
 - Teams desktop client for Mac
-- Teams mobile client for IOS client version 1.0.92.2019121004 and App Store version 1.0.91 and greater
+- Teams mobile client for IOS client version 1.0.92.2019121004 and App Store version 1.0.92 and greater
 - Teams mobile client for Android client and store version 1416/1.0.0.2019121201 and greater
 
 ## Assign emergency addresses
