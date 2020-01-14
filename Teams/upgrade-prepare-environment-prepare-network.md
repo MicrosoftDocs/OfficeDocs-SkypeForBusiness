@@ -80,35 +80,6 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 > [!NOTE]
 > This is the same Network Readiness Assessment that we recommend be run by customers who are looking to successfully deploy Skype for Business.
 
-
-### Wi-Fi
-
-Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
-
-There are several factors that come into play for optimizing a Wi-Fi network:
-
-- Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
-
-- Planning and optimizing the Wi-Fi bands and access point placement. The 2.4 GHz range might provide an adequate experience depending on access point placement, but access points are often affected by other consumer devices that operate in that range. The 5 GHz range is better suited to real-time media due to their dense range but requires more access points to get sufficient coverage. Endpoints also need to support that range and be configured to leverage those bands accordingly.
-
-- If dual-band Wi-Fi networks are deployed, consider implementing band steering. _Band steering_ is a technique implemented by Wi-Fi vendors to influence dual-band clients to use the 5 GHz range.
-
-- When access points of the same channel are too close together they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don’t overlap.
-
-Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
-
-
-
-
-<!--ENDOFSECTION-->
-
-## Additional network considerations
-
-### External name resolution
-
-Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365.
-
-
 ## Test the network
 
 After you’ve completed your planning and network preparation—including upgrading bandwidth and opening ports in the firewall—you should test your network’s performance. The results of this testing will paint a clearer picture of any network optimization or remediation required for the success of your Teams implementation.
