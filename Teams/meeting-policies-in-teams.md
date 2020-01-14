@@ -257,6 +257,9 @@ Let's look at the following example.
 
 Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek whereas Babek can't give control to other participants.
 
+> [!NOTE]
+> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix. 
+
 ### Allow an external participant to give or request control
 
 This is a per-user policy. This setting controls whether external participants in a meeting can give control of their shared desktop or window to other participants in the meeting. External participants in Teams meetings can be categorized as follows:  
