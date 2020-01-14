@@ -674,7 +674,6 @@
 # Reference
 
 ## Get ready to roll out Teams
-### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ### [Use Network Planner for Teams](network-planner.md)

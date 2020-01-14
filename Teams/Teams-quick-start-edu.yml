@@ -41,11 +41,10 @@ items:
   
     ## Before you begin
     
-    1. [Check your environment’s readiness for Teams](environment-readiness.md).
-    2. [Deploy School Data Sync](https://docs.microsoft.com/SchoolDataSync) to make it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
-    3. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
-    4. [Prepare your school's network for Teams](prepare-network.md).
-    5. Choose a team type. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+    1. [Deploy School Data Sync](https://docs.microsoft.com/SchoolDataSync) to make it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
+    2. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
+    3. [Prepare your school's network for Teams](prepare-network.md).
+    4. Choose a team type. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 - title: Quick start - Teams planning guide
   durationInMinutes: 4
