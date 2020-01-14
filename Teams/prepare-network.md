@@ -53,7 +53,7 @@ Reasons why you might want to do additional network optimization:
 - Calls keep dropping (might be due to firewall or proxy blockers)
 - Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
 
-For an in-depth discussion of network optimization for Teams, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
+For an in-depth discussion of network optimization for Teams, including guidance for identifying and fixing network impairments, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
 
 [Network Planner](network-planner.md): For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the Network Planner tool, in the [Teams admin center](https://admin.teams.microsoft.com). When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.
 
@@ -94,6 +94,44 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your vendor for specific guidance.
 
 [Monitor your network using CQD and call analytics](turning-on-and-using-call-quality-dashboard.md): You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](set-up-call-analytics.md).
+
+## Test the network
+
+After you're done optimizing your network, test it to see if your optimizations worked. Did your changes give you the network-performance improvements you were looking for?
+
+Best practice: Take baseline readings once in a while, when your network is working well. This gives you something to compare against when you're having problems. Similarly, if you do a major update to your network, take another baseline.
+
+Download the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams. This tool tests whether all the correct ports are open, and it can identify network impairments.
+
+After you download and install the tool, you'll find it in C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool. A detailed guide for how to use the tool, Usage.docx, is included in that directory.
+
+### Test for opened ports
+
+To test for opened ports, open a Command prompt window and navigate to the Network Assessment Tool directory by entering **cd C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool**. At the command prompt, start the test for opened ports by entering **networkassessmenttool.exe /connectivitycheck**.
+
+After running the checks, the tool will either display the message “Verifications Completed Successfully” or report on the ports that were blocked. It also generates a file named Connectivity_results.txt, which contains the output from the tool and stores it in the %userprofile%\\appdata\\local\\microsoft skype for business network assessment tool\\ directory.
+
+Best practice: Run the connectivity checks on a regular basis to ensure that ports are open and functioning correctly.
+
+### Test for network impairments
+
+Network impairments affect Teams performance, so you'll want to find and remediate them. The most common network impairments are delay (latency), packet loss, and jitter.
+
+- **Latency:** This is the time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including additional overhead taken by the various routers in between. Latency is measured as one-way or round-trip time.
+
+- **Packet loss**: This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact to back-to-back burst losses that cause audio to cut out completely.
+
+- **Inter-packet arrival jitter, or simply jitter:** This is the average change in delay between successive packets. Most modern VoIP software, including Skype for Business, can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
+
+The maximum values for these impairments are described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance). When testing for these impairments, we distinguish between two separate segments:
+
+- The *edge segment* is the segment in which your router lives. This is the closest logical network segment connected to the internet at each of your locations. In most cases, this is the connection point of the router, or possibly a perimeter network (also known as *DMZ*, *demilitarized zone*, and *screened subnet*). No further traffic that affects devices other than the router should occur between this segment and the internet.
+
+- The *client segment* is the logical network segment in which your clients reside.
+
+You should test both segments by using the Network Assessment Tool. To test the segment, navigate to the directory and enter **networkassessmenttool.exe** at the command prompt. The results are written to a file named Results.tsv, and you can compare them to the [requirements](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for each segment.
+
+For best Teams performance, both segments should meet the requirements. Best practice: Run the tool multiple times for one hour straight to get a good indication of your network’s performance.
 
 ## How network traffic flows in Teams
 
