@@ -46,7 +46,7 @@ Once you've verified that you meet these network requirements, you may be ready 
 
 The following tasks are optional and aren't required for rolling out Teams. Use this guidance to optimize your network if you want to improve Teams performance.
 
-Reasons why you might want to do additional network optimization:
+You might want to do additional network optimization if:
 
 - Teams runs slowly (maybe you have insufficient bandwidth)
 - Calls keep dropping (might be due to firewall or proxy blockers)
