@@ -23,7 +23,7 @@ description: "This topic describes the set of network performance requirements f
 
 **<font color="red">LOLA: 1) Make full pass to remove SfB, repl w/Teams. 2) Incorp stuff removed from prepare-network (appended at end of this article for now).</font>**
 
-This topic defines the set of network performance requirements for Microsoft Teams. It provides in-depth guidance for assessing and optimizing your network for best Teams performance. 
+This article describes the set of network performance requirements for Microsoft Teams. It provides in-depth guidance for assessing and optimizing your network for best Teams performance. 
 
 If you're just starting your Teams rollout, begin by reading [Prepare your organization's network for Teams](prepare-network.md).
   
@@ -36,13 +36,13 @@ The quality of Real-Time media (audio, video, and application sharing) over IP i
 
 ### Factors that impact Teams media quality
 
-There are many different factors that contribute to Skype for Business Online Real-Time media (audio, video, and application sharing) quality that include the devices that are used, the environment, and the network connectivity. 
+There are many different factors that contribute to Teams real-time media (audio, video, and application sharing) quality that include the devices that are used, the environment, and the network connectivity. 
   
 #### Devices
 
 In a Real-Time media session, media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices, on the other hand, help with echo cancellation, noise filtering, video resolution and reduce latency.
   
-Although certified audio and video media devices aren't required, it's highly recommended devices certified for Skype for Business for the most optimal media experience. For a list of all Skype for Business certified devices, see [Phones and Devices for Skype for Business](https://technet.microsoft.com/office/dn947482). You can use the [Skype for Business Online Call Quality Dashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard), found in the **Skype for Business admin center**, to verify devices in use are working correctly and monitor audio and video media quality.
+Although certified audio and video media devices aren't required, we recommend that you use devices certified for Teams for an optimal media experience. For a list of all Teams certified devices, see [Phones and Devices for Skype for Business](https://technet.microsoft.com/office/dn947482). You can use the [Call Quality Dashboard (CQD)](/microsoftteams/turning-on-and-using-call-quality-dashboard), found in the Teams admin center, to verify devices in use are working correctly and monitor audio and video media quality.
   
 > [!TIP]
 > **A certified device is required for the most optimal Skype for Business media quality experience**.
