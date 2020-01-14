@@ -38,13 +38,13 @@ If you've already [optimized your network for Office 365](https://docs.microsoft
 Once you've verified that you meet these network requirements, you may be ready to [Roll out Teams](How-to-roll-out-teams.md). If you're a large multinational enterprise, or if you know you've got some network limitations, read on to learn how to assess and optimize your network for Teams.
 
 > [!NOTE]
-> **### **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
+> **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
 > 
 > **Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365. 
 
 ## Network optimization
 
-The following tasks are optional and aren't required for rolling out Teams. Use this guidance to optimize your network if you want to improve Teams performance.
+The following tasks are optional and aren't required for rolling out Teams, especially if you're a small business and you've already rolled out Office 365. Use this guidance to optimize your network if you want to improve Teams performance or if you know you've got some network limitations. 
 
 You might want to do additional network optimization if:
 
