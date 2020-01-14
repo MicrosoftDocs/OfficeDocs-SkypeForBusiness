@@ -62,15 +62,19 @@ If a Microsoft Stream administrator has [set up company guideline policy](https:
 
 ### Turn on or turn off cloud recording
 
-Use the setting AllowCloudRecording in TeamsMeetingPolicy in Teams PowerShell to control whether a user’s meetings are allowed to be recorded or not. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether a user's meetings can be recorded.
 
-Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, the users get Global policy, which has AllowTranscription disabled by default.
+In the Microsoft Teams admin center, turn on or turn off the **Allow cloud recording** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-cloud-recording).
 
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
+Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+
+Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording disabled by default.
+
+For a user to fall back to the Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-To change value of AllowCloudRecording in Global policy, use the following cmdlet:
+To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
 </br>
@@ -87,17 +91,21 @@ To change value of AllowCloudRecording in Global policy, use the following cmdle
 
 ### Turn on or turn off recording transcription
 
-When users record their Teams meetings, they can confirm whether a transcript should automatically be generated after the meeting is recorded. If admins have disabled transcription capability for the meeting organizer and the recording initiator, the recording initiator will not get a choice to transcribe the meeting recordings.
+When users record their Teams meetings, they can confirm whether a transcript should automatically be generated after the meeting is recorded. If you disabled transcription capability for the meeting organizer and the recording initiator, the recording initiator won't get a choice to transcribe the meeting recordings.
 
-Use the setting AllowTranscription in TeamsMeetingPolicy in Teams PowerShell to control whether a recording initiator gets a choice to transcribe the meeting recording. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
-Unless you have assigned a custom policy to the users, they get Global policy, which has AllowTranscription disabled by default.
+In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
+
+Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+
+Unless you have assigned a custom policy to the users, uses get the Global policy, which has AllowTranscription disabled by default.
 
 For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-To change value of AllowCloudRecording in Global policy, use the following cmdlet:
+To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
 </br>
@@ -116,15 +124,14 @@ To change value of AllowCloudRecording in Global policy, use the following cmdle
 The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in Microsoft Stream.  Read [this article](https://docs.microsoft.com/stream/license-overview) to understand the base storage included in the subscription and how to purchase additional storage.
 
 ## Manage meeting recordings
+
 The meeting recordings are considered tenant-owned content. If the owner of the recording leaves the company, the admin can open the recording video URL in Microsoft Stream in admin mode. The admin can delete the recording, update any recording metadata, or change permissions for the recording video. Learn more about [admin capabilities in Stream](https://docs.microsoft.com/stream/manage-content-permissions).
 
 ## Compliance and eDiscovery for meeting recordings
+
 The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-C compliant. To support e-Discovery requests for compliance admins who are interested in meeting or call recordings for Microsoft Streams, the recording completed message is available in the compliance content search functionality for Microsoft Teams. Compliance admins can look for the keyword "recording" in the subject line of the item in compliance content search preview and discover meeting and call recordings in the organization. A prerequisite for them to view all recordings is that they will need to be set up in Microsoft Stream with admin access. Learn more about [assigning admin permissions in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
-## Want to know more about Windows PowerShell?
+## Related topics
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
-
-- [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-- [Set up your computer for Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
-
+- [Teams PowerShell overview](teams-powershell-overview.md)
+- 
