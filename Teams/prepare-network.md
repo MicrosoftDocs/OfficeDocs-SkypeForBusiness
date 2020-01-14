@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Prepare your organization's network for Microsoft Teams
+# Prepare your organization's network for Microsoft Teams 
 
 ## Network requirements
 
@@ -67,10 +67,6 @@ Reasons why you might want to do additional network optimization:
 
 For an in-depth discussion of network optimization for Teams, read [Media Quality and Network Connectivity Performance for Teams and Skype for Business Online](../Skype/SfbOnline/optimizing-your-network/media-quality-and-network-connectivity-performance.md).
 
-**HEIDI: Can you de-geek the following sections at all? If it's possible to explain these things in plainer English, please do!**
-**HEIDI: I'm finding that a lot of the in-depth info from upgrade-prepare-environment-prepare-network is NOT included here. Trying to decide how to handle this. Keep the Upgrade topic & link to it (bookmarks)? Or pull everything into THIS topic? My first inclination: Pull stuff into this topic (or create new topics, for this TOC section). I'd love to have all of this info in 1 place, well integrated and consistently voiced.**
-**HEIDI: I need to figure out a better layout for this long laundry list. Suggestions?**
-
 [Validate the network address translation (NAT) pool size required for user connectivity](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9): When multiple users and devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.
 
 [Implement the most efficient routing to Microsoft data centers](https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b): Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible. 
@@ -79,7 +75,9 @@ Intrusion Detection and Prevention Guidance: If your environment has an Intrusio
 
 External Name Resolution: Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
-[Configure split-tunnel VPN](upgrade-prepare-environment-prepare-network.md#vpn): We recommend that you provide an alternate path for Teams traffic that bypasses the VPN, commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 won’t traverse the VPN but goes directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor. 
+Configure split-tunnel VPN: We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 doesn't go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor. 
+
+Other reasons why we recommend bypassing the VPN: VPNs are typically not designed or configured to support real-time media. Some VPNs might also not support UDP (which is required for Teams). VPNs also introduce an extra layer of encryption on top of media traffic that’s already encrypted. Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device. 
 
 [Configure packet prioritization by using QoS](qos-in-teams.md): Use Quality of Service (QoS) to improve call quality in Teams and to monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality. 
 
@@ -98,9 +96,7 @@ External Name Resolution: Ensure that all the client computers running the Teams
 Teams combines three forms of traffic:
 
 -   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
-
 -   Peer-to-peer real-time communications traffic (audio, video, desktop sharing).
-
 -   Conferencing real-time communications traffic (audio, video, desktop sharing).
 
 This impacts the network on two levels: traffic will flow between the Microsoft Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Microsoft Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
@@ -143,6 +139,15 @@ Microsoft Teams gives you the best audio, video and content sharing experience r
 |**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
 |**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
 
+## Firewall and proxy requirements
+
+Microsoft Teams connects to Microsoft Online Services and needs internet connectivity for this. For Teams to function correctly, you must open TCP ports 80 and 443 from the clients to the internet, and UDP ports 3478 through 3481 from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint Online, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
+
+Opening these ports is essential for a reliable Teams deployment. Blocking these ports is unsupported and will affect media quality.
+
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. You can subscribe to [this RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when changes occur. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. You can find out more about the functionality of this tool in the next section.
+
+In the event of a proxy server being deployed, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s very likely that quality will be reduced due to media’s being forced to use TCP instead of UDP. For more information about proxy servers and bypassing, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 
 ## Related Topics

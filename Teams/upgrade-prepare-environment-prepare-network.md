@@ -58,8 +58,6 @@ Microsoft Teams gives you the best audio, video and content sharing experience r
 
 ### Local internet egress
 
-Many networks were designed to use a hub and spoke topology. In this topology, internet traffic typically traverses the WAN to a central datacenter before it emerges (egresses) to the internet. Often, this is done to centralize network security devices with the goal of reducing overall cost.
-
 Back-hauling traffic across the WAN increases latency and has a negative impact on quality and the user experience. Because Microsoft Teams runs on Microsoft’s large global network, there’s often a network peering location close to the user. A user will most likely get better performance by egressing out of a local internet point close to their location and on to our voice-optimized network as soon as possible. For some workloads, DNS requests are used to send traffic to the nearest front-end server. In such cases, it’s important that when using a local egress point, it’s paired with local DNS resolution.
 
 Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. For more detail, see the blog post [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
@@ -82,13 +80,6 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 > [!NOTE]
 > This is the same Network Readiness Assessment that we recommend be run by customers who are looking to successfully deploy Skype for Business.
 
-### VPN
-
-VPNs provide a valuable service to many organizations. Unfortunately, they’re typically not designed or configured to support real-time media. Some VPNs might also not support UDP. VPNs also introduce an extra layer of encryption on top of media traffic that’s already encrypted. In addition, connectivity to the Teams service might not be efficient due to hair-pinning traffic through a VPN device. Furthermore, they aren’t necessarily designed from a capacity perspective to accommodate the anticipated loads that Teams will require.
-
-The recommendation is to provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as *split-tunnel VPN*. Split tunneling means that traffic for Office 365 won’t traverse the VPN but will go directly to Office 365. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
-
-To implement a split-tunnel, consult with your VPN vendor for the configuration details.
 
 ### Wi-Fi
 
@@ -106,17 +97,8 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
 
-<!--ENDOFSECTION-->
 
-## Firewall and proxy requirements
 
-Microsoft Teams connects to Microsoft Online Services and needs internet connectivity for this. For Teams to function correctly, you must open TCP ports 80 and 443 from the clients to the internet, and UDP ports 3478 through 3481 from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint Online, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
-
-Opening these ports is essential for a reliable Teams deployment. Blocking these ports is unsupported and will affect media quality.
-
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. You can subscribe to [this RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when changes occur. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. You can find out more about the functionality of this tool in the next section.
-
-In the event of a proxy server being deployed, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s very likely that quality will be reduced due to media’s being forced to use TCP instead of UDP. For more information about proxy servers and bypassing, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 
@@ -126,15 +108,6 @@ In the event of a proxy server being deployed, we recommend that you bypass the 
 
 Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365.
 
-### NAT pool size
-
-When multiple users and devices access Office 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don’t exceed the supported number.
-
-To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. For more information, see [NAT support with Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
-
-### Intrusion detection and prevention guidance
-
-If your environment has an intrusion detection system and/or intrusion prevention system deployed for an extra layer of security for outbound connections, ensure that any traffic that has Office 365 URLs as its destination is whitelisted.
 
 ## Test the network
 
