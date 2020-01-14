@@ -40,20 +40,11 @@ There are many different factors that contribute to Teams real-time media (audio
   
 #### Devices
 
-In a Real-Time media session, media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices, on the other hand, help with echo cancellation, noise filtering, video resolution and reduce latency.
+In a media session (audio, video, or screen sharing), media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower-quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices, on the other hand, help with echo cancellation, noise filtering, video resolution and reduce latency.
   
-Although certified audio and video media devices aren't required, we recommend that you use devices certified for Teams for an optimal media experience. For a list of all Teams certified devices, see [Phones and Devices for Skype for Business](https://technet.microsoft.com/office/dn947482). You can use the [Call Quality Dashboard (CQD)](/microsoftteams/turning-on-and-using-call-quality-dashboard), found in the Teams admin center, to verify devices in use are working correctly and monitor audio and video media quality.
-  
-> [!TIP]
-> **A certified device is required for the most optimal Skype for Business media quality experience**.
-  
-It's important to remember that any media devices, Skype for Business clients, and Skype for Business Servers through which Real-Time media flows, introduce some amount of latency. The device and software processing latency, along with network latency, have a great impact on and contribute to the end-to-end overall latency and the end user's experience.
-  
-#### Environment
+Although certified audio and video media devices aren't required, we recommend that you use devices certified for Teams for an optimal media experience. To get the latest and up-to-date information on Teams certified devices, go to the [Teams Marketplace](https://office.com/teamsdevices).
 
-The environment and surrounding area where users are meeting and using audio and video devices is another big factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
-  
-To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize its settings.
+You can use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md), found in the Teams admin center, to verify devices in use are working correctly and monitor audio and video media quality.
 
 #### Network
 
