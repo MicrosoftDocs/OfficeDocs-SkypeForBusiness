@@ -4,10 +4,10 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
-ms.reviewer: ritikag
+ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to reset the autostart setting in Teams. 
+description: Use this PowerShell script to reset the autostart setting for specific users in Teams. 
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
