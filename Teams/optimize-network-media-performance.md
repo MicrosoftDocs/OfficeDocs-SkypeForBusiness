@@ -304,9 +304,17 @@ Where bandwidth isn't limited, Teams optimizes media quality, including up to 10
 
 TCP ports 80 and 443 are used to connect to web-based content such as SharePoint Online, Exchange Online, and Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports (3478 through 3481) are used for media such as audio and video, to ensure they flow correctly.
 
+Not using a proxy server is recommended for Teams. When it comes to Teams traffic over proxies, we recommend bypassing proxies. Proxies don't make Teams more secure because the traffic is already encrypted. 
+
+If you use a proxy, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, running Teams through a proxy will likely cause performance problems due to latency and packet loss (degrades Teams audio and video quality because media uses TCP instead of UDP). For more information about proxy servers and bypassing them, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
+
 If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
 
-If you use one, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s likely that quality will be reduced due to media using TCP instead of UDP. For more information about proxy servers and bypassing them, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
+If you need to use a proxy server, we recommend the following:
+- Use external DNS resolution
+- Use direct UDP-based routing
+- Allow UDP traffic
+
 
 ## Related topics
 
