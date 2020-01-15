@@ -62,7 +62,7 @@ If the Phone System call queue or auto attendant you're creating will be nested 
 <a name="phonenumber"> </a>
 
 > [!IMPORTANT]
-> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
+> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue. For both callouts you need to use the on-premises PowerShell command if you're in a hybrid.
 
 A top-level auto attendant or call queue will require a phone number be linked to its auto attendant. To create a resource account that uses a phone number, the process is:
 
