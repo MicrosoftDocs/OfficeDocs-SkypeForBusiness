@@ -32,6 +32,11 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 # Prepare your network for upgrading to Teams
 
+**=================BEGIN: Include prepare-network=============**
+
+[!INCLUDE [prepare-network](includes/prepare-network.md)]
+
+**=================END: Include prepare-network=============**
 If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your network for that functionality. Teams uses audio and video technology (codecs) that can adapt to—and therefore perform better under—most network conditions. To ensure optimal and consistent performance, you should prepare your network for Teams.
 
 ![Diagram describing the three components of quality](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
