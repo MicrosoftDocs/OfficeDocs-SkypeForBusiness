@@ -108,9 +108,9 @@ In this conferencing scenario, the media path consists across the following netw
   
 1. **Connection from User 1 to the edge of the Microsoft network** This usually includes a network connection such as WiFi or Ethernet, the WAN connection from User 1 to the Internet egress point (your network Edge device), and the Internet connection from your network Edge to Microsoft network Edge.
     
-2. **Connection within Microsoft network** This is between the Microsoft Edge to Skype for Business Online data center, where the A/V Conferencing servers are used.
+2. **Connection within Microsoft network** This is between the Microsoft Edge to Teams data center, where the A/V Conferencing servers are used.
     
-3. **Connection within Microsoft Network** This is between the Skype for Business Online data center and Microsoft network Edge.
+3. **Connection within Microsoft Network** This is between the Teams data center and Microsoft network Edge.
     
 4. **Connection from Microsoft network edge to User 2** This includes the Internet connection from your network Edge to Microsoft network Edge, the WAN connection from User 2 to the Internet egress point (your network Edge), and the network connection such as a WiFi or an Ethernet.
     
@@ -174,10 +174,10 @@ The following are the network performance targets or thresholds that are require
 
 
 To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, we recommend the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
-  
-For testing Internet connections to the Microsoft network, it is recommended that you test against the following VIPs of the Skype for Business media relays. The *Anycast VIP*  will resolve to an IP address of a Media Relay in a Microsoft network Edge site that is closest to the testing location.
 
 **<font color="red">REVIEWERS: Should we change "Skype for Business media relay" to "Teams media relay?" Is that a thing?</font>**
+
+For testing Internet connections to the Microsoft network, it is recommended that you test against the following VIPs of the Teams media relays. The *Anycast VIP*  will resolve to an IP address of a Media Relay in a Microsoft network Edge site that is closest to the testing location.
 
 ||||
 |:-----|:-----|:-----|
@@ -192,7 +192,7 @@ For testing Internet connections to the Microsoft network, it is recommended tha
     
 - You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
     
-- You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure the most optimal Real-Time media quality. 
+- You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure optimal media quality. 
     
 ## Measuring network performance using Azure VMs
 
@@ -254,7 +254,7 @@ After you're done optimizing your network, test it to see if your optimizations 
 
 Best practice: Take baseline readings once in a while, when your network is working well. This gives you something to compare against when you're having problems. Similarly, if you do a major update to your network, take another baseline.
 
-Download the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams. This tool tests whether all the correct ports are open, and it can identify network impairments.
+Download the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams. This tool tests whether all the correct ports are open, and it can identify network impairments.
 
 After you download and install the tool, you'll find it in C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool. A detailed guide for how to use the tool, Usage.docx, is included in that directory.
 
@@ -274,15 +274,15 @@ Network impairments affect Teams performance, so you'll want to find and remedia
 
 - **Packet loss**: This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact to back-to-back burst losses that cause audio to cut out completely.
 
-- **Inter-packet arrival jitter, or simply jitter:** This is the average change in delay between successive packets. Most modern VoIP software, including Skype for Business, can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
+- **Inter-packet arrival jitter, or simply jitter:** This is the average change in delay between successive packets. Most modern VoIP software, including Teams, can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
 
-The maximum values for these impairments are described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance). When testing for these impairments, we distinguish between two separate segments:
+When testing for these impairments, we distinguish between two separate segments:
 
 - The *edge segment* is the segment in which your router lives. This is the closest logical network segment connected to the internet at each of your locations. In most cases, this is the connection point of the router, or possibly a perimeter network (also known as *DMZ*, *demilitarized zone*, and *screened subnet*). No further traffic that affects devices other than the router should occur between this segment and the internet.
 
 - The *client segment* is the logical network segment in which your clients reside.
 
-You should test both segments by using the Network Assessment Tool. To test the segment, navigate to the directory and enter **networkassessmenttool.exe** at the command prompt. The results are written to a file named Results.tsv, and you can compare them to the [requirements](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for each segment.
+You should test both segments by using the Network Assessment Tool. To test the segment, navigate to the directory and enter **networkassessmenttool.exe** at the command prompt. The results are written to a file named Results.tsv, and you can compare them to the requirements for each segment.
 
 For best Teams performance, both segments should meet the requirements. Best practice: Run the tool multiple times for one hour straight to get a good indication of your network’s performance.
 
@@ -311,7 +311,7 @@ Where bandwidth isn't limited, Teams optimizes media quality, including up to 10
 
 TCP ports 80 and 443 are used to connect to web-based content such as SharePoint Online, Exchange Online, and Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports (3478 through 3481) are used for media such as audio and video, to ensure they flow correctly.
 
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
 
 If you use one, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s likely that quality will be reduced due to media using TCP instead of UDP. For more information about proxy servers and bypassing them, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
 
