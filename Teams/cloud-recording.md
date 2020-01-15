@@ -95,7 +95,7 @@ To change value of AllowCloudRecording in the Global policy, use the following c
 
 Meeting recordings are stored in Microsoft Stream cloud storage. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. Starting mid-February 2020, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
 
-When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, in the Microsoft Teams admin center, turn off the **Allow cloud recording** setting in the Global policy.
+When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, in the Microsoft Teams admin center, turn off the **Allow cloud recording** setting in the Global Teams meeting policy.
 
 Here's a summary of what happens when you turn on meeting recording after when this change takes effect:
 
