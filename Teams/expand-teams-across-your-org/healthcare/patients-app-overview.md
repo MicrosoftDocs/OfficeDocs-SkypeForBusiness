@@ -40,10 +40,14 @@ For information on how your end users can access and install the Patients App to
 
 ## Connect the Patients App to Azure API for FHIR
 
-To allow the Patients App access to an Azure API for FHIR instance, do the following. 
+To allow the Patients App access to an Azure API for FHIR instance, follow these steps: 
 
-1. Click [here](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) to gran admin consent for the Patients App. When prompted, sign in using your tenant admin or global admin credentials, and then click **Accept** to grant the required permissions.
-2. 
+1. Click [here](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) to grant admin consent for the Patients App. When prompted, sign in using your tenant admin or global admin credentials, and then click **Accept** to grant the required permissions.
+
+    ![Screenshot of permission request for Patients App](../../media/patients-app-permissions-request.png)
+
+After you accept, close the window. You're directed to a page that may look like this. You can safely ignore this error. It's harmless and indicates that consent is granted.
+2. Go to the Azure portal
 
 ## Frequently asked questions (FAQ)
 
