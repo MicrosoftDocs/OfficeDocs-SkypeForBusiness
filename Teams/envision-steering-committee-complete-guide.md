@@ -121,7 +121,7 @@ The following assets should be completed and included in the presentation deck f
 
         -   Identify next steps and what assistance might be required from committee members.
 
--   Quality overview: use reports from the [quality champion](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
+-   Quality overview: use reports from the [quality champion](prepare-network.md#the-quality-champion-role)
 
     -   Be prepared to explain the results of those quality reports in-depth, and include recommendations to remediate any issues noted.
 

@@ -1,12 +1,11 @@
 ---
 title: Quality of Experience Review Guide for Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
 localization_priority: Normal
@@ -1131,7 +1130,7 @@ The most common cause of HTTP usage is missing exception rules in proxies. By us
 
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
-For more information about using proxies with Skype for Business Online and Teams, see [this article](proxy-servers-for-skype-for-business-online.md).
+For more information about using proxies with Teams, see [this article](optimize-network-media-performance.md#firewall-and-proxy-requirements).
 
 ## Endpoint investigations
 
