@@ -27,7 +27,7 @@ This article describes the set of network performance requirements for Microsoft
 
 If you're just starting your Teams rollout, begin by reading [Prepare your organization's network for Teams](prepare-network.md).
   
-The quality of Real-Time media (audio, video, and application sharing) over IP is greatly impacted by the quality of end-to-end network connectivity. For optimal media quality in Teams, it is important for you to make sure there is a high-quality connection between your company network and Teams. The best way to accomplish this is to set up your internal network and cloud connectivity based on the capacity of your network to accommodate for peak traffic volume for Teams across all connections.
+The quality of Teams media (audio, video, and application sharing) over IP is dependent on the quality of end-to-end network connectivity. For optimal media quality in Teams, you need to have a high-quality connection between your company network and Teams. 
   
 > [!TIP]
 > If you need help optimizing your network performance, working with a Teams solution provider is a good option. To find a Teams partner, go to the [Teams solution provider portal](https://www.microsoft.com/solution-providers/home). 
@@ -65,7 +65,37 @@ The quality of your network connections directly affects the quality of media se
 ### Use Quality of Service (QoS) to  prioritize media traffic
 
 Traffic congestion across a network often degrades media quality in Teams. To allow audio and video packets to travel the network quicker and to be prioritized over other network traffic in a congested network, implement [Quality of Service (QoS)](QoS-in-Teams.md).
-    
+
+## How network traffic flows in Teams
+
+**<font color="red">REVIEWERS: This seems to be duplicate of the next section. Need to combine. Can someone help me with this?</font>**
+
+Teams combines three forms of traffic:
+
+-   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
+-   Peer-to-peer real-time communications traffic (audio, video, screen sharing).
+-   Conferencing real-time communications traffic (audio, video, screen sharing).
+
+This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
+
+For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
+
+|Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
+|:--- |:--- |:--- |
+|**Latency (one way)** \*  |< 50ms          |< 30ms         |
+|**Latency (RTT or Round-trip Time)** \* |< 100ms   |< 60ms |
+|**Burst packet loss**    |<10% during any 200ms interval         |<1% during any 200ms interval         |
+|**Packet loss**     |<1% during any 15s interval          |<0.1% during any 15s interval         |
+|**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
+|**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
+
+\* The latency metric targets assume your company site or sites and the Microsoft edges are on the same continent.
+
+Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
+
+These network performance targets assume that you have sufficient bandwidth and/or that you've [implemented QoS](QoS-in-Teams.md). In other words, the requirements apply to Teams media traffic when the network connection is under a peak load.
+
+
 ## How Teams media flows through your network
 
 Teams media travels through many different devices, client apps, server software, and across different networks. The end-to-end latency of this media is the total amount of latency that is introduced across all components and network segments. The quality of the end-to-end network connection is determined by the network segment with the worst quality. This segment acts as a bottleneck for this network traffic.
@@ -263,32 +293,6 @@ You should test both segments by using the Network Assessment Tool. To test the 
 
 For best Teams performance, both segments should meet the requirements. Best practice: Run the tool multiple times for one hour straight to get a good indication of your network’s performance.
 
-## How network traffic flows in Teams
-
-Teams combines three forms of traffic:
-
--   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
--   Peer-to-peer real-time communications traffic (audio, video, screen sharing).
--   Conferencing real-time communications traffic (audio, video, screen sharing).
-
-This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
-
-For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
-
-|Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
-|:--- |:--- |:--- |
-|**Latency (one way)** \*  |< 50ms          |< 30ms         |
-|**Latency (RTT or Round-trip Time)** \* |< 100ms   |< 60ms |
-|**Burst packet loss**    |<10% during any 200ms interval         |<1% during any 200ms interval         |
-|**Packet loss**     |<1% during any 15s interval          |<0.1% during any 15s interval         |
-|**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
-|**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
-
-\* The latency metric targets assume your company site or sites and the Microsoft edges are on the same continent.
-
-Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
-
-These network performance targets assume that you have sufficient bandwidth and/or that you've [implemented QoS](QoS-in-Teams.md). In other words, the requirements apply to Teams media traffic when the network connection is under a peak load.
 
 ## Bandwidth requirements
 
