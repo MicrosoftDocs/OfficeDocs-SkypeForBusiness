@@ -99,8 +99,7 @@ These network performance targets assume that you have sufficient bandwidth and/
 Teams media travels through many different devices, client apps, server software, and across different networks. The end-to-end latency of this media is the total amount of latency that is introduced across all components and network segments. The quality of the end-to-end network connection is determined by the network segment with the worst quality. This segment acts as a bottleneck for this network traffic.
   
 The following diagram illustrates one-way audio flow in a conference from one Teams participant to another.
-  
-![ExpressRoute Call Flow.](c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
+![ExpressRoute call flow](media/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
   
 In this conferencing scenario, the media path consists across the following network segments:
   
@@ -113,8 +112,8 @@ In this conferencing scenario, the media path consists across the following netw
 4. **Connection from Microsoft network edge to User 2** This includes the Internet connection from your network Edge to Microsoft network Edge, the WAN connection from User 2 to the Internet egress point (your network Edge), and the network connection such as a WiFi or an Ethernet.
     
 The following diagram shows breakdown of components and network segments of a Teams PSTN call:
-  
-![ExpressRoute PSTN Carrier call flow](768a88df-c8a9-4171-a158-565a698f0193.png)
+
+![ExpressRoute PSTN carrier call flow](media/768a88df-c8a9-4171-a158-565a698f0193.png)
   
 In a PSTN call scenario, the media path crosses the following network segments:
   
