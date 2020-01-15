@@ -40,13 +40,13 @@ To enable external users to collaborate with users in your Skype for Business Se
 
 To enable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to True ($True):
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
 To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
 

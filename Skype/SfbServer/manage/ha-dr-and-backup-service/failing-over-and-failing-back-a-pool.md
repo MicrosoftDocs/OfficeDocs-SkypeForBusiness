@@ -97,8 +97,8 @@ Additionally, if a Front End pool fails but the Edge pool at that site is still 
 6.  Install the Central Management store on the Back End Server of Backup\_Pool.
     
       - First, run the following command:
-        
-        ``` 
+        ```PowerShell
+         
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     

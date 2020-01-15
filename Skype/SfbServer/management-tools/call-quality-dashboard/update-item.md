@@ -35,7 +35,7 @@ Update Item updates a specific item in the repository.
   
 Sample request payload:
   
-```
+```json
 {
   content : "{ 'Product' : 'New Product Name'",
   type: "application/json"

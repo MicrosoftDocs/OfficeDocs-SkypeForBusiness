@@ -116,15 +116,15 @@ In this example, we assign a custom app permission policy called HR App Permissi
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular app permission policy. In this example, it's HR App Permission Policy.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.

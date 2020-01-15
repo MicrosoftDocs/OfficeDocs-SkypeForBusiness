@@ -52,13 +52,13 @@ The organization’s external DNS for the on-premises organization needs to be u
 2.	*Disable shared SIP address space in Office 365 tenant.*
 The command below needs to be done from a Skype for Business Online PowerShell window.
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.	*Disable ability in on-premises to communicate with Office 365.*  
 The command below needs to be done from an on-premises PowerShell window:
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 

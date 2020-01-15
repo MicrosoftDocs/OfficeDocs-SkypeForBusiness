@@ -95,7 +95,7 @@ In most cases, you will not need to change the location of the Archiving databas
   
 The following example changes the location of the Archiving database for the ArchivingServer:atl-cs-001.contoso.com Archiving Server. In this example, the new database is located at ArchivingDatabase:atl-sql-001.contoso.com:
   
-```
+```PowerShell
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"
 ```
 

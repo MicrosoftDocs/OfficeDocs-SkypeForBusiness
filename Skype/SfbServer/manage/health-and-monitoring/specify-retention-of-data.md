@@ -49,7 +49,7 @@ You can create CDR retention settings by using Windows PowerShell and the Set-Cs
 
 - This command enables purging of CDR data for the Redmond site, and configures the site to maintain both CDR data and error reports data for 20 days.
     
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
@@ -57,7 +57,7 @@ You can create CDR retention settings by using Windows PowerShell and the Set-Cs
 
 - This command configures CDR retention for all the CDR configuration settings in use in an organization.
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 

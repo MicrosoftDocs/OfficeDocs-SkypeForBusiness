@@ -44,23 +44,23 @@ This step is done on the Exchange server. It will create a mail user and assign 
 
 Specify a verified domain for your Exchange organization. This domain should be the same domain used as the primary SMTP domain used for the on-premises Exchange accounts. This domain is referred as \<your Verified Domain\> in the following procedure. Also, the \<DomainControllerFQDN\> should be the FQDN of a domain controller.
 
-``` Powershell
+```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 This command will hide the new mail user from address lists.
 
-``` Powershell
+```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
 These next two commands will assign the UserApplication and ArchiveApplication management role to this new account.
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
@@ -68,7 +68,7 @@ New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -Doma
 
 Create a new partner application and will use the account you just created. Run the following command in the Exchange PowerShell in your on-premises Exchange organization.
 
-``` Powershell
+```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
@@ -78,7 +78,7 @@ Run a PowerShell script to export the on-premises authorization certificate, whi
 
 Save the following text to a PowerShell script file named, for example, ExportAuthCert.ps1.
 
-``` Powershell
+```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
 if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
 {
@@ -102,7 +102,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
 
-   ``` Powershell
+   ```powershell
    Connect-MsolService;
    Import-Module msonlineextended;
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -123,7 +123,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 ### Step 6: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
 1. In the PowerShell opened and authenticated to Azure Active Directory, run the following
-```
+```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Press Enter when prompted for ReturnKeyValues
