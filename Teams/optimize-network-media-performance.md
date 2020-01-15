@@ -130,10 +130,7 @@ In a PSTN call scenario, the media path crosses the following network segments:
     
 ### Network performance requirements from Teams to Microsoft network Edge
 
-For optimal Teams media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), as well as the Internet or ExpressRoute partner connections to the Microsoft network Edge.
-  
-> [!CAUTION]
-> **Connectivity between a Teams client on your company network to Office 365 services must meet these following network performance requirements and thresholds.**
+For optimal Teams media quality, the table below lists the network performance requirements and thresholds for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS).
   
 |||
 |:-----|:-----|
@@ -155,11 +152,8 @@ For optimal Teams media quality, the following network performance metrics targe
     
 ### Network performance requirements from your network Edge to Microsoft network Edge
 
-The following are the network performance targets or thresholds that are required for the connection between your network Edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the Internet.
-  
-> [!CAUTION]
-> **Connectivity between your company network Edge to the Microsoft network edge must meet these following network performance requirements and thresholds.**
-  
+The following are the network performance targets or thresholds that are required for the connection between your network Edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the internet.
+
 |||
 |:-----|:-----|
 |**Metric** <br/> |**Target** <br/> |
@@ -178,13 +172,13 @@ The following are the network performance targets or thresholds that are require
     
 ## Measuring network performance
 
-To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites. 
 
->[!NOTE]
-> Measuring network performance through ping (ICMP) is not effective. For that reason, the anycast IP expose below will stop answering to ICMP requests starting in Jan, 2020. To measure network performace effectively, Microsoft recommends the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
+To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, we recommend the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
   
 For testing Internet connections to the Microsoft network, it is recommended that you test against the following VIPs of the Skype for Business media relays. The *Anycast VIP*  will resolve to an IP address of a Media Relay in a Microsoft network Edge site that is closest to the testing location.
-  
+
+**<font color="red">REVIEWERS: Should we change "Skype for Business media relay" to "Teams media relay?" Is that a thing?</font>**
+
 ||||
 |:-----|:-----|:-----|
 |**IP address** <br/> |**Type** <br/> |**Location** <br/> |
@@ -194,20 +188,19 @@ For testing Internet connections to the Microsoft network, it is recommended tha
   
 - You should assess your internal network as well as the connections to Office 365.
     
-- You should assess and gather data for all of your networks over a long period of time. We recommend for you to perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
+- You should assess and gather data for all of your networks over a long period of time. We recommend that you perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
     
-- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Skype for Business Online network performance requirements, take the 90th percentile measurement value from this sample data set. 
+- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
     
 - You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure the most optimal Real-Time media quality. 
     
-## Measuring Network Performance using Azure VMs
-<a name="bkNetworkPerf"> </a>
+## Measuring network performance using Azure VMs
 
-Instead of testing against the Microsoft network Edge sites, there are network assessment solutions from Skype for Business customers and partners that leverage testing setup for services in the Microsoft Azure cloud. In those solutions, the network assessment tools test latency, packet loss and jitter against custom endpoints set up as a service in the Azure cloud. As a result, the test network traffic travels through one additional network segment, which is the connection within the Microsoft network between the network edges and Azure data centers that hosts the network assessment service.
+Instead of testing against the Microsoft network Edge sites, there are network assessment solutions from Teams customers and partners that leverage testing setup for services in the Microsoft Azure cloud. In those solutions, the network assessment tools test latency, packet loss and jitter against custom endpoints set up as a service in the Azure cloud. As a result, the test network traffic travels through one additional network segment, which is the connection within the Microsoft network between the network edges and Azure data centers that hosts the network assessment service.
   
-For those network assessment solutions based on Azure hosted testing services. We recommend performing the network assessment within country and/or region. For example, for customer sites in east U.S., the assessment should be performed against a testing service instance hosted in Azure's east US data center region. 
+For those network assessment solutions based on Azure hosted testing services. We recommend performing the network assessment within country and/or region. For example, for customer sites in east U.S., the assessment should be performed against a testing service instance hosted in Azure's East US data center region. 
   
-Below are the latency (RTT) targets for the Azure service based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stays the same as those defined for Skype Media Relay based testing.
+Below are the latency (RTT) targets for the Azure service based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stays the same as those defined for Skype Media Relay based testing .
   
 |||||
 |:-----|:-----|:-----|:-----|
