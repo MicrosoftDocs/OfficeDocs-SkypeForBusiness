@@ -21,8 +21,6 @@ description: "This topic describes the set of network performance requirements f
 
 # Optimize network and media performance for Microsoft Teams
 
-**<font color="red">LOLA: 1) Make full pass to remove SfB, repl w/Teams. 2) Incorp stuff removed from prepare-network (appended at end of this article for now).</font>**
-
 This article describes the set of network performance requirements for Microsoft Teams. It provides in-depth guidance for assessing and optimizing your network for best Teams performance. 
 
 If you're just starting your Teams rollout, begin by reading [Prepare your organization's network for Teams](prepare-network.md).
