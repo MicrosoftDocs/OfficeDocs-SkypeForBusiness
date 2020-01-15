@@ -102,7 +102,7 @@ Teams media travels through many different devices, client apps, server software
   
 The following diagram illustrates one-way audio flow in a conference from one Teams participant to another.
   
-![ExpressRoute Call Flow.](../images/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
+![ExpressRoute Call Flow.](c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
   
 In this conferencing scenario, the media path consists across the following network segments:
   
@@ -116,7 +116,7 @@ In this conferencing scenario, the media path consists across the following netw
     
 The following diagram shows breakdown of components and network segments of a Teams PSTN call:
   
-![ExpressRoute PSTN Carrier Call Flow.](../images/768a88df-c8a9-4171-a158-565a698f0193.png)
+![ExpressRoute PSTN Carrier call flow](768a88df-c8a9-4171-a158-565a698f0193.png)
   
 In a PSTN call scenario, the media path crosses the following network segments:
   
