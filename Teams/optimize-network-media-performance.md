@@ -244,10 +244,6 @@ The [Skype for Business Online Voice Quality SLA](http://www.microsoftvolumelice
 > The voice quality SLA excludes those calls where the low call quality is caused by problems in non-Microsoft networks including ExpressRoute partner and other networks. 
 --> 
 
-## Related topics
-
-
-**<font color="red">=============Below here: stuff I cut from prepare-network. ==========</font>**
 ## Test the network
 
 After you're done optimizing your network, test it to see if your optimizations worked. Did your changes give you the network-performance improvements you were looking for?
@@ -314,6 +310,10 @@ TCP ports 80 and 443 are used to connect to web-based content such as SharePoint
 If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
 
 If you use one, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s likely that quality will be reduced due to media using TCP instead of UDP. For more information about proxy servers and bypassing them, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
+
+## Related topics
+
+[Prepare your organization's network for Teams](prepare-network.md)
 
 **<font color="red">============REMOVED from article: Do we need Cloud Connector Edition for Teams?=====**</font>
 
