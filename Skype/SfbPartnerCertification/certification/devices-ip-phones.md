@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
