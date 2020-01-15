@@ -46,8 +46,16 @@ To allow the Patients App access to an Azure API for FHIR instance, follow these
 
     ![Screenshot of permission request for Patients App](../../media/patients-app-permissions-request.png)
 
-After you accept, close the window. You're directed to a page that may look like this. You can safely ignore this error. It's harmless and indicates that consent is granted.
-2. Go to the Azure portal
+    After you accept, close the window. You'll see a page that may look like this. You can ignore the error message on the page. It's harmless and indicates that consent is granted. (We're working on a more user-friendly page for this URL. Stay tuned!)
+
+    ![Screenshot of permission request for Patients App](../../media/patients-app-permissions-request-granted.png)
+2. Sign in to the [Azure portal](https://portal.azure.com) with your admin credentials.
+3. In the list of services in the left navigation, select **Azure Active Directory**, and then select **Enterprise Applications**. 
+    Look for a row named **Patients (dev)**, and then copy the value in the **Object ID** column to your clipboard, as shown in this screenshot.
+    ![Screenshot of Patients (dev) row in the Azure portal](../../media/patients-app-permissions-request-granted.png)
+4. Go to the Azure API for FHIR resource instance to which you want to connect the Patients app, and then open the settings for the instance.
+
+If you haven’t created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
 ## Frequently asked questions (FAQ)
 
