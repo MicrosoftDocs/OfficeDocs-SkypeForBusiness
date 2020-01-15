@@ -99,7 +99,7 @@ When this change takes effect, meeting recordings will be stored by default in t
 
 Here's a summary of what happens when you turn on meeting recording after when this change takes effect:
 
-|If you turn on meeting recording... |Meeting records are stored...  |
+|If you turn on meeting recording... |Meeting recordings are stored...  |
 |---------|---------|
 |before Microsoft Stream is available in your in-country data residency region    |in the nearest Microsoft Stream region         |
 |after Microsoft Stream is available in your in-country data residency region    | in your in-country data residency region        |
