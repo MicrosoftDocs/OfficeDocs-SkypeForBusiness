@@ -22,7 +22,7 @@ appliesto:
 # Teams cloud meeting recording
 
 > [!IMPORTANT]
-> **Starting mid-February 2020, we're rolling a configuration change** in which the Teams meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region. When this change takes effect, meeting recordings will be stored by default in the nearest Microsoft Stream region. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off meeting recordings and then turn it on after Microsoft Stream is deployed to your in-country region. To learn more, see [Where your meeting recordings are stored](#where-your-meeting-recordings-are-stored).
+> **In the future, we're making a configuration change** in which the Teams meeting recording feature will be turned on for customers whose Teams data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region. When this change takes effect, meeting recordings will be stored by default in the nearest Microsoft Stream region. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off meeting recordings and then turn it on after Microsoft Stream is deployed to your in-country region. To learn more, see [Where your meeting recordings are stored](#where-your-meeting-recordings-are-stored).
 
 In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/stream/), so users can share it securely across their organization.
 
@@ -93,11 +93,11 @@ To change value of AllowCloudRecording in the Global policy, use the following c
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### Where your meeting recordings are stored
 
-Meeting recordings are stored in Microsoft Stream cloud storage. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. Starting mid-February 2020, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
+Meeting recordings are stored in Microsoft Stream cloud storage. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. In the future, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
 
 When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, in the Microsoft Teams admin center, turn off the **Allow cloud recording** setting in the Global Teams meeting policy.
 
-Here's a summary of what happens when you turn on meeting recording after when this change takes effect:
+Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 
 |If you turn on meeting recording... |Meeting recordings are stored...  |
 |---------|---------|
@@ -106,7 +106,9 @@ Here's a summary of what happens when you turn on meeting recording after when t
 
 For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings even after Microsoft Stream is available in the in-country data residency region.
 
-To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in). 
+To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+
+To learn more about where data is stored across services in Office 365, see [Where is your data located?](https://products.office.com/en-us/where-is-your-data-located?rtc=1).
 
 ### Turn on or turn off recording transcription
 
