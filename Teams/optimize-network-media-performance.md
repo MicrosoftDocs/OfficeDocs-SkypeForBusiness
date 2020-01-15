@@ -320,6 +320,8 @@ If you need to use a proxy server, we recommend the following:
 
 [Prepare your organization's network for Teams](prepare-network.md)
 
+[Manage Office 365 endpoints](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)
+
 **<font color="red">============REMOVED from article: Do we need Cloud Connector Edition for Teams?=====**</font>
 
 ### Online deployment with Cloud Connector Edition
