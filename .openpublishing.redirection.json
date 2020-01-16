@@ -1,6 +1,36 @@
 { 
   "redirections": [ 
-    
+
+    {
+      "source_path": "Lync/LyncServer/lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md", 
+      "redirect_url": "https://docs.microsoft.com/lyncserver/lync-server-2013-create-archiving-policy-sites-users", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Lync/LyncServer/lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md", 
+      "redirect_url": "https://docs.microsoft.com/lyncserver/lync-server-2013-change-archiving-policy-org-sites-users", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Lync/LyncServer/lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md", 
+      "redirect_url": "https://docs.microsoft.com/lyncserver/lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Lync/LyncServer/lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md", 
+      "redirect_url": "https://docs.microsoft.com/lyncserver/lync-server-2013-enable-disable-critical-mode", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Lync/LyncServer/lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md", 
+      "redirect_url": "https://docs.microsoft.com/lyncserver/lync-server-2013-set-up-log-shipping-secondary-database", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Lync/LyncServer/migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md", 
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrate-to-lync-server-2013-persistent-chat-server", 
+      "redirect_document_id": true
+      },     
     {
       "source_path": "Teams/location-based-routing-terminology.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/cloud-voice-network-settings", 
