@@ -58,7 +58,7 @@ The quality of your network connections directly affects the quality of media se
 > [!NOTE]
 >  Buffering for jitter will increase end-to-end latency.
   
-
+For a list of steps you can take to optimize your network for Teams, see [Prepare your organization's network for Teams](prepare-network.md).
   
 ### Use Quality of Service (QoS) to  prioritize media traffic
 
@@ -66,19 +66,17 @@ Traffic congestion across a network often degrades media quality in Teams. To al
 
 ## How network traffic flows in Teams
 
-**<font color="red">REVIEWERS: This seems to be duplicate of the next section. Need to combine. Can someone help me with this?</font>**
-
 Teams combines three forms of traffic:
 
--   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
--   Peer-to-peer real-time communications traffic (audio, video, screen sharing).
--   Conferencing real-time communications traffic (audio, video, screen sharing).
+-   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization)
+-   Peer-to-peer real-time communications traffic (audio, video, screen sharing)
+-   Conferencing real-time communications traffic (audio, video, screen sharing)
 
 This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
+The table below lists the performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge).
 
-|Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
+|Value  |Teams to Microsoft Edge  |Customer edge to Microsoft Edge  |
 |:--- |:--- |:--- |
 |**Latency (one way)** \*  |< 50ms          |< 30ms         |
 |**Latency (RTT or Round-trip Time)** \* |< 100ms   |< 60ms |
@@ -87,14 +85,14 @@ For the two defining network segments (Client to Microsoft Edge and Customer Edg
 |**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
 |**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
 
-\* The latency metric targets assume your company site or sites and the Microsoft edges are on the same continent.
+\* The latency metric targets assume your company site or sites and the Microsoft Edges are on the same continent.
 
-Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
+Your company site connection (customer edge) to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology.
 
 These network performance targets assume that you have sufficient bandwidth and/or that you've [implemented QoS](QoS-in-Teams.md). In other words, the requirements apply to Teams media traffic when the network connection is under a peak load.
 
 
-## How Teams media flows through your network
+### How Teams media flows through your network
 
 Teams media travels through many different devices, client apps, server software, and across different networks. The end-to-end latency of this media is the total amount of latency that is introduced across all components and network segments. The quality of the end-to-end network connection is determined by the network segment with the worst quality. This segment acts as a bottleneck for this network traffic.
   
@@ -103,13 +101,13 @@ The following diagram illustrates one-way audio flow in a conference from one Te
   
 In this conferencing scenario, the media path consists across the following network segments:
   
-1. **Connection from User 1 to the edge of the Microsoft network** This usually includes a network connection such as WiFi or Ethernet, the WAN connection from User 1 to the Internet egress point (your network Edge device), and the Internet connection from your network Edge to Microsoft network Edge.
+1. **Connection from User 1 to the edge of the Microsoft network** This usually includes a network connection such as WiFi or Ethernet, the WAN connection from User 1 to the Internet egress point (your network edge device), and the Internet connection from the edge of your network to the edge of the Microsoft network (referred to as "the Microsoft Edge").
     
-2. **Connection within Microsoft network** This is between the Microsoft Edge to Teams data center, where the A/V Conferencing servers are used.
+2. **Connection within Microsoft network** This is between the Microsoft Edge to the Teams data center, where the audio & video conferencing servers live.
     
-3. **Connection within Microsoft Network** This is between the Teams data center and Microsoft network Edge.
+3. **Connection within Microsoft network** This is between the Teams data center and the Microsoft Edge.
     
-4. **Connection from Microsoft network edge to User 2** This includes the Internet connection from your network Edge to Microsoft network Edge, the WAN connection from User 2 to the Internet egress point (your network Edge), and the network connection such as a WiFi or an Ethernet.
+4. **Connection from the Microsoft network Edge to User 2** This includes the internet connection from your network edge to the Microsoft network Edge, the WAN connection from User 2 to the internet egress point (your network edge), and the network connection such as a WiFi or an Ethernet.
     
 The following diagram shows breakdown of components and network segments of a Teams PSTN call:
 
@@ -117,17 +115,17 @@ The following diagram shows breakdown of components and network segments of a Te
   
 In a PSTN call scenario, the media path crosses the following network segments:
   
-1. **Connection from a Teams caller to the edge of the Microsoft Network** This usually includes a network connection such as WiFi or Ethernet, the WAN connection from the Teams caller to the Internet egress point (your network Edge device), and the Internet connection from your network Edge to Microsoft network Edge.
+1. **Connection from a Teams caller to the edge of the Microsoft network** This usually includes a network connection such as WiFi or Ethernet, the WAN connection from the Teams caller to the internet egress point (your network edge device), and the internet connection from your network edge to the Microsoft network Edge.
     
-2. **Connection within Microsoft network** This is between the Microsoft Edge to Teams data center, where a Mediation Server is used.
+2. **Connection within Microsoft network** This is between the Microsoft Edge to the Teams data center, where a Mediation Server is used.
     
-3. **Connection within Microsoft Network** This is between the Teams data center and Microsoft network Edge.
+3. **Connection within Microsoft network** This is between the Teams data center and Microsoft network Edge.
     
-4. **Connection between Microsoft Network and the PSTN service provider partners** This is the connection that exists to place a PSTN call from a Teams client that is outside of the Microsoft network.
+4. **Connection between Microsoft network and the PSTN service provider partners** This is the connection that exists to place a PSTN call from a Teams client that is outside of the Microsoft network.
     
 ### Network performance requirements from Teams to Microsoft network Edge
 
-For optimal Teams media quality, the table below lists the network performance requirements and thresholds for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS).
+For optimal Teams media quality, the table below lists the network performance requirements and thresholds for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
   
 |||
 |:-----|:-----|
@@ -147,9 +145,9 @@ For optimal Teams media quality, the table below lists the network performance r
     
 - The network performance target assumes proper bandwidth and/or quality of service planning. In other words, This applies directly to Teams media traffic when the network connection is under a peak load.
     
-### Network performance requirements from your network Edge to Microsoft network Edge
+### Network performance requirements from your network edge to Microsoft network Edge
 
-The following are the network performance targets or thresholds that are required for the connection between your network Edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the internet.
+The following are the network performance targets or thresholds that are required for the connection between your network edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the internet.
 
 |||
 |:-----|:-----|
@@ -163,14 +161,14 @@ The following are the network performance targets or thresholds that are require
    
  **Other performance target requirements:**
   
-- The performance target requires connection between any of your company's network Edge and its nearest Microsoft network Edge, to be on the same continent.
+- The performance target requires connection between any of your company's network edge and its nearest Microsoft network Edge, to be on the same continent.
     
 - The network performance target assumes proper bandwidth and/or quality of service planning. This also applies to Teams media traffic when the network connection is under a peak load.
     
 ## Measuring network performance
 
 
-To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, we recommend the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
+To measure the actual network performance, especially for latency and packet loss, from any company network site to a network edge, we recommend the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
 
 **<font color="red">REVIEWERS: Should we change "Skype for Business media relay" to "Teams media relay?" Is that a thing?</font>**
 
@@ -201,7 +199,7 @@ Below are the latency (RTT) targets for the Azure service based network assessme
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Customer region** <br/> |**Azure region** <br/> |**Your network Edge - Azure Round-trip Time (RTT)** <br/> |**Your Site - Azure Round-trip Time (RTT)** <br/> |
+|**Customer region** <br/> |**Azure region** <br/> |**Your network edge - Azure Round-trip Time (RTT)** <br/> |**Your Site - Azure Round-trip Time (RTT)** <br/> |
 |Central US  <br/> |Central US  <br/> |99  <br/> |139  <br/> |
 |East US  <br/> |East US  <br/> |86  <br/> |126  <br/> |
 |North Central US  <br/> |North Central US  <br/> |97  <br/> |137  <br/> |
@@ -322,6 +320,8 @@ If you need to use a proxy server, we recommend the following:
 
 [Manage Office 365 endpoints](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)
 
+[Office 365 network connectivity principles](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)
+
 **<font color="red">============REMOVED from article: Do we need Cloud Connector Edition for Teams?=====**</font>
 
 ### Online deployment with Cloud Connector Edition
@@ -330,7 +330,7 @@ Skype for Business Online Cloud Connector Edition is a hybrid offering that cons
   
 If you decide to deploy Azure ExpressRoute and Cloud Connector Edition, we recommend for you to set up at least one Express Route connection for each continent between each continent's main site to it's closest [ExpressRoute peering location](https://azure.microsoft.com/documentation/articles/expressroute-locations/). Depending on cost vs benefit, for each continent you can choose to deploy additional ExpressRoute connections from sites where network performance targets aren't being met.
   
-If you have an on-premises Skype for Business deployment, you must follow the [Planning Guide for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/mt605227.aspx). Specifically, the Access Edge and A/V Edge services should be assigned public IP addresses and reachable from Office 365 data centers.
+If you have an on-premises Skype for Business deployment, you must follow the [Planning Guide for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/mt605227.aspx). Specifically, the Access edge and A/V edge services should be assigned public IP addresses and reachable from Office 365 data centers.
   
 In the following example, Contoso is a European accounting firm with presence in a few major European countries and cities. When they sign up for Skype for Business Online for all their collaboration needs, they decided to put a Cloud Connector for each country they have a physical location to continue to use their PSTN infrastructure and carrier contracts that already exist. Based on their testing from all their sites and Microsoft network Edge, they determined that a single ExpressRoute connection in London will help meet the Skype for Business client connection network performance targets described in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
   
