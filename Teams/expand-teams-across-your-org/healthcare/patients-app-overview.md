@@ -51,11 +51,26 @@ To allow the Patients App access to an Azure API for FHIR instance, follow these
     ![Screenshot of permission request for Patients App](../../media/patients-app-permissions-request-granted.png)
 2. Sign in to the [Azure portal](https://portal.azure.com) with your admin credentials.
 3. In the list of services in the left navigation, select **Azure Active Directory**, and then select **Enterprise Applications**. 
-    Look for a row named **Patients (dev)**, and then copy the value in the **Object ID** column to your clipboard, as shown in this screenshot.
-    ![Screenshot of Patients (dev) row in the Azure portal](../../media/patients-app-permissions-request-granted.png)
-4. Go to the Azure API for FHIR resource instance to which you want to connect the Patients app, and then open the settings for the instance.
+    Look for a row named **Patients (dev)**, and then copy the value in the **Object ID** column to your clipboard.
+    ![Screenshot of Patients (dev) row in Azure portal](../../media/patients-app-azure-portal-object-id.png)
+4. Go to the Azure API for FHIR resource instance to which you want to connect the Patients app, and then open the settings for that instance.
 
-If you haven’t created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
+    ![Screenshot of the Azure API for FHIR instance settings in Azure portal](../../media/patients-app-azure-portal-instance-settings.png)
+
+    If you haven’t created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
+
+5. Click **Authentication**, and then paste the object ID that you copied in step 3 to the **Allowed Object IDs** box. This allows the Patients App to access the FHIR server. After you paste the object ID, Azure Active Directory validates it, and a green check mark appears next to it.
+
+    ![Screenshot of Authentication settings in Azure portal](../../media/patients-app-azure-portal-authentication.png)
+
+6. Click **Save**. This deploys the instance again, which can take a few minutes.
+7. Click **Overview**, and then copy the URL from **FHIR metadata endpoint**. Remove the metadata tag to get the FHIR server URL. For example, https://test02-teamshealth.azurehealthcareapis.com/. 
+
+    ![Screenshot of the metadata endpoint in Azure portal](../../media/patients-app-azure-portal-metadata-endpoint.png)
+
+8. In Teams, go to the Patient app instance thats loaded in your team, click **Settings**, and then in the **Link** box, enter the FHIR server endpoint URL. Then, click **Connect** to establish a connection and search and add patients to your list.  
+
+    ![Screenshot of Patients app settings in Teams](../../media/patients-app-teams.png)
 
 ## Frequently asked questions (FAQ)
 
