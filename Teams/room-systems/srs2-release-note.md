@@ -56,10 +56,10 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ### 4.3.33.0 (1/10/2020)
 
-Introduced in this update are fixes for:
+Introduced in this update:
 
-- Window resizing/ flickering loop issue that is seen in certian configurations
-- Calendar processing for 3rd party meetings removed
+- A fix for a Window resizing/flickering issue that's seen in certain configurations
+- Calendar processing for 3rd-party meetings removed
 - Cortana status setting removed
 
 ### 4.3.23.0 (12/13/2019)
@@ -159,11 +159,13 @@ Introduced in this update:
 - Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
 
 ### 4.0.19.0 (8/31/2018)
+
 Introduced in this update:
 
 - Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed. Microsoft Teams Rooms app restart required after installation of 4.0.19.0.
 
 ### 4.0.18.0 (08/27/2018)
+
 Introduced in this update:
 
 - "Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)
@@ -184,6 +186,7 @@ Introduced in this update:
 - Fix to address error observed on some systems during app launch.
 
 ### 3.1.113.0 (06/13/2018)
+
 Introduced in this update:
 
 - Changes enabling Microsoft to more flexibly manage Windows Updates.
