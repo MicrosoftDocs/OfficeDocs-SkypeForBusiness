@@ -57,7 +57,7 @@ To allow the Patients app access to an Azure API for FHIR instance, follow these
 
     ![Screenshot of the Azure API for FHIR instance settings in Azure portal](../../media/patients-app-azure-portal-instance-settings.png)
 
-    If you haven’t created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
+    If you haven’t yet created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
 5. Click **Authentication**, and then paste the object ID that you copied in step 3 to the **Allowed object IDs** box. This allows the Patients app to access the FHIR server. After you paste the object ID, Azure Active Directory validates it, and a green check mark appears next to it.
 
