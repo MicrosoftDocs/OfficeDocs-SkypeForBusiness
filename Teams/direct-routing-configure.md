@@ -448,7 +448,7 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 
 #### Example of Voice Routing Policy for user John Woods
 
-The steps to create PSTN Usage "International", voice route "International," Voice Routing Policy "No Restrictions," and then assigning it to the user "John Woods" are as follows.
+The steps to create PSTN Usage "International", voice route "International," Voice Routing Policy "No Restrictions," and then assigning it to the user "John Woods" are as follows.   
 
 
 **Step 1**: Create the PSTN Usage "International." 
