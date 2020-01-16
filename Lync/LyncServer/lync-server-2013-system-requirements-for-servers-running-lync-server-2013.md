@@ -12,13 +12,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# System requirements for servers running Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# System requirements for servers running Lync Server 2013
+
 
 </div>
 
@@ -68,11 +70,13 @@ Standard Edition and Enterprise Edition server can use any of the following:
 
 Install the operating system software on the Standard Edition Server or Enterprise Edition Front End Server. Apply all updates in order to bring the operating system up to the latest update and required update level consistent with your organization’s standards. For more details about the operating requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.
 
+> [!NOTE] In-place upgrade of the operating system is not supported with Lync Server 2013.  You must deploy a separate pool and migrate users to the new pool with a different operating system.
+
 <div>
 
 
 > [!NOTE]  
-> For Lync Server 2013 to work on Windows Server 2012 R2, you may need to change the value of a registry key in Windows Server. This change may be necessary for certificates to work correctly, and for clients to register with Survivable Branch Appliances. For more information, see <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>.
+> For Lync Server 2013 to work on Windows Server 2012 R2, you may need to change the value of a registry key in Windows Server. This change may be necessary for certificates to work correctly, and for clients to register with Survivable Branch Appliances. For more information, see <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>.
 
 
 
