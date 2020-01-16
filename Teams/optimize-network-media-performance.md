@@ -74,7 +74,7 @@ Teams combines three forms of traffic:
 
 This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-The table below lists the performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge).
+The table below lists the network performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge). Microsoft Edge is the part of the Microsoft network that interfaces with the edge of the customer network. Customer edge is the part of your organization's network that interfaces with the edge of the Microsoft network.
 
 |Value  |Teams to Microsoft Edge  |Customer edge to Microsoft Edge  |
 |:--- |:--- |:--- |
@@ -87,10 +87,21 @@ The table below lists the performance requirements for the two defining network 
 
 \* The latency metric targets assume your company site or sites and the Microsoft Edges are on the same continent.
 
-Your company site connection (customer edge) to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology.
 
 These network performance targets assume that you have sufficient bandwidth and/or that you've [implemented QoS](QoS-in-Teams.md). In other words, the requirements apply to Teams media traffic when the network connection is under a peak load.
 
+
+### Teams to Microsoft network Edge
+
+This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
+
+The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency performance requirements assume your company site or sites and the Microsoft Edges are on the same continent. 
+
+### Your network edge to Microsoft network Edge
+
+Your organization's network connection (customer edge) to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. This segment of the network excludes the customer's internal network or WAN.
+   
+Our performance requirements for this segment assume that the connection between your organization's network edge and the Microsoft network Edge are on the same continent.
 
 ### How Teams media flows through your network
 
@@ -123,47 +134,6 @@ In a PSTN call scenario, the media path crosses the following network segments:
     
 4. **Connection between Microsoft network and the PSTN service provider partners** This is the connection that exists to place a PSTN call from a Teams client that is outside of the Microsoft network.
     
-### Network performance requirements from Teams to Microsoft network Edge
-
-For optimal Teams media quality, the table below lists the network performance requirements and thresholds for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
-  
-|||
-|:-----|:-----|
-|**Metric** <br/> |**Target** <br/> |
-|Latency (one way)  <br/> |< 50ms  <br/> |
-|Latency (RTT or Round-trip Time)  <br/> |< 100ms  <br/> |
-|Burst packet loss  <br/> |<10% during any 200ms interval  <br/> |
-|Packet loss  <br/> |<1% during any 15s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<30ms during any 15s interval  <br/> |
-|Packet reorder  <br/> |<0.05% out-of-order packets  <br/> |
-   
- **Other performance target requirements:**
-  
-- The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency metric target assumes your company site or sites and the Microsoft Edges are on the same continent.
-    
-- Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology. 
-    
-- The network performance target assumes proper bandwidth and/or quality of service planning. In other words, This applies directly to Teams media traffic when the network connection is under a peak load.
-    
-### Network performance requirements from your network edge to Microsoft network Edge
-
-The following are the network performance targets or thresholds that are required for the connection between your network edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the internet.
-
-|||
-|:-----|:-----|
-|**Metric** <br/> |**Target** <br/> |
-|Latency (one way)  <br/> |< 30ms  <br/> |
-|Latency (RTT)  <br/> |< 60ms  <br/> |
-|Burst packet loss  <br/> |<1% during any 200 ms interval  <br/> |
-|Packet loss  <br/> |<0.1% during any 15s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<15ms during any 15s interval  <br/> |
-|Packet reorder  <br/> |<0.01% out-of-order packets  <br/> |
-   
- **Other performance target requirements:**
-  
-- The performance target requires connection between any of your company's network edge and its nearest Microsoft network Edge, to be on the same continent.
-    
-- The network performance target assumes proper bandwidth and/or quality of service planning. This also applies to Teams media traffic when the network connection is under a peak load.
     
 ## Measuring network performance
 
@@ -199,7 +169,7 @@ Below are the latency (RTT) targets for the Azure service based network assessme
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Customer region** <br/> |**Azure region** <br/> |**Your network edge - Azure Round-trip Time (RTT)** <br/> |**Your Site - Azure Round-trip Time (RTT)** <br/> |
+|**Customer region** <br/> |**Azure region** <br/> |**Your network edge - Azure Round-trip Time (RTT)** <br/> |**Your site - Azure Round-trip Time (RTT)** <br/> |
 |Central US  <br/> |Central US  <br/> |99  <br/> |139  <br/> |
 |East US  <br/> |East US  <br/> |86  <br/> |126  <br/> |
 |North Central US  <br/> |North Central US  <br/> |97  <br/> |137  <br/> |
