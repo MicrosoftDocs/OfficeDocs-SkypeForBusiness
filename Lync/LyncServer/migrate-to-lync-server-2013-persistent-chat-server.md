@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server
 ms:assetid: 5b4d3db1-6eba-4932-b49c-f60bcf9488f9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615442(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg615442(v=OCS.15)
 ms:contentKeyID: 48184240
 ms.date: 07/23/2014
 manager: serdars
@@ -14,9 +14,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server
 
