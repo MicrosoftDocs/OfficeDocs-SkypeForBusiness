@@ -40,7 +40,7 @@ Configuring Cloud Voicemail involves the following tasks:
 6.  [Enable a user for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
 
 
-## Configure Cloud Voicemail as the hosting provider on the Edge Server 
+## Configure Cloud Voicemail as the hosting provider 
 
 You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
