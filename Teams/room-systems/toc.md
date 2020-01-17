@@ -22,7 +22,7 @@
 ### [Content cameras](content-camera.md)
 
 ## Manage
-### [Management overview](skype-room-systems-v2.md)
+### [Management overview](skype-room-systems-v3.md)
 ### [Maintenance and operations](room-systems-v2-operations.md)
 ### [Known issues](known-issues.md)
 ### [Devices with Azure Monitor](azure-monitor-manage.md)
