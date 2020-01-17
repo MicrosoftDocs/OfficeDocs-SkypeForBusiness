@@ -58,7 +58,7 @@ Here you can control whether suggested feeds appear in users' activity feed in T
 
 #### Tagging
 
-Tags let users communicate with a subset of people on a team. Tags can be applied to team members or groups. After a tag is applied, it can be used in @mentions in any standard channel of the team. Use these settings to control who can apply tags and how tags are used across your organization. To learn more, see [Manage tags in Teams](manage-tags.md).
+Tags let users communicate with a subset of people on a team. Tags can be added to one or more team members. After a tag is added, it can be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag. Use these settings to control who can add tags and how tags are used across your organization. To learn more, see [Manage tags in Teams](manage-tags.md).
 
 #### Email integration
 
