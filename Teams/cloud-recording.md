@@ -120,7 +120,7 @@ In the Microsoft Teams admin center, turn on or turn off the **Allow transcripti
 
 Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Unless you have assigned a custom policy to the users, uses get the Global policy, which has AllowTranscription disabled by default.
+Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
 
 For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
