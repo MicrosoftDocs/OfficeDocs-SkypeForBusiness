@@ -224,22 +224,22 @@ This impacts the network on two levels: traffic will flow between the Teams clie
 
 The table below lists the network performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge). 
 
-- Microsoft Edge is the part of the Microsoft network that interfaces with the edge of the customer network. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
+- The **Microsoft network Edge** is the part of the Microsoft network that interfaces with the edge of the customer network. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
 
   The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency performance requirements assume your company site or sites and the Microsoft Edges are on the same continent. 
 
-- Customer edge is the part of your organization's network that interfaces with the edge of the Microsoft network. Customer edge to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. It excludes the customer's internal network or WAN.
+- **Customer edge** is the part of your organization's network that interfaces with the edge of the Microsoft network. Customer edge to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. It excludes the customer's internal network or WAN.
 
 These performance requirements assume that the connection between your organization's network edge and the Microsoft network Edge are on the same continent. They also assume that you've got adequate bandwidth and that you've implemented [Quality of Service (QoS)](QoS-in-Teams.md) as appropriate. These requirements support Teams media traffic when your network connection is under a peak load.
 
 |Value  |Teams to Microsoft Edge  |Customer edge to Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latency (one way)** \*  |< 50ms          |< 30ms         |
-|**Latency (RTT or Round-trip Time)** \* |< 100ms   |< 60ms |
-|**Burst packet loss**    |<10% during any 200ms interval         |<1% during any 200ms interval         |
-|**Packet loss**     |<1% during any 15s interval          |<0.1% during any 15s interval         |
-|**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
-|**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
+|Latency (one way) \*  |< 50ms          |< 30ms         |
+|Latency (RTT or Round-trip Time) \* |< 100ms   |< 60ms |
+|Burst packet loss    |<10% during any 200ms interval         |<1% during any 200ms interval         |
+|Packet loss    |<1% during any 15s interval          |<0.1% during any 15s interval         |
+|Packet inter-arrival Jitter    |<30ms during any 15s interval         |<15ms during any 15s interval         |
+|Packet reorder    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
 
 \* The latency metric targets assume your company site or sites and the Microsoft Edges are on the same continent.
 
@@ -248,6 +248,9 @@ These performance requirements assume that the connection between your organizat
 Teams media travels through many different devices, client apps, server software, and across different networks. The end-to-end latency of this media is the total amount of latency that is introduced across all components and network segments. The quality of the end-to-end network connection is determined by the network segment with the worst quality. This segment acts as a bottleneck for this network traffic.
   
 The following diagram illustrates one-way audio flow in a conference from one Teams participant to another.
+
+**<font color="red">REVIEWERS: We'll obviously need to update these 2 diagrams if we decide that this scenario is still relevant. Please review the scenario AND the diagram. Who can help me sketch out a new diagram for Teams? I can have our artists produce it once we've sketched it out.</font>**
+
 ![ExpressRoute call flow](media/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
   
 In this conferencing scenario, the media path consists across the following network segments:
