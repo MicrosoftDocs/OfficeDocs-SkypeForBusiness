@@ -126,7 +126,7 @@ Below are the latency (RTT) targets for the Azure service-based network assessme
    
 #### Voice quality SLA
 
-**<font color="red">REVIEWERS: The SfBO version of this article included a voice quality SLA. AFAICT, we don't have one for Teams - correct? Should I delete this section? If we DO have a voice quality SLA for Teams, where is it? I searched for it at the www.microsoftvolumelicensing.com site but didn't</font>**
+**<font color="red">REVIEWERS: The SfBO version of this article included a voice quality SLA. AFAICT, we don't have one for Teams - correct? Should I delete this section? If we DO have a voice quality SLA for Teams, where is it? I searched for it at the www.microsoftvolumelicensing.com site but didn't find anything.</font>**
 
 The [Skype for Business Online Voice Quality SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Skype for Business Online voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
   
