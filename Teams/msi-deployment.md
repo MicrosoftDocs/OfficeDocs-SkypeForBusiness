@@ -76,7 +76,7 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 3. Redeploy the MSI package to that particular computer.
 
 > [!TIP]
-> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.
+> You can use our [Microsoft Teams deployment clean up](scripts/powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.
 
 ## Prevent Teams from starting automatically after installation
 
@@ -89,6 +89,9 @@ Enable the **Prevent Microsoft Teams from starting automatically after installat
 When you enable this policy setting before Teams is installed, Teams doesn't start automatically when users log in to Windows. After a user signs in to Teams for the first time, Teams starts automatically the next time the user logs in.
 
 To learn more, see [Use Group Policy to prevent Teams from starting automatically after installation](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+
+> [!TIP]
+> You can use our [Microsoft Teams reset autostart script](scripts/powershell-script-teams-reset-autostart.md) to enforce the Group Policy setting.
 
 ### Disable auto launch for the MSI installer
 
