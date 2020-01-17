@@ -74,7 +74,15 @@ Teams combines three forms of traffic:
 
 This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-The table below lists the network performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge). Microsoft Edge is the part of the Microsoft network that interfaces with the edge of the customer network. Customer edge is the part of your organization's network that interfaces with the edge of the Microsoft network.
+The table below lists the network performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge). 
+
+- Microsoft Edge is the part of the Microsoft network that interfaces with the edge of the customer network. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
+
+  The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency performance requirements assume your company site or sites and the Microsoft Edges are on the same continent. 
+
+- Customer edge is the part of your organization's network that interfaces with the edge of the Microsoft network. Customer edge to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. It excludes the customer's internal network or WAN.
+
+These performance requirements assume that the connection between your organization's network edge and the Microsoft network Edge are on the same continent. They also assume that you've got adequate bandwidth and that you've implemented [Quality of Service (QoS)](QoS-in-Teams.md) as appropriate. These requirements support Teams media traffic when your network connection is under a peak load.
 
 |Value  |Teams to Microsoft Edge  |Customer edge to Microsoft Edge  |
 |:--- |:--- |:--- |
@@ -86,22 +94,6 @@ The table below lists the network performance requirements for the two defining 
 |**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
 
 \* The latency metric targets assume your company site or sites and the Microsoft Edges are on the same continent.
-
-
-These network performance targets assume that you have sufficient bandwidth and/or that you've [implemented QoS](QoS-in-Teams.md). In other words, the requirements apply to Teams media traffic when the network connection is under a peak load.
-
-
-### Teams to Microsoft network Edge
-
-This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
-
-The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency performance requirements assume your company site or sites and the Microsoft Edges are on the same continent. 
-
-### Your network edge to Microsoft network Edge
-
-Your organization's network connection (customer edge) to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. This segment of the network excludes the customer's internal network or WAN.
-   
-Our performance requirements for this segment assume that the connection between your organization's network edge and the Microsoft network Edge are on the same continent.
 
 ### How Teams media flows through your network
 
@@ -136,7 +128,6 @@ In a PSTN call scenario, the media path crosses the following network segments:
     
     
 ## Measuring network performance
-
 
 To measure the actual network performance, especially for latency and packet loss, from any company network site to a network edge, we recommend the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
 
