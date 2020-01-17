@@ -1612,7 +1612,17 @@
           "redirect_document_id": false
         },
     {
-          "source_path": "prepare-network.md", 
+          "source_path": "upgrade-plan-for-quality.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "envision-planning-for-service-management.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "envision-planning-for-service-management-and-quality-complete-guide.md", 
           "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
           "redirect_document_id": false
         },
