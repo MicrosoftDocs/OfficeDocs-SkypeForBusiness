@@ -3,7 +3,7 @@ title: "Optimize network and media performance for Microsoft Teams"
 ms.author: lolaj
 author: lolajacobsen
 manager: serdars
-ms.reviewer: mpottier, dougand, jastark, kojika
+ms.reviewer: bryanyce, brwoff, jastark, kojika
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -65,7 +65,7 @@ For a list of steps you can take to optimize your network for Teams, see [Prepar
 Traffic congestion across a network often degrades media quality in Teams. To allow audio and video packets to travel the network quicker and to be prioritized over other network traffic in a congested network, implement [Quality of Service (QoS)](QoS-in-Teams.md).
 
     
-## Measuring network performance
+## Measure network performance
 
 To measure the actual network performance, especially for latency and packet loss, from any company network site to a network edge, we recommend the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
 
@@ -78,7 +78,7 @@ For testing Internet connections to the Microsoft network, it is recommended tha
 |**IP address** <br/> |**Type** <br/> |**Location** <br/> |
 |13.107.8.2  <br/> |VIP  <br/> |World Wide Anycast IP  <br/> |
    
- **Here are some high level recommendations to follow for assessing network performance:**
+ **Here are some high level recommendations for assessing network performance:**
   
 - Assess your internal network as well as the connections to Office 365.
     
@@ -90,9 +90,7 @@ For testing Internet connections to the Microsoft network, it is recommended tha
     
 ### Measuring network performance using Azure VMs
 
-**<font color="red">REVIEWERS: Is this applicable to Teams? If so, I want to link to Azure documentation for this - including the latency-targets table. I'd rather add a note saying "you can also measure network performance using Azure VMs. Click here to learn how..."**
-
-**Same question as above about Skype Media Relay.</font>**
+**<font color="red">REVIEWERS: Is this applicable to Teams? If so, I want to link to Azure documentation for this - including the latency-targets table. I'd rather add a note saying "you can also measure network performance using Azure VMs. Click here to learn how..."  Same question as above about Skype Media Relay.</font>**
 
 Instead of testing against the Microsoft network Edge sites, there are network assessment solutions from Teams customers and partners that leverage testing setup for services in the Microsoft Azure cloud. In those solutions, the network assessment tools test latency, packet loss and jitter against custom endpoints set up as a service in the Azure cloud. As a result, the test network traffic travels through one additional network segment, which is the connection within the Microsoft network between the network edges and Azure data centers that hosts the network assessment service.
   
@@ -128,21 +126,18 @@ Below are the latency (RTT) targets for the Azure service-based network assessme
    
 #### Voice quality SLA
 
-**<font color="red">REVIEWERS: The SfBO version of this article included a voice quality SLA. AFAICT, we don't have one for Teams - correct?  I commented out the SfBO SLA info. If we DO have a voice quality SLA for Teams, where is it? I searched for it at the www.microsoftvolumelicensing.com site but didn't</font>**
-<!--
+**<font color="red">REVIEWERS: The SfBO version of this article included a voice quality SLA. AFAICT, we don't have one for Teams - correct? Should I delete this section? If we DO have a voice quality SLA for Teams, where is it? I searched for it at the www.microsoftvolumelicensing.com site but didn't</font>**
+
 The [Skype for Business Online Voice Quality SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Skype for Business Online voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
   
 - Calls from Microsoft certified IP Phones.
-    
 - Wired Ethernet connections.
-    
 - Voice quality issues due to Microsoft Network problems.
     
 > [!NOTE]
 > The voice quality SLA excludes those calls where the low call quality is caused by problems in non-Microsoft networks including ExpressRoute partner and other networks. 
---> 
 
-## Test the network
+## Test your network
 
 After you're done optimizing your network, test it to see if your optimizations worked. Did your changes give you the network-performance improvements you were looking for?
 
@@ -212,6 +207,7 @@ If you use a proxy, we recommend that you bypass the proxy server for all Teams 
 If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
 
 If you need to use a proxy server, we recommend the following:
+
 - Use external DNS resolution
 - Use direct UDP-based routing
 - Allow UDP traffic
@@ -220,9 +216,9 @@ If you need to use a proxy server, we recommend the following:
 
 Teams combines three forms of traffic:
 
--   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization)
--   Peer-to-peer real-time communications traffic (audio, video, screen sharing)
--   Conferencing real-time communications traffic (audio, video, screen sharing)
+- Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization)
+- Peer-to-peer real-time communications traffic (audio, video, screen sharing)
+- Conferencing real-time communications traffic (audio, video, screen sharing)
 
 This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
