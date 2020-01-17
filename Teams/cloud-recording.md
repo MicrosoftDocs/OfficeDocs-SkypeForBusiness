@@ -155,4 +155,3 @@ The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-
