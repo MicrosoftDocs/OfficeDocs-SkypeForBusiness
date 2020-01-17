@@ -145,6 +145,8 @@ Best practice: Take baseline readings once in a while, when your network is work
 
 Download the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams. This tool tests whether all the correct ports are open, and it can identify network impairments.
 
+**<font color="red">REVIEWERS: Siunie says she's planning to update this tool for Teams, possibly in H2FY20.</font>**
+
 After you download and install the tool, you'll find it in C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool. A detailed guide for how to use the tool, Usage.docx, is included in that directory.
 
 ### Test for opened ports

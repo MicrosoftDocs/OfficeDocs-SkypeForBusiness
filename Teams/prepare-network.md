@@ -64,9 +64,16 @@ For an example scenario, see [Using Network Planner - example scenario](tutorial
 
 [Advisor for Teams](use-advisor-teams-roll-out.md) is part of the [Teams admin center](https://admin.teams.microsoft.com). It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. 
 
+
+### External Name Resolution
+
+Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+
 ### Network Assessment Tool
 
 Use the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test network connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.
+
+**<font color="red">REVIEWERS: This tool is still branded for Skype for Business. Siunie says she's planning to update this tool for Teams, possibly in H2FY20.</font>**
 
 ### Validate (NAT) pool size
 
@@ -79,10 +86,6 @@ Validate the network address translation (NAT) pool size required for user conne
 ### Intrusion Detection and Prevention Guidance
 
 If your environment has an [Intrusion Detection](https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools) or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, be sure to whitelist all Office 365 URLs.
-
-### External Name Resolution
-
-Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
 ### Configure split-tunnel VPN
 
