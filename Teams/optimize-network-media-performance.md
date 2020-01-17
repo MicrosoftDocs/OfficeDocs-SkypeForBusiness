@@ -142,22 +142,26 @@ For testing Internet connections to the Microsoft network, it is recommended tha
    
  **Here are some high level recommendations to follow for assessing network performance:**
   
-- You should assess your internal network as well as the connections to Office 365.
+- Assess your internal network as well as the connections to Office 365.
     
-- You should assess and gather data for all of your networks over a long period of time. We recommend that you perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
+- Assess and gather data for all of your networks over a long period of time. We recommend that you perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
     
-- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
+- Take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
     
-- You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure optimal media quality. 
+- Continuously assess your network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure optimal media quality. 
     
-## Measuring network performance using Azure VMs
+### Measuring network performance using Azure VMs
+
+**<font color="red">REVIEWERS: Is this applicable to Teams? If so, I want to link to Azure documentation for this - including the latency-targets table. I'd rather add a note saying "you can also measure network performance using Azure VMs. Click here to learn how..."**
+
+**Same question as above about Skype Media Relay.</font>**
 
 Instead of testing against the Microsoft network Edge sites, there are network assessment solutions from Teams customers and partners that leverage testing setup for services in the Microsoft Azure cloud. In those solutions, the network assessment tools test latency, packet loss and jitter against custom endpoints set up as a service in the Azure cloud. As a result, the test network traffic travels through one additional network segment, which is the connection within the Microsoft network between the network edges and Azure data centers that hosts the network assessment service.
   
-For those network assessment solutions based on Azure hosted testing services. We recommend performing the network assessment within country and/or region. For example, for customer sites in east U.S., the assessment should be performed against a testing service instance hosted in Azure's East US data center region. 
+For those network assessment solutions based on Azure hosted testing services, we recommend performing the network assessment within country and/or region. For example, for customer sites in the eastern United States, the assessment should be performed against a testing service instance hosted in Azure's East US data center region. 
   
-Below are the latency (RTT) targets for the Azure service based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stays the same as those defined for Skype Media Relay based testing .
-  
+Below are the latency (RTT) targets for the Azure service-based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stays the same as those defined for Skype Media Relay based testing.
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Customer region** <br/> |**Azure region** <br/> |**Your network edge - Azure Round-trip Time (RTT)** <br/> |**Your site - Azure Round-trip Time (RTT)** <br/> |
@@ -186,7 +190,7 @@ Below are the latency (RTT) targets for the Azure service based network assessme
    
 #### Voice quality SLA
 
-**<font color="red">REVIEWERS: The SfBO version of this article included a voice quality SLA. AFAICT, we don't have one for Teams - correct?  I commented out the SfBO SLA info.</font>**
+**<font color="red">REVIEWERS: The SfBO version of this article included a voice quality SLA. AFAICT, we don't have one for Teams - correct?  I commented out the SfBO SLA info. If we DO have a voice quality SLA for Teams, where is it? I searched for it at the www.microsoftvolumelicensing.com site but didn't find it.</font>**
 <!--
 The [Skype for Business Online Voice Quality SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Skype for Business Online voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
   
