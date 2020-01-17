@@ -68,7 +68,7 @@ There are many tools to discover, audit, and report assets. Some of these tools 
 
   - **Automated Scripts**   You can write simple scripts to report items such as the operating system, service pack level, and whether software exists on a specific set of computers. You can write these scripts to an organization’s exact requirements. However, the required number of scripts and their complexity can make scripts expensive to create and maintain.
 
-  - **Automated Tools**   Depending on the size of your business and your organizational needs, you may want to consider using automated tools. Tools such as System Center Configuration Manager incorporate standard report templates (such as service pack level) and also enable you to create customized reports, for example, for a custom application. The System Center Configuration Manager can also be used to report on hardware and software configurations.
+  - **Automated Tools**   Depending on the size of your business and your organizational needs, you may want to consider using automated tools. Tools such as Microsoft Endpoint Configuration Manager incorporate standard report templates (such as service pack level) and also enable you to create customized reports, for example, for a custom application. The Microsoft Endpoint Configuration Manager can also be used to report on hardware and software configurations.
 
 </div>
 

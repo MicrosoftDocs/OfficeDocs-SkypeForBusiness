@@ -199,7 +199,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
     
      ![Screen shot showing connection to a PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Download and install the latest BToE software from the manufacturer website from the links below. For a better user experience, you can distribute and install the BToE software using an admin distribution solution such as System Center Configuration Manager (SCCM). For help using SCCM, See [Packages and programs in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+2. Download and install the latest BToE software from the manufacturer website from the links below. For a better user experience, you can distribute and install the BToE software using an admin distribution solution such as Microsoft Endpoint Configuration Manager. For help using Configuration Manager, See [Packages and programs in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
     
    - [Polycom BToE Software Download site](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     

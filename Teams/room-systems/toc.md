@@ -16,7 +16,7 @@
 ### [With Exchange Online (Hybrid)](with-exchange-online.md)
 ### [With Exchange on premises (Hybrid)](with-exchange-on-premises.md)
 ### [Configure a console](console.md)
-### [By using System Center Configuration Manager](room-systems-scale.md)
+### [By using Microsoft Endpoint Configuration Manager](room-systems-scale.md)
 ### [Management with Azure Monitor](azure-monitor-deploy.md)
 ### [Migrate SRS v1 or LRS](lrs-migration.md)
 ### [Content cameras](content-camera.md)

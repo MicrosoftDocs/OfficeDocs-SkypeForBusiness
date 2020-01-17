@@ -74,7 +74,7 @@ With Office 365, you have several options for deploying the Skype for Business a
     
 - Use the **[Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** to download either Office 365 ProPlus or the Skype for Business app to your local network. Then, use the Office Deployment Tool to deploy the app to your users. The Office Deployment Tool gives you the ability to control certain aspects of the deployment, such as languages and version (32-bit or 64-bit).
     
-- Use your existing software deployment tools and processes, such as System Center Configuration Manager, to deploy Office 365 ProPlus or the Skype for Business app to your users. You can use your existing tools and processes with the [Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) or with the software that you've downloaded from the Microsoft 365 admin center.
+- Use your existing software deployment tools and processes, such as Microsoft Endpoint Configuration Manager, to deploy Office 365 ProPlus or the Skype for Business app to your users. You can use your existing tools and processes with the [Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) or with the software that you've downloaded from the Microsoft 365 admin center.
     
 ### More info on using the Office Deployment Tool
 
@@ -96,9 +96,9 @@ For details on using the Office Deployment Tool and configuration.xml file, see 
     
 - [Configuration.xml settings](https://technet.microsoft.com/library/jj219426.aspx)
     
-### More info on using System Center Configuration Manager
+### More info on using Microsoft Endpoint Configuration Manager
 
-You can use your existing software deployment tools and processes, such as System Center Configuration Manager, to deploy the Skype for Business app. You can use these tools and processes with either the software that you download from the Microsoft 365 admin center or with the Office Deployment Tool.
+You can use your existing software deployment tools and processes, such as Microsoft Endpoint Configuration Manager, to deploy the Skype for Business app. You can use these tools and processes with either the software that you download from the Microsoft 365 admin center or with the Office Deployment Tool.
   
 For more information about using Configuration Manager to deploy software, see the following articles:
   
@@ -106,7 +106,7 @@ For more information about using Configuration Manager to deploy software, see t
     
 - [How to Deploy Applications in Configuration Manager](https://technet.microsoft.com/en-us/library/gg682082.aspx)
     
-If you're deploying the Skype for Business app as part of deploying Office 365 ProPlus, see [Deploy Office 365 ProPlus by using the System Center Configuration Manager](https://technet.microsoft.com/en-us/library/dn708063.aspx).
+If you're deploying the Skype for Business app as part of deploying Office 365 ProPlus, see [Deploy Office 365 ProPlus with Microsoft Endpoint Configuration Manager (current branch)](https://technet.microsoft.com/en-us/library/dn708063.aspx).
   
 ## Planning for updates to the Skype for Business app
 

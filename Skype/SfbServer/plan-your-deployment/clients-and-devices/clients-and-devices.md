@@ -123,7 +123,7 @@ Both the basic and full client versions (with choice of 32- and 64-bit versions)
 
 ### MSI
 
-MSI is a more traditional installation method, used on the Skype for Business 2015 and 2016 clients. It allows you to manually install updates and patches, use volume licensing and activation, and is customizable via the [Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030). You can distribute clients by applying Group Policies, by using System Center Configuration Manager, or using a third party tool.
+MSI is a more traditional installation method, used on the Skype for Business 2015 and 2016 clients. It allows you to manually install updates and patches, use volume licensing and activation, and is customizable via the [Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030). You can distribute clients by applying Group Policies, by using Microsoft Endpoint Configuration Manager, or using a third party tool.
 
 
 
