@@ -139,8 +139,8 @@ if($null -eq $teamsProc) {
     Write-Host  "Teams process is still running, aborting script execution"
 }
 ````
+
 ## Related topics
 
 - [Install Teams using MSI](../msi-deployment.md)
-- [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install)
-
+- [Deploy Teams with Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install)
