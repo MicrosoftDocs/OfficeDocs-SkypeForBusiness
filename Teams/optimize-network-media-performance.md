@@ -35,7 +35,7 @@ To see the basic network requirements for Teams, read [Prepare your organization
 
 ## What affects media quality?
 
-The biggest factors in Teams media quality (audio, video, and application sharing) are devices and network connectivity. 
+The biggest factors in Teams media quality (audio, video, and application sharing) are devices and performant network connectivity. 
   
 ### Devices
 
@@ -82,11 +82,11 @@ For testing Internet connections to the Microsoft network, it is recommended tha
   
 - Assess your internal network as well as the connections to Office 365.
     
-- Assess and gather data for all of your networks over a long period of time. We recommend that you perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
+- Assess and gather data for all of your networks over a long period of time, creating a baseline measurment. We recommend that you perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
     
-- Take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
+- Take multiple samples of network performance measurements, as part of your baseline. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
     
-- Continuously assess your network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure optimal media quality. 
+- Continuously assess your network's performance and create ongoing baselines. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure optimal media quality. 
     
 ### Measuring network performance using Azure VMs
 
@@ -96,11 +96,11 @@ Instead of testing against the Microsoft network Edge sites, there are network a
   
 For those network assessment solutions based on Azure hosted testing services, we recommend performing the network assessment within country and/or region. For example, for customer sites in the eastern United States, the assessment should be performed against a testing service instance hosted in Azure's East US data center region. 
   
-Below are the latency (RTT) targets for the Azure service-based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stays the same as those defined for Skype Media Relay based testing.
+Below are the latency (RTT) targets, in milliseconds (ms), for the Azure service-based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stays the same as those defined for Skype Media Relay based testing.
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**Customer region** <br/> |**Azure region** <br/> |**Your network edge - Azure Round-trip Time (RTT)** <br/> |**Your site - Azure Round-trip Time (RTT)** <br/> |
+|**Customer region** <br/> |**Azure region** <br/> |**Your network edge - Azure Round-trip Time (RTT) in ms** <br/> |**Your site - Azure Round-trip Time (RTT) in ms** <br/> |
 |Central US  <br/> |Central US  <br/> |99  <br/> |139  <br/> |
 |East US  <br/> |East US  <br/> |86  <br/> |126  <br/> |
 |North Central US  <br/> |North Central US  <br/> |97  <br/> |137  <br/> |
@@ -141,7 +141,7 @@ The [Skype for Business Online Voice Quality SLA](http://www.microsoftvolumelice
 
 After you're done optimizing your network, test it to see if your optimizations worked. Did your changes give you the network-performance improvements you were looking for?
 
-Best practice: Take baseline readings once in a while, when your network is working well. This gives you something to compare against when you're having problems. Similarly, if you do a major update to your network, take another baseline.
+Best practice: Schedule network baseline readings as part of your maintenance window when your network is working well. This gives you something to compare against when you're having problems. Similarly, if you do a major update to your network, take new baselines.
 
 Download the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams. This tool tests whether all the correct ports are open, and it can identify network impairments.
 
@@ -169,7 +169,7 @@ Network impairments affect Teams performance, so you'll want to find and remedia
 
 When testing for these impairments, we distinguish between two separate segments:
 
-- The *edge segment* is the segment in which your router lives. This is the closest logical network segment connected to the internet at each of your locations. In most cases, this is the connection point of the router, or possibly a perimeter network (also known as *DMZ*, *demilitarized zone*, and *screened subnet*). No further traffic that affects devices other than the router should occur between this segment and the internet.
+- The *edge segment* is the segment in which your router lives. This is the closest logical network segment connected to the internet at each of your locations. In most cases, this is the connection point of the router, or possibly a perimeter network (also known as *screened subnet*). No further traffic that affects devices other than the router should occur between this segment and the internet.
 
 - The *client segment* is the logical network segment in which your clients reside.
 
@@ -202,13 +202,13 @@ Where bandwidth isn't limited, Teams optimizes media quality, including up to 10
 
 TCP ports 80 and 443 are used to connect to web-based content such as SharePoint Online, Exchange Online, and Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports (3478 through 3481) are used for media such as audio and video, to ensure they flow correctly.
 
-Not using a proxy server is recommended for Teams. When it comes to Teams traffic over proxies, we recommend bypassing proxies. Proxies don't make Teams more secure because the traffic is already encrypted. 
+**Not** using a proxy server is recommended for Teams. When it comes to Teams traffic over proxies, we recommend bypassing proxies.  Teams traffic is already encrypted, and does not require encryption via proxy server. Proxy servers do not improve Teams performance. 
 
 If you use a proxy, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, running Teams through a proxy will likely cause performance problems due to latency and packet loss (degrades Teams audio and video quality because media uses TCP instead of UDP). For more information about proxy servers and bypassing them, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
 
 If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. It’s also a good practice to test whether all ports are opened by running the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. 
 
-If you need to use a proxy server, we recommend the following:
+If you must use a proxy server, we recommend the following:
 
 - Use external DNS resolution
 - Use direct UDP-based routing
@@ -224,13 +224,13 @@ Teams combines three forms of traffic:
 
 This impacts the network on two levels: traffic will flow between the Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-The table below lists the network performance requirements for the two defining network segments (Teams to Microsoft Edge and Customer edge to Microsoft Edge). 
+The table below lists the network performance requirements for the two defining network segments (Teams client to Microsoft Edge and Customer edge to Microsoft Edge, where Microsoft Edge indicates the edge of the Office 365 Cloud). 
 
-- The **Microsoft network Edge** is the part of the Microsoft network that interfaces with the edge of the customer network. This segment of the network includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
+- In this performance testing example, the **Microsoft network Edge** measurment includes the part of the Microsoft network that interfaces with the edge of the customer network. This measure also includes your internal network, all WiFi and Ethernet connections, and any company site-to-site traffic over a WAN connection, such as Multiprotocol Label Switching (MPLS).
 
   The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency performance requirements assume your company site or sites and the Microsoft Edges are on the same continent. 
 
-- **Customer edge** is the part of your organization's network that interfaces with the edge of the Microsoft network. Customer edge to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. It excludes the customer's internal network or WAN.
+- The **Customer edge** measurement is the part of your organization's network that interfaces with the edge of the Microsoft network. Customer edge to the Microsoft network Edge includes first hop network access, which can be WiFi or another wireless technology. It excludes the customer's internal network or WAN.
 
 These performance requirements assume that the connection between your organization's network edge and the Microsoft network Edge are on the same continent. They also assume that you've got adequate bandwidth and that you've implemented [Quality of Service (QoS)](QoS-in-Teams.md) as appropriate. These requirements support Teams media traffic when your network connection is under a peak load.
 
@@ -247,7 +247,7 @@ These performance requirements assume that the connection between your organizat
 
 ### How Teams media flows through your network
 
-Teams media travels through many different devices, client apps, server software, and across different networks. The end-to-end latency of this media is the total amount of latency that is introduced across all components and network segments. The quality of the end-to-end network connection is determined by the network segment with the worst quality. This segment acts as a bottleneck for this network traffic.
+Teams media travels through many different devices, client apps, server software, and across different networks. The end-to-end latency of this media is the total amount of latency that is introduced across all components and network segments. The quality of the end-to-end network connection is determined by the network segment with the *worst quality*. This segment acts as a bottleneck for this network traffic.
   
 The following diagram illustrates one-way audio flow in a conference from one Teams participant to another.
 
