@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to reset the autostart setting in Teams for users. 
+description: Use this PowerShell script to reset the autostart setting in Teams on a per-user basis.  
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -15,8 +15,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-PowerShell script sample - Reset the autostart setting in Teams
--------------------------------------------------------------------------
+# PowerShell script sample - Reset the autostart setting in Teams
 
 Use this script to reset the Teams autostart setting on a per-user basis. This includes any values set by the user or the Teams app. By default, Teams automatically starts when a user logs in to their computer after it's installed.
 
