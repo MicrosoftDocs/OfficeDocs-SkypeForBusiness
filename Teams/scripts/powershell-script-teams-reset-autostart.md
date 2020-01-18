@@ -18,20 +18,21 @@ appliesto:
 PowerShell script sample - Reset the autostart setting in Teams
 -------------------------------------------------------------------------
 
-Use this script together with the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to reset the Teams autostart setting.
+Use this script to reset the Teams autostart setting on a per-users basis. This includes any values set by the user or the Teams app. By default, Teams automatically starts when a user logs in to their computer after it's installed.
 
-By default, Teams automatically starts when a user logs in to their computer after it's installed. Before you deploy Teams, you can set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to control whether Teams automatically starts for users after it's installed. However, you may have already deployed Teams and may not want Teams to automatically start for your users. After Teams is started for a user, the default start behavior can't be changed.
+If you already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.
 
-You can use this script on a per-user basis to reset the Teams autostart setting. This script enforces the Group Policy setting, so you must first set the Group Policy setting to the value that you want before you run this script.
+After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.
 
 ## Sample script
 
 ````powershell
 <#
 .SYNOPSIS
-This script allows you to remove artifacts, which are used to check whether the user logged in and thus should ignore the "Prevent Microsoft Teams from starting automatically after installation" Group Policy setting.
+This script allows you to reset all autostart settings to the default settings for Teams.
 .DESCRIPTION
-Use this script together with the "Prevent Microsoft Teams from starting automatically after installation" Group Policy setting.
+If you want to use the "Prevent Microsoft Teams from starting automatically after installation" Group Policy setting,
+make sure you first set the Group Policy to the value you want before you run this script.
 #>
 
 $ErrorActionPreference = "Stop"

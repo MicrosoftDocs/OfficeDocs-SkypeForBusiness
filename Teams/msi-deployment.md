@@ -90,8 +90,8 @@ When you enable this policy setting before Teams is installed, Teams doesn't sta
 
 To learn more, see [Use Group Policy to prevent Teams from starting automatically after installation](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
 
-> [!TIP]
-> You can use our [Microsoft Teams reset autostart script](scripts/powershell-script-teams-reset-autostart.md) to enforce the Group Policy setting.
+> [!CAUTION]
+> If you already deployed Teams and want to set this policy to disable Teams autostart, first set the Group Policy to the value you want, and then run the [Teams reset autostart script](scripts/powershell-script-teams-reset-autostart.md) on a per-user basis.
 
 ### Disable auto launch for the MSI installer
 
