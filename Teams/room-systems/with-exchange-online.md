@@ -140,6 +140,9 @@ Import-PSSession $Session -DisableNameChecking
 6. Click **Save**.
 
 For validation, you should be able to use any Skype for Business client to log in to this account.
+
+> [!NOTE]
+> If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Office 365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model described [here](https://docs.microsoft.com/en-us/MicrosoftTeams/room-systems/skype-room-systems-v2), after current licenses expire.
   
 ## See also
 
