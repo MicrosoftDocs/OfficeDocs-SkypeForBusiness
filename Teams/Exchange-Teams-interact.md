@@ -38,8 +38,8 @@ The following table provides a helpful quick reference to feature availability b
 
 | User's mailbox is hosted in: | eDiscovery| Legal&nbsp;Hold | Retention| Team and Channel mgmt |Create and view meetings in Teams| Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail |Add and configure connectors|Add and configure tabs|Add and configure bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes <sup>7</sup>|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 |**Exchange On-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes <sup>6|Yes|Yes|
 
@@ -55,8 +55,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>6</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
 
-
-Additional information:
+<sup>7</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
 ## Requirements to get the most out of Microsoft Teams
 
