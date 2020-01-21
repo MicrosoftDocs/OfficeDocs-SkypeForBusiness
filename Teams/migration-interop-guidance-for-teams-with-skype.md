@@ -37,7 +37,7 @@ As an organization with Skype for Business starts to adopt Teams, administrators
     - Users already using Skype for Business/Lync on-premises use their existing on-premises account.
     - Users for whom we cannot detect an existing Skype for Business account will have a Skype for Business Online account automatically provisioned when the Teams user is created.
 
-4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must first configure Skype for Business hybrid mode*. For more details, see [Configure Azure AD Connect for Skype for Business and Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
+4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must first configure Skype for Business hybrid mode*. For more details, see [Configure Azure AD Connect for Skype for Business and Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 5.  Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The recipient Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
 
@@ -64,7 +64,7 @@ From a technical perspective, a user’s mode governs several  aspects of the us
 - *Meeting scheduling*: Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook? Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
 - *Client experience*: What functionality is available in Teams and/or Skype for Business client? Can users initiate calls and chats in Teams, Skype for Business or both? Is Teams & Channels experience available?  
 
-For more details on routing and presence behavior based on mode, see [Coexistence with Skype for Business](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
+For more details on routing and presence behavior based on mode, see [Coexistence with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
 
 However, from an experience perspective, mode can more simply be described as defining the experience for:
 - *Chat and Calling*: Which client does a user use?
@@ -143,10 +143,10 @@ TeamsUpgradePolicy governs routing for incoming federated chats and calls. Feder
 - Chats and calls initiated from Teams land in Teams if the recipient is in the *same tenant*.
 - Chats and calls initiated from SfB always land in Skype for Business.
 
-For more details, see [Coexistence with Skype for Business](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
+For more details, see [Coexistence with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
 
 ## The Teams client user experience when using SfB modes
-When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is automatically disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and automatically enabled when a user is in the SfBWithTeamsCollabAndMeetings mode. For details, see [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
+When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is automatically disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and automatically enabled when a user is in the SfBWithTeamsCollabAndMeetings mode. For details, see [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
 > [!Note] 
 > - Prior to delivery of the automatic enforcement of Teams and Channels, the SfbOnly and SfBWithTeamsCollab modes behave the same.
@@ -170,9 +170,9 @@ When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsColl
 
 ## Related topics
 
-[Coexistence with Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/coexistence-chat-calls-presence)
+[Coexistence with Skype for Business](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)
 
-[Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
