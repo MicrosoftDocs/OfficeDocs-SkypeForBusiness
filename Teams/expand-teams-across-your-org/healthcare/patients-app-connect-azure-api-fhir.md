@@ -14,7 +14,7 @@ MS.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Learn how to connect the Patients app to Azure API for FHIR (Fast Healthcare Interoperability Resources).
+description: Learn how to connect the Patients app in Microsoft Teams to Azure API for FHIR (Fast Healthcare Interoperability Resources).
 ---
 
 # Connect the Patients app to Azure API for FHIR
