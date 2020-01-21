@@ -19,7 +19,8 @@ description: Learn how to connect the Patients app to Azure API for FHIR (Fast H
 
 # Connect the Patients app to Azure API for FHIR
 
-Follow the steps in this article to allow the Patients app in Microsoft Teams access to an Azure API for FHIR instance.
+Follow these steps to allow the Patients app in Microsoft Teams access to an Azure API for FHIR instance. This article assumes that you have an [Azure API for FHIR instance](https://azure.microsoft.com/services/azure-api-for-fhir/) set up and configured in your tenant.  If you haven’t yet created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
+
 
 1. Click [here](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) to grant admin consent for the Patients app. When prompted, sign in using your tenant admin or global admin credentials, and then click **Accept** to grant the required permissions.
 
@@ -36,8 +37,6 @@ Follow the steps in this article to allow the Patients app in Microsoft Teams ac
 
     ![Screenshot of the Azure API for FHIR instance settings in Azure portal](../../media/patients-app-azure-portal-instance-settings.png)
 
-    If you haven’t yet created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
-
 5. Click **Authentication**, and then paste the object ID that you copied in step 3 to the **Allowed object IDs** box. This allows the Patients app to access the FHIR server. After you paste the object ID, Azure Active Directory validates it, and a green check mark appears next to it.
 
     ![Screenshot of Authentication settings in Azure portal](../../media/patients-app-azure-portal-authentication.png)
@@ -50,6 +49,8 @@ Follow the steps in this article to allow the Patients app in Microsoft Teams ac
 8. In Teams, go to the Patients app instance that's loaded in your team, click **Settings**, and then in the **Link** box, enter the FHIR server endpoint URL. Then, click **Connect** to establish a connection and search and add patients to your list.  
 
     ![Screenshot of Patients app settings in Teams](../../media/patients-app-teams.png)
+    
+    If you get an error when connecting to Teams during this step, send a detailed screenshot of the error, logs from [Fiddler](https://www.telerik.com/download/fiddler) and any other repro steps in an email with a subject line of “Patients App – EMR mode troubleshooting” to [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com).
 
 ## Related topics
 
