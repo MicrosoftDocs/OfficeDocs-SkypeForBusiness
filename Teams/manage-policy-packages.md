@@ -37,6 +37,7 @@ Teams currently includes the following policy packages.
 |Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
 |Business voice |Creates an app setup policy that includes the apps for a business voice experience.|
+|Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
 |Healthcare (Clinical worker)<br>**(preview)**  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare (Information worker)<br>**(preview)**  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 
