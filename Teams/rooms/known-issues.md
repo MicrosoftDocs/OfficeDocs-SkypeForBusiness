@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -72,4 +71,4 @@ Windows 10 1903 is not yet offered on Microsoft Teams Rooms devices from Crestro
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
