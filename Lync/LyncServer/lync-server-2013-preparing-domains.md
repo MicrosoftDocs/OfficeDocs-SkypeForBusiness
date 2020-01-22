@@ -38,11 +38,11 @@ If permissions inheritance is disabled or authenticated user permissions are dis
 
 If your organization uses organizational units (OU) instead of the three built-in containers (that is, Users, Computers, and Domain Controllers), you must grant read access to the OUs for the Authenticated Users group. Read access to the containers is required for domain preparation. If the Authenticated Users group does not have read access to the OU, run the **Grant-CsOuPermission** cmdlet as illustrated in the following code examples to grant read permissions for each OU.
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
    ```
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 

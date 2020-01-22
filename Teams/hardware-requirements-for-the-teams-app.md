@@ -32,7 +32,7 @@ All of the requirements in the following sections apply to both the Teams deskto
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Minimum of 128 MB graphics memory
-|Operating system  |    Windows 10, Windows 8.1, or Windows 7 Service Pack 1 in 32-bit and 64-bit. For the best experience, use the latest version of any operating system.|
+|Operating system  |    Windows Server 2012 R2+, Windows 10, Windows 8.1, or Windows 7 Service Pack 1 in 32-bit and 64-bit. For the best experience, use the latest version of any operating system.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    | 
@@ -73,11 +73,11 @@ All of the requirements in the following sections apply to both the Teams deskto
 
 You can use Teams on these mobile platforms:
 
-- Android - requires Android 5.0 or later. Compatible with Android phones and tablets.
+- Android: Compatible with Android phones and tablets.
 
   Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
 
-- iOS - requires iOS 10.0 or later. Compatible with iPhone, iPad, and iPod touch. 
+- iOS: Compatible with iPhone, iPad, and iPod touch. 
 
   Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
 

@@ -48,11 +48,11 @@ You can manage user settings and policies for users migrated to Lync Online by u
 
   - Run the following cmdlets to move a user from Lync Online back to Lync on-premises:
     
-       ```
+       ```PowerShell
         $cred=Get-Credential
        ```
     
-       ```
+       ```PowerShell
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 

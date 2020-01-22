@@ -65,7 +65,7 @@ You might also use a similar approach to gauge the number of calls being handled
 
 To review usage statistics for a particular workflow, enter the workflow URI in the Workflow URI box. Of course, as noted, workflow URIs (the SIP address associated with a workflow) do not appear on the report. That means you need to find some other way to determine the URI of a workflow. One way to do this is to use Windows PowerShell and the Skype for Business Server Management Shell. For example, this command returns the URIs for all your Response Group workflows:
 
-```
+```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 ```
 
@@ -81,7 +81,7 @@ New Ad Campaign                 sip:newads@litwareinc.com
 
 This command returns information for a single workflow, the one with the name New Ad Campaign:
 
-```
+```PowerShell
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
 ```
 

@@ -17,7 +17,7 @@ description: "The Install-CcAppliance cmdlet installs the Skype for Business Clo
  
 The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server. 
   
-```
+```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
@@ -30,7 +30,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 The following example installs a new Cloud Connector appliance on the host server:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -38,7 +38,7 @@ Install-CcAppliance
 
 The following example upgrades Cloud Connector to the latest version:
   
-```
+```powershell
 Install-CcAppliance -Upgrade
 ```
 
@@ -46,7 +46,7 @@ Install-CcAppliance -Upgrade
 
 The following example removes all Cloud Connector credentials cached on the host server, prompts the user to specify all credential information again, and then installs Cloud Connector:
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -54,7 +54,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 The following example displays all deployment steps in the PowerShell console:
   
-```
+```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
@@ -64,7 +64,7 @@ The -ShowStepsOnly parameter is for troubleshooting only.
 
 The following example generates configuration files for each deployment step on the host server. Configuration files are saved to the \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig folder on the host server:
   
-```
+```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
@@ -74,7 +74,7 @@ To determine the appliance root, run the Get-CcApplianceDirectory cmdlet.
 
 In the following example, Cloud Connector runs deployment steps 1, 2, and 3 to create virtual switches, create an AD virtual machine, and install the domain service on the AD server. It skips the step if the step has already been executed:
   
-```
+```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 

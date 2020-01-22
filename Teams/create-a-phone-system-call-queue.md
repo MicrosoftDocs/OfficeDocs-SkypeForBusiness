@@ -31,6 +31,7 @@ Cloud call queues can provide:
 - Music while people are waiting on hold.
 - Redirecting calls to call agents in mail-enabled distribution lists and security groups.
 - Setting different parameters such as queue maximum size, timeout, and call handling options.
+- Shared voicemail for callers to leave a message for an organization.
 
 You would associate a phone number to a call queue using a [resource account](manage-resource-accounts.md). A call queue can be dialed directly or accessed by a selection on an auto attendant.
 
@@ -62,7 +63,7 @@ To get started using call queues, it's important to remember a few things:
 > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
-> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Skype for Business licenses](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
@@ -160,9 +161,11 @@ You can upload an audio file (.wav, .mp3, or .wma formats).
 
 ### Select the call answering options
 
-![Screenshot of call answering options, with numbered callouts](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Screenshot of call answering options](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+To add individual agents directly, without adding them to a group, click **Add users**. Put individual agents in the order in which you want them to receive the call. You can add up to 20 individual agents (to add more than 20, put them in a group).
+
+Calls are routed first to individual agents, then to the agents in groups. 
 
 You can select up to 200 call agents who belong to any of the following mailing lists or groups:
 
@@ -173,7 +176,7 @@ You can select up to 200 call agents who belong to any of the following mailing 
 Call agents selected must be one of the following: 
 
 - Online users with a Phone System license and Enterprise Voice enabled 
-- Online users with a  Calling Plan
+- Online users with a Calling Plan
 - On-premises Skype for Business Server users
 
   > [!NOTE]

@@ -19,7 +19,7 @@ The Set-CcSiteDirectory cmdlet sets the directory where site level configuration
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
@@ -30,7 +30,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 The following example sets the site root directory to \\SiteShare\CloudConnector:
   
-```
+```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ```
 

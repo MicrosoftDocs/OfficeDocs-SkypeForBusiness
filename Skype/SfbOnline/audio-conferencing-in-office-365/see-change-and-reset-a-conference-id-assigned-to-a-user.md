@@ -59,7 +59,7 @@ You can view their conference ID and send it to users.
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```
+  ```PowerShell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
@@ -84,7 +84,7 @@ You can reset a conference ID for a user if, for example, they forget it.
 
 You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 

@@ -132,7 +132,7 @@
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams Rooms](room-systems/index.md)
+## [Microsoft Teams Rooms](rooms/index.md)
 ## [Manage the Whiteboard in Teams](manage-whiteboard.md)
 
 
@@ -244,7 +244,6 @@
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 ### [Calling policy](teams-calling-policy.md)
 ### [Shared line appearance](shared-line-appearance.md)
-### [Understand how users can block PSTN calls on Teams clients](block-pstn-calls-on-Teams-clients.md)
 
 
 ## Calling Plans
@@ -605,8 +604,8 @@
 #### [Integrating Electronic Healthcare Records into Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 interface specification](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [STU3 interface specification](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Connect the Patients app to Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [Audit logs for Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Assignments in Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
@@ -786,7 +785,9 @@
 ### [Finland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [France](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [Georgia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
+### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Germany](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
+### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Greece](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [Grenada](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [Guam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
@@ -802,6 +803,7 @@
 ### [Japan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md)
 ### [Jordan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md)
 ### [Kenya](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md)
+### [Kuwait](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md)
 ### [Latvia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md)
 ### [Lithuania](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md)
 ### [Luxembourg](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md)
@@ -811,8 +813,10 @@
 ### [Mexico](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md)
 ### [Moldova](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md)
 ### [Monaco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md)
+### [Morocco](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md)
 ### [Netherlands](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [New Zealand](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
+### [Nigeria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
 ### [Norway](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
 ### [Pakistan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
 ### [Panama](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
@@ -841,6 +845,7 @@
 ### [Taiwan](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md)
 ### [Thailand](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md)
 ### [Trinidad & Tobago](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
+### [Tunisia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
 ### [Turkey](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
 ### [Ukraine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 ### [United Arab Emirates (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)

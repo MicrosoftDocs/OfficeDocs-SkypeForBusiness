@@ -91,7 +91,7 @@ You can make changes to the email that is automatically sent to users including 
     
 You can make changes to the email sent to users, such as the email address that the email is sent from and the display name for the email, by running:
   
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -121,7 +121,7 @@ By default, emails will be sent to your users, but if you want to prevent them f
   
 1. Run the following to disable sending all of your users email:
     
-   ```
+   ```PowerShell
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 

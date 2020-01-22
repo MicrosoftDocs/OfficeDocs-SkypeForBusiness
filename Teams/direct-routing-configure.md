@@ -52,7 +52,7 @@ You can use a PowerShell session connected to the tenant to pair the SBC to the 
  
 After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy/paste in the following in the PowerShell session and press Enter: 
 
-```
+```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
@@ -72,7 +72,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 To pair the SBC to the tenant, in the PowerShell session type the following and press Enter: 
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
@@ -83,7 +83,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > In addition to the domain registered in your tenant, it is important that there is a user with that domain and an assigned E3 or E5 license. If not, you will receive the following error:<br/>
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 Returns:
@@ -127,7 +127,7 @@ After you pair the SBC, validate that the SBC is present in the list of paired S
 
 The paired gateway should appear in the list as shown in the example below, and verify that the **Enabled** parameter  displays a value of **True**. Enter:
 
-```
+```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 Which returns:
@@ -171,15 +171,7 @@ There are two options for creating a new user in Office 365. However, we recomme
 
 If your Skype for Business Online deployment co-exists with Skype for Business 2015 or Lync 2010/2013 on-premises, the only supported option is to create the user in on-premises Active Directory and sync the user to the cloud (Option 1). 
 
-Required licenses: 
-
-- Office 365 Enterprise E3 (including SfB Plan2, Exchange Plan2, and Teams) + Phone System
-- Office 365 Enterprise E5 (including SfB Plan2, Exchange Plan2, Teams, and Phone System) 
-
-Optional licenses: 
-
-- Calling Plan 
-- Audio Conferencing 
+For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
 ### Ensure that the user is homed in Skype for Business Online 
 
@@ -188,9 +180,9 @@ Direct Routing requires the user to be homed in Skype for Business Online. You c
 1. Connect to remote PowerShell.
 2. Issue the command: 
 
-```
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### Configure the phone number and enable enterprise voice and voicemail 
 
@@ -201,13 +193,13 @@ To add the phone number and enable for voicemail:
 1. Connect to a remote PowerShell session. 
 2. Enter the command: 
  
-```
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 For example, to add a phone number for user "Spencer Low," you would enter the following: 
 
-```
+```PowerShell
 Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
@@ -278,16 +270,16 @@ In the following example, we demonstrate how to configure Routes, PSTN Usages, a
 
 In a Skype for Business Remote PowerShell session, type:
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 Validate that the usage was created by entering: 
-```
+```PowerShell
 Get-CSOnlinePSTNUsage
 ``` 
 Which returns a list of names that may be truncated:
-```
+```output
 Identity	: Global
 Usage    	: {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -309,7 +301,7 @@ In the example below, you can see the result of the running the PowerShell comma
 
 To create the "Redmond 1" route, enter:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
@@ -326,14 +318,14 @@ Name                    : Redmond 1
 </pre>
 To create the Redmond 2 route, enter:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
 To create the Other +1 route, enter:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
@@ -345,13 +337,13 @@ In some cases there is a need to route all calls to the same SBC; please use -Nu
 
 Route all calls to same SBC.
 
-```
+```PowerShell
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
 Validate that you’ve correctly configured the route by running the `Get-CSOnlineVoiceRoute` PowerShell command using options as shown:
 
-```
+```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Which should return:
@@ -386,7 +378,7 @@ In the example, the route "Other +1" was automatically assigned priority 4.
 
 In a PowerShell session in Skype for Business Online, type:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -403,13 +395,13 @@ RouteType           : BYOT
 
 In a PowerShell session in Skype for Business Online, type:
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
 ```
 
 Validate the policy assignment by entering this command:
 
-```
+```PowerShell
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 
@@ -456,20 +448,20 @@ The following table summarizes routing policy "No Restrictions" usage designatio
 
 #### Example of Voice Routing Policy for user John Woods
 
-The steps to create PSTN Usage "International", voice route "International," Voice Routing Policy "No Restrictions," and then assigning it to the user "John Woods" are as follows.
+The steps to create PSTN Usage "International", voice route "International," Voice Routing Policy "No Restrictions," and then assigning it to the user "John Woods" are as follows.   
 
 
 **Step 1**: Create the PSTN Usage "International." 
 
 In a remote PowerShell session in Skype for Business Online, enter:
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
 **Step 2**:  Create the new voice route "International."
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
 ```
 Which returns:
@@ -488,7 +480,7 @@ Name                      : International
 
 The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
 
-   ```
+   ```PowerShell
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
@@ -498,7 +490,7 @@ a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in 
 
 b. If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
@@ -513,13 +505,13 @@ RouteType	 	      : BYOT
 
 **Step 4**: Assign the voice routing policy to the user "John Woods" using the following command.
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
 ```
 
 Then verify the assignment using the command: 
 
-```
+```PowerShell
 Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 ```
 
@@ -551,7 +543,7 @@ Sometimes tenant administrators may want to change the callee or caller number f
 
 The policy is applied at the SBC level. You can assign multiple translation rules to a SBC, which are applied in the order that they appear when you list them in PowerShell. You can also change the order of the rules in the policy.
 
-To create, modify, view, and delete number manipulation rules, use the New-CsTeamsTranslationRule, Set-CsTeamsTranslationRule, Get-CsTeamsTranslationRule, and Remove-CsTeamsTranslationRule cmdlets.
+To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) cmdlets.
 
 To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  ```InboundTeamsNumberTranslationRules```, ```InboundPSTNNumberTranslationRules```, ```OutboundTeamsNumberTranslationRules```, ```OutboundPSTNNumberTranslationRules```, ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList```, ```OutboundTeamsNumberTranslationRulesList```, and ```OutboundPSTNNumberTranslationRulesList``` parameters.
 
@@ -561,7 +553,7 @@ To assign, configure, and list number manipulation rules on SBCs, use the [New-C
 
 For the example scenarios, we run the ```New-CsOnlinePSTNGateway``` cmdlet to create the following SBC configuration.
 
-```
+```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 

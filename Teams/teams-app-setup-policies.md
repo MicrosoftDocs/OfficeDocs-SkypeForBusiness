@@ -96,15 +96,15 @@ In this example, we assign a custom app setup policy called HR App Setup Policy 
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
@@ -163,7 +163,7 @@ Currently, users can change the order of their pinned apps on Teams mobile clien
 
 #### My organization built a custom Teams app and published it, either to AppSource or the Tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it? 
 
-Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
+Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
  ## Related topics
 - [Admin settings for apps in Teams](admin-settings.md)

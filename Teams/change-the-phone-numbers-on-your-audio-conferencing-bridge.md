@@ -80,13 +80,13 @@ If you updated the default phone numbers that are inlcuded in the meeting invite
   
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
 
-```
+```PowerShell
 	Start-CsExMeetingMigration user@contoso.com
 ```
 
 - You can also view the meeting migration status. All meetings would be rescheduled once there are no operations in  *Pending*  or *In-Progress*  state.
 
-```
+```PowerShell
 	Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -103,7 +103,7 @@ For the first three steps, you will need to start Windows PowerShell. To see how
 
 Replace the default toll or toll-free number for all users who have the number to be unassigned as a default number and start the process of rescheduling their meetings. To do this, run the following command:
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
@@ -118,7 +118,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 All meetings will be rescheduled once there are no operations in *Pending* or *In-Progress* state.
 
-```
+```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -165,7 +165,7 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
 2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
 
 >
-  ```
+  ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -184,7 +184,7 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
 
   - To change the default toll-free number for a user, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
   ```
 
@@ -195,19 +195,19 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
 
   - To set the default toll-free number for all users without one to 8005551234, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - To change the default toll-free number of all users that have 8005551234 as their default toll-free number to 8005551239 and automatically reschedule their meetings, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
   - To set the default toll-free number of all users located in the U.S. to 8005551234 and automatically reschedule their meetings, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
@@ -221,14 +221,14 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
 You want to Unassign a number but the button is greyed-out and if while hoovering over it, you are redirected to contact Support with the following message _"Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support._".
 
 To obtain more information about the bridge(s), run the following Powershell :
-```
+```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
 The result, aside other information like Identity, Name and Region, should also contain the DefaultServiceNumber.
 
 **Example**, to unassign, the DefaultServiceNumber "8005551234"
-```
+```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
 ```
 
