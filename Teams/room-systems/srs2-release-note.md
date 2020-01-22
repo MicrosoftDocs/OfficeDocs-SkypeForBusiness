@@ -59,7 +59,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 Introduced in this update:
 
 - A fix for a Window resizing/flickering issue that's seen in certain configurations
-- Calendar processing for 3rd-party meetings removed
+- Calendar processing for third-party meetings removed
 - Cortana status setting removed
 
 ### 4.3.23.0 (12/13/2019)
