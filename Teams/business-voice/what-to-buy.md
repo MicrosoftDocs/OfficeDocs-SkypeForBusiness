@@ -36,7 +36,7 @@ To buy Microsoft 365 Business Voice licenses, sign in to the [admin center](http
 
 ## Calling Plans
 
-Calling Plans let your users call phone numbers that are outside your organization. Calling Plans includes a monthly pool of minutes that's based on the number of assigned Business Voice licenses in a given country or region. When a user makes a phone call, the number of minutes used for that call is deducted from the monthly pool. At the beginning of each month, the balance of minutes in the pool is reset.
+Calling Plans let your users call phone numbers that are outside your organization. Calling Plans include a monthly pool of minutes that's based on the number of assigned Business Voice licenses in a given country or region. When a user makes a phone call, the number of minutes used for that call is deducted from the monthly pool. At the beginning of each month, the balance of minutes in the pool is reset.
 
 Calling Plan pools are specific to the country or region in which the users are located. Users in a country or region can only use minutes from the Calling Plan pool in their country or region. Minutes in a Calling Plan pool in one country or region can't be transferred to a pool in another country or region.
 
@@ -49,7 +49,7 @@ There are two types of Calling Plans:
 
 ### Domestic Calling Plan
 
-The Domestic Calling Plan let users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user who's assigned a Business Voice license. The number of minutes that are available for each user each month depends on country or region the user is located. This table that shows the number of minutes for each country or region where Business Voice is supported:
+The Domestic Calling Plan lets users call phone numbers in their country or region. Business Voice includes a Domestic Calling Plan for each user who's assigned a Business Voice license. The number of minutes that are available for each user each month depends on country or region the user is located. This table shows the number of minutes for each country or region where Business Voice is supported:
 
 |Where the user is located          |Monthly allotment for domestic calls |
 |-----------------------------------|-------------------------------------|
@@ -83,7 +83,7 @@ We strongly recommend that you always have a minimum balance of Communication Cr
 
 To learn more about Communication Credits, take a look at [What are Communications Credits?](../what-are-communications-credits.md)
 
-To see rates for toll-free and international calling, scroll down to "Add time with Communication Credits" in [Cloud-based phone system](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates).
+To see rates for toll-free and international calling, scroll down to "Add time with Communication Credits" in [Cloud-based Phone System](https://products.office.com/microsoft-teams/voice-calling#ow-download-rates).
 
 ## Maximum number of supported users
 
