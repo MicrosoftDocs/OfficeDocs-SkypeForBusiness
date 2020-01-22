@@ -102,11 +102,11 @@ You can use your existing software deployment tools and processes, such as Micro
   
 For more information about using Configuration Manager to deploy software, see the following articles:
   
-- [How to Create Applications in Configuration Manager](https://technet.microsoft.com/library/gg682159.aspx)
+- [Create applications in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/create-applications)
     
-- [How to Deploy Applications in Configuration Manager](https://technet.microsoft.com/library/gg682082.aspx)
+- [Deploy applications with Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
     
-If you're deploying the Skype for Business app as part of deploying Office 365 ProPlus, see [Deploy Office 365 ProPlus with Microsoft Endpoint Configuration Manager (current branch)](https://technet.microsoft.com/library/dn708063.aspx).
+If you're deploying the Skype for Business app as part of deploying Office 365 ProPlus, see [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
   
 ## Planning for updates to the Skype for Business app
 
