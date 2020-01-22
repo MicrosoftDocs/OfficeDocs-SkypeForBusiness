@@ -30,7 +30,7 @@ Follow the steps in [Add users individually or in bulk to :::no-loc text="Office
 
 ## Assign phone numbers to users
 
-After you create users and assigned them a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
+After you create users and assigned them a :::no-loc text="Microsoft 365 Business Voice with SMS"::: license, you can assign phone numbers to them. You need one unassigned phone number for each user that needs to make or receive calls to or from external phone numbers. If you don't have enough unassigned phone numbers, see [Get more phone numbers](#get-more-phone-numbers) later in this article.
 
 1. Go to https://admin.teams.microsoft.com.
 2. Enter a name and description for the phone number request.
