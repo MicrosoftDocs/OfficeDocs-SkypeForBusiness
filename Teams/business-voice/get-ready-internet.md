@@ -41,7 +41,7 @@ You don't need a Business Voice license to follow these steps.
 
 This article helps determine whether your Internet connection is fast enough for the number of people who need to make phone calls and host video conferences. You'll provide information about your organization and get back a report that shows how much of your Internet connection will be used by Teams and Business Voice.
 
-### Gather information about your Internet use
+### Gather information about your Internet connection and users
 
 Before you start, you need the following information:
 
@@ -49,7 +49,7 @@ Before you start, you need the following information:
 * How many people will use Business Voice mainly from your office
 * How many people will use Business Voice mainly from a remote location, such as a home office
 
-### Enter the information into the network planner
+### Enter your information into the network planner
 
 Follow these steps:
 
