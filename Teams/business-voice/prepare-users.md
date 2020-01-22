@@ -36,13 +36,13 @@ To use Teams on the web, you need to use a [supported browser](../get-clients.md
 
 ## Choose devices for Teams and Business Voice
 
-Business Voice users need a microphone and speakers to make and receive phone calls. There are lots of options, depending on the needs and environment of the user. Here are some ideas to think about when you decide what to get:
+Business Voice users need a microphone and speakers to make and receive phone calls. There are lots of options, depending on the needs of each user or environment. Here are some ideas to think about when you decide what to get:
 
 * **Mobile users or users in noisy environments:** Consider USB or wireless headsets with microphones. Paired with Microsoft Teams, any computer can work as a phone as long as it has an Internet connection.
 * **Receptionists and executives:** Full, multi-function desktop handsets can be used, just like with regular phones. Autodial, conferencing, speakerphone, and support for headsets make these devices extremely flexible.
 * **Conference rooms:** Audio conferencing devices let you set up conference rooms with speakerphone functionality that can be used with Teams conference bridges to host even large meetings.
 
-If you're using a USB or wireless device, plug the device into a computer that's running Teams. You might need to go into device settings in Teams: Select your profile picture at the top of Teams, and then go to **Settings** > **Devices**. Choose your device from **Audio devices**. For other devices, follow the setup instructions in Teams.
+If you're using a USB or wireless device, plug the device into a computer that's running Teams. You might need to go into device settings in Teams: Select your profile picture at the top of Teams, and then go to **Settings** > **Devices**. Choose your device from **Audio devices**. If you don't see your device in Teams, follow the manufacturer's instructions to set it up on your computer.
 
 > [!NOTE]
 > To test that Teams, your speakers, and your microphone all work correctly, follow the steps in [Make sure your networked devices can reach Microsoft 365](get-ready-internet.md#make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365).
