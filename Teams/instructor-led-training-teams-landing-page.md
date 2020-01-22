@@ -38,7 +38,7 @@ ms.collection:
                     </div>
                     <div class="cardText">
                         <h3>Say hello to Microsoft Teams</h3>
-                        <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you.</p>
+                        <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and to see it in action.</p>
                         <p><i>Audience: All</i></p>
                     </div>
                 </div>
@@ -100,46 +100,6 @@ ms.collection:
                         <h3>Learn how to take Teams to the next level</h3>
                         <p>Understand creative ways to optimize and organize Teams in your day-to-day work.</p>
                         <p><i>Audience: End users</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users/people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Switch from Skype for Business to Teams</h3>
-                        <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams.</p>
-                        <p><i>Audience: End users</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/TeamsForGov"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Globe symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams for US government (GCC)</h3>
-                        <p>Join us for an interactive overview of Teams in Office 365 GCC that showcases best practices for collaboration.</p>
-                    <p><i>Audience: All</i></p>
                     </div>
                 </div>
             </div>
