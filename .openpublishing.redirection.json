@@ -7,6 +7,11 @@
       "redirect_document_id": true
       },
     {
+      "source_path": "Teams/room-systems/index.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/index", 
+      "redirect_document_id": true
+      },
+    {
       "source_path": "Teams/room-systems/room-systems-v2-configure-accounts.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-configure-accounts", 
       "redirect_document_id": true
