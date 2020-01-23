@@ -37,31 +37,31 @@ The table below lists devices certified for Direct Routing.
 If you have any questions about SBC certification program for Direct Routing please email to drsbccertification@microsoft.com
 
 
-|                                                       Vendor                                                        |       Product       | Non-Media Bypass | Media Bypass | Software Version |
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
+|                                                       Vendor                                                        |       Product       | Non-Media Bypass | Media Bypass | Software Version | Vaidated with E911 providers | ELIN capable
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |
-|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20A.250  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.250   |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250 |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |    |    |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |     |    |    
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |     |    |    
+|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20A.250  |    |    |    
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.250   |    |    |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250 |    |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V7.2       |  Intrado ERS <br>Intrado EGW |   No |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V7.2       |   Intrado ERS <br>Intrado EGW  | No   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V7.2       |  Intrado ERS <br>Intrado EGW    |No|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V7.2       |   Intrado ERS <br>Intrado EGW  |  No  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V7.2       |   Intrado ERS <br>Intrado EGW |   No |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Intrado ERS <br>Intrado EGW   |  Pending  |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Intrado ERS <br>Intrado EGW  |  Pending  |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |  Intrado ERS <br>Intrado EGW   |  Pending  |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |        |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
 To give us product feedback about Teams, such as ideas for new features, please visit [Uservoice](https://microsoftteams.uservoice.com)
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.

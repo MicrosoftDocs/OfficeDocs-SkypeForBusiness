@@ -44,7 +44,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
  To disable CDR, set the EnableCDR parameter to True ($True).
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -52,7 +52,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
  To disable CDR, set the EnableCDR parameter to False ($False). Disabling CDR does not uninstall monitoring. It pauses the collection and storage of CDR data.
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -60,7 +60,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
  This command enables CDR for all the CDR configuration settings currently in use in your organization.
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

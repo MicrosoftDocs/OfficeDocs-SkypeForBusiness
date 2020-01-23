@@ -41,7 +41,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 
  To enable QoE, set the EnableQoE parameter to True ($True).
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
   ```
 
@@ -49,7 +49,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 
  To disable QoE, set the EnableQoE parameter to False ($False). This does not uninstall monitoring. It pauses the collection and storage of QoE data.
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -57,7 +57,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 
  This command enables QoE for all the QoE configuration settings currently in use in your organization.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 

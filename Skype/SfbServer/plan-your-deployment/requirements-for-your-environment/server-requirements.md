@@ -67,7 +67,7 @@ Once you have the hardware in place, you'll need to install operating systems (O
 |Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
 |Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
    
-If it's not on this list, it won't work properly, please don't try it for new installs of Skype for Business Server 2015.
+If it's not on this list, it won't work properly, please don't try it for new installations of Skype for Business Server 2015. Note that  in-place upgrade of the operating system is not supported with Lync Server 2013.  You must deploy a separate pool and migrate users to the new pool with a different operating system.
   
 > [!NOTE]
 > You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015 and will reach the end of its support lifecycle on 1/14/2020.
@@ -196,7 +196,7 @@ There are some things you're going to need to install or configure for any serve
 
 To help you out, here's a sample PowerShell script you can run to automate this:
 
-```
+```PowerShell
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
 
@@ -258,7 +258,7 @@ IIS, with the following modules selected:
   
 And we have some PowerShell code below for this too:
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 

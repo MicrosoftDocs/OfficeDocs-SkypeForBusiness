@@ -44,7 +44,7 @@ Get Users returns a list of users in the repository.
 > [!NOTE]
 > An array of User objects is returned. For details about the User object, see Get User. 
   
-```
+```json
 [{
 "userId": 0,
 "loginName": "system",

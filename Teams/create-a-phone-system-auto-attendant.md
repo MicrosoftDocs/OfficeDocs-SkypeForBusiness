@@ -20,7 +20,7 @@ f1keywords: None
 ms.custom: 
   - Phone System
 description: "Learn how to set up and test Cloud auto attendants for Microsoft Teams."
----
+--- 
 
 # Set up a Cloud auto attendant
 
@@ -160,6 +160,11 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
   > **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server.
 
   - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the service.
+  - **Voicemail** Select the Office 365 Group representing the users in your organization that need access to this voicemail. This is where you can turn on voicemail transcription too. Requires an Office 365 Group.
+
+  > [!NOTE]
+> Voice messages sent to users from this auto attendant voicemail account can't be accessed in Teams. They'll come as an email.
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -205,7 +210,9 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 - **Operator** If an operator is already set up, the option is automatically mapped to key 0, but can also be deleted or reassigned to a different key. The caller who selects this option is sent to the designated Operator. If Operator isn't set to any key, the voice command "Operator" is also disabled. 
 - **Person in organization** can be an Online user or a user hosted on-premises using Skype for Business Server. The user must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the person in the **Search by name** field.
 
-  - **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
+- **Voice App** Select an auto attendant or call queue that has already been set up. You search for the auto attendant or call queue by the name of the resource account associated with the application.
+
+- **Voicemail** Select the Office 365 Group representing the users in your organization that need access to this voicemail. This is where you can turn on voicemail transcription too. Requires an Office 365 Group.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
@@ -216,9 +223,8 @@ If you select **Disconnect**, the caller is disconnected after the greeting play
 
 **Dial by name** If you enable this option, callers can search for people in your organization using **Dial by name**. They say the user's name and voice recognition matches them to a user. You can set who is and is not included in these services in the optional Dial Scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Dial by extension** (This preview feature is not yet available to the general public) If you enable this option, callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional dial scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
+**Dial by extension** If you enable this option, callers can connect with users in your organization by entering their phone extension. You can select which users are listed as available or not available for **Dial by extension** in the optional Dial Scope page. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by extension.
 
 > [!IMPORTANT]
 > Please observe the following:

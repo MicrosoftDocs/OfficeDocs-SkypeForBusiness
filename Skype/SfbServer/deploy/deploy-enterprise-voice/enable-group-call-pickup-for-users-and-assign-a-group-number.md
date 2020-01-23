@@ -31,13 +31,13 @@ After you add call pickup group numbers to the call park orbit table, you use th
 
 2. At the command line, run:
 
-   ```
+   ```console
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
     For example, to assign group number 199 to a user:
 
-   ```
+   ```console
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 

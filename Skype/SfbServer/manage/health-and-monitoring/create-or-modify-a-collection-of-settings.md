@@ -59,7 +59,7 @@ You can create CDR configuration settings can also be created by using Windows P
 
  This command creates a new collection of CDR configuration settings applied to the Redmond site:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -67,7 +67,7 @@ You can create CDR configuration settings can also be created by using Windows P
 
  Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties. To create settings that use different property values, simply include the appropriate parameter and parameter value. For example, to create a collection of Call Detail configuration settings that, by default, allow disable Call Detail recording use a command like this:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -75,7 +75,7 @@ You can create CDR configuration settings can also be created by using Windows P
 
  You can modify multiple property values by including multiple parameters. For example, this command configures the new settings to keep Call Detail records for 30 days and error reports for 90 days:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 

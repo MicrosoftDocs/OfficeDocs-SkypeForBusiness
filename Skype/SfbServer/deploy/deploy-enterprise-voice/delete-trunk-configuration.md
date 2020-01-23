@@ -58,7 +58,7 @@ You can delete trunk configuration settings by using Skype for Business Server M
 
 - The following command removes the trunk configuration settings applied to the Redmond site:
     
-  ```
+  ```powershell
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
@@ -66,7 +66,7 @@ You can delete trunk configuration settings by using Skype for Business Server M
 
 - This command removes all the trunk configuration settings applied to the service scope:
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
@@ -74,7 +74,7 @@ You can delete trunk configuration settings by using Skype for Business Server M
 
 - The following command removes all the trunk configuration settings where media bypass has been enabled:
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
