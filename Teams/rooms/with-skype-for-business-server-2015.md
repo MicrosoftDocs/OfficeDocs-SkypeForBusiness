@@ -112,12 +112,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## See also
 
-[Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md)
+[Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
   
-[Deploy Microsoft Teams Rooms](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](rooms-deploy.md)
   
 [Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
