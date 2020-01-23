@@ -63,8 +63,6 @@ To turn on guest access, go to the **Microsoft Teams admin center**.
 
          > [!NOTE]
          > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
-         > [!IMPORTANT]
-         > For guest access to work at all in Teams, you must set **Members can invite** to **Yes**.   
      - **Guests can invite**: To allow guests to invite other guests, set this policy to **Yes**.
          > [!IMPORTANT]
          > Currently, Teams doesn't support the guest inviter role, so even if you set **Guests can invite** to **Yes**, guests can't invite other guests in Teams.
