@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 5/10/2018
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -45,9 +44,9 @@ You can procure these components as preinstalled bundles from a number of vendor
 
 In addition to the Surface Pro/dock combination, you can also purchase Microsoft Teams Rooms with the touchscreen control panel, compute, dock, and key peripheral devices integrated. 
 
-Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](room-systems-scale.md). 
+Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](rooms-scale.md). 
 
-You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See the [Teams Meeting Room Licensing Update](skype-room-systems-v2.md) for information on the needed licenses.
+You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See the [Teams Meeting Room Licensing Update](rooms-licensing.md) for information on the needed licenses.
 
 |    |     |
 |-----------|------------|
@@ -71,12 +70,12 @@ You might need to coordinate these activities across several teams. We provide a
 | Plan capabilities          | IT Project Team                        |             | [Room inventory and capability planning](#room-inventory-and-capability-planning)                       |
 | Device selection           | IT Project Team / AV Team              |             | [Device selection](#device-selection)                      |
 | Procurement                | IT Project Team / AV Team              |             | [Procurement](#procurement)                      |
-| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](room-systems-v2.md#site-readiness)                      |
-| Service readiness          | IT Project Team                        |             | [Service readiness](room-systems-v2.md#service-readiness)                      |
-| Configuration              | IT Project Team                        |             | [Configuration and deployment](room-systems-v2.md#configuration-and-deployment)                      |
+| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](rooms-deploy.md#site-readiness)                      |
+| Service readiness          | IT Project Team                        |             | [Service readiness](rooms-deploy.md#service-readiness)                      |
+| Configuration              | IT Project Team                        |             | [Configuration and deployment](rooms-deploy.md#configuration-and-deployment)                      |
 | Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist)                      |
 | Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management)                      |
-| Maintenance and operations | AV team / IT Project Team              |             | [Management overview](skype-room-systems-v2.md)                      |
+| Maintenance and operations | AV team / IT Project Team              |             | [Management overview](rooms-manage.md)                      |
 
 
 ## Room inventory and capability planning
