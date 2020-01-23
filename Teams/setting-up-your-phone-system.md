@@ -42,29 +42,29 @@ To assign a Phone System and Calling Plan license to a single user the steps are
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
 You have three ways of getting numbers for your users:
-- Get new numbers using the Skype for Business admin center.
-- Get new numbers that aren't available in the Skype for Business admin center.
+- Get new numbers using the Teams admin center.
+- Get new numbers that aren't available in the Teams admin center.
 - Port or transfer your existing numbers from your current service provider or phone carrier to Office 365.
 
 You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
 
 ### Get new user phone numbers 
  
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+**Using the Teams admin center**
 
 1. Sign in to Microsoft 365 with your work or school account.
 
-2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft 365 admin center** > **Teams admin center**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, displayed as a plus symbol](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
-### Get new numbers that aren't available in the Skype for Business admin center
+### Get new numbers that aren't available in the Teams admin center
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
   
 ### Port or transfer phone numbers from your service provider or phone carrier
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to  Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) to transfer your phone numbers.
+- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Teams admin center. Follow the steps found in [Transfer phone numbers to  Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) to transfer your phone numbers.
     
 - If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
 
@@ -76,21 +76,21 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### Get new service numbers
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+**Using the Teams admin center**
 
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft 365 admin center** > **Teams admin center**.
 
 3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
 
     > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 
-### Get new numbers that aren't available in the Skype for Business admin center
+### Get new numbers that aren't available in the Teams admin center
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
 
 ### Port or transfer existing service numbers
 
@@ -98,71 +98,8 @@ If you want to transfer service numbers from your current service provider or ca
 
 ## Step 5: If you want to set up Calling Plans
 
-If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. Follow the three procedures below to complete the setup of your Calling Plan.
+If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. To complete the procedures for setting up Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).
 
-### Add emergency addresses and locations for your organization
-
-1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
-
-2. In the **New Address** pane, enter a name for your address, and then complete the remaining boxes.
-    
-     ![Screen shot of the New Address pane](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
-  
-    > [!TIP]
-    > For English customers, if the street name is a number, be sure to include "st" or "th" at the end, as shown in the above picture.
-
-3. Choose **Validate**.
-
-    If needed, you'll be prompted to make corrections to the address.
-
-    > [!CAUTION]
-    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center.
-
-    > [!TIP]
-    > If the address needs to be corrected for emergency response, a green banner will appear notifying you that the address was updated.
-
-4. After the address is validated, choose **Save**.
-
-### Assign phone numbers and emergency addresses to users
-
-> [!TIP]
-> If you add more people to your business right before doing this step, it may take **several hours** for them to appear on the **Voice users** page. There's a latency.
-
-1. On the **Voice users** page, select the people who you want to assign a phone number and emergency address to.
-
-2. In the Action pane, click **Assign number**.
-
-3. On the **Assign number** page, in the **Select number to assign** list, select the phone number for the user.
-
-4. To select an emergency address, enter name of the city in the box and choose **Search**.
-
-    > [!IMPORTANT]
-    > If you are outside the United States, your numbers already have an emergency address, but you can change it now. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user). 
-  
-5. After you assign both the phone number and emergency address, choose **Save**.
-
-### Tell your users about their new phone numbers
-
-
-We recommend sending mail or using your business's preferred communication method to tell the people about their new phone numbers.
-
-Here's how they can see that phone number in their **Skype for Business** app:
-
-1. Sign in to Skype for Business on your desktop.
-    
-2. Choose **Settings** > **Tools** > **Options**. 
-    
-     ![Screen shot of Options on the Tools menu](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
-  
-3. Then choose **Phones**. 
-    
-    ![Screen shot of the Skype for Business phone options](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
- 
-In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
-
-![Screen shot of the options available after clicking Calls](media/teams-phone-number.png)
-
-**For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).**
 
 
 ## Step 6: If you want to set up Audio Conferencing

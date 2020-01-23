@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom: 
   - Calling Plans
   - LIL_Placement
-description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. "
+description: "For Office 365 Calling Plan, learn how to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers."
 ---
 # Set up Calling Plans
 
-Calls to other Skype for Business users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set this up for your business. 
+Calls to other Teams users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set this up for your business. 
 
 ## Step 1: Find out if Calling Plans are available in your country/region
 Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Calling Plans, as well as information about Audio Conferencing, Phone System, toll and toll-free numbers, and Communications Credits.
@@ -40,7 +40,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
+- **Use the Teams admin center.** For some countries/regions, you can get numbers for your users by using the Tea,s admin center, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
@@ -50,45 +50,56 @@ There are three ways to get new user numbers:
 <a name="bkmk_add_addresses"> </a>
 An emergency address must be associated with a phone number; when this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider. 
 
-**To add an emergency address for your organization**
+1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+2. In the **New Address** pane, enter a name for your address, and then complete the remaining boxes.
+    
+     ![Screen shot of the New Address pane](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
+  
+    > [!TIP]
+    > For English customers, if the street name is a number, be sure to include "st" or "th" at the end, as shown in the above picture.
 
-In the Skype for Business admin center, go to  **Voice** > **Emergency locations** > **Add new address**. See [Add or remove and emergency address for your organization](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) for details.
+3. Choose **Validate**.
 
-**To add an emergency location for your organization** 
+    If needed, you'll be prompted to make corrections to the address.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+    > [!CAUTION]
+    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center.
 
-In the Skype for Business admin center, go to **Voice** > **Emergency locations** > **Add new address**. See [Add, change, or remove an emergency location  for your organization](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) for details.
+    > [!TIP]
+    > If the address needs to be corrected for emergency response, a green banner will appear notifying you that the address was updated.
+
+4. After the address is validated, choose **Save**.
 
     
 ## Step 5: Assign an emergency address and a phone number to a user
 <a name="bkmk_add_addresses"> </a>
 When you are setting up Calling Plans in Office 365, you must assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. 
 
-**To add an emergency address for a user** 
+> [!TIP]
+> If you add more people to your business right before doing this step, it may take **several hours** for them to appear on the **Voice users** page. There's a latency.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+1. On the **Voice users** page, select the people who you want to assign a phone number and emergency address to.
 
-In the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) for more details.
+2. In the Action pane, click **Assign number**.
 
-   > [!NOTE]
-   > You can also assign an emergency address when you assign a phone number.
+3. On the **Assign number** page, in the **Select number to assign** list, select the phone number for the user.
 
-**To assign a phone number to a user**
+4. To select an emergency address, enter name of the city in the box and choose **Search**.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+    > [!IMPORTANT]
+    > If you are outside the United States, your numbers already have an emergency address, but you can change it now. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user). 
+  
+5. After you assign both the phone number and emergency address, choose **Save**.
 
-In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) for more details.
 
 ## Step 6: Tell your users about their new phone numbers
-<a name="bkmk_add_addresses"> </a>
 
-We recommend sending mail or using your business's preferred communication method to tell the people about their new phone numbers. 
+
+We recommend sending mail or using your business's preferred communication method to tell the people about their new phone numbers.
 
 Here's how they can see that phone number in their **Skype for Business** app:
-  
+
 1. Sign in to Skype for Business on your desktop.
     
 2. Choose **Settings** > **Tools** > **Options**. 
@@ -97,11 +108,13 @@ Here's how they can see that phone number in their **Skype for Business** app:
   
 3. Then choose **Phones**. 
     
-    ![Screen shot of selecting the Phones option](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Screen shot of the Skype for Business phone options](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![Screen shot of choosing Calls in the left navigation.](media/teams-phone-number.png)
+![Screen shot of the options available after clicking Calls](media/teams-phone-number.png)
+
+**For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).**
 
 ## What else do you need to know?
 <a name="bkmk_add_addresses"> </a>
