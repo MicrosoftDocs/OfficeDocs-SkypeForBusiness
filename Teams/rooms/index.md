@@ -45,7 +45,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -63,7 +63,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -81,7 +81,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -106,4 +106,4 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system. Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
-> [Skype Room System](../room-systems/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.
+> [Skype Room System](../rooms/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.

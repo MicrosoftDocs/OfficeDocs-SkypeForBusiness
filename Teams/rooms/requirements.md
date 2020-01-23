@@ -20,7 +20,7 @@ Microsoft Teams Rooms scale to different room sizes by using a wide variety of c
 
 This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
-Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
+Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
 Also, refer to:
 
@@ -159,12 +159,12 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 
 [Browse All Bundles](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
 
-[Deploy Microsoft Teams Rooms](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](rooms-deploy.md)
 
 [Configure a Microsoft Teams Rooms console](console.md)
 
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

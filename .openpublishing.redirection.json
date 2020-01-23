@@ -2,6 +2,56 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/room-systems/room-systems-scale.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-scale", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/room-systems-v2-configure-accounts.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-configure-accounts", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/room-systems-v2-operations.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-operations", 
+      "redirect_document_id": true
+       },
+    {
+       "source_path": "Teams/room-systems/room-systems-v2.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/skype-room-systems-v2-0.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/skype-room-systems-v2.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/skype-room-systems-v3.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/srs-v2-prep.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-prep", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/srs2-lifecycle-support.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-lifecycle-support", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/srs2-release-note.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-release-note", 
+      "redirect_document_id": true
+      },     
+    {
       "source_path": "Teams/block-pstn-calls-on-teams-clients.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system", 
       "redirect_document_id": true
