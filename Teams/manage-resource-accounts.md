@@ -1,7 +1,7 @@
 ---
 title: "Manage resource accounts in Teams"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -104,7 +104,7 @@ After you've bought a Phone System license, using Microsoft Teams admin center n
 
 ![Icon of the number 1, referencing a callout in the previous screenshot](media/teamscallout1.png)
 
-To create a new resource account click **+ Add**. In the pop-up, fill out the **Display name**, **Username** (the domain name should populate automatically), and **Resource account type**  for the resource account. Resource accouint type can be either **Auto attendant** or **Call queue** depending on the app you intend to associate to the resource account. When you are ready,  click **Save**.
+To create a new resource account click **+ Add**. In the pop-up, fill out the **Display name**, **Username** (the domain name should populate automatically), and **Resource account type**  for the resource account. Resource account type can be either **Auto attendant** or **Call queue** depending on the app you intend to associate to the resource account. When you are ready,  click **Save**.
 
 ![Screenshot of the New resource account options](media/res-acct.png)
 
