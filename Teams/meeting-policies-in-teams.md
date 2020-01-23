@@ -6,20 +6,19 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
-audience: admin 
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 f1keywords: 
-- ms.teamsadmincenter.meetingpolicies.overview
-- ms.teamsadmincenter.meetingpolicies.audioandvideo
-- ms.teamsadmincenter.meetingpolicies.contentsharing
-- ms.teamsadmincenter.meetingpolicies.general
-- ms.teamsadmincenter.meetingpolicies.participantandguests
+  - ms.teamsadmincenter.meetingpolicies.overview
+  - ms.teamsadmincenter.meetingpolicies.audioandvideo
+  - ms.teamsadmincenter.meetingpolicies.contentsharing
+  - ms.teamsadmincenter.meetingpolicies.general
+  - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Learn to manage meeting policy settings in Teams.
 ---
 # Manage meeting policies in Teams
@@ -90,7 +89,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
-- [Allow private Meet now (coming soon)](#allow-private-meet-now-coming-soon)
+- [Allow private Meet now](#allow-private-meet-now)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -101,7 +100,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
-### Allow private Meet now (coming soon)
+### Allow private Meet now
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  
 
@@ -115,7 +114,7 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ### Allow channel meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Select a channel to meet** option won't be available to the user when they schedule a meeting from Meetings in Teams.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add a channel** option is disabled for users in Teams.
 
 ![Screenshot showing the Schedule a meeting option in Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -125,7 +124,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
 
-Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Schedule a meeting** option won't be available and users will be unable to schedule meetings in Teams.
+Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -258,6 +257,11 @@ Let's look at the following example.
 
 Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek whereas Babek can't give control to other participants.
 
+To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
+
+> [!NOTE]
+> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix. 
+
 ### Allow an external participant to give or request control
 
 This is a per-user policy. This setting controls whether external participants in a meeting can give control of their shared desktop or window to other participants in the meeting. External participants in Teams meetings can be categorized as follows:  
@@ -268,6 +272,8 @@ This is a per-user policy. This setting controls whether external participants i
    - Federated user  
 
 Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
+
+To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
 ### Allow PowerPoint sharing
 
@@ -382,8 +388,6 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-
-[Full article](meeting-policies-in-teams.md)
 
 ## Related topics
 [Messaging policies in Teams](messaging-policies-in-teams.md)

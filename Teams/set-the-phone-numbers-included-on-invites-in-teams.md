@@ -10,15 +10,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
+ms.custom: 
+  - Audio Conferencing
 description: "Get the steps to create a default phone number for callers to join a Microsoft Teams meeting. "
 ---
 

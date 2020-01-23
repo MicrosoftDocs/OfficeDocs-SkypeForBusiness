@@ -27,13 +27,13 @@ If there is only one appliance in the site, when you want to change the configur
   
 1. Run the following cmdlet to uninstall all existing virtual machines on the host server: 
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. Run the following cmdlet to unregister the appliance:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -41,19 +41,19 @@ If there is only one appliance in the site, when you want to change the configur
     
 4. Run the following cmdlet to update the configuration: (This step is only applicable for version 2; for previous versions, skip to the next step.)
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. Run the following cmdlet to register the appliance again:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Run the following cmdlet to install Skype for Business Cloud Connector Edition:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -61,13 +61,13 @@ If there is more than one appliance in the site, you'll need to follow these ste
   
 1. Run the following cmdlet to uninstall all existing virtual machines on the current appliance: 
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. Run the following cmdlet to unregister the appliance:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -75,25 +75,25 @@ If there is more than one appliance in the site, you'll need to follow these ste
     
 4. Run the following cmdlet to update the configuration: (This step is only applicable for version 2; for previous versions, skip to the next step.)
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. Run the following cmdlet to register the appliance again:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Run the following cmdlet on all other appliances in the site to pick up the latest configuration:
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 7. Run the following cmdlet to redeploy Cloud Connector on the current appliance:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -111,7 +111,7 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
   
 1. The EnableAutoUpdate property of the site needs to be set to true (the default value). Run the following cmdlet to make sure EnableAutoUpdate is set to true:
     
-   ```
+   ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
    ```
 
@@ -127,19 +127,19 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
     
    - Each tenant can have 20 time windows defined. The default time window will be created for a new tenant as the default time window for operating system update and Bits update. Run the following cmdlet(s) to set the daily, weekly or monthly time window:
     
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
@@ -147,7 +147,7 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
     
      The Bits update time and OS update time windows are configured separately. Both of them can be assigned single or multiple time windows. Each time window can be assigned to different sites and different purpose (Bits update and OS update). Run the following cmdlet to set the time window for the site: 
     
-   ```
+   ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
@@ -158,7 +158,7 @@ Administrative changes in the Office 365 tenant for Cloud Connector are made fro
   
 If your admin account credentials change in Office 365, you also need to update the locally cached credentials in Cloud Connector by running the following Administrator PowerShell command on each Cloud Connector appliance you have deployed:
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
@@ -222,7 +222,7 @@ For each appliance that belongs to the same PSTN site, you will need to specify 
   
 1. Run the following commands to retrieve the account names and passwords that you will use later:
     
-   ```
+   ```powershell
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
    Get-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
@@ -283,7 +283,7 @@ To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connect
     
 4. Set the path for the new Edge external certificate as follows:
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -304,7 +304,7 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
 4. Set the path for the new Edge external certificate as follows:
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -312,7 +312,7 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
     Remove the tenant registration for each appliance in a site by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -320,7 +320,7 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
     Remove the site registration for each site by running the following cmdlet in Skype for Business Online PowerShell:
     
-   ```
+   ```powershell
    Remove-CsHybridPSTNSite
    ```
 
@@ -328,7 +328,7 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
     Uninstall each appliance by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
@@ -336,7 +336,7 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
      Register each appliance by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-   ```
+   ```powershell
    Register-ccAppliance
    ```
 
@@ -344,7 +344,7 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
      Install each appliance, one by one, by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -357,7 +357,7 @@ When you need to replace the external Edge certificate on your Cloud Connector a
     
 2. Run the following command: 
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
    ```
 

@@ -9,16 +9,15 @@ ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in France for Microsoft Teams."
 ---
 

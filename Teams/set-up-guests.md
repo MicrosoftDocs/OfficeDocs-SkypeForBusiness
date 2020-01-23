@@ -3,48 +3,45 @@ title: Turn on or turn off guest access to Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Turn on or turn off the guest access feature in Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Turn on or turn off guest access to Microsoft Teams
 ===================================================
 
-As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests.
+By default, guest access is turned off. As the Office 365 admin, you must turn on guest access for Teams before the admin or team owners can add guests. To turn on guest access, use the [Guest access checklist](guest-access-checklist.md). 
 
-The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
+After you turn on guest access, it takes 2-24 hours for the changes to take effect. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.
 
 > [!IMPORTANT]
-> To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+> Turning on guest access depends on settings in Azure Active Directory, Office 365, SharePoint Online, and Teams. For more information, see [Authorize guest access in Teams](Teams-dependencies.md).
 
-## Guest access vs. external access (federation)
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## Configure guest access in the Microsoft Teams admin center
+## Configure guest access in the Teams admin center
 
 1.	Sign in to the Microsoft Teams admin center.
 
 2.	Select **Org-wide settings** > **Guest access**.
 
-3. Set the **Allow guest access in Microsoft Teams** toggle switch to **On**.
+3. Set **Allow guest access in Microsoft Teams** to **On**.
 
     ![Allow guest access switch set to On ](media/set-up-guests-image1.png)
 
-4.	Set the toggles under **Calling**, **Meeting**, and **Messaging** to **On** or **Off**, depending on the capabilities you want to allow for guest users.
+4.	Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
     - **Make private calls** – Turn this setting **On** to allow guests to make peer-to-peer calls.
     - **Allow IP video** - Turn this setting **On** to allow guests to use video in their calls and meetings.
@@ -68,45 +65,16 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 5.	Click **Save**.
 
 ## Use PowerShell to turn guest access on or off
+Read [Use PowerShell to turn guest access on or off](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.	Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.	Connect a PowerShell session to the Skype for Business Online endpoint.
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.	Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-You can now have guest users in Teams for your organization.
-
-## More information
-
-Watch the following video for more details about guest access.
+## Video: Adding guests in Teams
 
 |  |  |
 |---------|---------|
 | Adding Guests in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## External access (federation) vs. guest access
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

@@ -9,15 +9,16 @@ ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: M365-collaboration
+ms.collection: 
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Optimization
+ms.custom: 
+  - Optimization
 description: "This article provides information about using a proxy server with Teams or Skype for Business."
 ---
 

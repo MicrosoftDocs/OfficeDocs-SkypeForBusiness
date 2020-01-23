@@ -18,13 +18,13 @@ description: "Read this topic to learn how to manage Skype Room System accounts.
 Read this topic to learn how to manage Skype Room System accounts. 
 
 > [!NOTE]
-> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [management overview](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage).
   
 ## Move the Skype Room System account between pools
 
 If you need to move the Skype Room System account from one Skype for Business Server pool to another (for example, during upgrades), use the following command to move the Skype Room System account pool: 
   
-```
+```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
@@ -32,7 +32,7 @@ Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 
 If you need to disable an existing Skype Room System account from Skype for Business services on a Skype for Business Server pool, use the following command to disable the account: 
   
-```
+```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 

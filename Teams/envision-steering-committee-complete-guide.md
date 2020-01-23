@@ -8,14 +8,11 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers. 
+description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Steering committee

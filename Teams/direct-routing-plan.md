@@ -9,11 +9,10 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
 description: "Read this topic to learn how Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System."
 ---
 
@@ -112,6 +111,14 @@ Mixing Calling Plan and Direct Routing connectivity for the same user is optiona
 For more information about Phone System licensing, see [Get the most from Office with Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Office 365 Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
 For more information about Phone System licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+
+## Supported end points 
+
+You can use as end point:
+- Any Teams cleintg. 
+- Common Area Phones, plese see [Set up the Common Area Phone license for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones). Note you do not need Calling Plan license when setting the Common Area Phone with Direct Routing.
+- Skype for Business 3PIP phones. Please read [Skype for Business phones (3PIP) support with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
 
 ## SBC domain names
 
@@ -261,7 +268,7 @@ The table below summarizes the relationships between primary, secondary, and ter
 |||||
 
 ## Media traffic: Port ranges
-Note that the requirements below apply if you want to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass, please refer to [Plan for media bypass with Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+Note that the requirements below apply if you want to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass, please refer to [Plan for media bypass with Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
 
 
 
@@ -269,7 +276,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 ### Office 365 and Office 365 GCC environments
 
-- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+- 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254).
 
 ### Office 365 GCC DoD environment
 
@@ -284,9 +291,8 @@ The port range of the Media Processors is shown in the following table:
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Media Processor|SBC|49 152 – 53 247|Defined on the SBC|
-|UDP/SRTP|SBC|Media Processor|Defined on the SBC|49 152 – 53 247|
-|
+|UDP/SRTP|Media Processor|SBC|49152 – 53247|Defined on the SBC|
+|UDP/SRTP|SBC|Media Processor|Defined on the SBC|49152 – 53247|
 
   > [!NOTE]
   > Microsoft  recommends at least two ports per concurrent call on the SBC.

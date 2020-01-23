@@ -44,6 +44,13 @@ This topic provides information that will help you diagnose and resolve problems
 
 - [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
+
+> [!IMPORTANT]
+> By default, PowerShell sessions time out after sixty minutes. To reconnect, you have to close the session and launch a new PowerShell session. A new version of [Skype for Business Online, Windows PowerShell Module (2046.123 - Published 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), has been launched recently which includes a new cmdlet called **Enable-CsOnlineSessionForReconnection** that mitigates the 60 minutes time-out issue.
+> The PowerShell session reconnects and authenticates, allowing it to be re-used without having to launch a new instance to reconnect.
+
+
+
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
@@ -52,7 +59,7 @@ The PowerShell execution policy helps to determine which configuration files can
 - **Error**: <em>Import-Module : File C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **Resolution** To resolve this issue, start PowerShell as an administrator, and then run the following command:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     For details about execution policy, see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -81,11 +88,11 @@ There are typically three reasons why your connection attempt might fail with th
   - **Error**: *Get-CsWebTicket : Failed to connect live id servers. Make sure proxy is enabled or machine has network connection to live id servers.*
 
 - **Resolution**: Often this error means that the Microsoft Online Services Sign-in Assistant is not running. You can verify the status of this service by running the following command from the PowerShell prompt: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     If the service is not running, start the service by using this command:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

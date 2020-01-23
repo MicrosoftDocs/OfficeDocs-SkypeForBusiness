@@ -4,7 +4,6 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 audience: ITPro
-ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: 
@@ -26,10 +25,10 @@ Add a guest to a team
 Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams.
 
 As an admin, you can add a new guest user to the organization in a couple of ways:
-- Global admins who are owners of a team and owners of a team can add a guest to a team through either the Microsoft Teams desktop or the web clients. For more details, check out [Add guests to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)
+- Global admins or Teams admins and team owners add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). If you haven't set up guest access yet, go through the steps in the [Guest access checklist](guest-access-checklist.md).
 
 > [!NOTE] 
-> This does not apply when **Admins and users in the guest inviter role can invite** is enabled. This is because the guest invitor role isn't supported in Teams.
+> This does not apply when **Admins and users in the guest inviter role can invite** is enabled. This is because the guest inviter role isn't supported in Teams.
 
 - Add guests to your organization through Azure Active Directory (Azure AD) B2B collaboration. Azure AD B2B collaboration allows a global admin to invite and authorize a set of external users by uploading a comma-separated values (CSV) file of no more than 2,000 lines to the B2B collaboration portal. For more details, check out [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=826383).
 
@@ -42,9 +41,6 @@ Guest users you have already added via Azure AD B2B, Office 365 Groups, or Share
 
 You can track guest additions in Azure AD or the Office 365 Security &amp; Compliance Center. Adding a guest in Microsoft Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see  [Auditing and reporting a B2B collaboration user](https://go.microsoft.com/fwlink/p/?linkid=858884) and [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
-## Guest access vs. external access (federation)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## More information
 

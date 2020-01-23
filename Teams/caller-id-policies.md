@@ -39,7 +39,7 @@ You can edit the global policy or create and assign a custom policy. If a user i
 4. From here, choose the settings that you want:
 
     - **Block incoming caller ID**: Turn on this setting to block the caller ID of incoming calls from being displayed.
-    - **Users can override the caller ID policy**: Turn on this setting to let users override the settings in the policy. This means that users can choose whether to display their caller ID or block the caller ID of an incoming call.
+    - **Users can override the caller ID policy**: Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID.
     - **Replace caller ID**: Set the caller ID to be displayed for users by selecting one of the following:
 
         - **User's number**: Displays the user's number. 
@@ -90,16 +90,16 @@ In this example, we assign a custom caller lID policy called Support Caller ID P
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Support"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular caller ID policy. In this example, it's Support Caller ID Policy.
-```
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.EmailAddress}
+```PowerShell
+$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 

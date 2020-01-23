@@ -9,16 +9,15 @@ ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in Germany for Microsoft Teams."
 ---
 

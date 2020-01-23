@@ -7,15 +7,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
-description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.  
+description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Plan for Microsoft 365 Government - GCC High deployments
@@ -36,7 +35,7 @@ The Microsoft 365 Government - GCC  High environment provides compliance with US
 
 You can find more information about the Microsoft 365 Government – GCC High offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Office 365 US Government service description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform’s benefits, which are centered on meeting compliance requirements within the United States.
+The [Office 365 US Government service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform’s benefits, which are centered on meeting compliance requirements within the United States.
 
 
 > [!Tip]
@@ -105,7 +104,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Skype for Business - Teams calling | Available |
 | | Calling Plans | Not Available |
 | | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
-| | Microsoft Phone System direct routing | On the Government backlog |
+| | Microsoft Phone System Direct Routing | Available |
 | | Lobby for PSTN callers | On the Government backlog |
 | | Call queue | On the Government backlog |
 | | Boss and delegate support | On the Government backlog |

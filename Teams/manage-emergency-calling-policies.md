@@ -1,5 +1,5 @@
 ---
-title: Manage emergency call policies in Microsoft Teams
+title: Manage emergency calling policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -9,23 +9,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency call policies for the Dynamic E911 feature in Microsoft Teams. 
+description: Learn how to use and manage emergency calling policies in Microsoft Teams. 
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 ---
 
 # Manage emergency calling policies in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 If your organization uses Calling Plans or deployed Phone System Direct Routing, you can use emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call. You can set who to notify and how they are notified when a user who is assigned the policy calls emergency services. For example, you can configure policy settings to automatically notify your organization's security desk and have them listen in emergency calls.  
 
-You manage emergency calling policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](location-based-routing-terminology.md).
+You manage emergency calling policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](cloud-voice-network-settings.md).
 
 For users, you can use the global (Org-wide default) policy or create and assign custom policies. Users will automatically get the global policy unless you create and assign a custom policy. Keep in mind that you can edit the settings in the global policy but you can't rename or delete it. For network sites, you create and assign custom policies.
 
@@ -106,7 +103,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Assign all users in the group to a particular teams policy. In this example, it's Operations Emergency Call Routing Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 

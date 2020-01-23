@@ -8,17 +8,16 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Optimization
+ms.custom: 
+  - Optimization
 description: "Learn how stream quality is classified in the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---
 

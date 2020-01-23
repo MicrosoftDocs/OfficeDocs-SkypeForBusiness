@@ -10,8 +10,7 @@ audience: admin
 description: Use this PowerShell script sample to test Direct Routing Session Border Controller connections in Microsoft Teams.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto: 
 - Microsoft Teams
 ---
@@ -29,4 +28,4 @@ The script submits an SIP test to the test runner, waits for the result, and the
 
 ## Download the script and documentation
 
-Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/scripts/sip-tester-client/siptesterclient.zip?raw=true).
+Download the [SIP Tester client script and documentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true).

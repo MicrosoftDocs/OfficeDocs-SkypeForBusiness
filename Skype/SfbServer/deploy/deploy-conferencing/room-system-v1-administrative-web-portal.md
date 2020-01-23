@@ -81,7 +81,7 @@ To install the SRS v1 Administrative Web Portal, use the following steps.
 
 1. Configure the Trusted Application Port by running the following cmdlet in Skype for Business Server Management Shell:
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -93,19 +93,19 @@ To install the SRS v1 Administrative Web Portal, use the following steps.
 
 4. In the Web.Config file, change the PortalUserName to the username created in Step 2 under the section "[Configure your environment for the SRS v1 Administrative Web Portal](room-system-v1-administrative-web-portal.md#Config_Env)" (the recommended name in the step is LRSApp):
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. Because the SRS v1 Admin Portal is a trusted application, you do not need to provide the password in the portal configuration. If this user is using a different registrar than local registrar, you need to specify the registrar for it by adding the following line in the Web.Config file:
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. If the port used is other than 5061, add the following line in the Web.Config file:
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -216,7 +216,7 @@ When you open https://localhost/lrs, you will be able to see the sign in page, b
 
 - If you have created SRS accounts and cannot see the accounts in administrative web portal, collect the client logs using Fiddler, and also copy the console log from the browser development tools, and then send them to your SRS support contact. You can also modify the trace level value in the Web.config to get a more detailed log.
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--

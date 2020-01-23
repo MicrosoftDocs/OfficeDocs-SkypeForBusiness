@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-- ms.teamsadmincenter.users.voice.calldelegation.tooltip
-ms.custom:
-- Phone System
+  - ms.teamsadmincenter.users.voice.calldelegation.tooltip
+ms.custom: 
+  - Phone System
 description: "Shared line appearance lets a user choose a delegate to answer or handle calls on their behalf."
 ---
 
@@ -31,9 +31,9 @@ Shared line appearance is part of the delegation feature that lets a user choose
 
 ## License required
 
-A user must be an enterprise voice user to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
+A user must be have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
-Both managers and delegates need to be enterprise voice enabled. The shared line experience is part of delegation and requires no additional license. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
 
 ## Configuring delegation and shared line appearance
 

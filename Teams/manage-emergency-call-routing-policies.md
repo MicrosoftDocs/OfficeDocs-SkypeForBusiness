@@ -9,23 +9,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage emergency call routing policies for the Dynamic E911 feature in Microsoft Teams. 
+description: Learn how to use and manage emergency call routing policies in Microsoft Teams. 
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ---
 
 # Manage emergency call routing policies in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 If you've deployed Phone System Direct Routing in your organization, you can use emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. An emergency call routing policy determines whether enhanced emergency services is enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed.
 
-You manage emergency call routing policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](location-based-routing-terminology.md).
+You manage emergency call routing policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](cloud-voice-network-settings.md).
 
 For users, you can use the global (Org-wide default) policy or create and assign custom policies. Users will automatically get the global policy unless you create and assign a custom policy. Keep in mind that you can edit the settings in the global policy but you can't rename or delete it. For network sites, you create and assign custom policies.
 
@@ -41,6 +38,8 @@ If you assigned an emergency call routing policy to a network site and to a user
 4. To enable enhanced emergency services, turn on **Enhanced emergency services**. When enhanced emergency services is enabled, Teams retrieves policy and location information from the service and includes that information as part of the emergency call.
 5. Define one of more emergency numbers. To do this, under **Emergency numbers**, do the following:
     1. **Emergency dial string**: Enter the emergency dial string. This dial string indicates that a call is an emergency call.
+        > [!NOTE]
+        > For Direct Routing, we're transitioning away from Teams clients sending emergency calls with a "+" in front of the emergency dial string. Until the transition is completed, the voice route pattern to match an emergency dial string should ensure a match is made for strings that have and don't have a preceding "+", such as 911 and +911. For example, ^\\+?911 or .*.
     2. **Emergency dial mask**: For each emergency number, you can specify zero or more emergency dial masks. A dial mask is the number that you want to translate into the value of the emergency dial string. This allows for alternate emergency numbers to be dialed and still have the call reach emergency services. <br>For example, you add 112 as the emergency dial mask, which is the emergency service number for most of Europe, and 911 as the emergency dial string. A Teams user from Europe who is visiting may not know that 911 is the emergency number in the United States, and when they dial 112, the call is made to 911. To define multiple dial masks, separate each value by a semicolon. For example, 112;212.
     3. **PSTN Usage**: Select the public switched telephone network (PSTN) usage. The PSTN usage is used to determine which route is used to route emergency calls from users who are authorized to use them. The route associated with this usage should point to an SIP trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP).
 
@@ -101,16 +100,16 @@ In this example, we assign a policy called HR Emergency Call Routing Policy to a
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular teams policy. In this example, it's HR Emergency Call Routing Policy.
-```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.EmailAddress}
+```PowerShell
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
@@ -120,7 +119,7 @@ Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/s
 
 This example shows how to assign a policy called Emergency Call Routing Policy 1 to the Site1 site.
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 

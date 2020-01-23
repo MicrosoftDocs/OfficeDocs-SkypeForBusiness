@@ -10,12 +10,11 @@ audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
-description: Learn about the factors to consider before you set up live events in Microsoft Teams. 
+description: Learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Plan for live events in Microsoft Teams
@@ -51,7 +50,7 @@ The user must have:
 - Permissions to create live events in Stream (for external app or device production).
 
 > [!IMPORTANT]
-> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. Office 365 guests and federated users can only watch live events anonymously. 
+> Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events. 
  
 ## Who can watch live events?
 

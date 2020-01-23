@@ -11,10 +11,9 @@ description: Answers to frequently asked questions from administrators of Micros
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Microsoft Education governance FAQ for admins

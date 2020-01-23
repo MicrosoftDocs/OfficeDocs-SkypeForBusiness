@@ -33,9 +33,12 @@ The table below shows the difference in permissions between an owner and a membe
 |          **Leave team**           |    Yes     |     Yes     |
 |  **Edit team name/description**   |    Yes     |     No      |
 |          **Delete team**          |    Yes     |     No      |
-|          **Add channel**          |    Yes     |    Yes<sup>2</sup>|
-| **Edit channel name/description** |    Yes     |    Yes<sup>2</sup>|
-|        **Delete channel**         |    Yes     |    Yes<sup>2</sup>|
+|          **Add standard channel**          |    Yes     |    Yes<sup>2</sup>|
+| **Edit standard channel name/description** |    Yes     |    Yes<sup>2</sup>|
+|        **Delete standard channel**         |    Yes     |    Yes<sup>2</sup>|
+|          ***Add private channel**          |    Yes     |    Yes<sup>2</sup>|
+| ***Edit private channel name/description** |    No     |    N/A|
+|        ***Delete private channel**         |    Yes     |    No|
 |          **Add members**          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Request to add members**          |  N/A   |     Yes<sup>5</sup>     |
 |           **Add tabs**            |    Yes     |    Yes<sup>2</sup>|
@@ -43,10 +46,12 @@ The table below shows the difference in permissions between an owner and a membe
 |           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
 
 <sup>1</sup> Team owners can create teams unless they've been restricted from doing so. [Permissions to create teams](#permissions-to-create-teams) below.<br>
-><sup>2</sup> An owner can turn off these items at the team level, in which case members would not have access to them.<br>
+<sup>2</sup> An owner can turn off these items at the team level, in which case members would not have access to them.<br>
 <sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.<br>
 <sup>4</sup> Team members can add other members to a public team.<br>
 <sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
+
+*To learn more about permissions for private channels, see [Private channels in Teams](private-channels.md).
 
 > [!NOTE]
 > Owners can make other members owners in the **View teams** option. A team can have up to 100 owners. We recommend that you have at least a few owners to help manage the team; this will also prevent orphaned groups if a sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).

@@ -76,3 +76,7 @@ If this isn't an option, you can use PowerShell to create a public team and add 
 ### Is there a way to convert an existing team to an org-wide team?
 
 Global admins can convert an existing team to an org-wide team by editing it in Teams client. Go to the team name, click **More options** > **Edit team**.
+
+## See also
+
+Watch a video about about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

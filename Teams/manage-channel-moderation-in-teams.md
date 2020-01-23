@@ -9,10 +9,9 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to set up channels for moderation in Microsoft Teams, including how to add team members as channel moderators.

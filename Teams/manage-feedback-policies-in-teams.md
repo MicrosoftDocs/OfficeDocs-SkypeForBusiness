@@ -9,13 +9,12 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use feedback policies to control whether Teams users in your organization can submit feedback about Teams to Microsoft. 
+description: Learn how to use feedback policies to control whether Teams users in your organization can submit feedback about Teams to Microsoft.
 ---
 
 # Manage feedback policies in Microsoft Teams
@@ -28,13 +27,13 @@ Users in your organization can send feedback about Teams to Microsoft let us kno
 
 Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
-![Screen shot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Screenshot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Surveys**
 
 Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
 
-![Screen shot of the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
+![Screenshot of the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## Set whether users can send feedback about Teams to Microsoft
 
@@ -55,7 +54,7 @@ To turn off and turn on the features, set the following parameters:
 
 In this example, we create a feedback policy called New Hire Feedback Policy and we turn off the ability to give feedback through **Give feedback** and the survey.
 
-```
+```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
@@ -65,7 +64,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 
 In this example, we assign a custom policy named New Hire Feedback Policy to a user named user1.
 
-```
+```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 ### Assign a custom feedback policy to users in a group
@@ -75,16 +74,16 @@ You may want to assign a custom feedback policy to multiple users that you’ve 
 In this example, we assign a custom feedback policy called New Hire Feedback Policy to all users in the Contoso New Hires group.  
 
 Get the GroupObjectId of the particular group.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso New Hires"
 ```
 Get the members of the specified group.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assign all users in the group to a particular feedback policy. In this example, it's New Hire Feedback Policy.
-```
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
+```PowerShell
+$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 

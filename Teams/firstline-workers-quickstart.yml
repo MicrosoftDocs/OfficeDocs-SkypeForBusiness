@@ -15,9 +15,8 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-    - Teams_ITAdmin_PracticalGuidance
-    - Teams_ITAdmin_Training
     - M365-collaboration
+    - Teams_ITAdmin_FLW
   appliesto:
     - Microsoft Teams
 
@@ -218,7 +217,7 @@ items:
   durationInMinutes: 1
   content: |
 
-    Inform your Firstline Workers of their participation in the pilot, the pilot goals, and provide training, if necessary, on the basic functions. For most customers, this can be a simple instruction to these users to go to the Google Play or Apple Store on their personal mobile devices, download the Microsoft Teams application, and log in with their company credentials. We’ve designed Microsoft Teams with a simple and easy to use interface that most Firstline Workers should find intuitive. If you would like additional training materials and communication templates, you can find them in your Firstline Pilot in a Box.
+    Inform your Firstline Workers of their participation in the pilot, the pilot goals, and provide training, if necessary, on the basic functions. For most customers, this can be a simple instruction to these users to go to the Google Play or Apple Store on their personal mobile devices, download the Microsoft Teams application, and log in with their company credentials. We’ve designed Microsoft Teams with a simple and easy to use interface that most Firstline Workers should find intuitive.
 
     ### Best Practice
     Don’t forget to train your managers on Shifts! If you’re going to include Shifts in your pilot, then make sure to conduct a separate training session with your managers on how to create, manage, and publish schedules to their team. If you would like additional training materials and communication templates, you can find them in your Firstline Pilot in a Box.

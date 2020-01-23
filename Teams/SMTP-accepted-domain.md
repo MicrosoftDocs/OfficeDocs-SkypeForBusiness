@@ -8,13 +8,12 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
 description: Learn to add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online to send notifications to team members.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online 

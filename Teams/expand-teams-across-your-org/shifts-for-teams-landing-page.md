@@ -1,6 +1,6 @@
 ---
 title: Shifts for Teams
-description: Get the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams. 
+description: Get the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -9,10 +9,12 @@ audience: admin
 manager: serdars
 ms.date: 03/29/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Shifts for Teams

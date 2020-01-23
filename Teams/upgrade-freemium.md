@@ -11,13 +11,12 @@ audience: admin
 search.appverid: MET150
 description: Learn how to upgrade the free version of Microsoft Teams
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Upgrade Microsoft Teams free to Office 365 subscription version

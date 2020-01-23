@@ -1,26 +1,24 @@
 ---
 title: "Phones for Microsoft Teams"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
 ms.service: msteams
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
+ms.collection: 
+  - M365-voice
 localization_priority: Normal
 description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."
 ---
 
 # Phones for Microsoft Teams
 
-Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](http://office.com/teamsdevices).
+Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](https://office.com/teamsdevices).
 
 ## Teams certified IP phones
 
@@ -136,12 +134,12 @@ The minimum firmware version can be checked on the Teams sign-in page by choosin
 
 ## Required Licenses
 
-Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/en-us/microsoft-teams/voice-calling).
+Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## See also
 
-[Teams Marketplace](http://office.com/teamsdevices)
+[Teams Marketplace](https://office.com/teamsdevices)
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)

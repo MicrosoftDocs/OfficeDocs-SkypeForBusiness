@@ -11,9 +11,10 @@ search.appverid: MET150
 description: "Learn how to install and configure the Moodle integration app for Microsoft Teams"
 keywords: Teams Moodle app integration plugin
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 

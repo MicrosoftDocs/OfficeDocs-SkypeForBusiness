@@ -9,21 +9,20 @@ ms.assetid: 4057f7de-09cd-400e-a583-ca1c3caa7613
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan."
 ---
 
@@ -32,9 +31,6 @@ description: "Here are the Office 365 services for Skype for Business and Micros
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
 Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan.
-
-> [!IMPORTANT]
-> Using SoftBank for calling in Japan is currently only available to Early Adopters (EA).
   
 ## Audio Conferencing
 

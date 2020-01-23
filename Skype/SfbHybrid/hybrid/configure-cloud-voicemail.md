@@ -31,7 +31,7 @@ Configuring Cloud Voicemail involves the following tasks:
 
 2.  Ensure that you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) as described in this article.
+3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider) as described in this article.
 
 4.  [Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.
 
@@ -40,7 +40,7 @@ Configuring Cloud Voicemail involves the following tasks:
 6.  [Enable a user for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
 
 
-## Configure Cloud Voicemail as the hosting provider on the Edge Server 
+## Configure Cloud Voicemail as the hosting provider 
 
 You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
@@ -59,7 +59,7 @@ You configure Cloud Voicemail as the hosting provider on a Front End Server by u
 For example, in the Skype for Business Management shell, the following cmdlet configures Cloud Voicemail as the hosting provider:
 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -69,8 +69,8 @@ To ensure that voicemail for your organization is routed to the Cloud Voicemail 
 
 To modify the global policy, run the following command in the Skype for Business Server management shell after updating your Organization and TenantID:
 
-```
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -TenantID “11111111-1111-1111-1111-111111111111”
+```PowerShell
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
 - **Destination** specifies the fully qualified domain name (FQDN) of the hosted Cloud Voicemail service. This value should be set to **exap.um.outlook.com**.
@@ -79,11 +79,11 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     The Organization name is also the Default Domain name in Office 365.
 
-- **TenantID** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- **Tenant** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 To ensure that a hosted voicemail policy was created successfully, run the following command:
 
-```
+```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
@@ -94,7 +94,7 @@ By default, the Global hosted voicemail policy is assigned to all users. If you 
 For example, the following command assigns a non-Global hosted voicemail policy to a user:
 
 
-```
+```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
