@@ -56,7 +56,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
 ### Get new numbers that aren't available in the Teams admin center
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. To learn how to request new user numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md.   
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. To learn how to request new user numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).   
   
 ### Port or transfer phone numbers from your service provider or phone carrier
   
@@ -98,14 +98,14 @@ If you have been following the steps above, you have already bought and assigned
 
 ## Step 6: If you want to set up Audio Conferencing
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation! People can call in to Skype for Business or Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC.
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation. People can call in to Skype for Business or Teams meetings using a phone, instead of using the Skype for Business or Teams app on a mobile device or PC.
 For information about how to set up audio conferencing, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md).
 
 ## Step 7: If you want to set up a Cloud call queue
 
 Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
-**For more information about call queues, see [Create a Cloud call queue](create-a-phone-system-call-queue.md).**
+For more information about call queues, see [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
 ## Step 8: If you want to set up a Cloud auto attendant
 
@@ -129,7 +129,7 @@ For detailed information about getting new service numbers and porting existing 
 
 You will need to set up Communications Credits if you would like to use toll-free numbers with Microsoft Teams. Microsoft recommends that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to any destination. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. 
 
-If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. For more information, including recommended funding amounts, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
+If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. For more information, including recommended funding amounts, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
   
 
 ## Related topics
