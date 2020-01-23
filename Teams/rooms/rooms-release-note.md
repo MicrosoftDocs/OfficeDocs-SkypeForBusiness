@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -22,6 +21,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
@@ -52,6 +52,14 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.3.33.0 (1/10/2020)
+
+Introduced in this update:
+
+- A fix for a Window resizing/flickering issue that's seen in certain configurations
+- Calendar processing for third-party meetings removed
+- Cortana status setting removed
 
 ### 4.3.23.0 (12/13/2019)
 
@@ -150,11 +158,13 @@ Introduced in this update:
 - Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
 
 ### 4.0.19.0 (8/31/2018)
+
 Introduced in this update:
 
 - Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed. Microsoft Teams Rooms app restart required after installation of 4.0.19.0.
 
 ### 4.0.18.0 (08/27/2018)
+
 Introduced in this update:
 
 - "Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)
@@ -175,6 +185,7 @@ Introduced in this update:
 - Fix to address error observed on some systems during app launch.
 
 ### 3.1.113.0 (06/13/2018)
+
 Introduced in this update:
 
 - Changes enabling Microsoft to more flexibly manage Windows Updates.
@@ -305,12 +316,12 @@ Introduced in this update:
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Prepare your environment](srs-v2-prep.md)
+[Prepare your environment](rooms-prep.md)
 
-[Support for Microsoft Teams Rooms Current Branch versions](srs2-lifecycle-support.md)
+[Support for Microsoft Teams Rooms Current Branch versions](rooms-lifecycle-support.md)
 
 [Known issues for Microsoft Teams Rooms](known-issues.md)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
 
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
