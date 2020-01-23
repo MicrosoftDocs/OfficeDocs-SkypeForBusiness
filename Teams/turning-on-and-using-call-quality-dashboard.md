@@ -415,10 +415,23 @@ To filter the reports for Teams or Skype for Business, append the following to t
 Example:
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
 
 
 > [!NOTE]
 > The URL examples above are for visual representation only. Please use the default CQD link of <https://cqd.teams.microsoft.com>.
+`1409W3534, 123 manufacturer, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018
+
+## Migrate reports from previous version of CQD
+
+If  you created reports or uploaded tenant data (mapping) files to CQD for Skype for Business (https://cqd.lync.com) and want to migrate them to CQD for Teams (https://cqd.teams.microsoft.com), here’s how:
+
+1.	Go to [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) and browse to the report set you want to export. 
+2.	Hover over the report and, on the "..." menu, choose **Export Report Tree**. Save the export file.
+3.	Go to [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)  and browse to the location where you want to import the reports.
+4.	From the links on the left, click **Import** and select the exported file. 
+5.	After the reports are imported, you'll see this message: "Report import was successful. The new report has been added at the end of report set." 
+
 
 ##### How to find your tenant ID
 
