@@ -33,7 +33,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,7 +53,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -73,7 +73,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -93,7 +93,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -113,7 +113,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
+                            <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -133,7 +133,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -153,7 +153,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -173,7 +173,7 @@ ms.collection:
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
                         </div>
                     </div>
                     <div class="cardText">
