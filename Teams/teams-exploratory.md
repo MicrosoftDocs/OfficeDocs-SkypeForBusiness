@@ -82,8 +82,8 @@ You can turn off a user’s ability to install trial apps and services, would pr
 
     ![Screenshot of the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
-> [!NOTE]
-> If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.
+    > [!NOTE]
+    > If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.
 
 ### Manage availability for a user with a license that includes Teams
 
@@ -114,10 +114,9 @@ To turn off the the Teams Exploratory experience license:
 3. On the right, in the **Product licenses** row, choose **Edit**.
 
 4. In the **Product licenses** pane, switch the toggle for this exploratory license to **Off**.
-
-    
->[!Note]
->The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.
+   
+    >[!Note]
+    >The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.
 
 ### Manage Teams for users who have the Teams Exploratory license
 
