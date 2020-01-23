@@ -77,7 +77,7 @@ You can turn off a user’s ability to install trial apps and services.
 
     ![Screenshot of the Services page in the admin center](media/iw-trial-services.png)
 
-2. Turn off **Let users install trial apps and services**.
+2. Clear the **Let users install trial apps and services** check box.
 
     ![Screenshot of the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
