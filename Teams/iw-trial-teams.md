@@ -75,11 +75,11 @@ You can turn off a user’s ability to install trial apps and services.
 
 1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
 
-    ![Screenshot of the Services & add-ins page in the admin center](media/iw-trial-enable-1.png)
+    ![Screenshot of the Services page in the admin center](media/iw-trial-services.png)
 
 2. Turn off **Let users install trial apps and services**.
 
-    ![Screenshot of the User owned Apps & Services page in admin center](media/iw-trial-enable-2.png)
+    ![Screenshot of the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
 
 ### Manage trial availability for a user with a license that includes Teams
