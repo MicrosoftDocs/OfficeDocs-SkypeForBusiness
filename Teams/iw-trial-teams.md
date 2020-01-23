@@ -114,8 +114,8 @@ To turn off the trial license:
 
     ![Screenshot of the Teams trial license setting on the licenses pane](media/iW-trial-enable-4.png)
     
->[!Note]
->The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
+    >[!Note]
+    >The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
 
 ### Manage Teams for users who have the trial license
 
