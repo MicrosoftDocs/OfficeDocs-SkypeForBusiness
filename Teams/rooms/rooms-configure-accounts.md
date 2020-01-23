@@ -3,7 +3,6 @@ title: "Configure accounts for Microsoft Teams Rooms"
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.date: 5/10/2018
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
@@ -79,9 +78,9 @@ If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some ste
   
 ## See also
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
   
 [Configure a Microsoft Teams Rooms console](console.md)
   
-[Manage Microsoft Teams Rooms](skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](rooms-manage.md)
 
