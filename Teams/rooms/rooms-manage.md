@@ -4,7 +4,6 @@ ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -62,7 +61,7 @@ We recommend that you review and follow the [Quality of Experience Review Guide]
 
 ## Updating the Microsoft Teams Rooms OS and Microsoft Teams Rooms application
 
-We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Rooms application to benefit from product updates and improvements. For detailed guidance, see [Manage Microsoft Teams Rooms](room-systems-v2-operations.md#software-updates). 
+We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Rooms application to benefit from product updates and improvements. For detailed guidance, see [Manage Microsoft Teams Rooms](rooms-operations.md#software-updates). 
 
 ## Windows Updates
 
@@ -71,18 +70,18 @@ Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise
 
 ## Troubleshooting
 
-We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Microsoft Teams Rooms issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
+We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Microsoft Teams Rooms issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](rooms-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
 
-For more information about troubleshooting and admin mode, see [Manage Microsoft Teams Rooms](room-systems-v2-operations.md#admin-mode-and-device-management). 
+For more information about troubleshooting and admin mode, see [Admin mode and device management](rooms-operations.md#admin-mode-and-device-management). 
 
 
 ## See also
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
 
-[Deploy Microsoft Teams Rooms](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](rooms-deploy.md)
 
 [Configure a Microsoft Teams Rooms console](console.md)
 
