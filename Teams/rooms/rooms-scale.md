@@ -4,7 +4,6 @@ author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
-ms.date: 5/10/2018
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
@@ -128,7 +127,7 @@ For more information, see [Manage boot images with System Center Configuration M
 ## Create Configuration Manager packages
 
 > [!IMPORTANT]
-> The required operating system version for each SRS installer version changes with every MSI release. To determine the best operating system version for a given MSI, run the console setup script once. To learn more, see [Deploy Microsoft Teams Rooms by using System Center Configuration Manager](room-systems-scale.md).
+> The required operating system version for each SRS installer version changes with every MSI release. To determine the best operating system version for a given MSI, run the console setup script once. To learn more, see [Deploy Microsoft Teams Rooms by using System Center Configuration Manager](rooms-scale.md).
 
 Configuration Manager requires a number of packages to deploy and configure the Microsoft Teams Rooms units.
 
