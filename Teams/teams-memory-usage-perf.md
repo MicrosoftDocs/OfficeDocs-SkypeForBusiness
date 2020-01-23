@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: How Microsoft Teams uses system memory, and why memory usage is the same between the desktop application and the Web application.
+description: How Microsoft Teams uses system memory, and why memory usage is the same between the desktop application and the web application.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -36,7 +36,7 @@ It is important to understand the *expected* behavior of Teams when it comes to 
 
 ### Expected memory usage by Teams
 
-Whether you're running the Teams desktop app or the Teams Web app, Chromium detects how much system memory is available and utilizes enough of that memory to optimize the rendering experience. When other apps or services require system memory, Chromium gives up memory to those processes. Chromium tunes Teams memory usage on an ongoing basis in order to optimize Teams performance without impacting anything else currently running.
+Whether you're running the Teams desktop app or the Teams web app, Chromium detects how much system memory is available and utilizes enough of that memory to optimize the rendering experience. When other apps or services require system memory, Chromium gives up memory to those processes. Chromium tunes Teams memory usage on an ongoing basis in order to optimize Teams performance without impacting anything else currently running.
 
 In this way, similar Chromium workloads can utilize varying amounts of memory, depending on the amount of system memory that is available.
 
@@ -50,13 +50,12 @@ When computers have more memory, Teams will use that memory. In systems where me
 
 If you see one or more of the following symptoms on your computer, you could have a serious system memory issue:
 
-- High memory use when multiple large applications are running simultaneously
-- Slow system performance or applications hanging
+- High memory use when multiple large applications are running simultaneously.
+- Slow system performance or applications hanging.
 - Sustained overall system memory usage of 90% or higher across all apps. With this amount of memory usage, Teams should be giving memory back to other apps and workloads. Sustained memory usage of 90% could mean Teams isn't giving memory back to the system, which indicates a problem.
 
 The following images show examples of views in Task Manager when system memory usage is abnormally high.
 
 ![Teams memory usage view in Task Manager](media/teams-memory-high-mem-process-list.png)
-
 
 ![Teams memory usage graph in Task Manager](media/teams-memory-high-mem-process-list2.png)
