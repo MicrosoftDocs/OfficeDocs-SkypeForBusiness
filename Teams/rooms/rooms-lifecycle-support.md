@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -27,7 +26,7 @@ The Microsoft Teams Rooms app gets updates a few times per year. Each update sup
 
 All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version.
 
-All releases are listed in the [Microsoft Teams Rooms release notes](srs2-release-note.md).
+All releases are listed in the [Microsoft Teams Rooms release notes](rooms-release-note.md).
 
 ## Windows 10 release support
 
@@ -64,6 +63,6 @@ When you use a supported version of Windows 10, you will always get the latest a
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Microsoft Teams Rooms release notes](srs2-release-note.md)
+[Microsoft Teams Rooms release notes](rooms-release-note.md)
 
-[Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](rooms-plan.md)
