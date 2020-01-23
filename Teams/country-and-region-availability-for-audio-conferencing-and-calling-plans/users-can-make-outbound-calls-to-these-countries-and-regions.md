@@ -9,22 +9,20 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: "This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan."
-
 ---
 
 # Users can make outbound calls to these countries and regions

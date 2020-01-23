@@ -9,17 +9,16 @@ ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Calling Plans
+ms.custom: 
+  - Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in the United Kingdom (U.K.) for Microsoft Teams."
 ---
 

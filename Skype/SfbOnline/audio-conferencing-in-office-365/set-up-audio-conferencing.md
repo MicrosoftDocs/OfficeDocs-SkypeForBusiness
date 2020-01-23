@@ -58,7 +58,7 @@ For Audio Conferencing, you can’t use phone numbers for users; you will need t
   
 - **Use the Skype for Business admin center**. For some countries/regions, you can get service numbers for your conferencing bridges using the Skype for Business admin center. See [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
     
-- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Office 365. You can see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Office 365. You can see [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
 - **Use a request form for new numbers**. Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information. 
     

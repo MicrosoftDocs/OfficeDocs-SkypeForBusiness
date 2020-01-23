@@ -8,12 +8,11 @@ ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
-search.appverid:
-- MET150
+  - Microsoft Teams
+search.appverid: 
+  - MET150
 description: "Summary: Learn about the logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams. Also learn about telephony solutions for Teams. "
 ---
 

@@ -36,12 +36,8 @@ This report, along with the other Skype for Business reports, gives you details 
 
 1. Go to the admin center > **Reports** > **Usage**.
     
-2. On the **Usage** page, click **Skype for Business conference participant activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business conference participant activity** on the **Skype for Business activity** list.
+2. On the **Usage** page, select **Skype for Business** > **Conference participant activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business conference participant activity** on the **Skype for Business activity** list.
     
-     ![Skype conference participant activity menu item selected](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > Depending on the Office 365 subscription you have, you might not see all the products and activity reports shown here. 
   
 ## Interpret the Skype for Business conference participant activity report
 

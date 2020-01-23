@@ -8,14 +8,13 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: anach
-description: Learn about where data is stored in Microsoft Teams. 
+description: Learn about where data is stored in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Location of data in Microsoft Teams

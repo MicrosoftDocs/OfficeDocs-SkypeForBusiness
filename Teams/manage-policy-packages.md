@@ -3,25 +3,22 @@ title: Manage policy packages in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage policy packages in Microsoft Teams. 
+description: Learn how to use and manage policy packages in Microsoft Teams.
 ---
 
 # Manage policy packages in Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
@@ -35,18 +32,23 @@ Teams currently includes the following policy packages.
 
 |**Package name**  |**Description** |
 |---------|---------|
-|Education_Teacher package     |Creates a set of policies and policy settings that apply to teachers.      |
-|Education_PrimaryStudent package    |Creates a set of policies and policy settings that apply to primary students.|
-|Education_SecondaryStudent package    |Creates a set of policies and policy settings that apply to secondary students.         |
-|Education_HigherEducationStudent package    |Creates a set of policies and policy settings that apply to higher education students.|
+|Education (Higher education student)    |Creates a set of policies and policy settings that apply to higher education students.|
+|Education (Primary school student)   |Creates a set of policies and policy settings that apply to primary students.|
+|Education (Secondary school student)    |Creates a set of policies and policy settings that apply to secondary students.         |
+|Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
+|Business voice |Creates an app setup policy that includes the apps for a business voice experience.|
+|Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
+|Healthcare (Clinical worker)<br>**(preview)**  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
+|Healthcare (Information worker)<br>**(preview)**  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
+
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  
 
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package.
-For example, when you assign the Education_Teacher policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
+For example, when you assign the Education (Teacher) policy package to teachers in your school, a policy that's named Education_Teacher is created for each policy in the package.
 
-![Screen shot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
+![Screenshot of the Education (Teacher) policy package](media/policy-packages-education_teacher.png)
 
 ## How to use policy packages
 
@@ -99,3 +101,7 @@ You can edit the settings of a policy through the **Policy packages** page or by
 **You receive an error when you assign a policy package**
 
 This may occur if one or more policies in the package weren't created or applied successfully. Reassign the policy package to your users. Retrying the operation typically fixes this issue.
+
+## Related topics
+
+[Microsoft Teams policy packages for EDU admins](policy-packages-edu.md)

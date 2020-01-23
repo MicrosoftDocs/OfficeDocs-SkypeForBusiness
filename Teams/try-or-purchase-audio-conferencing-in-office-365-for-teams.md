@@ -10,17 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.lync.lac.CpcGettingStarted
-ms.custom:
-- Audio Conferencing
+f1keywords: 
+  - ms.lync.lac.CpcGettingStarted
+ms.custom: 
+  - Audio Conferencing
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 

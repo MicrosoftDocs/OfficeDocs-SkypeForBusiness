@@ -34,7 +34,7 @@ To learn how to get a Calling Plan and how much they cost, see [Teams add-on lic
 4. Select the country or region, and then enter the address.
 
    > [!NOTE]
-   > In Belgium, France, Germany, Ireland, Netherlands, and Spain i's important to understand that  to successfully activate a phone number in Office 365, the address setup in the emergency location, which os used to acquire the number, must match the phone number’s area code.
+   > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that  to successfully activate a phone number in Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number’s area code.
 5. If the address isn't found and you want to manually edit the address, turn on **Let me edit the address form manually if the address selected can't be found**.
 6. Click **Save**.
     

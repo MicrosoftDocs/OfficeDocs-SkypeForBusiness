@@ -9,21 +9,20 @@ ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Trinidad and Tobago."
 ---
 

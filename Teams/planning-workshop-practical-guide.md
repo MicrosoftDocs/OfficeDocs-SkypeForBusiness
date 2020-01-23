@@ -11,11 +11,8 @@ ms.reviewer: lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Tools and workshops: Plan, deliver, and adopt Microsoft Teams

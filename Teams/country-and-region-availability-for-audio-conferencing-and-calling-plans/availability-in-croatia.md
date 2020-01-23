@@ -9,21 +9,20 @@ ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans 
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Croatia."
 ---
 

@@ -31,6 +31,7 @@ Cloud call queues can provide:
 - Music while people are waiting on hold.
 - Redirecting calls to call agents in mail-enabled distribution lists and security groups.
 - Setting different parameters such as queue maximum size, timeout, and call handling options.
+- Shared voicemail for callers to leave a message for an organization.
 
 You would associate a phone number to a call queue using a [resource account](manage-resource-accounts.md). A call queue can be dialed directly or accessed by a selection on an auto attendant.
 
@@ -62,7 +63,7 @@ To get started using call queues, it's important to remember a few things:
 > Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.
 
 > [!NOTE]
-> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Skype for Business licenses](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
@@ -100,7 +101,7 @@ To get started using call queues, it's important to remember a few things:
 
 ## Step 2 — Getting or transferring toll or toll-free service phone numbers
 
-Before you can create and set up your call queues, you need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Legacy Portal** > **Voice** > **Phone numbers**, and the **Number type** will be listed as **Service — Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your call queues, you need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers** > **ADD** >, and the **Number type** will be listed as **Service — Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
@@ -160,9 +161,11 @@ You can upload an audio file (.wav, .mp3, or .wma formats).
 
 ### Select the call answering options
 
-![Screenshot of call answering options, with numbered callouts](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Screenshot of call answering options](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+To add individual agents directly, without adding them to a group, click **Add users**. Put individual agents in the order in which you want them to receive the call. You can add up to 20 individual agents (to add more than 20, put them in a group).
+
+Calls are routed first to individual agents, then to the agents in groups. 
 
 You can select up to 200 call agents who belong to any of the following mailing lists or groups:
 
@@ -173,7 +176,7 @@ You can select up to 200 call agents who belong to any of the following mailing 
 Call agents selected must be one of the following: 
 
 - Online users with a Phone System license and Enterprise Voice enabled 
-- Online users with a  Calling Plan
+- Online users with a Calling Plan
 - On-premises Skype for Business Server users
 
   > [!NOTE]
@@ -217,6 +220,10 @@ To access the opt-out option, agents can do the following:
 
     > [!NOTE]
     > Agents using apps or endpoints other than Skype for Business Desktop can access the opt-out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
+    >
+    > If the agents are in Microsoft Teams desktop clients, then they can opt-out by using the Call Settings. 
+
+![screenshot of the opt-out call settings](media/create-a-phone-system-call-queue-image1.png)
 
 ![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png)
 **Agent Alert setting**
@@ -308,13 +315,13 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
   - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Why you need to use Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Why you need to use Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over the Microsoft Teams admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
 
-  - [Manage Office 365 with Windows PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Manage Office 365 with Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
-  - [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## Related topics
 

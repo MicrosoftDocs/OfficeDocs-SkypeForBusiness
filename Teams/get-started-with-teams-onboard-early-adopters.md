@@ -8,14 +8,13 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams. 
+description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Onboard early adopters to Microsoft Teams

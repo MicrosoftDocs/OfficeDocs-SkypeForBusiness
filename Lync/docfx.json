@@ -83,9 +83,8 @@
       "contributors_to_exclude": [
         "dstrome"
       ],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/issues",
+      "feedback_system": "None",
+      "hideEdit": true,
       "ms.topic": "conceptual",
       "ms.prod": "lync-server-2013",
       "audience": "ITPro",

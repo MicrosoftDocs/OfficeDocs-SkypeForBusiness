@@ -1,20 +1,21 @@
 ---
 title: Manage messaging policies in Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
-- ms.teamsadmincenter.messagingpolicies.overview
+f1keywords: 
+  - ms.teamsadmincenter.messagingpolicies.overview
 description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
 
@@ -28,7 +29,7 @@ By default, a policy named Global (org-wide default) is created. All users in yo
 
 ## Change or create a messaging policy
 
-You can easily manage messaging policies in the Microsoft Teams admin center (http://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
+You can easily manage messaging policies in the Microsoft Teams admin center (https://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
 
 For example, say you want to make sure that sent messages aren't deleted or altered. You would create a new custom policy named "Retain sent messages" and turn off the following settings:
 
@@ -67,7 +68,7 @@ Use the following settings to change the global messaging policy or create a new
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
 - **Users can edit sent messages** Use this setting to let users edit the messages that they sent in chat.
-- **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or less. Message read receipts remove uncertainly about whether a message was read, and improve team communication.  
+- **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or less. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Please note that read receipts are not captured in eDiscovery reporting.  
     - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF. 
     - **On for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. Be aware that when using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
     - **Off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on. 
@@ -85,12 +86,15 @@ Use the following settings to change the global messaging policy or create a new
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
 - **Users can send <a name="urgent-message">priority</a> notifications** If you turn this on, users can send a message that uses priority notifications. Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Voice message creation** 
-    - **Allowed in chats and channels** This means that users can leave voice messages in both chats and channels.
-    - **Allowed in chats only** This means that users can leave voice messages in chats, but not in channels.
-    - **Disabled** This means that users cannot create voice messages in chats or channels.  
+- **Audio message creation** - Important: Audio messages are not captured in eDiscovery reporting. 
+    - **Allowed in chats and channels** This means that users can leave audio messages in both chats and channels.
+    - **Allowed in chats only** This means that users can leave audio messages in chats, but not in channels.
+    - **Disabled** This means that users cannot create audio messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them. 
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
+
+> [!NOTE]
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)

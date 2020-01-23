@@ -11,12 +11,11 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-description: Learn how to manage settings for Teams live events that are held in your organization. 
+  - M365-collaboration
+description: Learn how to manage settings for Teams live events that are held in your organization.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Configure live event settings in Microsoft Teams
@@ -40,7 +39,7 @@ This URL is shown to live event attendees. Add the support URL for your organiza
 
 ### Using Windows PowerShell
 Run the following:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
 For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
@@ -64,11 +63,11 @@ If you purchased and set up a software defined network (SDN) solution or enterpr
 Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:
 
 **Hive** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 **Kollective** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).

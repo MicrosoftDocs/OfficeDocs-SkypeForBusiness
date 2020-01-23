@@ -10,19 +10,18 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: 
-- ms.teamsadmincenter.directrouting.callanalytics
-- ms.teamsadmincenter.users.activity.audioqualitycolumn
-ms.custom:
-- Reporting
+  - ms.teamsadmincenter.directrouting.callanalytics
+  - ms.teamsadmincenter.users.activity.audioqualitycolumn
+ms.custom: 
+  - Reporting
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams and Skype for Business calls and meetings."
 ---
 

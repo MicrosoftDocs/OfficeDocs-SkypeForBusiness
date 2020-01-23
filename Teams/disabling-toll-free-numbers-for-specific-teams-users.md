@@ -9,17 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- M365-voice
+  - M365-voice
+  - M365-collaboration
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- Audio Conferencing
-description: "Administrators can control how organizers can use toll-free numbers for their meetings." 
+ms.custom: 
+  - Audio Conferencing
+description: "Administrators can control how organizers can use toll-free numbers for their meetings."
 ---
 
 # Disabling toll-free numbers for specific Teams users

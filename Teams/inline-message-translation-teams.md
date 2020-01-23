@@ -8,16 +8,15 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use inline translation in Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Turn on inline message translation in Microsoft Teams 

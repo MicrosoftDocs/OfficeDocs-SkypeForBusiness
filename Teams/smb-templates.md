@@ -4,15 +4,14 @@ author: kenwith
 ms.author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: conceptual 
-ms.service: msteams 
+ms.topic: conceptual
+ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration 
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ms.reviewer: lavenkat
 description: Get started with Teams templates for Small and Medium Businesses
 ---
@@ -94,11 +93,11 @@ Content-Type: application/json
     "description": "All posts, announcements and daily collaboration and communication within the Finance team members (and exec team members as appropriate).",
     "visibility": "Private"
 }
-``
+```
 
 ### Example: Finance Team template extension script
 
-``` Powershell
+```powershell
 {
   "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
   "displayName": "Finance",

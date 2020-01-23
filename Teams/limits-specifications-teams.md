@@ -6,15 +6,15 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karuanag
+ms.reviewer: 
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+  - SPO_Content
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Limits and specifications for Microsoft Teams
@@ -33,12 +33,13 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
+|Number of Private channels per team    |30|
 
-&sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+&sup1; Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2;This limit includes archived teams.
+&sup2; This limit includes archived teams.
 
-&sup3;Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+&sup3; Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
 
 ## Messaging
 
@@ -53,9 +54,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Number of people in a private chat<sup>1</sup>  | 100    |
 |Number of file attachments<sup>2</sup>  |10     |
 
-<sup>1</sup>If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
 
-<sup>2</sup>If the number of attachments exceeds this limit, you'll see an error message.
+<sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
 ### Emailing a channel
 
@@ -68,9 +69,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |Size of each file attachment | Less than 10 MB |
 |Number of inline images<sup>2</sup> |50   |
 
-<sup>1</sup>If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
+<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
-<sup>2</sup>If the number of attachments or images exceeds this limit, you'll see an error message.
+<sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
@@ -94,6 +95,19 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
+|Max PowerPoint File Size | 2GB|
+
+### Meeting expiration
+
+|Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
+|---------|---------|---------|
+|Meet now     |Start time + 8 hours         |N/A         |
+|Regular with no end time     |Start time + 60 days         | 60 days        |
+|Regular with end time     |End time + 60 days         |60 days         |
+|Recurring with no end time     |Start time + 60 days         |60 days         |
+|Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
+
+
 
 ## Teams live events
 
@@ -104,6 +118,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Concurrent live events in an Office 365 tenant | 15 |
 
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+## Presence in Outlook
+
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## Storage
 

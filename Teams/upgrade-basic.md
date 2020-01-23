@@ -22,9 +22,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-<a name="about-upgrade-basic"></a>
-
 # Upgrade Basic
+
+<a name="about-upgrade-basic"></a>
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
@@ -36,7 +36,7 @@ These ten easy steps provide everything you need for a successful upgrade. They�
 What happens to Skype for Business after the upgrade? After your users are upgraded to Teams (**Teams Only** mode):
 
 - Their Skype for Business client is disabled, and all chat and calls go to Teams. Note that this will not uninstall the client on their desktops.
-- Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams.
+- Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams. The Skype for Business plugin will no longer be available in Outlook. 
 - If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.
 - Users need to manually uninstall the Skype for Business client on their mobile devices.
 
@@ -68,7 +68,7 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 
 *(About four to six weeks before the upgrade)*
 
-Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and configure your environment for success.
+Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. By default, Teams is turned on for all organizations. Decide how your organization will use Teams and configure your environment for success. 
 
 > [!Note]
 > As an existing Skype for Business customer, your current network infrastructure is likely already configured for Teams. To confirm this, you can follow the “Complete technical planning” guidance linked to below (this is optional).
@@ -76,9 +76,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 **Resources:**
 
 - [Overview of Teams](Teams-overview.md)
-- [Learn about teams and channels](teams-channels-overview.md)
-- [Complete technical planning](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Manage Microsoft Teams Rooms](https://aka.ms/MTRDocs)
+- [Get started with Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [Return to top](#about-upgrade-basic)
 

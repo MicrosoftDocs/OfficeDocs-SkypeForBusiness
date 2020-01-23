@@ -11,15 +11,14 @@ audience: admin
 search.appverid: MET150
 description: Learn about calling policy settings in Microsoft Teams.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+  - M365-voice
+f1keywords: 
+  - ms.teamsadmincenter.callingpolicies.overview
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Calling policies in Microsoft Teams

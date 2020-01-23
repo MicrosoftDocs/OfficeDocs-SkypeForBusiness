@@ -12,10 +12,9 @@ description: Learn the decisions you should make when planning for Office 365 Gr
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Plan for Office 365 Groups when creating teams in Microsoft Teams

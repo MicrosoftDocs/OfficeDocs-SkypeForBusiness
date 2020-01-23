@@ -166,7 +166,7 @@ Give replication some time to publish the updated topology to all the servers in
 
 On each server that is servicing the pool that you're going to upgrade, run the following cmdlet in PowerShell:
   
-```
+```powershell
 Disable-CsComputer -Scorch
 ```
 
@@ -199,7 +199,7 @@ When the In-Place Upgrade completes successfully, you see the following message.
   
 - After you've upgraded all servers in the Front End pool, restart the services by using the following PowerShell command: 
     
-  ```
+  ```powershell
   Start-CsPool
   ```
 
@@ -208,7 +208,7 @@ When the In-Place Upgrade completes successfully, you see the following message.
   
 - On the non-Front End pool servers, restart the services by using the following command:
     
-  ```
+  ```powershell
   Start-CsWindowsService
   ```
 

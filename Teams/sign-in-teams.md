@@ -12,10 +12,9 @@ ms.reviewer:
 description: How to sign in to Microsoft Teams by using modern authentication.
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Sign in to Microsoft Teams using modern authentication

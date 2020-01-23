@@ -9,17 +9,16 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Training
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
 ms.topic: landing-page
 f1keywords: 
-- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
-- ms.teamsadmincenter.dashboard.trainingvideos.enduser
+  - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+  - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # End user training for Microsoft Teams
 

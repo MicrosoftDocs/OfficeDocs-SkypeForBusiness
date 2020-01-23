@@ -23,7 +23,7 @@ description: "Learn how to get the Skype for Business Activity reports, what it 
 
 # Activity report
 
-The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business activity** report to see how much your users are using peer-to-peer or organized conferencing sessions, or how much they're participating in conferencing sessions. 
+The Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business activity** report to see how much your users are using peer-to-peer or organized conferencing sessions, or how much they're participating in conferencing sessions. 
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
@@ -36,12 +36,8 @@ This report, along with the other Skype for Business reports, gives you details 
 
 1. Go to the admin center > **Reports** > **Usage**.
     
-2. On the **Usage** page, click **Skype for Business activity** on the **Select a report list** on the left, or click the **Skype for Business activity** widget.
-    
-     ![Skype for Business DashBoard Widget.](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > Depending on the Office 365 subscription you have, you might not see all the products and reports shown here. 
+2. On the **Usage** page, choose **Skype for Business** > **Activity** on the **Select a report list** on the left, or click the **Skype for Business activity** widget.
+
   
 ## Interpret the Skype for Business activity report
 

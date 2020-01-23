@@ -9,21 +9,20 @@ ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.voice.phonenumbers.overview
-- ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
-- ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
-- ms.lync.lac.VASAMissingGeoCodes
-ms.custom:
-- Calling Plans
+f1keywords: 
+  - ms.teamsadmincenter.voice.phonenumbers.overview
+  - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
+  - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
+  - ms.lync.lac.VASAMissingGeoCodes
+ms.custom: 
+  - Calling Plans
 description: Learn how to get and manage phone numbers for Microsoft Teams for your organization.
 ---
 
