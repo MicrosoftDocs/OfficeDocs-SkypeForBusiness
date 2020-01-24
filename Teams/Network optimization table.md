@@ -21,8 +21,7 @@
 </tr>
 <tr class="even">
 <td>Network Assessment Tool</td>
-<td><p>Use the <a href="https://www.microsoft.com/download/details.aspx?id=53885">Network Assessment Tool</a> to test network connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.</p>
-<p><strong>REVIEWERS: This tool is still branded for Skype for Business. Siunie says she’s planning to update this tool for Teams, possibly in H2FY20.</strong></p></td>
+<td><p>Use the <a href="https://www.microsoft.com/download/details.aspx?id=53885">Network Assessment Tool</a> to test network connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.</td>
 </tr>
 <tr class="odd">
 <td>Validate (NAT) pool size</td>
