@@ -7,6 +7,86 @@
       "redirect_document_id": true
       },
     {
+      "source_path": "Teams/room-systems/azure-monitor-deploy.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/azure-monitor-deploy", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/azure-monitor-manage.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/azure-monitor-manage", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/azure-monitor-plan.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/azure-monitor-plan", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/console.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/console", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/domain-joining-considerations.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/domain-joining-considerations", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/known-issues.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/known-issues", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/lrs-migration.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/lrs-migration", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/recovery-tool.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/recovery-tool", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/requirements.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/requirements", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/updates.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/updates", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/with-exchange-on-premises.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/with-exchange-on-premises", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/with-exchange-on-online.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/with-exchange-online", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/with-office-365.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/with-office-365", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/with-skype-for-business-server-2015.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/with-skype-for-business-server-2015", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/with-xml-config-file.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/xml-config-file", 
+      "redirect_document_id": true
+      },
+    {
+      "source_path": "Teams/room-systems/index.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/index", 
+      "redirect_document_id": true
+      },
+    {
       "source_path": "Teams/room-systems/room-systems-v2-configure-accounts.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-configure-accounts", 
       "redirect_document_id": true
