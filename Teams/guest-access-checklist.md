@@ -52,8 +52,6 @@ To turn on guest access, go to the **Microsoft Teams admin center**.
 
 These are the Azure AD settings that support guest access in Teams. Once these settings are configured, you'll be able to [add](add-guests.md) and [manage guests](manage-guests.md) in Teams.
 
-Add a guest to a team - Microsoft TeamsLearn the tools available to an admin to add new guest users to an organization, including the Microsoft Teams desktop and web clients and the Azure Active Directory B2B collaboration portal.docs.microsoft.com<https://teams.microsoft.com/l/message/19:1e34a64bcdb842f6957c9764091ad1f4@thread.skype/1579802106203?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&amp;groupId=af55e84c-dc67-4e48-9005-86e0b07272f9&amp;parentMessageId=1578691533274&amp;teamName=Microsoft Teams&amp;channelName=Guest Access&amp;createdTime=1579802106203>
-
 1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
 2. Select **Azure Active Directory** > **Users** > **User settings**.
 3. Under **External users**, select **Manage external collaboration settings**.
