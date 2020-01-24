@@ -50,6 +50,8 @@ To turn on guest access, go to the **Microsoft Teams admin center**.
 
 ## Step 2: Configure Azure AD business-to-business settings
 
+These are the Azure AD settings that support guest access in Teams. Once these settings are configured, you'll be able to [add](add-guests.md) and [manage guests](manage-guests.md) in Teams.
+
 1. Sign in to the [Azure portal](https://portal.azure.com) as a tenant administrator.
 2. Select **Azure Active Directory** > **Users** > **User settings**.
 3. Under **External users**, select **Manage external collaboration settings**.
@@ -63,8 +65,6 @@ To turn on guest access, go to the **Microsoft Teams admin center**.
 
          > [!NOTE]
          > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
-         > [!IMPORTANT]
-         > For guest access to work at all in Teams, you must set **Members can invite** to **Yes**.   
      - **Guests can invite**: To allow guests to invite other guests, set this policy to **Yes**.
          > [!IMPORTANT]
          > Currently, Teams doesn't support the guest inviter role, so even if you set **Guests can invite** to **Yes**, guests can't invite other guests in Teams.
