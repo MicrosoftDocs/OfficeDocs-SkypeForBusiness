@@ -79,7 +79,7 @@ These are the Azure AD settings that support guest access in Teams. Once these s
 
 ## Step 3: Configure Office 365 Groups
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Services & add-ins**, and then select **Office 365 Groups**.
+1. In the Microsoft 365 admin center, go to **Settings** > **Settings**, click **Services**, and then select **Office 365 Groups**.
 
      ![Screenshot shows the Office 365 Groups toggles](media/guest-access-checklist-office365.png)
 2. Make sure that the **Let group members outside the organization access group content** check box is selected. If this setting is not selected, guests won't be able to access any group content.
@@ -92,17 +92,13 @@ For detailed instructions about configuring these settings, see [Manage guest ac
 
 Make sure that users can add guests. Here's how:
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Security & privacy**.
+1. In the Microsoft 365 admin center, go to **Settings** > **Settings**, click **Security & privacy**, and then select **Sharing**.
 
-     ![Screenshot shows an example of services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
-
-2. In **Sharing**, select **Edit**.
-
-     ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Screenshot shows an example of services settings](media/guest-access-checklist-settings-page.png)
  
-3. Set **Let users add new guests to this organization** to **On**, and then click **Save**.
+2. Select the **Let users add new guests to this organization** check box, and then click **Save changes**.
 
-     ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-sharing-setting.png)
  
     > [!NOTE]
     > This setting is equivalent to the **Members can invite** setting in **User settings** > **External users** in Azure AD.  
