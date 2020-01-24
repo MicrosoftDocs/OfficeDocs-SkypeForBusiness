@@ -41,7 +41,7 @@ For calls outside your organization, Microsoft provides multiple options for con
   
 Phone System can be connected to the PSTN in one of two ways:
   
-- Purchase a Microsoft Calling Plan (domestic or domestic and international) for Office 365. This is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
+- Purchase a Microsoft Calling Plan (domestic or domestic and international) for Office 365. Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
 
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
