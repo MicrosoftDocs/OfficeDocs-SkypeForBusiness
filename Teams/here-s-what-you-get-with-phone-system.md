@@ -56,16 +56,12 @@ Phone System provides the following features. Unless otherwise noted, features a
 |[Cloud voicemail](set-up-phone-system-voicemail.md) <br/> | When a user receives a voicemail, it is delivered to their Exchange mailbox as an email with the voicemail message as an attachment. Users can listen to their messages on their certified desktop phone, and on all Teams or Skype for Business applications. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users.   <br/> |
 |[Cloud voicemail user settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Lets users configure their client settings for voicemail greetings, call answering rules, and greeting language, including out-of-office greetings.   |
 |[Secondary ringer](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Users with multiple speaker devices connected to their PC can choose to set a secondary device to ring in addition to their default speaker. For example, a user with a headset connected to the PC and desk speakers can choose to have both headset and desk speakers ring when a call comes in so that they don’t miss a call.  |
-|[Distinctive ring alerts](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams only)<br/> |Users can choose separate ringtones for  normal calls, forwarded calls, and delegated calls so they can distinguish the type of call.  <br/> |
+|[Distinctive ring alerts](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams only)<br/> |Lets users choose separate ringtones for  normal calls, forwarded calls, and delegated calls so they can distinguish the type of call.  <br/> |
 |[Shared Line Appearance](shared-line-appearance.md) <br/> | Lets users share their phone line so that another user can make and receive calls on their behalf.|
 |[Busy on Busy](teams-calling-policy.md) (Teams only) <br/> | A calling policy that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. The caller will hear a busy signal when the callee is on the phone already. The callee gets a missed call notification but is not able to answer incoming calls. This is feature is disabled by default but can be turned on by the tenant admin. |
 |[Call Blocking](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Lets users add (PSTN) phone numbers to a blocked list so that the next call from that number is blocked from ringing the user.|
 |[Common Area Phones](set-up-common-area-phones.md) <br/> | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network.|
 |[Media bypass support](direct-routing-plan-media-bypass.md) (for Teams Direct Routing only) <br/> | For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. |
-
-
-
-
 
 
 ## Availability in GCC High and DoD clouds

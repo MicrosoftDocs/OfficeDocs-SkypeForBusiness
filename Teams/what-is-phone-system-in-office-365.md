@@ -18,7 +18,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: 
   - Phone System
-description: "Learn about what Phone System can do for you. "
+description: "Learn about what Phone System can do for you."
 ---
 
 # What is Phone System in Office 365?
@@ -29,7 +29,7 @@ Phone System allows you to replace your existing on-premises PBX system with a s
 
 ## Phone System technology
 
-**Phone System** enables call control and PBX capabilities in the Office 365 cloud with Microsoft Teams and Skype for Business Online. 
+Phone System enables call control and PBX capabilities in the Office 365 cloud with Microsoft Teams and Skype for Business Online. 
   
 With Phone System, users can use Teams or Skype for Business Online to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams or Skype for Business Online calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams and Skype for Business Online. Phone System administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
   
@@ -52,15 +52,15 @@ Phone System can be connected to the PSTN in one of two ways:
 
 ## Phone System with services
 
- Phone System can be used for services and voicemail:
+ Phone System can be used for services and voicemail, such as:
 
-- **Auto attendants**  Auto attendants can be used to create a menu system for your organization that lets external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
+- **Auto attendants** -  Auto attendants can be used to create a menu system for your organization that lets external and internal callers move through the system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md).
 
-- **Call queues**  Call queue greetings can be used when someone calls in to a phone number for your organization. This includes the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Call queues** -  Call queue greetings can be used when someone calls in to a phone number for your organization. These greetings include the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
-- **Voicemail** When you get a Phone System license for a user, that user is able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+- **Voicemail** -  When you get a Phone System license for a user, that user is able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-If you're ready to get started, see [Setting up Phone System in your organization](setting-up-your-phone-system.md).
+For more information about features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Phone System in your organization](setting-up-your-phone-system.md).
 
 ## Related topics
 
