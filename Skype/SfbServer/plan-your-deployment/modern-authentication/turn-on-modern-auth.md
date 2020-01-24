@@ -89,7 +89,7 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 
 > [!NOTE]
 > 
-> If you use the BlockWindowsAuthExternally parameter to externally block NTLM, under the covers it also blocks NTLM internally for the SIP channel.  However, Lync/SfB clients newer than 2010 will still be able to login internally because they will use NTLM to sign in internally over http and then fetch a certificate to login over SIP.  Clients older than 2010 will not be able to login internally in this situation.
+> If you use the BlockWindowsAuthExternally parameter to externally block NTLM, be aware this also blocks NTLM internally for the SIP channel. However, Skype for Business and Lync clients newer than 2010 will still be able to login because they will use NTLM over HTTP for signin, internally, and then fetch a certificate to login over SIP. However, clients older than 2010 will not be able to login internally in this circumstance, and you may want to consider upgrading these clients so that your users can resume secure SIP functionality.
 
 
 ## Links 
