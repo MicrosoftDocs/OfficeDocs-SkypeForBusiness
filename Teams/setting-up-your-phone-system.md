@@ -52,7 +52,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 2. Go to the **Microsoft 365 admin center** > **Teams admin center**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![The Add button, displayed as a plus symbol](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+3. In the left navigation go to **Voice** > **Phone numbers**, click **Add**, and then follow the prompts.
     
 ### Get new numbers that aren't available in the Teams admin center
   
