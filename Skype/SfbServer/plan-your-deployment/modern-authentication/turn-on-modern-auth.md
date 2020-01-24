@@ -87,6 +87,11 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change their pin, they will need to login to their corporation to do so, internally.
 
+> [!NOTE]
+> 
+> If you use the BlockWindowsAuthExternally parameter to externally block NTLM, under the covers it also blocks NTLM internally for the SIP channel.  However, Lync/SfB clients newer than 2010 will still be able to login internally because they will use NTLM to sign in internally over http and then fetch a certificate to login over SIP.  Clients older than 2010 will not be able to login internally in this situation.
+
+
 ## Links 
 - For more PowerShell information:
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
