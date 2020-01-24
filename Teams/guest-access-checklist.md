@@ -30,8 +30,6 @@ Watch this short video (5:31 minutes) to see how to turn on guest access through
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
 
-
-
 ## Step 1: Turn on guest access at the Teams org-wide level
 
 To turn on guest access, go to the **Microsoft Teams admin center**. 
@@ -46,7 +44,6 @@ To turn on guest access, go to the **Microsoft Teams admin center**.
 
 > [!TIP]
 > If you're using default settings in Azure Active Directory, SharePoint Online, and Office 365 Groups, you may be done configuring guest access. In this case, you can skip the rest of the steps. If you're not sure, or if you're using custom settings for AAD, SharePoint Online, or Office 365 Groups, continue with the rest of the steps in this checklist.
-
 
 ## Step 2: Configure Azure AD business-to-business settings
 
@@ -73,9 +70,7 @@ These are the Azure AD settings that support guest access in Teams. Once these s
         > [!NOTE]
         > For collaboration restrictions, see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
       
- 
     For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
-
 
 ## Step 3: Configure Office 365 Groups
 
@@ -86,7 +81,6 @@ These are the Azure AD settings that support guest access in Teams. Once these s
 3. Make sure that the **Let group owners add people outside the organization to groups** check box is selected. If this setting is not selected, team owners won't be able to add new guests. At a minimum, this setting must be on to support guest access.
 
 For detailed instructions about configuring these settings, see [Manage guest access in Office 365 Groups](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) and [Control guest access in Office 365 Groups](Teams-dependencies.md#control-guest-access-in-office-365-groups).
- 
 
 ## Step 4: Configure sharing in Office 365 
 
@@ -94,7 +88,7 @@ Make sure that users can add guests. Here's how:
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Settings**, click **Security & privacy**, and then select **Sharing**.
 
-     ![Screenshot shows an example of services settings](media/guest-access-checklist-settings-page.png)
+     ![Screenshot shows an example of services settings](media/guest-access-checklist-security-privacy-settings.png)
  
 2. Select the **Let users add new guests to this organization** check box, and then click **Save changes**.
 
@@ -102,7 +96,6 @@ Make sure that users can add guests. Here's how:
  
     > [!NOTE]
     > This setting is equivalent to the **Members can invite** setting in **User settings** > **External users** in Azure AD.  
-
 
 ## Step 5: Verify sharing setting in SharePoint
 
@@ -114,9 +107,8 @@ Make sure that users can add guests. Here's how:
 
 3. Select the site, and then click **Sharing**.
 4. Make sure that the option is set to **Anyone** or **New and existing guests**.
- 
-     ![Screenshot shows an example of a SharePoint Online settings toggle](media/guest-access-checklist-SPOSettings1.png)
 
+     ![Screenshot shows an example of a SharePoint Online settings toggle](media/guest-access-checklist-SPOSettings1.png)
 
 ## Step 6: Set up guest user permissions
 
@@ -126,7 +118,6 @@ In the Teams application, at the individual team level, configure guest permissi
 
 To learn more about guest access, see [Guest access in Teams](guest-access.md) and [Turn on or turn off guest access to Microsoft Teams](set-up-guests.md).
 
-
 ## Troubleshooting
 
 If you have problems setting up guest access or adding guests in Teams, use these resources to help you:
@@ -134,6 +125,3 @@ If you have problems setting up guest access or adding guests in Teams, use thes
 [Troubleshoot problems with guest access in Microsoft Teams](troubleshoot-guest-access.md)
 
 [Teams troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
-
-
-
