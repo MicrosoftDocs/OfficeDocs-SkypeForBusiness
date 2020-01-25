@@ -95,7 +95,7 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 ## Links 
 - For more PowerShell information:
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
-    -  [Set-CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
+    -  [Set-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - For more direction on how to use the commands or on the CU needed to install them:
     - [Cmdlets briefing](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
