@@ -51,10 +51,6 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 ## Calling Plans
 
-> [!IMPORTANT]
-> Only available through Telstra for Australian-based tenants.
-> For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
-
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
@@ -76,7 +72,7 @@ Starting September 1, 2019, if your tenant is located outside Australia, you can
 |APAC     |Bangladesh, Bhutan, Brunei, Cambodia, Hong Kong, Indonesia, Laos, Macao, Malaysia, Maldives, Myanmar, Nepal, Philippines, Singapore, Sri Lanka, Thailand, Timor-Leste, Vietnam|
 |EMEA    |Åland Islands, Andorra, Austria, Belgium, Bouvet Island, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Greenland, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jan Mayen, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Svalbard, Sweden, Switzerland, United Kingdom, Vatican City  |
 
-Note that Telstra Calling for Office 365 will show up as an add-on only for users who are located in Australia. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+Telstra Calling for Office 365 will show up as an add-on only for users who are located in Australia and the countries and regions listed in the above table, once provisioned by Telstra. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## Toll and toll-free numbers for services
 
