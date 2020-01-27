@@ -1,5 +1,5 @@
 ---
-title: Teams and Skype Consumer interoperability  (Work in progress)
+title: Teams and Skype interoperability
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -14,17 +14,19 @@ description: Learn how Teams users and Skype (Consumer) users can communicate.
 
 ---
 
-# Teams and Skype Consumer interoperability
+# Teams and Skype interoperability
 
-This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer) and the admin controls that apply.
+This article gives you an overview of how Microsoft Teams users in your organization and Skype (Consumer) users can communicate and the admin controls that apply.
 
 ## Chat
 
 Teams users can chat with Skype users and vice versa. Teams users can search for and start a 1:1 conversation with a Skype user and Skype users can search for and start a 1:1 chat with a Teams user. This is available for Teams desktop, web, and mobile (Android and iOS) clients.
 
-Conversations are text-only, with limited audio/video capabilities. There's no rich formatting, @ mentions, emojis, or other chat features that Teams users have in a native Teams chat experience. Although Teams users and Skype users can search for each other, at this time, they can't see each other's presence states.
+Conversations are text-only, with limited audio/video capabilities. This means that there's no rich formatting, @mentions, emojis, or other chat features that are available in a native Teams chat experience. Although Teams users and Skype users can search for each other, at this time, they can't see each other's presence states.
 
 ### Scenarios
+
+Here's what the chat experience looks like between Teams users and Skype users.
 
 #### Teams user starts a chat with a Skype user
 
