@@ -30,7 +30,7 @@ Here's what the chat experience looks like between Teams users and Skype users.
 
 #### Teams user starts a chat with a Skype user
 
-A Teams user can search for a Skype user by starting a new chat or from the search bar using the email address of the Skype account. Multiple Skype accounts can be returned in the search results. When the Teams user selects the Skype user, they can start chatting with them.
+A Teams user can search for a Skype user by starting a new conversation or from the search bar using the email address of the Skype account. Multiple Skype accounts can be returned in the search results. When the Teams user selects the Skype user, they can start chatting with them.
 
 A Skype user may choose to not appear in search results. In this case, that user won't show up in the search results in Teams. 
 
