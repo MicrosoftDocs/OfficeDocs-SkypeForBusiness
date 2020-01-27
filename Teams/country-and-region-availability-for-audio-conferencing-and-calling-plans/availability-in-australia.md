@@ -76,9 +76,7 @@ Starting September 1, 2019, if your tenant is located outside Australia, you can
 |APAC     |Bangladesh, Bhutan, Brunei, Cambodia, Hong Kong, Indonesia, Laos, Macao, Malaysia, Maldives, Myanmar, Nepal, Philippines, Singapore, Sri Lanka, Thailand, Timor-Leste, Vietnam|
 |EMEA    |Åland Islands, Andorra, Austria, Belgium, Bouvet Island, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Greenland, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jan Mayen, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Slovakia, Slovenia, Spain, Svalbard, Sweden, Switzerland, United Kingdom, Vatican City  |
 
-Note that Telstra Calling for Office 365 will show up as an add-on only for users who are located in Australia. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [](https://www.telstra.com.au/business-enterprise/products/unified-communications/collaboration/calling-and-productivity/telstra-calling-for-office-365).
-
-For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+Note that Telstra Calling for Office 365 will show up as an add-on only for users who are located in Australia. For users in other geographies, they'll continue to attach Microsoft Calling Plans or Direct Routing, as applicable. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## Toll and toll-free numbers for services
 
