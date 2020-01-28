@@ -451,7 +451,13 @@ When you compare data for these two services:
   - Wired : wifi
   - Corporate network : home network
   
+### Why can't I see EUII in CQD?
 
+These admin roles can access CQD, but they can't view EUII (end-user identifiable information):
+- Office 365 Reports Reader
+- Teams Communications Support Specialist
+
+To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
 
 ## Related topics
 
