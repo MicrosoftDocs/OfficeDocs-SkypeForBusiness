@@ -33,7 +33,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 2: Buy and assign Phone System and Calling Plan licenses
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning an Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
 
 If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
@@ -58,19 +58,19 @@ You must use the **Add numbers** page to see, search, acquire, and reserve those
     
 ### Get new numbers that aren't available in the Teams admin center
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. To learn how to request new user numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).   
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you'll need to download a form and send it back to us. To learn how to request new user numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).   
   
 ### Port or transfer phone numbers from your service provider or phone carrier
   
 - If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Teams admin center. Follow the steps found in [Transfer phone numbers to  Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) to transfer your phone numbers.
     
-- If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
+- If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order. 
 
 For detailed information about getting new phone numbers or transferring existing numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
 
-In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
 
 ### Get new service numbers using the Teams admin center
 
@@ -86,11 +86,11 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### Get new numbers that aren't available in the Teams admin center
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. To learn how to request new numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ### Port or transfer existing service numbers
 
-If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You need to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## Step 5: If you want to set up Calling Plans
 
@@ -117,7 +117,7 @@ For information about setting up a Cloud auto attendendant, see [Set up a Cloud 
 
 ## Step 9: Assign service phone numbers (audio conferencing, call queues, auto attendants)
 
-Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
+Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you'll need to assign the number to the conferencing bridge.
 
 - For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Teams admin center** > **Meetings** > **Conference bridges** and follow the prompts.  For more information, see  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
@@ -129,7 +129,7 @@ For detailed information about getting new service numbers and porting existing 
 
 ## Step 10: Set up Communications Credits for your organization
 
-You will need to set up Communications Credits if you would like to use toll-free numbers with Microsoft Teams. Microsoft recommends that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to any destination. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. 
+If you would like to use toll-free numbers with Microsoft Teams, You'll need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to any destination. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. 
 
 If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. For more information, including recommended funding amounts, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
   
