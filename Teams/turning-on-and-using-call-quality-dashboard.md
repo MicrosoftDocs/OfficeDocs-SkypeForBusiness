@@ -459,6 +459,10 @@ These admin roles can access CQD, but they can't view EUII (end-user identifiabl
 
 To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
 
+### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
+
+When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report.
+
 ## Related topics
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
