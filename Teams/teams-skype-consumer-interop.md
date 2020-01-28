@@ -10,13 +10,13 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Learn how Teams users and Skype (Consumer) users can communicate. 
+description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users. 
 
 ---
 
 # Teams and Skype interoperability
 
-This article gives you an overview of how Microsoft Teams users in your organization and Skype (Consumer) users can communicate and the admin controls that apply.
+This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate and the admin controls that apply.
 
 ## Chat
 
@@ -26,42 +26,42 @@ Conversations are text-only, with limited audio/video capabilities. This means t
 
 ### Scenarios
 
-Here's what the chat experience looks like between Teams users and Skype users.
+Here's what chat experience looks like between Teams users and Skype users.
 
-#### Teams user starts a chat with a Skype user
+#### A Teams user starts a chat with a Skype user
 
-A Teams user can search for a Skype user by starting a new conversation or from the search bar using the email address of the Skype account. Multiple Skype accounts can be returned in the search results. When the Teams user selects the Skype user, they can start chatting with them.
+A Teams user can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. Multiple Skype accounts can be returned in the search results. The Teams user then selects the Skype user to start a conversation with them.
 
-A Skype user may choose to not appear in search results. In this case, that user won't show up in the search results in Teams. 
+A Skype user may choose not to appear in search results. In this case, that user won't show up in the search results in Teams.
 
-#### Skype user starts a chat with a Teams user
+#### A Skype user starts a chat with a Teams user
 
-When a Skype user starts a chat with a Teams user using their email address, the Teams user is notified that they have a new message from a Skype user. The Teams user has to accept the message before they can view it.  When clicking on the chat or message notification, the user is presented with the following screen:
- 
-If the user clicks on accept, the conversation is marked as allowed and subsequent messages/calls will flow as expected. If the user clicks on block, the conversation is marked as blocked, subsequent messages and calls won’t flow to the Teams client. 
-If the user clicks on view messages, we will display the message(s) as it can help the Teams user to make a decision on whether she knows the Skype for consumer user, the email address might not be always top of mind. In order to engage in the conversation, the Teams user will have to accept/block the conversation.
+When a Skype user searches for and starts a chat with a Teams user by using their email address, the Teams user is notified that they have a new message from a Skype user. They have to accept the message before they can view it.
 
-When a Microsoft Teams users is chatting with an external (federated) user, the chat experience is limited to text. However, if both your Teams tenant and that of the external user is in the TeamsOnly upgrade mode, you can have a "native-Teams chat experience," which includes rich formatting, @mentions, and other chat features. In other words, you can have the same rich 1:1 Teams chat experience with eligible external users as you'd have with users in your organization. Native Teams chats with external users are still limited to 1:1 chats only (external users can't do group chats).
+Here's an example of a chat notification that Teams users get:
 
-The native chat experience for external users is turned on for all Teams tenants, but not all users are eligible. To be offered a native chat experience, both the sender and receiver need to be on a Teams tenant that's running the TeamsOnly upgrade mode. To learn more about upgrade policies, read [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).
+- If the user selects **Accept**, the conversation is marked as allowed and subsequent messages flow between Teams and Skype.
+- If the user selects **Block**, the conversation is marked as blocked, and subsequent messages won’t flow to Teams.
+- If the users selects **View messages**, the message is displayed. This helps the Teams user decide whether to accept or block the conversation.
 
-To see a list of capabilities for external access users in Teams, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+#### A Teams user blocks a Skype user
 
-## How do I know if I'm in a native chat?
+### Set whether Teams users can chat with Skype users
 
-If you can only exchange text in your chat with an external user, then you're in a standard external-access (federated) chat. If you've got all of the other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat with your external user. 
+As an admin, you can use the Microsoft Teams admin center or PowerShell to control whether Teams users in your organization can search for and chat with Skype users. 
 
-Teams periodically checks the upgrade mode for external users and, when it finds an external user running Teams in the TeamsOnly upgrade mode, it'll prompt you to switch to a native Teams chat and lock the original chat.
+#### In the Microsoft Teams admin center
 
-When you switch to a native Teams chat, Teams doesn't merge the two conversations. Instead, you'll see both of the chats in your chat feed. The new, native-Teams chat is active, but the old, text-only chat is locked.
+1. In the left navigation, go to **Org-wide settings** > **External access**.
+2. Turn on or turn off 
+3. Click **Save**. 
 
-## What happens if a user isn't in Teams Only mode anymore?
 
-If you were having a native Teams chat with an external user and then one of you gets switched out of the TeamsOnly upgrade mode, Teams locks the native Teams chat and gives you a link for a limited, text-only chat. You won't be able to continue in the native Teams chat. You can still read the native Teams chat, but you can't continue the conversation there.
+#### Using PowerShell
 
-If Teams finds an old text-only chat with this external user, it'll revive that chat. Otherwise, Teams creates a new text-only chat.
-
+To learn more, see [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
 ## Related topics
 
-[Manage external access in Teams](manage-external-access.md)
+- [Manage external access in Teams](manage-external-access.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
