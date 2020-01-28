@@ -33,9 +33,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 2: Buy and assign Phone System and Calling Plan licenses
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). If you want to assign multiple users in bulk, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
 
-If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page).
+If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
 ## Step 3: Get phone numbers for your users
 
@@ -46,7 +46,7 @@ You have three ways of getting numbers for your users:
 - Get new numbers that aren't available in the Teams admin center.
 - Port or transfer your existing numbers from your current service provider or phone carrier to Office 365.
 
-You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
+You must use the **Add numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
 
 ### Get new user phone numbers using the Teams admin center
 
@@ -99,8 +99,8 @@ If you have been following the steps above, you have already bought and assigned
 
 ## Step 6: If you want to set up Audio Conferencing
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the audio conferencing feature for just this situation. People can call in to  Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
-For information about how to set up audio conferencing, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md).
+Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation. People can call in to  Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
+For information about how to set up Audio Conferencing, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md).
 
 ## Step 7: If you want to set up a Cloud call queue
 
@@ -112,14 +112,14 @@ For more information about call queues, see [Create a Cloud call queue](create-a
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-For information about setting up a cloud auto attending, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
+For information about setting up a Cloud auto attendendant, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
 
 
 ## Step 9: Assign service phone numbers (audio conferencing, call queues, auto attendants)
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to ***Teams admin center** > **Meetings** > **Conference bridges** and follow the prompts.  For more information, see  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Teams admin center** > **Meetings** > **Conference bridges** and follow the prompts.  For more information, see  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 - For Auto Attendants, you can assign a dedicated number to an auto attendant by going to  **Teams admin center** > **Voice** > **Auto attendants** and follow the prompts.  For more information, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
 
@@ -136,6 +136,8 @@ If you don't set up Communications Credits billing and assign a **Communications
 
 ## Related topics
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
+
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
 
