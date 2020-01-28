@@ -46,4 +46,4 @@ Users automatically get actionable missed activity emails which help them to cat
 
 ![Screenshot showing how to reply to a missed activity email](media/missed-activity-email-reply.png)
 
-You can use the [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet together with the **SmtpActionableMessagesEnabled** parameter to turn off the **Reply** action button and all other action buttons in activity emails. By default, the **SmtpActionableMessagesEnabled** parameter is set to **true** Setting the parameter to **false**  turns off all action buttons for activity emails across Office 365.
+You can use the [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet together with the ```SmtpActionableMessagesEnabled``` parameter to turn off the **Reply** action button and all other action buttons in activity emails. By default, the ```SmtpActionableMessagesEnabled``` parameter is set to ```true```. Setting the parameter to ```false```  turns off all action buttons for activity emails across Office 365.
