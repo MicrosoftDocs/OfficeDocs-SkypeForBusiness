@@ -24,7 +24,7 @@ Microsoft Teams includes features that make it easy for users in your organizati
 
 **Share to Teams** is an Outlook add-in that lets users share an email from Outlook (including attachments) along with a message to a chat or channel in Teams. A preview of the email is displayed in Teams and people in the chat or channel can open the email and attachments. To learn more, see \<link to end user article>.
 
-The Share to Teams add-in is available for Outlook for Windows and Outlook on the web. It's automatically installed for active Teams users. For more information about running Office add-ins, see [Requirements for running Office add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/requirements-for-running-office-add-ins).
+The Share to Teams add-in is available for Outlook for Windows, Outlook for Mac, and Outlook on the web. It's automatically installed for active Teams users. For more information about running Office add-ins, see [Requirements for running Office add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/requirements-for-running-office-add-ins).
 
 ![Screenshot showing the Share to Teams add-in in Outlook](media/share-to-teams.png)
 
@@ -40,8 +40,10 @@ To use this feature, Outlook on the web must be turned on for the user. If Outlo
 
 ## Actionable activity emails
 
-Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can respond directly from within Outlook.
+Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can click **Reply** to respond directly from within Outlook.
 
 ![Screenshot showing a missed activity email](media/missed-activity-email.png)
 
 ![Screenshot showing how to reply to a missed activity email](media/missed-activity-email-reply.png)
+
+You can use the [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet together with the **SmtpActionableMessagesEnabled** parameter to turn off the **Reply** action button and all other action buttons in activity emails. By default, the **SmtpActionableMessagesEnabled** parameter is set to **true** Setting the parameter to **false**  turns off all action buttons for activity emails across Office 365.
