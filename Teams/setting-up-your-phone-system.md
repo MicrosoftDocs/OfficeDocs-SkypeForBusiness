@@ -35,6 +35,8 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). If you want to assign multiple users in bulk, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
 
+If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page).
+
 ## Step 3: Get phone numbers for your users
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
@@ -50,7 +52,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 1. Sign in to Microsoft 365 with your work or school account.
 
-2. Go to the **Microsoft 365 admin center** > **Teams admin center**.
+2. Go to the **Teams admin center**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add**, and then follow the prompts.
     
@@ -75,12 +77,12 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Microsoft 365 admin center** > **Teams admin center**.
+2. Go to the **Teams admin center**.
 
-3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
+3. In the left navigation pane go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
 
     > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > For you to see the **Voice** option in the left navigation pane in the Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 
 ### Get new numbers that aren't available in the Teams admin center
   
@@ -95,10 +97,9 @@ If you want to transfer service numbers from your current service provider or ca
 If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. To complete the procedures for setting up Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).
 
 
-
 ## Step 6: If you want to set up Audio Conferencing
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation. People can call in to Skype for Business or Teams meetings using a phone, instead of using the Skype for Business or Teams app on a mobile device or PC.
+Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the audio conferencing feature for just this situation. People can call in to  Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
 For information about how to set up audio conferencing, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md).
 
 ## Step 7: If you want to set up a Cloud call queue
@@ -118,10 +119,11 @@ For information about setting up a cloud auto attending, see [Set up a Cloud aut
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Audio conferencing** and click on the conference bridge or by seeing  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to ***Teams admin center** > **Meetings** > **Conference bridges** and follow the prompts.  For more information, see  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Call routing** > **Auto attendants** and clicking on the auto attendant. On the **General** page, the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Cloud call queue](create-a-phone-system-call-queue.md).
+- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to  **Teams admin center** > **Voice** > **Auto attendants** and follow the prompts.  For more information, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
+
+- For Call Queues, you can assign a dedicated number to a call queue by going to **Teams admin center** > **Voice** > **Call queues** and follow the prompts. For more information, see [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
 For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).
 
