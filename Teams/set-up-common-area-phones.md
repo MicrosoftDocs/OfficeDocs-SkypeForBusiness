@@ -88,11 +88,9 @@ For more information, see [Add a user](https://docs.microsoft.com/office365/admi
 
 ## Step 3 - Assign a phone number to the Common Area Phone user account
 
-Use the Skype for Business admin center to assign a number to the user.
+Use the Teams admin center to assign a number to the user.
 
-1. In the Microsoft 365 admin center, select **Admin centers** > **Teams & Skype** > **Legacy portal**.
-
-2. In the Skype for Business admin center, select **Voice** > **Phone numbers**.
+1. In the Teams admin center, select **Voice** > **Phone numbers**.
 
 3.	Select a number from the list of phone numbers and click **Assign**.
 
@@ -107,7 +105,7 @@ Use the Skype for Business admin center to assign a number to the user.
 > [!NOTE]
 > Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
 
-For more information, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
+For more information, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
 You can also take your phone number that you have with another carrier and "port" or transfer it over to Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
