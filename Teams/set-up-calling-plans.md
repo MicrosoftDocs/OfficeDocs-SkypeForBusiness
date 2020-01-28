@@ -82,11 +82,8 @@ If you know Windows PowerShell, you can use the following cmdlets to automate as
     
 - [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?redirectedfrom=MSDN&view=skype-ps): Sets the telephone numbers.
     
-To learn more, see [Teams PowerShell Overview)](teams-powershell-overview.md).
+To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
   
-   > [!NOTE]
-   > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-
 
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
