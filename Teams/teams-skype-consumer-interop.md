@@ -33,13 +33,13 @@ Here's what chat and calling experience looks like between Teams users and Skype
 
 #### Teams user starts a chat with a Skype user
 
-A Teams user can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. Multiple Skype accounts can be returned in the search results. The Teams user can then select the Skype user to start a chat or call them.
+Teams users can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. Multiple Skype accounts can be returned in the search results. The Teams user can then select the Skype user to start a chat or call.
 
 A Skype user may choose not to appear in search results. In this case, they won't show up in the search results in Teams.
 
 #### Skype user starts a chat with a Teams user
 
-When a Skype user searches for and starts a chat with a Teams user by using their email address, the Teams user is notified that they have a new message from a Skype user. They have to first accept the message before they can view it.
+When a Skype user searches for and start a chat with a Teams user by using their email address, the Teams user is notified that they have a new message from a Skype user. They have to first accept the message before they can view it.
 
 Here's an example of the notification that Teams users get:
 
@@ -49,7 +49,9 @@ Here's an example of the notification that Teams users get:
 
 #### Teams user blocks a Skype user
 
-### Set whether Teams users can chat with Skype users
+Teams users can block contacts and PSTN numbers.
+
+### Set whether Teams users can communicate with Skype users
 
 As an admin, you can use the Microsoft Teams admin center or PowerShell to control whether Teams users in your organization can communicate with Skype users.
 
@@ -57,8 +59,7 @@ As an admin, you can use the Microsoft Teams admin center or PowerShell to contr
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
 2. Turn on or turn off 
-3. Click **Save**. 
-
+3. Click **Save**.
 
 #### Using PowerShell
 
