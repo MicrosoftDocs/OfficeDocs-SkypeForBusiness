@@ -16,7 +16,7 @@ description: Learn about the interoperability capabilities between Teams users i
 
 # Teams and Skype interoperability
 
-This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chat and calling and the admin controls that apply.
+This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chat and calls and the admin controls that apply.
 
 Teams users can chat with and call Skype users and vice versa. Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user. Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
 
@@ -28,15 +28,17 @@ Here's what chat and calling experience looks like.
 
 ### Teams user starts a chat or call with a Skype user
 
-Teams users can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. (Searching by a Skype Id or phone number won't work). Multiple Skype accounts can be returned in the search results. The Teams user can then select the Skype user to start a chat or call.
+Teams users can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. (Searching by using Skype Id or phone number won't work). Multiple Skype accounts can be returned in the search results. The Teams user can then select the Skype user to start a chat or call.
 
 A Skype user may choose not to appear in search results. In this case, they won't show up in the search results in Teams.
 
-### Skype user starts a chat with a Teams user
+### Skype user starts a chat or call with a Teams user
 
 Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user. They have to first accept the message before they can view it.
 
 Here's an example of the notification that Teams users get:
+
+PLACEHOLDER FOR IMAGE
 
 - If the Teams user selects **Accept**, the conversation is marked as allowed and both users can chat and call each other.
 - If the Teams user selects **Block**, the conversation is marked as blocked, and subsequent messages and calls from that Skype user are blocked.
@@ -53,12 +55,12 @@ As an admin, you can use the Microsoft Teams admin center or PowerShell to contr
 ### In the Microsoft Teams admin center
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
-2. Turn on or turn off 
+2. Turn on or turn off PLACEHOLDER.
 3. Click **Save**.
 
 ### Using PowerShell
 
-Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps) together with the parameter. By default, the parameter is set to false. Setting the parameter to true enables Teams and Skyper users to communicate with each other. 
+Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps) together with the PLACHOLDER parameter to control whether Teams users can communicate with Skype users. By default, the parameter is set to false. Setting the parameter to true lets Teams and Skype users communicate with each other.
 
 ## Related topics
 
