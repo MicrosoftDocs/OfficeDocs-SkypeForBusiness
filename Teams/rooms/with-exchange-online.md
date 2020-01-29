@@ -36,13 +36,13 @@ To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be
 
 1. Start a remote Windows PowerShell session on a PC and connect to Exchange Online as follows:
 
-``` Powershell
-Set-ExecutionPolicy Unrestricted
-$org='contoso.microsoft.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-Import-PSSession $Session -DisableNameChecking
-```
+    ``` Powershell
+    Set-ExecutionPolicy Unrestricted
+    $org='contoso.microsoft.com'
+    $cred=Get-Credential $admin@$org
+    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
 
 2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Microsoft Teams Rooms.
 
@@ -86,27 +86,27 @@ Import-PSSession $Session -DisableNameChecking
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
+    ``` PowerShell
+   Connect-MsolService -Credential $cred
+    ```
+  <!--   ``` Powershell
+     Connect-AzureAD -Credential $cred
+     ``` -->
 
 2. The user account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account. You'll make the assignment in a following step.
 3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Office 365 tenant.
 4. Once you list out the SKUs, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK). 
 
-  ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-  ```
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ``` -->
+    ```PowerShell
+      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+    ```
+  <!--   ``` Powershell
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-AzureADSubscribedSku
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     ``` -->
 
 ### Enable the user account with Skype for Business Server
 
