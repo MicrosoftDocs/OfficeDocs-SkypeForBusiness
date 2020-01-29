@@ -70,7 +70,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 |**Skype for Business in-band provisioning**| |&#x2714; |
 |**Monitoring with OMS**| |&#x2714; |
 |**In-band update**| &#x2714;| &#x2714;|
-|**Management platform**|3rd party |Windows PC based (Group Policies, SCCM, and others) |
+|**Management platform**|3rd party |Windows PC based (Group Policies, Configuration Manager, and others) |
 | | | |
 
 #### Interop with Skype for Business
