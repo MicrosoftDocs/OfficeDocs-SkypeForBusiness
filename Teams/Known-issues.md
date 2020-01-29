@@ -311,7 +311,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan from a team created from a existing office 365 group.  <br/> |Give the menber permissions to the group owner. <br/> |1/14/20  <br/>|
+|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan from a team created from a existing office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
 
 
 
