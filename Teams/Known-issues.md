@@ -308,6 +308,14 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Teams Planner integration with Planner online <br/> |Tasks buckets in Planner do not show up in Planner online experience.  <br/> |No workaround. <br/> |2/28/17  <br/>|
 
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan from a team created from a existing office 365 group.  <br/> |Give the menber permissions to the group owner. <br/> |1/14/20  <br/>|
+
+
+
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Legacy OneNote Tab  <br/> |Legacy OneNote tabs created during the public preview of Microsoft Teams cannot be renamed or deleted.  <br/> |No workaround. <br/> |11/8/2017  <br/> |
