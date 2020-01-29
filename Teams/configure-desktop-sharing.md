@@ -55,7 +55,7 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 ## Use PowerShell to configure shared desktop
 
-You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing. Set the following parameters:
+You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing. Set the following parameters:
 
 - Description
 - ScreenSharingMode
@@ -65,5 +65,5 @@ You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 
