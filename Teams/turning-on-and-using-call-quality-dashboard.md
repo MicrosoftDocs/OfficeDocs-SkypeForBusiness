@@ -183,7 +183,7 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |Report set customization (add, delete, modify reports)   | No   | Yes   |
 |Video-based screen sharing metrics   | No   | Yes   |
 |Video metrics   | No   | Yes   |
-|Amount of data available   | Last 6 months   | Last 6 months   |
+|Amount of data available   | Last 12 months   | Last 12 months   |
 |Microsoft Teams data   | Yes   | Yes   |
 | | | |
 
