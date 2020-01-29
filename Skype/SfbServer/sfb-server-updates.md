@@ -164,6 +164,7 @@ Package Name/Link|Release Date|
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2010 Cumulative Update 18 Hotfix 1 |[KB 2493736](https://support.microsoft.com/kb/2493736) |June 2019|
 |Lync Server 2010 Cumulative Update 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |January 2019|
 |Lync Server 2010 Cumulative Update 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |April 2016 |
 |Lync Server 2010 Cumulative Update 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |May 2015 |
