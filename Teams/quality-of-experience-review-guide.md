@@ -3,7 +3,6 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -53,25 +52,28 @@ This guide is intended to be used by partner and customer stakeholders with role
 
 This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## Prerequisites
+## Assign roles for accessing CQD
 
 Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
 
--   **Office 365 Global Administrator** 
+This table shows you what each role can do in CQD:
 
--   **Skype for Business Administrator** 
 
--   **Teams Service Administrator** 
+|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
+|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
+|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
+|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
 
--   **Teams Communications Administrator** 
+<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
--   **Teams Communications Support Engineer** 
-
--   **Teams Communications Support Specialist** 
-
-Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
-
--   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) In the admin center, any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
+> [!NOTE]
+> If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
 
 ## What is quality?
 
@@ -280,6 +282,8 @@ There are two report editions in CQD Online: Summary and Detailed. Use the drop-
 -   Detailed reports are fully customizable and can be downloaded to a CSV file, exported, or cloned.
 
 For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 _Figure 4 - CQD report categories_
 
