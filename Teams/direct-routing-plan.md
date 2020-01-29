@@ -118,7 +118,7 @@ For more information about Phone System licensing, see [Microsoft Teams add-on l
 You can use as an end point:
 
 - Any Teams client. 
-- Common Area Phones, please see [Set up the Common Area Phone license for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones). Note you do not need Calling Plan license when setting the Common Area Phone with Direct Routing.
+- Common Area Phones, please see [Set up the Common Area Phone license for Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones). Note you do not need Calling Plan license when setting the Common Area Phone with Direct Routing.
 - Skype for Business 3PIP phones. Please read [Skype for Business phones (3PIP) support with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
