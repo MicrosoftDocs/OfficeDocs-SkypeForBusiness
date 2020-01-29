@@ -18,28 +18,23 @@ description: Learn about the interoperability capabilities between Teams users i
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chat and calling and the admin controls that apply.
 
-Teams users can chat with and call Skype users and vice versa.
-
-- Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user.
-- Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user.
-
-This is available in the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
+Teams users can chat with and call Skype users and vice versa. Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user. Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
 
 Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other chat features that are available in a native Teams chat experience. Although Teams users and Skype users can search for, chat, and call each other, at this time, they can't see each other's presence.
 
 ## Chat and calling experience
 
-Here's what chat and calling experience looks like between Teams users and Skype users.
+Here's what chat and calling experience looks like.
 
-### Teams user starts a chat with a Skype user
+### Teams user starts a chat or call with a Skype user
 
-Teams users can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. Multiple Skype accounts can be returned in the search results. The Teams user can then select the Skype user to start a chat or call.
+Teams users can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. (Searching by a Skype Id or phone number won't work). Multiple Skype accounts can be returned in the search results. The Teams user can then select the Skype user to start a chat or call.
 
 A Skype user may choose not to appear in search results. In this case, they won't show up in the search results in Teams.
 
 ### Skype user starts a chat with a Teams user
 
-When a Skype user searches for and start a chat with a Teams user by using their email address, the Teams user is notified that they have a new message from a Skype user. They have to first accept the message before they can view it.
+Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user. They have to first accept the message before they can view it.
 
 Here's an example of the notification that Teams users get:
 
