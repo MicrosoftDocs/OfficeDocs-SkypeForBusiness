@@ -91,7 +91,6 @@ When you select an existing policy on the **Meeting policies** page or select **
 ## Meeting policy settings - General
 
 - [Allow Meet now in channels](#allow-meet-now-in-channels)
-- [Allow private Meet now](#allow-private-meet-now)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -101,10 +100,6 @@ When you select an existing policy on the **Meeting policies** page or select **
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad hoc meeting in the channel.
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
-### Allow private Meet now
-
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  
-
 
 ### Allow the Outlook add-in
 
@@ -289,7 +284,7 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 ### Allow shared notes
 
-This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have less than 20 participants. 
+This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have less than 20 participants.
 
 Let's look at the following example.
 
@@ -304,15 +299,43 @@ Daniela can take notes in Amanda's meetings and Amanda can't take notes in any m
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
+- [Let anonymous people to start a meeting](#let-anonymous-people-to-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
-- [Allow anonymous people to start a meeting](#allow-anonymous-people-to-start-a-meeting)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
-- [Allow private Meet now ](#allow-private-meet-now)
+- [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
 - [Enable live captions ](#enable-live-captions)
 - [Allow chat in meetings ](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+
+### Let anonymous people start a meeting
+
+This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
+
+![Screenshot showing a message to a waiting user](media/meeting-policies-anonymous-user-lobby.png)
+
+Here's the join behavior of anonymous people when authenticated users are present in the meeting.
+
+|Let anonymous people start a meeting  |Automatically admit people |Join behavior of anonymous people |
+|---------|---------|---------|
+|True    | Everyone      | Join directly         |
+|   | Everyone in your organization       | Wait in lobby        |
+|   | Everyone in your organization and federated organizations       | Wait in lobby         |
+|False    | Everyone        | Join directly        |
+|   | Everyone in your organization     | Wait in lobby        |
+|   | Everyone in your organization and federated organizations      | Wait in lobby         |
+
+Here's the join behavior of anonymous people when no authenticated users are present in the meeting.
+
+|Let anonymous people start a meeting |Automatically admit people  |Join behavior of anonymous people |
+|---------|---------|---------|
+|True    | Everyone      | Join directly         |
+|   | Everyone in your organization       | Wait in lobby        |
+|   | Everyone in your organization and federated organizations       | Wait in lobby         |
+|False    | Everyone        | Wait in lobby. Users are automatically admitted when the first authenticated user joins the meeting.        |
+|   | Everyone in your organization     |Wait in lobby         |
+|   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
 ### Automatically admit people
 
@@ -327,34 +350,6 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, federated users, guests, anonymous users, and people who dial in by phone.       |
 |**Everyone in your organization and federated organizations**     |Authenticated users within the organization, including guest users and the users from federated organizations, join the meeting directly without waiting in the lobby.  Anonymous users and users who dial in by phone wait in the lobby.   |
 |**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Federated users, anonymous users, and users who dial in by phone wait in the lobby.           |
-
-### Allow anonymous people to start a meeting
-
-This is a per-organizer policy. This setting controls whether anonymous people, including B2B, and federated users, can join the user's meeting without an authenticated user from the organization in attendance. 
-
-![Screenshot showing a message to a waiting user](media/meeting-policies-anonymous-user-lobby.png)
-
-Here's the join behavior of anonymous people when authenticated users are present in the meeting.
-
-|Allow anonymous people to start a meeting  |Automatically admit people |Join behavior of anonymous people |
-|---------|---------|---------|
-|True    | Everyone      | Join directly         |
-|   | Everyone in your organization       | Wait in lobby        |
-|   | Everyone in your organization and federated organizations       | Wait in lobby         |
-|False    | Everyone        | Join directly        |
-|   | Everyone in your organization     | Wait in lobby        |
-|   | Everyone in your organization and federated organizations      | Wait in lobby         |
-
-Here's the join behavior of anonymous people when no authenticated users are present in the meeting.
-
-|Allow anonymous people to start a meeting |Automatically admit people  |Join behavior of anonymous people |
-|---------|---------|---------|
-|True    | Everyone      | Join directly         |
-|   | Everyone in your organization       | Wait in lobby        |
-|   | Everyone in your organization and federated organizations       | Wait in lobby         |
-|False    | Everyone        | Wait in lobby. Users are automatically admitted when the first authenticated user joins the meeting.        |
-|   | Everyone in your organization     |Wait in lobby         |
-|   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
 ### Allow dial-in users to bypass the lobby
 
@@ -371,7 +366,7 @@ Here's the join behavior of people who dial in by phone.
 |   | Everyone in your organization     |Wait in lobby         |
 |   | Everyone in your organization and federated organizations      | Wait in lobby         |
 
-### Allow private Meet now
+### Allow Meet now in private meetings
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting. 
 
