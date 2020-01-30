@@ -283,7 +283,7 @@ There are two report editions in CQD Online: Summary and Detailed. Use the drop-
 
 For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 _Figure 4 - CQD report categories_
 
