@@ -46,8 +46,6 @@ The organization’s external DNS for the on-premises organization needs to be u
     |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync.<span>com|
     |CNAME|	lyncdiscover|	3600|	webdir.online.lync.<span>com|
     |CNAME|	sip|	3600|	sipdir.online.lync.<span>com|
-    |CNAME|	meet|	3600|	webdir.online.lync.<span>com|
-    |CNAME|	dialin	|3600|	webdir.online.lync.<span>com|
 
 2.	*Disable shared SIP address space in Office 365 tenant.*
 The command below needs to be done from a Skype for Business Online PowerShell window.
