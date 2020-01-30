@@ -20,24 +20,24 @@ description: "Microsoft partners with selected SBC vendors to certify their SBCs
 
 Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs work with Direct Routing. 
 
-With each vendor, Microsoft: 
+Microsoft works with each vendor to: 
 
-- Jointly works with the SBC vendors on the SIP interconnection protocols.
-- Performs intense tests via a third-party lab; only devices that passed the tests are certified. 
-- Runs daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs. 
-- Has a joint support process with the SBC vendors.
+- Jointly work on the SIP interconnection protocols.
+- Perform intense tests using a third-party lab. Only devices that pass the tests are certified. 
+- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs. 
+- Establish a joint support process with the SBC vendors.
 
 
   > [!NOTE]
-  > Microsoft only supports Phone System if a certified device or devices are connected via Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System via Direct Routing. 
+  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. 
 
 The table below lists devices certified for Direct Routing. 
 
 [Learn more about Direct Routing](https://aka.ms/dr). 
-If you have any questions about SBC certification program for Direct Routing please email to drsbccertification@microsoft.com
+If you have any questions about SBC certification program for Direct Routing please contact drsbccertification@microsoft.com.
 
 
-|                                                       Vendor                                                        |       Product       | Non-Media Bypass | Media Bypass | Software Version | Vaidated with E911 providers | ELIN capable
+|                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | Validated with E911 providers | ELIN capable
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250   |    |    |
@@ -63,5 +63,5 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
-To give us product feedback about Teams, such as ideas for new features, please visit [Uservoice](https://microsoftteams.uservoice.com)
+To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com)
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.
