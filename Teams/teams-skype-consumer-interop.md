@@ -44,9 +44,11 @@ PLACEHOLDER FOR IMAGE
 - If the Teams user selects **Block**, the conversation is blocked, and subsequent messages and calls from that Skype user are blocked.
 - If the Teams user selects **View messages**, the message is displayed in Teams, which helps the user decide whether to accept or block the conversation.
 
-### Teams user blocks or unblocks a Skype contact
+### Teams user blocks or unblocks a Skype contact 
 
-After a Teams user accepts the initial conversation request from a Skype user, they can choose to block and unblock them at any time. Skype users won't know that they're blocked or unblocked.
+After a Teams user accepts the initial conversation request from a Skype user, they can choose to block and unblock the Skype user at any time. Skype users won't know that they're blocked or unblocked.
+
+Skype users, along with other people and PSTN phone numbers that a Teams user blocked, are listed on the user's blocked contact list in Teams.
 
 ## Set whether Teams users can communicate with Skype users
 
