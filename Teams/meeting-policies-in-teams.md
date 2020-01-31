@@ -43,18 +43,18 @@ To change or create a meeting policy, go to the Microsoft Teams admin center > *
 For example, say you have a bunch of users and you want to limit the amount of bandwidth that their meeting would require. You would create a new custom policy named "Limited bandwidth" and disable the following settings:
 
 Under **Audio & video**:
-- Turn off cloud recording
-- Turn off Allow IP video
+- Turn off Allow cloud recording.
+- Turn off Allow IP video.
 
 Under **Content sharing**:
-- Disable screen sharing mode
-- Turn off whiteboard
-- Turn off shared notes
+- Disable screen sharing mode.
+- Turn off Allow whiteboard.
+- Turn off Allow shared notes.
 
 Then assign the policy to the users.
 
-> [!NOTE] 
-> A user can be assigned only one meeting policy at a time. 
+> [!NOTE]
+> A user can be assigned only one meeting policy at a time.
 
 ## Assign a meeting policy to users
 
@@ -97,7 +97,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** beneath the compose box to start an ad hoc meeting in the channel.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** under the compose box to start an ad hoc meeting in the channel.
 
 ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
@@ -111,7 +111,7 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ### Allow channel meeting scheduling
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add a channel** option is disabled for users in Teams.
+This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel.  If you turn this off, the **Schedule a meeting** option won't be available to the user when they start a meeting in a Teams channel and the **Add channel** option is disabled for users in Teams.
 
 ![Screenshot showing the Schedule a meeting option in Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -247,10 +247,10 @@ To use PowerShell to control who can give control or accept requests for control
 
 This is a per-user policy. This setting controls whether external participants in a meeting can give control of their shared desktop or window to other participants in the meeting. External participants in Teams meetings can be categorized as follows:  
 
-   - Anonymous user
-   - Guest users  
-   - B2B user
-   - Federated user  
+- Anonymous user
+- Guest users  
+- B2B user
+- Federated user  
 
 Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
 
@@ -299,7 +299,7 @@ Daniela can take notes in Amanda's meetings and Amanda can't take notes in any m
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
-- [Let anonymous people to start a meeting](#let-anonymous-people-to-start-a-meeting)
+- [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
 - [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
@@ -357,7 +357,7 @@ This is a per-organizer policy. This setting controls whether people who dial in
 
 Here's the join behavior of people who dial in by phone.
 
-|Allow dial-in users to bypass the lobby  |Automatically admit users  |Join behavior of people who dial in |
+|Allow dial-in users to bypass the lobby  |Automatically admit people  |Join behavior of people who dial in |
 |---------|---------|---------|
 |True    | Everyone      | Join directly         |
 |   | Everyone in your organization       | Join directly        |
@@ -378,17 +378,17 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Disabled and the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Disabled but the organizer can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
 |**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
-
 
 <a name="bkcontentsharing"> </a>
 
 ### Allow chat in meetings
 
-This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. 
+This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting.
 
 <a name="bkparticipantsandguests"> </a>
 
 ## Related topics
+
 [Messaging policies in Teams](messaging-policies-in-teams.md)
