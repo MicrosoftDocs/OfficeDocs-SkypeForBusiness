@@ -259,10 +259,16 @@ The default summary and detailed CQD reports may be all you need to manage call 
 |Report set customization (add, delete, modify reports)   | No   | Yes   |
 |Video-based screen sharing metrics   | No   | Yes   |
 |Video metrics   | No   | Yes   |
-|Amount of data available   | Last 6 months   | Last 6 months   |
+|Amount of data available   | Last 12 months   | Last 12 months   |
 |Microsoft Teams data   | Yes   | Yes   |
 | | | |
-  
+
+### Out-of-the-box reports
+
+All editions of CQD provide an experience that gives you call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+ 
 ### Select product data to see in reports
 <a name="BKMKProductFilter"></a>
 
@@ -479,9 +485,28 @@ If you're trying to compare data between the older CQD from the Skype for Busine
 
 To learn more about the differences between the older and latest CQD, read the [Introducing the Advanced Call Quality Dashboard](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586) blog, from November 5, 2019.
 
-**<font color="red">SIUNIE, I took the next few paragraphs directly from your CQD-V3-Onboarding-Sept2019.docx. If we decide to include it here, I'll edit it a bit.</font>**
 
 If you see data differences between CQD V2 and V3 make sure that data comparison/validation is done on an 'apples-to-apples' level, not at the aggregated level. For example, when comparing the MSIT ‘Building 30' WiFi Teams Desktop client, the Percentage of Poor Quality should be the same between V2 and V3.
+- Pick a scenario with a tight focus, such as corporate wired connections, Windows Desktops, or a single region or building.
+- Check the Teams MR, TR, or MP IP ranges. The Teams ranges are newer than Skype for Business Online, and that can cause connectivity issues involving firewalls
+- Don't compare summary or top-level numbers. These comparisons will lead you to compare a large call volume of Skype for Business Online calls on a corporate wired connection to a small volume of Teams calls on an LTE or private network.
+- Beware of location bias and population differences: There are many comparisons that are too dissimilar to be useful:
+  - NOAM : APAC
+  - NY : Goa
+  - Wired : wifi
+  - Corporate network : home network
+  
+### Why can't I see EUII in CQD?
+
+These admin roles can access CQD, but they can't view EUII (end-user identifiable information):
+- Office 365 Reports Reader
+- Teams Communications Support Specialist
+
+To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+
+### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
+
+When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report.
 
 CQDv2 and CQDv3 will always have different total counts since CQDv3 will have new scenarios that CQDv2 will not have. That’s why comparing Summary Total or Aggregated all-up numbers with no filters will have these expected differences.  
 

@@ -54,6 +54,40 @@ Read [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-das
 - [Upload tenant data](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) (including custom building, network and location information). Don't miss the [sample template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 - Set up and learn how to use reports
 
+Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
+
+This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+
+To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
+
+### Intended audience
+
+This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
+
+This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
+
+## Assign roles for accessing CQD
+
+Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
+
+This table shows you what each role can do in CQD:
+
+
+|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
+|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
+|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
+|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+
+<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> If you're not seeing EUII (end-user identifiable information) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 30 days. Anything older than 30 days is deleted.
 
 ## What is quality?
 
@@ -248,6 +282,16 @@ Use the drop-down menu at the top of the screen to open a report.
 
 For a list of the data provided in each report, see [Data available in CQD reports](turning-on-and-using-call-quality-dashboard.md#data-available-in-cqd-reports).
 
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+
+_Figure 4 - CQD report categories_
+
+The summary reports are divided into four categories:
+
+-   **Summary Reports** focus on analyzing quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. This is the default landing page when you first sign in to CQD Online.
+-   **Location-Enhanced Reports** focus on analyzing quality trends based on location information. To use these reports, you must have uploaded a building file.
+-   **Reliability Reports** focus on analyzing reliability trends for audio, video, video-based screen sharing (VBSS), and app sharing.
+-   **Quality of Experience Reports** are a “slimmed-down” version of the detailed QER templates, focusing on key areas for analyzing audio quality and reliability.
 
 ### Report types
 
