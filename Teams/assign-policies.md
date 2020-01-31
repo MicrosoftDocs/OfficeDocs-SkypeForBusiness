@@ -26,6 +26,8 @@ Organizations have different types of users with unique needs and custom policie
 
 To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. You can assign a policy directly to users, either individually or at scale through a batch assignment, or to a group that the user is a member of. You can also use policy packages to assign a preset collection of policies to users in your organization who have similar roles. The option that you choose depends on the number of policies that you're managing and the number of users that you're assigning to.
 
+If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over any other policy of the same policy type that's assigned to a group. If the user isn't directly assigned a policy, the policy that's assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest group assignment priority for the given policy type takes precedence. If a user isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type.
+
 This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what. 
 
 ## Overview
@@ -117,7 +119,7 @@ If you have the Generally Available version of the Teams PowerShell module insta
 Uninstall-Module MicrosoftTeams -AllVersions
 ```
 
-Run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
+Run the following to install the latest Microsoft Teams PowerShell module from the PowerShell Test Gallery.
 
 ```
 Install-Module MicrosoftTeams -Repository PSTestGallery
@@ -145,7 +147,7 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 ### Assign a policy to a batch of users
 
-In this example, we assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
+In this example, we use ```New-CsBatchPolicyAssignmentOperation``` to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
 
 ```
 $user_ids = Get-Content .\users_ids.txt
@@ -196,8 +198,8 @@ Before you get started, it's important to understand group policy inheritance ru
 
 A user has one effective policy for each policy type. For a given policy type, a user's effective policy is determined according to the following:
 
-- A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user is directly assigned a policy of a given type, that user won't inherit a policy of the same type from a group.
-- If a user is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest priority.
+- A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user is directly assigned a policy of a given type, that user won't inherit a policy of the same type from a group. This also means that if a user has a policy of a given type that was directly assigned to them, you have to remove that policy from the user before they can inherit a policy of the same type from a group.
+- If a user doesn't have a policy directly assigned to them and is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest priority. 
 
 A user's effective policy is updated according to these inheritance rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
 
@@ -233,7 +235,7 @@ If you have the Generally Available version of the Teams PowerShell module insta
 Uninstall-Module MicrosoftTeams -AllVersions
 ```
 
-Run the following to install the latest Microsoft Teams Powershell module from the PowerShell Test Gallery.
+Run the following to install the latest Microsoft Teams PowerShell module from the PowerShell Test Gallery.
 
 ```
 Install-Module MicrosoftTeams -Repository PSTestGallery
@@ -259,7 +261,7 @@ Connect-AzureAD
 
 ### Assign a policy to a group
 
-In this example, we assign a Teams meeting policy named AllOn to a group with an assignment priority of 1.
+In this example, we use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a Teams meeting policy named AllOn to a group with an assignment priority of 1.
 
 ```
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName AllOn -Priority 1 dc4beaf9-5ca7-4148-a942-1652d5d0f7a6
@@ -269,7 +271,7 @@ To learn more, see [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powe
 
 ### Get policy assignments for a group
 
-Use the ```Get-CsGroupPolicyAssignment``` to get all policies assigned to a group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
+Use the ```Get-CsGroupPolicyAssignment``` cmdlet to get all policies assigned to a group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
 
 In this example, we retrieve all policies assigned to a specific group.
 
@@ -329,6 +331,31 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 ```
 
 To learn more, see [Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment).
+
+### Change the effective policy for a user
+
+Here's an example of how to change the effective policy for a user who is directly assigned a policy.
+
+First, we use the ```Get-CsUserPolicyAssignment``` cmdlet together with the ```PolicySource``` parameter to get details of the Teams meeting broadcast policies associated with the user. To learn more, see [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment).
+
+```
+Get-CsUserPolicyAssignment -Identity 3b90faad-9056-49ff-8357-0b53b1d45d39 -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
+```
+
+The output shows that the user was directly assigned a Teams meeting broadcast policy named Employee Events, which takes precedence over the Vendor Live Events policy that's assigned to a group the user belongs to.
+
+```
+AssignmentType PolicyName         Reference
+-------------- ----------         ---------
+Direct         Employee Events
+Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
+```
+
+Now, we remove the Employee Events policy from the user. This means that the user no longer has the policy directly assigned to them and will inherit the Vendor Live Events policy that's assigned to the group the user belongs to.
+
+```
+Remove-CsTeamsMeetingBroadcastPolicy -Identity 3b90faad-9056-49ff-8357-0b53b1d45d3
+```
 
 ## Related topics
 
