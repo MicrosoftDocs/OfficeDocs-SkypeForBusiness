@@ -56,9 +56,9 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Remote desktop  <br/> Remote Powershell  <br/> |Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> SCCM  <br/> |
+|Restart  <br/> |Remote desktop  <br/> Remote Powershell  <br/> |Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|App update  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
+|App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Skype Account Config  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
 |Access logs  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
    
@@ -161,7 +161,7 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
   
 By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the Settings app.
   
-If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with SCCM. The deployment kit release lags behind the store release, so it might not always match the latest available build.
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
   
 ### To update using Powershell
 
