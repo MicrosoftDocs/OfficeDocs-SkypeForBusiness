@@ -68,7 +68,7 @@ The live event streaming platform is made up of the following pieces:
 ### Enterprise Content Delivery Network (eCDN)
 The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting network performance. You can use one of the following certified eCDN partners to optimize your network for live events held within your organization:
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](https://kollective.com/microsoft-pilot/)
+- [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](http://www.ramp.com)
 
 ### Attendee experience 
