@@ -50,7 +50,7 @@ These determine who can join the team:
 Team user types determine how much control a team member has:
 
 -   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
+-   _Team owner_ manages membership and settings for the team. There can be as many as 100 team owners per team.
 -   _Team member_ is a member of your organization who participates in a team.
 -   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
@@ -187,7 +187,7 @@ If a team starts to get into a rut, consider:
 
 ### Stage 3: End
 
-When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like post-mortems and executive summaries.
+When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
 You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion.
 
