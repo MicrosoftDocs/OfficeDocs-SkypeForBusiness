@@ -345,7 +345,7 @@ First, we use the ```Get-CsUserPolicyAssignment``` cmdlet together with the ```P
 Get-CsUserPolicyAssignment -Identity 3b90faad-9056-49ff-8357-0b53b1d45d39 -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
 ```
 
-The output shows that the user was directly assigned a Teams meeting broadcast policy named Employee Events, which takes precedence over the Vendor Live Events policy that's assigned to a group the user belongs to.
+The output shows that the user was directly assigned a Teams meeting broadcast policy named Employee Events, which takes precedence over the policy named Vendor Live Events that's assigned to a group the user belongs to.
 
 ```
 AssignmentType PolicyName         Reference
@@ -354,7 +354,7 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-Now, we remove the Employee Events policy from the user. This means that the user no longer has the policy directly assigned to them and will inherit the Vendor Live Events policy that's assigned to the group the user belongs to.
+Now, we remove the Employee Events policy from the user. This means that the user no longer has a Teams meeting broadcast policy directly assigned to them and will inherit the Vendor Live Events policy that's assigned to the group the user belongs to.
 
 ```
 Remove-CsTeamsMeetingBroadcastPolicy -Identity 3b90faad-9056-49ff-8357-0b53b1d45d3
