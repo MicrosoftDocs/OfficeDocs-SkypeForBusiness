@@ -258,8 +258,6 @@ The following Domain Controller operating systems can be used:
     
 The domain functional level of any domain you deploy Skype for Business Server 2019 into, and the forest functional level of any forest you deploy Skype for Business Server 2019 into, must be one of the following:
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
