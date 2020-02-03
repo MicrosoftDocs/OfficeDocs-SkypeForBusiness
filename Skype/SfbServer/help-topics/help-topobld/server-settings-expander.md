@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
