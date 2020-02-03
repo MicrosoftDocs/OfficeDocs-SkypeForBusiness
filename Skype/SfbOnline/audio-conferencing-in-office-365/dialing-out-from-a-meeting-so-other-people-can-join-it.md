@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "Learn what you need and how meeting organizers can call out to other people using Skype for Business."

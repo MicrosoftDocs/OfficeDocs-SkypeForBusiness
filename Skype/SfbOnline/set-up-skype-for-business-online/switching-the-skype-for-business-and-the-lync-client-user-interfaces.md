@@ -15,7 +15,8 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: "Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 "

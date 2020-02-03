@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
