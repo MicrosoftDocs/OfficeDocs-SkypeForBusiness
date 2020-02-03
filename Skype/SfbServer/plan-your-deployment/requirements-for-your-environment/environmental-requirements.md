@@ -245,6 +245,9 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
   
 > [!NOTE]
 > Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems. 
+
+> [!NOTE]
+> Skype for Business Server 2015 does not support CNG certificates.
   
 - Encryption key lengths of 1024, 2048, and 4096 are supported. Key lengths of 2048 and greater are recommended.
     
