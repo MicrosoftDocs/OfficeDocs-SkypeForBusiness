@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro

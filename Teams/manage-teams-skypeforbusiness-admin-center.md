@@ -12,7 +12,7 @@ description: Understand how to manage tenant-wide and user settings for Teams du
 localization_priority: Normal
 ms.custom: 
   - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+f1.keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection: 
   - M365-collaboration
 appliesto: 

@@ -16,7 +16,7 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - O365E_E5Voiceplandetails
   - O365M_E5Voiceplandetails
   - O365P_E5Voiceplandetails
