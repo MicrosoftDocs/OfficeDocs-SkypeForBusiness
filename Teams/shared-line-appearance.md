@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 ms.custom: 
   - Phone System
