@@ -15,7 +15,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Phone System
 description: "Learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms "

@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - ms.lync.lac.CpcGettingStarted
 ms.custom: 
   - Audio Conferencing
