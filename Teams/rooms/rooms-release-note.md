@@ -306,7 +306,7 @@ Introduced in this update:
 - Always-on appliance that automatically wakes up the displays when it detects people in the room
 - Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App
 - Windows AppLocker locks down the device to the Skype Meeting app
-- Monitored and managed as a Windows 10 Enterprise device via Intune and SCCM (MDM)
+- Monitored and managed as a Windows 10 Enterprise device via Intune and Configuration Manager (MDM)
 - Enterprise-grade reliability
 - Low training effort of end-users due to familiar Skype user interface
 - Runs on Surface Pro 4 tablet

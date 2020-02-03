@@ -229,7 +229,7 @@ To learn more about auto attendants, see [Set up a Cloud auto attendant](https:/
 **Auto Attendant Call Transfer to PSTN**
 Customers are encouraged to configure a temporarily workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number, or to an RGS instance. 
  
-An issue was identified during quality assurance with the Transfer out to PSTN number feature, which is not going to be fixed in-time for customers to start migrating off Exchange UMO service before its scheduled retirement date of Feb 28, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premise virtual user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. 
+An issue was identified during quality assurance with the Transfer out to PSTN number feature, which is not going to be fixed in-time for customers to start migrating off Exchange UMO service before its scheduled retirement date of Feb 28th, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premise virtual user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. 
  
 Expected Experience
 - Administrators do not need to license the virtual user, since this is a workaround solution 
