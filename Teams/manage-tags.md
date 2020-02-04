@@ -31,9 +31,8 @@ A tag can be added to a person on a specific team. After a tag is added, it can 
 
 Here's some examples of how tags can be used in Teams:
 
-- A store manager wants to notify a group of cashiers in a store to ask a question.
-- A charge nurse wants to message all on-call nurses in a ward.  
-- A Human Resources specialist wants to announce benefit changes to employees in a particular location.
+- A store manager wants to post an announcement to a channel and notify all cashiers.
+- A group product manager wants to message all product managers in a channel.
 - A hospital administrator wants to start a conversation with all radiologists in a hospital.
 
 ## Manage tags for your organization
