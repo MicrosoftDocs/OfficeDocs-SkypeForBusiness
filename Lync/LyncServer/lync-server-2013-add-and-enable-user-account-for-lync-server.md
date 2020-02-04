@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Add and enable user account for Lync Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add and enable user account for Lync Server
 ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)

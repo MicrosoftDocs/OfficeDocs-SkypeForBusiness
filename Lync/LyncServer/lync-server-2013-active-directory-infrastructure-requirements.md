@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Active Directory infrastructure requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory infrastructure requirements
 ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412955(v=OCS.15)

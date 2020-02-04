@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Media bypass and call admission control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass and call admission control
 ms:assetid: 120b2a2b-5f97-4735-a2ee-0f849feb8c1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398203(v=OCS.15)

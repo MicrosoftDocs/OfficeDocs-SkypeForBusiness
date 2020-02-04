@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Applying a Lync Server Archiving policy to a user'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Applying a Lync Server Archiving policy to a user
 ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205143(v=OCS.15)

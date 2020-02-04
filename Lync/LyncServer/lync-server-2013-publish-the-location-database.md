@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Publish the location database'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the location database
 ms:assetid: dd032b5b-df0e-4017-ac46-e17570c1ab1e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398974(v=OCS.15)

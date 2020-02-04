@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Return A/V Edge Server configuration information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Return A/V Edge Server configuration information
 ms:assetid: b041f5a4-2387-4075-846c-ec4f99640903
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721850(v=OCS.15)

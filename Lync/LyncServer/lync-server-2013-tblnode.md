@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblNode'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable call admission control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable call admission control
 ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398642(v=OCS.15)

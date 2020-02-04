@@ -3,6 +3,8 @@ title: 'Upgrade or update a Back End Server or Standard Edition server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Upgrade or update a Back End Server or Standard Edition server
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721942(v=OCS.15)

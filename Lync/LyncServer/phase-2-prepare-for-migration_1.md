@@ -3,6 +3,8 @@ title: 'Phase 2: Prepare for migration'
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
 ms:assetid: a0c11ad1-47b1-467e-8f49-f2fa53efcd20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205125(v=OCS.15)

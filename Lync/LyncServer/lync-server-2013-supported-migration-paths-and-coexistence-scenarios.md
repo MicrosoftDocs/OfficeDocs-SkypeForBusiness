@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported migration paths and coexistence scenarios'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported migration paths and coexistence scenarios
 ms:assetid: 55449540-2f94-4a7c-9533-2b54e93fca58
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398367(v=OCS.15)

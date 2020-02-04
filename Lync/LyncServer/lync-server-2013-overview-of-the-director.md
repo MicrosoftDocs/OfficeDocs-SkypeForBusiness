@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of the Director'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Director
 ms:assetid: cf9919b3-e16b-47c5-be1d-2c4bc64f44ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398879(v=OCS.15)

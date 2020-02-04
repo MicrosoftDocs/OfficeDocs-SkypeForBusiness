@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparing the Active Directory schema'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the Active Directory schema
 ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)

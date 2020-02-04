@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Windows PowerShell cmdlets for Address Book management
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell cmdlets for Address Book management
 ms:assetid: 73bfa949-5628-4156-ad20-fe07a0dc6216
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429708(v=OCS.15)

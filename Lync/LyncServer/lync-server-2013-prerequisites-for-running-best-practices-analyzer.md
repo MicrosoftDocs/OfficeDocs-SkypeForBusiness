@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Prerequisites for running Best Practices Analyzer'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for running Best Practices Analyzer
 ms:assetid: 0521c48b-3e99-449f-a8b9-33fd34ce3bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591341(v=OCS.15)

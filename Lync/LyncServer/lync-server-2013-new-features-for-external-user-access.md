@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New features for external user access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New features for external user access
 ms:assetid: 99da6bd5-ec14-4ad9-8f7d-37fbddf567dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398794(v=OCS.15)

@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Change simple URLs after migration
 ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721844(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining your requirements for Enterprise Voice'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Enterprise Voice
 ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425826(v=OCS.15)

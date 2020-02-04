@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Set up hardware load balancers for scaled edge topolog
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up hardware load balancers for scaled edge topologies
 ms:assetid: 77b4dd64-5eff-4b67-a441-2adaa22a0fd9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398586(v=OCS.15)

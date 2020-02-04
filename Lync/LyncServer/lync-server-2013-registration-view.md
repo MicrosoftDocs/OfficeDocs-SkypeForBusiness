@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Registration view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Registration view
 ms:assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688120(v=OCS.15)
