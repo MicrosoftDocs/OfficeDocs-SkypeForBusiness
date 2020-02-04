@@ -10,7 +10,7 @@ ms.reviewer: bjwhalen
 description: Guidance for managing the transition to Teams from Skype for Business
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.dashboard.helparticle.coexistence
   - ms.teamsadmincenter.teamsupgrade.overview
 ms.collection: 

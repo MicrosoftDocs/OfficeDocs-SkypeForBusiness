@@ -15,7 +15,8 @@ ms.appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOIDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: "This summary of Skype for Business organization and user settings can help you learn more about Public IM connectivity, Meeting invitations, recording calls and meetings, and more.  "

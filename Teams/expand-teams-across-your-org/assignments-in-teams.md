@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.assignments.overview
   - ms.teamsadmincenter.assignments.tooltip.emaildigest
   - ms.teamsadmincenter.assignments.tooltip.makecode

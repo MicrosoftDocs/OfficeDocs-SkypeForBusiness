@@ -13,7 +13,8 @@ appliesto:
 - Skype for Business Server
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - mt779140

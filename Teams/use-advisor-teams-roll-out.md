@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-f1keywords: 
+f1.keywords: 
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom:
 description: "Use Advisor for Teams (preview) to help you plan and complete your Microsoft Teams deployment."
