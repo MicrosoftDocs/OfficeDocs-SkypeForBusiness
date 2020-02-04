@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Components and topologies for Mediation Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)

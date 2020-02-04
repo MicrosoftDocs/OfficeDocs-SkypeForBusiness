@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Components and topologies for SIP trunking'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)

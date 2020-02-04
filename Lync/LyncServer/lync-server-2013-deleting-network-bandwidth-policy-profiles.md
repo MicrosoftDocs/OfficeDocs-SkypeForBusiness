@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deleting network bandwidth policy profiles'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting network bandwidth policy profiles
 ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688050(v=OCS.15)

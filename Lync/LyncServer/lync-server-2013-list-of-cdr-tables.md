@@ -3,6 +3,8 @@ title: 'Lync Server 2013: List of CDR tables'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of CDR tables
 ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398084(v=OCS.15)

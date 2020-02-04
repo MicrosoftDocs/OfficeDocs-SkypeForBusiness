@@ -3,6 +3,8 @@ title: Lync Server 2013 technical diagrams
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)

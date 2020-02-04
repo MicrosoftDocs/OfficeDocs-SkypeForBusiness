@@ -3,6 +3,8 @@ title: 'Lync Online: Lync Online cmdlets'
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Online cmdlets
 ms:assetid: 1d85a61f-80e5-49c6-be7f-971ff5fe4dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994021(v=OCS.15)

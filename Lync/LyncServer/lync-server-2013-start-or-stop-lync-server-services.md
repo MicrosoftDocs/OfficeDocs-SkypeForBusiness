@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Start or stop Lync Server services'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Start or stop Lync Server 2013 services
 ms:assetid: 1c70b4ec-9de5-4f7a-a3c9-c0eb76710505
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520958(v=OCS.15)

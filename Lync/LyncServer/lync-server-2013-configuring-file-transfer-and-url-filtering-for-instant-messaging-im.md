@@ -3,6 +3,8 @@ title: 'Configuring file transfer and URL filtering for instant messaging (IM)'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring file transfer and URL filtering for instant messaging (IM)
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520952(v=OCS.15)

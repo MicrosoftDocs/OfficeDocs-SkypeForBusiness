@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create or modify a new client version policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a new client version policy
 ms:assetid: 4be6e449-aa82-4b46-abb1-d31281573a72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898476(v=OCS.15)

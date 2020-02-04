@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported Active Directory topologies'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)

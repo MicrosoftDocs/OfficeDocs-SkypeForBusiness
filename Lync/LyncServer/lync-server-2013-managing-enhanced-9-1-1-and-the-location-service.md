@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing Enhanced 9-1-1 and the Location service'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Enhanced 9-1-1 and the Location service
 ms:assetid: 307c5aeb-9917-46a2-a95d-de30dea27beb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688012(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New conferencing features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New conferencing features
 ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413085(v=OCS.15)

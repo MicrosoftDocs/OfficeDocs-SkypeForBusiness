@@ -3,6 +3,8 @@ title: 'Delete an existing collection of client version configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of client version configuration settings
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898480(v=OCS.15)

@@ -3,6 +3,8 @@ title: Lync Server 2013 server hardware platforms
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server hardware platforms
 ms:assetid: c964c1c0-0153-472b-88ad-a38866e0df0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398835(v=OCS.15)

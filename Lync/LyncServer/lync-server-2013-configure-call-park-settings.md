@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure Call Park settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Call Park settings
 ms:assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425886(v=OCS.15)

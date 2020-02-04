@@ -3,6 +3,8 @@ title: 'Configure DNS records for a Front End pool or Standard Edition server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS records for a Front End pool or Standard Edition server
 ms:assetid: 02871f2f-6c99-49e6-b441-cd21b16d38ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398079(v=OCS.15)

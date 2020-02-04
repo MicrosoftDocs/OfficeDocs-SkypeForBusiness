@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Disabling network media bypass'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling network media bypass
 ms:assetid: 936d2678-d712-4589-b172-b5793013652f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688141(v=OCS.15)

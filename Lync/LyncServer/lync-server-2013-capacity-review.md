@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Capacity review'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity review
 ms:assetid: 62a70ad3-87cf-4d8c-9f0c-710e9aa4ad63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725209(v=OCS.15)

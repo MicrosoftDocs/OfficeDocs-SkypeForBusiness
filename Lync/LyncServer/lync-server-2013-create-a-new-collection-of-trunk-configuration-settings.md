@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create a new collection of trunk configuration setting
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new collection of trunk configuration settings
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing Archiving'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Lync Server 2013 Archiving
 ms:assetid: 48c6cc8c-c2c1-4534-9a8a-fd5eb738076a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520990(v=OCS.15)

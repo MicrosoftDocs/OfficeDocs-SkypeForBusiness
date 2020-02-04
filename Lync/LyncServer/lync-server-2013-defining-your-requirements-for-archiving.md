@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining your requirements for Archiving'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Archiving
 ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205276(v=OCS.15)

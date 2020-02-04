@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Set a Kerberos authentication account password on a se
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set a Kerberos authentication account password on a server
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398734(v=OCS.15)

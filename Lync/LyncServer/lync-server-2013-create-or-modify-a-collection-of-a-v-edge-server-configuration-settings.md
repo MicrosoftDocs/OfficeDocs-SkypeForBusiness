@@ -3,6 +3,8 @@ title: 'Create or modify a collection of A/V Edge Server configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of A/V Edge Server configuration settings
 ms:assetid: 43899518-59c6-4be4-8892-d6f6207bfaab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688039(v=OCS.15)

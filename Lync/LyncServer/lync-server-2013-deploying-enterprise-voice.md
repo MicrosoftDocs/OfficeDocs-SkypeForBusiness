@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Enterprise Voice'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Enterprise Voice
 ms:assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412876(v=OCS.15)
