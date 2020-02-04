@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user location policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user location policy
 ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520974(v=OCS.15)

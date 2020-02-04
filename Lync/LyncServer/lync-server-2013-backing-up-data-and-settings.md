@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Backing up data and settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up data and settings
 ms:assetid: 21d07888-3dd0-4c17-8a11-34df83a864a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202168(v=OCS.15)

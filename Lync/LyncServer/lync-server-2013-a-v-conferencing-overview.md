@@ -3,6 +3,8 @@ title: Lync Server 2013 A/V conferencing overview
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: A/V conferencing overview
 ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619186(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure network adapters'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)

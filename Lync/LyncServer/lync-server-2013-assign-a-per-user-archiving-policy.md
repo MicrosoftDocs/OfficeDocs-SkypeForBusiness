@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user archiving policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
 ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)

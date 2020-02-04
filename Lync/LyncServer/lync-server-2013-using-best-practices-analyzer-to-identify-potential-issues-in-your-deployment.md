@@ -3,6 +3,8 @@ title: 'Using Best Practices Analyzer to identify potential issues in your deplo
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to identify potential issues in your deployment
 ms:assetid: 0903063c-4766-4406-92f1-dfea48f274a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591342(v=OCS.15)

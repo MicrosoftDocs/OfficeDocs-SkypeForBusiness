@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Starting Lync from another application'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Starting Lync from another application
 ms:assetid: 573b30b1-6590-4b24-8e96-a41be57cb0ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398376(v=OCS.15)

@@ -3,6 +3,8 @@ title: Verify Lync Server 2010 environment
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)

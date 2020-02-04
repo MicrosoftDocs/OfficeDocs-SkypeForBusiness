@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Add a location policy to a network site'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add a location policy to a network site
 ms:assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425936(v=OCS.15)

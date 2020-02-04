@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Using the Office Customization Tool (OCT)'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Office Customization Tool (OCT)
 ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204748(v=OCS.15)

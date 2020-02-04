@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Appendix A: Using cmdlets to deploy a Survivable Branc
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Appendix A: Using cmdlets to deploy a Survivable Branch Appliance'
 ms:assetid: 796a26cf-7ec9-453b-8757-6153a6dd86c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398598(v=OCS.15)

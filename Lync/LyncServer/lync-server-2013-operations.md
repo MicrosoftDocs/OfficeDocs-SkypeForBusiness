@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Operations'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operations
 ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)

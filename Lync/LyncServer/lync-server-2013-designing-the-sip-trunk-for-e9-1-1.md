@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Designing the SIP trunk for E9-1-1'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Designing the SIP trunk for E9-1-1
 ms:assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398323(v=OCS.15)

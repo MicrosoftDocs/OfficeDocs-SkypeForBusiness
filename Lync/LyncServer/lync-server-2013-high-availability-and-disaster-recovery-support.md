@@ -3,6 +3,8 @@ title: 'Lync Server 2013: High availability and disaster recovery support'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: High availability and disaster recovery support
 ms:assetid: 47e77e85-c7c3-4ade-8db7-a34c71aeafd7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204866(v=OCS.15)

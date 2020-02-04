@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring the meeting invitation'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the meeting invitation
 ms:assetid: 7faa4797-0344-418b-9fa3-59dfb9c2baf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398638(v=OCS.15)

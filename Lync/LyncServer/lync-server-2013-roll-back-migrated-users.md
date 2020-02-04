@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Roll back migrated users'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roll back migrated users
 ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)

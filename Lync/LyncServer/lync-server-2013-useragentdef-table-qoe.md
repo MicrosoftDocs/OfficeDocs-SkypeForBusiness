@@ -3,6 +3,8 @@ title: 'Lync Server 2013: UserAgentDef table (QoE)'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgentDef table (QoE)
 ms:assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205259(v=OCS.15)

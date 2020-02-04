@@ -1,6 +1,8 @@
 ---
 title: 'Lync Server 2013: Managing Quality of Service (QoS)'
 ms.reviewer: 
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Quality of Service (QoS)
 author: lanachin
 ms.author: v-lanac

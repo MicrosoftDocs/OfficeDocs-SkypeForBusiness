@@ -3,6 +3,8 @@ title: Lync Server 2013 conferencing
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing
 ms:assetid: 6129b7e0-9abd-488e-a54e-86094eb9df7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417161(v=OCS.15)

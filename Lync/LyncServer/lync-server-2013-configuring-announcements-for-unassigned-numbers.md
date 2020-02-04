@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring announcements for unassigned numbers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring announcements for unassigned numbers
 ms:assetid: 45633dd3-78de-4934-867e-33969fc25368
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425944(v=OCS.15)

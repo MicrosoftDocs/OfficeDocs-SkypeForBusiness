@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Operational dependencies'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operational dependencies
 ms:assetid: 450b6be2-7fb3-47d7-8b0b-c05faa331e14
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720559(v=OCS.15)

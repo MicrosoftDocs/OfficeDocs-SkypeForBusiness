@@ -3,6 +3,8 @@ title: 'Lync Server 2013: EndpointSubnet table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: EndpointSubnet table
 ms:assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398933(v=OCS.15)

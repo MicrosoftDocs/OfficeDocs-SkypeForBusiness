@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Hosted Exchange UM integration architecture'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM integration architecture
 ms:assetid: 0094d5dc-1836-441c-b6e2-f88e35203a8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398067(v=OCS.15)
