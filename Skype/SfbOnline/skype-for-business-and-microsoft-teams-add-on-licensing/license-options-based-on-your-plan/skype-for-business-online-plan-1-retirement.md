@@ -15,7 +15,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: "The Skype for Business Online Plan 1 has been retired. However, if you have a current subscription to Skype for Business Online Plan 1, this change won’t affect you right away. When you are ready to move to a new plan—either now or during renewal—you’ll have three options."

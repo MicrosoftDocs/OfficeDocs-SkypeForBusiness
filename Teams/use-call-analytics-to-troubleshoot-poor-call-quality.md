@@ -17,7 +17,7 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.directrouting.callanalytics
   - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom: 

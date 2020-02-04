@@ -15,7 +15,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about app setup policies in Microsoft Teams and how to use them to pin apps to customize Teams for users in your organization.
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 

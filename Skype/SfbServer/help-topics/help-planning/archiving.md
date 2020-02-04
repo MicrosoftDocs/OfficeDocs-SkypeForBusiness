@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Archiving
 - ms.lync.plan.Archiving
 ms.prod: skype-for-business-itpro
