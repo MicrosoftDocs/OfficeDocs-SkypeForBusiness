@@ -3,6 +3,8 @@ title: 'Lync Server 2013: VoIPDetails view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VoIPDetails view
 ms:assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687973(v=OCS.15)

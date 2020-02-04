@@ -3,6 +3,8 @@ title: 'Create a new URL filter to handle hyperlinks in IM conversations'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new URL filter to handle hyperlinks in IM conversations
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182590(v=OCS.15)

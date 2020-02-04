@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure telephony for a user'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure telephony for a user
 ms:assetid: 4546432e-c839-4517-a2c5-bc0d4d8c6a03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520988(v=OCS.15)

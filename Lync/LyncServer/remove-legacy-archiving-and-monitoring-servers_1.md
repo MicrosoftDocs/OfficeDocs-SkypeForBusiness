@@ -3,6 +3,8 @@ title: Remove legacy Archiving and Monitoring servers
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
 ms:assetid: bca6b419-d5bc-4a46-af42-1dd51b99a26b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205215(v=OCS.15)

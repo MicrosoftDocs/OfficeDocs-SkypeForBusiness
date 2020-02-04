@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Certificate summary - Extensible messaging and presenc
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: b059a34e-99df-40af-91fe-fe2aa52841f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618374(v=OCS.15)

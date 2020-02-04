@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View a list of computers running Lync Server 2013'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View a list of computers running Lync Server 2013
 ms:assetid: 44eeec27-8b99-44f0-b0bd-622c12393d34
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520987(v=OCS.15)

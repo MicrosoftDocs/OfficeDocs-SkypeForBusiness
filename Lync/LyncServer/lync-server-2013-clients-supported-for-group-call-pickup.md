@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clients supported for Group Call Pickup'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Group Call Pickup
 ms:assetid: f4d4975a-ba15-4be5-9078-7b3e0bf2d706
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945655(v=OCS.15)

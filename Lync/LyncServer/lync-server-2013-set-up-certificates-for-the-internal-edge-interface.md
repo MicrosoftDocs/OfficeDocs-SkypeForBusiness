@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Set up certificates for the internal edge interface'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)

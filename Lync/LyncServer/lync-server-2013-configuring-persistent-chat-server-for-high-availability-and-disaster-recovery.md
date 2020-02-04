@@ -3,6 +3,8 @@ title: 'Configuring Persistent Chat Server for high availability and disaster re
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Persistent Chat Server for high availability and disaster recovery
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
 ms:mtpsurl: https://technet.microsoft.com/library/JJ205364(v=OCS.15)

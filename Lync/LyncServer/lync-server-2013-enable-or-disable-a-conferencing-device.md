@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable or disable a conferencing device'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable a conferencing device
 ms:assetid: d5140e38-d015-4706-9bde-cf2fa748c36b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994070(v=OCS.15)

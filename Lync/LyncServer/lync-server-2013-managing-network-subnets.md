@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing network subnets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing network subnets
 ms:assetid: 0127b27c-42a7-4d4b-b419-c92149f51e92
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687955(v=OCS.15)

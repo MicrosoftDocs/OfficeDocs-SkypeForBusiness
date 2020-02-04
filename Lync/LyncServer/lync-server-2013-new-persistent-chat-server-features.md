@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New Persistent Chat Server features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Persistent Chat Server features
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412965(v=OCS.15)

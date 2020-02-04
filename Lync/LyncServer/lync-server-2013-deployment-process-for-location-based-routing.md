@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deployment process for Location-Based Routing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Location-Based Routing
 ms:assetid: 9e923e72-83fc-4a4f-8937-28a55739ed3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994055(v=OCS.15)

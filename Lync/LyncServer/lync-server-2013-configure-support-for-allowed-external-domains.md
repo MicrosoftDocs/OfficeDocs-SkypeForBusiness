@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure support for allowed external domains'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure support for allowed external domains
 ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425908(v=OCS.15)

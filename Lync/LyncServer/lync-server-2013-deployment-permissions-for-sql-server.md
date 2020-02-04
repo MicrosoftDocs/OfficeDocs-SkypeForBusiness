@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deployment permissions for SQL Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment permissions for SQL Server
 ms:assetid: 56ea0c02-bcf5-4d45-aa13-570531c29074
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398375(v=OCS.15)

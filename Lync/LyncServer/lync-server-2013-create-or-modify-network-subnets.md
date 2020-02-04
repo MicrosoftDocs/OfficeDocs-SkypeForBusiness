@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create or modify network subnets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify network subnets
 ms:assetid: 1ba8c4e3-fbc7-4758-88ac-d651fef17bed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520957(v=OCS.15)

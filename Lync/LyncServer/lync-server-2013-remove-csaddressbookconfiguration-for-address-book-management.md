@@ -3,6 +3,8 @@ title: 'Remove-CsAddressBookConfiguration for Address Book management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove-CsAddressBookConfiguration for Address Book management
 ms:assetid: 5d173ebe-ec4d-4640-8432-a25071ea9cc5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429705(v=OCS.15)

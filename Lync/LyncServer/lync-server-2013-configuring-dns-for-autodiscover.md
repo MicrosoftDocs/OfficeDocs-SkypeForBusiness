@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring DNS for Autodiscover'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring DNS for Autodiscover
 ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)

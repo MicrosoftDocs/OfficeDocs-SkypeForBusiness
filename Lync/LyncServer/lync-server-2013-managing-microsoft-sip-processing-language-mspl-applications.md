@@ -3,6 +3,8 @@ title: 'Managing Microsoft SIP Processing Language (MSPL) applications'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Microsoft SIP Processing Language (MSPL) applications
 ms:assetid: 3fb13707-73b5-4f7d-ab0b-a5794ed1be75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688032(v=OCS.15)

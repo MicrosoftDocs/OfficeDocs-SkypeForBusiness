@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for Autodiscover'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Autodiscover
 ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)

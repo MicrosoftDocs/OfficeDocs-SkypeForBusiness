@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Server Performance Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Performance Report
 ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)

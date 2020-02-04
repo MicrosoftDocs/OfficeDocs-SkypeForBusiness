@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrative tools software requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrative tools software requirements
 ms:assetid: 2fb172c3-7b84-4e49-981c-2a17e7a00a29
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195653(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for public instant messaging connectivity'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for public instant messaging connectivity
 ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205349(v=OCS.15)
