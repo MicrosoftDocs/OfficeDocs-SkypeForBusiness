@@ -45,12 +45,12 @@ If one or more of the following conditions are met, an audio stream is marked as
 
 ### Video Classifier due to Freeze
 
-The video stream is marked  _Good_ or _Poor_ based on the value of a classifier score generated to estimate that the end user experienced a Frozen Video. This feature is available for Microsoft Teams product only.
+The video stream is marked  _Good_ or _Poor_ based on the value of a classifier score generated to estimate that the end user experienced Frozen Video. This classifier is available for Microsoft Teams product only.
 
 |Step #|Metric|Scenario|Condition |Classification if Condition is True |Classification if Condition is False |Classification if Metric is Unavailable |Explanation |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|1|Video Poor Due to Freeze Classifier |Is Server Pair is Server:Client|>0.246|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics and overall call experience |
-|2|Video Poor Due to Freeze Classifier |Is Server Pair is Client:Client|>0.524|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics and overall call experience |
+|1|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Server|>0.246|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics and overall call experience |
+|2|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Client|>0.524|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics and overall call experience |
 |  |  |  |  |  |  |  |
 
 ### Video Classifier
