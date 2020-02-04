@@ -3,6 +3,8 @@ title: 'Modify the default action for clients not explicitly supported or restri
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the default action for clients not explicitly supported or restricted
 ms:assetid: 548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520994(v=OCS.15)

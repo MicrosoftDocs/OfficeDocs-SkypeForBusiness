@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Modify existing Registrar configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify existing Registrar configuration settings
 ms:assetid: a8931511-3e66-49ed-a3ec-03bcd61ce1f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182566(v=OCS.15)

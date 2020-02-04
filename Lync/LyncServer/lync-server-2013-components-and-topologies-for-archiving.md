@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Components and topologies for Archiving'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Archiving
 ms:assetid: 5893063d-a44a-4034-aba9-cbe883ecf710
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204916(v=OCS.15)

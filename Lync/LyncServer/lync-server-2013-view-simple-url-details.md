@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View simple URL details'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View simple URL details
 ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)

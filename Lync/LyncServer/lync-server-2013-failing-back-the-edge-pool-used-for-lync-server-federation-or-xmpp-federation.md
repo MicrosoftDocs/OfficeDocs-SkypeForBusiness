@@ -3,6 +3,8 @@ title: 'Failing back the Edge pool used for Lync Server federation or XMPP feder
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back the Edge pool used for Lync Server federation or XMPP federation
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721897(v=OCS.15)

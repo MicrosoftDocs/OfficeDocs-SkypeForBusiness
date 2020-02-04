@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Role-based access control (RBAC)'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Role-based access control (RBAC) for Lync Server 2013
 ms:assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481134(v=OCS.15)

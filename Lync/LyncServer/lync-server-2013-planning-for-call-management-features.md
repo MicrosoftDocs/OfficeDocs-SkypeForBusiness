@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for call management features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for call management features
 ms:assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398421(v=OCS.15)

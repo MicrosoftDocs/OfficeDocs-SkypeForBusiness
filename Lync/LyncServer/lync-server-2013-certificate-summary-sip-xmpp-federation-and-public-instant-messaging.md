@@ -3,6 +3,8 @@ title: 'Certificate summary - SIP, XMPP federation, and public instant messaging
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
 ms:mtpsurl: https://technet.microsoft.com/library/JJ618372(v=OCS.15)

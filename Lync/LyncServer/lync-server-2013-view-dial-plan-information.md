@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View dial plan information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View dial plan information
 ms:assetid: 25ed0112-a8a7-418a-8c2c-580081be692a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687997(v=OCS.15)

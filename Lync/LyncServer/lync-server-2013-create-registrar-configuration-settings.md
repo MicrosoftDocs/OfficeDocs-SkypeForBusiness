@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create Registrar configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Registrar configuration settings
 ms:assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182601(v=OCS.15)

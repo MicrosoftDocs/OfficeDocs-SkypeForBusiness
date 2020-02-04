@@ -3,6 +3,8 @@ title: 'Lync Server 2013: FileTransfers table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FileTransfers table
 ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398353(v=OCS.15)

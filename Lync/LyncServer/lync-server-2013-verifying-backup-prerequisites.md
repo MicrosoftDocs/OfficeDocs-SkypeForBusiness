@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verifying backup prerequisites'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying backup prerequisites
 ms:assetid: 17f8e00a-f970-4e94-b5a4-c18d97ad641a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202165(v=OCS.15)

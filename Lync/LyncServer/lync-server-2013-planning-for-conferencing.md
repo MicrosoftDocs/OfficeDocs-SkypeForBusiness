@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for conferencing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for conferencing
 ms:assetid: 983a272a-e1b3-4d70-8f84-836b092fe526
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398781(v=OCS.15)

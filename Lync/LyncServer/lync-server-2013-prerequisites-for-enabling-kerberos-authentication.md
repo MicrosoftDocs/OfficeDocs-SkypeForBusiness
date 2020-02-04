@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Prerequisites for enabling Kerberos authentication'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for enabling Kerberos authentication
 ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425909(v=OCS.15)

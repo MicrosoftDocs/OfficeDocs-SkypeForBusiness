@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure media encryption for public providers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media encryption for public providers
 ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205149(v=OCS.15)

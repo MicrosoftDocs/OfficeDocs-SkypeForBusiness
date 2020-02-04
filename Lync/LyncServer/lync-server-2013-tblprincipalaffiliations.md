@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalAffiliations'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalAffiliations
 ms:assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558642(v=OCS.15)

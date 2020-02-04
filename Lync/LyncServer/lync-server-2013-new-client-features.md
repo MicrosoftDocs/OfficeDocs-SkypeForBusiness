@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New client features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New client features
 ms:assetid: 108bef85-329b-4252-8790-b13d271bd03e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398192(v=OCS.15)

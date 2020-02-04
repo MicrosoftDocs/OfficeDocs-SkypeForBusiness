@@ -3,6 +3,8 @@ title: 'Lync Server 2013: New-CsWebServiceConfiguration for Address Book managem
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New-CsWebServiceConfiguration for Address Book management
 ms:assetid: 49e4ecc5-aa3e-4dd4-a32c-b0dea3758fab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429703(v=OCS.15)
