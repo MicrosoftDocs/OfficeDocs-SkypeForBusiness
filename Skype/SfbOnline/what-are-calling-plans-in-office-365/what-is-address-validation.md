@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans 

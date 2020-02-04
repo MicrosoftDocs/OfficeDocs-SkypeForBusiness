@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertAssignIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

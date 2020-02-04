@@ -13,7 +13,7 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto: 
   - Microsoft Teams

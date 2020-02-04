@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
 - O365E_ReportsS4BOrgActivity
 ms.custom:
 - Reporting

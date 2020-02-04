@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.messagingpolicies.overview
 description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
