@@ -18,13 +18,13 @@ description: Learn about the interoperability capabilities between Teams users i
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
-Teams users in your organization can chat with and call Skype users who are inside or outside your organization and vice versa. Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user. Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
+Teams users in your organization can chat with and call Skype users who are inside or outside your organization and vice versa. Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user. And, Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
 
 Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a native Teams chat experience. Although Teams users and Skype users can find, chat, and call each other, at this time, they can't see each other's presence.
 
 ## Chat and calling experience
 
-Here's an overview of what the chat and calling experience looks like.
+Here's an overview of the chat and calling experience.
 
 ### Teams user starts a chat or call with a Skype user
 
@@ -59,7 +59,7 @@ As an admin, you use the Microsoft Teams admin center or PowerShell to set exter
 
 ### In the Microsoft Teams admin center
 
-In the Microsoft Teams admin center, go to **Teams** > **Org-wide settings** > **External access**, and then PLACEDHOLDER. For steps on how to do this, see [Manage external access in Teams](manage-external-access.md).
+In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then PLACEDHOLDER. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](manage-external-access.md).
 
 ### Using PowerShell
 
