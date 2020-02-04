@@ -15,7 +15,7 @@ ms.custom:
   - NewAdminCenter_Update
 ms.collection: 
   - M365-voice
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.callingpolicies.overview
 appliesto: 
   - Microsoft Teams

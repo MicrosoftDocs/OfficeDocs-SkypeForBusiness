@@ -15,7 +15,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Phone System
 description: "Learn how to set up Phone System (Cloud PBX) for your organization. "
