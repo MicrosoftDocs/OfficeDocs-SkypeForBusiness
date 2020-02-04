@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Front End pool disaster recovery'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End pool disaster recovery
 ms:assetid: 299cec23-35b4-4337-8f9a-2a57edd9c68b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688005(v=OCS.15)

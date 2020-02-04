@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Running Lync Server on virtual servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running Lync Server on virtual servers
 ms:assetid: e83c0f7f-88ec-434f-b35e-adedec3c318a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399035(v=OCS.15)

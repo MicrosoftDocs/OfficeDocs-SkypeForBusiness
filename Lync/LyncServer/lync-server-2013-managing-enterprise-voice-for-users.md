@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing Enterprise Voice for users'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Enterprise Voice for users
 ms:assetid: 72cbe2f5-1a01-4a6f-84a5-01f3212a8992
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688091(v=OCS.15)

@@ -3,6 +3,8 @@ title: Migrate Common Area Phones
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Common Area Phones
 ms:assetid: 31bd26fc-861b-45c6-8221-18df16e575de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688015(v=OCS.15)

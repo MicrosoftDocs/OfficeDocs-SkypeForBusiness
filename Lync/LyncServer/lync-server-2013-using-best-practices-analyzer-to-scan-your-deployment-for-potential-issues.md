@@ -3,6 +3,8 @@ title: 'Using Best Practices Analyzer to scan your deployment for potential issu
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)

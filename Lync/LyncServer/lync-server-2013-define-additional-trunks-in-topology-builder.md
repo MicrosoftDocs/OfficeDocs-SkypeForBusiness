@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Define additional trunks in Topology Builder'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define additional trunks in Topology Builder
 ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)

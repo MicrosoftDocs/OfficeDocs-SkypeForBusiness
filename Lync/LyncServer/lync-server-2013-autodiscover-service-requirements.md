@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Autodiscover service requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Autodiscover service requirements
 ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690012(v=OCS.15)

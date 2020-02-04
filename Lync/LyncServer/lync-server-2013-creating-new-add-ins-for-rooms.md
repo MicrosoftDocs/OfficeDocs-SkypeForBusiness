@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Creating new add-ins for rooms'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating new add-ins for rooms
 ms:assetid: 463ee8fc-e920-4986-aa5e-d103f8b8dd7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215875(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Validating address book web query'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating address book web query
 ms:assetid: e6ae0a5a-e131-4cfe-9a33-6e611831072d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720925(v=OCS.15)

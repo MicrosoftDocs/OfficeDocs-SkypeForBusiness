@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblComplianceData'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblComplianceData
 ms:assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558606(v=OCS.15)

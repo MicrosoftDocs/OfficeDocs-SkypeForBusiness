@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delete existing Registrar configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete existing Registrar configuration settings
 ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182571(v=OCS.15)

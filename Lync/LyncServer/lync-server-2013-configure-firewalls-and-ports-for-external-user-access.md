@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure firewalls and ports for external user access
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure firewalls and ports for external user access
 ms:assetid: cacb3832-f8db-4009-bfcf-6f5c15c236ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398848(v=OCS.15)

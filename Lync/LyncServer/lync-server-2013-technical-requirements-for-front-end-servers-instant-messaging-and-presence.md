@@ -3,6 +3,8 @@ title: 'Technical requirements for Front End Servers, instant messaging, and pre
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Front End Servers, instant messaging, and presence
 ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398269(v=OCS.15)

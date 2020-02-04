@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Meeting configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Meeting configuration settings
 ms:assetid: 484c1426-c18a-4fc9-84d5-cc42689b59b8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688045(v=OCS.15)

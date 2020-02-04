@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Estimating voice usage and traffic'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Estimating voice usage and traffic
 ms:assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398439(v=OCS.15)

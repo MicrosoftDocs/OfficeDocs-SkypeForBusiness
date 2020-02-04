@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Trunking configuration cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Trunking configuration cmdlets
 ms:assetid: 2c36b03a-b80f-4321-a448-6ba26b9357f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416489(v=OCS.15)

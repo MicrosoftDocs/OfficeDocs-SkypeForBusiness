@@ -3,6 +3,8 @@ title: 'Lync Server 2013: QoE reports'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)

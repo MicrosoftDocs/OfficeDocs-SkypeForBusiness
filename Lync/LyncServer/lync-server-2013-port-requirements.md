@@ -3,6 +3,8 @@ title: Lync Server 2013 port requirements
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port requirements
 ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398798(v=OCS.15)

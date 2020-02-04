@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Common conferencing concepts'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common conferencing concepts
 ms:assetid: a21d4987-1c0a-44c8-8a39-9c17ffb57f3c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688158(v=OCS.15)

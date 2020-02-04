@@ -3,6 +3,8 @@ title: Lync Server 2013 dial-in conferencing overview
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing overview
 ms:assetid: 6e581cef-960a-4730-8b22-91b2129d34e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398524(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Changes in Lync Server that affect Edge Server plannin
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes in Lync Server 2013 that affect Edge Server planning
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204965(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Removing Lync for Windows Phone'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Removing Lync for Windows Phone
 ms:assetid: b9be6774-51cc-44c1-b5fe-63c984819424
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690993(v=OCS.15)

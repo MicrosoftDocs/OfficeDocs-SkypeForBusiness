@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Backup and high availability cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and high availability cmdlets
 ms:assetid: 5aff41a3-7a0e-4c51-9d5f-7f08e36bf046
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204925(v=OCS.15)
