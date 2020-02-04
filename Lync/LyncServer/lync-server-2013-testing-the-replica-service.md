@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing the replica service'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the replica service
 ms:assetid: 4ff2cc91-0036-4c5a-9792-7bf43d8ce18d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727303(v=OCS.15)

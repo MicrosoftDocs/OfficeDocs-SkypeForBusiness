@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining the network elements used to determine locati
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the network elements used to determine location
 ms:assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398567(v=OCS.15)

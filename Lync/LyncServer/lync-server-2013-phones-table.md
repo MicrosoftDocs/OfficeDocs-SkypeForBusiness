@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Phones table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Phones table
 ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425923(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View details about a service'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View details about a service
 ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182578(v=OCS.15)

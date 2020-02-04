@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Understanding reports created by Best Practices Analyz
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding reports created by Best Practices Analyzer
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)

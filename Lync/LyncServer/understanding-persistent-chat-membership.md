@@ -3,6 +3,8 @@ title: Understanding Persistent Chat membership
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Persistent Chat membership
 ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)

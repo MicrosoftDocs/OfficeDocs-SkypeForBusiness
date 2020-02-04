@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Media Quality Summary Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Summary Report
 ms:assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615012(v=OCS.15)

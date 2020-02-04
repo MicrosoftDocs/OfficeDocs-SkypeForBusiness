@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Restoring the server hosting the Central Management st
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring the server hosting the Central Management store
 ms:assetid: 3bd6c82c-07fb-4798-b8f9-e7c78a5a83d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202172(v=OCS.15)

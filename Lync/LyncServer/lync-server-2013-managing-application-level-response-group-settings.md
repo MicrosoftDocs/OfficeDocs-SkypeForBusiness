@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing application-level Response Group settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing application-level Response Group settings
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721843(v=OCS.15)

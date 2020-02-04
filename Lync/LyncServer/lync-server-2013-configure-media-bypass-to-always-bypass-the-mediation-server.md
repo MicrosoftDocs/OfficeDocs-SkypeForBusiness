@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure media bypass to always bypass the Mediation 
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass to always bypass the Mediation Server
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)

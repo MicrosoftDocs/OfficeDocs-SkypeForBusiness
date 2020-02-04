@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Running forest preparation'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running forest preparation
 ms:assetid: 9d62f7be-bcfe-421d-8d8a-225567102a35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412732(v=OCS.15)

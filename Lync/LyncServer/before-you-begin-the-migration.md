@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Before you begin the migration
 ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204634(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalMeta'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalMeta
 ms:assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615009(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Viewing network site information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network site information
 ms:assetid: 24a97d98-b168-4016-81bf-c2c478092b87
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687996(v=OCS.15)

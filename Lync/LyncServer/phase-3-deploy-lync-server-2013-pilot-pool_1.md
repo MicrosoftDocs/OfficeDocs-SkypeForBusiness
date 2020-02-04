@@ -3,6 +3,8 @@ title: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204849(v=OCS.15)

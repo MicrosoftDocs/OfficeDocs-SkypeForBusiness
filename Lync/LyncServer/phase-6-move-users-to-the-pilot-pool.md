@@ -3,6 +3,8 @@ title: 'Phase 6: Move users to the pilot pool'
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 6: Move users to the pilot pool'
 ms:assetid: 676df4a5-2ef8-4f12-8b92-ce133d731fcc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204968(v=OCS.15)
