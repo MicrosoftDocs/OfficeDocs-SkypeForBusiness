@@ -12,7 +12,7 @@ description: Prepare for your upgrade to Microsoft Teams Only mode
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+f1.keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.locations.emergencyaddresses.overview
   - ms.lync.lac.AddressAndLocation
 ms.custom: 

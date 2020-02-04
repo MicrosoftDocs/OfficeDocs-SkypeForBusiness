@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: "Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. "
