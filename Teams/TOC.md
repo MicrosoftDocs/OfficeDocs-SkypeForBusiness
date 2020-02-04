@@ -550,6 +550,7 @@
 
 # Microsoft 365 Business Voice
 ## [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## [Business Voice and Enterprise Voice comparison](business-voice/business-enterprise-comparison.md)
 ## What to know before buying
 ### [What to buy to get Business Voice](business-voice/what-to-buy.md)
 ### [Check your Internet connection](business-voice/get-ready-internet.md)
