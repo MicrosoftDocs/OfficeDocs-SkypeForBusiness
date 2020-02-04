@@ -5,6 +5,8 @@ author: jambirk
 manager: serdars 
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
