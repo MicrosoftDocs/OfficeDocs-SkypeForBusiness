@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
