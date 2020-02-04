@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Call Admission Control Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Admission Control Report
 ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)

@@ -3,6 +3,8 @@ title: Lync Server 2013 supported pool pairing options and best practices
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported pool pairing options and best practices
 ms:assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204697(v=OCS.15)

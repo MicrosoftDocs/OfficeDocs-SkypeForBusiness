@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for Persistent Chat Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Persistent Chat Server
 ms:assetid: 57b2f574-234e-4a5a-bb78-8823369ba79e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398381(v=OCS.15)

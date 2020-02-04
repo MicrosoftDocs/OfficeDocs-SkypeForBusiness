@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enabling Office Web Apps Server and Lync Server 2013'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Office Web Apps Server and Lync Server 2013
 ms:assetid: 3370ab55-9949-4f32-b88b-5cffed6aaad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204792(v=OCS.15)

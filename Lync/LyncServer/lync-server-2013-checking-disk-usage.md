@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Checking disk usage'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking disk usage
 ms:assetid: 0f0cb9bf-3f11-43ff-be10-5c8e1b5c4f08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720908(v=OCS.15)

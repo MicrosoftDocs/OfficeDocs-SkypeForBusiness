@@ -3,6 +3,8 @@ title: 'Re-activate server after Security Configuration Wizard closes ports in I
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Re-activate server after Security Configuration Wizard closes ports in IIS
 ms:assetid: cb8e17cf-f8c1-4099-b63b-c242d656c26a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398851(v=OCS.15)

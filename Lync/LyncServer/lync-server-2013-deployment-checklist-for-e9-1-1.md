@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deployment checklist for E9-1-1'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for E9-1-1
 ms:assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398864(v=OCS.15)

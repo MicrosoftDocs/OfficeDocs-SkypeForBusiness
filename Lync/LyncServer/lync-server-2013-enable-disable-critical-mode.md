@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enabling or disabling critical mode to block or allow 
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling critical mode to block or allow IM and web conferencing sessions if Archiving fails
 ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
 ms:mtpsurl: https://technet.microsoft.com/library/Gg182609(v=OCS.15)

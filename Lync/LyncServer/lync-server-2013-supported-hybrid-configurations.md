@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported hybrid configurations'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported hybrid configurations
 ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)

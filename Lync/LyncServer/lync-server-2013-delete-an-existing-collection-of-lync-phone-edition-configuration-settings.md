@@ -3,6 +3,8 @@ title: 'Delete an existing collection of Lync Phone Edition configuration settin
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of Lync Phone Edition configuration settings
 ms:assetid: 1bfc427d-4dcd-4199-b25f-8d5cfec2164f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687984(v=OCS.15)

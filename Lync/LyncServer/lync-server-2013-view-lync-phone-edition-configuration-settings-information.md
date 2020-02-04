@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View Lync Phone Edition configuration settings informa
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Lync Phone Edition configuration settings information
 ms:assetid: 15f94478-651f-4063-9918-6a059f98df16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687976(v=OCS.15)

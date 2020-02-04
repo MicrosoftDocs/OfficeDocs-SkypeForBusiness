@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported virtualization technologies and known limita
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported virtualization technologies and known limitations
 ms:assetid: 6d3d749d-e840-4c05-afae-d6e69e7616aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204982(v=OCS.15)

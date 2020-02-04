@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Customizing Lync behavior and the user interface'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customizing Lync behavior and the user interface
 ms:assetid: 1196dfe5-eb2b-4e57-9bda-d247f341b0b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398200(v=OCS.15)

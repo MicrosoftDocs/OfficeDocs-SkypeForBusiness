@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supported devices'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported devices
 ms:assetid: 9985c232-cc9a-41fb-ac6f-99d1986552f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205105(v=OCS.15)

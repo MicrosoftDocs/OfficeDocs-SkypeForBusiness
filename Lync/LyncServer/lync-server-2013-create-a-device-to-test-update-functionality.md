@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create a device to test update functionality'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a device to test update functionality
 ms:assetid: ce509fd1-17b3-4b78-b269-fe5d06fe2e1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182587(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create or modify a network site'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a network site
 ms:assetid: 14e24856-9996-4da4-9f31-300940bdf5aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398218(v=OCS.15)

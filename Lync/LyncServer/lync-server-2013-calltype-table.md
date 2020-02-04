@@ -3,6 +3,8 @@ title: 'Lync Server 2013: CallType table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: CallType table
 ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412752(v=OCS.15)

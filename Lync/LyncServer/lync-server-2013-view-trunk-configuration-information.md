@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View trunk configuration information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trunk configuration information
 ms:assetid: ebe10e14-08c2-4797-9254-9ed89516d5cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721927(v=OCS.15)

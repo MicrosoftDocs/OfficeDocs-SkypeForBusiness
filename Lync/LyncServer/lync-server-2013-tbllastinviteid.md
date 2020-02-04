@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblLastInviteId'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblLastInviteId
 ms:assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558625(v=OCS.15)

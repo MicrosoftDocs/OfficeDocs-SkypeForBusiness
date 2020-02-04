@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring a Quality of Service policy for your Confe
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205076(v=OCS.15)

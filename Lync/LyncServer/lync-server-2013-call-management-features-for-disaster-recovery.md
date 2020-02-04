@@ -3,6 +3,8 @@ title: Lync Server 2013 call management features for disaster recovery
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call management features for disaster recovery
 ms:assetid: effb75b4-499d-4414-a283-fffe165c26dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721935(v=OCS.15)

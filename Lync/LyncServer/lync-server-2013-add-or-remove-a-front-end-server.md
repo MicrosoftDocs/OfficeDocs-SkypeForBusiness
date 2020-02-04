@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Add or remove a Front End Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add or remove a Front End Server
 ms:assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205153(v=OCS.15)

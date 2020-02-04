@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Scenarios for reverse proxy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for reverse proxy
 ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204691(v=OCS.15)

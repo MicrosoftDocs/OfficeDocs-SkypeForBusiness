@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblActivePeers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblActivePeers
 ms:assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615030(v=OCS.15)

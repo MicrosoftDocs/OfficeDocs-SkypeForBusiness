@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Plan for Edge Server certificates'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Edge Server certificates
 ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)

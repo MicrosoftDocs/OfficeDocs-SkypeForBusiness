@@ -3,6 +3,8 @@ title: 'Lync Server 2013: List of Persistent Chat Server tables'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of Persistent Chat Server tables
 ms:assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558628(v=OCS.15)

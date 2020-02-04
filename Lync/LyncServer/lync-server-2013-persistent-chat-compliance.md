@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Persistent Chat compliance'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat compliance
 ms:assetid: 508933b6-bf17-4fb7-9147-f06ff6bc886f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204882(v=OCS.15)

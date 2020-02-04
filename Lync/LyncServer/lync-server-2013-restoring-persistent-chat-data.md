@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Restoring Persistent Chat data'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring Persistent Chat data
 ms:assetid: c251a7fa-50da-434b-b39a-17f5978ce736
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945649(v=OCS.15)
