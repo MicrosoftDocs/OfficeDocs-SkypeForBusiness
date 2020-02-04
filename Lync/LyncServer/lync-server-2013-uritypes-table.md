@@ -3,6 +3,8 @@ title: 'Lync Server 2013: UriTypes table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UriTypes table
 ms:assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398587(v=OCS.15)

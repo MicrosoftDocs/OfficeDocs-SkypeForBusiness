@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Setting who can post messages in an auditorium chat ro
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting who can post messages in an auditorium chat room
 ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215873(v=OCS.15)

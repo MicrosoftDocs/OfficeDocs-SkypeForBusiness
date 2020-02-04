@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Device Update Web service'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Update Web service
 ms:assetid: 036f473d-a131-431f-8051-76ccadc5cfba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994015(v=OCS.15)

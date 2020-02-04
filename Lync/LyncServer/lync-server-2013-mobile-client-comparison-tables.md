@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Mobile client comparison tables'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client comparison tables
 ms:assetid: f3ba3379-afe4-4bc8-a038-9dff9dfd3bff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691004(v=OCS.15)

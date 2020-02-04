@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Trusted applications cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Trusted applications cmdlets
 ms:assetid: 4d6ae0dc-e3e0-4519-8b74-9e941dea21e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415652(v=OCS.15)

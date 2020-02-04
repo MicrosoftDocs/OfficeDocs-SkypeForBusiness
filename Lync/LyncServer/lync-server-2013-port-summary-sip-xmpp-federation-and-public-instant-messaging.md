@@ -3,6 +3,8 @@ title: 'Port summary - SIP, XMPP federation, and public instant messaging'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)

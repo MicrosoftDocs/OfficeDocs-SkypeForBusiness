@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Request certificates for edge components'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request certificates for edge components
 ms:assetid: 8c72b877-febc-428f-89dc-389e7a7ac849
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398708(v=OCS.15)

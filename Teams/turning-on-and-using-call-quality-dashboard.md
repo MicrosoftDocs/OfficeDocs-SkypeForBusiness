@@ -16,7 +16,7 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom: 
@@ -183,13 +183,15 @@ CQD Summary Reports provide a subset of the features planned for Detailed Report
 |Report set customization (add, delete, modify reports)   | No   | Yes   |
 |Video-based screen sharing metrics   | No   | Yes   |
 |Video metrics   | No   | Yes   |
-|Amount of data available   | Last 6 months   | Last 6 months   |
+|Amount of data available   | Last 12 months   | Last 12 months   |
 |Microsoft Teams data   | Yes   | Yes   |
 | | | |
 
 ### Out-of-the-box reports
 
 All editions of CQD provide an experience that gives you call quality metrics without the need to create new reports. Once data is processed in the back-end, you see call quality data in the reports.
+
+New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
   
 ### Overview reports
 
@@ -451,7 +453,17 @@ When you compare data for these two services:
   - Wired : wifi
   - Corporate network : home network
   
+### Why can't I see EUII in CQD?
 
+These admin roles can access CQD, but they can't view EUII (end-user identifiable information):
+- Office 365 Reports Reader
+- Teams Communications Support Specialist
+
+To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+
+### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
+
+When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report.
 
 ## Related topics
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring users for branch site resiliency'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring users for branch site resiliency
 ms:assetid: 36752665-940b-46ed-b14c-324a3e9a05f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425844(v=OCS.15)

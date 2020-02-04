@@ -3,6 +3,8 @@ title: 'Lync Server 2013: AudioSignal table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioSignal table
 ms:assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398064(v=OCS.15)

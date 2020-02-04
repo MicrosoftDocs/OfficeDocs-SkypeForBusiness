@@ -3,6 +3,8 @@ title: 'DNS summary - Single consolidated edge with private IP addresses using N
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412787(v=OCS.15)

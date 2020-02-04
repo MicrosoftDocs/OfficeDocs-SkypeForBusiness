@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Viewing status of pools'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing status of pools
 ms:assetid: 0d40bfe6-7660-4be4-b8bf-d03658558268
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720319(v=OCS.15)

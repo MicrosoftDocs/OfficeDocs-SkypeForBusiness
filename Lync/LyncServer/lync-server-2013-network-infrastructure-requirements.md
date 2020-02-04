@@ -3,6 +3,8 @@ title: Lync Server 2013 network infrastructure requirements
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network infrastructure requirements
 ms:assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425841(v=OCS.15)

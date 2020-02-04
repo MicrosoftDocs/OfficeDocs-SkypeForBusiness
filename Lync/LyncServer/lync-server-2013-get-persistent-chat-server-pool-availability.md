@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Get Persistent Chat Server pool availability'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get Persistent Chat Server pool availability
 ms:assetid: 61668ff9-1962-47e0-ac9f-a1272acf5372
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204950(v=OCS.15)

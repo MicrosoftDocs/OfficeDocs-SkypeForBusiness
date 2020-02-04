@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Viewing network region link information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network region link information
 ms:assetid: 7b6b2ea2-83d8-4376-afb2-70e5d2cf6444
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688102(v=OCS.15)

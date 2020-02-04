@@ -3,7 +3,7 @@ title: Manage app setup policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin
+ms.reviewer: lajin,rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,7 +15,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about app setup policies in Microsoft Teams and how to use them to pin apps to customize Teams for users in your organization.
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
@@ -24,9 +24,9 @@ f1keywords:
 > [!NOTE]
 > If you enabled the org-wide app permission policy setting, **Allow interaction with custom apps**, you may not see app setup policies yet in the Microsoft Teams admin center. It's currently being rolled out and will be available soon in your organization.
 
-As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including those built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
+As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including those built by third parties or by developers in your organization. You can also use app setup policies to control whether users can pin apps to Teams and manage how built-in features appear.
 
-Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). 
+Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
@@ -47,13 +47,16 @@ You can use the Microsoft Teams admin center to create a custom policy.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
-3. Enter a name and description for the policy, and then click **Add apps**.
-4. Turn on or turn off **Allow uploading custom apps**, depending on whether you want to let users upload custom apps to Teams. You won't be able to change this setting if **Allow third-party or custom apps** is turned off in [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in app permission policies.
-5. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
+    ![Screenshot showing the Add app setup policies page](media/app-setup-policies-add.png)
+3. Enter a name and description for the policy.
+4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams. You won't be able to change this setting if **Allow third-party apps** is turned off in [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in app permission policies.
+5. Turn on or turn off **Allow user pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
+6. Click **Add apps**.
+7. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps, click **Add**.
 
      ![Screenshot showing the Add pinned apps pane](media/app-setup-policies-add-apps.png)
 
-6. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
+8. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
 
     ![Screenshot showing the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
 

@@ -10,7 +10,7 @@ author: lolajacobsen
 audience: admin
 ms.author: lolaj
 ms.service: msteams
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection: 
   - M365-collaboration
 ---

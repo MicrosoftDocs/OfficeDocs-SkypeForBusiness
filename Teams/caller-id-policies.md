@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
-f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
+f1.keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal

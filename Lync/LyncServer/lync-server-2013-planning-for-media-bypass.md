@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for media bypass'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for media bypass
 ms:assetid: 8ac732b6-8538-4d7b-b1a9-2035e419dac2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398703(v=OCS.15)

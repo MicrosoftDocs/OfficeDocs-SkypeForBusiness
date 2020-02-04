@@ -3,6 +3,8 @@ title: 'Lync Server 2013: AudioStreamDetail view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioStreamDetail view
 ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721859(v=OCS.15)

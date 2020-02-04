@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Including the security desk'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Including the security desk
 ms:assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398299(v=OCS.15)

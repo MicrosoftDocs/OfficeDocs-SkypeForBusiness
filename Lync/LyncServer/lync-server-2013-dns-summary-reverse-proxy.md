@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS summary - Reverse proxy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Reverse proxy
 ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204781(v=OCS.15)

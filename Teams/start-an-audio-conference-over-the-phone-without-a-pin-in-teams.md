@@ -16,7 +16,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn how to enable or disable anonymous callers from joining a meeting from the Teams admin center. "
@@ -43,11 +44,11 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 3. Next to **Audio Conferencing**, click **Edit**.
 
-4. In the **Audio Conferencing** pane, enable or disable **Unauthenticated callers can be the first person in a meeting**.
+4. In the **Audio Conferencing** pane, enable or disable **Dial-in callers can be the first person in a meeting**.
     
-4. Click **Save**. 
+4. Click **Apply**. 
 
-**Using Windows Powershell**
+**Using Windows PowerShell**
   
 See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
 

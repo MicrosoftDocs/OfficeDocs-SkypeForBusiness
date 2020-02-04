@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test devices'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test devices
 ms:assetid: 878b7dfc-8cfe-4404-a601-a2c57a441ea9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688119(v=OCS.15)

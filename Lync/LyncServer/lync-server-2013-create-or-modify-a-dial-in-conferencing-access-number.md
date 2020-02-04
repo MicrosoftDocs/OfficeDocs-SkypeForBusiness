@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create or modify a dial-in conferencing access number'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a dial-in conferencing access number
 ms:assetid: 06f55c28-57f8-4d4e-8313-9740846796d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398126(v=OCS.15)

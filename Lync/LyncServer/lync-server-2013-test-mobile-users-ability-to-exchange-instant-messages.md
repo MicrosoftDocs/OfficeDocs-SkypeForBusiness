@@ -3,6 +3,8 @@ title: "Lync Server 2013: Test mobile users' ability to exchange instant message
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test mobile users' ability to exchange instant messages
 ms:assetid: a78a048f-d413-4bee-8626-d62b8b74f811
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767950(v=OCS.15)

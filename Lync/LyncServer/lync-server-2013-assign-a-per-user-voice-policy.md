@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign a per-user voice policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user voice policy
 ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)

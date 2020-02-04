@@ -12,7 +12,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
 ---

@@ -12,7 +12,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.meetingsettings.invitationurls
   - ms.teamsadmincenter.meetingsettings.network.ports
   - ms.teamsadmincenter.meetingsettings.overview

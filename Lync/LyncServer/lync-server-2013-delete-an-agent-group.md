@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delete an agent group'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an agent group
 ms:assetid: df385fd1-62f4-42b7-a349-4eb38dea50c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182597(v=OCS.15)

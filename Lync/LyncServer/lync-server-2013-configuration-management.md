@@ -3,9 +3,11 @@ title: 'Lync Server 2013: Configuration management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configuration management in Lync Server 2013
 
@@ -68,7 +70,7 @@ There are many tools to discover, audit, and report assets. Some of these tools 
 
   - **Automated Scripts**   You can write simple scripts to report items such as the operating system, service pack level, and whether software exists on a specific set of computers. You can write these scripts to an organization’s exact requirements. However, the required number of scripts and their complexity can make scripts expensive to create and maintain.
 
-  - **Automated Tools**   Depending on the size of your business and your organizational needs, you may want to consider using automated tools. Tools such as System Center Configuration Manager incorporate standard report templates (such as service pack level) and also enable you to create customized reports, for example, for a custom application. The System Center Configuration Manager can also be used to report on hardware and software configurations.
+  - **Automated Tools**   Depending on the size of your business and your organizational needs, you may want to consider using automated tools. Tools such as Microsoft Endpoint Configuration Manager incorporate standard report templates (such as service pack level) and also enable you to create customized reports, for example, for a custom application. The Microsoft Endpoint Configuration Manager can also be used to report on hardware and software configurations.
 
 </div>
 

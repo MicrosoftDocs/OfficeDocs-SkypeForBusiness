@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test mobile user access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test mobile user access
 ms:assetid: 81d97420-428b-41b7-91ef-185d572d3456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767947(v=OCS.15)

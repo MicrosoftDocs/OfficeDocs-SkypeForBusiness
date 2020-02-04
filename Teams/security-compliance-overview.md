@@ -3,7 +3,6 @@ title: Overview of security and compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
@@ -13,7 +12,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto: 
   - Microsoft Teams
@@ -24,7 +23,9 @@ Overview of security and compliance in Microsoft Teams
 
 Microsoft Teams is built on the Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect.
 
-For a short introduction (12:42 min) to Teams security and compliance, watch this video: [Microsoft Teams Essentials for IT: Security and Compliance](https://youtu.be/91lHNKVVvQ4).
+Don't miss these Microsoft Mechanics videos about security and compliance:
+- [Microsoft Teams Essentials for IT: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)
+- [Microsoft Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
 
 Teams is Tier D-compliant. This includes the following standards: ISO 27001, ISO 27018, SSAE16 SOC 1 and SOC 2, HIPAA, and EU Model Clauses (EUMC). Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
 

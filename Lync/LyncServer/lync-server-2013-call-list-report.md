@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Call List Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call List Report
 ms:assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615020(v=OCS.15)

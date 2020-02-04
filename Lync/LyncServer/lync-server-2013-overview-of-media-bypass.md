@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of media bypass'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of media bypass
 ms:assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412740(v=OCS.15)

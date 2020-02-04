@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Accessing monitoring data'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessing monitoring data
 ms:assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688116(v=OCS.15)
