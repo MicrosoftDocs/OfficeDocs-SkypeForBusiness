@@ -72,11 +72,11 @@ To view the FirstlineWorker policy, in the left navigation of the Microsoft Team
 2. Next to **Assigned policies**, choose **Edit**.
 3. Under **Teams App Setup policy**, select **FirstlineWorker**, and then choose **Save**.
 
-#### Assign the FirstlineWorker app setup policy to users in a group
+#### Assign the FirstlineWorker app setup policy to user members of a group
 
-You can assign the FirstlineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
+You can assign the FirstlineWorker app setup policy to user members of a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
 
-In this example, we assign the FirstlineWorker app setup policy to all users in the Contoso Firstline Team group.
+In this example, we assign the FirstlineWorker app setup policy to all user members of the Contoso Firstline Team group.
 
 > [!NOTE]
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -89,9 +89,9 @@ Get the members of the specified group.
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Assign all users in the group to the FirstlineWorker app setup policy.
+Assign the FirstlineWorker app setup policy to all user members of the group.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
