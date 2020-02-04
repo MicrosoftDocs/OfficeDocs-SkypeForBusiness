@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
 - ms.teamsadmincenter.devices.roomsystems.overview
 ms.custom:
 - Skype for Business Certification
