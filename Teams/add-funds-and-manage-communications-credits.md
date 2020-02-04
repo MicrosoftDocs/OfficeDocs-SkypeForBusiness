@@ -16,7 +16,7 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - O365E_SFBVoiceCredit
   - O365E_SFBVoiceCreditAether
   - O365M_SFBVoiceCredit
