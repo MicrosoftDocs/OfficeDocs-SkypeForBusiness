@@ -52,18 +52,18 @@ Blocked Skype users, along with other people and PSTN phone numbers that a Teams
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you set external access settings by using the Microsoft Teams admin center or PowerShell to control whether Teams users in your organization can communicate with Skype users. By default, the capability is turned off for new tenants.
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants.
 
 > [!NOTE]
 > If you upgraded from Skype for Business to Teams, the existing federation setting in the Skype for Business admin center is migrated to Teams. If your users are in Teams Only mode, chats and calls from Skype users to Teams users are delivered to Teams. If your users are in Islands mode, chats and calls from Skype users to Teams users are delivered to Skype for Business.
 
 ### In the Microsoft Teams admin center
 
-In the Microsoft Teams admin center, go to**Teams** > **Org-wide settings** > **External access**, and then PLACEDHOLDER. For steps on how to do this, see [Manage external access in Teams](manage-external-access.md).
+In the Microsoft Teams admin center, go to **Teams** > **Org-wide settings** > **External access**, and then PLACEDHOLDER. For steps on how to do this, see [Manage external access in Teams](manage-external-access.md).
 
 ### Using PowerShell
 
-Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users.
+Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users.
 
 ## Related topics
 
