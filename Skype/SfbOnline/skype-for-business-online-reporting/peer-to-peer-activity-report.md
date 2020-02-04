@@ -15,11 +15,12 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
+- Reporting
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
-ms.custom:
-- Reporting
 description: "Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. "
 ---
 

@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365P_RecordingDesc
+- CSH
 ms.custom:
 - Setup
+- O365P_RecordingDesc
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
 ---
 
