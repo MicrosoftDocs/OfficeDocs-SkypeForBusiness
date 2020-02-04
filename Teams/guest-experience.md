@@ -34,21 +34,21 @@ The following table compares the Teams functionality available for an organizati
 
 |**Capability in Teams**|**Teams user in the organization**|**Guest user**|
 |:-----|:-----|:-----|
-|Create a channel  <br/>  *Team owners control this setting.*  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participate in a private chat  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participate in a channel conversation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Post, delete, and edit messages  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Share a channel file  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Share a chat file  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Add apps (tabs, bots, or connectors)  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create meetings or access schedules  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Access OneDrive for Business storage  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create tenant-wide and teams/channels guest access policies  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create a team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Discover and join a public team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|View organization chart  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Use inline translation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create a channel  <br/>  *Team owners control this setting.*  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|
+|Participate in a private chat  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|
+|Participate in a channel conversation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|
+|Post, delete, and edit messages  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|
+|Share a channel file  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)|
+|Share a chat file  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Add apps (tabs, bots, or connectors)  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Create meetings or access schedules  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Access OneDrive for Business storage  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Create tenant-wide and teams/channels guest access policies  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Create a team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Discover and join a public team  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|View organization chart  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
+|Use inline translation  <br/> |![An icon depicting a check mark ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.jpg)||
    
 The following table shows the calling and meeting features available to guests, compared to other types of users.
 
