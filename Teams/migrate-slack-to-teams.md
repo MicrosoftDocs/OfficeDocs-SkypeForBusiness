@@ -38,7 +38,7 @@ To learn more about Slack export options, go to the Slack website: https://get.s
 
 The diagram below gives you a high-level look at the Slack migration landscape that we’ll cover in this article. 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Diagram that shows the Slack export landscape.":::
+![Diagram that shows the Slack export landscape.](media/migrate-slack-to-teams-image2.png)
 
 When you're done with this section, you should understand:
 - The service level of your Slack Workspaces
