@@ -67,4 +67,5 @@ Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/modul
 
 ## Related topics
 
+- [Manage external access in Teams](manage-external-access.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
