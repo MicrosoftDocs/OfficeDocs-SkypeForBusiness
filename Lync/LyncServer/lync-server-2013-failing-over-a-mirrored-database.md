@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failing over a mirrored database'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over a mirrored database
 ms:assetid: 70185476-e3d4-440a-9316-fa24b226343e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204991(v=OCS.15)

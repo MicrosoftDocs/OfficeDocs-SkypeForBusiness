@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Prerequisites for integrating with Exchange Server 201
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721919(v=OCS.15)

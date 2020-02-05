@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure network sites for CAC'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network sites for CAC
 ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412840(v=OCS.15)

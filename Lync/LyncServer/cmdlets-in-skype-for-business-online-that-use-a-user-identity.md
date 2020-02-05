@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use a user identity
 ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)

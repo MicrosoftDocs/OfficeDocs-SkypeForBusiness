@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Check voice normalization rules'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Check voice normalization rules
 ms:assetid: bf71a218-71cd-4b64-b8e8-b3a98b6e87a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725212(v=OCS.15)

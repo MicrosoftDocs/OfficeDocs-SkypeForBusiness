@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Customize Call Park music on hold'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customize Call Park music on hold
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688031(v=OCS.15)

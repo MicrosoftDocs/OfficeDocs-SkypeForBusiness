@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enabling QoS for devices that are not based on Windows
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoS for devices that are not based on Windows
 ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)

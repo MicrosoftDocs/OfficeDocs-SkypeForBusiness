@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Restoring monitoring or archiving data'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring monitoring or archiving data
 ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)

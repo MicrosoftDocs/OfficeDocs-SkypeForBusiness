@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Dedicated meeting organizers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dedicated meeting organizers
 ms:assetid: 2f99049a-ac9a-43e3-a46d-5122b597420f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204775(v=OCS.15)

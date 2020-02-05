@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Server Media Quality Trend Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Media Quality Trend Report
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)

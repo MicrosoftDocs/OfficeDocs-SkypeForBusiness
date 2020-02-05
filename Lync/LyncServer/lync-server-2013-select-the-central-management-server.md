@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Select the Central Management Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Select the Central Management Server
 ms:assetid: 1ca6b7d0-125c-4727-aac4-2d683d23394d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204726(v=OCS.15)

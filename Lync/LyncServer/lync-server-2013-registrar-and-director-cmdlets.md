@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Registrar and Director cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Registrar and Director cmdlets
 ms:assetid: 327c08ab-7e1e-47c0-b280-a001722c116f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415641(v=OCS.15)

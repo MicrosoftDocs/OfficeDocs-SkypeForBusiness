@@ -3,6 +3,8 @@ title: 'Lync Server 2013: VideoMetricsThreshold table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoMetricsThreshold table
 ms:assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204778(v=OCS.15)

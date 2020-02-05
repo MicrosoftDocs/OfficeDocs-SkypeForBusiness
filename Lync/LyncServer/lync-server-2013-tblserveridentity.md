@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblServerIdentity'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblServerIdentity
 ms:assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558648(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test voice configuration'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test voice configuration
 ms:assetid: 574794a3-cb30-4762-bb62-3a68574f05e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725208(v=OCS.15)

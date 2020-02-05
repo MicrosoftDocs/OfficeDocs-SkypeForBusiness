@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deleting a message or purging obsolete messages'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting a message or purging obsolete messages
 ms:assetid: 3f0c612d-6dfd-41a4-a5fe-5ff3448eb0ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215874(v=OCS.15)

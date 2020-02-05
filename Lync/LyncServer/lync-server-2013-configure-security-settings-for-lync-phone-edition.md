@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure security settings for Lync Phone Edition'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure security settings for Lync Phone Edition
 ms:assetid: 6e7cec17-8a79-4428-9300-8821256c46cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521014(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Certificate summary - Single Director'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single Director
 ms:assetid: 1b769a76-cbf3-46e9-a955-f6cde5faff93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204720(v=OCS.15)

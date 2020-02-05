@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Get-CsAddressBookConfiguration for Address Book manage
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsAddressBookConfiguration for Address Book management
 ms:assetid: bd62f916-caf3-4e10-ada4-631bbb331ef1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429721(v=OCS.15)

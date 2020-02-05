@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblADUpdates'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblADUpdates
 ms:assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615033(v=OCS.15)

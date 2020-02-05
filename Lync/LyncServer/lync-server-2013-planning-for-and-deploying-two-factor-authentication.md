@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for and deploying two-factor authentication'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for and deploying two-factor authentication
 ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308563(v=OCS.15)

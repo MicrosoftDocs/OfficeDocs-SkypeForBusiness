@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Plan for Shared Line Appearance'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Shared Line Appearance
 ms:assetid: a35c83d8-f531-445b-a8d2-d5d8cec77c6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712151(v=OCS.15)

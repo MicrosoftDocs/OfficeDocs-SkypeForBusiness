@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deciding how to deploy Microsoft Lync'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deciding how to deploy Microsoft Lync
 ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Changing the Edge pool associated with a Front End poo
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changing the Edge pool associated with a Front End pool
 ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688023(v=OCS.15)

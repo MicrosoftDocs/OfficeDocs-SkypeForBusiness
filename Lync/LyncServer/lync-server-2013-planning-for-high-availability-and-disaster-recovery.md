@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for high availability and disaster recovery'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for high availability and disaster recovery
 ms:assetid: 15a72073-0336-45dd-b2a0-35e7522c6000
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204703(v=OCS.15)

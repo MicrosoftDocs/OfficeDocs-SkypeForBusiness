@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Caller ID presentation'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Caller ID presentation
 ms:assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204980(v=OCS.15)

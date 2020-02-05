@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deployment process for integrating hosted Exchange UM'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating hosted Exchange UM with Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398968(v=OCS.15)
