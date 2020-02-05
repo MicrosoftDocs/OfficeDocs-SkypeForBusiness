@@ -16,9 +16,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.TenantInMigration
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.TenantInMigration
 description: "Learn what you can and can't use in Skype for Business admin center, and other features when your service is being migrated to another Microsoft data center. "
 ---
 
