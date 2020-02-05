@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Mediation Servers and defining peers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Mediation Servers and defining peers
 ms:assetid: a684f1da-6671-4011-adf6-2db49e2528e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412780(v=OCS.15)

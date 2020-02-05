@@ -14,7 +14,7 @@ ms.collection:
 description: Learn how to upload a text file that contains a list of physical location and associated subnets to use as reporting labels for Call Analytics and Call Quality Dashboard reports.
 ms.custom: 
   - NewAdminCenter_Update
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.locations.reportinglabels.overview
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
   - ms.teamsadmincenter.locations.overview

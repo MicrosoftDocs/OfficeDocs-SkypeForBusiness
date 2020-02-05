@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Replication cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Replication cmdlets
 ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415677(v=OCS.15)

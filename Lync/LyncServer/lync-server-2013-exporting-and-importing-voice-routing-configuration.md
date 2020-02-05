@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exporting and importing voice routing configuration'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exporting and importing voice routing configuration
 ms:assetid: c9b78622-5725-43b0-9ee1-5b82b1e1c8eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398836(v=OCS.15)

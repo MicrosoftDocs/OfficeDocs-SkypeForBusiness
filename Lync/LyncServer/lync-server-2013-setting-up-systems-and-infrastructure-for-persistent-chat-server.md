@@ -3,6 +3,8 @@ title: 'Setting up systems and infrastructure for Persistent Chat Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up systems and infrastructure for Persistent Chat Server
 ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205290(v=OCS.15)

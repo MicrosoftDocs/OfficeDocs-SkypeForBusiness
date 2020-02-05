@@ -15,10 +15,11 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
-- ms.lync.lac.FeatureNotEnabled
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.FeatureNotEnabled
 description: "Find possible causes and action suggestions when you get a Skype for Business Online feature isn't enabled error. "
 ---
 

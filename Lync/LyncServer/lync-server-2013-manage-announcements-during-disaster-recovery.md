@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Manage announcements during disaster recovery'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage announcements during disaster recovery
 ms:assetid: c33e51ea-421f-42d2-826b-b73968f6bd5b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721874(v=OCS.15)

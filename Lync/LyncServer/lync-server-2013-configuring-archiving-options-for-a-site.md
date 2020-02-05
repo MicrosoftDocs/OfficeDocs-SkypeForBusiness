@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring Archiving options for a site'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options for a site
 ms:assetid: 59b48fd9-d5fc-40b4-abae-e9cf89ee5573
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204930(v=OCS.15)

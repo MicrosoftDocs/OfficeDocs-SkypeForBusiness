@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying paired Front End pools for disaster recovery
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying paired Front End pools for disaster recovery
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204773(v=OCS.15)

@@ -3,6 +3,8 @@ title: Deploy Lync Server 2013 pilot pool
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: a81aba1e-e636-434b-8c56-4150435bb55d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205144(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure dial-in conferencing access numbers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure dial-in conferencing access numbers
 ms:assetid: d8a18030-f318-43dd-834d-70e5014b5e8a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398952(v=OCS.15)

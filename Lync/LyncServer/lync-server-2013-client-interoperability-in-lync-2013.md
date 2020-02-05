@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Client interoperability in Lync 2013'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)

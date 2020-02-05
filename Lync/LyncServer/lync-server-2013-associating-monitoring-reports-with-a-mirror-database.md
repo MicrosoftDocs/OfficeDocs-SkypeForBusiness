@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Associating Monitoring Reports with a mirror database'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Associating Monitoring Reports with a mirror database
 ms:assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945624(v=OCS.15)

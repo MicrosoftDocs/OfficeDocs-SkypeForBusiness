@@ -15,7 +15,8 @@ audience: Admin
 appliesto: 
   - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: 
   - Optimization
 description: "This article provides information about using a proxy server with Skype for Business."

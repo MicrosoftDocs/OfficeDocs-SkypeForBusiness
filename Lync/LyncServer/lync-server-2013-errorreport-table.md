@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ErrorReport table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorReport table
 ms:assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412826(v=OCS.15)

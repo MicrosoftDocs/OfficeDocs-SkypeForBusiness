@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
 ms.prod: skype-for-business-itpro

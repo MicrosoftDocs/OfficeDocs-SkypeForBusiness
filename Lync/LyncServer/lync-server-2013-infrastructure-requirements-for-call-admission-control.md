@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Infrastructure requirements for call admission control
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Infrastructure requirements for call admission control
 ms:assetid: 52be8826-5796-407b-92fc-32f29a6a933c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398346(v=OCS.15)

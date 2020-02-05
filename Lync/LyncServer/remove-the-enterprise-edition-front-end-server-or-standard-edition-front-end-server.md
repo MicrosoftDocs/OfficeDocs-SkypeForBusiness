@@ -3,6 +3,8 @@ title: Remove the Enterprise Edition Front End Server or Standard Edition Front 
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
 ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688123(v=OCS.15)

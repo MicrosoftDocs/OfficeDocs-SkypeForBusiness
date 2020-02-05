@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ConferenceUris view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceUris view
 ms:assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688148(v=OCS.15)

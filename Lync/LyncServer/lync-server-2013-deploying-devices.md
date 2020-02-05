@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying devices'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying devices
 ms:assetid: 37f48fe8-e385-4279-b512-5f78a200b361
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425854(v=OCS.15)

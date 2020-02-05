@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for hybrid deployments'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)

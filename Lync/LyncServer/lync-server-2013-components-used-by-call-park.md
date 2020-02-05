@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Components used by Call Park'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Call Park
 ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398824(v=OCS.15)
