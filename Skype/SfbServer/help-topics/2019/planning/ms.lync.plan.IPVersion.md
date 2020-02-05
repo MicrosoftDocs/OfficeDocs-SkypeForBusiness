@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
 ms.prod: skype-for-business-itpro
