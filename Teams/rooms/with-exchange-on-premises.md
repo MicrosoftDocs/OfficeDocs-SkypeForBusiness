@@ -64,7 +64,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 1. [Open the Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) or [connect to your Exchange server using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. In Exchange PowerShell, crate a mailbox for the account (mailbox-enable the account)by running the following command:
+2. In Exchange PowerShell, create a mailbox for the account (mailbox-enable the account)by running the following command:
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
