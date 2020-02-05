@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Publishing the updated topology to add Archiving datab
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing the updated topology to add Archiving databases
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204860(v=OCS.15)

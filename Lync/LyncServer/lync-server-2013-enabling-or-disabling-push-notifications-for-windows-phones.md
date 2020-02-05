@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enabling or disabling push notifications for Windows P
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling push notifications for Windows Phones
 ms:assetid: a34f0c5c-4228-40e3-9d93-bc0b5df4895d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688162(v=OCS.15)

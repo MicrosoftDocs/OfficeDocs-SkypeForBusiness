@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring support for external user access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for external user access
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413051(v=OCS.15)

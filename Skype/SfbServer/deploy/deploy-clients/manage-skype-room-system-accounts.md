@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
@@ -18,7 +20,7 @@ description: "Read this topic to learn how to manage Skype Room System accounts.
 Read this topic to learn how to manage Skype Room System accounts. 
 
 > [!NOTE]
-> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> Microsoft Teams Rooms is a different product with different dependencies and deployment procedures. For information on Microsoft Teams Rooms, see the Microsoft Teams Rooms [management overview](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage).
   
 ## Move the Skype Room System account between pools
 

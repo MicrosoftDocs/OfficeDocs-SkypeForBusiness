@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS summary - Autodiscover'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Autodiscover
 ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)

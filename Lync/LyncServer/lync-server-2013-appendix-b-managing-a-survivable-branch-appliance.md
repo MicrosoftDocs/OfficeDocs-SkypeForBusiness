@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Appendix B: Managing a Survivable Branch Appliance'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
 ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)

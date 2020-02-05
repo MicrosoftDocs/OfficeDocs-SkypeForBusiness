@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Using scan results to analyze and resolve issues repor
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using scan results to analyze and resolve issues reported by Best Practices Analyzer
 ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591350(v=OCS.15)

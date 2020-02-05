@@ -14,6 +14,8 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business 
 - Microsoft Teams

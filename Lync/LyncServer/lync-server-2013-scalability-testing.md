@@ -3,6 +3,8 @@ title: Lync Server 2013 scalability testing
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scalability testing
 ms:assetid: bf41bac6-d4ec-4de6-9a44-a82d01a87279
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205226(v=OCS.15)

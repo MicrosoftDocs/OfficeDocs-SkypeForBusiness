@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: "Summary: Learn about Setup.exe command line operations in Office setup."

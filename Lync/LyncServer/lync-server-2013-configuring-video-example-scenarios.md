@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring video example scenarios'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video example scenarios
 ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)

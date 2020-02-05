@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Key security features'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)

@@ -40,7 +40,7 @@ The desktop clients provide real-time communications support (audio, video, and 
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include System Center Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
+IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).  
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.

@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "Send your users an email with their audio conferencing information in Skype for Business Online."

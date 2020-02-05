@@ -13,7 +13,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 ms.custom:
 - Calling Plans
 description: Learn how to manually submit a port order request.

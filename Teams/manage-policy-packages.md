@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams.
@@ -38,6 +38,9 @@ Teams currently includes the following policy packages.
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
 |Business voice |Creates an app setup policy that includes the apps for a business voice experience.|
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
+|Healthcare (Clinical worker)  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
+|Healthcare (Information worker)  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
+
 
 > [!NOTE]
 > We'll be adding more policy packages in future releases of Teams, so check back for the most up-to-date information.  

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Capacity and availability management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity and availability management
 ms:assetid: 207a2997-f482-4bee-892d-d2b112294481
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720325(v=OCS.15)

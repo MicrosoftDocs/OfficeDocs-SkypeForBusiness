@@ -3,6 +3,8 @@ title: 'Planning for extensible messaging and presence protocol (XMPP) federatio
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)

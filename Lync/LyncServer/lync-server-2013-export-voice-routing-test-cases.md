@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Export voice routing test cases'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export voice routing test cases
 ms:assetid: 489ac472-1a35-4755-b390-48f7cdf31e94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425957(v=OCS.15)

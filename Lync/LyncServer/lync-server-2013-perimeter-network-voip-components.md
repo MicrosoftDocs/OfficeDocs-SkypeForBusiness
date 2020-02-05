@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Perimeter network VoIP components'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Perimeter network VoIP components
 ms:assetid: 74230008-695d-436a-90b9-9cd060c70f7b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398559(v=OCS.15)

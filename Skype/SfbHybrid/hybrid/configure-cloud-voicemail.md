@@ -6,6 +6,8 @@ author: dstrome
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -31,7 +33,7 @@ Configuring Cloud Voicemail involves the following tasks:
 
 2.  Ensure that you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) as described in this article.
+3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider) as described in this article.
 
 4.  [Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.
 
@@ -40,7 +42,7 @@ Configuring Cloud Voicemail involves the following tasks:
 6.  [Enable a user for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
 
 
-## Configure Cloud Voicemail as the hosting provider on the Edge Server 
+## Configure Cloud Voicemail as the hosting provider 
 
 You configure Cloud Voicemail as the hosting provider on a Front End Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
@@ -95,7 +97,7 @@ For example, the following command assigns a non-Global hosted voicemail policy 
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## Enable a user for Cloud Voicemail

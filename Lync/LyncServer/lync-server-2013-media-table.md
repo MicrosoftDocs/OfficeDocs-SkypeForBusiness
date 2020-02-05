@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Media table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media table
 ms:assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398268(v=OCS.15)

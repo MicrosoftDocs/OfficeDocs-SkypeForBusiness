@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalRole'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalRole
 ms:assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615039(v=OCS.15)

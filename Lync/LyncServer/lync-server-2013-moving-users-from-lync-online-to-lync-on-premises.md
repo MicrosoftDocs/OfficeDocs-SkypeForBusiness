@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Moving users from Lync Online to Lync on-premises'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users from Lync Online to Lync on-premises
 ms:assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689117(v=OCS.15)

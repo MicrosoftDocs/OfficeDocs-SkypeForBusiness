@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delete a site or user policy for external user access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a site or user policy for external user access
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)

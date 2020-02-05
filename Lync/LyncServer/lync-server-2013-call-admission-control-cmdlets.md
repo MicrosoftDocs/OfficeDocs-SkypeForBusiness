@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Call admission control cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control cmdlets
 ms:assetid: dd9d3912-b562-4839-a337-bfc5277cfb62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415676(v=OCS.15)

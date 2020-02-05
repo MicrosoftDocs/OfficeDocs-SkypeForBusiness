@@ -3,6 +3,8 @@ title: Migrating XMPP federation
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating XMPP federation
 ms:assetid: b8d2b4b9-d0ed-4b48-820a-2c257fbdd2fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721861(v=OCS.15)

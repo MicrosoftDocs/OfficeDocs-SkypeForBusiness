@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assign policies to a common area phone'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign policies to a common area phone
 ms:assetid: f0554fd1-b237-49b3-9eb4-26f4b91f5604
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994082(v=OCS.15)

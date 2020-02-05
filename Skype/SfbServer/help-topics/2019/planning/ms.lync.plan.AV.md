@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro

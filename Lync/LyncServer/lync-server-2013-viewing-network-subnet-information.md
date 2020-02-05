@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Viewing network subnet information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network subnet information
 ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688044(v=OCS.15)
