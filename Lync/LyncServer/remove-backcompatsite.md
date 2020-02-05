@@ -3,6 +3,8 @@ title: Remove BackCompatSite
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove BackCompatSite
 ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204637(v=OCS.15)

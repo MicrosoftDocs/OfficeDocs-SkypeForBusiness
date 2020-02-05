@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Home users on a Survivable Branch Appliance or Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Home users on a Survivable Branch Appliance or Server
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413066(v=OCS.15)

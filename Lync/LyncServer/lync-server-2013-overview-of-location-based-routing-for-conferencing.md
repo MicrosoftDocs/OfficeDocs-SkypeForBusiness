@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of Location-Based Routing for conferencing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Location-Based Routing for conferencing
 ms:assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362815(v=OCS.15)

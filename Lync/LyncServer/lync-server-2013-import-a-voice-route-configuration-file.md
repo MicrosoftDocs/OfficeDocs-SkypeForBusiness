@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Import a voice route configuration file'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Import a voice route configuration file
 ms:assetid: 4bac05e5-ed8b-4f10-96b0-b8a65ff356ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398301(v=OCS.15)

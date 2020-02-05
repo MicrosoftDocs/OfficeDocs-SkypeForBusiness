@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Features of integrated Unified Messaging'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Features of integrated Unified Messaging and Lync Server
 ms:assetid: 094f549d-fccc-43ab-9f39-6ddd18130915
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398144(v=OCS.15)

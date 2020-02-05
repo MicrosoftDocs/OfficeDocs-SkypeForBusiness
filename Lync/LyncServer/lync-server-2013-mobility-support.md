@@ -3,6 +3,8 @@ title: Lync Server 2013 mobility support
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility support
 ms:assetid: 4a401502-9e17-40d0-a1bd-870ff1fa5b63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204858(v=OCS.15)

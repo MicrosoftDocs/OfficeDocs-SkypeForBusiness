@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deleting existing network regions'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting existing network regions
 ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721882(v=OCS.15)

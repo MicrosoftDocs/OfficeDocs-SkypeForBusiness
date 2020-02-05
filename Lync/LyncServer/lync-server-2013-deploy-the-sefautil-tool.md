@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploy the SEFAUtil tool'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy the SEFAUtil tool
 ms:assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945659(v=OCS.15)

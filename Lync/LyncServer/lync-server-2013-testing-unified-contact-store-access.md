@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing Unified Contact Store access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Edge Server disaster recovery'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edge Server disaster recovery
 ms:assetid: 05ec8d26-d167-4a6f-a966-a1f8873cf974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687960(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View trusted application information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trusted application information
 ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)

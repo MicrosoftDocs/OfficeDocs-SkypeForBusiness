@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Migration considerations for meetings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)

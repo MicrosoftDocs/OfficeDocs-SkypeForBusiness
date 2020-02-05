@@ -3,6 +3,8 @@ title: 'Lync Server 2013: QoE view details'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE view details
 ms:assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688081(v=OCS.15)

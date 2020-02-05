@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.OrgMobileNotification
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgMobileNotification
 description: "Learn how to turn mobile phone notifications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages."
 ---
 

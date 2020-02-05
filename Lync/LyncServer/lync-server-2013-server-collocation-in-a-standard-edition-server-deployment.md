@@ -3,6 +3,8 @@ title: Lync Server 2013 server collocation in a Standard Edition server deployme
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server collocation in a Standard Edition server deployment
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398131(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Glossary'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Glossary
 ms:assetid: 3d3efa39-df4a-43fc-b639-9fb10a150258
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh393341(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for private telephone lines'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for private telephone lines
 ms:assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412728(v=OCS.15)

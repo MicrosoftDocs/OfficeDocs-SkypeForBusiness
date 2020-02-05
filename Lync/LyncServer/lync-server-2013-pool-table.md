@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Pool table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Pool table
 ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398746(v=OCS.15)

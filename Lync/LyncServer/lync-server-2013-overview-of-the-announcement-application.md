@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of the Announcement application'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Announcement application
 ms:assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204757(v=OCS.15)

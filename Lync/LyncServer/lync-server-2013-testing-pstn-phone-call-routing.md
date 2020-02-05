@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing PSTN phone call routing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)

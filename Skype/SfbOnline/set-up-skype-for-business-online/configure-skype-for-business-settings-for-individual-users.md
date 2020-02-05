@@ -15,12 +15,13 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.UsersExternalAccess
-- ms.lync.lac.UsersGeneralOptions
-- ms.lync.lac.UsersLyncToPhoneMoreInfo
+- CSH
 ms.custom:
 - Setup
 - LIL_Placement
+- ms.lync.lac.UsersExternalAccess
+- ms.lync.lac.UsersGeneralOptions
+- ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: "Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. "
 ---
 
