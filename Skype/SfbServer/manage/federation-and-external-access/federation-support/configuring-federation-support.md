@@ -11,6 +11,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "If you deploy Skype for Business in your organization, you can federate with the domains of one or more Skype for Business Online customers. "
 ---
