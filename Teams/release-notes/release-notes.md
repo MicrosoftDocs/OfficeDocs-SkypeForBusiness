@@ -1,5 +1,5 @@
 ---
-title: Release notes
+title: Release notes for Microsoft Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
