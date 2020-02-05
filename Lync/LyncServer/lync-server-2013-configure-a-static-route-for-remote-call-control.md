@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure a static route for remote call control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a static route for remote call control
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615051(v=OCS.15)

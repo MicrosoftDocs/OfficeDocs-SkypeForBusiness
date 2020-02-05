@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failing back a pool'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back a pool
 ms:assetid: 6232b644-ef57-4c9c-abec-14ff8ffc9fe7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204945(v=OCS.15)

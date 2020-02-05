@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

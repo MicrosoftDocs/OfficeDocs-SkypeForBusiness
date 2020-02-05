@@ -3,6 +3,8 @@ title: 'Security and configuration prerequisites for Enterprise Voice'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security and configuration prerequisites for Enterprise Voice
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398221(v=OCS.15)

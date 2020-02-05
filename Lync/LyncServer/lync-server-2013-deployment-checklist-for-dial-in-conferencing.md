@@ -3,6 +3,8 @@ title: Lync Server 2013 deployment checklist for dial-in conferencing
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for dial-in conferencing
 ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412726(v=OCS.15)

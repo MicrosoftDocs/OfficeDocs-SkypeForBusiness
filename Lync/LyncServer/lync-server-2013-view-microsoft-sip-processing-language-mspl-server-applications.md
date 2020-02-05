@@ -3,6 +3,8 @@ title: 'View Microsoft SIP Processing Language (MSPL) server applications'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Microsoft SIP Processing Language (MSPL) server applications
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182575(v=OCS.15)

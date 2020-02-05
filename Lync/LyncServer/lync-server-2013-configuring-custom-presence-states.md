@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring custom presence states'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring custom presence states
 ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)

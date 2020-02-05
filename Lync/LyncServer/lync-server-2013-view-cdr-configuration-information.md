@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View CDR configuration information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View CDR configuration information
 ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688096(v=OCS.15)

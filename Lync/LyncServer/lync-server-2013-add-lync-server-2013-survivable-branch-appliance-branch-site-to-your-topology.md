@@ -3,6 +3,8 @@ title: 'Add Lync Server 2013 Survivable Branch Appliance branch site to your top
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Lync Server 2013 Survivable Branch Appliance branch site to your topology
 ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721896(v=OCS.15)

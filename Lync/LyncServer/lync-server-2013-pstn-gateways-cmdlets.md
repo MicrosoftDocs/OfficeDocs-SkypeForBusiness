@@ -3,6 +3,8 @@ title: 'Lync Server 2013: PSTN gateways cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateways cmdlets
 ms:assetid: 6a8aa6ea-f349-4b95-b3ce-c28d2ae0a84b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416491(v=OCS.15)

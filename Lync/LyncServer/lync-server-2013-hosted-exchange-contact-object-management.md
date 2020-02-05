@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Hosted Exchange Contact object management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange Contact object management
 ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412978(v=OCS.15)

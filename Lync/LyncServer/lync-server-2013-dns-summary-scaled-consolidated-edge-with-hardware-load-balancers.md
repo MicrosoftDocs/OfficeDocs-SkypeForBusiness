@@ -3,6 +3,8 @@ title: 'DNS summary - Scaled consolidated edge with hardware load balancers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)

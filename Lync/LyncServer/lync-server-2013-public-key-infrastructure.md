@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Public Key Infrastructure'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Public Key Infrastructure for Lync Server 2013
 ms:assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481131(v=OCS.15)

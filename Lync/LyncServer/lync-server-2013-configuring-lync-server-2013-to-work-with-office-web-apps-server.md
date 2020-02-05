@@ -3,6 +3,8 @@ title: 'Configuring Lync Server 2013 to work with Office Web Apps Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to work with Office Web Apps Server
 ms:assetid: 6231e519-9010-4ff9-b5a6-b5859c2b3e11
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204944(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring network site links'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring network site links
 ms:assetid: 7e9147ae-e727-46c8-8c1a-6c13201f09be
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521023(v=OCS.15)

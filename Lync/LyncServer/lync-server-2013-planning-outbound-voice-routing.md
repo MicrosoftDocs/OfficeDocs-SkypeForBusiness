@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning outbound voice routing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning outbound voice routing
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)

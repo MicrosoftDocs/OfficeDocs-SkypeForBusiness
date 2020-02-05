@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblFileToken'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblFileToken
 ms:assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558646(v=OCS.15)

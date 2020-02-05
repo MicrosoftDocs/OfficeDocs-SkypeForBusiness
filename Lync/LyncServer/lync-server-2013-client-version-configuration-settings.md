@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Client version configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client version configuration settings
 ms:assetid: 4e5169e1-07f0-4333-9dd1-94c570a76ea6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ884154(v=OCS.15)

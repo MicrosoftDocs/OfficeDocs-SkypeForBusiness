@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining your mobility requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your mobility requirements
 ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690039(v=OCS.15)

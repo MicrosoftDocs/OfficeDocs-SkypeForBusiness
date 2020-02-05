@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Hosted voice mail policies'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted voice mail policies
 ms:assetid: d62a35ed-cbe2-4f06-86b4-e192c18435c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398932(v=OCS.15)

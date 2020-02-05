@@ -3,6 +3,8 @@ title: Lync Server 2013 supported topologies
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported topologies
 ms:assetid: 3475d430-0394-491b-a09b-ba85bd62be70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425833(v=OCS.15)

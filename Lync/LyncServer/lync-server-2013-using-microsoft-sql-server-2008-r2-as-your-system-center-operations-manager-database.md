@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Using Microsoft SQL Server 2008 R2 as your System Cent
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)

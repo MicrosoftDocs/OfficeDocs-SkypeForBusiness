@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Dial plans and normalization rules'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial plans and normalization rules
 ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413082(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Managing the Archiving of internal and external communications'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Archiving of internal and external communications
 ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
 ms:mtpsurl: https://technet.microsoft.com/library/JJ204977(v=OCS.15)

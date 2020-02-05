@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying remote call control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying remote call control
 ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558664(v=OCS.15)

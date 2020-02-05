@@ -15,10 +15,11 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.MeetingInvitation
-- ms.teamsadmincenter.meetingsettings.invitationurls
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.MeetingInvitation
+- ms.teamsadmincenter.meetingsettings.invitationurls
 description: "Customize Skype meeting invitations with graphic logos, help and legal URLs, and footer text. "
 ---
 
