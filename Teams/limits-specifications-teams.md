@@ -54,10 +54,12 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 |---------|---------|
 |Number of people in a private chat<sup>1</sup>  | 100    |
 |Number of file attachments<sup>2</sup>  |10     |
+|size of a team message<sup>3</sup>  |28 kb     |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts.
 
 <sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
+<sup>3</sup> If you start typing a message that is reaching this limit you are not going to be able to send this chat message, there is no such limit for reactions or mentions in teams, there is a size limit because every reaction and mention will add size into the message.
 
 ### Emailing a channel
 
