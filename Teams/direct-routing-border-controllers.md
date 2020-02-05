@@ -13,6 +13,7 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+hideEdit: true
 description: "Microsoft partners with selected SBC vendors to certify their SBCs work with Direct Routing."
 ---
 
