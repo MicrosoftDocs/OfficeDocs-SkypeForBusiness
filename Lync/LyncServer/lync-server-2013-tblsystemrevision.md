@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblSystemRevision'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblSystemRevision
 ms:assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615019(v=OCS.15)

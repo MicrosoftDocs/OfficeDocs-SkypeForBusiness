@@ -3,6 +3,8 @@ title: Manage rooms
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Manage rooms
 ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205292(v=OCS.15)

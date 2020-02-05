@@ -3,6 +3,8 @@ title: Windows PowerShell cmdlets, parameters, and parameter values in Skype for
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell cmdlets, parameters, and parameter values
 ms:assetid: 04615700-099f-4ac5-a801-ddeffccb9e4f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362765(v=OCS.15)

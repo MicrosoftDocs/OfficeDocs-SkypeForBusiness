@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords: 
-- O365E_ReportsS4BActivity
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BActivity
 description: "Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. "
 ---
 

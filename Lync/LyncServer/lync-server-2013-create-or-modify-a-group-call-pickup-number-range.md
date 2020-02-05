@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create or modify a Group Call Pickup number range'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a Group Call Pickup number range
 ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945627(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Restoring a Lync Server pool'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a Lync Server pool
 ms:assetid: 6fe80fb3-38ad-4931-a07b-1763b61aa448
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202176(v=OCS.15)

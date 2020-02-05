@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Report Kerberos account assignments'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Report Kerberos account assignments
 ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398343(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Manage Group Call Pickup during disaster recovery'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Group Call Pickup during disaster recovery
 ms:assetid: 2d32f19f-c649-4a72-a4fb-edd338e3a7cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945618(v=OCS.15)

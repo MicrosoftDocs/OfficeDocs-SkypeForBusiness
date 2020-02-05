@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Archiving'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Archiving
 ms:assetid: a89edd16-12d5-4602-ad2f-194b47d1188e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205147(v=OCS.15)

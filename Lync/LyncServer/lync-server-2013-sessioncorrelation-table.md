@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SessionCorrelation table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionCorrelation table
 ms:assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398091(v=OCS.15)

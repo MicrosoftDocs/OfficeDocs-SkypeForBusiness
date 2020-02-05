@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Lync Windows Store app'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync Windows Store app
 ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ822971(v=OCS.15)

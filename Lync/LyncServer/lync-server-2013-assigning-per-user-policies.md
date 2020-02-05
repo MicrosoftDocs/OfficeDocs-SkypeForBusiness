@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Assigning per-user policies'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assigning per-user policies
 ms:assetid: a4ed0120-d9e5-4eb2-acfd-8de2cb503652
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182561(v=OCS.15)

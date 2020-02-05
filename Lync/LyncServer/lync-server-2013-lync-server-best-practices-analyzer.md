@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Server Best Practices Analyzer'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Best Practices Analyzer
 ms:assetid: 3124be9d-ad21-4a70-9c21-d2fc1adb3386
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558584(v=OCS.15)

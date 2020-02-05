@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test admin topology rights'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin topology rights
 ms:assetid: 0c03b7fd-449a-47ad-8263-ce811164cbce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767943(v=OCS.15)

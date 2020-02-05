@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Replacing the XmlAdapter with a customized Persistent 
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ680106(v=OCS.15)

@@ -3,6 +3,8 @@ title: Lync Server 2013 voice support
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice support
 ms:assetid: d151caa8-2ee4-4bfa-be53-428570aae1ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398896(v=OCS.15)

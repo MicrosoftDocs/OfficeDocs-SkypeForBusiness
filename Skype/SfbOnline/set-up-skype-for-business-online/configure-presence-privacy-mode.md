@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords: 
-- ms.lync.lac.OrgPresencePrivacy
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgPresencePrivacy
 description: "Learn how to set up privacy mode for your users so they can better control how people see their availability. "
 ---
 

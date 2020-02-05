@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Daily tasks'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Daily tasks
 ms:assetid: f7a5f99e-5d2b-445d-9ba1-cbfcfeff16ae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720351(v=OCS.15)

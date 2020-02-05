@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Voice normalization rules cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice normalization rules cmdlets
 ms:assetid: 8d500ccb-318b-4bb3-87fe-63bff4d8d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415662(v=OCS.15)

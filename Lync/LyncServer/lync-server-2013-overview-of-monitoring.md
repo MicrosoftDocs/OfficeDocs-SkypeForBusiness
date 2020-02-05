@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of monitoring'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of monitoring
 ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204937(v=OCS.15)

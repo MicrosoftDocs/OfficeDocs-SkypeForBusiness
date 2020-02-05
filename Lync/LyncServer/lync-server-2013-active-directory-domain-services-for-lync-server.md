@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Active Directory Domain Services for Lync Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services for Lync Server 2013
 ms:assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481129(v=OCS.15)

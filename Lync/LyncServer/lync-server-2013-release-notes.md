@@ -3,6 +3,8 @@ title: Lync Server 2013 release notes
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Release notes
 ms:assetid: 9f9e864c-3365-4800-803c-5289bd8fd363
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205120(v=OCS.15)
