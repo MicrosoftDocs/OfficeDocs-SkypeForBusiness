@@ -53,6 +53,9 @@ If users are working on a domain-joined computer (for example, if their tenant h
 ## Signing out of Microsoft Teams after completing modern authentication
 To sign out of Teams, users can click their profile picture at the top of the app, and then select **Sign out**. They can also right-click the app icon in their taskbar, and then select **Log out**. Once they've sign out of Teams, they need to enter their credentials again to launch the app.
 
+## URLs and IP address ranges
+Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government and other clouds, please read the [guidance available here](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges). In addition to this, you'd need to also allow access to https://ssl.gstatic.com.
+
 ## Troubleshooting modern authentication
 
 Modern authentication is available for every organization that uses Teams, so if users are not able to complete the process, there might be something wrong with your domain or your organization's Office 365 Enterprise account. 
