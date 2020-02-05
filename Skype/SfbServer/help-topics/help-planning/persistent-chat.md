@@ -8,6 +8,8 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.PersistentChat
 - ms.lync.plan.PersistentChat
 ms.prod: skype-for-business-itpro
