@@ -56,8 +56,10 @@ You can use the Microsoft Teams admin center to create a custom policy.
 4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams. You won't be able to change this setting if **Allow third-party apps** is turned off in [org-wide app settings](teams-app-permission-policies.md#manage-org-wide-app-settings) in app permission policies.
 5. Turn on or turn off **Allow user pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
 6. To preinstall apps for your users, do the following:
-    1. Under **Preinstalled apps**, click **Add apps**. 
+
+    1. Under **Preinstalled apps**, click **Add apps**.
     2. 
+
 7. To add pinned apps, do the following:
 
     1. Under **Pinned apps**, click **Add apps**.
