@@ -3,6 +3,8 @@ title: Deploying a SQL Server nonstandard port and alias in Lync Server 2013
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying a SQL Server nonstandard port and alias in Lync Server 2013
 ms:assetid: 2da92c1f-250e-407a-8651-fb2aec76aeb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn776290(v=OCS.15)

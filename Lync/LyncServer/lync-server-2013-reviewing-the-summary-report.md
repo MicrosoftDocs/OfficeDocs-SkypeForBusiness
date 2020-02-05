@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Reviewing the Summary Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Summary Report
 ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)

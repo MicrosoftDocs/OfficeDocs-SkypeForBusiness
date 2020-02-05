@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing database configuration'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)

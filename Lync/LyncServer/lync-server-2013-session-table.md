@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Session table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Session table
 ms:assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398635(v=OCS.15)

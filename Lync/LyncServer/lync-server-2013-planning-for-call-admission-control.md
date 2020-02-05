@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for call admission control'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for call admission control (CAC)
 ms:assetid: ca367138-adf5-4119-bc40-5ddf335ed22f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398842(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Certificate summary - Public instant messaging connect
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Public instant messaging connectivity
 ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618370(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring voice routes for outbound calls'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring voice routes for outbound calls
 ms:assetid: 3c182cdd-7a4a-4a9d-bdac-4199f0abd947
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425890(v=OCS.15)

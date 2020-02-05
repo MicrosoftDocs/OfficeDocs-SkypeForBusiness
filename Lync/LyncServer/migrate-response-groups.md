@@ -3,6 +3,8 @@ title: Migrate response groups
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate response groups
 ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204854(v=OCS.15)

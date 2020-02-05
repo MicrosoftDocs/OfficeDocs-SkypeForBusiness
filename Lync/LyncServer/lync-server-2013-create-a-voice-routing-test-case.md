@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create a voice routing test case'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a voice routing test case
 ms:assetid: 43a07a5b-2f20-462a-81e5-d628c18391e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425935(v=OCS.15)

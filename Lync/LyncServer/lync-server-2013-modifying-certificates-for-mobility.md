@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Modifying certificates for mobility'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modifying certificates for mobility
 ms:assetid: 4e9107af-20f4-4c2a-8c98-ca35b39a4e2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690015(v=OCS.15)

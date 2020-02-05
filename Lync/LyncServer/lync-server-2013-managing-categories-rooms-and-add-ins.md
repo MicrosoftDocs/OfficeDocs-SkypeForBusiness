@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing categories, rooms, and add-ins'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing categories, rooms, and add-ins
 ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)

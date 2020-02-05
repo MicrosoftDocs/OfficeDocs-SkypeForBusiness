@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Install Lync Server on the Director'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server 2013 on the Director
 ms:assetid: 0e42803d-4160-4824-a107-a7086a75c534
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398183(v=OCS.15)

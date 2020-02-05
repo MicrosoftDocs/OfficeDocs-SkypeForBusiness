@@ -3,6 +3,8 @@ title: 'Restoring a mirrored Enterprise Edition Back End Server - mirror'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - mirror
 ms:assetid: 4b3c8eae-6f1f-4377-b39b-6699e725c517
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945626(v=OCS.15)

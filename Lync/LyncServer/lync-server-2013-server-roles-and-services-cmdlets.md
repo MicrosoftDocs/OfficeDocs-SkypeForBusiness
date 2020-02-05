@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Server roles and services cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server roles and services cmdlets
 ms:assetid: ff3561de-043e-4071-88f7-8de3cded52f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415683(v=OCS.15)

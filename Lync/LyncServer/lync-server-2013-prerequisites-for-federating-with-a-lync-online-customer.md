@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Prerequisites for federating with a Lync Online custom
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for federating with a Lync Online customer
 ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202196(v=OCS.15)

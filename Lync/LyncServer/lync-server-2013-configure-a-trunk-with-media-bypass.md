@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure a trunk with media bypass'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trunk with media bypass
 ms:assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398792(v=OCS.15)

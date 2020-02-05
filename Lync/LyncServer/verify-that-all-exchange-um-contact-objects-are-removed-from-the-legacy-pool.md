@@ -3,6 +3,8 @@ title: Verify that all Exchange UM Contact objects are removed from the legacy p
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
 ms:assetid: 5a813169-0ed7-4f84-a242-ed2cd4ea5c43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688068(v=OCS.15)

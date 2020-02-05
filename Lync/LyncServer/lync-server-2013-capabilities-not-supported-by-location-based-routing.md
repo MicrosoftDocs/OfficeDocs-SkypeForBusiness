@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Capabilities not supported by Location-Based Routing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capabilities not supported by Location-Based Routing
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
