@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create a new file transfer filter for a specific site'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new file transfer filter for a specific site
 ms:assetid: d0006487-5217-491c-b730-e6c551cd9825
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182589(v=OCS.15)

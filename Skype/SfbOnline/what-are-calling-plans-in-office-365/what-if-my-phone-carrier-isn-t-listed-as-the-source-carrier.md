@@ -17,9 +17,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderDetailPanelWhois
 description: "Learn what to do if your carrier isn't listed in Skype for Business. "
 ---
 

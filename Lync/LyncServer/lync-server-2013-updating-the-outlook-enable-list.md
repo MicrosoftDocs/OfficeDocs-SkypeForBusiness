@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Updating the Outlook enable list'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Updating the Outlook enable list
 ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215438(v=OCS.15)

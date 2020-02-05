@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Prevent sessions for services'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prevent sessions for services
 ms:assetid: 977dcc5c-2aac-48ef-86a1-a8d47b4d9e74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182553(v=OCS.15)

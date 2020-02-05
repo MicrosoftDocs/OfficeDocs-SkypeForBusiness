@@ -3,6 +3,8 @@ title: Prepare Active Directory for Lync Server
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Prepare Active Directory for Lync Server
 ms:assetid: 54cd597d-0c2d-479c-8c52-1babc53f71dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688059(v=OCS.15)

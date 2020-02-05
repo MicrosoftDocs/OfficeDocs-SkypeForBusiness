@@ -3,6 +3,8 @@ title: 'Testing civic addresses against the master street address guide'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690132(v=OCS.15)

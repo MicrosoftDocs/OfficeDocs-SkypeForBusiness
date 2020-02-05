@@ -3,6 +3,8 @@ title: Configuring Lync Server 2013 to use Microsoft Exchange Server 2013 archiv
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to use Exchange Server 2013 archiving
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679896(v=OCS.15)

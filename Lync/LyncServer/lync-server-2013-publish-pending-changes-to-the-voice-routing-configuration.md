@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Publish pending changes to the voice routing configura
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish pending changes to the voice routing configuration
 ms:assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413088(v=OCS.15)

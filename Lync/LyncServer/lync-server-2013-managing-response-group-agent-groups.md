@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing Response Group agent groups'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Response Group agent groups
 ms:assetid: 36084cdc-38f1-4c45-922f-f81c7e86210c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520976(v=OCS.15)

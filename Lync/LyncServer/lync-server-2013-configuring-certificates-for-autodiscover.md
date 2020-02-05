@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring certificates for Autodiscover'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring certificates for Autodiscover
 ms:assetid: 1842191d-df9a-41e0-9286-08c25f9b5dca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945617(v=OCS.15)

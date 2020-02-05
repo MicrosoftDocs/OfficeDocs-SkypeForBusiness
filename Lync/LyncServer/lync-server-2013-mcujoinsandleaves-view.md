@@ -3,6 +3,8 @@ title: 'Lync Server 2013: McuJoinsAndLeaves view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: McuJoinsAndLeaves view
 ms:assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688088(v=OCS.15)

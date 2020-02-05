@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Issues with the topology test'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Issues with the topology test
 ms:assetid: 821e8916-7b5d-4f64-8fb0-e5cc392ec1bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205045(v=OCS.15)

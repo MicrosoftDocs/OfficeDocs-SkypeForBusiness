@@ -3,6 +3,8 @@ title: Run Best Practices Analyzer
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run Best Practices Analyzer
 ms:assetid: 1392ef69-d4fe-45cc-9890-8e8d565df2ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204694(v=OCS.15)

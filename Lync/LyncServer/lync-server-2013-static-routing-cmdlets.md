@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Static routing cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Static routing cmdlets
 ms:assetid: 71d5e0cd-8412-4383-818a-95b851a4da4b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416492(v=OCS.15)

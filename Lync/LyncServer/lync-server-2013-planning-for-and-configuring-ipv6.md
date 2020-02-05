@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for and configuring IPv6'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for and configuring IPv6
 ms:assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204624(v=OCS.15)

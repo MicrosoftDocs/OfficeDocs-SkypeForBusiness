@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing Lync Server services'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Lync Server services
 ms:assetid: b564b450-a746-4ec9-aabb-e076309ccd5f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689119(v=OCS.15)

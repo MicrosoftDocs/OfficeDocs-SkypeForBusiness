@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuration management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
 ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)

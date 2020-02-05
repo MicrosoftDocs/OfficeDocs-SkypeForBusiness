@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View Edge Server settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Edge Server settings
 ms:assetid: 684154cc-cffc-4d2e-8baa-be52c625e5d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747890(v=OCS.15)

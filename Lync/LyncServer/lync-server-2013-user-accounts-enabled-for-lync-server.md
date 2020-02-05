@@ -3,6 +3,8 @@ title: 'Lync Server 2013: User accounts enabled for Lync Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User accounts enabled for Lync Server 2013
 ms:assetid: 8021087e-5084-4a39-9fef-ab9376c6d371
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182543(v=OCS.15)

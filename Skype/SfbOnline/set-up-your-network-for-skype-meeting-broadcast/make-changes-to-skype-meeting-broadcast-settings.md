@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.BroadcastMeetings
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetings
 description: "You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings."
 ---
 

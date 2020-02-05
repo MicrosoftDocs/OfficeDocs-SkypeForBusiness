@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing Lync Client authentication'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Lync Client authentication
 ms:assetid: e22114cb-4456-4e5f-93ab-51592c4a8209
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689120(v=OCS.15)

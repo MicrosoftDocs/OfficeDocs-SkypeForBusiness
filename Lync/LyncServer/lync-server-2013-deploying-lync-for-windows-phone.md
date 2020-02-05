@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying Lync for Windows Phone'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync for Windows Phone
 ms:assetid: b8161a96-16c2-40cf-bb9d-cdb9086642d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690992(v=OCS.15)

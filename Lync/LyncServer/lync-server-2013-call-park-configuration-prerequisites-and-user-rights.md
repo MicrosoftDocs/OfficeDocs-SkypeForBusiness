@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Call Park configuration prerequisites and user rights'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Park configuration prerequisites and user rights
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425730(v=OCS.15)

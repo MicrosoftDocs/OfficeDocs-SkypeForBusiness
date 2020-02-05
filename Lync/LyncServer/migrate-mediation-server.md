@@ -3,6 +3,8 @@ title: Migrate Mediation Server
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Mediation Server
 ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205173(v=OCS.15)
