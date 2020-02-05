@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing the Lync Server 2013 network infrastructure'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Lync Server 2013 network infrastructure
 ms:assetid: cb13456a-8f66-4595-be21-8887f30ad4eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182585(v=OCS.15)

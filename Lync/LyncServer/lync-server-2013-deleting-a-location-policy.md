@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deleting a location policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting a location policy
 ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688125(v=OCS.15)

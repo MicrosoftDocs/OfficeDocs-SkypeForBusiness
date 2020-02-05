@@ -3,6 +3,8 @@ title: 'Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail
 ms:assetid: 9673bd73-a3a3-425d-870f-04d801c6d0d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398768(v=OCS.15)

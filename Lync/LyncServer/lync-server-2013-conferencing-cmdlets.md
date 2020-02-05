@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conferencing cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)

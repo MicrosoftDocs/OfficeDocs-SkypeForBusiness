@@ -3,6 +3,8 @@ title: 'IIS requirements for Front End pools and Standard Edition servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IIS requirements for Front End pools and Standard Edition servers
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)

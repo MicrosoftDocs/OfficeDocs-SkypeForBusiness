@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing network bandwidth policy profiles'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing network bandwidth policy profiles
 ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721867(v=OCS.15)

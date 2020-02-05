@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure federation support for a Lync Online domain'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation support for a Lync Online domain
 ms:assetid: 19d5d5be-cd7f-47b8-b6c5-651a3191def7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202166(v=OCS.15)

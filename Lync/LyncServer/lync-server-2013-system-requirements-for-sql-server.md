@@ -3,6 +3,8 @@ title: 'Lync Server 2013: System requirements for SQL Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for SQL Server
 ms:assetid: 9c235085-cbfa-4e9e-9cec-3f5749039a6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205112(v=OCS.15)

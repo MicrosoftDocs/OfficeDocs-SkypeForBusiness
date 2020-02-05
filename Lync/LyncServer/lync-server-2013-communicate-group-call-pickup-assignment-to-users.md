@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Communicate Group Call Pickup assignment to users'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Communicate Group Call Pickup assignment to users
 ms:assetid: f878e6ae-0f2a-4aa2-afb0-5e82eeaeeeef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945658(v=OCS.15)

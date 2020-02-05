@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Standard procedures'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Standard procedures
 ms:assetid: 1b45d610-9840-4568-89e5-004ba31a15cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720323(v=OCS.15)

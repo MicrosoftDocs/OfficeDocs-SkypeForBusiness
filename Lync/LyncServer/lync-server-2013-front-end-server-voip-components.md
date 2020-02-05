@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Front End Server VoIP components'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End Server VoIP components
 ms:assetid: 310e81a7-da45-47d4-95d0-92837e386502
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425812(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SIPResponseMetaData table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SIPResponseMetaData table
 ms:assetid: cf723737-4a75-4352-829b-f4954aa59716
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205294(v=OCS.15)

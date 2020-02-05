@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing Response Group queues'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Response Group queues
 ms:assetid: 1e91720c-ab67-4dfb-b30c-0ef2a8012310
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520960(v=OCS.15)

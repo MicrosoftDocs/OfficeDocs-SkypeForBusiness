@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Creating an Archiving policy to enable or disable Arch
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating an Archiving policy to enable or disable Archiving of internal or external communications for specific sites or users
 ms:assetid: 5864793a-ba72-470c-bb5b-9fb41e968896
 ms:mtpsurl: https://technet.microsoft.com/library/Gg398385(v=OCS.15)

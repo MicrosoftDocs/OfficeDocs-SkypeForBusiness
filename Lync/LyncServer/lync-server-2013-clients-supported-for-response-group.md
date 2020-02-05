@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clients supported for Response Group'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Response Group
 ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)

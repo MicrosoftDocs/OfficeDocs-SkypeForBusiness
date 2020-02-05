@@ -17,9 +17,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderFinish
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderFinish
 description: "See what you need to do next after you've ported your phone numbers to Skype for Business."
 ---
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Monthly tasks'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monthly tasks
 ms:assetid: d991f894-f15b-4596-b305-a08a2f6aa296
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720350(v=OCS.15)

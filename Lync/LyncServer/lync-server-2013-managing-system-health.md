@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing system health'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing system health
 ms:assetid: b7d653ff-0b7a-4d27-97e8-63f87c9be62f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412897(v=OCS.15)

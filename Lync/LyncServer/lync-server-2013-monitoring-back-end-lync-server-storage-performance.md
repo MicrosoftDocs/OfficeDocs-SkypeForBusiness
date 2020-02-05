@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Monitoring back end Lync Server storage performance'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)

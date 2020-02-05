@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Customizing the XSLT definition file'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customizing the XSLT definition file
 ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
