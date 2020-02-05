@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Back End Server high availability'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Back End Server high availability
 ms:assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205248(v=OCS.15)

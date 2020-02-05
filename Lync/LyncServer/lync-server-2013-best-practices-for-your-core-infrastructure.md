@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Best practices for your core infrastructure'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for your core infrastructure in Lync Server 2013
 ms:assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518328(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requirements for unified contact store'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for unified contact store
 ms:assetid: dab47e4d-6fc7-47a8-aefd-1499bf0d8c89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205317(v=OCS.15)

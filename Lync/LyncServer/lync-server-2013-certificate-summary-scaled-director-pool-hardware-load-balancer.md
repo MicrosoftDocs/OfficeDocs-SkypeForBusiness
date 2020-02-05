@@ -3,6 +3,8 @@ title: 'Certificate summary - Scaled Director pool, hardware load balancer'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Scaled Director pool, hardware load balancer
 ms:assetid: 45940add-8027-418d-b79a-9033b494762f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204846(v=OCS.15)

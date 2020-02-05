@@ -3,6 +3,8 @@ title: 'DNS summary - Single consolidated edge with public IP addresses'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with public IP addresses
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205025(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delete Device Update log files'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete Device Update log files
 ms:assetid: 58d4097f-5bbf-4824-a04d-2a6555cd93c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994039(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure SQL Server clustering'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SQL Server clustering
 ms:assetid: d7b52ef1-573c-48ed-bb94-34e37b49645c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383982(v=OCS.15)

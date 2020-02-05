@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enforce phone locking'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enforce phone locking
 ms:assetid: 1f89298b-aea9-4952-93ca-0270b565792b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520963(v=OCS.15)

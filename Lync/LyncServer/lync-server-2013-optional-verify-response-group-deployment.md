@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Optional) Verify Response Group deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Verify Response Group deployment
 ms:assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687989(v=OCS.15)

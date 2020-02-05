@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for Front End pool pairing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Front End pool pairing
 ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)

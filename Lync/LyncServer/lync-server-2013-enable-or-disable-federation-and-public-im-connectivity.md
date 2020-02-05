@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable or disable federation and public IM connectivit
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)

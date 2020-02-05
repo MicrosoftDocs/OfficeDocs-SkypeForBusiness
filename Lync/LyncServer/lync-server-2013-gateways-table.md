@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Gateways table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Gateways table
 ms:assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412795(v=OCS.15)

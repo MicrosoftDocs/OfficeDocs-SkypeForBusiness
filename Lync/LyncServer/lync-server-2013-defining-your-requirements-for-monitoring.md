@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining your requirements for monitoring'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organizations's requirements for monitoring
 ms:assetid: d587ff04-9af6-4ac1-ad42-076e7a40ac75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205284(v=OCS.15)

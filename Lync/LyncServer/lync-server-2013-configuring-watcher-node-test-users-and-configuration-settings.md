@@ -3,6 +3,8 @@ title: 'Configuring watcher node test users and configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)

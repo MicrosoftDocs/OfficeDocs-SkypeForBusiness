@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring authentication in the Lync Server Control 
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring authentication in the Lync Server Control Panel
 ms:assetid: ceede642-a6cb-4916-8731-e34ac42394e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182588(v=OCS.15)

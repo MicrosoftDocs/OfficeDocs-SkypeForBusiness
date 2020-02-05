@@ -16,10 +16,11 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.DashboardOrganizationInformation
-- ms.lync.lac.DashboardUserStatistics
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.DashboardOrganizationInformation
+- ms.lync.lac.DashboardUserStatistics
 description: "Learn what Skype for business user statistics are available, such as the number of enabled users, conference enabled users, or users that are enabled for Office 365."
 ---
 

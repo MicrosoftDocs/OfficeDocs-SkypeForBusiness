@@ -3,6 +3,8 @@ title: 'Synchronize a Kerberos authentication account password to IIS'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Synchronize a Kerberos authentication account password to IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398107(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring scenarios for the Centralized Logging Serv
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)

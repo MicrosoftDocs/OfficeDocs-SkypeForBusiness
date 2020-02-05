@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requirements for Location-Based Routing for conferenci
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for Location-Based Routing for conferencing
 ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362806(v=OCS.15)

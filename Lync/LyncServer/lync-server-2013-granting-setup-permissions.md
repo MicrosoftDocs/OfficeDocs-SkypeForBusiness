@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Granting setup permissions'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting setup permissions
 ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398225(v=OCS.15)

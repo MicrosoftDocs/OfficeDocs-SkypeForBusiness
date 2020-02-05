@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Providing PSTN connectivity at a branch site'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing PSTN connectivity at a branch site
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)

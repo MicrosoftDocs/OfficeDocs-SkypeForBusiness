@@ -3,6 +3,8 @@ title: Run backward compatibility for Persistent Chat Server
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
 ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204901(v=OCS.15)

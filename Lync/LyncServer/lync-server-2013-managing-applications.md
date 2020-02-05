@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing applications'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing applications
 ms:assetid: 34d8bbd0-3010-4b5e-8846-7ae7a0753cbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688019(v=OCS.15)

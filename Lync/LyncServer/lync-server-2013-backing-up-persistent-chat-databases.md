@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Backing up Persistent Chat databases'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up Persistent Chat databases
 ms:assetid: b99ebdc0-a025-44d7-9d74-37a7365f330d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945646(v=OCS.15)

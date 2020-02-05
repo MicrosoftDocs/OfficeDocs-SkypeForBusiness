@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Creating or editing a new room'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or editing a new room
 ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215880(v=OCS.15)

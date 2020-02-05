@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Disaster recovery test'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disaster recovery test
 ms:assetid: 04f5e747-d837-4350-9fc0-8605dbf025a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747887(v=OCS.15)

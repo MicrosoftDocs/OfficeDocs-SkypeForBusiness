@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Security checks'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security checks
 ms:assetid: 053c099f-a078-4121-bfe0-3fe5ef110b79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725205(v=OCS.15)

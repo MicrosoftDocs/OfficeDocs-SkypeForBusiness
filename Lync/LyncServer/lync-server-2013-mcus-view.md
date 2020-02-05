@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Mcus view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mcus view
 ms:assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688127(v=OCS.15)

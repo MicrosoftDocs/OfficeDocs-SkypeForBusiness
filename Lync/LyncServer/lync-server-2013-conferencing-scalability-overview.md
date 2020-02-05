@@ -3,6 +3,8 @@ title: Lync Server 2013 conferencing scalability overview
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Lync Server 2013 conferencing scalability
 ms:assetid: 12da650b-4361-4487-91cb-1a2e9a0a7e19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204687(v=OCS.15)

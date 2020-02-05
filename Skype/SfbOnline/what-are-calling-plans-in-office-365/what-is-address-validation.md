@@ -15,9 +15,10 @@ appliesto:
 - Skype for Business 
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CivicAddressValidation
+- CSH
 ms.custom:
 - Calling Plans 
+- ms.lync.lac.CivicAddressValidation
 description: "Learn what address validation is, why it's important, and how it relates to emergency addresses and services. "
 ---
 

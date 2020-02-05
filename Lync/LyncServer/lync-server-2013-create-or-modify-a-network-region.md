@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create or modify a network region'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a network region
 ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412933(v=OCS.15)

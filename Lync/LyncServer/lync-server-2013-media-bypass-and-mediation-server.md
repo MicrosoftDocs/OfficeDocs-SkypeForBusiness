@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Media bypass and Mediation Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass and Mediation Server
 ms:assetid: 8ed35f95-05cd-4b5d-8470-442d2323df71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398719(v=OCS.15)

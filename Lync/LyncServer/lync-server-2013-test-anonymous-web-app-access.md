@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test anonymous Web App access'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test anonymous Web App access
 ms:assetid: 92f691cd-e05e-4bab-beb5-251d4b837a19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767949(v=OCS.15)
