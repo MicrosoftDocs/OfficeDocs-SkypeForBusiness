@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: "Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment."

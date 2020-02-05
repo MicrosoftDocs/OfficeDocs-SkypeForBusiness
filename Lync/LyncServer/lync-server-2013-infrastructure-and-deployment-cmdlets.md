@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Infrastructure and deployment cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Infrastructure and deployment cmdlets
 ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)

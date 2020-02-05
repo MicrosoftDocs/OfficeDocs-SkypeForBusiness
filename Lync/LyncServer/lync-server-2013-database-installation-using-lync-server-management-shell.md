@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Database installation using Lync Server Management She
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Database installation using Lync Server Management Shell
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398832(v=OCS.15)

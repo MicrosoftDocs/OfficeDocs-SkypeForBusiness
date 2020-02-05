@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ProgressReport table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ProgressReport table
 ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425864(v=OCS.15)

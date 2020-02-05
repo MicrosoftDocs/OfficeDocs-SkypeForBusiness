@@ -3,6 +3,8 @@ title: 'Lync Server 2013: System requirements for external user access component
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for external user access components
 ms:assetid: 4139b9a5-5b98-42a8-bfcc-6b371f1980db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425919(v=OCS.15)

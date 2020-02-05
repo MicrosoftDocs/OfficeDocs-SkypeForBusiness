@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Call Park application cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Park application cmdlets
 ms:assetid: 30cc001f-b29e-4d44-bad7-65e1133e67b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415639(v=OCS.15)

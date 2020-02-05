@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Providing Lync Server users voice mail on hosted Excha
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing Lync Server 2013 users voice mail on hosted Exchange UM
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425807(v=OCS.15)

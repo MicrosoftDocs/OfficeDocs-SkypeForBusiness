@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for Enterprise Voice'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Enterprise Voice
 ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)

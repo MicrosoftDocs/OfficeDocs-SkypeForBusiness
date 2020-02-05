@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Mobile client deployment process'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client deployment process
 ms:assetid: 6498235b-2fa9-421d-bfa0-0ccc09508dbd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690982(v=OCS.15)

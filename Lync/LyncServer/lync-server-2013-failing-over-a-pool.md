@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failing over a pool'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over a pool
 ms:assetid: 10b13732-bc80-4cb2-a71c-56b1d6cb5bbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204678(v=OCS.15)

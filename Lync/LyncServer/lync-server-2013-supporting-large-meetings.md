@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Supporting large meetings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supporting large meetings using Lync Server
 ms:assetid: 509a424f-a33d-4e72-8f87-a3ec7bb1ddeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204894(v=OCS.15)

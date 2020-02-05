@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Servers table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Servers table
 ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398223(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparing domains'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing domains
 ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398721(v=OCS.15)

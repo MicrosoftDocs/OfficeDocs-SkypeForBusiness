@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delete a PIN policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a PIN policy
 ms:assetid: 7c378927-2e41-418e-9721-327021bd2e45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521020(v=OCS.15)

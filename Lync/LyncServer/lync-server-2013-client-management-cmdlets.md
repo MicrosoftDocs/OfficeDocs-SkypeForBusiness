@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Client management cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client management cmdlets
 ms:assetid: 0384f8ab-453d-49d6-aaa7-52439e27b7e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398087(v=OCS.15)

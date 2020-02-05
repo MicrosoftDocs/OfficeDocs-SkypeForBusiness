@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Change management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)

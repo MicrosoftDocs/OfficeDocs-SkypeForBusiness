@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning and deploying unified contact store'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning and deploying unified contact store
 ms:assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205283(v=OCS.15)

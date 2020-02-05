@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Creating or modifying a location policy'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying a location policy
 ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687971(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resetting or deleting external user access policies'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Resetting or deleting external user access policies
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521003(v=OCS.15)

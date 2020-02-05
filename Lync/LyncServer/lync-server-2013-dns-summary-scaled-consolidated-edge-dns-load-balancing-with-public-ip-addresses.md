@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS summary - Scaled consolidated edge, DNS load balan
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205319(v=OCS.15)

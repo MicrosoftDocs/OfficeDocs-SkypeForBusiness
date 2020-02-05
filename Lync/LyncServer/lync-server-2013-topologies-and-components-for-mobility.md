@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologies and components for mobility'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for mobility
 ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)

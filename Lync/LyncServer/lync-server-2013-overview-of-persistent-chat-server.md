@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Overview of Persistent Chat Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Persistent Chat Server
 ms:assetid: 23f7c886-304d-495a-ae70-3cbb44241acd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425717(v=OCS.15)

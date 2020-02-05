@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Large-meeting scheduling process'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Large-meeting scheduling process
 ms:assetid: de267458-885f-4176-a8d7-1a218e67640e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205334(v=OCS.15)
