@@ -3,6 +3,8 @@ title: 'Lync Server 2013: MonitoredRegionLink table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MonitoredRegionLink table
 ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398874(v=OCS.15)

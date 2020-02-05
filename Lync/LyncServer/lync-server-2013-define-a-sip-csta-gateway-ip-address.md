@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Define a SIP/CSTA gateway IP address'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a SIP/CSTA gateway IP address
 ms:assetid: ae944057-3ad6-4474-a09b-81a3d27bd50f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg602125(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Interoperability considerations for video conferencing
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Interoperability considerations for video conferencing
 ms:assetid: 31ead3b5-ed95-42d4-96e2-7d9403d5c026
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204790(v=OCS.15)

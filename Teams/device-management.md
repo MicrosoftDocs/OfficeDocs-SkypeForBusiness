@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.managedevices.overview
   - ms.teamsadmincenter.devicemanagement.overview
 description: Learn how to manage devices used with Teams in your organization.

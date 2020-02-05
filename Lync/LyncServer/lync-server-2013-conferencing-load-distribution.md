@@ -3,6 +3,8 @@ title: Lync Server 2013 conferencing load distribution
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing load distribution
 ms:assetid: 5901a076-1b6f-4720-8837-95fc7f3c37f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204922(v=OCS.15)

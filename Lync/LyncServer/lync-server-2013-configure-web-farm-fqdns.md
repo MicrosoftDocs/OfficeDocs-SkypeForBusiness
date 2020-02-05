@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure web farm FQDNs'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web farm FQDNs
 ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429722(v=OCS.15)

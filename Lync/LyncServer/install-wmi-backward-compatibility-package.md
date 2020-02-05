@@ -3,6 +3,8 @@ title: Install WMI Backward Compatibility package
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Install WMI Backward Compatibility package
 ms:assetid: 38797fbd-06a0-4008-b099-158e7b5d7703
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204816(v=OCS.15)

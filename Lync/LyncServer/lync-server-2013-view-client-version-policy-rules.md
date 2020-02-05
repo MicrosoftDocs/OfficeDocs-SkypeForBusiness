@@ -3,6 +3,8 @@ title: 'Lync Server 2013: View client version policy rules'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View client version policy rules
 ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923060(v=OCS.15)

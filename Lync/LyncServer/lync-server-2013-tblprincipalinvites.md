@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalInvites'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalInvites
 ms:assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558650(v=OCS.15)

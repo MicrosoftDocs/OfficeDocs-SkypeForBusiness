@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing Call Park'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Call Park
 ms:assetid: 9554cdf6-8e7c-48c8-94dd-f28e2befefdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688140(v=OCS.15)

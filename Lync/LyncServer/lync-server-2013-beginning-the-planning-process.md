@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Beginning the planning process'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Beginning the planning process
 ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398986(v=OCS.15)

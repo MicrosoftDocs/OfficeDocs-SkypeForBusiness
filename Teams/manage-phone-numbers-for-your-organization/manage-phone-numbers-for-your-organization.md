@@ -16,7 +16,7 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
   - ms.teamsadmincenter.voice.phonenumbers.overview
   - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
   - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket

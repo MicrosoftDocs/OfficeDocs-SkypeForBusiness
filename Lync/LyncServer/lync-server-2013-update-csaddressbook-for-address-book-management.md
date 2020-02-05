@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Update-CsAddressBook for Address Book management'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Update-CsAddressBook for Address Book management
 ms:assetid: 0ffd2ef8-201c-44aa-8c64-1c7b0eaa7d48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429695(v=OCS.15)

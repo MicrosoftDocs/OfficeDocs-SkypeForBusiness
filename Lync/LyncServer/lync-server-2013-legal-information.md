@@ -3,6 +3,8 @@ title: Lync Server 2013 legal information
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Legal information
 ms:assetid: 035d9ad5-7526-44f7-a543-5f65cc66ec6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398086(v=OCS.15)

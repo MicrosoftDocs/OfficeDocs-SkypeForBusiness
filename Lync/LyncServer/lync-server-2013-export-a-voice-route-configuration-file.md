@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Export a voice route configuration file'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export a voice route configuration file
 ms:assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398081(v=OCS.15)

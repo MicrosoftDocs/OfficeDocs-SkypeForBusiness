@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Client and server support for Location-Based Routing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client and server support for Location-Based Routing
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994024(v=OCS.15)

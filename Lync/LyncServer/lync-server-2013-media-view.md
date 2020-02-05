@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Media view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media view
 ms:assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687981(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing user presence publishing and subscribing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user presence publishing and subscribing
 ms:assetid: 27694c71-8e63-4aa4-b49f-fa06ccb81949
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743832(v=OCS.15)

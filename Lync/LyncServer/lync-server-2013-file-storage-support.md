@@ -3,6 +3,8 @@ title: Lync Server 2013 file storage support
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: File storage support
 ms:assetid: ed66430d-3c19-4267-938c-956a51005073
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399073(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Schema attributes and descriptions'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema attributes and descriptions
 ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412841(v=OCS.15)

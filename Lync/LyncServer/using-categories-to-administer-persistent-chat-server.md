@@ -3,6 +3,8 @@ title: Using categories to administer Persistent Chat Server
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
 ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398988(v=OCS.15)
