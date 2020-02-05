@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Mobility features and capabilities'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility features and capabilities
 ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689983(v=OCS.15)

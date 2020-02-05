@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring Response Group'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Response Group
 ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)

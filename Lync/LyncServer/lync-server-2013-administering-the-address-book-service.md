@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administering the Address Book Service'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering the Address Book Service
 ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)

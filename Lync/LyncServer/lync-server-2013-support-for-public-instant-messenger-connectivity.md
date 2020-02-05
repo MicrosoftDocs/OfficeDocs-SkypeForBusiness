@@ -3,6 +3,8 @@ title: Lync Server 2013 support for public instant messenger connectivity
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Support for public instant messenger connectivity
 ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn458579(v=OCS.15)

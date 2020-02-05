@@ -3,6 +3,8 @@ title: Lync Server 2013 database software support
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Database software support
 ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398990(v=OCS.15)

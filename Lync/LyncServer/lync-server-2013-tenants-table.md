@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tenants table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Tenants table
 ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)

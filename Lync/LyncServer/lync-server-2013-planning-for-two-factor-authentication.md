@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planning for two-factor authentication'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for two-factor authentication
 ms:assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308562(v=OCS.15)

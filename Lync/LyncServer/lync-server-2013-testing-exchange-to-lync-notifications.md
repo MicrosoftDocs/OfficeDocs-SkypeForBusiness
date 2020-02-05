@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing Exchange to Lync notifications'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Exchange to Lync notifications
 ms:assetid: ed2d6325-3cf5-4450-9951-03092bcb0a7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727315(v=OCS.15)

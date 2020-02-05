@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failure List Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failure List Report
 ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)

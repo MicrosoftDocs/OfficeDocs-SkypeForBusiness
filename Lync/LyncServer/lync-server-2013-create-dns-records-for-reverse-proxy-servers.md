@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create DNS records for reverse proxy servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create DNS records for reverse proxy servers
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429719(v=OCS.15)

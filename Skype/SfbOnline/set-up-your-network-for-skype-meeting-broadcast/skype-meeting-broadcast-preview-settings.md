@@ -16,9 +16,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords: 
-- ms.lync.lac.BroadcastMeetingsPreview
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetingsPreview
 description: "The Skype for Business customer preview program provides you early access to new products and features. It enables your organization to get a sneak peek at what's coming, test out the new features in your own environment, and give feedback before we release product builds to the general public. To find out more, see Skype for Business preview."
 ---
 

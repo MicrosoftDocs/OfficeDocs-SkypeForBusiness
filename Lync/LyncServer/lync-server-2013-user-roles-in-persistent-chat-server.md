@@ -3,6 +3,8 @@ title: 'Lync Server 2013: User roles in Persistent Chat Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User roles in Persistent Chat Server
 ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ676774(v=OCS.15)

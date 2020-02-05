@@ -3,6 +3,8 @@ title: 'Verify connectivity between internal servers and Edge Servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify connectivity between internal servers and Edge Servers
 ms:assetid: 219f706e-2b8a-46c5-b394-c384240eef50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398292(v=OCS.15)

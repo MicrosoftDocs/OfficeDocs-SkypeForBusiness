@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verify or configure authentication and certification o
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify or configure authentication and certification on IIS virtual directories
 ms:assetid: 3ca90be0-1d64-447c-807a-3a2ee3bf625e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429702(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure voice mail rerouting settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure voice mail rerouting settings
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398606(v=OCS.15)

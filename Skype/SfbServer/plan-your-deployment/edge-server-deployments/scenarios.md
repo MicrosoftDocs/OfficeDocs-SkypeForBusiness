@@ -88,11 +88,4 @@ We also have a diagram for scaled consolidated Edge pools with DNS load balancin
 With this scenario, you are able to have high availability in your Edge deployment, which gives you the advantages of scalability and failover support.
   
 ![Edge Scenario for Scaled Consolidated Edge with HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### Port diagram
-
-We also have a diagram for scaled consolidated Edge pools with hardware load balancing
-  
-![Edge Server Perimeter Network ports and protocols](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

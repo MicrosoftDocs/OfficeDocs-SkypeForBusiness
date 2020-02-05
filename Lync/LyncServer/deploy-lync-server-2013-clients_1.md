@@ -3,6 +3,8 @@ title: Deploy Lync Server 2013 clients
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 clients
 ms:assetid: 508e5dfa-588b-4289-81ce-2043c2d79e04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204883(v=OCS.15)

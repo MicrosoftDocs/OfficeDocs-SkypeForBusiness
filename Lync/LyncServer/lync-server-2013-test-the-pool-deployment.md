@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test the pool deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test the pool deployment
 ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413092(v=OCS.15)
