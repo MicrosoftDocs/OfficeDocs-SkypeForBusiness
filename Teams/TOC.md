@@ -626,27 +626,21 @@
 <!-- ============================================================ -->
 
 # Security and compliance
-## [Overview](security-compliance-overview.md)
-## [Information barriers in Teams](information-barriers-in-teams.md)
-## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
-## [Identity models and authentication in Teams](identify-models-authentication.md)
-## [Sign in to Teams using modern authentication](sign-in-teams.md)
-## [Place a Teams user or team on legal hold](legal-hold.md)
-## [Search the audit log for events in Teams](audit-log-events.md)
-## [Use Content Search in Teams](content-search.md)
-## [AppLocker application control policies in Teams](applocker-in-teams.md)
-## Retention policies in Teams
-### [Overview](retention-policies.md)
-### [Retention policies FAQ](retention-policies-FAQ.md)
-### [Retention policies known issues](retention-policies-known-issues.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
-##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [Data collection practices](data-collection-practices.md)
-## [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-
+## Security
+### [Identity models and authentication in Teams](identify-models-authentication.md)
+### [Sign in to Teams using modern authentication](sign-in-teams.md)
+## Compliance
+### [Overview](security-compliance-overview.md)
+### [Information barriers in Teams](information-barriers-in-teams.md)
+### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
+### [Place a Teams user or team on legal hold](legal-hold.md)
+### [Search the audit log for events in Teams](audit-log-events.md)
+### [Use Content Search in Teams](content-search.md)
+### [AppLocker application control policies in Teams](applocker-in-teams.md)
+### Retention policies in Teams
+#### [Overview](retention-policies.md)
+#### [Retention policies FAQ](retention-policies-FAQ.md)
+#### [Retention policies known issues](retention-policies-known-issues.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -680,6 +674,8 @@
 ### [Network Planner walkthrough](tutorial-network-planner-example.yml)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 ### [Limits and specifications for Teams](limits-specifications-teams.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
+### [Data collection practices](data-collection-practices.md)
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
@@ -855,3 +851,10 @@
 ### [Uruguay](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [Venezuela](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## Accessibility content
+### [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
+### [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
