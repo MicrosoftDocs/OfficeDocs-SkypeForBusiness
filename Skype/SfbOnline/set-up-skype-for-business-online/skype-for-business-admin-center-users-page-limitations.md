@@ -16,9 +16,10 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.UsersCountLimitationWarning
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.UsersCountLimitationWarning
 description: "Learn how to work within the limitations of Skype for Business Online admin's display of users. "
 ---
 

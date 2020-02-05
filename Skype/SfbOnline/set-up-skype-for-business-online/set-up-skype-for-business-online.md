@@ -15,13 +15,14 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_SkypeforBusinessON
-- O365M_SkypeforBusinessON
-- O365P_SkypeforBusinessON
+- CSH
 ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
+- O365E_SkypeforBusinessON
+- O365M_SkypeforBusinessON
+- O365P_SkypeforBusinessON
 description: "Learn to set up your domain, users, IM and presence for your organization to install Skype for Business. Also See how to set up audio conferencing, Phone System and Calling Plans, and Skype Meeting broadcast. "
 ---
 
