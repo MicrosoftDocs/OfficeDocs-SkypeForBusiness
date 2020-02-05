@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure Automatic Client Sign-In to use the Director
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Automatic Client Sign-In to use the Director
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398678(v=OCS.15)

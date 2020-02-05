@@ -3,6 +3,8 @@ title: 'Lync Server 2013: user models'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 user models
 ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)

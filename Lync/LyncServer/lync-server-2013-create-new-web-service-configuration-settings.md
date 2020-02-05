@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create new Web Service configuration settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create new Web Service configuration settings
 ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182605(v=OCS.15)

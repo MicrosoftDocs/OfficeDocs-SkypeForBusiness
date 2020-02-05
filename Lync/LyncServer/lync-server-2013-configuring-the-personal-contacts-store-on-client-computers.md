@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring the personal contacts store on client comp
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the personal contacts store on client computers
 ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721922(v=OCS.15)

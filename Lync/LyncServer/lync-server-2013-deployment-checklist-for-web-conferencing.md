@@ -3,6 +3,8 @@ title: Lync Server 2013 deployment checklist for web conferencing
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for web conferencing
 ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205104(v=OCS.15)

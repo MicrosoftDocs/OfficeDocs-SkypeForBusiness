@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Sample QoE database queries'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Sample QoE database queries
 ms:assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398100(v=OCS.15)

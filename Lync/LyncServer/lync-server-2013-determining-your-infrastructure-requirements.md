@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Determining your infrastructure requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determining your infrastructure requirements
 ms:assetid: ef9af1ed-e6c4-457f-a63b-8fea47c79826
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412986(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Viewing location policy information'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing location policy information
 ms:assetid: 14e41bcb-ea0a-49c2-99b3-1f61fc34416d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520954(v=OCS.15)

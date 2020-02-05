@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Call Diagnostic Reports'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Reports
 ms:assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615013(v=OCS.15)

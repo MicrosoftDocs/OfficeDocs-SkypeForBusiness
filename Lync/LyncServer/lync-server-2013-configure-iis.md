@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure IIS'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure IIS
 ms:assetid: bc4ae8cc-ec0c-42f1-9034-058930e530d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412918(v=OCS.15)

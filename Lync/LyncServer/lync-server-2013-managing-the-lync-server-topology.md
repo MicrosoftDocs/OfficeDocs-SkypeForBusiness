@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing the Lync Server topology'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Lync Server 2013 topology
 ms:assetid: 323ef486-c907-4036-a2bf-c869b1d7f288
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520973(v=OCS.15)

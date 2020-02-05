@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Verifying your mobility deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying your mobility deployment
 ms:assetid: 72f9b4d3-57b0-4705-9480-cfdca313a70c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690024(v=OCS.15)

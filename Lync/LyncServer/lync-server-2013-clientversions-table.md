@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ClientVersions table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions table
 ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398356(v=OCS.15)

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing calls to unassigned numbers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing calls to unassigned numbers
 ms:assetid: a45a7546-5ee6-4c1e-ab13-20a71a058f80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688167(v=OCS.15)

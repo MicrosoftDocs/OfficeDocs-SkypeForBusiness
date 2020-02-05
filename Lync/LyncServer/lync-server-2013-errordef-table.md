@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ErrorDef table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorDef table
 ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398503(v=OCS.15)
