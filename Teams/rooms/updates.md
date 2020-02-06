@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

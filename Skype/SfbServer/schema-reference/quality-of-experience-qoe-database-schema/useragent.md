@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: "The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database. Each record in the table represents one user agent"

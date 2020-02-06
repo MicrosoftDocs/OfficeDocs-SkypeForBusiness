@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 description: "Each record represents one location reference in an emergency call, like an E9-1-1 call."

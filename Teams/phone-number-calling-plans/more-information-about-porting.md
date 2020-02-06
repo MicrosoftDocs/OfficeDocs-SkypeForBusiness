@@ -15,7 +15,9 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo 
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo 
 description: Get the guidance you need to port your phone numbers to Microsoft Teams.
 ---
 

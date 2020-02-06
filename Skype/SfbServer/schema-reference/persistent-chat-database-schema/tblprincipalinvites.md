@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: "tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on."
