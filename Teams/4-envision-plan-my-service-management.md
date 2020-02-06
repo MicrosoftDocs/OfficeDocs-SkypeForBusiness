@@ -10,6 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Deliver and maintain a high-quality deployment by planning for operational roles and assigning a quality champion.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-voice

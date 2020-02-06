@@ -8,6 +8,8 @@ ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.."
