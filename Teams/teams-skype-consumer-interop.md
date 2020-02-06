@@ -20,16 +20,10 @@ This article gives you an overview of the interoperability capabilities between 
 
 Teams users in your organization can chat with and call Skype users by using their email address and vice versa.
 
-- Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user.
-- Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user.
+- Teams users can search for and start a one-on-one text-only conversation or an audio/video call with a Skype user.
+- Skype users can search for and start a one-on-one text-only conversation or an audio/video call with a Teams user.
 
 This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
-
-## Known limitations
-
-- Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md).
-- Teams users and Skype users can't see each other's presence.
-- Searching for Skype users by using their Skype Id or phone number isn't supported.
 
 ## Chat and calling experience
 
@@ -61,6 +55,12 @@ PLACEHOLDER FOR IMAGE
 After a Teams user accepts or blocks the initial conversation request from a Skype user, they can choose to block or unblock that person at any time, either in the conversation or in their privacy settings in Teams. Skype users won't know that they've been blocked.
 
 Blocked Skype users, along with other people and PSTN phone numbers that a Teams user has blocked, are listed on the user's blocked contact list in Teams.
+
+## Limitations
+
+- Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md).
+- Teams users and Skype users can't see each other's presence.
+- Searching for Skype users by using their Skype Id or phone number isn't supported.
 
 ## Set whether Teams users can communicate with Skype users
 
