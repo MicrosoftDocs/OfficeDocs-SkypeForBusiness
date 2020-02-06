@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
 description: "tblPrincipalMembers contains principal memberships."

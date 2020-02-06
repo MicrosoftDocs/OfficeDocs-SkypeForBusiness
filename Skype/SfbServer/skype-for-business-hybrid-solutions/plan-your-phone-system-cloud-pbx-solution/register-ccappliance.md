@@ -8,6 +8,8 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: "The Register-CcAppliance cmdlet registers appliance information to a PSTN site in an online tenant configuration. An appliance must be registered before it can be deployed and managed by the Skype for Business Cloud Connector Edition management service."
