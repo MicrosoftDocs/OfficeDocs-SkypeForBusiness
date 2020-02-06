@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "See how to select the audio conferencing auto attendant languages for a audio conferencing number in Microsoft Teams."

@@ -11,6 +11,8 @@ ms.reviewer:
 description: Lists Teams resources that are helpful for Teams for Education admins.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

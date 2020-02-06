@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Licensing
 description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "

@@ -11,6 +11,8 @@ audience: admin
 search.appverid: MET150
 description: Learn how to upgrade the free version of Microsoft Teams
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 
