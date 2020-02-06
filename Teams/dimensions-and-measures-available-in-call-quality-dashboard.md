@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: Reporting
 description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---

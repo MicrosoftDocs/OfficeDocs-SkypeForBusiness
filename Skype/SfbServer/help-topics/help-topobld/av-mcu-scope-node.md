@@ -8,8 +8,12 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: "This node shows the pool fully qualified domain name (FQDN) and associated Front End pools for this A/V Conferencing pool. You can perform the following actions:"
