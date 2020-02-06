@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "If your legacy deployment contained an Archiving Server or a Monitoring Server, after migrating to Skype for Business Server 2019, those servers can be removed from the legacy environment provided all users have been removed from any remaining legacy pools. You can remove the Archiving Server or Monitoring Server in any sequence. The key requirement is that all users have been removed from any remaining legacy pools."
 ---

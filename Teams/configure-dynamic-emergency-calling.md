@@ -11,6 +11,8 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Configure dynamic emergency calling
 appliesto: 
 - Microsoft Teams
