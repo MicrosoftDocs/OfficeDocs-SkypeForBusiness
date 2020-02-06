@@ -34,9 +34,9 @@ Modern authentication is a process that lets Teams know that users have already 
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name:
+- If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN):
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams
-  DisableUpnSuffixCheck(REG_DWORD)
+  SkipUpnPrefill(REG_DWORD)
   0x00000001 (1)
 
   Note: Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
