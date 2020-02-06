@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom:
+f1.keywords:
+- NOCSH
 description: "Complete guidance for migrating from Slack to Microsoft Teams."
 ---
 

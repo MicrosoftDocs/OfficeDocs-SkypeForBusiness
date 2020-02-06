@@ -10,6 +10,8 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
+f1.keywords:
+- NOCSH
 description: Learn about information barriers and how they affect Teams.
 appliesto: 
   - Microsoft Teams

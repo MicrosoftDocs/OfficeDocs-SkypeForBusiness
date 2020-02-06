@@ -11,6 +11,8 @@ audience: Admin
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal

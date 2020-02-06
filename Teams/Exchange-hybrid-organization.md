@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

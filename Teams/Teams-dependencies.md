@@ -13,6 +13,8 @@ ms.collection:
 ms.reviewer: sbhatta
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 appliesto: 
   - Microsoft Teams

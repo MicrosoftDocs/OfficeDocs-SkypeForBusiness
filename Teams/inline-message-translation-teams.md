@@ -13,6 +13,8 @@ ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use inline translation in Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 
