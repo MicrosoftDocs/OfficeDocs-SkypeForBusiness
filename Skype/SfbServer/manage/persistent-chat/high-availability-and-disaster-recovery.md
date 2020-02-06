@@ -8,6 +8,8 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: "Summary: Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015."
