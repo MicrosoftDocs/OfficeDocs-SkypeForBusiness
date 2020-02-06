@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: "The AppSharingStream table contains Quality of Experience metrics for the network streams used for application sharing. This table was introduced in Microsoft Lync Server 2013."

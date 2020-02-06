@@ -17,6 +17,8 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
+ - CSH
+ms.custom: 
   - O365E_SFBVoiceCredit
   - O365E_SFBVoiceCreditAether
   - O365M_SFBVoiceCredit
@@ -25,7 +27,6 @@ f1.keywords:
   - O365E_SFBVoiceCreditAether
   - O365P_SFBVoiceCredit
   - O365P_SFBVoiceCreditAether
-ms.custom: 
   - Licensing
 description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continuous phone system access. "
 ---

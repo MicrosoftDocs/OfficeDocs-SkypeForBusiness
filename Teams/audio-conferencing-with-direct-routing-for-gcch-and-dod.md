@@ -15,6 +15,8 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Learn how you can use Audio Conferencing with Direct Routing in GCCH and DoD environments."
 ---

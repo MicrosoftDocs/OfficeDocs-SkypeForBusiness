@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to set up and manage the Shifts app in Teams for Firstline Workers in your organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

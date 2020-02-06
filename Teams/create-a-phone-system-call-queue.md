@@ -17,8 +17,9 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
-  - ms.teamsadmincenter.callqueues.overview"
+  - CSH
 ms.custom: 
+  - ms.teamsadmincenter.callqueues.overview"
   - Phone System
 description: "Learn how to set up Phone System for Cloud call queues with Microsoft Teams."
 ---
