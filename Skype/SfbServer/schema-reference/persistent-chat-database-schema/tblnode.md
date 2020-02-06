@@ -8,6 +8,8 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: "tblNode contains the object tree (with category or chat room nodes) as managed in the control panel and administrative cmdlets."

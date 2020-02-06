@@ -10,6 +10,8 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.reviewer: mikedav
 description: "Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
 appliesto: 

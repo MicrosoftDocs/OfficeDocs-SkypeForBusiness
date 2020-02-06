@@ -8,6 +8,8 @@ ms.date: 10/10/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: 
