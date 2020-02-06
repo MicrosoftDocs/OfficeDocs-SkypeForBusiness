@@ -666,6 +666,10 @@
 #    
 # Reference
 
+## [Limits and specifications for Teams](limits-specifications-teams.md)
+## [Location of data in Teams](location-of-data-in-teams.md)
+## [Data collection practices](data-collection-practices.md)
+
 ## Get ready to roll out Teams
 ### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
@@ -673,9 +677,6 @@
 ### [Use Network Planner for Teams](network-planner.md)
 ### [Network Planner walkthrough](tutorial-network-planner-example.yml)
 ### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-### [Limits and specifications for Teams](limits-specifications-teams.md)
-### [Location of data in Teams](location-of-data-in-teams.md)
-### [Data collection practices](data-collection-practices.md)
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ### [Plan for governance in Teams](plan-teams-governance.md)
@@ -852,7 +853,7 @@
 ### [Venezuela](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 
-## Accessibility content
+## Accessibility and conformance
 ### [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Accessibility solutions for Skype for Business Online and Microsoft Teams](accessibility-solutions-in-france.md)
 ### [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
