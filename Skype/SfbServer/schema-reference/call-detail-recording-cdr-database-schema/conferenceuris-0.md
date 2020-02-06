@@ -8,6 +8,8 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: "The ConfernceUris view stores information about the URIs that have participated in conference sessions. This view was introduced in Microsoft Lync Server 2013."

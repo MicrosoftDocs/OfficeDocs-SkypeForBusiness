@@ -13,6 +13,8 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: Learn what data and permissions apps are requesting from your organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams

@@ -10,7 +10,9 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection: 
   - M365-collaboration
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.managedevices.overview
   - ms.teamsadmincenter.devicemanagement.overview
 description: Learn how to manage devices used with Teams in your organization.
