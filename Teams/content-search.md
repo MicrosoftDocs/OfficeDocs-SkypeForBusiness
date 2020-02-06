@@ -11,6 +11,8 @@ ms.collection:
   - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn about Content Search in Microsoft Teams and how to search against channel conversations from Exchange, file uploads and modifications from SharePoint, and OneNote changes.
 appliesto: 
   - Microsoft Teams

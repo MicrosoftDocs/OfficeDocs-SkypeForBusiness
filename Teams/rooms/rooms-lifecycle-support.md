@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "This article discusses lifecycle support for Microsoft Teams Rooms."
 ---

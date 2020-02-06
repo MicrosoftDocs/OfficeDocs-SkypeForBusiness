@@ -11,6 +11,8 @@ ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 

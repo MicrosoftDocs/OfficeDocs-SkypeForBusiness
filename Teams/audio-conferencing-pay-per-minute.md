@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Licensing
 description: "In addition to the standard Audio Conferencing per-user license, organizations using Microsoft Volume Licensing can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."

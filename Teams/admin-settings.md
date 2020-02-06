@@ -12,7 +12,9 @@ description: Learn about the  policies and settings you can use to manage apps f
 localization_priority: Normal
 ms.custom: 
   - NewAdminCenter_Update
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.apppermspolicies.adminsettings
   - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
   - ms.teamsadmincenter.apppolicies.adminsettings
