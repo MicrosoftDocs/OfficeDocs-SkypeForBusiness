@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Legal
 hideEdit: true
