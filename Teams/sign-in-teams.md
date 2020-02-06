@@ -38,8 +38,8 @@ Modern authentication is a process that lets Teams know that users have already 
 
 - If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN):
 
-  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams
-  SkipUpnPrefill(REG_DWORD)
+  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
