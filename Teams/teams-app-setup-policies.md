@@ -28,13 +28,15 @@ As an admin, you can use app setup policies to do the following:
 
 - Customize Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. Pinning apps lets you showcase apps that users in your organization need, including those built by third parties or by developers in your organization.
 - Control whether users can pin apps to Teams.
-- Pre-install apps for users. You choose which apps are installed by default for users when they start Teams and of these, which apps users can and can't uninstall.  
+- Pre-install apps for users. You choose which apps are installed by default for users when they start Teams and of these, which apps users can and can't uninstall. These apps are
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
 |![Screenshot showing Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Screenshot showing Teams mobile client](media/app-setup-policies-mobile-app-bar.png)      |
+
+To see their pre-installed apps, in the app bar, users click **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
 
 You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
