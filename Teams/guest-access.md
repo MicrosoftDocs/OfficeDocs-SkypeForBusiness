@@ -10,7 +10,9 @@ audience: admin
 search.appverid: MET150
 description: Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration

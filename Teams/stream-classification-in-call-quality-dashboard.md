@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Optimization
 description: "Learn how stream quality is classified in the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."

@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: Learn to enhance Office 365 groups with Microsoft Teams by inviting a ditribution list to a team, add mail-enabled security groups, and more.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

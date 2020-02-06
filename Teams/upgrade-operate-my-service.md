@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

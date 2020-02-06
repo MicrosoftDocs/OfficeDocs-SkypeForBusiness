@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - SPO_Content
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

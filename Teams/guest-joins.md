@@ -12,6 +12,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
 appliesto: 
   - Microsoft Teams

@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Phone System
 description: "Learn which languages you can set in Skype for Business for the default system messages. "

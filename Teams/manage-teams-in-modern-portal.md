@@ -10,6 +10,8 @@ search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Learn how to view or update your teams in the Microsoft Teams admin center.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 

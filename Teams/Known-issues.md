@@ -13,6 +13,8 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto: 
   - Microsoft Teams

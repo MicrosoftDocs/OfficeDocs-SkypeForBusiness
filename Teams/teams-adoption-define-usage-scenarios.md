@@ -11,6 +11,8 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Choose usage scenarios for the experiment phase of your Teams adoption.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection: 
 - Teams_ITAdmin_Adopt
