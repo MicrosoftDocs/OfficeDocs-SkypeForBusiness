@@ -54,14 +54,14 @@ PLACEHOLDER FOR IMAGE
 
 After a Teams user accepts or blocks the initial conversation request from a Skype user, they can choose to block or unblock that person at any time, either in the conversation or in their privacy settings in Teams. Skype users won't know that they've been blocked.
 
-Blocked Skype users, along with other people and PSTN phone numbers that a Teams user has blocked, are listed on the user's blocked contact list in Teams.
+Blocked Skype users, along with other people and public switched telephone network (PSTN) phone numbers that a Teams user has blocked, are listed on the user's blocked contact list in Teams.
 
 ## Limitations
 
 - Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md).
 - Conversations are one-one-one only. Group chats aren't supported. 
 - Teams users and Skype users can't see each other's presence.
-- Searching for Skype users by using their Skype Id or phone number isn't supported.
+- Searching for Skype users by using their Skype ID or phone number isn't supported.
 
 ## Set whether Teams users can communicate with Skype users
 
