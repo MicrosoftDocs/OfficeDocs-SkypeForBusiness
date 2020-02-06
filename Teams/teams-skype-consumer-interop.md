@@ -18,12 +18,10 @@ description: Learn about the interoperability capabilities between Teams users i
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
-Teams users in your organization can chat with and call Skype users and vice versa.
+Teams users in your organization can chat with and call Skype users by using their email address and vice versa. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
 
 - Teams users can search for a Skype user and start a one-on-one conversation or an audio/video call with a Skype user.
 - Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user.
-
-This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
 
 Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md). Although Teams users and Skype users can find, chat, and call each other, at this time, they can't see each other's presence. (Searching by using a Skype Id or phone number won't work).
 
@@ -33,7 +31,7 @@ Here's an overview of the chat and calling experience.
 
 ### Teams user starts a chat or call with a Skype user
 
-Teams users can search for a Skype user by typing the email address of the Skype user in a new chat or in the search bar.  The Teams user can then select the Skype user in the search results to start a chat or call with them.
+Teams users can search for a Skype user by typing their email address in a new chat or in the search bar.  The Teams user can then select the Skype user in the search results to start a chat or call with them.
 
 A Skype user may choose not to appear in search results. In this case, they won't show up in the search results in Teams and Teams users won't be able to find them.
 
@@ -54,13 +52,15 @@ PLACEHOLDER FOR IMAGE
 
 ### Teams user blocks or unblocks a Skype user
 
-After a Teams user accepts or blocks the initial conversation request from a Skype user, they can choose to block or unblock that person at any time. Skype users won't know that they've been blocked.
+After a Teams user accepts or blocks the initial conversation request from a Skype user, they can choose to block or unblock that person at any time, either in the conversation or in their privacy settings in Teams. Skype users won't know that they've been blocked.
 
 Blocked Skype users, along with other people and PSTN phone numbers that a Teams user has blocked, are listed on the user's blocked contact list in Teams.
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants. If you upgraded from Skype for Business to Teams, the existing federation setting in the Skype for Business admin center is migrated to Teams.
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants. 
+
+If you upgraded from Skype for Business to Teams, the existing federation setting in the Skype for Business admin center is migrated to Teams.
 
 ### In the Microsoft Teams admin center
 
