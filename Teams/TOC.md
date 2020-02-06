@@ -68,7 +68,7 @@
 ### External access (federation)
 #### [Manage external access](manage-external-access.md)
 #### [Native Teams chat for external users](native-chat-for-external-users.md)
-#### [Teams and Skype interoperability][Teams and Skype interoperability](teams-skype-interop.md)
+#### [Teams and Skype interoperability](teams-skype-interop.md)
 
 
 ### Guest access
