@@ -14,6 +14,8 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how to train a team of champions to promote Teams adoption. 
 appliesto: 
 - Microsoft Teams

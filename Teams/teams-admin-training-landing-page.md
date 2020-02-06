@@ -13,6 +13,8 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
 ---

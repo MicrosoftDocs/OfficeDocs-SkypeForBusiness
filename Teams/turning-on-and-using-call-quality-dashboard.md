@@ -17,10 +17,11 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
-  - ms.teamsadmincenter.directrouting.cqd
-  - ms.lync.lac.ToolsCallQualityDashboard
+  - CSH
 ms.custom: 
   - Reporting
+  - ms.teamsadmincenter.directrouting.cqd
+  - ms.lync.lac.ToolsCallQualityDashboard
 description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 

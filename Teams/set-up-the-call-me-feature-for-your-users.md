@@ -12,6 +12,8 @@ description: Learn how to set up the Call me feature in Teams so that users can 
 localization_priority: Normal
 ms.collection: 
   - M365-voice
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---
