@@ -20,20 +20,18 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be added to one or multiple team members to easily connect with the right subset of people. Team owners and members (if the feature is enabled for them) can add one or more tags to a person. The tags can then be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
+Tags in Microsoft Teams let users communicate with a subset of people on a team. Tags can be added to one or multiple team members to easily connect with the right subset of people. Team owners and members (if the feature is enabled for them) can add one or more tags to a person. The tags can then be used in @mentions by anyone on the team in a channel post to communicate with only those people who are assigned that tag.
 
 > [!NOTE]
 > Tags are not yet supported in private channels.
 
 ## How tags work
 
-A tag can be added to a person on a specific team. After a tag is added, it can be used in @mentions in a chat or in any standard channel of the team.
-
-Here's some examples of how tags can be used in Teams:
+A tag can be added to a person on a specific team. After a tag is added, it can be used in @mentions in any standard channel of the team. Here's some examples of how tags can be used in Teams:
 
 - A store manager wants to post an announcement to a channel and notify all cashiers.
 - A group product manager wants to message all product managers in a channel.
-- A hospital administrator wants to start a conversation with all radiologists in a hospital.
+- A hospital administrator wants to send a message to all radiologists in a channel.
 
 ## Manage tags for your organization
 
