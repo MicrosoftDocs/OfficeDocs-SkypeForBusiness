@@ -11,6 +11,8 @@ ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

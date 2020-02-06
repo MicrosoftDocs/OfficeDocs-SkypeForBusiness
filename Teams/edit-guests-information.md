@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how an admin can edit information about guest users in the Azure Active Directory portal.
 appliesto: 
   - Microsoft Teams

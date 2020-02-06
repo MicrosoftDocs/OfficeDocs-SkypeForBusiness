@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Calling Plans
 description: "Learn how to assign, change, or remove a work phone number for your Teams users so outside businesses and clients can call in."

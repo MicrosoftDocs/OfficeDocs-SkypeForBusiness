@@ -14,6 +14,8 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how to measure the outcomes and success of your broad-scale enablement of Teams.
 appliesto: 
 - Microsoft Teams

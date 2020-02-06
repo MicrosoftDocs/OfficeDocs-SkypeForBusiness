@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from Skype for Business Online 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

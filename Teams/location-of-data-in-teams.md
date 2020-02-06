@@ -10,6 +10,8 @@ ms.reviewer: anach, kehardy
 description: Learn about where data is stored in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

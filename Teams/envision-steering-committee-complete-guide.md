@@ -9,6 +9,8 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto: 

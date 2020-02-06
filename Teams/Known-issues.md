@@ -13,6 +13,8 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto: 
   - Microsoft Teams
@@ -37,6 +39,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See this support article: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |6/21/17  <br/> |
 
 ## Apps
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Chrome version 80 users are unable to sign in to some apps on the Teams platform.<br/>|After users have properly entered their password credentials to an app's sign-in page, a continuous cycle is initiated where the user is not recognized by the app and redirected back to the app's sign-in page. <br/>|Direct users to use the Teams desktop client. |11/15/19<br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -311,7 +317,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan from a team created from a existing office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
+|Teams Planner integration with Planner online <br/> |Owners are unable to create a plan for a team created from an existing Office 365 group.  <br/> |Give the member permissions to the group owner. <br/> |1/14/20  <br/>|
 
 
 
