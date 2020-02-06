@@ -28,7 +28,7 @@ As an admin, you can use app setup policies to do the following:
 
 - Customize Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. Pinning apps lets you showcase apps that users in your organization need, including those built by third parties or by developers in your organization.
 - Control whether users can pin apps to Teams.
-- Pre-install apps for users. You choose which apps are installed by default for users and which apps can't be removed by users.
+- Pre-install apps for users. You choose which apps are installed by default for users when they start Teams and of these, which apps users can and can't uninstall.  
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
@@ -60,21 +60,21 @@ You can use the Microsoft Teams admin center to create a custom policy.
     1. Under **Preinstalled apps**, click **Add apps**.
     2. In the **Add preinstalled apps** pane, search for the apps you want to be installed for users. You can also filter apps by app permission policy. When you've chosen your list of  apps, click **Add**.
 
-    ![Screenshot showing the Add preinstalled apps pane](media/app-setup-policies-preinstall.png)
+        ![Screenshot showing the Add preinstalled apps pane](media/app-setup-policies-preinstall-add.png)
+    3. For each app in the list, set whether users can uninstall the app.
 
-    > [!NOTE]
-    > Apps that you add to the pre-installed apps list are automatically installed when a user who is assigned the policy starts Teams and can't be uninstalled by the user. Removing an app from the list doesn't automatically uninstall the app for the user. Instead, it gives the user the option to uninstall the app themselves.  
+        ![Screenshot showing the User can uninstall the app toggle](media/app-setup-policies-preinstall-list.png)
 
-7. To add pinned apps, do the following:
+7. To pin apps, do the following:
 
     1. Under **Pinned apps**, click **Add apps**.
     2. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps to pin, click **Add**.
 
-     ![Screenshot showing the Add pinned apps pane](media/app-setup-policies-add-apps.png)
+         ![Screenshot showing the Add pinned apps pane](media/app-setup-policies-add-apps.png)
 
-8. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
+    3. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
 
-    ![Screenshot showing the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
+        ![Screenshot showing the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
 
 ## Edit an app setup policy
 
@@ -82,7 +82,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
-3. From here, make the changes that you want. You can add, remove, and change the order of apps.
+3. From here, make the changes that you want.
 4. Click **Save**.
 
 ## Assign a custom app setup policy to users
@@ -147,11 +147,11 @@ Keep in mind that the Teams app store lists all Teams apps whereas the **Add pin
 
 The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams.
 
-#### How many apps can be added to a policy?
+#### How many pinned apps can be added to a policy?
 
 A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has less than two apps, the mobile clients won't reflect the policy settings and instead will continue to use the existing configuration.
 
-There's no limit on the number of apps you can add to a policy.
+There's no limit on the number of pinned apps you can add to a policy.
 
 #### How long does it take for policy changes to take effect?
 
