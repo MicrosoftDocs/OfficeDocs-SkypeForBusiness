@@ -1462,11 +1462,6 @@
       "redirect_document_id": true 
     },
     {      
-      "source_path": "Teams/proxy-servers-for-skype-for-business-online.md", 
-      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/optimize-network-media-performance#firewall-and-proxy-requirements", 
-      "redirect_document_id": true
-    },
-    {
       "source_path": "Teams/turn-off-chat-in-teams.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-overview", 
       "redirect_document_id": true
