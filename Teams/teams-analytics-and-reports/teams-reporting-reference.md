@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords: ms.teamsadmincenter.analyticsandreports.overview

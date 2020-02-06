@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Phone System
 description: "Learn how to setup Skype for Businesses to use another language for your organization's default voicemail greeting. "

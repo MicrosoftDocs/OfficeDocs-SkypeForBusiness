@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 ms.collection: 
   - Teams_ITAdmin_PracticalGuidance
