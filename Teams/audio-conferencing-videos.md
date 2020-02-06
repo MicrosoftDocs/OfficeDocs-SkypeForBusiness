@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: Rowille
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

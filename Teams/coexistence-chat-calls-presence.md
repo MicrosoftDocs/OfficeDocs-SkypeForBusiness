@@ -9,6 +9,8 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - Teams_ITAdmin_JourneyFromSfB
   - M365-collaboration

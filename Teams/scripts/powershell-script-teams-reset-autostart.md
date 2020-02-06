@@ -8,6 +8,8 @@ ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script to reset the autostart setting in Teams on a per-user basis.  
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

@@ -11,6 +11,8 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 description: Use this PowerShell script to clean up Microsoft Teams on targeted machines or for specific users.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_PracticalGuidance
