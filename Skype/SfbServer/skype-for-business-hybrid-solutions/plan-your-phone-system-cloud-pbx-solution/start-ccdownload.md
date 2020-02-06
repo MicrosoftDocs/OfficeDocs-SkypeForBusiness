@@ -8,6 +8,8 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: "The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edition bits and msi file synchronously."

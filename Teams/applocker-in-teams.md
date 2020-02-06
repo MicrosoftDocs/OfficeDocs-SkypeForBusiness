@@ -10,6 +10,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how to enable the Teams desktop client application with AppLocker application control policies.
 appliesto: 
   - Microsoft Teams

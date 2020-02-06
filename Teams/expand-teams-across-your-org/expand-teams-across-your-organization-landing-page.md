@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
