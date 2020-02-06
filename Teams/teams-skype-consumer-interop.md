@@ -18,7 +18,12 @@ description: Learn about the interoperability capabilities between Teams users i
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
-Teams users in your organization can chat with and call Skype users who are inside or outside your organization and vice versa. Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user. And, Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
+Teams users in your organization can chat with and call Skype users and vice versa.
+
+- Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user.
+- Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user.
+
+This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
 
 Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a native Teams chat experience. Although Teams users and Skype users can find, chat, and call each other, at this time, they can't see each other's presence.
 
@@ -28,19 +33,19 @@ Here's an overview of the chat and calling experience.
 
 ### Teams user starts a chat or call with a Skype user
 
-Teams users can search for a Skype user by typing the email address of the Skype account in a new chat or in the search bar. (Searching by using a Skype Id or phone number won't work). The Teams user can then select the Skype user in the search results to start a chat or call with them.
+Teams users can search for a Skype user by typing the email address of the Skype user in a new chat or in the search bar. (Searching by using a Skype Id or phone number won't work). The Teams user can then select the Skype user in the search results to start a chat or call with them.
 
 A Skype user may choose not to appear in search results. In this case, they won't show up in the search results in Teams and Teams users won't be able to find them.
 
 ### Skype user starts a chat or call with a Teams user
 
-Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user and have to first accept the message before they can view it.
+Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user and have to first accept the message before they can reply to it.
 
 Here's an example of the notification that Teams users get:
 
 PLACEHOLDER FOR IMAGE
 
-- If the Teams user selects **Accept**, the Skype user is added to their contacts list, and both users can chat and call each other.
+- If the Teams user selects **Accept**, the conversation is accepted, and both users can chat and call each other.
 - If the Teams user selects **Block**, the conversation is blocked, and subsequent messages and calls from that Skype user are blocked.
 - If the Teams user selects **View messages**, the message is displayed in Teams, which helps the user decide whether to accept or block the conversation.
 
@@ -59,7 +64,7 @@ As an admin, you use the Microsoft Teams admin center or PowerShell to set exter
 
 ### In the Microsoft Teams admin center
 
-In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then PLACEDHOLDER. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](manage-external-access.md).
+In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then PLACEDHOLDER. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### Using PowerShell
 
