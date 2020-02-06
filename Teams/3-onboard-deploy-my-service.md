@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Download the Site Enablement Playbook to plan your Teams rollout and accelerate and optimize user adoption, perception of quality, and satisfaction.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-voice

@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Legal
 description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online and Microsoft Teams PSTN Services Use Terms and Customer's volume licensing agreement."
