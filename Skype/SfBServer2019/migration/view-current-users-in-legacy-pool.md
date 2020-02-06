@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy pool. The Registrar pool column identifies users who are configured for the legacy pool. These are the test users we will move to the Skype for Business Server 2019 pool."
 ---
