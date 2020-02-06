@@ -11,6 +11,8 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how to communicate with users from other organizations in Microsoft Teams using external access (federation) and guest access.
 appliesto: 
 - Microsoft Teams

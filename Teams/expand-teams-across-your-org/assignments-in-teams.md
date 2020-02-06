@@ -11,6 +11,8 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: jastark
 f1.keywords: 
+- CSH
+ms.custom:
   - ms.teamsadmincenter.assignments.overview
   - ms.teamsadmincenter.assignments.tooltip.emaildigest
   - ms.teamsadmincenter.assignments.tooltip.makecode

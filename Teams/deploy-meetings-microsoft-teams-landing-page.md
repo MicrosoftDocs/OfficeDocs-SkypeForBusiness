@@ -8,6 +8,8 @@ ms.author: lolaj
 manager: serdars
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 localization_priority: Priority

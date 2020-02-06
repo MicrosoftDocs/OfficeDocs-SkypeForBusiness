@@ -9,6 +9,8 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Learn the best practices for user feedback methods in Microsoft Teams to ensure the best team experience possible.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

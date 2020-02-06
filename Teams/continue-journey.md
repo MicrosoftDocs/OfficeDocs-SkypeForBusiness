@@ -11,6 +11,8 @@ search.appverid: MET150
 description: Guidance for continuing your journey from Skype for Business to Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- NOCSH
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
