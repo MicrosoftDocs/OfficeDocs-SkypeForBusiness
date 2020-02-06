@@ -7,5 +7,7 @@ manager: serdars
 ms.author: v-lanac
 author: lanachin
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.service: msteams
 ---
