@@ -42,7 +42,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Chrome version 80 users are unable to sign in to some apps on the Teams platform.<br/>|After users have properly entered their password credentials to an app's sign-in page, a continuous cycle is intiated where the user is not recognized by the app and redirected back to the app's sign-in page. <br/>|Direct users to use the Teams desktop client. |11/15/19<br/> |
+|Chrome version 80 users are unable to sign in to some apps on the Teams platform.<br/>|After users have properly entered their password credentials to an app's sign-in page, a continuous cycle is initiated where the user is not recognized by the app and redirected back to the app's sign-in page. <br/>|Direct users to use the Teams desktop client. |11/15/19<br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
