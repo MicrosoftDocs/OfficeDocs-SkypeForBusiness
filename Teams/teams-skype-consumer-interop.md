@@ -18,12 +18,18 @@ description: Learn about the interoperability capabilities between Teams users i
 
 This article gives you an overview of the interoperability capabilities between Microsoft Teams and Skype (Consumer). Learn how Teams users and Skype users can communicate through chats and calls and the admin controls that apply.
 
-Teams users in your organization can chat with and call Skype users by using their email address and vice versa. This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
+Teams users in your organization can chat with and call Skype users by using their email address and vice versa.
 
-- Teams users can search for a Skype user and start a one-on-one conversation or an audio/video call with a Skype user.
+- Teams users can search for and start a one-on-one conversation or an audio/video call with a Skype user.
 - Skype users can search for and start a one-on-one conversation or an audio/video call with a Teams user.
 
-Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md). Although Teams users and Skype users can find, chat, and call each other, at this time, they can't see each other's presence. (Searching by using a Skype Id or phone number won't work).
+This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype.
+
+## Known limitations
+
+- Conversations are text-only. This means that there's no rich formatting, @mentions, emojis, or other any of the other chat features that are available in a [native Teams chat experience](native-chat-for-external-users.md).
+- Teams users and Skype users can't see each other's presence.
+- Searching for Skype users by using their Skype Id or phone number isn't supported.
 
 ## Chat and calling experience
 
@@ -58,13 +64,13 @@ Blocked Skype users, along with other people and PSTN phone numbers that a Teams
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants. 
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned off for new tenants.
 
-If you upgraded from Skype for Business to Teams, the existing federation setting in the Skype for Business admin center is migrated to Teams.
+If you upgraded from Skype for Business to Teams, the external communications settings that you configured in the Skype for Business admin center are migrated to Teams.
 
 ### In the Microsoft Teams admin center
 
-In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then PLACEDHOLDER. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
+In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then PLACEHOLDER. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### Using PowerShell
 
