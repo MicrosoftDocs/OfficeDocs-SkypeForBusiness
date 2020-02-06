@@ -8,6 +8,8 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: "The Get-CcSiteDirectory cmdlet shows the current directory where site level configuration files are stored. The folder contains the base VHD and Skype for Business Cloud Connector Edition installation files. This folder should be shared with all other appliances of a Cloud Connector site."

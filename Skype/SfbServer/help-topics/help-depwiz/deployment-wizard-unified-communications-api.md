@@ -8,6 +8,8 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainUCMAIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

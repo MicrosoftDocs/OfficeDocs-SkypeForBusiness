@@ -10,6 +10,8 @@ ms.reviewer: jastark
 search.appverid: MET150
 description: Learn how to archive or permanently delete a team.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 

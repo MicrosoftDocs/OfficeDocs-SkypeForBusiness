@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 description: "Summary: Prepare your Skype for Business Server 2019 servers and domain infrastructure with this topic. Hardware, OS, databases, software, all the system requirements and recommendations, along with certificate DNS, file share, and Active Directory information, are here to help ensure a successful install and deployment of your server farm."

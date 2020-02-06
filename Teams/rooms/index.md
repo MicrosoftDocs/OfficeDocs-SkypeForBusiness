@@ -8,6 +8,8 @@ layout: LandingPage
 audience: ITPro
 ms.topic: landing-page
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "The relevant planning considerations for deploying Microsoft Teams Rooms, and how to deploy and manage the system."
