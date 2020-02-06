@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "This article describes how to monitor and troubleshoot your Direct Routing configuration."
 ---
 

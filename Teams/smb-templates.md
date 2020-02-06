@@ -10,6 +10,8 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ms.reviewer: lavenkat

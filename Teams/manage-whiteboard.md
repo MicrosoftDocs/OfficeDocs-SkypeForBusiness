@@ -11,6 +11,8 @@ ms.reviewer: esmather
 search.appverid: MET150
 description: Learn about using the Whiteboard web app in Microsoft Teams
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 ms.collection: 

@@ -11,6 +11,8 @@ audience: admin
 description: Implement Quality of Service (QoS) for  Microsoft Teams clients.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

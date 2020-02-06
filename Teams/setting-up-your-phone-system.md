@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Phone System
 description: "Learn how to set up Phone System (Cloud PBX) for your organization. "

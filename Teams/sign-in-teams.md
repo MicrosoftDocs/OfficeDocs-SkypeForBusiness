@@ -13,6 +13,8 @@ description: How to sign in to Microsoft Teams by using modern authentication.
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---
