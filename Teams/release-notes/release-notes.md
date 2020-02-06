@@ -7,6 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

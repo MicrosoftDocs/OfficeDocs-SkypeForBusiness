@@ -9,6 +9,8 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn how to retrieve Microsoft Teams data from the Office 365 audit log.
