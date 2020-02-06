@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

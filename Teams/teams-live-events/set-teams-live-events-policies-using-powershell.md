@@ -9,6 +9,8 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

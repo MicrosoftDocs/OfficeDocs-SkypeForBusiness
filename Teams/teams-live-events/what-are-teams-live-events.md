@@ -12,6 +12,8 @@ audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.
 f1.keywords: 
+- CSH
+ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.liveevents
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 

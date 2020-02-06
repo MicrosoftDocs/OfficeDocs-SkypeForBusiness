@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: 
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
