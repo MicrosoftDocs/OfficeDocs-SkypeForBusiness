@@ -3,6 +3,8 @@ title: 'Lync Server 2013: TLS and MTLS'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: TLS and MTLS for Lync Server 2013
 ms:assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481133(v=OCS.15)

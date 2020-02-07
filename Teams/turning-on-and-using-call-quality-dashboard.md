@@ -16,11 +16,12 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
-  - ms.teamsadmincenter.directrouting.cqd
-  - ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords: 
+  - CSH
 ms.custom: 
   - Reporting
+  - ms.teamsadmincenter.directrouting.cqd
+  - ms.lync.lac.ToolsCallQualityDashboard
 description: "See how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 

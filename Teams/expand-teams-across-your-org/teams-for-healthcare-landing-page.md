@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: 

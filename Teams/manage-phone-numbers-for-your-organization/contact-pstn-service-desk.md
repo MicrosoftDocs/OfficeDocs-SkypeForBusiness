@@ -15,12 +15,13 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords: 
+- CSH
+ms.custom:
   - ms.teamsadmincenter.voice.pstnservicedesk
   - ms.teamsadmincenter.voice.contactPSTNsupport
-ROBOTS: NOINDEX, NOFOLLOW
-ms.custom: 
   - Calling Plans
+ROBOTS: NOINDEX, NOFOLLOW
 description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
 ---
 # PSTN service desk help

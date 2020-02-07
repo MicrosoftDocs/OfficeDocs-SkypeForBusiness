@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Skype for Business online phones"
@@ -33,7 +34,7 @@ In all types of businesses, having a phone number allows users to make and get v
 
 Before you get started, it's a good idea to download the phone manufacturer's administration guides and phone user manuals.
   
-- For Polycom phones, see the [Polycom Deployment Guide](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- For Polycom phones, see the [Poly Documentation Library](https://documents.polycom.com/category/voice).
     
 - For Yealink phones, see [Yealink Skype for Business HD SIP Phones Solution](http://www.yealink.com/products_top_2.html).
     

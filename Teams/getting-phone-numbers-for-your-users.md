@@ -15,7 +15,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Calling Plans
 description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users. "

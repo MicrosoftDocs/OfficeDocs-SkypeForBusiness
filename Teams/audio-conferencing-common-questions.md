@@ -17,7 +17,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."

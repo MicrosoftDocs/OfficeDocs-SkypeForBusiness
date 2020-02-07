@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Optional) Verify Announcement deployment'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Verify Announcement deployment
 ms:assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398362(v=OCS.15)

@@ -16,7 +16,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Find out what you should know about PINs and how to reset them in Microsoft Teams. "

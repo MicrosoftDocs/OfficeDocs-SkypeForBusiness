@@ -13,7 +13,10 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
 description: Learn how to manage settings for Teams live events that are held in your organization.
-f1keywords: ms.teamsadmincenter.liveevents.settings
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.liveevents.settings
 appliesto: 
   - Microsoft Teams
 ---

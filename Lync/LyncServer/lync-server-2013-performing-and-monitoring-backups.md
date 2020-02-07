@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Performing and monitoring backups'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Performing and monitoring backups
 ms:assetid: 2df415d4-0f37-460e-99ff-4035a9a2f445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720912(v=OCS.15)

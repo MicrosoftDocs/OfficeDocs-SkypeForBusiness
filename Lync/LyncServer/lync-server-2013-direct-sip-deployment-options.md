@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Direct SIP deployment options'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP deployment options
 ms:assetid: 84691944-03f2-4a89-9f2b-1ab3d7f388cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398672(v=OCS.15)

@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
@@ -73,7 +75,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 To pair the SBC to the tenant, in the PowerShell session type the following and press Enter: 
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
+New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
   > 1. We highly recommend setting a maximum call limit in the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
@@ -84,13 +86,13 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
+New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 Returns:
 <pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 FailoverTimeSeconds   : 10 
 ForwardCallHistory    : False 
 ForwardPai            : False 
@@ -106,7 +108,7 @@ The following table lists the additional parameters that you can use in setting 
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String, list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/help/909264)|
 |No|MediaBypass |Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
-|Yes|SipSignallingPort |Listening port used for communicating with Direct Routing services by using the Transport Layer Security (TLS) protocol.|None|Any port|0 to 65535 |
+|Yes|SipSignalingPort |Listening port used for communicating with Direct Routing services by using the Transport Layer Security (TLS) protocol.|None|Any port|0 to 65535 |
 |No|FailoverTimeSeconds |When set to 10 (default value), outbound calls that are not answered by the gateway within 10 seconds are routed to the next available trunk; if there are no additional trunks, then the call is automatically dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily. The default value is 10.|10|Number|Int|
 |No|ForwardCallHistory |Indicates whether call history information will be forwarded through the trunk. If enabled, the Office 365 PSTN Proxy sends two headers: History-info and Referred-By. The default value is **False** ($False). |False|True<br/>False|Boolean|
 |No|ForwardPAI|Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller. If enabled the Privacy:ID header will also be sent. The default value is **False** ($False).|False|True<br/>False|Boolean|
@@ -134,7 +136,7 @@ Which returns:
 <pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 CodecPriority         : SILKWB,SILKNB,PCMU,PCMA 
 ExcludedCodecs        :  
 FailoverTimeSeconds   : 10 
@@ -554,7 +556,7 @@ To assign, configure, and list number manipulation rules on SBCs, use the [New-C
 For the example scenarios, we run the ```New-CsOnlinePSTNGateway``` cmdlet to create the following SBC configuration.
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 
 The translation rules assigned to the SBC are summarized in the following table.

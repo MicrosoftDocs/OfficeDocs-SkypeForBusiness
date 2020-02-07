@@ -3,6 +3,8 @@ title: 'Lync Server 2013: System requirements for administration tools'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for administration tools
 ms:assetid: 327d3f1f-651d-4bb2-8c08-89186ee8135e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204791(v=OCS.15)

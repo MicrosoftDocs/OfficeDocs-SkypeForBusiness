@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure Lync Server 2013 to work with Unified Messag
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)

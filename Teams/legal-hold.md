@@ -1,7 +1,7 @@
 ---
 title: Place a Microsoft Teams user or team on legal hold
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,6 +10,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn to place a Microsoft Teams user or team on legal hold using the Security & Compliance Center and learn what needs a legal hold based on data requirements.
 appliesto: 
   - Microsoft Teams
@@ -24,7 +26,7 @@ To put a user or a team on Legal Hold, navigate to the [Security & Compliance Ce
 > Placing a user on hold does not automatically place a group on hold or vice-versa.
 
 > [!NOTE]
-> We don’t yet support configuration for legal hold of private channel messages. Legal hold of files shared in private channels is supported.
+> Support for legal hold of private channel messages will be available soon. Legal hold of files shared in private channels is supported.
 
 > [!IMPORTANT]
 > When a user or group is placed on hold, all message copies will be retained. Example: Clay posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.

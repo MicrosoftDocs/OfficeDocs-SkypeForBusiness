@@ -12,7 +12,9 @@ description: Step-by-step guidance for rolling out chat, teams, channels, and ap
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto: 
   - Microsoft Teams

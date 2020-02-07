@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Branch site SIP trunking'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch site SIP trunking
 ms:assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412974(v=OCS.15)

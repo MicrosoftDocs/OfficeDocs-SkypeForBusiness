@@ -2,6 +2,11 @@
   "redirections": [ 
 
     {
+      "source_path": "Teams/room-systems/content-camera.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/content-camera", 
+      "redirect_document_id": true
+      },    
+    {
       "source_path": "Teams/room-systems/room-systems-scale.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-scale", 
       "redirect_document_id": true
@@ -77,7 +82,7 @@
       "redirect_document_id": true
       },
     {
-      "source_path": "Teams/room-systems/with-xml-config-file.md", 
+      "source_path": "Teams/room-systems/xml-config-file.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/xml-config-file", 
       "redirect_document_id": true
       },

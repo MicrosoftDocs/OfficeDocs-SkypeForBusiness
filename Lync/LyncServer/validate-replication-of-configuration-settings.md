@@ -3,6 +3,8 @@ title: Validate replication of configuration settings
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Validate replication of configuration settings
 ms:assetid: 81a3c21d-b28a-4287-adac-11791e8db56d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205042(v=OCS.15)

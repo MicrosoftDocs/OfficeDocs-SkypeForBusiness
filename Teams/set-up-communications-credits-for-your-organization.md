@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Licensing
 description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. "

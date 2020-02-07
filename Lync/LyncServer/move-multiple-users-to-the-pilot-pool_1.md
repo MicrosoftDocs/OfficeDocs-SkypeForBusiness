@@ -3,6 +3,8 @@ title: Move multiple users to the pilot pool
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688143(v=OCS.15)

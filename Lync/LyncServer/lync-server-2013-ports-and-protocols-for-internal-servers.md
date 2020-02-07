@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ports and protocols for internal servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Ports and protocols for internal servers
 ms:assetid: c94063f1-e802-4a61-be90-022fc185335e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398833(v=OCS.15)

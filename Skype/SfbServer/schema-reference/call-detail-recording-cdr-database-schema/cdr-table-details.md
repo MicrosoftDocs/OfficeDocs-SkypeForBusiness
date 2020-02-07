@@ -8,6 +8,8 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: "The following topics detail the columns in each of the call detail records (CDR) database schema tables."

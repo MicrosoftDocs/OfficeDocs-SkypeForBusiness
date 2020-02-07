@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing the ability of a user to log on to Lync Server
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the ability of a user to log on to Lync Server
 ms:assetid: d9cd0f9b-6ef2-4050-a4ca-263c5afa93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743841(v=OCS.15)

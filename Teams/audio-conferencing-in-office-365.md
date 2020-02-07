@@ -17,9 +17,11 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.overview
+f1.keywords: 
+- CSH
 ms.custom: 
   - Audio Conferencing
+  - ms.teamsadmincenter.audioconferencing.overview
 ---
 
 # Audio Conferencing in Office 365

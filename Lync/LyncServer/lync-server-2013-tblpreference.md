@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPreference'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)

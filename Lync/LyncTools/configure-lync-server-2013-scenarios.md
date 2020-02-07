@@ -3,6 +3,8 @@ title: Configure Lync Server 2013 Scenarios
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Lync Server 2013 Scenarios
 ms:assetid: 6705346b-1512-4af3-85e4-64dfa6ee6f80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945596(v=OCS.15)

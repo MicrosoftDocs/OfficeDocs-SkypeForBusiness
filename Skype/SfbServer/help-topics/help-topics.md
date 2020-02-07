@@ -8,6 +8,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50c989f1-a717-400f-9974-932dbe5a1675
 description: "Insert introduction here."

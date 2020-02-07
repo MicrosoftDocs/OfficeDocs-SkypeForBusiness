@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Diagnostic Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Diagnostic Report
 ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)

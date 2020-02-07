@@ -13,6 +13,8 @@ description: How to sign in to Microsoft Teams by using modern authentication.
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---
@@ -34,12 +36,14 @@ Modern authentication is a process that lets Teams know that users have already 
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name:
-  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams
-  DisableUpnSuffixCheck(REG_DWORD)
+- If users are signed in to a domain-joined computer and you don't want their user name pre-populated on the Teams sign-in screen, admins can set the following Windows registry to turn off pre-population of the user name (UPN):
+
+  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
-  Note: Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
+    > [!NOTE]
+    > Skipping user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off. 
 
 
 ### Mac users 
@@ -53,9 +57,12 @@ If users are working on a domain-joined computer (for example, if their tenant h
 ## Signing out of Microsoft Teams after completing modern authentication
 To sign out of Teams, users can click their profile picture at the top of the app, and then select **Sign out**. They can also right-click the app icon in their taskbar, and then select **Log out**. Once they've sign out of Teams, they need to enter their credentials again to launch the app.
 
+## URLs and IP address ranges
+Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government and other clouds, please read the [guidance available here](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). In addition to this, you'd need to also allow access to https://ssl.gstatic.com.
+
 ## Troubleshooting modern authentication
 
 Modern authentication is available for every organization that uses Teams, so if users are not able to complete the process, there might be something wrong with your domain or your organization's Office 365 Enterprise account. 
 
-For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 

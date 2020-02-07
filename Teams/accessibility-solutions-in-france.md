@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Legal
 hideEdit: true

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Defining your requirements for Front End Servers, inst
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for Front End Servers, instant messaging, and presence
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412956(v=OCS.15)

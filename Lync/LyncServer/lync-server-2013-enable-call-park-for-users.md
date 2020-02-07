@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable Call Park for users'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Call Park for users
 ms:assetid: 9430763f-3394-467c-9c6d-426bf761604e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398753(v=OCS.15)

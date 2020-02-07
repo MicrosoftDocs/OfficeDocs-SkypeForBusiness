@@ -11,7 +11,9 @@ ms.collection:
   - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords:
+- NOCSH
 description: Landing page for Direct Routing
 appliesto: 
   - Microsoft Teams

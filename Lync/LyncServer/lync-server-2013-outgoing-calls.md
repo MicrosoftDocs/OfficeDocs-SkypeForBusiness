@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Outgoing calls'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Outgoing calls
 ms:assetid: 885ffe6f-cd51-4f21-8d4f-a1ff8d818858
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994049(v=OCS.15)

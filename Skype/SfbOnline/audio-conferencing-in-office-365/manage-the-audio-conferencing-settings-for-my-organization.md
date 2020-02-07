@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "See Skype for Business Online steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "

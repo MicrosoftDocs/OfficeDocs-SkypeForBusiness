@@ -16,7 +16,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn what you need and how meeting organizers can call out to other people using Teams."

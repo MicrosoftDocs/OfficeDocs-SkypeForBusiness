@@ -11,7 +11,9 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 

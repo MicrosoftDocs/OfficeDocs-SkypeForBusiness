@@ -14,10 +14,11 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_OnlinePresenceDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
+- O365P_OnlinePresenceDesc
 description: "Learn how to set up Skype for Business so you can see the availability of your co-workers. "
 ---
 

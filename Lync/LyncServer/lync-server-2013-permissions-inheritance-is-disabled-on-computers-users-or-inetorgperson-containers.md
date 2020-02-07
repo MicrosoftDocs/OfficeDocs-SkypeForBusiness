@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Permissions inheritance Is disabled on computers, user
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)

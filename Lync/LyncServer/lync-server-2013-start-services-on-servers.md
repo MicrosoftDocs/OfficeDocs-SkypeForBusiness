@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Start services on servers'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Start services on servers
 ms:assetid: fa26eaed-0529-4f32-9f3f-f32c4bd4b1c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413059(v=OCS.15)

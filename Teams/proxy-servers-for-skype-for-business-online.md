@@ -16,7 +16,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Optimization
 description: "This article provides information about using a proxy server with Teams or Skype for Business."

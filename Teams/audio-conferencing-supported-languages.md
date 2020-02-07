@@ -17,7 +17,8 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)"

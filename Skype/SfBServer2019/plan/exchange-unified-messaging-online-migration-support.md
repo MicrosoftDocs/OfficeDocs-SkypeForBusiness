@@ -7,13 +7,15 @@ ms.reviewer: waseemh, dstrome, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
 # Exchange Unified Messaging Online migration support
 
-In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
+In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 28, 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
  
 ExchUMO is deployed by customers for voicemail, auto attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams.
 
@@ -72,7 +74,7 @@ Microsoft has identified various customer deployments that are consuming feature
     Look out for a notice in the Admin Notification Center with further details and timeline regarding your users' migration. Notifications are sent at least 30 days before your migration period. 
 
     > [!Note]
-    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
+    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 28, 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
 
 6. **Consider opting in for a planned migration**
 

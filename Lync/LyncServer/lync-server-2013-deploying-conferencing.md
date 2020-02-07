@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying conferencing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying conferencing
 ms:assetid: 8ef31d46-a1e6-43d2-b1ad-80f159cc5eed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619184(v=OCS.15)

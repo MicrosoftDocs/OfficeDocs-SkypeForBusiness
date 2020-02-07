@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Monitoring IIS request tracing log files'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring IIS request tracing log files
 ms:assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690034(v=OCS.15)

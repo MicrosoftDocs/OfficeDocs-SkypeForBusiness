@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Optional) Define Response Group business hours'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Define Response Group business hours
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)

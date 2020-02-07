@@ -13,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 description: Learn how to use Microsoft Teams scoped directory search to provide customized views of the directory.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 

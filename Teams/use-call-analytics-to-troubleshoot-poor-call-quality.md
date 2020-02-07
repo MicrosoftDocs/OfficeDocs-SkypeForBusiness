@@ -17,10 +17,11 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.directrouting.callanalytics
   - ms.teamsadmincenter.users.activity.audioqualitycolumn
-ms.custom: 
   - Reporting
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams and Skype for Business calls and meetings."
 ---
