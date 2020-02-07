@@ -9,7 +9,9 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
   - ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
   - ms.teamsadmincenter.signin.error.nopermissions

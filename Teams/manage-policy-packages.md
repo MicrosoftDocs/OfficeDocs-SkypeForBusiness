@@ -12,7 +12,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams.

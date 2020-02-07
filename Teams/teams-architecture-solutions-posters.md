@@ -13,6 +13,8 @@ appliesto:
   - Microsoft Teams
 search.appverid: 
   - MET150
+f1.keywords:
+- NOCSH
 description: "Summary: Learn about the logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams. Also learn about telephony solutions for Teams. "
 ---
 

@@ -15,7 +15,9 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage app setup policies in Microsoft Teams for users in your organization.
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
