@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration

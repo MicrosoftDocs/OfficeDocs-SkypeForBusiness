@@ -12,6 +12,8 @@ metadata:
   ms.date: 02/09/2019
   ms.service: msteams
   ms.topic: tutorial
+  f1.keywords:
+  - NOCSH
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:

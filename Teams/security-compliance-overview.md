@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-f1.keywords: 
+f1.keywords:
+  - CSH
+ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto: 
   - Microsoft Teams
