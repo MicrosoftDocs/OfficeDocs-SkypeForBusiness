@@ -30,15 +30,15 @@ Please read the terms and conditions before you use these materials.
 
 |**Physical assets**  |  |
 |---------|---------|
-|Posters     |Handouts<br>|
-|Flyers   |Book adverts         |
+|Posters<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-posters.png)     |Handouts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-handouts.png)|
+|Flyers<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-flyers.png)   |Book adverts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-book-adverts.png)         |
 
 |**Digital assets**  |  |
 |---------|---------|
 |Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!    |      |
-|Email templates<br> ![Screenshot of Learn the Teams Basics email template.](media/edu_teamsbasics.png)    |GIFs      |
-|Web banners  |Videos         |
-|Digital screen alerts  |Email and newsletter banners       |
+|Email templates<br> ![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-templates.png)    |GIFs <br> ![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-gifs.png)      |
+|Web banners<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-web-banners.png)    |Videos<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-videos.png)          |
+|Digital screen alerts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-digital-screen-adverts.png)   |Email and newsletter banners <br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-newsletter-banners.png)       |
 
 
 |Customizable email templates |         |
