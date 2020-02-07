@@ -13,6 +13,8 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Lists the combinations of operating system, model, and drivers that are not enabled for hardware acceleration due to driver issues.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 

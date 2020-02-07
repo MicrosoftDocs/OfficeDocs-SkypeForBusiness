@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
 appliesto: 
   - Microsoft Teams

@@ -11,6 +11,8 @@ description: Use this PowerShell script sample to test Direct Routing Session Bo
 localization_priority: Normal
 ms.collection: 
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 ---

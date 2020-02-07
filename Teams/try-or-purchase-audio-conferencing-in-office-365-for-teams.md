@@ -17,9 +17,10 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords: 
-  - ms.lync.lac.CpcGettingStarted
+  - CSH
 ms.custom: 
   - Audio Conferencing
+  - ms.lync.lac.CpcGettingStarted
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 

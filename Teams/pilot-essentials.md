@@ -11,6 +11,8 @@ description: Guidance for starting a Microsoft Teams pilot to explore all that T
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration

@@ -11,6 +11,8 @@ ms.reviewer: jatpatel
 description: Configure admin settings for Microsoft Teams for Surface Hub.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: 
   - Devices
 ms.collection: 
