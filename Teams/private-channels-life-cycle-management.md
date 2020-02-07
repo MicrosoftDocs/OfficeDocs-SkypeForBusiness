@@ -111,7 +111,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following to get the list of private channel Ids for a given team, where <group_id> is the group ID of the team. You'll need this in subsequent calls. (You can easily find the group ID in the link to the team).
+1. Use the following to get the list of private channel IDs for a given team, where <group_id> is the group ID of the team. You'll need this in subsequent calls. (You can easily find the group ID in the link to the team).
 
     **Request**
 
