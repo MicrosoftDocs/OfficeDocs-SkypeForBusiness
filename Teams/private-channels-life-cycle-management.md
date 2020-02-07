@@ -97,7 +97,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 ### Using PowerShell
 
 1. Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.
-2. Run the following, where &lt;group_id&gt; is the group Id of the team. (You can easily find the group Id in the link to the team.)
+2. Run the following, where &lt;group_id&gt; is the group ID of the team. (You can easily find the group ID in the link to the team.)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -111,7 +111,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following to get the list of private channel Ids for a given team, where <group_id> is the group Id of the team. You'll need this in subsequent calls. (You can easily find the group Id in the link to the team).
+1. Use the following to get the list of private channel Ids for a given team, where <group_id> is the group ID of the team. You'll need this in subsequent calls. (You can easily find the group ID in the link to the team).
 
     **Request**
 
@@ -141,7 +141,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     }
     ```
 
-2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel Id.
+2. For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel ID.
 
     **Request**
 
@@ -196,7 +196,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 
 You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-1. Use the following, where &lt;group_id&gt; is the group Id of the team and &lt;channel_id&gt; is the channel Id.
+1. Use the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_id&gt; is the channel ID.
 
     **Request**
 
