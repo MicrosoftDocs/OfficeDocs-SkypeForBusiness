@@ -13,28 +13,30 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
-f1.keywords:
-- NOCSH
 description: "Learn how to use Health Dashboard to monitor the connection between your Session Border Controller and Direct Routing."
 ---
 
 # Health Dashboard for Direct Routing
 
-Health Dashboard for Direct Routing lets you monitor the connection between your Session Border Controller (SBC) and the Direct Routing interface.  With Health Dashboard, you can monitor information about your SBC, the telephony service, and the network parameters between your SBC and the Direct Routing interface. This information can help you identify issues, including the reason for dropped calls. For example, the SBC might stop sending calls if a certificate on the SBC has expired or if there are network issues.  
+Health Dashboard for Direct Routing lets you monitor the connection between your Session Border Controller (SBC) and the Direct Routing interface. With Health Dashboard, you can monitor information about your SBC, the telephony service, the network parameters and Network Effectiveness Ratio details between your SBC and the Direct Routing interface. This information can help you identify issues, including the reason for dropped calls. For example, the SBC might stop sending calls if a certificate on the SBC has expired or if there are network issues.
 
 Health Dashboard monitors two levels of information:
+    •	Overall health of the connected SBCs
+    •	Detailed information about the connected SBCs
 
-- Overall health of the connected SBCs
-- Detailed information about the connected SBCs
+You can view Health Dashboard in the Microsoft Teams and Skype for Business Admin Center under Voice -> Direct Routing.
 
-You can view Health Dashboard in the Microsoft Teams and Skype for Business Admin Center.
 
 
 ## Overall health
 
 Health Dashboard provides the following information related to overall health of the connected SBCs:
 
- ![Shows Health Dashboard statistics](media/direct-routing-dashboard-stats1.png)
+ ![Shows Health Dashboard statistics](media/SBCoverview.png)
+ 
+ And it also provides geographic information related to overall health of the connected SBCs. (click the globe icon on the top right of the SBC list table):
+ 
+ ![Shows Health Dashboard map view](media/map_overview.png)
 
 - **Direct Routing summary** - Shows the total number of SBCs registered in the system. Registration means that the tenant administrator added an SBC by using the New-CsOnlinePSTNGateway command. If the SBC was added in PowerShell, but never connected, the Health Dashboard shows it in an unhealthy status.
 
@@ -50,10 +52,10 @@ Health Dashboard provides the following information related to overall health of
 
    The formula used to calculate NER is:
 
-   NER = Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures x 100
+   NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures)/Total Attempt Calls x 100
 
  
-- **Average call duration** - Information about average call duration can help you monitor the quality of calls. The average duration of a 1:1 PSTN call is four to five minutes.  However, for each company, this average can differ.  Microsoft recommends establishing a baseline for the average call duration for your company. If this parameter goes significantly below the baseline, it might indicate that your users are having issues with call quality or reliability and are hanging up earlier than usual. If you start seeing extremely low average call duration, for example 15 seconds, callers might be hanging up because your service is not performing reliably. 
+- **Average call duration** - Information about average call duration can help you monitor the quality of calls. The average duration of a 1:1 PSTN call is four to five minutes. However, for each company, this average can differ. Microsoft recommends establishing a baseline for the average call duration for your company. If this parameter goes significantly below the baseline, it might indicate that your users are having issues with call quality or reliability and are hanging up earlier than usual. If you start seeing extremely low average call duration, for example 15 seconds, callers might be hanging up because your service is not performing reliably. 
 
    Because the action you take might depend on the number of calls affected, Health Dashboard shows how many calls were analyzed to calculate a parameter.
 
@@ -75,27 +77,42 @@ Health Dashboard provides the following information related to overall health of
 
 - **Concurrent calls capacity** - You can specify the limit of concurrent calls that an SBC can handle by using the New- or Set-CsOnlinePSTNGateway command with the -MaxConcurrentSessions parameter. This parameter calculates how many calls were sent or received by Direct Routing using a specific SBC and compares it with the limit set. Note:  If the SBC also handles calls to different PBXs, this number will not show the actual concurrent calls.
 
+- **Enabled** - You can enable or disable individual SBCs using the button.
+
 
 ## Detailed information for each SBC
 
 You can also view the detailed information for a specific SBC as shown in the following screenshot:
 
-![Health dashboard SBC details](media/direct-routing-dashboard-SBC-detail1.png)
+![Health dashboard SBC details](media/SBCdetail.png)
 
-
-The detailed view shows the following additional parameters:
-
-- **TLS Connectivity status** – this is the same metric as on the “Overall Health” page;
-
-- **TLS Connectivity last status** – shows time when the SBC made a TLS connection to the Direct Routing service;
-
+- **Status** – overall status of the SBC, based on all monitored parameters.
+- **SBC sugnaling port** – he unique UDP/TCP port assigned to this SBC.
 - **SIP options status** – the same metric as on the “Overall Health” page.
+- **TLS connectivity status** –  this is the same metric as on the “Overall Health” page.
+- **Average call duration(call count)** –  this is the average call duration for the total call count in minutes.
+- **Network effectiveness ratio(NER)** – This is the same parameter that appears on the Overall Health dashboard. You can slide the data by number of days and check hourly NER number with affected calls summery for both call directions (inbound/outbound) on the Hourly network effectiveness ratio and call ending reason chart below.
 
-- **SIP options last checked** – time when the SIP options were received last time.
+If you want to investigate on affected calls, please go to Analytics & reports -> Usage reports to download detail call record. With the information, you can start with self-troubleshooting and report to Microsoft Service Desk.  
 
-- **SBC status** – overall status of the SBC, based on all monitored parameters.
+   - SIP response code- A three-digit integer response code shows the call status.
+   - Microsoft response code-A response code sent out from Microsoft component.
+   - Description – The reason phase that corresponding to the SIP response code and Microsoft response code.
+   - Number of calls affected – The total number of calls got affected during the selected period.
+
+For example:
+
+![Health dashboard NER details](media/NERdetail.png)
+
+The detailed view also shows the following additional parameters:
 
 - **Concurrent call**- shows  how many concurrent calls the SBC handled. This information is useful to predict the number of concurrent channels you need and see the trend. You can slide the data by number of days and call direction (inbound/outbound/All streams).
+
+  You can slide the data by number of days on the Network parameters chart below.
+
+  For example:
+
+![Health dashboard concurrent call details](media/concurrent_calls.png)
 
 - **Network parameters** - All network parameters are measured from the Direct Routing interface to the Session Border Controller. For information about the recommended values, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network), and look at the Customer Edge to Microsoft Edge recommended values.
 
@@ -107,8 +124,7 @@ The detailed view shows the following additional parameters:
 
    You can slide the data by number of days and call direction (inbound/outbound/All streams).
 
-**Network Effectiveness ratio** - This is the same parameter that appears on the Overall Health dashboard, but with the option to slice the data by time series or call direction.
+  For example:
 
-
-
+![Health dashboard network parameters details](media/Network_parameters.png)
 
