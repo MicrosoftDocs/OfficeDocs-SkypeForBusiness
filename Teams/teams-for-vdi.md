@@ -10,6 +10,8 @@ audience: admin
 description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 
