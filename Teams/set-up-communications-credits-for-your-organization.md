@@ -53,7 +53,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
 
 1. Sign in to the new Office 365 portal with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**, scroll down and select **Add-Ons**.
+2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
 
 3. Click to choose **Communications Credits**.
     
