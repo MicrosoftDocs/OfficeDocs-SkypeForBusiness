@@ -24,7 +24,22 @@ Microsoft Teams resources for Education admins
 
 ## Adoption content
 
-Create customized email messages, posters, and flyers with your school's information and logo. Or use ready-to-print posters, flyers, and other handouts to get your organization excited about Microsoft Teams.
+Get your school excited about Microsoft Teams with emails, posters, handouts, and more resources that you are free to use now. You can also reach students online and across campus with the new digital toolkit filled with banners, GIFs, and videos. Get started today!
+
+Please read the terms and conditions before you use these materials.
+
+|**Physical assets**  |  |
+|---------|---------|
+|Posters     |Handouts<br>|
+|Flyers   |Book adverts         |
+
+|**Digital assets**  |  |
+|---------|---------|
+|Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!    |      |
+|Email templates<br> ![Screenshot of Learn the Teams Basics email template.](media/edu_teamsbasics.png)    |GIFs      |
+|Web banners  |Videos         |
+|Digital screen alerts  |Email and newsletter banners       |
+
 
 |Customizable email templates |         |
 |---------|---------|
@@ -44,19 +59,17 @@ Create customized email messages, posters, and flyers with your school's informa
 
 ## Call to action
 
-- Check out our hands-on [Microsoft Teams Interactive Demo](https://teamsdemo.office.com/) (5 minutes to complete)
-- Turn on Microsoft Teams in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
+- Visit the [Teams for Education page](https://www.microsoft.com/education/products/teams) for trainings, videos, and interactive demos
+- Turn on Teams in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
 - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
 - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
 
 ## Additional resources
 
-- [Microsoft Teams roadmap](https://aka.ms/teamsroadmap)
+- [Teams roadmap](https://aka.ms/teamsroadmap)
 - Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
-- Matt Soseman's "The Productive Cloud" Blog about [Microsoft Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
+- Matt Soseman's "The Productive Cloud" Blog about [Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
 - [Send a suggestion](https://aka.ms/eduuservoice)
 - [Contact support](https://aka.ms/o365portal)
 - [Ask the Teams community](https://aka.ms/msteamscommunity)
 - [Find more resources for education](https://education.microsoft.com/)
-
-
