@@ -29,10 +29,8 @@ If you’ve already [optimized your network for Office 365](https://docs.microso
     |  |  |
     |---------|---------|
     |TCP ports     |<strong>80</strong> and <strong>443</strong> – for outgoing traffic from clients that will use Teams         |
-    |UDP ports     |<strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams         |
-    |IP subnets    |<strong>13.107.64.0/18<br />52.112.0.0/14</strong>         |
-
-
+    |UDP ports and IP subnets     |UDP ports <strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams <br>IP subnets: <br><strong>13.107.64.0/18<br />52.112.0.0/14</strong>        |
+    
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
       - If your organization hasn’t rolled out Office 365, see [Getting Started with Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
