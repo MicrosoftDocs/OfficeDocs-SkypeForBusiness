@@ -90,7 +90,7 @@ When you are setting up Communications Credits, you will need to investigate cal
     
 3. Choose **Licenses and Apps**.
     
-4. Toggle **Communications Credits** to **On** to assign this license, and then click **Save**.
+4. Toggle **Communications Credits** to **On** to assign this license, and then select **Save**.
     
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
