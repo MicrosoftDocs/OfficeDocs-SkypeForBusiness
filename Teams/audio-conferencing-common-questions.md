@@ -62,7 +62,7 @@ Local dial-in numbers, and also in some cases international dial-in numbers from
   
 ## How many international dial-in numbers does Audio Conferencing in Office 365 support?
 
-For a current list of countries/regions, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) or [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+For a current list of countries/regions, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) or [Phone numbers for Audio Conferencing in Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md).
   
 ## Can I set up local numbers for Audio Conferencing from additional cities in the country?
 
@@ -86,7 +86,7 @@ To find out about meeting limits, see [Skype for Business Online Limits](https:/
   
 ## Why did users start receiving emails with their Audio Conferencing information?
 
-We added a new feature that allows you, the [admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) or [Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+We added a new feature that allows you, the [admin](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) or [Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md).
   
 ## Can Audio Conferencing be used by the users who are part of an on-premises deployment of Skype for Business Server?
 
@@ -116,11 +116,8 @@ We are working on a solution that will let the user access and reset a conferenc
 ## How does a user access or change his/her PIN?
 
 The Skype for Business or Microsoft Teams user can find the PIN in an email that will be sent to them once they are set up.
-  
-> [!NOTE]
-> A Skype for Business or Microsoft Teams user won't be able to reset their PIN. The PIN can only be reset by you, the admin. When a PIN is reset, an email is sent to the user. 
-  
-We are working on a solution that will let the user access and reset a PIN without help from a organization's administrator.
+
+For information about resetting Audio Conferencing PINs, see [Reset the Audio Conferencing PIN in Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md) or [Reset the Audio Conferencing PIN in Microsoft Teams](reset-the-audio-conferencing-pin-in-teams.md).
   
 ## What in-meeting dial-pad commands are supported?
 
@@ -130,7 +127,7 @@ We are working on a solution that will let the user access and reset a PIN witho
     
 ## Can attendees dial out to international phone numbers when they are in a Skype for Business or Microsoft Teams meeting?
 
-Yes, attendees can dial out internationally and invite other callers into a Skype for Business or Microsoft Teams meeting. See [Dialing out from a Microsoft Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) or [Dialing out from a Skype for Business Online meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
+Yes, attendees can dial out internationally and invite other callers into a Skype for Business or Microsoft Teams meeting. See [Dialing out from a Microsoft Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) or [Dialing out from a Skype for Business Online meeting so other people can join it](/Skype/SfbOnline/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md).
   
 ## How does a Skype for Business or Microsoft Teams user schedule a meeting with Audio Conferencing meeting details?
 
@@ -142,13 +139,13 @@ Scheduling a meeting that will be joined by all attendees using a phone to dial-
 
 - **Option #1**: By default, if the meeting organizer and all participants are joining a meeting using a phone, the meeting organizer needs to input his or her Audio Conferencing PIN to start it. Callers get asked if they wish to authenticate as the organizer of a given meeting when they dial the phone number of an online meeting. All participants that join the meeting via dial-in before the organizer starts will be placed in the lobby and will listen to music on hold. For Skype for Business meetings, once the organizer starts it by inputting his or her Audio Conferencing PIN, all participants in the lobby will automatically join the meeting. For Microsoft Teams meetings, the participants will join the meeting according to the value of the automatically admit people setting in the organizer's meeting policy.
 
-- **Option #2**: If the “Allow unauthenticated callers to be the first people in a meeting“ setting (disabled by default) is enabled for a given organizer, then all meetings scheduled by that user will be able to be started without having the organizer input his or her Audio Conferencing PIN. When this setting is enabled, the meeting will start as soon as the first participant joins it via a dial-in phone number and he or she will not be put in the lobby. For additional information see, [Manage Audio Conferencing settings for a user in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) or [Manage Audio Conferencing settings for a user in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Option #2**: If the “Allow unauthenticated callers to be the first people in a meeting“ setting (disabled by default) is enabled for a given organizer, then all meetings scheduled by that user will be able to be started without having the organizer input his or her Audio Conferencing PIN. When this setting is enabled, the meeting will start as soon as the first participant joins it via a dial-in phone number and he or she will not be put in the lobby. For additional information see, [Manage Audio Conferencing settings for a user in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) or [Manage Audio Conferencing settings for a user in Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md).
    
 ## Related topics
 
-[Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Set up Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/set-up-skype-for-business-online.md)
   
 [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Phone numbers for Audio Conferencing in Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
   
