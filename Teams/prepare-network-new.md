@@ -11,26 +11,6 @@ If you’ve already [optimized your network for Office 365](https://docs.microso
     |IP subnets     |<strong>13.107.64.0/18<br />52.112.0.0/14</strong>         |
 
 
-    <table>
-    <thead>
-    <tr class="header">
-    <th>TCP ports</th>
-    <th><strong>80</strong> and <strong>443</strong> – for outgoing traffic from clients that will use Teams</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>UDP ports</td>
-    <td><strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams</td>
-    </tr>
-    <tr class="even">
-    <td>IP subnets</td>
-    <td><strong>13.107.64.0/18<br />
-    52.112.0.0/14</strong></td>
-    </tr>
-    </tbody>
-    </table>
-
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
       - If your organization hasn’t rolled out Office 365, see [Getting Started with Office 365 for business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
@@ -78,28 +58,24 @@ For an in-depth discussion of network optimization, including guidance for ident
 <tbody>
 <tr class="odd">
 <td>Network planner</td>
-<td><p>For help assessing your network, including bandwidth calculations and network requirements across your org’s physical locations, check out the n[Network Planner](network-planner.md) tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</p>
-<p>For an example scenario, see <a href="https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/tutorial-network-planner-example.md">Using Network Planner - example scenario</a>.</p></td>
+<td><p>For help assessing your network, including bandwidth calculations and network requirements across your org’s physical locations, check out the <a href="https://docs.microsoft.com/microsoftteams/network-planner">Network Planner</a> tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</p>
+<p>For an example scenario, see <a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">Using Network Planner - example scenario</a>.</p></td>
 </tr>
 <tr class="even">
 <td>Advisor for Teams</td>
-<td><a href="https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/use-advisor-teams-roll-out.md">Advisor for Teams</a> is part of the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">Advisor for Teams</a> is part of the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.</td>
 </tr>
 <tr class="odd">
 <td>External Name Resolution</td>
-<td>Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to <a href="https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/office-365-urls-ip-address-ranges.md">Office 365 URLs and IP ranges</a>.</td>
-</tr>
-<tr class="even">
-<td>Network Assessment Tool</td>
-<td>Use the <a href="https://www.microsoft.com/download/details.aspx?id=53885">Network Assessment Tool</a> to test network connectivity to all IP addresses and ports used in Teams calls and meetings. Download the tool and see Usage.docx for details about how to use the tool and interpret the test results. We recommend that you run the tool from a client PC in each location where Teams will be used.</td>
+<td>Be sure that all computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365 and that your firewalls are not preventing access. For information about configuring firewall ports, go to <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 URLs and IP ranges</a>.</td>
 </tr>
 <tr class="odd">
 <td>Validate (NAT) pool size</td>
-<td>Validate the network address translation (NAT) pool size required for user connectivity. When multiple users and devices access Office 365 using <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365?redirectSourcePath=%252farticle%252fNAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9">Network Address Translation (NAT) or Port Address Translation (PAT)</a>, you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.</td>
+<td>Validate the network address translation (NAT) pool size required for user connectivity. When multiple users and devices access Office 365 using <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">Network Address Translation (NAT) or Port Address Translation (PAT)</a>, you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. Ensure that adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will contribute to internal users and devices being unable to connect to the Office 365 service.</td>
 </tr>
 <tr class="even">
 <td>Routing to Microsoft data centers</td>
-<td><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity?redirectSourcePath=%252farticle%252fClient-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b">Implement the most efficient routing to Microsoft data centers</a>. Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible.</td>
+<td><a href="https://docs.microsoft.com/office365/enterprise/client-connectivity">Implement the most efficient routing to Microsoft data centers</a>. Identify locations that can use local or regional egress points to connect to the Microsoft network as efficiently as possible.</td>
 </tr>
 <tr class="odd">
 <td>Intrusion Detection and Prevention Guidance</td>
@@ -108,11 +84,16 @@ For an in-depth discussion of network optimization, including guidance for ident
 <tr class="even">
 <td>Configure split-tunnel VPN</td>
 <td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 doesn’t go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
-<p>Other reasons why we recommend bypassing the VPN: VPNs are typically not designed or configured to support real-time media. Some VPNs might also not support UDP (which is required for Teams). VPNs also introduce an extra layer of encryption on top of media traffic that’s already encrypted. Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></td>
+<p>Other reasons why we recommend bypassing the VPN: 
+<ul>
+<li><p>VPNs are typically not designed or configured to support real-time media.</p></li> 
+<li><p>Some VPNs might also not support UDP (which is required for Teams).</p></li> 
+<li><p>VPNs also introduce an extra layer of encryption on top of media traffic that’s already encrypted.</p></li> 
+<li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li></td>
 </tr>
 <tr class="odd">
 <td>Implement QoS</td>
-<td>[<a href="https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/qos-in-teams.md">Use Quality of Service (QoS)</a>](qos-in-teams.md) to configure packet prioritization. This will improve call quality in Teams and help you monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality.</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/qos-in-teams">Use Quality of Service (QoS)</a> to configure packet prioritization. This will improve call quality in Teams and help you monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don’t negatively affect quality.</td>
 </tr>
 <tr class="even">
 <td>Optimize WiFi</td>
@@ -128,16 +109,16 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tbody>
 </table>
 
-# Bandwidth requirements
+## Bandwidth requirements
 
-Microsoft Teams is designed to give the best audio, video and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
+Teams is designed to give the best audio, video and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
 Where bandwidth isn’t limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. 
 
 [!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
 
-# Related Topics
+## Related Topics
 
 [Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
