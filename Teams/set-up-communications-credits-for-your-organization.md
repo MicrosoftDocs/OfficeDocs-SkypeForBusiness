@@ -88,7 +88,7 @@ When you are setting up Communications Credits, you will need to investigate cal
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
     
-3. Click to choose **Licenses and Apps**.
+3. Choose **Licenses and Apps**.
     
 4. Toggle **Communications Credits** to **On** to assign this license, and then click **Save**.
     
