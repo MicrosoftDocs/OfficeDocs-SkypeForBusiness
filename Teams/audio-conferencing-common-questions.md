@@ -143,7 +143,7 @@ Scheduling a meeting that will be joined by all attendees using a phone to dial-
    
 ## Related topics
 
-[Set up Skype for Business Online](/Skype/SfbOnline/audio-conferencing-in-office-365/set-up-skype-for-business-online.md)
+[Set up Skype for Business Online](/Skype/SfbOnline/set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
