@@ -17,8 +17,10 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.autoattendants.overview
+f1.keywords:
+- CSH
 ms.custom: 
+  - ms.teamsadmincenter.autoattendants.overview
   - Phone System
 description: "Learn what Cloud  auto attendants are and how to use them."
 ---

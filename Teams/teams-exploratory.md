@@ -10,6 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
 description: "Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

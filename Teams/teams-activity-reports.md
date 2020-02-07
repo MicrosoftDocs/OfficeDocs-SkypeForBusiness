@@ -13,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 description: Learn how to use activity reports to see how users in your organization are using Microsoft Teams.
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

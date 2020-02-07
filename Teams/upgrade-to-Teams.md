@@ -10,6 +10,8 @@ audience: admin
 description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

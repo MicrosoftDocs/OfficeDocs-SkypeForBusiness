@@ -10,8 +10,10 @@ ms.reviewer: dearbeen, bjwhalen
 description: Details of Skype for Business and Microsoft Teams coexistence options and modes, and upgrade journeys to Teams from Skype for Business with example scenarios. 
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
 f1.keywords:
+- CSH
+ms.custom: 
+- Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection: 
