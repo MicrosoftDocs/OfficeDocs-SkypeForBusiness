@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Read this topic to learn how to configure media bypass with Phone System Direct Routing."
 ---
 

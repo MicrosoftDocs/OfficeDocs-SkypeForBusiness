@@ -10,6 +10,8 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
+f1.keywords:
+  - NOCSH
 ms.collection: 
   - M365-voice
 localization_priority: Normal

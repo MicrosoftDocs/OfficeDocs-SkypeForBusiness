@@ -11,6 +11,8 @@ ms.reviewer: lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

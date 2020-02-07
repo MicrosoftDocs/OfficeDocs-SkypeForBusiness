@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Read this topic to learn how Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System."
 ---
 
