@@ -140,6 +140,8 @@ Where bandwidth *isn’t* limited, Teams optimizes media quality, including up t
 
 [Office 365 Network Connectivity Principles](https://aka.ms/pnc)
 
+[Worldwide endpoints: Skype for Business Online and Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+
 [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
 
 [Media in Teams: Why meetings are simple](https://aka.ms/teams-media)
