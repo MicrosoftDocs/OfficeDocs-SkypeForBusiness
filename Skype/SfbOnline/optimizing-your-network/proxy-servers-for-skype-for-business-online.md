@@ -14,28 +14,27 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Skype for Business
-  - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: 
   - Optimization
-description: "This article provides information about using a proxy server with Teams or Skype for Business."
+description: "This article provides information about using a proxy server with Skype for Business."
 ---
 
-# Proxy servers for Teams or Skype for Business Online
+# Proxy servers for Skype for Business Online
 
-This article provides guidance about using a proxy server with Teams or Skype for Business.
+This article provides guidance about using a proxy server with Skype for Business.
   
 ## Not using a proxy server is recommended
 
-When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because the traffic is already encrypted.
+When it comes to Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Skype for Business more secure because the traffic is already encrypted.
   
 And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
   
 ## If you need to use a proxy server
 
-Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
+Some organizations have no option to bypass a proxy for Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
   
 Microsoft also strongly recommends:
   
@@ -46,13 +45,14 @@ Microsoft also strongly recommends:
 - Allowing UDP traffic
     
 - Following the other recommendations in our networking guidelines:
-  [Prepare your organization's network for Teams](prepare-network.md)
-  
+    
+  - [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md)
+    
+  - [Optimizing your network for Skype for Business Online](optimizing-your-network.md)
     
 Following this guidance should minimize potential problems.
   
 ## Related topics
 
-[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
-
-[Prepare your organization's network for Teams](prepare-network.md)
+[Optimizing your network for Skype for Business Online](optimizing-your-network.md)
+ 
