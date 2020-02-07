@@ -11,6 +11,8 @@ ms.reviewer: lolaj
 description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

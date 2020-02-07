@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn about the native Teams chat experience for external access (federated) users in Microsoft Teams, available between external users where both users are in the TeamsOnly upgrade mode.
 
 ---

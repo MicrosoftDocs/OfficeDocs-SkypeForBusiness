@@ -12,6 +12,8 @@ ms.collection:
 - M365-collaboration
 appliesto: 
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to define and use sensitivity labels in Microsoft Teams.

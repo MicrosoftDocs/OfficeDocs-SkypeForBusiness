@@ -166,7 +166,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 
 ## Outgoing webhooks
 
-*Outgoing webhooks* are created on the fly by team owners or team members if sideloading is enabled for a tenant. They aren't capabilities of Teams apps; this information is included for completeness.
+*Outgoing webhooks* are created on the fly by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
 
 ### Required permissions
 

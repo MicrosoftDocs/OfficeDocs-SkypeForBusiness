@@ -11,6 +11,8 @@ audience: admin
 description: Learn about how to plan for implementing governance capabilities in Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

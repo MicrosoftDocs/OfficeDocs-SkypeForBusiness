@@ -13,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 ---
