@@ -55,7 +55,7 @@ For more information, see [Microsoft Teams add-on licensing](teams-add-on-licens
     
 2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
 
-3. Click to choose **Communications Credits**.
+3. Select **Communications Credits**.
     
 4. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
     
