@@ -11,6 +11,8 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Learn more about structuring teams and channels in Microsoft Teams. 
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection: 
 - Teams_ITAdmin_Adopt

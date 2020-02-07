@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change in Microsoft Teams. "

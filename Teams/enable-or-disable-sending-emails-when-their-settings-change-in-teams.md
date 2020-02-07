@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes in Microsoft Teams. "

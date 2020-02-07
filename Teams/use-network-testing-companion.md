@@ -12,6 +12,8 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Learn how to download and use the Network Testing Companion tool.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 
