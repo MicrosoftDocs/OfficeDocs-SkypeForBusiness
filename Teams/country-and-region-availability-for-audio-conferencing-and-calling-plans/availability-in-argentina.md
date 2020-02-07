@@ -58,7 +58,8 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
 
-If Calling Plans are not available to purchase, consider using [Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
+If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
+
    
 ## Toll and toll free numbers for services
 
