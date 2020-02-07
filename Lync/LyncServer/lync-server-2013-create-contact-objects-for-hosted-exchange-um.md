@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Create contact objects for hosted Exchange UM'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create contact objects for hosted Exchange UM
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412765(v=OCS.15)
@@ -58,11 +60,11 @@ For details about configuring contact objects, see the Lync Server Management Sh
 
 2.  Run the New-CsExUmContact cmdlet to create any contact objects required for your deployment. For example, run the following to create an AA and an SA contact object:
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
        ```
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     

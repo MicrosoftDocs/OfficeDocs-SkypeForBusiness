@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ConferenceJoinTimeThresholds table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceJoinTimeThresholds table
 ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)

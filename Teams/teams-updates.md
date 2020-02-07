@@ -12,10 +12,11 @@ description: View a list of updated Teams articles.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Microsoft Teams content updates

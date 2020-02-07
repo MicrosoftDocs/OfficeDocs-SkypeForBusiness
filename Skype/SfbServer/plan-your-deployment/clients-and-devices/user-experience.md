@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -79,25 +81,25 @@ Follow the steps in this section if you want to configure the Skype client exper
   
   **Option 1:** Set the Skype client experience by using a Global policy. Note that the Global policy applies to all of the users in your deployment, but user and site level policies take precedence over the Global policy:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 ```
 
  **Option 2:** Modify an existing client policy that you are using in your environment to include the setting to enable the Skype client experience. This lets you assign the Skype client experience only to those users that have the existing policy assigned:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
  **Option 3:** Create a new policy to assign to users that includes the setting for the Skype client experience. First, create the new client policy and provide the name of the policy as the value of the **Identity** parameter:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
 Then assign the policy to users, using the name of the policy (the value you used for the **Identity** parameter) as the value of the **PolicyName** parameter:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
@@ -125,25 +127,25 @@ Follow the steps in this section if you want to configure the Skype client exper
   
  **Option 1:** Set the Lync client experience by using a Global policy. Note that the Global policy applies to all of the users in your deployment, but user and site level policies take precedence over the Global policy:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 ```
 
  **Option 2:** Modify an existing client policy that you are using in your environment to include the setting to enable the Lync client experience. This lets you assign the Lync client experience only to those users that have the existing policy assigned:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
  **Option 3:** Create a new policy to assign to users that includes the setting for the Lync client experience. First, create the new client policy and provide the name of the policy as the value of the **Identity** parameter:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
 Then assign the policy to users, using the name of the policy (the value you used for the **Identity** parameter) as the value of the **PolicyName** parameter:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
@@ -160,19 +162,19 @@ If you are using Skype for Business Online, you can still use the Lync client ex
   
  **Option 1:** Set the Lync client experience by using a Global policy. Note that client and site policies applied to users will take precedence over a Global policy.
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Option 2:** Modify an existing client policy that you are using in your environment to include the setting to enable the Lync client experience. This lets you assign the Lync client experience only to those users that have the existing policy assigned:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Option 3:** Use a custom policy instance that includes the setting for the Lync client experience.
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 

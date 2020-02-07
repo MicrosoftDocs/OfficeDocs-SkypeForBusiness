@@ -11,15 +11,16 @@ ms.reviewer:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
+  - M365-collaboration
+f1.keywords:
+  - CSH
+ms.custom: 
+  - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Office 365 licensing for Microsoft Teams
@@ -43,7 +44,10 @@ For more information about getting Teams, check out [How do I get access to Micr
 > Teams is also available for non-profit organizations. Teams will begin rolling out for the US Government Cloud Community (GCC) on July 17 and be available for all eligible customers by the end of August 2018. We are working to bring Microsoft Teams to the other US government clouds (GCC High and DoD) coming soon. Read more in the Microsoft Teams blog [here](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Starting October 1, 2018, new Office 365 customers with 500 seats or less will be onboarded to Teams and will not have access to Skype for Business Online. Tenants that are already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. To learn more, see [Microsoft Teams now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> Starting August 2019, all new Office 365 customers will be onboarded to Teams and will not have access to Skype for Business Online. Tenants that are already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. To learn more, see [Microsoft Teams now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+
+> [!NOTE]
+> If Skype for Business Online is listed in apps for the selected license, do not remove it. If it's listed and is removed, Teams user setup will not complete successfully. 
         
 In terms of Teams core functionalities, there are no differences between the  Office 365 subscriptions. The availability of the compliance capabilities does rely on the correct subscription level. To learn more, read [Overview of security and compliance in Teams](security-compliance-overview.md). For a detailed list of features available in each subscription, see the [Office 365 Platform Service Description](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 

@@ -3,6 +3,8 @@ title: 'Port summary - Single consolidated edge with private IP addresses using 
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425891(v=OCS.15)

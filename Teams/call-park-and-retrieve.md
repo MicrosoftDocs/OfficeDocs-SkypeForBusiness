@@ -9,17 +9,17 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords: 
-- ms.teamsadmincenter.callparkpolicies.overview
-ms.custom:
-- Phone System
+f1.keywords: 
+ - CSH
+ms.custom: 
+ - Phone System
+ - ms.teamsadmincenter.callparkpolicies.overview
 description: "Use call park and retrieve to place a call on hold in the Teams service in the cloud."
 ---
 
@@ -95,7 +95,7 @@ If users can’t see the park or retrieve button:
 If a user attempts to retrieve a call and is unsuccessful, check the following:
 
 - Verify that the user is using the Teams client or a Teams-enabled device/Phone
-- Grouping – is the user a member of the call park group?
+- Grouping – is the user a member of the call park group, which is based on having the same Teams Call Park policy assigned. 
 - Island mode – Call park and retrieve is unavailable in Teams island mode.
 - The call has already been retrieved or terminated.
 

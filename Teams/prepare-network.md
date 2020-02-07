@@ -12,10 +12,11 @@ description: Learn how to prepare and manage your Microsoft Teams network. Infor
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+f1.keywords:
+- NOCSH
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Prepare your organization's network for Microsoft Teams

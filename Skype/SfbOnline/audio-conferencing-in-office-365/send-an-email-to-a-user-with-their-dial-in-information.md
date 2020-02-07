@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "Send your users an email with their audio conferencing information in Skype for Business Online."
@@ -95,7 +96,7 @@ Here is an example of the email that is sent:
     
     To send an email to the user with their audio conferencing information, run the following:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 

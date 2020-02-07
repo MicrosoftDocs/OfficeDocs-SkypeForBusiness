@@ -16,7 +16,8 @@ audience: Admin
 appliesto:
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: "Find out what you should know about PINs and how to reset them in Skype for Business Online. "
@@ -76,7 +77,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - You can set the PIN for Amos Marble by running:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 

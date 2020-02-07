@@ -8,13 +8,14 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Use built-in and custom tabs in Microsoft Teams
@@ -49,9 +50,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 ## Develop custom tabs
 
-In addition to the built-in tabs, you can design and develop your own tabs to integrate to Teams or share with the rest of the community. You can [control access to your custom tab](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) by configuring the appropriate Office 365 Groups.
-
-The Microsoft Developer Network provides [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft that you can download, and [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) for designing and building your own tabs.
+In addition to the built-in tabs, you can design and develop your own tabs to integrate to Teams or share with the rest of the community. See our [developer documentation](/microsoftteams/platform/tabs/what-are-tabs) for more information.
 
 ![Screenshot of an example custom tab in Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
@@ -46,8 +48,11 @@ The first time you start a new Front End pool, it is essential that 85% of the s
 |10  <br/> |8  <br/> |
 |11  <br/> |9  <br/> |
 |12  <br/> |10  <br/> |
+|16 **For Skype for Business Server 2019** <br/> |12  <br/> |
+
+
    
-Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table). If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet to enable the pool to recover from this routing group level quorum loss and make progress. For more information about how to use this cmdlet, see <link Reset-CsPoolRegistrarState>.
+Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table). If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet to enable the pool to recover from this routing group level quorum loss and make progress. For more information about how to use this cmdlet, see [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
 > In pools with an even number of servers, Skype for Business Server uses the Primary SQL database as Witness. In a pool like this, if you shut down the primary database and switch to the Mirror copy, and shut down enough Front End servers so that not enough are running according to the preceding table, the entire pool will go down. For more information, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/?LinkId=393672). 
@@ -64,9 +69,13 @@ For a Front End pool to function at all, it cannot be in pool-level quorum loss.
 |7  <br/> |Any 4  <br/> |
 |8-9  <br/> |Any 4 of the first 7 servers  <br/> |
 |10-12  <br/> |Any 5 of the first 9 servers  <br/> |
+|12-16  **For Skype for Business Server 2019**  <br/> |Any 7 of the first 12 servers  <br/> |
    
 In the preceding table, the "first servers" are the servers which were brought up first, chronologically, when the pool was started for the first time. To determine these servers, you can use the  `Get-CsComputer` cmdlet with the `-PoolFqdn` option. This cmdlet will show the servers in the order that they appear in the topology, and the ones at the top of the list are the first servers.
   
+> [!IMPORTANT]
+> The maximum number of front end servers has been increased to 16 in [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)
+> 
 #### Additional steps to ensure pools are functional
 
 You should watch for a couple of other factors to ensure that your Front End pools remain functional.

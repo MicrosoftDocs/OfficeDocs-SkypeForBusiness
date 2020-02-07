@@ -3,6 +3,8 @@ title: Cmdlets in Skype for Business Online that do not use a scope or an identi
 ms.reviewer: 
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that do not use a scope or an identity
 ms:assetid: 9c50c732-3c64-4b6a-96fd-8f528eb739ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362824(v=OCS.15)

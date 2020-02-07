@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -273,7 +275,7 @@ To deploy successfully, the Skype for Business Server Deployment Wizard needs ac
     
 2. In the **Skype for Business Server Management Shell**, run the following:
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 

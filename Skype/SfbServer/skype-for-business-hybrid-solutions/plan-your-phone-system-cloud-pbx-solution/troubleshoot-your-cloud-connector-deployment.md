@@ -8,6 +8,8 @@ ms.date: 12/5/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -71,11 +73,11 @@ Following are solutions to commonly encountered issues:
     
     **Resolution:** This issue cannot be resolved automatically. NICs cannot be added to VMs while they are running. Please shut down and remove these VMs in hyper-v manager, then run the following cmdlets:
     
-  ```
+  ```powershell
   Uninstall-CcAppliance
   ```
 
-  ```
+  ```powershell
   Install-CcAppliance
   ```
 
@@ -106,7 +108,7 @@ Following are solutions to commonly encountered issues:
     
     Please import the root CA certificate and all intermediate CA certificates of your external certificate manually into the Edge Server and then restart the Edge Server. After you see the RTCMRAUTH and RTCSRV services started on the Edge Server, go back to your host server, launch a PowerShell console as administrator, and run following cmdlet to switch to the new deployment:
     
-  ```
+  ```powershell
   Switch-CcVersion
   ```
 
@@ -118,7 +120,7 @@ Following are solutions to commonly encountered issues:
     
 1. On the host server, start a PowerShell console as administrator, then run:
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -126,7 +128,7 @@ Following are solutions to commonly encountered issues:
     
 3. In the PowerShell console, run the following cmdlet:
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -140,13 +142,13 @@ Following are solutions to commonly encountered issues:
     
     **Resolution:** Launch a Tenant Remote PowerShell session using Skype for Business tenant admin credentials, then run the following cmdlet to check the _EnableAutoUpdate_ configuration of your site:
     
-  ```
+  ```powershell
   Get-CsHybridPSTNSite
   ```
 
     If  _EnableAutoUpdate_ is set to **True**, you can safely ignore this warning message because the CCEManagement service will handle downloading and installing Windows updates for both virtual machines and the host server. If  _EnableAutoUpdate_ is set to **False**, run following cmdlet to set it to **True**.
     
-  ```
+  ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
@@ -162,13 +164,13 @@ Following are solutions to commonly encountered issues:
     
     Second, Launch Tenant Remote PowerShell using your Skype for Business tenant admin credentials, then run the following cmdlet to check the registered appliance(s).
     
-  ```
+  ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
     After identifying any conflicts, you can either update your CloudConnector.ini file with information that matches the registered appliance, or unregister the existing appliance to resolve the conflicts.
     
-  ```
+  ```powershell
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
@@ -200,7 +202,7 @@ Following are solutions to commonly encountered issues:
     
 1. Run the Enter-CcUpdate cmdlet to drain services and put the appliance in maintenance mode.
    
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
    
@@ -208,7 +210,7 @@ Following are solutions to commonly encountered issues:
     
     For Cloud Connector releases before 2.0:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Renew-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -216,7 +218,7 @@ Following are solutions to commonly encountered issues:
 
     Or for Cloud Connector release 2.0 and later:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -224,13 +226,13 @@ Following are solutions to commonly encountered issues:
     
 3. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from the appliance, and then install the exported certificate to your PSTN gateways. You may also be required to re-issue the certificate on your gateway.
 
-   ```
+   ```powershell
    Export-CcRootCertificate
    ```
 
 4. Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode.
 
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -241,13 +243,13 @@ Following are solutions to commonly encountered issues:
     
 1. On the first appliance, run the Remove-CcCertificationAuthorityFile cmdlet to clean up the CA backup files in the \<SiteRoot\> directory.
 
-     ```
+     ```powershell
      Remove-CcCertificationAuthorityFile
      ```
     
 2. Run the Enter-CcUpdate cmdlet to drain services and put each appliance in maintenance mode.
 
-     ```
+     ```powershell
      Enter-CcUpdate
      ```
     
@@ -255,7 +257,7 @@ Following are solutions to commonly encountered issues:
     
      For Cloud Connector releases before 2.0:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Renew-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -263,7 +265,7 @@ Following are solutions to commonly encountered issues:
 
      Or for Cloud Connector release 2.0 and later:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -271,13 +273,13 @@ Following are solutions to commonly encountered issues:
 
 4. On the first appliance, run the following cmdlet to back up the CA files to the \<SiteRoot\> folder.
     
-     ```
+     ```powershell
      Backup-CcCertificationAuthority
      ```
    
 5. On all other appliance's in the same site, run the following commands to consume the CA backup files, so that the appliances all use the same root certificate, and then request new certificates. 
    
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -285,13 +287,13 @@ Following are solutions to commonly encountered issues:
      
 6. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from any appliance in the site, and then install the exported certificate to your PSTN gateways. You may also be required to re-issue the certificate on your gateway.
   
-     ```
+     ```powershell
      Export-CcRootCertificate
      ```
      
 7. Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode. 
 
-     ```
+     ```powershell
      Exit-CcUpdate
      ```
     
@@ -300,7 +302,7 @@ Following are solutions to commonly encountered issues:
     
     **Resolution:** The Office 365 global tenant admin credentials have been changed since the Cloud Connector appliance was registered. To update the locally stored credentials on the Cloud Connector appliance, run the following from Administrator PowerShell on the host appliance:
     
-  ```
+  ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
@@ -377,7 +379,7 @@ Following are solutions to commonly encountered issues:
     
   - To mark the appliance as successfully deployed, run the Set-CsCceApplianceDeploymentStatus as follows:
     
-  ```
+  ```powershell
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
@@ -434,7 +436,7 @@ To manually check for updates, connect to each host server and open the **Contro
     
 2. Remove the instance from HA with the following cmdlet:
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -444,7 +446,7 @@ To manually check for updates, connect to each host server and open the **Contro
     
 4. Set the instance back to HA with the following cmdlet:
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 

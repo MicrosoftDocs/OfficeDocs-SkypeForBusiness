@@ -24,7 +24,10 @@
           "**/*.gif",
           "**/*.svg",
           "**/*.pdf",
-          "**/*.vsdx"
+          "**/*.vsdx",
+          "**/*.zip",
+          "**/*.pptx",
+          "**/*.psd"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,8 +44,8 @@
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ms.suite": "office",
+      "titleSuffix": "Microsoft Teams",
       "contributors_to_exclude": [
-        "dstrome",
         "daswifty",
         "MikePlumleyMSFT"
       ],
@@ -50,7 +53,11 @@
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
       "feedback_product_url": "https://microsoftteams.uservoice.com"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "hideEdit": {
+        "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": true
+      }
+    },
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams",
     "markdownEngineName": "markdig"

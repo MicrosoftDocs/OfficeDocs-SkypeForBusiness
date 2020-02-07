@@ -1,5 +1,5 @@
 ---
-title: Install Microsoft Teams using MSI via SCCM
+title: Install Microsoft Teams using MSI via Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -10,28 +10,39 @@ audience: admin
 description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+  - NOCSH
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
-Install Microsoft Teams using MSI
-=================================
+# Install Microsoft Teams using Microsoft Endpoint Configuration Manager
 
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-To use System Center Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](https://aka.ms/teams32bitmsi) and [64-bit](https://aka.ms/teams64bitmsi)) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. (You can disable auto launch after installing the app. [See below](#disable-auto-launch-for-the-msi-installer).)
-We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment. 
+To use Microsoft Endpoint Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both 32-bit and 64-bit) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. (You can disable auto launch after installing the app. [See below](#disable-auto-launch-for-the-msi-installer).)
+We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment.
+
+These are the links to the MSI files:
+
+
+|Entity  |32 bit      |64 bit      |
+|---------|---------|---------|
+|Commercial     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
+|Federal Government - GCC     | [32 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
+|Federal Government - GCC High    | [32 bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|Federal Government - DoD     | [32 bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
 Teams can also be included with a deployment of Office 365 ProPlus. For more information, see [Deploy Microsoft Teams with Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
- 
-> [!Note] 
-> To learn more about SCCM, see [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
+
+> [!Note]
+> To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
 
 ## Deployment procedure (recommended)
+
 1. Retrieve the latest package.
 2. Use the defaults prepopulated by the MSI.
 3. Deploy to computers when possible.
@@ -40,73 +51,64 @@ Teams can also be included with a deployment of Office 365 ProPlus. For more inf
 
 ### PC installation
 
-> [!Note] 
-> See [VDI installation](#vdi-installation) for guidance on how to deploy Teams to a Virtual DesktopInfrastructure (VDI) environment.
-
 The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams app will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
 
-Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams. 
+Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
 
-> [!Important] 
-> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service. 
+> [!Important]
+> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service.
 
 #### Target computer requirements
 
 - .NET framework 4.5 or later
 - Windows 7 or later
+- Windows Server 2012 R2 or later
 - 3 GB of disk space for each user profile (recommended)
 
 ### VDI installation
 
-Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
-
-1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
-
-    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
-
-2. Run the following command to install the MSI to the VDI VM (or complete updating it).
-
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-
-    This installs Teams to Program Files. At this point, the golden image setup is complete.
-
-    The next interactive logon session starts Teams and asks for credentials. Note that it's not possible to disable auto-launch of Teams when installing Teams on VDI using the ALLUSER property.
-
-3. Run the following command to uninstall the MSI from the VDI VM (or prepare for updating it).
-
-        msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
-
-    This uninstalls Teams from Program Files.
+For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
 
 ## Clean up and redeployment procedure
 
 If a user uninstalls Teams from their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
 
-1. Uninstall Teams App installed for every user profile. 
+1. Uninstall Teams App installed for every user profile.
 2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\.
 3. Redeploy the MSI package to that particular computer.
 
-> [!TIP] 
-> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.
+> [!TIP]
+> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via Configuration Manager.
 
-## Disable auto launch for the MSI installer
+## Prevent Teams from starting automatically after installation
 
-Default behavior of the MSI is to install the Teams client as soon as a user signs in and then automatically start Teams. You can modify this behavior with the parameters below as follows:
+The default behavior of the MSI is to install the Teams app as soon as a user signs in and then automatically start Teams. If you don't want Teams to start automatically for users after it's installed, you can use Group Policy to set a policy setting or disable auto launch for the MSI installer.
 
-- When a user logs in into Windows, Teams will be installed with the MSI
-- However, the Teams client will not start until the user has started Teams manually
-- A shortcut to start Teams will be added on the desktop of the user
-- Once manually started, Teams will auto-start whenever the user logs in
+#### Use Group Policy (recommended)
+
+Enable the **Prevent Microsoft Teams from starting automatically after installation** Group Policy setting. You can find this policy setting in User Configuration\Policies\Administrative Templates\Microsoft Teams. This is the recommended method because you can turn off or turn on the policy setting according to your organization's needs.
+
+When you enable this policy setting before Teams is installed, Teams doesn't start automatically when users log in to Windows. After a user signs in to Teams for the first time, Teams starts automatically the next time the user logs in.
+
+To learn more, see [Use Group Policy to prevent Teams from starting automatically after installation](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+
+> [!CAUTION]
+> If you've already deployed Teams and want to set this policy to disable Teams autostart, first set the Group Policy setting to the value you want, and then run the [Teams autostart reset script](scripts/powershell-script-teams-reset-autostart.md) on a per-user basis.
+
+### Disable auto launch for the MSI installer
+
+You can disable auto launch for the MSI installer by using the **OPTIONS="noAutoStart=true"** parameter as follows.  
 
 For the 32-bit version
-```
+```PowerShell
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
 For the 64-bit version
-```
+```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
+When a user logs in to Windows, Teams is installed with the MSI and a shortcut to start Teams is added to the user's desktop. Teams won't start until the user manually starts Teams. After the user manually starts Teams, Teams automatically starts whenever the user logs in.
+
 > [!Note]
->  If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer will not be able to configure the option to disable auto start.
+> If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer won't be able to configure the option to disable auto start.

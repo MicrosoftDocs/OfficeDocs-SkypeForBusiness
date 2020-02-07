@@ -5,25 +5,26 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
-localization_priority : Priority
+localization_priority: Priority
 description: "Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer
 =======================================================
 
-Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization. 
+The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
 
 > [!IMPORTANT]
-> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality and is now owned and controlled by your organization's billing admin. This makes the trial easier to manage and makes it consistent with all other Microsoft 365 offers. 
+> The Microsoft Teams Commercial Cloud Trial will be replaced by Microsoft Teams Exploratory beginning in January 2020. To learn about this new offer, read [Manage Teams Exploratory license](teams-exploratory.md).
 
 ## What's in the offer
 
@@ -42,7 +43,7 @@ The service plans included in this offer are:
 - Whiteboard
 - Yammer Enterprise 
 
-The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
+The trial grants a one-year trial subscription to your entire organization. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
 
 ## Who is eligible
 
@@ -66,21 +67,21 @@ All trials within your organization share the same start and end dates, which is
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
-Trial licenses are assigned the same way any other subscription acquired by an admin is assigned. For more information, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
+The Teams Trial is meant to be initiated by individual end users, and you may not initiate the Teams Trial offer on behalf of end-user employees.
 
-In addition, admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
+Admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
 
 ### Prevent users from installing trial apps and services
 
 You can turn off a user’s ability to install trial apps and services.
 
-1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
+1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Settings**, select **Services**, and then select **User owned apps and services**.
 
-    ![Screenshot of the Services & add-ins page in the admin center](media/iw-trial-enable-1.png)
+    ![Screenshot of the Services page in the admin center](media/iw-trial-services.png)
 
-2. Turn off **Let users install trial apps and services**.
+2. Clear the **Let users install trial apps and services** check box.
 
-    ![Screenshot of the User owned Apps & Services page in admin center](media/iw-trial-enable-2.png)
+    ![Screenshot of the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
 
 ### Manage trial availability for a user with a license that includes Teams
@@ -115,8 +116,8 @@ To turn off the trial license:
 
     ![Screenshot of the Teams trial license setting on the licenses pane](media/iW-trial-enable-4.png)
     
->[!Note]
->The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
+    >[!Note]
+    >The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
 
 ### Manage Teams for users who have the trial license
 
@@ -142,7 +143,7 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 As of April 22, 2019, users can begin claiming the latest Microsoft Teams Commercial Cloud Trial license. If you would like to move users in your organization off of the legacy trial license and onto the latest one, you will need to first remove the legacy Microsoft Teams Trial license from each user. Once the legacy license is removed, each affected user can claim the updated Microsoft Teams Commercial Cloud Trial license.
 
 - If you would like to remove this license via PowerShell, see:
-[Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+[Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

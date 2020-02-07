@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conference Diagnostic Report'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Diagnostic Report
 ms:assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615042(v=OCS.15)

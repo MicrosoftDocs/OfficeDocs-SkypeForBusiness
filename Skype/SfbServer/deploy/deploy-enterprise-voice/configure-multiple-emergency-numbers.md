@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
@@ -30,31 +32,31 @@ To configure multiple emergency numbers, you use the New-CsEmergencyNumber cmdle
 
 The following command creates a new emergency number with dial string 911 by using the New-CsEmergency cmdlet:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 ```
 
 The next command associates the number with the specified location policy by specifying the EmergencyNumbers parameter in the Set-CsLocationPolicy cmdlet:
 
-```
+```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a} 
 ```
 
 In the next example, an emergency number is created with a single dial mask, 112:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
 ```
 
 The next command creates an emergency number with multiple dial masks:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 ```
 
 The next example adds multiple emergency numbers with multiple dial masks, and then associates the emergency numbers with the specified location policy:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 > $b = New-CsEmergencyNumber -DialString 500 -DialMask 501;502
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b} 
@@ -62,7 +64,7 @@ The next example adds multiple emergency numbers with multiple dial masks, and t
 
 The next example configures multiple emergency numbers for health care providers that use both 911 and 450: 
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 > $b = New-CsEmergencyNumber -DialString 450
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
@@ -70,7 +72,7 @@ The next example configures multiple emergency numbers for health care providers
 
 The next example configures multiple emergency numbers for the city of London:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 999 -DialMask 144
 > $b = New-CsEmergencyNumber -DialString 112 -DialMask 911;117;118
 > Set-CsLocationPolicy -Identity London -EmergencyNumbers @{add=$a,$b}
@@ -78,7 +80,7 @@ The next example configures multiple emergency numbers for the city of London:
 
 The next example configures multiple emergency numbers for India:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
 > $b = New-CsEmergencyNumber -DialString 101 
 > $c = New-CsEmergencyNumber -DialString 102 
@@ -87,7 +89,7 @@ The next example configures multiple emergency numbers for India:
 
 The next example removes an existing entry with Dial string 911 and Dial masks 112 and 999:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a} 
 ```

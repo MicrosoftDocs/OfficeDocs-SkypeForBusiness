@@ -5,19 +5,19 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Training
-- M365-collaboration
+ms.collection: 
+  - M365-collaboration
 search.appverid: MET150
-f1keywords:
-- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+f1.keywords:
+- CSH
+ms.custom: 
+  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 # Admin training for Microsoft Teams
 
@@ -86,6 +86,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 | Module | Video | PowerPoint deck |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft Mechanics - Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT) | [Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Foundations - Core Components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows Desktop Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Governance, management and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
@@ -93,6 +94,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Network Planning | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Call Quality Overview | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
+| Media |[Video](https://aka.ms/media-in-teams)  | [Deck](https://aka.ms/media-in-teams-deck)|
 | Live Events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Phone System introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direct Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |

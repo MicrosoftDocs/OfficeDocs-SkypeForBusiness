@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Manage Call Park during disaster recovery'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Call Park during disaster recovery
 ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688052(v=OCS.15)

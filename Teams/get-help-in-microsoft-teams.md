@@ -9,13 +9,14 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Discover all the ways to get help in Microsoft Teams.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Get help in Microsoft Teams

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: "Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server."
@@ -29,7 +31,7 @@ Offline IM is a client side feature built into Skype for Business client (2016 C
     
 2. Run the following command to enable Offline IM.
     
-   ```
+   ```powershell
    Set-CsImConfiguration -EnableOfflineIM $True
    ```
 
@@ -38,7 +40,7 @@ Offline IM is a client side feature built into Skype for Business client (2016 C
   
 3. Run the following command to confirm the ability to store Offline IM's is set.
     
-   ```
+   ```powershell
    Get-CsImConfiguration
    ```
 

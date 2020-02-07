@@ -8,6 +8,8 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -15,6 +17,7 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom:
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: "Summary: Learn about Skype for Business Server 2015 integration with Exchange and SharePoint."

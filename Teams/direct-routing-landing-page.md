@@ -1,5 +1,5 @@
 ---
-title:  Phone System Direct Routing
+title: Phone System Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,15 +7,16 @@ ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords:
+- NOCSH
 description: Landing page for Direct Routing
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Phone System Direct Routing
@@ -70,13 +71,13 @@ You'll need to configure Phone System to route the calls to the specific SBCs.
 | Which users will be assigned to the voice routing policy that I define? | See the examples in [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing). |
 |||
 
-### Calling and interop policies
+### Ensure incoming calls land in the Teams client using TeamsUpgradePolicy
 
-Direct Routing is only supported with Microsoft Teams. To place or receive PSTN calls through Direct Routing, you need to configure the necessary policies to ensure incoming calls are received in Teams. You can configure users to set Teams as their preferred client for calls by either configuring the user for Teams Only mode or configuring Teams as the preferred calling client by assigning the TeamsCallingPolicy and the TeamsInteropPolicy.
+Direct Routing is only supported with Microsoft Teams. To receive PSTN calls through Direct Routing, you need to configure TeamsUpgradePolicy to ensure incoming calls are received in Teams. Users must be in Teams Only mode, which you can do by assigning them the "UpgradeToTeams" instance of TeamsUpgradePolicy. 
 
 |Ask yourself|Action |
 |:------------|:-------|
-|How will I set Teams as the preferred client for calls? | For more information, see [Set Microsoft Teams as the preferred calling client for users](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|What does Teams Only mode mean? | For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
 |||
 
 ## Additional deployment considerations

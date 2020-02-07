@@ -8,6 +8,8 @@ ms.date: 7/11/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: "The Update-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired."
@@ -17,7 +19,7 @@ description: "The Update-CcServerCertificate cmdlet renews the certificates for 
  
 The Update-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. 
   
-```
+```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -28,7 +30,7 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 The following example renews the certificates for the Central Management Store, Mediation Server, and Edge Server when the certificates are near expiration or already expired:
   
-```
+```powershell
 Update-CcServerCertificate
 ```
 
@@ -36,7 +38,7 @@ Update-CcServerCertificate
 
 The next example renews the certificates for Mediation Server and Edge Server when they are near expiration or already expired:
   
-```
+```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
 ```
 

@@ -10,11 +10,12 @@ ms.reviewer: rowille
 audience: admin
 description: Learn about how to plan for implementing lifecycle management capabilities in Teams.
 localization_priority: Priority
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Plan for lifecycle management in Teams
@@ -51,7 +52,7 @@ These determine who can join the team:
 Team user types determine how much control a team member has:
 
 -   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
+-   _Team owner_ manages membership and settings for the team. There can be as many as 100 team owners per team.
 -   _Team member_ is a member of your organization who participates in a team.
 -   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
@@ -188,9 +189,9 @@ If a team starts to get into a rut, consider:
 
 ### Stage 3: End
 
-When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like post-mortems and executive summaries.
+When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
-You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies.
+You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren’t active any longer or whose owners have left the organization.
 
@@ -201,3 +202,6 @@ For information about setting up expiration and retention policies, see [Overvie
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 
+## Related topics
+
+[Governance quick start for Teams](teams-adoption-governance-quick-start.md)

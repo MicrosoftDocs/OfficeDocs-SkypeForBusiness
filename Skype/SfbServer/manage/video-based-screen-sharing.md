@@ -8,6 +8,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: "Skype for Business Server planning and configuration information for Video-based Screen Sharing (VbSS)"
@@ -136,13 +138,13 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
 
 - You can assign a user policy that doesn't allow VbSS to any users who shouldn't be using VbSS by running this cmdlet in the Skype for Business Management Console (replace [PolicyName] with the policy you're doing this for):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - You also can update the global conferencing policy, which will affect all users without an assigned policy:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -150,7 +152,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
     
 - If you need to turn VbSS off completely, you can run this command:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -163,13 +165,13 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
 
 - You can assign a specific user policy that allows VbSS to any users who need to be using VbSS by running this cmdlet in the Skype for Business Management Console (replace [PolicyName] with the policy you're doing this for):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - You also can update the global conferencing policy, which will affect all users without an assigned policy:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -177,7 +179,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
     
 - If you need to turn VbSS back on after turning it off (it's on by default), you can run this command:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 

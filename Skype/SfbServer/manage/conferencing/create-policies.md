@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: "Summary: Learn how to create conferencing policies in Skype for Business Server."
@@ -115,7 +117,7 @@ To create conferencing policies, use the **New-CsConferencingPolicy** cmdlet.
   
 The following example creates a new conferencing policy with the Identity SalesConferencingPolicy. This policy will use all the default values for a conferencing policy except one: MaxMeetingSize. In this example, the maximum size for a meeting will be set to 50 instead of the default value of 250:
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

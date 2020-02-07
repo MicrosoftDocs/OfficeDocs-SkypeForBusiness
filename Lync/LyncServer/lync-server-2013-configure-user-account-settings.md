@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure user account settings'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure user account settings
 ms:assetid: b7c74ecc-b924-4efc-8a56-3a5f94a9ef13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412896(v=OCS.15)

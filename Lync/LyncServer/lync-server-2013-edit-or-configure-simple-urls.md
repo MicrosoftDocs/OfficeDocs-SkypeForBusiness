@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Edit or configure simple URLs'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edit or configure simple URLs
 ms:assetid: 0008aeea-4ae9-4e36-83cd-ef7ff7b6e128
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398063(v=OCS.15)

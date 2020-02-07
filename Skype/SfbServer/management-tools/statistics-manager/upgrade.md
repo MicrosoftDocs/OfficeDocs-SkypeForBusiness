@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
@@ -45,7 +47,7 @@ The script will gather your current certificate information and listener passwor
     
 2. Open an administrative PowerShell window. Upgrade the Listener component:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -60,7 +62,7 @@ The script will gather your current certificate information and listener passwor
     
 4. Open an administrative PowerShell window. Upgrade the Website component:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -72,7 +74,7 @@ The script will gather your current certificate information and listener passwor
     
 8. Open an administrative PowerShell window. Upgrade the Agent component:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Remove Kerberos authentication from a site'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Kerberos authentication from a site
 ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398749(v=OCS.15)
@@ -54,21 +56,21 @@ If you need to remove Kerberos authentication from a site or retire a site, you 
 
 3.  From the command line, run the following two commands:
     
-       ```
+       ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
        ```
     
-       ```
+       ```PowerShell
         Enable-CsTopology
        ```
     
     For example:
     
-       ```
+       ```PowerShell
         Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
        ```
     
-       ```
+       ```PowerShell
         Enable-CsTopology
        ```
     

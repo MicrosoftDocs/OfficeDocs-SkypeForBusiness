@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Use this guidance to prepare your network for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

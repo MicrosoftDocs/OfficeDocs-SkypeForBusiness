@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -103,13 +105,13 @@ Use one of the following procedures to create or modify a queue.
     
 3. Create the prompt to be played when the queue timeout threshold is met, and save it in a variable. At the command line, run:
     
-   ```
+   ```powershell
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    For example:
     
-   ```
+   ```console
    "All agents are currently busy. Please call back later."
    ```
 
@@ -118,7 +120,7 @@ Use one of the following procedures to create or modify a queue.
   
 4. Define the action to be taken when the queue timeout threshold is met, and save it in a variable. At the command line, run:
     
-   ```
+   ```powershell
    $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -127,19 +129,19 @@ Use one of the following procedures to create or modify a queue.
   
     For example:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
    ```
 
 5. Create the prompt to be played when the queue overflow threshold is met, and save it in a variable. At the command line, run:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    For example:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
@@ -148,7 +150,7 @@ Use one of the following procedures to create or modify a queue.
   
 6. Define the action to be taken when the queue overflow threshold is met, and save it in a variable. At the command line, run:
     
-   ```
+   ```powershell
    $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -157,19 +159,19 @@ Use one of the following procedures to create or modify a queue.
   
     For example:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
 7. Retrieve the service name for the Response Group service and assign it to a variable. At the command line, run:
     
-   ```
+   ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
 8. Get the identity of the agent group to be assigned to the queue. At the command line, run:
     
-   ```
+   ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
    ```
 
@@ -178,19 +180,19 @@ Use one of the following procedures to create or modify a queue.
   
 9. Create the queue. At the command line, run:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
    ```
 
    For example:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
 10. Confirm that the queue is created. Run:
     
-    ```
+    ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 

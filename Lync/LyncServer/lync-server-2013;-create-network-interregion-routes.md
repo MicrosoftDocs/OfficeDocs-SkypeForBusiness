@@ -5,6 +5,8 @@ ms.author: kenwith
 author: kenwith
 audience: admin
 manager: serdars
+f1.keywords:
+- NOCSH
 TOCTitle: Create network interregion routes
 ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
@@ -55,15 +57,15 @@ In the example topology, network interregion routes must be defined for each of 
 
 2.  Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes. For example, run:
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
        ```
     

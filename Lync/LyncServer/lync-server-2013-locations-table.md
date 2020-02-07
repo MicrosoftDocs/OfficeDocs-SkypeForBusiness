@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Locations table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Locations table
 ms:assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398596(v=OCS.15)

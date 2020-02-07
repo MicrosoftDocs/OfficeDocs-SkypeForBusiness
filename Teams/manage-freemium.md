@@ -11,13 +11,14 @@ ms.reviewer: daryav
 search.appverid: MET150
 description: Learn about admin features in Teams free.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+f1.keywords:
+- CSH
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Manage the free version of Microsoft Teams

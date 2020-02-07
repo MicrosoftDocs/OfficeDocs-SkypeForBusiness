@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: "Summary: How to use the Office Customization Tool with the Skype for Business client."
@@ -20,7 +22,7 @@ The Office Customization Tool (OCT) is part of the Setup program and is the reco
   
 The OCT is part of setup and it is only used for volume licensed versions of the product. You run the OCT by typing  `setup.exe /admin` at the command line from the root of the network installation point that contains the Office source files. For example, use the following:
   
- ```
+ ```console
 \\server\share\Office15\setup.exe /admin
 ```
   

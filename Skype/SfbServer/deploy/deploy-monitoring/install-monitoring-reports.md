@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 
@@ -63,7 +65,7 @@ To install the Monitoring Reports by using the Deployment Wizard, complete the f
     
 Monitoring Reports can also be installed from the Skype for Business Server Management Shell by running the script DeployReports.ps1; this Windows PowerShell script can be found in the \<install location\>\Skype for Business Server 2015\Deployment\Setup folder. To install Monitoring Reports using DeployReports.ps1, type a command similar to the following at the Management Shell prompt:
   
-```
+```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 ```
 
@@ -79,7 +81,7 @@ The parameters used in the preceding command are described in the following tabl
    
 After the Monitoring Reports have been installed you must then use the New-CsReportingConfiguration cmdlet to configure the URL used to access these reports. This task can be carried out from the Skype for Business Server Management Shell by running the following Windows PowerShell command. Note that it is recommended, but not required, that you use the HTTPS protocol when configuring the reporting URL:
   
-```
+```powershell
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'
 ```
 

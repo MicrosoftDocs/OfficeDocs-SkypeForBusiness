@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skype-for-business-server
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
@@ -21,8 +23,12 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 ## Skype for Business Server 2019 update history
 
+KB 4470124 is the master KB for Skype for Business Server 2019 which has all the historical list of all the Cumulative Update and Hotfixes that have been published. 
+
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 Cumulative Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| December 2019 |
+|Skype for Business Server 2019 Cumulative Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
 |Skype for Business Server 2019 Cumulative Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2019 |
 | | | |
 
@@ -42,7 +48,8 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| September 2019 |
+|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
+|Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| July 2019 |
 |Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| May 2019 |
 |Cumulative update 8 for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
 |Cumulative update 7 for Skype for Business Server 2015, Front End server and Edge server |[KB 4340904](https://support.microsoft.com/kb/4340904) |July 2018 |
@@ -70,21 +77,23 @@ For the latest Skype for Business Online and Office 365 updates, see the [Micros
 
 ## Lync Server 2013 update history
 
-[KB 2809243](http://support.microsoft.com/kb/2809243) contains all Cumulative Updates that have been released.
+[KB 2809243](https://support.microsoft.com/kb/2809243) contains all Cumulative Updates that have been released.
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|January 2019|
-|Lync Server 2013 Cumulative Update 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|July 2018 |
-|Lync Server 2013 Cumulative Update 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |July 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |March 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |January 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 2 |[KB 3212869](http://support.microsoft.com/kb/3212869) |December 2016 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |November 2016 |
+|Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
+|Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
+|Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|January 2019|
+|Lync Server 2013 Cumulative Update 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|July 2018 |
+|Lync Server 2013 Cumulative Update 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |July 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |March 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |January 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |December 2016 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |November 2016 |
 |Lync Server 2013 Cumulative Update 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|August 2016 |
 |Lync Server 2013 Cumulative update 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|April 2016 |
 |Lync Server 2013 Cumulative Update 6 Hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|January 2016 |
-|Lync Server 2013 Cumulative Update 6 Hotfix 1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|December 2015 |
+|Lync Server 2013 Cumulative Update 6 Hotfix 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|December 2015 |
 |Lync Server 2013 Cumulative Update 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|September 2015 |
 |Lync Server 2013 Cumulative Update 5 Hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|July 2015 |
 |Lync Server 2013 Cumulative Update 5 Hotfix 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|May 2015 |
@@ -153,15 +162,16 @@ Package Name/Link|Release Date|
 
 ## Lync Server 2010 update history
 
-[KB 2493736](http://support.microsoft.com/kb/2493736) contains all Cumulative Updates that have been released.
+[KB 2493736](https://support.microsoft.com/kb/2493736) contains all Cumulative Updates that have been released.
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2010 Cumulative Update 18 Hotfix 1 |[KB 2493736](https://support.microsoft.com/kb/2493736) |June 2019|
 |Lync Server 2010 Cumulative Update 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |January 2019|
 |Lync Server 2010 Cumulative Update 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |April 2016 |
 |Lync Server 2010 Cumulative Update 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |May 2015 |
 |Lync Server 2010 Cumulative Update 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |February 2015|
-|Lync Server 2010 Cumulative Update 13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|September 2014|
+|Lync Server 2010 Cumulative Update 13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|September 2014|
 |Lync Server 2010 Cumulative Update 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |April 2014 |
 |Lync Server 2010 Cumulative Update 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |January 2014|
 |Lync Server 2010 Cumulative Update 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |October 2013|

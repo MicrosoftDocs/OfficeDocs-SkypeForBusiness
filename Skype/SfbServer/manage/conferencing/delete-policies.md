@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: "Summary: Learn how to delete conferencing policies in Skype for Business Server."
@@ -34,13 +36,13 @@ To delete conferencing policies, use the **Remove-CsConferencingPolicy** cmdlet.
   
 The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:
   
-```
+```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
 The next command deletes any conferencing policies that allow external users to record the conference:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 

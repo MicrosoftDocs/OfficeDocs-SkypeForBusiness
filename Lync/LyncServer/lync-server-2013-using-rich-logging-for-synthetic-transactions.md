@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Using rich logging for synthetic transactions'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using rich logging for synthetic transactions
 ms:assetid: 32714a71-9f42-4d5b-a508-e176d8f08bbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204798(v=OCS.15)

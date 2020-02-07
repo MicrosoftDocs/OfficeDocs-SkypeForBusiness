@@ -8,6 +8,8 @@ ms.date: 9/25/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -26,7 +28,7 @@ You can deploy Skype for Business Cloud Connector Edition with or without High A
 
 To deploy the first appliance in a site, open a PowerShell console as administrator and run the following cmdlet to register the appliance:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -38,7 +40,7 @@ In release 2.0 and later, also follow the instructions to provide the external c
   
 To start the installation, open a PowerShell console as administrator and run the following cmdlet:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -50,19 +52,19 @@ You can extend an existing Cloud Connector site to support HA by adding addition
     
 2. Run the following cmdlet only on the newly added host server to update topology information in your Office 365 tenant configuration. If you want to add multiple appliances at the same time, run the cmdlet on each newly added host server one by one:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. Update the topology on existing appliances by running the following cmdlet on each host server. Only run the cmdlet on the existing appliances.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. Run the following cmdlet only on newly added host servers. Do not run this cmdlet on the existing appliance. If you want to add multiple appliances at the same time, run the cmdlet on each newly added host server one by one.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -75,13 +77,13 @@ If you want to remove an appliance from an existing site:
   
 1. Run the following cmdlet only on the host servers you want to remove from the site to update the topology information in your Office 365 tenant configuration.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. Run the following cmdlet only on the host servers from which you want to remove all the virtual machines of the appliance.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

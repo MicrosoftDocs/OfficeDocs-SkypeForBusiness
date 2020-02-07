@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Managing watcher nodes'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing watcher nodes
 ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688078(v=OCS.15)

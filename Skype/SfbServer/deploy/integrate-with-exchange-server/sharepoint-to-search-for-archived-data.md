@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
@@ -28,25 +30,25 @@ After the file has been downloaded complete the following procedure on the Share
     
 2. In the command window, use the cd command to change the current directory to the folder where the file EWSManagedAPI.msi has been saved. For example, if you have saved the file to C:\Downloads type the following command in the command window and then press Enter:
     
-   ```
+   ```console
    cd C:\Downloads
    ```
 
 3. To install the API, type the following command then press Enter:
     
-   ```
+   ```console
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
    ```
 
 4. After the API has been installed, reset IIS by typing the following command and pressing Enter:
     
-   ```
+   ```console
    iisreset
    ```
 
 After Exchange Web Services has been installed you must then configure server-to-server authentication between SharePoint Server and Exchange Server. To do this, first open the SharePoint Management Shell and run the following set of commands:
   
-```
+```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 $service = Get-SPSecurityTokenServiceConfig
 $service.HybridStsSelectionEnabled = $True
@@ -60,7 +62,7 @@ $service.Update()
   
 After you have created the token issuer and configured the token service, run these commands, making sure to substitute the URL of your SharePoint site for the sample URL http://atl-sharepoint-001:
   
-```
+```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
 $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
 $site = Get-SPSite  "https://atl-sharepoint-001"
@@ -69,13 +71,13 @@ Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "Site
 
 To configure server-to-server authentication for Exchange Server, open the Exchange Management Shell and run a command similar to this (assuming that Exchange has been installed on drive C: and that it uses the default folder path):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
 After configuring the partner application it is recommended that you stop and restart Internet Information Services (IIS) on all your Exchange mailbox and client access servers. You can restart IIS by using a command similar to this, which restarts the service on the computer atl-exchange-001:
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -83,13 +85,13 @@ This command can be run from within the Exchange Management Shell or from any ot
   
 Next, run a command similar to the following, which gives the specified user (in this example, kenmyer) the right to do discovery on Exchange:
   
-```
+```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
 After server-to-server authentication has been established between Exchange and SharePoint, your next step is to create an eDiscovery site in SharePoint. That can be done by running commands similar to these from the SharePoint Management Shell:
   
-```
+```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
 New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 ```

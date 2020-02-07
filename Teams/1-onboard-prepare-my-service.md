@@ -10,12 +10,14 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Use onboarding checklists to prepare Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-voice
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Prepare my service

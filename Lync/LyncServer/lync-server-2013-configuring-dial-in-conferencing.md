@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring dial-in conferencing'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring dial-in conferencing
 ms:assetid: 79a98c5d-a0a8-4729-828d-b9166842432c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398600(v=OCS.15)

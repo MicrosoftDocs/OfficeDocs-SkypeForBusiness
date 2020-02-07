@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lync Windows Store app requirements'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Windows Store app requirements
 ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ823129(v=OCS.15)

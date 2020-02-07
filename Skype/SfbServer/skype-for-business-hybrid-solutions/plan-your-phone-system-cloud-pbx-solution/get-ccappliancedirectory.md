@@ -8,6 +8,8 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: "The Get-CcApplianceDirectory cmdlet retrieves the working directory on the Skype for Business Cloud Connector Edition host server. All deployment files are stored in this directory."
@@ -19,7 +21,7 @@ The Get-CcApplianceDirectory cmdlet retrieves the working directory on the Skype
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -34,7 +36,7 @@ None
 
 The following example shows the current folder where configuration and virtual machine files of Cloud Connector components are stored:
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 

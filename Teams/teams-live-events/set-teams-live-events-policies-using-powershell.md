@@ -9,13 +9,14 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and features that are available in the events that they create
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Use PowerShell to set live events policies in Microsoft Teams
@@ -36,11 +37,11 @@ Here are some examples.
 **Allow a user to schedule live events**
 
 If the user is assigned the global policy, run and verify that *AllowBroadcastScheduling* parameter is set to *True*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 Then assign the user to the global policy, run:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
@@ -48,73 +49,73 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 **You want all users in your organization to be able to schedule live events**
 
 If users are assigned the global policy, run and verify that *AllowBroadcastScheduling* *is set to *True*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 If users are assigned a policy other than the global policy, run and verify that *-AllowBroadcastScheduling* is set to *True*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
 **You want live events scheduling to be disabled across your organization**
 
 Disable live events scheduling, run:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 Assign all users in your organization to the global policy, run:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 **You want a large number of users to be able to schedule live events and prevent a set of users from scheduling them**
 
 Run and verify that *AllowBroadcastScheduling* is set to *True*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
 Then assign a user or users to the global policy, run:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 Create a new policy that doesn't allow scheduling live events, run:
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Disable live events scheduling, run:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 Then assign users to this policy, run:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**
 
 Disable live events scheduling, run:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 Then assign those users to the global policy, run:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 Create a policy to allow live events scheduling, run:
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
 Enable live events scheduling, run:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
 Then assign users to this policy, run:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
 ## Set who can join live events
  
 Set the global policy to allow users to create events that everyone, including anonymous users, can attend, run:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## Set the recording option for live events
@@ -122,7 +123,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 > This setting applies only to events produced in Teams.
 
 Set the global policy to disable recording for live events:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
 ## Set live captions and subtitles in live events
@@ -130,7 +131,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 > This setting applies only to events produced in Teams. 
 
 Set the global policy to turn on live captions and subtitles (transcription) for event attendees:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: "Summary: Learn how to deploy monitoring in Skype for Business Server."
@@ -24,7 +26,7 @@ You will typically implement monitoring services within your topology by complet
 
 2. Associating a monitoring store (that is, a monitoring database) with the new pool. Note that a single monitoring store can be associated with multiple pools. Depending on the number of users homed on your Registrar pools, that means that you do not have to set up a separate monitoring database for each of your pools. Instead, single monitoring store can be used by multiple pools.
 
-Although it's often easier to enable monitoring at the same time that you create a new pool, it's also possible to create a new pool with monitoring disabled. If you do that, you can later use Topology Builder to enable the service: Topology Builder provides a way to enable or disable monitoring for a pool, or to associate a pool with a different monitoring store. Keep in mind that even though there is no longer a Monitoring Server role you will still need to create one or more monitoring stores: back-end databases used to store the data gathered by the monitoring service. These back-end databases can be created using Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012., or Microsoft SQL Server 2014.
+Although it's often easier to enable monitoring at the same time that you create a new pool, it's also possible to create a new pool with monitoring disabled. If you do that, you can later use Topology Builder to enable the service: Topology Builder provides a way to enable or disable monitoring for a pool, or to associate a pool with a different monitoring store. Keep in mind that even though there is no longer a Monitoring Server role you will still need to create one or more monitoring stores: back-end databases used to store the data gathered by the monitoring service. These back-end databases can be created using Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014, or Microsoft SQL Server 2019.
 
 > [!NOTE]
 > If monitoring has been enabled for a pool you can disable the process of collecting monitoring data without having to change your topology: Skype for Business Server provides a way for you to disable (and then later re-enable) Call Detail Recording (CDR) or Quality of Experience (QoE) data collection. For more information, see the Configuring Call Detail Recording and Quality of Experience Settings section of this document.
@@ -62,7 +64,7 @@ For step-by-step instructions on associating Front End servers or Front End pool
 
 In order to begin data collection you will need to enable CDR and/or QoE monitoring. (Note that you do not have to enable both CDR and QoE monitoring; if you prefer, you can enable one type of monitoring while leaving the other type disabled.) To enable CDR monitoring at the global scope run the following command from within the Skype for Business Server Management Shell:
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -76,7 +78,7 @@ Alternatively, you can enable CDR monitoring from within the Skype for Business 
 
 To enable QoE monitoring at the global scope, run this command from within the Skype for Business Server Management Shell:
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

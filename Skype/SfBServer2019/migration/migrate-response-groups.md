@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "After your users are moved to Skype for Business Server 2019 pools, you can migrate your response groups. Migrating response groups includes copying agent groups, queues, workflows, audio files, and moving Response Group contact objects from the legacy deployment to the Skype for Business Server 2019 pool. After you migrate your legacy response groups, calls to the response groups are handled by the Response Group application in the Skype for Business Server 2019 pool. Calls to response groups are no longer handled by the legacy pool."
 ---
@@ -52,13 +54,13 @@ The following procedure for migrating Response Group configurations assumes that
     
 3. Run:
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
     For example:
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
@@ -86,13 +88,13 @@ The following procedure for migrating Response Group configurations assumes that
     
     For details about the following cmdlets, run:
     
-   ```
+   ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
 3. Run:
     
-   ```
+   ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
@@ -100,7 +102,7 @@ The following procedure for migrating Response Group configurations assumes that
     
 5. Run:
     
-   ```
+   ```PowerShell
    Get-CsRgsQueue
    ```
 
@@ -108,7 +110,7 @@ The following procedure for migrating Response Group configurations assumes that
     
 7. Run:
     
-   ```
+   ```PowerShell
    Get-CsRgsWorkflow
    ```
 

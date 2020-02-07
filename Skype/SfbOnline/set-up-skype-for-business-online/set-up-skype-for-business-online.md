@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365E_SkypeforBusinessON
-- O365M_SkypeforBusinessON
-- O365P_SkypeforBusinessON
+f1.keywords:
+- CSH
 ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
+- O365E_SkypeforBusinessON
+- O365M_SkypeforBusinessON
+- O365P_SkypeforBusinessON
 description: "Learn to set up your domain, users, IM and presence for your organization to install Skype for Business. Also See how to set up audio conferencing, Phone System and Calling Plans, and Skype Meeting broadcast. "
 ---
 
@@ -54,9 +55,7 @@ Skype for Business Online is part of the Office 365 suite of services. To set up
 
     ![An example of the welcome email you received after you signed up for Skype for Business Online. It contains your Office 365 user id.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Sign in to the admin center and enter your Office 365 user ID and password. After you sign in, you'll see the Microsoft 365 admin center:
-
-    ![An example of what the admin center looks like when you have a Skype for Business Online Plan.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. Sign in to the [admin center](https://admin.microsoft.com) and enter your Office 365 user ID and password. 
 
 ## 3. Set up your domain and users
 <a name="bkmk_users"> </a>

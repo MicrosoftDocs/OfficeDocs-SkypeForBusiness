@@ -3,6 +3,8 @@ title: 'Lync Server 2013: DNS requirements for Front End pool'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pool
 ms:assetid: 02d2aa6b-9e01-437b-a2df-00590280150d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398082(v=OCS.15)

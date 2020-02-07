@@ -8,6 +8,8 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: "The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment."
@@ -19,7 +21,7 @@ The Set-CcCredential cmdlet sets the credential of the current Skype for Busines
   
 With Cloud Connector version 2.0 and later, this cmdlet can also set the account information for the virtual machine administrator and for the domain administrator.
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -30,7 +32,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 The following example specifies the account name and password for the tenant administrator:
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 

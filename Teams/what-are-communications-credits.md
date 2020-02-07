@@ -10,16 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
-ms.custom:
-- Licensing
+f1.keywords:
+- CSH
+ms.custom: 
+  - Licensing
 description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "
 ---
 

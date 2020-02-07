@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: "Summary: Learn how to configure CDR and QoE in Skype for Business Server."
@@ -22,7 +24,7 @@ Configure CDR and QoE monitoring using SQL Server Reporting Services reports for
 
 After you have associated a monitoring store with a Front End pool, set up the monitoring store, and then installed and configured SQL Server Reporting Services and Monitoring Reports you can manage Call Detail Recording (CDR) and Quality of Experience (QoE) monitoring by using Skype for Business Server Management Shell. Skype for Business Server Management Shell cmdlets allow you to enable and disable CDR and/or QoE monitoring for a particular site or for your entire Skype for Business Server deployment; that can be done with a command as simple as this:
   
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
@@ -45,25 +47,25 @@ Similarly, default values for selected QoE settings are shown in this table:
    
 If you need to modify these global settings you can do so by using the Set-CsCdrConfiguration and the Set-CsQoEConfiguration cmdlets. For example, this command (run from within the Skype for Business Server Management Shell) disables CDR monitoring at the global scope; that's done by setting the EnableCDR property to False ($False):
   
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 ```
 
 Note that disabling monitoring does not dissociate the monitoring store from the Front End pool, nor does it uninstall or otherwise affect the backend monitoring database. When you use Skype for Business Server Management Shell to disable either CDR or QoE monitoring all you really do is temporarily stop Skype for Business Server from collecting and archiving monitoring data. If you want to resume, in this case, the collection and archiving of CDR data, all you need to do is set the EnableCDR property back to True ($True):
   
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
 Similarly, this command disables the purging of QoE records at the global scope:
   
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnablePurging $False
 ```
 
 In addition to the global settings, CDR and QoE configurations settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable CDR monitoring for the Redmond site but disable CDR monitoring for the Dublin site. To create new CDR configuration settings at the site scope, use a command similar to this:
   
-```
+```powershell
 New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 ```
 
@@ -71,13 +73,13 @@ Keep in mind that settings configured at the site scope take precedence over set
   
 New QoE configuration settings can be created at the site scope by using a command like this one:
   
-```
+```powershell
 New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 ```
 
 For more information, type the following commands from within the Skype for Business Server Management Shell:
   
-```
+```powershell
 Get-Help New-CsCdrConfiguration | more
 Get-Help Set-CsCdrConfiguration | more
 Get-Help New-CsQoEConfiguration | more

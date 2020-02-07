@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable or disable client versioning'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable client versioning
 ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898475(v=OCS.15)

@@ -1,18 +1,20 @@
 ---
 title: "Get started with Teams templates for Healthcare organizations"
-author: jambirk
-ms.author: jambirk 
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: conceptual 
-ms.service: msteams 
+ms.topic: conceptual
+ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration 
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+appliesto: 
+  - Microsoft Teams
 ms.reviewer: 
 description: Get started with Teams templates for Healthcare organizations
 ---
@@ -49,7 +51,7 @@ The hospital template is meant for communication and collaboration between multi
 
 ## How to use first party templates
 
-To use these templates, simply change the ‘template@odata.bind’ property in the request body from ‘standard’ to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph [article on creating a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+To use these templates, simply change the ‘template@odata.bind’ property in the request body from ‘standard’ to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > The channels in the template will automatically be created under the General Tab.

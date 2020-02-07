@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enabling or disabling push notifications for iPhones'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling push notifications for iPhones
 ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688122(v=OCS.15)

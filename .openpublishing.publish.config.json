@@ -12,7 +12,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-        "ContextObject": "Toc" 
+        "ContextObject": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -42,7 +42,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -87,6 +87,10 @@
       "Pdf"
     ],
     "SkypeServer2019": [
+      "Publish",
+      "Pdf"
+    ],
+    "dstrome-SMB-voice": [
       "Publish",
       "Pdf"
     ]

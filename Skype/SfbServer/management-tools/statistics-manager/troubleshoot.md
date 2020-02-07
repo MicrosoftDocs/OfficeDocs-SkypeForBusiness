@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
@@ -34,13 +36,13 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
     
     The Agent runs inside of a Windows Job Object to automatically limit its memory footprint. If the agent will not start and these event entries are present in the event log, the Job Object is not able to be instantiated on the server. To work around this, the upper memory limit can be removed by changing a value in the config file:
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
     Search for "MaxProcessMemoryMB" and change the value to "0" as shown:
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 

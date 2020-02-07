@@ -9,12 +9,13 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration 
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Overview of dynamic membership for teams

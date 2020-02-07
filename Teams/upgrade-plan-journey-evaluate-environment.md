@@ -10,6 +10,8 @@ ms.reviewer: dearbeen
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for upgrading to Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
@@ -147,7 +149,7 @@ Use the following table to capture the details of the clients and endpoints in u
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | What desktop OS are the users using? | <input type="checkbox"> Windows XP <br/> <input type="checkbox"> Windows 7 <br/> <input type="checkbox"> Windows 8 <br/> <input type="checkbox"> Windows 10 <br/> <input type="checkbox"> Mac (Specify the version in the Comments column.) <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
+> | What desktop OS are the users using? | <input type="checkbox"> Windows XP <br/> <input type="checkbox"> Windows 7 <br/> <input type="checkbox"> Windows 8 <br/> <input type="checkbox"> Windows 10 <br/> <input type="checkbox"> Mac (Specify the version in the Comments column.) <br/> <input type="checkbox"> Linux (Specify the distribution in the Comments column.) <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
 > | What version of Microsoft Office is deployed <br>to these devices? | <input type="checkbox"> Office 2003 <br/> <input type="checkbox"> Office 2007 <br/> <input type="checkbox"> Office 2010 <br/> <input type="checkbox"> Office 2013 <br/> <input type="checkbox"> Office 2016 <br/> <input type="checkbox"> Office for Mac 2011 <br/> <input type="checkbox"> Office for Mac 2016 <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
 > | Which Office deployment technology is in use <br>in your organization? | <input type="checkbox"> MSI <br/> <input type="checkbox"> Click-to-Run | |
 > | What are the allowed and supported mobile <br>platforms in use? <br/>Select all that apply. | <input type="checkbox"> Windows <br/> <input type="checkbox"> Mobile <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |

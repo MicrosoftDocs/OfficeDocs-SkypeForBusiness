@@ -6,7 +6,9 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.BranchOffice
 - ms.lync.plan.BranchOffice
 ms.prod: skype-for-business-itpro

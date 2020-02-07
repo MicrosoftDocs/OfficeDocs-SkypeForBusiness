@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
@@ -41,7 +43,7 @@ Get Item returns a specific item in the repository.
   
  **Response Body** - Below is a sample response payload in JSON.
   
-```
+```json
 {
 "itemId": 1652,
 "userId": 0,

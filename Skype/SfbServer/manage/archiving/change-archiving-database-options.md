@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: "Summary: Learn how to change archiving database options for Skype for Business Server."
@@ -95,7 +97,7 @@ In most cases, you will not need to change the location of the Archiving databas
   
 The following example changes the location of the Archiving database for the ArchivingServer:atl-cs-001.contoso.com Archiving Server. In this example, the new database is located at ArchivingDatabase:atl-sql-001.contoso.com:
   
-```
+```PowerShell
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"
 ```
 

@@ -8,6 +8,8 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -72,25 +74,25 @@ If there is only one appliance in the site you want to upgrade, do the following
     
 4. Start a PowerShell console as administrator and run the following cmdlet to register the current appliance:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 5. Run the following cmdlet to download the latest version:
     
-   ```
+   ```powershell
    Start-CcDownload
    ```
 
 6. Run the following cmdlet to start the installation: 
     
-   ```
+   ```powershell
    Install-CcAppliance -Upgrade
    ```
 
 7. Run the following cmdlet to activate the new deployment and turn off the previous version:
     
-   ```
+   ```powershell
    Switch-CcVersion
    ```
 
@@ -98,7 +100,7 @@ If there is more than one appliance in the site, please follow the preceding ste
   
 If you want to update Domain administrator, Virtual machine administrator, Safe Mode administrator and Tenant administrator credentials, you can run the cmdlet with the  _UpdateAllCredentials_ parameter to reset all credentials:
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -106,7 +108,7 @@ Then, when you start to upgrade to a new version, you will be promoted to input 
   
 If you only want to reset your Tenant administrator credentials, run the following cmdlet:
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failing over Persistent Chat Server'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over Persistent Chat Server
 ms:assetid: 2cd79ffd-fee6-44ce-96cf-b98bf25e2690
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204772(v=OCS.15)

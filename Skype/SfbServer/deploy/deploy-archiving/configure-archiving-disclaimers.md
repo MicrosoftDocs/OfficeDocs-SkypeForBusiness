@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: "Summary: Read this topic to learn how to configure an archiving disclaimer for Skype for Business Server."
@@ -40,13 +42,13 @@ To enable external users to collaborate with users in your Skype for Business Se
 
 To enable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to True ($True):
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
 To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
 

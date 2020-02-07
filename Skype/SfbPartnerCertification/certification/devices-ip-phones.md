@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Skype for Business"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -13,7 +13,8 @@ appliesto:
 - Lync
 - Skype for Business 
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947482
@@ -48,6 +49,8 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | AudioCodes |405HD IP Phone|3.0.1.89 |6/14/2017|
 | Crestron |Flex UC-P100-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 | Crestron |Flex UC-P110-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
+| Poly| CCX 600 IP Phone|5.9.12.1111 |2/3/2020 |
+| Poly| CCX 500 IP Phone| 1.0.0.2535 | 01/10/2020|
 | Polycom |VVX 201 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 300/310 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 301/311 Business Media Phone|5.9.0.9373 |1/22/2019|

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring providers for Centralized Logging Service'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring providers for Centralized Logging Service
 ms:assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688082(v=OCS.15)

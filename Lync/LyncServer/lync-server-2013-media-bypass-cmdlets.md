@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Media bypass cmdlets'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass cmdlets
 ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415674(v=OCS.15)

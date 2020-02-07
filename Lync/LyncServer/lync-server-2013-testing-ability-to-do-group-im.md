@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Testing ability to do group IM'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to do group IM
 ms:assetid: ca5545bc-51ac-490f-b96b-917bb742ad04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743839(v=OCS.15)

@@ -10,11 +10,12 @@ audience: admin
 description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Microsoft Education governance FAQ for admins
