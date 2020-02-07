@@ -245,17 +245,15 @@ You need to open ports for all these IP addresses in your firewall to allow inco
 
 ## SIP Signaling: Ports
 
-Port requirements are the same for all Office 365 environments where Direct Routing is offered:
+You must use the following ports for Office 365 environments where Direct Routing is offered:
 - Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
-You must use the following ports:
-
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC|
+|SIP/TLS|SIP Proxy|SBC|1024 – 65535 (For Office 365 GCC High only port 5061 must be used)|Defined on the SBC|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
 ||||||
 
