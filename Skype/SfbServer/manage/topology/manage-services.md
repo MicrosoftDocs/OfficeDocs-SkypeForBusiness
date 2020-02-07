@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Learn how to view service status, start and stop services, and prevent sessions for services."
 ---
@@ -56,7 +58,7 @@ To view service status on a computer, type a command similar to the following in
 
 This command returns information similar to the following:
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running

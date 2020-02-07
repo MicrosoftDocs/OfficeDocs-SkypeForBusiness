@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -40,13 +42,13 @@ You may, however, need to modify an existing network region definition to apply 
 
 2. Run the New-CsNetworkRegion cmdlet to create network regions:
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     For example:
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
@@ -80,13 +82,13 @@ You may, however, need to modify an existing network region definition to apply 
 
 2. Run the Set-CsNetworkRegion cmdlet to modify an existing network region:
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     For example:
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
@@ -122,13 +124,13 @@ If you have already created network sites for one of these features, you do not 
 
 2. Run the New-CsNetworkSite cmdlet to create network sites:
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
     For example:
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
@@ -175,13 +177,13 @@ If you have already created network sites for one of these features, you do not 
 
 2. Run the Set-CsNetworkSite cmdlet to modify network sites:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity <string>
    ```
 
     For example:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
@@ -223,13 +225,13 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 2. Run the **New-CsNetworkSubnet** cmdlet to associate a subnet with a network site:
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
     For example:
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
@@ -255,7 +257,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 3. Run the following cmdlet to import **subnet.csv**, and then store its contents in the Lync Server management store:
 
-   ```
+   ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 

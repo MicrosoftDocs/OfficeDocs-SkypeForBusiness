@@ -10,13 +10,15 @@ audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 ms.collection: 
-- Teams_ITAdmin_Help
-- Teams_ITAdmin_JourneyFromSfB
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 <div id="main" class="v2">
     <div class="container">

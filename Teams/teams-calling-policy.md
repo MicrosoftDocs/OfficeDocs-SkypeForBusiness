@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 description: Learn about calling policy settings in Microsoft Teams.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: 
+  - NewAdminCenter_Update
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+  - M365-voice
+f1.keywords:
+- CSH
+ms.custom: 
+  - ms.teamsadmincenter.callingpolicies.overview
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Calling policies in Microsoft Teams
@@ -101,6 +102,10 @@ Setting this to **On** will send calls through the PSTN and incur charges rather
 ### Busy on Busy is available while in a call
 
 Busy on Busy (Busy Options)) is a new setting in Teams calling policies that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
+
+### Allow music on hold
+
+This settings allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It is turned on by default. This setting does not apply to call park and boss delegate features, and is only available via powershell currently. 
 
 ## See also
 

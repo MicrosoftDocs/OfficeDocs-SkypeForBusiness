@@ -8,13 +8,14 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to create and manage an org-wide team in Teams. 
+description: Learn how to create and manage an org-wide team in Teams.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Create an org-wide team in Microsoft Teams
@@ -23,7 +24,7 @@ Org-wide teams provide an automatic way for everyone in a small to medium-sized 
 
 With org-wide teams, global admins can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 5,000 users. There's also a limit of five org-wide teams per tenant. If these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch** when creating a team. 
 
-![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
+![Screenshot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
 When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Commercial Cloud Trial license. To learn more about the trial license, check out [Manage the Teams Commercial Cloud Trial offer](iw-trial-teams.md). 
 
@@ -54,9 +55,9 @@ Reduce channel noise by having only team owners post to the General channel. Go 
 
  Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click <strong>@mentions</strong> > turn off **Show members the option to @team or @[team name]**. 
 
-### Automatically favorite important channels
+### Automatically show important channels
 
-Favorite important channels to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+Show important channels to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6). 
 
 ### Set up channel moderation
 
@@ -77,3 +78,7 @@ If this isn't an option, you can use PowerShell to create a public team and add 
 ### Is there a way to convert an existing team to an org-wide team?
 
 Global admins can convert an existing team to an org-wide team by editing it in Teams client. Go to the team name, click **More options** > **Edit team**.
+
+## See also
+
+Watch a video about about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

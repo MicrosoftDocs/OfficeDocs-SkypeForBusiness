@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring a reverse proxy for Autodiscover'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a reverse proxy for Autodiscover
 ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)

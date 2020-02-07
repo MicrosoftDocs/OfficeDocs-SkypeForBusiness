@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
@@ -64,7 +66,7 @@ You can view user PIN information by using the Get-CsClientPinInfo cmdlet. This 
 
 To view PIN information for a user, type a command similar to the following in the Skype for Business Server Management Shell and then press ENTER:
     
-  ```
+  ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
   ```
 

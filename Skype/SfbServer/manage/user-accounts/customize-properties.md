@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: "You can use the procedures in this section to modify individual user account properties."
@@ -147,7 +149,7 @@ You can use Skype for Business Server Control Panel to assign users to a specifi
     
 3. To move single users, use the Move-CsUser cmdlet as follows:
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -155,13 +157,13 @@ You can use Skype for Business Server Control Panel to assign users to a specifi
     
 4. To move a large number of users, use filters with the **Get-CsUser** cmdlet and pass the resulting set of users to **Move-CsUser**:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
     The combined commands of the **Get-CsUser** and **Move-CsUser** might result in this:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

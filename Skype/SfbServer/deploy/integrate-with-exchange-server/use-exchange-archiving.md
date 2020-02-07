@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
@@ -43,13 +45,13 @@ Archiving in Skype for Business Server is primarily managed by using the archivi
 
 The EnableExchangeArchiving property is a Boolean value: set EnableExchangeArchiving to True ($True) to enable Exchange archiving or set EnableExchangeArchiving to False ($False) to disable Exchange archiving. For example, this command enables the archiving of instant messaging transcripts and also enables Exchange archiving:
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 To disable Exchange archiving, use a command similar to the following, which enables instant messaging archiving but disables archiving to Exchange (in other words, transcripts will be archived to Skype for Business Server):
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -83,19 +85,19 @@ After you have enabled archiving (and Exchange archiving) you must then modify t
 
 By default, both of these property values are set to False, meaning that neither internal nor external communication sessions are archived. To modify the global policy, you can use the Skype for Business Server Management Shell and the Set-CsArchivingPolicy cmdlet. This command enables the archiving of both internal and external communication sessions:
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Alternatively, you can use the New-CsArchivingPolicy to create a new policy at either the site scope or the per-user scope. For example, this command creates a new per-user archiving policy named RedmondArchivingPolicy:
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 If you create a per-user policy you will then need to assign that policy to the appropriate users. For example:
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -115,13 +117,13 @@ If Skype for Business Server and Exchange Server are located in different forest
 
 For example, to configure a user account so that instant messaging and Web conferencing transcripts are always archived to Exchange you can use a command similar to this from the Skype for Business Server Management Shell:
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 If you want to set the same archiving policy for a group of users (for example, all the users homed on a specified Registrar pool) you can use a command similar to this:
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -129,13 +131,13 @@ Note that you must use the Skype for Business Server Management Shell (and Windo
 
 If you would like to view a list of all the users who have been assigned a specific archiving policy then you can use a command similar to the following, which returns the Active Directory display name of all the users who have had the ExchangeArchivingPolicy property set to Uninitialized:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 Likewise, this command returns the display name of the users who have not have the ExchangeArchivingPolicy property set to UseLyncArchivingPolicy:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

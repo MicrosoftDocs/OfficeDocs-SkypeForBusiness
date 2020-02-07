@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: "Summary: Learn about the Update Item operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
@@ -35,7 +37,7 @@ Update Item updates a specific item in the repository.
   
 Sample request payload:
   
-```
+```json
 {
   content : "{ 'Product' : 'New Product Name'",
   type: "application/json"

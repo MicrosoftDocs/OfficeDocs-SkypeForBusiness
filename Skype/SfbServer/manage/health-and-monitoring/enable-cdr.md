@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: "Summary: Learn how to enable Call detail recording (CDR) records in Skype for Business Server."
@@ -44,7 +46,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
  To disable CDR, set the EnableCDR parameter to True ($True).
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -52,7 +54,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
  To disable CDR, set the EnableCDR parameter to False ($False). Disabling CDR does not uninstall monitoring. It pauses the collection and storage of CDR data.
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -60,7 +62,7 @@ You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration*
 
  This command enables CDR for all the CDR configuration settings currently in use in your organization.
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

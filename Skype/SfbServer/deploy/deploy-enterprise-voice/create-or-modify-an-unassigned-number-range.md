@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -97,31 +99,31 @@ Use one of the following procedures to configure unassigned number ranges for th
     
    - To create a number range for an Announcement service, run:
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
      ```
 
    - Or, to create a number range for Exchange UM Auto Attendant, run:
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
      ```
 
      For example:
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
      ```
 
      Or
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
      The following example shows how to modify the numbers in an existing unassigned number range:
     
-     ```
+     ```powershell
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
      ```
 
@@ -149,13 +151,13 @@ Use one of the following procedures to configure unassigned number ranges for th
     
 3. At the command line, type:
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
    ```
 
     For example:
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "Unassigned range 1"
    ```
 

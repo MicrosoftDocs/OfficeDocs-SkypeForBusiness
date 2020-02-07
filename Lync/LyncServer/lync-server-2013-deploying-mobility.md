@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deploying mobility'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying mobility
 ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690055(v=OCS.15)

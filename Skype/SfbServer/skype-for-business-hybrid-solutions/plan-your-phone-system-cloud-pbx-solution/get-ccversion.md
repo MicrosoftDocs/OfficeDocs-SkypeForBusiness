@@ -8,6 +8,8 @@ ms.date: 6/30/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: "Returns the version of the Cloud Connector appliance. Get-CCVersion can only be used on the host machine of Cloud Connector."
@@ -17,7 +19,7 @@ description: "Returns the version of the Cloud Connector appliance. Get-CCVersio
  
 Returns the version of the Cloud Connector appliance. Get-CCVersion can only be used on the host machine of Cloud Connector.
   
-```
+```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 ```
 
@@ -38,7 +40,7 @@ Returns the version of the Cloud Connector appliance based on PowerShell scripts
 
 The following example shows the Cloud Connector version of the currently running script in your open PowerShell console:
   
-```
+```powershell
 Get-CcVersion
 ```
 
@@ -46,7 +48,7 @@ Get-CcVersion
 
 The following example shows the Cloud Connector version of the currently running binaries deployed to the virtual machines. You can see the version in the running virtual machine names in Hyper-v Manager:
   
-```
+```powershell
 Get-CCVersion -VersionType RunningBits
 ```
 

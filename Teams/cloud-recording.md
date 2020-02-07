@@ -7,19 +7,24 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-voice
+  - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - Teams_ITAdmin_PracticalGuidance
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Teams cloud meeting recording
+
+> [!IMPORTANT]
+> **In the future, we're making a configuration change** in which the Teams meeting recording feature will be turned on for customers whose Teams data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region. When this change takes effect, meeting recordings will be stored by default in the nearest Microsoft Stream region. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off meeting recordings and then turn it on after Microsoft Stream is deployed to your in-country region. To learn more, see [Where your meeting recordings are stored](#where-your-meeting-recordings-are-stored).
 
 In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/stream/), so users can share it securely across their organization.
 
@@ -62,15 +67,19 @@ If a Microsoft Stream administrator has [set up company guideline policy](https:
 
 ### Turn on or turn off cloud recording
 
-Use the setting AllowCloudRecording in TeamsMeetingPolicy in Teams PowerShell to control whether a user’s meetings are allowed to be recorded or not. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded.
 
-Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, the users get Global policy, which has AllowTranscription disabled by default.
+In the Microsoft Teams admin center, turn on or turn off the **Allow cloud recording** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-cloud-recording).
 
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
+Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+
+Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording disabled by default.
+
+For a user to fall back to the Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-To change value of AllowCloudRecording in Global policy, use the following cmdlet:
+To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
 </br>
@@ -83,21 +92,43 @@ To change value of AllowCloudRecording in Global policy, use the following cmdle
 | I want the majority of my users to be able to record their meetings but selectively disable specific users who are not allowed to record |        <ol><li>Confirm GlobalCsTeamsMeetingPolicy has AllowCloudRecording = True<li>Majority of the users have the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True<li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False</ol>         |
 |                                                   I want recording to be 100% disabled                                                   |                                                                <ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False<li>All users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False                                                                 |
 |      I want recording to be disabled for the majority of the users but selectively enable specific users who are allowed to record       | <ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False<li>Majority of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False<li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+#### Where your meeting recordings are stored
+
+Meeting recordings are stored in Microsoft Stream cloud storage. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. In the future, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
+
+When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, in the Microsoft Teams admin center, turn off the **Allow cloud recording** setting in the Global Teams meeting policy.
+
+Here's a summary of what happens when you turn on meeting recording when this change takes effect:
+
+|If you turn on meeting recording... |Meeting recordings are stored...  |
+|---------|---------|
+|before Microsoft Stream is available in your in-country data residency region    |in the nearest Microsoft Stream region         |
+|after Microsoft Stream is available in your in-country data residency region    | in your in-country data residency region        |
+
+For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings even after Microsoft Stream is available in the in-country data residency region.
+
+To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+
+To learn more about where data is stored across services in Office 365, see [Where is your data located?](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
 
 ### Turn on or turn off recording transcription
 
-When users record their Teams meetings, they can confirm whether a transcript should automatically be generated after the meeting is recorded. If admins have disabled transcription capability for the meeting organizer and the recording initiator, the recording initiator will not get a choice to transcribe the meeting recordings.
+When users record their Teams meetings, they can confirm whether a transcript should automatically be generated after the meeting is recorded. If you disabled transcription capability for the meeting organizer and the recording initiator, the recording initiator won't get a choice to transcribe the meeting recordings.
 
-Use the setting AllowTranscription in TeamsMeetingPolicy in Teams PowerShell to control whether a recording initiator gets a choice to transcribe the meeting recording. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
-Unless you have assigned a custom policy to the users, they get Global policy, which has AllowTranscription disabled by default.
+In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
+
+Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+
+Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
 
 For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-To change value of AllowCloudRecording in Global policy, use the following cmdlet:
+To change value of AllowCloudRecording in the Global policy, use the following cmdlet:
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
 </br>
@@ -116,15 +147,13 @@ To change value of AllowCloudRecording in Global policy, use the following cmdle
 The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in Microsoft Stream.  Read [this article](https://docs.microsoft.com/stream/license-overview) to understand the base storage included in the subscription and how to purchase additional storage.
 
 ## Manage meeting recordings
+
 The meeting recordings are considered tenant-owned content. If the owner of the recording leaves the company, the admin can open the recording video URL in Microsoft Stream in admin mode. The admin can delete the recording, update any recording metadata, or change permissions for the recording video. Learn more about [admin capabilities in Stream](https://docs.microsoft.com/stream/manage-content-permissions).
 
 ## Compliance and eDiscovery for meeting recordings
+
 The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-C compliant. To support e-Discovery requests for compliance admins who are interested in meeting or call recordings for Microsoft Streams, the recording completed message is available in the compliance content search functionality for Microsoft Teams. Compliance admins can look for the keyword "recording" in the subject line of the item in compliance content search preview and discover meeting and call recordings in the organization. A prerequisite for them to view all recordings is that they will need to be set up in Microsoft Stream with admin access. Learn more about [assigning admin permissions in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
-## Want to know more about Windows PowerShell?
+## Related topics
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
-
-- [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-- [Set up your computer for Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
-
+- [Teams PowerShell overview](teams-powershell-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: PowerShell script sample - Create and assign a messaging policy 
+title: PowerShell script sample - Create and assign a messaging policy
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -8,12 +8,13 @@ ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 PowerShell script sample - Create and assign a messaging policy

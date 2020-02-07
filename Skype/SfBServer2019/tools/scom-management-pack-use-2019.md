@@ -8,6 +8,8 @@ ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Summary: Learn how to configure your Skype for Business Server 2019 infrastructure to work with System Center Operations Manager."
@@ -78,7 +80,9 @@ The Monitoring Pack for Skype for Business Server 2019 includes the following fi
 ## What's New
 
 The following features are new to Skype for Business Server 2019 Management Packs.
-  
+
+- **Changes in [Sept 2019 update](https://www.microsoft.com/download/details.aspx?id=57511)** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
+
 - **Automatic discovery for Client Sign-In** Client applications that sign-in to Skype for Business Server 2019 often automatically discover the server to sign-in to. Synthetic transactions now support verification that automatic discovery is configured correctly.
     
 - **Customized synthetic transaction run intervals** To simplify the set up process of Watcher Nodes, synthetic transactions can share user accounts. This slows down the frequency at which the tests are run as the tests are serialized to avoid conflicts. By default, synthetic transactions run every 15 minutes to ensure all tests have time to run. Administrators who choose to use more users or fewer tests per user may now reduce the run interval, as well.

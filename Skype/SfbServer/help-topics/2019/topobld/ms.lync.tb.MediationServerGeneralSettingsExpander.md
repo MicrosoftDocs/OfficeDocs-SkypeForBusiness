@@ -6,7 +6,9 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

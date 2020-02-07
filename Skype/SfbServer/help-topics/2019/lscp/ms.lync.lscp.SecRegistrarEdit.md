@@ -6,9 +6,11 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+ms.custom:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW

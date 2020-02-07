@@ -3,6 +3,8 @@ title: 'Lync Server 2013: IP and networking protocol support'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IP and networking protocol support
 ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412848(v=OCS.15)

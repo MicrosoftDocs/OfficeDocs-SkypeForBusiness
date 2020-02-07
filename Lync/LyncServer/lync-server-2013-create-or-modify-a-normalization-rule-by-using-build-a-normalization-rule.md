@@ -3,6 +3,8 @@ title: 'Create or modify a normalization rule by using Build a Normalization Rul
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule by using Build a Normalization Rule
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399036(v=OCS.15)

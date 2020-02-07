@@ -9,16 +9,16 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
-ms.custom:
-- Audio Conferencing
+f1.keywords:
+  - CSH
+ms.custom: 
+  - Audio Conferencing
 description: "Administrators can control the type of audio conferencing and end user PSTN calls that can be made by users."
 ---
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring client bootstrapping policies'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring client bootstrapping policies
 ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
@@ -39,7 +41,7 @@ You can also view PIN policies by using Windows PowerShell and the Get-CsPinPoli
 
 To view information about all your PIN policies, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy
   ```
 

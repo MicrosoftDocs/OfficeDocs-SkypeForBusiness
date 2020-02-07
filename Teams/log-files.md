@@ -8,13 +8,14 @@ ms.date: 09/25/2017
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Use log files in troubleshooting Microsoft Teams

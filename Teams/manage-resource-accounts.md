@@ -1,7 +1,7 @@
 ---
 title: "Manage resource accounts in Teams"
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -9,14 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
+f1.keywords:
+- CSH
+ms.custom: 
+  - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: "Learn about managing resource accounts in Microsoft Teams"
 ---
 
@@ -24,25 +25,26 @@ description: "Learn about managing resource accounts in Microsoft Teams"
 
 A resource account is also known as a *disabled user object* in Azure AD, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
 
-In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have an associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
+In Microsoft Teams or Skype for Business Online, each Phone System call queue or auto attendant is required to have at least one associated resource account. Whether a resource account needs an assigned phone number will depend on the intended use of the associated call queue or auto attendant, as shown in the following diagram. You can also refer to the articles on call queues and auto attendants linked at the bottom of this article before assigning a phone number to a resource account.
 
 ![example of resource accounts and user licenses](media/resource-account.png)
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online. For resource accounts homed on Skype for Business Server 2019, see [Configure resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-
 ## Overview
 
-If your organization is already using at least one Phone System license, to assign a phone number to a Phone System call queue or auto attendant the process is:
+If your organization is already using at least one Phone System license, to assign a phone number to a Phone System call queue the process is:
 
 1. Obtain a service number.
 2. Obtain a free Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or a paid Phone System license to use with the resource account or a Phone System license.
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account.
-4. Assign the Phone System or a Phone System - Virtual user license to the resource account.
-5. Assign a service phone number to the resource account you just assigned licenses to. 
+4. Assign the Phone System or a Phone System - Virtual user license to the resource account.
+5. Assign a service phone number to the resource account you just assigned licenses to.
 6. Create a Phone System call queue or auto attendant
 7. Link the resource account with a call queue or auto attendant.
+
+<!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
 If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.
 
@@ -53,30 +55,37 @@ To redirect calls to people in your organization who are homed Online, they must
 
 If the Phone System call queue or auto attendant you're creating will be nested and won't need a phone number, the process is:
 
-1. Create the resource account 
+1. Create the resource account
 2. Create a Phone System call queue or auto attendant
 3. Associate the resource account with a Phone System call queue or auto attendant
 
 ### Create a resource account with a phone number
 
+<a name="phonenumber"> </a>
+
+> [!IMPORTANT]
+> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
+
 A top-level auto attendant or call queue will require a phone number be linked to its auto attendant. To create a resource account that uses a phone number, the process is:
 
 1. Port or get a toll or toll-free service number. The number can't be assigned to any other voice services or resource accounts.
 
-   Before you assign a phone number to a resource account, you need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type**  will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+   Before you assign a phone number to a resource account, you need to get or port your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type**  will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
    If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
-2. Obtain a Phone System Virtual User license or a regular Phone System license. 
+2. Obtain a Phone System Virtual User license or a regular Phone System license.
 
    To get the Virtual User license, starting from the Microsoft 365 admin center, go to **Billing** > **Purchase services** > **Add-on subscriptions** and scroll to the end - you will see "Phone System - Virtual User" license. Select **Buy now**. There is a zero cost, but you still need to follow these steps to acquire the license.
 3. Create a new resource account. See [Create a resource account in Microsoft Teams admin center](#create-a-resource-account-in-microsoft-teams-admin-center) or [Create a resource account in Powershell](#create-a-resource-account-in-powershell)
 4. Assign a Phone System - [Virtual User license](teams-add-on-licensing/virtual-user.md) or Phone System License to the resource account. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
+5. Assign the service number to the resource account. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services).
 6. Set up one of the following:
    - [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
    - [Cloud call queue](create-a-phone-system-call-queue.md)
 7. Link the resource account to the auto attendant or call queue. See [Assign/Unassign phone numbers and services](#assignunassign-phone-numbers-and-services)
+
+When you create a resource account while creating an auto attendant, the licenses are applied automatically.
 
 ### Create a resource account without a phone number
 
@@ -95,44 +104,59 @@ After you've bought a Phone System license, using Microsoft Teams admin center n
 
 ![Screenshot of the Resource accounts page](media/r-a-master.png)
 
-![Icon of the number 1, referencing a callout in the previous screenshot](media/sfbcallout1.png)
+![Icon of the number 1, referencing a callout in the previous screenshot](media/teamscallout1.png)
 
-To create a new resource account click **+ New account**. In the pop-up, fill out the display name and user name for the resource account (the domain name should populate automatically) then click **Save**.
+To create a new resource account click **+ Add**. In the pop-up, fill out the **Display name**, **Username** (the domain name should populate automatically), and **Resource account type**  for the resource account. Resource account type can be either **Auto attendant** or **Call queue** depending on the app you intend to associate to the resource account. When you are ready,  click **Save**.
 
 ![Screenshot of the New resource account options](media/res-acct.png)
 
 Next, apply a license to the resource account in the O365 Admin center, as described in [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-### Edit resource account name
+### Edit resource account 
 
-![Icon of the number 2, referencing a callout in the previous screenshot](media/sfbcallout2.png) You can edit the resource account display name using the **Edit** option. Click **Save** when you are done.
+![Icon of the number 2, referencing a callout in the previous screenshot](media/teamscallout2.png) You can edit the resource account **Display name** and **Resource account** type using the **Edit** option. Click **Save** when you are done.
+
 ![Screenshot of the Edit resource account option](media/r-a-edit.png)
+
+<a name="phonenumber"> </a>
 
 ### Assign/Unassign phone numbers and services
 
-![Icon of the number 3, referencing a callout in the previous screenshot](media/sfbcallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, or assign the resource account to an auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If your call queue or auto attendant still needs to be created, you can link the resource account while you create it. Click **Save** when you are done.
+![Icon of the number 3, referencing a callout in the previous screenshot](media/teamscallout3.png) Once you've created the resource account and assigned the license, you can click on **Assign/Unassign** to assign a service number to the resource account, set the phone number type, or assign the resource account to a specific auto attendant or call queue that already exists. Assigning a direct routing number can be done using Cmdlets only. If you haven't yet created the  call queue or auto attendant you will associate to the resource account,leave that field blank. You can link the resource account while you create it. Click **Save** when you are done.
+
+Options for the **Phone number type** are:
+
+- None
+- Online
+- Toll-free
+- On-premises
+
+![Screenshot of the Assign/unassign options](media/r-a-assign.png)
 
 To assign a direct routing or hybrid number to a resource account you will need to use PowerShell, see the following section.
 
 > [!IMPORTANT]
 > If your resource account doesn't have a valid license, an internal check will cause a failure when you try to assign the phone number to the resource account. You won't be able to assign the number or associate the resource account with a call queue or auto attendant.
 
-![Screenshot of the Assign/unassign options](media/r-a-assign.png)
+> [!IMPORTANT]
+> A phone number is not assigned directly to the auto attendant or call queue, but rather to the resource account associated to the auto attendant or call queue.
+
+
 
 ## Change an existing resource account to use a Virtual User license
 
-If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to acquire the free Virtual User license, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+If you decide to switch the licenses on your existing resource account from a Phone system license to a Virtual User license, you'll need to acquire the free Virtual User license, then follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Always remove a full Phone System License and assign the Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Virtual User license and remove the broken resource account. 
 
 ## Create a resource account in Powershell
 
-Depending on whether your resource account is located online or on premises, you would need to connect to the appropriate Powershell prompt with Admin privileges.
+Depending on whether your resource account is located online or on Skype for Business Server 2019, you would need to connect to the appropriate Powershell prompt with Admin privileges.
 
-- The following Powershell cmdlet examples presume the resource account is homed online using [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) to create a resource account that is homed online.
+- The following Powershell cmdlet examples show creating a resource account homed online using [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
 
-- For resource accounts homed on-premises in Skype For Business Server 2019 that can be used with Cloud Call Queues and Cloud Auto Attendants, see [Configure Cloud Call Queues](/skypeforbusiness/hybrid/configure-call-queue.md) or [Configure Cloud Auto Attendants](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Hybrid implementations (numbers homed on Direct Routing) will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
+- For resource accounts homed on Skype For Business Server 2019 that can be used with Cloud Call Queues and Cloud Auto Attendants, see [Configure Cloud Call Queues](/skypeforbusiness/hybrid/configure-call-queue.md) or [Configure Cloud Auto Attendants](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) cmdlet on an on-premises Skype for Business Server 2019 server.
 
 The application ID's that you need to use while creating the application instances are:
 
@@ -140,9 +164,11 @@ The application ID's that you need to use while creating the application instanc
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> If you want the call queue or auto attendant to be searchable by on-premises users, you should create your resource accounts on-premise, since online resource accounts are not synced down to Active Directory.
+> If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to online Azure AD.
 
-1. To create a resource account online for use with an auto attendant, use the following command.
+ 
+
+1. To create a resource account online for use with an auto attendant, use the following command:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -150,23 +176,23 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
 
 2. You will not be able to use the resource account until you apply a license to it. For how to apply a license to an account in the O365 admin center, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user) as well as [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-3. (Optional) Once the correct license is applied to the resource account you can set a phone number to the resource account as shown below. Not all resource accounts will require a phone number. If you did not apply a license to the resource account, the phone number assignment will fail.
+3. (Optional) Once the correct license is applied to the resource account you can assign a phone number to the resource account as shown below. Not all resource accounts will require a phone number. If you did not apply a license to the resource account, the phone number assignment will fail.
 
-``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
-```
+   ``` Powershell
+   Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com -TelephoneNumber +14255550100
+   Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
+   ```
 
-See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) for more details on this command.
+   See [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) for more details on this command.
 
-> [!NOTE]
-> It's easiest to set the online phone number using the Microsoft Teams admin center, as described previously.
+   > [!NOTE]
+   > It's easiest to set the online phone number using the Microsoft Teams admin center, as described previously.
 
-To assign a direct routing or hybrid number to a resource account, use the following cmdlet:
+   To assign a direct routing phone number to a resource account (homed either in Microsoft Teams or Skype For Business Server 2019), use the following cmdlet for Skype for Business Online Powershell:
 
-``` Powershell
-Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
-```
+   ``` Powershell
+   Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
+   ```
 
 ## Manage Resource account settings in Microsoft Teams admin center
 

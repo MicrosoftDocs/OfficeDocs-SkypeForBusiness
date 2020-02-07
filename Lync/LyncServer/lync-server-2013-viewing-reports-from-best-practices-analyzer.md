@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Viewing reports from Best Practices Analyzer'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)

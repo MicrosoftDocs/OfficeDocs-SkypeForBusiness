@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -64,13 +66,13 @@ Global and site-level voice policies are automatically assigned to all user acco
     
 3. To assign an existing user voice policy to a user, run the following at the command prompt:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     For example:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
@@ -89,13 +91,13 @@ To complete user account configuration for either users of Enterprise Voice or u
     
 3. To assign a user-specific dial plan, run the following at the command prompt:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     For example:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 

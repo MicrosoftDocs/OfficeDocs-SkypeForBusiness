@@ -8,6 +8,8 @@ ms.date: 2/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -123,7 +125,7 @@ Both the basic and full client versions (with choice of 32- and 64-bit versions)
 
 ### MSI
 
-MSI is a more traditional installation method, used on the Skype for Business 2015 and 2016 clients. It allows you to manually install updates and patches, use volume licensing and activation, and is customizable via the [Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030). You can distribute clients by applying Group Policies, by using System Center Configuration Manager, or using a third party tool.
+MSI is a more traditional installation method, used on the Skype for Business 2015 and 2016 clients. It allows you to manually install updates and patches, use volume licensing and activation, and is customizable via the [Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030). You can distribute clients by applying Group Policies, by using Microsoft Endpoint Configuration Manager, or using a third party tool.
 
 
 
@@ -132,7 +134,7 @@ MSI is a more traditional installation method, used on the Skype for Business 20
 
 Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-Skype for Business Server 2015 supports the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Client comparison tables for Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype for Business Server 2015 supports the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) and [Client Comparison Tables for Lync Server 2010](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## Client system requirements

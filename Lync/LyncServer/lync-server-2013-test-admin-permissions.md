@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Test admin permissions'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin permissions
 ms:assetid: 5dda3efd-0f84-4848-819e-87b1551066b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767945(v=OCS.15)

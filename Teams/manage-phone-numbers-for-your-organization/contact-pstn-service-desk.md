@@ -8,20 +8,20 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
 audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.voice.pstnservicedesk
-- ms.teamsadmincenter.voice.contactPSTNsupport
-ROBOTS: NOINDEX, NOFOLLOW
+f1.keywords: 
+- CSH
 ms.custom:
-- Calling Plans
+  - ms.teamsadmincenter.voice.pstnservicedesk
+  - ms.teamsadmincenter.voice.contactPSTNsupport
+  - Calling Plans
+ROBOTS: NOINDEX, NOFOLLOW
 description: "When you are getting phone numbers or porting (transferring) numbers for your organization, you may need to get help and support at the PSTN service desk."
 ---
 # PSTN service desk help

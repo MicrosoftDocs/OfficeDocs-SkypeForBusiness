@@ -8,14 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams. 
+description: Onboard early adopters to the first set of teams and channels that you created in Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Onboard early adopters to Microsoft Teams
@@ -50,7 +51,7 @@ Jump to: [Teams for Windows](#teams-for-windows) | [Teams for Mac](#teams-for-ma
 The Teams desktop client gives Windows and Mac users the best overall experience. To learn more, see [Get clients for Teams (Desktop client)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) and [Hardware requirements for the Microsoft Teams app](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> As an admin, you can choose the method to distribute the installation files to computers in your organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS).
+> As an admin, you can choose the method to distribute the installation files to computers in your organization, such as Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS).
 
 #### Teams for Windows 
 The easiest way to install the Windows desktop client is to:

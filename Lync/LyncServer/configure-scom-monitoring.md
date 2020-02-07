@@ -4,6 +4,8 @@ ms.reviewer:
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SCOM monitoring
 ms:assetid: 4003d225-2a33-448c-abd9-571750661140
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688033(v=OCS.15)
@@ -53,11 +55,11 @@ Instructions for carrying out each of these tasks are provided below.
 
 2.  At the command line, type the following:
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
        ```
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
        ```
     

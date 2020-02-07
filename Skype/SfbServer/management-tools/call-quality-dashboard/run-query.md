@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
@@ -34,7 +36,7 @@ Run Query operation provides the ability to run a query on the cube based on spe
 
  **Request Body** - Here is a sample request payload in JSON. It contains dimensions, filters, and measurement required for a query.
 
-```
+```json
 {
 "Filters": [{
 "DataModelName": "[StartDate].[Month]",
@@ -83,7 +85,7 @@ Run Query operation provides the ability to run a query on the cube based on spe
 
  **Response Body** - Below is a sample response payload in JSON. It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.
 
-```
+```json
 {
 "ExecutionTime": "00:00:00.2102630",
 "DataResult": [["September 2014",

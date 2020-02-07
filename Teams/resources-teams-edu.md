@@ -8,15 +8,16 @@ ms.reviewer:
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer:
+ms.reviewer: 
 description: List of Teams resources helpful for IT admins in Education.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
 ---
 
 Microsoft Teams resources for Education admins

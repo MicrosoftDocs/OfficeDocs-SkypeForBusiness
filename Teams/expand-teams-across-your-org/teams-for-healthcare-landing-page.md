@@ -7,12 +7,16 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
 search.appverid: MET150
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Teams for Healthcare

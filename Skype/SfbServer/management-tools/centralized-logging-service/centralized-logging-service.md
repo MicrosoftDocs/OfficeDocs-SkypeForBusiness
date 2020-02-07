@@ -8,6 +8,8 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
@@ -90,7 +92,7 @@ The Centralized Logging Service is configured to define what the logging service
     
 2. Type the following at a command-line prompt:
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 

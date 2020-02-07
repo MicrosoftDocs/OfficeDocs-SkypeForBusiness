@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: "Summary: Learn how to test dial-in conferencing in Skype for Business Server."
@@ -26,7 +28,7 @@ As final verification of your dial-in conferencing configuration, you can search
     
 3. Run the following at the command prompt:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
@@ -42,7 +44,7 @@ For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.mi
     
 3. Run the following at the command prompt:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
@@ -66,7 +68,7 @@ To verify that the Dial-in Conferencing Settings webpage and the dial-in access 
     
 3. Run the following at the command prompt:
     
-   ```
+   ```PowerShell
    $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********

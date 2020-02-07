@@ -10,12 +10,11 @@ ms.reviewer: rowille
 audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure Direct Routing in Teams.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
-ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Configure Direct Routing in Microsoft Teams

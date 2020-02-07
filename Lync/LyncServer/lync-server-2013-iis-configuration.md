@@ -3,6 +3,8 @@ title: 'Lync Server 2013: IIS configuration'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IIS configuration
 ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412871(v=OCS.15)
@@ -136,11 +138,11 @@ The following table indicates the required IIS 7.5 role services.
 
 On the Windows Server 2008 R2 SP1 x64 operating system, you can use Windows PowerShell 2.0. You must first import the ServerManager module, and then install the IIS 7.5 role and role services.
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
    ```
 
@@ -338,11 +340,11 @@ The following table indicates the required IIS 8.0 and IIS 8.5 role services for
 
 In Windows Server 2012 and Windows Server 2012 R2, you can use Windows PowerShell 3.0 to install the IIS Requirements. Using the ServerManager module in Windows PowerShell 3.0, type:
 
-   ```
+   ```PowerShell
     Import-Module ServerManager
    ```
 
-   ```
+   ```PowerShell
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
    ```
 

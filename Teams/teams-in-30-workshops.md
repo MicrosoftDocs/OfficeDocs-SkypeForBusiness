@@ -9,14 +9,17 @@ ms.date: 7/1/19
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_Training
-- Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Live, interactive workshops designed to get you up and running with Microsoft Teams in just 30 days.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+ROBOTS: NOINDEX
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 <div id="main" class="v2">
     <div class="container">

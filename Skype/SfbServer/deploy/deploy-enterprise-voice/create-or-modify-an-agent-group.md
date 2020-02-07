@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - IT_Skype16
@@ -118,13 +120,13 @@ Use one of the following procedures to create or modify an agent group.
     
 3. Use **New-CsRgsAgentGroup** to create a new agent group. Use **Set-CsRgsAgentGroup** to modify an existing agent group. At the command line, run:
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
    ```
 
     For example:
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
    ```
 
@@ -133,7 +135,7 @@ Use one of the following procedures to create or modify an agent group.
   
 4. Confirm that the agent group is created. Run:
     
-   ```
+   ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 

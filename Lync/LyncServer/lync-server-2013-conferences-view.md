@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conferences view'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferences view
 ms:assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721871(v=OCS.15)

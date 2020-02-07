@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clients supported for Call Park'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Call Park
 ms:assetid: c236d2ba-9d83-418c-9cbc-92541f115fb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412958(v=OCS.15)

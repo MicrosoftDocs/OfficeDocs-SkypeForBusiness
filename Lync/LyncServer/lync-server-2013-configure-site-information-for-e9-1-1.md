@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure site information for E9-1-1'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure site information for E9-1-1
 ms:assetid: 3373be5c-0a99-437d-9604-05194a96c31e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425828(v=OCS.15)

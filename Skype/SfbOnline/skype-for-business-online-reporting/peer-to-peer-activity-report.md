@@ -14,12 +14,13 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Reporting
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
-ms.custom:
-- Reporting
 description: "Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. "
 ---
 
@@ -38,13 +39,8 @@ This report, along with the other Skype for Business reports, gives you details 
 
 1. Go to the admin center > **Reports** > **Usage**.
     
-2. On the **Usage** page, click **Skype for Business peer-to-peer activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business peer-to-peer activity** on the **Skype for Business activity** list.
-    
-     ![Skype peer to peer menu selected](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > Depending on the Office 365 subscription you have, you might not see all the products and activity reports shown here. 
-  
+2. On the **Usage** page, select **Skype for Business** > **Peer-to-peer activity** on the **Select a report list** on the left. Or, click the **Skype for Business activity** widget and then click **Skype for Business peer-to-peer activity** on the **Skype for Business activity** list.
+
 ## Interpret the Skype for Business peer-to-peer activity report
 
 You can get a view into your Skype for Business peer-to-peer activity by looking at **Activity**, **Users**, and **Minutes** charts.

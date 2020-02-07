@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: "Summary: Overview of enterprise client installation methods for Skype for Business."
@@ -18,7 +20,7 @@ description: "Summary: Overview of enterprise client installation methods for Sk
   
 How you deploy Skype for Business to your users depends on whether you purchased Skype for Business as part of an Office 365 plan or you purchased a volume licensed version of Skype for Business. 
   
-- **Office 365** If you have an Office 365 plan that includes Skype for Business, the installation technology that's used is called Click-to-Run. With Office 365, you can let your users install Skype for Business for themselves from the Office 365 portal. Or, you can deploy Skype for Business to your users by downloading the software to your local network and then using your existing software deployment tools, such as with Microsoft System Center Configuration Manager. For installation information about Skype for Business that comes with Office 365, see [Deploy the Skype for Business client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
+- **Office 365** If you have an Office 365 plan that includes Skype for Business, the installation technology that's used is called Click-to-Run. With Office 365, you can let your users install Skype for Business for themselves from the Office 365 portal. Or, you can deploy Skype for Business to your users by downloading the software to your local network and then using your existing software deployment tools, such as with Microsoft Endpoint Configuration Manager. For installation information about Skype for Business that comes with Office 365, see [Deploy the Skype for Business client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
     
 - **Volume licensed** If you have a volume licensed version of the Skype for Business 2015 or 2016 client, the installation technology that's used is Windows Installer (MSI). A Windows Installer-based installation package consists of multiple MSI files. A language-neutral core MSI package is combined with one or more language-specific packages to make a complete product. Setup assembles the individual packages and performs customization and maintenance tasks during and after installation of Office on users' computers. The Skype for Business 2019 client uses Click-to-Run installers.
     

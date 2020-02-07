@@ -4,23 +4,24 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
-audience: admin 
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag, rarang 
-description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams. 
+ms.reviewer: ritikag, rarang
+description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams.
 localization_priority: Normal
-ms.custom:
-- NewAdminCenter_Update
-f1keywords: 
-- ms.teamsadmincenter.apppermspolicies.adminsettings
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
-- ms.teamsadmincenter.apppolicies.adminsettings
+ms.custom: 
+  - NewAdminCenter_Update
+f1.keywords:
+- CSH
+ms.custom: 
+  - ms.teamsadmincenter.apppermspolicies.adminsettings
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
+  - ms.teamsadmincenter.apppolicies.adminsettings
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - M365-collaboration
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 Admin settings for apps in Microsoft Teams

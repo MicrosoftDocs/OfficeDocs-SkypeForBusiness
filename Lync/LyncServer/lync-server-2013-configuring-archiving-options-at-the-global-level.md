@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuring Archiving options at the global level'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Archiving options at the global level
 ms:assetid: bfe415f7-2abf-41ee-a1cb-cf48b2d59c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205233(v=OCS.15)

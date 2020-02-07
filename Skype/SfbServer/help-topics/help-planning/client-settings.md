@@ -7,7 +7,9 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.ClientCapacity
 - ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro

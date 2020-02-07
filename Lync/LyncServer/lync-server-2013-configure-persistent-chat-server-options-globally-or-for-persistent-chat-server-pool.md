@@ -3,9 +3,11 @@ title: 'Lync Server 2013: Configure Persistent Chat Server options globally or f
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204731(v=OCS.15)
 ms:contentKeyID: 48183581
 ms.date: 07/23/2014
 manager: serdars
@@ -14,9 +16,9 @@ mtps_version: v=OCS.15
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013
 

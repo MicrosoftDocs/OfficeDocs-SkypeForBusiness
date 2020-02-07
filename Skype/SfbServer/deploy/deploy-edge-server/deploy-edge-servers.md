@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
@@ -114,13 +116,13 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Open up **Start**, and **Run** (or **Search** and **Run** ), and then type the following:
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example:
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 

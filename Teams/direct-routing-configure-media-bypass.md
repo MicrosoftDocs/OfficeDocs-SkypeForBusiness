@@ -9,9 +9,12 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection: 
+  - M365-voice
+appliesto: 
+  - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Read this topic to learn how to configure media bypass with Phone System Direct Routing."
 ---
 

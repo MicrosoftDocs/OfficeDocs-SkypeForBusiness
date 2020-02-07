@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: "Summary: Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server."
@@ -30,13 +32,13 @@ When you create new DTMF settings for sites, the site settings take precedence o
     
 3. To view the DTMF settings used for dial-in conferencing, run the following command at the command prompt :
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
 4. To modify the DTMF settings used for dial-in conferencing, run the following cmdlet and specify the key to be pressed for each option that you want to change:
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
    [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
    [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
@@ -48,7 +50,7 @@ When you create new DTMF settings for sites, the site settings take precedence o
     
 The following example swaps the key that is pressed to enable or disable announcements and the key that is pressed to mute and unmute all participants. Because no Identity is specified, these changes apply to the global DTMF settings:
   
-```
+```PowerShell
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 

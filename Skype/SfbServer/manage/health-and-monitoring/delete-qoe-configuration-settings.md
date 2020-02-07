@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: "Summary: Learn how to delete Quality of Experience (QoE) settings in Skype for Business Server."
@@ -44,7 +46,7 @@ You can delete QoE configuration settings by using Windows PowerShell and the **
 
  This command removes the QoE configuration settings applied to the Redmond site:
     
-  ```
+  ```PowerShell
   Remove-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -52,7 +54,7 @@ You can delete QoE configuration settings by using Windows PowerShell and the **
 
  This command removes all the QoE configuration settings applied to the site scope:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration -Filter "site:*" | Remove-CsQoEConfiguration
   ```
 
@@ -60,7 +62,7 @@ You can delete QoE configuration settings by using Windows PowerShell and the **
 
  This command removes all the QoE configuration settings where QoE monitoring has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 

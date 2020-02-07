@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "After you remove a Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server."
 ---
@@ -31,7 +33,7 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 3. To remove the database for the pool user store, type:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
@@ -39,7 +41,7 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 4. To remove the database for the pool application store, type:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

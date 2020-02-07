@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblAdminLock'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblAdminLock
 ms:assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558665(v=OCS.15)

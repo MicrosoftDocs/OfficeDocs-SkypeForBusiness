@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "Migrating dial-in access numbers to Skype for Business Server 2019 requires running the Move-CsApplicationEndpoint cmdlet to migrate the contact objects. During the legacy install and Skype for Business Server 2019 coexistence period, dial-in access numbers that you created in Skype for Business Server 2019 behave similarly to the dial-in access numbers that you create in the legacy install, as described in this section."
 ---
@@ -45,7 +47,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
 
 2. To move each dial-in access number to a pool hosted on Skype for Business Server 2019, from the command line run: 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
@@ -78,7 +80,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
 
 2. To return all the dial-in conferencing access numbers migrated, from the command line run:
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 

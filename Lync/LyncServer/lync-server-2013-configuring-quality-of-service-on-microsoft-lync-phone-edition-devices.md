@@ -3,6 +3,8 @@ title: 'Configuring Quality of Service on Microsoft Lync Phone Edition devices'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Quality of Service on Microsoft Lync Phone Edition devices
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205137(v=OCS.15)

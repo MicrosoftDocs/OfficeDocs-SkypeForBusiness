@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enable users for Enterprise Voice'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable users for Enterprise Voice
 ms:assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413011(v=OCS.15)

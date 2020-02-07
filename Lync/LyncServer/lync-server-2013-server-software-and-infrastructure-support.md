@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Server software and infrastructure support'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server software and infrastructure support
 ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398319(v=OCS.15)

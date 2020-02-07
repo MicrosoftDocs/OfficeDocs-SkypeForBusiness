@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: "Summary: Learn how to view conferencing policies in Skype for Business Server."
@@ -38,7 +40,7 @@ You can view conferencing policies by using Skype for Business Server Control Pa
 
 To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:
   
-```
+```PowerShell
 Get-CsConferencingPolicy
 ```
 

@@ -10,7 +10,9 @@ author: kenwith
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
 localization_priority: Priority
-f1keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview

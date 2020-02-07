@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: "Before the people in your organization can use Skype Meeting Broadcast, you need to enable it. To do this, you need to know how to use Windows PowerShell. If you don't know Windows PowerShell, consider hiring a Microsoft partner to do this step for you."
@@ -51,7 +52,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     
 7. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
     
-   ```
+   ```PowerShell
    $Credential = get-credential
    $O365Session = New-CsOnlineSession -Credential $credential
    Import-PSSession $O365Session
@@ -59,7 +60,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 
 8. Confirm your current Skype Meeting Broadcast configuration by running:
     
-   ```
+   ```PowerShell
    Get-CsBroadcastMeetingConfiguration
    ```
 
@@ -69,7 +70,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
   
 9. Enable Skype Meeting Broadcast for your organization by running:
     
-   ```
+   ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 

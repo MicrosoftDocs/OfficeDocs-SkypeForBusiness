@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Migrating Lync Online users to Lync on-premises'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating Lync Online users to Lync on-premises
 ms:assetid: 0e29605b-db2d-4cbf-b6a9-15db6b9fdabc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689115(v=OCS.15)
@@ -52,11 +54,11 @@ _**Topic Last Modified:** 2015-11-13_
     
       - On your on-premises deployment, in Lync Server Management Shell, type the following cmdlets to create the hosting provider for Lync Online:
         
-           ```
+           ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
            ```
         
-           ```
+           ```PowerShell
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
@@ -122,11 +124,11 @@ _**Topic Last Modified:** 2015-11-13_
     
     To move a single user, type this:
     
-       ```
+       ```PowerShell
        $cred = Get-Credential
        ```
     
-       ```
+       ```PowerShell
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     

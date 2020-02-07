@@ -8,6 +8,8 @@ ms.date: 6/22/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: "The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets."
@@ -17,7 +19,7 @@ description: "The Remove-CcLegacyServerCertificate cmdlet removes legacy server 
  
 The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets.
   
-```
+```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
 ```
 
@@ -28,7 +30,7 @@ Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 The following example removes legacy certificates issued for the Central Management Store, Mediation Server, and Edge Server after you have renewed the certificates:
   
-```
+```powershell
 Remove-CcLegacyServerCertificate
 ```
 
@@ -36,7 +38,7 @@ Remove-CcLegacyServerCertificate
 
 The next example removes certificates issued for Mediation Server and Edge Server after you have renewed the certificates: 
   
-```
+```powershell
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
 ```
 

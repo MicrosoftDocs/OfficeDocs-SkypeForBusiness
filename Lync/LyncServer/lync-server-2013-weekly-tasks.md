@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Weekly tasks'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Weekly tasks
 ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)

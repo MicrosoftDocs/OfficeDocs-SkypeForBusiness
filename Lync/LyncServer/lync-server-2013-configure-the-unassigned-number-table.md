@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configure the unassigned number table'
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the unassigned number table
 ms:assetid: eaa01986-e92f-4328-acf6-4e46c4306a04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399053(v=OCS.15)

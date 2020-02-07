@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "The recommended and supported migration procedure for Skype for Business Server 2019 is side-by-side migration. This topic describes why you should use side-by-side migration and also includes information about coexistence testing."
 ---

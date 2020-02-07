@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,10 +16,7 @@ description: "Instructions for configuring Call Data Connector, which allows tel
 
 # Configure Call Data Connector
 
-This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools. 
-
-> [!NOTE]
-> At public preview release, only Call Analytics dashboard is available.
+This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools.
 
 For more information about Call Data Connector benefits and pre-requisites, such as role requirements and setting up hybrid connectivity, see [Plan Call Data Connector](plan-call-data-connector.md).
 
@@ -56,13 +55,13 @@ There are two methods for logging in to Skype for Business Online PowerShell:
 
 1. If enabling the connector for the first time, run the following command:
 
-   ```
+   ```PowerShell
    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
 2. If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
-   ```
+   ```PowerShell
    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
@@ -71,13 +70,13 @@ There are two methods for logging in to Skype for Business Online PowerShell:
 
 1.  If enabling the connector for the first time, run the following command: 
 
-    ``` 
+    ```PowerShell 
     New-CsCloudCallDataConnection 
     ```
 
 2.  If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
-    ```
+    ```PowerShell
     Get-CsCloudCallDataConnection  
     ```
 
@@ -85,7 +84,7 @@ The output of the above commands contains a token value, which you will need whe
 
 From within the Skype for Business Server management shell, specify the following command:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
 ```
 
@@ -93,17 +92,17 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 You can enable Call Data Connector for a particular site or for your entire Skype for Business Server deployment by using the Set-CsCloudCallDataConnectorConfiguration cmdlet from within the Skype for Business Server management shell. For example, the following command enables Call Data Connector at the global scope:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 In addition to the global settings, Call Data Connector configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring. For example, an administrator can enable Call Data Connector forwarding for the Redmond site but disable Call Data Connector forwarding for the Dublin site, as shown in the following example:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
@@ -122,20 +121,19 @@ Disabling Call Data Connector does not disassociate the monitoring store from th
 
 You disable Call Data Connector by using the Set-CsCloudCallDataConnectorConfiguration cmdlet from within the Skype for Business Server management shell. For example, the following command disables Call Data Connector at the global scope by setting the EnableCallDataConnector property to $False:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
 
 If you want to resume uploading call data to the cloud, set the EnableCallDataConnector property back to $True, as shown in the following example:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 ## View on-premises data through the online dashboard
 
- After Call Data Connector is enabled, you can view your on-premises call data on the Call Analytics dashboard as described in  [Use Call Analytics to troubleshoot poor quality](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
-
+ After Call Data Connector is enabled, you can view your on-premises call data on the Call Analytics dashboard or Call Quality Dashboard as described in  [Use Call Analytics to troubleshoot poor quality](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) and [Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
 ## For more information
 

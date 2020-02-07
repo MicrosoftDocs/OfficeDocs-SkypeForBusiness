@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: "Summary: Learn about the Device Report in Skype for Business Server."
@@ -104,7 +106,7 @@ When it comes to device names, the Device Report is extremely detailed; for exam
   
 Often times you'll want that level of detail; at other times, however, you might only be interested in how many calls use any Aastra microphone, regardless of model number. One way to get information like that is to export the Device Report data to Microsoft Excel and then save that data to a comma-separated values file (for example, C:\Data\Devices_Report.csv). You can then use a set of commands similar to these to import the .CSV file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:
   
-```
+```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
 $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
 $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}

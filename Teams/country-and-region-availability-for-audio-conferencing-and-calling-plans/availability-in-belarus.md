@@ -3,27 +3,27 @@ title: "Availability in Belarus"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Skype for Business 
-- Microsoft Teams
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
-ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+f1.keywords:
+- NOCSH
+ms.custom: 
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Belarus."
 ---
 
@@ -37,7 +37,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, [pay-per-minute](../audio-conferencing-pay-per-minute.md) only <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available with Communications Credits pay per minute  <br/> |
    
@@ -72,7 +72,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |No  <br/> |
+|Are Communications Credits available?  <br/> |Yes  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
