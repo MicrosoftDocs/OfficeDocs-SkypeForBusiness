@@ -1,28 +1,35 @@
-# Network requirements
+## Network requirements
 
 If you’ve already [optimized your network for Office 365](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity), you’re probably ready for Microsoft Teams. In any case, check the following before you begin your Teams rollout:
 
 1.  Do all your locations have internet access (so they can connect to Office 365)? At a minimum, verify that the following common ports and subnets are open to the internet from all locations:
 
-<table>
-<thead>
-<tr class="header">
-<th>TCP ports</th>
-<th><strong>80</strong> and <strong>443</strong> – for outgoing traffic from clients that will use Teams</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>UDP ports</td>
-<td><strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams</td>
-</tr>
-<tr class="even">
-<td>IP subnets</td>
-<td><strong>13.107.64.0/18<br />
-52.112.0.0/14</strong></td>
-</tr>
-</tbody>
-</table>
+    |  |  |
+    |---------|---------|
+    |TCP ports     |<strong>80</strong> and <strong>443</strong> – for outgoing traffic from clients that will use Teams         |
+    |UDP ports     |<strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams         |
+    |IP subnets     |<strong>13.107.64.0/18<br />52.112.0.0/14</strong>         |
+
+
+    <table>
+    <thead>
+    <tr class="header">
+    <th>TCP ports</th>
+    <th><strong>80</strong> and <strong>443</strong> – for outgoing traffic from clients that will use Teams</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>UDP ports</td>
+    <td><strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams</td>
+    </tr>
+    <tr class="even">
+    <td>IP subnets</td>
+    <td><strong>13.107.64.0/18<br />
+    52.112.0.0/14</strong></td>
+    </tr>
+    </tbody>
+    </table>
 
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
@@ -38,15 +45,16 @@ If you’ve already [optimized your network for Office 365](https://docs.microso
 
 Once you’ve verified that you meet these network requirements, you may be ready to [Roll out Teams](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/How-to-roll-out-teams.md). If you’re a large multinational enterprise, or if you know you’ve got some network limitations, read on to learn how to assess and optimize your network for Teams.
 
-> \[\!NOTE\] **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
-> 
-> **Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365.
+> [!IMPORTANT]
+> **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
+>  
+> **Running on-premises Skype for Business Server**: If your organization is running on-premises Skype for Business Server (or Lync Server), you must [configure Azure AD Connect](../Skype/SfbHybrid/hybrid/configure-azure-ad-connect.md) to synchronize your on-premises directory with Office 365.
 
 ### Best practice: Monitor your network using CQD and call analytics 
 
 Use the [Call Quality Dashboard (CQD)](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/set-up-call-analytics.md).
 
-# Network optimization
+## Network optimization
 
 The following tasks are optional and aren’t required for rolling out Teams, especially if you’re a small business and you’ve already rolled out Office 365. Use this guidance to optimize your network and Teams performance or if you know you’ve got some network limitations.
 
@@ -58,7 +66,7 @@ You might want to do additional network optimization if:
 
   - Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
 
-For an in-depth discussion of network optimization for Teams, including guidance for identifying and fixing network impairments, read [Optimize network and media performance for Teams](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/optimize-network-media-performance.md).
+For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Office 365 Network Connectivity Principles](https://aka.ms/pnc).
 
 <table>
 <thead>
@@ -125,7 +133,9 @@ For an in-depth discussion of network optimization for Teams, including guidance
 
 Microsoft Teams is designed to give the best audio, video and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
-Where bandwidth isn’t limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. Here are the bandwidth requirements for Teams:
+Where bandwidth isn’t limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. 
+
+[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
 
 # Related Topics
@@ -139,8 +149,8 @@ Where bandwidth isn’t limited, Teams optimizes media quality, including up to 
 
 [Media in Teams: Deep dive into media flows](https://aka.ms/teams-media-flows)
 
-\[[Identity models and authentication in Teams](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/identify-models-authentication)\](identify-models-authentication.md)
+[Identity models and authentication in Teams](identify-models-authentication.md)
 
-\[[How to roll out Teams](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/How-to-roll-out-teams.md)\](How-to-roll-out-teams.md)
+[How to roll out Teams](How-to-roll-out-teams.md)
 
-[Blog: Announcing Office 365 endpoint categories and Office 365 IP Address and URL web service](https://aka.ms/ipurlblog)
+
