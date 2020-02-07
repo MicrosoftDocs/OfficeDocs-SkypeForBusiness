@@ -12,6 +12,8 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
   - Microsoft Teams
 ---

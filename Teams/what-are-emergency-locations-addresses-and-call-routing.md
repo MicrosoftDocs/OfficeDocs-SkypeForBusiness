@@ -15,10 +15,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
   - ms.teamsadmincenter.locations.emergencyaddresses.overview
   - ms.lync.lac.AddressAndLocation
-ms.custom: 
   - Calling Plans
   - Direct Routing
 description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."

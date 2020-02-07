@@ -10,6 +10,8 @@ audience: admin
 description: Teams client experience and conformance to coexistence modes
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

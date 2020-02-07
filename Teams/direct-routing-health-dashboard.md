@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn how to use Health Dashboard to monitor the connection between your Session Border Controller and Direct Routing."
 ---
 
