@@ -103,7 +103,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tr>
 <tr class="even">
 <td>Configure split-tunnel VPN</td>
-<td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as split-tunnel VPN. Split tunneling means that traffic for Office 365 doesn’t go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
+<td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as [split-tunnel VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing). Split tunneling means that traffic for Office 365 doesn’t go through the VPN but instead goes directly to Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization’s network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
 <p>Other reasons why we recommend bypassing the VPN: 
 <ul>
 <li><p>VPNs are typically not designed or configured to support real-time media.</p></li> 
@@ -131,7 +131,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 
 ## Bandwidth requirements
 
-Teams is designed to give the best audio, video and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
+Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
 Where bandwidth *isn’t* limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. 
 
