@@ -29,7 +29,7 @@ If you’ve already [optimized your network for Office 365](https://docs.microso
     |  |  |
     |---------|---------|
     |TCP ports     |<strong>80</strong> and <strong>443</strong>         |
-    |[UDP ports and IP subnets](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)    |UDP ports <strong>3478</strong> through <strong>3481</strong> - for Teams media sessions<br><br>IP subnet addresses: <strong>13.107.64.0/18</strong> and <strong>52.112.0.0/14</strong>        |
+    |[UDP ports and IP subnets](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)<br>(for Teams media sessions)    |UDP ports <strong>3478</strong> through <strong>3481</strong><br><br>IP subnet addresses: <strong>13.107.64.0/18</strong> and <strong>52.112.0.0/14</strong>        |
     
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
