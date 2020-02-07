@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dansteve
 description: Learn what to look for when checking your environment’s readiness for Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 

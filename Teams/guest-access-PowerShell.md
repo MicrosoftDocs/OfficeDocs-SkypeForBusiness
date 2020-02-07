@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Use PowerShell to allow or block guest access to teams in Microsoft Teams.
 appliesto: 
   - Microsoft Teams

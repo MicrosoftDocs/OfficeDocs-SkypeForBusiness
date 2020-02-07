@@ -16,7 +16,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+  - CSH
 ms.custom: 
   - Audio Conferencing
 description: "Administrators can control the type of audio conferencing and end user PSTN calls that can be made by users."
