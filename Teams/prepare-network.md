@@ -36,13 +36,11 @@ If you’ve already [optimized your network for Office 365](https://docs.microso
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
       - If your organization hasn’t rolled out Office 365, see [Getting Started with Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
-    
       - If your organization hasn’t added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://docs.microsoft.com/office365/admin/setup/domains-faq).
 
 3.  Has your organization deployed Exchange Online and SharePoint Online?
     
       - If your organization doesn’t have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
-    
       - If your organization doesn’t have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
 Once you’ve verified that you meet these network requirements, you may be ready to [Roll out Teams](How-to-roll-out-teams.md). If you’re a large multinational enterprise, or if you know you’ve got some network limitations, read on to learn how to assess and optimize your network for Teams.
@@ -65,9 +63,7 @@ The following tasks are optional and aren’t required for rolling out Teams, es
 You might want to do additional network optimization if:
 
   - Teams runs slowly (maybe you have insufficient bandwidth)
-
   - Calls keep dropping (might be due to firewall or proxy blockers)
-
   - Calls are static-y and cut out, or voices sound like robots (could be jitter or packet loss)
 
 For an in-depth discussion of network optimization, including guidance for identifying and fixing network impairments, read [Office 365 Network Connectivity Principles](https://aka.ms/pnc).
