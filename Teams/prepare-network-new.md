@@ -78,8 +78,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 <tbody>
 <tr class="odd">
 <td>Network planner</td>
-<td><p>For help assessing your network, including bandwidth calculations and network requirements across your org’s physical locations, check out the <a href="https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/network-planner.md">Network Planner</a> tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</p>
-<p>For more information</p>
+<td><p>For help assessing your network, including bandwidth calculations and network requirements across your org’s physical locations, check out the n[Network Planner](network-planner.md) tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization’s physical locations.</p>
 <p>For an example scenario, see <a href="https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/tutorial-network-planner-example.md">Using Network Planner - example scenario</a>.</p></td>
 </tr>
 <tr class="even">
