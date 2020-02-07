@@ -26,27 +26,27 @@ additionalContent:
         # Card
         - title: Welcome to Teams
           summary: Get and overview of Teams and find the technical guidance you need as a Teams admin or IT Pro.
-          url: https://docs.microsoft.com/MicrosoftTeams/teams-overview
+          url: /MicrosoftTeams/teams-overview
         # Card
         - title: Upgrade from Skype for Business to Teams
           summary: Find guidance and tools to explore your optimal path to Teams.
-          url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+          url: /MicrosoftTeams/upgrade-start-here
         # Card
         - title: Adoption hub
           summary: Get tools to support your Teams rollout.
-          url: https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page
+          url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
         # Card
         - title: Find training & videos
           summary: Get Teams training - for you and your users.
-          url: https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page
+          url: /MicrosoftTeams/training-microsoft-teams-landing-page
         # Card
         - title: "Posters: Teams architecture, telephony solutions"
           summary: Get printable illustrations of Teams IT architecture and  telephony solutions.
-          url: https://docs.microsoft.com/microsoftteams/teams-architecture-solutions-posters
+          url: /microsoftteams/teams-architecture-solutions-posters
         # Card
         - title: Expand Teams across your org
           summary: Find custom solutions for your industry - including healthcare, firstline workers, retail, government, and education.
-          url: https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
+          url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card
@@ -60,4 +60,4 @@ additionalContent:
         # Card
         - title: Teams developer platform
           summary: Learn about the Teams developer platform and how it enables you to build useful and powerful apps.
-          url: https://docs.microsoft.com/microsoftteams/platform/overview
+          url: /microsoftteams/platform/overview
