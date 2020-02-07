@@ -11,6 +11,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn to add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online to send notifications to team members.
 appliesto: 
   - Microsoft Teams

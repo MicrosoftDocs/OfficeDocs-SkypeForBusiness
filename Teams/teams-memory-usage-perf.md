@@ -12,6 +12,8 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 ---

@@ -9,6 +9,8 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal

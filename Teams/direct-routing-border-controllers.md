@@ -14,6 +14,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 hideEdit: true
+f1.keywords:
+- NOCSH
 description: "Microsoft partners with selected SBC vendors to certify their SBCs work with Direct Routing."
 ---
 

@@ -14,7 +14,8 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom:
+f1.keywords:
+- NOCSH
 description: "Complete guidance for migrating from Slack to Microsoft Teams."
 ---
 
@@ -38,7 +39,7 @@ To learn more about Slack export options, go to the Slack website: https://get.s
 
 The diagram below gives you a high-level look at the Slack migration landscape that we’ll cover in this article. 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Diagram that shows the Slack export landscape.":::
+![Diagram that shows the Slack export landscape.](media/migrate-slack-to-teams-image2.png)
 
 When you're done with this section, you should understand:
 - The service level of your Slack Workspaces
@@ -77,7 +78,7 @@ Apps in Slack are like apps in Teams. Once you have a list of apps and their con
 Go to <your Slack workspace>.slack.com/apps/manage to get a list of Apps and Custom Integrations. This page also shows you the number of configurations where each app is in use. 
 Custom Integrations vary in their “migrate-ability.” If it’s a Web Hook, you can usually send it to an Office 365 Connector to shift the workflow into Teams. Assess bots and other apps on a case-by-case basis to plan for moving them to Teams.
 
-*If your administrator has restricted apps usage, you may not be looking at the full list of available apps.
+\* If your administrator has restricted apps usage, you may not be looking at the full list of available apps.
 
 ### Users
 The identity schemes you used in Slack might not map directly to Office 365. For example, the email addresses of your Slack users may not map to Office 365 work or school accounts. You should create a user-ID map before you start planning your Teams rollout.
@@ -159,10 +160,10 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 When you’re done with this section, you should have:
-- A list of Channels per Workspace with usage stats
-- A list of Slack Apps with configurations per channel
-- Determined what type of Slack message history you want to export (if any)
-- A list of users whose Slack accounts map to Microsoft work or school accounts and which Teams license they have
+- A list of Channels per Workspace with usage statistics.
+- A list of Slack Apps with configurations per channel.
+- Determined what type of Slack message history you want to export (if any).
+- A list of users whose Slack accounts map to Microsoft work or school accounts and which Teams license they have.
 
 ## Plan your Teams deployment
 You’ve exported what you need from Slack (and left behind anything you don’t need). Now it’s time to plan how you’ll roll out Teams and import your Slack data. This is a great opportunity to assess what's worked well for the team based on usage and include those elements in your Teams deployment plan. At the end of this section, you’ll have a blueprint for your Teams users, channels, and apps. 

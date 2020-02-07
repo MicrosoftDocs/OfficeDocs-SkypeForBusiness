@@ -11,6 +11,8 @@ ms.collection:
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: This article will help you pick the coexistence mode and set other coexistence settings.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 
