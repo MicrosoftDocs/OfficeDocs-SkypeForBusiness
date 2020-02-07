@@ -45,7 +45,24 @@ Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!
 |Web banners<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-web-banners.png)    |Videos<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-videos.png)          |
 |Digital screen alerts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-digital-screen-adverts.png)   |Email and newsletter banners <br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-newsletter-banners.png)       |
 
+## Call to action
 
+- Visit the [Teams for Education page](https://www.microsoft.com/education/products/teams) for trainings, videos, and interactive demos
+- Turn on Teams in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
+- Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
+- Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
+
+## Additional resources
+
+- [Teams roadmap](https://aka.ms/teamsroadmap)
+- Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
+- [Teams PowerShell overview](teams-powershell-overview.md)
+- [Send a suggestion](https://aka.ms/eduuservoice)
+- [Contact support](https://aka.ms/o365portal)
+- [Ask the Teams community](https://aka.ms/msteamscommunity)
+- [Find more resources for education](https://education.microsoft.com/)
+
+*******
 
 |Customizable email templates |         |
 |---------|---------|
@@ -63,19 +80,4 @@ Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!
 |---------|---------|
 |**Get started with Microsoft Teams for Education - Tips and Tricks**<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Screenshot of Get started with Microsoft Teams for Education packet.](media/package-teams-edu-get-started.png)    |
 
-## Call to action
 
-- Visit the [Teams for Education page](https://www.microsoft.com/education/products/teams) for trainings, videos, and interactive demos
-- Turn on Teams in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
-- Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
-- Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
-
-## Additional resources
-
-- [Teams roadmap](https://aka.ms/teamsroadmap)
-- Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
-- Matt Soseman's "The Productive Cloud" Blog about [Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
-- [Send a suggestion](https://aka.ms/eduuservoice)
-- [Contact support](https://aka.ms/o365portal)
-- [Ask the Teams community](https://aka.ms/msteamscommunity)
-- [Find more resources for education](https://education.microsoft.com/)
