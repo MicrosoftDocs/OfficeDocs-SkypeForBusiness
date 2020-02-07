@@ -10,6 +10,8 @@ ms.reviewer: ritikag
 audience: admin
 description: Learn how to turn on Microsoft Teams for your Office 365 organization.
 localization_priority: Normal
+f1.keywords:
+  - CSH
 ms.custom: 
   - NewAdminCenter_Update
 search.appverid: MET150

@@ -10,6 +10,8 @@ ms.collection:
   - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Learn how the Teams desktop client is updated.
 appliesto: 
   - Microsoft Teams

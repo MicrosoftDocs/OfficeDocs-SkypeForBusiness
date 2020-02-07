@@ -10,6 +10,8 @@ audience: admin
 description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

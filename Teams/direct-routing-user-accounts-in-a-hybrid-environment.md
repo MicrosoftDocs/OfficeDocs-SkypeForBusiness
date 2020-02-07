@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ---
 

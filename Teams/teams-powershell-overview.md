@@ -10,6 +10,8 @@ audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+f1.keywords:
+- NOCSH
 description: Learn to use the PowerShell controls for managing Microsoft Teams.
 appliesto: 
   - Microsoft Teams

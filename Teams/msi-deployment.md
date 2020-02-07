@@ -10,6 +10,8 @@ audience: admin
 description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+  - NOCSH
 ms.collection: 
   - M365-collaboration
 appliesto: 

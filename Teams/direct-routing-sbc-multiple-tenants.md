@@ -13,6 +13,8 @@ ms.collection:
   - M365-voice
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
 ---
 

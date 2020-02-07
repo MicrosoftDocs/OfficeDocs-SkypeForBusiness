@@ -14,7 +14,9 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-f1.keywords: 
+f1.keywords:
+- CSH
+ms.custom: 
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom:
 description: "Use Advisor for Teams (preview) to help you plan and complete your Microsoft Teams deployment."

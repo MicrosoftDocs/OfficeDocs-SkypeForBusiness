@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rowille
 description: Deliver high-quality Teams user experience by managing service, network, and endpoint health and defining operational and Quality Champion roles.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto: 

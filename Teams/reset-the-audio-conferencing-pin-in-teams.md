@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Audio Conferencing
 description: "Find out what you should know about PINs and how to reset them in Microsoft Teams. "
