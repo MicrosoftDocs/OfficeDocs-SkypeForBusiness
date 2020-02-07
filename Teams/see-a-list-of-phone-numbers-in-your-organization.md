@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: 
   - Calling Plans
 description: "Learn how to use the Microsoft Teams admin center to see a list of all the phone numbers in your organization and all the numbers that are assigned to users or unassigned."

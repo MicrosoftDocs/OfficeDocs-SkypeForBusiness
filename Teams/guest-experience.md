@@ -9,6 +9,8 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_GuestAccess

@@ -10,6 +10,8 @@ audience: admin
 search.appverid: MET150
 description: Learn how to enable Location-Based Routing for Direct Routing.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection: 
   - M365-voice
 appliesto: 
