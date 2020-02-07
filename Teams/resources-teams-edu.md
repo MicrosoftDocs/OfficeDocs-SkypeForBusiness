@@ -35,11 +35,11 @@ Please read the terms and conditions before you use these materials.
 
 |**Digital assets**  |  |
 |---------|---------|
-|Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch!    |      |
 |Email templates<br> ![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-templates.png)    |GIFs <br> ![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-gifs.png)      |
 |Web banners<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-web-banners.png)    |Videos<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-videos.png)          |
 |Digital screen alerts<br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-digital-screen-adverts.png)   |Email and newsletter banners <br>![Screenshot of Learn the Teams Basics email template.](media/edu-adoption-email-newsletter-banners.png)       |
 
+Be sure to check out the Digital Toolkit Guidance to maximize your Teams launch! 
 
 |Customizable email templates |         |
 |---------|---------|
