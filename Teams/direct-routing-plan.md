@@ -253,7 +253,7 @@ You must use the following ports for Office 365 environments where Direct Routin
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535 (For Office 365 GCC High only port 5061 must be used)|Defined on the SBC|
+|SIP/TLS|SIP Proxy|SBC|1024 – 65535 (For Office 365 GCC High/DoD only ports 5061 and 5062 must be used)|Defined on the SBC|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
 ||||||
 
