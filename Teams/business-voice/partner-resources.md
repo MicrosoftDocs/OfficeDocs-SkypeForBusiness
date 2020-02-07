@@ -31,7 +31,7 @@ This article is a concise resource for technical delivery and support personnel 
 - [Pre-assessment and planning](../3-envision-evaluate-my-environment.md)
 - [Deploy](../3-onboard-deploy-my-service.md)
 - [Operate](../1-drive-value-operate-my-service.md)
-- [Support](../prepare-network.md#plan-for-service-management)
+- [Support](../prepare-network.md)
 - [Troubleshooting](../connectivity-issues.md)
 - [Partner support plans](https://partner.microsoft.com/support/partnersupport)
 - [Teams service provider guide](https://aka.ms/teamsserviceproviderguide)

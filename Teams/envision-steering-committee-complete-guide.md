@@ -123,7 +123,7 @@ The following assets should be completed and included in the presentation deck f
 
         -   Identify next steps and what assistance might be required from committee members.
 
--   Quality overview: use reports from the [quality champion](prepare-network.md#the-quality-champion-role)
+-   Quality overview: Use guidance from [Prepare your network for Teams](prepare-network.md).
 
     -   Be prepared to explain the results of those quality reports in-depth, and include recommendations to remediate any issues noted.
 
