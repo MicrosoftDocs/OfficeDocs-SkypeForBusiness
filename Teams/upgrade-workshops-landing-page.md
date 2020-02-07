@@ -10,6 +10,8 @@ audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 ms.collection: 
   - Teams_ITAdmin_JourneyFromSfB

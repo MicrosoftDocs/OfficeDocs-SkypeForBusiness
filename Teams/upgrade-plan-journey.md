@@ -9,6 +9,8 @@ ms.reviewer: dearbeen
 audience: admin
 description: Plan for your upgrade by enlisting stakeholders first, and then scoping the project. 
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 ms.collection: 

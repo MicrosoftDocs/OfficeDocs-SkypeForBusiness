@@ -10,6 +10,8 @@ ms.reviewer: sbhatta
 description: Use this checklist to help set up guest access in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration

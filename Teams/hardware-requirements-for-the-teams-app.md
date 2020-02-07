@@ -13,6 +13,8 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: 
   - NewAdminCenter_Update
 appliesto: 
