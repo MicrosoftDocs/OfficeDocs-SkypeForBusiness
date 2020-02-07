@@ -1137,8 +1137,6 @@ The most common cause of HTTP usage is missing exception rules in proxies. By us
 
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
-For more information about using proxies with Teams, see [this article](optimize-network-media-performance.md#firewall-and-proxy-requirements).
-
 ## Endpoint investigations
 
 This section is focused on the tasks for reporting on client versions and the use of certified devices. Reports are available to outline usage for client versions, client type, capture devices and drivers (microphone), video capture devices, and Wi-Fi vendor and driver versions.
