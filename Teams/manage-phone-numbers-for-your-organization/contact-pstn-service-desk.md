@@ -26,7 +26,9 @@ description: "When you are getting phone numbers or porting (transferring) numbe
 ---
 # PSTN Service Desk Contact
 
-If you need help with acquiring/getting or transferring/porting telephone numbers to us but need assistance please let us know how we can help you in an email and send it to us. In your email request, please include as many details as you can such as:
+If you need help with acquiring/getting or transferring/porting telephone numbers to us but need assistance please let us know how we can help you by sending us an email.
+
+In your email request, please include as many details as you can such as:
   - Your Organization ID (Tenant ID) or active domains
   - What types of numbers you need help with (User/Subscriber, Service/Toll or Toll-Free)
   - How many numbers you require (if this is for number acquisition)
