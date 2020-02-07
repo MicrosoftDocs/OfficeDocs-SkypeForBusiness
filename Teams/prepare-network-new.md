@@ -8,22 +8,22 @@ If you’ve already [optimized your network for Office 365](https://docs.microso
     |---------|---------|
     |TCP ports     |<strong>80</strong> and <strong>443</strong> – for outgoing traffic from clients that will use Teams         |
     |UDP ports     |<strong>3478</strong> through <strong>3481</strong> for outgoing traffic from clients that will use Teams         |
-    |IP subnets     |<strong>13.107.64.0/18<br />52.112.0.0/14</strong>         |
+    |IP subnets    |<strong>13.107.64.0/18<br />52.112.0.0/14</strong>         |
 
 
 2.  Do you have a verified domain for Office 365 (for example, contoso.com)?
     
-      - If your organization hasn’t rolled out Office 365, see [Getting Started with Office 365 for business](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+      - If your organization hasn’t rolled out Office 365, see [Getting Started with Office 365 for business](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365).
     
-      - If your organization hasn’t added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+      - If your organization hasn’t added or configured a verified domain for Office 365, see [Verify your Office 365 domain](https://docs.microsoft.com/office365/admin/setup/domains-faq).
 
 3.  Has your organization deployed Exchange Online and SharePoint Online?
     
-      - If your organization doesn’t have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/exchange-teams-interact.md).
+      - If your organization doesn’t have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
     
-      - If your organization doesn’t have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/sharepoint-onedrive-interact.md).
+      - If your organization doesn’t have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
-Once you’ve verified that you meet these network requirements, you may be ready to [Roll out Teams](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/How-to-roll-out-teams.md). If you’re a large multinational enterprise, or if you know you’ve got some network limitations, read on to learn how to assess and optimize your network for Teams.
+Once you’ve verified that you meet these network requirements, you may be ready to [Roll out Teams](How-to-roll-out-teams.md). If you’re a large multinational enterprise, or if you know you’ve got some network limitations, read on to learn how to assess and optimize your network for Teams.
 
 > [!IMPORTANT]
 > **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before you roll out Teams.
@@ -32,7 +32,9 @@ Once you’ve verified that you meet these network requirements, you may be read
 
 ### Best practice: Monitor your network using CQD and call analytics 
 
-Use the [Call Quality Dashboard (CQD)](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls made by using Teams. CQD is designed to help you optimize your network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. Additionally, CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience. To investigate call problems for individual users, use [per-user call analytics](https://microsoft-my.sharepoint-df.com/personal/lolaj_microsoft_com/Documents/Microsoft%20Teams%20Chat%20Files/set-up-call-analytics.md).
+Use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls and meetings in Teams. CQD can help you optimize your network by keeping a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, which lets you identify problems and plan remediation. Additionally, CQD provides rich metrics reports that provide insight into overall quality, reliability, and user experience. 
+
+You'll use [call analytics](set-up-call-analytics.md) to investigate call and meeting problems for an individual user.
 
 ## Network optimization
 
@@ -113,7 +115,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 
 Teams is designed to give the best audio, video and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
-Where bandwidth isn’t limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. 
+Where bandwidth *isn’t* limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. 
 
 [!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
 
@@ -124,8 +126,7 @@ Where bandwidth isn’t limited, Teams optimizes media quality, including up to 
 
 [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
 
-
-[Media in Teams: Why meetings are simple](https://aka.ms/teams-media)[
+[Media in Teams: Why meetings are simple](https://aka.ms/teams-media)
 
 [Media in Teams: Deep dive into media flows](https://aka.ms/teams-media-flows)
 
