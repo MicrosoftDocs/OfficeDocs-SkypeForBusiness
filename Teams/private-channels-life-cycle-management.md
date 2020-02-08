@@ -180,7 +180,7 @@ As an admin, you can use PowerShell or Graph APIs commands to query these URLs.
 ### Using PowerShell
 
 1. Install and connect to the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) with your admin account.
-2. Run the following, where &lt;group_id&gt; is the Group ID of the team and &lt;channel_name&gt; is the channel name.
+2. Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
