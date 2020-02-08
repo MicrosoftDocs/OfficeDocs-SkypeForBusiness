@@ -150,7 +150,7 @@ To create this alert pair:
 
 - The query for the error alert is:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -162,7 +162,7 @@ To create this alert pair:
 
 - The query for the reset alert is:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
@@ -174,7 +174,7 @@ To create this alert:
 
 - The query for the error alert is:
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -182,7 +182,7 @@ To create this alert:
 
 - The query for the reset alert is:
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
@@ -192,7 +192,7 @@ To create this alert:
 
 To create this alert, the query is:
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

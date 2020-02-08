@@ -91,14 +91,14 @@ To allow P2P transfers for inside your organization but block external file tran
 ## Disable P2P file transfers for a user
 
 You can apply this to a user by creating a new policy and granting it to that user. To do that, run: 
-> 
->   ```PowerShell
->   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
->   ```
-> 
->   ```PowerShell
->   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
->   ```
+
+```powershell
+New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+```
+
+```powershell
+Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+```
 
 ## Want to know more about Windows PowerShell?
 

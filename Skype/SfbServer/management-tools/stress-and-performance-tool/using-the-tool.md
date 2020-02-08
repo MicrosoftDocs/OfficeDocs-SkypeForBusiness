@@ -362,7 +362,7 @@ The Load Configuration tool (UserProfileGenerator.exe) creates a batch file that
     
 2. Navigate to the client folder and run the **RunClient** batch script. You can double-click the batch file in Windows Explorer and it will run all of the configuration files for that client. You can also run the script from a client folder by using the following syntax:
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 

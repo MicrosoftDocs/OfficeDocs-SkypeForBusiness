@@ -67,18 +67,18 @@ Mobile policy settings can be configured at the time a policy is created, or you
 ### Require a WiFi connection for video for a user
 
 - To create a new policy for these settings, run:
-  > 
-  > ```PowerShell
-  > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
-  > ```
-  > See more on the [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet.
+   
+   ```powershell
+   New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
+   ```
+   See more on the [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet.
     
 - To grant the new policy you created to all of the users in your organization, run:
-  > 
-  > ```PowerShell
-  > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
-  > ```
-  > See more on the [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet.
+   
+   ```powershell
+   Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
+   ```
+   See more on the [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet.
     
   If you have already created a policy, you can use the [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet to make changes to the existing policy, and then use the[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet to apply the setting to your users.
   
@@ -91,28 +91,28 @@ Mobile policy settings can be configured at the time a policy is created, or you
   See more on the [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet.
     
 - To grant the new policy you created to Amos Marble, run:  
-  > 
-  > ```PowerShell
-  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
-  > ```
-  > See more on the [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet.
+   
+   ```powershell
+   Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
+   ```
+   See more on the [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) cmdlet.
     
   If you have already created a policy, you can use the [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet to apply the setting to your users.
   
 ### Prevent a user from making voice over IP calls using a mobile device
 
 - To create a new policy for these settings, run:
-  > 
-  > ```PowerShell
-  > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
-  > ```
-  > See more on the [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet.
+   
+   ```powershell
+   New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
+   ```
+   See more on the [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) cmdlet.
     
 - To grant the new policy you created to all of the users in your organization, run:
-  > 
-  > ```PowerShell
-  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
-  > ```
+   
+   ```powershell
+   Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
+   ```
 
   See more on the [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet.
     

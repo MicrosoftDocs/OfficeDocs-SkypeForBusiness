@@ -281,7 +281,7 @@ Validate that the usage was created by entering:
 Get-CSOnlinePSTNUsage
 ``` 
 Which returns a list of names that may be truncated:
-```output
+```console
 Identity	: Global
 Usage    	: {testusage, US and Canada, International, karlUsage. . .}
 ```

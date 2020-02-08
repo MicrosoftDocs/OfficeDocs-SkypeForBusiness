@@ -167,7 +167,7 @@ Install an Agent on each Skype for Business Server that you wish to monitor by r
     
 If you are installing an Agent on numerous machines, you will probably want to do this in unattended mode. For example: 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_	STATSMANAPPDATA=<directory>]
 ```
 
@@ -193,25 +193,25 @@ To import the Skype for Business Server topology, follow these steps:
     
    b. Navigate to the directory on which the Listener is installed. The default is: 
     
-   ```PowerShell
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. To confirm which servers are being added and updated, run the following command:
     
-   ```PowerShell
+   ```console
   	.\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 The following command enables you to view all options:
   
-```PowerShell
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 To see your currently imported server information, run the following script: 
   
-```PowerShell
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -219,13 +219,13 @@ If you would like to monitor servers that are not in your Skype for Business Ser
   
 1. Navigate to the directory on which the Listener is installed. The default is: 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. Run the following command:
     
-   ```
+   ```powershell
   	.\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -252,13 +252,13 @@ If an Agent fails to start, check for the following:
     
     The following command retrieves the counter storage names: 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     The next command retrieves the values for the specified counters: 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -271,7 +271,7 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
   
 1. From a PowerShell console while logged on as Administrator, type the following:
     
-   ```PowerShell
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

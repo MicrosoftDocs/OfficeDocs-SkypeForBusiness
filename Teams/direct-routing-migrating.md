@@ -67,7 +67,7 @@ For more information about migrating from Calling Plans, see:
  
 It is recommended that you remove previously configured licensing plan information as follows:
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 

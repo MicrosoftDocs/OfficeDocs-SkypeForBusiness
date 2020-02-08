@@ -299,7 +299,7 @@ To use the Persistent Chat synthetic transaction, you must first create a channe
   
 You can use the Persistent Chat synthetic transaction to configure this channel: 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 

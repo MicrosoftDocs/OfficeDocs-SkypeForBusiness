@@ -42,7 +42,7 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
     Search for "MaxProcessMemoryMB" and change the value to "0" as shown:
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 

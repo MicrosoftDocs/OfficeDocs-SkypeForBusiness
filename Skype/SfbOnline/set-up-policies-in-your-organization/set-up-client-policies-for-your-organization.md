@@ -55,7 +55,7 @@ Client policy settings can be configured at the time a policy is created, or you
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
 
-   ```PowerShell      
+   ```powershell
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -68,19 +68,19 @@ Client policy settings can be configured at the time a policy is created, or you
 
 - To create a new policy for these settings, run:
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+   ```
 
   See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
     
 - To grant the new policy you created to all of the users in your organization, run:
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+   ```
 
   See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet.
     
@@ -90,19 +90,19 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 
 - To create a new policy for these settings, run:
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+   ```
 
   See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
     
 - To grant the new policy you created to all of the users in your organization, run:
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+   ```
 
   See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet.
     
@@ -111,18 +111,18 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 ### Prevent showing recent contacts
 
 - To create a new policy for these settings, run:
-  > 
-  > ```PowerShell
-  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  > ```
+   
+   ```powershell
+   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+   ```
 
-  See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
+  See more on the [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) cmdlet.
     
 - To grant the new policy you created to Amos Marble, run:
-  > 
-  > ```PowerShell
-  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  > ```
+   
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+   ```
 
   See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet.
     
