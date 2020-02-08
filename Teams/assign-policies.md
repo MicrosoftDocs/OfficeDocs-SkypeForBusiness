@@ -26,11 +26,19 @@ Organizations have different types of users with unique needs and custom policie
 
 To make it easier to manage policies in your organization, Teams offers several ways to assign policies to users. You can assign a policy directly to users, either individually or at scale through a batch assignment, or to a group that the user is a member of. You can also use policy packages to assign a preset collection of policies to users in your organization who have similar roles. The option that you choose depends on the number of policies that you're managing and the number of users that you're assigning to.
 
-If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. If the user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment priority](#group-assignment-priority) for the given policy type takes precedence. If a user isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type.
+This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
 
-This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what. 
+## Which policy takes precedence?
 
-## Overview
+A user has one effective policy for each policy type. It's possible or even likely that a user is directly assigned a policy and is also a member of one or more groups that's assigned a policy of the same type. Which policy takes precedence? 
+
+A user's effective policy is determined according to rules of precedence, as follows.  
+
+If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. If the user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment priority](#group-assignment-priority) for the given policy type takes precedence. If a user isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. To learn more, see [Precedence rules](#precedence-rules).
+
+The following diagrams show examples of how these rules are applies. The check mark in each diagram indicates the user's effective policy.
+
+## Ways to assign policies
 
 Here's an overview of the ways that you can assign policies to users and the recommended scenarios for each. Click the links to learn more.
 
@@ -88,7 +96,7 @@ To learn more, see [Managing policies via PowerShell](teams-powershell-overview.
 
 ## Assign a policy package
 
-A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. Some examples of policy packages are the Education_Teacher package and SmallMediumBusiness_BusinessVoice package.
+A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. Some examples of policy packages are the Education (Teacher) package and Healthcare (Clinical worker) package.
 
 When you assign a policy package to users, the policies in the package are created and you can then customize the settings of each policy in the package to meet users' needs.
 
@@ -183,7 +191,7 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft
 
 ## Assign a policy to a group
 
-Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to inheritance rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
+Group policy assignment lets you assign a policy to a group of users, such as a security group or organizational unit. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
 You use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address. The cmdlet returns an operation Id that you can use together with the ```Get-CsBatchPolicyAssignmentOperation``` cmdlet to check the status of the propagation of the policy to members of the group.
 
@@ -194,17 +202,17 @@ When you assign the policy, it's immediately assigned to the group. However, not
 
 ### What you need to know about group policy assignment
 
-Before you get started, it's important to understand group policy inheritance rules and group policy assignment priority.
+Before you get started, it's important to understand precedence rules and group policy assignment priority.
 
-#### Inheritance rules
+#### Precedence rules
 
-A user has one effective policy for each policy type. For a given policy type, a user's effective policy is determined according to the following:
+For a given policy type, a user's effective policy is determined according to the following:
 
 - A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user is directly assigned a policy of a given type, that user won't inherit a policy of the same type from a group. This also means that if a user has a policy of a given type that was directly assigned to them, you have to remove that policy from the user before they can inherit a policy of the same type from a group.
 - If a user doesn't have a policy directly assigned to them and is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest priority.
 - If a user isn't a member of any groups that are assigned a policy, the global (Org-wide default) policy for that policy type applies to the user.
 
-A user's effective policy is updated according to these inheritance rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
+A user's effective policy is updated according to these rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
 
 #### Group assignment priority
  
