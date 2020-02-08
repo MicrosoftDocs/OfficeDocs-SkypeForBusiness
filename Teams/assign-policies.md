@@ -30,13 +30,13 @@ This article describes the different ways that you can assign policies to users 
 
 ## Which policy takes precedence?
 
-A user has one effective policy for each policy type. It's possible or even likely that a user is directly assigned a policy and is also a member of one or more groups that's assigned a policy of the same type. Which policy takes precedence? 
+A user has one effective policy for each policy type. It's possible or even likely that a user is directly assigned a policy and is also a member of one or more groups that's assigned a policy of the same type. In these kinds of scenarios, which policy takes precedence?
 
 A user's effective policy is determined according to rules of precedence, as follows.  
 
 If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. If the user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment priority](#group-assignment-priority) for the given policy type takes precedence. If a user isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. To learn more, see [Precedence rules](#precedence-rules).
 
-The following diagrams show examples of how these rules are applied. The check mark in each diagram indicates the user's effective policy.
+The following diagrams show examples of how these rules are applied. The check mark in each diagram indicates a user's effective policy.
 
 ## Ways to assign policies
 
