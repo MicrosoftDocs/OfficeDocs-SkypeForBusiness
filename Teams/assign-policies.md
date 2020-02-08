@@ -36,7 +36,7 @@ A user's effective policy is determined according to rules of precedence, as fol
 
 If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. If the user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment priority](#group-assignment-priority) for the given policy type takes precedence. If a user isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. To learn more, see [Precedence rules](#precedence-rules).
 
-The following diagrams show examples of how these rules are applies. The check mark in each diagram indicates the user's effective policy.
+The following diagrams show examples of how these rules are applied. The check mark in each diagram indicates the user's effective policy.
 
 ## Ways to assign policies
 
