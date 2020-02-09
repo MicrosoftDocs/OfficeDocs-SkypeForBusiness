@@ -236,17 +236,17 @@ If an Agent fails to start, check for the following:
   
 - Is the agent registered in Statistics Manager?
     
-1. Make sure you followed the instructions for importing the topology. See [Import the topology](deploy.md#BKMK_ImportTopology).
-    
-2. If the Agent is on a server that is not listed in the topology (for example, the nodes in a SQL AlwaysOn cluster), you will need to add the Agent manually by following the instructions in [Import the topology](deploy.md#BKMK_ImportTopology).
+	1. Make sure you followed the instructions for importing the topology. See [Import the topology](deploy.md#BKMK_ImportTopology).
+		
+	2. If the Agent is on a server that is not listed in the topology (for example, the nodes in a SQL AlwaysOn cluster), you will need to add the Agent manually by following the instructions in [Import the topology](deploy.md#BKMK_ImportTopology).
     
 - Can the Agent contact the Listener?
     
-1. Make sure the Listener service is running. 
-    
-    If it is not running, make sure Redis is running, and then try to restart the Listener.
-    
-2. Make sure the port is open to the Listener service, and that the Agent computer can communicate with the port.
+	1. Make sure the Listener service is running. 
+		
+		If it is not running, make sure Redis is running, and then try to restart the Listener.
+		
+	2. Make sure the port is open to the Listener service, and that the Agent computer can communicate with the port.
     
 - To ensure that Statistics Manager is collecting data, you can check the CSV file as follows. 
     

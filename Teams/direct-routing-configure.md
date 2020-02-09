@@ -44,9 +44,9 @@ You can configure your Microsoft Phone System and enable users to use Direct Rou
 
 The following are the three high-level steps to let you connect, or pair, the SBC to the Direct Routing interface: 
 
-- Connect to **Skype for Business Online** admin center using PowerShell 
-- Pair the SBC 
-- Validate the pairing 
+1. Connect to **Skype for Business Online** admin center using PowerShell 
+2. Pair the SBC 
+3. Validate the pairing 
 
 ### Connect to Skype for Business Online by using PowerShell 
 
@@ -488,22 +488,22 @@ The PSTN Usage "Redmond 1" and "Redmond" are reused in this voice routing policy
 
 Take note of the order of PSTN Usages:
 
-a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
+	a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes.
 
-b. If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+	b. If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+	```PowerShell
+	New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+	```
 
-Which returns
+	Which returns:
 
-<pre>
-Identity		      : International 
-OnlinePstnUsages : {US and Canada, International}	 
-Description		 :  
-RouteType	 	      : BYOT
-</pre>
+	<pre>
+	Identity		      : International 
+	OnlinePstnUsages : {US and Canada, International}	 
+	Description		 :  
+	RouteType	 	      : BYOT
+	</pre>
 
 **Step 4**: Assign the voice routing policy to the user "John Woods" using the following command.
 
