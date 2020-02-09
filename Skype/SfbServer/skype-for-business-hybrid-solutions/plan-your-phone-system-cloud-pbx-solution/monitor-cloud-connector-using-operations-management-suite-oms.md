@@ -168,7 +168,7 @@ To create this alert pair:
 
     The reset query does exactly the opposite thing of the error query. For each computer, it will return one if the last event is the service start event; it will return nothing if the last event is the service stop event.
 
-  **Create an alert pair: " Too many concurrent calls in Mediation Servers" and "Concurrent calls fall back to normal load"**
+**Create an alert pair: " Too many concurrent calls in Mediation Servers" and "Concurrent calls fall back to normal load"**
 
 To create this alert:
 
@@ -188,7 +188,7 @@ To create this alert:
 
     The reset query does exactly the opposite thing of the error query. For each computer, the query will get the last counters for inbound call and outbound call and sum those two values. It will return one log if the sum value is less than 500; it will return nothing otherwise.
 
-  **Create an alert: "CPU usage \> 90 or RTCMEDIARELAY stopped in Servers" alert**
+**Create an alert: "CPU usage \> 90 or RTCMEDIARELAY stopped in Servers" alert**
 
 To create this alert, the query is:
 

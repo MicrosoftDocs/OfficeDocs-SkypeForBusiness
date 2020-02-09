@@ -496,7 +496,7 @@ Take note of the order of PSTN Usages:
 	New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 	```
 
-	Which returns:
+Which returns:
 
 	<pre>
 	Identity		      : International 
