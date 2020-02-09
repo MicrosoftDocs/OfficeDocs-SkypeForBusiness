@@ -199,16 +199,16 @@ To add the phone number and enable for voicemail:
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-For example, to add a phone number for user "Spencer Low," you would enter the following: 
+	For example, to add a phone number for user "Spencer Low," you would enter the following: 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+	```PowerShell
+	Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+	```
 
-The phone number used has to be configured as a full E.164 phone number with country code. 
+	The phone number used has to be configured as a full E.164 phone number with country code. 
 
-  > [!NOTE]
-  > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
+	  > [!NOTE]
+	  > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
 ### Configure Voice Routing 
 

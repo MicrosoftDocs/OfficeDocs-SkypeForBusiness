@@ -86,7 +86,7 @@ dir /oe
 
 Using our sample folder, the returned data will look like this, with the files sorted alphabetically by file extension:
 
-``` 
+```console
     Directory: C:\
 
 03/21/2013  03:39 PM    <DIR>          Deploy

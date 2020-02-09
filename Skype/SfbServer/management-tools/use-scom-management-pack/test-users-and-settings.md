@@ -273,19 +273,21 @@ If your watcher node computer is located outside your perimeter network, you wil
     
 2. In the console window, type the following command and then press ENTER. 
     
-```console
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+	```console
+	bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+	```
 
-You will see the following message displayed in the command window:
+	You will see the following message displayed in the command window:
+
+	```console
+	BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
-  
-Internet proxy settings for account NetworkService set to NO_PROXY. 
-  
-(connection = default)
-  
-This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.
+	Internet proxy settings for account NetworkService set to NO_PROXY. 
+	  
+	(connection = default)
+	```
+	  
+	This message indicates that you have disabled the Internet Explorer proxy settings for the Network Service account.
   
 ### Exchange Unified Messaging Synthetic Transaction
 

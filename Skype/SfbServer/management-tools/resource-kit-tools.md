@@ -261,10 +261,10 @@ The following file directories can be specified by the user as shown.
 
 - **Temporary file storage location** The temporary file location where intermediate files are stored while the report is being generated.
 
-![File directories in the Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+	![File directories in the Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-> [!NOTE]
-> Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
+	> [!NOTE]
+	> Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
 
 #### Step 3 - Collect the logs and start the report viewer
 
@@ -1533,8 +1533,8 @@ This tool allows the administrator to perform the following operations:
 
 4. Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
 
-> [!NOTE]
-> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet.
+	> [!NOTE]
+	> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet.
 
 The tool deletes meeting data only for meetings that are inactive. Active meetings (or meetings in sessions) cannot be deleted.
 

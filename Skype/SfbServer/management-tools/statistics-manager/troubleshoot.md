@@ -55,13 +55,13 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
     
     If the Agent cannot connect to the Listener computer, check the following:
     
-1. Ensure the Listener service is running on the Listener computer. If not, ensure Redis is running on that server and then restart the Listener service.
-    
-    Check the Statistics Manager event log on the Listener computer to ensure there are no issues with the Statistics Manager Listener service itself.
-    
-2. Use a connectivity tool such as telnet to verify connectivity from the Agent computer to the Listener on the correct port.
-    
-    If not, make sure the incoming firewall rule is enabled on the Listener computer for the network type that the Listener computer is connected to (private/public/domain). If the Listener computer is not joined to a domain, the network may be listed as public and in that case the firewall rules installed with Statistics Manager will not apply by default.
+		1. Ensure the Listener service is running on the Listener computer. If not, ensure Redis is running on that server and then restart the Listener service.
+			
+			Check the Statistics Manager event log on the Listener computer to ensure there are no issues with the Statistics Manager Listener service itself.
+			
+		2. Use a connectivity tool such as telnet to verify connectivity from the Agent computer to the Listener on the correct port.
+			
+			If not, make sure the incoming firewall rule is enabled on the Listener computer for the network type that the Listener computer is connected to (private/public/domain). If the Listener computer is not joined to a domain, the network may be listed as public and in that case the firewall rules installed with Statistics Manager will not apply by default.
     
 - **4000** — Failure to download Server Info from Listener (unknown reason)
     

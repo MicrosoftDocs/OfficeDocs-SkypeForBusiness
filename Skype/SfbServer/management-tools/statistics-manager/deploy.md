@@ -95,9 +95,9 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
     
      You can find the Certificate thumbprint by using Certificate Manager or by using the following PowerShell command:
     
-   ```PowerShell
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+	   ```PowerShell
+	   Get-ChildItem -path cert:\LocalMachine\My
+	   ```
 
    - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
     

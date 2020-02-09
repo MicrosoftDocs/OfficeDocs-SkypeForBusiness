@@ -50,7 +50,7 @@ OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |Th
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/A|N/A|True|
 ||||||
 
-<sup>1</sup>Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 As part of this effort, Microsoft recently updated the “Microsoft Teams admin center” (also known as Modern Portal) to reflect the new management model based on coexistence modes. In Modern Portal, configuring TeamsUpgradePolicy will now automatically also set TeamsInteropPolicy to consistent value, so TeamsInteropPolicy is no longer exposed in the user interface. However, admins using PowerShell must still set both TeamsUpgradePolicy and TeamsInteropPolicy together to ensure proper routing. After the transition to TeamsUpgradePolicy is complete, it will no longer be necessary to also set TeamsInteropPolicy.
 
@@ -86,6 +86,7 @@ It is recommended that you remove previously configured voice routing informatio
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
 
 ## Migrating from Office 365 Phone System with on-premises PSTN connectivity via Cloud Connector Edition 
@@ -104,7 +105,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 ```
 
 
-## RELATED LINKS
+## Related links
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 

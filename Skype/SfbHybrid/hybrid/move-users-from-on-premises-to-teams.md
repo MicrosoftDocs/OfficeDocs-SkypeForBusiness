@@ -69,11 +69,11 @@ To move a user to Teams Only mode using Move-CsUser:
 
 The following cmdlet sequence can be used to move a user to TeamsOnly, and assumes the Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
-    ```powershell
-    $cred=Get-Credential
-    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
-    ```
+  ```powershell
+  $cred=Get-Credential
+  $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+  ```
 
 ### Move to Teams using Skype for Business Server Control Panel
 
@@ -104,7 +104,9 @@ Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNoti
 
 Automatic download of Teams via the Skype for Business Win32 client is controlled via the on-premises TeamsUpgradeConfiguration cmdlet with the DownloadTeams parameter. You create this configuration on a global, site, and pool level. For example, the following command creates the configuration for the site Redmond1:
 
-`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
+```powershell
+New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
+```
 
 By default, the value of DownloadTeams is True; however, it is *only* honored if NotifySfbUser = True for a given user.
 
