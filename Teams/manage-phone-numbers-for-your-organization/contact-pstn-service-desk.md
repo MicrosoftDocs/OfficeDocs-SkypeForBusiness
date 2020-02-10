@@ -30,7 +30,7 @@ If you need help with acquiring/getting or transferring/porting telephone number
 
 Please include as many details as you can in your email request, such as:
   - Your Organization ID (Tenant ID) or active domains.
-  - What types of numbers you need help with (User/Subscriber, Service/Toll or Toll-Free)
+  - What types of numbers you need help with (User/Subscriber, Service/Toll, or Toll-Free).
   - How many numbers you require (if this is for number acquisition)
   - Authorizing person on the account and other important details based on your request.
 
