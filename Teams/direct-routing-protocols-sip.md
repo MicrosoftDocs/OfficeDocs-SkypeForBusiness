@@ -87,7 +87,7 @@ For all incoming calls, the Request-URI is used to match the phone number to a u
 
 Currently The phone number must contain a plus sign (+) as shown in the following example. 
 
-```
+```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
@@ -199,7 +199,7 @@ The SIP proxy selects the method based on the capabilities reported by the SBC. 
 
 The following is an example of an SBC sending the message that the Refer method is supported:
 
-```
+```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
@@ -207,7 +207,7 @@ If the SBC doesn’t indicate that Refer as a supported method, Direct Routing w
 
 Example of SBC indicating that Refer method is not supported:
 
-```
+```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 ```
 
@@ -287,7 +287,7 @@ If sending, the History-Info is enabled as follows:
 
 Following is the format of the History-info header sent by the SIP proxy:
 
-```
+```console
 <sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
 ```
 
@@ -296,7 +296,7 @@ If the call was redirected several times, information about every redirect is in
 
 Header Example:
 
-```
+```console
 History-info: 
 <sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
 <sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1

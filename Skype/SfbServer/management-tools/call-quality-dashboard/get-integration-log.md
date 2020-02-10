@@ -46,7 +46,7 @@ This operation is disabled by default for security reasons. When disabled, it re
   
  **Response Body** - Below is a sample structure of log entries.
   
-```
+```json
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]
