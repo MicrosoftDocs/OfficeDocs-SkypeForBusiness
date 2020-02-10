@@ -28,7 +28,7 @@ In an organization with a typical number of conferences per user, we recommend t
   
 The format of a conference ID is as follows: 
   
-```
+```console
   <housekeeping digit (1 digit)><conference directory (usually 1-2 digits> 
   <conference number (variable number of digits><check digit (1 digit)>
 ```
