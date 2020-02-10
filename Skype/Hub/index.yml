@@ -43,7 +43,7 @@ additionalContent:
         # Card
         - title: Microsoft Teams
           summary: Get the planning, how to, and practical guidance you need to successfully roll out Microsoft Teams.
-          url: /MicrosoftTeams/Microsoft-Teams
+          url: /MicrosoftTeams/
         # Card
         - title: Journey from Skype for Business to Microsoft Teams
           summary: Find guidance and tools to explore your optimal path to Teams.
