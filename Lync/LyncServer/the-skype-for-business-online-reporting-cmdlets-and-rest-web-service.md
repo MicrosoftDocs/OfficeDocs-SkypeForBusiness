@@ -62,7 +62,7 @@ Administrators with a development background can use the REST web service to obt
 
 [The Office 365 Reporting Web Service](http://msdn.microsoft.com/en-us/library/office/jj984325.aspx)  
 [Learning About the Office 365 Reporting Web Service](http://msdn.microsoft.com/en-us/library/office/jj984321.aspx)  
-[The Exchange Online Reporting Cmdlets](http://technet.microsoft.com/en-us/library/jj200780\(v=exchg.150\).aspx)  
+[The Exchange Online Reporting Cmdlets](http://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
 [Using Excel to Retrieve Office 365 Reporting Data](http://msdn.microsoft.com/en-us/library/dn781442.aspx)  
   
 

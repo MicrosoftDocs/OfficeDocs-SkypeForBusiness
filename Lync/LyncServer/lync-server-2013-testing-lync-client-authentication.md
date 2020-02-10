@@ -74,7 +74,7 @@ The Test-CsClientAuth cmdlet is run by using the account of any user who is enab
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsClientAuth](http://technet.microsoft.com/en-us/library/gg398712\(v=ocs.14\).aspx) cmdlet.
+For more information, see the Help documentation for the [Test-CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) cmdlet.
 
 </div>
 
