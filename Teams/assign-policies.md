@@ -20,7 +20,7 @@ f1keywords:
 
 # Assign policies to your users in Microsoft Teams
 
-As an admin, you use policies to control the Microsoft Teams features that are available to users in your organization. For example, you can set app policies to control what apps are available to Teams users, meeting policies to define the meeting experience, and messaging policies to control what chat and channel features are available to users.
+As an admin, you use policies to control the Microsoft Teams features that are available to users in your organization. For example, you can set messaging policies to control what chat and channel features are available to users, meeting policies to define the meeting experience, and calling policies to control which calling and call forwarding features are available to users.
 
 Organizations have different types of users with unique needs and custom policies that you create and assign let you tailor policy settings to different sets of users based on those needs.
 
