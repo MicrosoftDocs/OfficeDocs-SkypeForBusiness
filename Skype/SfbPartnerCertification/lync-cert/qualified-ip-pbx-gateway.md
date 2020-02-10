@@ -98,7 +98,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="4">
-				<p>Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=41153">Integrating Lync 2013 and ISR 3845 Configuration Guide v1.0</a></p>
+				<p>Documentation: <a href="https://www.microsoft.com/download/details.aspx?id=41153">Integrating Lync 2013 and ISR 3845 Configuration Guide v1.0</a></p>
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Disable REFER and RTCP support on both Lync Mediation Server and Cisco GW.</li>

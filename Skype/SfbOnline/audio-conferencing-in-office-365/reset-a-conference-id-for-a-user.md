@@ -61,7 +61,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
   - [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/download/details.aspx?id=54079)
     
 ## Want to know how to manage with Windows PowerShell?
 

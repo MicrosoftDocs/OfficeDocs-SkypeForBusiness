@@ -36,7 +36,7 @@ In addition to integrating with Microsoft Outlook 2013, Microsoft Lync Server 20
 
 HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\MSExchange OWA\\InstantMessaging\\ImplementationDLLPath
 
-The ImplementationDLLPath should point to the folder location for the file Microsoft.Rtc.Internal.Ucweb.dll. If it does not, or if the registry value does not exist, then you should download and install the UCMA Runtime setup program from the Microsoft Download Center at <http://www.microsoft.com/en-us/download/details.aspx?id=34992>. Information on how to install the UCMA Runtime can be found on that same web page.
+The ImplementationDLLPath should point to the folder location for the file Microsoft.Rtc.Internal.Ucweb.dll. If it does not, or if the registry value does not exist, then you should download and install the UCMA Runtime setup program from the Microsoft Download Center at <http://www.microsoft.com/download/details.aspx?id=34992>. Information on how to install the UCMA Runtime can be found on that same web page.
 
 **Backward Compatibility**
 

@@ -2007,23 +2007,23 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=23650</p></td>
+<td><p>http://www.microsoft.com/download/details.aspx?id=23650</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Powershell version 3.0</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=34595</p></td>
+<td><p>http://www.microsoft.com/download/details.aspx?id=34595</p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++ 2010 Redistributable</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=5555</p></td>
+<td><p>http://www.microsoft.com/download/details.aspx?id=5555</p></td>
 </tr>
 <tr class="odd">
 <td><p>Internet Information Server Updates</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=34869</p></td>
+<td><p>http://www.microsoft.com/download/details.aspx?id=34869</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Identity Foundation</p></td>
-<td><p>http://www.microsoft.com/en-us/download/details.aspx?id=17331</p></td>
+<td><p>http://www.microsoft.com/download/details.aspx?id=17331</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013 Setup.exe</p></td>

@@ -47,7 +47,7 @@ Skype for Business 2015 is a full-featured client for Skype for Business Server 
 
 ### Skype for Business on Mac
 
-The [Skype for Business on Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) client is available for download. See [Skype for Business on Mac client requirements](mac-requirements.md) to review prerequisites.
+The [Skype for Business on Mac](https://www.microsoft.com/download/details.aspx?id=54108) client is available for download. See [Skype for Business on Mac client requirements](mac-requirements.md) to review prerequisites.
 
 ### Skype for Business for mobile devices
 
@@ -119,13 +119,13 @@ Click-to-run is a Microsoft streaming and virtualization technology that you can
 
 - Customizable via XML Editor for the installation of independent programs
 
-You may want to use the [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117) for this type of installer.
+You may want to use the [Office Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117) for this type of installer.
 
 Both the basic and full client versions (with choice of 32- and 64-bit versions) are available using a click-to-run installer, your users can download at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3).
 
 ### MSI
 
-MSI is a more traditional installation method, used on the Skype for Business 2015 and 2016 clients. It allows you to manually install updates and patches, use volume licensing and activation, and is customizable via the [Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030). You can distribute clients by applying Group Policies, by using Microsoft Endpoint Configuration Manager, or using a third party tool.
+MSI is a more traditional installation method, used on the Skype for Business 2015 and 2016 clients. It allows you to manually install updates and patches, use volume licensing and activation, and is customizable via the [Office Customization Tool](https://www.microsoft.com/download/details.aspx?id=49030). You can distribute clients by applying Group Policies, by using Microsoft Endpoint Configuration Manager, or using a third party tool.
 
 
 

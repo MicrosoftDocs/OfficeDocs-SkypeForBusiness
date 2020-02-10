@@ -491,14 +491,14 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
     - **Note:** Prior to installing components, some files will need to be updated for support of TLS 1.2.
 4. Replace MSI/EXE Packages: 
     - Replace the existing MSI and EXE packages in the /Setup/amd64/ folder of the installation media on the local machine.
-    - SQL 2014 SP2 Express: https://www.microsoft.com/en-us/download/details.aspx?id=53167 
+    - SQL 2014 SP2 Express: https://www.microsoft.com/download/details.aspx?id=53167 
         - Rename to SQLEXPR_x64 on the local machine, and replace the existing file in the Setup/amd64/ folder of the installation media.
-    - SQL Native Client: https://www.microsoft.com/en-us/download/details.aspx?id=50402 
+    - SQL Native Client: https://www.microsoft.com/download/details.aspx?id=50402 
         - **Note:** Rename this if necessary to sqlncli.msi, and then replace the existing file that exists in the Setup/amd64/ folder of the installation media.
-    - SQL Management Objects: https://www.microsoft.com/en-us/download/details.aspx?id=53164 
+    - SQL Management Objects: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Note:** The Feature pack will have a lot of items that can be downloaded. Select to download SharedManagementObjects.msi only.
         - **Note:** Replace the existing file that exists in the Setup/amd64/ folder of the installation media.
-    - SQL CLR Types: https://www.microsoft.com/en-us/download/details.aspx?id=53164 
+    - SQL CLR Types: https://www.microsoft.com/download/details.aspx?id=53164 
         - **Note:** The Feature pack will have a lot of items that can be downloaded. Select to download CQLSysClrTypes.msi only
         - **Note**: Replace the existing file that exists in the Setup/amd64/ folder of the installation media.
 5. Install Core Components: 
