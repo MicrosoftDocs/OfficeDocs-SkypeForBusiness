@@ -25,7 +25,7 @@ additionalContent:
       items:
         # Card
         - title: Welcome to Teams
-          summary: Get and overview of Teams and find the technical guidance you need as a Teams admin or IT Pro.
+          summary: Get an overview of Teams and find the technical guidance you need as a Teams admin or IT Pro.
           url: /MicrosoftTeams/teams-overview
         # Card
         - title: Upgrade from Skype for Business to Teams
