@@ -80,15 +80,15 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
 
 To do this, run:
   
-> 
->   ```PowerShell
->   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
->   ```
-> 
-> 
->   ```PowerShell
->   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
->   ```
+ 
+```powershell
+New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
+```
+
+
+```powershell
+Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
+```
 
 ## Want to know more about Windows PowerShell?
 

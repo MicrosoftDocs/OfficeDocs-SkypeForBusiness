@@ -32,7 +32,7 @@ The following checklists walk you through the steps for implementing Audio Confe
 
 *  [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [Configure networking](onboarding-checklist-configure-networking.md)
+*  [Prepare your network](prepare-network.md)
 
 *  [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

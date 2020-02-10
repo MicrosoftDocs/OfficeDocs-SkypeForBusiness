@@ -31,7 +31,7 @@ Send a welcome email to users with the names and descriptions of the teams you c
 
 For example, for the "Get to know Teams" team, you might want to start your email like this:
 
-   ```
+   ```console
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
 
    We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilities of Teams. 
