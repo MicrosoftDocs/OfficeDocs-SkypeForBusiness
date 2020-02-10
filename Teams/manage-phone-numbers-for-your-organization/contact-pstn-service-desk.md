@@ -41,7 +41,7 @@ Once you have all the info, send us your request to one the following email addr
     
 - **Number Acquisition**
     - Acquiring new telephone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
-    - Acquiring new telephone numbers for the **Rest of the World** , [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)
+    - Acquiring new telephone numbers for the **Rest of the World** , [please send us an email at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).
 
 ## Related topics
 
