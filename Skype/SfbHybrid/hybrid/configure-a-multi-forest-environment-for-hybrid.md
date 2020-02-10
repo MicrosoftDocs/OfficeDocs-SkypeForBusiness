@@ -135,6 +135,6 @@ Follow the best practices for configuring Skype for Business hybrid. For more in
   
 ## Configure hybrid connectivity for Exchange Server
 
-If necessary, follow the best practices for configuring Exchange hybrid. For more information, see [Exchange Server Hybrid Deployments](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
+If necessary, follow the best practices for configuring Exchange hybrid. For more information, see [Exchange Server Hybrid Deployments](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
 

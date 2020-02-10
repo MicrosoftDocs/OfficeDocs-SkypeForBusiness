@@ -26,7 +26,7 @@ description: "Learn about the planning considerations for Phone System in Office
 
 Learn about the planning considerations for Phone System in Office 365 (Cloud PBX) with on-premises PSTN connectivity.
 
-This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Phone System in Office 365 with on-premises PSTN connectivity enables you to leverage Phone System (Cloud PBX) capabilities for your users. This can help with the following scenarios:
 
