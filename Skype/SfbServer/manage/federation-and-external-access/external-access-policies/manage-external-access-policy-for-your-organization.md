@@ -11,6 +11,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: "After deploying one or more Edge Servers, you must enable the types of external access that will be supported for your organization."
 ---

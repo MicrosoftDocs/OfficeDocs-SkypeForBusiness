@@ -8,6 +8,8 @@ ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -27,7 +29,7 @@ If you're new to PowerShell and need help getting started, see [Overview of Azur
 
 ## Sample script
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script creates a messaging policy in Teams and assigns it to users.
@@ -44,6 +46,6 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
     Grant-CsTeamsMessagingPolicy -PolicyName "<<PolicyName for a policy created with Chat Off>>" -Identity $userId
 
  }
-````
+```
 
 

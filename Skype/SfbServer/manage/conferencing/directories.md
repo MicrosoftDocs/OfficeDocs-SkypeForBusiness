@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: "Summary: Learn how to create conference directories in Skype for Business Server."
@@ -26,7 +28,7 @@ In an organization with a typical number of conferences per user, we recommend t
   
 The format of a conference ID is as follows: 
   
-```
+```console
   <housekeeping digit (1 digit)><conference directory (usually 1-2 digits> 
   <conference number (variable number of digits><check digit (1 digit)>
 ```

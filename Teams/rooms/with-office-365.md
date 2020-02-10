@@ -7,6 +7,8 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -29,7 +31,7 @@ To enable Skype for Business, you must have the following:
 
 - Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Office 365 plan. The plan needs to allow dial-in conferencing capabilities.
 
-- If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan.
+- If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.
 
 - Your tenant users must have Exchange mailboxes.
 

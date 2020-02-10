@@ -10,6 +10,8 @@ audience: admin
 description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization 
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB

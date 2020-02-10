@@ -13,6 +13,8 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: 
   - Licensing

@@ -9,6 +9,8 @@ ms.date: 2/11/2019
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
 description: "Summary: Explore these links to learn how to implement Skype for Business Server 2019."

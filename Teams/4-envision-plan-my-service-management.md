@@ -10,6 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Deliver and maintain a high-quality deployment by planning for operational roles and assigning a quality champion.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-voice
@@ -45,7 +47,7 @@ Microsoft’s responsibility, whereas the customer is accountable to its users t
 manage the various aspects of Teams, the network, and endpoints they provide.
 For a complete discussion of the customer responsibility for Teams service
 management and how it relates to the key components that underpin the quality of
-the user experience, see [Plan for service management and quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+the user experience, see [Plan for service management and quality](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 ![Diagram of the three components of quality](media/plan-my-service-management-image1.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
 
