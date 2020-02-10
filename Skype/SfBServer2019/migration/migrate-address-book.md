@@ -46,13 +46,13 @@ If you set the value for **UseNormalizationRules** to False so that users can us
 
     Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
 
-   ```
+   ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
     The following string would not cause the normalization rule to fail:
 
-   ```
+   ```console
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 

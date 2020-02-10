@@ -383,7 +383,7 @@
     },
     {
       "source_path": "Teams/prepare-teams.md", 
-      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/prepare-network", 
       "redirect_document_id": true 
     },
     {
@@ -1462,11 +1462,6 @@
       "redirect_document_id": true 
     },
     {      
-      "source_path": "Skype/SfbOnline/optimizing-your-network/proxy-servers-for-skype-for-business-online.md", 
-      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/proxy-servers-for-skype-for-business-online", 
-      "redirect_document_id": true
-    },
-    {
       "source_path": "Teams/turn-off-chat-in-teams.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-overview", 
       "redirect_document_id": true
@@ -1745,7 +1740,37 @@
         "source_path": "Teams/upgrade-pro.md", 
         "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-start-here", 
         "redirect_document_id": false
-     },      {
+        },
+    {
+          "source_path": "environment-readiness.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "upgrade-plan-for-quality.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "envision-planning-for-service-management-and-quality-complete-guide.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "media-quality-and-network-connectivity-performance.md", 
+          "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "onboarding-checklist-configure-networking.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },
+    {
+          "source_path": "upgrade-prepare-environment-prepare-network.md", 
+          "redirect_url": "https://docs.microsoft.com/microsoftteams/prepare-network", 
+          "redirect_document_id": false
+        },    {
         "source_path": "Teams/add-bots.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots",
         "redirect_document_id": false
