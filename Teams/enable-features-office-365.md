@@ -58,6 +58,10 @@ In **Teams settings**, you can set up features for teams including notifications
 
 Here you can control whether suggested feeds appear in users' activity feed in Teams. To learn more about the activity feed, see [Explore the Activity feed in Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
+#### Tagging
+
+Tags let users communicate with a subset of people on a team. Tags can be added to one or more team members. After a tag is added, it can be used in @mentions by anyone on the team in a channel post to communicate with only those people who are assigned that tag. Use these settings to control who can add tags and how tags are used across your organization. To learn more, see [Manage tags in Teams](manage-tags.md).
+
 #### Email integration
 
 Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**.
