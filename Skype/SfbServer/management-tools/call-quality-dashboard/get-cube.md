@@ -47,7 +47,7 @@ Get Cube operation returns the list of available dimensions and measurements.
 > [!NOTE]
 > This sample is only showing first two elements of each groups of Cube elements. 
   
-```
+```json
 {
 "Kpis": [{
 "FriendlyName": "Poor Trend Month",
