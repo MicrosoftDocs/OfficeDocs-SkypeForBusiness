@@ -37,7 +37,7 @@ In your email request, please include as many details as you can such as:
 Once you have all the info, send us your request to one the following email addresses where your request falls into:
 - **Number Porting**
     - Porting telephone numbers **inside the U.S. or Canada**, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com)
-    - Porting telephone numbers **outside the U.S. or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
+    - Porting telephone numbers **outside the United States or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).
     
 - **Number Acquisition**
     - Acquiring new telephone numbers for any of the following countries: **Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com)
