@@ -34,7 +34,7 @@ In your email request, please include as many details as you can such as:
   - How many numbers you require (if this is for number acquisition)
   - Authorizing person on the account and other important details based on your request
 
-Once you have all the info, send us your request to one the following email addresses where your request falls into:
+Once you have all the information, send us your request to one the following email addresses that is applicable to your request:
 - **Number Porting**
     - Porting telephone numbers **inside the United States or Canada**, [please send us an email at ptn@microsoft.com](mailto:ptn@microsoft.com).
     - Porting telephone numbers **outside the United States or Canada**, [please send us an email at ptneu@microsoft.com](mailto:ptneu@microsoft.com).
