@@ -50,31 +50,31 @@ To make this work, the user must be using a supported version of a 2016 Click-to
 
 - **Check that you are running Windows PowerShell version 3.0 or higher**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Check the version by typing _Get-Host_ in the **Windows PowerShell** window.
-    
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
-    
-4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
+	1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+		
+	2. Check the version by typing _Get-Host_ in the **Windows PowerShell** window.
+		
+	3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
+		
+	4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
     
     If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Start a Windows PowerShell session**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+	1. From the **Start Menu** > **Windows PowerShell**.
+		
+	2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
     
-2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
-    
-    > [!NOTE]
-    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
+		> [!NOTE]
+		> You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+	   ```PowerShell      
+		Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+		$credential = Get-Credential
+		$session = New-CsOnlineSession -Credential $credential
+		Import-PSSession $session
+	   ```
 
    If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
@@ -91,14 +91,14 @@ To allow P2P transfers for inside your organization but block external file tran
 ## Disable P2P file transfers for a user
 
 You can apply this to a user by creating a new policy and granting it to that user. To do that, run: 
-> 
->   ```PowerShell
->   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
->   ```
-> 
->   ```PowerShell
->   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
->   ```
+
+```powershell
+New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+```
+
+```powershell
+Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+```
 
 ## Want to know more about Windows PowerShell?
 

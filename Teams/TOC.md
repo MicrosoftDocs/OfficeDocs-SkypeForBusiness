@@ -480,7 +480,6 @@
 ### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
 ### [Prerequisites](upgrade-plan-journey-prerequisites.md)
 ### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
-### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
 ### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
 
 ## Prepare your organization for Teams
@@ -673,7 +672,6 @@
 # Reference
 
 ## Get ready to roll out Teams
-### [Check your environment’s readiness for Teams](environment-readiness.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Use Advisor for Teams to roll out Teams](use-advisor-teams-roll-out.md)
 ### [Use Network Planner for Teams](network-planner.md)
