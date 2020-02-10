@@ -46,7 +46,7 @@ Use the steps in this article when:
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
 
 ![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Teams admin center**
   

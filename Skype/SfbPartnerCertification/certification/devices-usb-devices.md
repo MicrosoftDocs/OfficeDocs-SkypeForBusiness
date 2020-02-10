@@ -27,7 +27,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 [Explore devices tested and certified for Microsoft Teams and Skype for Business.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
 
-* For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/en-us/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
+* For more details on call control support with Teams, please read [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 ## Device qualifications
 ##### *Updated Jan 15, 2019*

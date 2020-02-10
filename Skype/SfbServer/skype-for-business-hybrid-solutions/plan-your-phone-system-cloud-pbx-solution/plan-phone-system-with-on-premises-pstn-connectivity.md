@@ -48,7 +48,7 @@ Cloud PBX with on-premises PSTN Connectivity does not offer the same feature set
 > [!CAUTION]
 > Lync Phone Edition devices MUST be updated to minimum required firmware in your on premises environment PRIOR to moving to Skype for Business Online.
 If you move your users from on-premises to online prior to updating the firmware, users will be unable to connect using their phones. To correct this problem, users must be moved back to the on premises environment to have their phones updated to the minimum firmware. DO NOT ATTEMPT TO UPDATE TO MINIMUM FIRMWARE OR HARD RESET THE PHONE PRIOR TO MOVING THE USER BACK TO YOUR ON PREMISES ENVIRONMENT.
- If a hard reset is performed while the device is not at minimum firmware it will default to using PIN Authentication, which is not supported in Skype for Business Online. For more information, please refer to [Getting phones for Skype for Business Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
+ If a hard reset is performed while the device is not at minimum firmware it will default to using PIN Authentication, which is not supported in Skype for Business Online. For more information, please refer to [Getting phones for Skype for Business Online](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
 By deploying Phone System in Office 365 with on-premises PSTN connectivity, you can move your users to the cloud via Skype for Business Online at your own pace, while retaining their on-premises PSTN connectivity. If you have a PBX, you continue to use it to provide PSTN connectivity for the users you move to the cloud. Once a user is moved to Skype for Business Online and Phone System in Office 365, their legacy PBX phone will no longer work, but their phone number will route to any of the Skype for Business clients for PCs or Smart phones as well as Skype for Business-compliant desk phones. Once ported, Phone System in Office 365 users and legacy PBX users can call each other normally as well as make/receive PSTN calls using their normal phone number.
 
@@ -67,7 +67,7 @@ When deploying a cloud-hosted service like Phone System in Office 365 with on-pr
 - **Your enterprise's own network** The quality of the real-time media is heavily dependent on your own network: especially the WiFi network and the quality of the interconnect used to reach the Office 365 cloud.
 
 > [!NOTE]
-> For more information on tuning performance in Skype for Business Online, see [Tune Skype for Business Online performance](https://support.office.com/en-us/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
+> For more information on tuning performance in Skype for Business Online, see [Tune Skype for Business Online performance](https://support.office.com/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
 
 ## Prerequisites for using Phone System in Office 365 with on-premises PSTN connectivity
 

@@ -85,7 +85,7 @@ Computer hardware requirements are determined by the operating system and browse
 ## Network requirements
 <a name="Network"> </a>
 
-If a user of Skype for Business Web App or Skype Meetings App experiences meeting connection issues, chances are their organization's network infrastructure is not configured to support Office 365 as described in [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). This is the case whether the meeting was created by a user of Skype for Business Online or Skype for Business Server. 
+If a user of Skype for Business Web App or Skype Meetings App experiences meeting connection issues, chances are their organization's network infrastructure is not configured to support Office 365 as described in [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). This is the case whether the meeting was created by a user of Skype for Business Online or Skype for Business Server. 
   
 If the user is on a network not configured as described, many app features may or may not work and they may not be able to connect to the meeting at all.
   
@@ -147,15 +147,15 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
     
 - Some users may have corporate-administered computers with disabled permission to install apps. for those users, neither app is an option, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
     
-    Other installation issues are also covered in the [help topics](https://support.office.com/en-us/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
+    Other installation issues are also covered in the [help topics](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
     
 - Users may see a firewall warning the first time they run the meetings app. They may be prompted to open ports to optimize the experience, and this may require Admin privileges on the machine they may not have. The app should still function and the user can safely decline to open the requested ports. 
     
-- You must have [ActiveX enabled without filtering](https://support.office.com/en-us/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) in Internet Explorer, even if IE is not your default browser. In Skype for Business Web App, an ActiveX control—a small module that adds additional features to a web app or other program—is required for audio, video, and screen sharing.
+- You must have [ActiveX enabled without filtering](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) in Internet Explorer, even if IE is not your default browser. In Skype for Business Web App, an ActiveX control—a small module that adds additional features to a web app or other program—is required for audio, video, and screen sharing.
     
-- For some features of Skype for Business Web App to work correctly, you must allow your browser to [save cookies](https://support.office.com/en-us/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) on your computer or device.
+- For some features of Skype for Business Web App to work correctly, you must allow your browser to [save cookies](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) on your computer or device.
     
-- You may need to [turn on JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) support in your browser for some Skype for Business Web App features to work as expected.
+- You may need to [turn on JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) support in your browser for some Skype for Business Web App features to work as expected.
     
 ### AES Support 
 
