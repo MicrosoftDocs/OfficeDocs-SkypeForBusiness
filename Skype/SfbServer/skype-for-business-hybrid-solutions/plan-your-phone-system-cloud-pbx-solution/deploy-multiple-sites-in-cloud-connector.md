@@ -30,7 +30,7 @@ The following shows an example configuration to deploy Skype for Business Cloud 
   
 PSTN Site 1
   
-```
+```console
 [Common]
 SiteName=Site1
 [EdgeServer]
@@ -48,7 +48,7 @@ ExternalMRPublicIPs=23.99.115.35
 
 PSTN Site 2
   
-```
+```console
 [Common]
 SiteName=Site2
 [EdgeServer]

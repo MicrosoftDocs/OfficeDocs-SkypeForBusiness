@@ -37,7 +37,7 @@ Since Teams desktop executable files are digitally signed, the publisher conditi
 
 For the Teams client app (all files, all versions) add the following to the Executable Rules & DLL Rules:
 
-```
+```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE
